@@ -1,0 +1,73 @@
+INFORMATION SYSTEMS FOR 
+SUPPLY CHAIN MANAGEMENT
+The case for connecting separate and interoperable
+technology applications for LMIS and HMIS data.
+Chris Wright, JSI  |  Erin Larsen-Cooper, VillageReach |  Gaurav Bhattacharya, CHAI
+PRESENTED BY SSANYU NYINONDI, JSI
+UNIQUE CHARACTERISTICS OF LMIS AND HMIS
+• Health management information systems 
+(HMIS) collect, aggregate and use service
+data from health facilities
+• Logistics management information systems 
+(LMIS) collect and use medicines supply
+data from health and storage facilities
+DEFINING HMIS  
+• A health management information system (HMIS) collects 
+and reports program information, such as incidence of disease, 
+client/patient information, and health services rendered. HMIS 
+data can be used to determine disease patterns or to track 
+health services use, as well as to monitor and evaluate health 
+service delivery. 
+• DHIS2 is the most widely used application 
+in LMICs, an is optimized for data reporting.
+47 DHIS2 DEPLOYMENTS
+National Rollout
+Programs/Partial
+Pilot/Early Phase
+https://www.dhis2.org/inaction
+DEFINING LMIS
+• A logistics management information system (LMIS) is an 
+information system that is used to collect, organize, and present 
+logistics data gathered from all levels of the health system. An 
+LMIS enables logisticians to collect the data needed to make 
+informed decisions that will ultimately improve product 
+availability and customer service. One immediate decision that 
+is made based on logistics data is the quantities of products that 
+should be resupplied to health facilities.
+• OpenLMIS, Logistimo, and Real Time Value NetworkTM
+are examples of LMIS applications in use in Africa and Asia; 
+they are optimized for supply chain management
+15 KNOWN ELMIS DEPLOYMENTS
+Open LMIS
+Logistimo
+Other
+Does not include DHIS2 as a data collection tool
+CAN DHIS2 BE AN ELMIS?
+EXCHANGING DATA BETWEEN LMIS & HMIS
+UN Commission on Lifesaving Commodities Enabling. 2016. Technology, People & Processes: Enabling Successful HMIS/LMIS Integrations.
+SYSTEM INTEROPERABILITY IN ERITREA
+Linking LMIS and HMIS Data for Improved Use of Information
+• Intervention: General restructuring of the facility-based
+Routine Health Information Systems
+• Before the improved RHIS, vaccine stockouts went unreported
+• After linking LMIS and HMIS, vaccine stockouts could be monitored
+monthly, and the relationship between stockouts and children
+vaccinated could be tracked
+• Evidence of an elevated stockout percentage alerted MOH
+to request additional vaccines from donors
+THE VISION OF DATA EXCHANGE IN AN HIS
+TANZANIA’S HIE, PHASE 1
+Org. may post FR 
+updates via HIM/IL.
+Care and 
+Treatment 
+Center INTEROPERABILITY LAYER (IL)
+CTC2 (HIV) DHIS2/eLMIS FR 
+(multiple instances) updates from HIM.
+FR updates to/
+from HIM/IL.
+Facility 
+Registry eLMIS DHIS2
+SUPPORTED SYSTEMS
+
+THANK YOU

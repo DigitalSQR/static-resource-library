@@ -1,0 +1,105 @@
+TCO Worksheet
+Budgeting category	Year 0	Year 1	Year 2	Year 3		
+click here for category definitions	(initial launch)					
+Governance						
+Meetings and administrative support						
+Management 						
+Overall project management						
+Research, monitoring, and evaluation						
+Design/ Development						
+Defining program and solution requirements						
+Vendor evaluation and selection						
+Platform deployment and customizations						
+Content development, scheduling and localization						
+Deployment						
+Training 						
+Enrollment of subscribers						
+Marketing and outreach						
+Operations						
+Messaging costs						
+Staffing						
+Solution/ platform management and hosting						
+Administration and call center support						
+Overhead 						
+Total	0	0	0	0		
+
+Messaging Cost Tool
+Messaging Cost Tool
+Pilot	 @ Scale
+A	Transmission costs/year	$   -	$   -	Legend			
+B	Total Messaging costs/ year	$   -	$   -	Green	Input Required		
+C	Cost per subscriber	#DIV/0!	#DIV/0!	Blue	Select from list						
+		Yellow	Output - do not edit						
+Pilot	 @ Scale	Grey	Final output - do not edit							Yes
+D	Targeted # of subscribers								No
+E	% literate in target area	0%	0%					
+F	SMS subscribers		0	0							
+G	Is this enough subscribers?		No	Yes								
+H	if no, % of subscribers reached via IVR	0%	0%							
+I	IVR subscribers	0	0					
+				
+J	Messages per week SMS		0	0					
+K	Messages per week IVR		0	0					
+If transmitting across multiple MNOs with different rates, create a separate worksheet for each MNO with proper coverage estimates and rates including volume discounts if applicable										
+L	Cost per SMS	$   - 0	$   - 0						
+M	Cost per IVR	$   - 0	$   - 0					
+Assumption is that each IVR messages is 1 minute or less, use airtime rates provided by MNO, Vendor or Aggregator										
+	
+Additional Costs:
+Using a Short Code?	No
+N	Annual cost	$   5,000
+Vendors estimate ~$5000 USD for a dedicated short code
+Cost Tool Instructions
+Messaging Cost Calculator instructions											
+To begin, complete the Green shaded boxes with the appropriate data for your project.  											
+There are two columns one for a Pilot and another for running the project @ Scale (regional or national level) calculations can be done in parallel for each column if desired.											
+After you have filled in the green boxes, perform the following calculations											
+Line F:	Multiply D x E										
+This will provide the number of subscribers in the targeted population that SMS is appropriate.  If this number is sufficient, enter a Yes in the blue box.  If more subscribers are needed for the study, enter No											
+Line I:	If “No” was entered in Line G, multiply H x D to calculate the number of IVR subscribers										
+Line F + I will be your total # of subscribers											
+Line J:	SMS Messages per week.  Multiply the value in the green box by F to get the number of SMS messages to be sent per week										
+Line K: IVR Messages per week.  Multiply the value in the green box by I to get the number of IVR messages to be sent per week											
+Line L & M are the per message rate provided by the vendor, aggregator or MNO.  For the model we assume the IVR rate is the charge for a one minute message, adjust according to the projects average voice message length.											
+											
+Now we are ready to calculate the costs/ year.   For Pilot study years, use the values in the Pilot column.  To calculate costs at scale, use the values in the @ Scale column.  If the project is projecting growth year over year, adjust the variables in the green boxes to calculate each year as appropriate.											
+Line A:	Transmission costs (the cost to send messages to subscribers):										
+	Multiply J x L for the SMS weekly cost, then multiply by 52 for the # of weeks in the year										
+	Multiply K x M for the IVR weekly cost, then multiply by 52 for the # of weeks in the year										
+Add the SMS and IVR costs together for the annual transmission costs											
+Line B: If a Short Code is being used for the program, add N + A for the total messaging costs											
+Line C:	Cost per subscriber divide B by the sum of F + I for the total cost per subscriber										
+											
+Finally, Input the calculated values from Line B for each year in the TCO Worksheet.											
+										
+Other category descriptions for the TCO worksheet can be found in the "Budget Categories" tab											
+											
+											
+											
+									
+									
+									
+									
+									
+									
+Budget Categories
+Governance	
+Meetings and administrative support	Budget for meetings and administrative support of the project
+Management 	
+Overall project management	Project Manager, Staff and Stakeholders involved in day to day operations (# of resources x rates and travel)
+Research, monitoring, and evaluation	Hours (and associated rates) for M&E activities around the project.  Collating data from health centers and messaging platform, surveys, etc.
+Design/ Development	
+Defining program and solution requirements	Days budgeted for X number of staff to define requirements for the program design and platform needs
+Vendor evaluation and selection	Days budgeted and trips for evaluating and observing messaging platforms from "short list" of vendors, meetings to define project
+Platform deployment and customizations	Costs for the development of the messaging platform, customization needs, connecting with telcos
+Content development, scheduling and localization	Customization of messages - localizing content for SMS, professional voice recordings for IVR, making sure context is appropriate for culture and language
+Deployment	
+Training 	Days training X number of staff on the messaging platform and program itself, outreach training to Health Centers or CHWs to register subscribers.   This should be budgeted annually to account for attrition and program growth
+Enrollment of subscribers	Registration - use of CHWs or "on the ground' staff to help register subscribers.  # of staff, salary, incentives
+Marketing and outreach	Budget for how to create awareness and register mothers, posters, radio, partnerships with MoH, etc.  This should be an annual line item to grow the program and raise awareness
+Operations	
+Messaging costs	Messaging costs - see Messaging Cost Tool
+Staffing	Day to day operations - manage subscribers, schedule messages,  ensuring messages are being sent, enrollments are successful, etc.   
+Solution/ platform management and hosting	Technical staff to ensure system availability, troubleshoot technical issues
+Administration and call center support	Customer support, ability to respond to inbound messages, flashes, requests for information or assistance
+Overhead 	General fixed expenses associated with the project - power, internet connectivity, hardware, etc.

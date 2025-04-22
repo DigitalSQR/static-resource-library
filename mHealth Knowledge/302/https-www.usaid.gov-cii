@@ -1,0 +1,800 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<!--[if IEMobile 7]><html class="iem7" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"><![endif]-->
+<!--[if lte IE 6]><html class="lt-ie9 lt-ie8 lt-ie7" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]><html class="lt-ie9 lt-ie8" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><!--><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"><!--<![endif]-->
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://www.usaid.gov/sites/all/themes/usaid/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+<meta name="description" content="The U.S. Agency for International Development (USAID) has a long-standing record of success in the development, introduction and scale-up of high-impact health products and interventions in the developing world, yet working in these markets presents a variety of challenges." />
+<meta name="rating" content="general" />
+<meta name="referrer" content="origin-when-cross-origin" />
+<meta property="og:type" content="government" />
+<meta property="og:url" content="https://www.usaid.gov/cii" />
+<meta property="og:title" content="Center for Innovation and Impact (CII)" />
+<meta property="og:description" content="The U.S. Agency for International Development (USAID) has a long-standing record of success in the development, introduction and scale-up of high-impact health products and interventions in the developing world, yet working in these markets presents a variety of challenges." />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:creator" content="@usaid" />
+<meta name="twitter:creator:id" content="36683668" />
+<meta name="twitter:url" content="https://www.usaid.gov/cii" />
+<meta name="twitter:title" content="Center for Innovation and Impact (CII)" />
+<meta name="twitter:description" content="The U.S. Agency for International Development (USAID) has a long-standing record of success in the development, introduction and scale-up of high-impact health products and interventions in the" />
+<meta name="dcterms.date" content="2019-09-10T08:55:21Z" />
+  <title>Center for Innovation and Impact (CII) | U.S. Agency for International Development</title>
+
+  <link type="text/css" rel="stylesheet" href="https://www.usaid.gov/sites/default/files/css/css_kShW4RPmRstZ3SpIC-ZvVGNFVAi0WEMuCnI0ZkYIaFw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.usaid.gov/sites/default/files/css/css_l2Gz-qRZXD8y6CuDETYHxP4zmmHcD5xD4IUeiAanTCQ.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.usaid.gov/sites/default/files/css/css_kpGN6TGFWY7al0i_dy31Dp3Fnaeniesae3569Sp0lr8.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700,300italic,400italic" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.usaid.gov/sites/default/files/css/css_nLBTyI6QlMcWwI3NypyGX6phF1f7NyQT4GNGG-k7Kp8.css" media="print" />
+<link type="text/css" rel="stylesheet" href="https://www.usaid.gov/sites/default/files/css/css_47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.usaid.gov/sites/default/files/css/css_SpmL8dk19G0sCH72uaU9FRDRBmwuQSpgd342INKsgi8.css" media="all" />
+
+<!--[if (lt IE 9)&(!IEMobile)]>
+<link type="text/css" rel="stylesheet" href="https://www.usaid.gov/sites/default/files/css/css_uaLz5UTUcM6FD6BNs1AVfxauxo_DbGwgFyhtuclsvwQ.css" media="all" />
+<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<link type="text/css" rel="stylesheet" href="https://www.usaid.gov/sites/default/files/css/css_7NZZCzuT1j5oW2MUYUPgZ4JwruFbwYU5Mu-1TImNM8I.css" media="all" />
+<!--<![endif]-->
+
+<!--[if IE 6]>
+<link type="text/css" rel="stylesheet" href="https://www.usaid.gov/sites/all/themes/usaid/css/ie-6.css?pwwq0j" media="all" />
+<![endif]-->
+
+<!--[if lte IE 7]>
+<link type="text/css" rel="stylesheet" href="https://www.usaid.gov/sites/all/themes/usaid/css/ie-lte-7.css?pwwq0j" media="all" />
+<![endif]-->
+
+<!--[if lte IE 8]>
+<link type="text/css" rel="stylesheet" href="https://www.usaid.gov/sites/all/themes/usaid/css/ie-lte-8.css?pwwq0j" media="all" />
+<![endif]-->
+  <link rel="apple-touch-icon" href="/sites/all/themes/usaid/touchIcon.png"/>
+  <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet" type="text/css"/>
+  <script type="text/javascript" src="https://www.usaid.gov/sites/default/files/js/js_De0Szha8CawgC0HEQbE_Z33whtKt5QoX_3skg6YVXm8.js"></script>
+<script type="text/javascript" src="https://www.usaid.gov/sites/default/files/js/js_NpX2cwCeepkWZZ194B6-ViyVBHleaYLOx5R9EWBOMRU.js"></script>
+<script type="text/javascript" src="https://www.usaid.gov/sites/default/files/js/js_iim2X4xAiv5K5-w0_y21UGfYw0m1xdCg2OfRV55VkXg.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-58d16bb895617ac7"></script>
+<script type="text/javascript" src="https://www.usaid.gov/sites/default/files/js/js_GwwerWIx1o8C5Vu_0YTYldTOIDLmmxrm8UBDCZkZSB0.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-30663658-1", {"cookieDomain":"scms.usaid.gov"});ga("set", "anonymizeIp", true);ga("set", "page", location.pathname + location.search + location.hash);ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.usaid.gov/sites/default/files/js/js_0E_b_qKwrbT3jXB9QRk_L8KhC-ALSNAx_LM6XC4pKf4.js"></script>
+<script type="text/javascript" src="https://www.usaid.gov/sites/default/files/js/js_meDomBEy82aWXpUVuohOCqoX7y2SY1EL4mcRvK0f97E.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"usaid","theme_token":"76OtpGoHBBrsQhXhAfY7nyxpWjQPH9YrFlfAS3yC8Ac","js":{"sites\/all\/modules\/contrib-hacked\/extlink_extra\/extlink_extra.js":1,"sites\/all\/modules\/contrib\/flexslider\/assets\/js\/flexslider.load.js":1,"0":1,"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox_inline.js":1,"sites\/all\/modules\/custom\/usaid_photo_video_gallery\/usaid_photo_video_gallery.js":1,"sites\/all\/libraries\/flexslider\/jquery.flexslider-min.js":1,"\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-58d16bb895617ac7":1,"sites\/all\/modules\/contrib\/flickr\/flickr_colorbox.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"1":1,"sites\/all\/themes\/usaid\/js\/usaid.js":1,"sites\/all\/themes\/usaid\/js\/accessibility.js":1,"sites\/all\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/omega\/omega\/js\/jquery.formalize.js":1,"sites\/all\/themes\/omega\/omega\/js\/omega-mediaqueries.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/aggregator\/aggregator.css":1,"sites\/all\/modules\/contrib\/calendar\/css\/calendar_multiday.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/ws\/fusion_search\/theme\/fusion_search.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/ws\/opendata_catalog\/theme\/opendata_catalog.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/flickr\/flickr.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/custom\/usaid_countries\/usaid_countries.css":1,"sites\/all\/modules\/custom\/usaid_fact_sheets\/usaid_fact_sheets.css":1,"sites\/all\/modules\/custom\/usaid_photo_video_gallery\/usaid_photo_video_gallery.css":1,"sites\/all\/modules\/contrib\/flexslider\/assets\/css\/flexslider_img.css":1,"sites\/all\/libraries\/flexslider\/flexslider.css":1,"sites\/all\/modules\/contrib\/node_embed\/plugins\/node_embed\/node_embed.css":1,"https:\/\/fonts.googleapis.com\/css?family=Source+Sans+Pro:400,300,700,300italic,400italic":1,"sites\/all\/themes\/usaid\/css\/usaid-alpha-default.css":1,"sites\/all\/themes\/usaid\/css\/usaid-alpha-default-normal.css":1,"sites\/all\/themes\/usaid\/css\/print.css":1,"sites\/all\/themes\/usaid\/ds_2col.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-reset.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-mobile.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-alpha.css":1,"sites\/all\/themes\/omega\/omega\/css\/formalize.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-branding.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-forms.css":1,"sites\/all\/themes\/usaid\/css\/global.css":1,"ie::normal::sites\/all\/themes\/usaid\/css\/usaid-alpha-default.css":1,"ie::normal::sites\/all\/themes\/usaid\/css\/usaid-alpha-default-normal.css":1,"ie::normal::sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-24.css":1,"narrow::sites\/all\/themes\/usaid\/css\/usaid-alpha-default.css":1,"narrow::sites\/all\/themes\/usaid\/css\/usaid-alpha-default-narrow.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/narrow\/alpha-default-narrow-24.css":1,"normal::sites\/all\/themes\/usaid\/css\/usaid-alpha-default.css":1,"normal::sites\/all\/themes\/usaid\/css\/usaid-alpha-default-normal.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-24.css":1,"sites\/all\/themes\/usaid\/css\/ie-6.css":1,"sites\/all\/themes\/usaid\/css\/ie-lte-7.css":1,"sites\/all\/themes\/usaid\/css\/ie-lte-8.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"flexslider":{"optionsets":{"default":{"namespace":"flex-","selector":".slides \u003E li","easing":"swing","direction":"horizontal","reverse":false,"smoothHeight":false,"startAt":0,"animationSpeed":600,"initDelay":0,"useCSS":true,"touch":true,"video":false,"keyboard":false,"multipleKeyboard":false,"mousewheel":0,"controlsContainer":".flex-control-nav-container","sync":"","asNavFor":"","itemWidth":0,"itemMargin":0,"minItems":0,"maxItems":0,"move":0,"animation":"fade","slideshow":true,"slideshowSpeed":"7000","directionNav":true,"controlNav":false,"prevText":"Previous","nextText":"Next","pausePlay":false,"pauseText":"Pause","playText":"Play","randomize":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"animationLoop":true,"pauseOnAction":true,"pauseOnHover":false,"manualControls":""}},"instances":{"flexslider-1":"default"}},"better_exposed_filters":{"views":{"carousels":{"displays":{"block_4":{"filters":[]}}},"home_page_video_block":{"displays":{"block_3":{"filters":[]}}}}},"extlink":{"extTarget":0,"extClass":"ext","extLabel":"(link is external)","extImgClass":0,"extSubdomains":1,"extExclude":"(\\.gov\\\/)|(addthis\\.com\\\/)","extInclude":"","extCssExclude":".flickr-colorbox, .ombext","extCssExplicit":"","extAlert":0,"extAlertText":{"value":"\u003Ch2\u003EYou are leaving the official [site:name] public website\u003C\/h2\u003E\r\n\u003Cp\u003EYou are being directed to a non-government, third-party website:\u003C\/p\u003E\r\n\u003Cp\u003E\u003Cstrong\u003E[extlink:external-url]\u003C\/strong\u003E\u003C\/p\u003E\r\n\u003Cp\u003EThis link is provided for your convenience. Please note that this third-party website is not controlled by [site:name] or subject to our privacy policy.\u003C\/p\u003E\r\n\u003Cp\u003EThank you for visiting our site. We hope your visit was informative and enjoyable.\u003C\/p\u003E\r\n\r\n\u003Cdiv class=\u0022extlink-extra-actions\u0022\u003E\r\n    \u003Cdiv class=\u0022extlink-extra-back-action\u0022\u003E\u003Ca title=\u0022Cancel\u0022 href=\u0022[extlink:back-url]\u0022\u003ECancel\u003C\/a\u003E\u003C\/div\u003E\r\n    \u003Cdiv class=\u0022extlink-extra-go-action\u0022\u003E\u003Ca class=\u0022ext-override\u0022 title=\u0022Go to link\u0022 href=\u0022[extlink:external-url]\u0022\u003EGo to link\u003C\/a\u003E\u003C\/div\u003E\r\n\u003C\/div\u003E\r\n\u003Cbr\/\u003E\u003Cbr\/\u003E\r\n[extlink:timer]","format":"php_code"},"mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"extlink_extra":{"extlink_alert_type":"page","extlink_alert_timer":"5","extlink_alert_url":"\/now-leaving","extlink_cache_fix":1,"extlink_exclude_warning":"","extlink_508_fix":0,"extlink_508_text":" [external link]","extlink_url_override":0,"extlink_url_params":{"external_url":null,"back_url":null}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":1,"trackDomainMode":1,"trackUrlFragments":1},"urlIsAjaxTrusted":{"\/cii":true},"field_group":{"div":"full"},"omega":{"layouts":{"primary":"normal","order":["narrow","normal"],"queries":{"narrow":"all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)","normal":"all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)"}}}});
+//--><!]]>
+</script>
+  
+    <script async type="text/javascript" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=USAID" id="_fed_an_ua_tag"></script>
+  
+</head>
+
+<body  class="html not-front not-logged-in page-node page-node- page-node-32086 node-type-page i18n-en context-cii one-sidebar sidebar-first">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+  <div class="region region-page-top" id="region-page-top">
+  <div class="region-inner region-page-top-inner">
+      </div>
+</div>
+  <div class="page clearfix" id="page">
+      <div id="section-header" class="section section-header">
+  <div id="zone-menu-wrapper" class="zone-wrapper zone-menu-wrapper clearfix">  <div id="zone-menu" class="zone zone-menu clearfix container-24">
+    <div class="grid-6 region region-branding alpha" id="region-branding">
+  <div class="region-inner region-branding-inner">
+    <div class="branding-data clearfix">
+            <div class="logo-img">
+        <a href="/" rel="home" title="U.S. Agency for International Development"><img src="https://www.usaid.gov/sites/all/themes/usaid/logo.png" alt="U.S. Agency for International Development" id="logo" /></a>      </div>
+                        <div class="site-name-slogan element-invisible">
+                        <h2 class="site-title"><a href="/" title="Home">U.S. Agency for International Development</a></h2>
+                              </div>
+          </div>
+      </div>
+</div><div class="grid-12 region region-menu" id="region-menu">
+  <div class="region-inner region-menu-inner">
+        
+<div class="wrapper-menu-block">
+<div class="block block-menu-block block-2 block-menu-block-2 odd block-without-title" id="block-menu-block-2">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="menu-block-wrapper menu-block-2 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu menu-top"><li class="first expanded menu-mlid-1128"><a href="/who-we-are">Who We Are</a><ul class="menu"><li class="mobile_nav"><a class="btn_back" href="#" alt="back">back</a><a alt="Who We Are" href="/who-we-are">Who We Are</a></li><li class="first leaf menu-mlid-63726"><a href="/who-we-are" title="">Who We Are</a></li>
+<li class="leaf menu-mlid-33036"><a href="/who-we-are/mission-vision-values">Mission, Vision and Values</a></li>
+<li class="leaf has-children menu-mlid-1557"><a href="/who-we-are/organization">Organization</a></li>
+<li class="leaf menu-mlid-1519"><a href="/who-we-are/usaid-history">USAID History</a></li>
+<li class="leaf has-children menu-mlid-1527"><a href="/who-we-are/agency-policy">Operational Policy (ADS)</a></li>
+<li class="leaf menu-mlid-2604"><a href="/results-and-data/progress-data/transparency">Transparency</a></li>
+<li class="leaf menu-mlid-2448"><a href="/who-we-are/resource-portal" title="">Resource Portal</a></li>
+<li class="last leaf has-children menu-mlid-72616"><a href="/selfreliance">The Journey to Self-Reliance</a></li>
+</ul></li>
+<li class="expanded active-trail menu-mlid-1141"><a href="/what-we-do" class="active-trail">What We Do</a><ul class="menu"><li class="mobile_nav"><a class="btn_back" href="#" alt="back">back</a><a alt="What We Do" href="/what-we-do">What We Do</a></li><li class="first leaf menu-mlid-31186"><a href="/what-we-do" title="">What We Do</a></li>
+<li class="leaf has-children menu-mlid-1149"><a href="/what-we-do/agriculture-and-food-security">Agriculture and Food Security</a></li>
+<li class="leaf has-children menu-mlid-1152"><a href="/democracy">Democracy, Human Rights and Governance</a></li>
+<li class="leaf has-children menu-mlid-1146"><a href="/what-we-do/economic-growth-and-trade">Economic Growth and Trade</a></li>
+<li class="leaf has-children menu-mlid-1148"><a href="/education" title="Education is critical to broad-based economic growth and poverty reduction. Individual earnings increase by 10 percent for each year of school completed.  Education has a multiplier effect, contributing to greater outcomes in other areas such as health and democracy and governance.">Education</a></li>
+<li class="leaf has-children menu-mlid-1147"><a href="/what-we-do/environment-and-global-climate-change">Environment and Global Climate Change</a></li>
+<li class="leaf has-children menu-mlid-1151"><a href="/what-we-do/gender-equality-and-womens-empowerment">Gender Equality and Women&#039;s Empowerment</a></li>
+<li class="leaf has-children active-trail menu-mlid-76316"><a href="/global-health" class="active-trail">Global Health</a></li>
+<li class="leaf has-children menu-mlid-74721"><a href="/what-we-do/transformation-at-usaid" title="">Transformation at USAID</a></li>
+<li class="leaf has-children menu-mlid-1150"><a href="/what-we-do/water-and-sanitation">Water and Sanitation</a></li>
+<li class="leaf has-children menu-mlid-1153"><a href="/what-we-do/working-crises-and-conflict">Working in Crises and Conflict</a></li>
+<li class="last leaf has-children menu-mlid-1154"><a href="/GlobalDevLab/about">U.S. Global Development Lab</a></li>
+</ul></li>
+<li class="expanded menu-mlid-1142"><a href="/where-we-work" title="Through our assistance programs, USAID plays an active and critical role in the promotion of U.S. foreign policy interests.">Where We Work</a><ul class="menu"><li class="mobile_nav"><a class="btn_back" href="#" alt="back">back</a><a alt="Where We Work" href="/where-we-work">Where We Work</a></li><li class="first leaf menu-mlid-31191"><a href="/where-we-work" title="">Where We Work</a></li>
+<li class="leaf menu-mlid-2220"><a href="https://stories.usaid.gov/usaidmap/" title="">Interactive Map</a></li>
+<li class="leaf has-children menu-mlid-5346"><a href="/where-we-work/afghanistan-and-pakistan">Afghanistan and Pakistan</a></li>
+<li class="leaf has-children menu-mlid-1156"><a href="/where-we-work/africa" title="USAID in Africa">Africa</a></li>
+<li class="leaf has-children menu-mlid-1157"><a href="/where-we-work/asia">Asia</a></li>
+<li class="leaf has-children menu-mlid-1159"><a href="/where-we-work/europe-and-eurasia">Europe and Eurasia</a></li>
+<li class="leaf has-children menu-mlid-1160"><a href="/where-we-work/latin-american-and-caribbean">Latin America and the Caribbean</a></li>
+<li class="leaf has-children menu-mlid-1158"><a href="/where-we-work/middle-east">Middle East</a></li>
+<li class="last leaf menu-mlid-30331"><a href="/mission-directory" title="">Mission Directory</a></li>
+</ul></li>
+<li class="expanded menu-mlid-1143"><a href="/reports-and-data" title="USAID is a business-focused development agency focused on results.">Reports and Data</a><ul class="menu"><li class="mobile_nav"><a class="btn_back" href="#" alt="back">back</a><a alt="Reports and Data" href="/reports-and-data">Reports and Data</a></li><li class="first leaf has-children menu-mlid-31196"><a href="/reports-and-data" title="">Reports and Data</a></li>
+<li class="leaf menu-mlid-11066"><a href="https://results.usaid.gov" title="">Dollars to Results</a></li>
+<li class="leaf menu-mlid-80031"><a href="/reports-and-data/fisma-quarterly-reporting-update">FISMA Quarterly Reporting Update</a></li>
+<li class="leaf has-children menu-mlid-3614"><a href="/results-and-data/data-resources">Data Resources</a></li>
+<li class="leaf has-children menu-mlid-5341"><a href="/evaluation">Evaluation</a></li>
+<li class="leaf has-children menu-mlid-1502"><a href="/results-and-data/planning">Strategy and Planning</a></li>
+<li class="leaf has-children menu-mlid-1501"><a href="/cj">Budget and Spending</a></li>
+<li class="leaf has-children menu-mlid-2616"><a href="/results-and-data/performance-reporting">Performance &amp; Financial Reporting</a></li>
+<li class="last leaf menu-mlid-75111"><a href="/results-and-data/progress-data/agency-financial-report/fy-2018">FY 2018 Agency Financial Report</a></li>
+</ul></li>
+<li class="expanded menu-mlid-1144"><a href="/news-information" title="The latest updates from the U.S. Agency for International Development">News and Information</a><ul class="menu"><li class="mobile_nav"><a class="btn_back" href="#" alt="back">back</a><a alt="News and Information" href="/news-information">News and Information</a></li><li class="first leaf menu-mlid-31201"><a href="/news-information" title="">News and Information</a></li>
+<li class="leaf menu-mlid-1211"><a href="/news-information/press-releases" title="">Press Releases</a></li>
+<li class="leaf menu-mlid-1213"><a href="/news-information/congressional-testimony" title="">Congressional Testimony</a></li>
+<li class="leaf menu-mlid-1212"><a href="/news-information/speeches-testimony" title="">Speeches</a></li>
+<li class="leaf has-children menu-mlid-25661"><a href="/news-information/photo-gallery" title="">Photo Gallery</a></li>
+<li class="leaf menu-mlid-1556"><a href="https://blog.usaid.gov" title="">The Impact Blog</a></li>
+<li class="leaf menu-mlid-2114"><a href="/news-information/fact-sheets" title="">Fact Sheets</a></li>
+<li class="leaf has-children menu-mlid-25666"><a href="/news-information/videos" title="">Videos</a></li>
+<li class="leaf menu-mlid-73946"><a href="/usaid-leads">USAID Leads</a></li>
+<li class="leaf has-children menu-mlid-14836"><a href="/news-information/events" title="">Events</a></li>
+<li class="leaf menu-mlid-6261"><a href="/news-information/newsletter">Newsletter</a></li>
+<li class="leaf menu-mlid-34091"><a href="/results-data/success-stories" title="">Success Stories</a></li>
+<li class="leaf menu-mlid-49986"><a href="https://stories.usaid.gov" title="Stories and videos">Storytelling Hub</a></li>
+<li class="leaf has-children menu-mlid-3610"><a href="/news-information/frontlines" title="">FrontLines Magazine</a></li>
+<li class="leaf has-children menu-mlid-3509"><a href="/branding">Branding</a></li>
+<li class="leaf menu-mlid-76246"><a href="/news-information/message-manual">Message Manual</a></li>
+<li class="last leaf has-children menu-mlid-2356"><a href="/stayconnected">Stay Connected</a></li>
+</ul></li>
+<li class="last expanded menu-mlid-31206"><a href="/work-usaid" title="">Work With USAID</a><ul class="menu"><li class="mobile_nav"><a class="btn_back" href="#" alt="back">back</a><a alt="Work With USAID" href="/work-usaid">Work With USAID</a></li><li class="first leaf has-children menu-mlid-43386"><a href="/business-forecast">Business Forecast</a></li>
+<li class="leaf menu-mlid-80701"><a href="/work-usaid" title="">Work With USAID</a></li>
+<li class="leaf menu-mlid-21361"><a href="/work-usaid/partnership-opportunities/search-for-opportunities" title="">Available Funding Opportunities</a></li>
+<li class="leaf has-children menu-mlid-77311"><a href="/npi">New Partnerships Initiative</a></li>
+<li class="leaf has-children menu-mlid-47371"><a href="/work-usaid/how-to-work-with-usaid">How to Work with USAID</a></li>
+<li class="leaf menu-mlid-74946"><a href="/work-usaid/private-sector-engagement">Private Sector Engagement</a></li>
+<li class="leaf has-children menu-mlid-47391"><a href="/work-usaid/resources-for-partners">Resources for Partners</a></li>
+<li class="leaf has-children menu-mlid-21331"><a href="/work-usaid/get-grant-or-contract/opportunities-funding" title="">Opportunities for Funding: Grant &amp; Partnership Programs</a></li>
+<li class="leaf has-children menu-mlid-72681"><a href="/PreventingSexualMisconduct">Preventing Sexual Misconduct</a></li>
+<li class="leaf has-children menu-mlid-20061"><a href="/partnership-opportunities/build-partnership-us">Build a Partnership With Us</a></li>
+<li class="leaf has-children menu-mlid-20066"><a href="/partnership-opportunities/bring-us-your-ideas">Bring us Your Ideas</a></li>
+<li class="leaf has-children menu-mlid-4446"><a href="/work-usaid/take-action">Get Involved</a></li>
+<li class="last leaf has-children menu-mlid-5651"><a href="/careers">Careers</a></li>
+</ul></li>
+</ul></div>
+    </div>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+<div class="grid-6 region region-search omega" id="region-search">
+  <div class="region-inner region-search-inner">
+    
+<div class="wrapper-fusion-search">
+<div class="block block-fusion-search block-default block-fusion-search-default odd block-without-title" id="block-fusion-search-default">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <form class="fusion-search-block-form" action="/cii" method="post" id="fusion-search-block-form-default" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search Fusion</h2>
+    <div class="form-item form-type-textfield form-item-search-terms">
+  <label class="element-invisible" for="edit-search-terms">Enter the terms you wish to search for. </label>
+ <input type="text" id="edit-search-terms" name="search_terms" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<input type="hidden" name="form_build_id" value="form-pEceEcWVIoAgyepQpIqQYC-_4F_jUCcMZfRxqPrrZu8" />
+<input type="hidden" name="form_id" value="fusion_search_block_form_default" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div></div>
+</div></form>    </div>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+  </div>
+</div>  <div id="mobile-menu-trigger"><a href="javascript:;"><span class="offscreen">Open/Close Menu</span></a></div>
+</div>  
+      <div id="section-content" class="section section-content">
+  <div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix">  <div id="zone-content" class="zone zone-content clearfix container-24">
+          <div id="breadcrumb" class="grid-24"><div class="breadcrumb"><a href="/">Home</a> » <a href="/what-we-do">What We Do</a> » <a href="/global-health">Global Health</a> » <a href="/global-health/health-systems-innovation">Health Systems and Innovation</a> » Center for Innovation and Impact (CII)</div></div>
+            <div class="grid-6 region region-sidebar-first alpha" id="region-sidebar-first">
+  <div class="region-inner region-sidebar-first-inner">
+    
+<div class="wrapper-menu-block">
+<div class="block block-menu-block block-3 block-menu-block-3 odd block-without-title" id="block-menu-block-3">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="menu-block-wrapper menu-block-3 menu-name-main-menu parent-mlid-0 menu-level-2">
+  <ul class="menu"><li class="first leaf menu-mlid-31186"><a href="/what-we-do" title="">What We Do</a></li>
+<li class="collapsed menu-mlid-1149"><a href="/what-we-do/agriculture-and-food-security">Agriculture and Food Security</a></li>
+<li class="collapsed menu-mlid-1152"><a href="/democracy">Democracy, Human Rights and Governance</a></li>
+<li class="collapsed menu-mlid-1146"><a href="/what-we-do/economic-growth-and-trade">Economic Growth and Trade</a></li>
+<li class="collapsed menu-mlid-1148"><a href="/education" title="Education is critical to broad-based economic growth and poverty reduction. Individual earnings increase by 10 percent for each year of school completed.  Education has a multiplier effect, contributing to greater outcomes in other areas such as health and democracy and governance.">Education</a></li>
+<li class="collapsed menu-mlid-1147"><a href="/what-we-do/environment-and-global-climate-change">Environment and Global Climate Change</a></li>
+<li class="collapsed menu-mlid-1151"><a href="/what-we-do/gender-equality-and-womens-empowerment">Gender Equality and Women&#039;s Empowerment</a></li>
+<li class="expanded active-trail menu-mlid-76316"><a href="/global-health" class="active-trail">Global Health</a><ul class="menu"><li class="first collapsed menu-mlid-78286"><a href="/global-health/about-us">About Us</a></li>
+<li class="collapsed menu-mlid-78291"><a href="/global-health/health-areas">Health Areas</a></li>
+<li class="expanded active-trail menu-mlid-78301"><a href="/global-health/health-systems-innovation" class="active-trail">Health Systems and Innovation</a><ul class="menu"><li class="first expanded active-trail active menu-mlid-19996"><a href="/cii" class="active-trail active">Center for Innovation and Impact</a><ul class="menu"><li class="first leaf menu-mlid-76981"><a href="/cii/ai-in-global-health">AI in Global Health</a></li>
+<li class="leaf menu-mlid-76041"><a href="/cii/blended-finance">Blended Finance Roadmap</a></li>
+<li class="leaf menu-mlid-44691"><a href="/cii/financing-framework-end-preventable-child-and-maternal-deaths-epcmd">Financing Framework</a></li>
+<li class="leaf menu-mlid-55851"><a href="/cii/human-centered-design">Human-Centered Design</a></li>
+<li class="leaf menu-mlid-80051"><a href="/cii/innovation-realized">Innovation Realized</a></li>
+<li class="leaf menu-mlid-39046"><a href="/cii/guide-introduction-and-scale">Intro &amp; Scale</a></li>
+<li class="leaf menu-mlid-68136"><a href="/cii/investing-impact">Investing for Impact</a></li>
+<li class="leaf menu-mlid-39051"><a href="/cii/market-shaping-primer">Market Shaping Primer</a></li>
+<li class="leaf menu-mlid-57791"><a href="/cii/pathways-scale">Pathways to Scale</a></li>
+<li class="leaf menu-mlid-59636"><a href="/cii/ready-set-launch">Ready, Set, Launch</a></li>
+<li class="leaf menu-mlid-69661"><a href="/cii/strengthening-primary-health-care-through-community-health-workers-closing-2-billion-gap">Strengthening Primary Health Care</a></li>
+<li class="leaf menu-mlid-69816"><a href="/cii/uavs-global-health" title="">UAVs in Global Health:</a></li>
+<li class="leaf menu-mlid-77191"><a href="/cii/private-capital">Unleashing Private Capital</a></li>
+<li class="last collapsed menu-mlid-42081"><a href="/cii/innovation-and-impact-newsletter">Newsletter</a></li>
+</ul></li>
+<li class="leaf menu-mlid-78601"><a href="/global-health/health-systems-innovation/data">Data</a></li>
+<li class="leaf menu-mlid-78606"><a href="/global-health/health-systems-innovation/gender-and-health">Gender and Health</a></li>
+<li class="last collapsed menu-mlid-78981"><a href="/global-health/health-systems-innovation/health-systems-strengthening">Health Systems Strengthening</a></li>
+</ul></li>
+<li class="last collapsed menu-mlid-78306"><a href="/global-health/resources">Resources</a></li>
+</ul></li>
+<li class="expanded menu-mlid-74721"><a href="/what-we-do/transformation-at-usaid" title="">Transformation at USAID</a><ul class="menu"><li class="first leaf menu-mlid-74811"><a href="/what-we-do/transformation-at-usaid/transforming-programs">Transforming USAID’s Programs</a></li>
+<li class="leaf menu-mlid-74806"><a href="/what-we-do/transformation-at-usaid/transforming-processes">Transforming USAID&#039;s Processes</a></li>
+<li class="leaf menu-mlid-74816"><a href="/what-we-do/transformation-at-usaid/transforming-structure">Transforming USAID&#039;s Structure</a></li>
+<li class="last leaf menu-mlid-74821"><a href="/what-we-do/transformation-at-usaid/transforming-workforce">Transforming USAID’s Workforce</a></li>
+</ul></li>
+<li class="collapsed menu-mlid-1150"><a href="/what-we-do/water-and-sanitation">Water and Sanitation</a></li>
+<li class="collapsed menu-mlid-1153"><a href="/what-we-do/working-crises-and-conflict">Working in Crises and Conflict</a></li>
+<li class="last collapsed menu-mlid-1154"><a href="/GlobalDevLab/about">U.S. Global Development Lab</a></li>
+</ul></div>
+    </div>
+  </div>
+</div>
+</div>
+<div id="mobile-sub-nav-trigger"><a href="javascript:;" showText="Show Navigation" hideText="Hide Navigation" ></a></div>  </div>
+</div><div class="grid-18 region region-main-content  alpha omega " id="region-main-content">
+  <div class="region-inner region-main-content-inner">
+    <div class="grid-18 region region-title region-title-page  alpha omega " id="region-title">
+  <div class="region-inner region-title-inner">
+    <a id="main-content"></a>
+                <h1 class="title" id="page-title">Center for Innovation and Impact (CII)</h1>
+                          </div>
+</div>
+<div class="grid-18 region region-content-top  alpha omega " id="region-content-top">
+  <div class="region-inner region-content-top-inner">
+    
+<div class="wrapper-views">
+<div class="block block-views block-carousels-block-4 block-views-carousels-block-4 odd block-without-title" id="block-views-carousels-block-4">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="view view-carousels view-id-carousels view-display-id-block_4 view-dom-id-23ce2a832a7b0c15e84a1d2447fd646a">
+        
+  
+  
+      <div class="view-content">
+      <div  id="flexslider-1" class="flexslider optionset-default">
+  <ul class="slides"><li>  
+  <div class="views-field views-field-field-carousel-image">        <div class="field-content"><img typeof="foaf:Image" src="https://www.usaid.gov/sites/default/files/styles/home_carousel/public/carousel/banner_12810529643_0.jpg?itok=Ptd5eR3J" alt="Identifying State-of-the-Art Practices - A young with a glass of water gives a thumbs-up." title="Identifying State-of-the-Art Practices - A young with a glass of water gives a thumbs-up." /></div>  </div>  
+  <div class="views-field views-field-field-display-title">        <h2 class="field-content">CII is engaging luminaries in the field to identify state of the art practices in innovation, introduction and scale-up.</h2>  </div>  
+  <span class="views-field views-field-field-carousel-link">        <span class="field-content learnmore"></span>  </span></li>
+<li>  
+  <div class="views-field views-field-field-carousel-image">        <div class="field-content"><img typeof="foaf:Image" src="https://www.usaid.gov/sites/default/files/styles/home_carousel/public/carousel/banner_innovation-partnershipsI_0.jpg?itok=wpsK5-bT" alt="Catalyzing innovation and partnerships. A woman holds a young child." title="Catalyzing innovation and partnerships. A woman holds a young child." /></div>  </div>  
+  <div class="views-field views-field-field-display-title">        <h2 class="field-content">USAID&#039;s CII strives to create new and better ways of doing business and generate impact by harnessing the power of previously untapped innovative minds worldwide.</h2>  </div>  
+  <span class="views-field views-field-field-carousel-link">        <span class="field-content learnmore"></span>  </span></li>
+<li>  
+  <div class="views-field views-field-field-carousel-image">        <div class="field-content"><img typeof="foaf:Image" src="https://www.usaid.gov/sites/default/files/styles/home_carousel/public/carousel/banner_scaling-for-impact_0.jpg?itok=w1t7XuG_" alt="Scaling for Impact - Map of Earth" title="Scaling for Impact - Map of Earth" /></div>  </div>  
+  <div class="views-field views-field-field-display-title">        <h2 class="field-content">CII designs and implements accelerated introduction plans for priority products and interventions; supports rapid deployment and adoption in target regions; and evaluates and develops innovative financing mechanisms.</h2>  </div>  
+  <span class="views-field views-field-field-carousel-link">        <span class="field-content learnmore"></span>  </span></li>
+</ul></div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+<div class="grid-18 region region-content  alpha " id="region-content">
+  <div class="region-inner region-content-inner">
+        
+<div class="wrapper-system">
+<div class="block block-system block-main block-system-main odd block-without-title" id="block-system-main">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div about="/cii" typeof="foaf:Document" class="node node-page node-published node-not-promoted node-not-sticky author-32 odd clearfix node-full" id="node-page-32086">
+        <span property="dc:title" content="Center for Innovation and Impact (CII)" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>    
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><style type="text/css">
+<!--/*--><![CDATA[/* ><!--*/
+ul.tb-subnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/*--><!]]>*/
+</style><p class="intro-p">USAID's <strong>Center for Innovation and Impact (CII)</strong> applies business-minded approaches to the development, introduction and scale-up of health interventions to accelerate impact against the world's most important health challenges.</p>
+<p>The Center – which resides in the Global Health Bureau – invests seed capital in the most promising ideas and applies a rigorous, market-oriented approach to cut the time it takes to transform discoveries in the lab to impact on the ground.</p>
+<p>What we do:</p>
+<div style="width:100%; display:inline-block; padding:0px 0px 14px 0px; display:inline-block;margin-bottom:30px;">
+<div style="margin-right:0px; margin-left:0px; float:left; width:400px;">
+<div class="token-img-left" style="float:left; width:65px; margin-top:5px"><img alt="Icon of a light bulb" src="/sites/default/files/nodeimage/icon-lightbulb_USAIDRed.png" style="margin-bottom: 20px;" /></div>
+<p style="margin-top:5px;"><strong><font color="#BA0C2F">Catalyze Innovation</font></strong><br />
+The Center uses a variety of novel approaches – from Grand Challenges to hackathons to prizes – to source groundbreaking solutions for tough and seemingly intractable health challenges.</p>
+<div class="token-img-left" style="float:left; width:65px; margin-top:5px"><img alt="Icon of a graph" src="/sites/default/files/nodeimage/icon-scalechart_MedBlue.png" style="margin-bottom: 55px;" /></div>
+<p style="margin-top:5px;"><strong><font color="#205493">Scale for Impact</font></strong><br />
+The Center supports introduction and scale-up planning for priority health interventions; uses innovative financing mechanisms; applies market shaping tools to address inefficiencies and barriers; and leverages the expertise and active engagement of the private sector – all to accelerate and rapidly expand health impact.</p>
+<div class="token-img-left" style="float:left; width:65px"><img alt="Icon of a magnifying glass with a line chart" src="/sites/default/files/nodeimage/icon-identify_USAIDBlue.png" /></div>
+<p><strong><font color="#002F6C">Strengthen and Apply Cross-cutting Enablers</font></strong><br />
+To help improve the efficiency of the marketplace, the Center examines successes and failures across a range of markets and sectors to identify state-of-the-art practices in innovation, introduction, and uptake.</p>
+</div>
+<div style="margin-right:0px; margin-left:30px; margin-bottom:40px; float:left; width:300px;"><a href="/sites/default/files/documents/1864/USAID_2019_CII_Lookbook_web.pdf"><img alt="Cover of the 2019 Impact brief" src="/sites/default/files/nodeimage/impact-brief-2019-cover.jpg" style="padding: 5px; border: 1px solid rgb(195, 195, 195); width: 244px;" /><br />
+[PDF, 12MB]</a></div>
+<div style="margin-right:0px; margin-left:30px; float:left; width:300px;"><a href="/cii/innovation-and-impact-newsletter"><img alt="Innovation + Impact E-Newsletter" src="/sites/default/files/nodeimage/newsletter-thumb.png" style="padding: 5px; border: 1px solid rgb(195, 195, 195); width: 244px; " /></a>
+<p><a href="https://public.govdelivery.com/accounts/USAID/subscriber/new?topic_id=USAID_23">Subscribe here.</a></p>
+</div>
+</div>
+<hr color="#000000" size="5px" /><div style="width:100%; padding:0px 0px 20px 0px; display:inline-block;">
+<h2>INTRODUCING INNOVATION REALIZED: EXPANDING THE PATH TO HEALTH IMPACT</h2>
+<div style="margin-right:40px; float:left; width:auto; height: 260px;"><a href="/cii/innovation-realized"><img alt="Innovation Realized" src="https://www.usaid.gov/sites/default/files/nodeimage//IR_Main_Image.png" style="padding:5px; margin-top:5px; margin-left: 10px; border: #c3c3c3 1px solid;" width="300" /></a></div>
+<p>At USAID, innovation has been a core part of our work for decades. Whether through sourcing new ideas or improving existing solutions, engaging new and different partners, or enhancing financing and work structures, USAID is committed to the appropriate use of innovation to overcome health challenges.</p>
+<p>USAID’s Center for Innovation and Impact’s (CII’s) <strong>Innovation Realized: Expanding the Path to Health Impact</strong> is a guide intended to amplify global health impact. This guide builds on successes and lays out practical ways that USAID staff can identify opportunities to apply innovation to solve real problems in the context of how we work, as well as to further innovation across the Agency. Though this guide is primarily intended for USAID staff, it can serve as an adaptable resource for other organizations.</p>
+<!--<p>USAID announces the launch of the world&rsquo;s first Development Impact Bond (DIB) for health, aiming to reduce the number of maternal and newborn deaths. This DIB, the largest and most ambitious of its kind to date, will improve the quality of care in private facilities in Rajasthan, India and has the potential to reach up to 600,000 pregnant women with improved care during delivery and save the lives of up to 10,000 women and newborns over five years. To learn more about this historic DIB, please <a href="/cii/IndiaDIB">visit this webpage.</a></p>--><div class="clearfix"> </div>
+<!-- INNOVATION --><div style="width:100%; padding:0px 0px 20px 0px; display:inline-block;">
+<h2>Innovation</h2>
+<div style="margin-right:40px; float:left; width:224px; height: 218px"><a href="/ghgrandchallenges"><img alt="Photo of a mother and child. Global Health Grand Challenges" src="/sites/default/files/nodeimage/Grand-Challenge-thumb.jpg" style="padding:5px; border: #c3c3c3 1px solid;" width="212" /></a>
+<p style="font-size: 1em; text-transform: uppercase; letter-spacing: 0.05em; margin-top:10px;"><a href="/ghgrandchallenges" style="color:#222; font-weight:normal;">GLOBAL HEALTH GRAND CHALLENGES</a></p>
+</div>
+<div style="margin-right:40px; float:left; width:224px; height: 218px;"><a href="https://savinglivesatbirth.net/"><img alt="Photo of a woman and man smiling with a baby." src="/sites/default/files/nodeimage/feature_saving-lives-at-birth.jpg" style="padding:5px; border: #c3c3c3 1px solid;" width="212" /></a>
+<p style="font-size: 1em; text-transform: uppercase; letter-spacing: 0.05em; margin-top:10px;"><a href="https://savinglivesatbirth.net/" style="color:#222; font-weight:normal;">SAVING LIVES AT BIRTH</a></p>
+</div>
+<div style="margin-right:0px; float:left; width:224px; height: 218px"><a href="http://www.ebolagrandchallenge.net" target="_blank"><img alt="Fighting Ebola: A Grand Challenge for Development" src="http://www.usaid.gov/sites/default/files/nodeimage/feature_fighting-ebola.png" style="padding:5px; border: #c3c3c3 1px solid;" width="212" /></a>
+<p style="font-size: 1em; text-transform: uppercase; letter-spacing: 0.05em; margin-top:10px;"><a href="http://www.ebolagrandchallenge.net" style="color:#222; font-weight:normal;" target="_blank">FIGHTING EBOLA</a></p>
+</div>
+<div style="margin-right:40px; float:left; width:224px; height: 218px"><a href="/grandchallenges/zika"><img alt="Photo of a mosquito in a test tube and the words Combating Zika and Future Threats" src="http://www.usaid.gov/sites/default/files/nodeimage/Combating-zika-logo-sized.jpg" style="padding:5px; border: #c3c3c3 1px solid;" width="212" /></a>
+<p style="font-size: 1em; text-transform: uppercase; letter-spacing: 0.05em; margin-top:10px;"><a href="/grandchallenges/zika" style="color:#222; font-weight:normal;">COMBATING ZIKA AND<br />
+FUTURE THREATS</a></p>
+</div>
+<!-- Removed 4/22/2019:
+    <div style="margin-right:40px; float:left; width:224px; height: 218px"><p><a href="https://www.usaid.gov/grandchallenges/supplies"><img alt="A pharmacist passes medicine to a woman." src="/sites/default/files/nodeimage/USAID-Social-Assets-212.jpg" style="padding:5px; border: #c3c3c3 1px solid;" width="212" /></a></p>
+<p style="font-size: 1em; text-transform: uppercase; letter-spacing: 0.05em; margin-top:10px;"><a href="https://www.usaid.gov/grandchallenges/supplies" style="color:#222; font-weight:normal;">Ensuring Effective Health Supply Chains</a></p>
+</div>
+<p>	-->
+<div style="margin-right:40px; float:left; width:224px; height: 218px;"><a href="https://www.youtube.com/watch?v=YnfF3dese3Q&amp;feature=youtu.be" target="_blank"><img alt="Two men help open up a Ebola Grand challenge pod" src="/sites/default/files/nodeimage/cii-ebolavid-feature.jpg" style="padding:5px; margin-top:0px; border: #c3c3c3 1px solid;" width="212" /></a>
+<p style="font-size: 1em; text-transform: uppercase; letter-spacing: 0.05em; margin-top:10px;"><a href="https://www.youtube.com/watch?v=YnfF3dese3Q&amp;feature=youtu.be" style="color:#222; font-weight:normal;" target="_blank">FIGHTING EBOLA VIDEO</a></p>
+</div>
+<div style="margin-right:0px; float:left; width:224px; height: 218px;"><a href="https://www.youtube.com/watch?v=Hl5XtUWDBwk&amp;feature=youtu.be" target="_blank"><img alt="A nurse in Malawi uses a bCPAP machine." src="http://www.usaid.gov/sites/default/files/nodeimage/cii-homepage_bcpap-malawi.jpg" style="padding:5px; margin-top:0px; border: #c3c3c3 1px solid;" width="212" /></a>
+<p style="font-size: 1em; text-transform: uppercase; letter-spacing: 0.05em; margin-top:10px;"><a href="https://www.youtube.com/watch?v=Hl5XtUWDBwk&amp;feature=youtu.be" style="color:#222; font-weight:normal;" target="_blank">SL@B bCPAP VIDEO</a></p>
+</div>
+<!-- PARTNERSHIPS --><div style="width:100%; padding:10px 0px 10px 0px; display:inline-block;">
+<h2>Partnerships</h2>
+<div style="margin-right:40px; float:left; width:224px;"><a href="http://www.ampforhealth.org/"><img alt="Aspen Institute: Logo for AMP Health" src="/sites/default/files/nodeimage/amp-logo-thumb.gif" style="padding:5px; border: #c3c3c3 1px solid;" width="212" /></a>
+<p style="font-size: 1em; text-transform: uppercase; letter-spacing: 0.05em; margin-top:10px;"><a href="http://www.ampforhealth.org/" style="color:#222;font-weight:normal; ">ASPEN MANAGEMENT PARTNERSHIP FOR HEALTH</a></p>
+</div>
+<div style="float:left; margin-right:40px; width:224px;"><a href="/cii/project-last-mile"><img alt="Logo for Project Last Mile" src="http://www.usaid.gov/sites/default/files/nodeimage/project-last-mile.png" style="padding:5px; border: #c3c3c3 1px solid;" width="212" /></a>
+<p style="font-size: 1em; letter-spacing: 0.05em; margin-top:10px;"><a href="/cii/project-last-mile" style="color:#222;font-weight:normal; ">PROJECT LAST MILE</a><br />
+ </p>
+</div>
+<div style="float:left; margin-right:0px; width:224px;"><a href="https://atscale2030.org/"><img alt="Logo for ATscale" src="http://www.usaid.gov/sites/default/files/nodeimage/cii-homepage_ATscale-logo2.jpg" style="padding:5px; border: #c3c3c3 1px solid;" width="212" /></a>
+<p style="font-size: 1em; letter-spacing: 0.05em; margin-top:10px;"><a href="https://atscale2030.org/" style="color:#222;font-weight:normal; ">ATscale: GLOBAL PARTNERSHIP FOR ASSISTIVE TECHNOLOGY</a><br />
+ </p>
+</div>
+<div style="margin-right:40px; float:left; width:224px;"><a href="/cii/IndiaDIB"><img alt="A mother holds her newborn child" src="/sites/default/files/nodeimage/DIB-thumb-224.jpg" style="padding:5px; border: #c3c3c3 1px solid;" width="212" /></a>
+<p style="font-size: 1em; text-transform: uppercase; letter-spacing: 0.05em; margin-top:10px;"><a href="/cii/IndiaDIB" style="color:#222;font-weight:normal;">DEVELOPMENT IMPACT BOND</a><br />
+ </p>
+</div>
+<div style="float:left; margin-right:40px; width:224px;"><a href="https://www.designforhealth.org"><img alt="Design for Health" src="https://www.usaid.gov/sites/default/files/nodeimage/DesignforHealth_thumb.jpg" style="padding:5px; border: #c3c3c3 1px solid;" width="212" /></a>
+<p style="font-size: 1em; text-transform: uppercase; letter-spacing: 0.05em; margin-top:10px;"><a href="https://www.designforhealth.org" style="color:#222;font-weight:normal; ">Design for Health</a><br />
+ </p>
+</div>
+</div>
+<!-- IDEA TO IMPACT --><div style="width:100%; padding:0px 0px 20px 0px; display:inline-block;">
+<h3>Introduction and Scale (IDEA to IMPACT Series)</h3>
+<div style="margin-right:40px; margin-bottom:20px; float:left; width:224px;"><a href="http://www.usaid.gov/cii/guide-introduction-and-scale"><img alt="Cover image of HEALTHY MARKETS FOR GLOBAL HEALTH: A Market Shaping Primer" src="http://www.usaid.gov/sites/default/files/nodeimage/Idea-to-Impact-cover-thumb.jpg" style="padding:5px; border: #c3c3c3 1px solid;" width="212" /></a>
+<p style="font-size: 1em; text-transform: uppercase; letter-spacing: 0.05em; margin-top:10px;"><a href="http://www.usaid.gov/cii/guide-introduction-and-scale" style="color:#222; font-weight:normal;">INTRODUCTION &amp; SCALE GUIDE</a></p>
+</div>
+<div style="float:left; width:224px; margin-right:30px; margin-bottom:20px;"><a href="/cii/pathways-scale"><img alt="Cover image of Pathways to Scale" src="/sites/default/files/nodeimage/Pathways-to-Scale-Guide-cover-thumb.jpg" style="padding:5px; border: #c3c3c3 1px solid;" width="212" /></a>
+<p style="font-size: 1em; text-transform: uppercase; letter-spacing: 0.05em; margin-top:10px;"><a href="/cii/pathways-scale" style="color:#222;font-weight:normal; ">PATHWAYS TO SCALE GUIDE</a></p>
+</div>
+<div style="float:left; width:224px; margin-right:0px; margin-bottom:20px;"><a href="/cii/ready-set-launch"><img alt="Cover to the Ready, Set, Launch: A country-level launch planning guide to global health innovations" src="/sites/default/files/nodeimage/RSL-cover-212.png" style="padding:5px; border: #c3c3c3 1px solid;" width="212" /></a>
+<p style="font-size: 1em; text-transform: uppercase; letter-spacing: 0.05em; margin-top:10px;"><a href="/cii/ready-set-launch" style="color:#222;font-weight:normal; ">READY, SET, LAUNCH GUIDE</a></p>
+</div>
+<div style="float:left; width:224px; margin-right:0px; margin-bottom:20px;"><a href="/cii/ready-set-launch"><img alt="Cover to the From Lab to Launch Guide" src="/sites/default/files/nodeimage/Lab-to-Launch-CII-Icon.png" style="padding:5px; border: #c3c3c3 1px solid;" width="212" /></a>
+<p style="font-size: 1em; text-transform: uppercase; letter-spacing: 0.05em; margin-top:10px;"><a href="/cii/ready-set-launch" style="color:#222;font-weight:normal; ">FROM LAB TO LAUNCH</a></p>
+</div>
+<div class="clearfix"> </div>
+<h3>Market Shaping and Innovative Financing</h3>
+<div style="float:left; width:224px; margin-right:40px; margin-bottom:20px;"><a href="/cii/investing-impact"><img alt="Investing for Impact cover" height="150px" src="/sites/default/files/nodeimage/investingimpact-2019cover.jpg" style="padding:5px; border: #c3c3c3 1px solid;" width="212px" /></a>
+<p style="font-size: 1em; text-transform: uppercase; letter-spacing: 0.05em; margin-top:10px;"><a href="/cii/investing-impact" style="color:#222;font-weight:normal;">INVESTING FOR IMPACT</a></p>
+</div>
+<div style="float:left; width:224px; margin-right:30px; margin-bottom:20px;"><a href="/cii/blended-finance"><img alt="Blended Finance Cover" height="150px" src="/sites/default/files/nodeimage/BlendedFinance-thumbnail.jpg" style="padding:5px; border: #c3c3c3 1px solid;" width="212px" /></a>
+<p style="font-size: 1em; text-transform: uppercase; letter-spacing: 0.05em; margin-top:10px;"><a href="/cii/blended-finance" style="color:#222;font-weight:normal;">BLENDED FINANCE ROADMAP FOR GLOBAL HEALTH</a></p>
+</div>
+<div style="float:left; margin-right:0px; width:224px; margin-bottom:20px;"><a href="/cii/private-capital"><img alt="Unleashing Private Captial for Global Health Innovation" height="150" src="http://www.usaid.gov/sites/default/files/nodeimage/cii-homepage-privateCapital.jpg" style="padding:5px; border: #c3c3c3 1px solid;" width="229" /></a>
+<p style="font-size: 1em; text-transform: uppercase; letter-spacing: 0.05em; margin-top:10px;"><a href="/cii/private-capital" style="color:#222;font-weight:normal;">UNLEASHING PRIVATE CAPITAL FOR GLOBAL HEALTH INNOVATION</a></p>
+</div>
+<div style="float:left; margin-right:40px; width:224px; margin-bottom:20px;"><a href="/cii/market-shaping-primer"><img alt="Cover image of HEALTHY MARKETS FOR GLOBAL HEALTH: A Market Shaping Primer" height="150" src="https://www.usaid.gov/sites/default/files/nodeimage/healthymarkets-2019cover2.jpg" style="padding:5px; border: #c3c3c3 1px solid;" /></a>
+<p style="font-size: 1em; text-transform: uppercase; letter-spacing: 0.05em; margin-top:10px;"><a href="/cii/market-shaping-primer" style="color:#222;font-weight:normal;">MARKET SHAPING PRIMER</a></p>
+</div>
+<div style="float:left; margin-right:0px; width:224px; margin-bottom:20px;"><a href="/cii/strengthening-primary-health-care-through-community-health-workers-closing-2-billion-gap"><img alt="Cover for Strengthening Primary Health Care through Community Health Workers" src="/sites/default/files/nodeimage/USAID_FAH-Report_cover2.png" style="padding:5px; border: #c3c3c3 1px solid; width: 212px;" /></a>
+<p style="font-size: 1em; text-transform: uppercase; letter-spacing: 0.05em; margin-top:10px;"><a href="/cii/strengthening-primary-health-care-through-community-health-workers-closing-2-billion-gap" style="color:#222;font-weight:normal; ">INVESTING FOR COMMUNITY HEALTH</a></p>
+</div>
+<div class="clearfix"> </div>
+<h3>Innovating for Impact Series</h3>
+<div style="float:left; width:224px; margin-right:40px; margin-bottom:20px;"><a href="/cii/uavs-global-health"><img alt="UAVS IN Global Health cover" height="150px" src="http://www.usaid.gov/sites/default/files/nodeimage/cii-homepage_UAVs-updated.jpg" style="padding:5px; border: #c3c3c3 1px solid;" width="212px" /></a>
+<p style="font-size: 1em; text-transform: uppercase; letter-spacing: 0.05em; margin-top:10px;"><a href="/cii/uavs-global-health" style="color:#222;font-weight:normal;">UAVS IN GLOBAL HEALTH</a></p>
+</div>
+<div style="float:left; width:224px; margin-right:40px; margin-bottom:20px;"><a href="/cii/ai-in-global-health"><img alt="AI in Global Health cover" height="150px" src="https://www.usaid.gov/sites/default/files/nodeimage/AI_report_box.PNG" style="padding:5px; border: #c3c3c3 1px solid;" width="212px" /></a>
+<p style="font-size: 1em; text-transform: uppercase; letter-spacing: 0.05em; margin-top:10px;"><a href="/cii/ai-in-global-health" style="color:#222;font-weight:normal;">AI IN GLOBAL HEALTH</a></p>
+</div>
+<div style="float:left; width:224px; margin-right:0px; margin-bottom:20px;"><a href="/cii/innovation-realized"><img alt="Innovation Realized cover" height="150px" src="https://www.usaid.gov/sites/default/files/Innovation-Realized_cover_0.jpg" style="padding:5px; border: #c3c3c3 1px solid;" width="212px" /></a>
+<p style="font-size: 1em; text-transform: uppercase; letter-spacing: 0.05em; margin-top:10px;"><a href="/cii/innovation-realized" style="color:#222;font-weight:normal;">INNOVATION REALIZED</a></p>
+</div>
+<div class="clearfix"> </div>
+<h3>Human-centered Design</h3>
+<div style="float:left; width:224px; margin-right:40px; margin-bottom:20px;"><a href="/cii/human-centered-design"><img alt="Two women look at a set of instructions" src="/sites/default/files/nodeimage/CHX-case-study_page-thumb.jpg" style="padding:5px; border: #c3c3c3 1px solid;" width="212" /></a>
+<p style="font-size: 1em; text-transform: uppercase; letter-spacing: 0.05em; margin-top:10px;"><a href="/cii/human-centered-design" style="color:#222;font-weight:normal; ">LEARN MORE ABOUT HCD</a></p>
+</div>
+<div class="clearfix"> </div>
+<h3>Digital Health</h3>
+<div style="float:left; width:224px; margin-right:40px; margin-bottom:20px;"><a href="http://digitalsquare.org/"><img alt="Digital Square" src="http://www.usaid.gov/sites/default/files/nodeimage/cii-homepage-digitalsquare.jpg" style="padding:5px; border: #c3c3c3 1px solid;" width="212" /></a>
+<p style="font-size: 1em; text-transform: uppercase; letter-spacing: 0.05em; margin-top:10px;"><a href="http://digitalsquare.org/" style="color:#222;font-weight:normal; ">DIGITAL SQUARE</a></p>
+</div>
+<div style="float:left; width:224px; margin-right:40px; margin-bottom:20px;"><a href="https://digitalinvestmentprinciples.org/"><img alt="Digital Investment Principles" src="http://www.usaid.gov/sites/default/files/nodeimage/cii-homepage-digitalInvestment.jpg" style="padding:5px; border: #c3c3c3 1px solid;" width="212" /></a>
+<p style="font-size: 1em; text-transform: uppercase; letter-spacing: 0.05em; margin-top:10px;"><a href="https://digitalinvestmentprinciples.org/" style="color:#222;font-weight:normal; ">PRINCIPLES OF DONOR ALIGNMENT FOR DIGITAL HEALTH </a></p>
+</div>
+<div style="float:left; width:224px; margin-right:0px; margin-bottom:20px;"><a href="https://www.mcsprogram.org/resource/digital-health-investment-review-tool/"><img alt="Digital Health Investment Review Tool" src="http://www.usaid.gov/sites/default/files/nodeimage/cii-homepage-DHIRT.jpg" style="padding:5px; border: #c3c3c3 1px solid;" width="212" /></a>
+<p style="font-size: 1em; text-transform: uppercase; letter-spacing: 0.05em; margin-top:10px;"><a href="https://www.mcsprogram.org/resource/digital-health-investment-review-tool/" style="color:#222;font-weight:normal; ">DIGITAL HEALTH INVESTMENT REVIEW TOOL</a></p>
+</div>
+<div class="clearfix"> </div>
+</div>
+<p>Questions or comments? Please email us at <a href="mailto:cii@usaid.gov">cii@usaid.gov</a>.</p>
+</div>
+</div>
+</div></div></div>  </div>
+  
+  <div class="clearfix">
+          <div class="links node-links clearfix"></div>
+    
+      </div>
+</div>
+    </div>
+  </div>
+</div>
+</div>
+<p class="last-updated"> Last updated: September 10, 2019</p>
+<div class="wrapper-addthis-basic">
+<div class="block block-addthis-basic block-addthis-block block-addthis-basic-addthis-block odd" id="block-addthis-basic-addthis-block">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Share This Page</h2>
+            
+    <div class="content clearfix">
+      <div class="addthis_inline_share_toolbox"></div>    </div>
+  </div>
+</div>
+</div>
+      </div>
+</div>
+  </div>
+</div>  </div>
+</div><div id="zone-postscript-wrapper" class="zone-wrapper zone-postscript-wrapper clearfix">  <div id="zone-postscript" class="zone zone-postscript clearfix container-24">
+    <div class="grid-12 prefix-6 region region-postscript-first" id="region-postscript-first">
+  <div class="region-inner region-postscript-first-inner">
+      </div>
+</div>
+  </div>
+</div></div>  
+      <div id="section-footer" class="section section-footer">
+  <div id="zone-floating-footer-wrapper" class="zone-wrapper zone-floating-footer-wrapper clearfix">  <div id="zone-floating-footer" class="zone zone-floating-footer clearfix container-24">
+    <div class="grid-24 region region-floating-footer-first" id="region-floating-footer-first">
+  <div class="region-inner region-floating-footer-first-inner">
+    
+<div class="wrapper-block">
+<div class="block block-block block-3 block-block-3 odd block-without-title" id="block-block-3">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div id="floatfootleft">
+  <div class="floatfootitem join">
+    <a href="/work-usaid/careers">
+      <h2>Join</h2>
+      <p>Find out about career opportunities at USAID</p>
+    </a>
+  </div>
+  <div class="floatfootitem act">
+    <a href="/work-usaid/take-action">
+      <h2>Act</h2>
+      <p>Learn how you can get involved and lend a hand.</p>
+    </a>
+  </div>
+  <div class="floatfootitem partner">
+    <a href="/partner-with-us">
+      <h2>Partner</h2>
+      <p>Find business and funding opportunities.</p>
+    </a>
+  </div>
+  <div class="floatfootitem comment">
+    <a href="/contact-us">
+      <h2>Comment</h2>
+      <p>Make a general inquiry or suggest an improvement.</p>
+    </a>
+  </div>
+  <div class="floatfootitem connect">
+    <h2>Connect</h2>
+    <div class="floatfootsocial">
+      <div class="facebook">
+        <a href="https://www.facebook.com/USAID" title="Facebook">
+          Facebook
+          <b></b>
+       </a>
+        
+      </div>
+      <div class="twitter">
+        <a href="https://twitter.com/#!/usaid" title="Twitter">
+          Twitter
+          <b></b>
+       </a>
+      </div>
+      <div class="rss">
+        <a href="/stayconnected" title="RSS">
+          RSS
+          <b></b>
+       </a>        
+      </div>
+      <div class="linkedin">
+        <a href="https://www.linkedin.com/company/usaid" title="LinkedIn">
+          LinkedIn
+          <b></b>
+        </a>
+      </div>
+      <div class="youtube">
+        <a href="https://www.youtube.com/usaidvideo" title="YouTube">
+           YouTube
+          <b></b>
+        </a>
+      </div>
+      <div class="stayconnected">
+        <a href="/stayconnected" title="Stay Connected">
+           Stay Connected
+          <b></b>
+        </a>
+      </div>
+    </div>
+  </div>
+ </div>    </div>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+  </div>
+</div><div id="zone-footer-wrapper" class="zone-wrapper zone-footer-wrapper clearfix">  <div id="zone-footer" class="zone zone-footer clearfix container-24">
+    <div class="grid-6 region region-footer-first" id="region-footer-first">
+  <div class="region-inner region-footer-first-inner">
+    
+<div class="wrapper-menu-block">
+<div class="block block-menu-block block-9 block-menu-block-9 odd block-without-title" id="block-menu-block-9">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="menu-block-wrapper menu-block-9 menu-name-menu-utility-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-60561"><a href="/contact-us">Contact Us</a></li>
+<li class="leaf has-children menu-mlid-1263"><a href="/compliance">Compliance</a></li>
+<li class="leaf has-children menu-mlid-1270"><a href="/forms">Forms</a></li>
+<li class="leaf has-children menu-mlid-1264"><a href="/privacy-policy">Privacy Policy</a></li>
+<li class="leaf has-children menu-mlid-1265"><a href="/egov">EGOV</a></li>
+<li class="leaf menu-mlid-1267"><a href="/no-fear-act">No Fear Act</a></li>
+<li class="leaf menu-mlid-7431"><a href="/accessibility">Accessibility</a></li>
+<li class="leaf has-children menu-mlid-1269"><a href="/open">Open Government</a></li>
+<li class="leaf has-children menu-mlid-56316"><a href="/foia-requests">FOIA</a></li>
+<li class="leaf menu-mlid-3206"><a href="https://oig.usaid.gov" title="">Inspector General</a></li>
+<li class="leaf menu-mlid-63691"><a href="https://www.usa.gov/" title="">usa.gov</a></li>
+<li class="last leaf menu-mlid-69486"><a href="https://2012-2017.usaid.gov" title="Archived USAID.gov content from 2012-2017">Archive</a></li>
+</ul></div>
+    </div>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+<div class="grid-18 region region-footer-second" id="region-footer-second">
+  <div class="region-inner region-footer-second-inner">
+    
+<div class="wrapper-menu-block">
+<div class="block block-menu-block block-4 block-menu-block-4 odd block-without-title" id="block-menu-block-4">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="menu-block-wrapper menu-block-4 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu menu-top"><li class="first expanded menu-mlid-1128"><a href="/who-we-are">Who We Are</a><ul class="menu"><li class="first leaf menu-mlid-63726"><a href="/who-we-are" title="">Who We Are</a></li>
+<li class="leaf menu-mlid-33036"><a href="/who-we-are/mission-vision-values">Mission, Vision and Values</a></li>
+<li class="leaf has-children menu-mlid-1557"><a href="/who-we-are/organization">Organization</a></li>
+<li class="leaf menu-mlid-1519"><a href="/who-we-are/usaid-history">USAID History</a></li>
+<li class="leaf has-children menu-mlid-1527"><a href="/who-we-are/agency-policy">Operational Policy (ADS)</a></li>
+<li class="leaf menu-mlid-2604"><a href="/results-and-data/progress-data/transparency">Transparency</a></li>
+<li class="leaf menu-mlid-2448"><a href="/who-we-are/resource-portal" title="">Resource Portal</a></li>
+<li class="last leaf has-children menu-mlid-72616"><a href="/selfreliance">The Journey to Self-Reliance</a></li>
+</ul></li>
+<li class="expanded active-trail menu-mlid-1141"><a href="/what-we-do" class="active-trail">What We Do</a><ul class="menu"><li class="first leaf menu-mlid-31186"><a href="/what-we-do" title="">What We Do</a></li>
+<li class="leaf has-children menu-mlid-1149"><a href="/what-we-do/agriculture-and-food-security">Agriculture and Food Security</a></li>
+<li class="leaf has-children menu-mlid-1152"><a href="/democracy">Democracy, Human Rights and Governance</a></li>
+<li class="leaf has-children menu-mlid-1146"><a href="/what-we-do/economic-growth-and-trade">Economic Growth and Trade</a></li>
+<li class="leaf has-children menu-mlid-1148"><a href="/education" title="Education is critical to broad-based economic growth and poverty reduction. Individual earnings increase by 10 percent for each year of school completed.  Education has a multiplier effect, contributing to greater outcomes in other areas such as health and democracy and governance.">Education</a></li>
+<li class="leaf has-children menu-mlid-1147"><a href="/what-we-do/environment-and-global-climate-change">Environment and Global Climate Change</a></li>
+<li class="leaf has-children menu-mlid-1151"><a href="/what-we-do/gender-equality-and-womens-empowerment">Gender Equality and Women&#039;s Empowerment</a></li>
+<li class="leaf has-children active-trail menu-mlid-76316"><a href="/global-health" class="active-trail">Global Health</a></li>
+<li class="leaf has-children menu-mlid-74721"><a href="/what-we-do/transformation-at-usaid" title="">Transformation at USAID</a></li>
+<li class="leaf has-children menu-mlid-1150"><a href="/what-we-do/water-and-sanitation">Water and Sanitation</a></li>
+<li class="leaf has-children menu-mlid-1153"><a href="/what-we-do/working-crises-and-conflict">Working in Crises and Conflict</a></li>
+<li class="last leaf has-children menu-mlid-1154"><a href="/GlobalDevLab/about">U.S. Global Development Lab</a></li>
+</ul></li>
+<li class="expanded menu-mlid-1142"><a href="/where-we-work" title="Through our assistance programs, USAID plays an active and critical role in the promotion of U.S. foreign policy interests.">Where We Work</a><ul class="menu"><li class="first leaf menu-mlid-31191"><a href="/where-we-work" title="">Where We Work</a></li>
+<li class="leaf menu-mlid-2220"><a href="https://stories.usaid.gov/usaidmap/" title="">Interactive Map</a></li>
+<li class="leaf has-children menu-mlid-5346"><a href="/where-we-work/afghanistan-and-pakistan">Afghanistan and Pakistan</a></li>
+<li class="leaf has-children menu-mlid-1156"><a href="/where-we-work/africa" title="USAID in Africa">Africa</a></li>
+<li class="leaf has-children menu-mlid-1157"><a href="/where-we-work/asia">Asia</a></li>
+<li class="leaf has-children menu-mlid-1159"><a href="/where-we-work/europe-and-eurasia">Europe and Eurasia</a></li>
+<li class="leaf has-children menu-mlid-1160"><a href="/where-we-work/latin-american-and-caribbean">Latin America and the Caribbean</a></li>
+<li class="leaf has-children menu-mlid-1158"><a href="/where-we-work/middle-east">Middle East</a></li>
+<li class="last leaf menu-mlid-30331"><a href="/mission-directory" title="">Mission Directory</a></li>
+</ul></li>
+<li class="expanded menu-mlid-1143"><a href="/reports-and-data" title="USAID is a business-focused development agency focused on results.">Reports and Data</a><ul class="menu"><li class="first leaf has-children menu-mlid-31196"><a href="/reports-and-data" title="">Reports and Data</a></li>
+<li class="leaf menu-mlid-11066"><a href="https://results.usaid.gov" title="">Dollars to Results</a></li>
+<li class="leaf menu-mlid-80031"><a href="/reports-and-data/fisma-quarterly-reporting-update">FISMA Quarterly Reporting Update</a></li>
+<li class="leaf has-children menu-mlid-3614"><a href="/results-and-data/data-resources">Data Resources</a></li>
+<li class="leaf has-children menu-mlid-5341"><a href="/evaluation">Evaluation</a></li>
+<li class="leaf has-children menu-mlid-1502"><a href="/results-and-data/planning">Strategy and Planning</a></li>
+<li class="leaf has-children menu-mlid-1501"><a href="/cj">Budget and Spending</a></li>
+<li class="leaf has-children menu-mlid-2616"><a href="/results-and-data/performance-reporting">Performance &amp; Financial Reporting</a></li>
+<li class="last leaf menu-mlid-75111"><a href="/results-and-data/progress-data/agency-financial-report/fy-2018">FY 2018 Agency Financial Report</a></li>
+</ul></li>
+<li class="expanded menu-mlid-1144"><a href="/news-information" title="The latest updates from the U.S. Agency for International Development">News and Information</a><ul class="menu"><li class="first leaf menu-mlid-31201"><a href="/news-information" title="">News and Information</a></li>
+<li class="leaf menu-mlid-1211"><a href="/news-information/press-releases" title="">Press Releases</a></li>
+<li class="leaf menu-mlid-1213"><a href="/news-information/congressional-testimony" title="">Congressional Testimony</a></li>
+<li class="leaf menu-mlid-1212"><a href="/news-information/speeches-testimony" title="">Speeches</a></li>
+<li class="leaf has-children menu-mlid-25661"><a href="/news-information/photo-gallery" title="">Photo Gallery</a></li>
+<li class="leaf menu-mlid-1556"><a href="https://blog.usaid.gov" title="">The Impact Blog</a></li>
+<li class="leaf menu-mlid-2114"><a href="/news-information/fact-sheets" title="">Fact Sheets</a></li>
+<li class="leaf has-children menu-mlid-25666"><a href="/news-information/videos" title="">Videos</a></li>
+<li class="leaf menu-mlid-73946"><a href="/usaid-leads">USAID Leads</a></li>
+<li class="leaf has-children menu-mlid-14836"><a href="/news-information/events" title="">Events</a></li>
+<li class="leaf menu-mlid-6261"><a href="/news-information/newsletter">Newsletter</a></li>
+<li class="leaf menu-mlid-34091"><a href="/results-data/success-stories" title="">Success Stories</a></li>
+<li class="leaf menu-mlid-49986"><a href="https://stories.usaid.gov" title="Stories and videos">Storytelling Hub</a></li>
+<li class="leaf has-children menu-mlid-3610"><a href="/news-information/frontlines" title="">FrontLines Magazine</a></li>
+<li class="leaf has-children menu-mlid-3509"><a href="/branding">Branding</a></li>
+<li class="leaf menu-mlid-76246"><a href="/news-information/message-manual">Message Manual</a></li>
+<li class="last leaf has-children menu-mlid-2356"><a href="/stayconnected">Stay Connected</a></li>
+</ul></li>
+<li class="last expanded menu-mlid-31206"><a href="/work-usaid" title="">Work With USAID</a><ul class="menu"><li class="first leaf has-children menu-mlid-43386"><a href="/business-forecast">Business Forecast</a></li>
+<li class="leaf menu-mlid-80701"><a href="/work-usaid" title="">Work With USAID</a></li>
+<li class="leaf menu-mlid-21361"><a href="/work-usaid/partnership-opportunities/search-for-opportunities" title="">Available Funding Opportunities</a></li>
+<li class="leaf has-children menu-mlid-77311"><a href="/npi">New Partnerships Initiative</a></li>
+<li class="leaf has-children menu-mlid-47371"><a href="/work-usaid/how-to-work-with-usaid">How to Work with USAID</a></li>
+<li class="leaf menu-mlid-74946"><a href="/work-usaid/private-sector-engagement">Private Sector Engagement</a></li>
+<li class="leaf has-children menu-mlid-47391"><a href="/work-usaid/resources-for-partners">Resources for Partners</a></li>
+<li class="leaf has-children menu-mlid-21331"><a href="/work-usaid/get-grant-or-contract/opportunities-funding" title="">Opportunities for Funding: Grant &amp; Partnership Programs</a></li>
+<li class="leaf has-children menu-mlid-72681"><a href="/PreventingSexualMisconduct">Preventing Sexual Misconduct</a></li>
+<li class="leaf has-children menu-mlid-20061"><a href="/partnership-opportunities/build-partnership-us">Build a Partnership With Us</a></li>
+<li class="leaf has-children menu-mlid-20066"><a href="/partnership-opportunities/bring-us-your-ideas">Bring us Your Ideas</a></li>
+<li class="leaf has-children menu-mlid-4446"><a href="/work-usaid/take-action">Get Involved</a></li>
+<li class="last leaf has-children menu-mlid-5651"><a href="/careers">Careers</a></li>
+</ul></li>
+</ul></div>
+    </div>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+  </div>
+</div></div>  </div>
+  <div class="region region-page-bottom" id="region-page-bottom">
+  <div class="region-inner region-page-bottom-inner">
+      </div>
+</div>
+<script type="text/javascript" src="https://www.usaid.gov/sites/default/files/js/js_pIpuhvtnpMxfZE6VxtQRDGP-LBDRePjVfD4YZR5xZfI.js"></script>
+<script type="text/javascript" src="https://www.usaid.gov/sites/default/files/js/js_uTpGZRbRZm_lrt5640lI88hN-6jGIe3E3hxZcagIuss.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var addthis_config = addthis_config||{};addthis_config.data_track_addressbar = false;addthis_config.data_track_clickback = false;
+//--><!]]>
+</script>
+</body>
+</html>

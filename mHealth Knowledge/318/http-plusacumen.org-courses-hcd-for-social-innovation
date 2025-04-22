@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<!--[if lt IE 9 ]>    <html class="lt-ie9 no-js"  lang="en" dir="ltr"> <![endif]-->
+<!--[if gte IE 9]><!--> <html class="no-js"  lang="en" dir="ltr"  prefix="fb: http://www.facebook.com/2008/fbml
+ og: http://ogp.me/ns#
+ article: http://ogp.me/ns/article#
+ book: http://ogp.me/ns/book#
+ profile: http://ogp.me/ns/profile#
+ video: http://ogp.me/ns/video#
+ product: http://ogp.me/ns/product#
+ content: http://purl.org/rss/1.0/modules/content/
+ dc: http://purl.org/dc/terms/
+ foaf: http://xmlns.com/foaf/0.1/
+ rdfs: http://www.w3.org/2000/01/rdf-schema#
+ sioc: http://rdfs.org/sioc/ns#
+ sioct: http://rdfs.org/sioc/types#
+ skos: http://www.w3.org/2004/02/skos/core#
+ xsd: http://www.w3.org/2001/XMLSchema#
+"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="https://www.plusacumen.org/sites/all/themes/plusacumen/favicon.ico" />
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MRPM3QM');</script>
+<!-- End Google Tag Manager --><meta name="description" content="Human Centered Design 101 is a free 9-week online course by IDEO.org and +Acumen that offers change makers, social entrepreneurs and designers an in depth look at human centric design approaches." />
+<meta name="generator" content="Drupal 7 (https://www.drupal.org)" />
+<link rel="image_src" href="http://www.plusacumen.org/sites/default/files/courses/promoted/Course%20banner17.png" />
+<link rel="canonical" href="https://www.plusacumen.org/courses/introduction-human-centered-design" />
+<link rel="shortlink" href="https://www.plusacumen.org/node/117" />
+<meta property="og:site_name" content="+Acumen" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Human Centered Design 101 — A Course by IDEO &amp; +Acumen" />
+<meta property="og:url" content="https://www.plusacumen.org/courses/introduction-human-centered-design" />
+<meta property="og:description" content="Human Centered Design 101 is a free 9-week online course by IDEO.org and +Acumen that offers change makers, social entrepreneurs and designers an in depth look at human centric design approaches." />
+<meta property="og:updated_time" content="2019-09-17T19:40:00+02:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Human Centered Design 101 — A Course by IDEO &amp; +Acumen" />
+<meta name="twitter:url" content="https://www.plusacumen.org/courses/introduction-human-centered-design" />
+<meta name="twitter:description" content="Human Centered Design 101 is a free 9-week online course by IDEO.org and +Acumen that offers change makers, social entrepreneurs and designers an in depth look at human centric design approaches." />
+<meta name="twitter:image" content="http://www.plusacumen.org/sites/default/files/styles/286_x_227/public/courses/promoted/Course%20banner17.png?itok=P3MD1v5t" />
+<meta name="twitter:image:width" content="286" />
+<meta name="twitter:image:height" content="227" />
+<meta property="article:published_time" content="2013-03-22T17:10:38+01:00" />
+<meta property="article:modified_time" content="2019-09-17T19:40:00+02:00" />
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '192891287312');
+fbq('track', 'PageView');
+fbq('track', 'ViewContent', {"content_type":"product","content_ids":"117"});
+</script>
+<noscript><img height='1' width='1' style='display:none' src='https://www.facebook.com/tr?id=192891287312&ev=PageView&noscript=1' /></noscript>
+<!-- End Facebook Pixel Code -->
+    <title>Human Centered Design 101 — A Course by IDEO & +Acumen</title>
+
+    <link rel="stylesheet" href="https://www.plusacumen.org/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" />
+<link rel="stylesheet" href="https://www.plusacumen.org/sites/default/files/css/css_MHksCD65L8SowIXDY65jEmkgCAR28iUhbAUUe8A1FQc.css" />
+<link rel="stylesheet" href="https://www.plusacumen.org/sites/default/files/css/css_-dIINB4IbdQZCGQBTuGxN8edR-X6yhVvJm7Tg-uW_F8.css" />
+<link rel="stylesheet" href="https://www.plusacumen.org/sites/default/files/css/css_s2NzTmbCKCDa7r4WlnMnJ1W0QMNMgeAblPKMd4GGRac.css" />
+<link rel="stylesheet" href="https://www.plusacumen.org/sites/default/files/css/css_Y6DSDn2Rv_6FxsCaJGgd99UmkqwjqORsXrc4Q5rBKoY.css" />
+    <script src="https://www.plusacumen.org/sites/default/files/js/js_EebRuRXFlkaf356V0T2K_8cnUVfCKesNTxdvvPSEhCM.js"></script>
+<script src="https://www.plusacumen.org/sites/default/files/js/js_POqJm-nZ5ItzN5RdRVkcURWb3EMCkujx1jI43nIRNDE.js"></script>
+<script src="https://www.plusacumen.org/sites/default/files/js/js_CZSkFdUqFsf65MbhtxM2yQ8syhXi8XQp83Tzc3jJMiM.js"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-31615056-1", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
+<script src="https://www.plusacumen.org/sites/default/files/js/js_p9WjUDpJdXbceWFpHfkKh0VdJ5GsDrpQSql_WFBL6c4.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"plusacumen","theme_token":"MgNNQxxy51vXT5ewCzPNE4uau7PxSy7ISomnlIbMHkc","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"sites\/all\/libraries\/slick\/slick\/slick.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/contrib\/tagclouds\/tagclouds.css":1,"sites\/all\/themes\/plusacumen\/layouts\/plus_onecol\/plus_onecol.css":1,"sites\/all\/modules\/contrib\/panels\/plugins\/layouts\/twocol\/twocol.css":1,"sites\/all\/modules\/contrib\/views_accordion\/views-accordion.css":1,"sites\/all\/modules\/contrib\/field_collection\/field_collection.theme.css":1,"sites\/all\/themes\/plusacumen\/frontend\/dist\/css\/style.css":1,"sites\/all\/themes\/plusacumen\/modal.css":1},"js":{"sites\/all\/modules\/contrib\/addthis\/addthis.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"sites\/all\/libraries\/easing\/jquery.easing.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.accordion.min.js":1,"sites\/all\/libraries\/slick\/slick\/slick.min.js":1,"sites\/all\/modules\/contrib\/views_accordion\/views-accordion.js":1,"sites\/all\/modules\/contrib\/slick\/js\/slick.load.min.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/themes\/plusacumen\/frontend\/dist\/js\/global.min.js":1}},"better_exposed_filters":{"views":{"related_courses":{"displays":{"panel_pane_1":{"filters":[]}}},"syllabus":{"displays":{"panel_pane_1":{"filters":[]}}},"faqs":{"displays":{"panel_pane_1":{"filters":[]}}},"course_instructor":{"displays":{"panel_pane_1":{"filters":[]}}},"course_partners":{"displays":{"panel_pane_1":{"filters":[]}}}}},"addthis":{"async":0,"domready":1,"widget_url":"https:\/\/s7.addthis.com\/js\/300\/addthis_widget.js","addthis_config":{"pubid":"","services_compact":"more","services_exclude":"","data_track_clickback":false,"ui_508_compliant":false,"ui_click":false,"ui_cobrand":"","ui_delay":0,"ui_header_background":"","ui_header_color":"","ui_open_windows":false,"ui_use_css":true,"ui_use_addressbook":false,"ui_language":"en"},"addthis_share":{"templates":{"twitter":"{{title}} {{url}}"}}},"views_accordion":{"views-accordion-syllabus-panel_pane_1":{"collapsible":1,"rowstartopen":false,"animated":"slide","autoheight":0,"event":"click","fillspace":0,"navigation":0,"clearstyle":0,"grouping":0,"display":"panel_pane_1","viewname":"syllabus","usegroupheader":0,"header":".views-accordion-header","newoptions":false},"views-accordion-faqs-panel_pane_1":{"collapsible":1,"rowstartopen":false,"animated":"slide","autoheight":0,"event":"click","fillspace":0,"navigation":0,"clearstyle":0,"grouping":0,"display":"panel_pane_1","viewname":"faqs","usegroupheader":0,"header":".views-accordion-header","newoptions":false}},"slick":{"accessibility":true,"adaptiveHeight":false,"autoplay":false,"autoplaySpeed":3000,"pauseOnHover":true,"pauseOnDotsHover":false,"arrows":true,"centerMode":false,"centerPadding":"50px","dots":false,"dotsClass":"slick-dots","draggable":true,"fade":false,"focusOnSelect":false,"infinite":true,"initialSlide":0,"lazyLoad":"ondemand","mousewheel":false,"randomize":false,"rtl":false,"rows":1,"slidesPerRow":1,"slide":"","slidesToShow":1,"slidesToScroll":1,"speed":500,"swipe":true,"swipeToSlide":false,"edgeFriction":0.35,"touchMove":true,"touchThreshold":5,"useCSS":true,"cssEase":"ease","useTransform":true,"easing":"linear","variableWidth":false,"vertical":false,"verticalSwiping":false,"waitForAnimate":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"urlIsAjaxTrusted":{"\/courses\/introduction-human-centered-design":true},"CToolsModal":{"closeImage":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022https:\/\/www.plusacumen.org\/sites\/all\/themes\/plusacumen\/img\/cancel.png\u0022 alt=\u0022Close window\u0022 title=\u0022Close window\u0022 \/\u003E","modalSize":{"type":"fixed","width":600,"height":500,"addWidth":10,"addHeight":10,"contentRight":0,"contentBottom":0}}});</script>
+  </head>
+  <body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-117 node-type-course" >
+    <div id="skip-link">
+      <a href="#main" class="element-invisible element-focusable" role="link">Skip to main content</a>
+    </div>
+    <div
+        class="fb-customerchat"
+        page_id="898154763577504"
+        ref="+Acumen">
+</div><!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MRPM3QM"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->    
+  <header id="header" role="banner" class="header">
+    <div class="region-inner">
+      <i class="header__toggle-menu"></i>
+        <span id="logo">
+  <a href="/" title="+Acumen" rel="home">
+    <img typeof="foaf:Image" src="https://www.plusacumen.org/sites/all/themes/plusacumen/img/logo.svg" alt="+Acumen Logo" />  </a>
+</span>
+<div id="block-search-form" class="block block-search">
+
+    
+  <div class="content">
+    <form action="/courses/introduction-human-centered-design" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-searchfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="search" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text form-search" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-w8pbto_m8iyp2Qoh4o_ba-i23I55fN13JguqkRzopFY" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-system-main-menu" class="block block-system block-menu">
+
+    
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="/courses">Our Courses</a></li>
+<li class="leaf"><a href="/success-stories">Success Stories</a></li>
+<li class="leaf"><a href="/journal">Journal</a></li>
+<li class="leaf"><a href="/about">About Us</a></li>
+<li class="leaf"><a href="/partners">Partners</a></li>
+<li class="leaf"><a href="/faq">FAQ</a></li>
+<li class="leaf"><a href="/current-courses-login">Log in</a></li>
+<li class="leaf"><a href="/search" class="icons-search"></a></li>
+<li class="leaf social-icon"><a href="https://www.facebook.com/PlusAcumen/" class="icons-facebook"></a></li>
+<li class="last leaf social-icon"><a href="https://twitter.com/plusacumen" class="icons-twitter"></a></li>
+</ul>  </div>
+</div>
+    </div>
+  </header>
+
+
+  <main id="main" role="main" class="main">
+    <div id="main-content-container" class="region-inner">
+        <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div class="panel-display panel-1col clearfix" >
+  
+  
+      <div class="panel-panel panel-col panel-col-bottom">
+      <div class="region-inner pane-content">
+        <div class="panel-pane pane-entity-field pane-node-field-hero-image fullwidth-pane"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="pane-content-inside">
+      <div class="field field-name-field-hero-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><div id="file-768" class="file file-image file-image-png">
+
+        <h2 class="element-invisible"><a href="/files/course-banner17png-0">Course banner17.png</a></h2>
+    
+  
+  <div class="content">
+    <img typeof="foaf:Image" src="https://www.plusacumen.org/sites/default/files/courses/hero/Course%20banner17_0.png" width="3000" height="917" alt="" />  </div>
+
+  
+</div>
+</div></div></div>    </div>
+  </div>
+
+  
+  </div>
+
+<div class="panel-pane pane-panels-mini pane-course-top-section"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="pane-content-inside">
+      <div class="panel-display panel-2col clearfix" id="mini-panel-course_top_section">
+  <div class="panel-panel panel-col-first">
+    <div class="inside"><div class="panel-pane pane-entity-field pane-node-field-category"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="pane-content-inside">
+      <div class="field field-name-field-category field-type-taxonomy-term-reference field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/courses/%3Ftopic%3D31" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Creativity &amp; Design</a></div></div></div>    </div>
+  </div>
+
+  
+  </div>
+
+<div class="panel-pane pane-entity-field pane-node-field-master-class"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="pane-content-inside">
+      <div class="field field-name-field-master-class field-type-list-boolean field-label-hidden"><div class="field-items"><div class="field-item even"></div></div></div>    </div>
+  </div>
+
+  
+  </div>
+
+<div class="panel-pane pane-node-title"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="pane-content-inside">
+      <h1>Introduction to Human-Centered Design</h1>
+    </div>
+  </div>
+
+  
+  </div>
+
+<div class="panel-pane pane-entity-field pane-node-body"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="pane-content-inside">
+      <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><b>Learn from IDEO.org to use human-centered design for social innovation</b></p>
+</div></div></div>    </div>
+  </div>
+
+  
+  </div>
+
+<div class="panel-pane pane-entity-field pane-node-field-addthis-widget"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="pane-content-inside">
+      <div class="field field-name-field-addthis-widget field-type-addthis field-label-hidden"><div class="field-items"><div class="field-item even"><div class="addthis_toolbox addthis_default_style  " addthis:title="Introduction to Human-Centered Design - +Acumen" addthis:url="https://www.plusacumen.org/courses/introduction-human-centered-design"><a href="https://www.addthis.com/bookmark.php?v=300" class="addthis_button_facebook"></a>
+<a href="https://www.addthis.com/bookmark.php?v=300" class="addthis_button_twitter"></a>
+<a href="https://www.addthis.com/bookmark.php?v=300" class="addthis_button_email"></a>
+<a href="https://www.addthis.com/bookmark.php?v=300" class="addthis_button_more"></a>
+</div>
+</div></div></div>    </div>
+  </div>
+
+  
+  </div>
+</div>
+  </div>
+
+  <div class="panel-panel panel-col-last">
+    <div class="inside"><div class="panel-pane pane-entity-field pane-node-field-course-details"  >
+  
+        <h2 class="pane-title">
+      Course Details    </h2>
+    
+  
+  <div class="pane-content">
+    <div class="pane-content-inside">
+      <div class="field field-name-field-course-details field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><ul class="course-deets"><li><strong>Price:</strong> FREE</li>
+<li><strong>Start Date:</strong> Sept 24, 2019</li>
+<li><strong>Time:</strong> 4 hours/week</li>
+<li><strong>Duration:</strong> 9 weeks</li>
+<li><strong>Partner:</strong> IDEO.org</li>
+</ul></div></div></div>    </div>
+  </div>
+
+  
+  </div>
+
+<div class="panel-pane pane-registration-link"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="pane-content-inside">
+      <a href="https://api.novoed.com/design-kit-2019-3" class="enroll-button" target="_blank">ENROLL NOW</a>    </div>
+  </div>
+
+  
+  </div>
+
+<div class="panel-pane pane-entity-field pane-node-field-course-login-url"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="pane-content-inside">
+      <div class="field field-name-field-course-login-url field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a href="https://api.novoed.com/design-kit-2019-3/home" target="_blank" title="nofollow">Login</a></div></div></div>    </div>
+  </div>
+
+  
+  </div>
+</div>
+  </div>
+</div>
+    </div>
+  </div>
+
+  
+  </div>
+
+<div class="panel-pane pane-panels-mini pane-course-bottom-section"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="pane-content-inside">
+      <div class="panel-display panel-2col clearfix" id="mini-panel-course_bottom_section">
+  <div class="panel-panel panel-col-first">
+    <div class="inside"><div class="panel-pane pane-entity-field pane-node-field-course-video"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="pane-content-inside">
+      <div class="field field-name-field-course-video field-type-video-embed-field field-label-hidden"><div class="field-items"><div class="field-item even">
+<div class="embedded-video">
+  <div class="player">
+    <iframe class="" id="vimeo-106505300" width="640" height="360" src="//player.vimeo.com/video/106505300?width=640&amp;height=360&amp;color=00adef&amp;portrait=1&amp;title=1&amp;byline=1&amp;autoplay=0&amp;loop=0&amp;player_id=vimeo-106505300" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>  </div>
+</div>
+</div></div></div>    </div>
+  </div>
+
+  
+  </div>
+
+<div class="panel-pane pane-node-body"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="pane-content-inside">
+      <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><h2>What You’ll Learn:</h2>
+<ul><li>Master the 4 steps of the human-centered design process to create innovative solutions to real-world challenges</li>
+<li>Build an effective interview guide to learn and document your user research</li>
+<li>Gain strategies for synthesizing your user research and identifying opportunities for design</li>
+<li>Practice creative techniques to build rapid prototypes and make your ideas come to life</li>
+<li>Learn to effectively test your prototypes with real users and identify promising solutions to begin implementing</li>
+</ul><h2>Description:</h2>
+<p>Human-centered design (HCD) is a creative approach to problem solving pioneered by the design firm IDEO.</p>
+<p>This is an intensive, hands-on learning experience that will challenge you to get out of your chair and out into the real world to talk to people and test your ideas. You’ll leave this experience equipped and energized to apply the human-centered design process to challenges across industries, sectors, and geographies to generate breakthrough ideas.</p>
+<h2>Format and Timing:</h2>
+<ul><li><strong>Team-Based Course: </strong>We strongly encourage (but do not require) that you form a team of 2-8 people to take the course with. It works best to find friends or coworkers who can meet in person. Need to find team members? You can post to the discussion forums a month before the course starts.</li>
+<li><strong>Platform</strong>: NovoEd (+Acumen developed the course. We host this course on the NovoEd platform.)</li>
+<li><strong>Timing</strong>: This course will be open for 9 weeks. You can work through the materials at your own pace during the time the course is open. There are no required times for you to log in. There will be suggested deadlines for you to complete each assignment. The final deadline is the final day of the course.</li>
+</ul></div></div></div>    </div>
+  </div>
+
+  
+  </div>
+
+<div class="panel-pane pane-entity-field pane-node-field-course-syllabus-file"  >
+  
+        <h2 class="pane-title">
+      Course Syllabus    </h2>
+    
+  
+  <div class="pane-content">
+    <div class="pane-content-inside">
+      <div class="field field-name-field-course-syllabus-file field-type-file field-label-hidden"><div class="field-items"><div class="field-item even"><span class="file"><img class="file-icon" alt="PDF icon" title="application/pdf" src="/modules/file/icons/application-pdf.png" /> <a href="/file/1047/download?token=DW45_CjK" type="application/pdf; length=3101574">Download</a> <span class="file-size">(2.96 MB)</span></span></div></div></div>    </div>
+  </div>
+
+  
+  </div>
+
+<div class="panel-pane pane-views-panes pane-syllabus-panel-pane-1"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="pane-content-inside">
+      <div class="view view-syllabus view-id-syllabus view-display-id-panel_pane_1 view-dom-id-7c2a5286e6009193012018a52cf8ebbd">
+        
+  
+  
+      <div class="view-content">
+        <div class="">
+      
+  <div class="views-accordion-header">        <div class="field field-name-field-syllabus-item-title field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">LEARNING TOOLS</div></div></div>  </div>  
+          <div class="field field-name-field-syllabus-item field-type-text field-label-hidden"><div class="field-items"><div class="field-item even"><ul class="textformatter-list"><li class="first">5 reading guides</li>
+<li>5 workshop guides to structure your own human-centered design project</li>
+<li>7 videos featuring Tim Brown, David Kelley, Patrice Martin of IDEO, and more</li>
+<li class="last">Supplemental resources</li>
+</ul></div></div></div>    </div>
+  <div class="">
+      
+  <div class="views-accordion-header">        <div class="field field-name-field-syllabus-item-title field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">Section 1: Introduction to Human-Centered Design</div></div></div>  </div>  
+          <div class="field field-name-field-syllabus-item field-type-text field-label-hidden"><div class="field-items"><div class="field-item even"><ul class="textformatter-list"><li class="first">Introduction and the Beginner’s Mind</li>
+<li>Icebreaker: Visual Telephone</li>
+<li>Discussion: Introduction to Human-Centered Design</li>
+<li class="last">Activity: Mini Design Challenge to Design a Better Commute</li>
+</ul></div></div></div>    </div>
+  <div class="">
+      
+  <div class="views-accordion-header">        <div class="field field-name-field-syllabus-item-title field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">Section 2: Inspiration Phase</div></div></div>  </div>  
+          <div class="field field-name-field-syllabus-item field-type-text field-label-hidden"><div class="field-items"><div class="field-item even"><ul class="textformatter-list"><li class="first">Activity: Choose Your Design Challenge</li>
+<li>Discussion: Team Knowledge and Key Assumptions</li>
+<li>Activity: Plan Your Research</li>
+<li>Activity: Build an Interview Guide</li>
+<li class="last">Activity: Conduct Your Research</li>
+</ul></div></div></div>    </div>
+  <div class="">
+      
+  <div class="views-accordion-header">        <div class="field field-name-field-syllabus-item-title field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">Section 3: Ideation Phase</div></div></div>  </div>  
+          <div class="field field-name-field-syllabus-item field-type-text field-label-hidden"><div class="field-items"><div class="field-item even"><ul class="textformatter-list"><li class="first">Discussion: Share Stories and Learnings from User Research</li>
+<li>Activity: Cluster Insights into Themes</li>
+<li>Activity: Create Insights Statements</li>
+<li class="last">Activity: Create ‘How Might We’ Questions</li>
+</ul></div></div></div>    </div>
+  <div class="">
+      
+  <div class="views-accordion-header">        <div class="field field-name-field-syllabus-item-title field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">Section 4: Prototyping Phase</div></div></div>  </div>  
+          <div class="field field-name-field-syllabus-item field-type-text field-label-hidden"><div class="field-items"><div class="field-item even"><ul class="textformatter-list"><li class="first">Activity: Brainstorm</li>
+<li>Activity: Select Your Best Ideas</li>
+<li>Activity: Gut Check</li>
+<li>Activity: Create a Storyboard</li>
+<li>Discussion: Determine What to Prototype</li>
+<li>Activity: Start Prototyping</li>
+<li class="last">Activity: Test Your Prototype and Get Feedback </li>
+</ul></div></div></div>    </div>
+  <div class="">
+      
+  <div class="views-accordion-header">        <div class="field field-name-field-syllabus-item-title field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">Section 5: Implementation Phase</div></div></div>  </div>  
+          <div class="field field-name-field-syllabus-item field-type-text field-label-hidden"><div class="field-items"><div class="field-item even"><ul class="textformatter-list"><li class="first">Activity: Create an Action Plan</li>
+<li>Activity: Create a Pitch</li>
+<li>Activity: Share Your Solution</li>
+<li>Reflection</li>
+<li class="last">Discussion: Moving Forward </li>
+</ul></div></div></div>    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+
+  
+  </div>
+
+<div class="panel-pane pane-registration-link"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="pane-content-inside">
+      <a href="https://api.novoed.com/design-kit-2019-3" class="enroll-button" target="_blank">ENROLL NOW</a>    </div>
+  </div>
+
+  
+  </div>
+
+<div class="panel-pane pane-views-panes pane-faqs-panel-pane-1"  >
+  
+      
+  
+  <div class="pane-content">
+    <div class="pane-content-inside">
+      <div class="view view-faqs view-id-faqs view-display-id-panel_pane_1 faqs-panel view-dom-id-19d4bfb230a6d9b4bc9f9988f48e4385">
+        
+  
+  
+      <div class="view-content">
+        <div class="">
+      
+  <div class="views-field views-field-field-response">        <div class="field-content"></div>  </div>  </div>
+  <div class="">
+      
+  <div class="views-field views-field-field-response">        <div class="field-content"></div>  </div>  </div>
+  <div class="">
+      
+  <div class="views-field views-field-field-response">        <div class="field-content"></div>  </div>  </div>
+  <div class="">
+      
+  <div class="views-field views-field-field-response">        <div class="field-content"></div>  </div>  </div>
+  <div class="">
+      
+  <div class="views-field views-field-field-response">        <div class="field-content"></div>  </div>  </div>
+  <div class="">
+      
+  <div class="views-field views-field-field-response">        <div class="field-content"></div>  </div>  </div>
+  <div class="">
+      
+  <div class="views-field views-field-field-response">        <div class="field-content"></div>  </div>  </div>
+  <div class="">
+      
+  <div class="views-field views-field-field-response">        <div class="field-content"></div>  </div>  </div>
+  <div class="">
+      
+  <div class="views-field views-field-field-response">        <div class="field-content"></div>  </div>  </div>
+  <div class="">
+      
+  <div class="views-field views-field-field-response">        <div class="field-content"></div>  </div>  </div>
+  <div class="">
+      
+  <div class="views-field views-field-field-response">        <div class="field-content"></div>  </div>  </div>
+  <div class="">
+      
+  <div class="views-field views-field-field-response">        <div class="field-content"></div>  </div>  </div>
+  <div class="">
+      
+  <div class="views-field views-field-field-response">        <div class="field-content"></div>  </div>  </div>
+  <div class="">
+      
+  <div class="views-field views-field-field-response">        <div class="field-content"></div>  </div>  </div>
+  <div class="">
+      
+  <div class="views-field views-field-field-response">        <div class="field-content"></div>  </div>  </div>
+  <div class="">
+      
+  <div class="views-field views-field-field-response">        <div class="field-content"></div>  </div>  </div>
+  <div class="">
+      
+  <div class="views-field views-field-field-response">        <div class="field-content"></div>  </div>  </div>
+  <div class="">
+      
+  <div class="views-field views-field-field-response">        <div class="field-content"></div>  </div>  </div>
+  <div class="">
+      
+  <div class="views-field views-field-field-response">        <div class="field-content"></div>  </div>  </div>
+  <div class="">
+      
+  <div class="views-field views-field-field-response">        <div class="field-content"></div>  </div>  </div>
+  <div class="">
+      
+  <div class="views-field views-field-field-response">        <div class="field-content"></div>  </div>  </div>
+  <div class="">
+      
+  <div class="views-field views-field-field-response">        <div class="field-content"></div>  </div>  </div>
+  <div class="">
+      
+  <div class="views-field views-field-field-response">        <div class="field-content"></div>  </div>  </div>
+  <div class="">
+      
+  <div class="views-field views-field-field-response">        <div class="field-content"></div>  </div>  </div>
+  <div class="">
+      
+  <div class="views-field views-field-field-response">        <div class="field-content"></div>  </div>  </div>
+  <div class="">
+      
+  <div class="views-field views-field-field-response">        <div class="field-content"></div>  </div>  </div>
+  <div class="">
+      
+  <div class="views-field views-field-field-response">        <div class="field-content"></div>  </div>  </div>
+  <div class="">
+      
+  <div class="views-field views-field-field-response">        <div class="field-content"></div>  </div>  </div>
+  <div class="">
+      
+  <div class="views-field views-field-field-response">        <div class="field-content"></div>  </div>  </div>
+  <div class="">
+      
+  <div class="views-field views-field-field-response">        <div class="field-content"></div>  </div>  </div>
+  <div class="">
+      
+  <div class="views-field views-field-field-response">        <div class="field-content"></div>  </div>  </div>
+  <div class="">
+      
+  <div class="views-field views-field-field-response">        <div class="field-content"></div>  </div>  </div>
+  <div class="">
+      
+  <div class="views-field views-field-field-response">        <div class="field-content"></div>  </div>  </div>
+  <div class="">
+      
+  <div class="views-field views-field-field-response">        <div class="field-content"></div>  </div>  </div>
+  <div class="">
+      
+  <div class="views-field views-field-field-response">        <div class="field-content"></div>  </div>  </div>
+  <div class="">
+      
+  <div class="views-field views-field-field-response">        <div class="field-content"></div>  </div>  </div>
+  <div class="">
+      
+  <div class="views-field views-field-field-response">        <div class="field-content"></div>  </div>  </div>
+  <div class="">
+      
+  <div class="views-field views-field-field-response">        <div class="field-content"></div>  </div>  </div>
+  <div class="">
+      
+  <div class="views-field views-field-field-response">        <div class="field-content"></div>  </div>  </div>
+  <div class="">
+      
+  <div class="views-field views-field-field-response">        <div class="field-content"></div>  </div>  </div>
+  <div class="">
+      
+  <div class="views-field views-field-field-question views-accordion-header">        <div class="field-content">The course already started. Can I still enroll?</div>  </div>  
+  <div class="views-field views-field-field-response">        <div class="field-content">You can enroll up to 2 weeks after the start date of the course. </div>  </div>  </div>
+  <div class="">
+      
+  <div class="views-field views-field-field-question views-accordion-header">        <div class="field-content">When will the next course be offered?</div>  </div>  
+  <div class="views-field views-field-field-response">        <div class="field-content">We offer our courses a few times a year. Sign up for our emails to be notified of the next time the course will be offered.</div>  </div>  </div>
+  <div class="">
+      
+  <div class="views-field views-field-field-question views-accordion-header">        <div class="field-content">Do I get a certificate for this course?</div>  </div>  
+  <div class="views-field views-field-field-response">        <div class="field-content">You will earn a Statement of Accomplishment if you complete 5 of 6 assignments, including the final assignment, by the last day of the course.</div>  </div>  </div>
+  <div class="">
+      
+  <div class="views-field views-field-field-question views-accordion-header">        <div class="field-content">How do teams work?</div>  </div>  
+  <div class="views-field views-field-field-response">        <div class="field-content">We recommend you find friends or colleagues for your team that you can meet with in person each week. Each team member should register for the course individually. You’ll then be able to form your team on the NovoEd platform once the course begins.</div>  </div>  </div>
+  <div class="">
+      
+  <div class="views-field views-field-field-question views-accordion-header">        <div class="field-content">Do I have to complete the course with a team?</div>  </div>  
+  <div class="views-field views-field-field-response">        <div class="field-content">While we believe taking the course with a team will give you the best experience and chance of completing the course, it is possible to complete the course individually if you wish.</div>  </div>  </div>
+  <div class="">
+      
+  <div class="views-field views-field-field-question views-accordion-header">        <div class="field-content">What should I expect from the assignments?</div>  </div>  
+  <div class="views-field views-field-field-response">        <div class="field-content">You will create a Life Map, develop your own personal story, integrate it into a larger presentation, and record your presentation for feedback from your classmates. You should allocate at least one hour a week to complete each assignment.</div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+
+  
+  </div>
+</div>
+  </div>
+
+  <div class="panel-panel panel-col-last">
+    <div class="inside"><div class="panel-pane pane-views-panes pane-course-partners-panel-pane-1"  >
+  
+        <h2 class="pane-title">
+      Supported By    </h2>
+    
+  
+  <div class="pane-content">
+    <div class="pane-content-inside">
+      <div class="view view-course-partners view-id-course_partners view-display-id-panel_pane_1 view-dom-id-73506fb7eba3b55969d056d2748656b1">
+        
+  
+  
+      <div class="view-content">
+            <div class="slick slick--less slick--optionset--default unslick" id="slick-views-course-partners-1">
+  
+          <div class="slick__slide slide slide--0">                    
+          <div class="field field-name-field-partner-logo field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img typeof="foaf:Image" src="https://www.plusacumen.org/sites/default/files/styles/medium/public/partners/logos/Ideo.png?itok=whtDcIVV" width="220" height="120" alt="IDEO.org" title="IDEO.org a non-profit branch of IDEO" /></div></div></div>    
+  <div class="views-field views-field-description">        <div class="field-content"><p>IDEO.org is the nonprofit arm of the world-renowned design firm, IDEO.  They design products, services, and experiences to improve the lives of people in poor and vulnerable communities. They are experts in human-centered design, a creative approach to problem solving.</p>
+</div>  </div>  
+          <div class="field field-name-field-partner-website field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a href="http://ideo.org" target="_blank">VISIT WEBSITE</a></div></div></div>              
+      
+      </div>    
+  </div>
+      </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+
+  
+  </div>
+
+<div class="panel-pane pane-entity-field pane-node-field-testimonial"  >
+  
+        <h3 class="pane-title">
+      What People Are Saying    </h3>
+    
+  
+  <div class="pane-content">
+    <div class="pane-content-inside">
+      <div class="field-collection-container clearfix"><div class="field field-name-field-testimonial field-type-field-collection field-label-hidden"><div class="field-items"><div class="field-item even"><div class="field-collection-view clearfix view-mode-full field-collection-view-final"><div class="field field-name-field-headshot-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img typeof="foaf:Image" src="https://www.plusacumen.org/sites/default/files/styles/circular_image_130/public/testimonials/headshots/Veronica%20Polinedrio%2C%20Co-Founder%20of%20the%20Welcome%20Card_0.jpg?itok=55nNzYKj" width="130" height="130" alt="Veronica Polinedrio, Co-Founder of the Welcome Card" title="Veronica Polinedrio, Co-Founder of the Welcome Card" /></div></div></div><div class="field field-name-field-testimonial-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p><style type="text/css">
+<!--/*--><![CDATA[/* ><!--*/
+<!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->
+
+/*--><!]]>*/
+</style></p><p>"The course has been extremely engaging and informative, and [we] were enthusiastic at the end of the course for the new knowledge and inspiring examples that the online community proposed."</p>
+</div></div></div><div class="field field-name-field-testimonial-credit field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">Veronica Polinedrio, Co-Founder of the Welcome Card</div></div></div></div></div></div></div></div>    </div>
+  </div>
+
+  
+  </div>
+</div>
+  </div>
+</div>
+    </div>
+  </div>
+
+  
+  </div>
+      </div>
+    </div>
+  
+    <div class="clearfix"></div>
+    <div class="region region-1col-fullwidth_bottom">
+      <div class="region-inner pane-content">
+        <div class="panel-pane pane-views-panes pane-related-courses-panel-pane-1"  >
+  
+        <h2 class="pane-title">
+      People who took this course also took    </h2>
+    
+  
+  <div class="pane-content">
+    <div class="pane-content-inside">
+      <div class="view view-related-courses view-id-related_courses view-display-id-panel_pane_1 view-dom-id-53ca62ad0d9a8e9b48e511e77f43d029">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+          <div class="field field-name-field-promoted-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/courses/prototyping"><img typeof="foaf:Image" src="https://www.plusacumen.org/sites/default/files/styles/286_x_227/public/courses/promoted/Course%20banner16.png?itok=TQQ27Zs2" width="286" height="227" alt="Human-Centered Design 201: Prototyping" /></a></div></div></div>    
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/courses/prototyping">Human-Centered Design 201: Prototyping</a></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+          <div class="field field-name-field-promoted-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/courses/facilitator%E2%80%99s-guide-human-centered-design"><img typeof="foaf:Image" src="https://www.plusacumen.org/sites/default/files/styles/286_x_227/public/courses/promoted/Course%20banner25.png?itok=8gRFG4Ow" width="286" height="227" alt="Facilitator’s Guide Human Centered Design" /></a></div></div></div>    
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/courses/facilitator%E2%80%99s-guide-human-centered-design">Facilitator’s Guide to Human-Centered Design </a></span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+          <div class="field field-name-field-promoted-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/courses/dan-ariely-changing-customer-behavior"><img typeof="foaf:Image" src="https://www.plusacumen.org/sites/default/files/styles/286_x_227/public/courses/promoted/Course%20banner21.png?itok=KVS_RngX" width="286" height="227" alt="Dan Ariely on Changing Customer Behavior" /></a></div></div></div>    
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/courses/dan-ariely-changing-customer-behavior">Dan Ariely on Changing Customer Behavior</a></span>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+          <div class="field field-name-field-promoted-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/courses/lean-for-social-impact"><img typeof="foaf:Image" src="https://www.plusacumen.org/sites/default/files/styles/286_x_227/public/courses/promoted/Course%20banner26.png?itok=9EaNrS2g" width="286" height="227" alt="Lean Startup Principles for the Social Sector" /></a></div></div></div>    
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/courses/lean-for-social-impact">Lean Startup Principles for the Social Sector</a></span>  </div>  </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+      
+          <div class="field field-name-field-promoted-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/courses/adam-grant-developing-original-ideas"><img typeof="foaf:Image" src="https://www.plusacumen.org/sites/default/files/styles/286_x_227/public/courses/promoted/Course%20banner19.png?itok=BL2VCe6k" width="286" height="227" alt="Adam Grant on Developing Original Ideas" /></a></div></div></div>    
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/courses/adam-grant-developing-original-ideas">Adam Grant on Developing Original Ideas</a></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+
+  
+  </div>
+      </div>
+    </div>
+  </div>
+
+
+  </div>
+</div>
+    </div>
+  </main>
+
+
+
+
+<footer id="footer" role="contentinfo" class="footer">
+  <div class="region-inner">
+          <div class="footer-left">
+          <div id="block-block-1" class="block block-block">
+
+    
+  <div class="content">
+    <p><a href="https://www.plusacumen.org/"><img alt="" src="https://www.plusacumen.org/sites/default/files/plusacumen-footer-logo-145x25.svg" /></a></p>
+<h6>An Initiative of Acumen</h6>
+  </div>
+</div>
+      </div>
+              <div class="footer-center">
+          <div id="block-menu-menu-footer-internal-links" class="block block-menu">
+
+    
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="/about">About Us</a></li>
+<li class="leaf"><a href="https://www.classy.org/checkout/donation?eid=129265">Donate</a></li>
+<li class="last leaf"><a href="http://acumen.org/">acumen.org</a></li>
+</ul>  </div>
+</div>
+<div id="block-menu-menu-footer-external-links" class="block block-menu">
+
+    
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="/copyright">COPYRIGHT</a></li>
+<li class="leaf"><a href="/current-courses-login">Login</a></li>
+<li class="leaf"><a href="/privacy-policy">Privacy Policy</a></li>
+<li class="last leaf"><a href="https://www.plusacumen.org/terms-of-use">Terms of Use</a></li>
+</ul>  </div>
+</div>
+      </div>
+              <div class="footer-right">
+          <div id="block-menu-menu-social-menu-footer" class="block block-menu">
+
+    
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="https://www.facebook.com/PlusAcumen/" class="icons-facebook" target="_blank"></a></li>
+<li class="leaf"><a href="https://twitter.com/plusacumen?lang=en" class="icons-twitter" target="_blank"></a></li>
+<li class="last leaf"><a href="https://www.youtube.com/channel/UCiwxYlb5WgeTHjlb5Q7U3Qg" class="icons-youtube" target="_blank"></a></li>
+</ul>  </div>
+</div>
+<div id="block-block-2" class="block block-block">
+
+    
+  <div class="content">
+    <p><a href="mailto:courses@plusacumen.org">courses@plusacumen.org</a><br />
+ </p>
+  </div>
+</div>
+      </div>
+      </div>
+</footer>
+
+    <script src="https://www.plusacumen.org/sites/default/files/js/js_MLVgtzZ1ORq9krYqkeOsRay6ou_T-0QZytivuM9tTT8.js"></script>
+  </body>
+</html>

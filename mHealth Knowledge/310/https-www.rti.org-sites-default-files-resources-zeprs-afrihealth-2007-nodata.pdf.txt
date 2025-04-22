@@ -1,0 +1,250 @@
+ZEPRS: Zambian Electronic Perinatal Medical 
+Records System
+Presenter: Niamh Darcy
+Date: September 2007
+Time: 14:00 – 14:30
+RTI International is a trade name of Research Triangle Institute
+Funding for this work graciously provided by the 
+1
+Context: 2002
+• Maternal mortality rate 940/1000
+• Lifetime risk of death in pregnancy 1/25
+• Disability Adjusted Life Years (DALY) at 
+birth 30.7
+• Virtually all modern health care for 2 
+million women in Lusaka provided by 23 
+clinics and the University Teaching 
+Hospital (UTH)
+• 13 of 23 clinics provide antenatal care, 9 
+with labor wards
+• 47,000 estimated total obstetric cases 
+(2002)
+• All medical records on paper
+• Patients may move among clinics, but 
+limited sharing of patient records Children outside Chainda Clinic, 
+• No central database for monitoring patient Lusaka
+population or quality of care
+2
+Scope, Funding, Client
+• Scope
+– Lusaka, Zambia
+– 23 public health clinics – ZEPRS
+– University teaching hospital
+– Central Board of Health 
+– Center for Infectious Disease Research 
+in Zambia (CIDRZ)
+– Lusaka Urban District Health 
+Management Team (LUDHMT)
+• Donor
+– Bill & Melinda Gates Foundation –
+• Client Funding
+– University of Alabama Birmingham –
+US $2.7 million (2002-Sept 2006); US 
+$70K (Oct 2006 – present)
+3
+Key Problems & Proposed Solution
+Key Problems
+ Almost impossible to systematically assess 
+care delivery
+ Surveillance data limited to simple cross-
+sectional statistics, such as how many 
+stillbirths or pregnancy-attributable maternal 
+deaths occur in a given month
+ Even available statistics were suspect
+ Occasional failure to test and frequent failure 
+to follow up patients diagnosed with STDs
+ Limited sharing of patient records between 
+facilities
+ No central database for monitoring patient 
+population or quality of care
+Proposed solution
+Patient file storage at University 
+ Electronic-first perinatal record system
+Patient records shared among facilities Teaching Hospital, Lusaka
+ Centralized patient records database
+In 2005 only one-quarter of office-based physicians in the U.S. used a fully or partially electronic medical record system. (Burt, Catharine W., 
+Hing, Esther, and Woodwell, David. U.S. National Center for Health Statistics, 2005.) 
+4
+Challenges
+Telecommunications
+ Weak landline infrastructure
+ Congested 2.4GHz wireless 
+segment
+Clinics
+ Dusty, congested
+ 7 of 23 clinics had telephone lines 
+ All clinics with VHF radio for voice
+Personnel
+ Low computer literacy
+ Very stressed due to patient load
+ High medical staff turn-over
+Electrical Clinician at the door of the 
+ Inadequate electrical systems at all Prisons Kamwala Clinic in 2002.
+points, no backup power, No 
+lightening protection
+ Poorly regulated grid (Frequent 
+power outages) 
+5
+Wireless Network
+ 27km diameter 
+hub-and-spoke 
+line-of-sight 
+wireless network
+ 3 – 9 PCs in 
+each clinic
+ Voice (VoIP) 
+and data 
+communication 
+for all facilities
+Satellite image 
+of Lusaka 
+showing 
+ZEPRS 
+wireless 
+network links
+6
+ZEPRS Key Concepts
+• Guides medical personnel through Zambian 
+standard of perinatal care 
+• Concept of “flows” within the system and related 
+data (user driven)
+• Shared terminal usage
+• Usage of ZEPRS data for quality assurance and 
+supervision (export to SPSS, SAS..)
+• Patient confidentiality
+• Adaptability/Extensibility of ZEPRS system –
+open source (HIV/ART, Safe Motherhood)
+• Using mini applications to build computing skills
+7
+ZEPRS Key medical features
+• Safe Motherhood
+• Pregnancies linked together
+– Convert typical visit to problem visit
+– Graphical Partograph (matches WHO partograph)
+– Patient Referral System
+– Use of EDD/EGA calculation and update in display (with options for 
+manual over-ride) – very useful automation for nurses
+– Antenatal and Postnatal card generation (supports patient mobility)
+– Infants linked to mother for each separate pregnancy
+• Reports
+• Problem Management including problems across multiple 
+pregnancies 
+8
+ZEPRS Home page
+9
+Patient Status
+10
+Chart: Routine Antenatal visits
+11
+Safe Motherhood: Regimen 
+Results
+12
+Partograph: Complex data entry 
+with simple user interface
+Tracking Cervix/Decent plot
+Entering 
+Result:
+data:
+13
+ANC Monthly Report
+14
+70 7- 0n -u nJ uJ
+70 7- 0y -a ya
+M M
+70- 7r 0-p rA pA
+70- 7r 0-a r
+M a M
+70- 7b 0-e bF e
+7 F0- 7n 0a -J naJ
+60- 6c 0e -
+D ce
+6 D0- 6v 0o -
+N vo
+6 N0-t 6c 0-
+O t c
+6 O0- p 6e 0-S pe
+6 S0-g 6u 0-A gu
+6 A0-l 6uJ 0-l u
+6 J0- n 6u 0J - n
+6 u0 J- ya 60
+M - y
+6 a0- Mr p 6A 0-r
+6 p0 A-r a 6
+M 0-r
+6 a0- Mbe 6F 0- beF
+Results: Patient Records Managed
+20 clinics and more than 45,000 patients (June 2007)
+Total Number of Patients
+50,000
+45,000
+40,000
+Average of 35,000
+2,608 new 30,000
+antenatal 25,000
+patients/month 20,000
+15,000
+10,000
+5,000
+-
+Number of Clinics using ZEPRS (Reporting new Antenatal Patients)
+25
+20
+System role-out 
+15 at average rate 
+10 of 1 new 
+5 clinic/month.
+0
+Month
+15
+PP aa tt ii ee nn tt ss
+NN uu mm bb ee rr   oo ff   CC ll ii nn ii cc ss
+ZEPRS Summary - Critical 
+Success Factors
+• Close collaboration with health workers and UAB
+• Thorough testing
+• Effective user training
+• User acceptance and participation
+• Reliability and performance of network
+• Reliability of computers in facilities
+• Project management
+• Use of on-line tools, and IM for remote project 
+support
+16
+Software Platform
+Platform Component Selected Solution 
+Operating System Red Hat Enterprise 3 (Currently CentOS 
+4.2)
+Server Backup Arkeia Backup 5.2
+Wireless Authentication AEGIS Premium Server 1.1.4
+Relational Database MySQL 3.23 (currently MySQL 5.0)
+Web Application Server Apache (httpd) 2 Tomcat 5 (servlet 
+container)
+E-mail Cyrus IMAP, Postfix, Spam Assassin
+E-mail Web Interface Squirrel Mail
+Firewall SonicWALL
+Client Anti-virus McAfee
+E-mail Server Anti-virus AMaVIS
+17
+ZEPRS Team
+RTI Development Team UAB Team
+Eileen Reynolds, Project Manager Dr. Robert L. Goldenberg, MD, Principal 
+Chris E. Kelley, Senior Software Developer Investigator
+Niamh Darcy, Senior Technical Advisor Dr. Dwight Rouse, MD, Co-Investigator
+Pablo Destefanis, Senior Networking and Dr. Sten Vermund, MD, Co-Invesigator
+Telecommunications Specialist Dr. Francis Nuthalpathy, Health Informatics 
+Gordon M. Cressman, Senior Project Advisor Advisor
+Dr. Alan Tita, Health Informatics Advisor
+Lusaka Technical Support Staff
+Dennis Nkula, Zambia Project Coordinator Zambian Medical Advisors
+Francis Banda, Technical Support Specialist Dr. Moses Sinkala, MD
+Jamie Mwanza, Technical Support Specialist Dr. Elwyn Chomba, MD
+Dr. Ben Chirwa, MD
+Center for Infectious Disease Research in Dr. Henri Phiri, MD
+Zambia Dr. Christopher Ngandwe, MD
+Dr. Jeffrey Stringer, MD, Director, Co- Dr. Chipepo Kankasa, MD
+Investigator Dr. Macha, MD
+Dr. Perry Killam, MD, Project Advisor Dr. Mpundu Makasa, MD
+Harmony Fusco, Project Manager
+Chafye Siulata, Project Assistant
+For further information: www.idg-rti.org
+18

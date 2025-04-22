@@ -1,0 +1,506 @@
+Reimagining Mobile  
+in South Africa: 
+Lessons from Year One
+Acknowledgments Table of Contents
+Glossary  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 2
+On behalf of the entire MAMA family, we want to thank the many partners who have Executive Summary  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 3
+made the launch of MAMA South Africa successful, with particular recognition to Praekelt 
+Foundation, Wits RHI, Cell-life and Vodacom. Their hard work on the ground along with the 1 . South African Context  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 4
+vision of our founding partners — USAID, Johnson & Johnson, United Nations Foundation, 
+mHealth Alliance and BabyCenter — have brought vital health information to hundreds of 
+thousands of women and families. The ideas, lessons and successes of MAMA South Africa 2 . Mobile Alliance for Maternal Action   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 6
+are also a shining example for others in the field, and as this work expands globally, we will 
+continue to look to the MAMA South Africa team as a leader who can guide us all in creating 3 . Defining the Target Audience  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 8
+mobile messaging services for scale, impact and sustainability.
+4 . Channels of Communication   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  10
+5 . Content Development  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  12
+Localization  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 12
+User testing research  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 13
+Prevention of mother-to-child transmission of HIV   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 14
+6 . Acquisition of Customers and Marketing   .  .  .  .  .  .  .  .  .  .  .  15
+7 . Partnerships  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  16
+Consortium partners .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 16
+Partnership with Vodacom  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 16
+8 . Monitoring, Evaluation and Research  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 18
+Monitoring data .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 18
+Evaluation and research   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 18
+9 . Sustainability and Future Plans  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  21
+Endnotes   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 22
+IN-COUNTRY PARTNERS IN SOUTH AFRICA: 
+MAMA GLOBAL PARTNERS: 
+ 
+Glossary Executive Summary
+ARV Antiretroviral This report explores the programmatic processes, successes and lessons learned by Mobile 
+EMTCT Ending mother-to-child transmission [of HIV] Alliance for Maternal Action South Africa (MAMA SA), an innovative public-private 
+partnership that delivers vital health information to new and expectant mothers and their 
+IVR I nteractive Voice Response, a mobile phone technology allowing for voice- or touchtone-based interaction families through the use of mobile technology.
+with an audio menu.
+GSMA Global System for Mobile [Communication] Association In South Africa, mobile technology is prolific. At the same time, the country’s maternal 
+IWG Innovation Working Group and infant mortality is unacceptably high. The confluence of these factors signifies that 
+KABP Knowledge, attitudes, behaviors and practices South Africa could both benefit from and support a mobile health program for maternal, 
+newborn and child health (MNCH). In order to fully harness the potential of mobile 
+LSM Living Standard Measure technology to reach women in need and achieve scale, sustainability and impact, MAMA SA 
+M&E Monitoring and Evaluation is tackling several challenges related to the cost of SMS, establishing enduring cross-sector 
+MAMA Mobile Alliance for Maternal Action partnerships, developing mechanisms for customer acquisition and marketing strategies. 
+MDG Millennium Development Goal They developed a technology platform to support the unique needs of the program, and a 
+strong, integrated monitoring and evaluation (M&E) framework.
+MNCH Maternal, newborn and child health
+MNO Mobile Network Operator Since launch in May 2013, MAMA SA has successfully engaged more than 350,000 women 
+Mobisite Mobile Website and their families. MAMA SA leverages four different technology channels and has built a 
+Mxit A South African created mobile social network consortium of organizations with technical and content expertise, access to clinical services, 
+and proficiency in research. A partnership with the mobile service provider Vodacom, 
+NGO Non-governmental organization provides free access to the MAMA mobile website to its more than 25 million customers. 
+PCM Please Call Me, a free text message that can be sent by one mobile user to another in instances when the   MAMA SA has also partnered with Generations — the most viewed soap opera on South 
+ first user has depleted their available airtime and wants to request a call back. The remaining characters in  African television, watched by over 10 million people daily — to promote MAMA services.
+ the text message can be used to append a second short note, e.g. an advertisement or public service   
+ announcement. MAMA SA is currently in the process of collaborating with the South African Department 
+PMTCT Prevention of mother-to-child transmission [of HIV] of Health to launch a national pregnancy registry and maternal messaging project called 
+SIM Subscriber Identity Module “Mom Connect” later this year. For the registration process, an Unstructured Supplementary 
+Service Data (USSD) technology-based originally developed and tested for the MAMA 
+SMS S hort Message Service, a mobile phone technology that allows text messages to be sent to and SA program was adapted to meet the Government’s requirements. MomConnect will 
+received by subscribers greatly improve the accuracy of national pregnancy and delivery data, as well as data 
+USAID United States Agency for International Development from the child’s first year of life. MomConnect aims to directly support mothers through 
+USSD Unstructured supplementary service data personalized, stage-based information in the language of their choice, on their mobile phone.
+WAP Wireless application protocol
+Wits University of the Witwatersrand
+Wits RHI Wits Reproductive Health and HIV Institute
+2 3
+ 1. South African Context access to reproductive healthcare. South Africa’s target for MDG 5 for 2015 is 38 deaths per 100,000 live births, which is highly unlikely to be realized. While the under-5 mortality rate 
+has slowly improved, from 65 deaths per 1,000 live births in 1990 to 50 in 2012, it is still far 
+from the 2015 goal of 29. 
+UNICEF data suggests that currently almost 60% of all maternal deaths in South Africa 
+The country’s historical In South Africa, mobile technology is prolific. More South Africans use a mobile phone than are HIV related (Chart 1)5. Recent improvements to the SA National Department of Health 
+legacy of inequality watch television or listen to the radio, and there are more SIM cards in South Africa than Guidelines for Prevention of Mother-to-Child Transmission (PMTCT) highlight the 
+compounds factors people. South African residents are among the highest users of mobile technology and mobile importance of early detection of HIV and initiation of antiretroviral (ARV) drug regimens 
+contributing to its social networking on the continent — according to the World Bank there are 135 mobile in pregnancy. Unfortunately, fewer than 30% of South African women attend antenatal 
+dramatic increase in subscriptions per 100 people.1 A quarter of the phones in South Africa are basic phones with care appointments prior to 20 weeks gestation, meaning that opportunities for early 
+maternal and infant text and voice only, used by the poorest socio-economic groups, while the majority of phones detection of problems, timely initiation of therapy and optimal management of physical and 
+mortality since 1995. can access the mobile web (65% feature phones and 10% smartphones). psychosocial issues are often lost.
+At the same time, South Africa’s maternal and infant mortality is unacceptably high. The South African mothers also experience extremely high rates of violence and mental health 
+country’s historical legacy of inequality compounds factors contributing to its dramatic problems, including depression.6 South Africa’s sexual violence statistics are among the 
+increase in maternal and infant mortality since 1995. The greatest challenges to MNCH highest in the world. According to the World Health Organization, women who have been 
+in South Africa are posed by HIV and AIDS, and inadequate implementation of MNCH physically or sexually abused by their partners are 16% more likely to have a low birth weight 
+programs.2 Despite extremely good coverage of antenatal care, the maternal mortality baby, twice as likely to have an abortion, and in some regions, 1.5 times more likely to acquire 
+ratio is estimated at 300 deaths per 100,000 live births and is significantly higher than it HIV as compared to women who have not experienced partner violence7. Poverty, violence 
+was 20 years ago.3 and gender disparities in access to healthcare also present significant barriers to improved 
+MNCH outcomes in the country.
+In 2000, South Africa joined countries around the world in committing to achieve eight 
+Millennium Development Goals (MDGs) by 2015. Two goals directly focus on maternal and The confluence of these factors — high maternal and child mortality, and high mobile 
+child health: MDG 4 calls for a two-thirds reduction in the 1990 under-5 mortality rate; MDG penetration — make South Africa an ideal fit for a MAMA program.
+5 calls for a three-quarters reduction in the 1990 maternal mortality ratio and universal 
+FIGURE 1. 
+Maternal Mortality Trends, South Africa 1990-20104 
+400
+360
+350
+330
+300 300
+250 260
+*DEATHS PER 250
+100,000 
+LIVE BIRTHS
+200
+170.64 179.7
+150
+100
+65.01
+50
+1.25 9.88
+0
+1990 1995 2000 2005 2010
+OVERALL MATERNAL MORTALITY* HIV-RELATED MORTALITY*
+4 5
+ 2.  Mobile Alliance for 
+Maternal Action
+MAMA SA currently Mobile Alliance for Maternal Action (MAMA) delivers vital health information via mobile 
+consists of a free SMS phones to new and expectant mothers living in poverty in developing countries. Hosted 
+program offered through by the United Nations Foundation, MAMA provides age and stage-based messages aligned 
+six inner-city clinics in with global best practices, empowering women to make the best decisions for themselves 
+Johannesburg, a dynamic and their families. With an intentional focus on countries where high maternal and 
+community portal at newborn mortality rates intersect with an increasing proliferation of mobile phones, MAMA 
+askmama.mobi, a USSD directly assists programs in Bangladesh, South Africa and India. Additionally, it supports a 
+based, interactive quiz growing community of approximately 300 organizations in over 70 countries who utilize 
+service and a portal on our tools and information. By bringing together leaders from a cross section of industries 
+Mxit — a popular mobile MAMA harnesses the strengths and assets from the corporate, non-profit and government 
+social network. sectors. MAMA was launched in 2011 by then Secretary of State Hillary Clinton as a public 
+private partnership between USAID, Johnson & Johnson, United Nations Foundation, 
+mHealthAlliance and BabyCenter.
+MAMA SA officially launched in May 2013 and as of May 2014, is reaching more than 
+350,000 women and their families. MAMA SA uses mobile phones to inform and empower 
+mothers to adopt healthy behaviors and to access maternal and child health services. 
+MAMA SA currently consists of a free SMS program offered through six inner-city clinics 
+in Johannesburg, a dynamic community portal at askmama.mobi, a USSD based, interactive 
+quiz service and a portal on Mxit — a popular mobile social network. Through these services, 
+MAMA SA provides information that promotes earlier antenatal care, supports HIV-positive 
+mothers, helps them understand how to prevent transmission of HIV to their babies, and 
+encourages healthy household practices during pregnancy and in the baby’s first year.
+MAMA’s Theory of Change posits that following a number of inputs (funding, technical 
+assistance, mobile network infrastructure, etc.) and an initial set-up process to develop the 
+appropriate partnerships, software platform and sustainable business model, a country 
+program can create a virtuous cycle of content sharing, information exchange, and user 
+engagement. With increased access to high quality, relevant local health information, 
+mothers and families would demonstrate improved health-seeking and preventative 
+behaviors, including uptake of antenatal care, early care-seeking in response to childhood 
+illness, hand washing, cord care, etc., that should ultimately contribute to improved 
+maternal and child survival. MAMA Country programs can contribute to and benefit from 
+a culture of continuous learning by engaging with the global health community and the 
+MAMA global partnership to share lessons learned and international best practices. The 
+Theory of Change also highlights how country programs would thrive within an enabling 
+environment of clear regulatory policies and a supportive national government.
+6 7
+ 3.  Defining the Target Audience
+Because of the high In South Africa, consumers are typically segmented into groups according to the Living 
+HIV prevalence (18% Standard Measure (LSM) index, which is determined based on degree of urbanization and 
+nationally) some of the ownership of assets like cars and household appliances.8 There are 10-14 LSM divisions 
+major maternal and child (depending on data source)9, with the population divided as follows:
+health challenges in South 
+Africa revolve around 
+HIV testing, condom FIGURE 3. 
+use during pregnancy, LSM divisions in South Africa
+prevention of mother-to-
+child transmission of HIV, 
+and promotion of safe 
+infant feeding practices.
+11% LSM 1-2 (POOREST)14%
+LSM 3-4
+17% 23%
+LSM 5-6
+LSM 7-8
+35% LSM 9-10 (WEALTHIEST)
+On a global level, MAMA generally defines its target audience as low-income expectant 
+and new mothers and their household decision-makers with access to mobile phones. 
+However, in South Africa HIV affects individuals at all income levels — it is not exclusively a 
+disease of the poor. Because of the high HIV prevalence (18% nationally)10 some of the major 
+maternal and child health challenges in South Africa revolve around HIV testing, condom 
+use during pregnancy, prevention of mother-to-child transmission of HIV, promotion of 
+safe infant feeding practices, and addressing issues of disclosure, social stigma and violence 
+against women. These issues are amenable to behavioral change interventions and affect Specific statistics on mobile phone ownership and usage in South Africa are readily 75% of phones in South 
+women across all income brackets. For this reason, at-risk mothers that can benefit from available. In South Africa, 25% of mobile phones are low-end handsets, or basic phones, Africa are capable of 
+MAMA services in South Africa are likely to span a wider demographic range than those in 65% are WAP (Wireless Application Protocol), or enabled feature phones that can access the accessing data services.
+countries such as Bangladesh and India. mobile web, and 10% are high-end smartphones such as iPhones and Blackberries. Thus, 75% 
+of phones in South Africa are capable of accessing data services.13
+Clear statistics on maternal and infant morbidity and mortality within LSM divisions do not 
+exist, and attempts to define priority geographic areas by sub-district have been unreliable.11 By triangulating these pieces of information, the MAMA SA team assumed that a large 
+However, just 20% of the population accesses private health care.12 Based on South Africa’s percentage of their target population of at-risk expectant and new mothers would fall 
+LSM structure, it can be inferred that the population accessing public health services falls within LSM 3-7, and would therefore be able to access data-based services such as mobisites 
+predominantly within LSM 7 and below. HIV status can also be used as a proxy for maternal and Mxit. MAMA SA estimates that 20-25% of users would fall within LSM 1-2 and would 
+and infant vulnerability, and while HIV positive individuals are found in even the highest have low-end phones that cannot access data and for these users, SMS, voice and USSD 
+LSM groups, the greatest burden of disease is generally believed to fall on LSM 6 and below. technology channels would be the only viable options, despite higher costs.
+8 9
+ 4. Channels of Communication FIGURE 4. 
+MAMA SA’s Mobile Channels
+Channel Summary Audience Key Features Cost to user and for MAMA SA
+With the recent MAMA SA currently uses four different mobile channels to reach women in a broad range 
+introduction of of income groups through a variety of mobile phone technologies that they are already SMS Text The SMS service LSM 1- 5, Launched in six South African Women often don’t have funds in 
+functionality that comfortable with and using. In addition, each channel has a specific role to play in reaching the Messaging consists of literate languages including English, airtime to sign-up via the USSD-
+enables the community MAMA objectives of achieving scale, sustainability and impact within the target audience. twice weekly Afrikaans, isiXhosa, isiZulu, based registration process (billed messages pushed Sesotho, and Setswana. by the network at 20 SA cents/20 
+to monitor itself via to a subscriber’s 
+comment liking and The MAMA SA team is constantly working to improve and adapt their channels to meet User registration through USSD 
+seconds; maximum user cost of 
+phone until the 
+autonomous comment their goals. For example, user testing on the USSD service was conducted to determine the allows for detailed profiling. 
+R1.80 or 18 US cents). As a result, 
+infant turns one Message streams are based on MAMA SA has put in place a variety 
+flagging and removal, efficacy of sending out SMS reminders to mothers to dial back into the USSD line at regular year old. gestational stage, HIV status, of assisted sign-up methods to help 
+MAMA SA is starting intervals to receive the weekly quiz questions. The team sent out one to four reminders to language. mitigate this issue.
+to see the emergence of bring people back to the line. Preliminary findings of the SMS reminder protocols revealed MAMA SA cannot currently afford to 
+‘super-users’. that people who receive three SMS reminders were the most likely to dial back in, as offer the SMS program to all pregnant 
+opposed to those getting only one to two reminders. There was no significant improvement women on a national scale.
+between three and four reminders.
+USSD The USSD service LSM 2-5, Two stage-based quiz questions Cost to the program is low because 
+MAMA SA also recently worked to improve the stand-alone mobisite. User registration is consists of a set literate per week, accessed by dialing this is a user-initiated ‘pull’ service
+required to initiate the delivery of age- and stage-based content based on the user’s due date of interactive USSD line.  Service is free for all moms on quizzes.
+or the child’s birthdate. The team noticed that there was a big drop-off between users who The percentage of USSD Telkom Mobile but billed at 20 SA 
+visit the site and users who actually register for the messages. As such, MAMA SA embarked subscribers who request cents/20 seconds by other carriers.
+on a complete rework of the registration process to make the benefits clear and the process as additional HIV content is very high (almost 70%), this may be 
+easy and visible as possible. In addition MAMA SA constantly collects and responds to user because the information is not 
+feedback and has implemented changes to the site to improve the user experience, making it stored on the handset once the 
+easier to navigate. USSD session has timed out.
+The mobisite is at an important stage of its evolution. With the recent introduction of Mxit This channel is an LSM 4 – 8, Daily text message up to 1,000 Higher set-up costs due to initial 
+functionality that enables the community to monitor itself via comment liking and interactive, stage- geared characters, within Mxit. development work required.
+autonomous comment flagging and removal, MAMA SA is starting to see the emergence of based platform on toward Mxit’s large, active user base Cost per user decreases as total 
+‘super-users’. These individual community members have the power to shape the culture of the mobile social the urban, brings stage-based information number of users increases.
+network Mxit. literate.
+the platform online, and become ambassadors of MAMA messaging beyond mobile and into to users on a platform they are Lowest cost per user of any platform.
+their real-world communities. already familiar with and are 
+using regularly.
+The voice channel is proving to be an impractical solution for MAMA SA, especially when Mobisite The mobisite is an LSM 4 – 8 Has the potential to reach scale. Highest set-up cost.
+weighing the costs versus the benefits of this service. For example, to launch a voice pilot for interactive mobile 
+100 women would cost around R400,000 ($40,000 USD). In addition, with the relatively high Widely accessible due to the Cost per user decreases as number web community 
+literacy and access to technology in South Africa, USSD and mobi are easier and cheaper high penetration of mid-level of users increases.platform. Two phones that can access the 
+channels to take the program to scale in a sustainable fashion. Thus far, the MAMA SA team versions exist: a Hosting this platform on a zero-rated internet.
+has not found a suitable, scalable, effective solution for voice but they continue to search. stand-alone site platform (Vodafone Live!) means 
+and a site hosted Features support high levels of that cost for Vodacom subscribers 
+on Vodacom’s engagement. is zero. Users of the stand-alone 
+Vodafone Live! mobisite pay standard network data 
+operator deck. charges, but the site is designed to 
+use very little data.
+Voice Voice would LSM 1- 3, Detailed profiling of users would Most expensive channel: fifteen 
+Messaging consist of a illiterate mean that messaging streams times the cost per message of SMS.
+[not weekly voice (<5% of the would be based on stage, HIV 
+currently message of 30 population) status, language.
+seconds of audio and disabled.
+active] that is pushed to 
+users’ phones.
+10 11
+ 5. Content Development User testing research was undertaken in 2012 by a contractor called Submarine. Submarine Pregnant women reported enrolled 10 pregnant women and 12 new mothers as ‘trusted testers’ over a 10-week period learning about the signs 
+during which they completed in-depth acceptance testing on three platforms: SMS, mobi of labor, the importance 
+and USSD. This phase also involved one-on-one interviews and focus group discussions. of a facility-based delivery 
+The results revealed that most of these mothers reported that the service gave them new to reduce the risk of HIV 
+knowledge on how to care for their child, such as when to introduce solid foods, how to transmission, warning 
+Localization monitor developmental milestones, that they should never leave the child unattended on a bed signs of illness, improved 
+or couch, and when to vaccinate. Pregnant women reported learning about the signs of labor, nutrition, and the relief of 
+The MAMA SA team began the process of content development by reviewing local literature the importance of a facility-based delivery to reduce the risk of HIV transmission, warning common complaints such 
+on maternal and child mortality and morbidity, particularly around barriers to accessing signs of illness, improved nutrition, and the relief of common complaints such as swollen feet. as swollen feet.
+care. They interviewed medical experts in obstetrics, midwifery, pediatrics, neonatology, 
+breastfeeding, infant feeding, and health and human rights, and conducted a stakeholder All of the testers reported sharing the information with others in the community, and 
+workshop with the South African Government and civil society organizations in September some used the messages to correct those who were giving poor advice: “My family was 
+2011. The team also interviewed several mothers and pregnant women, including a group giving me contrary information so I showed them the SMS to correct them,” said one user. Others 
+of mentor mothers working with mothers2mothers, a non-profit providing peer counseling found the information helped them negotiate with a partner around sensitive issues such 
+on PMTCT. Finally, the team conducted two focus group discussions with mothers in as the use of condoms while pregnant: “You don’t have to argue with your husband, you can just 
+Johannesburg. Based on information derived from these processes, MAMA SA identified read it to him,” said another.
+local issues to be included in the message content, including HIV-positive motherhood (i.e. 
+social stigma, coping with a new diagnosis and PMTCT), single parenthood and denied An additional step in the content localization process was translating the SMS into the 
+paternity, gender-based violence, mental health challenges (especially depression), teenage five most widely spoken South African languages other than English: Afrikaans, isiXhosa, 
+pregnancy, late antenatal booking, poor quality of care, and the importance of exclusive isiZulu, Sesotho, and Setswana. This occurred at the end of the process because the MAMA 
+breastfeeding over mixed feeding. SA team determined that it would be most efficient to postpone translation until content 
+adaptation had been completed to ensure that all languages retained fidelity to the English 
+MAMA SA content differs according to the technical platform. BabyCenter and Cell-life core content.
+took the lead in adapting the content for the SMS and USSD quiz programs, while Praekelt 
+Foundation and BabyCenter undertook content development and adaptation for the mobi and 
+Mxit channels. The SMS content was adapted from the mobile messages offered by MAMA. 
+MAMA’s mobile messages created by BabyCenter incorporate evidence from WHO, UNICEF, 
+and the Lancet Neonatal and Maternal Survival series, and were reviewed by MAMA’s Health 
+Content Advisory Council. The original MAMA message content was revised and reviewed 
+by representatives from a number of local non-profit and health organizations, including 
+mothers2mothers, Wits Reproductive Health and HIV Institute (Wits RHI), Clinton Health 
+Access Initiative and the Perinatal Education Program. The USSD content was closely modeled 
+after the SMS content.
+The mobile web content was licensed from BabyCenter and reformatted for this platform. The 
+MAMA SA team also wrote new content relevant to the South African context for the mobisite, 
+such as HIV and domestic violence life guides. Additionally, much of the content on the 
+mobisite is user-generated, including first-person stories and comments.
+User testing research
+MAMA SA conducted user testing to capture three kinds of information: 
+1. Technical bugs and content errors;
+2.  Insight into the user experience, e.g. whether users were able to easily find the channels, 
+successfully navigate the sign-up process, access and read the intended information, 
+store and share information, understand any associated costs, opt out, etc.;
+3. User feedback on the content, tone, costs, frequency and format of the information.
+The user testing was not intended to measure the impact on health or behavior of any of the 
+channels, but rather to make improvements to the service and to share initial feedback from 
+mothers with funders and potential investors.
+12 13
+Prevention of mother-to-child transmission of HIV Acquisition of Customers 6. 
+Supporting HIV-positive pregnant women and mothers is central to the goals of MAMA 
+SA. As such, the mobisite has a variety of topical guides around HIV during pregnancy, and 
+for feeding and caring for the baby. All subscribers can also choose to receive additional and Marketing
+messages on HIV when they sign up for the SMS program.
+MAMA SA identified a variety of factors that pose challenges to PMTCT including the shock 
+of a new HIV diagnosis during pregnancy, the guilt and shame of being pregnant with The Praekelt Group of companies (Praekelt International, Praekelt Consulting, Praekelt MAMA SA partnered 
+HIV, social isolation or rejection, and the contradiction between medical instructions (e.g. Foundation) has nearly ten years of experience using mobile technologies to market with Generations, a 
+exclusive breastfeeding) and community norms (e.g. mixed feeding). The content provided services and products to people in developing markets. The Praekelt Group’s related popular soap opera on 
+by MAMA SA works to support HIV-positive women to have healthier pregnancies and experience includes: a large ‘Please Call Me’ (PCM) social impact campaign called Project South African television 
+children by encouraging earlier antenatal check-ups and HIV testing, reinforcing adherence Masiluleke and large-scale commercial campaigns on Mxit for brands such as Cadbury, viewed by more than 10 
+to treatment regimens, addressing myths, concerns and stigma, and providing motivational Revlon, Smirnoff and Ponds, among others. MAMA SA benefits from Praekelt’s diverse and million people daily, to 
+messages and encouragement. extensive experience in marketing on digital platforms. promote MAMA services.
+MAMA SA employs various recruitment and marketing mechanisms to enroll pregnant 
+women and new mothers for the various channels. Three of the four current channels — the 
+mobisite, USSD and Mxit — are currently marketed and promoted nationally. The fourth 
+channel, SMS, is promoted in select health facilities in Johannesburg by Wits RHI’s 
+fieldworkers. MAMA SA uses two different paper flyers for marketing purposes — one is 
+for SMS and is distributed solely at clinics where women are recruited for this service. The 
+second is for the mass media channels (Mxit, mobi and USSD) and is distributed widely. The 
+difference in distribution of the two flyers is due to the fact that the MAMA SA cannot afford 
+to support a large number of SMS subscribers but can easily accommodate unlimited user 
+numbers on the mass media channels.
+The MAMA SA team also uses traditional mobile marketing methods to attract and recruit 
+users to the mass media channels. These include media buys and banner placements, 
+tagging PCMs with a call-to-action to register, and use specific Mxit advertising avenues 
+known as splash screens and Tradepost ads. 
+MAMA SA partnered with Generations, a popular soap opera on South African television 
+viewed by more than 10 million people daily, to promote MAMA services. The MAMA 
+concept was written into the script with characters talking about the program and the 
+service it offers to women. MAMA SA was mentioned in seven episodes in October 2013. 
+The MAMA SA team receives frequent emails from viewers who found the MAMA website 
+after hearing about the project on Generations. While the public exposure and awareness 
+aspect of the effort was a success, in the future, the team plans to grow the relationship with 
+Generations to have a clearer call-to-action on how mothers can sign-up for services.
+14 15
+ 7. Partnerships In MAMA SA’s case, partnership with Vodacom has proven fruitful and vital to achieving One of the main scale and sustainability. challenges MAMA SA 
+overcame in navigating 
+Vodafone is a pan-African mobile telecommunications company with the largest number of this partnership was 
+cellular network subscribers in South Africa where it operates locally as Vodacom. MAMA working with both the 
+SA’s partner organizations began working with Vodacom around the use of mobile phones for corporate and non-profit 
+Partnership with a Consortium partners HIV and AIDS in 2009, specifically around a mobisite called ‘YoungAfricaLive’ that focuses on parts of the organization 
+mobile network operator Three organizations — Cell-life, the Praekelt Foundation, and Wits RHI — originally worked love, sex and relationships in the time of HIV. Vodacom agreed to host the mobisite on their simultaneously.
+is essential for most together to implement MAMA SA. Together, they have technical and content expertise, homepage and waive all data charges associated with navigating the site for all Vodacom 
+mHealth programs to access to clinical services, and experience in monitoring, evaluation and research. They subscribers. In turn, Vodacom benefits from users staying on their homepage longer as a result 
+increase their visibility bring deep experience in health and technology, including the use of mobile technology to of hosting this engaging mobile portal. Praekelt’s partnership with Vodacom continues to 
+to users and to generate engage South Africans on critical health issues like HIV and AIDS. grow, and when MAMA SA was launched, Vodacom was the first choice for an MNO partner.
+sustainable revenue from 
+mobile services. In MAMA At the global level, MAMA’s partners are Johnson & Johnson, USAID, United Nations One of the main challenges MAMA SA overcame in navigating this partnership was 
+SA’s case, partnership Foundation, the mHealth Alliance and BabyCenter. Johnson & Johnson and USAID provide working with both the corporate and non-profit parts of the organization simultaneously. 
+with Vodacom has direct financial support, BabyCenter provides content support, while the mHealth Alliance MAMA SA learned that it is essential to obtain full organizational buy-in, and to coordinate 
+proven fruitful and vital to and the UN Foundation provide technical and programmatic support. conversations among different parts of the MNO to streamline the decision-making process. 
+achieving scale In January 2013, the MAMA Global team visited South Africa and met with Vodacom. This 
+and sustainability. Praekelt Foundation builds open source, scalable mobile technologies and solutions to visit helped to demonstrate MAMA’s global footprint and presence, as well as to profile the 
+improve the health and well-being of people living in poverty. Their programs have reached project as being highly innovative and collaborative on a global scale.
+more than 50 million people across 15 countries in sub-Saharan Africa. They believe that 
+mobile tools are the only way to reach people at the base of the pyramid with engaging, Vodacom supports two aspects of MAMA SA. Vodacom hosts the MAMA mobisite on their 
+personalized, and relevant content and services. The organization began work in mHealth in operator platform, Vodafone Live!, and provides zero-rated access to the MAMA content 
+2007. Health remains the biggest portfolio of Praekelt Foundation’s work, but they also work to its more than 25 million customers. Secondly, Vodacom supports 6,000 women by 
+in the areas of education, employment, agriculture, governance and transparency. sponsoring their SMS messages from MAMA. The MAMA mobisite on Vodafone Live! has 
+had more than 89,000 unique users since its launch in August 2013.
+Cell-Life is a non-profit organization that provides technology-based solutions for 
+the management of health in developing countries. Cell-life works to address health-
+related challenges, such as distribution of antiretroviral treatments, continuous patient 
+monitoring and evaluation, and collection and communication of information. This is 
+achieved through the use and development of innovative software supported by existing 
+technologies such as mobile phones and the Internet, in a manner that is appropriate for 
+a developing country context. Cell-Life was awarded a 2011 Innovation Working Group 
+(IWG) grant funded by Norad to deliver SMS-based MNCH information to 38,000 South 
+African mothers. This SMS project consisted of an abridged package of non-stage based 
+messages with an emphasis on PMTCT.
+Wits RHI is one of the largest research institutes at the University of Witwatersrand in 
+Johannesburg. With a focus on addressing Africa’s health challenges through science 
+and technology, their portfolio includes research, programmatic support, training, policy 
+development, health systems strengthening and technical assistance at national and 
+international levels. Wits RHI works in three provinces in provincial and clinical health 
+programs in South Africa. Their headquarters are in the Hillbrow Health Precinct, a 
+development which seeks to create a visionary, world-class health precinct addressing 
+HIV and related diseases, poverty and urban renewal in Johannesburg’s inner city. MAMA 
+SA recruits subscribers from six health facilities supported by Wits RHI, namely: Esselen, 
+Jeppestown, Malvern, and Yeoville Primary Health Care Clinics; Shandukani Maternal and 
+Child Health Centre; and the Hillbrow Community Health Center.
+Partnership with Vodacom
+Partnership with a mobile network operator (MNO) is essential for most mHealth programs 
+to increase their visibility to users and to generate sustainable revenue from mobile services. 
+16 17
+ 8.   Monitoring, Evaluation MAMA SA is guided by an M&E plan that includes a core set of indicators provided  Recent analysis of by MAMA Global to assist with cross-country comparison as well as numerous indicators demographic data 
+specific to South Africa along with the South African Government’s core set of PMTCT/ from the SMS program 
+and Research EMTCT indicators. The project indicators are used to measure the performance of the enrollment revealed that four channels as well as provide evidence for programmatic decision-making relating MAMA SA is indeed 
+to partnerships, advertising, enrollment, sustainability, and ultimately, the impact of the reaching its target 
+project on key health seeking and preventive behaviors central to MNCH. audience — of the more 
+than ten thousand SMS 
+MAMA SA’s approach to M&E, led by Wits RHI, seeks answers to key questions related to Monitoring data users, nearly half (44%) 
+both the processes and outcomes of program implementation including measuring change live in a household with a 
+in health behaviors of users. Monitoring data is mainly gathered through the back-end Project managers of MAMA SA use an automated online dashboard that provides them combined income of $125 
+of the technology platforms. A variety of outcome-level research studies for measuring with user data and basic analyses of MAMA’s four different channels. Recent analysis of USD or less per month, 
+the effectiveness of MAMA SA are planned, most notably a randomized control trial to demographic data from the SMS program enrollment revealed that MAMA SA is indeed which equates to LSM 2 
+determine if exposure to MAMA has improved health seeking and preventive behaviors of reaching its target audience — of the more than ten thousand SMS users, nearly half (44%) or below.
+HIV-positive pregnant women and new mothers. live in a household with a combined income of $125 USD or less per month, which equates 
+to LSM 2 or below. Additionally, a large portion of SMS users (22%) opted to receive HIV-
+related messages, which is higher than the national prevalence rate of adults 15-49 living 
+with HIV (18%).
+Enrollment data for the stage-based messages on the mobisite reveal that the majority 
+(73%) have already given birth and are looking for information to care for their baby, while 
+the rest (27%) are pregnant. Recent polls on the MAMA mobisite indicate that it is also 
+reaching its target audience — the majority of respondents are unemployed (77%), more 
+than half live in a rural province (54%) and receive a government assistance grant (52%), 
+and nearly half live in a household with a combined monthly income of $180 USD or less, 
+which is LSM 3 and below (47%).
+Evaluation and research 
+A unique aspect of the MAMA SA consortium is the access to Shandukani Clinic and several 
+government clinics in Johannesburg’s inner city that Wits RHI brings. Shandukani Clinic 
+is a flagship public/private partnership between the Wits RHI, Vodacom, Altron (a leading 
+South African technology group) and Altech (a telecommunications division of Altron). By 
+having access to these clinics and the clinic records, the MAMA SA team is able to conduct 
+interviews with patients and review clinic records. This allows MAMA SA to go beyond the 
+self-reported evidence that many mobile for MNCH programs rely on and actually verify 
+health service uptake by reviewing the clinic records themselves. 
+The MAMA SA team is about to commence a review of clinic records in the health facilities 
+where MAMA registers users to understand effects of the dosage or exposure of stage-based 
+messaging on improving maternal and child health outcomes. Results of this study are 
+expected to be shared by the end of 2014.
+Wits RHI has also been conducting exit interviews with SMS subscribers who have 
+completed the SMS program. Interviews are administered face-to-face in clinics, with 
+fieldworkers using mobile data collection (specifically, Open Data Kit), thus, eliminating the 
+need for a separate data entry process.
+In early 2014, the MAMA SA team began working on a more rigorous sampling frame 
+for the exit interviews to ensure that they are getting an accurate representation of SMS 
+subscribers. The team looked specifically at women who enrolled early and late in both 
+antenatal care (ANC) and postnatal care (PNC). As such, they decided to extract 50 women 
+18 19
+per category (late in ANC, early in ANC, late in PNC and early in PNC) for a total of 200 
+across the program. Sustainability and 9.
+The questions in the exit interviews cover the following topics: Future Plans
+1. G eneral socio-demographic information such as language and LSM; information on 
+previous pregnancies and/or miscarriages, cell phone type and ownership;
+2. Baby care e.g. feeding choices (breastfeeding/formula/mixed); 
+3.  Perceived value/satisfaction of MAMA messages e.g. sharing of messages with MAMA SA developed its messaging channels to ensure sustainability. The mobisite, in 
+others, saving content for review at a later stage, usefulness of message content, most particular, has several features that make long term sustainability likely, such as design and 
+memorable messages; development costs decline as the site shifts into maintenance mode over time. New users 
+4. Sign-up experience — comfort with self-sign up vs. fieldworker assistance; can be added to the platform with very little incremental cost, and as the user base grows 
+5.  Retention of message content and care seeking — recall of number of ANC and PNC the active mobile community becomes more compelling to commercial entities targeting 
+visits attended, family planning/contraception, HIV testing, confidence in broaching this particular market segment (e.g. baby brands, health insurers, low cost retailers). MAMA 
+health topics with health care workers; and SA expects to be able to introduce ethical and appropriate advertising to attract corporate 
+6.  General feedback with open-ended questions. sponsorship, generating new streams of revenue that will increase as the number of users 
+increase. These approaches are being tested in South Africa on Praekelt’s existing sites.
+Barriers to completing a large number of exit surveys consist of women not wanting or being 
+able to answer the questions by phone, and the fact that clinics have no schedule systems for New advertising and funding opportunities have developed with Johnsons Baby and the 
+future PNC visits, so they have to rely on patients arriving on their own. As such, it is difficult Innovation Working Group (IWG). Currently, MAMA SA is working with the products 
+for MAMA SA to find a convenient, reliable place and time to conduct the interviews. division of Johnsons Baby to scale-up the MAMA SMS program. Johnsons Baby has agreed 
+to sponsor 2,000 moms on SMS and has been signing up mothers at their roadshows. In 
+The MAMA SA team also assisted GSMA and Ask Afrika, the largest independent South addition, Praekelt won a United Nations IWG catalytic grant to scale up. This funding was 
+African market research company, with interviews of 113 MAMA subscribers. The interviews distributed in two rounds: 80% up front and 20% in February 2015. A large amount of this 
+gathered information on: household composition and various socio-economic factors which funding has gone to fieldworkers, SMS, USSD, content maintenance, and inventory for 
+will be used for segmentation purposes; access to energy and ownership of appliances; marketing purposes.
+where they get general healthcare information; understanding of pregnancy-related 
+behavior/practices, where they gather information, and perceptions of services provided in The goal for MAMA SA is to reach 500,000 women by May 2015, two years after the public 
+clinics/hospitals; mobile phone ownership and usage and perceptions of services provided launch of the project in May 2013. Given its exponential growth since launch, MAMA SA is 
+by mobile network operators; value added services via mobile; perceptions of community on target to meet this goal. In addition, this goal is comprised of individual targets for each 
+health workers; and perceptions of existing MNCH messaging services. Findings from this of the MAMA channels and various marketing and recruitment strategies are underway. For 
+study are expected to be disseminated in mid-2014. example, MAMA SA aims to scale-up the Mxit user-base to at least 150,000 users in the next 
+two years. 
+In terms of M&E work, MAMA SA will focus its attention on the scale-up of evaluation 
+efforts and the honing in on key research questions relating to effects and dosage of Finally, MAMA SA is supporting the National Department of Health’s effort to create a 
+MAMA’s messages. national pregnancy registry, messaging and help desk service for pregnant women and new 
+mothers in South Africa. The MAMA SA team has adapted and applied their platforms and 
+Overall, preliminary MAMA SA data indicate high acceptability and satisfaction with the technologies, in particular the USSD-based registration platform, to support the work of the 
+channels. Service uptake has been satisfactory, but strategies for greater publicity are necessary. South African Government. This program will be announced by the National Department of 
+Further research is needed, and planned, to ascertain behavior and health outcomes. Health in 2014, and the roll-out of MomConnect is a long-term goal that the MAMA SA team 
+will support throughout its life-cycle.
+20 21
+  Endnotes
+1  “Mobile Cellular Subscriptions (per 100 People).” World Bank Data. World Bank, 2012. 
+Web. 20 Feb. 2014. <http://data.worldbank.org/indicator/IT.CEL.SETS.P2>
+2  “Mother and Child Healthcare.” UNICEF South Africa, n.d. Web. 20 Mar. 2014. <http://
+www.unicef.org/southafrica/survival_devlop_759.html>.
+3  “Maternal Mortality in 1990-2013: South Africa.” World Health Organization. WHO, 
+UNICEF, UNFPA, The World Bank, and United Nations Population Division Maternal 
+Mortality Estimation Inter-Agency Group, Jan. 2014. Web. 3 Mar. 2014. <http://www.who.
+int/gho/maternal_health/countries/zaf.pdf?ua=1>.
+4  I bid.
+5  Ibid. 
+6   Hatfield, Alisa. “Dangerous Combo: Violence in Pregnancy and HIV in South Africa.” 
+Inter Press Service. Inter Press Service, 7 Mar. 2014. Web. 15 Mar. 2014. <http://www.
+ipsnews.net/2014/03/dangerous-combo-violence-pregnancy-hiv-south-africa/>.
+7   Global and Regional Estimates of Violence against Women: Prevalence and Health 
+Effects of Intimate Partner Violence and Non-partner Sexual Violence . Rep. World 
+Health Organization, 2013. Web. 13 Feb. 2014. <http://apps.who.int/iris/
+bitstream/10665/85239/1/9789241564625_eng.pdf>. 
+8   “Living Standards Measure” South Africa Research Foundation, 2012. Web. 19 Feb. 2014. 
+<http://www.saarf.co.za/LSM/lsms.asp>
+9  Ibid.
+10   “AIDSinfo.” UNAIDS, 2014. Web. <http://www.unaids.org/en/dataanalysis/datatools/
+aidsinfo/>.
+11  Personal communication with Prof. Eddie Mhlanga, Chief Director of Maternal, Child 
+and Women’s Health, SA National Department of Health
+12   “SA Health Care Landscape.” BizCommunity .com . N.p., 2012. Web. 14 Feb. 2014. <http://
+www.bizcommunity.com/PressOffices.aspx>.
+13  CSIR Meraka Institute. The Council for Scientific and Industrial Research (CSIR), 2010. 
+Web. 14 Feb. 2014. <http://www.csir.co.za/meraka/>.
+22
+Visit MAMA’s website to learn more  
+about our impact and initiatives: 
+www.mobilemamaalliance.org
+For inquires about working with our  
+partnership, contact: 
+MAMA Global 
+tel: 202.887.9040 
+email: info@mobilemamaalliance.org
+Media inquiries, contact: 
+Stephanie Bowen 
+tel: 202.864.5157 
+email: sbowen@mobilemamaalliance.org

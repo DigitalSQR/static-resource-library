@@ -1,0 +1,2169 @@
+Towards the Development of 
+an mHealth Strategy: 
+A Literature Review 
+_____________________________________ 
+ 
+ 
+ 
+ 
+ 
+Original Draft prepared by Patricia N. Mechael August 2007 
+For the World Health Organization 
+ 
+ 
+ 
+Update by Daniela Sloninsky for the Millennium Villages Project 
+The Earth Institute at Columbia University 
+August 2008 
+ 
+ 
+ 
+ 
+ 
+ 
+ 1 
+Table of Contents 
+ 
+Acknowledgements........................................................................................................3 
+List of Acronyms ............................................................................................................5 
+Introduction ....................................................................................................................7 
+mHealth Review Overview.............................................................................................9 
+Section 1. mHealth as a Critical Domain within eHealth ..........................................11 
+eHealth trends.................................................................................................. 11 
+WHO eHealth Priorities .................................................................................... 13 
+mHealth trends................................................................................................. 14 
+Section 2. Review of Technologies & Technological Capabilities ..........................17 
+I. Mobile phones............................................................................................... 19 
+II. Personal Digital Assistants (PDA) and Smart Phones................................. 22 
+III. Mobile telemedicine devices and patient monitoring systems .................... 24 
+IV. MP3 players and data storage devices ...................................................... 26 
+V. Mobile computing and Convergence of Technologies................................. 28 
+Section 3. mHealth Applications and WHO’s eHealth Mandate...............................30 
+mHealth for Health Promotion.......................................................................... 31 
+mHealth for Supporting Health Work Force ..................................................... 34 
+mHealth for Enhanced Service Delivery .......................................................... 37 
+Section 4. mHealth Partnerships ................................................................................40 
+Engaging Technology Developers ................................................................... 41 
+Policy Makers, Academic Institutions, and NGOs............................................ 42 
+Section 5. Considerations and Approaches ..............................................................47 
+Capacity Building ............................................................................................. 49 
+Monitoring and Evaluation................................................................................ 49 
+Alternative Approaches.................................................................................... 49 
+Challenges ....................................................................................................... 50 
+Legal and Ethical Issues .................................................................................. 51 
+Section 6. Recommendations .....................................................................................53 
+Conclusion....................................................................................................................56 
+References… ................................................................................................................57 
+APPENDIX: Tables 1-6 mHealth Projects...................................................................63 
+ 
+ 2 
+Acknowledgements 
+ 
+ 
+There are many colleagues to whom we owe a debt of gratitude. Without 
+their work and guidance the original draft report prepared for WHO would 
+not have been possible.  First, I would like to thank Yunkap Kwankam, the 
+Coordinator of the Global Observatory for eHealth at WHO, for his strategic 
+vision in the practical use of mobile technology as a tool to promote health 
+throughout the world.  It is the extension of this vision to harness the 
+potential of mobile communication technologies that this report has been 
+commissioned. I also would like to thank Walter Curioso, Bruce Dahlman, 
+Ayedee Domingo, Paul Fontelo, Richard Heeks, Adesina Iluyemi, Robert 
+Istepanian, Warren Kaplan, Jose Lacal, Alvin Marcelo, Lloyd Marshall, 
+Birhanu Mekuria, Lady Murrugarra, Neil Pakenham-Walsh, G.V. Ramaraju, 
+Ulrike Rivette, Francisco Rubio, and Mitul Shah for reviewing drafts and 
+sharing information resources, contacts, and strategic recommendations 
+that have been integrated throughout this document. Much appreciation is 
+owed to the organizers of the Med-e-Tel 2007 conference in Luxembourg 
+for providing a platform for gathering useful recommendations as well as 
+information on the state-of-the-art in mobile eHealth solutions throughout 
+the world. To the many others who have contributed to this process in other 
+ways, many thanks.    
+ 
+In addition, we would like to acknowledge our colleagues at the Earth 
+Institute at Columbia University for the strategic vision to facilitate our 
+update of the original review and apply findings from the literature to the 
+development of an mHealth Strategy. This strategy forms the foundation for 
+the implementation of scalable mHealth solutions in partnership with 
+Ericsson and Sony Ericsson in 10 countries in Africa, ranging from rural-
+based Emergency Medical Service delivery and mobile telemedicine to the 
+development of decision support and data collection tools. Using this 
+strategy, the Millennium Villages Project provides a critical opportunity to 
+explore how mobile technology can be leveraged to achieve the MDGs for 
+health.  
+ 
+There were a number of challenges that were encountered while 
+developing this review.  The first was maintaining a focus on low and 
+middle income countries in a learning environment where much of what is 
+documented in mHealth is focused on applications developed and 
+deployed in high income countries.  Where appropriate, lessons from high 
+ 3 
+income countries have been integrated to illustrate the potential of such 
+applications in low and middle income countries.  Another challenge faced 
+in developing this review was in maintaining a balanced approach between 
+identifying health-related information and communication needs and 
+applying technology strategically as a tool versus the more traditional use 
+of technology as a driver of change within the health sector.  To address 
+this dichotomous representation within the literature, we have presented 
+both perspectives based on how they have been communicated within the 
+literature. Where possible, the strategic application of technology as a tool 
+within broader health sector objectives has been prioritized. Despite a 
+growing body of knowledge related to mHealth in low and middle income 
+countries, there is a critical learning gap in the availability of evaluation data 
+for strategic planning at a large scale.  
+ 
+The study of mobile and wireless communication technology and health is 
+a moving target, as the availability and accessibility to technology is 
+constantly in flux. As such, this document ought to continue to be viewed 
+as a living review that will be updated regularly based on newly 
+documented initiatives and trends.   
+ 
+ 
+ 4 
+List of Acronyms 
+ 
+ 
+ART Antiretroviral Therapy 
+AIDS Acquired Immunodeficiency Syndrome 
+BCC Behavior Change Communication 
+CSR Corporate Social Responsibility 
+DHS Demographic and Health Survey 
+DfID Department for International Development (United 
+Kingdom) 
+DOI Digital Opportunity Initiative 
+F/OSS Free and Open Source Software 
+GIS Geographical Information System 
+HMIS Health Management Information System 
+HIV Human Immunodeficiency Virus 
+ICT Information and Communication Technology 
+ITU International Telecommunications Union 
+MDG Millennium Development Goal 
+MARS Mobile Anti-retroviral Support 
+MIT Massachusetts Institute of Technology 
+MOH Ministry of Health 
+NGO Non-governmental Organization 
+NHS National Health Service 
+NLM National Library of Medicine 
+OHT Open Health Tools 
+OMPT One Media Player per Teacher 
+PAHO Pan-American Health Organization 
+PDA Personal Digital Assistant 
+PEPFAR Presidential Emergency Plan for AIDS Relief 
+RESCUER Rural Extended Services and Care for Ultimate Emergency 
+ 5 
+Relief 
+SARI Sustainable Access in Rural India 
+SMS Short Message Service 
+TALC Teaching Aids at Low Costs 
+TATRC Telemedicine and Advanced Technology Research Center 
+TBA Traditional Birth Attendant 
+TB Tuberculosis 
+UNDP United Nations Development Program 
+UNPAN United Nations Public Administration Network 
+USAID United States Agency for International Development 
+VGF Vodafone Group Foundation 
+WHO World Health Organization 
+ 6 
+Introduction 
+ 
+ 
+Health in Low and Middle Income Countries 
+ 
+Background 
+Over the course of the past 40 years, great efforts have been made to 
+highlight and address critical public health problems throughout the world, 
+particularly in low and middle income countries. The Declaration of Alma 
+Ata in 1978 highlighted health as a “most important world-wide social good” 
+(World Health Organization, 1978). The declaration introduced the concept 
+of Primary Health Care, which has since formed the basis for health service 
+delivery systems throughout the world (World Health Organization, 1978). 
+More recently, the Millennium Development Goals (MDG) were developed 
+to provide macro level targets towards which the broad range of 
+development and health stakeholders can aim interventions.  In keeping 
+with the WHO definition for health as “a state of complete physical, mental, 
+and social well-being and not merely the absence of disease or infirmity,” 
+(World Health Organization, 1946) almost all of the MDGs have some 
+association with health. This series of output and outcome targets include 
+those associated with poverty reduction, education, and technology.   
+ 
+The Millennium Development Goals 
+The MDGs that specifically address health as set forth by the United 
+Nations Millennium Declaration in 2000 include (United Nations, 2000): 
+• Reducing child mortality 
+• Improving maternal health 
+• Combating HIV and AIDS, malaria, and other diseases 
+• Increasing access to safe drinking water  
+A progress report published in 2007 indicates that childhood immunization 
+and deliveries by skilled birth attendants are on the rise, while many 
+regions continue to struggle to achieve reductions in the prevalence of the 
+diseases of poverty including malaria, HIV and AIDS and tuberculosis (TB) 
+(United Nations, 2007).   
+ 
+Health Workforce 
+Increasing attention has also been drawn to the critical shortages in trained 
+healthcare personnel throughout the world. There are now 57 countries 
+ 7 
+with critical shortages in health work force density with a global deficit of 
+2.4 million doctors, nurses, and midwives (World Health Organization, 
+2006). Investing in the training and ongoing development of the healthcare 
+work force is considered among the most effective means of improving 
+health (World Health Organization, 2006).    
+ 8 
+mHealth Review Overview 
+ 
+ 
+The purpose of this report is to map what is known about a broad 
+range of mobile and wireless technologies and the contributions that 
+they are making towards achieving healthcare objectives in low and 
+middle income countries. 
+This report is divided into six sections: 
+ 
+Section 1 provides an overview of mHealth as a domain within eHealth 
+and key strategic learning that ought to be applied to the formal integration 
+of mobile technologies within the health sector.   
+ 
+Section 2 reviews health-related applications associated with mobile 
+phones, PDAs, remote patient monitoring systems, MP3 players, and other 
+mobile technologies.   
+ 
+Section 3 explores how various technologies are being used to achieve 
+health objectives, including improved access to health services, health 
+service delivery, disease surveillance and control, prevention and well-
+being, and human resources development.  These are presented within the 
+broader framework of WHO’s eHealth priority action areas:  
+1) ICT for health promotion (and prevention) 
+2) ICT for human resources for health 
+3) ICT for service delivery 
+ 
+Section 4 documents key leaders and partnerships that have emerged to 
+test and expand mHealth in low and middle income countries. The 
+emergence of creative partnerships between governments, technology 
+companies, telecommunications service providers, international donors, 
+academic institutions, implementing partners, and health service providers 
+is a significant feature of this movement. The need for such collaborative 
+efforts cannot be overemphasized, particularly as efforts intensify to 
+achieve the MDGs for health as well as to reduce the digital divide 
+(Fontelo, 2007).  
+ 
+ 9 
+Section 5 provides critical considerations based on early mHealth 
+initiatives and research.  Such considerations include using health 
+information and communication needs of various stakeholders as the 
+starting point for identifying appropriate tools and technologies (Pakenham-
+Walsh, 2007), the rapidly changing environment of mHealth and the nature 
+of mobile technologies (Istepanian, 2004) and the need to build on existing 
+access to mobile communication technologies within the general population 
+and health sector as well as informal usage patterns (Mechael, 2006).   
+ 
+Section 6 provides key recommendations for next steps in the area of 
+mHealth.   
+ 
+ 
+This report draws heavily on the work of many pioneers who have developed innovative 
+approaches to improving health care and making the health service delivery 
+environment more efficient and effective.  It is based on an intensive review of peer-
+reviewed literature, program evaluation and industry reports, and grey literature, as well 
+as communication with a broad range of stakeholders.  Drafts of this report have been 
+shared with a committee of advisors whose feedback has been integrated and cited as 
+appropriate. 
+ 
+ 10 
+Section 1. 
+mHealth: a critical domain within eHealth
+ 
+ 
+eHealth Trends 
+ 
+Alongside endeavors to improve health outcomes are concerted efforts to 
+reduce the digital divide, or differential access to technology of low, middle, 
+and high income countries and of rich and poor within the same country. 
+Regarding the digital divide, the world has witnessed significant increases 
+in the numbers of internet users as well as mobile and fixed-line telephone 
+subscribers in the past five years (Curioso, 2006; United Nations, 2006). It 
+is at the cross section of health and technological domains that eHealth 
+initiatives have evolved, creating an unprecedented opportunity to improve 
+access to services and efficiency within the health sector in low and middle 
+income countries.   
+ 
+eHealth 
+eHealth (or electronic health) is broadly defined by the World Heath 
+Organization as the “use of information and communication technology for 
+health” (World Health Organization, 2005b).  The main objective of eHealth 
+programs is to use Information and Communication Technology (ICT) to 
+improve healthcare service delivery and health outcomes through the 
+strategic use of technologies such as computers, Internet, satellite 
+receivers, mobile phones, and Personal Digital Assistants (PDA). The 
+increasing availability of free and open source software (F/OSS) will more 
+affordably extend the benefits of a broad range of higher quality targeted 
+eHealth solutions to low and middle income countries (Lacal, 2007).  In 
+addition the expansion and enhancement of wireless networks throughout 
+low and middle income countries will increase access and capabilities of 
+these technologies to healthcare providers and the general public in more 
+remote geographical locations.   
+ 
+Uses of eHealth 
+eHealth has great potential to promote healthy lifestyles, improve decisions 
+by health professionals as well as patients, and enhance healthcare quality 
+by improving access to medical and health information and facilitating 
+instantaneous communication in places where this was not previously 
+ 11 
+possible (Shields, Chetley, & Davis, 2005; World Health Organization, 
+2005b). The increased use of technology can help reduce health care costs 
+by improving efficiencies in the health care system and promoting 
+prevention through behavior change communication (BCC).  It also has the 
+potential to advance clinical care and public health services by facilitating 
+health professional practice and communication and reducing health 
+disparities by applying new approaches to improve the health of isolated 
+populations.   
+ 
+The initial focus of many eHealth initiatives has been the use of the Internet 
+to promote the organization of and access to health-related information. For 
+the health sector the key areas of benefit include the development of 
+Health Information Systems (HIS), Knowledge Management, Electronic 
+Patient Health Records, open access to electronic medical journals, and 
+eLearning and training for health care professionals. As of May 2008, the 
+overall penetration of Internet users within the global population was 
+21.2%, ranging from 5.3% in Africa to 14.0% in Asia to 23.8% in Latin 
+America and 73.4% in North America1.  The emergence of internet cafes 
+and kiosks in low and middle income countries extends the benefits of e-
+mail and the world wide web to a larger audience.   
+  
+More recently there has been a growing interest within the health sector to 
+capitalize on the rapid uptake of mobile communication technologies and 
+the overall improvements in telecommunications within the general 
+population throughout the world. Characterized as a ‘leapfrog technology,’ 
+mobile phones have allowed developing countries, even those with 
+relatively poor infrastructure, to bypass fixed-line technology (Economist, 
+2008).  
+ 
+Data illustrating these trends are increasingly becoming available on ICT 
+usage in Africa. The International Telecommunications Union published 
+Africa ICT Indicators for 2007, detailing usage of fixed-line telephone, 
+mobile, and Internet users by country.2 The number of mobile users 
+worldwide by the end of 2007 was 3.3 billion with a penetration rate of 49 
+percent.3 The report also indicates that between 2005 and 2007, Africa 
+added over 60 million new mobile subscribers, with mobile phones 
+comprising about 90 percent of all telephone subscribers and mobile 
+                                                
+1 http://www.internetworldstats.com/stats.htm 
+2 http://www.itu.int/ITU-D/ict/statistics/at_glance/af_ictindicators_2007.html 
+3 http://www.cellular-news.com/story/31352.php 
+ 12 
+penetration is close to 30 percent.4 According to MIT’s Entrepreneurial 
+Programming and Research on Mobiles Unit, Africa’s cell phone usage has 
+increased 65% per year for the past five years from approximately 63 
+million users in 2004 to 152 million in 2006 (Haynes, 2008).  
+ 
+The cost of mobile technology deployment is rapidly decreasing (Domingo, 
+2007). In addition, increasing functionality of newer phones enables 
+SmartPhone-capability in relatively inexpensive phones (Domingo, 2007).  
+The capabilities of mobile phones in low and middle income countries has 
+not reached the sophistication of those in high income countries, which now 
+enable web browsing, GPS navigation, and e-mail access. In spite of these 
+differentials, the basic SMS text functions and real-time communication 
+capacity of devices available in low and middle income countries offer a 
+broad range of potential benefits to the health sector (Mechael, 2006). 
+Increased availability and efficiency in both voice and data-transfer systems 
+in addition to rapid deployment of wireless infrastructure will likely 
+accelerate the deployment of mobile-enabled health systems and services 
+throughout the world (Istepanian, 2004).   
+ 
+WHO eHealth Priorities 
+ 
+In 2005, at its 58th session, the World Health Assembly adopted a 
+resolution that established an eHealth strategy for the World Health 
+Organization (WHO).  To implement its formal program on eHealth, the 
+WHO created the Global Observatory for eHealth (World Health 
+Organization, 2005b). The role of the Global Observatory for eHealth is to 
+provide evidence-based guidance to countries and institutions involved in 
+healthcare programs about the broad range of eHealth activities that are 
+being implemented throughout the world and what is working and/or not 
+working (Kwankam, 2007).  The Observatory serves as a convener to 
+enhance strategic thinking and guidance in various aspects of eHealth. It is 
+one of several WHO initiatives developed to support the implementation of 
+the World Health Assembly resolution.  
+ 
+As a first step, the observatory has conducted a world wide survey to 
+obtain a baseline on eHealth activities in member countries (World Health 
+Organization, 2005a).  Key steps are being taken within this effort to 
+promote the monitoring and evaluation of eHealth services for more 
+                                                
+4 http://www.itu.int/ITU-D/ict/publications/africa/2008/index.html 
+ 13 
+strategic decision-making.  At the national and district levels, WHO 
+promotes an approach that first looks at basic needs within the healthcare 
+system and how appropriately and effectively ICTs can be used as tools to 
+contribute to addressing them.  It is the intention to view the use of 
+technological solutions in relation to how their application can more 
+effectively impact key MDG indicators including childhood and maternal 
+mortality as well as healthcare worker density (Kwankam, 2007).   
+ 
+In an effort to better understand and document global technology trends, 
+the WHO in collaboration with the European Union published Connecting 
+for Health: Global Vision, Local Insight: Country Profiles 2006.  This report, 
+prepared for the World Summit on the Information Society, documents 
+demographic, health, and ICT diffusion indices for over 190 countries 
+(World Health Organization, 2006). This resource can be used by policy 
+makers, technology companies, and health administrators as a guide to 
+rank on which ICT to focus to address priority healthcare concerns.  With 
+the growing interest at the end of 2006 in mobile telemedicine and the use 
+of mobile phones and other mobile communication technologies within the 
+health sector, the WHO program has begun exploring the development of a 
+mobile e-health or mHealth strategy.  As a first step towards the 
+development of a strategy, WHO commissioned this mHealth Review in 
+2007. It has since been updated for the Earth Institute at Columbia 
+University in 2008, to further document what is being done within this field 
+as it specifically relates to low and middle income countries. 
+ 
+mHealth Trends 
+What is mHealth? 
+mHealth broadly encompasses the use of mobile telecommunication and 
+multimedia technologies as they are integrated within increasingly mobile 
+and wireless health care delivery systems (Istepanian & Lacal, 2003).  It 
+can be defined as “mobile computing, medical sensor, and 
+communications technologies for health care” (Istepanian, 2004).   
+ 
+mHealth and eHealth 
+The WHO’s report entitled, eHealth Tools and Services: Needs of Member 
+States (2006), highlights many of the eHealth needs in low and middle 
+income countries many of which also apply to mHealth.  This review by 
+ 14 
+WHO is a direct contribution towards the proposed actions set forth in the 
+report, namely: facilitating knowledge exchange and providing eHealth 
+information (World Health Organization, 2005b).  Of direct relevance to 
+mHealth are increasing trends towards migrating many of the pre-existing 
+eHealth systems onto mobile platforms.  For example, many disease 
+surveillance systems are increasingly becoming a combined system of 
+computer databases, PDAs, and mobile phones networked towards 
+monitoring and managing disease outbreaks (Rubio, 2007).   
+ 
+Mobile technologies and the future 
+Mobile communication technologies are tools that can be leveraged to 
+support existing workflows within each of the areas specified above.  There 
+is much learning from eHealth that provides a critical lens through which to 
+review existing technological trends and applications. First, mobile 
+technologies are not objectives, but tools, that ought to be applied in ways 
+to achieve local, national, and regional health objectives (Shields, Chetley, 
+& Davis, 2005) as well as contribute to improving the lives of individuals 
+(SatelLife, 2005). Second, there is insufficient impact data about how 
+mobile technologies are influencing health outcomes, creating challenges 
+to identify and replicate best practices (Kaplan, 2007; Shields, Chetley, & 
+Davis, 2005). Impact evaluation is necessary to move beyond discussions 
+of the potential impact that such technological solutions might have and 
+anecdotal examples of how they are already being used for health. Third, 
+mobile technologies are only as good as the information and 
+communication to which they provide access (Shields, Chetley, & Davis, 
+2005).  Access to reliable and relevant content at the right time is a critical 
+consideration within both e- and mHealth (Pakenham-Walsh, 2007).  And 
+finally, there is a need to move away from pilot programs and case studies 
+to more formal application and learning to set the foundation for national 
+programs and policies (Shields, Chetley, & Davis, 2005).5  
+ 
+mHealth focus areas  
+Emerging trends of interest within mHealth include the use of mobile 
+technologies in the following capacities: 
+ 
+                                                
+5 A comprehensive knowledge map of ICT and Health developed by the World Bank’s InfoDev Program 
+includes a limited number of case studies documenting the use of mobile technologies within the health 
+sector (www.asksource.info/res_library/ict.htm). As appropriate these have been incorporated into this 
+review.   
+ 
+ 15 
+Emergency response systems (road traffic accidents, emergency 
+obstetric care, etc.) 
+Disease surveillance and control (Malaria, HIV/AIDS, TB, Avian Flu, 
+chronic diseases- esp. diabetes) 
+Human resources coordination, management, and supervision 
+Synchronous and asynchronous mobile telemedicine diagnostic and 
+decision support for clinicians at point-of-care 
+Remote patient monitoring and clinical care 
+Health extension services, health promotion, and community mobilization 
+Health services monitoring and reporting 
+Health-related m-learning for the general public  
+Training and continuing professional development for health care workers 
+ 
+ 16 
+Section 2. 
+Review of Technologies & Technological 
+Capabilities  
+ 
+ 
+Over the past ten years, mobile communication technologies have entered 
+the mainstream in high, middle, and low income countries in 
+unprecedented and unanticipated ways. Peer-reviewed journal articles, 
+case studies, news articles, and reports are now beginning to provide 
+insight into the health-related benefits that are being derived (Curioso, 
+2006; Donner, 2004; Economist, 2005; Istepanian, 2004; Istepanian & 
+Lacal, 2003; Johnson, 2008; Kaplan, 2006; Lacal, 2003; Mechael, 2006; 
+Micevska, 2005; Wireless Healthcare, 2005). What remains lacking, 
+however, is a systematic evaluation of such technologies and their effect on 
+the overall delivery of healthcare (Fontelo, 2007).  
+ 
+As such, key mobile communication technologies under review in this 
+report include: 
+ 
+I. Mobile phones 
+II. PDAs and smart phones 
+III. Patient monitoring devices 
+IV. Mobile telemedicine/telecare devices 
+V. MP3 players for mLearning 
+VI. Mobile Computing 
+ 
+A Technological Ecosystem 
+It is critical to view such technologies within an ecosystem of interoperable 
+and functional components aimed at addressing key health technology 
+objectives. Strategic planning and development processes should begin by 
+identifying health priorities and then exploring potential technological 
+solutions that can be tailored to work flow and achieving specific needs. 
+Efforts to benefit from existing open source solutions are optimal for 
+ 17 
+achieving economies of scale, interoperability, as well as long term 
+optimization and expansion support.  
+ 
+Broad Technological Capabilities 
+Before discussing the potential of these technology groups, it is important 
+to highlight the main capabilities provided, namely voice and data access: 
+Voice is usually personal two-way communication, although automated 
+systems may provide voice-recorded information. 
+   
+Data access is primarily focused on visualizing static text but can also 
+extend to interactive decision support algorithms, other visual image 
+information, and also communication capabilities through the integration 
+of e-mail and SMS features.   
+ 
+GIS and GPS integration with mobile technologies adds a geographical 
+mapping component that is able to “tag” voice and data communication to 
+a particular location or series of locations.   
+ 
+These combined capabilities have been used for emergency health 
+services as well as for disease surveillance, health facilities and services 
+mapping, and other health-related data collection.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 18 
+I. Mobile phones  
+ 
+Uses of Mobile Phones 
+Generally studies that explore mobile phones and health have focused on 
+their role in supporting a direct healthcare intervention (Kaplan, 2006) or as 
+the cause of unsafe driving behaviors and emitters of potentially harmful 
+radiation (Agar, 2003).  Since 2005, scattered case studies and anecdotal 
+examples documented in the literature on the use of text messaging for 
+health, mobile diagnostic and decision support, disease surveillance and 
+control, and mobile phones to address emergencies and chronic illness 
+have emerged. A comprehensive wireless industry report divides this list 
+into 101 explicit health-related activities, highlighting many of the 
+opportunities becoming available within the health sector to maximize 
+increased access to the technology (Wireless Healthcare, 2005). Within the 
+context of such documentation, there is very little evidence on the health 
+outcomes related to the direct application of mobile phones to support 
+health objectives (Kaplan, 2006; Vodafone, 2006).  
+ 
+A Dearth of Mobile Phone Impact Studies 
+According to a Vodafone Policy Paper, mobile phone and health studies 
+have been recent and largely focused on the “potential” benefits of the 
+technology within the health sector and on their use in developed, rather 
+than developing countries (Vodafone, 2006).  Many of the existing studies 
+look at the voice and text functions as contributing to improved access and 
+efficiency within health care as well as the means by which young people 
+can access confidential health-related information (Vodafone, 2006).  As 
+observed in other reviews, many of the examples of applications are in the 
+pilot stage and have yet to be implemented or evaluated on a significant 
+scale.    
+ 
+Mobile Phones as Direct Health Interventions 
+In 2006, a review explored studies, primarily in developed countries, that 
+looked at direct interventions in which mobile and fixed-line telephones 
+phones were used to address health conditions such as diabetes (patient 
+blood sugar level monitoring), breast cancer (telephone counseling), 
+tuberculosis (adherence to medication), treatment compliance for a variety 
+of conditions, attendance at health facility appointments, depression 
+outcomes, immunization rates, asthma management, and smoking 
+ 19 
+cessation (Kaplan, 2006). The review specifically explored the use of 
+mobile phones for the “express purpose of supporting or altering one or 
+more health outcomes” (Kaplan, 2006). Through an intensive web-based 
+and library search, the author documented and compiled the results of 
+evaluations of intervention studies of fixed-line and mobile telephone 
+applications to address specific health care issues in developing countries.  
+ 
+The limited studies that were found were primarily small pilot projects which 
+offer mixed results in terms of demonstrating the potential that fixed-line 
+and mobile phones have to serve as a support for more effective delivery of 
+healthcare services (Kaplan, 2006). Functional and structural properties of 
+mobile phones namely low start-up cost, text messaging, and flexible 
+payment plans, make them attractive to use as a healthcare intervention 
+(Kaplan 2006). With the development of standardized health-related 
+software applications, mobile phones can provide real-time feedback and 
+pre-programmed portable automated services that enable support to 
+increasingly decentralized health systems (Lacal, 2003; Mechael 2006).   
+ 
+Text Messaging for Health 
+The primary feature of mobile phones that has been most significantly 
+documented in the context of health is text messaging, although there are 
+very few empirical studies that have been published or otherwise made 
+publicly available on the subject.  
+ 
+Text messaging via mobile phones has garnered increasing attention as a 
+means of reminding patients of appointments in the United Kingdom, 
+United States, Norway, and Sweden (The Economist, 2006).  The results 
+were a lowering of non-attendance to scheduled appointments, yielding 
+significant savings in health costs for facilities and practitioners.  In this 
+case the benefit is cost-related rather than health outcome related.  Studies 
+highlight the potential of mobile phones to disseminate public health 
+information and mobilize attendance to vaccination programs particularly in 
+developing countries as well as to manage the treatment of diabetes in 
+Scotland (The Economist, 2006). Recently, the Patient Care Messaging 
+Service for Pharmacies provided by iPLATO has been implemented in 
+London pharmacies, using texts to verify patients’ smoking status and invite 
+them to take part in smoking cessation services and follow-up treatment.6 
+ 
+                                                
+6 http://www.bjhcim.co.uk/news/2008/n807039.htm 
+ 20 
+Other health-related SMS-based systems are currently being implemented 
+throughout low and middle income countries. In 2007, a program of text 
+message reminders was being designed with a large teaching hospital in 
+Johannesburg in an effort to make more efficient use of overworked health 
+care workers (Praekelt Foundation, 2007, personal communication). SMS- 
+text messaging has also been highlighted as a preferred means of 
+communication for mobilizing support and communicating during 
+emergency and disaster situations (GSM Association, 2005). FrontlineSMS 
+has developed a system using mass texting for surveys and community 
+mobilization, which is free for NGOs.7 
+ 
+Mobile Phones and Health Sector Strengthening 
+Apart from the use of mobile phones within a broader technological solution 
+or as a stand alone intervention is the need to examine the national 
+progression of mobile phone use by the health sector as well as the 
+general public’s access to health services and information.  
+ 
+An empirical study of health-related uses of mobile phones in Egypt, a low 
+middle income country, explored how the general public along with the 
+health sector was benefiting from mobile phones in 2002-2003 (Mechael, 
+2006). The findings of the study included that with no external stimulus, 
+mobile phones are improving access to and coordination of both 
+emergency and routine health services as well as contributing to overall 
+family well-being (Mechael, 2006).  
+ 
+The study also identified key considerations that must be overcome in 
+order to maximize their use within the health sector, namely 1) cost, 2) risk 
+perceptions, 3) reliability of telephone systems in health facilities, 4) safety, 
+liability, and cost recovery for unknown contacts as well as information and 
+services provided at a distance, 5) lack of understanding and use of range 
+of functions available through mobile phones, and 6) poor quality of health 
+services (Mechael, 2006). Two key recommendations from the study were 
+that mHeatlh intiatives ought to help formalize and standardize positive 
+informal mobile phone and health activities and build support systems to 
+maximize their benefits. For example, the necessary creation of health 
+directories and call-in centers would enable faster and more directed 
+consultation support for the general public and health professionals 
+(Mechael, 2006).    
+                                                
+7 www.frontlineSMS.com 
+ 21 
+II. Personal Digital Assistants (PDA) and Smart Phones 
+ 
+General Uses of PDAs 
+PDAs, particularly in their hybrid combination with mobile phones, have 
+become a platform for data collection, processing, and communication 
+(Istepanian, 2004).  They are perceived to be portable, durable, powerful 
+and relatively easy to use with a short learning period for database 
+managers and healthcare providers (SatelLife, 2005). They also enable 
+access to information, such as diagnostic support guidelines and treatment 
+protocols as well as provide a means of rapid data transfer (SatelLife, 
+2005).  
+ 
+Use of PDAs in Low and Middle Income Countries 
+Low and middle income countries are making advances in the use of PDAs 
+and Geographical Information Systems (GIS) for data collection, 
+consolidation, and reporting as well as disease surveillance and control 
+(Shields, Chetley, & Davis, 2005). The Demographic and Health Surveys 
+(DHS), as coordinated by Macro International, rely heavily on the use of 
+PDAs for data collection.8 The work of SatelLife to document its 
+experiences in Ghana, Kenya, and Uganda in this area provides key 
+opportunities for learning and scale-up (Bridges.org, 2003; SatelLife, 2005).  
+Polio and Avian Flu surveillance programs use a combination of mobile 
+phones and PDAs to monitor and report cases as well as to coordinate 
+public messaging campaigns to notify citizens of potential risks (Chetley, 
+2006; Crampton, 2007).  
+ 
+PDAs for Clinical and Health Worker Support 
+A study of the degree to which PDA-based clinical reference information 
+such as formularies, clinical databases and algorithmic diagnosis decision 
+support software can assist clinicians at the point-of-care in remote parts of 
+low and middle income countries is in preparation.  Comparing cost 
+effectiveness over the long-term and actual use to influence decision-
+making in comparison to traditional print resources is planned in Kenya 
+(Dahlman, 2007).  Apart from qualitative impressions, it is difficult to 
+ascertain how the use of PDAs is contributing to improved health outcomes 
+especially in these low and middle income county settings where patient 
+follow-up is difficult (Bridges.org, 2003; SatelLife, 2005).   
+                                                
+8 http://www.orcmacro.com/Information/DataColl/mobile.aspx 
+ 22 
+ 
+Smart phones are also being used to provide bedside support (point-of-
+contact) for clinicians in many high income countries, through access to 
+web-based information resources and patient data.  One study conducted 
+at Prince George Hospital in Maryland, USA showed that availability of 
+reliable updated information from reliable web-based sources through 
+smart phones improved evidence-based practice particularly for community 
+hospitals and ambulatory clinics without wireless networks (Leon, Fontelo, 
+Green, Ackerman, & Lui, 2007).  This will likely have implications for the 
+use of such technologies in low and middle income countries in the future. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 23 
+III. Mobile telemedicine devices and patient monitoring 
+systems  
+ 
+Uses of Mobile Telemedicine Devices and Patient Monitoring Systems 
+Mobile telemedicine devices have mostly been deployed in high income 
+countries.  These devices and systems have been developed as stand 
+alone technologies that use wired and wireless telecommunications 
+infrastructure to transmit patient information or are integrated as an add-on 
+to mobile phones.  It is perceived that sensor-aided telemedicine devices 
+will generate significant cost savings for the health sector by reducing the 
+number of patient visits to health facilities and enhancing detection of 
+causes for action. As such the “patient becomes the point of care, not the 
+doctor or the hospital” (Fuscaldo, 2004). There are now devices that enable 
+self-measurement and monitoring/diagnosis of blood pressure 
+(hypertension), lung function through a spirometer (respiratory disease) 
+and controlled treatment through an inhaler, exercise and fitness, mobile 
+ECG, among others. In addition to those mentioned earlier, such systems 
+have also been developed by IBM, Ericsson Mobile, and Qualcomm. Self 
+monitoring for patients offers higher autonomy, security, and control over 
+their own health (Lacal, 2003).  
+ 
+Mobile Telemedicine Devices in Low and Middle Income Countries 
+For low and middle income countries, many of these sorts of solutions will 
+likely become available in urban centers. Additionally, given demographic 
+trends of an aging global population, these devices show promise for the 
+extended care of the elderly (Lacal, 2003). By contrast, rural areas, where 
+infectious disease priorities persist and human resources are limited, will 
+require more basic technological solutions, such as voice-based 
+teleconsultation between healthcare providers and citizens (Mechael, 
+2006).  
+ 
+Implementing Mobile Telemonitoring Programs 
+The question of whether there is sufficient ‘evidence’ to implement 
+telehealth programs is frequently asked. An article published by Continua, 
+an American telehealth and medical device consortium suggests that there 
+is a critical need to move beyond the evidence question, towards devising 
+successful telehealth business models and implementing programs. It cites 
+results from an internal study on a home telemonitoring program for 
+ 24 
+congestive heart failure, completed by one of the largest health plans and 
+health services provider in the United States. Results show drops in 
+doctors’ office visits, emergency room visits, inpatient admissions and 
+inpatient length of stay, all of which imply a decreased cost burden on the 
+American health system (Ayyagari, 2008).  
+ 
+ 
+ 25 
+IV. MP3 players and data storage devices 
+ 
+General Uses of MP3 players and data storage devices 
+Within discussions of mobile technologies and health, the newest 
+technology to come under review for its potential to promote health 
+objectives is the MP3 player. MP3 players are able to carry and organize 
+large amounts of audible content, whether in the form of music or speech to 
+large groups of people through the use of speakers and/or widespread 
+distribution to individuals.  So far, there are limited studies as to the 
+changes in behavior that one observes when using MP3 players for mass 
+communication.   
+ 
+MP3 players and data storage devices for mLearning 
+There is a growing trend in universities and schools to use iPods to deliver 
+lectures and podcasts as part of the educational process (Carmichael, 
+2007), an approach which could easily be used to deliver health 
+information. An innovative use of iPods to teach medical cardiology 
+students how to identify various types of murmurs was recently launched at 
+Temple University (Carmichael, 2007).  Along with educating medical 
+professionals, ipods may serve to educate patients as well. A 
+cardiovascular surgeon at the Arizona Heart Institute is using iPods to 
+educate his patients about diet, exercise, and basic anatomy and surgical 
+procedures.9  
+ 
+MP3 players and data storage devices in low and middle income 
+countries 
+Similarly to trends in high income countries, low and middle income 
+countries may also begin to embrace MP3 players and iPod-like devices to 
+enhance learning among health care workers in a more decentralized 
+portable manner that enables both audio and video capabilities (Chetley, 
+2006). The organization One Media Player per Teacher (OMPT) 
+specializes in providing iPods and low cost portable media players to 
+resource-poor settings.  As a means of improving access to education in 
+remote and war-torn settings, their goal is to equip ten million teachers with 
+portable media players in support of the MDGs. OMPT has supplied 
+US$100 portable media players in Southern Sudan and Haiti.10 Such 
+                                                
+9 http://www.nursezone.com/Nursing-News-Events/media-library.aspx 
+10 http://www.ompt.org/ 
+ 
+ 26 
+targeted provision of media players in low-income countries could be 
+specifically deployed to train community health workers to recognize signs 
+of severe illness, educate patients about management of chronic illness 
+and communicable diseases, and prevent sexually transmitted illnesses.  
+ 
+ 27 
+V. Mobile computing and Convergence of Technologies 
+ 
+Mobile Software and Hardware Development 
+While eHealth symbolizes the future of health, and especially health care, 
+its future lies in divergent technologies and ubiquitous technology systems. 
+Increasingly, mobile communication technologies can run a rapidly 
+increasing range of software applications (Lacal, 2003).  Mobile software 
+development is booming, particularly in high and middle income countries 
+where the Windows Mobile Platform and Open Source are enabling smart 
+phones (mobile phone and PDA hybrids) to provide basic computer 
+functions while in motion (Iluyemi, 2007). Software development is also on 
+the rise in low income countries. A recent New York Times article illustrated 
+the proliferation of mobile software development in Nairobi, citing both 
+opportunities for digital innovation and challenges for local developers. 
+Such challenges include slow and expensive internet connections, power 
+failures, and the lack of technical educational resources. These local 
+mobile software applications, however, tend to consist of more basic code, 
+which is ideal for mobile and wireless platforms, particularly for use in low 
+and middle income countries (Zachary, 2008).  
+ 
+Hardware ranges from laptops to tablets to smartphones as well as 
+specialized health-specific computing devices.  Such systems will likely be 
+tailored to suit an individual’s needs and lifestyle through the combined 
+integration of wireless technologies envisioned through third (3G) and 
+fourth generation (4G) systems, making it easier to interactively acquire 
+medical advice and information when and where one wants it (Istepanian, 
+2004). 
+The rapid growth of wide-ranging mobile health software applications is 
+exemplified by the comprehensive United Nations Public Administration 
+Network (UNPAN) report of Mobile Applications on Health and Learning, 
+compiled in 2007 as part of UNPAN’s Compendium of ICT Applications on 
+Electronic Government. The review provides a technical summary of 
+mHealth software applications while addressing impact where applicable. 
+The Compendium organizes applications by geographic region and 
+mHealth sector; that is, Mobile Health (health administration, health care 
+delivery systems, health information, patient care) as well as Mobile 
+Learning (instructional process, learning products, organizational training 
+and informal learning, school administration) (UNPAN, 2007).  
+ 28 
+Ubiquitous Computing 
+Rather than computers as distinct entities, ubiquitous computing will embed 
+computation into the environment and everyday objects. These include 
+wearable devices that can signal to both the individual as well as a 
+healthcare provider that a significant change in key indicators has occurred 
+(Istepanian, 2004).  In the future, ubiquitous computing will permit people to 
+move around and interact with information even more easily and 
+organically than they currently do. Short-range mobile transceivers 
+embedded into various devices with increasing processing capability will 
+permit communication between people and devices, and between devices 
+(including medical devices) themselves, thus bringing the dream of health 
+care for everyone, wherever they may be, a little closer. Many of the early 
+examples in this area are from high income countries, but will likely transfer 
+over time to low and middle income countries.  Barriers in low and middle 
+income countries will likely be their cost as well as competing infectious 
+disease priorities.   
+ 
+Convergence of Technologies 
+There is no one solution that is available everywhere, and health 
+administrators and technology developers have started combining different 
+technologies in different environments:  
+Cell-Life – South Africa – A Convergence of Technologies 
+In South Africa there is a serious bottleneck in treatment of HIV and AIDS due to 
+shortage of qualified pharmacists. This means that rural clinics cannot distribute 
+medication. Cell-Life developed a system that combines a cell-phone, the internet and 
+computers at various stages to allow the pharmacist (who is usually at a better 
+equipped clinic) to package drugs for a rural clinic (which doesn’t have a pharmacist) 
+and then a driver takes the package to the clinic (Rivett, 2007). When the package 
+leaves the pharmacy the package is equipped with a barcode that relates to the 
+patient, the drugs and the clinic. The package is “signed out” and on the computer 
+system of the pharmacist has an “in transit” message (Rivett, 2007). Once the 
+package arrives in the clinic the nurse scans the package using a wireless scanner (in 
+the scanner is a SIMcard that allows data transfer through the GSM network). Once 
+the package is scanned in, an “arrived at clinic” message can be seen on the 
+pharmacist system (Rivett, 2007). When the patient comes to collect it, it is signed out 
+again and the status reads, “package collected by patient”. The pharmacist now knows 
+that the package has gone to the patient, and can start preparing the next month's 
+supply (Rivett, 2007). 
+ 
+ 29 
+Section 3.  
+mHealth Applications and WHO’s eHealth 
+Mandate  
+ 
+ 
+In order to provide coherence to how mHealth can and is already 
+contributing to the mandate of WHO, the following section and 
+accompanying appendices highlight various case studies of the use of 
+mobile communication technologies for: 
+1. Health promotion 
+2. Supporting the health work force 
+3. Enhancing service delivery 
+ 
+The area of health promotion includes the prevention of disease and 
+adverse health conditions in an effort to preserve individual well-being. It 
+also includes an individual’s efforts to go from a state of illness to wellness.   
+ 
+The area of supporting the health work force includes enhancing the 
+capacity of health care workers to more effectively perform their duties, 
+including improving their access to health information.   
+ 
+Enhancing service delivery takes a systems perspective, which includes 
+emergency response systems, health service coordination, delivery, and 
+administration as well as improving access to services for individuals.    
+ 
+ 
+For further case studies, please refer to Appendix Tables 1-6: 
+Table 1. Treatment Compliance 
+Table 2. Health Worker Support and Mobile Telemedicine 
+Table 3. HIV/AIDS Prevention and Treatment 
+Table 4. Disease Surveillance 
+Table 5. Health and Wellbeing Promotion through Targeted Media 
+Table 6. Emergency Medical Services 
+ 30 
+1. mHealth for Health Promotion 
+ 
+The use of mobile communication technologies for health promotion can be 
+explored from two broad angles: 
+ 
+• Increased demand for health services with improved access to 
+telecommunications 
+• The direct application of mobile technologies by the health sector for 
+the purpose of health promotion 
+ 
+mHealth and Increased demand for health services 
+Several studies specifically exploring linkages between the general public 
+and the health sector in Bangladesh, Laos, and Egypt have illustrated that 
+improved telecommunications with the introduction of mobile phones is 
+leading to a more direct link between clients and healthcare workers as well 
+as a perceived increase in demand for health services and health-related 
+information (Mechael, 2006; Micevska, 2005).   
+ 
+Access to telecommunications extends benefits beyond individual 
+households with shared uses often associated with accessing emergency-
+related information and transportation (Mechael, 2006; Micevska, 2005).  
+These trends will likely intensify as more individuals and households avail 
+themselves of mobile and fixed-line telephone services.   
+ 
+Mobile communications for Safety and Security 
+Increasingly, mobile phones are carried and domesticated as part of an 
+individual’s desire to preserve and maintain safety and security (Agar, 
+2003), becoming a part of the social image of the technology (Agar, 2003; 
+Ling, 2004).  Safety and security are two aspects of mobile phone use that 
+are gaining increased attention in low and middle income countries with 
+growing numbers of mobile phone users (Mechael, 2006).  They have 
+become a lifeline for many and are carried “just in case” of emergency 
+(Ling, 2004).  Special studies are currently underway regarding their use in 
+natural disasters such as earthquakes and floods as well as in 
+“extraordinary situations” such as terrorist attacks (Ling, 2004). With 
+respect to the management of chronic health conditions, mobile phones are 
+used to coordinate routine health care as well as emergency care, enabling 
+increased mobility particularly among individuals with disabilities (Ling, 
+ 31 
+2004).  As documented by a number of mobile phone researchers, the 
+elderly are more able to communicate instantaneously with their children as 
+well as health care professionals for guidance on their health than they 
+were prior to having a mobile phone (Agar, 2003; Haddon, 2004; Ling, 
+2004).    
+ 
+Mobile Communications and Improved Livelihoods 
+There are also a number of socially determined health-related benefits 
+cited in the literature regarding improved access to telecommunications, 
+namely mobile phones (Chetley, 2006; Donner, 2005; Mechael, 2006).  A 
+key example is the work of the Village Phone Program initiated by the 
+Grameen Bank in Bangladesh in 2001, which is now being replicated in 
+Uganda and other countries (Chetley, 2006).  The program provides mobile 
+phones to women to sell airtime to the local community. The effects are 
+improved economic conditions for participating households as well as 
+improved access to telecommunications for access to health care providers 
+and information (Chetley, 2006).  These changes are creating economic 
+opportunities that in turn have the potential to yield improved access to 
+health information and services as well as improved quality of life and 
+enhanced well-being.   
+ 
+A health-related extension of this program, called the Grameen 
+Healthline,11 was launched in November 2005 in Bangladesh.  The system 
+provides a number to the general public, which connects them to a 
+registered physician who provides advice and referrals for emergency as 
+well as routine health conditions.  In 2007, the program was recognized by 
+the GSM Association for its innovative use of mobile phones.  As of 
+October 2007, the program was providing medical advice to approximately 
+10,000 callers per day.12 
+ 
+Disease Surveillance and Control  
+Improved communication along with enforcement within epidemiological 
+investigation and disease control has the potential to reduce the risk of 
+exposure within the general public to outbreaks of Avian Flu and other 
+infectious diseases. In such cases, health administrators are using a 
+combination of fixed and mobile telephone systems within an investigation 
+                                                
+11 http://www.grameenphone.com/index.php?id=106 
+12 http://www.grameenphone.com/index.php?id=330 
+ 
+ 32 
+team to identify the source of an outbreak, develop a response plan, 
+mobilize the necessary action to be taken, and ensure enforcement of 
+protective measures. Also, individual physicians receiving such cases can 
+more quickly detect patterns and report such occurrences to local 
+administrators.   
+  
+Health and wellbeing promotion through targeted media 
+There are a growing number of anecdotal examples of general public and 
+smaller target group campaigns that are using SMS to encourage young 
+people to adopt positive sexual and reproductive health practices, 
+particularly as part of broader HIV prevention programs.  One such initiative 
+is that of the STAR programme implemented by Hivos in collaboration with 
+the Dutch telecom provider KPN, a capacity building initiative in East and 
+Southern Africa that uses SMS to complement other HIV and AIDS 
+outreach activities for young people.  The system aims to increase 
+awareness among young people, and the pilot program is showing 
+improvements in interactivity among partner organizations and their 
+constituents (Hivos, 2005).   
+ 
+There are significant opportunities for mass and targeted communication 
+using SMS and pre-recorded voice messaging.  These can be delivered to 
+a specific group that has registered for such a service or through general 
+public mass media campaigns.  As a central part of its work, Media Lab 
+Asia, an organization focusing exclusively on bringing the benefits of  ICTs 
+to the disadvantaged, uses mobile devises for  “multimedia, local language 
+and local content based health education and promotion”  activities 
+(Ramaraju, 2007). Mass texting can serve the dual purpose of prevention 
+and emergency response in promoting well-being. As part of Cell-life’s work 
+in South Africa, an anti-xenophobia campaign was launched as a result of 
+violence against foreigners. The aim of the texting scheme was to voice 
+opposition to the violence, provide a method of reporting incidents, and to 
+mobilize organizational and community responses.13  
+ 
+ 
+                                                
+13 http://mobileactive.org/say-no-xenophobia-cell-phones-against-south-africa-violence 
+ 
+ 33 
+2. mHealth for Supporting the Health Work Force 
+ 
+Mobile Telemedicine 
+Telemedicine/telehealth, has been defined by the World Health 
+Organization as the use of ICT for the support of or the direct provision of 
+health care, particularly where distance and locally available expertise is a 
+critical factor (World Health Organization, 2005b).  The term telehealth is 
+increasingly being used as a replacement for telemedicine, since it 
+suggests a broader use of telecommunications technologies and 
+applications as the focus of programs moves beyond health facilities to the 
+care and monitoring of the elderly at home (telecare) (Klecun-Dabrowska & 
+Cornford, 2001).  In telehealth and the more widely understood 
+telemedicine, health care professionals use information and 
+communications technologies to exchange information for diagnosis, 
+treatment and prevention of disease and injuries, research and evaluation, 
+and for the continuing education of health care providers.  Much of the 
+literature regarding telemedicine focuses on the use of e-mail and the 
+Internet as the instrument of communication for support in diagnostic and 
+treatment decision-making. The primary benefits of such programs include 
+cost and time savings, mostly by reducing the number of patient to health 
+facility visits for home based telecare as well as reducing transportation 
+costs and medical fees associated with a physical consultation with a 
+specialist.   
+ 
+One important category of telehealth is telenursing, the use of 
+telemedicine to carry out nursing care. The International Council for Nurses 
+published its International Competencies for Telenursing, which integrates 
+an in depth review of telenursing literature and the results of the 2004 
+telenursing survey to formulate telenursing competencies. The report 
+emphasizes the need for broad telenursing guidelines and education, 
+particularly in the areas of professional, ethical and legal practice, care 
+provision and management, and professional development (Schlachta-
+Fairchild, 2007). The field of telenursing has the potential to inform 
+telemedicine in low and middle income countries, where there is a 
+significant shortage of physicians. 
+ 
+Telemedicine competencies 
+Such general competencies can be extended to the wider practice of 
+telemedicine. A Model For Telephonic Medical Consults written by the 
+Former United States Secretary of Health and Human Services outlines 
+ 34 
+possible guidelines and benefits of implementing telemedicine programs in 
+the United States. These include lowered health costs through less hospital 
+visits, along with decreased work absenteeism from medical appointments, 
+transparent pricing schemes and incentives for physicians, as well as 
+culturally competent care through the use of multi-lingual help lines 
+(Thompson, 2008) 
+ 
+Specialized Telemedicine 
+Specialized telemedicine programs like teledermatology and 
+teleophtalmology are gaining prominence within mHealth. A feasibility study 
+of a teledermatology wound care system reported high acceptance rates 
+for patients, nurses, and wound care experts. The system included an initial 
+outpatient visit with follow up care accomplished through descriptions and 
+digital photos sent via the web. Though this system was web-based, it 
+showed that 89% of the images were high enough quality for providers to 
+feel confident in making treatment recommendations (Binder, 2007). Such 
+an image-based system could be transferred to a mobile platform, 
+especially with the assistance of high-resolution attachments. They might 
+also be modified for use with community health workers or family members 
+who are attending to the wounds of their loved ones.   In Tamil Nadu State 
+in India, the Sustainable Access in Rural India (SARI) Program is providing 
+wireless internet access to 8000 people in 50 villages.  A sub-initiative has 
+been developed in partnership with the Aravind Eye Hospital to provide on-
+line eye consultations (Chetley, 2006).  Digital images along with symptom 
+descriptions are transmitted by staff at a local internet kiosk to the hospital 
+and a preliminary diagnosis and either treatment or referral 
+recommendations are provided (Chetley, 2006).    
+ 
+Examples regarding telemedicine in developing countries traditionally 
+focused on the use of technology to establish linkages between health 
+professionals in more Westernized countries, such as England and France, 
+and Africa for the treatment of a broad range of diseases. Increasingly, 
+examples of telemedicine initiatives between urban and rural health care 
+providers as well as facilities-based health care providers and patients at 
+home are emerging from countries such as India, Pakistan, Russia, and 
+Poland (Med-e-Tel, 2006).  In Latin America, MedNET aims to connect 
+rural regions in the Amazon with a medial network of physicians in urban 
+areas.14 As telehealth systems become more decentralized, mobile 
+                                                
+14 http://www.e-mednet.com/ 
+ 35 
+communication technologies become more appropriate for the facilitation of 
+decision support and referral systems. Within clinical care, mHealth has the 
+potential to offer healthcare professionals interactive access to information 
+such as patient history, laboratory results, diagnostic support, and 
+treatment information at the point-of-care (where they are directly engaged 
+with their patients) (Istepanian, 2004). There is also great anticipation 
+within the health sector in low and middle income countries for mobile 
+phones with high resolution cameras for mobile telemedicine.  
+ 
+mLearning and human capacity building 
+A key aspect requiring further documentation is the use of mobile 
+communication technologies for mLearning and human capacity building 
+within the health sector to address key shortfalls in medical education and 
+training. Ongoing mLearning that promotes access to educational content 
+reduces isolation of health workers and interactive post-graduate education 
+experiences would be a welcome investment towards redressing many of 
+the shortfalls within the healthcare work force. After two years of 
+implementation by SatelLife of the Uganda Health Information Network, 
+over 120 health facilities serving the needs of 100,000 people were able to 
+access, send, and receive medical information through GSM configured 
+PDAs (SatelLife, 2005). The application is a hybrid of mLearning as well as 
+decision support for health care workers.   
+Health Work Force Support and Mobile Telemedicine - Ghana 
+Since January 2008, medical doctors in Ghana have enjoyed free calls while carrying 
+out their duties. Courtesy of Onetouch, all registered members of the Ghana Medical 
+Association receive free Onetouch starter packs, free doctor-to-doctor calls and SMS 
+texting within Ghana, free physician directory assistance, and free bulk texting from 
+the Ghana Medical Association and Ghana Health Service. The package aims to 
+improve communication between health providers as well as improve the quality of 
+healthcare by saving time, cutting communication costs, and allowing doctors to 
+consult with one another more easily.  
+ 
+Challenges include some physician reluctance to seek advice from their colleagues as 
+well as lack of awareness of the service. While the results of this program have yet to 
+be assessed, this collaboration between local health authorities, physicians, and 
+telecommunications companies serves as an important precedent in its aim to support 
+the health work force. The program has logged approximately one million calls since 
+its inception and has come to connect Ghana’s 2,000 geographically isolated 
+   p  h   y  s  ic  i a   n  s   w   h  o   s  e  r  v  e    a   p   o  p  u  l a  t  io  n   o  f   2  3   - m   i l l i o  n  .                                                                   
+ Source: http://mobileactive.org/when-doctor-just-phone-call-away 
+ 36 
+3. mHealth for Enhanced Service Delivery 
+ 
+A key area where service delivery systems-level results are already being 
+experienced through the application of mobile communication technologies 
+for health is in the delivery of emergency healthcare and as well as remote 
+patient monitoring.  In emergency services the goal is to rescue life and 
+reduce damage to patients. Based on a broad range of studies conducted 
+in Europe, United States, Australia, and Egypt mobile phone subscribers 
+have reported the utility of the technology in emergency situations 
+(Chapman & Schofield, 1998; GSM Association, 2005; Horan & Schooley, 
+2002; Ling, 2004; Mechael, 2006).   
+ 
+The three aspects of emergency support that are directly related to health 
+are: 1) responding to and recovering from natural and man-made disasters, 
+2) mobilizing ambulances and informal transportation to the scene of motor 
+vehicle accidents and 3) addressing chronic medical conditions particularly 
+among the elderly. In the case of accidents the respondents of empirical 
+studies have reportedly been able to describe an emergency situation for 
+which either they or someone that they knew used a mobile phone to 
+mobilize support (Ling, 2004; Mechael, 2006).  In addition for low and 
+middle income countries that struggle with high maternal mortality rates, 
+there are potential applications of the technology to addressing maternal 
+and child health issues- namely obstetric emergencies (Mechael, 2005).    
+ 
+Apart from emergencies, there are additional case studies focused on 
+specific health facilities integrating mobile technologies for service delivery 
+as well as programs that focus on mobile support for the treatment of a 
+particular disease.  In Ethiopia, a prototype for a mobile medical system for 
+hospitals has been developed based on an in-depth analysis of existing 
+work flow patterns that uses mobile phones and PDAs to support the 
+information and communication needs of healthcare providers (Kefale, 
+Mekuria, & Bekele, 2006).  Although this project is still in its early stages, 
+the approach illustrates a positive trend towards the application of mHealth 
+for enhanced health service delivery. Since 2001, Media Lab Asia has used 
+mobile devices for generation of village GIS maps with health aspects to 
+assist in the identification of health service gaps for better informed 
+planning (Ramaraju, 2007). 
+ 
+ 
+ 
+ 37 
+mHealth and Emergency Response Systems 
+In December 2005, the GSM Association published The Role of Mobiles in 
+Disasters and Emergencies.  The report documents the use of mobile 
+phones in emergency situations such as the Indian Ocean Tsunami, 
+Hurricane Katrina, and terrorist attacks.  A key lesson documented in the 
+review highlights that text messaging is a more effective means of 
+communication during emergency relief efforts as the messages are more 
+likely to go through on overburdened cellular systems than a phone call 
+(GSM Association, 2005).  Other lessons included that mobile phones 
+serve as early warning systems and their role in this capacity can be further 
+strengthened. A key benefit of mobile phone based systems is that cellular 
+networks are relatively resilient and easy to repair as part of stage one 
+recovery processes (GSM Association, 2005). Timely access to 
+communication and information is a vital aspect of response to and 
+recovery from disaster situations (GSM Association, 2005).  Systems 
+applications for addressing emergencies are currently being implemented 
+and explored.  The organization Telecoms Sans Frontieres uses the 
+improved telecommunications environment to set up communication 
+systems as part of emergency relief efforts15.  These include relief efforts 
+for man-made, including conflict and war, situations, as well as natural 
+disasters. 
+ 
+An analysis done in the United States and a related study conducted in 
+Australia, explored the benefits within the health sector that come from 
+improved access to telecommunications within the general population in 
+relation to enhanced medical emergency responses. The analysis 
+conducted in the United States documented the estimated increase in the 
+number of wireless emergency calls from 1985 to 2001 and the reduction in 
+time between fatal crashes and Emergency Medical Services notification 
+(Horan & Schooley, 2002).  In this analysis there was a positive correlation 
+between increased access to wireless communications and time saved.  
+The analysis also served to highlight an overall increased demand for 
+Emergency Medical Services (Horan & Schooley, 2002). The study 
+conducted in Australia explored similar improvements in the reporting of 
+emergencies.  The study showed that although the main focus of 
+discussion around mobile phone use and health is in its negative effects in 
+causing automobile accidents, it is in fact also contributing to improvements 
+in responses to automotive emergencies (Chapman & Schofield, 1998).  
+                                                
+15 http://www.tsfi.org/tsfispip/?lang=en 
+ 38 
+ 
+The role of mobile phones in addressing road traffic accidents applies to 
+high, middle, and low income countries alike; however, in countries with 
+poor pre-existing telecommunications infrastructure, their benefits may be 
+more dramatically experienced with the appropriate protocols for service 
+coordination and delivery (Mechael, 2006).  Related outcomes in the area 
+of emergency response have been expressed in terms of fewer fatalities 
+and complications, more efficient management of health personnel, and 
+improvements in direct consultation between lay users and physicians as 
+well as between physicians (telemedicine) (Mechael, 2006).  
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 39 
+Section 4.  
+mHealth Partnerships 
+ 
+ 
+As new technologies are developed and deployed, it is paramount that both 
+the business and public health communities understand the dynamic 
+relationships evolving between the development of a particular technology 
+and health.  In order to ensure their value in poor countries, mobile 
+communication technologies must be viewed as a production good rather 
+than a consumer good (Kaul, 2001), which is often the case in rich 
+countries.  This means looking for ways in which people in poor countries 
+can apply the technology more fully to achieve social goals and objectives, 
+including those that “produce” better health.    
+ 
+Technology developers, predominantly in high income countries with the 
+exception of India and South Africa, and users in rural communities in poor 
+countries are two extremes within the ICT and global health network that 
+enable a wide variety of health outcomes and efficiencies.  The table below 
+illustrates some of the key stakeholders involved in this ICT and global 
+health network.  For each member of the various network spheres there are 
+internal and external interactions.  Decisions made within one sphere have 
+potential impacts on one or more of the other spheres.  Depending on the 
+technology in question the various actors may change and their roles 
+fluctuate on an active-passive scale, resulting in a series of actions, 
+reactions, and relationships (Michael, 2000).   An example from Peru, 
+illustrates the movements towards strategic partnerships that consider the 
+needs and contributions of government, civil society organizations, health 
+sector, and citizens (Murrugarra, Cannales, Tanner, Salizzoni, Lopez de 
+Castilla, & Gildenston, 2007).  
+ 
+Sphere Network Members 
+Industry (international, Investors, boards of directors, management, strategists, researchers, 
+regional, district, local) developers, sales, marketing, trainers, distributors, installation specialists, 
+insurance companies, pharmaceutical and medical device companies 
+National Government Ministries of Health, Trade, Communications, Transport, Education, 
+and Policymakers  Internal affairs, Foreign affairs; WHO, bi-lateral and multi-lateral donors 
+Local communities Individual technology users in urban and rural communities, health care 
+workers, employees of companies using ICTs, NGOs 
+Hardware and software Mobile phones, accessories, computers, Internet, Global Positioning 
+applications Systems, GIS, PDAs, MP3 players, Remote Monitoring Devices, etc.  
+Mobile communication technology and health network [adapted from (Mechael, 2006)] 
+ 40 
+Engaging Technology Developers 
+ 
+In direct relation to MDG Goal 8 Target 18, which states that “in 
+collaboration with the private sector, make available the benefits of 
+technology- especially information and communications,” there is a call to 
+explore strategic partnerships that maximize the social impact of ICT 
+(United Nations, 2006).  In many instances, industry giants are eager to 
+share technological solutions in poor countries for telehealth and tele-
+education services as the mHealth commercial domain rapidly grows 
+(Istepanian & Lacal, 2003).  However, caution is encouraged that the 
+design and deployment of solutions are driven by the needs of the health 
+sector and in a way that is appropriate for the local environment (Mechael, 
+2007). Many mobile technology industry giants have made the strategic 
+decision that adaptations and/or development of relevant software 
+applications that yield health benefits would be a profitable investment, 
+particularly in relation to developed country markets.  However, there are 
+now several companies that are extending this vision to include low and 
+middle income countries.  
+ 
+“Corporate social responsibility” as well as Kofi Anan’s “responsible 
+globality” (Beard, 2000) are the “buzz words” for companies striving to have 
+a positive social impact in order to maintain and expand their markets. The 
+common goals and tensions between technology companies and those 
+interested in their social impact must be identified and negotiated.  An 
+outgrowth of social responsibility, the social marketing of technology to the 
+health sector, involves the direct marketing of ICT by service providers to 
+the general public and the health sector with the proactive motivation of 
+contributing to improved health outcomes.  It also extends to the creation of 
+health-specific software applications within those technologies that are 
+rapidly spreading within the general public, namely mobile phones and 
+smart phones.   
+ 
+In the movement towards enhanced Public and Private Partnerships, a 
+mutual learning process between technology companies and the health 
+sector is needed. This process would explore the potential for cost 
+subsidies for health professionals along with the social marketing of 
+hardware and health-specific software applications to the general public 
+and health sector (Mechael, 2006).  Such programs should be designed to 
+more strategically use ICT as a tool for achieving existing health objectives.  
+The issue of mobile software development will determine the availability 
+ 41 
+and development of appropriate low software for mobile devices.  Big 
+software players like Microsoft should be encouraged to release source 
+code for development purposes, as well as provide technical support in 
+adaptation, testing, and deployment of software applications (Iluyemi, 
+2007).  The Continua Alliance16, a technology and health alliance 
+comprised of industry giants, should be encouraged to consciously 
+incorporate developing countries agenda into their plans (Iluyemi, 2007).   
+ 
+Developing country interests should also be explicitly included in open 
+source communities such as Open Health Tools (OHT), a collaborative 
+effort between national health agencies, government-funded organizations 
+and agencies, major healthcare providers, international standards 
+organizations and companies from Australia, Canada, the United Kingdom 
+and the United States to develop common interoperable healthcare IT 
+products and services.17 Another important open source community is 
+OpenROSA, a consortium which aims to improve coordination among the 
+many groups working on mobile data collections systems. By developing 
+open source standards-based tools for mobile data collection and analysis, 
+projects can become more mutable in order to facilitate the sharing of code, 
+data, infrastructure, and ideas.18  
+ 
+Policy Makers, Academic Institutions, and NGOs 
+ 
+In order to test and scale up mHealth initiatives, working with a broad range 
+of stakeholders will be critical.  These include, but are not limited to 
+National and District Level health and technology managers, policy-makers 
+and donors, academic institutions, and NGOs and other implementing 
+partners. 
+ 
+Some, but not all, policy makers and donors working to advance mHealth 
+are the Danish International Development Agency (DANIDA), Department 
+for International Development (DfID) in the UK, the International 
+Telecommunications Union (ITU), Norwegian Agency for Development 
+Cooperation (NORAD), Swedish International Development Agency 
+(SIDA), United States Agency for International Development (USAID), 
+United Nations Development Program (UNDP), United Nations Economic 
+                                                
+16 http://www.continuaalliance.org/home  
+17 http://www.ehealthnews.eu/content/view/1072/26/ 
+18 www.openrosa.org 
+ 
+ 42 
+Commission for Africa (UNECA), United Nations Children’s Fund 
+(UNICEF), United Nations Fund for Population Activities (UNFPA), 
+International Development Research Center (IDRC), World Bank’s InfoDev 
+Program, and the World Health Organization (WHO). Independent 
+foundations are increasingly becoming active in supporting mHealth. These 
+include the Bill and Melinda Gate Foundation, Kellogg Foundation, and 
+Rockefeller Foundation. The GSM Association is an important stakeholder 
+in the issues of infrastructure and devices19.  Within the European Union 
+Information Society Technology initiatives, there are also numerous 
+mHealth applications already developed for both patients and health 
+professionals that can be extended to low and middle income countries. 
+ 
+The Rockefeller Foundation has recently focused on eHealth, particularly 
+promoting ICT use to improve the health of the poor. The foundation hosted 
+a series of weeklong meetings from July 13 to August 8, 2008 at its 
+Bellagio Center in Italy, “Making the eHealth Connection: Global, 
+Partnerships, Local Solutions,” with a week specifically focused on mHealth 
+and mobile telemedicine.1 The goal of the conference was to support 
+eHealth initiatives through collaborative funding, design, and 
+implementation of eHealth systems throughout the Global South. 
+Background papers and presentations covered key themes such as the 
+path to interoperability, public health informatics and national health 
+information systems, health informatics and eHealth capacity building, 
+access to health information and knowledge sharing, mHealth and mobile 
+telemedicine, electronic health records, national eHealth policies, and 
+unlocking eHealth markets.20 The weeklong session on mHealth and 
+mobile telemedicine, coordinated by the UN Foundation and Vodafone 
+Group Foundation, set forth recommendations that have the potential to 
+significantly advance the field of mHealth. These include the creation of an 
+mHealth alliance as well as the incubation of four scalable mHealth 
+systems; Commcare (a support tool for CHWs), mDoc (a mobile 
+telemedicine clinical decision support system), BreakOut (a global disease 
+surveillance system), and tools for positive living and wellbeing. 
+ 
+Academic Institutions with which collaboration could prove valuable 
+include: Columbia University, University of California at Berkley, University 
+of Cape Town (technology development), London School of Economics 
+                                                
+19 http://www.gsmworld.com/developmentfund/index.shtml 
+20 These and other multimedia materials are available at http://www.ehealth-connection.org/conference-
+materials. 
+ 43 
+(evaluation frameworks), Johns Hopkins Center for Communication 
+Programs (content and applications), Rutgers Center for Mobile 
+Communication Studies (research), International Institute for 
+Communication and Development (evaluation frameworks), University of 
+Washington, Harvard University, Kingston University (mHealth applications 
+development and testing), University of Manchester (m-Development), 
+Universidad Peruana Cayetano Heredia (research and training in 
+biomedical and health informatics), Makerere University in Uganda, among 
+others. Partnerships between industry and research organisations should 
+be encouraged to support appropriate design, testing, and evaluation of 
+cheaper and user friendly devices for patient- and health worker-centric 
+usage (Iluyemi, 2007). 
+ 
+Some of the strongest technical organizations in mHealth in low and middle 
+income countries include Cell-Life and Meraka Institute from South Africa, 
+Media Lab Asia in India, SatelLife and Voxiva, Dimagi and D-tree in the 
+United States, SynapseHealth in the Philippines, and Grameen Bank’s 
+Technology Group in Bangladesh. There are also rapidly emerging mobile 
+phone and health partnerships, including those between Nokia and Plan, 
+the UN Foundation and Vodafone Group Foundation (See below), and the 
+PEPFAR Initiative Phones-for-Health (See below). The Phones-for-Health 
+Program, specifically targeting HIV and AIDS services, is perhaps the only 
+one of its magnitude (national scale) to deploy mHealth management 
+infrastructure that will enable healthcare providers and administrators to 
+order medicines, download treatment guidelines, send alerts, and access 
+training and other information materials (GSM Association, 2007). 
+Implementation of this initiative is planned for 10 countries in Africa with 
+potential expansion to address other diseases such as TB and malaria as 
+well as to countries in Asia (GSM Association, 2007). 
+ 
+UN Foundation and Vodafone Group Foundation Partnership 
+The UN Foundation partnership with the Vodafone Group Foundation (VGF) began 
+operations in October 2005, with a £10 million commitment from VGF matched by £5 
+million from the UN Foundation to support UN causes. The Partnership leverages 
+Vodafone’s core strengths – its mobile technology, global infrastructure, and capacity 
+for mass consumer outreach – with the UN’s scale, mission, and human capital. The 
+partnership goal is to support activities and manage initiatives that use technology tools 
+to help the UN address the world’s toughest challenges more effectively and efficiently. 
+ 
+The United Nations Foundation is working with the Vodafone Group Foundation to 
+address these challenges in Africa by collaborating with WHO and national health 
+ 44 
+ministries to build digital health data systems. These systems are powered by data 
+gathered by on-the-ground health professionals equipped with personal digital 
+assistants (PDAs) and flexible epidemiological surveillance software. The Partnership 
+launched a major program in June 2006 to fund training, software, and mobile 
+computing devices for the full complement of health data officers in Burkina Faso, 
+Kenya, and Zambia to support the fight against measles, through the NGO DataDyne. 
+ 
+The United Nations Foundation’s Rapid Response Emergency Telecommunication 
+project works with UNICEF, the World Food Programme, and the UN’s Organization for 
+the Coordination of Humanitarian Affairs (OCHA) to improve access to life-saving 
+technology and telecommunications tools in natural disasters, conflicts, and famines. 
+ 
+[For more information visit: http://www.unfoundation.org/vodafone/index.asp]  
+ 
+In 2008, in preparation for the Bellagio meeting on mHealth and mobile 
+telemedicine, the UN Foundation and the Vodafone Group Foundation 
+commissioned a comprehensive report, mHealth in the Global South: 
+Landscape Analysis. Aiming to provide a foundational report and analysis 
+of current mobile health work, the report examines strategies and factors 
+involved in successfully implementing sustainable mobile technology. 
+Conducted by Vital Wave Consulting, the review emphasizes mHealth as a 
+business model. It examines stakeholder incentives and identifies 
+participants in the mHealth ‘value chain,’ that is, the organizational 
+relationships and steps required to deliver a commercialized product. Along 
+with a summary of mHealth projects in the global South, the report is a 
+symbol of the UN Foundation and Vodafone Group Foundation partnership. 
+It communicates the need to make the mHealth business case and to forge 
+more partnerships for scale-up (UN Foundation/Vodafone, 2008).   
+ 
+Many International NGOs, including AMREF, CARE, Catholic Relief 
+Services, International Federation of Red Cross and Crescent, and Save 
+the Children are applying mobile technologies to their health-related work,  
+although there are very few who have documented their use.  This is 
+rapidly changing as efforts toward more strategic use of such technologies 
+are becoming more prominent, as illustrated by some of the evaluations 
+conducted in this area by institutions such as the International Institute for 
+Communication and Development, International Development Research 
+Centers, and Bridges.org. A survey by the UN Foundation and Vodafone 
+conducted between December 2007 and January 2008 of 560 NGOs 
+worldwide found that NGOs use of mobile phones for work for both broad 
+and health-related social change was widespread and indispensible 
+(Kinkade & Verclas, 2008). With volunteer communities like 
+ 45 
+mobileactive.org that unite people and organizations dedicated to using 
+mobile technology for social change, new platforms for building 
+partnerships and facilitating access to funding and technology are 
+increasing.21 
+ 
+USAID- PEPFAR Mobile Phones and HIV/AIDS Program 
+ 
+The U.S. government along with several mobile phone industry companies have 
+announced a public-private partnership known as Phones-for-Health in order to utilize 
+cell phone coverage in the developing world to bolster health systems. The partners in 
+the initiative are the GSM Association's Development Fund, the U.S. President's 
+Emergency Plan for AIDS Relief (PEPFAR), Accenture Development Partnership; 
+Motorola Inc., MTN and Voxiva. To begin with, this initiative will focus on 10 African 
+countries, building on an already successful deployment in Rwanda and is also 
+expected to be extended in Africa and Asia to address diseases like tuberculosis, 
+malaria and other infectious diseases in future. The program already seems to have 
+achieved some success in Rwanda, using the TRACNet system, which has been in 
+use for the past two years to help manage Rwanda's national HIV and AIDS program 
+(see Table 2 in Appendix). 
+ 
+Source:http://www.iht.com/articles/ap/2007/02/13/business/EU-TEC-Spain-Wireless-
+Conference-Health.php 
+ 
+                                                
+21 www.mobileactive.org/about 
+ 
+ 46 
+Section 5.  
+Considerations and Approaches 
+ 
+ 
+With the broader goal of providing access to and improving the quality of 
+health services, aspects of mHealth should remain a component within the 
+broader framework of eHealth. However, because of its market potential, 
+certain aspects may be explored strictly as business ventures with social 
+benefits. The WHO Global Observatory for eHealth should be well 
+positioned to work together with partners to evaluate what works and what 
+does not to promote the most strategic use of mHealth technologies to 
+meet the health care needs of people.  The opportunities for learning exist 
+in isolated pockets.  There is a need to map what is being done, what is 
+possible, and to make mHealth activities visible to one another. In this 
+regard, mobile communication technologies should be explored as part of a 
+list of optimal tools and systems to directly address aims within the health 
+sector.  
+ 
+Capacity Building 
+ 
+It is critical to use technology in a way that enhances how teams work 
+together and follows existing flows of work with protocols to guide its 
+utilization (Iluyemi, Fitch, Parry et al., 2007). While many individual health 
+professionals are using mobile communication technologies in their work, 
+there are very few formal integration programs that have built protocols to 
+guide their use.  In addition to protocols, training is also critical to maximize 
+the full potential that technology can offer to health care administrators and 
+providers. Universities ought to consider providing training in the use of e- 
+and mHealth solutions as part of medical and health administration 
+education curricula (Curioso, 2006).  In addition, programs should ensure 
+that adequate supplies of equipment are provided and that training, 
+maintenance, and technology support are included as part of the 
+integration process (Iluyemi, Fitch, Parry et al., 2007; Mechael, 2006).  
+Where possible, the structure of hardware and design of software should 
+take into consideration the needs and work patterns of health care workers 
+as well as patients (Iluyemi, Fitch, Parry et al., 2007; Mechael, 2006).   
+They ought to be designed in a way that is adaptable to a variety of 
+implementation environments even within the same country (Rivett, 2007).   
+ 47 
+ 
+The use of mobile communication technologies should build on existing 
+workflows within the health system and begin by identifying what the 
+system needs to function more efficient and effectively. In addition, 
+potential users should be included in the design and adaptation process to 
+ensure buy-in and better chances of technology uptake. A key challenge for 
+low and middle income countries is technology transfer without cultural 
+considerations or locally developed content.  This is compounded by the 
+limited variety of appropriate technology solutions specifically developed 
+with the conditions and realities of low and middle income countries in mind 
+(Lacal, 2003).  
+ 
+The need for capacity building at the country level cannot be 
+overemphasized. Ministries of Health should focus on local ownership of 
+mHealth technology by building a cadre of tech savvy health administrators 
+and eHealth specialists. Such local ownership includes the promotion of 
+local software development and mHealth research and development in 
+developing countries themselves.  One potential partner in promoting such 
+capacity building is the ‘mobility project’ by kiwanja.net, a collaborative 
+project between academics, technicians, and educators in the field of 
+mobile IT to develop tools and resources to promote mobile applications 
+development for users in the developing world. The main focus areas of the 
+mobility project include developing mobile-based programming tools and 
+online mobile phone programming curricula.22  
+ 
+Monitoring and Evaluation 
+ 
+For programs to succeed, needs assessments, monitoring systems and 
+outcomes evaluations should be thoughtfully designed from the outset of 
+integration. Appropriate measures of evaluation ought to be integrated into 
+the implementation process to assess the impact of interventions to help 
+inform future programming and policy development (Shields, Chetley, & 
+Davis, 2005). There should be a relatively standardized monitoring and 
+evaluation program and indicators that cut across many similar programs 
+so they can be compared between countries (Scott & Saeed, 2008). This is 
+one aspect of leadership to which WHO will likely be called to catalyze. 
+One available monitoring and evaluation resource is HIPNet and USAID’s 
+                                                
+22 http://mobility.kiwanja.net/ 
+ 
+ 48 
+Guide to Monitoring and Evaluation of Health Information Products and 
+Services (Sullivan, 2007). The guide attempts to define, standardize, and 
+categorize indicators to measure reach, usefulness, use, and impact of 
+information products and services (Sullivan, 2007). While the guide 
+represents a valuable attempt to standardize monitoring and evaluation for 
+health information, the need for such a guide for health ICT programs is 
+tantamount to measuring success in the area of mHealth. 
+ 
+Alternative Approaches 
+ 
+An mHealth Strategy should be divided into two major sets of initiatives: 1) 
+citizen-centric and 2) health-worker centric (Iluyemi, 2007). 
+ 
+This will determine the types of approaches to be applied as well as the 
+choice of technology design and functions. The latter looks specifically at 
+the communication and information needs of various health sector 
+stakeholders, while the former poses questions regarding a global shift 
+towards citizen-centered healthcare.   
+ 
+Following the premise that ICTs are merely tools, not objectives in 
+themselves, an alternative needs-driven approach might be considered 
+whereby one begins by identifying information and communication needs 
+(Pakenham-Walsh, 2007).  This approach would then strive to achieve the 
+following objectives: 
+ 
+1. Meeting the information and communication needs of 
+individuals (so that they are more empowered to maintain 
+and promote their own health and the health of their families) 
+2. Meeting the information and communication needs of 
+front-line providers of health care (including lay caregivers, 
+informal and traditional providers, primary health workers, 
+district health workers, tertiary providers and others) 
+3. Meeting the information and communication needs of 
+policymakers and managers (including, for example, 
+directors of small hospitals, district medical officers, MoH 
+staff, WHO regional and country staff) (Pakenham-Walsh, 
+2007) 
+ 49 
+ 
+These three layers of need raise a key question that might be considered 
+by mHealth initiatives: "What can be done to improve communication 
+among the full range of stakeholders so that all stakeholders work more 
+effectively together to share expertise and experience? (Pakenham-Walsh, 
+2007).  This would then be followed by the question: how can ICTs - and in 
+particular the emerging mobile communication technolgies be harnessed to 
+improve this communication?  
+ 
+In light of interest and shifting focus to more citizen-focused health 
+services, it might be interesting to advance the innovative idea of 
+leveraging consumers’ own ICTs to improve their own, their family’s, and 
+their community’s health (Lacal, 2007), instead of assuming that provider-
+centric ICT is the only and best way to leverage ICT.23  As the numbers of 
+mobile communication and wireless technology users grow, citizens will 
+inevitably become better informed and maintain greater control over their 
+own health care management (Istepanian, 2004).  A critical consideration 
+for the WHO Global Observatory for eHealth will be the role that the 
+institution will play to ensure effective support and information is available 
+for citizens in low and middle income countries.   
+ 
+Challenges 
+There are a number of challenges and barriers that ought to be 
+acknowledged within the discussion of expanding the benefits of mHealth 
+in low and middle income countries.   
+The first is cost, both at the macro systems level (Istepanian & Lacal, 2003) 
+as well as at the level of the individual citizen and healthcare provider 
+(Mechael, 2006).  A key aspect for any of these technology systems to 
+work is that they are affordable at point of use. A billing structure must be 
+implemented that allows for a “reverse cost” approach, i.e. the MOH or 
+other responsible party will pay for it. Otherwise it is not feasible or 
+sustainable (Rivett, 2007). Cell-Life has recently instituted its first reverse 
+billing line, which has increased the success of its systems significantly 
+(Rivett, 2007).   
+                                                
+23 http://medicalautomation.org/conferences/index.php?confid=1 &  http://lacal.net//files/hs/BYOHIT05.ppt 
+ 50 
+Second, there are limitations within the data transfer and mobile Internet 
+capabilities available in the types of mobile communication devices that are 
+currently being used in these countries (Iluyemi, Fitch, Parry et al., 2007; 
+Istepanian & Lacal, 2003).  Thirdly, access and delivery of health services 
+in many low and middle income countries is complex, and the introduction 
+of technological solutions may not be appropriate or a critical priority  
+(Istepanian & Lacal, 2003).  This particular challenge highlights the need to 
+show the contribution that technology can make towards addressing key 
+health priorities.   
+Fourth, there is a lack of operational compatibility and standards within 
+existing mobile communication systems (Istepanian, 2004). The 
+introduction of 3G wireless technology may help overcome aspects of this 
+particular challenge by enabling the unification of existing standards under 
+one umbrella (Istepanian, 2004).  Through the efforts in software 
+development of groups like OpenROSA24 and OpenMRS,25 movements are 
+being made to address this issue of interoperability. Additional 
+considerations include the lack of a solid evidence base from which more 
+strategic decision making can be made in the area of mHealth (Istepanian 
+& Lacal, 2003).  mHealth project impact must be assessed not only by 
+touting uptake and usage of a particular technology, but also by specifically 
+addressing how the technology is affecting people’s health outcomes and 
+lives (Manji, 2008).   
+Legal and Ethical Issues 
+ 
+Beyond the best use of technology by the health sector is a broader 
+discussion of when physical contact cannot be substituted by a 
+technological solution. This is particularly relevant to the discussion 
+regarding telemedicine for diagnosis and decision support for treatment.  
+The types of guidance that can be provided vary depending on the capacity 
+to assess a case with or without images, a physical examination, or 
+laboratory tests (Mechael, 2006).  Health conditions with complicated 
+diagnostic measures might not benefit from remote consultations, requiring 
+in-patient diagnosis and treatment (Mechael, 2006). Specialized protocols 
+and training are needed to identify the situations in which phone or internet-
+based and other technology-enabled consultations are appropriate. Care 
+                                                
+24 www.openrosa.org 
+25 http://openmrs.org/wiki/OpenMRS 
+ 
+ 51 
+must be taken to maximize their benefits by closely assessing the sorts of 
+information to be gathered and communicated (Mechael, 2006).  As is the 
+case in eHealth in general, legal frameworks and liability boundaries are 
+needed to provide guidance on the appropriate use of telemedical systems 
+within national as well as across borders (Istepanian & Lacal, 2003; Lacal, 
+2003).  In addition, mobile phones in low and middle income countries are 
+often shared among household members (Mechael, 2006). In a recent 
+review of telemedicine policies in Africa, it was revealed that while most 
+Ministries of Health have places to engage in telemedicine, they do not 
+have policies associated with these practices. In order to protect patients’ 
+and providers’ rights, national and international ethical and legal 
+frameworks are needed to guide the appropriate use of telemedicine. 
+Secure information within mobile communication environments is crucial to 
+maintaining patients’ rights to confidentiality (Todrys & Mechael, 2008). The 
+Earth Institute, through its mHealth activities within the Millennium Villages 
+Project has taken a special interest in the development of ethical 
+guidelines, policies, and training curricula for patient confidentiality and 
+data security. This approach aligns with recommendations that 
+"Safeguarding the privacy, confidentiality, and security of any public health 
+informatics or e-health project is an important undertaking" (Curioso, 2006). 
+ 
+ 
+ 
+ 52 
+Section 6.  
+Recommendations 
+ 
+ 
+Based on this review and discussions with a broad range of stakeholders, it 
+is recommended that key mHealth stakeholders consider focusing their 
+next steps on catalyzing the testing and scale up of interventions that show 
+promise in achieving key health outcomes as laid out by the Millennium 
+Development Goals for health. The WHO should also serve as a convener 
+of key partners and broker of mHealth strategies, information, and 
+evaluation frameworks.  A 'test case project' ought to be designed in a way 
+that specifically brings together various stakeholders (technology 
+companies, donors, insurance brokers, health professionals, and social 
+scientists) for a focused project with a specific and measurable goal 
+(Kaplan, 2007).   The project could provide a laboratory in which to identify 
+keys priorities and challenges, with applications and approaches ultimately 
+tailored to each individual country context. Through a process like this, 
+trends and considerations that may be similar across countries (cultural, 
+regulatory, and financial) will likely be revealed (Kaplan, 2007).  This would 
+then lead to the creation of a model for how others might approach similar 
+integration processes and be complemented with a robust framework for 
+monitoring and evaluation based on learning from other eHealth initiatives 
+(Heeks, 2007), particularly with the increasing documentation of health 
+information systems successes and failures (Heeks, 2006).   
+ 
+Since this Review was initially developed, several initiatives have taken a 
+“test lab” approach to mHealth, including the Millennium Villages Project. In 
+partnership with Ericsson along with MTN and Zain, MVP has developed a 
+broad-based mHealth Strategy that examines the integration of mobile 
+telephony and other technologies to achieve the MDGs, beginning with 
+those for health. This initiative is being implemented in 10 countries in 
+Africa and serves as an environment to test, deploy, scale up, and monitor 
+and evaluate mHealth interventions within a broader eHealth program.  
+ 
+Health Arenas to Explore 
+ 
+The first area for consideration is Safe Motherhood in a particularly high 
+prevalence environment. It is a key public health challenge that is often 
+discussed in low and middle income healthcare fora as an area that will  
+ 53 
+benefit from mobile technology applications. There is significant interest in 
+this area which may yield easily formed partnerships among the groups 
+listed above.  Based on this review, there are a multitude of mHealth 
+technologies that can be applied to reducing maternal mortality and 
+morbidity. These include the creation of emergency calling, referral, and 
+decision support systems through the use of 2-way voice communication 
+via mobile phones as well as SmartPhones onto which Safe Motherhood 
+guidelines can be uploaded and used by healthcare workers.  It is also an 
+area in which it will be possible to explore how the health sector can derive 
+additional benefits from the combination of transport and mobile 
+telecommunications revolutions in many low and middle income countries.    
+ 
+A second area for consideration is improving child health and the reduction 
+of childhood mortality and morbidity.  Two critical areas for which there are 
+existing platforms for learning and clear benefits to be gained are routine 
+immunization and integrated management of childhood illness. In the area 
+of routine immunization text messaging systems can be used to send 
+reminders to registered parents for when their child is due for immunization 
+and/or for immunization campaign days. In addition, PDAs and increasingly 
+SmartPhones can be used to collect data for immunization records as well 
+as to provide health promotion reminders and messages to healthcare 
+workers during immunization activities.  In relation to integrated 
+management of childhood illness, decision support platforms exist, but 
+have not yet been tested and deployed at a palatable scale. 
+ 
+Other areas include global disease surveillance in addition to addressing 
+the diseases of poverty, namely HIV and AIDS, malaria, and TB- where 
+significant investments are being made to reduce the gap in health systems 
+coverage by the Global Fund as well as broader disease surveillance and 
+control efforts for which many of the existing applications are already being 
+used. From such activities, MoHs will be in a position to develop 
+sustainability models that take into consideration the cost of implementing 
+and maintaining mHealth systems and develop models for partnering to 
+develop and implement these systems in low and middle income countries 
+(Ramaraju, 2007). 
+ 
+As a convener and leader in health policy development, WHO’s role in 
+developing a knowledge and evidence base for mHealth activities cannot 
+be understated. Specifically, this knowledge base would be comprised of a 
+clearinghouse or portal of existing documentation that is updated regularly.  
+ 54 
+To do this, the WHO must begin by reviewing and strengthening weak 
+design and evaluation frameworks within eHealth that can then be tested 
+and applied to the suggested catalytic mHealth activities. The WHO ought 
+to also consider the role of evolving National Observatory Groups in low 
+and middle income countries in helping to identify and document promising 
+applications within mHealth to create an environment of learning and 
+exchange.    
+  
+ 
+ 55 
+Conclusion 
+ 
+ 
+There is rapidly growing interest in maximizing the benefits of mobile 
+communication technologies for health in low and middle income countries, 
+but relatively limited and mostly pilot-stage efforts at best.  Health care 
+organizations must take the lead, as they are closer to patients than 
+industry, to examine how such technology solutions may generate direct 
+health benefits to patients, facilitate the work of overstretched human 
+resources, create systems that are informed by data collected at the point-
+of-care, and yield cost savings for a more efficient healthcare delivery 
+system.  
+ 
+Mobile communication technologies have the potential to reduce 
+professional isolation- especially in rural areas and to provide ongoing 
+support to health care workers as well as citizens. Technological solutions 
+should be designed according to local realities and to meet local needs in 
+such a way that practically and measurably contributes to the Millennium 
+Development Goals for health. Three key areas in which early and rapid 
+gains can be achieved are in the areas of Safe Motherhood, routine 
+immunization and integrated management of childhood illness, and disease 
+surveillance and control especially in addressing the diseases of poverty, 
+namely HIV and AIDS, malaria, and TB- where significant resources have 
+been mobilized to reduce the disease burden in low and middle income 
+countries. Alongside such efforts, there is a critical need within mHealth for 
+mechanisms to evaluate the benefits and pitfalls of technology applications 
+and their ability to promote the desired health outcomes.   
+ 
+Healthcare policymakers and administrators must equip themselves with 
+the knowledge needed to shift from small pilot programs to standardization 
+and scale up. This can be achieved by providing appropriate technology 
+solutions and training in e- and mHealth at a scale through which realistic 
+benefits will be achieved.  This updated mHealth report, which ought to be 
+updated periodically given the rapidly changing field, is one of many steps 
+towards initiating a dynamic dialogue among a broad range of industry, 
+academic, policymaking, government, and non-government civil society 
+partners that will enable these leaders to consider their roles in forging a 
+strategic direction in mHealth.  
+ 56 
+References  
+ 
+ 
+Agar, J. (2003). Constant Touch: A Global History of the Mobile Phone Cambridge: Icon 
+Books Ltd. 
+Ailinger (2008), R. Use of Electronic Monitoring in Clinical Nursing Research. Clinical 
+Nursing Research. 17(2): 89-97.  
+Ayyagari, D. (2008). Moving Beyond the "Evidence" Question in Telehealth. Continua 
+Newsletter.  
+(http://www.continuaalliance.org/news_events/newsletters/march_2008/#article)   
+Beard, N. (2000). Global Health: Role of the Information Technology Industry: UK 
+Partnership for Global Health. 
+Binder, B. et. al. (2007). Teledermatological Monitoring of Leg Ulcers in Cooperation 
+with Home Care Nurses. Arch Dermatol. 143(12):Dec 2007. 
+Bridges.org (2003). Evaluation of the SATELLIFE PDA Project, 2002: Testing the use of 
+handheld computers for heathcare in Ghana, Kenya, and Uganda. Cape Town: 
+Bridges.org. 
+Bridges.org (2005). Evaluation of the On Cue Compliance Service Pilot: Testing the use 
+of SMS reminders in the treatment of Tuberculosis in Cape Town, South Africa. 
+Cape Town: Bridges.org. 
+Carmichael, M. (2007). iPods Teach Docs to Recognize Heartbeats: Medical Students 
+use iPods to learn the sounds of unhealthy hearts. Rocking out to 'aortic 
+regurgitation.' Newsweek (Web Exclusive). 
+Chapman, S., & Schofield, W.N. (1998). Lifesavers and cellular samaritans: emergency 
+use of cellular (mobile) phones in Australia. Sydney: University of Sydney: 
+Department of Public Health and Community Medicine. 
+Chetley, A. (2006). Improving health, connecting people: the role of ICTs in the health 
+sector of developing countries. In InfoDev (Ed.). Washington, DC: World Bank. 
+Crampton, T. (2007). Wireless Technology Speeds Health Services in Rwanda, New 
+York Times. New York. 
+Curioso, W. (2006). New Technologies and Public Health in Developing Countries: The 
+Cell PREVEN Project. In M. Murero, & R. Rice (Eds.), The Internet and Health 
+Care: Theory Research and Practice. Mahwah, NJ: Lawrence Erlbaum 
+Associates. 
+Dahlman, B. (2007). Feedback on Draft WHO mHealth Review (6). (Personal 
+communication). New York. 
+Domingo, A.A. (2007). Feedback on WHO mHealth Review Draft (9). (Personal 
+communication). Manilla. 
+Donner, J. (2004). Innovations in Mobile-based Public Health Information Systems in 
+the Developing World: An Example from Rwanda, Mobile Technologies and 
+Health: Benefits and Risks. Udine, Italy. 
+Donner, J. (2005). The use of mobile phones by microentrepreneurs in Kigali, Rwanda: 
+Changes to social and business networks: Annenberg Research Network on 
+International Communication Workshop. 
+ 57 
+Economist, T. (2005). The doctor in your pocket [Medical technology: Nearly everyone 
+in the developed world carries a mobile phone- so why not use it to deliver health 
+care?, The Economist. 
+Economist, T. (2008). Leaders: The limits of leapfrogging; Technology and 
+development. The Economist. 
+Fontelo, P., Liu, F., Muin, M., Tolentino, H., & Ackerman, M. (2006). Txt2MEDLINE: 
+Text-Messaging Access to MEDLINE/PubMed, AMIA Annual Symposium 
+Proceedings pp. 259-263). 
+Fontelo, P. (2007). Feedback on WHO mHealth Review Draft (10). (Personal 
+communication). Bethesda. 
+Fuscaldo, D. (2004). Soon, Cellphones Will Monitor the Vital Signs of the Chronically Ill, 
+The Wall Street Journal On-line. New York. 
+Fynn, R.W., Jager, D.d., Chan, H.A., Anand, S., & Rivett, U. (2006). Remote HIV/AIDS 
+Patient Monitoring Tool Using 3G/GPRS Packet-Switched Mobile Technology. In 
+IEEE (Ed.), The 4Th International Seminar on Appropriate Healthcare 
+Technologies for Developing Countries. London: IEEE. 
+Granot, Y., Ivorra, A., Rubinsky, B. (2008). A new concept for medical imaging centered 
+on cellular phone technology. PLoS ONE: 3(4) April 2008. 
+GSM Association (2005). The Role of Mobiles in Disasters and Emergencies pp. 1-34). 
+London: GSM Association. 
+GSM Association (2007). Phones for Health: Major Public-Private Partnership to Use 
+Mobile Phones to Fight the HIV/AIDS Pandemic: GSM World. 
+Haddon, L. (2004). Information and Communication Technologies in Everyday Life: A 
+Concise Introduction and Research Guide Oxford: Berg 
+Haynes, S. (2008). Cellphones Bringing a :-) to Remotest Africa. The Christian Science 
+Monitor. January 15, 2008. 
+Hedberg, C. (2002). Mobile Phone use for TB Diagnosis in South Africa (Personal 
+communication). London. 
+Heeks, R. (2006). Health information systems: Failure, success, and improvisation. 
+International Journal of Medical Informatics, 75, 125-137. 
+Heeks, R. (2007). Feedback on WHO mHealth Review Draft (8). In P. Mechael (Ed.). 
+Manchester, UK. 
+Hivos (2005). ICTs to Fight Against HIV/AIDS, i4d: information for development pp. 8-9. 
+(http://www.i4donline.net/dec05/hivos.asp) 
+Horan, T., & Schooley, B. (2002). Interorganizational Emergency Medical Services: 
+Case Study of Rural Wireless Deployment and Management: Information 
+Systems Frontiers. 
+Iluyemi, A. (2007). Feedback on Draft WHO mHealth Review (3). (Personal 
+communication).  London. 
+Iluyemi, A., Fitch, C., Parry, D., & Briggs, J. (2007). Health Information Systems for 
+Community Based Health Workers: A Case for Mobile and Wireless 
+Technologies. In P. Cunningham, & M. Cunningham (Eds.), IST-Africa 2007. 
+Maputo, Mozambique: International Information Management Corporation. 
+Istepanian, R., & Lacal, J. (2003). Emerging Mobile Communication Technologies for 
+Health: Some Imperative notes on m-Health. In IEEE (Ed.), The 25th Silver 
+ 58 
+Anniversary International Conference of the IEEE Engineering in Medicine and 
+Biology Society. Cancun Mexico: IEEE. 
+Istepanian, R. (2004). Introduction to the Special Section on M-Health: Beyond 
+Seamless Mobility and Global Wireless Health-care Connectivity. IEEE 
+Transactions on Information Technology in Biomedicine, 8(4), 405-413. 
+ITU (2003). Mobile overtakes fixed: Implications for policy and regulation. Geneva: 
+International Telecommunications Union. 
+Johnson, C. (2008). "The results are in…And you're going to be fine." The Boston 
+Globe. 
+http://www.boston.com/business/healthcare/articles/2008/05/18/the_results_are_i
+n_and_youre_going_to_be_fine/?page=1 
+Kaplan, W. (2007). Feedback on WHO MHealth Review (5). (Personal communication). 
+Boston. 
+Kaplan, W.A. (2006). Can the ubiquitous power of mobile phones be used to improve 
+health outcomes in developing countries? Globalization and Health, 2(9), Open 
+Access (pp.1-14). 
+Kaul, I. (2001). "Public goods: Taking the concept to the twenty-first century". In D. 
+Drache (Ed.), The Market of the Public Domain (pp. 255-273). London and New 
+York: Routledge. 
+Kefale, A., Mekuria, B., & Bekele, D. (2006). Mobile Medical System for Ethiopian 
+Hospitals. Addis Ababa: United Nations Economic Commission for Africa. 
+Kinkade, Ss & Verclas, K. (2008). Wireless Technology for Social Change: Trends in 
+Mobile Use by NGOs. UN Foundation and Vodafone Group Partnership. 
+Klecun-Dabrowska, E., & Cornford, T. (2001). Evaluation and Telehealth: An 
+Interpretative Study, 34th Hawaii International Conference on System Sciences. 
+Hawaii: IEEE. 
+Kurth AE, C.W., Wolpin S, Segura P, Cabello R, Berry D. (2007). Personal Digital 
+Assistants for ART Adherence and Safer Sex Behavior Support: A Novel 
+Intervention in Peru, 2nd International Conference on HIV Treatment Adherence. 
+Co-hosted by the International Association of Physicians in AIDS Care (IAPAC) 
+and the National Institute of Mental Health (NIMH). 
+Kwankam, Y. (2007). Making ICT work for Health:WHO Priority eHealth Programs, 
+Med-e-Tel 2007. Luxembourg: www.medetel.lu. 
+Lacal, J. (2003). Cell Phones and Tele-Medicine. In Healthcom (Ed.), The Fifth 
+International Workshop on Enterprise Networking and Computing in Healthcare 
+Industry. Santa Monica, California. 
+Lacal, J. (2007). Feedback on Draft WHO mHealth Review. (Personal communication). 
+New York. 
+Leon, S., Fontelo, P., Green, L., Ackerman, M., & Lui, F. (2007). Evidence-based 
+medicine among internal medicine residents in a community hospital program 
+using smart phones. BMC: Medical Informatics and Decision Making, 7(5), 
+(Accessed online: www.biomedcentral.com/1472-6947/1477/1475). 
+Ling, R. (2004). The mobile connection: The cell phone's impact on society London: 
+Morgan Kaufmann 
+Marshall, L. (2007). Feedback on the WHO mHealth Review Draft (7). (Personal 
+communication). Cape Town. 
+ 59 
+Manji, Firoze. (2008). Mobile activism or mobile hype? Gender and Media Diversity 
+Journal. Volume 4. April 2008. 
+Martinez, A. et al. (2008). Simple telemedicine for developing regions: camera phones 
+and paper-based microfluidic devices for real-time, off site diagnosis. Analytical 
+Chemistry 80: 3699-3707. 
+Mechael, P. (2005). Mobile Phones for the Promotion of Maternal and Child Health in 
+Developing Countries (An Egyptian Case Study) 
+http://www.i4donline.net/May05/casestudyegypt.asp. i4d, May 2005. 
+Mechael, P. (2006). Exploring Health-related Uses of Mobile Phones: An Egyptian Case 
+Study, Public Health & Policy (p. 264). London: London School of Hygiene and 
+Tropical Medicine. 
+Mechael, P. (2007). Creating an Enabling Environment for mHealth. Information and 
+Communications Technology, 2007. ICICT 2007. ITI 5th International Conference, 16-
+18 Dec. 2007 
+Med-e-Tel (2006). Med-e-Tel 2006 Proceedings (www.medetel.lu), Med-e-Tel 2006. 
+Luxembourg. 
+Micevska, M. (2005). Telecommunications, Public Health, and Demand for Health-
+Related Information and Infrastructure. Information Technology and International 
+Development, 2(3), 57-72. 
+Michael, M. (2000). Introduction: Situating technology and technolozing situations. In J. 
+Urry (Ed.), Reconnecting Culture, Technology and Nature: From society to 
+heterogeneity (pp. 1-17). London: Routledge. 
+Morak, J, Kollmann A, Schreier G. 2007. Feasibility and Usability of a Home Monitoring  
+Concept based on Mobile Phones and Near Field Communication (NFC) 
+Technology, In: Kuhn K et al. (Ed). Proceedings of Medinfo2007. IOS Press, p 
+112-116.  
+Mossman, K. (2008). A modular microscope attachment for cell phones could improve 
+the quality of telemedicine. MIT Technology Review. 
+http://www.technologyreview.com/read_article.aspx?ch=specialsections&sc=tele
+com&id=20433&a= 
+Motorola (2004). Motorola and Partners Telemedicine Trial Mobile Solution to Monitor 
+Chronically Ill Patients: Motorola 
+(www.motorola.com/mediacenter/news/detail/0,,4723_4023_23,00.html). 
+Motorola (2005). Motorola, the Clinic Hospital of Barcelona, the Telecommunication 
+Engineering College of the Polytechnic University of Madrid and Amena 
+collaborate to evaluate MOTOHEALTH Solution: Motorola 
+(www.motorola.com/mediacenter/news/detail/0,,5241_5237_23,00.html). 
+Murrugarra, L., Cannales, M., Tanner, E., Salizzoni, F., Lopez de Castilla, D., & 
+Gildenston, S. (2007). The e-Health Initiatives and Challenges in Peru: e-Health 
+is Essential in Latin America: www.eHealthonline.org. 
+Musoke, V.M. (2002). Simple ICTs reduce maternal mortality in rural Uganda: A 
+Telemedicine Case Study: Medicus Mundi Switzerland 
+(http://www.medicusmundi.ch/mms/services/bulletin/bulletin200202/kap04/16mus
+oke.html). 
+ 60 
+Neergard, Lauran. (2008). Nagging Via Text Message to Help Teens Remember Meds. 
+Associated Press: May 12, 2008. 
+http://www.wsbt.com/news/health/18865824.html  
+Pakenham-Walsh, N. (2007). Feedback on Draft WHO mHealth Review (2). (Personal 
+communication). United Kingdom. 
+Pinsker, M., Kastner, P., & Schreier, G. (2007). A telemedical therapy-management-
+system with rule-based active patient feedback, Med-e-Tel 2007. Luxembourg. 
+Ramaraju, G.V. (2007). Feedback on WHO mHealth Review Draft (12). (Personal 
+communication). India. 
+Rivett, U. (2007). Feedback on WHO mHealth Review Draft (11). (Personal 
+communication). Cape Town. 
+Rubio, F. (2007). Feedback on Draft WHO mHealth Review (4). (Personal 
+communication). Peru. 
+SatelLife (2005). Handhelds for Health: SatelLife's Experiences in Africa and Adia pp. 1-
+56). Watertown, MA: SatelLife. 
+Sawahel, Wagdy. (2008). Researchers devise 'mobile' medical imaging system. 
+scidev.net: May 16, 2008. http://www.scidev.net/en/news/researchers-devise-
+mobile-medical-imaging-system.html 
+Schlachta-Fairchild, L. (2007). International Competencies for Telenursing. International 
+Council of Nurses. 
+Scott, R & Saeed, A. (2008). Global eHealth - Measuring Outcomes: Why, What, and 
+How. A Report Commissioned by the WHO Global Observatory for eHealth. 
+Shields, T., Chetley, A., & Davis, J. (2005). ICT in the health sector: Summary of the 
+online consultation: infoDev. 
+SimPill (2007). SimPill Adherence Management pp. 1-38). Cape Town: SimPill. 
+Stecker, C. (2002). Home-based Care in Uganda: Using Mobile Phones for Referrals 
+(Personal communication). London. 
+Sullivan, T. (2007). Guide to Monitoring and Evaluation Health Information Products and 
+Services. USAID. 
+The Economist (2005). The doctor in your pocket, The Economist. 
+The Economist (2006). A text a day, The Economist. 
+Thompson, T & Arthur D & Boxer, R. (2008). A Model for Telephonic Medical Consults: 
+Guidelines for Decision Makers.  
+Todrys, K & Mechael, P. (2008). The Ethics of Telemedicine in Africa: The Millennium 
+Villages Project Experience. The Earth Institute.  Pending Publication. 
+UNICEF and Women's Net (2007). Rapid Assessment of Cell Phones for Development. 
+Written and compiled by Sally-Jean Shackleton. 
+UNICEF. (2008). New AIDS film in Georgia circulated using mobile phones. 
+http://www.unicef.org/ceecis/media_8237.html  
+United Nations (2000). United Nations Millennium Declaration (General Assembly 
+Resolution 55/2). New York: United Nations. 
+United Nations (2007). The Millennium Development Goals Report. New York: United 
+Nations. 
+UNPAN (2007). Compendium of ICT Applications on Electronic Government [Volume 1: 
+Mobile Applications on Health and Learning]. New York: United Nations.  
+ 61 
+UN Foundation and Vodafone (2008). mHealth in the Global South: Landscape 
+Analysis. [report by Vital Wave Consulting] 
+Vodafone (2006). The role of mobile phones in increasing accessibility and efficiency in 
+healthcare. United Kingdom: Vodafone. 
+Wireless Healthcare (2005). 101 Things To Do With A Mobile Phone in Healthcare. 
+Woods, G. (2006). Providing Decision Support for Antiretroviral Therapy in a Resource 
+Deprived Setting using Mobile Technology. In IEEE (Ed.), The 4th International 
+Seminar on Appropriate Healthcare Technologies for Developing Countries. 
+London: IEEE. 
+World Health Organization (1946). The Constitution of the World Health Organization. 
+Geneva. 
+World Health Organization (1978). Declaration of Alma-Ata, International Conference on 
+Primary Health Care. Alma-Ata, USSR. 
+World Health Organization (2000). World Health Report 2000: Health Systems: 
+Improving Performance. Geneva: WHO.  
+World Health Organization (2005a). Global eHealth Survey. Geneva: WHO. 
+World Health Organization (2005b). eHealth Tools and Services: Needs of Member 
+States. Geneva: WHO. 
+World Health Organization (2006). The World Health Report 2006: Working Together for 
+Health. Geneva: WHO. 
+World IT Report (2006). Egypt: Number of mobile subscribers hit 14 million: 
+http://www.worlditreport.com/Africa/96752-
+Egypt__Number_of_mobile_subscribers_hit_14_million.htm. 
+Zachary, G.P. (2008). Ping: Inside Nairobi, the next Palo Alto? The New York Times. 
+July 20, 2008. 
+Zeroug, M., & Sari, Z. (2006). Algerian Medical Freelancing Experience: Enabling with 
+Solutions to Meet Critical Needs. In I.S.f.T.a. eHealth (Ed.), 11th ISfTeH 
+International Conference. Cape Town, South Africa: ISfTeH. 
+ 
+ 62 

@@ -1,0 +1,1595 @@
+pact program or sub-
+MMoobbiliele T Teecchhnnoolologgyy  
+HHaannddbbooookk
+A PRACTICAL GUIDE TO DEVELOPING AND IMPLEMENTING A MOBILE 
+TECHNOLOGY STRATEGY 
+ 
+  
+PREPARED BY Pact, Inc. 
+ 1828 L Street, NW, Suite 300 
+ Washington, D.C. 20036 USA 
+ Tel.: +1-202-466-5666  
+ Fax: +1-202-466-5665 
+ info@pactworld.org 
+  
+DATE January 2014 
+ This report  is not to be distributed outside of its intended use without express permission. 
+1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Pact Inc., 1828 L Street NW, Suite 300 
+Washington, DC 20036 
+January 2014 
+2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Copyright © 2014 by Pact, Inc. 
+This work is licensed under the Creative Commons  
+ Attribution-NonCommercial-ShareAlike 4.0 International License.  
+To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/. 
+ 
+   
+3 
+ 
+Contents 
+Foreword ............................................................................................................ 6 
+Glossary ............................................................................................................... 7 
+Introduction ........................................................................................................ 9 
+How to Use This Handbook ....................................................................................................... 9 
+Chapter 1 Understanding Mobile Technology  and Its Applications ..................... 10 
+What Is Information Communication Technology for Development? .................................... 10 
+What Are the Advantages of Mobile Data Technology? ........................................................... 11 
+Chapter 2 Developing a Strategy and Getting Started .......................................... 12 
+Why You Need a Strategy .......................................................................................................... 12 
+Develop a Concept or Strategy Document ................................................................................ 12 
+Brainstorm How Mobile Data Collection Can Improve Your Project ...................................... 13 
+When Should You Continue Collecting Data on Paper? ........................................................... 14 
+Identify Your Data ..................................................................................................................... 14 
+Data Management ..................................................................................................................... 15 
+Identify and Understand Users ................................................................................................. 15 
+Conduct a Mobile Technology Feasibility Scan ........................................................................ 16 
+Decide on a Mobile Platform and Mobile Devices .................................................................... 16 
+Develop a Budget ...................................................................................................................... 20 
+Chapter 3     Mobile Technology Platforms ..........................................................23 
+Next Steps ................................................................................................................................. 23 
+Mobile Platform Considerations .............................................................................................. 23 
+Mobenzi ..................................................................................................................................... 25 
+CommCare ................................................................................................................................ 26 
+Magpi ........................................................................................................................................ 28 
+FrontlineSMS ............................................................................................................................ 29 
+Crowdmap ................................................................................................................................ 30 
+4 
+Other Platforms ........................................................................................................................ 32 
+Additional Resources ................................................................................................................ 33 
+Chapter 4     Implementing Your Strategy .......................................................... 34 
+Next Steps ................................................................................................................................. 34 
+Plan to Obtain and Manage Your Mobile Devices ................................................................... 34 
+Build Your Forms for Mobile Data Collection .......................................................................... 35 
+Setting Up Mobile Devices ........................................................................................................ 37 
+Pilot Test the Technology in the Field ...................................................................................... 38 
+Recruit and Train Data Collectors ............................................................................................ 40 
+Collect Data ............................................................................................................................... 40 
+Follow Up with Data Collectors ................................................................................................. 41 
+Appendix 1     Pact’s Mobile Technology Use ....................................................... 43 
+Africa ......................................................................................................................................... 44 
+Asia / Eurasia ............................................................................................................................ 45 
+Latin America ........................................................................................................................... 46 
+Appendix 2     Pact Swaziland Case Study:  Selecting a Mobile Platform ............. 49 
+Appendix 3     Online Mobile Technology Resources ............................................ 51 
+IC4D 2012: Maximizing Mobile. The World Bank™ ................................................................ 51 
+Mobiles in-a-Box ....................................................................................................................... 51 
+Mobile Solution Selection Data (NOMAD) ............................................................................... 51 
+  
+ 
+ 
+  
+5 
+Foreword 
+ 
+ 
+Mobile technology may be poised to change the field of development, especially monitoring 
+and evaluation. Every month, cellular voice and data networks reach farther into developing 
+countries; increasingly, international nongovernmental organizations are using mobile 
+technology in their programming. There were more than 6 billion mobile phone subscribers in 
+2012, according to the World Bank,1 and a billion mobile broadband subscribers in 2011, 
+according to the International Telecommunications Union2; 75% of the world has access to a 
+mobile phone. The ubiquity of mobile phones is well illustrated in a 2013 quote from the 
+United Nations News Center: “Of the world’s 7 billion people, 6 billion have mobile phones. 
+However, only 4.5 billion have access to toilets or latrines.”3  
+This handbook is intended to give people involved in international development work a 
+framework for getting started with mobile technology. It is meant to be paired with training 
+slides that provide more examples and context.  It was created using training resources 
+developed by myself and by Alison Koler, Jade Lamb, Joris Vandelanotte, and Reid Porter. 
+Other contributors include Tim Michetti, Charles Guedenet, Daisy Kisyombe, Olufemi 
+Akinmade, and Samuel Kuhlande. 
+We hope that the work reflected in these pages will help you use technology to make your work 
+as development practitioners more innovative and efficient. 
+ 
+Kerry Bruce, DrPH 
+Senior Director for Results and Measurement 
+Pact, Inc. 
+  
+                                                   
+1 World Bank. Information and Communications for Development 2012: Maximizing Mobile. Washington, DC: World Bank; 2012. DOI: 
+10.1596/978-0-8213-8991-1. Available at: http://www.worldbank.org/ict/IC4D2012. Accessed January 18, 2013. 
+2 International Telecommunications Union. ICT Statistics Newslog–Mobile broadband subscriptions to hit one billion in 2011.  Available at: 
+http://www.itu.int/ITU-D/ict/newslog/Mobile+Broadband+Subscriptions+To+Hit+One+Billion+In+2011.aspx. Accessed January 18, 2013. 
+3 United Nations News Center. Deputy UN chief calls for urgent action to tackle global sanitation crisis. News [serial on the Internet]. 2013. 
+Available at: http://www.un.org/apps/news/story.asp?NewsID=44452#.UgqX_pJOQyJ. Accessed April 14, 2013. 
+6 
+Glossary  
+ 
+ 
+Although many of the following terms will be discussed in detail in the coming chapters, it is 
+helpful to begin to familiarize yourself with common mobile technology terms and concepts.   
+Airtime:  The time spent talking or otherwise using the voice function of a mobile device; 
+mobile carriers determine billing charges based on the airtime used.  
+Android: Popular operating system developed by Google that is used on many smartphones 
+and tablets. Android’s main competition in the smartphone market is Apple’s iOS used on 
+iPhones and iPads. 
+App: A small, specialized piece of software that can be downloaded onto a mobile device. 
+“App” is short for “application.” 
+Basic phone: Device with basic phone functionality (e.g., SMS and voice), very limited 
+computing power, few connectivity options, and a basic user interface and numeric keypad. 
+Crowdsourcing: Obtaining information or input into a particular task or project by enlisting 
+the services of a number of people, either paid or unpaid, typically via the Internet. 
+Graphical user interface (GUI): The screen that a user interacts with to operate a mobile 
+device. Basic phones and some feature phones are display only. Other feature phones, 
+smartphones, and tablets use larger touch screens for richer interaction and usability. 
+Feature phone: Midrange mobile device with a graphical user interface, basic apps, and 
+more numerous connectivity options than a basic phone, but without a smartphone’s 
+computing power and QWERTY keyboard. 
+GIS: Geographic information system. A platform designed to capture, edit, analyze, and 
+visualize geographic or spatial data, usually via a map. 
+GPRS: General packet radio service. A data transmission system similar to SMS but without 
+limits on the number of characters or transmission size. 
+GPS: Global positioning system. A network of satellites that broadcast signals read by 
+handheld GPS units or other GPS-enabled mobile devices to calculate a precise location using 
+latitude and longitude coordinates. 
+GSM: Global system for mobiles. The most widely used cellphone technology globally.  GSM-
+compliant phones have removable SIM cards, which enable you to transfer your mobile 
+subscription account, contacts, and other data from one GSM phone to another. 
+7 
+ICT4D: Information communication and technology for development. The use of mobile and 
+computing devices to improve development outcomes. 
+IMEI: International mobile equipment identity. The unique identification number found 
+printed inside the battery compartment or listed under a device’s settings menu.   
+Java: Popular operating system for a feature phone and some smartphones. 
+Mobile platform: The system that receives the data sent from mobile devices. The various 
+mobile platforms have varied features and functions, including data storage, data verification, 
+data analysis, and data reporting.  
+QWERTY:  The standard layout of an English keyboard, with the letters q, w, e, r, t, and y 
+positioned in that order, reading from left to right, on the top row of alphabetic characters.   
+SIM card: Subscriber identity module. A small card inserted into a mobile device on which 
+phone numbers, contact information, and other data are stored.  
+Skip logic: Instructions programmed into a mobile-based questionnaire that will present a 
+different series of questions to the user based on a previous response. Also known as 
+conditional branching. 
+Smartphone: High-end, full-featured mobile device with touchscreen graphical user 
+interface, on-screen or hard-button QWERTY keypad, advanced computing power, 
+downloadable apps, GPS receiver, and multiple connectivity options.  
+SMS: Short message service. System for sending short messages of a fixed length—
+traditionally a maximum of 160 characters in English, with other lengths in other languages. 
+Tablet: Full-featured mobile device with large touchscreen graphical user interface, on-screen 
+keyboard, advanced computing power, downloadable apps, GPS receiver, and multiple 
+connectivity options. Tablets typically lack SMS and voice communication options. 
+ 
+ 
+ 
+8 
+Introduction 
+ 
+ 
+Mobile technology has already proven itself a powerful and efficient tool that accelerates 
+achievement of project objectives and ultimately of development goals.  
+Efficiency and data quality gains have been accepted as the norm for many applications, and 
+the frontier of possibilities expands daily.  
+Given the dynamic and evolving nature of the mobile technology field, the following chapters 
+are not exhaustive and do not aspire to be. But whether you are a practitioner in the field or a 
+project manager at headquarters, you will learn in these pages how to begin developing and 
+putting in place a mobile technology strategy for development programming and how to select 
+mobile platforms; case studies will show you how mobile technology has been used for 
+development. You can use the handbook simply as a reference or make it the foundation for a 
+workshop to spread learning throughout a team.  
+How to Use This Handbook 
+Start your process by reviewing literature on how mobile technology has been implemented in 
+your specific technical field and/or country.  Combining such contextual information with the 
+overview of mobile technology provided here will support creative problem solving, stimulate 
+project design, and help you begin to stay current on developments in this dynamic field.   
+Look for resources for continued learning throughout the handbook. 
+ 
+  
+9 
+Chapter 1 
+Understanding Mobile Technology  
+and Its Applications 
+ 
+ 
+CHAPTER LEARNING GOALS 
+ Understand information communication technology for development (ICT4D), 
+including mobile technology—what it is and what it can do.  
+ Discuss the advantages of mobile data collection over traditional methods of 
+collecting data. 
+ Learn how mobile technologies are being used in international development. 
+ 
+ 
+What Is Information Communication Technology for Development? 
+ICT4D is the application of common, everyday technologies to development.  This handbook 
+focuses on the mobile technology (specifically, on phones and tablets) and how they are being 
+used around the world to accelerate development goals.  Projects from diverse technical areas 
+have adopted mobile technology to perform: 
+ Survey data collection 
+ Routine M&E 
+ Dissemination of general or targeted information 
+ Awareness and sensitization campaigns 
+ Patient tracking 
+ Surveillance and reporting 
+ Crowdsourcing 
+ Logistics management information systems 
+ Mobile banking and cash transfers 
+ Coordinating service delivery or referral services 
+ Conflict early warning systems 
+ Public dialogue  
+ 
+Refer to Appendix 1 to see how Pact has implemented mobile technology in its programming. 
+  
+10 
+What Are the Advantages of Mobile Data Technology? 
+The advantages of using mobile data technology over traditional, paper-based methods 
+include: 
+ Faster, more accessible data—Data collected in the field with mobile devices can be 
+submitted and stored online or on home office servers, allowing for real-time access to data 
+for analysis and decision making. 
+ More reliable data—Collecting data in the field with mobile devices eliminates the need 
+to enter data from paper into a database, therefore reducing the opportunity for error or 
+loss. 
+ Cleaner data—Mobile applications embed skip logic that directs respondents to specific 
+sections of the questionnaire based on previous responses (e.g., different questions for 
+males and females).  Thus, data is never entered where it doesn’t belong.   
+ Ability to monitor data collection—By monitoring GPS locations and time stamps of 
+submitted surveys, you can track field worker performance and the quality of incoming data.  
+ Richer data—Integrated GPS coordinate collection, camera capabilities, and audio capture 
+broaden the scope and type of information that may be collected.  
+ Built-in data visualization—In some systems, online interfaces permit data visualization 
+or have dashboards that allow data to be manipulated, customized, and downloaded.  
+ More than just data—Mobile devices support a range of capabilities beyond data 
+collection (e.g., mobile banking, patient tracking, and crowdsourcing, as well as 
+communication). 
+ 
+Chapter 1: Understanding Mobile Technology and Its Applications   |   11 
+Chapter 2 
+Developing a Strategy and Getting Started 
+ 
+ 
+CHAPTER LEARNING GOALS 
+ Develop your own mobile technology strategy document. 
+ Brainstorm ways in which mobile technology can improve a project. 
+ Identify data to collect and optimal data management processes. 
+ Identify and understand users. 
+ Conduct an initial feasibility assessment and considerations when choosing a mobile 
+platform and mobile devices. 
+ Understand the costs and savings involved in implementing a mobile initiative. 
+ 
+ 
+Why You Need a Strategy 
+Developing a strategy for incorporating mobile technology into your work processes is critical. 
+The strategy will ensure that the human, material, and financial resources you will need are 
+available; that your intervention is appropriate for the project and its context; and that it will 
+enhance program management or implementation.  
+When developing a strategy, involving all stakeholders is key, including those who will collect 
+the data, those who will use or analyze it, and those who will manage the process.  
+Chapter 2 discusses how to get started and what questions you should be asking stakeholders 
+as you develop the strategic plan. 
+Develop a Concept or Strategy Document 
+Why It Matters  
+It is critical to engage stakeholders at all stages of a project both in order to create buy-in and 
+to minimize challenges in operationalizing your mobile strategy later on.  
+Toward these ends, a written document outlining your organization’s mobile technology 
+concept or strategy is essential. It will definitively communicate what you are doing and the 
+rationale behind your activities, so that relevant stakeholders (e.g., mobile end users, funders, 
+and staff) can provide feedback early on and reference as needed later on.  
+Having your strategy clearly articulated in a document will also help you and your colleagues 
+stay on track as you implement your strategy. Finally, having a strategy document will help 
+12 
+ensure the long-term sustainability of your mobile initiative and will smooth transitions when 
+project staff leave the organization or change jobs without it. 
+As you move forward and adapt to the rapidly changing field of mobile technology, you can 
+improve and update your strategy document as needed. 
+What to Cover 
+A well-crafted mobile strategy document should describe the following: 
+ Purpose of the strategy document (including the challenge that mobile technology use will 
+help you to solve) 
+ Goals and objectives of the mobile technology strategy  
+ Data to be collected via mobile devices 
+ Your planned mobile technology feasibility assessment, including: 
+—Available network coverage in the areas where you will be working 
+—Comfort and experience level of mobile device users 
+—Data plans and costs 
+—Security issues and management 
+—Internal and external technical support required 
+ Tools and instruments selected and rationale behind selection 
+ General data collection procedures 
+ Reports that will be generated 
+ Integration of data into other systems 
+ Data management and security plan 
+Brainstorm How Mobile Data Collection Can Improve Your Project 
+To begin, it is important to consider how mobile technology will be useful for your project. 
+Think about some problems you are having and how mobile technology can be the solution. 
+ Problem: Slow data processing—“Whenever we conduct surveys, data clerks are tasked 
+with entering all the data. Given that this is in 
+addition to their other work, it takes up to four Myanmar Brainstorming 
+months to obtain a completed dataset. This Pact Myanmar wanted to begin to use mobile 
+delays our ability to respond and make data- technologies to monitor and track WORTH outcomes. 
+based programming decisions.” Problem:  Every six months data are collected from 
+ Problem: Poor data quality—“Too many WORTH groups on savings, loans, and dividends—a 
+times, our data collectors don’t follow skip huge endeavor, given that there are more than 2,000 
+patterns or questionnaire instructions. As a WORTH groups in Myanmar.  
+result, our data is poor.” 
+Solution: Mobile technology made data collection 
+ Problem: Lack of geographic data—
+“USAID has asked us to map services delivered much more efficient 
+to beneficiaries. We need to begin to collect 
+Chapter 2: Developing a Strategy and Getting Started   |   13 
+GPS data.” 
+BRAINSTORMING EXERCISE 
+What data collection/dissemination problems are you facing? Is mobile technology a solution 
+to any of them? 
+When Should You Continue Collecting Data on Paper? 
+In some cases, it may not make sense to use mobile technology:   
+ Status quo satisfactory—When your data is not urgent and your current system is 
+already meeting your standards for quality and efficiency, changing data collection methods 
+may not make sense.  
+ Security concerns—The cost of having servers host data in country can be prohibitive for 
+small data collection exercises. If stakeholders have concerns about the security of data 
+leaving the country to an international data host, collecting data on paper may continue to 
+make sense. 
+ For qualitative data collection—When you are collecting a lot of qualitative data, using 
+mobile devices for numeric or even QWERTY-keypad input will limit the amount of 
+information that can be entered quickly. If audio capture is possible, it may mitigate this 
+issue if the survey is limited in size. Otherwise, paper data collection is most flexible. 
+ Use of mobile devices impractical or unsafe—In some areas, using mobiles may make 
+data collectors more vulnerable to violence or surveillance. Elsewhere, entering data on a 
+mobile device as an interview is in process may be distracting for the respondent or even 
+potentially bias responses, as when the respondent is concerned for his or her privacy or 
+security. 
+It is important to consider the type of data you are collecting and who will be collecting it to 
+make sure that the use of mobile technology is appropriate for the context.  
+BRAINSTORMING EXERCISE 
+What type of data could be most efficiently collected using mobile technology? How might 
+you integrate mobile technology into your current data collection activities? 
+Identify Your Data 
+Based on your brainstorming exercise, think about the data you would like to collect. 
+ Indicators—If you are starting a new project, consider which indicators make the most 
+sense to collect using mobile technology. 
+ Tools—If your project is already underway, think about which data collection tool(s) could 
+most appropriately be adapted for mobile data collection.  
+Chapter 2: Developing a Strategy and Getting Started   |   14 
+ New information—If you could access data for analysis much more quickly after 
+collection, as is possible with mobile technology, consider whether there are data that would 
+be useful to have that you may not have otherwise have collected (e.g., conflict data). 
+ New data types—Remember that with mobile technologies you can collect not only text and 
+numerical information but also photos, videos, GPS coordinates, audio, and biometric data. 
+REMEMBER 
+Mobile technology should simplify your life. For example, think of the large volumes of data 
+that are waiting to be entered, or data that people have to travel far to submit. 
+Data Management 
+Once you identify the relevant questions, data collection tools, and data types for your mobile 
+initiative, consider your data management processes to determine which platform will be the most 
+cost-effective and best suited to your strategy for incorporating mobile technology into your work.  
+ Frequency—How frequently will the data be collected (e.g., “every month”)? 
+ Data collectors—How many people are collecting data and how many will require mobile 
+devices (e.g., “there will be 10 field workers, and all will need mobile devices”)? 
+ The tool—How many items/fields are on the survey/data collection tool (e.g., “the survey is 
+15 pages long and has 65 items”)? 
+Identify and Understand Users 
+As part of the process of deciding whether mobile technology will enhance your data collection 
+and management processes, you need to identify and understand the end users of your mobile 
+technology. Knowing your users will help you:  
+ Obtain the right type and number of mobile devices and appropriate software—
+How many mobile devices are needed? What language will the software need to use? Under what 
+conditions will the devices be used? (For example, will there be access to power sources? Will 
+there be rain or dust that might damage the devices? What level of technology is appropriate for 
+the end users? Consider their age,  experience with phones, literacy, and eyesight.  
+ Tailor training to the users—The most effective training content and delivery is responsive 
+to end users’ level of education, culture, and 
+previous exposure to similar technology. Pact Myanmar Mobile Device Users 
+ Get buy-in from the people who will be 
+In Myanmar in 2013, data from WORTH groups is 
+using the technology—Securing end users’ 
+commitment to mobile technology during the collected by local volunteers, 200 of whom need 
+design phase is the best way to ensure that your phones. Most are not highly educated, and given that 
+rollout is successful. Exposing stakeholders to SIM cards are expensive, many lack experience with 
+the technology early on will test any mobile devices. 
+Chapter 2: Developing a Strategy and Getting Started   |   15 
+assumptions you have made as to the appropriateness of mobile technology. Early user 
+involvement also has the potential to greatly improve the level of participation and, 
+ultimately, the speed and quality of implementation.  
+Conduct a Mobile Technology Feasibility Scan
+After you have a general idea of how and who will be using mobile data technology in your 
+organization, you will want to conduct an initial feasibility scan to help you understand the 
+mobile infrastructure and the cultural, political, and economic environment.  This scan will 
+help you ensure that your strategy is appropriate and realistic.  Ask: 
+ How widespread is network coverage? Which mobile service provider(s) make sense to use? 
+If coverage is poor in the targeted area, are WiFi hotspots nearby, or is better coverage 
+available elsewhere? 
+ What data plans are available, and how much do they cost? 
+ What are the data security and management issues to be aware of? Is privacy a 
+consideration? 
+ What are the legal and regulatory frameworks that might cause concern? 
+ How will the use of mobile technology impact gender equity, ethnic relations, and access to 
+power and resources? Will the use of mobile technology benefit some groups more than 
+others? 
+ Will using mobile technology bring unwanted attention to respondents or field workers? 
+Will privacy concerns or other factors bias the data in ways that a traditional approach 
+would not? 
+Decide on a Mobile Platform and Mobile Choosing a Platform at Pact Myanmar 
+Devices Pact Myanmar chose to use Magpi as its mobile 
+After defining your mobile strategy objectives, technology platform because: 
+identifying end users, and conducting a feasibility  Magpi supported the alphabet of the local language, 
+scan, the next step is decide which mobile device Burmese. 
+and which platform are the most appropriate to  Given the large amounts of data collected, Magpi 
+your needs.  was more cost effective than other platforms that also 
+“Mobile platforms”—the systems that receive data supported Burmese. 
+from mobile devices—provide a variety of features On the other hand, Magpi does not provide survey set-
+and functions, including data storage, data 
+up. For that reason, the team trained themselves to 
+verification, data analysis, and data reporting. See 
+Chapter 3, Mobile Technology Platforms. build forms in Magpi and have become expert at the 
+process. 
+With so many different mobile devices on the 
+market, each with different plans and features, 
+choosing a mobile device can be overwhelming. To quickly narrow your options, consider the 
+Chapter 2: Developing a Strategy and Getting Started   |   16 
+nature of your mobile initiative (one-off versus long-term), data requirements, method of 
+transmission, power sources, and budget.  
+Nature of Mobile Initiative: Think Long-Term 
+If you are starting a new five-year project, you will likely want to invest in technology that will 
+grow with you.  Thus, basic cell phones—which will be obsolete in fewer than five years—may 
+not be the best choice.  
+If you are thinking of acquiring mobile devices for one-time data collection, consider how you 
+might use them for another data collection project or for other monitoring purposes; then 
+consider what type of phone would be best for all activities. If your mobile initiative is time-
+bound and you do not anticipate scaling up or continuing to use mobile technology beyond a 
+defined period, ongoing data collection costs (e.g., airtime) and obsolescence will be less of a 
+concern. 
+Data Collection: Mobile Features and Functions 
+Your data requirements will influence your choice of mobile device. Many basic phones on the 
+market today come with features previously considered advanced, such as the capacity to take 
+photos and videos. However, the quality of the images you collect may not be comparable in 
+quality to those of smartphones and other mobile devices with more advanced technology. 
+Also, basic phones may not be as reliable or as durable as more advanced devices. 
+Some features, such as Internet access and the ability to collect GPS data, are available only on 
+more technologically advanced mobile devices.  
+Screen size may also be a factor.  
+In addition, keep in mind that although Android devices are compatible with most mobile 
+platforms, certain mobile devices are incompatible with certain mobile platforms; consult your 
+platform requirements before settling on a specific device.   
+FEATURES AND FUNCTIONS TO CONSIDER 
+ GPS to collect location data. 
+ A camera to collect photos. Consider number of pixels you require for adequate image 
+quality. 
+ Ability to take and store videos on the device. 
+ Data storage capacity. In areas with poor network connections, mobile users may need to 
+initially store collected data on the phone until they can transmit the data. 
+  Ability to block certain uses of the phones and data. This may involve setting a password to 
+prevent unauthorized app downloads or an app-blocker that restricts access to inappropriate 
+apps, games, etc.  
+  Internet capacity. 
+  A touch screen. 
+Chapter 2: Developing a Strategy and Getting Started   |   17 
+  Screen size.  If you will be using long forms to collect data (as opposed to SMS, for 
+example), devices with larger screens may be easier to use. Screen size affects how easy images 
+are to view on screen as well as how easy it is to type on the device, because of a larger screen 
+means a larger on-screen keyboard. 
+  Battery life. Access to a source of power is important for mobile users, especially for those 
+who are located in or travel frequently to rural or isolated areas where electricity is scarce and 
+if the mobile devices you choose are heavy power users. Running out of battery power in the 
+middle of data collection can cause delays or even severely disrupt work if no spare battery or 
+access to a power source is available. Using backup batteries is possible with many phones, but 
+not all. Look at manufacturers’ claims and at battery life during your pilot test in the field. (See 
+“Pilot Test the Technology in the Field,” in Chapter 4, Implementing Your Strategy.) Consider 
+whether your pilot test battery life meets your needs, given availability of power sources for 
+recharging in the field and considering whether your budget can stretch to accommodate the 
+cost of auxiliary power devices. 
+  Data transmission capability. Mobile devices can transmit data via SMS, GPRS, or both. 
+  Language capability. Do both the mobile platform and mobile device you are considering 
+accommodate the language(s) and associated alphabet characters you want to use in your 
+project? 
+  Suitability for your context.  Will the mobile device you are considering be a target for 
+thieves, or will it make your subjects uncomfortable, affecting their willingness to speak freely? 
+  Durability. Phones with moving parts (e.g., flip phones and slider phones) tend to wear out 
+and break more quickly than phones without such moving parts. 
+Data Transmission Capabilities: SMS Versus GPRS4 
+Important differences in data transmission capabilities will affect your choice of mobile device 
+and mobile platform.  
+Short message service (SMS) is available on nearly all phones. General packet radio service 
+(GPRS) is more advanced but increasingly prevalent. Whereas SMS typically restricts each 
+message to 160 characters, GPRS does not effectively limit the size of the form you submit.  
+In addition, the system that receives the data sent by a mobile device using SMS is different 
+than for a device using GPRS. Whereas SMS is sent to a number recognized on a GSM network, 
+GPRS data is submitted directly to your server over the Internet. With SMS, even where it is 
+possible to connect your phone to a computer and then receive incoming data (e.g., on the 
+FrontlineSMS platform), you can usually receive only a few messages per minute. If you expect 
+to receive large volumes of data, you may need to use the service of a third-party SMS gateway 
+provider to receive your data and then submit it to your server over the Internet—and this 
+service comes at a price.  
+                                                   
+4 Melissa Loudon,  "Mobile Phones for Data Collection," 2009. http://www.mobileactive.org/howtos/mobile-phones-data-collection. 
+Chapter 2: Developing a Strategy and Getting Started   |   18 
+WHEN TO USE SMS 
+ If you are using basic phones (e.g., if your initiative is using the personal phones of data 
+collectors who do not own more technologically advanced mobile devices—e.g., Java-
+enabled feature phones or smartphones). 
+ If data submissions are typically 160 characters or fewer in length. 
+ If total data volume is low. 
+ If data collectors lack Internet access. 
+ If your project is a small one-off initiative that will not be scaled up. 
+ If data collectors need to send their messages at no cost—that is, if you need the ability to 
+reverse-bill SMS. 
+WHEN TO USE GPRS (INTERNET)  
+ If data collectors are equipped with more technologically advanced phones (e.g., Java-
+enabled feature phones or smartphones). 
+ If you need to submit large volumes of data at one time. 
+ If total data volume is high. 
+ If multimedia data (e.g., photos and videos) will be transmitted. 
+ If Internet access on the phone or via intermittent connection to wifi is not an issue for data 
+collectors. 
+Data Collection Client Interface: Fixed-Format SMS, Java Platform, Web-Based Form 
+The data collection client interface is what mobile users interact with to enter and transmit 
+data. The usability and features of the interface will affect your choice of mobile device and 
+what orientation or training you will need to provide to users. The main differences among 
+interfaces lie in what phones they can be used with; the requirements for setting up an 
+application; how data can be transferred from the phone to your servers; and the interface’s 
+ease of use.  
+A data collection client interface using fixed-format SMS is the simplest of the three options. 
+Most phones are SMS-enabled, and submitting data by SMS requires less orientation or 
+training than for other options.  An interface based on a Java platform—usable only on slightly 
+more advanced feature phones—allows mobile users to enter and transmit data using GPRS, 
+over the Internet when connectivity is available. A data collection client interface using Web-
+based forms can be used only on phones that have a Web browser and consistent Internet 
+access. The advantage is that data entry and transmission is quick and relatively easy. 
+  
+Chapter 2: Developing a Strategy and Getting Started   |   19 
+Summary of Data Collection Client Interfaces5 
+ FIXED-FORMAT SMS JAVA MICRO EDITION PLATFORM (J2ME) APPLICATION WEB-BASED FORM 
+What phones are supported? All SMS-enabled phones. All Java-platform phones or All phones with a Web 
+feature phones. browser—effectively, all Java-
+platform feature phones and 
+smartphones. 
+What does the user need to No software needs to be added The application must be The phone must be set up to 
+do to begin data collection? to the phone. Users need to downloaded to the device from access the Internet. 
+acquire the correct format for the Web or saved via data cable 
+SMS data transmitted.  to the device’s memory. 
+What data transfer methods SMS only. SMS or GPRS. Data transfer GPRS. Data transfer can be 
+are available? can be asynchronous with asynchronous with GPRS—that 
+GPRS—that is, users save data is, users save data to the device 
+to the device to be transmitted to be transmitted to the server 
+to the server when connectivity when connectivity is available. 
+is available. 
+How easy is the platform It’s easy to use, but mistakes If carefully designed, the Using this interface is no 
+to use? are easy to make when interface should be easy to different than filling in a form in 
+composing the SMS. Training navigate. Training and follow-up a normal Web browser. 
+and follow-up are required. may be necessary. 
+ 
+ 
+Mobile Devices from Basic to Advanced 
+ BASIC PHONE FEATURE PHONE SMARTPHONE (ANDROID) TABLETS 
+Inexpensive cellphones Mid-range cell phones, Advanced cell phones. Low-cost tablets (come 
+DESCRIPTION with voice and SMS. can access Internet. Can access the Internet. with wifi and may come Some have GPS Most have GPS and a with 2G(Edge)/3G/4G.  
+capability and a camera. camera. 
+Ubiquitous, cheap, known. Variety of features Software can be updated Larger screens make for 
+PROS Low power use. available. Can transmit and upgraded. Can use good visibility and ease of GPRS data. Moderate any language. entering data. Low cost 
+power user.  for some models. 
+Moving parts of flip Not all have GPS. Heavy power user; needs Heavy power user; needs 
+CONS phones and slider phones Language issues. Small recharging frequently. recharging frequently. affect reliability and screen. Might be targeted by Might be targeted by 
+durability.  Creating texts thieves.  thieves. Some are more 
+on basic keyboard expensive than other 
+challenging. mobile devices. 
+MANUFACTURERS Nokia Nokia, Siemens, Sony Samsung, LG, ZTE, Aakash, UbiSlate, Google 
+Ericsson (Java phones) Vodaphone, HTC, Apple Nexus. Samsung, Apple 
+ 
+Develop a Budget  
+The costs associated with mobile data technology can vary greatly depending on how much 
+data you plan to collect, the number of users, and the number of survey items, among other 
+                                                   
+5 Melissa Loudon,  "Mobile Phones for Data Collection," 2009. http://www.mobileactive.org/howtos/mobile-phones-data-collection. 
+Chapter 2: Developing a Strategy and Getting Started   |   20 
+factors. Although it often costs less to use mobile 
+technology than traditional reporting technology, Pact Cambodia Mobile Pilot Costs 
+mobile technology can cost more if a monitoring Total $2,040.20, including: 
+system is already set up and you have startup costs  External modem: $45  
+associated with using mobile technology.   Four Khmer language-enabled telephones: $80 each  
+Initial and Long-Term Costs  FrontlineSMS platform: free 
+Consider the financial viability of using mobile Approximate cost of human resources 
+technology over the long term. What are the costs to 
+use mobile technology? Consider the initial cost of  Senior IT officer: 40 hours  
+phones and additional power sources if required (see  Volunteer monitoring and evaluation officer: 60 hours  
+below). Also figure in the cost of airtime.  Unless you  Training assistant/GIS officer: 5 hours  
+are collecting images, which are large files, the overall  Local partner setting up trial: 24 hours  
+cost of airtime for data collection should be very low.  
+The size of the files to be sent is small and should not 
+be a major factor in a budget unless data is expensive in your country.  Also consider the cost of 
+replacement phones (and any additional costs for personal use of your organization’s phones, if 
+you are permitting that), as well as the cost of setting up and managing data collection, data 
+storage, and data analysis processes. Initial tasks such as training and providing phones and 
+airtime, as well as ongoing tasks such as managing data capturers and resolving technical 
+problems, require time and resources; don’t underestimate these.  
+Weigh the total costs you anticipate over the long term against the expected returns on the 
+investment: time savings, faster transmission, increased accuracy of data.   
+Next, compare these costs with the costs of managing a paper-based system—printing costs, 
+cost of pens and paper, staff time, transportation of supplies, and the like. Although it may not 
+be possible to accurately quantify all the efficiency gains associated with using mobile 
+technology, some costs should be relatively straightforward to compare. 
+Data Collection Cost Comparison: Mobile Technology Versus Traditional Paper 
+COST OF MOBILE DATA COLLECTION COST OF PAPER-BASED DATA COLLECTION 
+ Number of phones (e.g., total number of data collectors plus  Printing costs. 
+backups or replacement mobiles).  Pens and paper. 
+ Cost of submitting data (e.g., per SMS text message, or, if over  Transportation of paper surveys. 
+the Internet, per gigabyte).  Training of data collectors 
+ Charging devices.  Human resources for data entry, transportation, supervision of 
+ Survey/database design. data collectors, etc.  
+ Technical support for survey setup (if needed)  Database design, data entry, and data verification. 
+ Training of data collectors.  Storage of paper surveys (particularly if dealing with sensitive 
+ Mobile platform (e.g., database, data verification, data analysis information). 
+and reporting functionality).  
+ Human resources (e.g., to manage mobile provision and data 
+collection systems and processes). 
+ Costs for printing, pens and paper, and transportation for a limited 
+number of paper backup survey materials. 
+Chapter 2: Developing a Strategy and Getting Started   |   21 
+ 
+ 
+Powering Mobiles 
+Costs related to powering mobiles may need to be budgeted as well.  
+OPTIONS TO ENSURE RELIABLE POWER 
+ Chargers that plug into car cigarette lighter sockets. 
+ External battery sources. 
+ Spare internal batteries. 
+ Solar chargers. 
+PREPARE TO EXTEND BATTERY LIFE 
+You can prepare for potential scenarios by creating a Standard Operation Procedure (SOP) 
+that outlines how mobile users can prevent and respond to power failure. 
+ Use app locks that block access to battery-draining, nonessential applications or simply 
+delete other applications from the phone. 
+ Turn off WiFi, Bluetooth, and other systems when they are not needed. 
+ Turn down brightness to the lowest usable level. 
+ Ensure that all users report at the beginning of the day with a fully charged device. 
+ Advise staff not to plan on changing batteries of phones due to the potential of data loss. 
+ Advise on “emergency” sources of power, such as computer batteries. 
+ 
+Chapter 2: Developing a Strategy and Getting Started   |   22 
+Chapter 3     
+Mobile Technology Platforms 
+ 
+ 
+CHAPTER LEARNING GOALS 
+ Gain an understanding of the primary considerations when choosing a mobile platform. 
+ Know the characteristics, benefits, and drawbacks of each platform. 
+ Choose the best platform based on the needs of your program. 
+ 
+ 
+Next Steps 
+This chapter will summarize the primary components of a mobile platform and provide an in-
+depth look at a selection of key platforms.  This is not an endorsement of these platforms, 
+rather a review of experience with these platforms that can help you to structure your search 
+for the platform that is right for you.  Many other platforms are suited for specialized 
+applications, and we encourage you to explore other platforms not included in this chapter to 
+find the best fit for your needs. 
+Mobile Platform Considerations 
+A number of mobile platforms offer a broad range of features and different pricing plans; 
+several open-source options come at no cost.  
+To determine which platform is right for your mobile initiative, consider your needs and 
+overall project budget. To a certain extent, your project’s data needs and the frequency and 
+type of data collection outlined in your mobile strategy will help you narrow your options.  
+Please keep in mind that platforms are changing rapidly and that features and price structures 
+evolve over time; the latest information is always available on the platform’s Web site.  
+When deciding among mobile platforms, consider: phone requirements; the data entry 
+interface and transmission methods permitted; data storage, analysis, and reporting features; 
+miscellaneous features; and the pricing structure.  
+Mobile Device Requirements 
+What type of mobile device (i.e., basic phone, feature phone, smartphone, or tablet) do you 
+need for your mobile data collection? See “Decide on a Mobile Platform and Mobile Devices,” 
+Chapter 2, above.  
+23 
+Also, is there flexibility in your choice of phone or are you limited to phones that you or your 
+data collectors already have? Not all mobile platforms may be compatible with all types of 
+phones or with all models. Be sure to consult the platform Web site or online forum before 
+making a decision. 
+Data Entry Interface and Transmission 
+The platform’s data collection interface will affect how data collectors can enter data into their 
+mobile devices. How easy it is depends largely on the type of data and transmission method 
+(e.g., via SMS, forms, or Web portal). To compare different data types and transmission 
+methods, see “Data Transmission Capabilities: SMS Versus GPRS” in Chapter 2.  Platforms 
+where data is entered on forms or online portals can offer such features as skip logic, which can 
+significantly reduce data collection time.  
+Data Storage, Analysis, and Reporting 
+Are data stored on a local server or on a server in the cloud (i.e., remotely)? Platforms that use 
+GPRS and cloud computing often incorporate security features to ensure that all data 
+transmission is encrypted and secure. Data entered via GPRS or online typically disappears 
+from a mobile device after it is transmitted; data that is sent by SMS or stored on the device for 
+later transmission or transfer to a server is generally more vulnerable, as the phone can be 
+stolen or lost and text messages accessed. Most platforms offer some form of basic analysis or 
+reporting, but the quality and range of the visualizations (e.g., maps, charts) varies.  
+Additional Features 
+Platforms vary in other ways. The ability to collect and visualize audio, images, and video 
+differs from one platform to the next. The same is true for language options. Most platforms 
+permit questions in the language installed on your computer or mobile device, but sometimes 
+coding makes this difficult and not all alphabets are available. Some platforms come in such 
+common languages as Spanish, French, and Kiswahili. 
+Pricing Structure 
+Some platforms’ pricing structure will be more cost-effective than others’ for your mobile data 
+collection; it will depend on how frequently you plan to collect data, the length of the survey 
+(i.e., the number of questions), and the external support you need.  
+Most platforms allow at least a free trial, so if you find several that appear to meet your needs, 
+test them out before committing. (See Appendix 2, “Pact Swaziland Case Study: Selecting a 
+Mobile Platform.”) Most platform pricing does not include airtime costs; these fees depend on 
+the mobile network you are using. Typically, it costs vastly less to send surveys over data 
+networks (e.g., GPRS, WiFi, 2G/3G/4G) than by SMS. 
+PRICING MODELS 
+ Open source—Use of the platform is completely free. 
+Chapter 3: Mobile Technology Platforms   |   24 
+ Freemium—Basic service is freely available, but to use the platform at scale or to take 
+advantage of such extras as SMS or technical support set-up, you must subscribe (for SMS) 
+or pay a one-time fee (usually for set-up and usually somewhat steep). 
+ Pay as you go—You pay just for the amount of data collected. 
+ Subscription—After a trial period, you pay a monthly or yearly fee to use the service. 
+PRICING RESOURCES 
+Mobile Data Toolkit—A database of services and software useful for international 
+development and social change work using mobile devices. Only a handful of mobile platforms 
+are currently reviewed, but more are being added.   http://mobile.ictdev.org/ 
+NOMAD Selection Assistant—A good starting point. After you complete a survey on this 
+Web site, it will match you with the appropriate mobile data collection solution(s) among the 
+24 in the site’s database. However, the database may not contain the most recent information 
+on the different mobile platforms. http://humanitarian-nomad.org/online-selection-tool/ 
+Mobenzi 
+Mobenzi, a South African firm founded in 2006, has a versatile data collection platform, 
+Mobenzi Researcher, that can be used to conduct surveys.6 It can operate without network 
+coverage; users can upload data after they return to an area with coverage. 
+Pros 
+ The database makes it easy to present survey data clearly, to manage and share results, and 
+to use GPS data to monitor and communicate with field workers. 
+ Surveys are easy to set up on the Web.  
+ The same easy interface works on a restricted but still fairly large number of phones, 
+including both feature phones and smartphones.  
+ Can accommodate several data collection forms. 
+ Data stored on the phone until the form is complete and then automatically sends as soon as 
+there is a connection (improved data security). 
+Cons 
+ SMS data collection is permitted, but data entry is tricky. 
+ Does not work with Apple products (iPod, iPhone). 
+ Scrolling “back” to check on answers is tricky. 
+                                                   
+6 Mobenzi provides two other platforms: Mobenzi Outreach, for community health care data collection by community health workers, and 
+Mobenzi Intelligence, which supports outsourcing of basic tasks and data analysis that cannot be automated by a computer. The pricing 
+models, target markets, and purposes for these platforms are different than for Mobenzi Researcher. In this handbook, the term “Mobenzi” will 
+refer solely to the Mobenzi Researcher data collection platform. 
+Chapter 3: Mobile Technology Platforms   |   25 
+Features 
+ Data collection surveys.  The original platform was specifically designed for health research. 
+ Capable of advanced level skip logic, which enhances data integrity. 
+ Works with multiple languages. 
+ Image and GPS capabilities. 
+ Compatible with entry level and higher level smartphones 
+ Operates with limited connectivity. 
+ Technical support available, although at extra cost. 
+Cost 
+Mobenzi has a pay-as-you-go pricing model, without setup or subscription costs. The only set 
+cost is for transmission of completed surveys—generally $.01 per data field (a data field being a 
+question or a small image). Example:  
+ A survey with 100 questions: 100 x .01 = $1.00 per survey. 
+ And 600 respondents: 600 x $1.00 = $600. 
+SURVEY SETUP 
+ Create your own survey = $0. 
+Or  
+ 400 rand (approximately $40) per hour for technical support. 
+OTHER SUPPORT  
+ 800–1000 rand per hour (approximately $80–$100 per hour).  
+Mobenzi Resources 
+ General information: http://www.mobenzi.com/researcher/Home 
+ Mobenzi case studies: http://www.mobenzi.com/researcher/Case-Studies 
+CommCare 
+The CommCare platform, a product of the Cambridge, Massachusetts–based Dimagi—a 
+privately owned social enterprise that brings innovative technology to help underserved 
+communities around the world—can be used both to collect data for field surveys and the 
+platform’s paid plans also support sending informational SMSs to a wide audience. CommCare 
+has typically been used for health programs.  
+All data collected with CommCare is sent over a cellular data network to a remote cloud based 
+server. When connectivity is not available, users can operate offline. Data is saved on the phone 
+and can be sent automatically when connectivity is restored. After the collected data is 
+transmitted to the CommCare cloud server, it can be viewed in standard reports.  
+Chapter 3: Mobile Technology Platforms   |   26 
+ 
+Pros  
+ Survey setup is easy with the CommCare application builder; the large online support 
+community can help. 
+ The free version permits use by up to 50 individuals.  
+ Authorized users can download data to Excel or to other third-party applications. 
+Cons 
+ It is possible to have only one form at a time on a phone—limiting if you are managing 
+several different types of data.  
+ The free version does not permit SMS. 
+Features 
+ Data collection surveys. 
+ Applications to prompt health care workers or other development workers to provide 
+accurate information or to analyze information in the field can be developed for extra cost. 
+ Multimedia enabled (e.g., with capability to gather images, audio, and video). 
+ Supports multiple languages. 
+ Two-way communication, remotely manage fieldworkers. 
+ Image and GPS capabilities. 
+ Java and Android compatible. 
+ SMS capabilities available in pay plans. 
+ Survey set-up support available (at additional cost) 
+Cost 
+The free plan not only allows up to 50 mobile users but also includes multimedia support and 
+gives you the ability to create your own applications, data exporting, and standard reports.  
+Paid subscription plans vary from $100 per month (“standard”) to $1,000 per month 
+(“advanced”) and offer SMS capabilities, extra data analytical and reporting features, and 
+additional technical support, among other features.  
+There are full service packages that include building applications and a full system for a 
+project.  While they are expensive, they are worth considering for projects where grant money 
+will be used to set up the system, as on-going costs are lower. 
+CommCare Resources 
+General information: http://www.commcarehq.org/home 
+Current cost information: http://www.commcarehq.org/software-plans/ 
+Case studies: http://www.commcarehq.org/users/project_summaries/ 
+  
+Chapter 3: Mobile Technology Platforms   |   27 
+Magpi 
+Magpi, recognized as a leader in the field, is a versatile program for data collection that has 
+been used extensively by USAID, the World Bank, and others to collect data from programs 
+ranging from education to health and governance.   
+Pros 
+ The extensive basic dashboard that presents data results cleanly and clearly and that 
+facilitates data visualization and analysis.  
+ The online tool that makes creating surveys easy. 
+ Advanced programmable skip logic and easier-to-use basic skip logic both available.  
+Cons 
+ Only a few languages built in. (However, Magpi will add a language if you provide the 
+translation, and there is no restriction on the alphabets that can be used.) 
+Features 
+ Data collection surveys. 
+ Easy to build surveys with skip logic. 
+ Free basic version, with good technical support (at extra cost). 
+ Works on Java, Android, Blackberry, and Apple products. 
+ GPS capability. 
+ Works without Internet connectivity.  
+ SMS data collection capability at Pro levels. 
+ SMS, text-to-speech (TTS), and audio messaging service for communication (will be 
+combined with data collection system for improved integration in summer 2014).  
+Costs 
+Magpi is free to use, subject to certain limits on forms per account, questions per form, uploads 
+per month, and online data storage. Many projects and organizations find the free version to be 
+adequate for their needs. However, medium or large-sized evaluations (with 1,000 or more 
+respondents) or organizations engaged in large ongoing mobile monitoring may require the 
+Pro or Enterprise paid subscription-based versions. The cost of this per project would be 
+significantly less if you were to spread it across multiple projects and/or countries. 
+Magpi Resources 
+General information and sign-up: https://www.magpi.com/ 
+Case studies: https://datadyne.zendesk.com/entries/21282536-Case-Studies-Who-Uses-Magpi-formerly-
+EpiSurveyor- 
+  
+Chapter 3: Mobile Technology Platforms   |   28 
+FrontlineSMS 
+FrontlineSMS is widely used, open source software that can be used to manage information 
+gathered using mobile devices. Offering a simple, cost-effective way to collect and disseminate 
+data to users, it requires Java-enabled phones, and data inputs (i.e., text messages) are length-
+restricted; long survey forms are unrealistic. Because FrontlineSMS runs on software installed 
+on a single, stand alone computer, it does not require an Internet connection.   
+FrontlineSMS makes it easy to create and manage common SMS activities such as 
+announcements, polling, and automatically replying to incoming SMSs.  Incoming data from 
+poll activity can be visualized; users can quickly understand results. Compatible with most 
+other platforms and applications, it can be used alongside other tools (e.g., Crowdmap, for real-
+time GIS mapping). 
+FrontlineForms, introduced in 2009, combines the power of Java-enabled mobiles with SMS. 
+The Forms module is more versatile than FrontlineSMS in that allows you to create, on your 
+computer, copies of simple paper forms, and then send them to a Java-enabled phone by text 
+message. It is a good tool for collecting simple survey data but because text messages in most 
+languages are traditionally capped at about 160 characters, lengthy surveys are not really 
+possible. 
+The FrontlineCloud module allows users to send and receive data over GPRS, WiFi, 2G/3G/4G, 
+or similar networks. More data can be sent faster and usually at a cost lower than for an SMS. 
+However, unlike FrontlineSMS, which is free to use, the cloud version requires a subscription, 
+which costs $10 a month. 
+Pros 
+ Open source and software free to download and use.  
+ Will run on even very low-end Java phones. 
+ Simple and relatively low startup cost. 
+ Allows for two-way SMS communication with data collectors, including polling and 
+visualization of incoming responses. 
+ Form designer included in FrontlineSMS Forms module. 
+ Active online community helpful in troubleshooting. 
+ Advanced skip logic included. 
+ Data export into Excel possible. 
+Cons  
+ The Forms client is not open source and is thus not customizable. 
+ Limited to SMS for data transmission, which can be expensive. 
+ SMS typically limits data transmissions to about 160 characters; no GPRS support. 
+Chapter 3: Mobile Technology Platforms   |   29 
+Features 
+ Supports polling via SMS and distribution of informational messages.  
+ Free software; costs limited to equipment and data usage. 
+ Two-way communication channel. 
+ Group folders for targeted messages. 
+ Compatible with any SMS-enabled mobile device. 
+Costs 
+ Modem and unlocked SIM card. 
+ Software setup is free if you do it yourself; FrontlineSMS consultant services available for a 
+fee. 
+FrontlineSMS Resources  
+General information: http://www.frontlinesms.com/ 
+FrontlineSMS user guide: http://help.frontlinesms.com/manuals/ 
+Case studies: http://www.frontlinesms.com/impact-of-frontline/guides-tools-and-case-studies/ 
+Crowdmap 
+An open-source platform for information collection, visualization, and interactive mapping, 
+Crowdmap is oriented towards mapping geospatial information. Crowdmap is one of a suite of 
+platforms associated with Ushahidi. Meaning “testimony” or “witness” in Swahili, Ushahidi 
+was developed in Kenya in 2008 to map incidents of violence and peace efforts based on 
+reports submitted by phone or over the Web. Crowdmap is essentially Ushahidi in the cloud, a 
+hosted version that does not require the user to set up the system on their own server.  
+The Crowdmap platform enables real-time, spatial information sharing and interaction 
+involving an unlimited number of users. As a result, it has been used effectively for disaster 
+management and response.  
+Ushahidi also offers another popular product known as Swift River. Swift River is not a data 
+collection platform like Crowdmap. Instead, Swift River receives unstructured data (i.e., 
+descriptive text messages) and then codes this data into a structured format by variables (e.g., 
+location, time, event, user group). By coding and sorting data and utilizing algorithms set by 
+users, Swift River enables data to be cross-analyzed in different ways. Content can be then 
+aggregated, clustered, searched, and filtered according to user requirements.  
+Chapter 3: Mobile Technology Platforms   |   30 
+Pros 
+ Strong information visualization and sharing. 
+ Can receive and organize unstructured data (i.e., text). 
+ Can collect and aggregate reports from the news, Twitter, e-mail, SMS, or any other 
+electronic source; reports are then geo-located.  
+ Easy to set up and use. 
+ Supports multiple languages. 
+Cons 
+ Requires a reasonable level of technical know-how to use Ushahidi online platforms.   
+ Not designed for data collection. (Developed primarily as an information-sharing platform, 
+although Swift River now includes data synthesis and analysis features.) 
+Features 
+ Crowdsourcing information possible via SMS, e-mail, and Twitter. 
+ Interactive maps possible to visualize data. 
+ Capacity to tap into local knowledge to map ongoing events or conduct assessments. 
+ Data storage in the cloud. 
+ Free to use and maintain. 
+Cost 
+The Crowdmap platform is completely free to use.  Ushahidi offers consulting services to help 
+set up and tailor projects as well as to train staff on the platform.  However, these services are 
+not essential, because the program is very easy to use.  
+Crowdmap Resources 
+General information: http://www.ushahidi.com/ 
+Ushahidi wiki: https://wiki.ushahidi.com/pages/viewpage.action?pageId=294916  
+  
+Chapter 3: Mobile Technology Platforms   |   31 
+Highlights of Key Mobile Platforms 
+MOBILE TYPE OF DATA ENTRY DATA STORAGE, 
+PLATFORM PHONE INTERFACE AND SURVEY SETUP ANALYSIS, AND OTHER FEATURES PRICE STRUCTURE TRANSMISSION REPORTING 
+Mobenzi Java, Uses Java forms Do-it-yourself Storage in cloud Supports multiple Pay-as-you-go; roughly $.01 
+Android, and survey server; data languages; collects per data field 
+Blackberry  support filtering; maps image and GIS data; 
+available;  GPS data SMS communication 
+skip logic with data collectors 
+CommCare Java, Uses SMS (paid Do-it-yourself Storage in cloud Supports multiple Free version allows for up to 
+Android plans), forms, or and paid server; free languages; skip logic 50 mobile users; paid plans 
+Web portal. survey support version includes (requires coding skills); $100 to $1,000 per month 
+ available standard reports collects audio, video, 
+Transmission: images, and GPS 
+SMS (paid export into Excel 
+version), GPRS. possible 
+Magpi Java, SMS (at Pro level Do-it-yourself; Storage in cloud Includes a few Free version allows 20 forms, 
+Android, pricing), forms, tech support at server; languages (possible to up to 100 questions per form,  
+BlackBerry, Web portal extra cost  extensive add more if translation 6,000 uploads per year;  
+Apple  dashboard is provided); collects Pro version  $5K per year,  
+Transmission: GPS data; SMS, Text- Enterprise version $10K per 
+SMS, GPRS to-Speech, and audio year 
+messaging 
+FrontlineSMS Most low- SMS, forms Do-it-yourself;  Stored on Export data into Excel Free 
+tech  advanced skip mobile and local possible; collects 
+phones; Transmission: logic server; basic images 
+Forms SMS data aggregation 
+module and reporting 
+requires 
+Java 
+CrowdMap Any Web portal or SMS Intended for Storage in cloud Supports multiple Free 
+ monitoring; not server; strong languages; collects 
+Can be used with structured for visualizations, and aggregates news, 
+other tools like surveys including Twitter, e-mail, and 
+FrontlineSMS  interactive information from other 
+mapping electronic sources, 
+which can then be 
+geolocated 
+ 
+ 
+Other Platforms 
+This field is evolving quickly, and many other platforms are also available. 
+Preliminary List of Other Platforms, 2014 
+PLATFORM WEB SITE 
+DataWinners https://www.datawinners.com/ 
+Formhub https://formhub.org/ 
+iFormbuilder https://www.iformbuilder.com/ 
+Open Data Kit opendatakit.org/ 
+TexttoChange www.texttochange.org/ 
+Viewworld www.viewworld.net/ 
+ 
+Chapter 3: Mobile Technology Platforms   |   32 
+Additional Resources 
+Kerry Bruce, Jade Lamb, and Andrea Selva. “Evaluation Option: Mobile Data Collection,” 
+Better Evaluation Beta, updated January 2014, http://betterevaluation.org/evaluation-
+options/mobile_data_collection. 
+Chapter 3: Mobile Technology Platforms   |   33 
+Chapter 4     
+Implementing Your Strategy 
+ 
+ 
+CHAPTER LEARNING GOALS 
+ Plan to obtain and manage your  mobile devices. 
+ Build own forms for mobile data collection. 
+ Set up your mobile devices. 
+ Pilot test the technology in the field. 
+ Train data collectors. 
+ Collect data. 
+ Conduct follow-up with data collectors. 
+ 
+ 
+Next Steps  
+Now that you have developed your strategy and have defined your mobile technology goals and 
+objectives, taking into consideration your specific project needs and constraints and selected 
+your platform, you are ready to begin implementation. The following pages will walk you 
+through important logistical considerations and implementation steps recommended as you 
+roll out mobile technology. 
+Plan to Obtain and Manage Your Mobile Devices 
+Procurement 
+Do not underestimate how long it will take to procure mobile devices. Depending on how many 
+you need, it may be difficult to obtain all your devices from one vendor. Online vendors have a 
+larger stock but usually require a credit card to purchase.   
+SUGGESTED ONLINE DISTRIBUTERS OF MOBILES AND TABLETS 
+ 3G Mobile—3G Mobile supplies and distributes mobile phones and tablets to major 
+retailers in South Africa and throughout Africa.  http://www.3gmobile.co.za/ 
+ GSM-Superstore—Located in South Florida, GSM-Superstore exports unlocked new and 
+factory-refurbished GSM phones in most international brands and models to Latin America, 
+the Caribbean, and other parts of the world. http://gsm-superstore.com/about-us/ 
+Inventorying Your Phones 
+You will want to inventory your mobile devices. This entails labeling them with an inventory 
+number as well as the data collection log-in information (if relevant and compatible with 
+34 
+security needs) to minimize problems in the field. It’s optimal to track IMEI, SIM card, and 
+battery serial numbers in a centralized database, along with associated users, to better monitor 
+data submission.  
+Mobile devices typically have an electronic serial number known as an IMEI (international 
+mobile equipment identity). To find the IMEI for a mobile device, simply enter the following 
+five-digit string of characters as if you were dialing a phone number: *#06#. The IMEI should 
+automatically display. Alternatively, look for the IMEI on a label underneath the battery. With 
+Android phones, go to the home screen, press Menu, then Settings, then About Phone, and 
+then Status. Your IMEI will become visible on the screen.  
+Be sure to inform all staff and data collection workers that the phones, SIM cards, and batteries 
+have been inventoried and are associated with a unique user. This knowledge will encourage 
+them to take better care of their phones and discourage such practices as swapping out the 
+battery from the new mobile device for an older battery from an older mobile device. 
+Ownership  
+If you are distributing mobile devices to data collectors, determine early on in your project 
+whether ownership will reside with your organization or with the collector and under what 
+conditions. For nonroutine data collection such as evaluation surveys, it likely makes more 
+sense to issue and collect devices at the end of data collection. However, for routine data 
+collection, consider giving the devices to the collectors, either upon issuing them or after a 
+period of time. There may be lower levels of loss, theft, and breakage among data collectors 
+who own or expect to own their mobile devices. Secondly, after a few years of use, the devices 
+will likely become obsolete and would not be used for future projects. Lastly, managing a large 
+inventory of devices takes time—time that you won’t spend if the data collectors themselves 
+own the devices.  
+It is important to have an official policy that addresses ownership as well as the consequences 
+for loss, breakage, or theft of mobile devices.  
+Build Your Forms for Mobile Data Collection 
+If you are collecting more characters of data at any one time than is permitted for the language 
+you’re using for your mobile device (i.e., 160 characters for English), it is likely that you are not 
+using SMS to transmit data but rather the Web, which allows data collectors to enter their data 
+into a form either on the mobile device itself or by accessing an online portal.  
+Pay close attention to the form design—it affects the quality of the data collected and the ease 
+with which a survey can be completed. Mobile technology alone will not build a good survey! 
+To make sure that you have included all your questions and that the skip logic is clear, the best 
+course is to design the form on paper first. Doing so gives you the opportunity to reconsider 
+Chapter 4: Implementing Your Strategy   |   35 
+what data you really want to collect and will use as well as to eliminate duplicate questions—
+which tend to occur more frequently on electronic forms than on paper forms.  
+The format of forms on a mobile device differs from that of paper forms, and survey tables on 
+paper do not translate well to mobile devices.   
+REMEMBER  
+In general, limiting the number of qualitative entries will yield stronger, cleaner data.  Even 
+if open-ended questions, it is preferable to add what you expect may be some common 
+answers as multiple-choice options and, in addition, leave a space for “other.”  
+ 
+Converting Paper Survey Tables into Electronic Forms 
+What a Table Looks Like on Paper 
+NO NAME GENDER AGE EDUCATION EMPLOYED? (Y/N) 
+1      
+2      
+3      
+ 
+What a Table Looks Like on a Mobile Phone 
+IDN: 123 
+For the first family member, please answer the following questions: 
+Name _________________________________________________________________________________________________ 
+Gender  M/F 
+Age ___________________________________________________________________________________________________ 
+Education (multiple choice) 
+ No education 
+ Did not complete primary 
+ Primary 
+ More than primary 
+Is the person employed?  Y/N 
+ 
+(Repeat until completed) 
+ 
+ 
+  
+Unique Identifiers 
+A good practice when creating forms is to put a unique identifier at the top of each form. This 
+code will allow you to more easily, later, match the respondent or subject (e.g., if you are 
+surveying the same person repeatedly) or locate the record (e.g., as part of a data quality audit). 
+Field workers will need to enter this code into a separate sheet. If you are piloting the data 
+Chapter 4: Implementing Your Strategy   |   36 
+collection tool or simply practicing, assign a “dummy” code (e.g., 555), so that you can 
+recognize data that are not part of the dataset. 
+Some operators of mobile platforms (e.g., Mobenzi, CommCare) offer assistance in developing 
+survey forms. Platform operators that do not offer such assistance often have good basic 
+training materials; some provide training. Many platforms profiled in this manual have online 
+troubleshooting forums, and most are responsive to questions.  
+REMEMBER 
+Test your form on the Internet or on your phone before sharing it with others! 
+Setting Up Mobile Devices 
+After you have settled on a platform and acquired your mobile devices, you can begin setting 
+them up and downloading software—sometimes from the platform Web site, or, if you have an 
+Android phone, from the Google Play store. Several platforms permit you to download software 
+from a link in an e-mail. If your mobile device lacks Internet access, you can probably 
+download to a personal computer and transfer the software to your phone using a cable or a 
+USB key. 
+Be sure to install the software before introducing the phone to users, to give yourself a chance 
+to test the application, become familiar with its functionality, and troubleshoot if necessary. Do 
+not underestimate how long phone set-up can take.  It is best to have all of the phones set up 
+with the application(s) you are planning to use prior to any training or pilot event. 
+Below are step-by-step instructions on how to install each of several key mobile platforms. 
+Mobenzi 
+ Go to the Mobenzi Web site: http://www.mobenzi.com/r/apps/ 
+ Choose the mobile device you are working with. 
+ Click on the link to download. (You may have to navigate to the download folder in your 
+phone to install.) 
+Or 
+ After you have registered the phone in the platform, a link to download the software can be 
+sent to a phone via SMS. 
+CommCare/Dimagi 
+ Download CommCare from the Google Play store. Two options: 
+—Go to bit.ly/getccodk. 
+—Go to the Google Play store and search for “CommCare ODK v2.” 
+ Download forms (CommCare calls them applications).  This is the complicated part.  
+For in-depth instructions, go to 
+https://confluence.dimagi.com/display/commcarepublic/Installing+CommCareODK+Android+Applications 
+Chapter 4: Implementing Your Strategy   |   37 
+Magpi 
+ Set up a Magpi account at https://www.magpi.com/ 
+ Open the Google Play store on your phone (the Android Market on older phones). 
+ Search for Magpi. 
+Or 
+ Go to https://www.magpi.com/m and download the Magpi app specific to your phone model. 
+ Go to Settings—Downloads. You will see the application there. 
+ Click on the application. 
+—Change your settings to Unknown Sources if asked to do so, so that the software will download. 
+—Don’t forget to restore your settings. 
+ When download is complete, the application will ask you for login information. Provide the 
+username and password for the account you created earlier on the Magpi Web site. 
+ If you have subscribed to Magpi on its Web site, a link can also be sent to a phone via SMS. 
+FrontlineSMS 
+ Download FrontlineSMS on a computer. Go to http://www.frontlinesms.com/the-software/download/ 
+ After installing the software, open it. A new tab will open in your browser. 
+ From the browser, you can create messages or activities and either enter new phone 
+numbers or select recipients from a list of previously used phone numbers. 
+Crowdmap 
+ On your phone, open the Google Play store (the Android Marketplace on older phones). 
+ Search for Ushahidi. 
+ Select Ushahidi, and tap Install.  
+ Go to Settings—Downloads, and you will see the application. 
+ Click on the application 
+—Change the settings to Unknown Sources if asked to do so, so that the software will download. 
+—Restore your settings when you have finished. 
+ When the download is complete, the application will open. 
+Pilot Test the Technology in the Field 
+Pilot testing phones in the field allows the team to identify data collection issues early and 
+avoid unforeseen complications. Allocate two days for field-testing the mobile devices, the 
+survey platform, and the survey questions. To allow time to address technical issues and refine 
+the survey, schedule the test at least three days before beginning data-collector training.  
+To conduct a pilot test, anticipate and recreate the conditions of the actual survey to the 
+greatest extent possible. When planning a pilot test, consider: 
+ Location—The test should occur in the field, preferably as close as possible to the area to be 
+surveyed. This will help flag any data connectivity issues that may require offline data 
+Chapter 4: Implementing Your Strategy   |   38 
+collection and thus adjustments to phone settings. Any lack of access to electricity in the 
+field will reveal the mobile devices’ operative battery life. If batteries do not last long enough 
+to go from charge to charge with life to spare, you will need to provide additional batteries or 
+plan for midday charging.  
+ Duration—The pilot test should replicate two full days of data collection. Confirming that 
+the phones work in the field is not enough. The biggest drains on phones’ batteries are the 
+screen and the cellular radio. Manufacturers often overestimate how long a phone will run 
+on one charge, so you cannot rely on the specifications on the box. Only keeping phones in 
+full operation for an entire day will reveal how long the battery lasts under field conditions. 
+ Test subjects—Running through the survey several times with a variety of respondents will 
+reveal any problems with skip patterns or the flow of questions. Potential test subjects could 
+include office staff not affiliated with the survey, residents not living in the area to be 
+surveyed, even data collection workers. Be sure to test every skip pattern to ensure that no 
+logic errors exist and that the survey skips to the appropriate question in every situation. 
+ Error reporting—Devise an efficient system for reporting errors that occur during the 
+pilot test. Even minor glitches need to be addressed to ensure that the actual survey goes 
+smoothly. Any deviation from expected operation of the platform, the survey, or the devices 
+themselves should be logged. 
+ Submitting data—Although pilot test data will eventually be purged from the final survey, 
+be sure to upload it to check for platform connection problems and to ensure that project 
+staff can receive responses from the field. Delete pilot test data from both devices and 
+platform before beginning the real survey. 
+ Receiving data—Office staff members play a critical role in the pilot test even though they 
+are not in the field. Those who will be monitoring the survey should confirm that the data 
+being sent in from the field display correctly—both survey responses and any GPS data. 
+Customized dashboards should be created, and staff members should familiarize themselves 
+with the platform’s monitoring and reporting capabilities. 
+ Backup plan: Have a day’s worth of paper surveys on hand in case the technology fails.  
+Remember, although pilot testing may seem 
+excessive, it is better to discover issues before you Taking GPS Locations 
+start surveying. All parties must understand that The GPS receiver on a mobile phone can collect 
+this phase is critical to data quality and to location data even when there is no mobile data 
+completing the survey on time and under budget. connection. However, getting an accurate GPS location 
+Failing to identify and troubleshoot issues early on requires a clear view of the sky and good satellite 
+could lead to later widespread reporting problems signal reception. Avoid collecting GPS locations when 
+and worker confusion. inside buildings or when standing next to large 
+obstructions. If you don’t have a clear view of the sky, 
+your location will not be recorded accurately. 
+ 
+Chapter 4: Implementing Your Strategy   |   39 
+Recruit and Train Data Collectors 
+No matter how well the mobile technology works in the field, insufficient training of data 
+collectors can compromise the survey—and data collection utilizing mobile devices requires a 
+higher level of technological literacy and competency than data collection on paper. Recruiting 
+qualified candidates and providing rigorous training are both key to a successful survey.  
+Recruiting 
+During recruitment, ask about candidates’ familiarity with the mobile device to be used, and 
+then test their familiarity by having them send and receive SMS notifications, make and answer 
+calls, monitor battery life and device connectivity, navigate through menus (if any), 
+troubleshoot problems, and properly care for the device. 
+Training 
+Conduct training both on basic operation of the mobile device and on how to conduct the 
+survey on the platform you have chosen. Integrate standard training on research skills, 
+interview techniques, and traditional survey delivery with training on mobile technology.  
+Allocating two days is optimal, to allow users to become familiar with the device and platform 
+and to acquire sufficient hands-on experience.  
+SUGGESTED AGENDA 
+ Overview of project and goals. 
+ Overview of survey objectives. 
+ Basic research and interview skills. 
+ Overview of the mobile device being used and its operation. 
+ Explanation of the buttons and symbols on the screen (e.g., battery and reception). 
+ How to send and receive SMS notifications. 
+ How to download new versions of the survey. 
+ How to ensure that surveys are sent. 
+ Daily maintenance procedures (e.g., charging the device and connecting to send data). 
+ Policy on airtime, making calls, sending SMS, etc. 
+ Policy on lost, stolen, or damaged phones. 
+ Practice conducting the survey with other data collectors acting as the respondents. 
+Collect Data 
+Purging Pilot Test Data 
+Before beginning data collection, take measures to ensure that no pilot test or training data can 
+be confused with actual survey data. Take the time to clearly identify—or preferably, to delete— 
+all data and surveys both from your mobile devices themselves and from the central database. 
+In the rush of commencing a survey, it may seem more convenient to separate test data from 
+actual data after the survey is complete, using either the collection date as a divider or by 
+Chapter 4: Implementing Your Strategy   |   40 
+filtering out data that is incomplete or that contains the word “test.” Because this practice may 
+compromise data quality, the best policy is to wipe out everything that could be misconstrued 
+as real data—and only then initiate formal data collection. 
+If You Revise the Survey 
+At the same time you delete test data, make sure that the most recent survey is downloaded to 
+each device on the first day. If any revisions are made during data collection, be sure that the 
+new version is downloaded to each mobile device as quickly as possible and versions deleted to 
+keep them from being used. 
+Changes to Field Supervision Procedures and Troubleshooting 
+As data collection effort begins in earnest, staff should be prepared, both in the office and in 
+the field, to monitor and troubleshoot the technology if issues arise.  
+Office staff may also monitor the performance of individuals through the reporting platform 
+and use the information for performance management. A particular individual’s dispatching of 
+numerous surveys from a single GPS location may arise from a technical difficulty—or it may 
+flag false data entry intended to speed the data collector’s work. Similarly, consistent 
+underreporting by some workers relative to their colleagues may highlight a need for additional 
+training—or it may point to excessive break time. Make sure that office staff review GPS 
+locations and time stamps for all collected data and contact individual data collectors about 
+their performance if necessary. 
+Office staff should also monitor incoming data for repeating errors on the part of more than 
+one data collector. Additional instruction may resolve the problem—or the questionnaire may 
+require revision. 
+Keep in mind that mobile and electronic surveying can both greatly reduce requirements for 
+field oversight and improve communication between office staff and data collectors. Rather 
+than waiting to speak with a worker face to face, monitoring staff can be in contact by SMS or 
+by phone, depending on connectivity and airtime policy. Alerts for a new version of the survey 
+can be broadcast and a confirming response requested from data collectors after they have 
+made the update.  
+Follow Up with Data Collectors 
+Exercise the same diligence at the end of the survey as at the beginning. Take time to ensure 
+that all surveys on all phones have been sent and uploaded. Check in any equipment that will 
+be reused. Deal with lost, stolen, or broken equipment following official policies.  
+Checking for Data Quality 
+Mobile data collection greatly reduces the time and resources needed to clean and process data, 
+compared to paper-based surveys. However, data quality checks to ensure that are suitable for 
+analysis are still a good idea. For example, if a new version of your questionnaire was 
+Chapter 4: Implementing Your Strategy   |   41 
+distributed at any point during the survey, check data collected before the update to ensure 
+that it corresponds correctly to the newer data.  
+Data Analysis 
+As data analysis begins, basic visualizations provided by the platform serve as a good starting 
+point. Export the data from the platform in the appropriate format to the data analysis tool of 
+your choice to conduct more robust analysis.  
+Look Ahead 
+Be sure to document lessons learned and how the data was used for decision making. Sharing 
+not only the data but also information about its collection, about the challenges and 
+opportunities brought because of the use of mobile technology, and about the findings of your 
+analysis will help speed adoption of mobile technology among other actors. Consider sharing 
+read-only data and data visualizations with the collectors themselves as well as with other 
+stakeholders such as donors, government ministries, and chief strategy officers.  
+As you consider how you might integrate mobile technology into your programming, 
+continuously scan your environment for innovations in ICT4D. If you yourself encounter 
+challenges relating to the integration of ICT4D into your data collection, or opportunities for 
+doing so, we encourage you to share your story with the broader ICT4D community via 
+LinkedIn groups and professional networks specializing in mobile technology and ICT4D. You 
+may find others in the development field who have grappled with the same issues or that you 
+are in fact breaking new ground! 
+We hope that you find the materials in this Mobile Technology Handbook helpful and 
+informative. In Appendix 3, you will find additional online resources for using mobile 
+technology. There are of course many other resources available on the Internet. Mobile 
+technology is changing rapidly with each passing day, so be sure to stay abreast of all the latest 
+developments. 
+We wish you the best of luck in getting started with mobile technology.   
+ 
+Chapter 4: Implementing Your Strategy   |   42 
+Appendix 1     
+Pact’s Mobile Technology Use 
+ 
+ 
+Pact uses mobile technology to facilitate data collection that is faster, cleaner, better 
+monitored, and made richer by integrated GIS and camera capabilities.  A data collection form 
+is made through an online platform and sent to data collectors, monitoring staff, or 
+beneficiaries—individuals who can respond via SMS, on simple mobile devices, or using 
+smartphone applications.  Collected data is immediately sent to a cloud-based central database, 
+and results can be reviewed for quality control and analyzed as they come in.  Data that needs 
+to be collected on paper can be entered later into the database through a Web portal.  Workers 
+must be trained to use the technology just as they must be to use any form. Mobile technology 
+permits real-time data monitoring, eliminates the need for data entry and data double entry, 
+and makes it possible to immediately grasp and respond to common issues. 
+Pact has been using mobile technology since 2007 to enhance project activities and to improve 
+monitoring and facilitate evaluation, and launched an intensive training and adaptation period 
+in 2011 to familiarize individuals on all projects with the potential of using mobile technology.  
+Pact has utilized a number of platforms, including FrontlineSMS, Mobenzi, and Magpi.  Some 
+examples of our experience with mobile technology follow.  
+Pact Activities Using Mobile Technology 
+ 
+43 
+Africa 
+South Sudan 
+Pact tested the viability of mobile technology in South Sudan in March 2013 and found several 
+viable platforms.  Development of forms for the National Civil Society Strengthening project is 
+ongoing.  Pact is also developing mobile technology for the Access to Justice project to monitor 
+court cases and legal aid support. Contact: Rachel Beck, rbeck@pactworld.org. 
+Tanzania 
+The baseline for a quasi-experimental evaluation design on programming for orphans and 
+vulnerable children (OVC) was conducted using mobile technology for data collection. This 
+rigorous evaluation will track changes in key child outcomes among intervention and 
+nonintervention communities and will measure the program’s attribution towards results.  
+In Tanzania, Pact has also used mobile technology to collect baseline data in artisanal and 
+small-scale mining on behalf of the Ministry of Energy and Minerals. Data documented 
+household economy, child labor in mining, and health and safety, as well as alternative 
+livelihoods for artisanal and small-scale miners. Contact: Daisy Kisyombe, 
+dkisyombe@pactworld.org. 
+Namibia 
+Pact used Mobenzi to survey staff at partner organizations on their perception of capacity 
+development assistance rendered by Pact Namibia.  This exercise was part of a Pact-wide 
+community of practice meeting, where Pact monitoring and evaluation staff from around the 
+world were trained in mobile data collection and then went into the field to collect data. 
+Contact: Stephanie Posner, sposner@pactworld.org. 
+Swaziland 
+Pact developed the capacity of its local partner, Save the Children, to use mobile technology to 
+collect child profiling data on OVC in Swaziland. The survey employed mobile phones to collect 
+data on OVC status and needs. GPS coordinates were also collected to map service coverage 
+and target areas with high need.  Contact: Sam Kuhlande, skuhlande@pactworld.org. 
+Nigeria 
+In 2013, a project in Nigeria developed an innovative mobile application to provide tailored 
+health education messages to registered HIV-positive pregnant women on testing and prenatal 
+care.  This system tracks patients and provides health workers with messages to follow up with 
+patients who have not returned for their appointments. A baseline survey of this population 
+using mobile technology was also conducted.  Contact: Olufemi Akinmade, 
+oakinmade@pactworld.org.  
+Appendix 1: Pact’s Mobile Technology Use   |   44 
+Ethiopia 
+Pact trained implementing partners to provide basic data results to improve the rapidity of 
+data availability to program decision makers.  Contact:  Metalign Ayehu, 
+mayehu@pactworld.org. 
+Asia / Eurasia 
+Nepal 
+Pact used mobile technology for a major baseline survey data collection in 2013.  A SMS-based 
+conflict reporting system that will monitor conflict in real time using on-the-ground reporters 
+has been developed. Contact:  Raju Kandel, rkandel@pactworld.org. 
+Thailand 
+Here, Pact used Android-based phones and the Mobenzi platform to collect baseline OVC data.  
+Contact: Worachanok Youttananukorn, worachanok@pactworld.org. 
+Cambodia 
+Pact uses FrontlineSMS as part of a participatory monitoring, reporting, and verification 
+system to prevent deforestation. Community monitors were trained in the technology and send 
+in regular reports on observed activities as a standard SMS form, supplemented with GIS data 
+collected simultaneously.  Contact:   Sarah Sitts, ssitts@pactworld.org. 
+Myanmar 
+Coca Cola funded the savings group project, Swan-yi, which used Magpi and Android 
+smartphones to collect baseline data on women enrolling in savings groups in central 
+Myanmar.  Because SIM cards were prohibitively expensive, data collectors uploaded all data 
+collected at once from central WiFi points.  Now, Pact’s Shae Thot project is beginning to test 
+Magpi for part of its regular maternal and child health monitoring and data collection. 
+Contact:   Jade Lamb, jlamb@pactworld.org. 
+Vietnam 
+In Vietnam, Pact will conduct a baseline survey of a WORTH project (similar to that in 
+Myanmar) during 2014.  Contact:  Dang Thi Thanh Binh,  dtbinh@pactworld.org. 
+Ukraine 
+Pact’s partner in the Ukraine, the International HIV/AIDS Alliance, plans to implement a data 
+collection survey and then to build an information portal using GIS technology.  In 2014, the 
+RESPOND project will also map services for vulnerable populations in three regions, using 
+mobile mapping techniques, to demonstrate lack of access outside of regional centers.  
+Contact:   Alyona Gerasimova, agerasimova@pactworld.org. 
+Kyrgyzstan 
+In Kyrgyzstan, under the Civic Advocacy for Reform and Stabilization (CARS) project, Pact 
+staff provided training to CARS grantees on the use of free FrontlineSMS software to send and 
+Appendix 1: Pact’s Mobile Technology Use   |   45 
+receive text messages and to manage relevant information.  One key grantee, Legal Assistance 
+to Rural Citizens (LARC), used the technology to conduct a land tenure rights awareness 
+campaign and a survey on land tenure rights. To spur public debate around social and political 
+issues in Kyrgyzstan, radio stations used text messaging to make programming more 
+interactive, increasing listener participation and enhancing public debate.  
+Mongolia 
+Nomadic herders who were previously state supported and have become business operators in 
+a market-based economy are now able to make better business decisions about how to time 
+sales of primary produce. Herders can maximize their profits by making data-based decisions 
+using factual, real-time market price information. Pact Mongolia’s national network of market 
+watchers gathered prices for 64 commodities in local markets five days a week. Information 
+and communication technology enabled prices to be sent to a central database for daily, 
+weekly, and quarterly analysis and distribution. This market information was broadcast via 
+radio, television, and text message, through a Mongolian cell phone provider working in 
+partnership with Pact. More than 700 text message price requests were received during the 
+first three months of 2007. The service was especially valuable during the depth of winter, one 
+of the most trying times for herding-dependent businesses, with fewer commodities to sell and 
+extreme weather conditions.  
+Latin America 
+Brazil 
+Here, Pact developed a partnership with a leading telecommunication company (Vivo) to send 
+educational SMS messages to all male clients aged 18 or above in Recife, Rio de Janeiro, and 
+Federal District based on the area code of clients’ cellular phones. The first SMS included a 
+short message providing the number of people in Brazil who were estimated to be HIV positive 
+but did not know their status, and then provided the link to the program’s blog, where 
+recipients could find more information about local HIV testing sites. By monitoring the 
+number of hits to the program’s blog, Pact was able to determine that SMS messages increased 
+Web site usage. At each HIV testing location, clients were asked to identify how they learned of 
+this testing site, allowing for the effectiveness of SMS messaging promoting voluntary 
+counseling and HIV testing to be monitored.  
+El Salvador and the Dominican Republic 
+Inadequate access to information on worker rights and responsibilities generates barriers to 
+labor justice. To address this issue, Pact initiated a project to train attorneys, free-legal- 
+assistance providers, and labor rights advocates on the efficient, cost-effective use of SMS to 
+communicate with stakeholders and disseminate labor rights information. Pact trained 
+attorneys and labor rights advocates in El Salvador and the Dominican Republic on 
+FrontlineSMS software. Pact’s partners sent text messages directly to the cellular phones of 
+workers involved in labor disputes. These messages included notifications and reminders 
+Appendix 1: Pact’s Mobile Technology Use   |   46 
+about important events (e.g., court dates and upcoming labor rights trainings). In addition, 
+Pact's partners used FrontlineSMS technology to carry out labor rights public awareness 
+campaigns, conduct surveys, and refer workers to free legal assistance services. Four 
+organizations used FrontlineSMS to disseminate labor rights information.
+Appendix 1: Pact’s Mobile Technology Use   |   47 
+48 
+Appendix 2     
+Pact Swaziland Case Study:  
+Selecting a Mobile Platform 
+ 
+ 
+Pact Swaziland conducted an assessment of mobile platforms for a child profiling survey they 
+planned to carry out on 17,000 orphans and vulnerable children. 
+PAPER-BASED DATA COLLECTION UNIT COST NUMBER COST 
+Paper and printing $0.05 49,200 $2,460 
+Single data entry (assuming 5 minutes per form) $40.00 170 $6,833 
+Database development $750.00 1 $750 
+Transport of paper data from region variable variable variable 
+Total Cost   $10,043 
+MOBILE PLATFORM A UNIT COST NUMBER COST 
+Phones (Java-based feature phones) $60.00 30 $1,800 
+SIM cards $3.00 30 $90 
+Data uploads/airtime $0.10 16,400 $1,640 
+Platform use per data field $0.01 738,000 $7,380 
+Total Cost   $10,910 
+MOBILE PLATFORM B UNIT COST NUMBER COST 
+Phones $120.00 30 $3,600 
+SIM cards $3.00 30 $90 
+Data uploads/airtime $0.10 16,400 $1,640 
+Monthly subscription for platform $500.00 2 $1,000 
+Monthly fee $0.25 15,400 $3,850 
+Total Cost   $10,180 
+MOBILE PLATFORM C UNIT COST NUMBER COST 
+Phones $120.00 30 $3,600 
+SIM cards $3.00 30 $90 
+Data uploads/airtime $0.10 16,400 $1,640 
+Monthly subscription for platform $299.00 2 $598 
+Total Cost   $5,928 
+ 
+49 
+The above cost analysis of the different platforms shows that platform C would be the most 
+cost-effective. However, functionality and features were also considerations. 
+Swaziland tested both platforms A and C in country and ultimately decided to go with platform 
+A. Despite the higher costs, the platform A’s functionality and features were a better fit for Pact 
+Swaziland’s data collection needs.  
+REMEMBER 
+Although cost is a big factor, it should not be the only factor. 
+ 
+Appendix 2: Pact Swaziland Case Study: Selecting a Mobile Platform   |   50 
+Appendix 3     
+Online Mobile Technology Resources 
+ 
+ 
+IC4D 2012: Maximizing Mobile. The World Bank™ 
+This report analyzes the growth and evolution of applications for mobile devices, focusing on 
+their use in agriculture, health, and financial services as well as their impact on employment 
+and government. The report also explores the consequences for development of the emerging 
+“app economy,” summarizing current thinking and seeking to inform the debate on the use of 
+mobile devices for development. It’s no longer about the phone itself but about how it is used 
+and about the content and applications that mobile devices bring.  
+http://web.worldbank.org/WBSITE/EXTERNAL/TOPICS/EXTINFORMATIONANDCOMMUNICATIO
+NANDTECHNOLOGIES/0,,contentMDK:23190786~pagePK:210058~piPK:210062~theSitePK:2828
+23,00.html 
+Mobiles in-a-Box  
+Mobiles in-a-Box from the Tactical Technology Collective is a collection of tools, advocacy 
+tactics, how-to guides, and case studies designed to help advocacy and activist organizations 
+use mobile technology in their work. 
+http://mobiles.tacticaltech.org/ 
+Mobile Solution Selection Data (NOMAD) 
+This online questionnaire determines data needs and existing resources connected with a 
+particular project, then filters them through the capabilities of more than 30 mobile platforms 
+to propose all possible workable solutions. Although NOMAD is useful for sorting through the 
+increasingly crowded market space, it is optimal to go through the survey several times and 
+adjust your responses, wherever a constraint is not critical, in order to obtain a full list of 
+potentially workable solutions. Remember that platforms are constantly adding new 
+capabilities, and the NOMAD tool may or may not be up to date. 
+http://humanitarian-nomad.org/online-selection-tool-2/ 
+ 
+51 

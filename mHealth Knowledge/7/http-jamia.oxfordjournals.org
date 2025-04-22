@@ -1,0 +1,1421 @@
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+
+        <title>Journal of the American Medical Informatics Association | Oxford Academic</title>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" type="text/javascript"></script>
+<script>window.jQuery || document.write('<script src="/UI/app/vendor/jquery-2.2.4.js">\x3C/script>')</script>
+
+
+
+  
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+<!-- Bookmark Icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="//oup.silverchair-cdn.com/UI/app/img/v-637038823812376798/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="//oup.silverchair-cdn.com/UI/app/img/v-637038823812376798/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="//oup.silverchair-cdn.com/UI/app/img/v-637038823812376798/favicon-16x16.png" sizes="16x16">
+  <link rel="mask-icon" href="//oup.silverchair-cdn.com/UI/app/img/v-637038823812689301/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="//oup.silverchair-cdn.com/UI/app/img/v-637038823812376798/favicon.ico">
+  <link rel="manifest" href="//oup.silverchair-cdn.com/UI/app/img/v-637038823812376798/manifest.json">
+  <meta name="msapplication-config" content="//oup.silverchair-cdn.com/UI/app/img/v-637038823812376798/browserconfig.xml">
+  <meta name="theme-color" content="#002f65">
+
+
+    
+
+
+
+
+<link rel="stylesheet" type="text/css" href="//oup.silverchair-cdn.com/UI/app/fonts/icons.css" />
+
+<link rel="stylesheet" type="text/css" href="//oup.silverchair-cdn.com/UI/app/css/v-637038826090373473/style.min.css" />
+
+        <link rel="stylesheet" type="text/css" href="//oup.silverchair-cdn.com/UI/app/vendor/oupCookiePolicy/css/v-637038823814095580/jquery.fancybox-1.3.4_1.css" />
+        <link rel="stylesheet" type="text/css" href="//oup.silverchair-cdn.com/UI/app/vendor/jscrollpane/v-637038823814095580/jscrollpane.css" />
+        <link rel="stylesheet" type="text/css" href="//oup.silverchair-cdn.com/UI/app/vendor/jquery.tablesorter/v-637038823814095580/theme.default.css" />
+
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Merriweather:300,400,400italic,700,700italic|Source+Sans+Pro:400,400italic,700,700italic" />
+
+
+        <link href=//oup.silverchair-cdn.com/data/SiteBuilderAssetsOriginals/Live/CSS/journals/global.css rel="stylesheet" type="text/css" />
+                <link href=//oup.silverchair-cdn.com/data/SiteBuilderAssets/Live/CSS/jamia/Site-993987727.css rel="stylesheet" type="text/css" />
+    
+
+
+        <script>
+            (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-W6DD7HV');
+        </script>
+
+    
+
+
+        <script type="text/javascript">
+            var App = App || {};
+            App.LoginUserInfo = {
+                isInstLoggedIn: [0],
+                isIndividualLoggedIn: [0]
+            };
+
+            App.CurrentSubdomain = 'jamia';
+            App.SiteURL = 'academic.oup.com/jamia';
+        </script>
+    
+    
+        <script type="application/ld+json">
+        {"@context":"http://schema.org","@id":"https://academic.oup.com/jamia","@type":"Periodical","name":"Journal of the American Medical Informatics Association","datePublished":"2017-12-31","url":"https://academic.oup.com/jamia","inLanguage":"en","issn":["1527-974X"],"copyrightHolder":"American Medical Informatics Association","copyrightYear":"2019","publisher":"Oxford University Press","description":"The official journal of the American Medical Informatics Association. Publishes peer-reviewed research for biomedical and health informatics. Coverage includes clinical care, clinical research, translational science, policy, among other subjects.","thumbnailURL":"https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/jamia/Issue/26/10/1/m_jaminfo_26_10cover.png?Expires=1631977365&Signature=024gYErxJWief2~2u79~855oF9cob90RoA4rexWjyqX00IBiTZl0IN9wF2cRptqtU9J8Eez~jpY8njiNahWoH~txHj~MoBPCkfoOHeJQUVcDpmyDMIHs~EGufrua8~VoozLNxB0EvroExpoho0hS1qEPgxEB0Gzh2C3suqf1YRm5eLsnvSKVxT~xjIu8Qdkchjk9L7Vj5yZbDbutv~-aobt4iIjUZVLn7TX1G8HjhHhMjNCoazAE6Va4i4t6wtS4JXVurK8kt7GDU3QWVkwW~MeexU86XQ3DXW5uOqI0ac3DxMb3Ko1wVLL7ekZt~i68IlcYOT6fqsrUwIXbTOpqbQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA"}
+    </script>
+    <meta property="og:site_name" content="OUP Academic" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://academic.oup.com/jamia" />
+    <meta property="og:title" content="Journal of the American Medical Informatics Association | Oxford Academic" />
+    <meta property="og:image" content="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/jamia/Issue/26/10/1/m_jaminfo_26_10cover.png?Expires=1631977365&amp;Signature=024gYErxJWief2~2u79~855oF9cob90RoA4rexWjyqX00IBiTZl0IN9wF2cRptqtU9J8Eez~jpY8njiNahWoH~txHj~MoBPCkfoOHeJQUVcDpmyDMIHs~EGufrua8~VoozLNxB0EvroExpoho0hS1qEPgxEB0Gzh2C3suqf1YRm5eLsnvSKVxT~xjIu8Qdkchjk9L7Vj5yZbDbutv~-aobt4iIjUZVLn7TX1G8HjhHhMjNCoazAE6Va4i4t6wtS4JXVurK8kt7GDU3QWVkwW~MeexU86XQ3DXW5uOqI0ac3DxMb3Ko1wVLL7ekZt~i68IlcYOT6fqsrUwIXbTOpqbQ__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" />
+    
+
+
+    <link rel="canonical" href="https://academic.oup.com/jamia" />
+
+    <meta name="description" content="The official journal of the American Medical Informatics Association. Publishes peer-reviewed research for biomedical and health informatics. Coverage includes ">
+
+
+
+
+
+
+    
+    
+
+
+<script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+<script>
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+</script>
+    
+        <script type='text/javascript'>
+                        var gptAdSlots = [];
+                    googletag.cmd.push(function() {
+            
+            var mapping_ad1 = googletag.sizeMapping()
+            .addSize([1024, 0], [[970, 90], [728, 90]])
+            .addSize([768, 0], [728, 90])
+            .addSize([0, 0], [320, 50])
+            .build();
+            gptAdSlots["ad1"] = googletag.defineSlot('/116097782/jamia_Home_Ad1',
+                [[970, 90], [728, 90], [320, 50]],
+                'adBlockHeader')
+            .defineSizeMapping(mapping_ad1)
+            .addService(googletag.pubads());
+            
+
+            
+            var mapping_ad2 = googletag.sizeMapping()
+            .addSize([0, 0], [])
+            .addSize([768, 0], [[300, 250]])
+            .build();
+        gptAdSlots["ad2"] = googletag.defineSlot('/116097782/jamia_Home_Ad2',
+                [300, 250],
+                'adBlockMainBodyTop')
+            .defineSizeMapping(mapping_ad2)
+            .addService(googletag.pubads());
+            
+
+
+            
+                var mapping_ad4 = googletag.sizeMapping()
+                .addSize([0, 0], [])
+                .addSize([768, 0], [728, 90])
+                .build();
+    gptAdSlots["ad4"] = googletag.defineSlot('/116097782/jamia_Home_Ad4', [728, 90], 'adBlockFooter')
+                .defineSizeMapping(mapping_ad4)
+                .addService(googletag.pubads());
+            
+            googletag.pubads().setTargeting("jnlspage", "");
+    googletag.pubads().setTargeting("jnlsurl", "jamia");
+    googletag.pubads().enableSingleRequest();
+    googletag.pubads().collapseEmptyDivs();
+            googletag.enableServices();
+        });
+        </script>
+    
+
+
+    
+
+
+    <script>
+        var oupcookiepolicy_siteid = "journals";        // the website id
+        var oupcookiepolicy_messagetype = 'implied';                        // type of alert message e.g, implied / explicit
+        var oupcookiepolicy_preferredlanguage = "en";      // preferred language of the website
+        var oupcookiepolicy_impliedmessageclass = 'cookiepolicyimplied';    // the css class for implied alert message
+        var oupcookiepolicy_documentroot = '/';	  			                // the document root the cookie is set to
+    </script>
+    <noscript>We use cookies to enhance your experience on our website.By continuing to use our website, you are agreeing to our use of cookies. You can change your cookie settings at any time. <a href="https://global.oup.com/cookiepolicy/"> Find out more</a></noscript>
+    <script type="text/javascript">
+        var NTPT_PGEXTRA= 'event_type=home&supplier_tag=SC_Journals&siteid=jamia&authzrequired=false&account_id=';
+    </script>
+
+
+
+
+</head>
+
+<body data-sitename="journaloftheamericanmedicalinformaticsassociation" class="off-canvas pg_Index pg_index ccms" theme-jamia data-sitestyletemplate="Journal">
+    
+        <noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W6DD7HV"
+                    height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <a href="#main" class="skipnav">Skip to Main Content</a>
+<input id="hdnSiteID" name="hdnSiteID" type="hidden" value="5396" /><input id="hdnAdDelaySeconds" name="hdnAdDelaySeconds" type="hidden" value="5000" /><input id="hdnAdConfigurationTop" name="hdnAdConfigurationTop" type="hidden" value="default" /><input id="hdnAdConfigurationRightRail" name="hdnAdConfigurationRightRail" type="hidden" value="sticky" />
+    
+
+
+
+
+
+
+<div class="master-container js-master-container">
+    <section class="master-header row js-master-header vt-site-page-header">
+    <div class="widget widget-SitePageHeader widget-instance-SitePageHeader">
+        
+    <div class="ad-banner js-ad-banner-header">
+    <div class="widget widget-AdBlock widget-instance-HeaderAd">
+        
+
+<div id="adBlockHeader"
+     style=" ">
+    <script>
+        googletag.cmd.push(function () { googletag.display('adBlockHeader'); });
+    </script>
+</div>
+ 
+    </div>
+
+    </div>
+
+    <div class="oup-header">
+        <div class="center-inner-row">
+
+            <div class="oup-header-logo">
+                <a href="/"><img src="//oup.silverchair-cdn.com/UI/app/svg/umbrella/oxford-academic-logo.svg" alt="Oxford University Press" class="oup-header-image"></a>
+            </div><!-- /.oup-header-logo -->
+
+            <ul class="oup-header-menu account-menu">
+
+                <!-- MOBILE SEARCH  -->
+                <li class="oup-header-menu-item mobile">
+                    <button href="" class="btn btn-as-icon mobile-dropdown-toggle mobile-search-toggle">
+                        <i class="icon-menu_search"><span class="screenreader-text">Search</span></i>
+                    </button>
+                </li>
+
+                <!-- MOBILE MENU -->
+                <li class="oup-header-menu-item mobile">
+                    <button href="" class="btn btn-as-icon mobile-dropdown-toggle mobile-account-toggle">
+                        <i class="icon-menu_account"><span class="screenreader-text">Account Menu</span></i>
+                    </button>
+                </li>
+
+                <!-- MOBILE NAV -->
+                <li class="oup-header-menu-item mobile">
+                    <button href="" class="btn btn-as-icon mobile-dropdown-toggle mobile-nav-toggle">
+                        <i class="icon-menu_hamburger"><span class="screenreader-text">Menu</span></i>
+                    </button>
+                </li>
+
+                <!-- DESKTOP INSTITUTIONS -->
+
+                <!-- DESKTOP SIGN IN -->
+                <li class="oup-header-menu-item desktop">
+                    <a href="" class="dropdown-toggle signin" id="header-account-info-user-fullname">
+                        
+Sign In                        <i class="icon-general-arrow-filled-down arrow-icon"></i>
+                    </a>
+                    <div class="dropdown-panel dropdown-panel-signin dropdown-panel-form">
+                        <div class="spinner"></div>
+                    </div><!-- /.dropdown-panel -->
+                </li>
+
+                <!-- DESKTOP REGISTRATION -->
+                    <li class="oup-header-menu-item desktop"><a href="/my-account/register?siteId=5396&amp;returnUrl=%2fjamia" class="register">Register</a></li>
+
+                <!-- LANGUAGE -->
+                    <!-- <li class="oup-header-menu-item desktop">
+                        <a href="" class="dropdown-toggle language">Language</a>
+                        <div class="dropdown-panel">
+                            <div class="dropdown-menu">
+                                <ul>
+                                    foreach (var lang in Model.LanguageOptions)
+                                    {
+                                        string selectedClass = (lang.SiteId == Model.SiteId ? " selected" : "");
+                                        Html.Raw(String.Format("<li class=\"header-language-item{0}\"><a href=\"//{1}\">{2}</a></li>", selectedClass, lang.SiteUrl, lang.LanguageText))
+                                        ;
+                                    }
+                                </ul>
+                            </div>
+                        </div>
+                    </li> -->
+
+            </ul><!-- /.oup-header-menu .account-menu -->
+        </div><!-- /.center-inner-row -->
+    </div><!-- /.oup-header -->
+
+<div class="dropdown-panel-wrap">
+
+    
+    <div class="dropdown-panel mobile-search-dropdown">
+        <div class="mobile-search-inner-wrap">
+            <div class="navbar-search">
+                <div id="MobileMicrositeSearch" class="mobile-microsite-search">
+                    <label for="mobile-navbar-search-filter" class="screenreader-text">Navbar Search Filter</label>
+                    <select class="navbar-search-filter" id="mobile-navbar-search-filter">
+                                                    <optgroup label="Search within this journal">
+<option class="header-search-bar-filters-item" value="">All  Journal of the American Medical Informatics Association</option>
+                            </optgroup>
+                            <optgroup label="Search beyond this journal">
+<option class="header-search-bar-filters-item" value="Parent">All  AMIA Journals</option><option class="header-search-bar-filters-item" value="Journals">All  Journals</option>                            </optgroup>
+                    </select>
+
+
+
+
+
+                    <label for="MobileMicrositeSearchTerm" class="screenreader-text">Mobile Microsite Search Term</label>
+                    <input class="mobile-search-input mobile-microsite-search-term" type="text" maxlength="255" placeholder="Search" id="MobileMicrositeSearchTerm">
+
+                    <span id="MobileMicrositeSearchIcon" class="mobile-microsite-search-icon mobile-search-submit icon-menu_search"></span>
+
+                </div><!-- /#MobileMicrositeSearch -->
+            </div><!-- /.navbar-search -->
+        </div><!-- /.mobile-search-inner-wrap -->
+    </div><!-- /.dropdown-panel .dropdown-panel-search -->
+    
+    <div class="dropdown-panel mobile-account-dropdown">
+        <ul class="site-menu site-menu-lvl-0">
+            <li class="site-menu-item site-menu-lvl-0">
+                <a href="" class="nav-link mobile-account-signin dummy-link" id="header-account-info-user-fullname">
+                    
+Sign In                    <i class="mobile-nav-arrow icon-general_arrow-down"></i>
+                </a>
+                <ul class="site-menu site-menu-lvl-1 individual-menu">
+                    <li class="dropdown-signin-form">
+                        <div class="spinner"></div>
+                    </li>
+                </ul>
+            </li>
+                            <li class="site-menu-item">
+                    <a href="/my-account/register?siteId=5396&amp;returnUrl=%2fjamia" class="register nav-link">Register</a>
+                </li>
+        </ul>
+    </div><!-- /.dropdown-panel .dropdown-panel-account -->
+    
+    <div class="dropdown-panel mobile-nav-dropdown">
+
+
+    <i class="desktop-nav-arrow icon-general-arrow-filled-down arrow-icon"></i><i class="mobile-nav-arrow icon-general_arrow-down"></i>
+    <ul class="site-menu site-menu-lvl-0">
+        <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1394698">
+            <a href="/jamia/issue" class="nav-link ">Issues</a>
+            
+        </li>
+        <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1394695">
+            <a href="/jamia/#" class="nav-link dummy-link">More Content</a>
+                <i class="desktop-nav-arrow icon-general-arrow-filled-down arrow-icon"></i><i class="mobile-nav-arrow icon-general_arrow-down"></i>
+    <ul class="site-menu site-menu-lvl-1">
+        <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1394699">
+            <a href="/jamia/advance-articles" class="nav-link ">Advance articles</a>
+            
+        </li>
+        <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1394700">
+            <a href="/jamia/search-results?page=1&amp;f_OUPSeries=Editor%27s+Choice" class="nav-link ">Editor's Choice</a>
+            
+        </li>
+    </ul>
+
+        </li>
+        <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1394696">
+            <a href="/jamia/#" class="nav-link dummy-link">Submit</a>
+                <i class="desktop-nav-arrow icon-general-arrow-filled-down arrow-icon"></i><i class="mobile-nav-arrow icon-general_arrow-down"></i>
+    <ul class="site-menu site-menu-lvl-1">
+        <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1394701">
+            <a href="/jamia/pages/General_Instructions" class="nav-link ">Author Guidelines</a>
+            
+        </li>
+        <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1394702">
+            <a href="http://mc.manuscriptcentral.com/jamia" class="nav-link ">Submission Site</a>
+            
+        </li>
+        <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1394703">
+            <a href="https://academic.oup.com/jamia/pages/General_Instructions#Charges, licences, and self-archiving policy" class="nav-link ">Open Access</a>
+            
+        </li>
+    </ul>
+
+        </li>
+        <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1394704">
+            <a href="/jamia/subscribe" class="nav-link ">Purchase</a>
+            
+        </li>
+        <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1394705">
+            <a href="/my-account/email-alerts" class="nav-link ">Alerts</a>
+            
+        </li>
+        <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1394697">
+            <a href="/jamia/#" class="nav-link dummy-link">About</a>
+                <i class="desktop-nav-arrow icon-general-arrow-filled-down arrow-icon"></i><i class="mobile-nav-arrow icon-general_arrow-down"></i>
+    <ul class="site-menu site-menu-lvl-1">
+        <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1394706">
+            <a href="/jamia/pages/About" class="nav-link ">About Journal of the American Medical Informatics Association</a>
+            
+        </li>
+        <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1394707">
+            <a href="https://www.amia.org/" class="nav-link ">About the American Medical Informatics Association</a>
+            
+        </li>
+        <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1394708">
+            <a href="http://medicine-and-health-careernetwork.oxfordjournals.org/jobseeker/search/results/?t730=&amp;search=&amp;t732=471658&amp;t731=&amp;t733=&amp;t735=&amp;t737=&amp;max=25&amp;site_id=20102" class="nav-link ">Journals Career Network</a>
+            
+        </li>
+        <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1394709">
+            <a href="/jamia/pages/Editorial_Board" class="nav-link ">Editorial Board</a>
+            
+        </li>
+        <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1394710">
+            <a href="http://www.oupmediainfo.com/" class="nav-link ">Advertising and Corporate Services</a>
+            
+        </li>
+        <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1394711">
+            <a href="https://academic.oup.com/journals/pages/access_purchase/rights_and_permissions/self_archiving_policy_b" class="nav-link ">Self-Archiving Policy</a>
+            
+        </li>
+        <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1394712">
+            <a href="http://www.oxfordjournals.org/en/access-purchase/dispatch-dates.html" class="nav-link ">Dispatch Dates</a>
+            
+        </li>
+    </ul>
+
+        </li>
+    </ul>
+    </div><!-- /.dropdown-panel .dropdown-panel-nav -->
+
+</div><!-- /.dropdown-panel-wrap -->
+
+
+    <div class="journal-header journal-bg">
+        <div class="center-inner-row">
+                <h1 class="journal-logo-container" title="Journal of the American Medical Informatics Association">
+                    <img id="logo-JournaloftheAmericanMedicalInformaticsAssociation" class="journal-logo" src="//oup.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/jamia/jamia_title-1701137289.svg" alt="Journal of the American Medical Informatics Association" />
+                </h1>
+
+            <div class="society-logo-block">
+                    <div class="society-block-inner-wrap">
+                            <a href="https://www.amia.org/" target="" class="society-logo-container">
+                                <img id="logo-AmericanMedicalInformaticsAssociation" class="society-logo" src="//oup.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/jamia/jamia_h11078762397.svg" alt="American Medical Informatics Association" />
+                            </a>
+                                            </div><!-- /.society-block-inner-wrap - NOTE: used to vertically center one or more society logos -->
+            </div> <!-- /.society-logo-block - NOTE: We want this element on the page, even if there are no society logos -->
+        </div><!-- /.center-inner-row -->
+    </div><!-- /.journal-header -->
+
+<div class="navbar">
+    <div class="center-inner-row">
+        <nav class="navbar-menu">
+
+
+    <i class="desktop-nav-arrow icon-general-arrow-filled-down arrow-icon"></i><i class="mobile-nav-arrow icon-general_arrow-down"></i>
+    <ul class="site-menu site-menu-lvl-0">
+        <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1394698">
+            <a href="/jamia/issue" class="nav-link ">Issues</a>
+            
+        </li>
+        <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1394695">
+            <a href="/jamia/#" class="nav-link dummy-link">More Content</a>
+                <i class="desktop-nav-arrow icon-general-arrow-filled-down arrow-icon"></i><i class="mobile-nav-arrow icon-general_arrow-down"></i>
+    <ul class="site-menu site-menu-lvl-1">
+        <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1394699">
+            <a href="/jamia/advance-articles" class="nav-link ">Advance articles</a>
+            
+        </li>
+        <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1394700">
+            <a href="/jamia/search-results?page=1&amp;f_OUPSeries=Editor%27s+Choice" class="nav-link ">Editor's Choice</a>
+            
+        </li>
+    </ul>
+
+        </li>
+        <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1394696">
+            <a href="/jamia/#" class="nav-link dummy-link">Submit</a>
+                <i class="desktop-nav-arrow icon-general-arrow-filled-down arrow-icon"></i><i class="mobile-nav-arrow icon-general_arrow-down"></i>
+    <ul class="site-menu site-menu-lvl-1">
+        <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1394701">
+            <a href="/jamia/pages/General_Instructions" class="nav-link ">Author Guidelines</a>
+            
+        </li>
+        <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1394702">
+            <a href="http://mc.manuscriptcentral.com/jamia" class="nav-link ">Submission Site</a>
+            
+        </li>
+        <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1394703">
+            <a href="https://academic.oup.com/jamia/pages/General_Instructions#Charges, licences, and self-archiving policy" class="nav-link ">Open Access</a>
+            
+        </li>
+    </ul>
+
+        </li>
+        <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1394704">
+            <a href="/jamia/subscribe" class="nav-link ">Purchase</a>
+            
+        </li>
+        <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1394705">
+            <a href="/my-account/email-alerts" class="nav-link ">Alerts</a>
+            
+        </li>
+        <li class="site-menu-item site-menu-lvl-0" id="site-menu-item-1394697">
+            <a href="/jamia/#" class="nav-link dummy-link">About</a>
+                <i class="desktop-nav-arrow icon-general-arrow-filled-down arrow-icon"></i><i class="mobile-nav-arrow icon-general_arrow-down"></i>
+    <ul class="site-menu site-menu-lvl-1">
+        <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1394706">
+            <a href="/jamia/pages/About" class="nav-link ">About Journal of the American Medical Informatics Association</a>
+            
+        </li>
+        <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1394707">
+            <a href="https://www.amia.org/" class="nav-link ">About the American Medical Informatics Association</a>
+            
+        </li>
+        <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1394708">
+            <a href="http://medicine-and-health-careernetwork.oxfordjournals.org/jobseeker/search/results/?t730=&amp;search=&amp;t732=471658&amp;t731=&amp;t733=&amp;t735=&amp;t737=&amp;max=25&amp;site_id=20102" class="nav-link ">Journals Career Network</a>
+            
+        </li>
+        <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1394709">
+            <a href="/jamia/pages/Editorial_Board" class="nav-link ">Editorial Board</a>
+            
+        </li>
+        <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1394710">
+            <a href="http://www.oupmediainfo.com/" class="nav-link ">Advertising and Corporate Services</a>
+            
+        </li>
+        <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1394711">
+            <a href="https://academic.oup.com/journals/pages/access_purchase/rights_and_permissions/self_archiving_policy_b" class="nav-link ">Self-Archiving Policy</a>
+            
+        </li>
+        <li class="site-menu-item site-menu-lvl-1" id="site-menu-item-1394712">
+            <a href="http://www.oxfordjournals.org/en/access-purchase/dispatch-dates.html" class="nav-link ">Dispatch Dates</a>
+            
+        </li>
+    </ul>
+
+        </li>
+    </ul>
+        </nav>
+            <div class="navbar-search-container">
+                <div class="navbar-search-close js_close-navsearch">Close</div>
+                <div class="navbar-search">
+                    <div id="MicrositeSearch" class="microsite-search">
+                        <label for="navbar-search-filter" class="screenreader-text">search filter</label>
+                        <select class="navbar-search-filter" id="navbar-search-filter">
+                                                            <optgroup label="Search within this journal">
+<option class="header-search-bar-filters-item" value="" selected="selected">All  Journal of the American Medical Informatics Association</option>
+                                </optgroup>
+                                <optgroup label="Search beyond this journal">
+<option class="header-search-bar-filters-item" value="Parent" >All  AMIA Journals</option><option class="header-search-bar-filters-item" value="Journals" >All  Journals</option>                                </optgroup>
+                        </select>
+
+                        <label for="MicrositeSearchTerm" class="screenreader-text">search input</label>
+                        <input class="navbar-search-input microsite-search-term" type="text" maxlength="255" id="MicrositeSearchTerm" title="search input">
+
+                        <span id="MicrositeSearchIcon" class="microsite-search-icon navbar-search-submit icon-menu_search"></span>
+
+                    </div><!-- /#MicrositeSearch -->
+                </div><!-- /.navbar-search -->
+                <div class="navbar-search-advanced"><a href="/jamia/advanced-search" class="advanced-search js-advanced-search">Advanced Search</a></div>
+            </div><!-- /.navbar-search-container -->
+            <div class="navbar-search-collapsed"><i class="icon-menu_search js_expand-navsearch"></i></div>
+    </div><!-- /.center-inner-row -->
+</div><!-- /.navbar -->
+
+<input id="hfEnableOupOnlineProductsFeatures" name="hfEnableOupOnlineProductsFeatures" type="hidden" value="False" />
+
+    <input type="hidden" name="searchScope" id="hfSolrJournalID" value="" />
+    <input type="hidden" name="parentSiteName" id="hfParentSiteName" value="AMIA Journals" />
+    <input type="hidden" name="parentSiteUrl" id="hfparentSiteUrl" value="academic.oup.com/amia" />
+    <input type="hidden" name="siteID" id="hfsiteID" value="5396" />
+    <input type="hidden" name="parentSiteID" id="hfparentSiteID" value="6172" />
+    <input type="hidden" id="hfSolrJournalName" value="" />
+    <input type="hidden" id="hfSolrMaxAllowSearchChar" value="100" />
+    <input type="hidden" id="hfJournalShortName" value="" />
+    <input type="hidden" id="hfSearchPlaceholder" value="" />
+    <input type="hidden" name="hfGlobalSearchSiteURL" id="hfGlobalSearchSiteURL" value="" />
+    <input type="hidden" name="journalSiteScope" id="hfjournalSiteScope" value="Journals" />
+    <input type="hidden" name="parentSiteScope" id="hfparentSiteScope" value="Parent" />
+    <input type="hidden" name="defaultSearchURL" id="hfdefaultSearchURL" value="search-results?page=1&amp;q=" />
+    <input type="hidden" name="issueSearch" id="hfIssueSearch" value="" />
+    <input type="hidden" name="issueSiteScope" id="hfIssueSiteScope" value="Issue" />
+<input id="hfDefaultAdvancedSearchUrl" name="hfDefaultAdvancedSearchUrl" type="hidden" value="advanced-search?page=1&amp;q=" />    <input type="hidden" name="hfSearchSiteURL" id="hfSiteURL" value="academic.oup.com/jamia" />
+    <script type="text/javascript">
+        (function () {
+            var hfSiteUrl = document.getElementById('hfSiteURL');
+            var siteUrl = hfSiteUrl.value;
+            var subdomainIndex = siteUrl.indexOf('/');
+
+            hfSiteUrl.value = location.host + (subdomainIndex >= 0 ? siteUrl.substring(subdomainIndex) : '');
+        })();
+    </script>
+<input id="routename" name="RouteName" type="hidden" value="jamia" /> 
+    </div>
+
+</section>
+
+    <div id="main" class="content-main js-main ui-base">
+        <section class="master-main row">
+            <div class="center-inner-row no-overflow">
+                
+
+
+<div class="large-12">
+    <div class="index-inner-wrap">
+        <div class="location-main-content">
+<div id="cloudCMS" class="home-cms">
+
+<div class="row journalTopRegion">
+<div class="rowInner"/>
+
+    
+    <div class="currentIssue">    
+        
+                <div class="widget widget-IssueInfo widget-instance-Home_MainContentB0Home_Row1_IssueInfo">
+        
+
+<div id="issueInfo-Home_MainContentB0Home_Row1_IssueInfo" class="widget-info-wrap clearfix">
+    <div class="article-issue-img">
+            <a class="widget-IssueInfo__link" href="/jamia/issue/26/10"><img id="issueImage" class="fb-featured-image widget-IssueInfo__img" src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/jamia/Issue/26/10/1/m_jaminfo_26_10cover.png?Expires=1569000495&amp;Signature=govT26X3ada-~5Du9YAFVuBLkrxy6CoyNBcarKz1HIdBycC6jC37-Bsfz0BFYJYZkT1ddvGH98GAFTU2n7U-K9SYijqW2TPJ8PFns4X9sb4ebGYmHZ5wKPOs~IRVMutIJfv-Z9mf1KVXYVMOZ6xMDh3zxEltywiPteSjoUwUnqlgC1cwyraR2sOW8jms86rWuwpiHTu9ow0QHA0tNxDKFV6LX5zUv1mIE2lNn1v06h8uK0-c-xiDlLCG~DF2mpXP4hjKNb5Cbcq5FYwsS~Nxln7Hs-uzJ9yNY4xF1RbBIG01tn~mCpINFlQBnh3eTAc~gFbQQOmDdFqfCBFXhDc60w__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="Issue Cover" /></a>
+    </div>
+        <div class="current-issue-title widget-IssueInfo__title">
+
+            <a class="widget-IssueInfo__link" href="/jamia/issue/26/10">
+                Latest Issue
+            </a>
+        </div>
+    <div class="article-issue-info widget-IssueInfo__desc">
+        <a class="widget-IssueInfo__link TEST" href="/jamia/issue/26/10">
+                    <span class="volume trailing-comma">Volume 26</span>
+                    <span class="issue">Issue 10</span>
+
+        </a>
+        <a class="widget-IssueInfo__link ii-pub-date" href="/jamia/issue/26/10">
+October 2019        </a>
+    </div>
+</div> 
+    </div>
+
+         
+    </div>
+    
+    
+    <div class="journalMeta">
+        
+        <div class="impactFactor">
+                <div class="widget widget-ImpactFactorSiteRanking widget-instance-Home_MainContentB0B1Home_Row1_ImpactFactor">
+            <div class="impact-factor-wrap">
+            <div class="impact-row">
+                <div class="impact-label">Impact Factor</div>
+                <div class="impact-data">4.292</div>
+            </div>
+                    <div class="impact-row">
+                <div class="impact-label">5 year Impact Factor</div>
+                <div class="impact-data">4.54</div>
+            </div>
+                    </div>
+ 
+    </div>
+
+        </div>
+        
+        
+        <div class="editable">
+            <h4>Editor-in-chief</h4>
+
+<p>Suzanne Bakken, RN, PhD, FAAN, FACMI</p>
+
+
+        </div>
+        
+    </div>
+    
+    
+    <div class="featurePanel">
+            <div class="editable">
+        <div class="featurePanelInner">
+    
+        <h3>Publish with <em>JAMIA</em></h3>
+        
+    
+    <p>Submit to <em>JAMIA</em> and benefit from rapid decisions, review, and publication!<br />
+Average time from submission to first decision: <em>26 days</em><br />
+Average reviewer turnaround time: <em>12 days</em><br />
+Average time from submission to final decision: <em>6 weeks</em><br />
+Average time from acceptance to online publication: <em>8.5 weeks</em></p>
+
+    
+    
+    <a href="/jamia/pages/jamia_publishing">Learn More</a>
+       
+</div>
+
+            </div>
+    </div>
+    
+    
+    <div class="ad">
+            <div class="widget widget-AdBlockDynamic widget-instance-Home_MainContentB0Home_Row1_Ad">
+        
+
+<div id="adBlockMainBodyTop"
+     style=" ">
+    <script>
+        googletag.cmd.push(function () { googletag.display('adBlockMainBodyTop'); });
+    </script>
+</div>
+ 
+    </div>
+    
+    </div>
+    
+</div>
+</div>
+<div class="row"><div class="rowInner">            <div class="panels" columns="4">                 <div class="col">    <div class="editable">        <div class="itemBody">    <h3>        <a href="https://academic.oup.com/jamia/pages/General_Instructions">            <p>Interested in submitting?</p>        </a>    </h3>    <p>Learn more about the&nbsp;<em>JAMIA&nbsp;</em>submission requirements and process.&nbsp;<em>JAMIA</em>&nbsp;is an official publication of AMIA, the American Medical Informatics Association.<br /><br /><a data-link-id="36bbe73b-9f25-401a-bfe1-4aacfd2bd3e9" href="https://academic.oup.com/jamia/pages/General_Instructions">Learn More</a></p></div>    </div></div>                             <div class="col">    <div class="editable">        <div class="itemBody">    <h3>                    <p>Free Article Collections</p>            </h3>    <p><em>Special Double Issue: Health Equity</em><br />Read articles from <em>JAMIA</em>'s new Special Double Issue that focuses on Health Equity. We have granted free access to this entire issue through September 17, 2019.</p><p><a data-link-id="73245a76-dfd3-4432-ab0a-1c450eba1a78" href="https://academic.oup.com/jamia/issue/26/8-9">Explore the Special Issue</a></p><p><em>Impact Factor Collection</em><br />We are delighted to reveal that the Impact Factor for&nbsp;<em>JAMIA&nbsp;</em>has risen to&nbsp;<em>4.292.</em> To celebrate this increase, OUP has granted free access to five past highly cited articles&nbsp;for a limited time.</p><p><a data-link-id="9d80ba45-b757-4624-8780-6914eb8ca9f0" href="https://academic.oup.com/jamia/pages/highly_cited">Explore the Impact Factor Collection</a></p><p><em>JAMIA Open Year One Highlights Collection</em><br />Celebrate <em>JAMIA Open</em>’s first year of publishing! Explore year-one featured articles from<em> JAMIA</em>’s sister journal <em>JAMIA Open</em>, hand-picked by Editor in Chief Neil Sarkar.&nbsp;</p><p><a data-link-id="4ca012af-411f-469b-94fd-6f5d3213bb0e" href="https://academic.oup.com/jamiaopen/pages/year_one_highlights">Explore the <em>JAMIA Open</em> Collection</a></p></div>    </div></div>                             <div class="col">    <div class="editable">        <div class="itemBody">    <h3>        <a href="https://academic.oup.com/jamia/pages/news">            <p><em>JAMIA</em> in the News</p>        </a>    </h3>    <p>Which <em>JAMIA</em> articles are receiving significant attention online? Access a number of the most influential articles that have appeared in online news outlets.</p><p><a data-link-id="01aa9f11-36e1-41ec-9882-44da81315d72" href="http://academic.oup.com/jamia/pages/news">Read news articles</a></p></div>    </div></div>                             <div class="col">    <div class="editable">        <div class="itemBody">    <h3>        <a href="https://www.amia.org/category/webinars/journal-club">            <p><em>JAMIA</em> Journal Club</p>        </a>    </h3>    <p>Lead authors and <em>JAMIA</em> Student Editorial Board members moderate 60-minute discussions on studies published in <em>JAMIA</em>. These live webinars offer one hour of continuing medical education (CME) credit and questions can be submitted in advance. Free for members and students of AMIA Academic Forum institutions; $50 for nonmembers.&nbsp;</p><p><a data-link-id="7bfab49b-10c7-49d4-9af4-273bbf67b182" href="https://www.amia.org/category/webinars/journal-club">Register online to participate</a></p></div>    </div></div>             </div></div></div>
+    
+     <div class="row lists">
+    
+        <div class="rowInner">
+            
+            <div class="panels" columns="4">
+                
+                    
+                   
+                    
+                        
+                            <div class="col">
+                                
+                                <div class="contentListing  articleListNewAndPopularUntabbed">
+                                
+                                        <div class="widget widget-ArticleListNewAndPopular widget-instance-Home_MainContentB2Home_Row3_Latest_Articles">
+        
+
+
+
+<div id="newPopularList-Home_MainContentB2Home_Row3_Latest_Articles" class="fb">
+
+    
+
+        <h3 class="widget-dynamic-title">
+            Latest articles
+        </h3>
+
+
+
+
+
+
+<div class="widget-layout widget-layout--vert">
+
+
+
+
+
+
+        <div class="widget-columns widget-col-1">
+            <div class="col">
+
+                       <div class="widget-dynamic-entry">
+                        
+
+
+
+                        
+                           <a href="/jamia/advance-article/doi/10.1093/jamia/ocz157/5571444?searchresult=1">
+                                                              <div class="widget-dynamic-journal-title">
+                                   Challenges and opportunities using online portals to recruit diverse patients to behavioral trials
+                               </div>
+                                                                                             <div class="widget-dynamic-journal-image-synopsis">
+                                       <div class="widget-dynamic-journal-synopsis">                                           
+                                            
+                                       </div> <!-- /.widget-dynamic-journal-synopsis -->
+                               </div>
+
+
+                           </a>
+
+                    </div>
+                       <div class="widget-dynamic-entry">
+                        
+
+
+
+                        
+                           <a href="/jamia/advance-article/doi/10.1093/jamia/ocz140/5571446?searchresult=1">
+                                                              <div class="widget-dynamic-journal-title">
+                                   Detecting conversation topics in primary care office visits from transcripts of patient-provider interactions
+                               </div>
+                                                                                             <div class="widget-dynamic-journal-image-synopsis">
+                                       <div class="widget-dynamic-journal-synopsis">                                           
+                                            
+                                       </div> <!-- /.widget-dynamic-journal-synopsis -->
+                               </div>
+
+
+                           </a>
+
+                    </div>
+                       <div class="widget-dynamic-entry">
+                        
+
+
+
+                        
+                           <a href="/jamia/advance-article/doi/10.1093/jamia/ocz139/5571445?searchresult=1">
+                                                              <div class="widget-dynamic-journal-title">
+                                   Cohort selection for clinical trials using deep learning models
+                               </div>
+                                                                                             <div class="widget-dynamic-journal-image-synopsis">
+                                       <div class="widget-dynamic-journal-synopsis">                                           
+                                            
+                                       </div> <!-- /.widget-dynamic-journal-synopsis -->
+                               </div>
+
+
+                           </a>
+
+                    </div>
+                       <div class="widget-dynamic-entry">
+                        
+
+
+
+                        
+                           <a href="/jamia/advance-article/doi/10.1093/jamia/ocz154/5570969?searchresult=1">
+                                                              <div class="widget-dynamic-journal-title">
+                                   Internet search query data improve forecasts of daily emergency department volume
+                               </div>
+                                                                                             <div class="widget-dynamic-journal-image-synopsis">
+                                       <div class="widget-dynamic-journal-synopsis">                                           
+                                            
+                                       </div> <!-- /.widget-dynamic-journal-synopsis -->
+                               </div>
+
+
+                           </a>
+
+                    </div>
+                       <div class="widget-dynamic-entry">
+                        
+
+
+
+                        
+                           <a href="/jamia/advance-article/doi/10.1093/jamia/ocz147/5570553?searchresult=1">
+                                                              <div class="widget-dynamic-journal-title">
+                                   A mobile app identifies momentary psychosocial and contextual factors related to mealtime self-management in adolescents with type 1 diabetes
+                               </div>
+                                                                                             <div class="widget-dynamic-journal-image-synopsis">
+                                       <div class="widget-dynamic-journal-synopsis">                                           
+                                            
+                                       </div> <!-- /.widget-dynamic-journal-synopsis -->
+                               </div>
+
+
+                           </a>
+
+                    </div>
+            </div>
+        </div>
+</div><!-- /.widget-layout-[orientation] --></div>
+ 
+    </div>
+
+                                </div>
+                            </div>
+                        
+                        
+                
+                    
+                   
+                    
+                        
+                            <div class="col">
+                                
+                                <div class="contentListing  articleListNewAndPopularUntabbed">
+                                
+                                        <div class="widget widget-ArticleListNewAndPopular widget-instance-Home_MainContentB2Home_Row3_Most_Read">
+        
+
+
+
+<div id="newPopularList-Home_MainContentB2Home_Row3_Most_Read" class="fb">
+
+    
+
+        <h3 class="widget-dynamic-title">
+            Most read
+        </h3>
+
+
+
+
+
+
+<div class="widget-layout widget-layout--vert">
+
+
+
+
+
+
+        <div class="widget-columns widget-col-1">
+            <div class="col">
+
+                       <div class="widget-dynamic-entry">
+                        
+
+
+
+                        
+                           <a href="/jamia/article/22/5/1042/930268?searchresult=1">
+                                                              <div class="widget-dynamic-journal-title">
+                                   Birth month affects lifetime disease risk: a phenome-wide method
+                               </div>
+                                                                                             <div class="widget-dynamic-journal-image-synopsis">
+                                       <div class="widget-dynamic-journal-synopsis">                                           
+                                            
+                                       </div> <!-- /.widget-dynamic-journal-synopsis -->
+                               </div>
+
+
+                           </a>
+
+                    </div>
+                       <div class="widget-dynamic-entry">
+                        
+
+
+
+                        
+                           <a href="/jamia/article/11/2/104/882373?searchresult=1">
+                                                              <div class="widget-dynamic-journal-title">
+                                   Some Unintended Consequences of Information Technology in Health Care: The Nature of Patient Care Information System-related Errors
+                               </div>
+                                                                                             <div class="widget-dynamic-journal-image-synopsis">
+                                       <div class="widget-dynamic-journal-synopsis">                                           
+                                            
+                                       </div> <!-- /.widget-dynamic-journal-synopsis -->
+                               </div>
+
+
+                           </a>
+
+                    </div>
+                       <div class="widget-dynamic-entry">
+                        
+
+
+
+                        
+                           <a href="/jamia/article/24/6/1211/4108087?searchresult=1">
+                                                              <div class="widget-dynamic-journal-title">
+                                   Blockchain distributed ledger technologies for biomedical and health care applications
+                               </div>
+                                                                                             <div class="widget-dynamic-journal-image-synopsis">
+                                       <div class="widget-dynamic-journal-synopsis">                                           
+                                            
+                                       </div> <!-- /.widget-dynamic-journal-synopsis -->
+                               </div>
+
+
+                           </a>
+
+                    </div>
+                       <div class="widget-dynamic-entry">
+                        
+
+
+
+                        
+                           <a href="/jamia/article/26/8-9/796/5537967?searchresult=1">
+                                                              <div class="widget-dynamic-journal-title">
+                                   Advancing health equity and access using telemedicine: a geospatial assessment
+                               </div>
+                                                                                             <div class="widget-dynamic-journal-image-synopsis">
+                                       <div class="widget-dynamic-journal-synopsis">                                           
+                                            
+                                       </div> <!-- /.widget-dynamic-journal-synopsis -->
+                               </div>
+
+
+                           </a>
+
+                    </div>
+                       <div class="widget-dynamic-entry">
+                        
+
+
+
+                        
+                           <a href="/jamia/advance-article/doi/10.1093/jamia/ocz119/5548084?searchresult=1">
+                                                              <div class="widget-dynamic-journal-title">
+                                   Real world evidence in cardiovascular medicine: assuring data validity in electronic health record-based studies
+                               </div>
+                                                                                             <div class="widget-dynamic-journal-image-synopsis">
+                                       <div class="widget-dynamic-journal-synopsis">                                           
+                                            
+                                       </div> <!-- /.widget-dynamic-journal-synopsis -->
+                               </div>
+
+
+                           </a>
+
+                    </div>
+            </div>
+        </div>
+</div><!-- /.widget-layout-[orientation] --></div>
+ 
+    </div>
+
+                                </div>
+                            </div>
+                        
+                        
+                
+                    
+                   
+                    
+                        
+                            <div class="col">
+                                
+                                <div class="contentListing  selectableContent">
+                                
+                                        <div class="widget widget-SelectableContentList widget-instance-Home_MainContentB2Home_Row3_SelectableContentList_EditorsChoiceWidget">
+        
+
+
+
+
+<div class="widget-layout widget-layout--vert">
+
+        <h3 class="widget-dynamic-title">
+            Editor&#39;s Choice
+        </h3>
+
+
+
+
+
+        <div class="widget-columns widget-col-1">
+            <div class="col">
+
+                       <div class="widget-dynamic-entry">
+                        
+
+
+
+                        
+                           <a href="/jamia/article/22/4/794/1746126?searchresult=1">
+                                                              <div class="widget-dynamic-journal-title">
+                                   Parameterizing time in electronic health record studies
+                               </div>
+                                                                                             <div class="widget-dynamic-journal-image-synopsis">
+                                       <div class="widget-dynamic-journal-synopsis">                                           
+                                            
+                                       </div> <!-- /.widget-dynamic-journal-synopsis -->
+                               </div>
+
+
+                           </a>
+
+                    </div>
+                       <div class="widget-dynamic-entry">
+                        
+
+
+
+                        
+                           <a href="/jamia/article/22/4/864/1746441?searchresult=1">
+                                                              <div class="widget-dynamic-journal-title">
+                                   Associations between healthcare quality and use of electronic health record functions in ambulatory care
+                               </div>
+                                                                                             <div class="widget-dynamic-journal-image-synopsis">
+                                       <div class="widget-dynamic-journal-synopsis">                                           
+                                            
+                                       </div> <!-- /.widget-dynamic-journal-synopsis -->
+                               </div>
+
+
+                           </a>
+
+                    </div>
+                       <div class="widget-dynamic-entry">
+                        
+
+
+
+                        
+                           <a href="/jamia/article/18/Supplement_1/i2/2332817?searchresult=1">
+                                                              <div class="widget-dynamic-journal-title">
+                                   Policies for patient access to clinical data via PHRs: current state
+                    and recommendations
+                               </div>
+                                                                                             <div class="widget-dynamic-journal-image-synopsis">
+                                       <div class="widget-dynamic-journal-synopsis">                                           
+                                            
+                                       </div> <!-- /.widget-dynamic-journal-synopsis -->
+                               </div>
+
+
+                           </a>
+
+                    </div>
+                       <div class="widget-dynamic-entry">
+                        
+
+
+
+                        
+                           <a href="/jamia/article/18/Supplement_1/i45/2332819?searchresult=1">
+                                                              <div class="widget-dynamic-journal-title">
+                                   Provider and pharmacist responses to warfarin drug–drug interaction
+                    alerts: a study of healthcare downstream of CPOE alerts
+                               </div>
+                                                                                             <div class="widget-dynamic-journal-image-synopsis">
+                                       <div class="widget-dynamic-journal-synopsis">                                           
+                                            
+                                       </div> <!-- /.widget-dynamic-journal-synopsis -->
+                               </div>
+
+
+                           </a>
+
+                    </div>
+            </div>
+        </div>
+</div><!-- /.widget-layout-[orientation] --> 
+    </div>
+
+                                </div>
+                            </div>
+                        
+                        
+                
+                    
+                   
+                    
+                            <div class="col">
+                                <div class="editable twitter">
+                                    <div class="widgetHead">
+    <h3>
+        Latest tweets
+            <span class="bar"></span>
+    </h3>
+</div>
+<div class="twitterBody">
+    <a href="https://twitter.com/AMIAinformatics" class="twitter-timeline" data-chrome="nofooter noheader"
+        height="600">Tweets by AMIAinformatics </a>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div> 
+                                </div>
+                            </div>
+                        
+                
+            </div>
+        </div>
+    </div>
+<div class="row"><div class="rowInner">            <div class="panels" columns="3">                 <div class="col">    <div class="editable">        <div class="itemBody">    <h3>        <a href="https://www.amia.org/contact-amia">            <p>Connect with AMIA</p>        </a>    </h3>    <ul>	<li><a data-link-id="1744ccad-04e1-4f59-9343-9a6738eef43d" href="https://twitter.com/AMIAinformatics/">Twitter @AMIAinformatics</a></li>	<li><a data-link-id="96803339-b10c-4327-9ce2-f138aee61275" href="https://www.facebook.com/amiainformatics/">Facebook AMIA informatics</a></li>	<li><a data-link-id="2bb47e7d-a4b1-4a94-92c3-dcda48c60057" href="https://www.linkedin.com/start/join?trk=login_reg_redirect&amp;session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fgroups%2F1811544%2F">LinkedIn Official Group of AMIA</a></li>	<li><a data-link-id="467253e3-c7b7-46e1-8da9-b75d89627d59" href="https://www.youtube.com/c/AMIAInformatics/">Youtube AMIA informatics</a></li></ul></div>    </div></div>                             <div class="col">    <div class="editable">        <div class="itemBody">    <h3>        <a href="https://www.amia.org/why-informatics">            <p>Why Informatics?</p>        </a>    </h3>    <p>AMIA and our diverse membership serve as the key to discovering the insights that help patients, increase effectiveness, improve safety and reduce care costs. These insights help to accelerate healthcare’s transformation.</p><p><a data-link-id="f4311c73-4307-4a01-8b65-bd3788fe11bf" href="https://www.amia.org/why-informatics">Why Informatics? Why AMIA?</a></p></div>    </div></div>                             <div class="col">    <div class="editable">        <div class="itemBody">    <h3>        <a href="https://www.amia.org/meetings-and-events">            <p>AMIA Meetings &amp; Events</p>        </a>    </h3>    <p>AMIA hosts a number of informatics-focused events throughout the year – from the Clinical Informatics Conference, the Informatics Educators Forum, and the Joint Summits on Translational Science to our flagship AMIA Annual Symposium held each fall.&nbsp;</p><p><a data-link-id="d21dbeb8-8142-40f1-8870-f78bed5b0d4e" href="https://www.amia.org/meetings-and-events">View calendar of upcoming events</a></p></div>    </div></div>             </div></div></div><div class="row"><div class="rowInner">            <div class="panels" columns="3">                 <div class="col">    <div class="editable">        <div class="itemHead">    <a href="https://academic.oup.com/my-account/register/">        <img src="https://static.primary.prod.gcms.the-infra.com/static/site/journals/image/shared/email-alerts.jpg?node=7c814e00c234dbe70b9a&amp;version=1833:ecbf3845a131e90baece" alt="Alerts in the Inbox">    </a></div><div class="itemBody">    <h3>        <a href="https://academic.oup.com/my-account/register/">            <p>Email Alerts</p>        </a>    </h3>    <p><a data-link-id="52a73d39-2f89-42c9-aa7d-e067116542f0" href="https://academic.oup.com/my-account/register/">Register</a> to receive table of contents email alerts as soon as new issues of <em>Journal of the American Medical Informatics Association</em> are published online.</p><p> </p></div>    </div></div>                             <div class="col">    <div class="editable">        <div class="itemHead">    <a href="http://www.oxfordjournals.org/help/library_recommendation.html">        <img src="https://static.primary.prod.gcms.the-infra.com/static/site/journals/image/shared/library-recommend.jpg?node=a5634845081f206d0b24&amp;version=6231:97a33d2c4bf4cbbd29d6" alt="Recommend to your library">    </a></div><div class="itemBody">    <h3>        <a href="http://www.oxfordjournals.org/help/library_recommendation.html">            <p>Recommend to your library</p>        </a>    </h3>    <p autocomplete="off" name="text">Fill out our simple online form to recommend <em>Journal of the American Medical Informatics Association</em> to your library.</p><p autocomplete="off" name="text"><a data-link-id="270d6dcd-6272-48a4-8db2-0d1cab9254d0" href="http://www.oxfordjournals.org/help/library_recommendation.html">Recommend now</a></p></div>    </div></div>                             <div class="col">    <div class="editable">        <div class="itemHead">    <a href="https://academic.oup.com/journals/pages/authors">        <img src="https://static.primary.prod.gcms.the-infra.com/static/site/journals/image/shared/author-resource-center.jpg?node=d5478c25b375501bb037&amp;version=6181:69eb16345ef64ed43cc6" alt="Author resources">    </a></div><div class="itemBody">    <h3>        <a href="https://academic.oup.com/journals/pages/authors">            <p>Author resources</p>        </a>    </h3>    <p autocomplete="off" name="text">Learn about how to submit your article, our publishing process, and tips on how to promote your article.</p><p autocomplete="off" name="text"><a data-link-id="657678ff-2f2f-4329-85d8-06648acf3017" href="https://academic.oup.com/journals/pages/authors">Find out more</a></p></div>    </div></div>             </div></div></div><div class="row relatedJournals">    <div class="rowInner">                <div class="rowHead">            <h3>Related Titles<span class="underbar journal-bg"></span></h3>        </div>                <div class="relatedJournalsBody">                            <a href="https://academic.oup.com/jamiaopen"><img alt="JAMIA Open" src="https://oup.silverchair-cdn.com/ImageLibrary/temp_covers/jamiaopen.gif"><span class="relatedTitleText">JAMIA Open</span></a>                            <a href="https://academic.oup.com/bioinformatics"><img alt="Bioinformatics" src="https://oup.silverchair-cdn.com/ImageLibrary/temp_covers/bioinformatics.gif"><span class="relatedTitleText">Bioinformatics</span></a>                            <a href="https://academic.oup.com/database"><img alt="Database" src="https://oup.silverchair-cdn.com/ImageLibrary/temp_covers/database.gif"><span class="relatedTitleText">Database</span></a>                            <a href="https://academic.oup.com/bib"><img alt="Briefings in Bioinformatics" src="https://oup.silverchair-cdn.com/ImageLibrary/temp_covers/bib.gif"><span class="relatedTitleText">Briefings in Bioinformatics</span></a>                            <a href="https://academic.oup.com/bfg"><img alt="Briefings in Functional Genomics" src="https://oup.silverchair-cdn.com/ImageLibrary/temp_covers/bfg.gif"><span class="relatedTitleText">Briefings in Functional Genomics</span></a>                            <a href="https://academic.oup.com/biostatistics"><img alt="Biostatistics" src="https://oup.silverchair-cdn.com/ImageLibrary/temp_covers/biostatistics.gif"><span class="relatedTitleText">Biostatistics</span></a>                    </div>        </div></div></div><input id="cloud-cms-content-cache-hit" name="cloud-cms-content-cache-hit" type="hidden" value="" />        </div>
+    </div>
+</div>
+
+            </div><!-- /.center-inner-row no-overflow -->
+        </section>
+    </div>
+    <div class="mobile-mask">
+    </div>
+    <section class="footer_wrap vt-site-footer">
+        
+        
+
+
+    <div class="widget widget-SitePageFooter widget-instance-SitePageFooter">
+        <div class="ad-banner ad-banner-footer">
+    <div class="widget widget-AdBlock widget-instance-FooterAd">
+        
+
+<div id="adBlockFooter"
+     style=" ">
+    <script>
+        googletag.cmd.push(function () { googletag.display('adBlockFooter'); });
+    </script>
+</div>
+ 
+    </div>
+
+</div>
+
+    <div class="journal-footer journal-bg">
+        <div class="center-inner-row">
+
+                <div class="journal-footer-menu">
+
+                    <ul>
+                            <li class="link-1">
+                                <a href="/jamia/pages/About">About Journal of the American Medical Informatics Association</a>
+                            </li>
+                            <li class="link-2">
+                                <a href="/jamia/pages/Editorial_Board">Editorial Board</a>
+                            </li>
+                            <li class="link-3">
+                                <a href="/jamia/pages/General_Instructions">Author Guidelines</a>
+                            </li>
+                            <li class="link-4">
+                                <a href="https://www.facebook.com/amiainformatics">Facebook</a>
+                            </li>
+                            <li class="link-5">
+                                <a href="https://twitter.com/amiainformatics">Twitter</a>
+                            </li>
+</ul><ul>                            <li class="link-1">
+                                <a href="https://www.youtube.com/user/amiainformatix">YouTube</a>
+                            </li>
+                            <li class="link-2">
+                                <a href="https://www.linkedin.com/groups/1811544/profile">LinkedIn</a>
+                            </li>
+                            <li class="link-3">
+                                <a href="/jamia/subscribe">Purchase</a>
+                            </li>
+                            <li class="link-4">
+                                <a href="http://www.oxfordjournals.org/en/library-recommendation-form.html">Recommend to your Library</a>
+                            </li>
+                            <li class="link-5">
+                                <a href="http://www.oupmediainfo.com/">Advertising and Corporate Services</a>
+                            </li>
+</ul><ul>                            <li class="link-1">
+                                <a href="http://medicine-and-health-careernetwork.oxfordjournals.org/jobseeker/search/results/?t730=&amp;search=&amp;t732=471658&amp;t731=&amp;t733=&amp;t735=&amp;t737=&amp;max=25&amp;site_id=20102">Journals Career Network</a>
+                            </li>
+
+                    </ul>
+
+
+                </div><!-- /.journal-footer-menu -->
+
+            <div class="journal-footer-affiliations">
+                <!-- <h3>Affiliations</h3> -->
+            <a href="" target="">
+                <img id="footer-logo-JournaloftheAmericanMedicalInformaticsAssociation" class="journal-footer-affiliations-logo" src="//oup.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/jamia/jamia_f1765151067.svg" alt="Journal of the American Medical Informatics Association" />
+            </a>
+            </div><!-- /.journal-footer-affiliations -->
+
+            <div class="journal-footer-colophon">
+                <ul>
+                        <li>Online ISSN 1527-974X</li>
+                                        <li>Copyright &#169; 2019 American Medical Informatics Association</li>
+                </ul>
+            </div><!-- /.journal-footer-colophon -->
+
+
+        </div><!-- /.center-inner-row -->
+    </div><!-- /.journal-footer -->
+ 
+    </div>
+
+<div class="oup-footer">
+    <div class="center-inner-row">
+    <div class="widget widget-SelfServeContent widget-instance-OupUmbrellaFooterSelfServe">
+        
+<div class="oup-footer-row journal-links">
+<div class="global-footer selfservelinks">
+<ul>
+    <li>
+    <a href="/journals/pages/about_us">About Us</a>
+    </li>
+    <li>
+    <a href="/journals/pages/contact_us">Contact Us</a>
+    </li>
+    <li>
+    <a href="http://global.oup.com/jobs">Careers</a>
+    </li>
+    <li>
+    <a href="/journals/pages/help">Help</a>
+    </li>
+    <li>
+    <a href="/journals/pages/access_purchase">Access &amp; Purchase</a></li>
+    <li>
+    <a href="/journals/pages/access_purchase/rights_and_permissions">Rights &amp; Permissions</a>
+    </li>
+    <li>
+    <a href="/journals/pages/open_access">Open Access</a>
+    </li>
+</ul>
+</div>
+<div class="global-footer selfservelinks">
+<h4 id="global-footer-customer services" class="title footerheader">Connect</h4>
+<ul>
+    <li>
+    <a href="/my-account/communication-preferences">Join Our Mailing List</a>
+    </li>
+    <li>
+    <a href="http://blog.oup.com/">OUPblog</a>
+    </li>
+    <li>
+    <a href="http://twitter.com/oupacademic">Twitter</a>
+    </li>
+    <li>
+    <a href="https://www.facebook.com/OUPAcademic">Facebook</a>
+    </li>
+    <li>
+    <a href="http://www.youtube.com/playlist?list=PL3MAPgqN8JWioLLTkU4mlFM4-SNt-f1Xs">YouTube</a>
+    </li>
+    <li>
+    <a href="http://oupacademic.tumblr.com/">Tumblr</a>
+    </li>
+</ul>
+</div>
+<div class="global-footer selfservelinks">
+<h4>Resources</h4>
+<ul>
+    <li><a href="/journals/pages/authors">Authors</a></li>
+    <li><a href="/journals/pages/librarians">Librarians</a></li>
+    <li><a href="/journals/pages/societies">Societies</a></li>
+    <li><a href="https://academic.oup.com/journals/pages/sponsorship_and_advertising">Sponsors &amp; Advertisers</a></li>
+    <li><a href="/journals/pages/press">Press &amp; Media</a></li>
+    <li><a href="/journals/pages/agents">Agents</a></li>
+</ul>
+</div>
+<div class="global-footer selfservelinks">
+<h4>Explore</h4>
+<ul>
+    <li><a href="http://global.oup.com/academic">Shop OUP Academic</a></li>
+    <li><a href="http://www.oxforddictionaries.com/">Oxford Dictionaries</a></li>
+    <li><a href="http://oxfordindex.oup.com/">Oxford Index</a></li>
+    <li><a href="https://www.epigeum.com/">Epigeum</a></li>
+    <li><a href="http://global.oup.com/">OUP Worldwide</a></li>
+    <li><a href="http://www.ox.ac.uk/">University of Oxford</a></li>
+</ul>
+</div>
+<div class="OUP-mission">
+<p>Oxford University Press is a department of the University of Oxford. It furthers the University's objective of excellence in research, scholarship, and education by publishing worldwide</p>
+<img class="journal-footer-logo" src="//oup.silverchair-cdn.com/UI/app/svg/umbrella/oup-logo.svg" alt="Oxford University Press" width="150" height="42" />
+</div>
+</div>
+<div class="oup-footer-row">
+<div class="oup-footer-row-links">
+<ul>
+    <li>Copyright &copy; 2019 Oxford University Press</li>
+    <li><a href="https://global.oup.com/cookiepolicy/">Cookie Policy</a></li>
+    <li><a href="https://global.oup.com/privacy">Privacy Policy</a></li>
+    <li><a href="/journals/pages/about_us/legal/notices">Legal Notice</a></li>
+    <li><a href="/journals/pages/sitemap">Site Map</a></li>
+    <li><a href="/journals/pages/about_us/legal/accessibility">Accessibility</a></li>
+    <li><a href="https://get.adobe.com/reader/">Get Adobe Reader</a></li>
+</ul>
+</div>
+</div>
+<style type="text/css">
+    /* Issue right column fix for tablet/mobile */
+    @media (max-width: 1200px) {
+    .pg_issue .widget-instance-OUP_Issue {
+    width: 100%;
+    }
+    }
+</style>
+    
+    
+     
+    </div>
+
+    </div>
+</div>
+<div class="ss-ui-only">
+
+</div>
+
+    </section>
+</div>
+
+
+
+    
+
+
+
+    
+
+
+    <div id="revealModal" class="reveal-modal" data-reveal>
+        <div id="revealContent"></div>
+        <a class="close-reveal-modal" href="javascript:;"><i class="icon-general-close"></i><span class="screenreader-text">Close</span></a>
+    </div>
+    <div id="NeedSubscription" class="reveal-modal small" data-reveal>
+        <div class="subscription-needed">
+            <h5>This Feature Is Available To Subscribers Only</h5>
+            <p><a href="/sign-in">Sign In</a> or <a href="/my-account/register?siteId=5396&amp;returnUrl=%2fjamia">Create an Account</a></p>
+        </div>
+        <a class="close-reveal-modal" href="javascript:;"><i class="icon-general-close"></i><span class="screenreader-text">Close</span></a>
+    </div>
+    <div id="noAccessReveal" class="reveal-modal tiny" data-reveal>
+        <p>This PDF is available to Subscribers Only</p>
+        <a class="hide-for-article-page" id="articleLinkToPurchase" data-reveal><span>View Article Abstract & Purchase Options</span></a>
+        <div class="issue-purchase-modal">
+            <p>For full access to this pdf, sign in to an existing account, or purchase an annual subscription.</p>
+        </div>
+        <a class="close-reveal-modal" href="javascript:;"><i class="icon-general-close"></i><span class="screenreader-text">Close</span></a>
+    </div>
+
+
+    
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+    <script type="text/javascript" src="//oup.silverchair-cdn.com/UI/app/jsdist/v-637038826091631029/footer.min.js"></script>
+
+
+    
+
+    
+    
+
+
+
+
+    
+
+
+    <!-- Copyright 2001-2010, IBM Corporation All rights reserved. -->
+    <script src="//ouptag.scholarlyiq.com/ntpagetag.js"></script>
+    <noscript>
+        <img src="//ouptag.scholarlyiq.com/ntpagetag.gif?js=0" height="1" width="1" border="0" hspace="0" vspace="0" alt="Scholarly IQ" />
+    </noscript>
+
+</body>
+</html>
+

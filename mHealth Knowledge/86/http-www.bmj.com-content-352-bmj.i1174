@@ -1,0 +1,1516 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+
+  <!--[if lt IE 7]> <html class="no-mqs lt-ie9 lt-ie8 lt-ie7" lang="en" xml:lang="en" dir="ltr" > <![endif]-->
+  <!--[if IE 7]>    <html class="no-mqs lt-ie9 lt-ie8" lang="en" xml:lang="en" dir="ltr" > <![endif]-->
+  <!--[if IE 8]>    <html class="no-mqs lt-ie9" lang="en" xml:lang="en" dir="ltr" > <![endif]-->
+  <!--[if gt IE 8]><!--> <html xml:lang="en" lang="en" dir="ltr" > <!--<![endif]-->
+  <!--[if IE 9]>    <html class="no-mqs" lang="en" xml:lang="en" dir="ltr" > <![endif]-->
+<!-- <html lang="" dir=""> -->
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel=”apple-touch-icon-precomposed” href=”/sites/default/themes/bmj/the_bmj/img/icon.png”/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="dns-prefetch" href="//scholar.google.com" />
+<link rel="dns-prefetch" href="//static.polldaddy.com" />
+<link rel="dns-prefetch" href="//d1bxh8uas1mnw7.cloudfront.net" />
+<link rel="dns-prefetch" href="//ajax.googleapis.com" />
+<link rel="dns-prefetch" href="//crossmark-cdn.crossref.org" />
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" media="all" type="text/css" />
+<!--[if (gte IE 6)&(lte IE 9)]><script src="/sites/default/themes/bmj/the_bmj/js/respond.min.js" />
+</script><![endif]--><link rel="shortcut icon" href="https://www.bmj.com/sites/default/themes/bmj/the_bmj/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="canonical" href="https://www.bmj.com/content/352/bmj.i1174" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="alternate" type="application/pdf" title="Full Text (PDF)" href="/content/352/bmj.i1174.full.pdf" />
+<link rel="alternate" type="text/plain" title="Full Text (Plain)" href="/content/352/bmj.i1174.full.txt" />
+<link rel="alternate" type="application/vnd.ms-powerpoint" title="Powerpoint" href="/content/352/bmj.i1174.ppt" />
+<meta name="type" content="article" />
+<meta name="category" content="other" />
+<meta name="HW.identifier" content="/bmj/352/bmj.i1174.atom" />
+<meta name="HW.pisa" content="bmj;352/mar17_9/i1174" />
+<meta name="DC.Format" content="text/html" />
+<meta name="DC.Language" content="en" />
+<meta name="DC.Title" content="Guidelines for reporting of health interventions using mobile phones: mobile health (mHealth) evidence reporting and assessment (mERA) checklist" />
+<meta name="DC.Identifier" content="10.1136/bmj.i1174" />
+<meta name="DC.Date" content="2016-03-17" />
+<meta name="DC.Publisher" content="British Medical Journal Publishing Group" />
+<meta name="DC.Rights" content="Published by the BMJ Publishing Group Limited. For permission to use (where not already granted under a licence) please go to http://group.bmj.com/group/rights-licensing/permissions" />
+<meta name="DC.AccessRights" content="restricted" />
+<meta name="DC.Relation" content="10.1136/bmj.39386.664016.BE" />
+<meta name="DC.Relation" content="10.1136/bmj.i1867" />
+<meta name="DC.Description" content="To improve the completeness of reporting of mobile health (mHealth) interventions, the WHO mHealth Technical Evidence Review Group developed the mHealth evidence reporting and assessment (mERA) checklist. The development process for mERA consisted of convening an expert group to recommend an appropriate approach, convening a global expert review panel for checklist development, and pilot testing the checklist. The guiding principle for the development of these criteria was to identify a minimum set of information needed to define what the mHealth intervention is (content), where it is being implemented (context), and how it was implemented (technical features), to support replication of the intervention. This paper presents the resulting 16 item checklist and a detailed explanation and elaboration for each item, with illustrative reporting examples. Through widespread adoption, we expect that the use of these guidelines will standardise the quality of mHealth evidence reporting, and indirectly improve the quality of mHealth evidence.
+
+#### Summary points
+
+Mobile technologies have the potential to bridge systemic gaps needed to improve access to and use of health services, particularly among underserved populations. mHealth—defined as the use of mobile and wireless technologies for health—aims to capitalise on the rapid uptake of information and communication technologies (ICT) to improve health system efficiency and health outcomes. Over the past decade, global enthusiasm and the interest of development …" />
+<meta name="DC.Contributor" content="Smisha Agarwal" />
+<meta name="DC.Contributor" content="Amnesty E LeFevre" />
+<meta name="DC.Contributor" content="Jaime Lee" />
+<meta name="DC.Contributor" content="Kelly L’Engle" />
+<meta name="DC.Contributor" content="Garrett Mehl" />
+<meta name="DC.Contributor" content="Chaitali Sinha" />
+<meta name="DC.Contributor" content="Alain Labrique" />
+<meta name="article:published_time" content="2016-03-17" />
+<meta name="article:section" content="Research Methods &amp;amp; Reporting" />
+<meta name="citation_title" content="Guidelines for reporting of health interventions using mobile phones: mobile health (mHealth) evidence reporting and assessment (mERA) checklist" />
+<meta name="citation_abstract" lang="en" scheme="teaser" content="&lt;p&gt;To improve the completeness of reporting of mobile health (mHealth) interventions, the WHO mHealth Technical Evidence Review Group developed the mHealth evidence reporting and assessment (mERA) checklist. The development process for mERA consisted of convening an expert group to recommend an appropriate approach, convening a global expert review panel for checklist development, and pilot testing the checklist. The guiding principle for the development of these criteria was to identify a minimum set of information needed to define what the mHealth intervention is (content), where it is being implemented (context), and how it was implemented (technical features), to support replication of the intervention. This paper presents the resulting 16 item checklist and a detailed explanation and elaboration for each item, with illustrative reporting examples. Through widespread adoption, we expect that the use of these guidelines will standardise the quality of mHealth evidence reporting, and indirectly improve the quality of mHealth evidence.&lt;/p&gt;" />
+<meta name="citation_journal_title" content="BMJ" />
+<meta name="citation_publisher" content="British Medical Journal Publishing Group" />
+<meta name="citation_publication_date" content="2016/03/17" />
+<meta name="citation_mjid" content="bmj;352/mar17_9/i1174" />
+<meta name="citation_id" content="352/mar17_9/i1174" />
+<meta name="citation_public_url" content="https://www.bmj.com/content/352/bmj.i1174" />
+<meta name="citation_abstract_html_url" content="https://www.bmj.com/content/352/bmj.i1174.abstract" />
+<meta name="citation_full_html_url" content="https://www.bmj.com/content/352/bmj.i1174.full" />
+<meta name="citation_pdf_url" content="https://www.bmj.com/content/bmj/352/bmj.i1174.full.pdf" />
+<meta name="citation_issn" content="1756-1833" />
+<meta name="citation_journal_abbrev" content="BMJ" />
+<meta name="citation_doi" content="10.1136/bmj.i1174" />
+<meta name="citation_pmid" content="26988021" />
+<meta name="citation_volume" content="352" />
+<meta name="citation_article_type" content="Other" />
+<meta name="citation_section" content="Research Methods &amp;amp; Reporting" />
+<meta name="citation_firstpage" content="i1174" />
+<meta name="citation_author" content="Smisha Agarwal" />
+<meta name="citation_author_institution" content="Johns Hopkins Bloomberg School of Public Health, Department of International Health, Baltimore, MD 21205, USA" />
+<meta name="citation_author_institution" content="Johns Hopkins University, Global mHealth Initiative, Baltimore" />
+<meta name="citation_author_institution" content="Gillings School of Global Public Health, University of North Carolina, Chapel Hill, NC, USA" />
+<meta name="citation_author" content="Amnesty E LeFevre" />
+<meta name="citation_author_institution" content="Johns Hopkins Bloomberg School of Public Health, Department of International Health, Baltimore, MD 21205, USA" />
+<meta name="citation_author_institution" content="Johns Hopkins University, Global mHealth Initiative, Baltimore" />
+<meta name="citation_author" content="Jaime Lee" />
+<meta name="citation_author_institution" content="Johns Hopkins Bloomberg School of Public Health, Department of International Health, Baltimore, MD 21205, USA" />
+<meta name="citation_author_institution" content="Johns Hopkins University, Global mHealth Initiative, Baltimore" />
+<meta name="citation_author" content="Kelly L’Engle" />
+<meta name="citation_author_institution" content="Family Health International 360, Durham, NC, USA" />
+<meta name="citation_author_institution" content="School of Nursing and Health Professions, University of San Francisco, San Francisco, CA, USA" />
+<meta name="citation_author" content="Garrett Mehl" />
+<meta name="citation_author_institution" content="World Health Organization, Department of Reproductive Health and Research, Geneva, Switzerland" />
+<meta name="citation_author" content="Chaitali Sinha" />
+<meta name="citation_author_institution" content="International Development Research Centre, Ottawa, Canada" />
+<meta name="citation_author" content="Alain Labrique" />
+<meta name="citation_author_institution" content="Johns Hopkins Bloomberg School of Public Health, Department of International Health, Baltimore, MD 21205, USA" />
+<meta name="citation_author_institution" content="Johns Hopkins University, Global mHealth Initiative, Baltimore" />
+<meta name="citation_reference" content="citation_journal_title=JAMA;citation_volume=312;citation_year= 2014" />
+<meta name="citation_reference" content="citation_journal_title=Trop Med Int Health;citation_volume=20;citation_year= 2015" />
+<meta name="citation_reference" content="citation_journal_title=PLoS Med;citation_volume=10;citation_year= 2013" />
+<meta name="citation_reference" content="citation_journal_title=BMJ;citation_volume=336;citation_year= 2008" />
+<meta name="citation_reference" content="citation_journal_title=BMC Med;citation_volume=11;citation_year= 2013" />
+<meta name="citation_reference" content="citation_journal_title=Ann Intern Med;citation_volume=151;citation_year= 2009" />
+<meta name="citation_reference" content="citation_journal_title=BMC Med Res Methodol;citation_volume=7;citation_year= 2007" />
+<meta name="citation_reference" content="citation_journal_title=BMC Med;citation_volume=8;citation_year= 2010" />
+<meta name="citation_reference" content="citation_journal_title=JAMA;citation_volume=283;citation_year= 2000" />
+<meta name="citation_reference" content="citation_journal_title=Am J Public Health;citation_volume=94;citation_year= 2004" />
+<meta name="citation_reference" content="citation_journal_title=Prev Med;citation_volume=45;citation_year= 2007" />
+<meta name="citation_reference" content="citation_journal_title=J Med Internet Res;citation_volume=13;citation_year= 2011" />
+<meta name="citation_reference" content="citation_journal_title=BMJ;citation_volume=348;citation_year= 2014" />
+<meta name="citation_reference" content="citation_journal_title=PLoS Med;citation_volume=7;citation_year= 2010" />
+<meta name="citation_reference" content="citation_journal_title=Pan Afr Med J;citation_volume=13;citation_year= 2012" />
+<meta name="citation_reference" content="citation_journal_title=JAMA;citation_volume=307;citation_year= 2012" />
+<meta name="citation_reference" content="citation_journal_title=PLoS Med;citation_volume=10;citation_year= 2013" />
+<meta name="citation_reference" content="citation_journal_title=JAMA;citation_volume=307;citation_year= 2012" />
+<meta name="citation_reference" content="citation_journal_title=Contraception;citation_volume=87;citation_year= 2013" />
+<meta name="citation_reference" content="citation_journal_title=J Med Internet Res;citation_volume=11;citation_year= 2009" />
+<meta name="citation_reference" content="citation_journal_title=Int J Gynaecol Obstet;citation_volume=123;citation_year= 2013" />
+<meta name="citation_reference" content="citation_journal_title=Sex Transm Dis;citation_volume=38;citation_year= 2011" />
+<meta name="citation_reference" content="citation_journal_title=J Health Commun;citation_volume=17;citation_year= 2012" />
+<meta name="citation_reference" content="citation_journal_title=Int J Gynaecol Obstet;citation_volume=113;citation_year= 2011" />
+<meta name="citation_reference" content="citation_journal_title=PLoS One;citation_volume=7;citation_year= 2012" />
+<meta name="citation_reference" content="citation_journal_title=BMC Med Inform Decis Mak;citation_volume=9;citation_year= 2009" />
+<meta name="citation_reference" content="citation_journal_title=PLoS One;citation_volume=8;citation_year= 2013" />
+<meta name="citation_reference" content="citation_journal_title=BMC Med Inform Decis Mak;citation_volume=9;citation_year= 2009" />
+<meta name="citation_reference" content="citation_journal_title=AIDS Behav;citation_volume=17;citation_year= 2013" />
+<meta name="citation_reference" content="citation_journal_title=J Diabetes Sci Technol;citation_volume=4;citation_year= 2010" />
+<meta name="twitter:title" content="Guidelines for reporting of health interventions using mobile phones: mobile health (mHealth) evidence reporting and assessment (mERA) checklist" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="To improve the completeness of reporting of mobile health (mHealth) interventions, the WHO mHealth Technical Evidence Review Group developed the mHealth evidence reporting and assessment (mERA) checklist. The development process for mERA consisted of convening an expert group to recommend an appropriate approach, convening a global expert review panel for checklist development, and pilot testing the checklist. The guiding principle for the development of these criteria was to identify a minimum set of information needed to define what the mHealth intervention is (content), where it is being implemented (context), and how it was implemented (technical features), to support replication of the intervention. This paper presents the resulting 16 item checklist and a detailed explanation and elaboration for each item, with illustrative reporting examples. Through widespread adoption, we expect that the use of these guidelines will standardise the quality of mHealth evidence reporting, and indirectly improve the quality of mHealth evidence.
+
+#### Summary points
+
+Mobile technologies have the potential to bridge systemic gaps needed to improve access to and use of health services, particularly among underserved populations. mHealth—defined as the use of mobile and wireless technologies for health—aims to capitalise on the rapid uptake of information and communication technologies (ICT) to improve health system efficiency and health outcomes. Over the past decade, global enthusiasm and the interest of development …" />
+<meta name="og-title" property="og:title" content="Guidelines for reporting of health interventions using mobile phones: mobile health (mHealth) evidence reporting and assessment (mERA) checklist" />
+<meta name="og-url" property="og:url" content="https://www.bmj.com/content/352/bmj.i1174" />
+<meta name="og-site-name" property="og:site_name" content="The BMJ" />
+<meta name="og-description" property="og:description" content="To improve the completeness of reporting of mobile health (mHealth) interventions, the WHO mHealth Technical Evidence Review Group developed the mHealth evidence reporting and assessment (mERA) checklist. The development process for mERA consisted of convening an expert group to recommend an appropriate approach, convening a global expert review panel for checklist development, and pilot testing the checklist. The guiding principle for the development of these criteria was to identify a minimum set of information needed to define what the mHealth intervention is (content), where it is being implemented (context), and how it was implemented (technical features), to support replication of the intervention. This paper presents the resulting 16 item checklist and a detailed explanation and elaboration for each item, with illustrative reporting examples. Through widespread adoption, we expect that the use of these guidelines will standardise the quality of mHealth evidence reporting, and indirectly improve the quality of mHealth evidence.
+
+#### Summary points
+
+Mobile technologies have the potential to bridge systemic gaps needed to improve access to and use of health services, particularly among underserved populations. mHealth—defined as the use of mobile and wireless technologies for health—aims to capitalise on the rapid uptake of information and communication technologies (ICT) to improve health system efficiency and health outcomes. Over the past decade, global enthusiasm and the interest of development …" />
+<meta name="og-type" property="og:type" content="article" />
+<meta name="og-image" property="og:image" content="" />
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" property="twitter:image" content="https://www.bmj.com/sites/default/files/sites/defautl/files/attachments/bmj-article/2016/03/mobile_phone_africa.jpg"><meta name="twitter:title" content="Guidelines for reporting of health interventions using mobile phones: mobile health (mHealth) evidence reporting and assessment (mERA) checklist" />  <title>Guidelines for reporting of health interventions using mobile phones: mobile health (mHealth) evidence reporting and assessment (mERA) checklist | The BMJ</title>
+
+  <!--[if lte IE 9]>
+    <link href="/sites/default/themes/bmj/the_bmj/css/ie.css" rel="stylesheet" media="all" type="text/css">
+    <link href="/sites/default/themes/bmj/the_bmj/css/ie_2.css" rel="stylesheet" media="all" type="text/css">
+    <link href="/sites/default/themes/bmj/the_bmj/css/ie_3.css" rel="stylesheet" media="all" type="text/css">
+    <link href="/sites/default/themes/bmj/the_bmj/css/bootstrap-ie7.css" rel="stylesheet” media="all" type="text/css">
+  <![endif]-->
+  <!--[if IEMobile]>
+      <link href="/sites/default/themes/bmj/the_bmj/css/screen.css" rel="stylesheet" media="all" type="text/css">
+      <link href="/sites/default/themes/bmj/the_bmj/css/screen_2.css" rel="stylesheet" media="all" type="text/css">
+      <link href="/sites/default/themes/bmj/the_bmj/css/screen_3.css" rel="stylesheet" media="all" type="text/css">     
+  <![endif]-->
+  <link type="text/css" rel="stylesheet" href="https://www.bmj.com/sites/default/files/advagg_css/css__9h43ZR9xtfgcqKVZWvnWBM3ExFf8Jm8EfT8rCul24iY__3TPOdDzsykZgzIfa0WAF_o9K8i6PdEOgrkVDEHGvBys__vaGUsTB66vlKZIT6lZGSSYJOMR01cXXD5JRYj-UBZ2o.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.bmj.com/sites/all/modules/highwire/highwire/highwire.style.highwire.css?pxbsv6" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.bmj.com/sites/default/files/advagg_css/css__BX3nCkChknRoE-aDbdxprlFaypp4fXWeczbX7JvfqrM__prFA4k5Ln3H_hI6tK54u_Bamcww_evVpom67PzzJJcg__vaGUsTB66vlKZIT6lZGSSYJOMR01cXXD5JRYj-UBZ2o.css" media="all" />
+<link type="text/css" rel="stylesheet" href="//cdn.jsdelivr.net/qtip2/2.2.1/jquery.qtip.min.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.bmj.com/sites/default/files/advagg_css/css__JYFrfgdZE_1Jca7iT43SU5Rld5c93IRF_m21IyBhjsQ__1pk8da_v0fBAex87rZI0MwgnG-vgk3CSQchL1GGZmVo__vaGUsTB66vlKZIT6lZGSSYJOMR01cXXD5JRYj-UBZ2o.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.bmj.com/sites/default/files/advagg_css/css__hcEfBsSfdZ2na-rT9Jhk7K2mHyy5KBdPKm6ia_F7MYU__4716zpuGoj4DfVIEENbeOWgAOX_pf_t16EI4fvJGo7A__vaGUsTB66vlKZIT6lZGSSYJOMR01cXXD5JRYj-UBZ2o.css" media="print" />
+<link type="text/css" rel="stylesheet" href="https://www.bmj.com/sites/default/files/advagg_css/css__b-tWEqg3_twqP_ufdNXyA5V14StJgBdiIxG1UIi0LYc__dA1umU0M8WDqOyBTvtb53_-GpKPjC3__5bx_k3TSsOA__vaGUsTB66vlKZIT6lZGSSYJOMR01cXXD5JRYj-UBZ2o.css" media="screen" />
+<link type="text/css" rel="stylesheet" href="https://www.bmj.com/sites/default/files/advagg_css/css__-BkZ71IF4pBXmZfP4vYyswWdIhuaKktrUUQ4i2vtUVo__0i_0YcYkMECNn0z7FdhNoJ8gLWleqnTtjnHRAmLijvc__vaGUsTB66vlKZIT6lZGSSYJOMR01cXXD5JRYj-UBZ2o.css" media="all" />
+  <link href="/sites/default/themes/bmj/the_bmj/css/fonts.css" rel="stylesheet" media="all" type="text/css">
+
+   <style media="screen" type="text/css">
+       .page-news #latest-blogs h2.pane-title, .bootstrap-threecol-4-4-4 #latest-blogs h2.pane-title {
+            width: 153px !important;
+        }
+    </style>
+
+  <script src="https://www.bmj.com/sites/default/files/advagg_js/js__mN79TTok9sKs7zvsht8cHxIgwqpadww6X8v0YXoSQ4o__Jj_xNC1XM4ft4JV89CwXSEK85I6Uu-BQo2FgpanSKAU__vaGUsTB66vlKZIT6lZGSSYJOMR01cXXD5JRYj-UBZ2o.js" defer="defer"></script>
+
+    <script type="text/javascript">
+        window.dataLayer = window.dataLayer || [];
+    </script>
+
+    <!-- GTM custom dimensions -->
+  <script type="text/javascript">var DC = { Date : "", subject : "" };var ga_article_category = "Research Methods &amp; Reporting";var ga_article_page_type = "other";var ga_article_pub_year = "2016";var ga_customer_number = "";var ga_user_type = "";DC.Date = "2016-03-17";DC.subject = "";</script>  <!-- End GTM custom dimensions -->
+
+    <!-- Optimize Page Hiding Snippet -->
+    <style>.async-hide { opacity: 0 !important} </style>
+    <script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date; h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')}; (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;})(window,document.documentElement,'async-hide','dataLayer',4000,{'GTM-5QFKV3N':true});</script>
+    <!-- end Optimize Page Hiding Snippet -->
+
+    <!-- Start GPT Tag -->
+    <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+    <script>
+      var gptadslots = [];
+      var googletag = googletag || {cmd:[]};
+    </script>
+    <script>
+   googletag.cmd.push(function() {
+    //Adslot 1 declaration
+    gptadslots.push(googletag.defineSlot('/21798771943/BMJ.com_HomePage_TOPBanner', [[970,250],[970,90],[728,90],[468,60],[300,50],[320,100],'fluid'], 'div-gpt-ad-7326006-1')
+                             .addService(googletag.pubads()));
+    //Adslot 2 declaration
+    gptadslots.push(googletag.defineSlot('/21798771943/BMJ.com_HomePage_MPU1', [[300,250],[300,600],[600,600],'fluid'], 'div-gpt-ad-7326006-2')
+                             .addService(googletag.pubads()));
+    //Adslot 3 declaration
+    gptadslots.push(googletag.defineSlot('/21798771943/BMJ.com_HomePage_MPU2', [[300,250],[300,600],[600,600],'fluid'], 'div-gpt-ad-7326006-3')
+                             .addService(googletag.pubads()));
+    //Adslot 4 declaration
+    gptadslots.push(googletag.defineSlot('/21798771943/BMJ.com_HomePage_BOTTOM', [[970,90],[970,250],[728,90],[468,60],[300,50],[320,100],'fluid'], 'div-gpt-ad-7326006-4')
+                             .addService(googletag.pubads()));
+
+    googletag.pubads().setTargeting('url', window.parent.location.pathname);
+    googletag.pubads().collapseEmptyDivs();
+    googletag.enableServices();
+  });
+    </script>
+    <!-- End GPT Tag -->
+
+
+
+  <!-- Google Tag Manager -->
+  <script type="text/javascript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0];var j=d.createElement(s);var dl=l!='dataLayer'?'&l='+l:'';j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;j.type='text/javascript';j.async=true;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-NF7HCLL');</script>
+  <!-- End Google Tag Manager -->
+
+
+</head>
+<!--[if IE 6]><div class="ie-warning">Our New BMJ website does not support IE6 please upgrade your browser to the latest version or use alternative browsers suggested below.
+<ul>
+<li>- Google Chrome</li>
+<li>- Safari</li>
+<li>- Firefox</li>
+</ul>
+</div>
+<![endif]-->
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-919713 node-type-highwire-article 1 Research Methods &amp;amp; Reporting" >
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NF7HCLL" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+  <div id="cookie-notice">
+    We use cookies to improve our service and to tailor our content and advertising to you. <a class="more-info">More info<span class="fa fa-chevron-down"></span></a>
+    <a class="close icontext"><span class="fa fa-times-circle"></span><span class="close-text">Close</span></a>
+    <span class="more-info-text"> You can manage your cookie settings via your browser at any time. To learn more about how we use cookies, please see our <a href="/company/your-privacy">cookies policy</a></span>
+    <a class="close ie7">Close</a>
+  </div>
+    <div id="wrapper-outer">
+    <div id="wrapper">
+        <header>
+
+           <div class="bmj-disclaimer">
+                <p>Intended for healthcare professionals</p>
+            </div>
+
+            <div class="ad-leaderboard">
+                <div id='div-gpt-ad-7326006-1'>
+                    <script>
+                        googletag.cmd.push(function() { googletag.display('div-gpt-ad-7326006-1'); });
+                    </script>
+                </div>
+            </div>
+
+
+            <!-- NAVIGATION -->
+            <!-- Top Navigation -->
+            <div id="top-nav" role="navigation" class="navbar navbar-static-top">
+                <div class="container">
+                    <div id="userbar-status">
+                        <div id="status">
+                            
+    <li class="user-status-link user-status-subscribe phone-menu-item">
+        <a href="/us/subscribe">Subscribe</a>
+    </li>
+
+<li class="user-status-myaccount phone-menu-item">
+    
+<div class="btn-group">
+  <a class="btn dropdown-toggle" data-toggle="dropdown" href="#" >
+    My Account    <span class="caret"></span>
+  </a>
+  <ul class="jnl-bmj-user-my-account dropdown-menu"><li class="0 first last"><a href="//myaccount.bmj.com/myaccount/account/hw-registration.html">My email alerts</a></li>
+</ul></div>
+</li>
+
+    <li class="user-status-bma phone-menu-item">
+        <a href="//bmjverification.bma.org.uk/validate/userdetails?url=https://www.bmj.com/content/352/bmj.i1174?sso=">BMA member login</a>
+    </li>
+                                
+<div class="btn-group">
+  <a class="btn dropdown-toggle" data-toggle="dropdown" href="#" >
+    Login    <span class="caret"></span>
+  </a>
+  <ul class="jnl-bmj-user-signin-popup dropdown-menu"><li class="0 first last"><span><form action="/login" method="post" id="jnl-bmj-user-login-form" accept-charset="UTF-8"><div><input type="hidden" name="form_build_id" value="form-JvyAM8ncfHCunnX7l20NLANd_91R3CxFS0kvVwcyxyM" />
+<input type="hidden" name="form_id" value="jnl_bmj_user_login_form" />
+<div class="form-type-textfield form-item-name form-item form-group">
+  <label for="article-p-name">Username <span class="form-required" title="This field is required.">*</span></label>
+ <input class="form-control form-text required" type="text" id="article-p-name" name="name" value="" size="15" maxlength="60" />
+</div>
+<div class="form-type-password form-item-pass form-item form-group">
+  <label for="article-p-pass">Password <span class="form-required" title="This field is required.">*</span></label>
+ <input class="form-control form-text required" type="password" id="article-p-pass" name="pass" size="15" maxlength="128" />
+</div>
+<div class="link"><div id="edit-forgot" class="form-type-item form-item form-group">
+  <label for="edit-forgot"><a href="https://www.bmj.com/user/password" title="Retrieve your credentials.">Forgot your log in details?</a> </label>
+ 
+</div>
+</div><div class="link"><div id="edit-activate" class="form-type-item form-item form-group">
+  <label for="edit-activate"><a href="//journals.bmj.com/cgi/activate/basic">Need to activate</a> </label>
+ 
+</div>
+</div><input class="btn form-submit" type="submit" id="edit-submit--9" name="op" value="Login" /><div id="edit-message--3" class="form-type-item form-item form-group">
+  
+</div>
+<hr /><div id="edit-bma-members" class="form-type-item form-item form-group">
+  <label for="edit-bma-members"><a href="//bmjverification.bma.org.uk/validate/userdetails?url=https%3A//www.bmj.com/content/352/bmj.i1174%3Fsso%3D" title="Log in here if you are a BMA member.">BMA Member Log In</a> </label>
+ 
+</div>
+<div id="edit-athens" class="form-type-item form-item form-group">
+  <label for="edit-athens"><a href="https://openathens.highwire.org/initiate-login?subcode=bmjjournals&amp;returnURL=https%253A%252F%252Fwww.bmj.com%252Fcontent%252F352%252Fbmj.i1174">Log in via OpenAthens</a> </label>
+ 
+</div>
+<div id="edit-shibboleth" class="form-type-item form-item form-group">
+  <label for="edit-shibboleth"><a href="/login/shibboleth?uri=https%3A%2F%2Fwww.bmj.com%2Fcontent%2F352%2Fbmj.i1174&amp;subcode=bmjjournals&amp;env=prod">Log in via your institution</a> </label>
+ 
+</div>
+</div></form></span></li>
+</ul></div>
+                        </div><!-- /status -->
+                                                    <div id="userbar">
+                                  <div class="region region-userbar">
+    <section id="block-panels-mini-jnl-bmj-country-portal-switcher" class="block block-panels-mini clearfix">
+
+      
+  <div class="panel-display panel-1col clearfix" id="mini-panel-jnl_bmj_country_portal_switcher">
+  <div class="panel-panel panel-col">
+    <div><div class="panel-pane pane-country-switcher" >
+  
+      
+  
+  <div class="pane-content">
+    <span class="country-label">Edition: </span>
+<div class="btn-group">
+  <a class="btn dropdown-toggle" data-toggle="dropdown" href="#" id=country-switcher>
+    US    <span class="caret"></span>
+  </a>
+  <ul class="jnl-bmj-country-portal-country-switcher  dropdown-menu"><li class="0 first"><a href="/bmj_countries/switch/uk?destination=node/919713">UK</a></li>
+<li class="1"><a href="/bmj_countries/switch/india?destination=node/919713">South Asia</a></li>
+<li class="2 last"><a href="/bmj_countries/switch/international?destination=node/919713">International</a></li>
+</ul></div>
+  </div>
+
+  
+  </div>
+</div>
+  </div>
+</div>
+
+</section> <!-- /.block -->
+  </div>
+                            </div><!-- /userbar -->
+                        
+                        <div id="cmp-link">
+                            <div class="pane-content">
+                                <span class="country-label"><a href="/company?int_source=tbmj&int_medium=header&int_campaign=URLswitch">Our company</a></span>
+                            </div>
+                        </div>
+
+                    </div><!-- /userbar-status -->
+                </div><!-- /container -->
+            </div><!-- /top-nav -->
+
+            <!-- Main Navigation -->
+            <div id="main-nav" data-spy="affix" data-offset-top="125">
+                <div class="primary-navigation-bar">
+                    <div id="navigation-wrapper">
+
+                        <div class="container">
+                            <!-- Navigation toggle -->
+                            <a href="#" id="btn-nav" class="">
+                                <span class="sr-only">Toggle navigation</span>
+                            </a>
+                            <!-- Logo -->
+                                                            <a class="logo navbar-btn pull-left" href="/" title="Home">
+                                    <!-- <img src="https://www.bmj.com/sites/default/themes/bmj/the_bmj/logo.png" alt="Home" /> -->
+                                    <div class="bmj-logo">The BMJ logo</div>
+                                </a>
+                                                        <div class="ie6-site-map"><a href="/sitemap">Site map</a></div>
+                            <!-- Search -->
+                            <div class="main-nav-search">
+                                <div id="search">
+                                    <!--<span class="glyphicon glyphicon-search"></span>-->
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" title="Search"><div class="search"><em class="fa fa-search" alt="Search"></em><span class="search-label">Search</span></div></a>
+                                    <div class="dropdown-menu">
+                                        <div class="header-search-form container">
+                                            <div class="searchbar">
+                                                                                                      <div class="region region-search-block">
+    <section id="block-search-form" class="block block-search clearfix">
+
+      
+  <form class="search-form form-search content-search" action="/content/352/bmj.i1174" method="post" id="search-block-form" accept-charset="UTF-8"><div><div>
+      <h2 class="element-invisible">Search form</h2>
+    <div class="input-group"><input title="Enter the terms you wish to search for." class="container-inline input-append form-control form-text" placeholder="Search The BMJ" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" /><span class="input-group-btn"><button type="submit" class="btn btn-default">Search</button></span></div><button  class="element-invisible btn btn-primary btn btn-primary form-button" type="submit" id="edit-submit--4" name="op" value="Search">Search</button><input type="hidden" name="form_build_id" value="form-BtqMyJNUVRHoYk5jeV_CNq8pVQtgs0RftBROjBN8U8g" />
+<input type="hidden" name="form_id" value="search_block_form" />
+<input type="hidden" name="custom_search_paths" value="search/advanced/[key]" />
+</div>
+</div></form>
+</section> <!-- /.block -->
+  </div>
+                                                                                            </div>
+
+                                            <div class="advanced-search">
+                                                <ul class="list-inline">
+                                                    <li><a href="/search/advanced" title="Advanced search">Advanced search</a></li>
+                                                    <li><a href="/rapid-responses" title="Search responses">Search responses</a></li>
+                                                    <li><a href="//blogs.bmj.com/bmj/" title="Search blogs">Search blogs</a></li>
+                                                </ul>
+                                            </div><!-- /advanced-search -->
+                                        </div><!-- /header-search-form -->
+                                    </div><!-- /dropdown-menu -->
+                                </div><!-- /search -->
+                            </div><!-- /main-nav-search -->
+
+                            <!-- Mobile top nav -->
+                            <a href="#" id="toggle-mobile-top-nav">
+                                <span class="fa fa-cog"></span>
+                                <span class="sr-only">Toggle top menu</span>
+                            </a>
+
+                            <!-- Navigation -->
+                            <div id="navigation" class="navigation">
+                                <!-- Main Navigation -->
+                                <div class="main-navigation">
+                                                                        <nav role="navigation">
+                                                                                    <ul class="menu nav navbar-nav"><li class="first expanded dropdown"><a href="/us/research" data-target="#" class="dropdown-toggle" data-toggle="dropdown">Research</a><ul class="dropdown-menu"><li class="first leaf"><a href="/us/research">At a glance</a></li>
+<li class="leaf"><a href="/us/research/research">Research papers</a></li>
+<li class="leaf"><a href="/us/research/research%20methods%20%26amp%3B%20reporting">Research methods and reporting</a></li>
+<li class="leaf"><a href="/us/research/minerva">Minerva</a></li>
+<li class="last leaf"><a href="/us/research/research%20news">Research news</a></li>
+</ul></li>
+<li class="expanded dropdown"><a href="/us/education" data-target="#" class="dropdown-toggle" data-toggle="dropdown">Education</a><ul class="dropdown-menu"><li class="first leaf"><a href="/us/education">At a glance</a></li>
+<li class="leaf"><a href="/us/education/clinical%20review">Clinical reviews</a></li>
+<li class="leaf"><a href="/us/education/practice">Practice</a></li>
+<li class="leaf"><a href="/us/education/minerva">Minerva</a></li>
+<li class="leaf"><a href="/us/education/endgames">Endgames</a></li>
+<li class="leaf"><a href="/specialties/state-art">State of the art</a></li>
+<li class="leaf"><a href="/specialties/what-your-patient-thinking">What your patient is thinking</a></li>
+<li class="last leaf"><a href="/student">Student</a></li>
+</ul></li>
+<li class="expanded dropdown"><a href="/us/news" data-target="#" class="dropdown-toggle" data-toggle="dropdown">News & Views</a><ul class="dropdown-menu"><li class="first leaf"><a href="/us/news">At a glance</a></li>
+<li class="leaf"><a href="/us/news/news?category=News">News</a></li>
+<li class="leaf"><a href="/us/news/feature">Features</a></li>
+<li class="leaf"><a href="/us/news/editorial">Editorials</a></li>
+<li class="leaf"><a href="/us/news/analysis">Analysis</a></li>
+<li class="leaf"><a href="/us/news/observations">Observations</a></li>
+<li class="leaf"><a href="https://blogs.bmj.com/bmj/">Opinion</a></li>
+<li class="leaf"><a href="/us/news/head%20to%20head">Head to head</a></li>
+<li class="leaf"><a href="/us/news/editor%27s%20choice">Editor&#039;s choice</a></li>
+<li class="leaf"><a href="/us/news/letter">Letters</a></li>
+<li class="leaf"><a href="/us/news/obituary">Obituaries</a></li>
+<li class="leaf"><a href="/us/news/views%20%26amp%3B%20reviews">Views and reviews</a></li>
+<li class="leaf"><a href="/careers">Careers</a></li>
+<li class="last leaf"><a href="/rapid-responses">Rapid responses</a></li>
+</ul></li>
+<li class="last expanded dropdown"><a href="/campaigns" data-target="#" class="dropdown-toggle" data-toggle="dropdown">Campaigns</a><ul class="dropdown-menu"><li class="first leaf"><a href="/campaigns">At a glance</a></li>
+<li class="leaf"><a href="/better-evidence">Better evidence</a></li>
+<li class="leaf"><a href="/campaign/climate-change">Climate change</a></li>
+<li class="leaf"><a href="/campaign/patient-and-public-partnership">Patient and public partnership</a></li>
+<li class="leaf"><a href="/too-much-medicine">Too much medicine</a></li>
+<li class="leaf"><a href="/wellbeing">Wellbeing</a></li>
+<li class="last leaf"><a href="/collections">The BMJ Collections</a></li>
+</ul></li>
+</ul>                                        
+                                        <!-- Second Navigation -->
+                                        <div class="second-navigation">
+                                            <ul class="secondary-nav" id="">
+                                                <li class="even"><a href="/archive" class="">Archive</a></li>
+                                                <li class="odd"><a href="/about-bmj/resources-authors" class="">For authors</a></li>
+                                                <li class="even"><a href="https://na-jobs.bmj.com" class="">Jobs</a></li>
+                                                <li class="odd last"><a href="http://hosted.bmj.com" class="">Hosted</a></li>
+                                            </ul>
+                                        </div><!-- /second-navigation -->
+                                    </nav>
+                                </div><!-- /main-navigation -->
+
+                                                            </div><!-- /navigation -->
+
+
+
+
+                        </div><!-- /container -->
+                    </div><!-- /navigation-wrapper -->
+                </div><!-- /navbar navbar-default navbar-fixed-top -->
+            </div><!-- Main nav -->
+        </header><!-- /header -->
+
+        <div class="main-container container" id="page"> <!-- #page is for back to top to work -->
+            <!-- Remove heading -->
+            <div class="row">
+                
+                <section  class="col-sm-12" >
+                                        <ol class="breadcrumb"><li class="first"><a href="/us/research">Research</a></li>
+<li>Guidelines for...</li>
+<li class="active last">Guidelines for reporting of health interventions using mobile phones: mobile health (mHealth) evidence reporting and assessment (mERA) checklist</li>
+</ol>                    <a id="main-content"></a>
+                                        
+                                                                                                                                                                                          <div class="region region-content">
+    <section id="block-system-main" class="block block-system clearfix">
+
+      
+  <div class="panel-display" >
+  <div class="hero">     <div class="hero-wrapper">
+      <div class="hero-content" style="position: relative; left: 0px; top: 35.5px;">  </div>
+      <!-- hero-content -->
+    </div>
+    <!-- hero-wrapper -->
+  </div>
+  <!-- hero -->
+
+  <div class="row">
+      <div class="left-content col-xs-12 col-sm-8 col-md-8 col-lg-8">
+        <article>
+          <div class="panel-pane pane-highwire-article-citation" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="highwire-article-citation highwire-citation-type-highwire-article" data-node-nid="919713" id="node919713" data-pisa="bmj;352/mar17_9/i1174" data-pisa-master="bmj;bmj.i1174" data-apath="/bmj/352/bmj.i1174.atom"><cite class='highwire-cite highwire-citation-bmj-article-top'>
+
+            <span class='highwire-cite-article-type'>Research Methods & Reporting</span>
+    
+    
+            <h1 class="highwire-cite-title" id="page-title">Guidelines for reporting of health interventions using mobile phones: mobile health (mHealth) evidence reporting and assessment (mERA) checklist</h1>    
+    <span class='highwire-cite-journal'>BMJ</span>
+    <span class='highwire-cite-published-year'>2016</span>;
+    <span class='highwire-cite-volume-issue'>352</span>
+    <span class='highwire-cite-doi'> doi: <a href="https://doi.org/10.1136/bmj.i1174">https://doi.org/10.1136/bmj.i1174</a></span>
+    <span class='highwire-cite-date'>(Published 17 March 2016)</span>
+  <span class='highwire-cite-article-as'>
+    Cite this as: <span
+          class="italic">BMJ</span> 2016;352:i1174  </span>
+
+    
+    
+</cite>
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-highwire-panel-tabs pane-panels-ajax-tab-tabs" >
+  
+      
+  
+  <div class="pane-content">
+    <ul class="tabs inline panels-ajax-tab"><li class="first"><a title="Article Tab - Article" href="/content/352/bmj.i1174" class="panels-ajax-tab-tab" data-panel-name="jnl_bmj_tab_art" data-target-id="highwire_article_tabs" data-entity-context="node:919713" data-trigger="" data-url-enabled="1"><span>Article</span></a><a title="Article Tab - Article" href="/panels_ajax_tab/jnl_bmj_tab_art/node:919713/1" rel="nofollow" style="display:none" class="js-crawler-link"></a></li>
+<li><a title="Article Tab - Related Articles" href="/content/352/bmj.i1174/related" class="panels-ajax-tab-tab" data-panel-name="jnl_bmj_tab_related_art" data-target-id="highwire_article_tabs" data-entity-context="node:919713" data-trigger="related" data-url-enabled="1"><span>Related content</span></a><a title="Article Tab - Related Articles" href="/panels_ajax_tab/jnl_bmj_tab_related_art/node:919713/1" rel="nofollow" style="display:none" class="js-crawler-link"></a></li>
+<li><a title="Article Tab - Info & Metrics" href="/content/352/bmj.i1174/article-info" class="panels-ajax-tab-tab" data-panel-name="jnl_bmj_tab_info" data-target-id="highwire_article_tabs" data-entity-context="node:919713" data-trigger="article-info" data-url-enabled="1"><span>Metrics</span></a><a title="Article Tab - Info & Metrics" href="/panels_ajax_tab/jnl_bmj_tab_info/node:919713/1" rel="nofollow" style="display:none" class="js-crawler-link"></a></li>
+<li><a title="BMJ Article Related Rapid Responses" href="/content/352/bmj.i1174/rapid-responses" class="panels-ajax-tab-tab" data-panel-name="bmj_related_rapid_responses" data-target-id="highwire_article_tabs" data-entity-context="node:919713" data-trigger="rapid-responses" data-url-enabled="1"><span>Responses</span></a><a title="BMJ Article Related Rapid Responses" href="/panels_ajax_tab/bmj_related_rapid_responses/node:919713/1" rel="nofollow" style="display:none" class="js-crawler-link"></a></li>
+<li><a title="Article Tab - Peer review" href="/content/352/bmj.i1174/peer-review" class="panels-ajax-tab-tab" data-panel-name="jnl_bmj_tab_peer_review" data-target-id="highwire_article_tabs" data-entity-context="node:919713" data-trigger="peer-review" data-url-enabled="1"><span>Peer review</span></a><a title="Article Tab - Peer review" href="/panels_ajax_tab/jnl_bmj_tab_peer_review/node:919713/1" rel="nofollow" style="display:none" class="js-crawler-link"></a></li>
+<li class="last"><a title="BMJ Rapid Responses Form" href="/content/352/bmj.i1174/submit-a-rapid-response" class="panels-ajax-tab-tab" data-panel-name="bmj_rapid_responses_form" data-target-id="highwire_article_tabs" data-entity-context="node:919713" data-trigger="submit-a-rapid-response" data-url-enabled="1"><i class="fa fa-edit"></i></a><a title="BMJ Rapid Responses Form" href="/panels_ajax_tab/bmj_rapid_responses_form/node:919713/1" rel="nofollow" style="display:none" class="js-crawler-link"></a></li>
+</ul>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-highwire-panel-tabs-container" >
+  
+      
+  
+  <div class="pane-content">
+    <div data-panels-ajax-tab-preloaded="jnl_bmj_tab_art" id="panels-ajax-tab-container-highwire_article_tabs" class="panels-ajax-tab-container"><div class="panels-ajax-tab-loading" style ="display:none"><img class="loading" src="https://www.bmj.com/sites/all/modules/contrib/panels_ajax_tab/images/loading.gif" alt="Loading" title="Loading" /></div><div class="panels-ajax-tab-wrap-jnl_bmj_tab_art"><div class="panel-display panel-1col clearfix" >
+  <div class="panel-panel panel-col">
+    <div><div class="panel-pane pane-highwire-markup" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="highwire-markup"><div xmlns="http://www.w3.org/1999/xhtml" id="content-block-markup" data-highwire-cite-ref-tooltip-instance="highwire_reflinks_tooltip" xmlns:xhtml="http://www.w3.org/1999/xhtml"><div class="article fulltext-view "><span class="highwire-journal-article-marker-start"></span><div class="contributors"><ol class="contributor-list" id="contrib-group-1"><li class="contributor" id="contrib-1"><span class="name">Smisha Agarwal</span><span class="contrib-role">, associate faculty</span><a id="xref-aff-1-1" class="xref-aff" href="#aff-1">1 </a><a id="xref-aff-2-1" class="xref-aff" href="#aff-2">2 </a><a id="xref-aff-3-1" class="xref-aff" href="#aff-3">3</a>, </li><li class="contributor" id="contrib-2"><span class="name">Amnesty E LeFevre</span><span class="contrib-role">, assistant scientist</span><a id="xref-aff-1-2" class="xref-aff" href="#aff-1">1 </a><a id="xref-aff-2-2" class="xref-aff" href="#aff-2">2</a>, </li><li class="contributor" id="contrib-3"><span class="name">Jaime Lee</span><span class="contrib-role">, research assistant</span><a id="xref-aff-1-3" class="xref-aff" href="#aff-1">1 </a><a id="xref-aff-2-3" class="xref-aff" href="#aff-2">2</a>, </li><li class="contributor" id="contrib-4"><span class="name">Kelly L’Engle</span><span class="contrib-role">, assistant professor</span><a id="xref-aff-4-1" class="xref-aff" href="#aff-4">4 </a><a id="xref-aff-5-1" class="xref-aff" href="#aff-5">5</a>, </li><li class="contributor" id="contrib-5"><span class="name">Garrett Mehl</span><span class="contrib-role">, scientist</span><a id="xref-aff-6-1" class="xref-aff" href="#aff-6">6</a>, </li><li class="contributor" id="contrib-6"><span class="name">Chaitali Sinha</span><span class="contrib-role">,  senior programme officer</span><a id="xref-aff-7-1" class="xref-aff" href="#aff-7">7</a>, </li><li class="last" id="contrib-7"><span class="name">Alain Labrique</span><span class="contrib-role">, associate professor</span><a id="xref-aff-1-4" class="xref-aff" href="#aff-1">1 </a><a id="xref-aff-2-4" class="xref-aff" href="#aff-2">2</a> </li><li class="on-behalf-of">for the WHO mHealth Technical Evidence Review Group</li></ol><ol class="affiliation-list"><li class="aff"><a id="aff-1" name="aff-1"></a><address><sup>1</sup>Johns Hopkins Bloomberg School of Public Health, Department of International Health, Baltimore, MD 21205, USA</address></li><li class="aff"><a id="aff-2" name="aff-2"></a><address><sup>2</sup>Johns Hopkins University, Global mHealth Initiative, Baltimore</address></li><li class="aff"><a id="aff-3" name="aff-3"></a><address><sup>3</sup>Gillings School of Global Public Health, University of North Carolina, Chapel Hill, NC, USA</address></li><li class="aff"><a id="aff-4" name="aff-4"></a><address><sup>4</sup>Family Health International 360, Durham, NC, USA</address></li><li class="aff"><a id="aff-5" name="aff-5"></a><address><sup>5</sup>School of Nursing and Health Professions, University of San Francisco, San Francisco, CA, USA</address></li><li class="aff"><a id="aff-6" name="aff-6"></a><address><sup>6</sup>World Health Organization, Department of Reproductive Health and Research, Geneva, Switzerland</address></li><li class="aff"><a id="aff-7" name="aff-7"></a><address><sup>7</sup>International Development Research Centre, Ottawa, Canada</address></li></ol><ol class="corresp-list"><li class="corresp" id="corresp-1">Correspondence to: A Labrique <span class="em-link"><span class="em-addr">alabriq1{at}jhu.edu</span></span></li></ol><ul class="history-list"><li xmlns:hwp="http://schema.highwire.org/Journal" class="accepted" hwp:start="2016-02-09"><span class="accepted-label">Accepted </span>9 February 2016</li></ul></div><div class="teaser"><p id="p-1">To improve the completeness of reporting of mobile health (mHealth) interventions, the WHO mHealth Technical Evidence Review Group developed the mHealth evidence reporting and assessment (mERA) checklist. The development process for mERA consisted of convening an expert group to recommend an appropriate approach, convening a global expert review panel for checklist development, and pilot testing the checklist. The guiding principle for the development of these criteria was to identify a minimum set of information needed to define what the mHealth intervention is (content), where it is being implemented (context), and how it was implemented (technical features), to support replication of the intervention. This paper presents the resulting 16 item checklist and a detailed explanation and elaboration for each item, with illustrative reporting examples. Through widespread adoption, we expect that the use of these guidelines will standardise the quality of mHealth evidence reporting, and indirectly improve the quality of mHealth evidence.</p></div><div class="boxed-text" id="boxed-text-1"><div id="sec-1" class="subsection"><h4>Summary points</h4><ul class="list-simple " id="list-1"><li id="list-item-1"><p id="p-2">To improve the reporting of mobile health (mHealth) interventions, the WHO mHealth Technical Evidence Review Group developed a checklist on mHealth evidence reporting and assessment (mERA)</p></li><li id="list-item-2"><p id="p-3">The checklist aims to identify a minimum set of information needed to define what the mHealth intervention is (content), where it is being implemented (context), and how it was implemented (technical features), to support replication of the intervention</p></li><li id="list-item-3"><p id="p-4">Through widespread adoption, these guidelines should standardise the quality of mHealth evidence reporting, and indirectly improve the quality of mHealth evidence</p></li></ul></div></div><p id="p-5">Mobile technologies have the potential to bridge systemic gaps needed to improve access to and use of health services, particularly among underserved populations. mHealth—defined as the use of mobile and wireless technologies for health—aims to capitalise on the rapid uptake of information and communication technologies (ICT) to improve health system efficiency and health outcomes. Over the past decade, global enthusiasm and the interest of development agencies, researchers, and policy makers have led to the rapid proliferation of mHealth solutions throughout developed and developing countries. The World Bank reported that there were more than 500 mHealth projects in 2011 alone.<a id="xref-ref-1-1" class="xref-bibr" href="#ref-1">1</a> Despite the emergence of hundreds of mHealth studies and initiatives, there remains a lack of rigorous, high quality evidence on the efficacy and effectiveness of such interventions.<a id="xref-ref-2-1" class="xref-bibr" href="#ref-2">2</a> <a id="xref-ref-3-1" class="xref-bibr" href="#ref-3">3</a> The current mHealth evidence is disseminated in multiple forms including peer reviewed literature, white papers, reports, presentations, and blogs. The evidence base is heterogenous in quality, completeness, and objectivity of the reporting of mHealth interventions—thus making comparisons across intervention strategies difficult. This has led to a call for a set of standards that can harmonise and improve the quality of future research publications, to facilitate screening of emerging evidence and identification of critical evidence gaps. Such improvements in reporting of evidence can support policy makers in making decisions around mHealth intervention selection.<a id="xref-ref-4-1" class="xref-bibr" href="#ref-4">4</a></p><p id="p-6">The value of standardised guidelines is well accepted and several tools exist to assess the quality and to standardise the reporting of scientific evidence. For example, the grading of recommendations assessment, development, and evaluation (GRADE) approach rates the quality of evidence and the strength of recommendations, and is routinely used by international organisations such as the World Health Organization and Cochrane Collaboration.<a id="xref-ref-5-1" class="xref-bibr" href="#ref-5">5</a> In other fields, the consolidated health economic evaluation reporting standards (CHEERS) statement provides reporting guidance for economic evaluations.<a id="xref-ref-6-1" class="xref-bibr" href="#ref-6">6</a> Other tools have also been developed to standardise the reporting of systematic reviews and meta-analyses (eg, preferred reporting of systematic reviews and meta-analyses (PRISMA)),<a id="xref-ref-7-1" class="xref-bibr" href="#ref-7">7</a> and assess their methodological quality or reliability (eg, assessing methodological quality of systematic reviews (AMSTAR)).<a id="xref-ref-8-1" class="xref-bibr" href="#ref-8">8</a> The consolidated standards for reporting trials (CONSORT) statement provides a 22 item checklist for reporting of randomised controlled trials.<a id="xref-ref-9-1" class="xref-bibr" href="#ref-9">9</a> Other evidence reporting and synthesis approaches exist for meta-analyses of observational studies (eg, meta-analyses and systematic reviews of observational studies (MOOSE)),<a id="xref-ref-10-1" class="xref-bibr" href="#ref-10">10</a> non-randomised designs (eg, transparent reporting of evaluations with non-randomised designs (TREND)),<a id="xref-ref-11-1" class="xref-bibr" href="#ref-11">11</a> and observational studies (strengthening the reporting of observational studies in epidemiology (STROBE)).<a id="xref-ref-12-1" class="xref-bibr" href="#ref-12">12</a> CONSORT-EHEALTH aims to provide guidance on reporting of trials involving web based interventions (eHealth) and mHealth.<a id="xref-ref-13-1" class="xref-bibr" href="#ref-13">13</a></p><p id="p-7">Although CONSORT-EHEALTH is aimed at web based intervention trials, several mHealth interventions, especially in low and middle income countries, do not have an active web based component. Additionally, web based interventions do not necessarily have a mobile component (that is, use of a mobile phone or tablet). Lastly, given that the field of mHealth is still in its early stages, evaluations of such mHealth interventions typically use more descriptive and observational study designs in addition to randomised trials. These existing tools (including CONSORT-EHEALTH) are study design specific and focus on methodological rigour. They do not provide recommendations for the reporting of technical details, feasibility, and sustainability of the intervention strategies, which further adds to the challenge of comparing digital strategies. The template for intervention description and replication (TIDieR) checklist fills this gap by providing a guide to the reporting of interventions.<a id="xref-ref-14-1" class="xref-bibr" href="#ref-14">14</a> However, no reporting guidelines exist that capture the priority descriptors needed to adequately understand and potentially replicate ICT interventions for health.</p><p id="p-8">The quality of reporting on evidence on mHealth interventions has been varied. This is likely attributable to two factors: the multidisciplinary nature of mHealth, which combines different approaches from the fields of healthcare and technology, and the rapid pace of technology development, which often outpaces our ability to generate and disseminate quality evidence. In the technology space, prototypes are usually assessed by proof of concept or demonstration studies with fast turnaround time for modification. These results are generally disseminated rapidly in the grey literature, through white papers, conference papers, presentations, and blogs. By contrast, research and dissemination in global public health moves at a slower pace, beginning with formative research, followed by measuring efficacy, and then effectiveness. Each of these evaluation steps might require considerable resources and take long periods of time to implement and ultimately, publish. The concise nature of peer reviewed literature also limits the reporting of technical details which describe the nature of what the mHealth intervention is; constraining efforts to effectively synthesise research on a particular intervention or technical strategy.</p><p id="p-9">To address this gap, WHO convened a group of global experts working at the intersection of mHealth research and programme implementation, called the mHealth Technical Evidence Review Group (mTERG). mTERG identified the need for a tool that provides guidelines for the reporting of evidence on the effectiveness of mHealth interventions. The group recognised that the evaluation and reporting of mHealth and ICT interventions requires a unique lens, blending a combination of study designs and methods, as well as reporting that incorporates the description of the intervention and the context in which the intervention is implemented. The proposed mHealth Evidence Reporting and Assessment (mERA) checklist resulted from a series of consultations with the mTERG. This paper describes the scope, development process, and components of mERA.</p><div class="section other1" id="sec-2"><h2 class="">mERA checklist development</h2><p id="p-10">The development of mERA followed strategies for the development of reporting guidelines, as outlined by Moher and colleagues.<a id="xref-ref-15-1" class="xref-bibr" href="#ref-15">15</a> The development process comprised three main steps (fig 1<a id="xref-fig-1-1" class="xref-down-link" href="#F1"><span>⇓</span></a>): convening an expert working group (WHO commissioned the Johns Hopkins Global mHealth Initiative (JHU-GmI) to develop an approach for the mERA guideline), convening a global expert review panel for checklist development, and pilot testing the checklist.</p><div id="F1" class="fig pos-float  odd"><div class="fig-inline"><div class="highwire-figure"><div class="fig-inline-img-wrapper"><div class="fig-inline-img"><a href="https://www.bmj.com/content/bmj/352/bmj.i1174/F1.large.jpg?width=800&amp;height=600" title="Fig 1&#xA0;Development process for the mERA checklist" class="colorbox fragment-images colorbox-load" rel="gallery-fragment-images" data-figure-caption="&lt;div class=&quot;highwire-markup&quot;&gt;&lt;div class=&quot;fig-caption&quot; xmlns:xhtml=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p id=&quot;p-11&quot; class=&quot;first-child&quot;&gt;&lt;strong&gt;Fig 1&lt;/strong&gt;&#xA0;Development process for the mERA checklist&lt;/p&gt;&lt;div class=&quot;sb-div caption-clear&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;"><img class="fragment-image" src="https://www.bmj.com/content/bmj/352/bmj.i1174/F1.medium.gif" alt="Figure1"/></a></div></div><div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="fig-caption"><p id="p-11" class="first-child"><strong>Fig 1</strong> Development process for the mERA checklist</p><div class="sb-div caption-clear"></div></div><ul class="highwire-figure-links list-inline"><li class="download-fig first"><a href="https://www.bmj.com/content/bmj/352/bmj.i1174/F1.large.jpg?download=true" class="highwire-figure-link highwire-figure-link-download" title="Download Figure1">Download figure</a></li>
+<li class="new-tab"><a href="https://www.bmj.com/content/bmj/352/bmj.i1174/F1.large.jpg" class="highwire-figure-link highwire-figure-link-newtab" target="_blank">Open in new tab</a></li>
+<li class="download-ppt last"><a href="/highwire/powerpoint/919715" class="highwire-figure-link highwire-figure-link-ppt">Download powerpoint</a></li>
+</ul></div></div><div class="fig-caption" xmlns:xhtml="http://www.w3.org/1999/xhtml"></div></div><div id="sec-3" class="subsection"><h3>Developing an approach</h3><p id="p-12">JHU-GmI is a multidisciplinary consortium of technical and research experts with global experience in developing and researching mHealth interventions. In October 2012, WHO convened a working group of JHU-GmI experts to review existing reporting guidelines, determine their applicability to mHealth evidence, and articulate the relevance of additional guidelines, if appropriate. Based on a detailed review of existing guidelines, the working group recommended that the reporting items in the existing guidelines needed augmenting for relevance and application to the mHealth literature. The JHU-GmI working group recommended that guidelines for mHealth evidence should comprise two key components: a checklist to enable adequate classification and replication of the mHealth intervention being reported; and a checklist to assess the methodological rigour of the study design used to evaluate the intervention, appropriate to the stage of the innovation.</p><p id="p-13">An initial draft of the checklist for reporting on the technical aspects of the mHealth interventions was developed on the basis of a systematic review of mHealth literature. Once drafted, these compiled criteria were vetted through interviews with mHealth research and implementation experts. The guiding principle for the development of these criteria was to identify a minimum set of information critical to defining what the mHealth intervention is (content), where it is being implemented (context), and how it was implemented (technical features), to ensure that a reader would be able to replicate the intervention. Web appendix 1 briefly describes the development of the methodological checklist.</p></div><div id="sec-4" class="subsection"><h3>Expert review</h3><p id="p-14">In December 2012, WHO convened a three day meeting for mTERG with 18 global mHealth experts in Montreux, Switzerland. Experts consisted of academic researchers, implementation specialists, technologists, government decision makers, and representatives of several WHO departments and research programmes. At this meeting, the background, rationale for the development of the mERA criteria, and a draft of the criteria were presented. The approach was subjected to intensive analysis, comment, and recommendations for improvement. After incorporation of this feedback, a WHO mTERG quality of information (QoI) taskforce was established to finalise the tool for pilot testing. The QoI taskforce comprised five members with technical expertise spanning varied health domains and research perspectives. The taskforce applied the mERA checklist to a sampling of literature, including peer reviewed and grey literature. Assessment scores and feedback from the taskforce were compiled and discussed over several video conference meetings in which members discussed the value of individual items and the definitions distinguishing them. Through these discussions, checklist items were refined and a final list of criteria was agreed on. At the end of this three month review process, taskforce members finalised the list of criteria with explanations and definitions for each criterion, providing sufficient detail to facilitate understanding and application of the tool in a consistent manner.</p></div><div id="sec-5" class="subsection"><h3>Pilot testing criteria</h3><p id="p-15">After the expert panel review, the mERA checklist was applied to 10 English language reports to test the applicability of each criterion to a range of existing mHealth literature and to assess whether the criteria were understood consistently by a diverse group of users. The documents that were assessed comprised a mix of peer reviewed and grey literature, and included qualitative studies, formative assessments, observational studies, and randomised controlled trials. Six graduate students with training in epidemiology and experience working in mHealth participated in this exercise. Each reviewer was asked to read and apply the criteria to evaluate the reporting quality of the selected documents. The percentage of overall agreement between reviewers and κ statistic were calculated for each criterion. Specific criteria that had less than a 50% inter-rater agreement for three or more papers, or less than 50% inter-rater agreement in one paper and less than 75% agreement for two or more papers. The wording of these criteria were discussed and revised on the basis of feedback from the reviewers and in collaboration with the QoI taskforce. A detailed codebook guideline document was developed for the final list of mERA criteria with relevant examples from the literature</p><p id="p-16">To continue the testing and refinement of these guidelines, in 2014, the WHO Department of Reproductive Health and Research and mTERG supported the application of the mERA tool by independent research groups to three topic areas. These included the application of mERA to conduct evidence reviews on the use of mobile strategies for:</p><ul class="list-simple " id="list-2"><li id="list-item-4"><p id="p-17">• Management of stockouts of essential maternal and child health drugs</p></li><li id="list-item-5"><p id="p-18">• Promotion of adherence to treatment regimens by healthcare providers</p></li><li id="list-item-6"><p id="p-19">• Promotion of adolescent sexual and reproductive health.</p></li></ul><p id="p-20">These topics were selected in part to represent mHealth interventions at all levels of health service delivery, including at the health system level, at the provider level, and for behaviour change communication at the client level. The objective of this exercise was to conduct a systematic review of the evidence in these topic areas (drawing from published and non-peer reviewed sources), assess the quality of evidence reporting by applying the mERA guidelines, and to further test and refine the mERA guidelines. The application of mERA to each area resulted in some refinements and adaptations of the criteria. Web appendix 2 presents the results from the first two applications. The last application to adolescent sexual and reproductive health will be submitted for peer review as a separate manuscript. Lastly, two additional criteria were added to the core items to ensure compliance with TIDIEeR checklist, and on the recommendation of journal reviewers.</p></div></div><div class="section other2" id="sec-6"><h2 class="">Scope of the mERA checklist and guide for reporting mobile based health interventions</h2><p id="p-21">mERA was developed as a checklist of items which could be applied by authors developing manuscripts that aim to report on the effectiveness of mHealth interventions and by peer reviewers and journal editors reviewing such evidence. mERA aims to provide guidance for complete and transparent reporting on studies evaluating and reporting on the feasibility and effectiveness of mHealth interventions. The checklist does not aim to support the design or implementation of such studies, or to evaluate the quality of the research methods used. Rather, it is intended to improve transparency in reporting, promote a critical assessment of mHealth research evidence, and help improve the rigour of future reporting of research findings.</p><p id="p-22">mERA was developed to reflect the stages of development of mHealth interventions and accompanying research. mHealth interventions typically start at the stage of gathering functional requirements and developing and testing the technology. The accompanying evaluation studies aim to assess the feasibility of the intervention and are often descriptive or observational. After this pilot stage, more robust study designs are used to assess the effect of the intervention. To highlight the importance of reporting results on the assessment of both the technical platform and core intervention, mERA includes technical specification criteria deemed necessary for complete reporting of a mHealth intervention. The maturity of the mHealth intervention, from prototyping (defined by feasibility and acceptability outcomes) to scaled deployment (where effect and implementation fidelity evaluations are paramount), is accommodated in the mERA checklist.</p></div><div class="section other3" id="sec-7"><h2 class="">mERA components and use in conjunction with other guidelines</h2><p id="p-23">mERA is a checklist consisting of 16 items focused on reporting on mHealth interventions (table 1<a id="xref-table-wrap-1-1" class="xref-down-link" href="#T1"><span>⇓</span></a>). In addition to these criteria, web appendix 1 presents 29 items for reporting on study design and methods. As far as possible, the 16 core mERA items should be used in conjunction with appropriate checklists for study design, such as CONSORT for randomised trials and STROBE for observational studies. General methodology criteria presented in web appendix 1 were developed based on the extant checklists, to specifically guide methodological reporting of mHealth evidence, which has largely used exploratory study designs so far. We present this checklist in web appendix 1 as guidance for authors who might be unfamiliar with extant checklists specific to study design. This is to point out important aspects of the research design and implementation that should be reported, at a minimum, to allow research to undergo synthesis and meta-analysis. We however, reiterate here, the importance of following published and accepted global guidelines for the reporting of research, by research design or method.</p><div id="T1" class="table pos-float"><div class="table"><div class="table-caption"><span class="table-label">Table 1</span> <p id="p-24" class="first-child">mHealth evidence reporting and assessment (mERA) guidelines, including mHealth essential criteria</p><div class="sb-div caption-clear"></div></div><div class="table-inline"><div class="callout"><span>View this table:</span><ul class="callout-links"><li><a href="/highwire/markup/919714/expansion?width=1000&amp;height=500&amp;iframe=true&amp;postprocessors=highwire_figures%2Chighwire_math" class="colorbox colorbox-load table-expand-popup" rel="gallery-fragment-tables">View popup</a></li><li><a href="##" class="table-expand-inline" data-table-url="/highwire/markup/919714/expansion?postprocessors=highwire_figures%2Chighwire_math">View inline</a></li></ul></div></div></div><div></div></div></div><div class="section other4" id="sec-8"><h2 class="">Explanation and elaboration</h2><p id="p-25">Table 1<a id="xref-table-wrap-1-2" class="xref-up-link" href="#T1"><span>⇑</span></a> presents the mERA core items. The rationale for inclusion and explanation of each item is given listed with examples of good reporting.</p><div id="sec-9" class="subsection"><h3>Item 1—Infrastructure: describe, in detail, the necessary infrastructure which was required to enable the operation of the mHealth programme</h3><div id="sec-10" class="subsection"><h4>Example</h4><blockquote id="disp-quote-1" class="disp-quote"><p id="p-26">“The rapid increase of teledensity, from under 3% in 2002 to 33.5% in 2010, combined with a total adult literacy rate of 75% (2008), allowed this mHealth intervention to reach a large population.”<a id="xref-ref-16-1" class="xref-bibr" href="#ref-16">16</a></p></blockquote></div><div id="sec-11" class="subsection"><h4>Explanation</h4><p id="p-27">Have the authors clearly described the necessary infrastructure required to support technology operations in the study location? This refers to physical infrastructure including electricity, access to power, and connectivity in the local context. Reporting rates should ideally correspond to the context in which programme implementation occurred. Where only national level data are available, limitations in data should be noted and the anticipated contextual variations discussed. Reporting of the minimum infrastructure support requirements facilitates improved understanding of the feasibility, generalisability, and replicability of the innovation in other contexts within and across countries. When this information is unreported, it is difficult to ascertain whether an mHealth strategy or specific technology might be transplantable into a different population, where infrastructure might be inferior to the location where the reported programme was conducted. Understanding these are dynamic conditions, the authors should strive to describe the minimum enabling infrastructure required for programme implementation.</p></div></div><div id="sec-12" class="subsection"><h3>Item 2—Technology platform: describe, in sufficient detail to allow replication of the work, the software and hardware combinations used in the programme implementation</h3><div id="sec-13" class="subsection"><h4>Examples</h4><blockquote id="disp-quote-2" class="disp-quote"><p id="p-28">“RapidSMS® is an open source SMS application platform written in Python and Django. The SMS-based project was developed to track the pregnancy lifecycle . . . alerting health facilities, hospital and ambulances.”<a id="xref-ref-17-1" class="xref-bibr" href="#ref-17">17</a></p></blockquote></div><div id="sec-14" class="subsection"><h4>Explanation</h4><p id="p-29">Have the authors explained the choices of software and hardware used in the deployment of the described mHealth intervention? Clear communication of the technology used in the programme is critical to allow the contextualisation of the authors’ work among other innovations. Without this information, it is difficult to group projects which have taken identical (or similar) approaches to resolving health system constraints. If the software used is a publicly available system (eg, Open Data Kit, CommCare) it should be explicitly mentioned, together with the modifications or configuration. Links to the code should be provided, if publicly available. If the application or system has been custom coded for the programme and is open source, the link to the public repository where the code is housed would be useful to researchers attempting to replicate the authors’ work. Similarly, the hardware choices made should be described with detail akin to that in item 1. This allows future programme implementers to understand the minimum technical functionality required for the software performance of replicate deployments to be similar in nature to the programme being reported. For example, details on modifications such as whether the devices were functionally locked down to limit use of non-study applications should be reported.</p></div></div><div id="sec-15" class="subsection"><h3>Item 3—Interoperability: describe how, if at all, the mHealth strategy connects to and interacts with national or regional Health Information Systems (HIS)/programme context</h3><div id="sec-16" class="subsection"><h4>Example</h4><blockquote id="disp-quote-3" class="disp-quote"><p id="p-30">“Text messages were sent using a customized text-messaging platform integrated with the institution's immunization information system.”<a id="xref-ref-18-1" class="xref-bibr" href="#ref-18">18</a></p></blockquote></div><div id="sec-17" class="subsection"><h4>Explanation</h4><p id="p-31">Clarity of the fit within the existing HIS, either national or of the host organisation, is important to understanding how the mHealth strategy adds to the existing workflows, improves on existing processes, or complements existing programmes. Many mHealth projects have been criticised for existing in a silos, independent of existing efforts to create organisational or national HIS architectures or to integrate with existing health promotion programmes.<a id="xref-ref-19-1" class="xref-bibr" href="#ref-19">19</a> Simple descriptions of specific data standards being used (eg, HL7, OpenMRS CIEL (Columbia International eHealth Laboratory) concept dictionary, ICD-9/10 (international classification of diseases, 9th and 10th revisions)), can provide some basis to gauge a programme’s interoperability readiness. These descriptions can also help to understand whether the activity is a limited scale pilot project, or a strategy being built for national scale-up. The degree to which a programme might already be integrated into a national or organisational system may also be reported, explaining how data elements contribute to aggregate reporting through systems such as District Health Information Systems (DHIS).</p></div></div><div id="sec-18" class="subsection"><h3>Item 4—Intervention delivery: elaborate the mode, frequency, and intensity of the mHealth intervention</h3><div id="sec-19" class="subsection"><h4>Example</h4><blockquote id="disp-quote-4" class="disp-quote"><p id="p-32">“Parents of children and adolescents in the intervention group received a series of 5 weekly, automated text message influenza vaccine reminders.”<a id="xref-ref-20-1" class="xref-bibr" href="#ref-20">20</a></p></blockquote></div><div id="sec-20" class="subsection"><h4>Explanation</h4><p id="p-33">Often, in reporting the mHealth innovation, authors omit important details around the specific exposure that participants undergo. Firstly, the channels used to provide information or engage with the client should be described (eg, SMS, voice message, USSD (unstructured supplementary service data)) because this choice may explain operational variability across similar deployments. Parameters such as the intensity and frequency of interactions, duration of engagement, and time of day (if relevant) should be described. For example, with a text message intervention to stimulate behaviour change, how was the message curriculum structured, timed, and delivered? Was attention paid to the time of day? Were there limits placed on the number of messages sent in a given week, with concerns about information saturation? Were choices between modes of delivery offered to clients (eg, interactive voice response instead of text messages)? For what total duration were the messages sent?</p></div></div><div id="sec-21" class="subsection"><h3>Item 5—Intervention content: describe how the content was developed/identified and customised</h3><div id="sec-22" class="subsection"><h4>Example</h4><blockquote id="disp-quote-5" class="disp-quote"><p id="p-34">“Best practices for health communication programs were used to systematically develop the family planning text messages which are largely based on the WHO Family Planning Handbook. The m4RH system is provided in the language Swahili and offers information about side effects, method effectiveness, duration of use and ability to return to fertility.”<a id="xref-ref-21-1" class="xref-bibr" href="#ref-21">21</a></p></blockquote></div><div id="sec-23" class="subsection"><h4>Explanation</h4><p id="p-35">We recommend that the source of any informational content (eg, behaviour recommendations, decision support guidelines, drug or referral recommendations, global or national technical guidelines) be mentioned clearly, together with any specific adaptation that may have been done to localise the content for the particular project. If new content was created, the process of enlisting qualified experts and the development, validation, and testing of novel content should be described. If information content is drawn from a publicly available resource, or newly developed content is being made publicly available, external links to this database should be provided.</p></div></div><div id="sec-24" class="subsection"><h3>Item 6—Usability testing: describe how the end-users of the system engaged in the development of the intervention</h3><div id="sec-25" class="subsection"><h4>Example</h4><blockquote id="disp-quote-6" class="disp-quote"><p id="p-36">“Designing the system began with formative research with overweight men and women to solicit feedback about dietary behaviours, current mobile phone and text and picture message habits, the type and frequency of text and picture messages helpful for weight loss, and nutrition-related topic areas that should be included in a weight loss program.”<a id="xref-ref-22-1" class="xref-bibr" href="#ref-22">22</a></p></blockquote></div><div id="sec-26" class="subsection"><h4>Explanation</h4><p id="p-37">Given the limitations in space in most peer reviewed journals, this important element of a carefully developed mHealth innovation is given short shrift. Often, separate manuscripts or documents can exist describing the formative research undertaken to capture user needs, define system constraints, map user workflows, and adapt communication content and the technical solutions to meet the local context. If this is the case, clear reference to where such detail can be found is useful to many readers attempting to either contextualise or replicate the work. The definition and recruitment of end-users should be clearly explained, together with a brief overview of the depth and breadth of formative work undertaken to engage end-users in the development of the system. Conversely, if end-users were not involved, this, too, should be explicitly mentioned.</p></div></div><div id="sec-27" class="subsection"><h3>Item 7—User feedback: describe user feedback about the intervention or user satisfaction with the intervention</h3><div id="sec-28" class="subsection"><h4>Example</h4><blockquote id="disp-quote-7" class="disp-quote"><p id="p-38">“Most telephone respondents reported that the platform was easy to use and simple, and appreciated the ability to obtain health information via mobile phone.”<a id="xref-ref-23-1" class="xref-bibr" href="#ref-23">23</a></p></blockquote></div><div id="sec-29" class="subsection"><h4>Explanation</h4><p id="p-39">Has user response to the mHealth programme been assessed, and acceptance verified? This information is key for documenting the likelihood of adoption of the intervention among end-users. Despite the importance of end-user feedback in informing mHealth programme design and influencing success, mHealth interventions are sometimes developed without sufficient audience or end-user feedback. User feedback could include user opinions about the content or user interface; or perceptions about usability, access, connectivity, or other elements of the mHealth programme. User feedback should inform the reader’s understanding of how and why the mHealth programme is expected to succeed, as well as challenges that may be encountered in programme implementation and replication.</p></div></div><div id="sec-30" class="subsection"><h3>Item 8—Access of individual participants: mention barriers or facilitators to the adoption of the intervention among study participants</h3><div id="sec-31" class="subsection"><h4>Example</h4><blockquote id="disp-quote-8" class="disp-quote"><p id="p-40">“It is possible that this intervention is less effective among certain subpopulations that may be considered harder to reach (i.e., males, those with a lower level of education and those who do not regularly attend health services)”<a id="xref-ref-24-1" class="xref-bibr" href="#ref-24">24</a></p></blockquote></div><div id="sec-32" class="subsection"><h4>Explanation</h4><p id="p-41">Have the authors considered who the mHealth programme will work for and who will be challenged to access it? With this in mind, some population subgroups might be more or less likely to adopt the mHealth tool. As with all modes of delivering health interventions, limitations of access among certain subgroups is likely and therefore should be candidly considered in the peer reviewed report. Challenges to access could relate to socioeconomic status, geographical location, education and literacy, gender norms that limit access to resources and information, as well as other demographic and sociocultural factors. Discussion of potential limitations in access will help the reader to make an informed assessment of whether the mHealth programme is appropriate for other target groups.</p></div></div><div id="sec-33" class="subsection"><h3>Item 9—Cost assessment: present basic costs of the mHealth intervention</h3><div id="sec-34" class="subsection"><h4>Example</h4><blockquote id="disp-quote-9" class="disp-quote"><p id="p-42">“Health workers in Salima and Nkhotakota with no access to the SMS program tend to spend an average of 1,445 minutes (24 hours) to report and receive feedback on issues raised to their supervisor at an average cost of USD $2.70 (K405.16) per contact, and an average contact frequency of 4 times per month.”<a id="xref-ref-25-1" class="xref-bibr" href="#ref-25">25</a></p></blockquote></div><div id="sec-35" class="subsection"><h4>Explanation</h4><p id="p-43">Economic evaluations provide critical evidence on the value for money of a particular mHealth solution and entail the comparison of costs and consequences for two or more alternatives. Examples of these include cost effectiveness, cost utility, cost consequence, cost benefit, or cost minimisation analyses. If an economic evaluation has been conducted, it should be reported according to the 24 item CHEERS statement.<a id="xref-ref-6-2" class="xref-bibr" href="#ref-6">6</a> For evaluations of a single programme that do not have a comparator and for which economic evaluations are not possible, we propose reporting basic information on financial costs required to design or develop, start up, and sustain implementation, from the perspective of different users of the system over a clearly specified time period. Ideally, these perspectives would include programme, health systems, mobile network operator, and end-user costs. Methods for estimating resources and costs should be clearly defined, along with currency, price date, and conversion.<a id="xref-ref-6-3" class="xref-bibr" href="#ref-6">6</a></p></div></div><div id="sec-36" class="subsection"><h3>Item 10—Adoption inputs/programme entry: describe how people are informed about the programme or steps taken to support adoption</h3><div id="sec-37" class="subsection"><h4>Example</h4><blockquote id="disp-quote-10" class="disp-quote"><p id="p-44">“Training on how to use the cell phones and on text-messaging protocol took place in 2 2-hour sessions on consecutive days. The first day involved training on how to use the cell phone—using pictographic instructions and interactive exercises—which was conducted in small groups (3-6 participants) and facilitated by a bilingual (English and Twi) proctor.”<a id="xref-ref-26-1" class="xref-bibr" href="#ref-26">26</a></p></blockquote></div><div id="sec-38" class="subsection"><h4>Explanation</h4><p id="p-45">Appropriate training, instructional materials, and competency assessment may be warranted because mHealth interventions typically require the health provider or client end-users to have a level of understanding of the scenarios of use and the competence to be able to appropriately use the intervention. Have the authors provided a description of the instructional approaches deployed for end-users of the mHealth intervention, or justification for their exclusion? Authors should ensure that the details of these inputs are described. For health workers, these factors include validity of instruction approach used, competency of instructors, validation of instructional materials, numbers of participants per session, number and length of instruction, use of user guides and competency assessment tools. For clients, these factors include details on how clients are informed about the programme and any promotional approaches used, instructional user guide materials or training, length and periodicity of training, and competency assessment tools used. If instructional materials are available publicly, details should be provided for access.</p></div></div><div id="sec-39" class="subsection"><h3>Item 11—Limitations for delivery at scale: present expected challenges for scaling up the intervention</h3><div id="sec-40" class="subsection"><h4>Example</h4><blockquote id="disp-quote-11" class="disp-quote"><p id="p-46">“Despite our findings that the intervention was not burdensome and was indeed well accepted by health workers, sending 2 messages daily for 5 days a week over 26 weeks to each health worker leaves limited space for other similar, non-malaria quality improvement interventions.”<a id="xref-ref-27-1" class="xref-bibr" href="#ref-27">27</a></p></blockquote></div><div id="sec-41" class="subsection"><h4>Explanation</h4><p id="p-47">In view of the challenges in translating findings from pilot studies to large scale implementations, authors should describe any limiting factors surrounding delivery at scale. Oftentimes, pilot studies can maintain the fidelity of implementation and closely monitor activities at a level that might not be sustained at scale. Have the authors discussed the level of effort involved in the implementation by different parties and considerations the constraints for further scaling the intervention? This information is critical for understanding the generalisability of the implementation and making inferences on its viability beyond a closely controlled and defined setting.</p></div></div><div id="sec-42" class="subsection"><h3>Item 12—Contextual adaptability: describe appropriateness of the intervention to the context, and any possible adaptations</h3><div id="sec-43" class="subsection"><h4>Example</h4><blockquote id="disp-quote-12" class="disp-quote"><p id="p-48">“Our mobile phone based survey apparatus may be particularly suited for conducting survey research in rural areas. In surveys where multiple research sites may be remote and dispersed, and where vehicles have to be used to travel from site to site to download data onto laptops, the mobile phone based data collection system may be a significantly cheaper option.”<a id="xref-ref-28-1" class="xref-bibr" href="#ref-28">28</a></p></blockquote></div><div id="sec-44" class="subsection"><h4>Explanation</h4><p id="p-49">The mHealth intervention might have functionality that broadly applies to a range of settings and usage scenarios, and might have specific functionality that is only suited to specific needs, users, and geographical localities. Have the authors provided details of the relevance of the functionality of the mHealth intervention to the specific research context, and drawn inferences of potential relevance and adaptability based on health domains, user types, geographical contexts, health needs? Have the authors described the steps necessary to adapt the mHealth intervention to other use cases? In some cases, if a piece of software is hard coded, adaptability could be limited, costly, or time consuming. Specifying limitations to the contextual adaptability of the system being reported helps to clarify whether the system being tested can be considered a potential platform useful for multiple future purposes, or whether the system was designed specifically as a single use, proof of concept.</p></div></div><div id="sec-45" class="subsection"><h3>Item 13—Replicability: present adequate technical and content detail to support replicability</h3><div id="sec-46" class="subsection"><h4>Example</h4><blockquote id="disp-quote-13" class="disp-quote"><p id="p-50">“The mobile phone application, CommCare, developed by Dimagi, Inc., was iteratively modified into Mobilize (Figure 1 - Screen shot images of Mobilize on the mobile phones).”<a id="xref-ref-29-1" class="xref-bibr" href="#ref-29">29</a></p></blockquote></div><div id="sec-47" class="subsection"><h4>Explanation</h4><p id="p-51">The potential for an mHealth intervention to be efficiently introduced to a new population is enhanced by the development and availability of standard operating procedures of successful interventions. Have the authors provided details of the development of replicable processes that are being deployed in a consistent manner? These may include the software source code, workflow or dashboards screenshots, flowcharts of algorithms, or examples of content that is developed for the end-users. If this level of detail cannot be included in the manuscript owing to space restrictions, links to external resources should be provided.</p></div></div><div id="sec-48" class="subsection"><h3>Item 14—Data security: describe security and confidentiality protocols</h3><div id="sec-49" class="subsection"><h4>Example</h4><blockquote id="disp-quote-14" class="disp-quote"><p id="p-52">“All survey data were encrypted, thus maintaining the confidentiality of responses. Communication between the browser and the server was encrypted using 128-bit SSL. System servers were secured by firewalls to prevent unauthorized access and denial of service attacks, while data was protected from virus threats using NOD32 anti-virus technology.”<a id="xref-ref-30-1" class="xref-bibr" href="#ref-30">30</a></p></blockquote></div><div id="sec-50" class="subsection"><h4>Explanation</h4><p id="p-53">A brief explanation of the hardware, software, and procedural steps taken to minimise the risk of data loss or data capture should be reported. Many ethical review bodies are now requiring investigators to report the details of steps taken to secure personally identifiable information, from identity fields to laboratory test results. Even in settings where laws, standards, or practices governing data security might be absent, researchers and programme implementers are responsible to take reasonable measures to protect the privacy and confidentiality of participant identity and health information. Data security reporting should cover measures taken at the collection or capture of information, transmission of information, through to control measures at receipt, storage, and access. Data sharing protocols, if any, should be mentioned in this section.</p></div></div><div id="sec-51" class="subsection"><h3>Item 15—Compliance with national guidelines or regulatory statutes</h3><div id="sec-52" class="subsection"><h4>Example</h4><blockquote id="disp-quote-15" class="disp-quote"><p id="p-54">“The research assistant programmed the message into the automated, web-based, and HIPAA compliant Intelecare platform.”<a id="xref-ref-31-1" class="xref-bibr" href="#ref-31">31</a></p></blockquote></div><div id="sec-53" class="subsection"><h4>Explanation</h4><p id="p-55">If the mHealth intervention or application is being used to deliver health information, provide decision support guidance, or provide diagnostic support to health workers, the authors should describe whether national guidelines or other authoritative sources of information have been used to populate system content. For example, if the system is providing SMS based advice to pregnant women, does the information follow evidence-informed practices and align with recommendations of existing national or regulatory bodies? In some jurisdictions, the provision of healthcare advice or treatment guidelines falls under specific oversight of a national agency such as the United States Federal Communications Commission or Food and Drug Administration. This is especially true when the technology can be considered a medical device. If this determination has been made, and if specific regulatory oversight has been sought, this should be reported.</p></div></div><div id="sec-54" class="subsection"><h3>Item 16—Fidelity of the intervention</h3><div id="sec-55" class="subsection"><h4>Example</h4><blockquote id="disp-quote-16" class="disp-quote"><p id="p-56">“On average, users transferred data manually (pressed the button) 0.9 times a day, where the most eager user transferred data 3.6 times a day and the least eager none. Six of the 12 users experienced malfunctions with the step counter during the test period—usually a lack of battery capacity or an internal “hang-up” in the device that needed a hard restart.”<a id="xref-ref-32-1" class="xref-bibr" href="#ref-32">32</a></p></blockquote></div><div id="sec-56" class="subsection"><h4>Explanation</h4><p id="p-57">To what extent has the mHealth programme’s adherence to the intended, original deployment plan been assessed? If systems have been put in place to monitor system stability, ensure delivery (and possibly receipt) of messages, or measure levels of participant or end-user engagement with the system, these can generate metrics of intervention fidelity. Gaps in fidelity assessment and reporting make it difficult to link intervention delivery to possible process or health outcomes. Fidelity metrics could be based on either system generated data, monitoring data, or a combination of both.</p></div></div></div><div class="section discussion" id="sec-57"><h2 class="">Discussion</h2><p id="p-58">The mERA checklist was borne from the recognition of a lack of adequate, systematic, and useful reporting of mHealth interventions and associated research studies. The tool was developed to promote clarity and completeness in reporting of research involving the use of mobile tools in healthcare, irrespective of the format or channel of such reporting. Currently, many mHealth studies are descriptive, with a growing number assuming more rigorous experimental designs. The mERA checklist aims to be agnostic to study design, and applied in conjunction with the existing tools that support transparent reporting of the study designs used. Adoption of the mERA checklist by journal editors and authors in a standardised manner is anticipated to improve the transparency and rigour in reporting, while highlighting issues of bias and generalisability, and ultimately temper criticisms of overenthusiastic reporting in mHealth.</p><p id="p-59">The mERA checklist was developed by a group of experts assembled as part of the WHO mTERG, reflecting a diversity of geographical, gender, and domain expertise. Contributors outside of mTERG were recruited through professional and academic networks; their representation could have been biased towards experts focused on public health interventions in low and middle income country programmes. Members of the development team leveraged their own experiences in working in mHealth to identify important domains and criteria that are inconsistently reported in the extant literature. The criteria presented here have been repeatedly applied to various types of evidence to determine how well they pertain to different study designs and reporting formats.</p><p id="p-60">The group’s pragmatic and iterative process in developing this checklist attempted to capture scientific consensus around appropriate mHealth reporting. The intensity of the feedback and testing cycles that this tool went through has led to a set of criteria that is now fairly repeatable in its application and serves to identify high quality content for aggregation and synthesis. Adhering to the mERA checklist might add to the word count of the manuscript. Given the word limitations on a manuscript, inclusion of all the details of the mHealth intervention might not be possible. Therefore, the mERA checklist encourages authors to refer the reader to an external link or resource where such intervention details are available.</p><p id="p-61">This checklist represents an ambitious effort to standardise reporting of mHealth evidence. The core 16 item checklist aims to fill a substantial gap in the existing mHealth evidence space, where poor reporting of the mobile interventions has resulted in limited replication of effective interventions. We expect that the mERA checklist represents a set of evolving criteria that will be appraised and if necessary, updated. The checklist will be disseminated through conducting workshops and presentations at the mHealth Summit, mHealth Working Group, and other global informatics forums. Additionally, the checklist will be hosted on the WHO mTERG website, and the Equator website. The mERA checklist will be continuously revised and versions will be periodically released on the basis of feedback, comments, and experiences from its use. We invite readers to share their comments and experiences.</p><div id="sec-58" class="subsection"><h3>Conclusion</h3><p id="p-62">The mERA tool aims to assist authors in reporting mHealth-research, to guide reviewers and policymakers in synthesising high-quality evidence, and to guide journal editors in critically assessing the transparency and completeness in reporting of mHealth studies. Like similar checklists, mERA does not function to evaluate the quality of the research itself, but rather the reporting quality of the research and the mHealth intervention. Through widespread discussion, refinements, and adoption, we expect that the use of this checklist will indirectly improve the quality of mHealth evidence in the literature. An increase in transparent and rigorous reporting can reveal gaps in the conduct of research, and aid in our efforts to synthesise findings. This, in turn, will improve the understanding and science of how to use and understand the effects of mHealth as a field of inquiry.</p></div></div><div class="section fn-group" id="fn-group-1"><h2>Footnotes</h2><ul><li class="fn" id="fn-1"><p id="p-63">We thank the following members of the mTERG QoI taskforce group for their contributions: Nandini Oomann, Caroline Free; the following members of the JHU-GmI mERA taskforce: Larissa Jennings, Marguerite Lucea, James BonTempo, and Christian Coles; Michelle Carras, Jill Murray, Tara White, Cesar Augusto, Shreya Pereira, Sean Galagan, Emily Mangone, and Angela Parsecepe for applying mERA to peer reviewed articles and grey literature and for providing valuable feedback; and the reviewers of this manuscript for their insightful feedback.</p></li><li class="fn-participating-researchers" id="fn-2"><p id="p-64">Contributors: SA, AEL, and JL led the development of an initial approach and draft of the checklist. AL and GM led the organising of the consensus meeting held in December 2012. All coauthors participated in this meeting or follow-up meetings to finalise the checklist items. KL, SA, and AL led teams to test the checklist items. All authors contributed to the drafting and revision of the paper, and reviewed and approved the final version. Members of the mTERG mERA taskforce who contributed to this manuscript include: Lavanya Vasudevan (Duke University Global Health Institute, USA), Tigest Tamrat (WHO Department of Reproductive Health and Research, Switzerland), Karin Kallander (Malaria Consortium Africa, Uganda), Marc Mitchell (D-Tree International, USA), Muna Abdel Aziz (Sudanese Public Health Network, UK), Frederik Froen (Norwegian Institute of Public Health, Norway), Hermen Ormel (Royal Tropical Institute (KIT), Netherlands), Maria Muniz (UNICEF, USA), Ime Asangansi (UN Foundation, Nigeria).</p></li><li class="fn-financial-disclosure" id="fn-3"><p id="p-65">Funding: Support and funding for the development of the mERA checklist was received from the WHO Department of Reproductive Health and Research.</p></li><li class="fn-conflict" id="fn-4"><p id="p-66">Competing interests: All authors have completed the ICMJE uniform disclosure form at <a href="http://www.icmje.org/coi_disclosure.pdf">www.icmje.org/coi_disclosure.pdf</a> and declare: support from the WHO Department of Reproductive Health and Research for the submitted work; SA, AEL, and AL received a grant from GSMA-Mobile for Development to provide evaluation support to their 10 country mobile based nutrition programme, and from WHO to provide evaluation support to their grantees working on mobile based health interventions; KL was contracted by WHO to apply the mERA tool to mobile phone interventions for sexual and reproductive health; GM received financial support from the Norwegian Agency for Development Cooperation and the WHO Department of Reproductive Health and Research fund for hosting mobile health related meetings; MM has a pending patent for a mobile, point of care monitor for patients’ health conditions with a decision support system; the remaining authors declare no competing interests.</p></li><li class="fn-other" id="fn-5"><p id="p-67">Provenance and peer review: Not commissioned; externally peer reviewed.</p></li></ul></div><div class="section ref-list" id="ref-list-1"><h2>References</h2><ol class="cit-list"><li><a class="rev-xref-ref" href="#xref-ref-1-1" title="View reference 1 in text" id="ref-1">↵</a><div class="cit ref-cit ref-web" id="cit-352.mar17_9.i1174.1"><div class="cit-metadata unstructured">Qiang CZ, Yamamichi M, Hausman V, Altman DG. Mobile applications for the health sector. 2011. <a href="http://siteresources.worldbank.org/INFORMATIONANDCOMMUNICATIONANDTECHNOLOGIES/Resources/mHealth_report.pdf">http://siteresources.worldbank.org/INFORMATIONANDCOMMUNICATIONANDTECHNOLOGIES/Resources/mHealth_report.pdf</a></div><div class="cit-extra"></div></div></li><li><a class="rev-xref-ref" href="#xref-ref-2-1" title="View reference 2 in text" id="ref-2">↵</a><div class="cit ref-cit ref-journal" id="cit-352.mar17_9.i1174.2"><div class="cit-metadata"><cite>Agarwal S, Labrique A. Newborn health on the line: the potential mHealth applications. <abbr class="cit-jnl-abbrev">JAMA</abbr><span class="cit-pub-date"> 2014</span>;<span class="cit-vol">312</span>:229-<span class="cit-lpage">30</span>. <a href="http://dx.doi.org/doi:10.1001/jama.2014.6371">doi:10.1001/jama.2014.6371</a>. <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=24953141">24953141</a>.</cite></div><div class="cit-extra"></div></div></li><li><a class="rev-xref-ref" href="#xref-ref-3-1" title="View reference 3 in text" id="ref-3">↵</a><div class="cit ref-cit ref-journal" id="cit-352.mar17_9.i1174.3"><div class="cit-metadata"><cite>Agarwal S, Perry HB, Long LA, Labrique AB. Evidence on feasibility and effective use of mHealth strategies by frontline health workers in developing countries: systematic review. <abbr class="cit-jnl-abbrev">Trop Med Int Health</abbr><span class="cit-pub-date"> 2015</span>;<span class="cit-vol">20</span>:1003-<span class="cit-lpage">14</span>. <a href="http://dx.doi.org/doi:10.1111/tmi.12525">doi:10.1111/tmi.12525</a>. <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=25881735">25881735</a>.</cite></div><div class="cit-extra"></div></div></li><li><a class="rev-xref-ref" href="#xref-ref-4-1" title="View reference 4 in text" id="ref-4">↵</a><div class="cit ref-cit ref-journal" id="cit-352.mar17_9.i1174.4"><div class="cit-metadata"><cite>Tomlinson M, Rotheram-Borus MJ, Swartz L, Tsai AC. Scaling up mHealth: where is the evidence?<abbr class="cit-jnl-abbrev">PLoS Med</abbr><span class="cit-pub-date"> 2013</span>;<span class="cit-vol">10</span>:e1001382. <a href="http://dx.doi.org/doi:10.1371/journal.pmed.1001382">doi:10.1371/journal.pmed.1001382</a>. <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=23424286">23424286</a>.</cite></div><div class="cit-extra"></div></div></li><li><a class="rev-xref-ref" href="#xref-ref-5-1" title="View reference 5 in text" id="ref-5">↵</a><div class="cit ref-cit ref-journal" id="cit-352.mar17_9.i1174.5"><div class="cit-metadata"><cite>Guyatt GH, Oxman AD, Vist GE, et al. GRADE Working Group. GRADE: an emerging consensus on rating quality of evidence and strength of recommendations. <abbr class="cit-jnl-abbrev">BMJ</abbr><span class="cit-pub-date"> 2008</span>;<span class="cit-vol">336</span>:924-<span class="cit-lpage">6</span>. <a href="http://dx.doi.org/doi:10.1136/bmj.39489.470347.AD">doi:10.1136/bmj.39489.470347.AD</a>. <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=18436948">18436948</a>.</cite></div><div class="cit-extra"></div></div></li><li><a class="rev-xref-ref" href="#xref-ref-6-1" title="View reference 6 in text" id="ref-6">↵</a><div class="cit ref-cit ref-journal" id="cit-352.mar17_9.i1174.6"><div class="cit-metadata"><cite>Husereau D, Drummond M, Petrou S, et al. CHEERS Task Force. Consolidated Health Economic Evaluation Reporting Standards (CHEERS) statement. <abbr class="cit-jnl-abbrev">BMC Med</abbr><span class="cit-pub-date"> 2013</span>;<span class="cit-vol">11</span>:80. <a href="http://dx.doi.org/doi:10.1186/1741-7015-11-80">doi:10.1186/1741-7015-11-80</a>. <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=23531108">23531108</a>.</cite></div><div class="cit-extra"></div></div></li><li><a class="rev-xref-ref" href="#xref-ref-7-1" title="View reference 7 in text" id="ref-7">↵</a><div class="cit ref-cit ref-journal" id="cit-352.mar17_9.i1174.7"><div class="cit-metadata"><cite>Liberati A, Altman DG, Tetzlaff J, et al. The PRISMA statement for reporting systematic reviews and meta-analyses of studies that evaluate health care interventions: explanation and elaboration. <abbr class="cit-jnl-abbrev">Ann Intern Med</abbr><span class="cit-pub-date"> 2009</span>;<span class="cit-vol">151</span>:W65-94. <a href="http://dx.doi.org/doi:10.7326/0003-4819-151-4-200908180-00136">doi:10.7326/0003-4819-151-4-200908180-00136</a>. <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=19622512">19622512</a>.</cite></div><div class="cit-extra"></div></div></li><li><a class="rev-xref-ref" href="#xref-ref-8-1" title="View reference 8 in text" id="ref-8">↵</a><div class="cit ref-cit ref-journal" id="cit-352.mar17_9.i1174.8"><div class="cit-metadata"><cite>Shea BJ, Grimshaw JM, Wells GA, et al. Development of AMSTAR: a measurement tool to assess the methodological quality of systematic reviews. <abbr class="cit-jnl-abbrev">BMC Med Res Methodol</abbr><span class="cit-pub-date"> 2007</span>;<span class="cit-vol">7</span>:10. <a href="http://dx.doi.org/doi:10.1186/1471-2288-7-10">doi:10.1186/1471-2288-7-10</a>. <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=17302989">17302989</a>.</cite></div><div class="cit-extra"></div></div></li><li><a class="rev-xref-ref" href="#xref-ref-9-1" title="View reference 9 in text" id="ref-9">↵</a><div class="cit ref-cit ref-journal" id="cit-352.mar17_9.i1174.9"><div class="cit-metadata"><cite>Schulz KF, Altman DG, Moher D. CONSORT Group. CONSORT 2010 statement: updated guidelines for reporting parallel group randomised trials. <abbr class="cit-jnl-abbrev">BMC Med</abbr><span class="cit-pub-date"> 2010</span>;<span class="cit-vol">8</span>:18. <a href="http://dx.doi.org/doi:10.1186/1741-7015-8-18">doi:10.1186/1741-7015-8-18</a>. <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=20334633">20334633</a>.</cite></div><div class="cit-extra"></div></div></li><li><a class="rev-xref-ref" href="#xref-ref-10-1" title="View reference 10 in text" id="ref-10">↵</a><div class="cit ref-cit ref-journal" id="cit-352.mar17_9.i1174.10"><div class="cit-metadata"><cite>Stroup DF, Berlin JA, Morton SC, et al. Meta-analysis of observational studies in epidemiology: a proposal for reporting. Meta-analysis Of Observational Studies in Epidemiology (MOOSE) group. <abbr class="cit-jnl-abbrev">JAMA</abbr><span class="cit-pub-date"> 2000</span>;<span class="cit-vol">283</span>:2008-<span class="cit-lpage">12</span>. <a href="http://dx.doi.org/doi:10.1001/jama.283.15.2008">doi:10.1001/jama.283.15.2008</a>. <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=10789670">10789670</a>.</cite></div><div class="cit-extra"></div></div></li><li><a class="rev-xref-ref" href="#xref-ref-11-1" title="View reference 11 in text" id="ref-11">↵</a><div class="cit ref-cit ref-journal" id="cit-352.mar17_9.i1174.11"><div class="cit-metadata"><cite>Des Jarlais DC, Lyles C, Crepaz N. TREND Group. Improving the reporting quality of nonrandomized evaluations of behavioral and public health interventions: the TREND statement. <abbr class="cit-jnl-abbrev">Am J Public Health</abbr><span class="cit-pub-date"> 2004</span>;<span class="cit-vol">94</span>:361-<span class="cit-lpage">6</span>. <a href="http://dx.doi.org/doi:10.2105/AJPH.94.3.361">doi:10.2105/AJPH.94.3.361</a>. <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=14998794">14998794</a>.</cite></div><div class="cit-extra"></div></div></li><li><a class="rev-xref-ref" href="#xref-ref-12-1" title="View reference 12 in text" id="ref-12">↵</a><div class="cit ref-cit ref-journal" id="cit-352.mar17_9.i1174.12"><div class="cit-metadata"><cite>von Elm E, Altman DG, Egger M, Pocock SJ, Gøtzsche PC, Vandenbroucke JP. STROBE Initiative. The Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) statement: guidelines for reporting observational studies. <abbr class="cit-jnl-abbrev">Prev Med</abbr><span class="cit-pub-date"> 2007</span>;<span class="cit-vol">45</span>:247-<span class="cit-lpage">51</span>. <a href="http://dx.doi.org/doi:10.1016/j.ypmed.2007.08.012">doi:10.1016/j.ypmed.2007.08.012</a>. <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=17950122">17950122</a>.</cite></div><div class="cit-extra"></div></div></li><li><a class="rev-xref-ref" href="#xref-ref-13-1" title="View reference 13 in text" id="ref-13">↵</a><div class="cit ref-cit ref-journal" id="cit-352.mar17_9.i1174.13"><div class="cit-metadata"><cite>Eysenbach G. CONSORT-EHEALTH Group. CONSORT-EHEALTH: improving and standardizing evaluation reports of Web-based and mobile health interventions. <abbr class="cit-jnl-abbrev">J Med Internet Res</abbr><span class="cit-pub-date"> 2011</span>;<span class="cit-vol">13</span>:e126. <a href="http://dx.doi.org/doi:10.2196/jmir.1923">doi:10.2196/jmir.1923</a>. <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=22209829">22209829</a>.</cite></div><div class="cit-extra"></div></div></li><li><a class="rev-xref-ref" href="#xref-ref-14-1" title="View reference 14 in text" id="ref-14">↵</a><div class="cit ref-cit ref-journal" id="cit-352.mar17_9.i1174.14"><div class="cit-metadata"><cite>Hoffmann TC, Glasziou PP, Boutron I, et al. Better reporting of interventions: template for intervention description and replication (TIDieR) checklist and guide. <abbr class="cit-jnl-abbrev">BMJ</abbr><span class="cit-pub-date"> 2014</span>;<span class="cit-vol">348</span>:g1687. <a href="http://dx.doi.org/doi:10.1136/bmj.g1687">doi:10.1136/bmj.g1687</a>. <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=24609605">24609605</a>.</cite></div><div class="cit-extra"></div></div></li><li><a class="rev-xref-ref" href="#xref-ref-15-1" title="View reference 15 in text" id="ref-15">↵</a><div class="cit ref-cit ref-journal" id="cit-352.mar17_9.i1174.15"><div class="cit-metadata"><cite>Moher D, Schulz KF, Simera I, Altman DG. Guidance for developers of health research reporting guidelines. <abbr class="cit-jnl-abbrev">PLoS Med</abbr><span class="cit-pub-date"> 2010</span>;<span class="cit-vol">7</span>:e1000217. <a href="http://dx.doi.org/doi:10.1371/journal.pmed.1000217">doi:10.1371/journal.pmed.1000217</a>. <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=20169112">20169112</a>.</cite></div><div class="cit-extra"></div></div></li><li><a class="rev-xref-ref" href="#xref-ref-16-1" title="View reference 16 in text" id="ref-16">↵</a><div class="cit ref-cit ref-other" id="cit-352.mar17_9.i1174.16"><div class="cit-metadata unstructured">Jamison JC, Karlan D, Raffler P. Mixed method evaluation of a passive mHealth sexual information texting service in Uganda. National Bureau of Economic Research 2013. No w19107.</div><div class="cit-extra"></div></div></li><li><a class="rev-xref-ref" href="#xref-ref-17-1" title="View reference 17 in text" id="ref-17">↵</a><div class="cit ref-cit ref-journal" id="cit-352.mar17_9.i1174.17"><div class="cit-metadata"><cite>Ngabo F, Nguimfack J, Nwaigwe F, et al. Designing and implementing an innovative SMS-based alert system (RapidSMS-MCH) to monitor pregnancy and reduce maternal and child deaths in Rwanda. <abbr class="cit-jnl-abbrev">Pan Afr Med J</abbr><span class="cit-pub-date"> 2012</span>;<span class="cit-vol">13</span>:31.<a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=23330022">23330022</a>.</cite></div><div class="cit-extra"></div></div></li><li><a class="rev-xref-ref" href="#xref-ref-18-1" title="View reference 18 in text" id="ref-18">↵</a><div class="cit ref-cit ref-journal" id="cit-352.mar17_9.i1174.18"><div class="cit-metadata"><cite>Stockwell MS, Kharbanda EO, Martinez RA, Vargas CY, Vawdrey DK, Camargo S. Effect of a text messaging intervention on influenza vaccination in an urban, low-income pediatric and adolescent population: a randomized controlled trial. <abbr class="cit-jnl-abbrev">JAMA</abbr><span class="cit-pub-date"> 2012</span>;<span class="cit-vol">307</span>:1702-<span class="cit-lpage">8</span>. <a href="http://dx.doi.org/doi:10.1001/jama.2012.502">doi:10.1001/jama.2012.502</a>. <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=22535855">22535855</a>.</cite></div><div class="cit-extra"></div></div></li><li><a class="rev-xref-ref" href="#xref-ref-19-1" title="View reference 19 in text" id="ref-19">↵</a><div class="cit ref-cit ref-journal" id="cit-352.mar17_9.i1174.19"><div class="cit-metadata"><cite> PLOS Medicine editors. A reality checkpoint for mobile health: three challenges to overcome. <abbr class="cit-jnl-abbrev">PLoS Med</abbr><span class="cit-pub-date"> 2013</span>;<span class="cit-vol">10</span>:e1001395. <a href="http://dx.doi.org/doi:10.1371/journal.pmed.1001395">doi:10.1371/journal.pmed.1001395</a>. <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=23468597">23468597</a>.</cite></div><div class="cit-extra"></div></div></li><li><a class="rev-xref-ref" href="#xref-ref-20-1" title="View reference 20 in text" id="ref-20">↵</a><div class="cit ref-cit ref-journal" id="cit-352.mar17_9.i1174.20"><div class="cit-metadata"><cite>Stockwell MS, Kharbanda EO, Martinez RA, Vargas CY, Vawdrey DK, Camargo S. Effect of a text messaging intervention on influenza vaccination in an urban, low-income pediatric and adolescent population: a randomized controlled trial. <abbr class="cit-jnl-abbrev">JAMA</abbr><span class="cit-pub-date"> 2012</span>;<span class="cit-vol">307</span>:1702-<span class="cit-lpage">8</span>. <a href="http://dx.doi.org/doi:10.1001/jama.2012.502">doi:10.1001/jama.2012.502</a>. <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=22535855">22535855</a>.</cite></div><div class="cit-extra"></div></div></li><li><a class="rev-xref-ref" href="#xref-ref-21-1" title="View reference 21 in text" id="ref-21">↵</a><div class="cit ref-cit ref-journal" id="cit-352.mar17_9.i1174.21"><div class="cit-metadata"><cite>L’Engle KL, Vahdat HL, Ndakidemi E, Lasway C, Zan T. Evaluating feasibility, reach and potential impact of a text message family planning information service in Tanzania. <abbr class="cit-jnl-abbrev">Contraception</abbr><span class="cit-pub-date"> 2013</span>;<span class="cit-vol">87</span>:251-<span class="cit-lpage">6</span>. <a href="http://dx.doi.org/doi:10.1016/j.contraception.2012.07.009">doi:10.1016/j.contraception.2012.07.009</a>. <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=22935322">22935322</a>.</cite></div><div class="cit-extra"></div></div></li><li><a class="rev-xref-ref" href="#xref-ref-22-1" title="View reference 22 in text" id="ref-22">↵</a><div class="cit ref-cit ref-journal" id="cit-352.mar17_9.i1174.22"><div class="cit-metadata"><cite>Patrick K, Raab F, Adams MA, et al. A text message-based intervention for weight loss: randomized controlled trial. <abbr class="cit-jnl-abbrev">J Med Internet Res</abbr><span class="cit-pub-date"> 2009</span>;<span class="cit-vol">11</span>:e1. <a href="http://dx.doi.org/doi:10.2196/jmir.1100">doi:10.2196/jmir.1100</a>. <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=19141433">19141433</a>.</cite></div><div class="cit-extra"></div></div></li><li><a class="rev-xref-ref" href="#xref-ref-23-1" title="View reference 23 in text" id="ref-23">↵</a><div class="cit ref-cit ref-journal" id="cit-352.mar17_9.i1174.23"><div class="cit-metadata"><cite>Vahdat HL, L’Engle KL, Plourde KF, Magaria L, Olawo A. There are some questions you may not ask in a clinic: providing contraception information to young people in Kenya using SMS. <abbr class="cit-jnl-abbrev">Int J Gynaecol Obstet</abbr><span class="cit-pub-date"> 2013</span>;<span class="cit-vol">123</span>(<span class="cit-supplement">Suppl 1</span>):e2-<span class="cit-lpage">6</span>. <a href="http://dx.doi.org/doi:10.1016/j.ijgo.2013.07.009">doi:10.1016/j.ijgo.2013.07.009</a>. <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=24012514">24012514</a>.</cite></div><div class="cit-extra"></div></div></li><li><a class="rev-xref-ref" href="#xref-ref-24-1" title="View reference 24 in text" id="ref-24">↵</a><div class="cit ref-cit ref-journal" id="cit-352.mar17_9.i1174.24"><div class="cit-metadata"><cite>Gold J, Lim MS, Hocking JS, Keogh LA, Spelman T, Hellard ME. Determining the impact of text messaging for sexual health promotion to young people. <abbr class="cit-jnl-abbrev">Sex Transm Dis</abbr><span class="cit-pub-date"> 2011</span>;<span class="cit-vol">38</span>:247-<span class="cit-lpage">52</span>.<a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=20966830">20966830</a>.</cite></div><div class="cit-extra"></div></div></li><li><a class="rev-xref-ref" href="#xref-ref-25-1" title="View reference 25 in text" id="ref-25">↵</a><div class="cit ref-cit ref-journal" id="cit-352.mar17_9.i1174.25"><div class="cit-metadata"><cite>Lemay NV, Sullivan T, Jumbe B, Perry CP. Reaching remote health workers in Malawi: baseline assessment of a pilot mHealth intervention. <abbr class="cit-jnl-abbrev">J Health Commun</abbr><span class="cit-pub-date"> 2012</span>;<span class="cit-vol">17</span>(<span class="cit-supplement">Suppl 1</span>):105-<span class="cit-lpage">17</span>. <a href="http://dx.doi.org/doi:10.1080/10810730.2011.649106">doi:10.1080/10810730.2011.649106</a>. <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=22548604">22548604</a>.</cite></div><div class="cit-extra"></div></div></li><li><a class="rev-xref-ref" href="#xref-ref-26-1" title="View reference 26 in text" id="ref-26">↵</a><div class="cit ref-cit ref-journal" id="cit-352.mar17_9.i1174.26"><div class="cit-metadata"><cite>Andreatta P, Debpuur D, Danquah A, Perosky J. Using cell phones to collect postpartum hemorrhage outcome data in rural Ghana. <abbr class="cit-jnl-abbrev">Int J Gynaecol Obstet</abbr><span class="cit-pub-date"> 2011</span>;<span class="cit-vol">113</span>:148-<span class="cit-lpage">51</span>. <a href="http://dx.doi.org/doi:10.1016/j.ijgo.2010.11.020">doi:10.1016/j.ijgo.2010.11.020</a>. <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=21420086">21420086</a>.</cite></div><div class="cit-extra"></div></div></li><li><a class="rev-xref-ref" href="#xref-ref-27-1" title="View reference 27 in text" id="ref-27">↵</a><div class="cit ref-cit ref-journal" id="cit-352.mar17_9.i1174.27"><div class="cit-metadata"><cite>Zurovac D, Larson BA, Sudoi RK, Snow RW. Costs and cost-effectiveness of a mobile phone text-message reminder programmes to improve health workers’ adherence to malaria guidelines in Kenya. <abbr class="cit-jnl-abbrev">PLoS One</abbr><span class="cit-pub-date"> 2012</span>;<span class="cit-vol">7</span>:e52045. <a href="http://dx.doi.org/doi:10.1371/journal.pone.0052045">doi:10.1371/journal.pone.0052045</a>. <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=23272206">23272206</a>.</cite></div><div class="cit-extra"></div></div></li><li><a class="rev-xref-ref" href="#xref-ref-28-1" title="View reference 28 in text" id="ref-28">↵</a><div class="cit ref-cit ref-journal" id="cit-352.mar17_9.i1174.28"><div class="cit-metadata"><cite>Tomlinson M, Solomon W, Singh Y, et al. The use of mobile phones as a data collection tool: a report from a household survey in South Africa. <abbr class="cit-jnl-abbrev">BMC Med Inform Decis Mak</abbr><span class="cit-pub-date"> 2009</span>;<span class="cit-vol">9</span>:51. <a href="http://dx.doi.org/doi:10.1186/1472-6947-9-51">doi:10.1186/1472-6947-9-51</a>. <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=20030813">20030813</a>.</cite></div><div class="cit-extra"></div></div></li><li><a class="rev-xref-ref" href="#xref-ref-29-1" title="View reference 29 in text" id="ref-29">↵</a><div class="cit ref-cit ref-journal" id="cit-352.mar17_9.i1174.29"><div class="cit-metadata"><cite>Chaiyachati KH, Loveday M, Lorenz S, et al. A pilot study of an mHealth application for healthcare workers: poor uptake despite high reported acceptability at a rural South African community-based MDR-TB treatment program. <abbr class="cit-jnl-abbrev">PLoS One</abbr><span class="cit-pub-date"> 2013</span>;<span class="cit-vol">8</span>:e64662. <a href="http://dx.doi.org/doi:10.1371/journal.pone.0064662">doi:10.1371/journal.pone.0064662</a>. <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=23724075">23724075</a>.</cite></div><div class="cit-extra"></div></div></li><li><a class="rev-xref-ref" href="#xref-ref-30-1" title="View reference 30 in text" id="ref-30">↵</a><div class="cit ref-cit ref-journal" id="cit-352.mar17_9.i1174.30"><div class="cit-metadata"><cite>Tomlinson M, Solomon W, Singh Y, et al. The use of mobile phones as a data collection tool: a report from a household survey in South Africa. <abbr class="cit-jnl-abbrev">BMC Med Inform Decis Mak</abbr><span class="cit-pub-date"> 2009</span>;<span class="cit-vol">9</span>:51. <a href="http://dx.doi.org/doi:10.1186/1472-6947-9-51">doi:10.1186/1472-6947-9-51</a>. <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=20030813">20030813</a>.</cite></div><div class="cit-extra"></div></div></li><li><a class="rev-xref-ref" href="#xref-ref-31-1" title="View reference 31 in text" id="ref-31">↵</a><div class="cit ref-cit ref-journal" id="cit-352.mar17_9.i1174.31"><div class="cit-metadata"><cite>Dowshen N, Kuhns LM, Gray C, Lee S, Garofalo R. Feasibility of interactive text message response (ITR) as a novel, real-time measure of adherence to antiretroviral therapy for HIV+ youth. <abbr class="cit-jnl-abbrev">AIDS Behav</abbr><span class="cit-pub-date"> 2013</span>;<span class="cit-vol">17</span>:2237-<span class="cit-lpage">43</span>. <a href="http://dx.doi.org/doi:10.1007/s10461-013-0464-6">doi:10.1007/s10461-013-0464-6</a>. <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=23546844">23546844</a>.</cite></div><div class="cit-extra"></div></div></li><li><a class="rev-xref-ref" href="#xref-ref-32-1" title="View reference 32 in text" id="ref-32">↵</a><div class="cit ref-cit ref-journal" id="cit-352.mar17_9.i1174.32"><div class="cit-metadata"><cite>Arsand E, Tatara N, Østengen G, Hartvigsen G. Mobile phone-based self-management tools for type 2 diabetes: the few touch application. <abbr class="cit-jnl-abbrev">J Diabetes Sci Technol</abbr><span class="cit-pub-date"> 2010</span>;<span class="cit-vol">4</span>:328-<span class="cit-lpage">36</span>. <a href="http://dx.doi.org/doi:10.1177/193229681000400213">doi:10.1177/193229681000400213</a>. <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=20307393">20307393</a>.</cite></div><div class="cit-extra"></div></div></li></ol></div><span class="highwire-journal-article-marker-end"></span></div><span id="related-urls"></span></div><a href="https://www.bmj.com/content/352/bmj.i1174.abstract" class="hw-link hw-link-article-abstract">View Abstract</a></div>  </div>
+
+  
+  </div>
+</div>
+  </div>
+</div>
+</div></div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-highwire-article-trendmd" >
+  
+      
+  
+  <div class="pane-content">
+    <div id="trendmd-suggestions"></div>  </div>
+
+  
+  </div>
+        </article>
+      </div>
+      <div class="right-nav col-xs-12 col-sm-4 col-md-4 col-lg-4">
+        <aside>
+          <div class="panel-pane pane-service-links" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="service-links"><ul><li class="first"><a href="http://twitter.com/share?url=https%3A//www.bmj.com/content/352/bmj.i1174&amp;count=horizontal&amp;via=&amp;text=Guidelines%20for%20reporting%20of%20health%20interventions%20using%20mobile%20phones%3A%20mobile%20health%20%28mHealth%29%20evidence%20reporting%20and%20assessment%20%28mERA%29%20checklist&amp;counturl=https%3A//www.bmj.com/content/352/bmj.i1174" class="twitter-share-button service-links-twitter-widget" id="twitter_widget" title="Tweet This" rel="nofollow"><span class="element-invisible">Tweet Widget</span></a></li>
+<li class="last"><a href="http://www.facebook.com/plugins/like.php?href=https%3A//www.bmj.com/content/352/bmj.i1174&amp;layout=button_count&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;width=100&amp;height=21&amp;font=&amp;locale=" id="facebook_like" title="I Like it" class="service-links-facebook-like" rel="nofollow"><span class="element-invisible">Facebook Like</span></a></li>
+</ul></div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-bmj-issue-link" >
+  
+      
+  
+  <div class="pane-content">
+    <a href="/content/352/8049" class="btn btn-primary" target="_blank">See other articles in issue 8049</a>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-bmj-article-buttons" >
+  
+        <h2 class="pane-title">Article tools</h2>
+    
+  
+  <div class="pane-content">
+    <a href="/content/352/bmj.i1174.full.pdf" title="PDF" class="pdf-link"><span class="icon"><em class="bmj-icon blue-icon fa fa-file-text"></em>PDF</span></a><a href="/content/352/bmj.i1174/rapid-responses" class="citation-rr-link"><em class="bmj-icon blue-icon fa fa-comment"></em>3 responses</a>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-panels-mini pane-jnl-bmj-art-tools" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="panel-display panel-1col clearfix" id="mini-panel-jnl_bmj_art_tools">
+  <div class="panel-panel panel-col">
+    <div><ul><li class="first"><div class="panel-pane pane-custom pane-1" >
+  
+      
+  
+  <div class="pane-content">
+    <p><i class="bmj-icon fa fa-edit"></i><a href="/content/352/bmj.i1174/submit-a-rapid-response">Respond to this article</a></p>
+  </div>
+
+  
+  </div>
+</li>
+<li><div class="panel-pane pane-bmj-article-fig-data-link" >
+  
+      
+  
+  <div class="pane-content">
+    <i class="bmj-icon fa fa-plus"></i><a href="/content/bmj/352/bmj.i1174/related#datasupp">Data supplement</a>  </div>
+
+  
+  </div>
+</li>
+<li><div class="panel-pane pane-bmj-variant-link" >
+  
+      
+  
+  <div class="pane-content">
+    <i class="bmj-icon fa fa-print"></i><a href="/content/352/bmj.i1174.full-text.print" data-font-icon="fa fa-print">Print</a>  </div>
+
+  
+  </div>
+</li>
+<li><div class="panel-pane pane-bmj-minipanel-model-link pane-jnl-bmj-article-page-alerts" >
+  
+      
+  
+  <div class="pane-content">
+    <div class='minipanel-model-wrapper'><div class='minipanel-model-link-link'><i class="bmj-icon fa fa-bullhorn"></i><a href="/#mini-panel-jnl-bmj-article-page-alerts-1" data-toggle="collapse" role="button" data-font-icon="fa fa-bullhorn">Alerts & updates</a></div><!-- Collapse --><div id="mini-panel-jnl-bmj-article-page-alerts-1" class="panel-collapse collapse"><div class="minipanel-header"><h4 class="minipanel-label">Article alerts</h4><div class="short-description"><div class="alerts-marketing">Please note: your email address is provided to the journal, which may use this information for marketing purposes.</div></div></div><div class="minipanel-body"><div class="panel-display row bootstrap-onecol" id="mini-panel-jnl_bmj_article_page_alerts">
+  <div class="panel-panel col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <div class="panel-pane pane-custom pane-2" >
+  
+      
+  
+  <div class="pane-content">
+    <h4 class="minipanel-label">Log in or register:</h4>
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-alerts-login-form" >
+  
+      
+  
+  <div class="pane-content">
+    <form action="/content/352/bmj.i1174?tab=article-alert" method="post" id="user-login-form" accept-charset="UTF-8"><div><div class="form-type-textfield form-item-name form-item form-group">
+  <label for="edit-name">Username <span class="form-required" title="This field is required.">*</span></label>
+ <input class="form-control form-text required" type="text" id="edit-name" name="name" value="" size="15" maxlength="60" />
+</div>
+<div class="form-type-password form-item-pass form-item form-group">
+  <label for="edit-pass">Password <span class="form-required" title="This field is required.">*</span></label>
+ <input class="form-control form-text required" type="password" id="edit-pass" name="pass" size="15" maxlength="128" />
+</div>
+<input type="hidden" name="form_build_id" value="form-FvL0hDG-XEj92D3lt6raZfhthRLDsWNZlHjlgvRCP_0" />
+<input type="hidden" name="form_id" value="highwire_alerts_user_login" />
+<input class="btn form-submit" type="submit" id="edit-submit" name="op" value="Log in" /></div></form>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-custom pane-3"  id="register-for-alerts">
+  
+      
+  
+  <div class="pane-content">
+    <p><a class="btn register-button" href="//myaccount.bmj.com/myaccount/registration.html?regService=bmj-registration&amp;fwdUrl=https://www.bmj.com/content/352/bmj.i1174?tab=article-alert&amp;itemId=pr1906">Register for alerts</a><br />
+<div class="alerts-email"><i class="fa fa-info-circle"></i> If you have registered for alerts, you should use your registered email address as your username</div>
+  </div>
+
+  
+  </div>
+  </div>
+</div>
+</div></div></div>  </div>
+
+  
+  </div>
+</li>
+<li><div class="panel-pane pane-bmj-minipanel-model-link pane-article-page-citation-download" >
+  
+      
+  
+  <div class="pane-content">
+    <div class='minipanel-model-wrapper'><div class='minipanel-model-link-link'><i class="bmj-icon fa fa-globe"></i><a href="/#mini-panel-article-page-citation-download-1" data-toggle="collapse" role="button" data-font-icon="fa fa-globe">Citation tools</a></div><!-- Collapse --><div id="mini-panel-article-page-citation-download-1" class="panel-collapse collapse"><div class="minipanel-header"><h4 class="minipanel-label">Download this article to citation manager</h4></div><div class="minipanel-body"><div class="panel-display row bootstrap-onecol" id="mini-panel-article_page_citation_download">
+  <div class="panel-panel col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <div class="panel-pane pane-bmj-citation-export" >
+  
+      
+  
+  <div class="pane-content">
+    <div>  
+  <div class="highwire-citation-info">
+      <div class="highwire-article-citation highwire-citation-type-highwire-article" data-node-nid="919713" id="node919713--2" data-pisa="bmj;352/mar17_9/i1174" data-pisa-master="bmj;bmj.i1174" data-apath="/bmj/352/bmj.i1174.atom"><div id="jnl_bmj_custom_authors" style="display: none;"><span data-delta="0"><span class="nlm-given-names">Smisha</span> <span class="nlm-surname">Agarwal</span> <span class="nlm-role">associate faculty</span></span>, <span data-delta="1"><span class="nlm-given-names">Amnesty E</span> <span class="nlm-surname">LeFevre</span> <span class="nlm-role">assistant scientist</span></span>, <span data-delta="2"><span class="nlm-given-names">Jaime</span> <span class="nlm-surname">Lee</span> <span class="nlm-role">research assistant</span></span>, <span data-delta="3"><span class="nlm-given-names">Kelly</span> <span class="nlm-surname">L’Engle</span> <span class="nlm-role">assistant professor</span></span>, <span data-delta="4"><span class="nlm-given-names">Garrett</span> <span class="nlm-surname">Mehl</span> <span class="nlm-role">scientist</span></span>, <span data-delta="5"><span class="nlm-given-names">Chaitali</span> <span class="nlm-surname">Sinha</span> <span class="nlm-role"> senior programme officer</span></span> et al</div>
+<div  class="highwire-cite highwire-cite-highwire-article highwire-citation-bmj-article-citation-export clearfix" >
+  
+      <span  class="highwire-cite-authors" ><span data-delta="0"><span class="nlm-surname">Agarwal</span> <span class="nlm-given-names">Smisha</span></span>, <span data-delta="1"><span class="nlm-surname">LeFevre</span> <span class="nlm-given-names">Amnesty E</span></span>, <span data-delta="2"><span class="nlm-surname">Lee</span> <span class="nlm-given-names">Jaime</span></span>, <span data-delta="3"><span class="nlm-surname">L’Engle</span> <span class="nlm-given-names">Kelly</span></span>, <span data-delta="4"><span class="nlm-surname">Mehl</span> <span class="nlm-given-names">Garrett</span></span>, <span data-delta="5"><span class="nlm-surname">Sinha</span> <span class="nlm-given-names">Chaitali</span></span> et al. </span>
+  
+      <span class="highwire-cite-title article-title">Guidelines for reporting of health interventions using mobile phones: mobile health (mHealth) evidence reporting and assessment (mERA) checklist</span>  
+  
+      <span  class="highwire-cite-metadata" ><span  class="highwire-cite-metadata-journal highwire-cite-metadata">BMJ  </span><span  class="highwire-cite-metadata-date highwire-cite-metadata">2016;  </span><span  class="highwire-cite-metadata-volume highwire-cite-metadata">352 </span><span  class="highwire-cite-metadata-volume highwire-cite-metadata">:i1174 </span></span>
+  
+  
+  </div>
+</div>  </div>
+  <div class="highwire-citation-formats">
+  	    <div class="highwire-citation-formats-links">
+      <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.spage&amp;rft.epage&amp;rft.atitle=Guidelines%20for%20reporting%20of%20health%20interventions%20using%20mobile%20phones%3A%20mobile%20health%20%28mHealth%29%20evidence%20reporting%20and%20assessment%20%28mERA%29%20checklist&amp;rft.volume=352&amp;rft.issue&amp;rft.date=2016-03-17%2015%3A01%3A46&amp;rft.stitle&amp;rft.jtitle=BMJ&amp;rft.au=Agarwal%2C+Smisha&amp;rft.au=LeFevre%2C+Amnesty+E&amp;rft.au=Lee%2C+Jaime&amp;rft.au=L%E2%80%99Engle%2C+Kelly&amp;rft.au=Mehl%2C+Garrett&amp;rft.au=Sinha%2C+Chaitali&amp;rft.au=Labrique%2C+Alain"></span><h3></h3><ul class="bmj-citation-links"><li class="first">BibTeX (win & mac)<a href="/highwire/citation/919713/bibtext" class="citation-link btn btn-primary pull-right">Download</a></li>
+<li>EndNote (tagged)<a href="/highwire/citation/919713/endnote-tagged" class="citation-link btn btn-primary pull-right">Download</a></li>
+<li>EndNote 8 (xml)<a href="/highwire/citation/919713/endnote-8-xml" class="citation-link btn btn-primary pull-right">Download</a></li>
+<li>RefWorks Tagged (win & mac)<a href="/highwire/citation/919713/refworks-tagged" class="citation-link btn btn-primary pull-right">Download</a></li>
+<li>RIS (win only)<a href="/highwire/citation/919713/ris" class="citation-link btn btn-primary pull-right">Download</a></li>
+<li class="last">Medlars<a href="/highwire/citation/919713/medlars" class="citation-link btn btn-primary pull-right">Download</a></li>
+</ul>    </div>
+  </div>
+</div>
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-snippet" >
+  
+        <h2 class="pane-title">Help</h2>
+    
+  
+  <div class="pane-content">
+    <div class="jnl-bmj-citation-download-help" id="jnl-bmj-citation-download-help">
+  
+      
+  <div class="snippet-content">
+    <div class="citation-help">
+  <p class="citation-manager">If you are unable to import citations, please contact
+  technical support for your product directly (links go to external sites):</p>
+
+  <ul>
+    <li><a href="http://www.endnote.com/support/ensupport.asp">EndNote</a></li>
+
+    <li><a href="http://www.procite.com/support/pcsupport.asp">ProCite</a></li>
+
+    <li><a href="http://www.refman.com/support/rmsupport.asp">Reference
+    Manager</a></li>
+
+    <li><a href=
+    "http://www.refworks.com/content/products/content.asp">RefWorks</a></li>
+
+    <li><a href="http://www.zotero.org/support">Zotero</a></li>
+  </ul>
+</div>  </div>
+
+</div>
+  </div>
+
+  
+  </div>
+  </div>
+</div>
+</div></div></div>  </div>
+
+  
+  </div>
+</li>
+<li class="last"><div class="panel-pane pane-bmj-permission-link" >
+  
+      
+  
+  <div class="pane-content">
+    <i class="bmj-icon icon-copyright"></i><a href="https://s100.copyright.com/AppDispatchServlet?publisherName=BMJ&amp;publication=bmj&amp;title=Guidelines%20for%20reporting%20of%20health%20interventions%20using%20mobile%20phones%3A%20mobile%20health%20%28mHealth%29%20evidence%20reporting%20and%20assessment%20%28mERA%29%20checklist&amp;publicationDate=03/17/2016&amp;author=Smisha%20Agarwal%2C%20Amnesty%20E%20LeFevre%2C%20Jaime%20Lee%2C%20Kelly%20L%E2%80%99Engle%2C%20Garrett%20Mehl%2C%20Chaitali%20Sinha%2C%20Alain%20Labrique&amp;contentID=10.1136/bmj.i1174&amp;volumeNum=352&amp;issueNum=&amp;startPage=&amp;endPage=&amp;copyright=British%20Medical%20Journal%20Publishing%20Group&amp;oa=n&amp;orderBeanReset=1&amp;link_type=PERMISSIONDIRECT&amp;atom=/bmj/352/bmj.i1174.atom" rel="external" class="bmj-permission-link request-permissions" target="_blank" data-font-icon="icon-copyright">Request permissions</a>  </div>
+
+  
+  </div>
+</li>
+</ul></div>
+  </div>
+</div>
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-panels-mini pane-bmj-article-share-modal" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="panel-display row bootstrap-onecol" id="mini-panel-bmj_article_share_modal">
+  <div class="panel-panel col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <div class="panel-pane pane-bmj-article-links" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="bmj-article-links minipanel-model-wrapper"><ul class="links"><li><div class="minipanel-model-link-link"><i class="bmj-icon fa fa-user"></i><a data-font-icon="fa fa-bullhorn" role="button" data-toggle="collapse" href="/#mini-panel-jnl-bmj-article-page-citation" class="collapsed">Author citation</a></div></li></ul><div style="height: 0px;" id="mini-panel-jnl-bmj-article-page-citation" class="panel-collapse collapse"><ul class="links"><li class="0 first"><a href="//www.ncbi.nlm.nih.gov/sites/entrez?cmd=search&amp;db=pubmed&amp;term=Agarwal%20Smisha%5Bau%5D&amp;dispmax=50" target="_blank">Articles by Smisha Agarwal</a></li>
+<li class="1"><a href="//www.ncbi.nlm.nih.gov/sites/entrez?cmd=search&amp;db=pubmed&amp;term=LeFevre%20Amnesty%20E%5Bau%5D&amp;dispmax=50" target="_blank">Articles by Amnesty E LeFevre</a></li>
+<li class="2"><a href="//www.ncbi.nlm.nih.gov/sites/entrez?cmd=search&amp;db=pubmed&amp;term=Lee%20Jaime%5Bau%5D&amp;dispmax=50" target="_blank">Articles by Jaime Lee</a></li>
+<li class="3"><a href="//www.ncbi.nlm.nih.gov/sites/entrez?cmd=search&amp;db=pubmed&amp;term=L%E2%80%99Engle%20Kelly%5Bau%5D&amp;dispmax=50" target="_blank">Articles by Kelly L’Engle</a></li>
+<li class="4"><a href="//www.ncbi.nlm.nih.gov/sites/entrez?cmd=search&amp;db=pubmed&amp;term=Mehl%20Garrett%5Bau%5D&amp;dispmax=50" target="_blank">Articles by Garrett Mehl</a></li>
+<li class="5"><a href="//www.ncbi.nlm.nih.gov/sites/entrez?cmd=search&amp;db=pubmed&amp;term=Sinha%20Chaitali%5Bau%5D&amp;dispmax=50" target="_blank">Articles by Chaitali Sinha</a></li>
+<li class="6 last"><a href="//www.ncbi.nlm.nih.gov/sites/entrez?cmd=search&amp;db=pubmed&amp;term=Labrique%20Alain%5Bau%5D&amp;dispmax=50" target="_blank">Articles by Alain Labrique</a></li>
+</ul></div></div><div class="bmj-article-links"><ul class="links"><li class="0 first last"><a href="//portfolio.bmj.com/portfolio/add-to-portfolio.html?t=Guidelines%20for%20reporting%20of%20health%20interventions%20using%20mobile%20phones%3A%20mobile%20health%20%28mHealth%29%20evidence%20reporting%20and%20assessment%20%28mERA%29%20checklist&amp;u=http%3A//www.bmj.com/content/352/bmj.i1174" target="_blank" id="add-to-bmj-portfolio" class="bmj-portfolio" rel="nofollow">Add article to BMJ Portfolio</a></li>
+</ul></div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-bmj-minipanel-model-link pane-jnl-bmj-article-button-email-to" >
+  
+      
+  
+  <div class="pane-content">
+    <div class='minipanel-model-wrapper'><div class='minipanel-model-link-link'><i class="bmj-icon icon-email"></i><a href="/#mini-panel-jnl-bmj-article-button-email-to-1" data-toggle="collapse" role="button" data-font-icon="icon-email">Email to a friend</a></div><!-- Collapse --><div id="mini-panel-jnl-bmj-article-button-email-to-1" class="panel-collapse collapse"><div class="minipanel-header"><h4 class="minipanel-label">Forward this page</h4></div><div class="minipanel-body"><div class="panel-display row bootstrap-onecol" id="mini-panel-jnl_bmj_article_button_email_to">
+  <div class="panel-panel col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <div class="panel-pane pane-block pane-forward-form" >
+  
+      
+  
+  <div class="pane-content">
+    <form action="/content/352/bmj.i1174" method="post" id="forward-form" accept-charset="UTF-8"><div><div id="edit-instructions" class="form-type-item form-item form-group">
+ <p>Thank you for your interest in spreading the word about The BMJ.</p><p>NOTE: We only request your email address so that the person you are recommending the page to knows that you wanted them to see it, and that it is not junk mail. We do not capture any email address.</p>
+</div>
+<div class="form-type-textfield form-item-name form-item form-group">
+  <label for="edit-name--2">Username <span class="form-required" title="This field is required.">*</span></label>
+ <input class="form-control form-text required" type="text" id="edit-name--2" name="name" value="" size="58" maxlength="256" />
+</div>
+<div class="form-type-textfield form-item-email form-item form-group">
+  <label for="edit-email">Your Email <span class="form-required" title="This field is required.">*</span></label>
+ <input class="form-control form-text required" type="text" id="edit-email" name="email" value="" size="58" maxlength="256" />
+</div>
+<div class="form-type-textarea form-item-recipients form-item form-group">
+  <label for="edit-recipients">Send To <span class="form-required" title="This field is required.">*</span></label>
+ <div class="form-textarea-wrapper"><textarea class="form-control form-textarea required" id="edit-recipients" name="recipients" cols="50" rows="3"></textarea></div>
+</div>
+<div id="edit-page" class="form-type-item form-item form-group">
+  <label for="edit-page">You are going to email the following </label>
+ <a href="/content/352/bmj.i1174" class="active">Guidelines for reporting of health interventions using mobile phones: mobile health (mHealth) evidence reporting and assessment (mERA) checklist</a>
+</div>
+<div class="form-type-textarea form-item-message form-item form-group">
+  <label for="edit-message--2">Your Personal Message </label>
+ <div class="form-textarea-wrapper"><textarea class="form-control form-textarea" id="edit-message--2" name="message" cols="50" rows="3"></textarea></div>
+</div>
+<input type="hidden" name="path" value="node/919713" />
+<input type="hidden" name="path_cid" value="" />
+<input type="hidden" name="forward_footer" value=" " />
+<input type="hidden" name="form_build_id" value="form-x_EUR60c_8fHx9quZUkixCKdY6Y7dzindD-HTcoZqvA" />
+<input type="hidden" name="form_id" value="forward_form" />
+<input class="btn form-submit" type="submit" id="edit-submit--2" name="op" value="Send" /></div></form>  </div>
+
+  
+  </div>
+  </div>
+</div>
+</div></div></div>  </div>
+
+  
+  </div>
+  </div>
+</div>
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-bmj-article-specialities" >
+  
+        <h2 class="pane-title">Topics</h2>
+    
+  
+  <div class="pane-content">
+    <div class="bmj-item-more-less-list bmj-item-list"><ul class="item-list-speciality"><li class="first"><a href="/specialties/screening-epidemiology" class="article-speciality c-screening-epidemiology">Screening (epidemiology)</a></li>
+<li class="last"><a href="/specialties/screening-public-health" class="article-speciality c-screening-public-health">Screening (public health)</a></li>
+</ul></div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-snippet" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="oas-ad-middle-1" id="oas-ad-middle-1">
+  
+      
+  <div class="snippet-content">
+    <div id="div-gpt-ad-7326006-2"><script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-7326006-2'); });
+  </script></div>
+  </div>
+
+</div>
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-panels-ajax-tab-tabs" >
+  
+      
+  
+  <div class="pane-content">
+    <ul class="tabs inline panels-ajax-tab"><li class="first"><a title="BMJ Feeds UK Jobs" href="/content/366/bmj.l5585" class="panels-ajax-tab-tab" data-panel-name="jnl_bmj_feeds_uk_jobs" data-target-id="panel_jobshome" data-entity-context="none" data-trigger="" data-url-enabled="0">UK jobs</a><a title="BMJ Feeds UK Jobs" href="/panels_ajax_tab/jnl_bmj_feeds_uk_jobs/none/0" rel="nofollow" style="display:none" class="js-crawler-link"></a></li>
+<li class="last"><a title="BMJ Feeds International Jobs" href="/content/366/bmj.l5585" class="panels-ajax-tab-tab" data-panel-name="jnl_bmj_feeds_international_jobs" data-target-id="panel_jobshome" data-entity-context="none" data-trigger="jnl_bmj_feeds_international_jobs" data-url-enabled="0">International jobs</a><a title="BMJ Feeds International Jobs" href="/panels_ajax_tab/jnl_bmj_feeds_international_jobs/none/0" rel="nofollow" style="display:none" class="js-crawler-link"></a></li>
+</ul>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-panels-ajax-tab-container" >
+  
+      
+  
+  <div class="pane-content">
+    <div data-panels-ajax-tab-preloaded="jnl_bmj_feeds_uk_jobs" id="panels-ajax-tab-container-panel_jobshome" class="panels-ajax-tab-container"><div class="panels-ajax-tab-loading" style ="display:none"><img class="loading" src="https://www.bmj.com/sites/all/modules/contrib/panels_ajax_tab/images/loading.gif" alt="Loading" title="Loading" /></div><div class="panels-ajax-tab-wrap-jnl_bmj_feeds_uk_jobs"><div class="panel-display row bootstrap-onecol" >
+  <div class="panel-panel col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <div class="panel-pane pane-jnl-bmj-feed2widget" >
+  
+      
+  
+  <div class="pane-content">
+      <div class="feed2widget-item">
+    <a href="https://jobs.bmj.com/job/94818/consultant-physician-in-respiratory-medicine/?TrackID=8&amp;g=w_bmj_bmj-com">University Hospitals of Leicester NHS Trust: Consultant Physician in Respiratory Medicine</a>  </div>
+  <div class="feed2widget-item">
+    <a href="https://jobs.bmj.com/job/94817/consultant-in-infectious-diseases-opat/?TrackID=8&amp;g=w_bmj_bmj-com">University Hospitals of Leicester NHS Trust: Consultant in Infectious Diseases, OPAT</a>  </div>
+  <div class="feed2widget-item">
+    <a href="https://jobs.bmj.com/job/94799/salaried-gp-positon/?TrackID=8&amp;g=w_bmj_bmj-com">The Barkantine Practice: Salaried GP Positon</a>  </div>
+  <div class="feed2widget-item">
+    <a href="https://jobs.bmj.com/job/94802/consultant-in-vascular-surgery/?TrackID=8&amp;g=w_bmj_bmj-com">St George&#039;s University Hospitals NHS Foundation Trust: Consultant in Vascular Surgery</a>  </div>
+  <div class="feed2widget-item">
+    <a href="https://jobs.bmj.com/job/94801/responsible-officer/?TrackID=8&amp;g=w_bmj_bmj-com">Spectrum Community Health : Responsible Officer</a>  </div>
+  <div class="block-footer bmj_feed2widget">
+    <a href="http://jobs.bmj.com">View more</a>
+  </div>
+  </div>
+
+  
+  </div>
+  </div>
+</div>
+</div></div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-snippet" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="altmertrics" id="altmertrics">
+  
+      
+  <div class="snippet-content">
+    <!-- Widget start -->
+<div id="altmetric"></div>
+<!-- Widget end -->  </div>
+
+</div>
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-custom pane-4" >
+  
+      
+  
+  <div class="pane-content">
+    <!-- Start CrossMark Snippet v1.5 --><p><a data-target="crossmark"><img src="https://crossmark-cdn.crossref.org/widget/v2.0/logos/CROSSMARK_Color_horizontal.svg" width="150" /></a></p>
+<div id="crossmark-dialog" style="display: none;" title="Crossmark">
+<!-- the external CrossMark data is loaded inside this iframe --><iframe id="crossmark-dialog-frame" frameborder="0"></iframe></div>
+<!-- End CrossMark Snippet -->  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-snippet" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="oas-ad-middle-2" id="oas-ad-middle-2">
+  
+      
+  <div class="snippet-content">
+    <div id="div-gpt-ad-7326006-3"><script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-7326006-3'); });
+  </script></div>  </div>
+
+</div>
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-snippet pane-poll-international"  id="poll-widget">
+  
+        <h2 class="pane-title">This week&#039;s poll</h2>
+    
+  
+  <div class="pane-content">
+    <div class="poll-international" id="poll-international">
+  
+      
+  <div class="snippet-content">
+    <p><a class="anchor" id="this-weeks-poll"></a></p>
+<div id="PDI_container58250" class="PDS_Poll"></div>
+<div id="PD_superContainer"></div>
+<div class="poll-related">
+<p><a href="https://www.bmj.com/content/366/bmj.l5225">Read</a> related article</p>
+<p><a href="/about-bmj/poll-archive">See</a> previous polls</p>
+</div>
+  </div>
+
+</div>
+  </div>
+
+  
+  </div>
+        </aside>
+      </div>
+  </div>
+  <!-- /row -->
+
+  <div class="row">
+    <div class="panel-panel page-bottom col-md-12 col-lg-12"> <div class="panel-pane pane-highwire-back-to-top" >
+  
+      
+  
+  <div class="pane-content">
+    <a href="#page" class="back-to-top"><i class="icon-chevron-up"></i> Back to top</a>  </div>
+
+  
+  </div>
+ </div>
+  </div>
+  <!-- /row -->
+</div>
+<!-- /container -->
+
+</section> <!-- /.block -->
+  </div>
+                </section>
+                            </div><!-- /row -->
+        </div><!-- /main-container -->
+        <!-- ______________________ FOOTER _______________________ -->
+                    <div class="footer-wrapper">
+                <div class="container">
+                    <footer id="footer">
+                          <div class="region region-footer">
+    <section id="block-panels-mini-bmj-footer" class="block block-panels-mini clearfix">
+
+      
+  <div class="panel-display bootstrap-footer" id="mini-panel-bmj_footer">
+  <div class="footer-top-row">
+    <div id="footer-social-media" class="footer-column panel-panel col-xs-12 col-sm-3 col-md-3 col-lg-3">
+      <div class="panel-pane pane-block pane-menu-block-2" >
+  
+        <h2 class="pane-title">Follow us on</h2>
+    
+  
+  <div class="pane-content">
+    <div class="menu-block-wrapper menu-block-2 menu-name-menu-footer parent-mlid-1298 menu-level-1">
+  <ul class="menu nav"><li class="first leaf menu-mlid-1299"><a href="http://twitter.com/bmj_latest" target="_blank">Twitter</a></li>
+<li class="leaf menu-mlid-1301"><a href="https://www.facebook.com/bmjdotcom" target="_blank">Facebook</a></li>
+<li class="leaf menu-mlid-1300"><a href="http://youtube.com/user/BMJmedia" target="_blank">YouTube</a></li>
+<li class="leaf menu-mlid-124334"><a href="https://www.pinterest.com/thebmj/">Pinterest</a></li>
+<li class="last leaf menu-mlid-1302"><a href="http://feeds.bmj.com/bmj/recent">RSS</a></li>
+</ul></div>
+  </div>
+
+  
+  </div>
+    </div>
+    <div class="footer-content col-xs-12 col-sm-9 col-md-9 col-lg-9">
+      <div id="footer-top-row" class="row">
+        <div class="footer-column panel-panel col-xs-6 col-sm-4 col-md-4 col-lg-4">
+          <div class="panel-pane pane-block pane-menu-block-3" >
+  
+        <h2 class="pane-title">Content links</h2>
+    
+  
+  <div class="pane-content">
+    <div class="menu-block-wrapper menu-block-3 menu-name-menu-footer parent-mlid-1303 menu-level-1">
+  <ul class="menu nav"><li class="first leaf menu-mlid-125058"><a href="http://www.bmj.com/collections">Collections</a></li>
+<li class="leaf menu-mlid-125036"><a href="http://www.bmj.com/health-in-south-asia">Health in South Asia</a></li>
+<li class="leaf menu-mlid-125034"><a href="http://www.bmj.com/content/women%E2%80%99s-children%E2%80%99s-and-adolescents%E2%80%99-health-0">Women’s, children’s &amp; adolescents’ health</a></li>
+<li class="leaf menu-mlid-17959"><a href="http://www.bmj.com/freezikaresources">Zika virus</a></li>
+<li class="leaf menu-mlid-1305"><a href="/us/research">Research</a></li>
+<li class="leaf menu-mlid-1306"><a href="/us/education">Education</a></li>
+<li class="leaf menu-mlid-6506"><a href="/us/news">News and views</a></li>
+<li class="leaf menu-mlid-1310"><a href="http://blogs.bmj.com/bmj/">BMJ Opinion</a></li>
+<li class="leaf menu-mlid-7612"><a href="/rapid-responses">Rapid responses</a></li>
+<li class="last leaf menu-mlid-1309"><a href="/archive">Archive</a></li>
+</ul></div>
+  </div>
+
+  
+  </div>
+        </div>
+        <div class="footer-column panel-panel col-xs-6 col-sm-4 col-md-4 col-lg-4">
+          <div class="panel-pane pane-block pane-menu-block-4" >
+  
+        <h2 class="pane-title">About us</h2>
+    
+  
+  <div class="pane-content">
+    <div class="menu-block-wrapper menu-block-4 menu-name-menu-footer parent-mlid-1314 menu-level-1">
+  <ul class="menu nav"><li class="first leaf menu-mlid-6487"><a href="/about-bmj">About us</a></li>
+<li class="leaf menu-mlid-1316"><a href="/about-bmj/editorial-staff">Editorial staff</a></li>
+<li class="leaf menu-mlid-1317"><a href="/about-bmj/editorial-staff/bmj-united-states">BMJ in the USA</a></li>
+<li class="leaf menu-mlid-1318"><a href="/about-bmj/editorial-staff/bmj-south-asia">BMJ in South Asia</a></li>
+<li class="leaf menu-mlid-1319"><a href="/about-bmj/advisory-panels">Advisers</a></li>
+<li class="leaf menu-mlid-1320"><a href="/about-bmj/resources-authors/forms-policies-and-checklists">Policies</a></li>
+<li class="last leaf menu-mlid-1323"><a href="http://mc.manuscriptcentral.com/bmj">Submit your paper</a></li>
+</ul></div>
+  </div>
+
+  
+  </div>
+        </div>
+        <div class="footer-column panel-panel col-xs-6 col-sm-4 col-md-4 col-lg-4">
+          <div class="panel-pane pane-block pane-menu-block-5" >
+  
+        <h2 class="pane-title">Resources</h2>
+    
+  
+  <div class="pane-content">
+    <div class="menu-block-wrapper menu-block-5 menu-name-menu-footer parent-mlid-1324 menu-level-1">
+  <ul class="menu nav"><li class="first leaf menu-mlid-1325"><a href="/about-bmj/resources-authors">Authors</a></li>
+<li class="leaf menu-mlid-1326"><a href="/about-bmj/resources-reviewers">Reviewers</a></li>
+<li class="leaf menu-mlid-1327"><a href="/about-bmj/resources-bma-members">BMA members</a></li>
+<li class="leaf menu-mlid-1329"><a href="/about-bmj/resources-readers">Readers</a></li>
+<li class="leaf menu-mlid-1328"><a href="/about-bmj/resources-subscribers">Subscribers</a></li>
+<li class="leaf menu-mlid-1330"><a href="/about-bmj/resources-advertisers-and-sponsors">Advertisers and sponsors</a></li>
+<li class="leaf menu-mlid-1331"><a href="/about-bmj/resources-media">Media</a></li>
+<li class="leaf menu-mlid-8069"><a href="/campaign/patient-partnership">Patient partnership</a></li>
+<li class="leaf menu-mlid-7610"><a href="https://recruiter.bmj.com/">Recruiters</a></li>
+<li class="last leaf menu-mlid-125332"><a href="http://student.bmj.com/student/view-article.html?id=sbmj.k5012">2019 Student BMJ Clegg Scholarship </a></li>
+</ul></div>
+  </div>
+
+  
+  </div>
+        </div>
+        <div class="footer-column panel-panel col-xs-6 col-sm-4 col-md-4 col-lg-4">
+          <div class="panel-pane pane-block pane-menu-block-6" >
+  
+        <h2 class="pane-title">Explore BMJ</h2>
+    
+  
+  <div class="pane-content">
+    <div class="menu-block-wrapper menu-block-6 menu-name-menu-footer parent-mlid-1332 menu-level-1">
+  <ul class="menu nav"><li class="first leaf menu-mlid-7613"><a href="https://www.bmj.com/company/?int_source=tbmj&amp;int_medium=footer&amp;int_campaign=URLswitch">Our company</a></li>
+<li class="leaf menu-mlid-7421"><a href="http://careers.bmj.com/">BMJ Careers</a></li>
+<li class="leaf menu-mlid-7423"><a href="http://learning.bmj.com/">BMJ Learning</a></li>
+<li class="leaf menu-mlid-7424"><a href="http://masterclasses.bmj.com">BMJ Masterclasses</a></li>
+<li class="leaf menu-mlid-7425"><a href="http://journals.bmj.com">BMJ Journals</a></li>
+<li class="leaf menu-mlid-7422"><a href="http://student.bmj.com/">Student BMJ</a></li>
+<li class="leaf menu-mlid-7426"><a href="http://www.bmj.com/about-bmj/resources-readers">Academic edition of The BMJ</a></li>
+<li class="leaf menu-mlid-7427"><a href="http://bestpractice.bmj.com/">BMJ Best Practice</a></li>
+<li class="last leaf menu-mlid-17958"><a href="http://thebmjawards.bmj.com/home">The BMJ Awards</a></li>
+</ul></div>
+  </div>
+
+  
+  </div>
+        </div>
+        <div class="footer-column panel-panel col-xs-6 col-sm-4 col-md-4 col-lg-4">
+          <div class="panel-pane pane-block pane-menu-block-7" >
+  
+        <h2 class="pane-title">My account</h2>
+    
+  
+  <div class="pane-content">
+    <div class="menu-block-wrapper menu-block-7 menu-name-menu-footer parent-mlid-1343 menu-level-1">
+  <ul class="menu nav"><li class="first leaf menu-mlid-1344"><a href="http://myaccount.bmj.com/myaccount/account/hw-registration.html">Email alerts</a></li>
+<li class="last leaf menu-mlid-1345"><a href="http://journals.bmj.com/cgi/activate">Activate subscription</a></li>
+</ul></div>
+  </div>
+
+  
+  </div>
+        </div>
+        <div class="footer-column panel-panel col-xs-6 col-sm-4 col-md-4 col-lg-4">
+          <div class="panel-pane pane-block pane-menu-block-8" >
+  
+        <h2 class="pane-title">Information</h2>
+    
+  
+  <div class="pane-content">
+    <div class="menu-block-wrapper menu-block-8 menu-name-menu-footer parent-mlid-1346 menu-level-1">
+  <ul class="menu nav"><li class="first leaf menu-mlid-1347"><a href="/about-bmj/contact-us">Contact us</a></li>
+<li class="last leaf menu-mlid-1321"><a href="/about-bmj/complaints-procedure">Complaints</a></li>
+</ul></div>
+  </div>
+
+  
+  </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="footer-bottom-row" class="row">
+    <div class="panel-panel col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <div class="panel-pane pane-block pane-menu-block-9 hidden-phone" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="menu-block-wrapper menu-block-9 menu-name-menu-footer parent-mlid-1349 menu-level-1">
+  <ul class="menu nav"><li class="first leaf menu-mlid-1350"><a href="https://www.bmj.com/company/your-privacy/cookies-policy/">Cookie Policy</a></li>
+<li class="leaf menu-mlid-125299"><a href="https://www.bmj.com/company/your-privacy/">Privacy policy</a></li>
+<li class="leaf menu-mlid-1351"><a href="http://www.bmj.com/company/legal-information/">Website T&amp;Cs</a></li>
+<li class="leaf menu-mlid-1352"><a href="http://group.bmj.com/group/about/revenue-sources">Revenue Sources</a></li>
+<li class="leaf menu-mlid-1353"><a href="http://home.highwire.org/">HighWire Press</a></li>
+<li class="last leaf menu-mlid-8093"><a href="/sitemap">Sitemap</a></li>
+</ul></div>
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-bmj-copy-right" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="copyright">Copyright © 2019 BMJ Publishing Group Ltd &nbsp; &nbsp; 京ICP备15042040号-3</div>  </div>
+
+  
+  </div>
+    </div>
+  </div>
+
+</div>
+
+</section> <!-- /.block -->
+  </div>
+                    </footer> <!-- /footer -->
+                </div><!-- /footer-wrapper:container -->
+            </div><!-- /footer-wrapper -->
+        
+        
+    </div> <!-- /wrapper -->
+</div> <!-- /wrapper-outer -->
+  <script defer="defer" async="async" src="https://scholar.google.com/scholar_js/casa.js"></script>
+<script defer="defer" src="//cdn.jsdelivr.net/qtip2/2.2.1/jquery.qtip.min.js"></script>
+
+<!--[if lte IE 9]>
+<script src="https://www.bmj.com/sites/default/files/advagg_js/js__uUBzYI3Q5XNvMp21KYxOKrtiOF-AXtne0PuKEABrNzU__LKNemiKLA9hQoUyoCfWKroffP7iIK811gjCC6mV5LXU__vaGUsTB66vlKZIT6lZGSSYJOMR01cXXD5JRYj-UBZ2o.js#ie9-" onload="if(jQuery.isFunction(jQuery.holdReady)){jQuery.holdReady(true);};
+function advagg_mod_1() {
+  // Count how many times this function is called.
+  advagg_mod_1.count = ++advagg_mod_1.count || 1;
+  try {
+    if (advagg_mod_1.count <= 40) {
+      init_drupal_core_settings();
+
+      // Set this to 100 so that this function only runs once.
+      advagg_mod_1.count = 100;
+    }
+  }
+  catch(e) {
+    if (advagg_mod_1.count >= 40) {
+      // Throw the exception if this still fails after running 40 times.
+      throw e;
+    }
+    else {
+      // Try again in 1 ms.
+      window.setTimeout(advagg_mod_1, 1);
+    }
+  }
+}
+function advagg_mod_1_check() {
+  if (window.init_drupal_core_settings && window.jQuery && window.Drupal) {
+    advagg_mod_1();
+  }
+  else {
+    window.setTimeout(advagg_mod_1_check, 1);
+  }
+}
+advagg_mod_1_check();"></script>
+<![endif]-->
+
+<!--[if gt IE 9]>
+<script src="https://www.bmj.com/sites/default/files/advagg_js/js__uUBzYI3Q5XNvMp21KYxOKrtiOF-AXtne0PuKEABrNzU__LKNemiKLA9hQoUyoCfWKroffP7iIK811gjCC6mV5LXU__vaGUsTB66vlKZIT6lZGSSYJOMR01cXXD5JRYj-UBZ2o.js#ie10+" defer="defer" onload="if(jQuery.isFunction(jQuery.holdReady)){jQuery.holdReady(true);};
+function advagg_mod_1() {
+  // Count how many times this function is called.
+  advagg_mod_1.count = ++advagg_mod_1.count || 1;
+  try {
+    if (advagg_mod_1.count <= 40) {
+      init_drupal_core_settings();
+
+      // Set this to 100 so that this function only runs once.
+      advagg_mod_1.count = 100;
+    }
+  }
+  catch(e) {
+    if (advagg_mod_1.count >= 40) {
+      // Throw the exception if this still fails after running 40 times.
+      throw e;
+    }
+    else {
+      // Try again in 1 ms.
+      window.setTimeout(advagg_mod_1, 1);
+    }
+  }
+}
+function advagg_mod_1_check() {
+  if (window.init_drupal_core_settings && window.jQuery && window.Drupal) {
+    advagg_mod_1();
+  }
+  else {
+    window.setTimeout(advagg_mod_1_check, 1);
+  }
+}
+advagg_mod_1_check();"></script>
+<![endif]-->
+
+<!--[if !IE]><!-->
+<script src="https://www.bmj.com/sites/default/files/advagg_js/js__uUBzYI3Q5XNvMp21KYxOKrtiOF-AXtne0PuKEABrNzU__LKNemiKLA9hQoUyoCfWKroffP7iIK811gjCC6mV5LXU__vaGUsTB66vlKZIT6lZGSSYJOMR01cXXD5JRYj-UBZ2o.js" defer="defer" onload="if(jQuery.isFunction(jQuery.holdReady)){jQuery.holdReady(true);};
+function advagg_mod_1() {
+  // Count how many times this function is called.
+  advagg_mod_1.count = ++advagg_mod_1.count || 1;
+  try {
+    if (advagg_mod_1.count <= 40) {
+      init_drupal_core_settings();
+
+      // Set this to 100 so that this function only runs once.
+      advagg_mod_1.count = 100;
+    }
+  }
+  catch(e) {
+    if (advagg_mod_1.count >= 40) {
+      // Throw the exception if this still fails after running 40 times.
+      throw e;
+    }
+    else {
+      // Try again in 1 ms.
+      window.setTimeout(advagg_mod_1, 1);
+    }
+  }
+}
+function advagg_mod_1_check() {
+  if (window.init_drupal_core_settings && window.jQuery && window.Drupal) {
+    advagg_mod_1();
+  }
+  else {
+    window.setTimeout(advagg_mod_1_check, 1);
+  }
+}
+advagg_mod_1_check();"></script>
+<!--<![endif]-->
+<script>var _prum=[['id', '5615f678abe53d7821ce7320'], ['mark', 'firstbyte',
+      (new Date()).getTime()]]; (function() {
+      var s=document.getElementsByTagName('script')[0],
+      p=document.createElement('script');
+      p.async='async'; p.src='//rum-static.pingdom.net/prum.min.js';s.parentNode.insertBefore(p,s);})();</script>
+<script>
+function advagg_mod_3() {
+  // Count how many times this function is called.
+  advagg_mod_3.count = ++advagg_mod_3.count || 1;
+  try {
+    if (advagg_mod_3.count <= 40) {
+      if(typeof window.MathJax === "undefined") window.MathJax = { menuSettings: { zoom: "Click" } };
+
+      // Set this to 100 so that this function only runs once.
+      advagg_mod_3.count = 100;
+    }
+  }
+  catch(e) {
+    if (advagg_mod_3.count >= 40) {
+      // Throw the exception if this still fails after running 40 times.
+      throw e;
+    }
+    else {
+      // Try again in 250 ms.
+      window.setTimeout(advagg_mod_3, 250);
+    }
+  }
+}
+function advagg_mod_3_check() {
+  if (window.jQuery && window.Drupal && window.Drupal.settings) {
+    advagg_mod_3();
+  }
+  else {
+    window.setTimeout(advagg_mod_3_check, 250);
+  }
+}
+advagg_mod_3_check();</script>
+<script>function init_drupal_core_settings() {jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"the_bmj","theme_token":"JQtJDNXw8HFgmPHvhfdPUTi8wXNIzd9gFqIRXAs4-x0","css":{"modules\/system\/system.base.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/highwire\/highwire\/highwire_draw\/css\/highwire-draw.css":1,"sites\/all\/modules\/highwire\/highwire\/highwire_folders\/highwire_folders.css":1,"sites\/all\/modules\/highwire\/highwire\/highwire_saved_searches\/highwire_saved_searches.css":1,"sites\/all\/modules\/highwire\/highwire\/highwire_user\/highwire_user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/highwire\/highwire\/highwire.style.highwire.css":1,"sites\/all\/modules\/highwire\/highwire\/css\/nlm-elements.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"public:\/\/ctools\/css\/263bfdb18936424f0ade19d6bd885f37.css":1,"sites\/all\/modules\/contrib\/panels_ajax_tab\/css\/panels_ajax_tab.css":1,"sites\/all\/modules\/highwire\/highwire\/plugins\/content_types\/css\/highwire_corrections.css":1,"\/\/cdn.jsdelivr.net\/qtip2\/2.2.1\/jquery.qtip.min.css":1,"sites\/default\/modules\/jnl-bmj\/jnl_bmj\/plugins\/highwire_markup_process\/css\/bmj_author_affiliates.css":1,"sites\/all\/modules\/highwire\/highwire\/highwire.style.markup.css":1,"sites\/all\/modules\/contrib\/forward\/forward.css":1,"sites\/default\/modules\/jnl-bmj\/jnl_bmj\/css\/jnl_bmj_item_list_show_less_more.css":1,"sites\/all\/modules\/contrib\/panels\/plugins\/layouts\/onecol\/onecol.css":1,"sites\/default\/modules\/contrib\/custom_search\/custom_search.css":1,"sites\/default\/themes\/bmj\/the_bmj\/css\/print.css":1,"sites\/default\/themes\/bmj\/the_bmj\/css\/screen.css":1,"sites\/default\/themes\/bmj\/the_bmj\/css\/screen_2.css":1,"sites\/default\/themes\/bmj\/the_bmj\/css\/screen_3.css":1,"sites\/all\/modules\/highwire\/highwire\/css\/highwire-forms.css":1},"js":{"sites\/all\/libraries\/modernizr\/modernizr.min.js":1,"sites\/default\/themes\/bmj\/the_bmj\/js\/modernizr.min.js":1,"https:\/\/scholar.google.com\/scholar_js\/casa.js":1,"\/\/cdn.jsdelivr.net\/qtip2\/2.2.1\/jquery.qtip.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/highwire\/highwire\/js\/highwire.equal-heights.js":1,"sites\/all\/modules\/highwire\/highwire\/js\/highwire.panels-ajax-tab.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/highwire\/highwire\/highwire_user\/js\/highwire_user_meta.js":1,"sites\/all\/modules\/contrib\/panels\/js\/panels.js":1,"sites\/default\/modules\/contrib\/custom_search\/js\/custom_search.js":1,"sites\/all\/modules\/contrib\/panels_ajax_tab\/js\/panels_ajax_tab.js":1,"sites\/all\/modules\/highwire\/highwire\/plugins\/highwire_markup_process\/js\/highwire_at_symbol.js":1,"sites\/all\/modules\/highwire\/highwire\/plugins\/highwire_markup_process\/js\/highwire_article_reference_popup.js":1,"sites\/all\/modules\/highwire\/highwire\/plugins\/highwire_markup_process\/js\/highwire_tables.js":1,"sites\/default\/modules\/jnl-bmj\/jnl_bmj\/plugins\/highwire_markup_process\/js\/bmj_author_affiliates.js":1,"sites\/all\/modules\/contrib\/service_links\/js\/twitter_button.js":1,"sites\/all\/modules\/contrib\/service_links\/js\/facebook_like.js":1,"sites\/all\/modules\/highwire\/highwire\/highwire_citation\/plugins\/content_types\/js\/highwire_citation_export.js":1,"sites\/default\/modules\/jnl-bmj\/jnl_bmj\/js\/jnl_bmj_item_list_show_less_more.js":1,"sites\/default\/themes\/bmj\/the_bmj\/bootstrap\/js\/bootstrap.min.js":1,"sites\/default\/themes\/bmj\/the_bmj\/js\/jquery.cookieBar.js":1,"sites\/default\/themes\/bmj\/the_bmj\/js\/script.js":1,"https:\/\/static.polldaddy.com\/w\/58250.js":1,"https:\/\/ajax.googleapis.com\/ajax\/libs\/jqueryui\/1.8.7\/jquery-ui.min.js":1,"https:\/\/crossmark-cdn.crossref.org\/widget\/v2.0\/widget.js":1,"https:\/\/d1bxh8uas1mnw7.cloudfront.net\/assets\/embed.js":1,"sites\/default\/themes\/bmj\/the_bmj\/js\/oas.js":1,"sites\/all\/modules\/highwire\/highwire\/plugins\/content_types\/js\/highwire_panels_ajax_tab.js":1,"sites\/all\/modules\/highwire\/highwire\/plugins\/highwire_markup_process\/js\/highwire_google_scholar_sprinkle.js":1,"sites\/all\/modules\/highwire\/highwire\/plugins\/highwire_markup_process\/js\/highwire_openurl.js":1,"sites\/all\/modules\/highwire\/highwire\/plugins\/content_types\/js\/highwire_article_trendmd.js":1,"sites\/default\/themes\/bmj\/the_bmj\/js\/altmetric.js":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"highwire":{"nid":"919713","apath":"\/bmj\/352\/bmj.i1174.atom","pisa":"bmj;352\/mar17_9\/i1174","ac":{"\/bmj\/352\/bmj.i1174.atom":{"access":{"full":true,"reprint":true},"pisa_id":"","apath":"\/bmj\/352\/bmj.i1174.atom","jcode":"bmj"}},"processed":["highwire_math"],"markup":[{"requested":"long","variant":"full-text","view":"full","pisa":"bmj;352\/mar17_9\/i1174"},{"requested":"index","variant":"index","view":"full","pisa":"bmj;bmj.i1174\/DC1"},{"requested":"index","variant":"index","view":"full","pisa":"bmj;bmj.i1174\/DC1"}],"trendmd":{"trendmd-suggestions":"{\u0022element\u0022:\u0022#trendmd-suggestions\u0022,\u0022track_id\u0022:\u002224814\u0022}"}},"jnl_bmj_infographic":{"infographic_tab":false},"custom_search":{"form_target":"_self","solr":1},"panel_ajax_tab":{"path":"sites\/all\/modules\/contrib\/panels_ajax_tab"},"instances":"{\u0022highwire_abstract_tooltip\u0022:{\u0022content\u0022:{\u0022text\u0022:\u0022\u0022},\u0022style\u0022:{\u0022tip\u0022:{\u0022width\u0022:20,\u0022height\u0022:20,\u0022border\u0022:1,\u0022offset\u0022:0,\u0022corner\u0022:true},\u0022classes\u0022:\u0022qtip-custom hw-tooltip hw-abstract-tooltip qtip-shadow qtip-rounded\u0022,\u0022classes_custom\u0022:\u0022hw-tooltip hw-abstract-tooltip\u0022},\u0022position\u0022:{\u0022at\u0022:\u0022right center\u0022,\u0022my\u0022:\u0022left center\u0022,\u0022viewport\u0022:true,\u0022adjust\u0022:{\u0022method\u0022:\u0022shift\u0022}},\u0022show\u0022:{\u0022event\u0022:\u0022mouseenter click \u0022,\u0022solo\u0022:true},\u0022hide\u0022:{\u0022event\u0022:\u0022mouseleave \u0022,\u0022fixed\u0022:1,\u0022delay\u0022:\u0022100\u0022}},\u0022highwire_author_tooltip\u0022:{\u0022content\u0022:{\u0022text\u0022:\u0022\u0022},\u0022style\u0022:{\u0022tip\u0022:{\u0022width\u0022:15,\u0022height\u0022:15,\u0022border\u0022:1,\u0022offset\u0022:0,\u0022corner\u0022:true},\u0022classes\u0022:\u0022qtip-custom hw-tooltip hw-author-tooltip qtip-shadow qtip-rounded\u0022,\u0022classes_custom\u0022:\u0022hw-tooltip hw-author-tooltip\u0022},\u0022position\u0022:{\u0022at\u0022:\u0022top center\u0022,\u0022my\u0022:\u0022bottom center\u0022,\u0022viewport\u0022:true,\u0022adjust\u0022:{\u0022method\u0022:\u0022\u0022}},\u0022show\u0022:{\u0022event\u0022:\u0022mouseenter \u0022,\u0022solo\u0022:true},\u0022hide\u0022:{\u0022event\u0022:\u0022mouseleave \u0022,\u0022fixed\u0022:1,\u0022delay\u0022:\u0022100\u0022}},\u0022highwire_reflinks_tooltip\u0022:{\u0022content\u0022:{\u0022text\u0022:\u0022\u0022},\u0022style\u0022:{\u0022tip\u0022:{\u0022width\u0022:15,\u0022height\u0022:15,\u0022border\u0022:1,\u0022mimic\u0022:\u0022top center\u0022,\u0022offset\u0022:0,\u0022corner\u0022:true},\u0022classes\u0022:\u0022qtip-custom hw-tooltip hw-ref-link-tooltip qtip-shadow qtip-rounded\u0022,\u0022classes_custom\u0022:\u0022hw-tooltip hw-ref-link-tooltip\u0022},\u0022position\u0022:{\u0022at\u0022:\u0022bottom left\u0022,\u0022my\u0022:\u0022top left\u0022,\u0022viewport\u0022:true,\u0022adjust\u0022:{\u0022method\u0022:\u0022flip\u0022}},\u0022show\u0022:{\u0022event\u0022:\u0022mouseenter \u0022,\u0022solo\u0022:true},\u0022hide\u0022:{\u0022event\u0022:\u0022mouseleave \u0022,\u0022fixed\u0022:1,\u0022delay\u0022:\u0022100\u0022}}}","qtipDebug":"{\u0022leaveElement\u0022:0}","ws_fl":{"width":100,"height":21},"jnl_bmj":{"container_id_share":"article-share-modal","container_id_response":"article-response-modal"},"urlIsAjaxTrusted":{"\/content\/352\/bmj.i1174?tab=article-alert":true,"\/content\/352\/bmj.i1174":true,"\/login":true},"orcidLogo":{"svg":"\/sites\/default\/themes\/bmj\/the_bmj\/img\/vector_iD_icon.svg"},"bootstrap":{"anchorsFix":"1","anchorsSmoothScrolling":"1","popoverEnabled":"1","popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":"1","tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});
+if(jQuery.isFunction(jQuery.holdReady)){jQuery.holdReady(false);}} if(window.jQuery && window.Drupal){init_drupal_core_settings();}</script>
+<script defer="defer" src="https://static.polldaddy.com/w/58250.js"></script>
+<script defer="defer" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.7/jquery-ui.min.js"></script>
+<script defer="defer" src="https://crossmark-cdn.crossref.org/widget/v2.0/widget.js"></script>
+<script defer="defer" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+<script src="https://www.bmj.com/sites/default/files/advagg_js/js__3_inV47hKXsbwCqVX2UTZ7gVA3mZcF86n71RrJol6-I__9Lry7e0-SAnI4lhehdPp5UhB9h8kUcn7xcxwcBX1ONY__vaGUsTB66vlKZIT6lZGSSYJOMR01cXXD5JRYj-UBZ2o.js" defer="defer"></script>
+<script src="https://www.bmj.com/sites/default/files/advagg_js/js__waJZDNi_do0c2beaW96A-z2JQXEMt8VA3NZV3tkivxM__sjWl3v1QCivh1-p1RRg-0-W0fC0KlFRvZySjXInX-2M__vaGUsTB66vlKZIT6lZGSSYJOMR01cXXD5JRYj-UBZ2o.js" defer="defer"></script>
+<script src="https://www.bmj.com/sites/default/files/advagg_js/js__NpP3i20DkOKzG7tbh7siR5IyWnn9WFWTDzql3pMUEEI__RfDSLtBfDOZRUIha6Sf-ugwAcPgp4PrmYRzf7MPdmME__vaGUsTB66vlKZIT6lZGSSYJOMR01cXXD5JRYj-UBZ2o.js" defer="defer"></script>
+<script>
+function advagg_mod_2() {
+  // Count how many times this function is called.
+  advagg_mod_2.count = ++advagg_mod_2.count || 1;
+  try {
+    if (advagg_mod_2.count <= 40) {
+      
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0014/4896.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+
+      // Set this to 100 so that this function only runs once.
+      advagg_mod_2.count = 100;
+    }
+  }
+  catch(e) {
+    if (advagg_mod_2.count >= 40) {
+      // Throw the exception if this still fails after running 40 times.
+      throw e;
+    }
+    else {
+      // Try again in 250 ms.
+      window.setTimeout(advagg_mod_2, 250);
+    }
+  }
+}
+function advagg_mod_2_check() {
+  if (window.jQuery && window.Drupal && window.Drupal.settings) {
+    advagg_mod_2();
+  }
+  else {
+    window.setTimeout(advagg_mod_2_check, 250);
+  }
+}
+advagg_mod_2_check();</script>
+<script>
+function advagg_mod_4() {
+  // Count how many times this function is called.
+  advagg_mod_4.count = ++advagg_mod_4.count || 1;
+  try {
+    if (advagg_mod_4.count <= 40) {
+      jQuery(".page-search .pane-quick-search-results .search-snippet").text(function (_, old){ return old.replace(/\S+@\S+\.\S+/, "");});
+
+      // Set this to 100 so that this function only runs once.
+      advagg_mod_4.count = 100;
+    }
+  }
+  catch(e) {
+    if (advagg_mod_4.count >= 40) {
+      // Throw the exception if this still fails after running 40 times.
+      throw e;
+    }
+    else {
+      // Try again in 250 ms.
+      window.setTimeout(advagg_mod_4, 250);
+    }
+  }
+}
+function advagg_mod_4_check() {
+  if (window.jQuery && window.Drupal && window.Drupal.settings) {
+    advagg_mod_4();
+  }
+  else {
+    window.setTimeout(advagg_mod_4_check, 250);
+  }
+}
+advagg_mod_4_check();</script>
+  <script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 973817434;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/973817434/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+  
+</body>
+</html>

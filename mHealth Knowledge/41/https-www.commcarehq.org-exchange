@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+
+
+<!--[if lt IE 7]><html lang="en" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="en" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="en" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
+  <head>
+    
+
+    
+    
+    <title>
+      Log In :: CommCare HQ
+      - 
+      CommCare HQ
+    </title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="content-language" content="en">
+
+    
+    <link rel="shortcut icon" href="https://dnwn0mt1jqwp0.cloudfront.net/static/hqwebapp/images/favicon.png?version=bd1fede" />
+    <link type="application/opensearchdescription+xml"
+          rel="search"
+          href="/searchDescription.xml"
+          title="CommCare HQ" />
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:100,300,400,500,700,800" rel="stylesheet">
+
+    
+
+
+
+
+
+<link rel="stylesheet" href="https://dnwn0mt1jqwp0.cloudfront.net/static/CACHE/css/39a2a85a52b4.css" type="text/css" media="all" />
+
+
+
+    
+      <link rel="apple-touch-icon" sizes="57x57" href="https://dnwn0mt1jqwp0.cloudfront.net/static/hqstyle/images/commcare-icon-57x57.png?version=5689dda"/>
+      <link rel="apple-touch-icon" sizes="76x76" href="https://dnwn0mt1jqwp0.cloudfront.net/static/hqstyle/images/commcare-icon-76x76.png?version=b020428"/>
+      <link rel="apple-touch-icon" sizes="120x120" href="https://dnwn0mt1jqwp0.cloudfront.net/static/hqstyle/images/commcare-icon-120x120.png?version=b0ab2d2"/>
+      <link rel="apple-touch-icon" sizes="152x152" href="https://dnwn0mt1jqwp0.cloudfront.net/static/hqstyle/images/commcare-icon-152x152.png?version=2613ac1"/>
+      <link rel="apple-touch-icon" sizes="167x167" href="https://dnwn0mt1jqwp0.cloudfront.net/static/hqstyle/images/commcare-icon-167x167.png?version=37b6540"/>
+      <link rel="apple-touch-icon" sizes="180x180" href="https://dnwn0mt1jqwp0.cloudfront.net/static/hqstyle/images/commcare-icon-180x180.png?version=46d8f23"/>
+    
+
+    
+  <link type="text/css"
+        rel="stylesheet"
+        media="all"
+        href="https://dnwn0mt1jqwp0.cloudfront.net/static/intl-tel-input/build/css/intlTelInput.css?version=931656c" />
+
+  
+    <link rel="stylesheet" href="https://dnwn0mt1jqwp0.cloudfront.net/static/CACHE/css/e1bbf0f9f60b.css" type="text/css" media="all" />
+  
+
+    
+      <input id="csrfTokenContainer" type="hidden" value="gryanlxcXQJh9ZlIYXqkw2qyXae3BmeczmH0yr6J30dTmYeisZkOwwq0QomGmeoq">
+    
+
+    <link rel="stylesheet" href="https://dnwn0mt1jqwp0.cloudfront.net/static/CACHE/css/8ab020e71af6.css" type="text/css" media="all" />
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    <script>
+      // hqModules.js uses `typeof define` and `define.amd` to determine whether or not to use RequireJS, but
+      // this fails for form designer, which currently uses RequireJS for vellum but not for the surrounding page.
+      window.USE_REQUIREJS = true;
+    </script>
+
+    
+  </head>
+  <body>
+    
+    
+  <div class="bg-container">
+    <div class="bg-full-cover-fixed bg-registration b-lazy"
+         data-src="https://dnwn0mt1jqwp0.cloudfront.net/static/hqwebapp/images/molly.jpg?version=fbf342e"></div>
+    <div class="bg-overlay"></div>
+  </div>
+
+    
+    
+    <div class="hq-container">
+      
+        <div id="hq-navigation"
+             class="navbar navbar-default navbar-static-top navbar-hq-main-menu">
+          <div class="container-fluid">
+
+            
+
+            
+              <nav class="navbar-menus navbar-signin" role="navigation">
+                <div class="nav-settings-bar pull-right">
+                  <a href="/accounts/login/" class="btn btn-primary navbar-btn">Sign In</a>
+                  
+                    <a href="#cta-form-get-demo"
+                       data-toggle="modal"
+                       id="cta-form-get-demo-button-header"
+                       class="btn btn-purple navbar-btn">
+                      Schedule a Demo
+                    </a>
+                  
+                </div>
+              </nav>
+            
+
+            <div class="navbar-header hq-header">
+              <a href="/homepage/" class="navbar-brand">
+                
+                  <!-- navbar.less supplies the default logo -->
+                  <div></div>
+                
+              </a>
+            </div>
+
+            
+
+          </div>
+        </div>
+      
+      
+
+      <!--[if IE]>
+        <div id="unsupported-browser"
+             class="alert alert-danger alert-block alert-full">
+          <p>
+            <i class="fa fa-warning-sign"></i>
+            <strong>
+              CommCare HQ does not work well with Internet Explorer.
+            </strong>
+          </p>
+          <p>
+            
+              We recommend
+              <a href="https://www.google.com/chrome">Chrome</a>
+              or <a href="http://www.mozilla.org/">Firefox</a>.
+            
+          </p>
+        </div>
+      <![endif]-->
+      
+        <div id="hq-messages-container"
+             class="container-fluid messages-container">
+          <div class="row">
+            <div class="col-sm-12">
+              
+              <div id="message-alerts"
+                   class="ko-template"
+                   data-bind="foreach: alerts">
+                <div data-bind="attr: {'class': alert_class}">
+                  <a class="close"
+                     data-dismiss="alert" href="#">&times;</a>
+                  <span data-bind="html: message"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+      
+  
+  
+  
+    
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="reg-form-container sign-in-container">
+        <div class="form-bubble form-bubble-lg">
+          
+
+
+  <h2 class="text-center">
+    Welcome back to CommCare HQ!
+  </h2>
+
+  
+    <p class="text-center">
+      
+        Please sign in below to continue.
+      
+    </p>
+
+    
+  
+
+  
+
+  <form action="" method="post"><input type='hidden' name='csrfmiddlewaretoken' value='gryanlxcXQJh9ZlIYXqkw2qyXae3BmeczmH0yr6J30dTmYeisZkOwwq0QomGmeoq' />
+    
+<input type="hidden" name="hq_login_view-current_step" value="auth" id="id_hq_login_view-current_step" />
+
+  <div class="form-group has-feedback">
+    <label>E-mail</label>
+    <div>
+      <input type="text" name="auth-username" class="form-control" maxlength="75" required id="id_auth-username" />
+      
+      
+    </div>
+  </div>
+
+  <div class="form-group has-feedback">
+    <label>Password</label>
+    <div>
+      <input type="password" name="auth-password" class="form-control" required id="id_auth-password" />
+      
+      
+        <p class="help-block">
+          <a href="/accounts/password_reset_email/">Forgot your password?</a>
+        </p>
+      
+    </div>
+  </div>
+
+
+
+    
+    <div style="display: none"><input type="submit" value=""/></div>
+
+    
+    
+
+    <div class="form-bubble-actions">
+      
+
+
+
+  <button type="submit" class="btn btn-primary btn-lg">Sign In</button>
+
+
+    </div>
+  </form>
+
+
+        </div>
+        
+          <div class="well sign-up-bubble form-bubble-purple">
+            <h2>
+              
+                No account? Sign up today, it's free!
+              
+            </h2>
+            
+              <p class="lead">
+                <strong><a href="http://www.dimagi.com/commcare/">Learn more</a></strong>
+                about how CommCare HQ can be your mobile solution for your frontline workforce.
+              </p>
+            
+            <p class="text-center">
+              <a class="btn btn-purple btn-lg"
+                
+                 href="/register/user"
+                
+              >
+                
+                  Sign Up
+                
+              </a>
+            </p>
+          </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+
+    </div>
+
+    
+    
+      
+        
+
+<footer>
+  <nav id="hq-footer"
+       role="navigation"
+       class="navbar navbar-inverse navbar-hq-footer">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12">
+          <a href="https://dimagi.com/commcare/" class="footer-link-img">
+            <img src="https://dnwn0mt1jqwp0.cloudfront.net/static/hqwebapp/images/commcare-flower-footer.png?version=df495bd"
+                 alt="CommCare"
+                 height="30"  />
+          </a>
+          <a href="http://www.dimagi.com/" class="dimagi-logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="200" height="100" viewBox="0 0 200 100">
+  <g>
+    <path stroke="transparent" fill="#ffffff" d="M33.522,53.736h-6.058v-4.579h-0.134c-2.356,3.433-6.8,5.386-11.109,5.386C6.328,54.544,0,47.205,0,37.78
+		c0-9.561,6.396-16.764,16.222-16.764c4.581,0,8.957,2.088,11.109,5.386h0.134V2.839h6.058V53.736z M27.465,37.78
+		c0-6.463-4.039-11.11-10.502-11.11S6.461,31.317,6.461,37.78c0,6.464,4.039,11.108,10.502,11.108S27.465,44.244,27.465,37.78z"></path>
+  </g>
+  <g>
+    <path stroke="transparent" fill="#ffffff" d="M67.813,21.824h5.655v4.982h0.134c0.607-1.884,4.509-5.79,10.233-5.79c4.711,0,7.941,2.021,9.963,5.925
+		c2.088-3.904,6.26-5.925,10.099-5.925c9.828,0,12.118,7.002,12.118,14.138v18.582h-6.059V35.962c0-4.847-1.012-9.292-6.87-9.292
+		c-5.854,0-8.145,3.973-8.145,9.629v17.437h-6.059V37.039c0-6.059-0.874-10.369-6.733-10.369c-4.376,0-8.277,3.3-8.277,10.504
+		v16.562h-6.06V21.824z"></path>
+  </g>
+  <g>
+    <path stroke="transparent" fill="#ffffff" d="M122.792,25.73c3.365-3.165,8.212-4.714,12.655-4.714c9.426,0,13.332,5.117,13.332,10.637v16.293
+		c0,2.221,0.066,4.107,0.268,5.79h-5.385c-0.136-1.618-0.202-3.231-0.202-4.848h-0.135c-2.694,4.106-6.33,5.655-11.176,5.655
+		c-5.925,0-11.039-3.367-11.039-9.56c0-8.213,7.874-11.041,17.571-11.041h4.443v-1.348c0-3.298-2.425-6.731-7.608-6.731
+		c-4.646,0-6.869,1.951-9.089,3.635L122.792,25.73z M139.892,38.386c-5.723,0-12.723,1.01-12.723,6.127
+		c0,3.635,2.693,5.182,6.866,5.182c6.733,0,9.09-4.98,9.09-9.29v-2.02H139.892z"></path>
+  </g>
+  <g>
+    <path stroke="transparent" fill="#ffffff" d="M187.388,53.465c0,9.627-7,16.427-17.437,16.427c-6.061,0-11.107-1.547-15.617-5.722l4.105-5.117
+		c3.165,3.368,6.732,5.184,11.376,5.184c9.022,0,11.513-5.654,11.513-11.041v-4.711h-0.204c-2.286,3.835-6.661,5.654-11.037,5.654
+		c-9.359,0-16.294-7.07-16.224-16.359c0-9.425,6.325-16.764,16.224-16.764c4.309,0,8.751,1.953,11.107,5.386h0.134v-4.578h6.06
+		V53.465z M160.324,37.78c0,6.462,4.041,10.705,10.503,10.705s10.501-4.243,10.501-10.705c0-6.463-4.039-11.11-10.501-11.11
+		S160.324,31.317,160.324,37.78z"></path>
+  </g>
+  <g>
+    <path stroke="transparent" fill="#ffffff" d="M195.558,5.935c2.423,0,4.442,2.02,4.442,4.445c0,2.423-2.02,4.442-4.442,4.442s-4.442-2.02-4.442-4.442
+		C191.115,7.955,193.135,5.935,195.558,5.935z M192.53,21.824h6.059v31.913h-6.059V21.824z"></path>
+  </g>
+  <g>
+    <g>
+      <path stroke="transparent" fill="#ffffff" d="M50.548,17.7c-4.171,0-7.564-3.395-7.564-7.565c0-4.172,3.394-7.565,7.564-7.565c4.172,0,7.565,3.395,7.565,7.565
+			S54.72,17.7,50.548,17.7z"></path>
+    </g>
+  </g>
+  <path stroke="transparent" fill="#ffffff" d="M137.048,60.53c-2.605,0.359-16.955,0.997-16.955,0.997L87.846,62.52l-2.99,7.192l-3.323,8.222l-3.657,9.098l-3.331,9.095
+	c-0.189,0.516-0.569,0.904-1.031,1.119c-0.463,0.213-1.004,0.252-1.521,0.061c-0.295-0.107-0.546-0.277-0.75-0.488
+	c-0.205-0.213-0.356-0.467-0.449-0.745l-0.011-0.034l-0.014-0.037l-5.815-17.599L59.136,60.8L53.259,43.22l-2.472-7.383
+	l-0.826,2.751l-1.297,4.322l-1.338,4.311l-1.336,4.312l-1.377,4.146l-1.374,4.145l-0.024,0.08l-0.024,0.078
+	c-0.207,0.643-0.612,1.323-1.13,1.68c-0.516,0.36-1.419,0.53-1.782,0.528l-2.431-0.005c0,0-8.778-0.415-10.401-0.511
+	c-1.619-0.097-6.788-0.51-8.104-0.597c-1.62-0.107-6.244-0.561-7.86-0.769c-1.741-0.224-8.403-1.269-10.093-1.521
+	c-0.089-0.011-0.167-0.059-0.219-0.126c-0.053-0.066-0.078-0.153-0.065-0.243c0.01-0.076,0.044-0.142,0.094-0.192
+	c0.053-0.05,0.12-0.083,0.19-0.093c1.621-0.211,14.832-0.772,18.82-0.982c1.621-0.105,6.788-0.343,8.449-0.387l6.663-0.223h1.662
+	l0.906-0.146l0,0l0.621-2.299l1.199-4.428l1.234-4.343l1.234-4.341l1.273-4.33l1.277-4.33l1.316-4.317c0,0,1.024-3.592,1.343-4.404
+	c0.321-0.811,0.867-1.562,1.615-1.962c0.47-0.25,1-0.387,1.545-0.391c0.326-0.001,0.657,0.046,0.986,0.146
+	c0.552,0.168,0.923,0.369,1.3,0.761c0.378,0.391,0.767,1.051,0.945,1.488c0.365,0.913,5.255,17.801,5.255,17.801l5.139,17.801
+	l5.173,17.783l3.562,12.092l0.062,0.216l0.031-0.073l1.439-3.561l3.433-8.982l6.751-18.396c0,0,0.207-0.611,0.396-0.809
+	c0.19-0.198,1.068-0.645,1.731-0.645c0.667,0,34.824,0.098,35.491,0.098c8.312,0,27.436,0.567,28.1,1.292
+	c0.073,0.08,0.073,0.373-0.912,0.565C146.104,59.476,137.811,60.424,137.048,60.53z"></path>
+</svg>
+
+          </a>
+          &nbsp;
+          
+            <a href="https://dimagi.com/commcare/">CommCare</a>
+            is copyright &copy;
+          2019
+          <a href="http://www.dimagi.com/">Dimagi, Inc.</a>
+
+          <div class="visible-sm-inline visible-md-inline visible-lg-inline">&nbsp;|&nbsp;</div>
+          <br class="hidden-sm hidden-md hidden-lg" />
+
+          <a href="https://dimagi.com/commcare/">Learn more about CommCare HQ</a>
+
+          <div class="visible-md-inline visible-lg-inline">&nbsp;|&nbsp;</div>
+          <br class="hidden-md hidden-lg" />
+
+          <a href="http://www.dimagi.com/terms/latest/privacy/" target="_blank">
+            Privacy
+          </a>
+          &nbsp;|&nbsp;
+          <a href="http://www.dimagi.com/terms/latest/tos/" target="_blank">
+            Terms of Service
+          </a>
+          &nbsp;|&nbsp;
+          <a href="http://www.dimagi.com/terms/latest/ba/" target="_blank">
+            Business Agreement
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</footer>
+
+      
+    
+
+    
+    
+      
+    
+
+    
+
+    
+    
+      
+
+
+
+    
+
+    
+      
+    
+
+    
+    
+
+
+
+
+    
+      
+    
+    
+    
+    
+    
+
+    
+      
+      
+    
+
+    <div class="initial-page-data hide">
+      
+        
+      <div data-name="implement_password_obfuscation" data-value="false"></div><div data-name="hide_password_feedback" data-value=""></div><div data-name="mobile_ux_cookie_name" data-value=""></div><div data-name="show_mobile_ux_warning" data-value="false"></div><div data-name="toggles_dict" data-value=""></div><div data-name="previews_dict" data-value=""></div>
+    </div>
+
+       
+      
+    
+
+    <div class="commcarehq-urls hide">
+      
+        
+      <div data-name="notifications_service" data-value="/hq/notifications/service/"></div><div data-name="send_mobile_reminder" data-value="/register/mobile_reminder/"></div>
+    </div>
+
+    
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+  
+
+
+
+    <div class="initial-analytics-data hide">
+      
+        
+      <div data-name="hubspot.demoABv2" data-value="{&quot;name&quot;: &quot;Demo Workflow A/B V2&quot;, &quot;version&quot;: &quot;control&quot;}"></div><div data-name="global.isEnabled" data-value="true"></div><div data-name="global.logLevel" data-value="warning"></div><div data-name="google.apiId" data-value="UA-22103010-1"></div><div data-name="kissmetrics.apiId" data-value="cd451ba27fd7233e6e0c660a2184ff34560ea749"></div><div data-name="kissmetrics.hqInstance" data-value="www"></div><div data-name="hubspot.apiId" data-value="503070"></div><div data-name="hubspot.isDemoVisible" data-value="true"></div><div data-name="hubspot.isDemoTrial" data-value="false"></div><div data-name="appcues.apiId" data-value="30307"></div><div data-name="appcues.username" data-value=""></div><div data-name="appcues.dateCreated" data-value=""></div><div data-name="appcues.firstName" data-value=""></div><div data-name="appcues.lastName" data-value=""></div><div data-name="appcues.userIsDimagi" data-value=""></div><div data-name="appcues.domain" data-value=""></div><div data-name="appcues.instance" data-value="www"></div><div data-name="drift.apiId" data-value="7456r8nz2u34"></div>
+    </div>
+
+    <div class="analytics-ab-tests hide">
+      
+        
+      <div data-name="kissmetrics.demo_workflow_ab_v2" data-value="{&quot;name&quot;: &quot;Demo Workflow A/B V2&quot;, &quot;version&quot;: &quot;control&quot;}"></div>
+    </div>
+
+    
+
+    
+      <script src="/static/jsi18n/en/djangojs.js"></script> 
+      <script src="https://dnwn0mt1jqwp0.cloudfront.net/static/requirejs/require.js?version=33bc97e"></script>
+      <script src="https://dnwn0mt1jqwp0.cloudfront.net/static/hqwebapp/js/hqModules.js?version=bc186ec"></script>
+      
+      <script src="https://dnwn0mt1jqwp0.cloudfront.net/static/hqwebapp/js/requirejs_config.js?version=539ac07"></script>
+      <script src="https://dnwn0mt1jqwp0.cloudfront.net/static/hqwebapp/js/resource_versions.js?version=7e6ea71"></script>
+      <script>
+        requirejs.config({
+          deps: ['knockout', 'ko.mapping'],
+          callback: function (ko, mapping) {
+            ko.mapping = mapping;
+          },
+        });
+        requirejs([
+          'hqwebapp/js/common',
+        ], function() {
+          requirejs([
+            'hqwebapp/js/base_main',
+          ], function () {
+            requirejs(['registration/js/login'], function () {
+              console.log("Loaded requirejs main module: registration/js/login");
+            });
+          });
+        });
+      </script>
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+      
+
+<div class="modal fade"
+     id="cta-form-get-demo">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title">
+          
+            Request a CommCare Demo
+          
+        </h4>
+      </div>
+      <div class="modal-body form-horizontal">
+
+        
+        <div class="form form-horizontal"
+             id="get-demo-cta-form-content"></div>
+
+        
+        <div id="get-demo-cta-calendar-content" style="display: none;">
+          <p>
+            
+              Select a time to see CommCare in action and review
+              questions with our team.
+            
+          </p>
+          <div id="SOIDIV_commcaredemoform"
+               data-so-page="commcaredemoform"
+               data-style="border: 1px solid #d8d8d8; min-width: 290px; max-width: 900px;"
+               data-psz="11"></div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+<!-- used by corehq/apps/hqwebapp/static/hqwebapp/js/components/pagination.js -->
+<script type="text/html" id="ko-pagination-template">
+  <div data-bind="css: { row: !inlinePageListOnly }">
+    <div class="col-sm-5"
+         data-bind="visible: !inlinePageListOnly,
+                    if: !inlinePageListOnly">
+      <div class="form-inline pagination-text">
+        <span data-bind="text: itemsText"></span>
+        <span>
+          <select class="form-control"
+                  data-bind="value: perPage,
+                             options: [5, 25, 50, 100],
+                             optionsText: perPageOptionsText">
+          </select>
+        </span>
+      </div>
+    </div>
+    <div data-bind="css: { 'col-sm-7 text-right': !inlinePageListOnly }">
+      <ul class="pagination">
+        <li>
+          <a href="#"
+             data-bind="click: previousPage">
+            <span>&laquo;</span>
+          </a>
+        </li>
+        <!-- ko foreach: pagesShown -->
+        <li class="text-center"
+            data-bind="css: { active: $data == $parent.currentPage() }">
+          <a href="#"
+             data-bind="click: $parent.goToPage">
+            <i class="fa fa-spin fa-spinner"
+               data-bind="visible: $parent.showSpinner() && $data == $parent.currentPage()"></i>
+            <span data-bind="text: $data, visible: !$parent.showSpinner() || $data != $parent.currentPage()"></span>
+          </a>
+        </li>
+        <!-- /ko -->
+        <li>
+          <a href="#" data-bind="click: nextPage">
+            <span>&raquo;</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</script>
+
+    <script type="text/html" id="ko-inline-edit-template">
+  <div class="ko-inline-edit inline" data-bind="css: {'has-error': hasError()}">
+    <div class="read-only" data-bind="visible: !isEditing(), click: edit, attr: readOnlyAttrs, style: {cursor: disallow_edit ? 'default' : 'pointer'}">
+            <span data-bind="visible: isSaving()" class="pull-right">
+                <i class="fa fa-spin fa-spinner"></i>
+            </span>
+      <!-- ko if: iconClass -->
+      <span class="prefixed-icon" data-bind="css: containerClass">
+                <i data-bind="css: iconClass"></i>
+            </span>
+      <!-- /ko -->
+      <!-- ko if: lang -->
+      <span class="btn btn-xs btn-info btn-langcode-preprocessed" data-bind="text: lang, visible: !value()"></span>
+      <!-- /ko -->
+      <span data-bind="text: value, attr: {'class': containerClass + ' ' + readOnlyClass + ' text'}"></span>
+      <span class="placeholder text-muted" data-bind="text: placeholder, css: containerClass, visible: !value()"></span>
+      <span class="inline-edit-icon" data-bind="css: containerClass, visible: !disallow_edit"><i class="fa fa-pencil"></i></span>
+    </div>
+    <div class="read-write form-inline" data-bind="visible: isEditing(), css: containerClass">
+      <div class="form-group langcode-container" data-bind="css: {'has-lang': lang}">
+        <!-- ko if: nodeName === "textarea" -->
+        <textarea class="form-control" data-bind="
+                        attr: {name: name, id: id, placeholder: placeholder, rows: rows, cols: cols},
+                        value: value,
+                        hasFocus: isEditing(),
+                    "></textarea>
+        <!-- /ko -->
+        <!-- ko if: nodeName === "input" -->
+        <input type="text" class="form-control" data-bind="
+                        attr: {name: name, id: id, placeholder: placeholder, rows: rows, cols: cols},
+                        value: value,
+                        hasFocus: isEditing(),
+                    " />
+        <!-- /ko -->
+        <!-- ko if: lang -->
+        <span class="btn btn-xs btn-info btn-langcode-preprocessed langcode-input pull-right"
+              data-bind="text: lang, visible: !value()"
+        ></span>
+        <!-- /ko -->
+      </div>
+      <div class="help-block" data-bind="text: errorMessage, visible: hasError()"></div>
+      <div class="form-group">
+        <button class="btn btn-primary" data-bind="click: save, hasFocus: saveHasFocus, visible: !isSaving()">
+          <i class="fa fa-check"></i>
+        </button>
+        <button class="btn btn-danger" data-bind="click: cancel, hasFocus: cancelHasFocus, visible: !isSaving()">
+          <i class="fa fa-remove"></i>
+        </button>
+      </div>
+    </div>
+  </div><span data-bind="template: {afterRender: afterRenderFunc}"></span>
+</script>
+
+    <script type="text/html" id="ko-search-box-template">
+  <div class="ko-search-box">
+    <form class="input-group" data-bind="submit: clickAction">
+      <input type="text" class="form-control"
+             data-bind="value: value, valueUpdate: 'afterkeydown', attr: {placeholder: placeholder}, event: {keypress: keypressAction}"  />
+      <span class="input-group-btn">
+        <button type="button" class="btn btn-default" data-bind="click: clickAction">
+          <i data-bind="visible: !immediate" class="fa fa-search"></i>
+          <i data-bind="visible: immediate" class="fa fa-filter"></i>
+        </button>
+        <button class="btn btn-default" type="button" data-bind="click: clearQuery">
+          <i class="fa fa-times"></i>
+        </button>
+      </span>
+    </form>
+  </div>
+</script>
+
+    <script type="text/html" id="ko-select-toggle">
+  <div class="ko-select-toggle">
+    <select class="hide" data-bind="foreach: options, attr: {name: name, id: id}, value: value">
+      <option data-bind="value: $data.id,
+                               text: $data.text,
+                               attr: {selected: $data.selected}"></option>
+    </select>
+    <div class="btn-group-separated" data-bind="foreach: options">
+      <button class="btn btn-default"
+              data-bind="text: $data.text, css: {active: $data.selected}, click: click"></button>
+    </div>
+</script>
+
+    
+
+<!-- used by corehq/apps/hqwebapp/static/hqwebapp/js/components/feedback.js -->
+<script type="text/html" id="ko-feedback-template">
+  <a class="btn btn-link"
+     href="#modal-feedback-form-widget"
+     data-toggle="modal">
+    Give Feedback
+    <i class="fa fa-thumbs-up"></i>
+  </a>
+
+  <div class="modal fade"
+       id="modal-feedback-form-widget"
+       role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">
+            <span aria-hidden="true">&times;</span>
+            <span class="sr-only">
+              Close
+            </span>
+          </button>
+          <h4 class="modal-title">
+            
+              We would love to get your feedback
+            
+          </h4>
+        </div>
+        <div class="modal-body form"
+             data-bind="visible: !showSuccess()">
+          <div class="form-group">
+            <label class="control-label">
+              
+                How would you rate this feature?
+              
+            </label>
+            <div class="row feedback-smiles">
+              <div class="col-xs-4">
+                <button type="button"
+                        data-bind="click: rateBad, css: { selected: rating() === 1 }"
+                        class="btn btn-link rate-bad">
+                  <i class="fa fa-frown-o"></i>
+                  Don't Like It / Not Useful
+                </button>
+              </div>
+              <div class="col-xs-4">
+                <button type="button"
+                        data-bind="click: rateOk, css: { selected: rating() === 2 }"
+                        class="btn btn-link rate-ok">
+                  <i class="fa fa-meh-o"></i>
+                  Not Sure / Confusing
+                </button>
+              </div>
+              <div class="col-xs-4">
+                <button type="button"
+                        data-bind="click: rateGood, css: { selected: rating() === 3 }"
+                        class="btn btn-link rate-good">
+                  <i class="fa fa-smile-o"></i>
+                  Love It / Useful
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label">
+              Any other comments?
+            </label>
+            <textarea data-bind="value: additionalFeedback"
+                      class="form-control"></textarea>
+          </div>
+        </div>
+        <div class="modal-body"
+             data-bind="visible: showSuccess">
+          <p class="lead">
+            
+              Thank you for your feedback! We appreciate it.
+            
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button"
+                  class="btn btn-default"
+                  data-dismiss="modal">Close</button>
+          <button type="button"
+                  class="btn btn-primary"
+                  data-bind="click: submit, visible: !!rating() && !showSuccess()">
+            Submit Feedback
+          </button>
+          <button type="button"
+                  class="btn btn-primary disabled"
+                  disabled="disabled"
+                  data-bind="visible: !rating()">
+            Submit Feedback
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</script>
+
+
+    
+
+    
+
+    
+
+    
+
+  </body>
+</html>

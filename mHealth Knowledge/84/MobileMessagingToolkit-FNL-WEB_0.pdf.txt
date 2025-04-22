@@ -1,0 +1,952 @@
+mHealth Mobile Messaging Toolkit: 
+Considerations When Selecting a Mobile 
+Messaging Platform Vendor
+OCTOBER 1, 2014
+ACKNOWLEDGMENT
+This toolkit was developed by PATH with funding from the mHealth Expert Learning Program (mHELP) and 
+the Mobile Alliance for Maternal Action (MAMA), made possible by the United States Agency for International 
+Development. The views expressed herein are solely those of PATH and do not necessarily reflect the views of 
+the funders.
+AUTHORS
+Matt Morio, Consultant 
+Hallie Goertz, Learning and Communications Specialist, PATH
+Brian Taliesin, Systems Analyst, PATH
+Kate Wilson, Director, Digital Health Solutions, PATH
+ABOUT PATH
+PATH is the leader in global health innovation. An international nonprofit organization, we save lives and 
+improve health, especially among women and children. We accelerate innovation across five platforms — 
+vaccines, drugs, diagnostics, devices, and system and service innovations — that harness our entrepreneurial 
+insight, scientific and public health expertise, and passion for health equity. By mobilizing partners around 
+the world, we take innovation to scale, working alongside countries primarily in Africa and Asia to tackle their 
+greatest health needs. Together, we deliver measurable results that disrupt the cycle of poor health. Learn 
+more at www.path.org or email tsdhs@path.org.
+ABOUT MHELP
+The mHealth Expert Learning Program (mHELP) provides support and technical assistance to individuals, 
+governments, the private sector, and non-governmental organizations in low- and middle-income countries 
+that wish to implement electronic health (eHealth) and mobile health (mHealth) into their health programs. 
+Focused on improving reproductive health, maternal, newborn and child health, and HIV and AIDS, mHELP 
+offers a range of services designed to build capacity and strengthen implementation. For more information, 
+please visit http://www.mhelp.org or email to info@mhelp.org.
+ABOUT MAMA
+Mobile Alliance for Maternal Action (MAMA) delivers vital health information via mobile phones to 
+new and expectant mothers living in poverty throughout the developing world. Hosted by the United 
+Nations Foundation, MAMA provides age and stage-based messages aligned with global best practices, 
+empowering women to make the best decisions for themselves and their families. MAMA was launched 
+in 2011 by then Secretary of State Hillary Clinton as a public private partnership between USAID, Johnson 
+& Johnson, United Nations Foundation, mHealthAlliance and BabyCenter. For more information visit 
+http://mobilemamaalliance.org or email info@mobilemamaalliance.org.
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0). To view a 
+copy of this license, visit https://creativecommons.org/licenses/by-sa/4.0/legalcode or send a letter to Creative Commons, 171 
+Second Street, Suite 300, San Francisco, California, 94105, USA. The content in this document may be freely used in accordance 
+with this license provided the material is accompanied by the following attribution: “From mHealth Mobile Messaging Toolkit: 
+Selecting a Mobile Messaging Platform Vendor. Copyright © 2014, PATH.”
+Copyright © 2014, PATH. All rights reserved. All photographs copyright © 2014, MAMA, and may not be used without permission.
+Suggested citation: PATH. mHealth Mobile Messaging Toolkit: Selecting a Mobile Messaging Platform Vendor. Seattle: PATH; 2014. 
+TABLE OF CONTENTS
+About this Toolkit  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . iv
+WHAT?  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . IV
+WHO? . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . IV
+WHY? . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . IV
+Glossary  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .v
+Introduction  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 1
+Information System Planning in Eight Steps  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 2
+STEP 1 . DEFINE OUTCOMES  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .2
+STEP 2 . FORM YOUR TEAM  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .3
+STEP 3 . DEFINE REQUIREMENTS: WHAT DOES YOUR SYSTEM NEED TO DO?   .  .  .  .  .  .  .  .  .  .3
+OVER ALL PROJECT  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+CONTENT DEVELOPMENT AND LANGUAGE SUPPORT: WHAT IS THE LOCALIZATION PLAN?  . . . . . 4
+COUNTRY HOSTING REQUIREMENTS: WHERE WILL THE DATA BE STORED? . . . . . . . . . . . . . . . . . . . . . 4
+MESSAGING PLATFORM REQUIREMENTS  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+INTEGR ATE WITH EXISTING EHEALTH SYSTEMS: YES OR NO? . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+STEPS 4 AND 5 . FIND THE RIGHT SOLUTION AND VENDOR  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .9
+STEP 6 . ESTIMATE IMPLEMENTATION AND OPERATING COSTS   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 11
+STEPS 7 AND 8 . CREATE AN IMPLEMENTATION PLAN AND 
+UNDERSTAND AND MANAGE PROJECT RISKS   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 13
+Additional Resources  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .14
+Appendix A: Vendor Overviews  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .15
+Appendix B: Vendor Messaging and Hosting Options  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 20
+Appendix C: Vendor Platform Offerings  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 22
+Appendix D: Countries with Vendor Projects or Offices  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .24
+Appendix E: Total Cost of Ownership Budget Matrix   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .26
+Appendix F: Example of Excel-based 
+Messaging Cost Tool  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .27
+Appendix G: Messaging Cost Calculator  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .28
+About this Toolkit
+WHAT?
+This toolkit provides information about currently available mobile messaging technology solutions, as well as 
+things to consider when selecting a vendor and deploying a mobile health, or mHealth, campaign. It is meant 
+to be used with other resources on project design, content development, and behavioral change communica-
+tions, including Planning an Information Systems Project: A Toolkit for Public Health Managers.1 
+WHO?
+This toolkit is designed for mHealth project implementers looking to deploy mobile messaging campaigns to 
+encourage healthy participant behaviors in low- and middle-income countries. Whether a project is in the ear-
+ly design phase or preparing for implementation, this toolkit will help project implementers navigate through 
+critical questions ensuring that the vendor of choice matches the goals and needs of the pilot project as well 
+as the project at scale.
+WHY?
+The mobile technology marketplace is very dynamic. Not only is the technology evolving but so are the infra-
+structure and politics around mobile communications. This toolkit looks to provide frameworks for evaluat-
+ing the best solution for a mHealth project within this environment.
+TOOLBOX
+Please refer to the “Additional resources” section for suggestions of other informational materials, 
+guides, and tools .
+1  World Health Organization, PATH. Planning an Information Systems Project: A Toolkit for Public Health Managers. Seattle: 
+PATH; 2013. Available at: http://www.path.org/publications/files/TS_opt_ict_toolkit.pdf.
+iv | mHealth Mobile Messaging Toolkit
+Glossary
+eHealth Electronic health
+GSM  Global system for mobile communications (formerly Groupe Spéciale Mobile)
+IVR Interactive voice response
+M&E Monitoring and evaluation
+MAMA Mobile Alliance for Maternal Action partnership
+mHealth Mobile health
+mHELP mHealth Expert Learning Program
+MMS Multimedia Messaging Service
+MNO Mobile network operator
+NGO Nongovernmental organization
+PATH Program for Appropriate Technology in Health
+SIM Subscriber identification module (general reference to a SIM card)
+SMS S hort message service (common text message limited to 160 characters)
+UNICEF United Nations Children’s Fund
+USSD Unstructured Supplementary Service Data 
+mHealth Mobile Messaging Toolkit | v
+vi | mHealth Mobile Messaging Toolkit
+Introduction
+There are more than a billion mobile devices in the world. Mobile devices are increasingly being used to reach 
+under-served, low-income, or remote populations.2 We are seeing that mobile messaging can drive behavioral 
+change.3 Once health program implementers have chosen to use the power of mobile devices to influence health 
+behavior, the challenge then is selecting and applying the appropriate mobile technology to address a health 
+problem so that there is an actual behavioral impact. Unfortunately, this is not as simple as selecting a vendor, up-
+loading a few files, and pressing go. Being aware of the key considerations in choosing a mHealth application can 
+help implementers avoid common pitfalls in information and communication technology projects. For example:
+• What are the capabilities of your organization?
+• W hat is the technology scope and scale you 
+want to achieve? MAMA 
+• What are the project requirements?
+The Mobile Alliance for Maternal Action 
+The toolkit provides practical step-by-step questions (MAMA) is a global partnership that provides 
+that global health program implementers may want vital health messages to new and expectant 
+to consider when planning and selecting the most mothers in developing countries via their mobile 
+appropriate communications vendor and application phones in order to support a healthy pregnancy 
+for use in a particular behavioral change interven- and the all-important first months of a child’s life . 
+tion or country. MAMA provides two types of messages: core 
+We have focused explicitly on solutions and ser- messages are built around key health behaviors 
+vices that can be oriented to the size and context of and interventions and are arranged by “age and 
+MAMA projects, which are typically between 1,000 stage,” while topic-based messages have been 
+and 3,000 participants or subscribers. However, the designed on infant feeding, post-partum family 
+principles and recommendations can be adapted for planning, and other requested topics .
+any small technology project supporting behavior Early results show an increase in pre and 
+change. Larger programs also can still use this guide, postnatal visits to health clinics and increased 
+keeping in mind that their planning and implemen- knowledge around nutrition and other vital 
+tation will be more complex, possibly involving out- information .
+reach and marketing campaigns, multimedia and 
+online presence, and custom software development, Expected outcomes include: 
+which are outside the scope of this guide.
+• Reduced maternal deaths . 
+In the first section of this toolkit, we will review •  Reduced childbirth complications/
+the eight essential steps in planning and preparing deaths . 
+for a mobile health (mHealth) project. We then will •  Healthier and more informed 
+discuss key considerations for each step, with an end communities .
+goal of selecting a vendor that can help implement For more information, please visit:
+a successful mobile messaging project. You will find 
+a summary of some illustrative vendors, as well as http://www .mobilemamaalliance .org
+helpful budget worksheets in the appendices.4
+2  International Telecommunication Union (ITU). ICT Facts and Figures. Geneva: ITU; 2013. 
+Available at: http://www.itu.int/en/ITU-D/Statistics/Documents/facts/ICTFactsFigures2013-e.pdf.
+3  Page on Data and Evidence. MAMA website. Available at: http://www.mobilemamaalliance.org/evidence. Accessed 
+August 1, 2014.
+4  The vendor list and capability descriptions were developed by compiling existing references, including MAMA’s 
+Technical Platform for Mobile Messaging resource. We then sent a survey to all of the compiled vendors.  Only those 
+who responded to this survey are included in this toolkit. This is meant to be a dynamic resource and vendors can be 
+added by contacting PATH.
+  Page on Technical Platforms for Mobile Messaging. MAMA website. Available at: 
+http://www.mobilemamaalliance.org/sites/default/files/Mobile%20Messaging%20Tech%20Platforms%20.pdf. 
+Accessed August 1, 2014.
+mHealth Mobile Messaging Toolkit | 1
+Information System Planning in Eight Steps
+Before starting out, it is a good practice for any mHealth project to review the eight essential steps to planning an 
+impactful information systems project, as outlined in Planning an Information Systems Project.
+STEP 1. DEFINE OUTCOMES: How will a better information system benefit you? How should you define the 
+scope? How will you measure success?
+STEP 2. FORM YOUR TEAM: What skills and roles are required to bring your project to a satisfying outcome?
+STEP 3. DEFINE WHAT YOUR SYSTEM NEEDS TO DO: How can you define your requirements for the system?
+STEP 4. FIND THE RIGHT SOLUTION: Should you buy or build your system? Do you select an open-source or 
+proprietary system? How do you evaluate different systems and select the best one?
+STEP 5. SELECT THE RIGHT VENDORS: How do you make sure you select the best providers of technical 
+services? 
+STEP 6. ESTIMATE IMPLEMENTATION AND OPER ATING COSTS: How much will your project cost to pilot, 
+scale up, and maintain?
+STEP 7. CREATE AN IMPLEMENTATION PLAN: How long will it take to develop, pilot, and scale up?
+STEP 8. UNDERSTAND AND MANAGE PROJECT RISKS: What can go wrong and how can you plan for that?
+STEP 1 . DEFINE OUTCOMES
+In implementing mHealth projects like those of the MAMA partnership, much of the groundwork on best 
+practices, processes, and requirements have already been documented through the learning community.5 It 
+is, however, still a good idea to get project leaders and advisors to agree on the scope and scale of a project so 
+that appropriate requirements can be documented. In this toolkit, we focus on solutions and services for a 
+messaging project that will initially deploy with 1,000 to 3,000 subscribers. However, these can be adapted to 
+smaller and larger projects.
+5 Page on Tools and Resources. MAMA website. Available at: http://www.mobilemamaalliance.org/tools-and-resources. 
+Accessed August 1, 2014.
+2 | mHealth Mobile Messaging Toolkit
+STEP 2 . FORM YOUR TEAM
+In forming your project team, it is important to carry out a resource assessment to ensure you have both the 
+critical in-country support and technological capacity and availability to develop (or configure), deploy, and 
+operationalize a messaging platform. Critical questions to ask include: 
+• Does the required staff exist internally? 
+• Who will manage and maintain the platform and databases? 
+• What sort of support will be provided to end users (e.g., call center, registration support)? 
+• Where can the vendor provide the knowledge and skills needed? 
+NOTE: We will assume that, because you are reading this toolkit, you will be adding an outside vendor to your 
+team to provide the appropriate messaging platform technology.
+STEP 3 . DEFINE REQUIREMENTS: WHAT DOES YOUR SYSTEM NEED TO DO? 
+In this section, we will review some of the key considerations in defining requirements for a mobile messag-
+ing program. We will look at the project itself, as well as the messaging platform.
+OVERALL PROJECT 
+PILOT TO SCALE: HOW LARGE WILL IT GET? 
+It is essential to keep the intended scale of the project in mind when planning a pilot. The decisions made now 
+should be made with scaling-up needs and processes in mind. For example, if you selected a platform that runs 
+solely on a laptop computer and modem yet plan to scale up nationally, the conversion to a web-based applica-
+tion and data centers of a mobile network operator (MNO) may be prohibitively costly and require a complete 
+replacement of the underlying information system. However, if the program is only intended to scale up to a 
+district or regional level, the laptop platform may be sufficient.
+These are a few key questions to think about early 
+in the design and development phases of a proposed LARGER SCALE 
+mHealth pilot program: IMPLEMENTATIONS 
+• A fter a successful pilot, is there support to 
+scale up the program? More integrated, full-service vendors such 
+as MOTECH/Grameen Foundation; Praekelt 
+•  Have proper channels, partners, and promo- Foundation; Innovative Support to Emergencies, 
+tional campaigns been established? Diseases, and Disasters (InSTEDD); or Text to 
+• How will the end user experience be affected? Change can offer deeper design and integration 
+•  What is the financial impact of adding solutions . Examples of large-scale implemen-
+subscribers and/or increasing the volume of tations exist on each vendor’s website .
+messages? These larger vendors offer great consulting and 
+• How easy is it to scale up the program? customization options for their messaging solu-
+• W hat additional hardware is needed? Are tions . As you evaluate vendors, you will need to 
+additional human resources needed? look at the value for money and be careful not to 
+over-purchase a solution . Well-defined require-
+• I s there financial and stakeholder support for ments that correlate to program adoption and 
+the scale-up? impact will help manage “scope creep .”
+mHealth Mobile Messaging Toolkit | 3
+SUBSCRIBERS: HOW MANY PARTICIPANTS WILL HAVE ACCESS? 
+It is also important to understand the capacity of the target population to access and use mobile technology. 
+For example:
+• How many participants have mobile phones?
+• What is the literacy rate?
+• What is the market share of telecommunications companies in the targeted region?
+• What is the local language? (If there is more than one, what proportion of participants uses each?)
+MONITORING AND EVALUATION: HOW WILL IMPACT BE MEASURED?
+Evidence on the success of any mHealth pilot vis-à-vis more traditional health programming should be an 
+early design consideration. We recommend developing monitoring and evaluation (M&E) benchmarks and 
+reporting requirements with input from key stakeholders, ensuring that they are a component of the overall 
+health program’s M&E plan. This could be a simple Excel spreadsheet with registration and subscriber infor-
+mation, more complex delivery receipt success/failure logs, or a reporting system that is integrated with exist-
+ing electronic health (eHealth) platforms so that mothers’ clinic visits can be cross-referenced with messaging 
+reminders as part of overall project reporting. 
+CONTENT DEVELOPMENT AND LANGUAGE SUPPORT: WHAT IS THE LOCALIZATION PLAN?
+Establish a plan to translate and/or adapt the messages to the appropriate delivery tone and voice for your 
+subscribers. If you plan to record voice messages, identify the messages and type of persona or actor (voice, 
+tone, etc.) that will have the greatest positive effect on behavior given the cultural context. You will also want 
+to develop a messaging distribution schedule tied to key events. 
+COUNTRY HOSTING REQUIREMENTS: WHERE WILL THE DATA BE STORED?
+It is important to understand the data policies and regulations in the context where you will operate when 
+considering where to store the data that you collect via mobile messaging. Keeping health care and patient 
+data private is a major concern. See Table 1 for information on hosting options and important questions to 
+consider regarding each of them.
+Table 1. Overview of data hosting options.
+Hosting Option Software as a Private cloud Locally hosted
+Service (SaaS)/cloud
+Servers Shared Not shared Project controlled
+Location Data centers, typically Data centers, typically Organization, 
+out-of-country in-country in-house
+Cost Lowest Higher Highest
+Questions to ask Where are the servers How are the servers What hardware 
+located? How is structured? Where are requirements are 
+the data stored and the servers located? needed to host the 
+processed? Are they How is the data platform? Does the 
+compliant with local stored and processed? organization have the 
+policies/regulations? Are they compliant resources to deploy 
+with local policies / and maintain the 
+regulations? system?
+4 | mHealth Mobile Messaging Toolkit
+MESSAGING PLATFORM REQUIREMENTS
+LITER ACY AND LANGUAGE: WRITTEN OR VOICE MESSAGING? 
+As we noted before, it is important to assess the literacy and language of the target population, or subscribers, 
+early. This information will be essential to help you decide whether written (short message service, or SMS) 
+or voice messaging (interactive voice response, or IVR) is most appropriate for your project. Table 2 compares 
+the two systems.
+• I nteractive voice response or IVR is an auto-
+SOME IVR-CAPABLE VENDORS mated telephone system that interacts with call-
+WORKING IN MHEALTH: ers using programmed information drawn from a 
+database, including prerecorded voice responses. 
+• DataDyne Callers respond by pressing digits on their phones 
+• engageSPARK or by speaking short phrases or words.
+• Push Mobile Media • S hort message service or SMS is a standard-
+• TextIt ized protocol that allows mobile phone devices to 
+• VOTO Mobile exchange short text messages.
+• Vumi/Praekelt Foundation
+ 
+Table 2. Overview of IVR versus SMS messaging.
+System IVR SMS
+Subscriber literacy Low High
+Cost Higher Lower
+Local language Tone and intent are NOT easily Tone and intent are easily com-
+communicated in written form municated in written form
+Platform Can support multiple languages Can support multiple languages
+Note: IVR, interactive voice response; SMS, short message service.
+ADDITIONAL CONTENT OR INTER ACTIVITY: ARE THEY NEEDED?
+In addition, to basic text or voice messaging you also might want to send pictures or videos, or provide a 
+callback or interactive service.
+•  Unstructured Supplementary Service Data (USSD) is a protocol that creates a real-time open 
+connection between a global system for mobile (GSM) communications and a remote service, which 
+allows it to be more responsive than SMS. This protocol can be also be used to provide callbacks.
+•  Multimedia Messaging Service (MMS) is a protocol that allows for rich content, such as pictures or 
+videos, to be sent to and from mobile phones.
+REGISTR ATION: WHAT IS THE ENROLLMENT PROCESS? 
+Establish how subscribers will enroll or register with the program by considering the following questions: 
+• Will registration be via SMS or IVR? 
+• Does the platform need to offer online/web registration capabilities? 
+• Will you use community health workers to register mothers in person or at a clinic?
+mHealth Mobile Messaging Toolkit | 5
+• Will subscribers register on their own via their own mobile devices?
+• What questions will be asked upon registration?
+NOTE: These same questions should be asked in regard to opt out processes.
+OUTREACH: HOW WILL PARTICIPATION BE ENCOUR AGED?
+It is not enough for the government or an organization to think that a mobile messaging project is needed; 
+there needs to be demand or obvious benefits for the subscribers to join. A marketing plan and budget 
+should be agreed upon for a pilot implementation as well as for a larger scale implementation, which should 
+take into consideration:
+• How will subscribers become aware of the service? 
+• Will media (print, radio, etc.) be used to create interest? 
+• What plan is there to reach the targeted number of subscribers for a pilot?
+TIP: The MAMA website at www.mobilemamaalliance.org has great resources to help convey the value and 
+benefits to mothers of enrolling in a program. 
+SHORT CODES: DO YOU NEED ONE? 
+Short codes are special telephone numbers, typically SOME VENDORS OFFERING 
+four to six characters long, that can be used to send ASSISTANCE SECURING 
+and receive SMS messages (e.g., text “join” to 55333 to SHORT CODES:
+enroll). Custom short codes may be available in cer-
+tain networks, and it is also possible to share a short • engageSPARK
+code with other organizations. • InSTEDD
+•  Benefits: offer reverse billing (e.g., free to end • Push Mobile Media
+user), easy to remember number for subscribers. • TextIt
+• VOTO Mobile
+•  Drawbacks: may be expensive and/or 
+time-consuming to set up.
+CUSTOMER SUPPORT: HOW WILL HELP BE PROVIDED? 
+You also want to think about how subscribers will get help if they have a problem—either with the technology 
+or with health-related issues. Some questions to answer include:
+•  Is two-way mobile messaging communication 
+part of the program? 
+• I s the program going to offer support services FLASHING
+such as a helpline or the ability to request a call 
+back via SMS? What hours will it be staffed Flashing is a method of communication used 
+(e.g., on weekends or when clinics are closed)? in several low-resource countries in which a 
+• How will you connect: SMS only or voice? caller places a phone call but quickly hangs 
+up before their call is answered to avoid being 
+• W ill you provide call-back services for flashing? charged for a call . The recipient calls the num-
+TR ANSMISSION: HOW WILL MESSAGES BE SENT? ber back, thus incurring the charges .
+This is an important question related to the number 
+of subscribers the project is targeting. Details are provided below and a summary is provided in Figure 1.
+• D irect to mobile: Smaller programs and proof-of-concept pilots (less than 1,000 subscribers)may only 
+need a platform that supports a very simple GSM modem or subscriber identification module (SIM) 
+card to send SMS messages from a mobile device (typically an Android phone). This can be quick to 
+deploy and is a simple form of communicating with subscribers. Scaling up can be done by adding 
+SIM cards or devices or by switching to a direct-to-SMS gateway or aggregator. Vendors often allow for 
+trials with their platforms, and can also assist with scaling.
+6 | mHealth Mobile Messaging Toolkit
+S imple GSM modem options are generally not recommended for large-scale projects because they 
+cannot handle higher message volumes. The technology only allows for one SMS to be sent every 6 
+seconds, which can cause a bottleneck if multiple messages need to be delivered to subscribers at a 
+specific time of day. 
+SERVICE-LEVEL AGREEMENTS
+Service-level agreements are agreements between two parties that define the level(s) of service being 
+sold or agreed upon . For mobile messaging, this can refer to network availability, on-time transmission 
+delivery, system monitoring, among others . Some vendors offer service-level agreements to custom-
+ers, while others may pass along mobile network operator service-level agreements to their customers 
+in their contracts .
+• S MS gateways, aggregators, and MNOs: SMS gateways and aggregators are third parties that enable 
+the transmission of bulk messages to subscribers through an interface or platform that works with 
+multiple MNOs. 
+–  An SMS gateway is a website that allows SMS messages to be sent via computer by establishing 
+connections across various operators’ communication protocols. 
+–  Aggregators make use of established gateways and provide services such as help managing the 
+delivery and receipt of messages, reporting, as well as volume discounts for transmission rates.
+–  MNOs are the actual telephone companies that own the networks that the messages are transmitted 
+across. Multiple MNOs may exist in each location, each with a slightly different messaging protocol. 
+Understanding the mobile landscape and number of MNOs in existence as well as their coverage of 
+your targeted subscribers will help determine whether you should use an aggregator. The good news 
+is that many vendors have strong existing relationships with aggregators and MNOs. 
+Figure 1. Mobile Transmission Methods
+MOBILE NETWORK OPERATORS
+5,000 + messages/day
+High volumes and deeper technology integration
+Longer term projects
+AGGREGATORS
+1,000 + messages/day
+Enables precise timing of delivery of messages
+Negotiable rates and services
+DIRECT TO MOBILE
+Low volumes, < 1,000 messages per day
+Basic SMS messaging capabilities
+Generally standard messaging rates
+mHealth Mobile Messaging Toolkit | 7
+INTEGRATE WITH EXISTING EHEALTH SYSTEMS: YES OR NO?
+As mentioned in the M&E section, you will want to identify if there are other eHealth systems that your system 
+can integrate with for purposes of data collection and reporting. If so, you will need to establish common stan-
+dards to facilitate this information sharing. Table 3 provides some questions to help you navigate this process.
+Table 3. eHealth M&E platform integration checklist.
+Yes/No Sample questions
+ Is there an existing national eHealth system in place?
+Does the eHealth platform allow for inter-operability with other systems?
+• Are there data standards?
+•  Is there capacity and knowledge within the team to extract and interro-
+gate the data from the eHealth system?
+Is needed data readily accessible?
+•  Are mother/child unique identification numbers/registration numbers 
+included?
+• Is the mobile phone number attached to the record?
+• Is there an existing prenatal visit schedule?
+• Can the system track health center or clinic visits/no-shows?
+• Does the system include vaccination schedules for newborns?
+• Can vaccination records and dates be extracted?
+ Can data be cross-referenced with the mHealth messaging platform? 
+What are the standards for M&E metrics?
+Note: eHealth, electronic health; M&E, monitoring and evaluation; mHealth, mobile health.
+8 | mHealth Mobile Messaging Toolkit
+STEPS 4 AND 5 . FIND THE RIGHT SOLUTION AND VENDOR
+Now that you have defined your requirements, you can start looking for a vendor who can build the appro-
+priate (or apply an existing) mobile messaging application for your project. It can be helpful to complete the 
+vendor requirement checklist (Table 4) so you have a summary of what you are looking for.
+Once you have shortlisted your prospective vendors, it is a good idea to ask for a demonstration of the pro-
+posed solution. You want to evaluate the vendor as a potential partner, as well as whether the technology is a 
+good match for your project. Some exploratory questions to ask include:
+• What do I need to know about your solution/company?
+• Do you understand our project? Why are you the best solution and partner for the project?
+•  How easy is the technology to configure and use? Will we require training? If yes, how will it be provided?
+• What resources do you have to manage and maintain the system? What are the costs for these resources?
+•  Will we need customization or is your “out of the box” solution sufficient for our needs? What are the 
+costs for customization/development as well as the ongoing maintenance of these customizations? 
+• H ow will your solution scale up (to regional and national levels)? What are the conversion costs? What 
+is the cost of the network bandwidth, data storage, and hardware? Any economies of scale as messag-
+ing volume increases? 
+• How will the collected data be presented? How will it be stored?
+• What have the main obstacles been for implementing projects in the past?
+• W hat is your largest implementation example? What is an example of an implementation that you are 
+most proud of or had the most impact? Can you provide references?
+mHealth Mobile Messaging Toolkit | 9
+Table 4. Vendor requirement checklist.
+Question Answer
+Does the vendor need to have prior experience with a MAMA project? Yes/No
+In which country is the project planned? List
+Is it preferable for the vendor to have experience in the country? Yes/No
+Are there national MOH requirements around cloud vs. local storage? Yes/No
+If YES, what sort of data center hosting is required? Cloud, private cloud, 
+local hosting
+Do you need to send messages in multiple languages? Yes/No
+What is the number of subscribers targeted for the project? Numeric
+Is there sufficient literacy for SMS only? Yes/No
+How do you intend to transmit messages to subscribers? Direct to mobile 
+(Android/GSM 
+modem), web-based 
+hosted service, either
+Do you prefer to work with an aggregator or MNO directly? Yes/No
+Do you need help negotiating agreements/messaging rates? Yes/No
+Does your project intend to use short codes? Yes/No
+If YES, do you need help securing and negotiating short codes? Yes/No
+Do you plan to offer:
+• Two-way communications with subscribers? Yes/No
+• Web-based registration? Yes/No
+• Flashing? Yes/No
+• Customer support/call center? Yes/No
+• Is additional interaction via USSD or MMS desired? Yes/No
+•  Does the vendor have a viable data privacy and security policy? Yes/No
+Note: GSM, global system for mobile, MAMA, Mobile Alliance for Material Action; MOH, ministry of health; MMS, 
+multimedia messaging service; MNO, mobile network operator; SMS, short message service; USSD, Unstructured 
+Supplementary Service Data.
+10 | mHealth Mobile Messaging Toolkit
+STEP 6 . ESTIMATE IMPLEMENTATION AND OPERATING COSTS
+The next step is to estimate the total cost of ownership for the project. Be sure to include all three phases of the 
+project: design/development, deployment, and operations, as well as general management and overhead costs 
+(see Table 5). Questions to consider include the following:
+• What are the daily maintenance and operation costs? 
+• What are the transmission costs and platform fees?
+• Are there hardware maintenance costs, rental fees, or equipment depreciation? 
+• How many hours a day are needed to maintain the system? 
+• Does the platform require a full-time employee? More than one? 
+FIXED VS. VARIABLE COSTS: FINDING ECONOMIES OF SCALE
+Variable costs are costs that increase or decrease with a change in volume or usage . In the context 
+of a mobile messaging solution, the most common variable cost is the messaging itself . Typically, 
+SMS and IVR messages are billed on a per-message or per-minute basis . Therefore, as the quantity 
+of messages increases, so does the cost of messaging . Likewise, if more advanced messaging 
+like MMS or USSD is used, data usage will typically have a linear relationship with the data rates . 
+These costs and rates should be known in advance via your contract with the partner or aggrega-
+tor so that they can be modeled before deploying the solution . 
+Understanding which costs are variable helps in understanding where efficiencies and economies of 
+scale can be made in the financial model . If the solution is able to increase the efficiency of the human 
+resources needed (e .g ., message more mothers/subscribers with the same number of staff), the solu-
+tion will be generating efficiencies . 
+TOOLBOX
+•  Appendix A provides an overview of ten vendors who participated in a survey on mobile 
+messaging platforms with solutions for low-resource countries . 
+•  Appendices B, C, and D specify the hosting options, platform offerings, and geographic 
+expertise of these vendors .
+mHealth Mobile Messaging Toolkit | 11
+Table 5. Total cost of ownership budget categories.
+Governance
+Meetings and administrative support Meetings and administrative support of the project
+Management
+Overall project management Project manager, staff, and stakeholders involved in day-to-day operations 
+(travel and number of resources multiplied by rates)
+Research, monitoring, and evaluation Hours (and associated rates) for M&E activities (collating data from health 
+centers and messaging platform, surveys, etc.)
+Design/development
+Defining program and solution requirements Days budgeted for number of staff to define requirements for the program 
+design and platform needs
+Vendor evaluation and selection Days budgeted and travel for evaluating and observing messaging platforms from 
+shortlist of vendors, meetings to define project
+Platform deployment and customizations Costs for the software licensing, any additional development of the messaging 
+platform, customization needs, connecting with telecommunications companies
+Content development, scheduling, and Customization of messages (adapting content to ensure language is appropriate 
+localization for the local context and culture, professional voice recordings for IVR)
+Deployment
+Training Days training staff on the messaging platform and program itself, outreach 
+training to health centers or CHWs to register subscribers. This should be 
+budgeted annually to account for attrition and program growth
+Enrollment of subscribers Number of staff, salary, incentives to support registration (such as the use of 
+CHWs or on-the-ground staff to help enroll subscribers)
+Marketing and outreach Budget for awareness raising and registration of mothers (posters, radio, 
+partnerships with ministries of health, etc.). This should be an annual line 
+item to grow the program and raise awareness
+Operations
+Messaging costs See Appendices F and G
+Staffing Day to day operations (manage subscribers, schedule messages, ensure 
+messages are being sent and enrollments are successful, etc.)
+Solution/platform management and hosting Technical staff to ensure system availability, troubleshoot technical issues
+Administration and call center support Customer support, ability to respond to inbound messages, flashes, requests for 
+information or assistance
+Overhead General fixed expenses associated with the project (power, internet connectivity, 
+hardware, etc.)
+Note: CHW, community health worker; IVR, interactive voice response; M&E, monitoring and evaluation.
+STEPS 7 AND 8 . CREATE AN IMPLEMENTATION PLAN AND UNDERSTAND 
+AND MANAGE PROJECT RISKS
+You are almost finished with your project planning! Before you start implementation, work through a few 
+final tasks:
+• Establish milestones and deliverables with your new partner vendor.
+• Set a realistic development schedule.
+• Establish a risk management plan.
+• Develop and sign off on a written scope of work with your vendor to avoid scope creep or delays.
+See the additional resources in the following sections for templates and tools that provide additional example 
+schedules and methods for managing risks.
+TOOLBOX
+•  Appendices E, F, and G contain budgeting worksheets to help you calculate the cost of the 
+total project, as well as annual and per subscriber messaging costs . Be sure to complete the 
+worksheets for your pilot, as well as a fully scaled project .
+mHealth Mobile Messaging Toolkit | 13
+Additional Resources
+Ask JA, Freeman Evans P, Roberge D. Mobile Messaging Vendor Overview. Cambridge, MA: Forrester Research; 
+2013. Available at: http://www.forrester.com/Mobile+Messaging+Vendor+Overview/fulltext/-/E-RES70461.
+Health Metrics Network. HMN Guide for Procurement and Acquisition of ICT for Health Information Systems. 
+Unpublished; draft available at: http://wiki.healthmetricsnetwork.info/wiki-kigali/lib/exe/fetch.
+php?media=background:hmn_procurement_guide:hmn_procurement_guide_v5.2.doc. 
+Inveneo. Buyers’ Guide to Sustainable ICT Infrastructure in Low Resource Settings. San Francisco, CA: Inveneo; 
+2011. Available at: http://www.inveneo.org/wp-content/uploads/2012/09/Buyers_Guide_Sustainable_ICT_
+Infrastructure_12-11.pdf.
+Page on mHealth Planning Tools. Knowledge for Health (K4H) Project website. K4Health’s Available at: 
+https://www.k4health.org/toolkits/mHealth-planning-guide/planning-tools. Accessed July 1, 2014.
+Umapathy S, O’Sullivan GA, Rahaim S. mBCC Field Guide: A Resource for Developing Mobile Behavior Change 
+Communication Programs. Cambridge, MA: Abt Associates Inc.; 2012. Available at: www.mbccfieldguide.com. 
+World Health Organization, PATH. Planning an Information Systems Project: A Toolkit for Public Health Managers. 
+Seattle: PATH; 2013. Available at: http://www.path.org/publications/files/TS_opt_ict_toolkit.pdf.
+14 | mHealth Mobile Messaging Toolkit
+Appendix A: Vendor Overviews
+DataDyne
+Founding date 2003
+Number of employees 12
+Office locations Washington, DC, USA; Nairobi, Kenya
+Ideal customer Any organization or individual that needs to communicate by text or voice easily and at a low 
+cost—for health, conservation, education, etc.
+Key customers World Health Organization, United Nations Children’s Fund (UNICEF), John Snow, Inc., Abt 
+Associates, Management Sciences for Health, Harvard University, Johns Hopkins University, 
+International Rescue Committee, International Federation of Red Cross and Red Crescent 
+Societies
+Website http://www.datadyne.org 
+Link to projects / case studies https://datadyne.zendesk.com/entries/21282536-Case-Studies-Who-Uses-Magpi-former-
+ly-EpiSurveyor- 
+engageSPARK
+Founding date 2013
+Number of employees 12
+Office locations Cebu City, Philippines; San Francisco, CA, USA; Accra, Ghana; Kampala, Uganda
+Ideal customers Our ideal customers are organizations focused on health, agriculture, civil society, education, 
+environment, governance, and emergency response, which are interested in implementing 
+social change programs via mobile phones—worldwide. Our goal is to help nongovernmental 
+organizations (NGOs) and governments, regardless of size, to engage with low-income individ-
+uals and communities using short message service (SMS) and especially voice calls. Our range 
+of plans (from free to enterprise levels) will enable small NGOs without technical resources to 
+engage with the very poor within a single country or locality, and also empower international 
+NGOs via our application programming interfaces (APIs) to implement large programs at scale 
+across many countries—easily and quickly.
+Key customers Beta testers: Innovations for Poverty Action, One Acre Fund, UNICEF Uganda
+Website http://engagespark.com 
+Link to projects / case studies http://engagespark.com/#about-us
+mHealth Mobile Messaging Toolkit | 15
+FrontlineSMS
+Founding date 2007
+Number of employees 14
+Office locations Washington, DC, USA; London, UK; Nairobi, Kenya
+Ideal customer We work globally, with everyone, from a last-mile NGO to multinational NGOs.
+Key customers not provided
+Website http://www.frontlinesms.com 
+Link to projects / case studies http://www.frontlinesms.com/impact-of-frontline/guides-tools-and-case-studies
+Innovative Support to Emergencies, Diseases, and Disasters (InSTEDD)
+Founding date 2006
+Number of employees 30
+Office locations Sunnyvale, CA, USA; Phnom Penh, Cambodia; Buenos Aires, Argentina
+Ideal customer We serve many classes of customers: direct beneficiaries that, for a fee or under subsidy, 
+access information services; ministries of health, governments, official bodies (e.g., national 
+election commissions, national road safety commission, etc.); large (country-scale) NGO 
+implementers such as FHI 360, Marie Stopes International, Médecins Sans Frontières, etc.; 
+mobile operators in joint ventures offering revenue-share services
+Key customers Cepheid, Google, and the Bill & Melinda Gates Foundation
+Website http://instedd.org 
+Link to projects / case studies http://instedd.org/our-work/projects 
+16 | mHealth Mobile Messaging Toolkit
+Push Mobile Media
+Founding date 2006
+Number of employees 33
+Office locations Tanzania
+Ideal customer NGOs, faith-based organizations, government ministries, and sector donors
+Key customers John Snow, Inc. (Marasi Mwencha); Johns Hopkins Bloomberg School of Public Health 
+(Radio Distance Learning program, Waziri Nyoni, Robert Ainsley); Vodafone Foundation 
+(Jon Lee); Text to Change (Bas Hoefman); Vodacom Tanzania Ltd. (Saurabh); Tigo Tanzania 
+(David Zacharia); Airtel Tanzania (Gaurav); Zantel (Sajid); Tanzanian Ministry of Lands, 
+Housing and Human Settlements Development; Tanzanian Public Procurement Regulatory 
+Authority; Tanzania Communications Regulatory Authority; Tanzanian Government 
+Ethics Secretariat; Greenmash UK
+Website http://www.push.co.tz 
+Link to projects / case studies http://www.push.co.tz/solutions 
+Telerivet
+Founding date 2012
+Number of employees 7
+Office locations San Francisco, CA, USA; Dar es Salaam, Tanzania
+Ideal customers Organizations with limited budgets and limited technical expertise that want to deploy a 
+manual or automated SMS service to send and receive SMS messages using a local phone 
+number in any country.
+Key customers Farm Radio International, Kiva, InVenture
+Website http://telerivet.com 
+Link to projects / case studies https://telerivet.com/examples
+mHealth Mobile Messaging Toolkit | 17
+Text to Change
+Founding date 2007
+Number of employees 32
+Office locations The Netherlands, Uganda, Bolivia, Malawi
+Ideal customer Large international organizations facing difficulties reaching or collecting data from its 
+target audience; large groups of people in emerging markets with health care information.
+Key customers World Bank, FHI 360, CDC Foundation
+Website http://www.texttochange.org 
+Link to projects / case studies http://projects.texttochange.org/en 
+TextIt
+Founding date 2010
+Number of employees 4
+Office locations Rwanda
+Ideal customer Small- to medium-sized NGOs looking to deploy a flexible tool for data collection, outreach, and 
+coordination using text messaging.
+Key customers TechnoServe Rwanda
+Website http://textit.in 
+Link to projects/ case studies http://textit.in/video
+18 | mHealth Mobile Messaging Toolkit
+VOTO Mobile
+Founding date 2013
+Number of employees 8
+Office locations Kumasi, Ghana; Toronto, Ontario, Canada; Palo Alto and San Francisco, CA, USA
+Ideal customer Our ideal customer is focused on figuring out the human-centered and communication 
+design aspects to really translate mobile engagement into social change (whether for 
+encouraging healthier behaviors, being responsive to constituent feedback, or advocating 
+effectively for policy change). They are excited to learn with us in these areas. They are 
+focused on being inclusive of all their constituents, which means reaching each individual 
+over the channel that works best for him/her, whether it is voice in local languages, SMS, 
+or a mobile app. They have a short timeline and might not have strong technical capacity, 
+so they need a provider that can solve mobile operator headaches, get them up and running 
+immediately, and integrate all these features into one app that is simple for them to use. 
+They are really interested in measuring what works and spend lots of time exploring the 
+detailed analytics on our platform as well as measuring impact in the field.
+Key customers UNICEF, Innovations for Poverty Action, Savana Signatures (Ghana), World Bank Ghana, Citi 
+FM (Ghana), Journalists for Human Rights, Text to Change
+Website http://www.votomobile.org 
+Link to projects / case studies http://www.votomobile.org/case-studies  
+Vumi/Praekelt Foundation
+Founding date 2006
+Number of employees 18
+Office locations Johannesburg and Cape Town, South Africa; Lagos, Nigeria; Nairobi, Kenya; London, UK; 
+Hyderabad, India
+Ideal customers In countries where we have SMS/Unstructured Supplementary Service Data (USSD) connec-
+tivity, our ideal customer is someone who wants to start using basic SMS/USSD tools to reach 
+an existing audience and have a conversation with them. In countries where we do not have 
+connectivity, we are looking for partners (NGOs, multilateral organizations, donors, govern-
+ments, corporations) who would want to partner with us to set up connectivity that can be 
+leveraged by other partners in this sector.
+Key customers UNICEF, US Agency for International Development, Omidyar Network, Nike 
+Foundation, Wikimedia Foundation, Bill & Melinda Gates Foundation, Vodacom 
+Foundation, Johnson & Johnson
+Website http://vumi.org and www.praekeltfoundation.org 
+Link to projects / case studies http://vumi.org/case-studies 
+mHealth Mobile Messaging Toolkit | 19
+Appendix B: Vendor Messaging and Hosting Options
+Vendor SMS IVR USSD or MMS SaaS/ cloud Private cloud Locally hosted
+DataDyne (Magpi) x x USSD, MMS x x
+engageSPARK x x USSD x
+FrontlineSMS x x x
+InSTEDD x x USSD, MMS x x x
+Push Mobile Media x MMS x
+Telerivet x x O*
+Text to Change x x
+TextIt x x (Beta x
+Version)
+VOTO Mobile x x x x
+Vumi/Praekelt Foundation x x USSD x
+*Telerivet’s locally hosted option is in development.  
+Note: IVR, interactive voice response; MMS, multimedia message service; SaaS, software as a service; SMS, short message service; USSD, 
+Unstructured Supplementary Service Data.
+20 | mHealth Mobile Messaging Toolkit
+mHealth Mobile Messaging Toolkit | 21
+Appendix C: Vendor Platform Offerings
+Import of SMS registration IVR registration Web-based Scheduling of Vendor contacts of users of users registration messages (time of users of day)
+DataDyne 
+(Magpi) Yes Yes No Yes Yes
+engageSPARK Yes Yes Yes Yes Yes
+FrontlineSMS Yes Yes No No In development
+InSTEDD Yes Yes Yes Yes Yes
+Push Mobile 
+Media Yes Yes Yes Yes Yes
+Telerivet Requires custom Yes Yes No Yes
+development
+Text to Change Requires custom Yes Yes No Yes
+development
+TextIt Requires custom Yes Yes No Yes
+development
+VOTO Mobile Yes Yes Yes Yes Yes
+Vumi/Praekelt Requires custom 
+Foundation Yes Yes In Development Yes development
+22 | mHealth Mobile Messaging Toolkit
+Scheduling 
+of messages Multiple lan- Free to end user Two-way Call center 
+(based on logic; guage support options messaging Flashing support
+i.e., due date)
+Yes Yes Yes Yes No No
+Yes Yes Yes Yes Yes In development
+In development Yes Yes Yes Yes Yes
+Yes Yes Yes Yes Yes
+Requires custom Requires custom Requires custom 
+Yes Yes Yes
+development development development
+In Development Yes Yes Yes Yes No
+Requires custom 
+Yes Yes Yes Yes Yes
+development
+Yes Yes Yes Yes Yes No
+Yes Yes Yes Yes Yes No
+Requires custom Requires custom Requires custom 
+Yes Yes Yes
+development development development
+mHealth Mobile Messaging Toolkit | 23
+Appendix D: Countries with Vendor Projects or Offices
+Data engageS Frontline Push Vumi/Countries PARK** InSTEDD Mobile Telerivet
+Text to 
+Change TextIt
+VOTO 
+Mobile Praekelt ProjectsDyne* SMS* Media Foundation
+Argentina # 1
+Bangladesh x 1
+Bahrain x 1
+Bolivia # 1
+Brazil x 1
+Burkina Faso x x 2
+Cambodia # 1
+Cameroon x x x 3
+Canada 0 0
+CAR x 1
+Chile x 1
+Columbia x 1
+Costa Rica x 1
+DR Congo x x x 3
+Ecuador 0 1
+Ethiopia x x x x 4
+Ghana # x x x # 5
+Hong Kong 0 0
+India x x x 0 3
+Indonesia x x 2
+Kenya 0 x 0 x x x x x x # 8
+Laos x 1
+Liberia x 1
+Madagascar x 1
+Malawi x # 2
+Malaysia x 1
+Mali x x 2
+Morocco x 1
+Mozambique x 1
+Myanmar x 1
+Netherlands, 
+0 0
+The
+Nicaragua x 1
+Nigeria x x x x # 5 
+24 | mHealth Mobile Messaging Toolkit
+Data engageS Frontline Push Text to VOTO Vumi/Countries PARK** InSTEDD Mobile Telerivet Change TextIt Mobile Praekelt ProjectsDyne* SMS* Media Foundation
+Papua New 
+x x 2
+Guinea
+Paraguay x 1
+Peru x 1
+Philippines # 1
+Rwanda x # x x 4
+Senegal x 1
+South Africa # 1
+South Sudan x 1
+Tanzania x # # x x x x 7
+Thailand x 1
+Uganda # # x x x 5
+UK 0 0 0
+USA 0 0 0 0 0 0 0
+Vanuatu x 1
+Zambia x x x 3
+TOTAL: 2 11 3 23 3 19 13 5 11 11
+Project = x Office = O Both = #
+*DataDyne and FrontlineSMS did not provide country lists for projects but have experience in many countries. 
+**engageSPARK is currently beta testing.
+Note: CAR, Central African Republic; DR Congo, Democratic Republic of the Congo; UK, United Kingdom; USA, United States of America.
+mHealth Mobile Messaging Toolkit | 25
+Appendix E: Total Cost of Ownership Budget Matrix
+This matrix can be used to summarize costs across categories. 
+Budgeting category Year 0 (Initial Year 1 Year 2 Year 3
+Launch)
+Governance
+Meetings and administrative support
+Management
+Overall project management
+Research, monitoring, and evaluation
+Design/development
+Defining program and solution 
+requirements
+Vendor evaluation and selection
+Platform deployment and 
+customizations
+Content development, scheduling, and 
+localization
+Deployment
+Training 
+Enrollment of subscribers
+Marketing and outreach
+Operations
+Messaging costs
+Staffing
+Solution/platform management and 
+hosting
+Administration and call center support
+Overhead 
+Total
+Note: CHW, community health worker; IVR, interactive voice response; M&E, monitoring and evaluation.
+26 | mHealth Mobile Messaging Toolkit
+Appendix F: Example of Excel-based 
+Messaging Cost Tool
+Messaging Cost Tool
+Pilot @ Scale
+Transmission Costs / Year $12,324 $1,170,000 Legend
+Total Messaging Costs / Year $12,324 $1,170,000 Orange Input Required
+Cost Per Subscriber $12.97 $5.57 Blue Select from List
+Yellow Output - do not edit
+Pilot @ Scale Grey Final Output - do not edit
+Targeted Number of Subscribers 1,000 300,000
+% Literate In Target Area 80% 50%
+SMS subscribers 800 150,000
+Is This Enough Subscibers? No Yes
+If No, % of Subscribers Reached Via 15% 20%
+IVR
+IVR Subscribers 150 60,000
+Messages Per Week SMS 3 2,400 450,000
+ Messages Per Week IVR 2 300 120,000
+If transmitting across multiple mobile network operators (MNOs) with different rates, create a separate worksheet for each MNO with proper 
+coverage estimates and rates including volume discounts if applicable.
+Cost Per SMS $0.08 $0.05
+Cost Per IVR $0.15 $0.10
+Assumption is that each IVR message  is one minute or less; use airtime rates provided by MNO, vendor, or aggregator.
+Additional Costs:
+Using a short code? No
+Annual Cost $5,000
+Vendors estimate ~US$5,000 for a dedicated short code
+mHealth Mobile Messaging Toolkit | 27
+Appendix G: Messaging Cost Calculator
+To calculate annual messaging costs for the sample project in the worksheet in Appendix F, use the worksheet 
+below. Instructions are included to help with the formulas.
+Line Pilot @ Scale
+A Transmission Costs / Year $   - $   - 
+B Total Messaging Costs / Year $   - $   - 
+C Cost Per Subscriber $   - $   -
+Pilot @Scale
+D Targeted Number of Subscribers
+E % Literate In Target Area 0% 0%
+F SMS subscribers 0 0
+G Is This Enough Subscibers? Yes or No Yes or No
+H If No, % of Subscribers Reached Via 0% 0%
+IVR
+I IVR Subscribers 0 0
+J Messages Per Week SMS 0 0
+K  Messages Per Week IVR 0 0
+If transmitting across multiple mobile network operators (MNOs) with different rates, create a separate worksheet 
+for each MNO with proper coverage estimates and rates including volume discounts if applicable.
+L Cost Per SMS $   - $   - 
+M Cost Per IVR $   - $   - 
+Assumption is that each IVR message  is one minute or less; use airtime rates provided by MNO, vendor, or 
+aggregator.
+Additional Costs:
+Using a short code? Yes or No
+N Annual Cost $
+Vendors estimate ~US$5,000 for a dedicated short code
+28 | mHealth Mobile Messaging Toolkit
+MESSAGING COST CALCULATOR INSTRUCTIONS
+• To begin, complete the orange-shaded boxes with the appropriate data for your project. 
+•  There are two columns, one for a Pilot and another for running the project @ Scale (regional or 
+national level). Calculations can be done in parallel for each column if desired.
+• After you have filled in the green boxes, perform the following calculations:
+–  Line F:  Multiply Line D x Line E. Do you understand our project? Why are you the best solution 
+and partner for the project?
+–  This will provide the number of subscribers in the targeted population for which SMS is appropriate. 
+If this number is sufficient, enter a “Yes” in the blue box. If more subscribers are needed for the study, 
+enter “No.”
+–  Line I:  If “No” was entered in Line G, multiply Line H x Line D to calculate the number of IVR 
+subscribers.
+–  Line F + Line I will be your total number of subscribers.
+–  Line J:  SMS messages per week. Multiply the value in the green box by Line F to get the number 
+of SMS messages to be sent per week.
+–  Line K: IVR messages per week. Multiply the value in the green box by Line I to get the number of 
+IVR messages to be sent per week.
+– L ine L and Line M are the per message rate provided by the vendor, aggregator, or MNO. For 
+the model, we assume the IVR rate is the charge for a 1-minute message; adjust according to the 
+project’s average voice message length.
+•  Now we are ready to calculate the costs per year. For pilot study years, use the values in the Pilot 
+column. To calculate costs at scale, use the values in the @ Scale column. If the project is projecting 
+growth year over year, adjust the variables in the green boxes to calculate each year as appropriate.
+–  Line A:  Transmission costs (the cost to send messages to subscribers): 
+Multiply Line J x Line L for the SMS weekly cost, then multiply by 52 for the number of weeks 
+in the year. 
+Multiply Line K x Line M for the IVR weekly cost, then multiply by 52 for the number of 
+weeks in the year.
+– Add the SMS and IVR costs together for the annual transmission costs.
+– L ine B: If a short code is being used for the program, add Line N + Line A for the total messaging 
+costs.
+–  Line C:  Cost per subscriber. Divide Line B by the sum of Line F + Line I for the total cost per 
+subscriber.
+– F inally, input the calculated values from Line B for each year in the total cost of ownership budget 
+matrix (Appendix E).
+mHealth Mobile Messaging Toolkit | 29
+MAILING ADDRESS
+PO Box 900922 
+Seattle, WA 98109 
+USA
+ADDRESS
+2201 Westlake Avenue 
+Suite 200 
+Seattle, WA, USA
+TEL: 206.285.3500 
+FAX: 206.285.6619
+www.path.org
+30 | mHealth Mobile Messaging Toolkit

@@ -1,0 +1,110 @@
+Dimagi delivers open source and innovative technology
+to underserved communities around the world. 
+Scalable Mobile Services 
+for Frontline Programs
+Helping your organization integrate 
+mobile solutions from start to scale
+OVERVIEW
+At Dimagi, we build open source, cloud products 
+that support the complex workflows required to Definitions
+strengthen frontline programs. Cloud products (e.g., 
+Salesforce, SurveyMonkey, Dropbox) are increasingly 
+popular as they dramatically reduce running costs Cloud Products: much less expensive than alternatives, 
+and enable organizations to do complex tasks especially as a project matures
+themselves without having to set up a server or hire 
+programmers.  Cloud products are also the prominent Complex Workflows: essential for supporting frontline 
+solution for mobile services (mServices) tasks that workers (logic, client tracking), but not for simpler 
+require simple workflows (e.g., FormHub, Magpi). We mServices tasks
+expect cloud products to also emerge as the most 
+successful mServices technologies for advanced Open Source: essential for government handoff and 
+workflows, including supporting Frontline Workers implementation at scale
+(FLWs) and supply chains. Open source solutions 
+will be required for any program expected to scale 
+nationally and be transferred to local ownership. 
+Three important criteria for scalable software to support FLWs
+Cloud Complex 
+Product Workflows
+A few others
+Many others Several others
+No others A Few others
+Dimagi builds the only open 
+source cloud products that 
+support advanced workflows Open
+Source Figure 1. Overview of a selection of for frontline programs. mServices technologies
+Note: Dimagi technologies can (Categorization of the above tools 
+was based on public information 
+also be managed on a local available at the time of publication).
+server. Many others
+CLOUD PRODUCTS OPEN SOURCE
+A Cloud Product is software that is hosted by a Software is open source if it is made freely available 
+software provider and made available through a and can be redistributed.  Alternatives to open 
+public website. Cloud products allow users to do source code are proprietary software or codebases. 
+everything necessary through a public website to Using open source code is especially beneficial if a 
+utilize the software. Common examples are Facebook project is going to scale, or if there is a need to transfer 
+or Dropbox.  In mServices, the most common the technology to a government. It is important to 
+alternative to cloud products are customizable note that utilizing open source code may require 
+codebases. A customizable codebase requires substantial resources in the initial phases of the project. 
+a software developer to install, configure, and Dimagi’s open source code is available on Github.
+maintain each project. Other alternatives to a cloud 
+product include a desktop product (e.g., Excel) 
+or a Server-installed Product (e.g., Sharepoint). 
+  Criteria                     Value                       Alternatives
+COMPLEX WORKFLOWS 
+mServices technologies can be split into ones that Essential for low-cost, 
+support relatively simple workflows,  such as mobile Cloud continued operation, and Desktop 
+and Server 
+data collection (e.g., Open Data Kit) and simple SMS Product scale. Enables ‘do it yourself’ Products
+systems (e.g., FrontlineSMS), and ones that sup- projects without software 
+development  capacity
+port more Complex workflows (e.g., CommCare, 
+D-tree, eMocha). Complex workflows have the Simple 
+ability to track people and other entities over Complex Enables tracking of entities Tasks (e.g. 
+time and can include complex branching logic Workflows over time and includes basic data 
+and rules for parsing and responding to mes- complex logic collection and 
+sages.  FLW activities and stock tracking require simple SMS)
+more Complex workflows (e.g., tracking clients or 
+logistics over time with a mobile app). Organizations Open Necessary for local ownership Proprietary 
+rarely, if ever, try to support FLWs or stock tracking Source and national scale Software
+with the technologies designed for simpler workflows.
+Stages of mServices Projects
+Most mServices projects go through distinct phases on a maturity spectrum. Even when starting in the 
+Demonstration (Proof of Concept) stage, it is important for implementing organizations to look ahead to the 
+later stages where cloud products and open source features will be critical.  Dimagi’s new maturity model 
+helps our partners grow a program’s stage of maturity from initial demonstration to implementation at scale.
+STAGE 1: DEMONSTRATION (PROOF OF CONCEPT)
+During the early stages of an mServices project, Demonstration (Proof of Concept)
+an organization is just starting to equip their 
+FLWs. Cloud products allow any organization Cloud Product Advantages• Fast start-up
+to do this without software development, and • Low cost
+generally reduce costs. However many mServices • Ability to do it yourself
+organizations can help launch organizations at this 
+stage (hence the proliferation of mHealth pilots). 
+STAGES 2 & 3: ITERATION AND VALUE CREATION
+During these stages, an implementing organization will 
+add users, adapt content, and take advantage of their Iteration and Value Creation
+deployed mServices system by adding more Complex 
+features, such as improving FLW supervision. Cloud Open Source Advantages
+products offer substantial advantages, such as cost- • Avoids lock-in or commitment to one 
+effectiveness, to an implementing organization in the early partner
+stages of scaling. Cloud products are already designed 
+to scale, and new users can be easily added. Local staff Cloud Product Advantages
+can make their own changes to the application using • Advanced features available
+the tools provided by the cloud product. In contrast, a • Lower cost for scaling and iterations
+custom approach will be substantially more expensive 
+during this phase since the entire cost must be incurred 
+by a single organization, and knowledge transfer 
+between software developers is costly and complex. 
+STAGES 4 & 5: SCALE-UP, SUSTAIN AND IMPROVE
+Scale-Up, Sustain and Improve
+During these stages, projects may reach national 
+scale and are often taken over by governments or 
+local programs. This is only possible if the technology Open Source Advantages
+is open source, allowing governments to hire local • Makes local ownership possible
+technical experts and software developers to maintain 
+the code base in the long-term. Even in this case, the Cloud Product Advantages• Non-programmers can maintain 
+application building tools offered by cloud products applications
+reduce the time it takes staff to build and maintain • Proven Technology
+apps because they can be used by non-software 
+developers, reducing the money governments 
+need to invest in hiring highly technical staff. 
+Copyright 2014 Dimagi Inc.  All rights reserved. 585 Massachusetts Ave Suite 3, Cambridge, MA 02139. www.dimagi.com

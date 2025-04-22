@@ -1,0 +1,1990 @@
+New Technologies in  
+Emergencies and Conflicts
+The Role of Information  
+and Social Networks
+Authors
+Diane Coyle and Patrick Meier
+About the UN Foundation and The Vodafone Foundation Partnership
+The United Nations Foundation & Vodafone Foundation Technology Partnership is a leading public-private alliance 
+using technology programs to strengthen the UN’s humanitarian efforts worldwide.  Created in October 2005 with 
+a £10 million commitment from The Vodafone Foundation matched by £5 million from the UN Foundation.
+The Technology Partnership has three core areas of focus: (1) to strengthen communications in humanitarian 
+emergencies though capacity building and support for disaster response missions that connect disaster relief 
+workers and affected  families; (2) to support the development of mobile health (mHealth) programs that tackle 
+critical public health challenges and improve public health systems, decision-making and, ultimately, patient  
+outcomes; and (3) to promote research and innovation using technology as a tool for international development. 
+The UN Foundation and The Vodafone Foundation are among the founding partners of the mHealth Alliance.  
+More information about the Technology Partnership can be found at: www.unfoundation.org/vodafone.
+Contact
+ United Nations Foundation  The Vodafone Foundation
+ 1800 Massachusetts Ave., NW One Kingdom Street
+ Suite 400 Paddington, London, W26BY
+ Washington, D.C. 20036 UK
+ USA  Registered Charity No: 1089625
+Recommended Citation
+Coyle, Diane and Patrick Meier. New Technologies in Emergencies and Conflicts: The Role of Information 
+and Social Networks. Washington, D.C. and London, UK: UN Foundation-Vodafone Foundation  
+Partnership, 2009.
+Cover Photo Credits
+UN/Evan Schneider
+DataDyne
+Diego Fernandez 
+UN/Eskinder Debbibe
+The views expressed in the report are those of the authors and do not necessarily reflect those of the  
+United Nations Foundation, The Vodafone Foundation or the Technology Partnership.
+Foreword
+In times of crisis, a phone line can be a lifeline. As natural disasters and 
+civil conflicts increase worldwide, so too do innovative ideas about how to 
+communicate in disasters.
+New technologies and innovative uses of existing technologies are improv-
+ing crisis preparedness, response, and prevention. Yet barriers to bring-
+ing these ideas to scale remain, and humanitarian aid groups and others 
+must weigh the potential risks and rewards of using new communications 
+technology tools. 
+Much like the creation of CNN and the 24-hour news cycle forever 
+changed how the news is reported, the mobile phone has revolution- Ted Turner, Chairman
+ized how, when, and where we communicate with one another. With the 
+growth of broadband and the convergence of telecommunications,  
+computing, and multimedia, this revolution will only intensify.
+The UN Foundation and The Vodafone Foundation commissioned this  
+report to profile innovation on the frontlines of communications in emer-
+gencies, and to point to new opportunities for governments, civil society, 
+and individuals alike to benefit in times of crisis from our increasingly  
+connected world. Through the work of groups supported by the United 
+Nations Foundation and Vodafone Foundation Technology Partnership,  
+we have seen coordinated and efficient information sharing save countless 
+lives. This report profiles some of this work. 
+Vittorio Colao, CEO
+We hope you enjoy this report, the fifth in our Access to Communications 
+publication series. And we look forward to receiving your comments and 
+ideas at www.unfoundation.org/emergencies-report.
+Sincerely,
+Vittorio Colao, CEO  Ted Turner, Chairman
+Vodafone  United Nations Foundation
+NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   i
+Acknowledgements
+The United Nations Foundation and The Vodafone Foundation are thankful to the numerous individuals who 
+have shared their ideas and experiences to inform this report. In particular, we would like to thank Delilah 
+Al-Khudhairy, and the team at the European Commission Joint Research Centre/Geo-Spatial Information 
+Analysis for Global Security and Stability (JRC/ISFEREA); Andrea Ajmar, Information Technology for 
+Humanitarian Assistance, Cooperation and Action (ITHACA); Ken Banks, Kiwanja; Einar Bjorgo, UN Institute for 
+Training and Research Operational Satellite Applications Programme, (UNITAR/UNOSAT); Gianluca Bruni and 
+the whole team at World Food Programme (WFP); Jon Bugge, Save the Children; Jean-François Cazenave, 
+Monique Lanne-Petit and the whole team at Télécoms sans Frontières (TSF); John Crowley, National Defense 
+University (NDU); Caroline Dewing, Vodafone Group; Matthew Eltringham, Assistant Editor, Interactivity, 
+BBC; Mark Frohardt, Internews; Eric Gundersen, Development Seed; Erik Hersman, Ushahidi; Margunn 
+Indreboe-Shaikh, United Nations Development Programme (UNDP); Robert Kirkpatrick, Innovative Support 
+Emergencies Diseases and Disasters (InSTEDD); TV Ramachandran, Telecom Regulatory Authority of India 
+(TRAI); and Lisa Robinson, BBC World Service Trust.
+This report would not have been as compelling without the rich photos, graphs and tables contributed by 
+AP Photo/Ben Curtis, the BBC, Meridith Byrne, Allie Caulfield, DataDyne, Eskinder Debbibe, Development 
+Seed, Diego Fernandez, InSTEDD, JRC/ISFEREA, kiwanja.net, LabourNet, Nothing But Nets, the OFDA/CRED 
+International Disaster Database-Université Catholique de Louvain – Brussels – Belgium, Nick Rain, Roshan, 
+Save the Children, Evan Schneider, Souktel, TSF, Twitter, WFP, UN photo library, UNDP, UNITAR/UNOSAT, and 
+Ushahidi.
+Lastly, we would like to thank the team that worked on creating and producing this report. This includes 
+authors Diane Coyle and Patrick Meier, researcher Philip Thornton, copy editor Lelani Arris, designer Kirsten 
+Ankers, and Hal Kowenski and Andre Temoney at Linemark Printing. 
+ii   NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   
+Contents
+i Foreword
+ii Acknowledgements
+1 Executive Summary
+3 Section 1  Introduction
+9 Section 2  Alerts: Early Warning And Communication Needs
+17 Section 3  Preparedness: Building Communities’ Resilience 
+27 Section 4  Response: Coordination In Emergencies
+39 Section 5  Rebuilding: Post-Crisis Services And Development
+48 Section 6  Recommendations
+50 Endnotes
+NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   iii
+Credit: UN/Eskinder Debbibe
+iv   NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   
+Credit: Diego Fernandez
+Executive Summary
+Natural disasters and violent conflicts have always been part that while it has played a positive role, its full potential has 
+of human existence. But the number of humanitarian crises not yet been realized.
+has been rising in recent years. Moreover, disasters strike Moreover, governments, humanitarian agencies, and 
+most frequently, and with the most devastating impact, in local communities face challenges and risks associated with 
+the least developed countries. These countries also have the modern technological innovation. These include:
+weakest communications infrastructures, which poses a •	 Information	flows	must	be	two-way	to	be	effective—
+particular challenge to governments, aid agencies, and the from the external world to the affected community, but 
+affected population at every stage of a crisis, from the run- also from those affected to the agencies seeking to help 
+up to a disaster through to long-term reconstruction. them in useful ways. 
+There have been dramatic advances in communica- •	 Information	will	not	be	used	unless	it	is	trusted.	The	
+tions technology: in the number of new technologies, the utility of any technologies will depend on the social 
+mobility and range of functions available, and the spread context. People are a vital part of the communication 
+of these technologies. Growth has been particularly strong system.
+in the penetration of mobile phones and more recently the 
+uptake of social networking websites including Facebook •	 Information	will	be	helpful	only	if	it	is	accurate.	There	
+and Twitter. One important change is a shift from one-to- are risks in unregulated information flows, especially 
+many forms of communication, such as television and radio, when these are spread rapidly online, and these risks 
+to many-to-many forms of communication, such as social need to be managed. Authentication is a key challenge.
+networking and crowdsourcing websites, that is changing This tension between the potential benefit to humani-
+the way in which information is delivered and exchanged. tarian efforts from harnessing these technologies and the 
+Communications advances present an opportunity for risks that they pose is a key theme of this report. The 
+humanitarian organizations to harness modern technology report examines how authorities and humanitarian and aid 
+to communicate more effectively with communities affected organizations can best balance the opportunities and chal-
+by disasters and to allow members of those communities to lenges of exploiting different technologies at the key stages 
+communicate with each other and with the outside world. on	the	timeline	of	crisis—early	warning	and	preparedness,	
+People in affected communities can recover faster if they can immediate humanitarian relief, and reconstruction and 
+access and use information. A look at the use of commu- long-term development. 
+nications technology during disasters in recent years shows 
+NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   1
+Credit: AP Photo/Ben Curtis
+2   NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   
+1 Introduction
+On 13 June 2009, thousands of Iranians poured into the streets to protest 
+what they believed to be a flawed national election. Emerald green banners, the color of 
+opposition candidate Mir-Hossein Mousavi, lined roads clogged with people who held what 
+became one of the most important tools for the grassroots movement: the mobile phone. 
+With the Iranian regime restricting internet access and banning journalists’ access to key 
+demonstrations, communications via text messaging and social networks like Facebook 
+and Twitter became a crucial tool for information sharing between the protesters and 
+the outside world, and even a source for the news media. So critical was this source of 
+information that the U.S. State Department asked Twitter to delay a scheduled network 
+upgrade that would have shut down the site for some hours on June 15 and 16.1 
+Yet	both	hoaxers	and	Iranian	officials	also	are	said	to	have	 communities to gain in resilience, the right balance between 
+used these same communications networks to post false faster access to and reliability of information must be found.
+information. Without a trusted process of vetting, misinfor- This report looks at the progress that has been made to 
+mation gained currency simply by being constantly repeated date in setting policies that assist populations affected by 
+or re-Tweeted. One such instance was the claim that the disasters and conflicts, and considers some examples of both 
+election monitoring committee had declared the result government-organized and grassroots uses of technologies 
+invalid. Another was the initial circulation of a photograph that may help pave the way forward.
+said to be of a young woman killed in one of the Tehran But first, some context.
+demonstrations; the well-known picture was of another 
+woman with the same first name, Neda.2 Why consider the role of  
+The phenomenon dubbed ‘Twitter in Tehran’ demon- communications in emergencies? 
+strates both the opportunities and the challenges new com- There are two compelling reasons. First, there has been an 
+munications technologies present for information sharing increase in the prevalence of certain kinds of emergencies, 
+during emergencies. Objective and accurate information is whether	natural	disasters—including	those	resulting	from	
+essential	for	organized	communities—it	is	often	referred	to	 climate	change—or	disasters	resulting	from	human	conflict.	
+as a ‘public good’ for this reason. But par-
+ticularly in times of crisis, vital information 
+is often in short supply. New technologies New technologies and new uses of  
+and new uses of existing technology pres- “
+ent an important opportunity for improv- existing technology present an important 
+ing how people can prepare for, respond opportunity for improving how people  
+to, and recover from major disasters. At the can prepare for, respond to, and recover 
+same time, they present new risks and chal-
+lenges. For assistance to be effective and from major disasters.”
+NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   3
+in weather systems affecting tropical latitudes. Moreover, 
+people in the poorest countries are the worst affected by 
+natural hazards, due to factors such as poor quality hous-
+ing, inadequate levels of infrastructure, and weak emergency 
+services. 
+This report also looks at the use of communications 
+in crises such as civil conflict and terrorism. Like natural 
+Credit: UNITAR/UNOSAT disasters, terrorist incidents have increased in recent years. 
+Figures from the Terrorism Knowledge Base show that in the 
+And although the number of conflicts between countries years 1998 to 2000, the number of terrorist incidents aver-
+has fallen markedly since the Cold War, there is a rising level aged	about	1,100	per	year.	In	the	four	years	from	2001	to	
+of civil conflict, particularly in sub-Saharan Africa and the 2005, they averaged around 2,300 a year, reaching 3,000 in 
+Middle East and North Africa.3 2005 (the latest available data).4 The location of attacks has 
+Second, the information and communications revolu- varied from year to year, with the cities targeted including 
+tion of the past 20 years is continuing, meaning there is London,	Madrid,	Mumbai,	Jakarta,	and	Istanbul.	
+growing potential for people affected by emergencies to While the number of armed conflicts increased steadily 
+benefit from the flow of information. If communities  throughout the Cold War, beginning in the early 1990s, 
+depend on information for their survival in times of crisis,  conflict between nations began to decline. Clashes within 
+then communication technologies are their lifelines. More states now account for 95% of all conflict-related casualties, 
+information is being gathered. More people have access to and most of these civil conflicts occur in the world’s poorest 
+communications. The scope for effective relief is greater, countries, according to the 2005 Human Security Report.
+especially if humanitarian agencies and policy makers as  
+well as affected populations take advantage of the techno- Growing access to new  
+logical opportunities. communications technologies
+The potential for the use of communications before, during, 
+Growing number and intensity of and after natural disasters or conflict has been enhanced 
+emergencies thanks to the advent of new technologies such as mobile 
+The number of disasters, both natural and technological, has phones and the internet. 
+been	rising	in	recent	years.	According	to	the	International	
+Disaster Database, there has been a 
+steady increase in the frequency of 
+natural disasters during the past 35 Natural disasters reported from 1975 to 2008
+years, with almost as many occur-
+ring during the past 5 years as in 
+the whole of the previous decade. 
+On average, there were 428 disasters 
+per year between 1994 and 1998, 
+but the annual average jumped to 
+707 between 1999 and 2003. This 
+increasing trend in the total number 
+of disasters is mirrored in most cat-
+egories, including hurricanes, floods, 
+and earthquakes.
+Countries of low human devel-
+opment (as defined by the United 
+Nations) have suffered the biggest 
+1975 1980 1985 1990 1995 2000 2005 2008
+increase in the occurrence of natural Year
+disasters, partly due to changes 
+Source: EM-DAT: The OFDA/CRED International Disaster Database – www.emdat.net – Université 
+Catholique de Louvain – Brussels – Belgium
+4   NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   
+Number of disasters reported
+0 50 100 150 200 250 300 350 400 450 500 550
+Section 1: Introduction
+Landmark events in  
+the role of information  
+in emergencies
+Some events have carried striking lessons about the 
+impact of information and in each case have had a 
+profound effect on the subsequent development and 
+use of communications technologies.
+The Kobe earthquake, 1995
+The earthquake that hit the Japanese port of Kobe on 
+Credit: Meridith Byrne
+17 January 1995 was one of the first major disasters of 
+the modern communications age. Official emergency Hurricane Katrina, 2005
+communications were overwhelmed, but two computer When the Category 3 hurricane hit New Orleans on 29 
+networks set up free online bulletin boards. During its first August 2005, there was no lack of early warning. The 
+week, one of these had 5,000 messages posted and was shortfalls came in the slow response of the authorities 
+accessed 650,000 times by 140,000 people. Decentral- and lack of support for the community. Preparedness, 
+ized and online communication and information initiatives which is broader than early warnings and includes 
+were more effective than official efforts. education about potential disasters, is a vital part of the 
+information landscape. Absent effective official relief, the 
+Indian Ocean Tsunami, 2004 online media proved a new way for those affected by 
+The 26 December 2004 Indian Ocean tsunami was one of the crisis to connect with sources of help. According to 
+the deadliest natural disasters in recorded history. There one study, for many this was the first time they used a 
+was no early warning system covering the Indian Ocean computer.5 For many people, informal knowledge from 
+at that time and, as described in the next section, the trusted social contacts was the most important source 
+disaster gave great impetus to early warning efforts. The of information.6 
+confused aftermath led humanitarian agencies to start 
+paying greater attention to information needs. The impact Protests after 2009 Iranian elections
+of the tsunami was a lesson in the costs of inadequate Social networks can amplify the spread of information 
+information flows. enormously, as demonstrated by their use in Iran. Cer-
+tainly, where mobiles and computers are widely used, 
+people have the scope to supply information. However, 
+they have equal power to amplify inaccurate or deliber-
+ately misleading information. Other illustrations of these 
+issues arose with the November 2008 terrorist attacks 
+in Mumbai and the post-election violence early in 2008 
+in Kenya. 
+Credit: UN/Evan Schneider
+Mobile Phones about one mobile subscription per person, but the equiva-
+The growth in the use of mobile phones has been one of the lent figure for the developing world as a whole is 39%, with 
+most remarkable features of the last decade. At the end of large variations between countries and between urban and 
+2008, the number of subscriptions topped 4 billion, reach- rural areas.8 But the mobile divide is narrowing: for instance, 
+ing	61	for	every	100	people,	according	to	the	International	 Africa has the highest growth rate in new mobile subscrip-
+Telecommunications	Union	(ITU)7. Mobile penetration is tions, with a compound annual rate of 47% from 2003 to 
+not	even	across	the	globe.	In	the	developed	world,	there	is	 2008,	according	to	the	ITU.	
+NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   5
+Internet Themes of the report: what is the 
+The total global internet audience (people aged 15 and above role of information in a crisis?
+with access to home or work computers) passed one billion In	this	report,	we	give	many	examples	of	how	different	tech-
+in December 2008.9 China has the largest online audience nologies are being used in different contexts, to illustrate the 
+in the world, with 180 million internet users, representing potential benefits and challenges. We offer some general les-
+nearly 18% of the worldwide total, followed by the United sons about the effective use of information in emergencies, 
+States (16.2%), Japan (6.0%), Germany (3.7%), and the and about the management of new risks. Two main themes 
+United Kingdom (3.6%). But while almost three-quarters of that emerge are the importance of the accuracy of informa-
+the North American population have access to the inter- tion and of the social context (either face-to-face or online) 
+net, in most poor and middle income countries just 1 in in which it is used. 
+50	people	or	fewer	have	internet	access.	Internet	access	is	 This report examines the opportunities and challenges 
+expected to continue to expand. For developing countries, of using technology to promote information sharing in di-
+this is likely to be via mobile internet.10 The advent of mobile sasters, whether natural or manmade. The report is divided 
+internet in these countries is recent but already shows signs into four sections that look at the use of different technolo-
+of extremely rapid growth. Given the absence of a fixed line gies at the key stages on the crisis timeline: early warning, 
+infrastructure, it is mobile internet that offers the scope for wider information preparedness, humanitarian relief and 
+wider access for people in the developing world.11 reconstruction, and long-term development. 
+The report also makes distinctions in terms of the format 
+Social Networks of the communications. While the underlying communica-
+On the back of the recent spread of broadband internet ac- tions technology may be radio, mobile, or internet, it is 
+cess, the popularity of social networking sites such as Face- useful to how the information is conveyed, whether: 
+book, Orkut, and Twitter has exploded. These are websites •	 one-to-many	(broadcast—radio,	television,	web,	mobile	
+that allow users to communicate with other people as they applications (apps) and services, short message service 
+choose, either sending messages (of fewer than 140 char- (SMS) broadcast); 
+acters in the case of Twitter) or sharing photos.12 The most •	 one-to-one	(mobile	voice	and	SMS);	or
+popular social networking site globally is Facebook, which •	 many-to-many,	such	as	social	networks	(online	or	mo-
+saw a 153% surge in unique visitors to 132.1 million from bile internet, mapping, and crowdsourcing). 
+June 2007 to June 2008 and another 157% to reach 208 
+million visitors by June 2009.13 Although its largest base How information is conveyed
+is in North America (70 million in mid-2009), Facebook’s 
+one-to-many one-to-one many-to many
+growth	there	was	relatively	modest.	In	every	other	region,	
+Facebook’s audience more than quadrupled in 2008. Even 
+so, social networking is still small-scale in developing coun-
+tries.	In	India	(where	Orkut	is	the	most	popular	site),	19.4	
+million people were using these sites in December 2008, 
+an annual rise of 51% but a tiny fraction of its more than 1 
+billion people.14
+Twitter
+Twitter, whose users are concentrated in the developed 
+world, is also experiencing extraordinary growth. The 
+number of visitors to Twitter.com increased by 67% in the 
+month of April 2009 alone, from 19.1 million to 32 mil-
+lion. Rich nations predominate on Twitter. One report by 
+independent analysts Sysomos that analyzed 115 million ac- In	evaluating	the	use	of	communications	technologies	
+counts found that almost two-thirds (62.2%) of users were in disaster relief, the report also considers the different audi-
+based in the United States. The highest ranked developing ences or users of information, whether a global or local mass 
+country	was	Brazil	at	2.0%,	followed	by	India	(0.87%),	the	 audience; the aid and policy community, including their 
+Philippines (0.64%), and China (0.49%).15 emergency relief efforts; or the affected population. 
+6   NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   
+Section 1: Introduction
+Reading this report
+The below diagram provides a map of the major themes explored in this report, and identifies the communications formats, 
+tools and applications, actors and examples identified in each section.
+Summary Communications Tools & Actors Examples
+Formats Applications 
+Section 1. Growing access to Facebook; Kobe Earthquake, Japan, 1995;
+Introduction technology and continuing Twitter Indian Ocean tsunami, Dec 
+innovation offer the 2004;
+potential for more effective 
+response in emergencies, Hurricane Katrina, New Orleans, 
+but also create new risks to 2005;
+be managed. Protests following disputed 
+Iranian elections, June 2009
+Section 2.   People need as much Timely one-way Meteorological GIVAS Indian Ocean tsunami Dec 2004, 
+Alerts: Early reliable information as communication to warning systems; a turning point in understanding 
+Warning possible to prepare for as many people as SMS messages; the importance of information; 
+onset. Regulations and possible, as quickly as Ongoing pilot of cell broadcasts 
+standards are vital but possible. Cell broadcast in flood-prone areas of 
+effective early warning Bangladesh
+systems must have people 
+at their center.
+Section 3. Preparedness depends on Interoperable Broadcast media; EU Joint Research Centre’s Post-election violence in Kenya 
+Preparedness: long-term education and and resilient Geospatial European Media Monitor &  in early 2008; 
+Rebuilding planning in order to ensure communications technologies; MOSAIC; Cyclone Nargis in Burma in May 
+Communities’ people affected by an infrastructure for GIVAS; 2008;
+Resilience emergency or conflict can emergencies; Crowdsourcing
+respond appropriately. Internews & BBC World Gaza conflict in Dec 2008-Jan Public awareness and Service Trust; 2009;
+education; 
+Save the Children; Mozambique elections in 
+Two-way exchange of 
+Ushahidi & Swift River; October 2009;information
+World Food Programme’s Ongoing conflict in DRC & 
+EPIC Afghanistan
+Section 4.  The overwhelming Person-to-person Emergency EU Joint Research Centre; Mumbai terror attacks in 
+Response: need at the height of an contact for swift telecoms/ satellite; GDACS; November 2008;
+Coordination in emergency is rapid and delivery of information; Social networks; InSTEDD; Conflict in Sri Lanka 2009;Emergencies high-quality information, Emergency response 
+delivered to those Satellite imagery; Télécoms Sans Frontières; Post-election protests in Iran, communications for 
+affected, and co-ordinated 2009;humanitarian workers Unmanned Aerial 
+effectively between relief UNOSAT & AAAS for and for affected Vehicles (UAV) Niger community 
+organizations. Information satellite images, UAVs;families communications centers, 
+flows need to be two-way World Food Programme’s ongoing
+and validated for reliability. ITHACA
+Section 5. Rebuilding after an Information exchange Mapping; EU Joint Research Centre; Assistance in Kenya during  
+Reconstruction: emergency or conflict and co-ordination; SMS tools; Kiwanja &  FrontlineSMS; post-election violence, 2008;
+Post-Crisis depends on the quality of Dispersed 2-way 
+Services and the existing infrastructure. Mobile M-PESA and M-Paisa;
+Monitoring during March-June 
+communications for 
+Development New technologies and transactions; 
+2008 election campaigns in 
+as many people as Souktel & LabourNet; Zimbabwe;
+applications mean possible; Online job 
+information flows offer UNDP’s TRMAmatching Post-conflict monitoring in 
+great potential for longer- Access to Sudan;
+term reconstruction. communications tools Money transactions in 
+Afghanistan; 
+Job creation in Gaza and  
+Bangalore
+NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   7
+Credit: UN/Evan Schneider
+Key milestones in development of disaster early warning systems
+1949 1989 1994 1995 1998 2000 
+    
+Hawaii-based Pacific  December: United  World Conference January: Kobe  Potsdam International UN International 
+Tsunami Warning Center  Nations declared 1990s on Natural Disaster earthquake Conference on Early Strategy for Disaster 
+established, following the International Decade Reduction, Yokohama, Warning Systems Reduction launched
+1946 Aleutian Island  for Natural Disaster adopted Yokohama 
+earthquake and tsunami Reduction Strategy and Plan of  
+Action for a Safer 
+World
+8   NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   
+2Alerts Early warning and communication needs
+Information has huge value in emergencies, but in times of crisis, objective,  
+accurate, and freely available information is often in short supply. Governments, regula-
+tors, and international agencies therefore have a key role in ensuring that people have 
+as much reliable information—often described as a ‘public good’—as early as possible 
+during emergencies or conflicts. It is also critical that the right regulations and standards 
+are in place for communications to be deployed quickly when needed, especially across 
+national borders. This section looks at the most advanced aspect of emergency informa-
+tion provision, early warning systems, while later sections address new applications in 
+other areas of information need, using emerging technologies.
+Early warning systems  the region, and neither early warning nor suitable disaster-
+in natural disasters preparedness	arrangements	were	in	place.	In	regions	where	
+Efforts to improve early warning communications in emer- such events are more frequent, there were already appropri-
+gencies started as far back as the 1940s. But recent prog- ate early warning arrangements. The longest-established 
+ress on early warning systems owes much to the profound example is the Hawaii-based Pacific Tsunami Warning 
+impact	of	the	26	December	2004	tsunami	in	the	Indian	 Center, which has covered the Pacific Ocean since 1949. But 
+Ocean, one of the deadliest natural disasters to date. (See in	2004	the	Indian	Ocean	was	not	covered.
+box on page 10) So	the	Indian	Ocean,	like	the	Pacific,	now	has	an	early	
+In	response	to	the	tsunami’s	impact,	the	2005	report	 warning	system.	In	general,	weather-related	hazards	are	the	
+of	the	International	Red	Cross	and	Red	Crescent,	World best covered worldwide compared to other natural disasters, 
+Disasters Report 2005: Focus on information in disasters, thanks in large part to the World Meteorological Organiza-
+featured examples of good practice in using communications tion	system.	Innovation	continues	in	this	field.	The	box	
+effectively, and pointed out the need for better early warning describes one example, cell broadcasting. One such example 
+systems and the need for an international regulatory frame- is cell broadcasting, highlighted in the following box.  This 
+work.16 Since then, progress has been rapid, as summarized initiative, launched in June 2009, is a partnership between 
+in the timeline below. the UN Development Programme (UNDP), Grameen-
+Why was the impact of this particular disaster so dev- phone and state-owned Teletalk.17 Yet early warning systems 
+astating? Part of the explanation is that tsunamis are rare in for other kinds of events are limited. 
+2003 2004 2005 2005 2006
+Second International December: Indian January: Kobe World Conference August Indian Ocean  Third International  
+Conference on Early Ocean tsunami on Disaster Reduction, formal Tsunami Warning System Conference on Early  
+Warning, Bonn launch of International Early agreed (implemented in Warning, Bonn. Launch  
+Warning Programme; publication 2006) as an initial step of UN Global Survey of  
+of Hyogo Framework for Action toward an International  Early Warning Systems
+2005-2015 Early Warning Programme 
+NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   9
+The Indian Ocean Tsunami
+The 26 December 2004 Indian Ocean tsunami was one of the 
+deadliest natural disasters in recorded history. More than 250,000 
+people are thought to have died, while the cost of the physical 
+damage has been estimated as at least $7 billion.18 The epicenter of 
+the sub-ocean earthquake was west of Sumatra, and the resulting 
+wave of up to 98 feet affected India, the Maldives, Sri Lanka, and 
+Thailand as well as Indonesia.
+The mobile phone played a key role in the aftermath of the tsunami.19 
+The tsunami struck on a Sunday, when mobile network traffic was 
+significantly below weekday peaks and could be rerouted, so 
+networks continued to operate where the infrastructure was not 
+Credit: UN/Evan Schneider destroyed. Some damaged infrastructure was restored the day after 
+the disaster by the deployment of new masts. Mobiles also, for the 
+first time, became a fundraising tool. In the United Kingdom alone, 
+a united campaign by all major mobile operators saw more than 
+725,000 people raise £1.1m by donating £1.50 each to the Disasters 
+Emergency Committee’s fundraising appeal in January and February 
+2005.20
+Preparedness, which includes education about potential disasters, 
+is a vital part of the information landscape. One remarkable story 
+shows that technology is only part of the story about how information 
+can mitigate disasters. A 10-year old British schoolgirl, Tilly Smith, had 
+recently studied tsunamis at school. When she saw the sea suddenly 
+recede, the water start to bubble and the boats on the horizon bob 
+up and down violently, she alerted her parents who urged others on 
+the beach to seek high ground. About 100 people on Maikhao beach 
+Credit: UN/Evan Schneider in Phuket, Thailand escaped death by minutes.21
+Furthermore, it has become clear that the technological tsunami.24 The report was notable for marking a turning 
+and scientific focus of past initiatives overlooked the importance point in the humanitarian community’s perception of the 
+of who gets the information and how it is used. The recent need for effective communication. Only 15% of respon-
+tsunami in the South Pacific that affected Samoa, Tonga, dents said they had received enough practical information 
+and American Samoa showed the limitations of the Pacific about assistance. They wanted simple information about 
+Tsunami Warning system especially when there is little time housing, above all. But despite the obvious presence of 
+to respond; reports suggest many people did not know what many agencies, they could not get it. The report said: “There 
+to do.22 This echoes a study into the lessons of the tsunami has not been enough of a systematic effort by those work-
+by	LIRNEasia,	a	think	tank	based	in	Sri	Lanka,	who	found	 ing in tsunami relief to keep communities abreast of what is 
+that the catastrophic impact of the 2004 tsunami resulted available	to	them.”	
+from the “absence of institutional mechanisms for the provi- Subsequent work has identified the areas of response 
+sion of warnings to vulnerable populations including… needing improvement. The United Nation’s Global Survey 
+mobilization	of	ICTs.”23 of	Early	Warning	Systems,	launched	at	the	Third	Interna-
+A UNDP report, Where’s My House?, surveyed members tional Conference on Early Warning in 2006, concluded 
+of	the	population	in	Aceh,	Indonesia	affected	by	the	2004	 that there were numerous gaps and shortcomings in terms of 
+10   NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   
+Section 2: Alerts
+effectively reaching and serving the needs of those at risk.25  Early warning  
+“A major challenge is to integrate the knowledge and insight systems in South Asia
+of relevant social and economic communities into the pre-
+The December 2004 tsunami prompted several subse-
+dominantly	technically	based	existing	systems.”	
+quent developments around the Indian Ocean. For in-
+Even when warnings are issued, they fail to reach all who 
+stance, the Sri Lankan government established a Disaster 
+need to take action, including local authorities, community-
+Management Centre (DMC) in January 2005 to monitor 
+based organizations, and the public at large. Often warnings 
+potential natural disasters, funded by the UN Develop-
+issued are not properly understood or may not be taken seri-
+ment Programme. Following a tsunami warning, an alert 
+ously.	If	people	receive	the	information,	they	might	not	trust	
+is sent via short message service (SMS) message to 
+it or know how to use it.
+village chiefs, government agents, the military, police offi-
+The most recent World Disasters Report	from	the	Interna-
+cers and media. These agencies, in turn, contact citizens 
+tional Federation of Red Cross and Red Crescent Societies in their district to inform them of the alert, using SMS as 
+(IFRC)	emphasized	people-centeredness.26	It	hailed	the	 well as television and radio networks. On 19 September 
+establishment and improvement of early warning systems 2007, Sri Lankans received a 20-word text alert follow-
+as a key factor driving a decline in injuries, loss of liveli- ing a magnitude 7.9 earthquake off the southern coast 
+hoods, and deaths from disasters over the past 30 years. For of Sumatra: “Tsunami warning for Sri Lanka north, east 
+example, serious flooding of the River Limpopo killed an and south coast. People asked to move away from coast 
+estimated	700	people	in	Mozambique	in	February	2000— – Disaster Management Center.” No injuries or casual-
+when the birth of baby Rosita in a tree caught the world’s ties were reported and citizens returned home over the 
+attention—but	only	30	in	2007	and	nobody	in	2008.	The	 course of the next three days. However, mobile networks 
+report concluded that there has been significant progress in became jammed after the alert was issued due to the 
+adopting better early warning technologies since 2005, but high volume of voice calls. The Sri Lankan telecommuni-
+much remains to be done on connecting the technology to cations authority now insists that subscribers may only 
+its users. use SMS messaging during national emergencies, so as 
+As	IFRC’s	Secretary	General,	Bekele	Geleta,	wrote	in	 not to overburden the networks.28 
+his foreword: “The development of a more people-centered 
+approach is clearly essential to ensure that the warnings cap- Another tsunami early warning system has been devel-
+tured by satellites, computer modelling and other technolo- oped by the GeoForschungsZentrum Potsdam (GFZ, 
+gies	reach	at-risk	communities	and	are	then	acted	upon.” Germany’s National Lab for Geosciences), SeisComP3, 
+launched in May 2007. Its functionality was demonstrated 
+The regulatory framework for early on 12 September 2007, when it determined within four 
+warning systems minutes the magnitude (8.0) and the location of the 
+The regulatory situation for disaster early warning exhibits Bengkulu quake in the southern part of Sumatra. Based 
+on that information, the Geophysical Survey in Jakarta 
+significant	progress	prompted	by	the	Indian	Ocean	tsunami,	
+released its first ever tsunami warning.29 
+but more work is required. The ratification in January 2005 
+of the Tampere Convention on the Provision of Telecom- The Indian Ocean Tsunami Warning System came into 
+munication Resources for Disaster Mitigation and Relief operation in 2006. It is a partnership between the United 
+Operations was a major policy milestone.27 The treaty, first Nations Educational, Scientific and Cultural Organiza-
+proposed in 1998, calls on signatories to facilitate the provi- tion’s (UNESCO) Intergovernmental Oceanographic 
+sion	of	prompt	telecommunication	assistance.	It	covers	both	 Commission (IOC), which coordinated the planning and 
+the installation and operation of reliable, flexible telecom- implementation, and the global satellite communications 
+munication services. operator INMARSAT. It comprises an extensive network 
+The ratification removes earlier regulatory roadblocks of seismic instruments, sea level gauges, and deep 
+to moving telecommunications personnel and equipment ocean pressure sensors that can register and measure 
+into and within disaster-affected areas. Previously, there were an offshore earthquake and any resulting tsunami. The 
+many obstacles to the rapid deployment of the necessary information, for the moment, is transmitted to the tsunami 
+equipment without prior consent of the local authorities. warning center in the Pacific and the Japanese Meteoro-
+The convention calls on countries to waive barriers such as logical Agency, which then issues information bulletins to 
+licensing requirements for the use of needed frequencies, designated authorities.
+NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   11
+Credit: Télécoms Sans Frontières 
+restrictions on importing equipment, and limits on the •	 the	need	for	interoperability	between	public	networks	
+movement of personnel teams. and networks dedicated to emergency communications; 
+However, some barriers remain, including incomplete stan- and
+dardization or interoperability of different user devices, network •	 a	need	for	priority	access	by	emergency	services	 
+equipment, and emergency communications systems. One ex- personnel to communications.
+ample of a technological obstacle to effective operation is the The	International	Telecommunication	Union’s	fourth	
+fact	that	VOIP	(voice	over	internet	protocol)	users—people	 World Telecommunication Development Conference in 
+using	internet	telephony	on	their	laptop—often	cannot	 2006 called on governments to ensure that the enabling 
+provide geographical coordinates of people calling the emer- environment for the use of communications in emergen-
+gency services (in contrast to mobile phone technology). cies	extends	to	rapidly	growing	new	technologies.	It	pointed	
+Recent experiences of disasters and conflicts have out that the growth of broadband and the convergence of 
+highlighted some key remaining gaps in the technical and telecommunications, computing, and multimedia applica-
+regulatory framework: tions have opened up new potential for disaster relief and re-
+•	 the	need	for	further	standardization	of	communications	 sponse, environmental protection, and post-war or post-di-
+in	emergency	situations—such	as	a	global	standard	for	 saster reconstruction.30 The 2009 Global Assessment Report on 
+cell broadcast technologies, for example; Disaster Risk Reduction reviews individual countries’ progress 
+•	 the	need	to	develop	standards	applicable	to	existing	and	 toward fulfillment of the Hyogo Framework for Action.31 
+future systems for delivery of early warnings or alerts; Therefore, it has become clear that more work is  
+needed so that information and communication tools can 
+inform, protect, and empower people affected by emergen-
+cies of different kinds. The technology itself is vital but  
+“ The technology itself is vital can	only	be	effective	in	the	right	framework—which	needs	to evolve as new technological tools are becoming available but can only be effective in the at a rapid pace. 
+right framework—which needs 
+to evolve as new technological Conflict warning and prevention
+Disaster early warning and response systems have gained the 
+tools are becoming available at most attention, and the regulatory changes described above 
+an amazing pace.  have been a reaction to the recent experience of natural ” disasters. Yet the field of conflict early warning and response  has also achieved some important milestones, albeit lagging 
+12   NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   
+Section 2: Alerts
+that of disaster warning. The principles of ‘early detection, Cell Broadcasting  
+early response’ apply as much to conflict early warning and for Early Warning
+prevention as to disasters. Conflict early warning systems, 
+With growing mobile phone access, SMS messages 
+however, seek to monitor the triggers, processes, and out-
+comes of armed conflict. hold great appeal as a means of conveying information 
+The purpose of conflict warning systems traditionally to people at risk of an emergency. But SMS messaging 
+has been to catalyze and inform diplomatic or top-down has some important limitations. For example, only pre-
+operational responses. The former may take the form of pre- registered numbers can be texted. In addition, SMS 
+ventive diplomacy while the latter may include the deploy- alerts can only be sent out one-by-one in a queue and 
+ment of peacekeeping forces. These are just two of several so can be delayed. Furthermore, people cannot easily 
+potential	institutional	responses	that	are	typically	adopted— tell whether SMS alerts come from trusted sources. 
+often	too	late—after	early	signs	of	escalating	violence.	The	 SMS cell broadcasting is an appealing alternative. It is a 
+Organization for Economic Cooperation and Development 
+one-to-many (or one-to-area) mode of communication 
+(OECD) noted in a major 2009 report on the future of con-
+unlike SMS, which is one-to-one. It allows authorities to 
+flict early warning systems that “an external, interventionist, 
+broadcast messages to anyone in a given geographi-
+and state-centric approach in early warning fuels disjointed 
+cal area without needing any pre-registered numbers 
+and top-down responses in situations that require integrated 
+or infringing on privacy. Messages can be tailored for 
+and multilevel action. Evidently, a state-centric focus in 
+different geographical areas and use dedicated com-
+conflict management does not reflect an understanding of 
+the role played by civil society organizations in situations munication channels thus eliminating congestion. 
+[for	example]	where	the	state	has	failed.”32 There is also no way for an outsider to generate a cell 
+This recognition has started to shift the debate on broadcast message, so false emergency alerts are 
+conflict	early	warning	to	people-centered	approaches—also	 considered unlikely.35 While mobile phones have to be 
+referred to as third- or fourth-generation early warning switched on to receive the alerts, cell broadcasting al-
+systems—in	a	parallel	to	the	earlier	debate	on	disaster	early	 lows for repeat messages to be broadcast periodically. 
+warning.33	In	this	context	also,	people-centered	approaches	 Simultaneous multi-language broadcasting is  
+can empower local at-risk communities. While external, top- also possible.
+down efforts emphasize the need to predict accurately the 
+escalation of armed conflict, emerging conflict early warning In Bangladesh, the UNDP is supporting the develop-
+systems emphasize local contingency planning. ment of instant disaster alerts via SMS cell broadcast-
+Moreover, while technology has long played a prominent ing. The initiative is being piloted in the flood-prone 
+role in disaster early warning systems, this is not equally true district of Shirajganj and the cyclone-prone district 
+of conflict early warning systems. As the 2009 OECD report Cox’s Bazar. According to the UNDP, “The messages 
+notes, “most inter-governmental and non-governmental will flash automatically on the screen of mobile phone 
+systems … have not gone beyond the use of email and web- sets, instead of going to message boxes. This way, a 
+sites for dissemination, and communication technology for user does not even need to push a button.”36 The pro-
+data	collection.”34 None of the major intergovernmental and gram will be expanded across the country through the 
+nongovernmental conflict early warning systems have made UNDP-sponsored Comprehensive Disaster Manage-
+use of mobile technology, for example. ment Program.
+On the other hand, new people-centered conflict early 
+warning initiatives have been early adopters of technol-
+ogy. For example, Ushahidi, described later in this report, 
+is an online platform where people can post individual Innovations	like	Twitter	and	the	increasingly	widespread	
+reports that are then aggregated and presented in useful availability of mobile phones, along with recent interest in 
+ways. Another important recent development is the United the use of high-resolution satellite imagery (described later 
+Nation’s	Global	Impact	and	Vulnerability	Alert	System	 in this report), present some important opportunities for 
+(GIVAS).	Launched	in	September	2009,	the	GIVAS	website	 conflict early warning initiatives.
+is expected to make maximum use of new media and digital However, these developments pose some challenges that 
+technologies for information collection and crisis alerts. do not typically arise in the context of natural disasters. 
+NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   13
+Credit: Eskinder Debbibe
+“ Misinformation and propaganda  are often rife during conflicts and  
+political crises, so integrating  
+multiple technologies and individual 
+Misinformation and propaganda are often rife inputs runs the risk of amplifying  
+during conflicts and political crises, so inte-
+grating multiple technologies and individual misleading information.
+inputs runs the risk of amplifying misleading ” 
+information. 
+In	addition,	some	regimes,	such	as	the	Su-
+danese	government,	or	the	Iranian	authorities	after	the	2009	 a shift away from state-centric, top-down approaches to 
+election, may seek to monitor text messages and trace them more decentralized, people-centered initiatives. This shift is 
+back to the original sender. There is a need for technologies further accentuated by the availability of digital technology 
+that ensure anonymous or secure communication, a relatively and new media, which is more decentralized and distributed 
+new issue in the conflict early warning field. Such needs are than traditional technologies. The challenge is to leverage 
+typically less pronounced in disaster settings. these new technologies to empower individuals affected by 
+The OECD report warns, “The humanitarian communi- conflicts.
+ty is no better positioned today to prevent another Rwandan 
+genocide	than	we	were	in	1994.”	Conflict	early	warning	lags	 Conclusions
+15 years behind disaster early warning, it concludes. There is The impact of disasters and conflicts on lives and livelihoods 
+significant potential for the development of effective people- can be greatly reduced by giving affected communities 
+centered conflict early warning systems, but these also carry advance	warning.	The	Indian	Ocean	tsunami	was	a	turning	
+the	risk	of	abuse	by	parties	to	the	conflict.	In	sum,	the	use	 point in exposing the devastating effect of weaknesses in 
+of technology in conflict settings requires a different set of early warning systems.
+solutions to overcome existing challenges, and lags some Much progress has been made in addressing those 
+years behind the evolution of natural disaster early warning weaknesses.	It	is	clear,	though,	that	there	is	some	way	to	
+systems. The field of conflict early warning is witnessing go before warnings reach all those who should take action. 
+14   NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   
+Section 2: Alerts
+Milestones in conflict prevention and conflict early 
+warning systems
+The unanticipated Yom Kippur war in 1973 and the Falklands war in 1982 provoked the first debates over the 
+lack of conflict early warning systems.
+1981: UN Special Rapporteur, Prince Sadruddin Aga Khan, 1997: Forum on Early Warning and Early Response  
+delivers his report Massive Exodus and Human Rights to (FEWER) establishes a network of 35 organizations  
+the UN and calls for an early warning system for refugee worldwide and catalyzes the creation of early warning  
+movements. systems in the Caucus, Great Lakes Region of Africa,  
+and West Africa.
+1987: United Nations sets up the Office for the Research 
+and Collection of Information (ORCI) to establish an early 1997: Final Report of Carnegie Commission on Preventing 
+warning system and provide early warnings and recom- Deadly Conflict states “The circumstances that give rise to 
+mendations to the UN Secretary General. violent conflict can usually be foreseen.”
+1992: UN Report An Agenda for Peace (the Brahimi  2001: UN Secretary General’s report Prevention of  
+Report) is presented to the UN Secretary General,  Armed Conflict stresses the need for conflict analysis in 
+emphasizing the need to “identify at the earliest possible conflict-prone countries and the importance of preventive 
+stage situations that could produce conflict and to try diplomacy to ease tensions before they result in conflict.
+through diplomacy to remove the sources of danger  
+2003: InterGovernmental Authority on Development 
+before violence erupts.”
+(IGAD) launches Conflict Early Warning and Response 
+1993: UN Department for Humanitarian Affairs (DHA)  Mechanism (CEWARN). 
+establishes the Humanitarian Early Warning System 
+2005: Economic Community of West African States 
+(HEWS) to identify crises with humanitarian implications.
+(ECOWAS) launches ECOWAS Early Warning System 
+1994: April through June, Rwandan genocide. (ECOWARN).
+1994: May, Carnegie Corporation of New York establishes 2008: African Union’s Communications Early Warning 
+the Carnegie Commission on Preventing Deadly Conflict. System launched.
+More progress needs to be made on the provision of accurate and important sources of information themselves, and the new 
+consistent information for the people exposed to risk. People- technologies offer tremendous potential for the informa-
+centered systems are even farther behind in the context of tion people provide to be aggregated and made available to 
+conflict early warnings. others. However, the risk of misinformation can be acute in a 
+Recent experiences have highlighted some key remaining conflict, making authentication a vital challenge. At the same 
+gaps in the technical and regulatory framework. These include time, it is important to ensure that communications tech-
+the need for further standardization, greater interoperability nologies	can	offer	their	users	a	sufficient	degree	of	anonym-
+between public networks and networks dedicated to emer- ity and protection. 
+gency communications, and priority access by emergency There is a fundamental tradeoff between the authori-
+services personnel to communications. tativeness of information and its timeliness. Humanitarian 
+Coordination of information also remains an issue. Early information systems have traditionally favored authoritative-
+warning information needs to be collected and deployed. ness and so have lagged events. New real-time approaches 
+Often	this	will	be	done	by	official	agencies,	but	their	respon- are changing this, but the issue of validation remains a 
+sibilities may be overlapping and uncoordinated. challenge. This important point is addressed in the following 
+Situations of conflict pose additional challenges. In an section.
+emerging conflict, individuals who are affected will often be 
+NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   15
+Credit: Save the Children
+16   NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   
+3Preparedness Building communities’ resilience
+The introduction highlighted the distinctions between different stages with 
+respect to the onset of a disaster or conflict. Being prepared beforehand is one 
+of these distinct stages. Early warning, the subject of the previous section, is a narrow 
+aspect of the information needs for preparing communities. In this section, we look 
+at the technologies and types of communication that can create preparedness and 
+resilience in a broader sense in the event of an emergency. This requires long-term 
+planning, investment, and education. Less progress has been made on this front than 
+on the narrower aspect of preparedness represented by early warning systems, but 
+new technological developments offer new potential for improving preparedness within 
+populations at risk.
+The purpose of people-centered early warning is to enable journalist Jeff Howe to describe when tasks are opened up to 
+local communities to get out of harm’s way or to otherwise anyone	as	a	way	to	“tap	the	talent	of	the	crowd.”40 Anyone 
+cope as effectively as possible.37 Meeting the information with access can contribute his or her solutions. Crowdsourc-
+needs	of	communities	before	the	onset	of	emergencies—per- ing platforms can use information sent via mobile phone, 
+haps	long	before—is	an	important	way	to	build	community	 email, or the web to create dynamic online maps.
+preparedness and resilience. However, this innovation raises some important concerns 
+Markku	Niskala,	Secretary	General	of	the	International	 regarding the reliability of the information presented. The ten-
+Federation	of	Red	Cross	and	Red	Crescent	Societies	(IFRC)	 sion between wider sharing of information and confidence in its 
+said,	“Information	bestows	power,”	and	at-risk	communities	 reliability is heightened by new technologies. This theme recurs 
+need “information as much as water, food and medicine, throughout	this	report.	Information	needs	to	be	prepared	and	
+or	shelter,”	before	(and	during)	disasters.38 Hence, disas- disseminated. To be useful, it must be accurate and trusted 
+ter is first of all seen as a crisis in communicating within 
+a	community—that	is,	as	a	difficulty	for	someone	to	get	
+informed and to inform others.39 The torrent of information 
+generated before and during crises can be hard to access and 
+understand. If effective, preparedness 
+At the same time, the increasingly widespread use of mo- “ equips the population to be as 
+bile and online technologies present new potential informa- self sufficient as possible and 
+tion lifelines in times of crisis.
+From the perspective of local communities, new plat- makes external relief more  
+forms like Ushahidi, described later in this section, have the effective. Importantly, it can 
+potential to improve awareness as an emergency unfolds by also pre-empt emergencies.
+crowdsourcing	crisis	information.	Crowdsourcing—a	name	 ”
+derived	from	‘outsourcing’—is	a	term	coined	by	Wired 
+NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   17
+and it must be understood and used 
+by the community. 
+As noted above, the December “ Those who are in the business of providing 
+2004	Indian	Ocean	tsunami	was	the	 information must expect to have much  
+trigger for a re-evaluation of the role greater engagement than in the past with 
+of information, and stimulated the 
+first steps toward the more effective people affected by a disaster or conflict,  
+use of information in emergencies. and to be doing so in a context of the wider 
+The 2009 World Disasters Report availability of other information sources.
+from	the	IFRC	has	built	on	the	
+earlier progress by emphasizing the ”
+importance for effective early warn-
+ing systems of the ‘last mile,’ which means preparing people “The message needs to tell a story, to engage emotions, in 
+in communities at risk. Communities must own the risk as- order	to	affect	people’s	behavior,”	he	says.	This	is	clearly	a	
+sessment process and early actions in disaster response if the long-term activity that needs to predate any emergency.
+impacts are to be minimized. According to the report, “Early Money spent on formal public information campaigns 
+warning is not only the production of technically accurate is less effective because these are so much less engaging, he 
+warnings but also a system that requires an understanding of argues. Humanitarian organizations need to provide good, 
+risk and a link between producers and consumers of warning consistent, and accurate information, with local capacity to 
+information.”41 disseminate it. 
+This section gives examples of different ways of covering “The humanitarian community had previously come to 
+that last mile in order to be prepared. The first is the existing look	at	information	as	something	it	shared	within	itself,”	
+broadcast media, especially radio, which is available almost Mark Frohardt says. But information can now be much more 
+everywhere and is a powerful tool for dissemination. widely shared. The scope for direct contact with people 
+affected by conflict or disaster has been revolutionized: for 
+Public education and the  example, many have mobile phones and many have contact 
+role of the media with diaspora communities overseas. 
+Broadcasting is useful both in public education and disaster Just as in other contexts, the increasing access to new 
+preparedness and in disseminating advice in the aftermath of technologies is changing audiences’ expectations of the 
+a crisis. Lisa Robinson of the BBC World Service Trust was broadcast media. Those who are in the business of providing 
+the	co-author	with	Imogen	Wall	of	a	recent	study	on	the	 information must expect to have much greater engagement 
+role of information in humanitarian response.42 She says that than in the past with people affected by a disaster or con-
+many organizations in the field struggle to communicate flict, and to be doing so in a context of the wider availability 
+with affected populations because this requires specific skills of other information sources, which may be more trusted 
+they have not traditionally needed. even though informal. 
+The World Service Trust report argues that the priorities While the broadcast media are unparalleled in their 
+to get information provision recognized by humanitarian potential for disseminating information along the last mile 
+agencies as a standard part of both preparedness and aid in ways that connect powerfully with their audiences, and 
+delivery should be: while people will seek information from many sources, there 
+•	 preparing	off-the-shelf	material	agreed	between	humani- is	an	increased	need	for	authoritative	official	information.	
+tarian and aid agencies (what to do in an earthquake, We turn next to recent developments, both institutional and 
+basic sanitation advice, for example); technological,	in	official	alert	and	preparedness	systems.	
+•	 training	humanitarian	agencies	in	communication	skills,	
+including receiving and using feedback from communi- Global alert and preparedness  
+ties; and systems 
+•	 including	a	wind-up	radio	in	aid	packages.	 There is a need to aggregate reliable and timely information 
+Mark	Frohardt	of	Internews	advocates	capacity	building	 to enhance preparedness. A number of important recent 
+among the local media so that journalists who understand initiatives focus on this. Three very different initiatives are 
+the local situation can disseminate information effectively. described	here.	The	UN’s	Global	Impact	and	Vulnerability	
+18   NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   
+Section 3: Preparedness
+People-centered communications practice at  
+Save the Children
+The perspective on communication in the humanitarian community has shifted significantly in the 
+past year or two. Save the Children has actively focused during this time on making information one 
+of the key aid deliverables. Jon Bugge of Save the Children says, “The communication has to be 
+two-way. You can’t just turn up and deliver anything.”
+He thinks changes in the technology of communications 
+have increased awareness of information needs, but the 
+methods used can be very simple—posters on a notice 
+board will often be enough, or simple printed leaflets with 
+advice. 
+Information needs should be built into the initial assess-
+ment in an emergency, he says, because it will help the 
+people affected start to be the architects of their own 
+recovery. Agencies need to coordinate the advice they 
+hand out so people are not receiving conflicting informa-
+tion. And they need to include feedback mechanisms, 
+which are invaluable for making programs more effective. 
+One early innovative information mechanism used by 
+Save the Children was the children’s feedback com-
+mittees they set up in Zimbabwe in 2003. These gave 
+children, selected through a careful process, a role in 
+Credit: Save the Children
+monitoring and reporting on food distribution. The children 
+were trained, and the committees helped target food distribution  
+better and uncovered other issues affecting children. 
+In a more recent example, Save the Children developed with the World Service Trust a five- minute daily 
+bulletin in Burmese that was broadcast on the BBC Burmese service after Cyclone Nargis. The scripts cov-
+ered basic health and sanitation advice and aimed also to provide some psychological comfort. 
+The agency also set up Information Centres at every distribution point, giving advice but also answering 
+questions and handling feedback and complaints. Save the Children Myanmar is piloting a feedback man-
+agement process specifically for children, through Child Friendly Spaces and Early Childhood Development 
+Centres. 
+According to Jon Bugge, there is some resistance in the humanitarian community to the recent emphasis 
+on the importance of information and communication—mainly because it is complicated and there isn’t 
+enough time to deal with the community in this way in an emergency. 
+However, he thinks the transition to two-way communication as an integral part of humanitarian efforts is 
+reaching critical mass. There is now an inter-agency working group looking at the issues involved, particu-
+larly the coordination of advice. 
+The agenda is nevertheless challenging. Issues to be considered include:
+•	 The	development	of	appropriate	communications	skills	in	humanitarian	agencies
+•	 Establishing	effective	feedback	mechanisms
+•	 Ensuring	messages	from	different	agencies	are	not	contradictory
+•	 Ensuring	the	accuracy	of	information	and	keeping	it	up-to-date
+•	 Local	capacity	building
+NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   19
+Alert	System	(GIVAS)	website	was	launched	in	September	 called	on	the	UN	System	—	drawing	on	the	expertise	of	
+2009 and will make maximum use of new media and digital outside	partners	—	to	establish	a	global	impact	and	vulner-
+technologies for information collection and crisis alerts.43 ability alert system that provides decision makers with 
+The Joint Research Centre (JRC) of the European real-time information and analysis to ensure that responses 
+Commission has developed the European Media Monitor to global crises take appropriate account of the needs of the 
+(EMM), a news clustering and collection tool for global most vulnerable populations. 
+monitoring and analysis. Finally, The World Food Pro- The	GIVAS	is	currently	in	its	design	phase	with	a	first	
+gramme’s	(WFP)	Emergency	Preparedness	Integration	Cen- prototype	planned	for	June	2010.	It	will	build	on	the	wealth	
+ter	(EPIC)	aims	to	create	a	platform	integrating	operational	 of existing early warning systems and data bases, and fill 
+information from a variety of sources into one tool available real time data gaps where necessary. The added-value of 
+to all humanitarian workers. the Alert will be the compilation of quick time data from 
+a variety of reliable sources covering multiple dimensions 
+Global Impact and Vulnerability Alert System of vulnerability that will help the international community 
+(GIVAS) understand new emerging vulnerabilities and the interaction 
+Over the past decade, the international community has put between different threats and crises. The Alert System will be 
+in place a number of sector- specific global early warning triggered when a crisis becomes global in scope and there are 
+mechanisms. However, there are few mechanisms that are first subtle signs it will affect the most vulnerable and least 
+able to report across sectors on the immediate impacts that well-prepared populations.
+global shocks have on the lives of the poorest and most vul- While	guided	by	an	ambitious	vision,	the	GIVAS	will	be	
+nerable populations. There is an information gap between implemented	in	a	phased	approach.	It	hopes	to	leverage	the	
+the point when a global crisis impacts vulnerable popula- expertise	of	many	UN	and	non-UN	organizations	—	ranging	
+tions and when solid quantitative information reaches from	vulnerability	analysis	to	technology	and	design	—	to	
+decision-makers. ensure that the needs of the most vulnerable are an integral 
+Recognizing this gap, the UN Secretary-General has part of the international community’s crisis response.45
+Credit: UN Foundation/Nothing But Nets
+20   NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   
+Section 3: Preparedness
+“ ...aggregated information that  portrays a complete picture of  
+humanitarian activities in a region  
+or country does not yet exist.”
+European Media Monitor (EMM)
+The second example is a monitoring 
+system created by the European Commis-
+sion’s Joint Research Centre (JRC). The 
+JRC is a research and development center 
+that caters to the needs of the European 
+Union’s policy makers, such as on issues of 
+international	security.	Its	European	Media	
+Monitor (EMM) automatically ‘reads’ 
+news articles using statistics and language technology. The ranging from fleet management to food pipeline manage-
+platform specifically monitors non-static content on the Web, ment. But aggregated information that portrays a complete 
+such as news sites, discussion forums, and publications. EMM picture of humanitarian activities in a region or country 
+searches more than 4,000 websites from 1,600 key news does not yet exist. Managers currently make decisions based 
+portals	around	the	world	plus	20	commercial	news	feeds.	It	 on unstructured and fast-evolving information. There is thus 
+is able to collect over 80,000 news articles per day in more an obvious need for a tool that can aggregate existing infor-
+than 40 different languages and classifies them according to mation into a single place that will present decision makers 
+hundreds of subjects and countries. EMM can extract infor- with	a	simple	and	efficient	way	to	access	all	operational	
+mation about locations, persons, and organizations covered in emergency information.
+the media. Users can receive customized alerts by email and During	EPIC’s	three	years	of	development,	its	main	ac-
+SMS. The system thus detects events in near real-time, in sup- tivities will include the development and piloting of remote 
+port of internal European policy making. data collection and links to primary logistic systems, the ad-
+Toward	the	end	of	2009,	EMM	was	renamed	OPTIMA	 dition of unstructured data, the establishment of field pilots, 
+(Open	Source	Text	Information	Mining	and	Analysis)	to	 the integration of data from other organizations, and the 
+reflect the growing applications of the platform. The JRC expansion of geographic coverage. Finally, a Competency 
+recently partnered with the African Union to develop, Centre will be built that handles applications, develops in-
+deploy, and operate the Continental Early Warning System terfaces, integrates data, and supports the system globally.46 
+(CEWS).	In	2010,	OPTIMA	will	integrate	a	blog-moni- The	EPIC	project	seeks	to	develop	a	toolbox	that	will	ag-
+toring feature and a sentiment detection system to follow gregate information from a variety of sources into a unified 
+public opinion. visual tool. Humanitarian workers will be able to input data 
+to, access, and query this tool from their operational area 
+Emergency Preparedness Information Centre through	computers,	mobile	devices,	and	satellite	phones.	In	
+(EPIC) addition, the team is working on developing radio networks 
+In	contrast	to	the	monitoring	function	provided	by	GIVAS	 that	can	be	integrated	as	another	source	of	information.	In	
+and	EMM,	the	WFP’s	Emergency	Preparedness	Information	 cooperation with Motorola, WFP has tested a new genera-
+Centre	(EPIC)	is	developing	an	operational	management	 tion of digital radio technology (Mototrbo) that in addition 
+tool for aggregating region- and country-specific informa- to providing secure voice communications can also carry 
+tion on a range of activities. Different agencies use a variety data. Work is now underway to equip a standard mobile 
+of operational management tools for distinct purposes, device	with	a	compatible	radio	so	that	EPIC	services	can	be	
+NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   21
+Credit: Télécoms Sans Frontières
+transmitted over this network. pledged that the United States would “do everything in its 
+WFP is also exploring the potential use of World Vi- power to contribute to the rapid organization and success-
+sion’s Last Mile Mobile Solution (LMMS). This initiative ful operation of such international surveillance.”49 While no 
+combines mobile computing technologies with improved such center for conflict early warning was established then, 
+humanitarian business practices to “promote greater efficien- today’s geospatial technologies have considerable potential 
+cies and heighten accountability in food aid programming at to support preparedness and early warning activities in a 
+the last mile of our humanitarian work.”47 LMMS is an in- number of contexts.
+teractive and automated platform that uses real-time photo Geospatial technologies include “a range of modern 
+verification to document humanitarian response. tools, such as satellite images, geographic information 
+Finally, the WFP runs twice-yearly training programs on systems (GIS), and global positioning systems (GPS) that 
+the use of information and communications technologies allow for mapping and analysis of multiple layers of geo-
+(ICTs) in disaster preparedness and response that are open referenced data.”50  The data can be analyzed to identify 
+to the global community of humanitarian aid workers. The crisis patterns and to show evidence of military preparations. 
+ICT Emergency Preparedness and Response Management Satellite imagery can provide evidence to corroborate field 
+Training, funded by The Vodafone Foundation and the UN reports of escalating conflicts and disasters, as was recently 
+Foundation, is designed to standardize the use of communi- done in Sri Lanka (see Section 4).
+cations technologies in disasters. The EU’s JRC mentioned previously has a Geo-Spatial 
+Information Analysis for Global Security and Stability 
+Using geospatial technologies to Program that includes a number of projects relevant to pre-
+support preparedness paredness and early warning.51 For example, one new tool 
+At the height of the Cold War, U.S. President Dwight can automatically identify built-up urban areas using high- 
+Eisenhower called for the creation of a UN aerial surveil- or very high-resolution satellite data. This is particularly 
+lance service to detect preparations for attack.48 In 1960, he important for measuring vulnerability and risk for disaster 
+22   NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   
+Section 3: Preparedness
+preparedness because field-based data are often not available. a mobile phone could text a dedicated number to report 
+The analysis can even be produced rapidly at the global and human rights abuses, or incidents could be reported and 
+regional level to provide real-time data, which means that mapped on the website directly. Ushahidi has since been 
+hot spots can be quickly identified and responded to in a used in Afghanistan, Colombia, the Democratic Republic of 
+timelier manner. Section 4 provides some examples. the	Congo	(DRC),	Gaza,	India,	and	Lebanon,	and	will	be	
+In	contrast	to	the	top-down	and	external	perspective	 used in Mozambique. 
+of these applications are new tools that source information Traditional humanitarian information management 
+from the people affected by a crisis. systems are typically closed and controlled. Ushahidi is open 
+and decentralized. Opening the reporting of crisis informa-
+Crowdsourcing crisis  tion to anyone with access to technology presents exciting 
+information opportunities and important challenges. 
+Humanitarian information management systems typically Compared with traditional humanitarian information 
+follow a strict information collection and reporting proto- management systems, Ushahidi also ‘closes the feedback 
+col.	However,	if	only	designated	officials	have	permission	 loop,’ such that information collected can be communicated 
+to report information, this reduces the amount available, in directly to those who most need to use it. Communities 
+contrast to an open system in which everyone can share in- have little use for early warnings that do not reach them. 
+formation. While data validation is important, information Ushahidi includes a subscription option that allows indi-
+is perishable and risks becoming obsolete. Thus information viduals to subscribe to alerts in specific locations. These 
+collection and sharing represents a significant development. can	be	communicated	by	email	and	SMS.	In	other	words,	
+Ushahidi, meaning ‘witness’ in Swahili, is a free and Ushahidi’s innovative approach allows for ‘crowdfeeding’ as 
+open source platform that combines SMS, Twitter, and well as crowdsourcing crisis information.52 
+Google Maps to crowdsource crisis information. Usha- That said, crowdsourcing also presents some serious 
+hidi was developed by Kenyan bloggers in response to the challenges. The most important is how to verify rapidly the 
+violence after the December 2007 elections. Anyone with information collected and posted. Some of the incidents re-
+Source: Ushahidi
+NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   23
+Deployment of the Ushahidi platform around the world 
+Source: Ushahidi
+ported might have been wrong or even deliberately mislead- messages. Moreover, if several different pictures of the same 
+ing. Hence effective crowdsourced information requires near incident were submitted, the multiple sources offer some vali-
+real-time validation techniques, otherwise the advantage of dation.	If	text	messages	describing	the	same	event	depicted	on	
+speed is lost. the photographs were also reported on Ushahidi, there would 
+There are a number of options for validation. Users be	even	more	‘auto-validation.’	In	other	words,	the	more	
+of the Ushahidi platform could be informed whether the information that can be collected across different media, the 
+alerts they have subscribed to receive have been verified. The easier it is to verify. Ushahidi is now launching a new project 
+submission of information to Ushahidi could be restricted to called Swift River, which will use this logic to filter the torrent 
+trusted	individuals.	Al-Jazeera	used	Ushahidi	to	cover	Israel’s	 of information generated online during any crisis. 
+attack on Gaza; only its own journalists contributed to the 
+near real-time reporting. This approach could be described Conclusions
+as ‘bounded’ crowdsourcing. As noted at the start of this report, if information means sur-
+Ushahidi also allows pictures to be geo-referenced and vival for communities in crisis, then communication technolo-
+reported in almost real-time directly from phone cameras. gies are their lifelines.
+Pictures are relatively harder to fabricate than simple text The idea of preparedness extends beyond simply having 
+24   NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   
+Section 3: Preparedness
+effective early warning systems. Meeting the information Information and  
+needs of communities before the onset of emergencies is an im- misinformation in Kenya
+portant way to build preparedness and resilience. 
+Communications technology will help humanitarian One example of the scope for the spread of misinfor-
+agencies create preparedness and resilience in the event of mation is provided by the December 2007 elections 
+an emergency. However, the collection and use of informa- in Kenya. The official results of the election gave the 
+tion does not just depend on technological innovation. The lead to incumbent President Mwai Kibaki, despite initial 
+technologies need to be widely adopted and used properly, results that suggested opposition candidate Raila 
+thus making people-centered approaches more effective. Odinga was well ahead. The outcome was disputed 
+More progress is needed on the provision of accurate and six weeks of violence followed, with more than 
+and consistent information to vulnerable communities. 1,000 deaths and perhaps half a million Kenyans dis-
+Traditional media are an effective means of reaching large placed from their homes. 
+numbers of people in ways that will get important messages 
+across. Nongovernmental organizations (NGOs) and humani- One of the outcomes was the extensive use of mobile 
+tarian agencies could make more effective use of both traditional phones, for SMS messaging, and online tools both to 
+and new media to reach the communities they aim to serve. organize peaceful protest, and unrest, and to report on 
+Preparedness also requires the international humanitar- events. The text describes the development of Usha-
+ian community to be able to act on the information and hidi for collating reports of violence. Media outlets also 
+analysis	enabled	by	these	emerging	systems.	Innovations	in	 asked for SMS or email updates; the BBC received 
+information systems serving the international humanitarian about 4,000 text messages from Kenyans.
+community hold out the promise of improved opportuni-
+ties to empower vulnerable communities. Preparedness also A number of groups mobilized to send text messages 
+requires the international humanitarian community to be able aiming to prevent violence, including an emergency 
+to act themselves on the information and analysis enabled by response scheme provide by Oxfam GB.53 There were 
+these emerging systems. also some ‘chain’ text messages encouraging ethnic 
+There is a trade-off between the authoritativeness of infor- hatred. Safaricom sent messages to its subscribers 
+mation and its timeliness. Humanitarian information systems urging them to be calm and warning of possible pros-
+have traditionally been authoritative but lagging urgent ecution if they sent SMS messages that might cause 
+developments. New real-time approaches are changing this, public unrest.54 
+offering the potential for using multiple reports in different 
+formats to cross check. But the issue of validation remains a There is clearly the need for a broad public debate 
+significant challenge. about the potential to use new technologies for mali-
+cious purposes, including the applicability of existing 
+media law to new media. Screening of text message 
+and social network content in some countries seems 
+increasingly likely, which is a double-edged trend de-
+pending on the intent of the authorities. 
+However, this is not a problem confined to new tech-
+nologies; traditional media can play the same role. The 
+best-known precedent was set by Radio Milles Col-
+lines, a popular radio station that encouraged hatred 
+during the 1994 Rwandan genocide. Criticism of some 
+local language radio stations occurred in Kenya in early 
+2008. Furthermore, as one study of Kenya noted, 
+“Since SMS, unlike radio, is a multi-directional tool, 
+there is also hope that voices of moderation can make 
+themselves heard.” 55
+NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   25
+Credit: Nick Rain
+26   NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   
+4Response Coordination in emergencies
+The overwhelming need during an emergency and in its immediate aftermath 
+is coordinated and high-quality information. From the perspective of external 
+organizations such as humanitarian and aid agencies this is a two-way information flow: 
+on the one hand, delivering information and services to people affected by a disaster  
+in an effective and coordinated manner; and on the other, collecting information from  
+affected areas in order to coordinate supplies and assistance in order to improve  
+fundraising efforts and flows, and to document impacts for future reference. 
+ 
+From the perspective of the affected people, coordination is Emergency response from  
+an exchange of information among themselves and related Télécoms Sans Frontières
+groups such as diaspora communities. This is a fine-grained The central role of communications in crises is well illus-
+and decentralized exchange of information, taking advantage trated by the importance of Télécoms sans Frontières (TSF) 
+of the scope offered by new technologies, especially mobile to international emergency response efforts. 
+devices. The organization, founded by Jean-François Cazenave 
+In	practice,	what	means	of	communication	and	informa- and Monique Lanne-Petit in 1998, in response to their 
+tion sources can people turn to in the confused and desper- experiences as aid workers in the war-torn Balkans, has  
+ate situations of an emergency? This section gives some only 40 staff members and a €2 million annual budget.  
+examples highlighting recent developments in technology Yet its emergency communications support is part of  
+and	the	ways	it	is	used.	It	begins	with	the	vital	emergency	 almost every humanitarian response effort after a natural 
+response role played by Télécoms sans Frontières (TSF), disaster or conflict.
+one of the organizations designated as First Responder in This vital role is recognized in TSF’s status with regard to 
+the UN Emergency Telecoms Cluster.56 TSF serves both the UN	and	other	official	agencies.	In	2006,	it	became	the	first	
+communications needs of affected populations and those of nongovernmental	partner	of	the	Office	for	the	Coordination	
+the humanitarian workers. of Humanitarian Affairs (OCHA) and the United Nations 
+We then turn to developments in the use of social media Children’s	Fund	(UNICEF).	TSF’s	teams	are	alongside	
+during	crises	by	affected	populations.	The	2004	Indian	 officials	from	the	United	Nations	Disaster	Assessment	and	
+Ocean tsunami was the catalyst for the role of user-gener- Coordination team (UNDAC) in making the earliest assess-
+ated content (UGC) in the coverage of emergencies, as it ments	of	need	in	a	location.	It	is	also	a	partner	of	the	Euro-
+was for so many developments we are considering in this pean Commission’s humanitarian aid department, ECHO. 
+report. Other milestones in the growth of UGC were terror- Several groups, including The Vodafone Foundation and the 
+ist	attacks—on	the	London	and	Madrid	transport	systems,	 UN Foundation, support TSF.
+for example, and the Mumbai terrorist attacks in November TSF will deploy a team from one of its three bases (Pau, 
+2008—and	political	events	such	as	Kenya’s	disputed	elec- France; Bangkok, Thailand; and Managua, Nicaragua) 
+tions	in	2008	and	Iran’s	in	June	2009.	The	section	ends	by	 aiming to reach an emergency location within 24 hours, 
+looking at the evolving use of innovative technologies within although it can take 48 hours. The equipment for a tele-
+the global policy community. communications center can be carried on a plane in three 
+NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   27
+Credit: Télécoms Sans Frontières.  The innovation in disaster preparedness is providing train-
+ing in emergency telecommunications response to technical 
+experts—information	technology	or	logistics	officers,	for	
+example—from	other	NGOs.	In	summer	2009,	TSF	ran	its	
+first training course for 20 people in each of its Bangkok and 
+Managua bases. The aim is to ensure that there is capacity in 
+the NGO community to make emergency telecommunica-
+tions operational as quickly as possible.
+Turning to early warning and prevention, since 2006, 
+TSF has been offering satellite communications in 12 re-
+mote and unconnected areas of Niger in order to implement 
+an early warning system aimed at averting food crises.57 Each 
+site costs about $200 to install. The importance of early 
+warning about impending food crises has been emphasized 
+cases. This includes the workhorse BGan satellite receiver, by recent economic research; there is evidence that con-
+provided	by	Inmarsat,	and	an	array	of	phones	including	 flict, which has trapped some African countries in poverty, 
+Global System for Mobile (GSM) mobile phones with local is caused by the onset of food crises. TSF has installed 
+Subscriber	Identity	Module	(SIM)	cards. telecommunications centers (each covering several villages) 
+TSF’s core emergency response activities have two using	RBGan	terminals	from	Inmarsat	and	a	computer	
+aspects. One is the provision of communications to the UN connected	to	a	small	data	transmitter.	It	has	also	developed	
+agencies and to NGOs providing emergency relief. As all the (with the Université de Pau et des Pays de l’Adour) software 
+humanitarian workers are sharing the same facilities, TSF’s to compress substantially the data collected, reducing run-
+telecommunication centers facilitate greater coordination ning costs significantly. TSF is piloting its use in conjunc-
+of the relief effort, particularly between the United Nations tion with FrontlineSMS, described in Section 5. The data 
+and NGOs. forms provide real-time information to the authorities on 
+The second is providing a free phone call (at a cost of agricultural, nutritional, and market indicators and can be 
+about $5 per family) to the people affected by the disaster adapted to deliver a range of other types of early warning 
+or conflict. The human impact of this service is clear from information such as health or epidemic monitoring. 
+the many examples Jean-François and Monique describe of In	Niger	and	in	Nicaragua,	TSF	has	opened	a	com-
+people’s lives transformed for 
+the	better—or	lives	saved—
+thanks to the ability to com-
+municate. But the numbers 
+tell an impressive story too: in 
+2008 alone, more than 5,300 
+families in areas affected by 
+natural disaster or conflict 
+could make contact. This was 
+achieved at an average daily 
+cost of an emergency team in 
+the field of just under $1,158 
+(from 2006 to 2008).
+TSF is developing three 
+new types of longer-term 
+activity: poverty reduction 
+and economic development; 
+crisis prevention; and disaster 
+preparedness. 
+Credit: Télécoms Sans Frontières.  
+28   NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   
+Section 4: Response
+partners who can provide services needed by refugees or those 
+affected by a crisis. People most often make phone calls ask-
+“ In each category—emergency ing for money; overseas diasporas are an important source response, preparedness, of emergency finance. TSF has been supported by Western 
+Union, which has a global presence and can sometimes 
+early warning/monitoring, enable families and friends to wire cash. There are obvious 
+and development—TSF sees advantages in using mobile transactions schemes, such as 
+more potential than they are the cash transfer by the M-PESA system piloted by the Irish 
+charity Concern in 2008 during the post-election violence 
+able to deliver at present.” in Kenya (described below).58
+Impact of social networks in Iran 
+User-generated content online is a potentially important 
+munity communications center, funded by the IT Cup (an source of information. This is particularly true in crises that 
+annual charity soccer tournament between companies in the are largely inaccessible to journalists. Social networking tools 
+information technology sector). These are longer-term de- like Twitter, Facebook, YouTube, and Flickr, for example, 
+velopment projects aimed at bridging the digital divide. They made frontline news during the Iranian post-election pro-
+offer cheaper and more efficient shared communications to tests in mid-2009 when the mainstream media was lagging 
+NGOs operating in each area, and the international NGOs far behind in reporting the escalating crisis, at least until the 
+are taking over the running costs. The centers also provide Iranian authorities started to limit and monitor online ac-
+internet and email access to local people, and computer and cess. According to Matthew Eltringham, in charge of the use 
+internet courses to young people in the area to equip them of User Generated Content by the BBC’s news operation, 
+better for finding work. In Dakoro in Niger, for example, they received about 20 video clips and 100 still images a day 
+more than 30 NGOs use the center, which saves them immediately after the election, although this fell sharply as 
+money and the time they used to spend driving six hours the authorities cracked down on street demonstrations.59 
+each way to send an email. However, the mainstream humanitarian and human 
+In each category—emergency response, preparedness, rights community remains largely skeptical of social media. 
+early warning/monitoring, and development—TSF sees While the Iranian example shows that some suspicions are 
+more potential than they are able to deliver at present. indeed well founded, the use of social media also provided 
+One reason the benefits of emergency communications critical information that would otherwise have gone unre-
+continue to be enhanced is continuous technological innova- ported. Some Twitter users—@persiankiwi in particular—
+tion. Equipment manufacturers often now provide TSF with were vital gateways to events for the outside world.
+beta versions to test in the field—an item that works well in The inability to verify (easily) a Twitter user’s identity and 
+a crisis will work well when it goes to market. the information s/he tweets are two important factors that 
+TSF carries out its own innovation work as well, often explain why many in the humanitarian community see little 
+with university partners. One example is the TSF Box, added value in following social media. Tweets can certainly 
+currently being rolled out. This improves the management misinform and there were many such examples in Iran. 
+of the telecommunications centers by managing access To take one of these, one assessment of Twitter use 
+rights for the different organizations, prioritizing traffic, and stated, “several people tweeted that 700,000 people had 
+collecting data automatically. It economizes on costs and gathered at the Ghoba mosque in Tehran. Several people 
+captures the information needed to improve efficiency. re-tweeted it and even posted the news on their blogs. 
+Another innovation under development is a wi-fi mesh Meanwhile mainstream international media estimated the 
+system for deployment in emergencies. Wi-fi mesh systems number of protesters was between 3,000-5,000 people.”60 
+interconnect a number of powerful routers to extend the This becomes particularly problematic when such Tweets 
+range of wi-fi beyond a few feet (for a single router) to hun- are re-tweeted.61 One study noted that one in four tweets on 
+dreds or thousands of feet. TSF aims to establish the first Iran was a re-tweet. It is also worth noting that Twitter’s use 
+cyber café for refugees before long. within Iran was nearly zero and that most of the traffic was 
+Another route for enhancing the positive impact of in English, not Farsi.62 
+access to communications would be for TSF to work with Although usage of Twitter inside Iran is extremely low, 
+NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   29
+the small minority of Twitter users in the country made 
+active use of the social network to report events. Despite the 
+number of retweets, 51.3% of all tweets on 11 June 2009 
+(the day before the election) with the hashtag #iranelection 
+came	from	Iran,	with	only	27%	coming	from	outside	the	
+country and 21.6% not including a location.63 The number 
+of	Iran-based	tweets	decreased	during	the	following	days	
+but still the majority of #iranelection tweets during the first 
+few	days	of	the	crisis	came	out	of	Iran	itself,	a	handful	giv-
+ing	vital	eyewitness	reports	on	the	escalating	unrest.	In	the	
+meantime,	the	mainstream	media	was	prevented—in	fact	 Credit: twitter.com
+censored—from	reporting	on	early	developments.
+Twitter therefore amplified the voices of a minority who 
+Some have suggested that the regime permitted access to 
+were	not	representative	of	Iran’s	population.	The	few	Irani-
+Twitter and Facebook so they could track dissident activi-
+ans	living	in	Iran	and	using	Twitter	were	generally	young	
+ties.	In	addition,	as	with	other	uses	of	social	media,	there	is	
+and	affluent.	Many	Iranian	Twitter	users	who	were	actively	
+an	issue	about	the	reliability	of	tweets	coming	out	of	Iran.	
+(re-)tweeting were actually based in the United States, which 
+A number of online activists created Twitspam, “a social-
+is also where many of their Twitter ‘followers’ (readers) were 
+networking site that encourages users to identify and block 
+based.64 
+malicious	‘tweeters’	on	Twitter,”	which	hosted	an	interactive	
+Twitter, unlike other social media platforms, is also 
+Web	page	where	users	discussed	possible	‘Iranian	agents’	op-
+quasi-censorship proof. Twitter applications like Twhirl, 
+erating online.67 Twitspam users would flag Twitter accounts 
+Tweetie, and Tweetdeck do not need the website twitter.com 
+that posted spam (i.e., multiple comments of the same sort), 
+to operate. Furthermore, tweets, pictures on Flickr, and You-
+obviously sought to entrap Twitter users who were tweeting 
+Tube	videos	can	all	be	tagged	as	related	to	Iran,	which	makes	
+from	Iran,	or	clearly	tried	to	spread	misinformation.	If	users	
+it easier to find and copy the items “faster than any govern-
+were not completely sure, they would flag the account as 
+ment	could	delete	them.”65 The government would have 
+suspected. 
+had	to	ban	all	access	to	the	Internet	to	impose	a	full	digital	
+Nevertheless, crowdsourced validation might not be 
+blockade on the country, and it did indeed limit access at 
+appropriate	in	all	types	of	crisis.	In	his	review	of	the	role	
+certain times. But doing so “might have risked shutting 
+of	social	networking	in	the	Iran	situation,	James	Carafano	
+down	vital	government	and	economic	services	as	well.”66 
+notes, “An effective crisis communication must be cred-
+ible, understandable, and actionable. Under great stress and 
+limited time, as well as limited information, it is unrealistic 
+to hold that negotiated online interactions are an effective 
+mechanism for determining factual and dependable infor-
+mation.”68 This review also described Ushahidi’s develop-
+ment of Swift River, designed to validate crowdsourced crisis 
+“ An effective crisis  communication must be  
+credible, understandable,  
+Credit: Flickr/Faramarz
+and actionable.”
+30   NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   
+Section 4: Response
+Social media, citizen journalism,  
+and the Mumbai terrorist attacks
+Terrorist attacks on 27 November 2008 in the railway station, two luxury hotels, a tourist café, and a Jewish 
+center in the city of Mumbai involved many international visitors. The death toll after 60 hours of terror was 
+195, including both residents and international visitors. A large global audience, many worried about col-
+leagues, friends, or family members, was in the city.
+In a situation of this kind, the overwhelmingly important the normal level for the day of the week, with considerable 
+response comes from the police and army. But the attacks network congestion, due perhaps to the communications 
+in Mumbai meant there was intense demand on all means needs of the security services. SMS traffic for the opera-
+of communication: news channels, telephone calls, online tors for which we have figures jumped by up to one-third 
+news including citizen journalism (or ‘user-generated con- compared to normal. 
+tent’) and, importantly, social networks, especially Twitter.
+Twitter, the ‘microblogging’ site, came to prominence 
+These sources of information fed each other—people outside technology circles for the first time during the 
+repeated what they had heard on the news—and Mumbai Mumbai attacks. At the height of the events, there was 
+marked an important step in the use of online material by more than one tweet per second tagged #mumbai. Social 
+traditional broadcast organizations. The many means of media blogger Gaurav Mishtra, monitoring the events live 
+communication meant that any information, both accurate as they occurred, wrote, “Now the volume of tweets on the 
+and not, circulated widely. Mumbai terrorist attacks is so high that I can’t keep up!”69 
+Mainstream news organizations were monitoring tweets 
+This was a major and dramatic news story, with plentiful 
+and posting them as eyewitness comments to make the 
+pictures. A large increase in traffic affected many media, 
+events vivid for visitors to their websites. 
+especially the online media. 
+But the risks in user-generated material were also appar-
+For example, Google trends revealed that the number of 
+ent. Some speculation that turned out to be incorrect was 
+web searches for terms such as ‘Mumbai terror’ was more 
+widely circulated in this way. 
+than 100 times the recent norm. Photos and videos were 
+posted to sites such as Flickr and You Tube. The head of the BBC’s news hub for user-generated 
+content, Matthew Eltringham, says “We wouldn’t consider 
+In another example, an analysis of traffic to bbc.com, the 
+any of it legitimate information without checking. We try to 
+BBC’s internationally focused website, showed the number 
+identify individuals to do so; but Twitter is like Chinese whis-
+of daily visitors to the site reached more than 2.2 million, a 
+pers.” He says, however, that social media such as Twitter, 
+bit short of the 2.5 million peak for the U.S. election night 
+Facebook, and Orkut are increasingly important sources. 
+earlier in the month. Outside of the United States (where 
+it was the Thanksgiving holiday) 
+the peak for 27 and 28 November Daily visitors to bbc.com in November 2008
+(the day of the attacks and the day 
+after) was higher than for 5 No-
+vember (U.S. election night). Traffic 
+to the site from within India itself 
+rose by 136%, and there were large 
+increases in traffic from Canada, 
+Australia, and Germany. 
+Mobile networks also showed 
+jumps in activity, according to data 
+provided by some of the opera-
+tors covering Mumbai. Voice traffic 
+rose by 4 to 5% compared with 
+Source: BBC
+NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   31
+Screenshot of Riff
+ Source: InSTEDD 
+information. Tweets can be tagged as #iranelection, but GDACS combines existing disaster information manage-
+so can pictures on Flickr, footage on Ushahidi, blog posts, ment systems. Early information is expected to be uncertain 
+SMS, and online media. Swift River will exploit the wealth and can be updated as better information becomes avail-
+of these tags produced by individuals to cross check infor- able. GDACS sends out alerts on natural disasters in near 
+mation across different media. real-time and provides tools to help response coordination, 
+including media monitoring, map catalogues, and an on-site 
+Global Systems for  coordination center. 
+Coordination and Response The system produces near real-time automatic situation 
+The information flows needed for effective emergency reports based on statistical modeling, rapid situation reports 
+response can be either ‘bottom-up’ within the affected com- from the field, an online discussion forum for emergency 
+munity, as in the examples of social media discussed above, responders, integration with established news services, and 
+or ‘top-down’, serving the humanitarian community. We mapping products based on post-disaster satellite imagery.71 
+turn next to some innovations in the latter category. The system can estimate the humanitarian impact of a natu-
+ral disaster in near real-time and calculate within minutes 
+Global Disaster Alert and Coordination  the approximate financial aid that will be needed for the 
+System (GDACS) relief efforts. GDACS is activated the moment a disaster is 
+A number of global systems for coordination and response forecast or has occurred and remains active until the end of 
+have been developed over the years. One of the most the relief phase. The platform has been used to detect floods 
+sophisticated is the European Commission’s Joint Research in Vietnam, fires in Nigeria, and internally displaced person  
+Centre’s (JRC) Global Disaster Alert and Coordination camps in Sri Lanka.
+System (GDACS).70 
+32   NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   
+Section 4: Response
+Innovative Support to Emergencies,  
+Diseases and Disasters (InSTEDD)
+A new platform, which focuses on public health but can “The growing availability of  be applied to other types of emergency, is Riff, launched sophisticated aerial images helps 
+by	the	non-profit	group	Innovative	Support	to	Emer-
+gencies,	Diseases	and	Disasters	(InSTEDD).	InSTEDD	 speed emergency response and 
+was launched by Larry Brilliant in 2006 in a talk at the has the potential to contribute to 
+high-profile Technology, Entertainment, Design (TED) better early warnings—perhaps 
+conference.	InSTEDD	seeks	to	leverage	open	source	
+technology to improve information flow and cross-sector even to pre-empt crises.  
+collaboration and to make collective action more effec- ”
+tive.72 The team’s Evolve platform combines data explora-
+tion, integration, search, and inferencing for crisis detection, 
+prediction, and response. disease detection. This has made it much easier to track, 
+According	to	InSTEDD,	a	number	of	organizations	are	 manage, and detect outbreaks and the evolution of diseases 
+using Riff to explore its applicability to humanitarian crisis in the region and impacts related to them. The pilot helped 
+reporting and conflict early warning. For example, one orga- to improve the user experience of Riff including the analyt-
+nization recently trained Riff’s integrated machine learning ics and visualization.
+engine to identify hate speech and other potential indicators What is particularly novel about Riff is its integration of 
+of geopolitical deterioration in news reports. several capabilities, including a data aggregation and gather-
+In	the	public	health	domain,	Riff	helps	synthesize	 ing module; an automated feature extraction, data clas-
+health-related event indicators from a wide variety of infor- sification, and tagging module; a human input, hypotheses 
+mation	sources	(formal	and	informal).	Its	automatic	clas- generation, and testing module; and a predictions and alerts 
+sification includes seven syndromes, ten transmission modes, output and field confirmation and feedback modules. This 
+more than 100 infectious diseases, 180 microorganisms, 140 makes it very flexible. For example, the data aggregation 
+symptoms, and more than 50 chemicals. and gathering module enables the user to collect or extract 
+In	spring	2009,	InSTEDD	piloted	Riff	in	the	Mekong	 information from a range of different sources such as SMS, 
+Basin in Southeast Asia to understand and more effectively RSS feeds, email lists, existing databases, and online docu-
+track multiple data streams (both specialized alerts and ments. The human input and review module allows users 
+generic sources such as news reports and Twitter) for earlier to collaborate by commenting, tagging, and ranking sets of 
+related evidence, for example. 
+Satellite Imagery and  
+unmanned aerial vehicles (UAVs)
+The final example of a technology increasingly used for di-
+saster	response	is	that	provided	from	overhead.	Images	from	
+satellites and unmanned aerial vehicles (UAVs) are increas-
+ingly being used to monitor the impact of crises and natural 
+disasters. The growing availability of sophisticated aerial 
+images helps speed emergency response and has the poten-
+tial	to	contribute	to	better	early	warnings—perhaps	even	to	
+pre-empt crises. This is especially true for crises that occur in 
+geographically remote or politically inaccessible locations.
+UN Operational Satellite Applications Program 
+UNOSAT
+The mission of the United Nation’s Operational Satellite 
+Applications Program (UNOSAT) is “to deliver integrated 
+satellite-based solutions for human security, peace and 
+Credit: Allie Caulfield 
+NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   33
+UNOSAT Refugee Movement Satelite Images
+ Source: UNOSAT 
+socio-economic	development.”	Established	in	2000,	it	 produced over 1,000 analyses since 2000. The number of 
+provides satellite images and analysis to relief and develop- crises it covers annually grew from 3 in 2003 to 47 in 2007.
+ment organizations and comprises UN fieldworkers, satellite In	2003,	UNOSAT	created	a	humanitarian	rapid	map-
+imagery experts, geographers, geologists, development ping service that has been activated over 120 times by relief 
+experts, database programmers, and internet communica- and coordination agencies. The service consists of rapid ac-
+tion specialists.73 For example, it analyzed satellite imagery quisition and processing of satellite imagery and data for the 
+during Sri Lanka’s military attack in April 2009 to assess creation of maps and other spatial data to help coordinate 
+the impact of civilians trapped in no-fire zones. UNOSAT emergency response and humanitarian relief efforts. 
+works closely with UN member states and organizations like UNOSAT has also developed a wide network of field-
+the	International	Federation	of	the	Red	Cross	and	Red	Cres- based contacts, which is important for adding social context 
+cent	Societies	(IFRC),	Médecins	Sans	Frontières	(MSF),	and	 to	the	analysis.	In	one	case	in	the	Democratic	Republic	of	
+Télécoms Sans Frontières (TSF), responding to requests for Congo (DRC), UNOSAT received early warning that a spe-
+assistance from organizations such as these. UNOSAT also cific village was going to be attacked. The team was able to 
+has	a	telephone	hotline	to	the	UN	Office	for	the	Coordina- reroute a satellite ahead of the offensive to capture evidence 
+tion of Human Affairs in New York to provide immediate of the attack. This is not an isolated example: UNOSAT 
+mapping services. is getting more frequent early warnings as a result of work-
+UNOSAT acquires and processes satellite data and has ing closely with field-based organizations. Whether geospatial 
+34   NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   
+Section 4: Response
+technologies can eventually go beyond early warning to serve as UNOSAT images at work 
+a deterrent mechanism remains to be seen.74 
+The speed at which satellite images can be made 
+available makes an important contribution to the ef-
+American Association for the Advancement of 
+fectiveness of relief efforts. For example, in the cases 
+Science (AAAS)
+of Cyclone Nargis in Burma in 2008 and in Sri Lanka 
+The AAAS’s Geospatial Technologies and Human Rights 
+during the military attacks in 2009, UNOSAT provided 
+Project uses satellite imagery to monitor and document 
+satellite imagery and analysis within 24 hours. 
+human rights abuses. The project has completed a number 
+of case studies ranging from Chad and Sudan to Lebanon A compelling example of UNOSAT’s work is its moni-
+and Sri Lanka. The AAAS team documented past attacks toring and assessment of population movement along 
+by	Sudanese-backed	militias	in	Darfur.	In	Lebanon,	it	used	 the Chad–Cameroon border in February 2008. Thanks 
+satellite imagery to assess damage to civilian infrastructure to to very high-resolution (VHR) satellite imagery, a com-
+determine whether this destruction was deliberate or the re- bination of manual and automated analysis allowed 
+sult	of	‘collateral	damage.’	In	Sri	Lanka,	the	project	responded	 the UNOSAT team to estimate the population crossing 
+to international concerns over the targeting of civilians and the bridge in the image. This analysis was particu-
+provided corroborating evidence taken from satellite imagery larly important to inform UN field-based agencies in 
+and analysis. AAAS is currently developing methods for track- Cameroon of the number of refugees to expect in 
+ing ongoing attacks in the Sudan and Chad. their camps in the coming days. This shows that VHR 
+satellite imagery can act as an important early warning 
+Unmanned Aerial Vehicles (UAVs) for Crisis indicator to estimate large-scale population move-
+Response ments.
+The use of UAVs or ‘drones’ has the distinct advantage of 
+being able to produce cheaper and much higher-resolution In Sri Lanka, UNOSAT provided independent evidence 
+aerial imagery than satellites. Nor are UAVs hampered by that the Sri Lankan army had continued to shell civilians 
+cloud cover. The use of UAVs for information collection in no-fire zones despite claims by the government that 
+during and after humanitarian crises is likely to increase military hostilities had ceased. As in many other cases, 
+significantly over the next three years, if the appropriate the use of satellite imagery in this instance was invalu-
+regulation for their use is developed. able since areas of Sri Lanka were completely inac-
+The	Information	Technology	for	Humanitarian	Assis- cessible to journalists and independent observers. This 
+tance,	Cooperation	and	Action	(ITHACA),	a	partnership	 example also demonstrates that UNOSAT is not just a 
+between the World Food Programme and the Polytechnic technical unit but can provide direct and independent 
+University	of	Torino,	Italy,	has	developed	two	fully	opera- evidence to the UN Secretary-General upon request. 
+tional UAV prototypes. While the Sri Lankan Ambassador to the UN claimed 
+The	aim	of	the	ITHACA	UAV	project	is	to	develop	and	 the imagery was fabricated, this outlandish accusation 
+construct remotely controlled mini aircraft that will capture served to strengthen UNOSAT’s credibility.
+the visual data needed to plan emergency and relief food 
+“ The use of UAVs for  aid. The project therefore aims to support disaster manage-ment through rapid mapping early in the impact stage.75 information collection during The drones fly autonomously except for takeoff and landing. 
+and after humanitarian crises They are easily transportable on normal aircraft and require 
+is likely to increase significantly two operators. The operators can create a flight plan on a 
+preloaded map and upload them during the flight.
+over the next three years, if the For its part, the JRC has developed a prototype UAV 
+appropriate regulation for their in partnership with TerraPan Labs and University Col-
+lege, London. The UAV project, the Low-Cost Unmanned 
+use is developed.” Imaging	System	(LOUIS)	is	intended	to	be—as	the	name	implies—a	cheap	and	portable	system	to	support	post-
+NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   35
+UAVs being tested for humanitarian response
+ Source: Development Seed
+“ Satellites and UAVs are relatively new  Participants included geographers, technologies that are likely to be  software developers, and crisis 
+increasingly accessible to a larger  mapping experts. They developed 
+a novel approach to information 
+professional audience. Costs of satellite collection by using UAVs, SMS, 
+and aerial imagery are expected to  low-bandwidth satellite connec-
+decrease. tions, and high-resolution satellite ” imagery of Afghanistan. For example, they integrated 
+Open Street Map’s new Walking 
+disaster relief operations and logistics. LOUIS can be Papers application and combined this with the images taken 
+assembled in less than three minutes and is geared to use by by UAVs. Walking Papers works by enabling a user to down-
+beginners who do not have experience in flying UAVs. The load any part of a map to a printable file, which includes a 
+JRC’s specific interest in UAVs is in the potential of such an bar code. Users can then annotate the hard copy map with a 
+inexpensive—in fact, disposable—tool for collecting data pen or pencil when they are out in the field. They can then 
+that can be integrated in near-real time into the analytical scan the annotated map and upload the new data online. 
+impact models that the Centre runs. The team expects to This provides a method of mapping field data even when 
+pilot the UAV in the field in the near future. Global Positioning System (GPS) units are not available and 
+A week-long exercise to test UAVs for crisis response— network connections are down. It also enables local people 
+the first of its kind—took place in California in August to point out spots on the paper map.
+2009. The exercise combined the use of UAVs with SMS, Satellites and UAVs are relatively new technologies that 
+VHR image processing, and open source GIS applications are likely to be increasingly accessible to a larger professional 
+and was held at Camp Roberts in California. The exercise audience. Costs of satellite and aerial imagery are expected 
+focused on two scenarios—stability operations in Afghani- to decrease. UAVs are becoming smaller and easier to use. 
+stan and planning for a natural disaster in Central America. Charting flight paths is as simple as using a mouse to click 
+36   NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   
+Section 4: Response
+and drag path on a computer screen. 
+The technologies do face obstacles. 
+In	the	case	of	satellites,	cloud	cover	
+continues to present problems and while “ Information will make its greatest con-tribution to emergency relief—and there-
+radar satellites can circumvent this, radar 
+imagery	is	more	difficult	to	interpret.	And	 fore saving lives—if the advantages of 
+membership	in	the	International	Char- ‘bottom-up’ and ‘top-down’ information 
+ter76 is restricted to major national space sources can be combined.  
+agencies, which excludes some important 
+field-based NGOs. ”
+In the case of UAVs, the lack of an 
+agreed regulatory framework limits their potential. Humani- The positive impact of access to communications on 
+tarian organizations do not know where, when, and under people affected by a disaster or conflict is beyond doubt. Be-
+what conditions the transport and use of UAVs is permis- yond the immediate humanitarian impact, demonstrated by 
+sible.	Insurance	companies	remain	reluctant	to	cover	use	of	 the importance of TSF’s emergency response, it is the people 
+UAVs. Furthermore, low-cost UAVs have very short endur- concerned who themselves have the most detailed and immedi-
+ance times, often less than 30 minutes. They must be flown ate information needed for humanitarian agencies to deliver an 
+to a specific point of interest and quickly collect imagery effective response. 
+from as many angles as possible. Innovative	social	media	offer	tools	that	enable	this	in-
+In	addition,	as	UAVs	have	to	date	been	used	primar- formation to be shared with humanitarian and aid agencies, 
+ily for military purposes they carry a negative connotation. and with more traditional media organizations that play 
+Changing this perception will continue to be a challenge. such an important role in focusing the world’s attention on 
+That said, the same was also true of satellite imagery in the areas of need. While they make available information that 
+past. Satellites were typically associated with the Cold War would not have emerged otherwise, they pose a serious challenge 
+but Google Earth has greatly helped to demystify satellite in terms of authentication. Validation is a fundamental issue 
+imagery. in the further use of social media in situations of conflict and 
+disaster.
+Conclusions Other new technologies, both the online tools and satel-
+Emergency response can be enhanced by information flows, lite and aerial imagery described in this section, overcome 
+both within and from the affected population and gathered the problem of authentication. The technologies are rapidly 
+by external agencies. But the effective collection and use of becoming less expensive and more widely available. The 
+information does not just depend on technological innova- regulatory framework must evolve to allow the use of these 
+tion. The technologies need to be widely adopted and used tools as necessary. The tradeoff for greater reliability is that 
+properly. the information gathered is restricted to the humanitarian 
+agencies. 
+Agencies should consider what information to share with 
+the people they aim to help, and how to do so effectively. 
+The humanitarian community needs to make rapid progress in 
+developing techniques and tools for communication with those 
+they aim to help.	If	they	do	not,	other,	less	reliable	and	objec-
+tive information, will likely fill the vacuum.
+Information	will	make	its	greatest	contribution	to	emer-
+gency	relief—and	therefore	saving	lives—if	the	advantages	
+of ‘bottom-up’ and ‘top-down’ information sources can be 
+combined. 
+ 
+Credit: Télécoms Sans Frontières.  
+NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   37
+ Credit DataDyne
+38   NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   
+5 Rebuilding Post-crisis services and development
+The faster affected communities can move from emergency response to 
+rebuilding, the better. Reconstruction is easier when suitable communications 
+technologies and infrastructure are in place. This section focuses on the reconstruction 
+phase, giving examples of existing services that already do or could have a valuable 
+post-disaster role.
+Some of these, such as mobile transactions and job match- by the global policy community, and at several post-crisis 
+ing services, are on the boundary between reconstruction and developmental applications that NGOs are using and/
+and longer term economic development. But they are also or developing.
+key to enabling affected populations to help themselves in 
+the aftermath of a crisis and to rebuild their livelihoods. In The UNDP’s Threat and Risk  
+the reconstruction phase, as in earlier phases, a people-centered Mapping Analysis (TRMA)
+approach is likely to be most effective. The examples in this Crisis mapping, which is essential in responding to the 
+section look at initiatives for the post-crisis phase developed immediate aftermath of an emergency, and is making a 
+Example of a crisis map produced by TRMA
+ Source: UNDP Sudan
+NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   39
+Family dwelling units demarcated automatically
+Source: European Commission Joint Research Centre/Geo-Spatial Information Analysis for Global Security and Stability (JRC/ISFEREA)
+growing contribution to early warning, is also an important namic visualization tool, and a reporting/statistical function, 
+post-crisis or post-conflict tool. One example that dem- as	well	as—crucially—a	simple	export/import	function	that	
+onstrates these multiple uses of mapping is the Threat and allows for internet-based sharing and updating of the user 
+Risk Mapping Analysis (TRMA) program established by the network. Users can switch from one module to the other 
+United Nations Development Programme (UNDP) in Su- and combine different datasets according to need. 
+dan to improve its effectiveness in immediate-post conflict One of the four interfaces is the 4Ws tool, standing for 
+environments. The dynamic mapping platform can visualize Who-does-What-Where-When. Users can input their own 
+and analyze the micro-level conflict data collected by UNDP project-specific information into a database that allows for 
+workers to inform their decisions. TRMA is operational in immediate visualization and reporting on project cover-
+all the states of Eastern Sudan, the Transitional Areas, and age, funding, targeting, and tracking. At present, data are 
+Darfur and due to roll out to all states of Southern Sudan by available for all the states of Eastern Sudan, the Transitional 
+the end of 2009. Areas, and Darfur. 
+TRMA	is	at	the	cutting	edge	of	crisis	mapping.	It	uses	
+baseline data collected from the government, UN agencies, Using Geospatial Technologies for 
+and	NGOs.	In	addition,	participatory	mapping	workshops	 the Post-Crisis Phase 
+at the local level allow communities to identify the most Previous sections have described JRC innovations for the 
+pressing	crisis	and	risk	factors	in	their	area.	In	this	way,	rich	 preparedness and emergency response stages of a crisis. JRC’s 
+local knowledge is geo-referenced and added to the map. Geo-Spatial	Information	Analysis	for	Global	Security	and	
+In	response	to	the	specific	needs	of	partners,	a	set	of	four	 Stability	Program	(ISFEREA)	includes	a	number	of	cutting-
+different user interfaces that are all compatible and based edge projects that can also serve for post-crisis support and 
+on	the	same	GIS-enabled	mapping	display	will	soon	be	 development. For example, using very high-resolution satel-
+integrated with TRMA. These modules present the mapping lite imagery, the JRC has tested the automatic assessment 
+data in a dynamic format that users can manipulate and of infrastructure damage after conflicts. Another project 
+populate. Each module has a data entry component, a dy- uses remote sensing to analyze different types of refugees 
+40   NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   
+Section 5: Rebuilding
+and internally displaced persons. JRC’s applied 
+research represents some of the most cutting-edge 
+innovations in the use of technology in conflict and “ Many NGOs are increasingly  emergencies. turning to mobile phones,  
+The rationale for this innovation is that the 
+European Commission and member states routinely particularly the use of SMS,  
+monitor the impact of international crises to provide to take advantage of the relative 
+humanitarian support and post-crisis development resilience of local mobile  
+programs. Detailed damage assessment is required to 
+work out what is needed and to monitor reconstruc- networks.  
+tion, if the EU’s support is to be effective. Satellite ”
+imagery can help make damage assessments. The 
+JRC has recently carried out damage assessments for  
+Lebanon, Georgia, and Gaza. FrontlineSMS: mobile-enabled tools
+In	another	project,	the	JRC	has	started	to	use	very	high- Internet-based	communication,	including	innovative	
+resolution satellite imagery to locate refugees and internally mapping tools, has become essential for NGOs, especially 
+displaced people, in order to support UN decisions and in conflict and post-conflict areas. However, online com-
+humanitarian agencies. Mathematical algorithms automati- munication	is	difficult	when	the	necessary	communication	
+cally detect camp boundaries. Satellite pictures can then be channels are cut off. Many NGOs are increasingly turning 
+used to measure the size of camps and estimate their total to mobile phones, particularly the use of SMS, to take ad-
+population. Maps and analysis produced from these satellite vantage of the relative resilience of local mobile networks. 
+images are then passed on to humanitarian agencies. The Frontline SMS is one of the leading free software 
+JRC is drawing on this approach to create the first dataset platforms for SMS communication; other examples include 
+on the total world population of refugees. EpiSurveyor and RapidSMS. The World Food Programme 
+is developing innovative SMS platforms for post-conflict 
+use. As noted in Section 4, TSF 
+FrontlineSMS interface and set-up is working with FrontlineSMS, 
+which has been used in multiple 
+conflict and post-conflict set-
+tings	such	as	Afghanistan,	Iraq,	
+Kenya, Madagascar, Pakistan, and 
+Zimbabwe. 
+ FrontlineSMS was founded 
+by Ken Banks, a social anthro-
+pologist and social entrepreneur. 
+He says, “FrontlineSMS provides 
+the tools necessary for people 
+to create their own projects that 
+make	a	difference.	It	empowers	
+innovators and organizers in the 
+developing world to achieve their 
+full potential through their own 
+ingenuity.”	It	allows	users	to	send	
+text messages to groups of people 
+and to receive messages on their 
+mobile phones and computers.77 
+Source: Kiwanja.net The platform does not require 
+NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   41
+Credit: Save the Children
+an internet connection and can work with any plan on all an active dialogue on a variety of issues ranging from the 
+GSM	phones,	modems,	and	networks.	It	has	been	designed	 activities of North Atlantic Treaty Organization (NATO) 
+to operate from a laptop so that it can be used during power forces in the country to health services.78 Young people in 
+outages or while traveling. The software becomes a commu- the conflict-ridden south of the country often feel isolated 
+nications hub where the numbers of incoming or outgoing and trapped, and are eager to hear programs on issues 
+SMS messages are saved. The product is scalable and can important to them, and to contribute to the debate. About 
+be	used	to	reach	large	groups.	It	can	be	used	worldwide	by	 84% of households have radios and 38% have televisions, 
+switching	the	SIM	card.	 so the program presents a tremendous opportunity for 
+The	tool	has	many	applications.	It	can	be	used	for	hu- participation when many development activities have been 
+man rights monitoring, emergency alerts, field data collec- suspended because of the security problems.
+tion, healthcare information requests, and public surveys, The Network of Mobile Election Monitors (NMEM) 
+among	many	others.	In	short,	the	software	can	be	used	for	 used FrontlineSMS during the most recent Nigerian elec-
+almost anything that requires two-way communication tions. Text messages were used to feed people’s observations 
+between two parties, or between a central party and a crowd. to a central computer hub in order to avoid fraud. The 
+Here are a few examples of its use, out of many applica- information collected was then passed to other monitor-
+tions around the world: ing groups and authorities including the European Union. 
+Media Support Partnership Afghanistan (MSPA) is cur- Then, observations coming from more than one volunteer 
+rently using FrontlineSMS in a UK-funded radio program were	verified	in	order	to	ensure	their	accuracy.	In	this	case,	
+for young people. One of the elements is a national com- FrontlineSMS facilitated the crowdsourcing of information, 
+petition for young people to produce short videos on their thus making the election process even more transparent.79 
+mobile phones. FrontlineSMS works as a central hub where Zimbabwean NGO Kubatana has been using Front-
+listeners’ views on a variety of topics are collected, enabling lineSMS since 2005. This grassroots organization reaches 
+42   NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   
+Section 5: Rebuilding
+out to civil society and was very active during the 2008 The	Indian	Ocean	tsunami	was	a	trigger	for	the	use	of	
+elections.	They	sent	out	election	updates	via	SMS.	In	April,	 mobiles in the aftermath of a disaster, as indeed it was for 
+in the midst of the campaign, they asked their subscribers so many other technological innovations. One noteworthy 
+to text in what a free Zimbabwe would look like. Replies development in the response to the tsunami was the poten-
+included: tial of mobiles for fundraising. For example, in the United 
+I desire everything to be in order - no corruption Kingdom, the mobile operators (3, Fresh, O2, Orange, 
+Want stable currency and return to real money - not bearer T-Mobile, Tesco Mobile, Virgin Mobile, and Vodafone) 
+cheques provided a single, no-fee text number to accept donations by 
+Mainly I am concerned with return of the environment of  SMS to the Disasters Emergency Committee (the umbrella 
+happiness we used to have body for NGOs). The amount raised reached £1 million in a 
+We want the new govt to free the airwaves month. A Spanish campaign organized by television station 
+FrontlineSMS served as a repository of all this information.80 Antena 2 reported raising €4.5 million in just two days.
+81 
+The use of SMS as a means of fundraising by the volun-
+Money on mobiles: fundraising  tary sector and NGOs has become widespread since then. 
+and mobile transactions A	recent	example	is	the	earthquake	that	struck	the	Italian	
+The possibility of making financial transactions by mo- town of Aquila on 6 April 2009. Mobile operators Wind, 
+bile phone holds out the promise of long-term economic Tre, and Vodafone made a single number available for SMS 
+benefits, as well as emergency relief of the kind envisaged by donations to earthquake victims, which raised a reported 
+TSF and put into practice in Kenya’s post-election violence. €18 million.
+M-PESA use during Kenya’s post-election violence
+Safaricom’s M-PESA money transfer system has grown rapidly since its commercial launch just over two years ago. By 
+mid-2009, it had nearly 7 million registered customers and 10,000 agents (Kenya’s population is nearly 32 million). Since its 
+launch, customers have transferred 177 billion Kenyan shillings (US$2.3 billion), and in mid-2008, transfers were running at 
+about 93 million shillings per day.
+During the violence that followed the December 2007 election, the Irish charity Concern partnered with Safaricom to use 
+M-PESA to transfer cash to nearly 600 households in the Kerio Valley, rather than undertaking a conventional food distri-
+bution. Households presenting identity documents were issued with an M-PESA enabled SIM card (usually given to the 
+woman). The pilot scheme also gave households in the district 45 handsets and 60 solar chargers. 
+Altogether 2.88 million Kenyan shillings were distributed on two dates one month apart. Safaricom agents travelled from 
+nearby towns with cash to make the distribution.
+An evaluation of the pilot scheme noted some disadvantages. In particular, the cost of the handsets and chargers raised 
+the overall costs to Concern, although the cash transfer costs were well below those of shipping in food.82 
+However, there were significant advantages. Safaricom took responsibility for the cash distribution, and it was easier to 
+conceal a large sum of cash (which fits in a suitcase) than to guard a large food convoy. Importantly, the scheme had a 
+positive impact on local markets, whereas food handouts often have a negative impact. 
+The study’s author, Mike Brewin, also noted “It appears the pilot had a strong impact on beneficiary empowerment and 
+sense of dignity…Concern places great value on the extent to which dignity and choice is upheld.”
+Although the use of mobile money transfers had pros and cons, this evaluation concludes that it is an attractive option—
+for donors and recipients—when there are reasonably well functioning local food markets in which the cash can be spent. 
+The wider the existing mobile phone ownership, the better the value for money. 
+NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   43
+Credit: ROSHAN
+“ Although there are still obstacles to  widespread use of mobile transactions,  points of contact for putting cash in and 
+the potential benefit is greatest for  taking it out, is much more widespread 
+than banking infrastructure in poor 
+people who have the least alternative  countries.85 
+access to formal finance. ” The introduction of a mobile transac-tions scheme called M-Paisa in Afghani-
+stan, although in its early days, demon-
+strates some of the potential benefits. The 
+Mobile phones have also become an important channel scheme is similar to the successful M-PESA scheme run by 
+for migrant workers sending remittances home, and the exis- Safaricom in Kenya, on whose experience it was based (see 
+tence of this channel in normal times makes it easier to send box on a page 49).
+emergency funds as well. A recent World Bank assessment Afghanistan has a population of about 32 million, more 
+concluded that, “Remittances increase in the aftermath of than half of them living in poverty, and half under the age 
+natural disasters in countries that have a larger number of of	15.	It	is	dangerous,	with	limited	infrastructure—roads,	
+migrants	abroad.”83 power,	fixed	telecommunications—and	only	rudimentary	
+Remittances from diaspora communities are all the more banking. There is a small microfinance industry with about 
+important when a disaster or conflict occurs in a poor coun- 400,000 clients. 
+try where few people have bank accounts or savings. The However, Afghanistan has nearly 6 million mobile 
+lack of access to financial services is one of the main barriers phone subscribers, with numbers growing by over 100,000 
+to financial security for poor people. They are locked into a month. Five operators cover over 50% of the population. 
+the informal cash economy and cannot save safely.84 Roshan, the operator that won the second GSM license in 
+Although there are still obstacles to widespread use the country in 2003 and now has 2.4 million subscribers, in 
+of mobile transactions, the potential benefit is greatest 2009 launched the M-Paisa mobile money transfer service in 
+for people who have the least alternative access to formal partnership with Vodafone. At this early stage, M-Paisa has 
+finance. Mobile infrastructure, including agents who are the 64,000 active customers and 569 agents.
+44   NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   
+Section 5: Rebuilding
+The scheme consists of several applications: loan repay- Job-matching schemes:  
+ments, peer-to-peer money transfer, airtime purchases, and Souktel in Gaza and LabourNet  
+salary	payments.	In	the	future,	utility	payments	and	pay- in Bangalore
+ment for goods will be included. After access to finance, the opportunity to build sustainable 
+Security is an enormous benefit of the M-Paisa scheme. livelihoods is the key to reconstructing communities affected 
+An estimated US$30 million in cash in transit was lost to by disasters or conflicts. Two new technologies can combine 
+robberies in Kabul in three months of 2009 alone. The to create the scope for matching people seeking work with 
+heroin trade means there are large illicit money flows. Travel employment opportunities: an internet database operated 
+around the country is often deadly. by an employment agency or NGO; and mobile phones ac-
+For example, Roshan is working with the Afghan gov- cessed by individuals seeking work.
+ernment to set up salary payments for the police through the 
+M-Paisa service. At present, when policemen are paid they Souktel 
+travel home to transfer their salaries back to their families, Souktel is a mobile service that uses text messages for two 
+Not only is there personal danger involved, it means there purposes: to connect young people with job opportunities 
+was inadequate police cover in areas of the country due to (JobMatch) and to connect humanitarian and aid agencies 
+this travel. Policemen can in future receive their pay by M- with people who need assistance (AidLink) and vice versa.86 
+Paisa and send it directly to their family. Created in 2005, it operates in the West Bank, Gaza, Somal-
+M-Paisa is also in partnership with a microfinance insti- iland,	and	Iraq.	Souktel’s	bulk	SMS	services	can	be	managed	
+tution, First MicroFinance Bank. Customers can repay their from the most basic handsets. 
+loans with M-Paisa, which has allowed the bank to expand AidLink allows humanitarian and aid agencies to send 
+its reach to potential customers. The reduction in costs has SMS alerts to customized lists of individuals. People receive 
+also	made	possible	a	reduction	in	interest	rates	charged— personalized messages about emergency aid and other ser-
+rates are expected to fall by about one-fifth when the system vices in their area. When the conflict in Gaza erupted in  
+reaches a larger scale. late December 2008, internet service providers as well as  
+Jobmatch Program
+Source: Souktel JobMatch
+NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   45
+landlines were down. Mobile telephony was the only  Souktel’s JobMatch allows young people to create an 
+medium that was somewhat reliable.87 SMS mini-curriculum vitae (CV). The CV is sent from a 
+Several relief agencies that were already partnering mobile phone to a central database. Employers can also 
+with Souktel established mobile-based data collection and design SMS job advertisements. The matching occurs 
+alert systems during the conflict. The Red Crescent created automatically once information is uploaded into the system’s 
+alert groups for each blood type and ran a blood registry.88 main database. Once a match is found, the system sends 
+Within 24 hours, Ushahidi and Al-Jazeera set up a system alerts to either party and if employers are interested, job 
+in which individuals, reporters, and relief workers could seekers will receive an SMS requesting them to attend an 
+report incidents.89 Ushahidi provided the geo-location/ interview. Souktel launched this service in the West Bank in 
+93
+mapping portion of the system, and Souktel provided the 2005 and subsequently in Somaliland.  
+SMS gateway for people sending eyewitness accounts.90	In	 With about 82% of West Bank residents using mobile 
+other examples, MercyCorps used a polling mechanism to phones, this seemed an obvious way to increase access to job 
+94
+determine how much food remained in each home, and information.  JobMatch started with a focus on recent col-
+what	was	needed	urgently,	while	CHF	International	orga- lege graduates and employers seeking skilled people, using 
+nized the distribution of medical supplies via SMS.91 Each existing university databases of job seekers, but it will scale 
+SMS costs 8 cents (US) to send. Many agencies have set up up to the much larger potential market for unskilled work in 
+reverse charges, and in other cases, users are reimbursed with the near future. 
+airtime. However, in some cases individuals have had to pay Between 40 and 60 people currently find jobs each 
+the costs.92 month, at an average salary of US$500 a month. Employ-
+LabourNet
+Source: LabourNet
+46   NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   
+Section 5: Rebuilding
+ers claim that their hiring time has been cut in half. The Conclusions
+individuals who subscribe to JobMatch report that, on aver- The need for access to communications and information does 
+age, they find jobs within one to two weeks. About 9 out of not end when the immediate aftermath of a crisis gives way to 
+10 applicants accept the jobs they are offered through the the long-term challenge of reconstruction. On the contrary, 
+service. There are currently (mid-2009) 4,234 job seekers information is so essential to economic development that 
+using the service. innovations in technologies used at earlier stages can and should 
+be leveraged to serve these longer-term purposes. Agencies 
+LabourNet, Bangalore developing tools for use in disaster preparedness and emer-
+Bangalore’s information technology boom has led to a con- gency relief should include consideration of their potential 
+struction boom, with a large and mainly unregulated and for communities’ post-disaster or post-conflict needs. 
+exploitative labor market for unskilled work-
+ers.	In	most	construction	projects,	a	Maistri	(a	
+small subcontractor or independent foreman) 
+Investment in communications for  
+brings together the team of workers. “ 
+The LabourNet initiative was started in developmental purposes, including 
+2004 by MAYA (Movement for Alternatives access to radios, mobile phones,  
+and Youth Awareness), a non-profit agency 
+based	in	Bangalore.	It	has	created	a	network	of	 and the internet, will pay dividends  
+previously informal workers for the construc- in post-crisis reconstruction—just  
+tion, housekeeping, gardening, and transporta- as it helps in terms of preparedness 
+tion sectors. 
+Potential clients call LabourNet’s call center for emergencies.
+where staff can use the database to match ”
+clients needs with workers with appropriate 
+skills and agree upon fees. Clients can access the worker’s The opportunities for doing so are greater the more the 
+individual history and employment record. necessary communications infrastructure is in place before 
+All workers registering with LabourNet require a mobile disaster strikes. There is a growing body of evidence on 
+phone that they can be reached with if there is work for the favorable impacts of communication technologies on 
+them. As they typically live in the urban slums, they cannot economic	development.	Investment	in	communications	for	
+be reached in any other way. Workers get a formal identity developmental purposes, including access to radios, mobile 
+card they can use in many other situations. The tracking of phones, and the internet, will pay dividends in post-crisis 
+their performance can help them negotiate higher pay over reconstruction—just	as	it	helps	in	terms	of	preparedness	for	
+time.	In	addition,	registered	workers	can	open	their	own	 emergencies. 
+bank	accounts,	usually	an	extremely	difficult	task	for	labor- For developing country governments and aid donors, the 
+ers of this kind. All registered workers get accident insurance challenge is to ensure that communications infrastructure 
+and	can	opt	to	buy	health	insurance—a	substantial	source	of	 and access is enhanced, among all the competing demands 
+security in the vulnerable world that most informal workers for funds. Communications is not a luxury that can be 
+inhabit. postponed, but an essential tool for individuals and organi-
+The number of LabourNet registrations has more than zations.
+doubled each year since the initiative started in 2004, reach- As with the issue of preparedness, more progress is 
+ing 5,452 in 2008.95 needed to ensure vulnerable communities can access the 
+In	both	examples,	Souktel’s	JobMatch	and	LabourNet,	 communications and the information they need. NGOs and 
+improved information flows are improving people’s living humanitarian agencies should include as part of their programs 
+standards during and after times of conflict. Technology the use of traditional and new media to communicate with the 
+enables development and reconstruction by stimulating the communities they serve. 
+economy through job creation and through quick and trans- There is also much potential for new development tools. 
+parent	communication.	It	acts	as	a	gateway	between	crisis	and	 Emerging technologies and applications offer the potential for 
+development, becoming a powerful tool for reconstruction. greater effectiveness in development assistance programs.
+NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   47
+6 Recommendations
+This report has described the potential for many new information and communication 
+technologies to enable a more effective response in emergencies and conflicts, both 
+through the actions of the affected communities and the responses of humanitarian 
+agencies. Here we present a number of recommendations that would help realize the 
+potential of the new technologies and increasing access to communications. 
+Credit: Diego Fernandez
+48   NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   
+The humanitarian community  
+Remove regulatory barriers “ 
+Some regulatory barriers to effective early warning systems can support the development of 
+and emergency response remain, despite the great progress innovative platforms that address 
+made	in	these	aspects	since	the	Indian	Ocean	tsunami.	We	 the issue of verification as well  
+identified:
+•	 the	need	for	further	standardization	of	communications	 as provision of information by  
+in	emergency	situations—such	as	a	global	standard	for	 users.  
+cell broadcast technologies, for example; ”
+•	 the	need	to	develop	standards	applicable	to	existing	and	
+future systems for delivery of early warnings or alerts; Information	needs	to	be	collected	and	deployed	to	be	ef-
+fective.	Often	this	will	be	done	by	official	agencies,	but	their	
+•	 the	need	for	inter-operability	between	public	networks	 responsibilities may be overlapping and uncoordinated.
+and networks dedicated to emergency communications; Preparedness also requires the international humanitar-
+and ian community to be able to act themselves in a coordinated 
+•	 a	need	for	priority	access	by	emergency	services	person- way on the information and analysis enabled by these 
+nel to communications. emerging systems.
+Furthermore, governments must extend the regulatory Agencies should share best practices with each other. 
+framework to new and emerging technologies. Regulation is Agencies developing tools for use in disaster preparedness 
+lagging	behind	innovation.	In	particular: and emergency relief should also include consideration 
+•	 the	international	community	needs	to	create	a	legal	 of their potential for communities’ post-disaster or post-
+framework enabling the use of unmanned aerial vehicles, conflict needs, to leverage the investment of resources as 
+which hold great promise for collecting information for effectively as possible.
+use by humanitarian agencies but are currently unable to Governments—especially	in	developing	countries	where	
+be deployed due to legal uncertainties. access	is	not	ubiquitous—also	need	to	consider	enhanced	
+access to communications and investment in infrastructure, 
+Put more resources into  among all the competing demands for resources.
+local preparedness
+People-centeredness has been one of the themes of this Leverage new media and crowdsourcing
+report. The people affected by an emergency are in the best Some of the most promising applications of new technol-
+position to know what is happening and what they need. ogy in emergencies use social media, often through crowd-
+Preparedness requires long-term investment by humani- sourced applications. 
+tarian organizations, including investment in public educa- As this report has shown, the issue of authentication is a 
+tion and capacity building in local media. key barrier to overcome. The development of methods and 
+Information	provision	should	be	recognized	as	a	stan- applications for verification of crowdsourced information 
+dard part of both preparedness and aid delivery, and might should be a priority. The humanitarian community can sup-
+include: port the development of innovative platforms that address 
+•	 preparation	of	off-the-shelf	material	agreed	on	between	 the issue of verification as well as provision of information 
+humanitarian and aid agencies (what to do in an earth- by users. 
+quake, basic sanitation advice, for example); At the same time, it is important to ensure that com-
+munications	technologies	can	offer	their	users	a	sufficient	
+•	 training	humanitarian	agencies	in	communication	skills,	 degree of anonymity and protection. This will depend on 
+including receiving and using feedback from communi- technological solutions but also, importantly, the legal 
+ties; and framework and public debate about the risks as well as ben-
+•	 the	inclusion	of	a	wind-up	radio	in	aid	packages.	 efits of anonymity. 
+NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   49
+Endnotes
+1 http://www.ft.com/cms/s/0/f317a12e-5acc-11de-8c14-00144feab- 19	In	Aceh,	for	example,	mobile	network	traffic	jumped	by	25	to	
+dc0.html accessed 1 Oct 2009. 30%. http://ioc-unesco.org/hab/components/com_oe/oe.php?t
+2	Kucera,	J.,	“What	if	Twitter	is	leading	us	all	astray	in	Iran,”	http:// ask=download&id=3771&version=1.0=1&format=2	accessed	1	
+trueslant.com/joshuakucera/2009/06/15/what-if-we-are-all- Oct 2009
+wrong-about-iran/ accessed 1 Oct 2009. 20		“Nearly	2.1m	text	Live	8	to	make	it	most	successful	SMS	push,”	
+3	Human	Security	Report	Project,	“mini-atlas	of	Human	Security,”	 http://www.brandrepublic.com/news/479891/nearly-21m-text-
+http://www.miniatlasofhumansecurity.info/en/access.html ac- live-8-successful-sms-push/.
+cessed 1 Oct 2009. 21	“Girl,	10,	uses	geography	lessons	to	save	lives.” Daily Telegraph,  
+4 Data transferred to new Global Terrorism Database, http://www. 1 January 2005.
+start.umd.edu/gtd/ accessed 1 Oct 2009. 22 See for example, ‘Tsunami Came Too Fast for Warnings to Reach 
+5 Hughes, A., L. Palen, J. Sutton, S. Liu, and S. Vieweg, “Site-See- All,’ Wall Street Journal, 1 October 2009, http://online.wsj.com/
+ing” in Disaster: An Examination of On-Line Social Convergence, article/SB125429147125151927.html, accessed 2 Oct 2009. 
+connectivIT	lab	&	the	Natural	Hazards	Center,	University	of	 23 Samarajiva, R., Mobilizing information and communications 
+Colorado, Boulder, May 2008. technologies for effective disaster warning: lessons from the 2004 
+6 Ibid. tsunami, New Media & Society, 7(6):731-747, 2005.
+24
+7	International	Telecommunication	Union,	Measuring the Informa- 	Wall,	I.,	“Where’s	My	House?”,	UNDP,	August	2005,	http://
+tion Society—The ICT Development Index, March 2009. www.humanitarianinfo.org/srilanka/catalogue/Files/Info%20
+Centre/TEC/TEC020_undp_Wheres_my_house_20050905.
+8 This is a 2007 figure. pdf, accessed 1 Oct 2009.
+9 http://www.comscore.com/Press_Events/Press_Releases/2009/1/ 25 http://www.ewc3.org.
+Global_Internet_Audience_1_Billion
+26	International	Federation	of	Red	Cross	and	Red	Crescent	Societ-
+10  http://www.internetworldstats.com/stats.htm accessed 1  ies, World Disasters Report 2005, http://www.ifrc.org/publicat/
+Oct 2009 wdr2005/, accessed 1 Oct 2009.
+11 World Bank, Information and Communications for Development 27 http://www.reliefweb.int/telecoms/tampere/index.html.
+2009: Extending Reach and Increasing Impact, 2009,. http://web.
+28
+worldbank.org/WBSITE/EXTERNAL/TOPICS/EXTINFOR- 	“New	Media	and	Development	Communication,”	http://www.
+MATIONANDCOMMUNICATIONANDTECHNOLO- columbia.edu/itc/sipa/nelson/newmediadev/Emergencies.html, 
+GIES/EXTIC4D/0,,contentMDK:22229759~menuPK:587064 accessed 2 Oct 2009.
+9~pagePK:64168445~piPK:64168309~theSitePK:5870636,00. 29 “Status Quo Of The Tsunami Early Warning System For The 
+html accessed 1 Oct 2009 Indian	Ocean,”	Science	Daily,	http://www.sciencedaily.com/re-
+12 Universal McCann, “Wave.4. Power to the People. Social Media leases/2007/12/071220110327.htm, accessed 2 Oct 2009.
+Tracker,”	July	2009. 30	http://www.itu.int/ITU-D/wtdc06/DohaDeclaration.html.
+13	Schonfeld,	E.,	”Facebook	Is	Now	the	Fourth	Largest	Site	In	The	 31	United	Nations	International	Strategy	for	Disaster	Reduction	
+World,”	4	Aug	2009,	http://www.techcrunch.com/2009/08/04/ Secretariat, Global Assessment Report on Disaster Risk Reduction 
+facebook-is-now-the-fourth-largest-site-in-the-world. (2009), United Nations, Geneva, Switzerland, 2009, http://www.
+14 http://www.comscore.com/Press_Events/Press_Releases/2009/2/ preventionweb.net/english/hyogo/gar/report/index.php?id=9413,	
+India_Social_Networking/(language)/eng-US,	accessed	1	Oct	 accessed 2 Oct 2009.
+2009. 32 Nyheim, D., Preventing Violence, War and State Collapse: The 
+15	Cheng,	A.,	M.	Evans,	and	H.	Singh,	“Inside	Twitter:	an	in-depth	 Future of Operational Conflict Early Warning and Response Systems, 
+look	inside	the	Twitter	world,”	sysomos,	June	2009. OECD, on behalf of The DAC Network on Conflict, Peace, and 
+Development Co-operation and the DAC Fragile States Group, 
+16	International	Federation	of	Red	Cross	and	Red	Crescent	Societ- 2009, http://www.oecd.org/document/41/0,3343,en_2649_3369
+ies, World Disasters Report 2005, http://www.ifrc.org/publicat/ 3550_42233001_1_1_1_1,00.html, accessed 1 Oct 2009.
+wdr2005/, accessed 1 Oct 2009.
+33	Meier,	P.,	“Fourth-Generation	Early	Warning	Systems,”	2009,	
+17	“Disaster-prone	Bangladesh	trials	cell	phone	alerts,”	Reuters,	 http://earlywarning.wordpress.com/2009/03/06/fourth-genera-
+http://www.alertnet.org/thenews/newsdesk/SP256907.htm. tion-early-warning-systems.
+18	“Disaster	reduction	and	the	human	cost	of	disaster,”	UN	
+OCHA	IRIN	News,	http://www.plusnews.org/Report.
+aspx?ReportId=62446#at	accessed	1	Oct	2009.
+50   NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   
+34 Nyheim, D., Preventing Violence, War and State Collapse: The Fu- 50 http://shr.aaas.org/geotech.
+ture of Operational Conflict Early Warning and Response Systems, 51 http://isferea.jrc.ec.europa.eu/Pages/default.aspx.
+OECD, on behalf of The DAC Network on Conflict, Peace, and 
+Development Co-operation and the DAC Fragile States Group, 52	“Ushahidi:	From	Croudsourcing	to	Crowdfeeding,”	March	
+2009, http://www.oecd.org/document/41/0,3343,en_2649_336 2009, http://irevolution.wordpress.com/2009/03/27/ushahidi-
+93550_42233001_1_1_1_1,00.html, accessed 1 Oct 2009. from-croudsourcing-to-crowdfeeding.
+35 Udu-gama, N., Mobile Cell Broadcasting for Commercial Use and 53 See Wireless Technology for Social Change: Trends in Mobile Use 
+Public Warning in the Maldives, Lirneasia, August 2009, http:// by NGOs, United Nations Foundation and Vodafone Group 
+lirneasia.net/wp-content/uploads/2009/07/CB_Maldives_FI- Foundation Report, April 2008, for a case study.
+NAL_2009_041.pdf, accessed 2 Oct 2009. 54 The Kenyan 2007 Elections and their Aftermath: the role of media 
+36 “Bangladesh develops instant early disaster warnings through and communication. Policy Briefing no 1, BBC World Service 
+cell	phones,”	4	June	2009,	http://www.undp.org.bd/info/events. Trust, April 2008, http://downloads.bbc.co.uk/worldservice/
+php?newsid=421&t=In%20News. trust/pdf/kenya_policy_briefing_08.pdf. See also Heacock, R. 
+Mobile Activism in African Elections: A Comparative Case Study, 
+37 Global Survey of Early Warning System: An Assessment of Capaci- DigiActive Research Series, March 2009.
+ties, Gaps and Opportunities toward Building a Comprehensive 
+Global Early Warning System for All Natural Hazards, A report 55 Goldstein, J. and J. Rotich, Digitally Networked Technology in 
+prepared at the request of the Secretary-General of the United Kenya’s 2007–2008 Post-Election Crisis, Berkman Center for 
+Nations	(Pre-print	version	released	at	the	Third	International	 Internet	and	Society,	September	2008,	http://cyber.law.harvard.
+Conference on Early Warning, Bonn, 27-29 March 2006), edu/publications/2008/Digitally_Networked_Technology_Ke-
+http://www.ewc3.org. nyas_Post-Election_Crisis.
+38	Robinson,	L.	and	I.	Wall.,	Left	in	the	Dark:	The	Unmet	Need	 56 The World Food Programme is the leader of the UN Telecoms 
+for	Information	in	Humanatarian	Response.	BBC	World	Trust,	 Cluster.
+November 2008. http://downloads.bbc.co.uk/worldservice/ 57 Miguel, E., S. Satyanath, and E. Sergenti, Economic Shocks and 
+trust/pdf/humanitarian_response_briefing.pdf Civil	Conflict:	An	Instrumental	Variables	Approach,	Journal of 
+39 Gilbert, C., “Studying Disaster: Changes in the Main Conceptu- Political Economy, 112:4, 2004.
+al	Tools,”	in	Quarantelli,	E.	L.	ed. What is a Disaster? Perspectives 58 Brewin, Mike. 2008. Evaluation of Concern Kenya’s Kerio Valley 
+on the Question, Routledge, London and New York, 1998. Cash	Transfer	Pilot	(KVCTP).	Dublin,	Ireland:	Concern	World-
+40	Howe,	J.,	“The	Rise	of	Crowdsourcing,”	Wired, June 2006, wide. Available at http://www.concern.net/documents/1244/
+http://www.wired.com/wired/archive/14.06/crowds.html. KenyaCashTansferPilot-EvaluationReport-July08.pdf.
+41	International	Federation	of	Red	Cross	and	Red	Crescent	Societ- 59 The BBC’s Persian TV service received many more.
+ies, World Disasters Report 2005, http://www.ifrc.org/publicat/ 60	“Iran:	Myth	and	reality	about	Twitter,”	July	2009,	http://global-
+wdr2005/, accessed 1 Oct 2009. voicesonline.org/2009/07/04/iran-myth-and-reality-about-
+42	Robinson,	L.	and	I.	Wall.,	Left	in	the	Dark:	The	Unmet	Need	 twitter.
+for	Information	in	Humanatarian	Response.	BBC	World	Trust,	 61 http://webecologyproject.org.
+November 2008. http://downloads.bbc.co.uk/worldservice/
+62
+trust/pdf/humanitarian_response_briefing.pdf  http://www.alexa.com/siteinfo/twitter.com.
+63
+43 http://www.voicesofthevulnerable.net.  http://blog.sysomos.com/2009/06/21/a-look-at-twitter-in-iran/.
+64
+44	http://portal.unesco.org/en/ev.php-URL_ID=45001&URL_  http://www.wired.com/dangerroom/2009/06/iran-before-you-
+DO=DO_PRINTPAGE&URL_SECTION=201.html have-that-twitter-gasm.
+65
+45	GIVAS	Concept	Paper,	2009.  http://techpresident.com/blog-entry/iran-independence-day-
+and-limits-online-politics.
+46	EPIC	Concept	Paper,	2009
+66	http://www.heritage.org/Research/InternetandTechnology/
+47 World Vision, Last Mile Mobile Solutions: Enhancing Food Aid bg2300.cfm.
+Management Through Innovation, 2009.
+67 Ibid.
+48 “US Calls for UN Aerial Surveillance to Detect Preparations for 
+68
+Attacks,”	http://irevolution.wordpress.com/2009/08/14/  Ibid.
+un-aerial-surveillance. 69 http://www.gauravonomics.com/blog/real-time-citizen-journal-
+49 http://www.fordham.edu/halsall/mod/1960summit-statements1. ism-in-mumbai-terrorist-attacks/.
+html. 70 http://www.gdacs.org.
+NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   51
+71 GDACS collects news, damage maps, and humanitarian situ- 83 Mohapatra, S., G. Joseph, and D. Rath, Remittances and Natural 
+ation reports automatically from over 1,000 online sources, Disasters: Ex-post Response and Contribution to Ex-ante Prepared-
+including Relief Web and AlertNet. JRC contributes with the ness, World Bank Policy Research Working Paper 4972, June 
+European Media Monitor system. 2009.
+72 http://www.ted.com/talks/lang/eng/larry_brilliant_wants_to_ 84 Collins, D., J. Morduch, S. Rutherford, and O. Ruthven, Portfo-
+stop_pandemics.html. lios of the Poor: How the World’s Poor Live on $2 a Day, Princeton 
+73 http://www.unitar.org/unosat. University Press, 2009.
+85
+74 http://irevolution.wordpress.com/2009/02/08/gis-technology-  The Transformational Potential of M-Transactions, Vodafone 
+for-genocide-prevention. Public Policy Series number 7, July 2007, http://www.vodafone.
+com/publicpolicyseries.
+75 http://www.ithaca.polito.it/projects/uav.php.
+86  http://www.souktel.org.
+76 The International Charter aims at providing a unified system of 
+87
+space data acquisition and delivery to those affected by natural  Ibid.
+or man-made disasters through Authorized Users. Each member 88 Souktel’s Gaza Relief campaign overview. 
+agency has committed resources to support the provisions of the 89 “Gaza Mapping Initiatives,” Reuters AlertNet, http://www.alert-
+Charter and thus is helping to mitigate the effects of disasters on net.org/thefacts/reliefresources/123124884240.htm. 
+human life and property. http://www.disasterscharter.org/home
+90 Interview with Jacob Korenblum, 13 July 2009. 
+77 http://www.frontlinesms.com.
+91 Ibid.
+78 http://www.kiwanja.net/blog/2009/02/frontlinesms-peacebuild-
+ing-in-afghanistan/. 92 Ibid.
+79 http://news.bbc.co.uk/2/hi/technology/6570919.stm. 93 JobMatch was launched in Somaliland in June 2009. 
+80 http://www.kiwanja.net/blog/2008/07/zimbabweans-speak- 94 http://www.souktel.org/About.htm.
+out-through-sms/ and http://www.kiwanja.net/blog/2008/04/ 95 This draws on research done for India: The Impact of Mobile 
+kubatana-reaches-out-with-frontlinesms-in-zimbabwe/. Phones, Vodafone Public Policy Series No. 9, January 2009.
+81 http://www.textually.org/textually/archives/2005/01/006675.
+htm.
+82 Brewin, Mike. 2008. Evaluation of Concern Kenya’s Kerio Valley 
+Cash Transfer Pilot (KVCTP). Dublin, Ireland: Concern World-
+wide. Available at http://www.concern.net/documents/1244/
+KenyaCashTansferPilot-EvaluationReport-July08.pdf.
+52   NEW TECHNOLOGIES IN EMERGENCIES AND CONFLICTS: THE ROLE OF INFORMATION AND SOCIAL NETWORKS   
+
+www.unfoundation.org/emergencies-report 

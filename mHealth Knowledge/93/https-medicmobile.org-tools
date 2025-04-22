@@ -1,0 +1,575 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>The tools | Medic Mobile</title>
+		<meta name="description" content="Medic Mobile is a 501(c)(3) nonprofit organization. We design, deliver, and support world-class software for health workers providing care in the hardest-to-reach communities.">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0, user-scalable=yes">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-touch-fullscreen" content="yes">
+		<meta property="og:url" content="/tools"/>
+		<meta property="og:title" content="The tools" />
+		<meta property="og:image" content=""/>
+
+		<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+		<link rel="home" href="/" />
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon-precomposed.png">
+				
+		<link rel="stylesheet" href="/cache/cached.6605a87fc04450fca4c4c3383ecfdd4c.css">
+
+		<link rel="stylesheet" href="/stylus/style.css">
+		<script src="/js/vendor/modernizr-2.6.2.min.js"></script>
+		
+		<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '973142399456900');
+fbq('track', 'PageView');
+</script>
+<noscript>
+<img height="1" width="1"
+src="https://www.facebook.com/tr?id=973142399456900&ev=PageView
+&noscript=1"/>
+</noscript>
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1708913492725942');
+fbq('track', 'PageView');
+</script>
+<noscript>
+<img height="1" width="1"
+src="https://www.facebook.com/tr?id=1708913492725942&ev=PageView
+&noscript=1"/>
+</noscript>
+
+		<style type="text/css">
+header.platform {
+        		background: url( //medicmobile.org/img/home/header-2-image-template.jpg ) center top no-repeat scroll;
+        		-webkit-background-size: cover;
+        		 -moz-background-size: cover;
+        		 -o-background-size: cover;
+        		 background-size: cover;
+        	}
+        
+        		        
+        	@media (max-width: 767px){
+        		header.platform {
+        			background: url( //medicmobile.org/img/platform/tools-header-mobile.jpg ) center top no-repeat scroll;
+        			-webkit-background-size: cover;
+        			 -moz-background-size: cover;
+        			 -o-background-size: cover;
+        			 background-size: cover;
+        		}
+        	}
+</style></head>
+
+<body>
+	<div class="snap-drawers">
+			<div class="snap-drawer snap-drawer-left">
+			<nav class="snap-drawer-left-nav clearfix">
+				<ul>
+					<li><a class="mm-steal-dk text-uppercase" href="https://medicmobile.org/tools">The Tools</a></li>
+					<li><a class="mm-steal-dk text-uppercase" href="https://medicmobile.org/use-cases">Use Cases</a></li>
+					<li><a class="mm-steal-dk text-uppercase" href="https://medicmobile.org/deploy-the-tools">Deploy The Tools</a></li>
+					<li><a class="mm-steal-dk text-uppercase" href="https://medicmobile.org/design">Design</a></li>
+					<li><a class="mm-steal-dk text-uppercase" href="https://medicmobile.org/partners">Partners</a></li>
+					<li><a class="mm-steal-dk text-uppercase" href="https://medicmobile.org/research-impact-reports">Research & Impact</a></li>
+					<li><a class="mm-steal-dk text-uppercase" href="https://medicmobile.org/blog">Blog</a></li>
+					<li><a class="mm-steal-dk text-uppercase" href="https://medicmobile.org/team">Our Team</a></li>
+					<li><a class="mm-steal-dk text-uppercase" href="https://medicmobile.org/careers">Careers</a></li>
+					<li><a class="mm-steal-dk text-uppercase" href="https://medicmobile.org/contact">Contact</a></li>
+					<li><a data-custom data-custom-amounts='10,20,30,70,100,200,1000' class='commitchange-donate mm-lime text-uppercase'>Donate</a></li>
+					<li><a class="mm-blue text-uppercase" href="https://medicmobile.org/phone-donations">Phone donations</a></li>
+				</ul>
+				<div class="nav-left-social col-md-12 clearfix">
+					<a class="btn btn-footer-social mm-steal-dk" href="https://twitter.com/medic" target="blank"><img src="/assets/twitter-lt-grey.png" alt="" /></a>
+					<a class="btn btn-footer-social mm-steal-dk" href="https://www.facebook.com/MedicMobile" target="blank"><img src="/assets/fb-lt-grey.png" alt="" /></a>
+					<a class="btn btn-footer-social mm-steal-dk" href="https://www.youtube.com/channel/UC0ottwy7ZoKRAxK_GnnZnOg" target="blank"><img src="/assets/youtube-lt-grey.png" alt="" /></a>
+				</div> 			</nav> 		</div>
+		    
+			<div class="snap-drawer snap-drawer-right clearfix">
+			<section class="col-md-12 clearfix actions">
+																					<a class="btn btn-hope col-xs-12 col-md-12 mm-yellow" href="/deploy-the-tools"><h4 class="futura-lt text-uppercase">Equip Health Workers</h4></a>
+												<p>Software tools are used by large organizations supporting thousands of frontline health workers, as well as local organizations and clinics. Learn more about your deployment options.</p>
+						<hr>
+																										<a class="btn btn-hope col-xs-12 col-md-12 mm-warmred" href="/tools"><h4 class="futura-lt text-uppercase">Explore the Tools</h4></a>
+												<p>Learn more about the&nbsp;latest software&nbsp;for community health.</p>
+						<hr>
+												</section>
+		</div>
+	
+	</div>
+		
+	<div id="top"></div>
+	<img class="print-logo" src="/assets/medic-mobile-logo+name-100.png" alt="" />
+	
+	<div id="toolbar">
+	    <a href="#" id="open-left"></a>
+	    <div class="toggler" id="ol"></div>
+	    
+	    <a href="/" id="home"></a>
+	    <object type="image/svg+xml" data="/assets/medic-mobile-logo+name-white.svg"><img class="header-logo" src="/assets/medic-mobile-logo+name-100-white.png" alt="" /></object>
+	    
+		<nav id="top-nav">
+			<ul class="btn-involved">
+				<a href="https://medicmobile.org/get-involved"><li class="btn-involved mm-blue text-uppercase">Get Involved</li></a>
+			</ul>
+			<ul class="btn-action">
+				<li class="toggler-top mm-warmred" id="or"> <h4 class="futura-md text-uppercase">Start Now</h4></li>
+			</ul>
+		</nav>
+				<!--[if lte IE 8]>
+	        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+	   <![endif]-->
+
+			
+	
+
+</div>
+<div id="content" class="snap-content">
+	    
+
+	<header class="image-top platform"></header>
+	<div class="title title-tools mm-warmred"><h1 class="text-uppercase">The tools</h1>
+
+	</div>
+
+	<div class="main-wrapper">
+		<section class="main">
+			<div class="panel-wrapper">
+
+					<h1 class="">The Community Health Toolkit</h1>
+				
+							 <a class="btn btn-top btn-partner btn-download btn-demo col-xs-12 col-sm-4 col-md-4 mm-blue" href="https://communityhealthtoolkit.org/"><h4 class="demo futura-md text-uppercase">Visit the CHT Website</h4></a> 
+								
+			
+				<div class="row">
+					<div class="col-xs-12 col-md-12 clearfix">
+
+					<p>Medic Mobile serves as the technical steward for the Community Health Toolkit (CHT) open source project. The CHT provides you with resources to design, build, and deploy digital tools for community health. It includes open source software frameworks and applications, guides to help you design and use them, and an active community for creation, collaboration and support. </p>
+
+<p>The software included in the CHT was created for people delivering care in hard-to-reach areas and work with or without connectivity. Tools built using the CHT run on basic phones, smartphones, tablets, and computers, supporting people doing critical work in communities, health facilities, and management offices. </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p>We're committed to sharing learnings, and lowering barriers to adoption, scale, and reach for these tools. Medic Mobile developed the CHT’s application framework, and is working closely with our partners to develop and deploy reference applications that build on and extend this framework. Medic Mobile has always developed free software, and is now focused on supporting a vibrant community contributing to a global public good. </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p>In our role as technical steward, Medic Mobile contributes code, design resources, documentation, and other assets to the CHT, and also facilitate contributions from others. Learn more about the features on the CHT website, and read below for some examples of what can be built.</p>
+
+									<object class=" col-xs-12 col-md-12" type="image/svg+xml" data="//medicmobile.org/img/platform/CHT-feature-overview.svg"><img src="img/platform/hub&spoke.png" alt="" /></object>
+									</div>
+				</div>
+							</div>
+					</section>
+
+	<section class="main">
+
+		
+					<div class="top-image">
+									<img src="//medicmobile.org/img/platform/section-headers-mobile-app.jpg" alt="Section Headers Mobile App" />
+							</div>
+			<!-- end top-image -->			
+
+			
+					<div class="panel-wrapper">
+			    <h1 class="">Community Health Apps</h1>
+								<div class="row inbox">
+						
+						<div class="col-xs-12 col-md-12 clearfix">
+
+						<p>The Community Health Application Framework makes it faster to build full-featured, scalable digital health apps that equip health workers to provide better care in their communities. Key user groups include community health workers, supervisors, nurses, health system managers, and even patients and caregivers.</p>
+
+<p>The framework deals with health systems roles and reporting hierarchies, and supports five highly configurable areas of functionality: messaging, task schedules, decision support workflows and care protocols, person profiles, and analytics. The core features are flexible enough to support an exceptional range health programs and local care provider workflows. </p>
+						
+						</div>
+									</div>
+				<section class="">		
+					<div>
+						<ul class="nav nav-tabs" role="tablist">
+																					    <li role="presentation" style="width: 25%" class="otherTabs"><a href="#tasks" aria-controls="tasks" role="tab" data-toggle="tab">Tasks</a></li>
+														    <li role="presentation" style="width: 25%" class="otherTabs"><a href="#actions" aria-controls="actions" role="tab" data-toggle="tab">Care Guides</a></li>
+														    <li role="presentation" style="width: 25%" class="active"><a href="#people" aria-controls="people" role="tab" data-toggle="tab">People</a></li>
+														    <li role="presentation" style="width: 25%" class="otherTabs"><a href="#dashboard" aria-controls="dashboard" role="tab" data-toggle="tab">Targets</a></li>
+																				</ul>
+					  <!-- Tab panes -->
+						<div class="tab-content">
+																						<div role="tabpanel" class="tab-pane fade in otherTabs" id="tasks">
+									<div class="row inbox">
+										<div class="col-xs-12 col-md-12 clearfix">
+											<h2 class="futura-md">Integrated task list</h2>
+											<p>Tasks guide health workers through their days and weeks. Each auto-generated task prompts an Action, ensuring that people receive the right services and care at the right time.</p>
+										</div>
+										<div class="col-xs-12 col-md-4 col-md-offset-2 clearfix">
+																					<img class="detail-2" src="//medicmobile.org/img/platform/2018-product-screens/CHW-Tasks1-phone.png" alt="" />
+																				</div>
+										<div class="col-xs-12 col-md-4 col-md-offset-0 clearfix">	
+																					<img class="detail-2" src="//medicmobile.org/img/platform/2018-product-screens/CHW-Tasks2-phone.png" alt="" />
+																				</div>
+									</div>
+								</div>
+						    								<div role="tabpanel" class="tab-pane fade in otherTabs" id="actions">
+									<div class="row inbox">
+										<div class="col-xs-12 col-md-12 clearfix">
+											<h2 class="futura-md">Decision support for health services</h2>
+											<p>Health workers provide crucial services for people in their communities. The app guides them through different actions, such as screening for danger signs during a pregnancy visit or assessing, diagnosing, and treating a sick child. Actions can be prompted  based on information about the health worker or person under care. They can include images and videos, conditional logic for decision-making and clinical workflows, and tailored results with next steps.</p>
+										</div>
+										<div class="col-xs-12 col-md-4 col-md-offset-2 clearfix">
+																					<img class="detail-2" src="//medicmobile.org/img/platform/2018-product-screens/CHW-People3-phone.png" alt="" />
+																				</div>
+										<div class="col-xs-12 col-md-4 col-md-offset-0 clearfix">	
+																					<img class="detail-2" src="//medicmobile.org/img/platform/2018-product-screens/CHW-People4-phone.png" alt="" />
+																				</div>
+									</div>
+								</div>
+						    								<div role="tabpanel" class="tab-pane fade in active" id="people">
+									<div class="row inbox">
+										<div class="col-xs-12 col-md-12 clearfix">
+											<h2 class="futura-md">User Profiles </h2>
+											<p>Health workers can easily access and manage the families and people they serve from the People tab. Profiles display important information, including demographic details, current and past health conditions with status, upcoming tasks, and history.</p>
+										</div>
+										<div class="col-xs-12 col-md-4 col-md-offset-2 clearfix">
+																					<img class="detail-2" src="//medicmobile.org/img/platform/2018-product-screens/CHW-People1-phone.png" alt="" />
+																				</div>
+										<div class="col-xs-12 col-md-4 col-md-offset-0 clearfix">	
+																					<img class="detail-2" src="//medicmobile.org/img/platform/2018-product-screens/CHW-People2-phone.png" alt="" />
+																				</div>
+									</div>
+								</div>
+						    								<div role="tabpanel" class="tab-pane fade in otherTabs" id="dashboard">
+									<div class="row inbox">
+										<div class="col-xs-12 col-md-12 clearfix">
+											<h2 class="futura-md">Visibility into progress and challenges</h2>
+											<p>Health workers can easily view progress for the month against predefined targets, even while offline.</p>
+										</div>
+										<div class="col-xs-12 col-md-4 col-md-offset-2 clearfix">
+																					<img class="detail-2" src="//medicmobile.org/img/platform/2018-product-screens/smart-phone-targets-1.jpg" alt="" />
+																				</div>
+										<div class="col-xs-12 col-md-4 col-md-offset-0 clearfix">	
+																					<img class="detail-2" src="//medicmobile.org/img/platform/2018-product-screens/smart-phone-targets-2.jpg" alt="" />
+																				</div>
+									</div>
+								</div>
+						    													</div>
+					</div>
+				</section>
+			</div>
+			
+					<div class="top-image">
+									<img src="//medicmobile.org/img/platform/section-header-nepal-2.jpg" alt="section-header-nepal-2" />
+							</div>
+			<!-- end top-image -->			
+
+			
+					<div class="panel-wrapper">
+			    <h1 class="">Tools for health workers using basic phones</h1>
+								<div class="row inbox">
+						
+						<div class="col-xs-12 col-md-12 clearfix">
+
+						<p>In addition to apps that run on smartphones, we've built tools for familiar, basic phones work in communities with intermittent connectivity, leverage the most common mobile infrastructure, and harness SMS as a communication and data channel.</p>
+						
+						</div>
+									</div>
+				<section class="">		
+					<div>
+						<ul class="nav nav-tabs" role="tablist">
+																					    <li role="presentation" style="width: 50%" class="active"><a href="#basicPhones" aria-controls="basicPhones" role="tab" data-toggle="tab">Basic phones</a></li>
+														    <li role="presentation" style="width: 50%" class="otherTabs"><a href="#smartPhones" aria-controls="smartPhones" role="tab" data-toggle="tab">Android phones</a></li>
+																				</ul>
+					  <!-- Tab panes -->
+						<div class="tab-content">
+																						<div role="tabpanel" class="tab-pane fade in active" id="basicPhones">
+									<div class="row inbox">
+										<div class="col-xs-12 col-md-12 clearfix">
+											<h2 class="futura-md">SMS on basic phones</h2>
+											<p>Text messages enable data submission, timely reminders, and real-time communication between families, CHWs, and health facilities, strengthening the connection between last-mile communities and health facilities.</p>
+										</div>
+										<div class="col-xs-12 col-md-4 col-md-offset-2 clearfix">
+																					<img class="detail-2" src="//medicmobile.org/img/platform/feature-phones-new-person.jpg" alt="" />
+																				</div>
+										<div class="col-xs-12 col-md-4 col-md-offset-0 clearfix">	
+																					<img class="detail-2" src="//medicmobile.org/img/platform/feature-phones-auto-response.jpg" alt="" />
+																				</div>
+									</div>
+								</div>
+						    								<div role="tabpanel" class="tab-pane fade in otherTabs" id="smartPhones">
+									<div class="row inbox">
+										<div class="col-xs-12 col-md-12 clearfix">
+											<h2 class="futura-md">Medic Collect for Android</h2>
+											<p>Medic Collect is an Android app that extends Open Data Kit (ODK), an open-source tool. The app can be easily configured and deployed to users, and includes forms with location data, in-app data validation, skip logic, and multimedia support. Health workers or managers can submit data by mobile internet, WiFi, or SMS.</p>
+										</div>
+										<div class="col-xs-12 col-md-4 col-md-offset-2 clearfix">
+																					<img class="detail-2" src="//medicmobile.org/img/platform/smart-phone-android-menu.png" alt="" />
+																				</div>
+										<div class="col-xs-12 col-md-4 col-md-offset-0 clearfix">	
+																					<img class="detail-2" src="//medicmobile.org/img/platform/smart-phone-android-form.png" alt="" />
+																				</div>
+									</div>
+								</div>
+						    													</div>
+					</div>
+				</section>
+			</div>
+			
+					<div class="panel-wrapper">
+			    <h1 class="">Apps and analytics for managers</h1>
+			    <div class="row inbox">
+						
+						<div class="col-xs-12 col-md-12 clearfix">
+
+						<p>The combination of Community Health Apps and analytics helps managers provide targeted support for health workers and systems.</p>
+						
+						</div>
+									</div>
+				<section class="">		
+					<div>
+						<ul class="nav nav-tabs" role="tablist">
+																						    <li role="presentation" style="width: 25%" class="active"><a href="#performance" aria-controls="performance" role="tab" data-toggle="tab">Performance management</a></li>
+							    							    <li role="presentation" style="width: 25%" class="otherTabs"><a href="#reports" aria-controls="reports" role="tab" data-toggle="tab">Reports</a></li>
+							    							    <li role="presentation" style="width: 25%" class="otherTabs"><a href="#activity" aria-controls="activity" role="tab" data-toggle="tab">Activity metrics</a></li>
+							    							    <li role="presentation" style="width: 25%" class="otherTabs"><a href="#impact" aria-controls="impact" role="tab" data-toggle="tab">Impact monitoring</a></li>
+							    													</ul>
+						  <!-- Tab panes -->
+						<div class="tab-content">
+																						<div role="tabpanel" class="tab-pane fade in active" id="performance">
+									<div class="row inbox">
+										<div class="col-xs-12 col-md-12 clearfix">
+											<h2 class="futura-md">Views for data-driven management</h2>
+											<p>Managers can easily monitor indicators for a specific health worker or groups of CHWs and compare performance against previous months and high-performing peers. They can also see progress for the current month against goals scaled to the current day.</p>
+										</div>
+										<div class="col-xs-12 col-md-10 clearfix panel-stack-tabs">
+																					<img class="tabs-images" src="//medicmobile.org/img/platform/managers-performance.jpg" alt="" />
+																				</div>
+									</div>
+								</div>
+						    								<div role="tabpanel" class="tab-pane fade in otherTabs" id="reports">
+									<div class="row inbox">
+										<div class="col-xs-12 col-md-12 clearfix">
+											<h2 class="futura-md">Easy access to the system&#039;s data</h2>
+											<p>On the Reports tab, managers can search, filter, and review submitted forms.</p>
+										</div>
+										<div class="col-xs-12 col-md-10 clearfix panel-stack-tabs">
+																					<img class="tabs-images" src="//medicmobile.org/img/platform/2018-product-screens/Nurse-Reports.png" alt="" />
+																				</div>
+									</div>
+								</div>
+						    								<div role="tabpanel" class="tab-pane fade in otherTabs" id="activity">
+									<div class="row inbox">
+										<div class="col-xs-12 col-md-12 clearfix">
+											<h2 class="futura-md">View of activity in the health system</h2>
+											<p>Regional, national, and global managers can monitor trends for activity and submission rates.</p>
+										</div>
+										<div class="col-xs-12 col-md-10 clearfix panel-stack-tabs">
+																					<img class="tabs-images" src="//medicmobile.org/img/platform/managers-activity.jpg" alt="" />
+																				</div>
+									</div>
+								</div>
+						    								<div role="tabpanel" class="tab-pane fade in otherTabs" id="impact">
+									<div class="row inbox">
+										<div class="col-xs-12 col-md-12 clearfix">
+											<h2 class="futura-md">A new level of visibility for impact metrics</h2>
+											<p>Regional, national, and global managers can monitor trends for interim impact metrics and key impact metrics.</p>
+										</div>
+										<div class="col-xs-12 col-md-10 clearfix panel-stack-tabs">
+																					<img class="tabs-images" src="//medicmobile.org/img/platform/managers-impact.jpg" alt="" />
+																				</div>
+									</div>
+								</div>
+						    													</div>
+					</div>
+				</section>
+			</div>
+
+			
+		<div class="panel-wrapper">
+			<section class="cta">		
+				<a class="btn btn-partner btn-cta col-xs-12 col-sm-4 col-md-4 mm-yellow" href="https://medicmobile.org/deploy-the-tools"><h4 class="demo futura-md text-uppercase">Deploy the Tools</h4></a>
+			</section>
+		</div>
+
+	</section>
+</div>
+	
+<!--//////// footer //////////--> #}
+		<div id="footer-wrapper">
+			<a class="btn btn-footer-up scroll-top mm-steal-dk" href="#top"><img src="/assets/arrow-up.png" alt="" /></a>
+			
+			<footer>
+				<div class="footer-contact col-xs-12 col-sm-3 col-md-3">
+				<h1 class="text-uppercase">Contact</h1>
+				<p>3254 19th Street, Floor Two<br />San Francisco, CA 94110<br />+1(415) 746-9758 </p>
+				<a class="btn btn-footer-message col-xs-12 col-md-12 mm-yellow" href="https://medicmobile.org/contact"><h4 class="futura-md text-uppercase">Send a message</h4></a>
+				</div>
+				
+				<div class="footer-join col-xs-12 col-sm-3 col-md-3">
+				<h1 class="text-uppercase">Careers</h1>
+				<p>Medic Mobile is growing and we’re hiring great people.</p>
+				<a class="btn btn-footer-message col-xs-12 col-md-12 mm-teal" href="https://medicmobile.org/careers"><h4 class="futura-md text-uppercase">VIEW JOBS</h4></a>
+				</div>
+				
+				<div class="footer-news col-xs-12 col-sm-3 col-md-3">
+					<h1 class="text-uppercase">News</h1>
+					<p>Stay up to date on the latest mHealth news and sign up for our newsletter.</p>
+
+					<div class="form-group">
+						  
+							<!-- Begin MailChimp Signup Form -->
+							  <div id="mc_embed_signup"> 
+								<form action="//medicmobile.us8.list-manage.com/subscribe/post?u=e5b07d2afb4b273eaff8e3c53&amp;id=6f368ee7ca" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+
+									<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+										<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+										<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e5b07d2afb4b273eaff8e3c53_6f368ee7ca" tabindex="-1" value=""></div>
+										<div class="clear"><input type="submit" value="SEND" name="subscribe" id="mc-embedded-subscribe" class="button col-xs-12 col-md-12 mm-blue futura-md"></div>
+								</form>
+								</div>
+							<!--End mc_embed_signup-->
+					</div>
+					<!-- end from group -->
+
+				</div>
+								
+				<div class="footer-connect col-xs-12 col-sm-3 col-md-3">
+				<h1 class="text-uppercase">Connect</h1>
+				<a class="btn btn-footer-social mm-steal-dk" href="https://twitter.com/medic" target="blank"><img src="/assets/twitter-lt-grey.png" alt="" /></a>
+				<a class="btn btn-footer-social mm-steal-dk" href="https://www.facebook.com/MedicMobile" target="blank"><img src="/assets/fb-lt-grey.png" alt="" /></a>
+				<a class="btn btn-footer-social mm-steal-dk" href="https://www.youtube.com/channel/UC0ottwy7ZoKRAxK_GnnZnOg" target="blank"><img src="/assets/youtube-lt-grey.png" alt="" /></a>
+				<a data-custom data-custom-amounts='10,20,30,70,100,200,1000' class='commitchange-donate btn btn-footer-connect col-xs-12 col-md-12 mm-orange'><h4 class="futura-md  text-uppercase">Donate</h4></a>
+				</div>
+			</footer>
+			<div class="mission">
+				
+				<h2><img src="/assets/medic-mobile-logo-100-white.png" alt="" />We design, deliver, and support world-class software for health workers providing care in the hardest-to-reach communities.</h2>
+				<h5>© 2019 Medic Mobile is a 501(c)(3) non profit. . All Rights Reserved.</h5>
+			</div>
+		
+		</div>
+		  
+
+</div>
+ 
+
+					
+		<div class="modal fade modal-bio" id="https://communityhealthtoolkit.org/" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog modal-bio">
+		    <div class="modal-content modal-bio">
+		      <div class="modal-header modal-header-partner">
+			      	<section class="modal-diy border-bottom">
+			        <h1 class="text-centered text-uppercase">Sign up for a demo of our mobile app</h1>
+			        </section>
+		        <button type="button" class="btn btn-default mm-btngrey close-bio" data-dismiss="modal">X</button>
+		      </div>
+
+		    	<div class="modal-body">
+
+					      
+		       
+		    	</div>
+		    </div>
+		  </div>
+		</div> 
+
+
+
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+		<script id='commitchange-donation-script' data-npo-id='3744' src='//commitchange.com/js/donate-button.v2.js'></script>
+        
+		<script src="/cache/cached.a01f4d9929d2805bf23e78f29eb35e58.js"></script>
+
+			<script>
+			(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+			function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+			e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+			e.src='//www.google-analytics.com/analytics.js';
+			r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+			ga('create','UA-48460132-1');ga('send','pageview');
+		</script>
+	<script type="text/javascript">
+/*<![CDATA[*/
+;
+/*]]>*/
+</script></body>
+</html>

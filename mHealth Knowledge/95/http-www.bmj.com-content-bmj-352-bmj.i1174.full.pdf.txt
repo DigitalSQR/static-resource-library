@@ -1,0 +1,649 @@
+RESEARCH MEtHodS And REpoRting
+Guidelines for reporting of health interventions using mobile 
+phones: mobile health (mHealth) evidence reporting and 
+assessment (mERA) checklist
+Smisha Agarwal,1,2,3 Amnesty E LeFevre,1,2 Jaime Lee,1,2 Kelly L’Engle,4,5 Garrett Mehl,6  
+Chaitali Sinha,7 Alain Labrique1,2 for the WHO mHealth Technical Evidence Review Group
+1Johns Hopkins Bloomberg School To improve the completeness of Mobile technologies have the potential to bridge sys-
+of Public Health, Department of temic gaps needed to improve access to and use of 
+International Health, Baltimore, reporting of mobile health (mHealth) 
+MD 21205, USA health services, particularly among underserved popu-
+2 interventions, the WHO mHealth Johns Hopkins University, Global lations. mHealth—defined as the use of mobile and 
+mHealth Initiative, Baltimore Technical Evidence Review Group wireless technologies for health—aims to capitalise on 
+3Gillings School of Global Public the rapid uptake of information and communication 
+Health, University of North developed the mHealth evidence technologies (ICT) to improve health system efficiency 
+Carolina, Chapel Hill, NC, USA reporting and assessment (mERA) 
+4 and health outcomes. Over the past decade, global Family Health International 
+360, Durham, NC, USA checklist. The development process for enthusiasm and the interest of development agencies, 
+5School of Nursing and Health mERA consisted of convening an expert researchers, and policy makers have led to the rapid 
+Professions, University of San proliferation of mHealth solutions throughout devel-
+Francisco, San Francisco, CA, USA group to recommend an appropriate oped and developing countries. The World Bank 
+6World Health Organization, 
+Department of Reproductive approach, convening a global expert reported that there were more than 500 mHealth proj-
+Health and Research, Geneva, review panel for checklist development, ects in 2011 alone.1  Despite the emergence of hundreds 
+Switzerland of mHealth studies and initiatives, there remains a lack 
+7International Development and pilot testing the checklist. The of rigorous, high quality evidence on the efficacy and 
+Research Centre, Ottawa, Canada guiding principle for the development effectiveness of such interventions.2 3  The current 
+Correspondence to:  
+A Labrique alabriq1@jhu.edu of these criteria was to identify a mHealth evidence is disseminated in multiple forms 
+Additional material is published 
+online only. To view please visit minimum set of information needed to 
+including peer reviewed literature, white papers, 
+reports, presentations, and blogs. The evidence base is 
+the journal online. define what the mHealth intervention is heterogenous in quality, completeness, and objectivity 
+Cite this as: BMJ 2016;352:i1174 (content), where it is being of the reporting of mHealth interventions—thus making http://dx.doi.org/10.1136/bmj.i1174
+implemented (context), and how it was comparisons across intervention strategies difficult. Accepted: 09 February 2016 This has led to a call for a set of standards that can har-
+implemented (technical features), to monise and improve the quality of future research pub-
+support replication of the intervention. lications, to facilitate screening of emerging evidence 
+This paper presents the resulting 16 and identification of critical evidence gaps. Such improvements in reporting of evidence can support pol-
+item checklist and a detailed icy makers in making decisions around mHealth inter-
+explanation and elaboration for each vention selection.4
+item, with illustrative reporting The value of standardised guidelines is well accepted and several tools exist to assess the quality and to stan-
+examples. Through widespread dardise the reporting of scientific evidence. For exam-
+adoption, we expect that the use of ple, the grading of recommendations assessment, 
+these guidelines will standardise the development, and evaluation (GRADE) approach rates the quality of evidence and the strength of recommen-
+quality of mHealth evidence reporting, dations, and is routinely used by international organi-
+and indirectly improve the quality of sations such as the World Health Organization and 
+mHealth evidence. Cochrane Collaboration.
+5  In other fields, the consoli-
+dated health economic evaluation reporting standards 
+(CHEERS) statement provides reporting guidance for 
+Summary pointS economic evaluations.6  Other tools have also been 
+To improve the reporting of mobile health (mHealth) interventions, the WHO developed to standardise the reporting of systematic 
+mHealth Technical Evidence Review Group developed a checklist on mHealth reviews and meta-analyses (eg, preferred reporting of 
+evidence reporting and assessment (mERA) systematic reviews and meta-analyses (PRISMA)),7  and 
+The checklist aims to identify a minimum set of information needed to define what the assess their methodological quality or reliability (eg, 
+mHealth intervention is (content), where it is being implemented (context), and how it assessing methodological quality of systematic reviews 8
+was implemented (technical features), to support replication of the intervention (AMSTAR)).   The consolidated standards for reporting 
+trials (CONSORT) statement provides a 22 item checklist 
+Through widespread adoption, these guidelines should standardise the quality of for reporting of randomised controlled trials.9  Other 
+mHealth evidence reporting, and indirectly improve the quality of mHealth  evidence evidence reporting and synthesis approaches exist for 
+the bmj | BMJ 2016;352:i1174 | doi: 10.1136/bmj.i1174 1
+BMJ: first published as 10.1136/bmj.i1174 on 17 March 2016. Downloaded from http://www.bmj.com/ on 19 September 2019 by guest. Protected by copyright.
+RESEARCH MEtHodS And REpoRting
+meta-analyses of observational studies (eg, meta-anal- global public health moves at a slower pace, beginning 
+yses and systematic reviews of observational studies with formative research, followed by measuring efficacy, 
+(MOOSE)),10  non-randomised designs (eg, transparent and then effectiveness. Each of these evaluation steps 
+reporting of evaluations with non-randomised designs might require considerable resources and take long peri-
+(TREND)),11  and observational studies (strengthening ods of time to implement and ultimately, publish. The 
+the reporting of observational studies in epidemiology concise nature of peer reviewed literature also limits the 
+(STROBE)).12  CONSORT-EHEALTH aims to provide guid- reporting of technical details which describe the nature 
+ance on reporting of trials involving web based inter- of what the mHealth intervention is; constraining efforts 
+ventions (eHealth) and mHealth.13 to effectively synthesise research on a particular inter-
+Although CONSORT-EHEALTH is aimed at web based vention or technical strategy.
+intervention trials, several mHealth interventions, espe- To address this gap, WHO convened a group of global 
+cially in low and middle income countries, do not have an experts working at the intersection of mHealth research 
+active web based component. Additionally, web based and programme implementation, called the mHealth 
+interventions do not necessarily have a mobile compo- Technical Evidence Review Group (mTERG). mTERG 
+nent (that is, use of a mobile phone or tablet). Lastly, identified the need for a tool that provides guidelines 
+given that the field of mHealth is still in its early stages, for the reporting of evidence on the effectiveness of 
+evaluations of such mHealth interventions typically use mHealth interventions. The group recognised that the 
+more descriptive and observational study designs in addi- evaluation and reporting of mHealth and ICT interven-
+tion to randomised trials. These existing tools (including tions requires a unique lens, blending a combination of 
+CONSORT-EHEALTH) are study design specific and focus study designs and methods, as well as reporting that 
+on methodological rigour. They do not provide recom- incorporates the description of the intervention and the 
+mendations for the reporting of technical details, feasibil- context in which the intervention is implemented. The 
+ity, and sustainability of the intervention strategies, proposed mHealth Evidence Reporting and Assessment 
+which further adds to the challenge of comparing digital (mERA) checklist resulted from a series of consultations 
+strategies. The template for intervention description and with the mTERG. This paper describes the scope, devel-
+replication (TIDieR) checklist fills this gap by providing a opment process, and components of mERA.
+guide to the reporting of interventions.14 However, no 
+reporting guidelines exist that capture the priority mEra checklist development
+descriptors needed to adequately understand and poten- The development of mERA followed strategies for the 
+tially replicate ICT interventions for health. development of reporting guidelines, as outlined by 
+The quality of reporting on evidence on mHealth Moher and colleagues.15  The development process com-
+interventions has been varied. This is likely attributable prised three main steps (fig 1): convening an expert 
+to two factors: the multidisciplinary nature of mHealth, working group (WHO commissioned the Johns Hopkins 
+which combines different approaches from the fields of Global mHealth Initiative (JHU-GmI) to develop an 
+healthcare and technology, and the rapid pace of tech- approach for the mERA guideline), convening a global 
+nology development, which often outpaces our ability expert review panel for checklist development, and 
+to generate and disseminate quality evidence. In the pilot testing the checklist.
+technology space, prototypes are usually assessed by 
+proof of concept or demonstration studies with fast Developing an approach
+turnaround time for modification. These results are JHU-GmI is a multidisciplinary consortium of technical 
+generally disseminated rapidly in the grey literature, and research experts with global experience in develop-
+through white papers, conference papers, p resentations, ing and researching mHealth interventions. In October 
+and blogs. By contrast, research and dissemination in 2012, WHO convened a working group of JHU-GmI 
+Developing an approach for mERA
+WHO convened a panel of experts from JHU-GmI Initial components of the mHealth criteria developed
+to dra an approach for criteria development on on the basis of a systematic review of mHealth literature
+reporting of evidence for mobile based interventions and follow-up discussions with JHU-GmI experts
+Refining and finalising the mERA tool
+Checklist items discussed at length among a group of 18 experts Five member QoI taskforce pilot tested the checklist on a mix
+in a three day WHO meeting in Montreaux, Switzerland of peer reviewed and grey literature to come to consensus
+A quality of information (QoI) taskforce was set up on a nal list of checklist items and their denitions
+Pilot testing the mERA checklist
+Complete checklist applied to 10 English language, Three independent academic research groups applied mERA to
+peer reviewed and grey literature articles in the mobile literature across three topic areas of mobile health: management
+health space by epidemiology graduate students of stock outs, promotion of provider adherence to protocols,
+Denitions and explanations for items with low and promotion of adolescent sexual and reproductive health
+inter-rater agreement were discussed and claried Criteria and denitions modied aer review
+Fig 1 | Development process for the mERA checklist
+2 doi: 10.1136/bmj.i1174 | BMJ 2016;352:i1174 | the bmj
+BMJ: first published as 10.1136/bmj.i1174 on 17 March 2016. Downloaded from http://www.bmj.com/ on 19 September 2019 by guest. Protected by copyright.
+RESEARCH MEtHodS And REpoRting
+experts to review existing reporting guidelines, deter-  applicability of each criterion to a range of existing 
+mine their applicability to mHealth evidence, and articu- mHealth literature and to assess whether the criteria 
+late the relevance of additional guidelines, if appropriate. were understood consistently by a diverse group of 
+Based on a detailed review of existing guidelines, the users. The documents that were assessed comprised a 
+working group recommended that the reporting items in mix of peer reviewed and grey literature, and included 
+the existing guidelines needed augmenting for relevance qualitative studies, formative assessments, observa-
+and application to the mHealth literature. The JHU-GmI tional studies, and randomised controlled trials. Six 
+working group recommended that guidelines for graduate students with training in epidemiology and 
+mHealth evidence should comprise two key components: experience working in mHealth participated in this 
+a checklist to enable adequate classification and replica- exercise. Each reviewer was asked to read and apply the 
+tion of the mHealth intervention being reported; and a criteria to evaluate the reporting quality of the selected 
+checklist to assess the methodological rigour of the study documents. The percentage of overall agreement 
+design used to evaluate the intervention, appropriate to between reviewers and κ statistic were calculated for 
+the stage of the innovation. each criterion. Specific criteria that had less than a 50% 
+An initial draft of the checklist for reporting on the inter-rater agreement for three or more papers, or less 
+technical aspects of the mHealth interventions was than 50% inter-rater agreement in one paper and less 
+developed on the basis of a systematic review of than 75% agreement for two or more papers. The word-
+mHealth literature. Once drafted, these compiled crite- ing of these criteria were discussed and revised on the 
+ria were vetted through interviews with mHealth basis of feedback from the reviewers and in collabora-
+research and implementation experts. The guiding tion with the QoI taskforce. A detailed codebook guide-
+principle for the development of these criteria was to line document was developed for the final list of mERA 
+identify a minimum set of information critical to defin- criteria with relevant examples from the literature
+ing what the mHealth intervention is (content), where it To continue the testing and refinement of these 
+is being implemented (context), and how it was imple- guidelines, in 2014, the WHO Department of Reproduc-
+mented (technical features), to ensure that a reader tive Health and Research and mTERG supported the 
+would be able to replicate the intervention. Web appen- application of the mERA tool by independent research 
+dix 1 briefly describes the development of the method- groups to three topic areas. These included the applica-
+ological checklist. tion of mERA to conduct evidence reviews on the use of 
+mobile strategies for:
+Expert review •	 Management of stockouts of essential maternal and 
+In December 2012, WHO convened a three day meeting child health drugs
+for mTERG with 18 global mHealth experts in Montreux, •	 Promotion of adherence to treatment regimens by 
+Switzerland. Experts consisted of academic researchers, healthcare providers
+implementation specialists, technologists, government •	 Promotion of adolescent sexual and reproductive 
+decision makers, and representatives of several WHO health.
+departments and research programmes. At this meeting, These topics were selected in part to represent mHealth 
+the background, rationale for the development of the interventions at all levels of health service delivery, 
+mERA criteria, and a draft of the criteria were presented. including at the health system level, at the provider 
+The approach was subjected to intensive analysis, com- level, and for behaviour change communication at the 
+ment, and recommendations for improvement. After client level. The objective of this exercise was to con-
+incorporation of this feedback, a WHO mTERG quality of duct a systematic review of the evidence in these topic 
+information (QoI) taskforce was established to finalise areas (drawing from published and non-peer reviewed 
+the tool for pilot testing. The QoI taskforce comprised five sources), assess the quality of evidence reporting by 
+members with technical expertise spanning varied applying the mERA guidelines, and to further test and 
+health domains and research perspectives. The taskforce refine the mERA guidelines. The application of mERA to 
+applied the mERA checklist to a sampling of literature, each area resulted in some refinements and adaptations 
+including peer reviewed and grey literature. Assessment of the criteria. Web appendix 2 presents the results from 
+scores and feedback from the taskforce were compiled the first two applications. The last application to ado-
+and discussed over several video conference meetings in lescent sexual and reproductive health will be submit-
+which members discussed the value of individual items ted for peer review as a separate manuscript. Lastly, two 
+and the definitions distinguishing them. Through these additional criteria were added to the core items to 
+discussions, checklist items were refined and a final list ensure compliance with TIDIEeR checklist, and on the 
+of criteria was agreed on. At the end of this three month recommendation of journal reviewers.
+review process, taskforce members finalised the list of 
+criteria with explanations and definitions for each crite- Scope of the mEra checklist and guide for reporting 
+rion, providing sufficient detail to facilitate understand- mobile based health interventions
+ing and application of the tool in a consistent manner. mERA was developed as a checklist of items which 
+could be applied by authors developing manuscripts 
+Pilot testing criteria that aim to report on the effectiveness of mHealth inter-
+After the expert panel review, the mERA checklist was ventions and by peer reviewers and journal editors 
+applied to 10 English language reports to test the reviewing such evidence. mERA aims to provide 
+the bmj | BMJ 2016;352:i1174 | doi: 10.1136/bmj.i1174 3
+BMJ: first published as 10.1136/bmj.i1174 on 17 March 2016. Downloaded from http://www.bmj.com/ on 19 September 2019 by guest. Protected by copyright.
+RESEARCH MEtHodS And REpoRting
+ guidance for complete and transparent reporting on implementation fidelity evaluations are paramount), is 
+studies evaluating and reporting on the feasibility and accommodated in the mERA checklist.
+effectiveness of mHealth interventions. The checklist 
+does not aim to support the design or implementation mEra components and use in conjunction with other 
+of such studies, or to evaluate the quality of the research guidelines
+methods used. Rather, it is intended to improve trans- mERA is a checklist consisting of 16 items focused on 
+parency in reporting, promote a critical assessment of reporting on mHealth interventions (table 1). In addition to 
+mHealth research evidence, and help improve the these criteria, web appendix 1 presents 29 items for report-
+rigour of future reporting of research findings. ing on study design and methods. As far as possible, the 16 
+mERA was developed to reflect the stages of develop- core mERA items should be used in conjunction with 
+ment of mHealth interventions and accompanying appropriate checklists for study design, such as CONSORT 
+research. mHealth interventions typically start at the for randomised trials and STROBE for observational stud-
+stage of gathering functional requirements and develop- ies. General methodology criteria presented in web appen-
+ing and testing the technology. The accompanying eval- dix 1 were developed based on the extant checklists, to 
+uation studies aim to assess the feasibility of the specifically guide methodological reporting of mHealth 
+intervention and are often descriptive or observational. evidence, which has largely used exploratory study 
+After this pilot stage, more robust study designs are used designs so far. We present this checklist in web appendix 1 
+to assess the effect of the intervention. To highlight the as guidance for authors who might be unfamiliar with 
+importance of reporting results on the assessment of extant checklists specific to study design. This is to point 
+both the technical platform and core intervention, out important aspects of the research design and imple-
+mERA includes technical specification criteria deemed mentation that should be reported, at a minimum, to 
+necessary for complete reporting of a mHealth interven- allow research to undergo synthesis and meta-analysis. 
+tion. The maturity of the mHealth intervention, from We however, reiterate here, the importance of following 
+prototyping (defined by feasibility and acceptability published and accepted global guidelines for the report-
+ outcomes) to scaled deployment (where effect and ing of research, by research design or method.
+Table 1 | mHealth evidence reporting and assessment (mERA) guidelines, including mHealth essential criteria
+Item Page no where 
+Criteria no Notes item is reported
+Infrastructure 1 Clearly presents the availability of infrastructure to support technology operations in the study location. This refers to 
+(population level) physical infrastructure such as electricity, access to power, connectivity etc. in the local context. Reporting X% network 
+coverage rate in the country is insufficient if the study is not being conducted at the country level
+Technologyplatform 2 Describes and provides justification for the technology architecture. This includes a description of software and 
+hardware and details of any modifications made to publicly available software
+Interoperability/ 3 Describes how mHealth intervention can integrate into existing health information systems. Refers to whether the 
+Health information potential of technical and structural integration into existing HIS or programme has been described irrespective of 
+systems (HIS) context whether such integration has been achieved by the existing system
+Intervention delivery 4 The delivery of the mHealth intervention is clearly described. This should include frequency of mobile communication, 
+mode of delivery of intervention (that is, SMS, face to face, interactive voice response), timing and duration over which 
+delivery occurred
+Intervention content 5 Details of the content of the intervention are described. Source and any modifications of the intervention content is 
+described
+Usability/content 6 Describe formative research and/or content and/or usability testing with target group(s) clearly identified, as appropriate
+testing
+User feedback 7 Describes user feedback about the intervention or user satisfaction with the intervention. User feedback could include 
+user opinions about content or user interface, their perceptions about usability, access, connectivity, etc
+Access of individual 8 Mentions barriers or facilitators to the adoption of the intervention among study participants. Relates to individual-level 
+participants structural, economic and social barriers or facilitators to access such as affordability, and other factors that may limit a 
+user’s ability to adopt the intervention
+Cost assessment 9 Presents basic costs assessment of the mHealth intervention from varying perspectives. This criterion broadly refers to 
+the reporting of some cost considerations for the mHealth intervention in lieu of a full economic analysis. If a formal 
+economic evaluation has been undertaken, it should be mentioned with appropriate references. Separate reporting 
+criterion are available to guide economic reporting
+Adoption inputs/ 10 Describes how people are informed about the programme including training, if relevant. Includes description of 
+programme entry promotional activities and/or training required to implement the mHealth solution among the user population of interest
+Limitations for 11 Clearly presents mHealth solution limitations for delivery at scale
+delivery at scale
+Contextual 12 Describes the adaptation, or not, of the solution to a different language, different population or context. Any tailoring or 
+adaptability modification of the intervention that resulted from pilot testing/usability assessment is described
+Replicability 13 Detailed intervention to support replicability. Clearly presents the source code/screenshots/ flowcharts of the 
+algorithms or examples of messages to support replicability of the mHealth solution in another setting
+Data security 14 Describes the data security procedures/ confidentiality protocols
+Compliance with 15 Mechanism used to assure that content or other guidance/information provided by the intervention is in alignment with 
+national guidelines existing national/regulatory guidelines and is described
+or regulatory statutes
+Fidelity of the 16 Was the intervention delivered as planned? Describe the strategies employed to assess the fidelity of the intervention. 
+intervention This may include assessment of participant engagement, use of backend data to track message delivery and other 
+technological challenges in the delivery of the intervention
+4 doi: 10.1136/bmj.i1174 | BMJ 2016;352:i1174 | the bmj
+BMJ: first published as 10.1136/bmj.i1174 on 17 March 2016. Downloaded from http://www.bmj.com/ on 19 September 2019 by guest. Protected by copyright.
+RESEARCH MEtHodS And REpoRting
+Explanation and elaboration If the software used is a publicly available system (eg, 
+Table 1 presents the mERA core items. The rationale for Open Data Kit, CommCare) it should be explicitly men-
+inclusion and explanation of each item is given listed tioned, together with the modifications or c onfiguration. 
+with examples of good reporting. Links to the code should be provided, if publicly avail-
+able. If the application or system has been custom 
+Item 1—Infrastructure: describe, in detail, the coded for the programme and is open source, the link to 
+necessary infrastructure which was required to the public repository where the code is housed would 
+enable the operation of the mHealth programme be useful to researchers attempting to replicate the 
+Example authors’ work. Similarly, the hardware choices made 
+should be described with detail akin to that in item 1. 
+“The rapid increase of teledensity, from under This allows future programme implementers to under-
+3% in 2002 to 33.5% in 2010, combined with a stand the minimum technical functionality required for 
+total adult literacy rate of 75% (2008), allowed the software performance of replicate deployments to 
+this mHealth intervention to reach a large be similar in nature to the programme being reported. 
+population.”16 For example, details on modifications such as whether 
+the devices were functionally locked down to limit use 
+Explanation of non-study applications should be reported.
+Have the authors clearly described the necessary infra-
+structure required to support technology operations in Item 3—Interoperability: describe how, if at all, the 
+the study location? This refers to physical infrastruc- mHealth strategy connects to and interacts with 
+ture including electricity, access to power, and connec- national or regional Health Information Systems 
+tivity in the local context. Reporting rates should (HIS)/programme context
+ideally correspond to the context in which programme Example
+implementation occurred. Where only national level 
+data are available, limitations in data should be noted “Text messages were sent using a custom-
+and the anticipated contextual variations discussed. ized text-messaging platform integrated with 
+Reporting of the minimum infrastructure support the institution's immunization information 
+requirements facilitates improved understanding of system.”18
+the feasibility, generalisability, and replicability of the 
+innovation in other contexts within and across coun- Explanation
+tries. When this information is unreported, it is difficult Clarity of the fit within the existing HIS, either national 
+to ascertain whether an mHealth strategy or specific or of the host organisation, is important to understand-
+technology might be transplantable into a different ing how the mHealth strategy adds to the existing work-
+population, where infrastructure might be inferior to flows, improves on existing processes, or complements 
+the location where the reported programme was con- existing programmes. Many mHealth projects have 
+ducted. Understanding these are dynamic conditions, been criticised for existing in a silos, independent of 
+the authors should strive to describe the minimum existing efforts to create organisational or national HIS 
+enabling infrastructure required for programme imple- architectures or to integrate with existing health promo-
+mentation. tion programmes.19 Simple descriptions of specific data 
+standards being used (eg, HL7, OpenMRS CIEL (Colum-
+Item 2—Technology platform: describe, in sufficient bia International eHealth Laboratory) concept dictio-
+detail to allow replication of the work, the software nary, ICD-9/10 (international classification of diseases, 
+and hardware combinations used in the programme 9th and 10th revisions)), can provide some basis to 
+implementation gauge a programme’s interoperability readiness. These 
+Examples descriptions can also help to understand whether the 
+activity is a limited scale pilot project, or a strategy 
+“RapidSMS® is an open source SMS applica- being built for national scale-up. The degree to which a 
+tion platform written in Python and Django. programme might already be integrated into a national 
+The SMS-based project was developed to track or organisational system may also be reported, explain-
+the pregnancy lifecycle . . . alerting health facil- ing how data elements contribute to aggregate report-
+ities, hospital and ambulances.”17 ing through systems such as District Health Information 
+Systems (DHIS).
+Explanation
+Have the authors explained the choices of software and Item 4—Intervention delivery: elaborate the mode, 
+hardware used in the deployment of the described frequency, and intensity of the mHealth intervention
+mHealth intervention? Clear communication of the Example
+technology used in the programme is critical to allow 
+the contextualisation of the authors’ work among other “Parents of children and adolescents in the 
+innovations. Without this information, it is difficult to intervention -group received a series of 5 
+group projects which have taken identical (or similar) weekly, automated text message influenza vac-
+approaches to resolving health system constraints. cine reminders.”20
+the bmj | BMJ 2016;352:i1174 | doi: 10.1136/bmj.i1174 5
+BMJ: first published as 10.1136/bmj.i1174 on 17 March 2016. Downloaded from http://www.bmj.com/ on 19 September 2019 by guest. Protected by copyright.
+RESEARCH MEtHodS And REpoRting
+Explanation Explanation
+Often, in reporting the mHealth innovation, authors omit Given the limitations in space in most peer reviewed 
+important details around the specific exposure that par- journals, this important element of a carefully devel-
+ticipants undergo. Firstly, the channels used to provide oped mHealth innovation is given short shrift. Often, 
+information or engage with the client should be separate manuscripts or documents can exist describ-
+described (eg, SMS, voice message, USSD (unstructured ing the formative research undertaken to capture user 
+supplementary service data)) because this choice may needs, define system constraints, map user workflows, 
+explain operational variability across similar deploy- and adapt communication content and the technical 
+ments. Parameters such as the intensity and frequency of solutions to meet the local context. If this is the case, 
+interactions, duration of engagement, and time of day (if clear reference to where such detail can be found is use-
+relevant) should be described. For example, with a text ful to many readers attempting to either contextualise 
+message intervention to stimulate behaviour change, or replicate the work. The definition and recruitment of 
+how was the message curriculum structured, timed, and end-users should be clearly explained, together with a 
+delivered? Was attention paid to the time of day? Were brief overview of the depth and breadth of formative 
+there limits placed on the number of messages sent in a work undertaken to engage end-users in the develop-
+given week, with concerns about information saturation? ment of the system. Conversely, if end-users were not 
+Were choices between modes of delivery offered to cli- involved, this, too, should be explicitly mentioned.
+ents (eg, interactive voice response instead of text mes-
+sages)? For what total duration were the messages sent? Item 7—User feedback: describe user feedback 
+about the intervention or user satisfaction with the 
+Item 5—Intervention content: describe how the intervention
+content was developed/identified and customised Example
+Example
+“Most telephone respondents reported that the 
+“Best practices for health communication pro- platform was easy to use and simple, and appre-
+grams were used to systematically develop ciated the ability to obtain health information 
+the family planning text messages which are via mobile phone.”23
+largely based on the WHO Family Planning 
+Handbook. The m4RH system is provided in the Explanation
+language Swahili and offers information about Has user response to the mHealth programme been 
+side effects, method effectiveness, duration of assessed, and acceptance verified? This information is 
+use and ability to return to fertility.”21 key for documenting the likelihood of adoption of the 
+intervention among end-users. Despite the importance 
+Explanation of end-user feedback in informing mHealth programme 
+We recommend that the source of any informational design and influencing success, mHealth interventions 
+content (eg, behaviour recommendations, decision are sometimes developed without sufficient audience or 
+support guidelines, drug or referral recommendations, end-user feedback. User feedback could include user 
+global or national technical guidelines) be mentioned opinions about the content or user interface; or percep-
+clearly, together with any specific adaptation that may tions about usability, access, connectivity, or other ele-
+have been done to localise the content for the particular ments of the mHealth programme. User feedback 
+project. If new content was created, the process of should inform the reader’s understanding of how and 
+enlisting qualified experts and the development, vali- why the mHealth programme is expected to succeed, as 
+dation, and testing of novel content should be well as challenges that may be encountered in pro-
+described. If information content is drawn from a pub- gramme implementation and replication.
+licly available resource, or newly developed content is 
+being made publicly available, external links to this Item 8—Access of individual participants: mention 
+database should be provided. barriers or facilitators to the adoption of the 
+intervention among study participants
+Item 6—Usability testing: describe how the Example
+end-users of the system engaged in the 
+development of the intervention “It is possible that this intervention is less effec-
+Example tive among certain subpopulations that may be 
+considered harder to reach (i.e., males, those 
+“Designing the system began with formative with a lower level of education and those who 
+research with overweight men and women to do not regularly attend health services)”24
+solicit feedback about dietary behaviours, cur-
+rent mobile phone and text and picture message Explanation
+habits, the type and frequency of text and pic- Have the authors considered who the mHealth programme 
+ture messages helpful for weight loss, and nutri- will work for and who will be challenged to access it? With 
+tion-related topic areas that should be included this in mind, some population subgroups might be more 
+in a weight loss program.”22 or less likely to adopt the mHealth tool. As with all modes 
+6 doi: 10.1136/bmj.i1174 | BMJ 2016;352:i1174 | the bmj
+BMJ: first published as 10.1136/bmj.i1174 on 17 March 2016. Downloaded from http://www.bmj.com/ on 19 September 2019 by guest. Protected by copyright.
+RESEARCH MEtHodS And REpoRting
+of delivering health interventions, limitations of access mHealth interventions typically require the health pro-
+among certain subgroups is likely and therefore should be vider or client end-users to have a level of understand-
+candidly considered in the peer reviewed report. Chal- ing of the scenarios of use and the competence to be 
+lenges to access could relate to socioeconomic status, geo- able to appropriately use the intervention. Have the 
+graphical location, education and literacy, gender norms authors provided a description of the instructional 
+that limit access to resources and information, as well as approaches deployed for end-users of the mHealth 
+other demographic and sociocultural factors. Discussion intervention, or justification for their exclusion? 
+of potential limitations in access will help the reader to Authors should ensure that the details of these inputs 
+make an informed assessment of whether the mHealth are described. For health workers, these factors include 
+programme is appropriate for other target groups. validity of instruction approach used, competency of 
+instructors, validation of instructional materials, num-
+Item 9—Cost assessment: present basic costs of the bers of participants per session, number and length of 
+mHealth intervention instruction, use of user guides and competency assess-
+Example ment tools. For clients, these factors include details on 
+how clients are informed about the programme and any 
+“Health workers in Salima and Nkhotakota with promotional approaches used, instructional user guide 
+no access to the SMS program tend to spend an materials or training, length and periodicity of training, 
+average of 1,445 minutes (24 hours) to report and and competency assessment tools used. If instructional 
+receive feedback on issues raised to their super- materials are available publicly, details should be pro-
+visor at an average cost of USD $2.70 (K405.16) vided for access.
+per contact, and an average contact frequency of 
+4 times per month.”25 Item 11—Limitations for delivery at scale: present 
+expected challenges for scaling up the intervention
+Explanation Example
+Economic evaluations provide critical evidence on the 
+value for money of a particular mHealth solution and “Despite our findings that the intervention 
+entail the comparison of costs and consequences for was not burdensome and was indeed well 
+two or more alternatives. Examples of these include cost accepted by health workers, sending 2 mes-
+effectiveness, cost utility, cost consequence, cost bene- sages daily for 5 days a week over 26 weeks 
+fit, or cost minimisation analyses. If an economic eval- to each health worker leaves limited space for 
+uation has been conducted, it should be reported other similar, non-malaria quality improve-
+according to the 24 item CHEERS statement.6  For evalu- ment interventions.”27
+ations of a single programme that do not have a com-
+parator and for which economic evaluations are not Explanation
+possible, we propose reporting basic information on In view of the challenges in translating findings from 
+financial costs required to design or develop, start up, pilot studies to large scale implementations, authors 
+and sustain implementation, from the perspective of should describe any limiting factors surrounding deliv-
+different users of the system over a clearly specified ery at scale. Oftentimes, pilot studies can maintain the 
+time period. Ideally, these perspectives would include fidelity of implementation and closely monitor activi-
+programme, health systems, mobile network operator, ties at a level that might not be sustained at scale. Have 
+and end-user costs. Methods for estimating resources the authors discussed the level of effort involved in the 
+and costs should be clearly defined, along with cur- implementation by different parties and considerations 
+rency, price date, and conversion.6 the constraints for further scaling the intervention? 
+This information is critical for understanding the gener-
+Item 10—Adoption inputs/programme entry: alisability of the implementation and making infer-
+describe how people are informed about the ences on its viability beyond a closely controlled and 
+programme or steps taken to support adoption defined setting.
+Example
+Item 12—Contextual adaptability: describe 
+“Training on how to use the cell phones and appropriateness of the intervention to the context, 
+on text-messaging protocol took place in 2 and any possible adaptations
+2-hour sessions on consecutive days. The first Example
+day involved training on how to use the cell 
+phone—using pictographic instructions and “Our mobile phone based survey apparatus 
+interactive exercises—which was conducted in may be particularly suited for conducting sur-
+small groups (3-6 participants) and facilitated vey research in rural areas. In surveys where 
+by a bilingual (English and Twi) proctor.”26 multiple research sites may be remote and dis-
+persed, and where vehicles have to be used to 
+Explanation travel from site to site to download data onto 
+Appropriate training, instructional materials, and com- laptops, the mobile phone based data collection 
+petency assessment may be warranted because system may be a significantly cheaper option.”28
+the bmj | BMJ 2016;352:i1174 | doi: 10.1136/bmj.i1174 7
+BMJ: first published as 10.1136/bmj.i1174 on 17 March 2016. Downloaded from http://www.bmj.com/ on 19 September 2019 by guest. Protected by copyright.
+RESEARCH MEtHodS And REpoRting
+Explanation bodies are now requiring investigators to report the 
+The mHealth intervention might have functionality that details of steps taken to secure personally identifiable 
+broadly applies to a range of settings and usage scenar- information, from identity fields to laboratory test 
+ios, and might have specific functionality that is only results. Even in settings where laws, standards, or prac-
+suited to specific needs, users, and geographical tices governing data security might be absent, research-
+ localities. Have the authors provided details of the rele- ers and programme implementers are responsible to 
+vance of the functionality of the mHealth intervention take reasonable measures to protect the privacy and 
+to the specific research context, and drawn inferences confidentiality of participant identity and health infor-
+of potential relevance and adaptability based on health mation. Data security reporting should cover measures 
+domains, user types, geographical contexts, health taken at the collection or capture of information, trans-
+needs? Have the authors described the steps necessary mission of information, through to control measures at 
+to adapt the mHealth intervention to other use cases? In receipt, storage, and access. Data sharing protocols, if 
+some cases, if a piece of software is hard coded, adapt- any, should be mentioned in this section.
+ability could be limited, costly, or time consuming. 
+Specifying limitations to the contextual adaptability of Item 15—Compliance with national guidelines or 
+the system being reported helps to clarify whether the regulatory statutes
+system being tested can be considered a potential plat- Example
+form useful for multiple future purposes, or whether the 
+system was designed specifically as a single use, proof “The research assistant programmed the mes-
+of concept. sage into the automated, web-based, and 
+HIPAA compliant Intelecare platform.”31
+Item 13—Replicability: present adequate technical 
+and content detail to support replicability Explanation
+Example If the mHealth intervention or application is being used 
+to deliver health information, provide decision support 
+“The mobile phone application, CommCare, guidance, or provide diagnostic support to health work-
+developed by Dimagi, Inc., was iteratively mod- ers, the authors should describe whether national 
+ified into Mobilize (Figure 1 - Screen shot images guidelines or other authoritative sources of information 
+of Mobilize on the mobile phones).”29 have been used to populate system content. For exam-
+ple, if the system is providing SMS based advice to 
+Explanation  pregnant women, does the information follow evi-
+The potential for an mHealth intervention to be effi- dence-informed practices and align with recommenda-
+ciently introduced to a new population is enhanced by tions of existing national or regulatory bodies? In some 
+the development and availability of standard operating jurisdictions, the provision of healthcare advice or 
+procedures of successful interventions. Have the treatment guidelines falls under specific oversight of a 
+authors provided details of the development of replica- national agency such as the United States Federal Com-
+ble processes that are being deployed in a consistent munications Commission or Food and Drug Adminis-
+manner? These may include the software source code, tration. This is especially true when the technology can 
+workflow or dashboards screenshots, flowcharts of be considered a medical device. If this determination 
+algorithms, or examples of content that is developed for has been made, and if specific regulatory oversight has 
+the end-users. If this level of detail cannot be included been sought, this should be reported.
+in the manuscript owing to space restrictions, links to 
+external resources should be provided. Item 16—Fidelity of the intervention
+Example
+Item 14—Data security: describe security and 
+confidentiality protocols “On average, users transferred data manually 
+Example (pressed the button) 0.9 times a day, where 
+the most eager user transferred data 3.6 times 
+“All survey data were encrypted, thus main- a day and the least eager none. Six of the 12 
+taining the confidentiality of responses. Com- users experienced malfunctions with the step 
+munication between the browser and the server counter during the test period—usually a lack 
+was encrypted using 128-bit SSL. System serv- of battery capacity or an internal “hang-up” in 
+ers were secured by firewalls to prevent unau- the device that needed a hard restart.”32
+thorized access and denial of service attacks, 
+while data was protected from virus threats Explanation
+using NOD32 anti-virus technology.”30 To what extent has the mHealth programme’s adher-
+ence to the intended, original deployment plan been 
+Explanation assessed? If systems have been put in place to monitor 
+A brief explanation of the hardware, software, and pro- system stability, ensure delivery (and possibly receipt) 
+cedural steps taken to minimise the risk of data loss or of messages, or measure levels of participant or end-
+data capture should be reported. Many ethical review user engagement with the system, these can generate 
+8 doi: 10.1136/bmj.i1174 | BMJ 2016;352:i1174 | the bmj
+BMJ: first published as 10.1136/bmj.i1174 on 17 March 2016. Downloaded from http://www.bmj.com/ on 19 September 2019 by guest. Protected by copyright.
+RESEARCH MEtHodS And REpoRting
+metrics of intervention fidelity. Gaps in fidelity assess- appraised and if necessary, updated. The checklist will 
+ment and reporting make it difficult to link intervention be disseminated through conducting workshops and 
+delivery to possible process or health outcomes. Fidelity presentations at the mHealth Summit, mHealth Work-
+metrics could be based on either system generated ing Group, and other global informatics forums. Addi-
+data, monitoring data, or a combination of both. tionally, the checklist will be hosted on the WHO 
+mTERG website, and the Equator website. The mERA 
+Discussion checklist will be continuously revised and versions will 
+The mERA checklist was borne from the recognition of be periodically released on the basis of feedback, com-
+a lack of adequate, systematic, and useful reporting of ments, and experiences from its use. We invite readers 
+mHealth interventions and associated research studies. to share their comments and experiences.
+The tool was developed to promote clarity and com-
+pleteness in reporting of research involving the use of Conclusion
+mobile tools in healthcare, irrespective of the format or The mERA tool aims to assist authors in reporting 
+channel of such reporting. Currently, many mHealth mHealth-research, to guide reviewers and policymakers 
+studies are descriptive, with a growing number assum- in synthesising high-quality evidence, and to guide 
+ing more rigorous experimental designs. The mERA journal editors in critically assessing the transparency 
+checklist aims to be agnostic to study design, and and completeness in reporting of mHealth studies. Like 
+applied in conjunction with the existing tools that sup- similar checklists, mERA does not function to evaluate 
+port transparent reporting of the study designs used. the quality of the research itself, but rather the report-
+Adoption of the mERA checklist by journal editors and ing quality of the research and the mHealth interven-
+authors in a standardised manner is anticipated to tion. Through widespread discussion, refinements, and 
+improve the transparency and rigour in reporting, while adoption, we expect that the use of this checklist will 
+highlighting issues of bias and generalisability, and indirectly improve the quality of mHealth evidence in 
+ultimately temper criticisms of overenthusiastic report- the literature. An increase in transparent and rigorous 
+ing in mHealth. reporting can reveal gaps in the conduct of research, 
+The mERA checklist was developed by a group of and aid in our efforts to synthesise findings. This, in 
+experts assembled as part of the WHO mTERG, reflect- turn, will improve the understanding and science of 
+ing a diversity of geographical, gender, and domain how to use and understand the effects of mHealth as a 
+expertise. Contributors outside of mTERG were field of inquiry.
+recruited through professional and academic networks; We thank the following members of the mTERG QoI taskforce group for 
+their representation could have been biased towards their contributions: Nandini Oomann, Caroline Free; the following 
+experts focused on public health interventions in low members of the JHU-GmI mERA taskforce: Larissa Jennings, Marguerite Lucea, James BonTempo, and Christian Coles; Michelle Carras, Jill 
+and middle income country programmes. Members of Murray, Tara White, Cesar Augusto, Shreya Pereira, Sean Galagan, 
+the development team leveraged their own experiences Emily Mangone, and Angela Parsecepe for applying mERA to peer 
+in working in mHealth to identify important domains reviewed articles and grey literature and for providing valuable feedback; and the reviewers of this manuscript for their insightful 
+and criteria that are inconsistently reported in the feedback.
+extant literature. The criteria presented here have been Contributors: SA, AEL, and JL led the development of an initial 
+repeatedly applied to various types of evidence to deter- approach and draft of the checklist. AL and GM led the organising of 
+mine how well they pertain to different study designs the consensus meeting held in December 2012. All coauthors participated in this meeting or follow-up meetings to finalise the 
+and reporting formats. checklist items. KL, SA, and AL led teams to test the checklist items. All 
+The group’s pragmatic and iterative process in devel- authors contributed to the drafting and revision of the paper, and 
+oping this checklist attempted to capture scientific con- reviewed and approved the final version. Members of the mTERG mERA taskforce who contributed to this manuscript include: Lavanya 
+sensus around appropriate mHealth reporting. The Vasudevan (Duke University Global Health Institute, USA), Tigest 
+intensity of the feedback and testing cycles that this Tamrat (WHO Department of Reproductive Health and Research, 
+tool went through has led to a set of criteria that is now Switzerland), Karin Kallander (Malaria Consortium Africa, Uganda), Marc Mitchell (D-Tree International, USA), Muna Abdel Aziz (Sudanese 
+fairly repeatable in its application and serves to identify Public Health Network, UK), Frederik Froen (Norwegian Institute of 
+high quality content for aggregation and synthesis. Public Health, Norway), Hermen Ormel (Royal Tropical Institute (KIT), 
+Adhering to the mERA checklist might add to the word Netherlands), Maria Muniz (UNICEF, USA), Ime Asangansi (UN Foundation, Nigeria).
+count of the manuscript. Given the word limitations on Funding: Support and funding for the development of the mERA 
+a manuscript, inclusion of all the details of the mHealth checklist was received from the WHO Department of Reproductive 
+intervention might not be possible. Therefore, the Health and Research.
+mERA checklist encourages authors to refer the reader Competing interests: All authors have completed the ICMJE uniform 
+to an external link or resource where such intervention disclosure form at www.icmje.org/coi_disclosure.pdf and declare: 
+support from the WHO Department of Reproductive Health and 
+details are available. Research for the submitted work; SA, AEL, and AL received a grant 
+This checklist represents an ambitious effort to stan- from GSMA-Mobile for Development to provide evaluation support to 
+dardise reporting of mHealth evidence. The core 16 item their 10 country mobile based nutrition programme, and from WHO to 
+provide evaluation support to their grantees working on mobile based 
+checklist aims to fill a substantial gap in the existing health interventions; KL was contracted by WHO to apply the mERA 
+mHealth evidence space, where poor reporting of the tool to mobile phone interventions for sexual and reproductive health; 
+mobile interventions has resulted in limited replication GM received financial support from the Norwegian Agency for 
+Development Cooperation and the WHO Department of Reproductive 
+of effective interventions. We expect that the mERA Health and Research fund for hosting mobile health related meetings; 
+checklist represents a set of evolving criteria that will be MM has a pending patent for a mobile, point of care monitor for 
+the bmj | BMJ 2016;352:i1174 | doi: 10.1136/bmj.i1174 9
+BMJ: first published as 10.1136/bmj.i1174 on 17 March 2016. Downloaded from http://www.bmj.com/ on 19 September 2019 by guest. Protected by copyright.
+RESEARCH MEtHodS And REpoRting
+patients’ health conditions with a decision support system; the 18 Stockwell MS, Kharbanda EO, Martinez RA, Vargas CY, Vawdrey DK, 
+remaining authors declare no competing interests. Camargo S. Effect of a text messaging intervention on influenza 
+Provenance and peer review: Not commissioned; externally peer vaccination in an urban, low-income pediatric and adolescent 
+reviewed. population: a randomized controlled trial. JAMA  2012;307:1702-8. doi:10.1001/jama.2012.502. 
+1 Qiang CZ, Yamamichi M, Hausman V, Altman DG. Mobile applications 19  PLOS Medicine editors. A reality checkpoint for mobile health: three 
+for the health sector. 2011.  http://siteresources.worldbank.org/ challenges to overcome. PLoS Med  2013;10:e1001395. doi:10.1371/
+INFORMATIONANDCOMMUNICATIONANDTECHNOLOGIES/ journal.pmed.1001395. 
+Resources/mHealth_report.pdf 20 Stockwell MS, Kharbanda EO, Martinez RA, Vargas CY, Vawdrey DK, 
+2 Agarwal S, Labrique A. Newborn health on the line: the potential Camargo S. Effect of a text messaging intervention on influenza 
+mHealth applications. JAMA  2014;312:229-30. doi:10.1001/ vaccination in an urban, low-income pediatric and adolescent 
+jama.2014.6371. population: a randomized controlled trial. JAMA  2012;307:1702-8. 
+3 Agarwal S, Perry HB, Long LA, Labrique AB. Evidence on feasibility and doi:10.1001/jama.2012.502. 
+effective use of mHealth strategies by frontline health workers in 21 L’Engle KL, Vahdat HL, Ndakidemi E, Lasway C, Zan T. Evaluating 
+developing countries: systematic review. Trop Med Int Health  feasibility, reach and potential impact of a text message family 
+2015;20:1003-14. doi:10.1111/tmi.12525. planning information service in Tanzania. Contraception  2013;87:251-
+4 Tomlinson M, Rotheram-Borus MJ, Swartz L, Tsai AC. Scaling up 6. doi:10.1016/j.contraception.2012.07.009. 
+mHealth: where is the evidence?PLoS Med  2013;10:e1001382. 22 Patrick K, Raab F, Adams MA, et al. A text message-based intervention 
+doi:10.1371/journal.pmed.1001382. for weight loss: randomized controlled trial. J Med Internet Res  
+5 Guyatt GH, Oxman AD, Vist GE, et al. GRADE Working Group. GRADE: 2009;11:e1. doi:10.2196/jmir.1100. 
+an emerging consensus on rating quality of evidence and strength of 23 Vahdat HL, L’Engle KL, Plourde KF, Magaria L, Olawo A. There are some 
+recommendations. BMJ  2008;336:924-6. doi:10.1136/bmj.39489. questions you may not ask in a clinic: providing contraception 
+470347.AD. information to young people in Kenya using SMS. Int J Gynaecol 
+6 Husereau D, Drummond M, Petrou S, et al. CHEERS Task Force. Obstet  2013;123(Suppl 1):e2-6. doi:10.1016/j.ijgo.2013.07.009. 
+Consolidated Health Economic Evaluation Reporting Standards 24 Gold J, Lim MS, Hocking JS, Keogh LA, Spelman T, Hellard ME. 
+(CHEERS) statement. BMC Med  2013;11:80. Determining the impact of text messaging for sexual health promotion 
+doi:10.1186/1741-7015-11-80. to young people. Sex Transm Dis  2011;38:247-52.
+7 Liberati A, Altman DG, Tetzlaff J, et al. The PRISMA statement for reporting 25 Lemay NV, Sullivan T, Jumbe B, Perry CP. Reaching remote health 
+systematic reviews and meta-analyses of studies that evaluate health workers in Malawi: baseline assessment of a pilot mHealth 
+care interventions: explanation and elaboration. Ann Intern Med  intervention. J Health Commun  2012;17(Suppl 1):105-17. 
+2009;151:W65-94. doi:10.7326/0003-4819-151-4-200908180-00136. doi:10.1080/10810730.2011.649106. 
+8 Shea BJ, Grimshaw JM, Wells GA, et al. Development of AMSTAR: a 26 Andreatta P, Debpuur D, Danquah A, Perosky J. Using cell phones 
+measurement tool to assess the methodological quality of systematic to collect postpartum hemorrhage outcome data in rural Ghana. 
+reviews. BMC Med Res Methodol  2007;7:10. doi:10.1186/1471-2288-7-10. Int J Gynaecol Obstet  2011;113:148-51. doi:10.1016/j.ijgo.2010. 
+9 Schulz KF, Altman DG, Moher D. CONSORT Group. CONSORT 2010 11.020. 
+statement: updated guidelines for reporting parallel group randomised 27 Zurovac D, Larson BA, Sudoi RK, Snow RW. Costs and cost-
+trials. BMC Med  2010;8:18. doi:10.1186/1741-7015-8-18. effectiveness of a mobile phone text-message reminder programmes 
+10 Stroup DF, Berlin JA, Morton SC, et al. Meta-analysis of observational to improve health workers’ adherence to malaria guidelines in Kenya. 
+studies in epidemiology: a proposal for reporting. Meta-analysis Of PLoS One  2012;7:e52045. doi:10.1371/journal.pone.0052045. 
+Observational Studies in Epidemiology (MOOSE) group. JAMA  28 Tomlinson M, Solomon W, Singh Y, et al. The use of mobile phones as a 
+2000;283:2008-12. doi:10.1001/jama.283.15.2008. data collection tool: a report from a household survey in South Africa. 
+11 Des Jarlais DC, Lyles C, Crepaz N. TREND Group. Improving the BMC Med Inform Decis Mak  2009;9:51. doi:10.1186/1472-6947-9-51. 
+reporting quality of nonrandomized evaluations of behavioral and 29 Chaiyachati KH, Loveday M, Lorenz S, et al. A pilot study of an mHealth 
+public health interventions: the TREND statement. Am J Public Health  application for healthcare workers: poor uptake despite high reported 
+2004;94:361-6. doi:10.2105/AJPH.94.3.361. acceptability at a rural South African community-based MDR-TB 
+12 von Elm E, Altman DG, Egger M, Pocock SJ, Gøtzsche PC, treatment program. PLoS One  2013;8:e64662. doi:10.1371/journal.
+Vandenbroucke JP. STROBE Initiative. The Strengthening the Reporting pone.0064662. 
+of Observational Studies in Epidemiology (STROBE) statement: 30 Tomlinson M, Solomon W, Singh Y, et al. The use of mobile phones as 
+guidelines for reporting observational studies. Prev Med  a data collection tool: a report from a household survey in South 
+2007;45:247-51. doi:10.1016/j.ypmed.2007.08.012. Africa. BMC Med Inform Decis Mak  2009;9:51. 
+13 Eysenbach G. CONSORT-EHEALTH Group. CONSORT-EHEALTH: doi:10.1186/1472-6947-9-51. 
+improving and standardizing evaluation reports of Web-based and 31 Dowshen N, Kuhns LM, Gray C, Lee S, Garofalo R. Feasibility of 
+mobile health interventions. J Med Internet Res  2011;13:e126. interactive text message response (ITR) as a novel, real-time measure 
+doi:10.2196/jmir.1923. of adherence to antiretroviral therapy for HIV+ youth. AIDS Behav  
+14 Hoffmann TC, Glasziou PP, Boutron I, et al. Better reporting of interventions: 2013;17:2237-43. doi:10.1007/s10461-013-0464-6. 
+template for intervention description and replication (TIDieR) checklist and 32 Arsand E, Tatara N, Østengen G, Hartvigsen G. Mobile phone-based 
+guide. BMJ  2014;348:g1687. doi:10.1136/bmj.g1687. self-management tools for type 2 diabetes: the few touch application. 
+15 Moher D, Schulz KF, Simera I, Altman DG. Guidance for developers of J Diabetes Sci Technol  2010;4:328-36. 
+health research reporting guidelines. PLoS Med  2010;7:e1000217. doi:10.1177/193229681000400213. 
+doi:10.1371/journal.pmed.1000217. 
+16 Jamison JC, Karlan D, Raffler P. Mixed method evaluation of a passive 
+mHealth sexual information texting service in Uganda. National © BMJ Publishing Group Ltd 2016
+Bureau of Economic Research 2013. No w19107.
+17 Ngabo F, Nguimfack J, Nwaigwe F, et al. Designing and implementing Web appendix 1: mERA Methodology Criteria
+an innovative SMS-based alert system (RapidSMS-MCH) to monitor 
+pregnancy and reduce maternal and child deaths in Rwanda. Pan Afr Web appendix 2: Results from mERA core checklist 
+Med J  2012;13:31.23330022. application to three health areas
+No commercial reuse: See rights and reprints http://www.bmj.com/permissions Subscribe: http://www.bmj.com/subscribe
+BMJ: first published as 10.1136/bmj.i1174 on 17 March 2016. Downloaded from http://www.bmj.com/ on 19 September 2019 by guest. Protected by copyright.

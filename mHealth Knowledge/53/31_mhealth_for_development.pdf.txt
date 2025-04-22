@@ -1,0 +1,2493 @@
+mHealth for Development
+The Opportunity of Mobile Technology for Healthcare in the Developing World
+www.unfoundation.org/vodafone
+1
+Author
+Vital Wave Consulting
+About The United Nations Foundation and Vodafone Foundation 
+Technology Partnership
+The United Nations Foundation and Vodafone Foundation Technology Partnership is a leading public-
+private alliance using strategic technology programs to strengthen the UN’s humanitarian efforts 
+worldwide. The Partnership has three core commitments: (1) to support the use of rapid response mobile 
+telecommunications to aid disaster relief; (2) to develop health data systems that improve access to health 
+data thereby helping to combat disease; and (3) to promote research and innovative initiatives using 
+technology as an agent and tool for international development. Further information can be found at:  
+www.unfoundation.org/vodafone.
+Contact
+ United Nations Foundation   The Vodafone Foundation
+ 1800 Massachusetts Ave., NW    Vodafone House
+ Suite 400     The Connection
+ Washington, D.C. 20036    Newbury, Berkshire, RG14 2FN
+ USA                                                              UK
+       Registered Charity No: 1089625
+Recommended Citation
+Vital Wave Consulting. mHealth for Development: The Opportunity of Mobile Technology for Healthcare 
+in the Developing World. Washington, D.C. and Berkshire, UK: UN Foundation-Vodafone Foundation 
+Partnership, 2009.
+Cover Photo Credits
+UN Mark Garten and UN Foundation.
+2
+Foreword
+The United Nations Foundation and The Vodafone Foundation are working 
+together to harness the power of mobile technology in support of United 
+Nations programs across the globe.  Since 2005 our £15 million Technology 
+Partnership has funded the use of wireless communications to advance global 
+health and disaster relief work, and to further public discourse about how 
+wireless technology can address some of the world’s toughest challenges.
+This fourth publication, “mHealth for Development: The Opportunity of 
+Mobile Technology for Healthcare in the Developing World,” in our Access 
+to Communications series evidences, through its research and selection of 
+case studies, the potential of mHealth—the use of mobile communications 
+(mobile phones and PDAs) for health services and information.  This field has 
+the potential to transform the approach to a variety of healthcare challenges 
+in the developing world by accelerating the collection and storage of patient 
+data, training rural professionals with health updates and guidance, and 
+personalizing to new levels the process of patients receiving and engaging in 
+available medical treatment. 
+As the case studies in the report demonstrate, governments, companies, and 
+non-profit groups are already developing mHealth applications to improve 
+healthcare and consequently save lives.  These new mobile applications, 
+bypassing the fixed-line solutions, are creating new pathways for sharing 
+health-related information, even in the most remote and resource-poor environments. 
+We invite you to review the potential of this area of activity and join the discussion of mHealth for 
+development.  We would welcome your comments and ideas at www.unfoundation.org/mHealth-report. 
+  Vittorio Colao, CEO    Ted Turner, Chairman
+  Vodafone     United Nations Foundation
+Foreword 11
+Acknowledgements
+The United Nations Foundation and The Vodafone Foundation are thankful to the numerous 
+individuals who have shared their ideas and experiences to inform this report and to contribute to 
+the advancement of the mHealth field. In particular, we would like to thank Ken Banks, Founder of 
+kiwanja.net; Greg Elphinston, Director Community Involvement at Nokia; Dr. Adesina Iluyemi of the 
+University of Portsmouth; Vuyani Jarana, Regional Operations Director at Vodacom Africa; Eduardo 
+Jezierski, Vice President of Engineering at InSTEDD; Jørn Klungsøyr, Researcher / Developer, 
+Centre for International Health at the University of Bergen; Dr. Jennifer Leaning, Professor of 
+International Health at Harvard School of Public Health and Associate Professor of Medicine at the 
+Harvard Medical School; Dr. Balcha Masresha, World Health Organization; Dr. Patricia N. Mechael, 
+mHealth and Telemedicine Advisor to the Millennium Villages Project at the Earth Institute at 
+Columbia University; Lauri Medeiros, Director, Corporate and Foundation Relations at the University 
+of California, San Francisco; Jesse Moore of the GSM Association; Dr. Joel Selanikio, Co-founder 
+and Director  of DataDyne; John Stephenson from Dalberg Global Development Advisors; Dr. Boris 
+Nikolic, Senior Program Officer, Global Health Discovery at the Bill & Melinda Gates Foundation; 
+and Dr. Pammla Petrucka, Associate Professor, University of Saskatchewan, College of Nursing.
+We are also appreciative of the support of the organizations that shared their experiences with 
+us in the case studies. Thank you to Hajo van Beijma, Co-founder of Text to Change; Robin Miller 
+and Sheetal Gordhan of the Praekelt Foundation (Project Masiluleke); Andre Erthal, Head of the 
+Community Group at Nokia Mobile Solutions and Services (Nokia Data Gathering); and Neal Lesh, 
+Chief Technology Officer at D-Tree International (OpenRosa).
+This report would not have been as compelling without the rich pictures contributed by DataDyne, 
+ENACQKT: Enhancing Nurses Access for Care Quality and Knowledge through Technology, the 
+Praekelt Foundation (Project Masiluleke), RAMP: Recycled AIDS Medication Program, Text to 
+Change, UNICEF, and the United Nations.
+Lastly, we would like to thank the team that worked on creating and producing this report. This 
+includes Vital Wave Consulting, copyeditor Lelani Arris, and Hal Kowenski and Andre Temoney at 
+Linemark Printing.  ■
+2 Acknowledgements
+Contents
+Foreword __________________________________________________________________________ 1
+Acknowledgements _______________________________________________________________ 2
+Contents __________________________________________________________________________ 3
+Introduction _______________________________________________________________________ 4
+Potential of Mobile Phones to Improve Health in the Developing World ___________ 6
+The Promise of Mobile Technologies for Health 7
+Defining mHealth Within the Context of eHealth __________________________________ 8
+Meeting Health Needs Through a Broad Array of Applications ____________________ 9
+Education and Awareness  10
+Remote Data Collection 11
+Remote Monitoring  12
+Communication and Training for Healthcare Workers 13
+Disease and Epidemic Outbreak Tracking  13
+Diagnostics and Treatment Support 14
+Examining the Impact of mHealth Projects _______________________________________15
+Assessing mHealth and Future Health Needs in Developing Countries ___________18
+Evolution of Mobile Technologies 20
+Identifying the Building Blocks for Sustainable and Scalable mHealth Programs 21
+Key Building Blocks for Success 21
+Project Masiluleke 22
+Multiple Health Issues Addressed by SMS Campaigns 24
+Text to Change (TTC) 25
+Data Gathering 28
+Open Source Movement: A Building Block for mHealth Success 30
+Understanding the Incentives for Multiple Players: mHealth Value Chain ________31
+Value Chain Models for mHealth: One-way Data Applications 31
+Value Chain Models for mHealth: Two-Way Data Applications 33
+A Call for Action _________________________________________________________________34
+Operators 34
+NGOs 35
+Policymakers 36
+Funders 36
+Conclusion: Looking Forward ____________________________________________________37
+Compendium of mHealth Projects________________________________________________39
+Education and Awareness  41
+Remote Data Collection 43
+Remote Monitoring  50
+Communication and Training for Healthcare Workers 55
+Disease and Epidemic Outbreak Tracking 58
+Diagnostic and Treatment Support 62
+Contents 3
+Introduction
+Credit: DataDyne
+Mounting interest in the field of mHealth—the provision of health-related services via mobile communica-
+tions—can be traced to the evolution of several interrelated trends. In many parts of the world, epidemics 
+and a shortage of healthcare workers continue to present grave challenges for governments and health 
+providers. Yet in these same places, the explosive growth of mobile communications over the past decade 
+offers a new hope for the promotion of quality healthcare. Among those who had previously been left behind 
+by the ‘digital divide,’ billions now have access to reliable technology. 
+There is a growing body of evidence that demonstrates the potential of mobile communications to radically 
+improve healthcare services—even in some of the most remote and resource-poor environments. This report 
+examines issues at the heart of the rapidly evolving intersection of mobile phones and healthcare. It helps the 
+reader to understand mHealth’s scope and implementation across developing regions, the health needs to 
+which mHealth can be applied, and the mHealth applications that promise the greatest impact on heath care 
+initiatives. It also examines building blocks required to make mHealth more widely available through sustain-
+able implementations. Finally, it calls for concerted action to help realize mHealth’s full potential.
+The report is organized into the following sections:
+1 Identifying the potential of mobile phones to improve health in the developing world
+2 Defining mHealth within the context of eHealth
+3 Meeting health needs through a broad array of mHealth applications
+4 Examining the impacts of mHealth projects 
+5 Assessing mHealth and future health needs in developing countries 
+6 Identifying the building blocks for sustainable and scalable mHealth programs
+7 Understanding the incentives for multiple players: mHealth value chains
+8 A call for action
+9 Looking forward
+10 Compendium of mHealth projects
+4 Introduction
+Though the mHealth field is still in its early stages, it has already begun to transform health delivery. Proj-
+ects throughout the developing world are demonstrating concrete benefits, including:
+■ Increased access to healthcare and health-related information, particularly for hard-to-reach popula-
+tions
+■ Improved ability to diagnose and track diseases
+■ Timelier, more actionable public health information 
+■ Expanded access to ongoing medical education and training for health workers 
+Due in large part to the successes of pioneering mHealth programs, activity in the field is rapidly gaining 
+momentum. In 2008 alone, over a dozen new mHealth applications have been implemented or are in the 
+trial stage. These include: 
+■ InSTEDD, a US-based non-governmental organization (NGO) that provides technology solutions for 
+humanitarian and disease support, opened a development center in Cambodia where mHealth-based 
+disease and surveillance solutions are being designed for the Southeast Asian region.
+■ The Canadian development agency, IRDC, expanded support for a project providing nurses in the Ca-
+ribbean with portable digital assistants (PDAs) to empower improved diagnosis and decision making.
+■ The United Nations Foundation and Vodafone Foundation Technology Partnership, together with the 
+World Health Organization (WHO), a specialized agency of the United Nations (UN), announced plans 
+to expand their mobile data-gathering program to more than 20 countries in sub-Saharan Africa.
+This report profiles more than 50 mHealth projects taking place in the developing world. The long-term goal 
+is that such programs will make healthcare more effective, and have a demonstrable and significant posi-
+tive impact on clinical outcomes such as reduced infant mortality, longer life spans, and decreased con-
+traction of disease. 
+Experts across the field, and interviewed as part of this report, assert  that there is an unprecedented 
+opportunity at hand to fulfill mHealth’s promise. To accelerate this momentum and fully unleash the 
+potential of mHealth applications, dynamic multi-sector collaboration between groups as 
+diverse as governments, multilateral organizations, and the private sector is needed. Joint 
+action should be directed toward the creation of a global mHealth infrastructure that lays out common 
+standards and guidelines, and serves as a repository for shared resources and best practices. This is the 
+best approach for scaling mHealth solutions and maximizing the field’s capacity to serve a vital develop-
+ment imperative. ■
+“Right now, we are at an inflection point in terms of acceptance. 
+Whether it turns out to be the peak of inflated expectation or the 
+trough of disillusionment will depend on whether governments 
+make the link between telecommunication policy and health, and 
+the extent to which donors encourage transparency in sourcing 
+and the participation of local entrepreneurs. Ultimately, the take-
+up of mobile communications in the health sector isn’t really 
+about technology at all.”
+—Greg Elphinston, 
+Director Community Involvement, Nokia
+Introduction 5
+Potential
+Credit: DataDyne
+Potential of Mobile Phones to Improve Health in 
+the Developing World
+As the first decade of the 21st century draws to a close, leaders in many developing countries can point with 
+pride to tremendous strides in their efforts to improve the lives of their citizens. In many parts of the world, 
+citizens in emerging economies have begun to taste the fruits of higher incomes and greater access to tools 
+that promise to increase their quality of life and that of their children. Yet formidable obstacles remain. Health 
+challenges present arguably the most significant barrier to sustainable global development. Disease and the 
+lack of adequate preventative care take a significant toll on both developing populations, measurable in dis-
+ability-adjusted life years (DALYs), and economies. Despite the broad economic advances of this decade, the 
+2008 UN report on progress toward meeting the Millennium Development Goals (MDGs) indicates continuing 
+dire conditions in crucial public health areas. For example:1
+■ A child born in a developing country is over 33 times more likely to die within the first five years of life 
+than a child born in an industrialized country, even though the leading causes of deaths (pneumonia, 
+diarrhea, malaria, and measles) are preventable through basic services and vaccinations.
+■ Every minute, at least one woman dies from complications related to pregnancy or childbirth. And for 
+every woman who dies in childbirth, approximately 20 more suffer injury, infection, or disease—nearly 10 
+million each year.
+■ An estimated 2.5 million people were newly infected with HIV in 2007.
+■ Communicable, and entirely avoidable, diseases such as tuberculosis (TB) and malaria continue to claim 
+lives due to preventable factors such as lack of access to proper drugs and medical treatment. By cur-
+rent estimates, meeting the target MDG of halving the TB prevalence rate by 2015 is unlikely.
+1 United Nations, The Millennium Development Goals Report 2008 (New York: United Nations, 2008).
+6 Potential of Mobile Phones to Improve Health in the Developing World
+Health-Related Millennium Development Goals
+MDG 4. Reduce child mortality: Reduce by two-thirds, between 1990 and 2015, 
+the under-five mortality rate.
+MDG 5. Improve maternal health: Reduce by three-quarters, between 1990 
+and 2015, the maternal mortality ratio.
+MDG 6. Combat HIV/AIDS, malaria, and other diseases: Have halted by 2015 
+and begun to reverse the spread of HIV/AIDS; have halted by 2015 and 
+begun to reverse the incidence of malaria and other major diseases.
+The ability of developing countries to overcome these serious health challenges is hindered by several core 
+obstacles, among them a global shortage of healthcare workers. According to the WHO, among 57 coun-
+tries, mostly in the developing world, there is a critical shortfall in healthcare workers, representing a total 
+deficit of 2.4 million healthcare workers worldwide.2 This human resources constraint intensifies the already 
+increasing pressure on developing-world health systems. Not only must they cope with the burden of con-
+taining the spread of communicable diseases associated with extreme poverty, they must also contend with 
+the growing incidence of chronic diseases, such as diabetes and heart disease, an effect of new-found (rela-
+tive) affluence. Governments, businesses, NGOs, foundations, and multilateral organizations all recognize the 
+importance of leveraging new tools and solutions to address these distinct but interrelated health challenges. 
+The Promise of Mobile Technologies for Health
+Mobile communication offers an effective means of bringing healthcare services to developing-country 
+citizens. With low-cost handsets and the penetration of mobile phone networks globally, tens of millions of 
+citizens that never had regular access to a fixed-line telephone or computer now use mobile devices as daily 
+tools for communication and data transfer. A full 64% of all mobile phone users can now be found in the de-
+veloping world.3 Furthermore, estimates show that by 2012, half of all individuals in remote areas of the world 
+will have mobile phones. This growing ubiquity of mobile phones is a central element in the promise of mobile 
+technologies for health. 
+Figure 1 illustrates that developing world citizens have plentiful access to mobile phones, even while other 
+technologies and health infrastructure are scarce. This explosion of mobile phone usage has the potential to 
+improve health service delivery on a massive scale. For example, mobile technology can support increasingly 
+inclusive health systems by enabling health workers to provide real-time health information and diagnoses in 
+rural and marginalized areas where health services are often scarce or absent altogether. ■
+ 
+5,300
+5,000
+4,000
+Mobile phones reach 
+3,000
+2,293 further into developing 
+2,000 countries than other 
+1,000 technology and health 
+305
+11 infrastructures.
+0
+Hospital Beds Computers Mobile Phones Population
+Figure 1. Technology and health-related statistics for developing countries (millions).4
+2 World Health Organization, The World Health Report 2006 - Working Together for Health (Geneva: WHO, 2006).
+3 United Nations Department of Economic and Social Affairs, Division for Public Administration and Development Management, Compendium of ICT Applications on Electronic Government - Volume 1. Mobile Applications on 
+Health and Learning (New York: United Nations, 2007).
+4 Vital Wave Consulting, Business Monitor International (BMI), International Telecommunications Union, World Bank’s World Development Indicators, and the United Nations.
+Potential of Mobile Phones to Improve Health in the Developing World 7
+Definition
+“mHealth involves using 
+wireless technologies 
+such as Bluetooth, GSM/
+GPRS/3G, WiFi, WiMAX, 
+and so on to transmit 
+and enable various 
+eHealth data contents and 
+services. Usually these are 
+accessed by the health 
+worker through devices 
+such as mobile phones, 
+Credit: Praekelt Foundation smart phones, PDAs, 
+laptops and tablet PCs.”
+Defining mHealth Within the —Dr. Adesina Iluyemi,  PhD Candidate, 
+Context of eHealth University of Portsmouth, UK
+ 
+In recent years, mHealth has emerged as an important sub-
+segment of the field of electronic health (eHealth). While there “With eHealth 
+is no widely agreed-to definition for these fields, the public and mHealth, an 
+health community has coalesced around these working defini-
+tions: ecosystem approach is 
+■ eHealth: Using information and communication technol- recommended. Many of 
+ogy (ICT)—such as computers, mobile phones, and satel- the basic applications and 
+lite communications—for health services and information.
+■ mHealth: Using mobile communications—such as PDAs devices exist and are in 
+and mobile phones—for health services and information. use, but now we need to 
+mHealth and eHealth are inextricably linked—both are used to make them talk to each 
+improve health outcomes and their technologies work in con- other in a way that yields 
+junction. For example, many eHealth initiatives involve digitiz-
+ing patient records and creating an electronic ‘backbone’ that strategic benefits.”
+ideally will standardize access to patient data within a national 
+system. mHealth programs can serve as the access point for —Dr. Patricia Mechael, 
+entering patient data into national health information systems, mHealth and Telemedicine Advisor to 
+the Millennium Villages Project at the 
+and as remote information tools that provide information to 
+Earth Institute at Columbia University 
+healthcare clinics, home providers, and health workers in the 
+field. While there are many stand-alone mHealth programs, 
+it is important to note the opportunity mHealth presents for 
+strengthening broader eHealth initiatives. ■
+8 Defining mHealth Within the Context of eHealth
+Applications
+Credit: DataDyne
+Meeting Health Needs 
+Through a Broad Array of Africa (excluding 
+South Africa and 
+Applications Uganda), 9
+South Africa, 6
+A growing number of developing countries are using mobile 
+technology to address health needs. The mHealth field is Latin America, 10
+remarkably dynamic, and the range of applications being Uganda, 6
+designed is constantly expanding. The key applications for 
+mHealth in developing countries are:
+Worldwide, 1
+■ Education and awareness India, 11 Eastern Europe, 1
+Asia (excluding 
+■ Remote data collection India), 7
+■ Remote monitoring 
+■ Communication and training for healthcare workers
+Education and 
+■ Disease and epidemic outbreak tracking Awareness, 6
+Diagnostic and 
+■ Diagnostic and treatment support Treatment Support, 9
+This report details 51 mHealth programs, either currently 
+Disease and 
+operating or slated for implementation in the near future, Epidemic Outbreak Remote Data 
+Collection, 14
+that are taking place in 26 different developing countries. Tracking, 7
+mHealth programs are more prevalent in some countries 
+than others for reasons that have not yet been assessed 
+by the academic literature. In particular, India, South Af-
+Communication and 
+rica, Uganda, Peru, and Rwanda stand out for their level Training for Health 
+Care Workers, 5 Remote monitoring, 
+of mHealth activity. As the case studies examined in this 10
+report reveal, mHealth programs are gaining strong support 
+across regions, as well as sectors as diverse as govern- Figure 2. Distribution of mHealth programs by location and application area.
+ments, technology providers and academia. Figure 2 shows 
+the geographic and application area breakdown of these 
+mHealth projects.
+DMeefeintiing  HmeHaeltahl tNhe Weditsh iTnh rthoeu gCho an tBexrot aodf  eAHrreaayl tohf Applications 9
+Worldwide:
+FrontlineSMS
+Education & Awareness Communication & Training for Health Care Workers
+Remote Data Collection Disease & Epidemic Outbreak Tracking 
+Remote monitoring Diagnostic & Treatment Support
+Figure 3. Distribution of mHealth programs by location and application area.
+Figure 3 provides another view of the distribution of mHealth programs both geographically and 
+by application area. 
+The following section describes the major mHealth applications in developing countries and pro-
+vides examples of projects where the application has been put into action.
+Education and Awareness 
+Popularized by teenagers in western countries and Japan who wanted a low-cost means of 
+communicating with friends, short message service (SMS) messages now offer a cost-effective, 
+efficient, and scalable method of providing outreach services for a wide array of health issues. 
+In education and awareness applications, SMS messages are sent directly to users’ phones to 
+offer information about testing and treatment methods, availability of health services, and disease 
+management. Formal studies and anecdotal evidence demonstrate that SMS 
+alerts have a measurable impact on and a greater ability to influence behavior 
+than radio and television campaigns. SMS alerts provide the further advantage of being 
+relatively unobtrusive, offering recipients confidentiality in environments where disease (especially 
+HIV/AIDS) is often taboo. In the developing world, SMS alerts have proven particularly effective 
+in targeting hard-to-reach populations and rural areas, where the absence of clinics, lack of 
+healthcare workers, and limited access to health-related information all too often prevent people 
+from making informed decisions about their health.
+SMS message campaigns can be set up either as one-way alerts or interactive tools used for 
+health-related education and communication. For example, a citizen may sign up to take a survey, 
+delivered via SMS message, quizzing them on their knowledge about HIV/AIDS and the location 
+of the nearest testing center. Depending upon their responses, information regarding where and 
+how to receive a free test will be transmitted. This interactive model has been deployed in several 
+countries (e.g., India, South Africa, and Uganda) to promote AIDS education and testing and pro-
+vide information about other communicable diseases (such as TB), as well as to promote mater-
+nal health and educate youth about reproductive health.
+10 Meeting Health Needs Through a Broad Array of Applications
+Education and Awareness
+Project Masiluleke and Text to Change use SMS message campaigns to 
+provide HIV/AIDS education in South Africa and Uganda, respectively. 
+Project Masiluleke takes advantage of the 120 spare characters on free 
+‘please call me’ SMS messages to provide HIV/AIDS education and 
+awareness, while Text to Change employs an SMS-based quiz to test 
+users’ HIV/AIDS knowledge and encourage testing and counseling. 
+ 
+While other communication mediums, such as radio, television, voice-based information hotlines, 
+and even interactive websites can be employed in the service of education about public health 
+issues, SMS stands out as having several advantages over each of these: cost-effectiveness, 
+scalability, convenience, broad reach, and widespread popularity in the developing world. 
+By promoting health-conscious behavior, the mHealth education and awareness programs cur-
+rently in place have already had positive impacts. The ubiquity and low cost of SMS messages 
+hold the potential to shift the paradigm for health education by communicating with people in an 
+accessible, engaging manner that both respects their privacy and gives them the tools to make 
+informed choices.
+Remote Data Collection
+Data collection is another crucial component of public health programs. Policymakers and health 
+providers at the national, district, and community level need accurate data in order to gauge the 
+effectiveness of existing policies and programs and to shape new ones. In the developing world, 
+collecting field information is particularly important since many segments of the population are 
+rarely able to visit a hospital, even in the case of severe illness. Gathering data where patients live 
+is vital, and information should ideally be updated and accessible on a real-time basis. The data 
+collection process is more efficient and reliable if conducted via smartphones, PDAs, or mobile 
+phones rather than paper-based surveys that must be submitted in person and manually entered 
+into the central health database. 
+Data collection programs have been deployed in multiple developing world countries, mainly 
+as pilot projects. The most successful programs are scaling up and beginning to be deployed 
+in multiple countries or regions. These initiatives are closing the information gap 
+that currently exists for patient data in the developing world, enabling 
+public officials to gauge the effectiveness of healthcare programs, allocate 
+resources more efficiently, and adjust programs and policies accordingly.
+Remote Data Collection
+Hundreds of health workers have used PDAs provided by the Ugandan 
+Health Information Network to collect health data in the field. Not only 
+has this solution resulted in significant cost savings—25% in the first six 
+months—but health workers report increased job satisfaction due to 
+the greater efficiency and flexibility provided by the technology.
+Meeting Health Needs Through a Broad Array of Applications 11
+Credit: DataDyne
+Remote Monitoring 
+One of the areas most uniquely suited to grow in tandem with mobile technology is the remote monitoring of pa-
+tients. Remote monitoring opens new possibilities for treating patients in an outpatient setting, a crucial capability 
+in developing countries where access to hospital beds and clinics is limited. This group of applications consists 
+of one- or two-way communications to monitor health conditions, maintain caregiver appointments, or ensure 
+medication regimen adherence. Some applications may also include inpatient and out-patient sensors for moni-
+toring multiple conditions. 
+Evidence shows that strict adherence to a medication regime is essential for effective treatment of a variety 
+of health conditions, from AIDS to diabetes. In addition, monitoring patients at home for chronic 
+conditions dramatically improves survival rates. Remote monitoring applications are being 
+implemented on a relatively limited basis in developing countries, but they are gaining traction in the developed 
+world, particularly for chronic diseases. As the benefits of these applications are documented in the developed 
+world and funding models evolve in developing countries, remote monitoring is expected to become widespread 
+and significantly improve health outcomes for a wide range of communicable and chronic diseases.
+Remote Monitoring
+TB patients in Thailand were given mobile phones so that healthcare 
+workers (themselves former TB patients) could call these patients on 
+a daily basis to remind them to take their medication. Medicine compli-
+ance rates reached 90% due to the introduction of this remote moni-
+toring application.
+12 Meeting Health Needs Through a Broad Array of Applications
+Communication and Training for Healthcare 
+Workers
+In the Primary Healthcare Nursing Promotion Program, the National 
+School for Nurses in Coban, Guatemala used an innovative combina-
+tion of mobile phones, landline phones, and tele-writers to train nurses 
+in this rainforest community. 
+Communication and Training for Healthcare Workers
+An acute shortage of healthcare workers is a major challenge facing developing country health sectors. 
+Training new cadres of health professionals and empowering current workers in order to increase job 
+satisfaction and reduce attrition are essential to meeting human capital needs. Connecting health 
+workers with sources of information via mobile technology is a strong basis for 
+empowerment, as it provides the support they need to perform their functions 
+effectively and self-sufficiently.5
+There is also a pressing need to improve communication among different health units to facilitate more ef-
+ficient patient care. Due to the dearth of landline phones and Internet-enabled computers, it is not uncom-
+mon, for example, for a patient to be sent to the regional hospital by the local clinic, only to find that there is 
+no bed available. Mobile phones can help bridge these communications gaps that in the health context can 
+often mean the difference between lives lost and lives saved.
+Disease and Epidemic Outbreak Tracking 
+Outbreaks of communicable diseases often begin in pockets, and, when left undetected, can develop 
+into epidemics. Recent instances of such devastating outbreaks abound, from cholera and TB to dengue 
+fever and Severe Acute Respiratory Syndrome (SARS). Deployment of mobile devices, with their 
+ability to quickly capture and transmit data on disease incidence, can be decisive in the 
+prevention and containment of outbreaks.
+Disease and epidemic outbreak tracking mHealth applications are being used in Peru, Rwanda, and India as 
+an early warning system, allowing public health officials to monitor the spread of infectious diseases. Prior to 
+the adoption of mobile networks, public health officials relied upon written, satellite, and radio communica-
+tion for such emergency tracking. The migration of this function to mobile systems is simultaneously improv-
+ing data quality and lowering costs. 
+Disease and Epidemic Outbreak Tracking
+Incidents of Japanese Encephalitis were tracked real-time in Andhra 
+Pradesh, India, via a combination of mobile phones and web-based 
+technologies. The government used the information to better prioritize 
+vaccinations based on evidence of clusters of outbreaks.
+5 Iluyemi, A. and J.S. Briggs. Access and Connectivity for Community Based Health Workers in Developing Countries: Employing Wireless Technologies, Med-e-Tel 2008 Conference, Luxembourg.
+Meeting Health Needs Through a Broad Array of Applications 13
+Diagnostics and Treatment Support
+Diagnostics and treatment support are vitally important in healthcare—misdiagnosis or the inability to diagnose 
+a condition could have serious, even fatal, ramifications. mHealth applications in this area are designed to 
+provide diagnosis and treatment advice to remote healthcare workers through wireless access to medical 
+information databases or medical staff. With mHealth-enabled diagnostics and treatment 
+support, patients are able to receive treatment in their villages and homes, averting the 
+need for expensive hospital visits, which are beyond reach for many. 
+Diagnostic and treatment applications use the phone as a point-of-care device. Health workers’ phones are 
+typically equipped with specialized tools, such as built-in software that leads the worker through a step-by-
+step diagnostic process. Once data are entered into the system (e.g., symptoms and an image of a patient’s 
+injury captured on the mobile phone), remote medical professionals can diagnose the illness and prescribe 
+treatment. By eliminating the need for patient travel, these applications have the potential to dramatically in-
+crease access to care. ■
+Diagnostic and Treatment Support
+Researchers from the University of Melbourne are creating diagnostic 
+and analytical tools specifically for mobile phones for health workers in 
+Mozambique. These tools include a built-in calculator for determining 
+drug dosage and reference materials stored in the phone’s memory.
+Credit: UN Tim Mc Kulka
+14 Meeting Health Needs Through a Broad Array of Applications
+Impact
+Uganda
+Text to Change’s SMS-based 
+HIV/AIDS awareness quiz led to 
+an increase of nearly 40% in the Philippines
+number of people coming in for Phoned Pill Reminders for TB 
+free HIV/AIDS testing. Treatment. TB patients were 
+Peru given mobile phones and called daily with reminder to take their 
+Cell-Preven. Health workers TB medication—90% did.
+use mobile phones to send  
+SMS messages with real-time 
+data on symptoms experienced 
+by clinical trial participants. 
+Enables immediate response South Africa
+to adverse symptoms. Project Masiluleke’s SMS 
+message campaign  promoting 
+HIV/AIDS awareness resulted in 
+nearly a tripling of call volume to 
+a local HIV/AIDS helpline.
+Figure 4. Impact of mHealth applications across the developing world.
+Examining the Impact of mHealth Projects
+Formal studies and preliminary project assessments—in both the developed and developing world—demon-
+strate that mobile technology improves the efficiency of healthcare delivery, and ultimately makes healthcare 
+more effective. The long-term goal, and expectation, is that mHealth programs will have a demonstrable and 
+significant positive impact on clinical outcomes such as reduced infant mortality, longer life spans, and de-
+creased contraction of disease. Figure 4 illustrates some early results from other mHealth programs across 
+the developing world. 
+Much of the excitement over the potential of mHealth centers on the developing world, where mHealth 
+programs put in place since the early part of the decade are now yielding actionable data that indicates that 
+some of the hoped-for benefits are materializing. These studies are complemented by those conducted in 
+the developed world—where mobile phones achieved a high level of penetration more than a decade ago—
+that have begun to establish a significant body of evidence pointing to the health outcomes and efficiency 
+gains that can result from the thoughtful design and implementation of mobile-based programs and applica-
+tions. A brief review of sample mHealth programs around the world demonstrates the palpable benefits of 
+using mobile phones in healthcare and prevention.
+Improved Patient Health 
+Published clinical studies of mHealth programs point to an increasingly strong case for expanded mHealth 
+implementation. Patient health has been improved in three ways:
+■ Improved compliance with treatment regimes: A 2007 Thai study showed that TB patients 
+who received daily text message medication reminders jumped to over 90% adherence. A device called 
+SIMpill that uses mobile technology to monitor and direct medication adherence6 also shows promise.  
+6 Phoned pill reminders make inroads against TB. The Nation (Bangkok), January 28, 2007. 
+Examining the Impact of mHealth Projects 15
+A 2007 pilot in South Africa showed that with SIMpill, 90% of patients complied with their medi-
+cation regime, compared with the typical 22 to 60% compliance rate without the system. The 
+solution is now available worldwide. In the United States, a study found improved drug adherence 
+rates among HIV-positive patients who received SMS 
+reminders to take daily medication compared to pa-
+tients who did not. The majority of studies conducted 
+in Spain, Australia, Finland, and Korea on the benefits “A 2007 pilot in South 
+of using mobile technology in areas such as vaccina-
+tion follow-up and asthma or diabetes self-care con- Africa showed that 
+clude that mobile technology demonstrably improves 
+patient outcomes. with SIMpill, 90% of 
+■ Improved public awareness outcomes: In patients complied 
+South Africa, Project Masiluleke, which promotes an 
+AIDS hotline through SMS messages, resulted in a with their medication 
+350% increase in phone calls to the hotline. regime, compared with 
+■ Improved disease management: A recent US 
+study on the use of wireless-enabled PDAs by Type 2 the typical 22 to 60% 
+diabetes patients found greater improvements in blood 
+sugar indicators among regular users than among less compliance rate without 
+frequent users.7 the system.”
+Improved Health Systems Outcomes
+Efficiency gains enable improved quality of care. With ef-
+ficiency gains, more resources can be freed up and distributed to a broader population, and service 
+programs can be strengthened. Examples of documented efficiency gains include:
+■ In Uganda, an AED SATELLIFE program that uses wireless-enabled PDAs for disease surveillance, 
+collection, and reporting produced a 24% cost saving over the traditional paper approach. Eighty-
+seven percent of healthcare workers involved in the program said it allowed them to make faster 
+and more accurate diagnoses.8
+■ A Chinese study conducted by Zhejiang University researchers found that sending text messages 
+as appointment reminders improved attendance at a health promotion center as effectively as 
+phone reminders, while costing over one-third less.9 
+■ In the United Kingdom, researchers at the Imperial College, London, examined the health out-
+comes and efficiency gains that mobile device usage might bring to their national system. They 
+found that the annual direct cost of missed hospital appointments in England each year amounts 
+to £575 million. These costs are in addition to higher expenditures incurred by the health system 
+for patients whose health or treatment are negatively affected by missed appointments and who 
+then require additional medical attention.10
+“When talking about efficiency versus health 
+impact, it shouldn’t be about either/or. 
+Improving efficiencies can ensure that more 
+people receive life-saving interventions.”
+—John Stephenson, 
+Dalberg Global Development Advisors 
+ 7 Forjuoh, Samuel N., Michael D. Reis, Glen R. Couchman, and Marcia G. Ory. Improving Diabetes Self-Care with a PDA in Ambulatory Care. Telemedicine and e-Health. 14(3), April 2008. See http://www.liebertonline.com/toc/
+tmj/14/3 for the article and author listing.
+ 8 Gebru, Berhane. Disease Surveillance with Mobile Phones in Uganda. Retrieved 16 November 2008 from http://mobileactive.org/berhane-gebru-disease-surveillance-mobile-phones-uganda.
+ 9 Chen, Zhou-wen, Li-zheng Fang, Li-ying Chen, and Hong-lei Dai. Comparison of an SMS text messaging and phone reminder to improve attendance at a health promotion center: A randomized controlled trial. Journal of 
+Zhejiang University Science. 9(1), January 2008.
+10 The Role of Mobile Phones in Increasing Accessibility and Efficiency in Healthcare. Moving the debate forward. The Vodafone Policy Paper Series, Number 4 (Newbury: Vodafone Group Plc, March 2006).
+16 Meeting Health Needs Through a Broad Array of Applications
+While developed countries present different economic and cultural conditions from those found in 
+developing nations, the results of the studies may contain applicable lessons, especially as ‘rich world’ 
+diseases become increasingly prevalent in the developing world. The World Diabetes Foundation 
+predicts that by 2025, 80% of all new diabetes cases will originate in developing countries, which will 
+require new approaches for dealing with this and other chronic diseases. Studies conducted in the de-
+veloped world may also provide useful lessons in monitoring and evaluation, as well as study design. 
+There remains a need for large-scale evidence of mHealth effectiveness, as measured by long-term, 
+repeatable improved outcomes in either health or economic terms. Such studies would be particu-
+larly valuable in developing country contexts, and sponsors should continue to evaluate progress in 
+order to establish clear-cut proof of concept and strengthen the case for scaling programs nationally, 
+regionally, and beyond.
+Creating a Framework for Impact Measurement
+mHealth programs that define rigorous impact assessment methods will be more likely to secure con-
+tinuing funding and become sustainable over the long term. A Dalberg Global Development Advisors 
+study, commissioned by the UN Foundation and Vodafone Foundation Technology Partnership on the 
+use of PDAs for health information, offers a potential template for determining the effectiveness of cur-
+rent and future mHealth programs. Dalberg worked with the Partnership, the WHO, Ministry of Health 
+officials in pilot countries, and DataDyne—a non-profit provider of mobile health data solutions—to 
+develop a theory of change and to conduct a baseline assessment of the test program’s functionality. 
+The study lays out a process for monitoring the collection and analysis of health data at the local and 
+regional levels. This approach identified unforeseen technical, logistical, and decision-making prob-
+lems in the pilot case. For example, it was discovered that the high cost of fuel prevented Ministry of 
+Health officials from going out to collect data and the short battery life of some PDAs caused a loss 
+of data. Both of these issues significantly reduced the amount and quality of data available for deci-
+sion making. Dalberg also monitored the use of data once it was collected, particularly in the context 
+of health ministry meetings. The study identified instances where the data was not properly integrated 
+into decision making and described how processes could be improved to ensure that resource alloca-
+tion decisions are more data-driven. Overall, the study helped to determine both the cost effective-
+ness of data collection and the outputs that flow directly from the data. 
+Dalberg notes that monitoring and evaluation efforts can face critical challenges in the short term, par-
+ticularly with limited budgets to fund such activities. To overcome some of these challenges, it is im-
+portant to focus first on managing toward short-term outputs, such as how many PDAs are deployed. 
+The next step is to correlate short-term outputs with actual long-term health impact. This is quite diffi-
+cult, because the objective is often to measure outcomes that did not occur, such as decreased infant 
+mortality and disease incidence, or outcomes that occur over the long term. As mHealth applications 
+improve the process of data collection and the incorporation of data into decision making, this will 
+provide a foundation upon which to conduct long-term impact evaluations. ■
+“It’s important to have an ROI [return on 
+investment] model that articulates the cost 
+savings of mHealth, and also to take into account 
+the economic burden of health. You are trying 
+to prevent negative health outcomes, and if you 
+prevent them you can’t easily measure that.”
+—Eduardo Jezierski,
+Vice President of Engineering, InSTEDD
+Meeting Health Needs Through a Broad Array of Applications 17
+Future Health Needs
+Credit: Vital Wave Consulting
+Assessing mHealth and Future Health Needs in 
+Developing Countries
+Equally important to the cost-effectiveness and scalability of mHealth is its ability to provide an effective tool for ad-
+dressing emerging health needs. Health experts note that within the next 15 years, policymakers and health provid-
+ers in the developing world will be forced to turn their focus to prevention and early detection rather than late-stage 
+treatment of non-communicable diseases, such as diabetes and cancer, as well as to the health needs of an aging 
+population.11 These changes are being caused by trends such as migration from rural to urban areas, economic 
+growth, and changing dietary habits. As developing countries tackle and make significant improvements in the 
+spread of communicable disease, average income levels increase along with average life expectancy. Even a slight 
+increase in income contributes to changing dietary habits, and consumption of meat products and processed foods 
+is linked to the contraction of diabetes and cancer. Late detection of these diseases leads to lower survival rates 
+and reduced life expectancy, and has negative consequences for social and economic development. Developing 
+countries are therefore being confronted with a double burden of treating and containing the spread of communica-
+ble diseases while combating a wide range of unfamiliar health challenges. Table 1 illustrates these evolving trends. 
+Current Healthcare Picture       Global & Demographic Changes     Tomorrow’s Healthcare Picture
+ 
+ • Communicable diseases.  • GDP growth increases spending on healthcare.  • Current health care picture issues 
+ • Lack of immunizations.  • Traditional diseases controlled (TB, smallpox) 
+continued.
+and new diseases appear (SARS, avian flu).  • Shift from ‘late stage’ treatments to 
+ • Lack of safe water sources.
+ • Aging populations mean increase in death from prevention and early detection.
+non-communicable causes.  • Increased focus on health issues of elderly.
+ • Declining birth rate and climbing life expectancy.  • Continued health worker shortages and 
+ • Adoption of ‘developed country’ behaviors. distribution inequities.
+Table 1. Looking ahead: Evolving mHealth services for evolving health needs.
+11 Gutiérrez-Robledo, L.M. Looking at the Future of Geriatric Care in Developing Countries. Journals of Gerontology Series A: Biological Sciences and Medical Sciences, 57:M162-M167, 2002.
+18 Assessing mHealth and Future Health Needs in Developing Countries
+Shift from Communicable to Chronic Disease
+Over the next 10 years the cost of diabetes, heart disease, and stroke will take a tremendous 
+toll on the national incomes of developing world countries. According to estimates by the 
+WHO, diabetes, heart disease, and stroke together will cost about $555.7 billion in lost 
+national income in China, $303.2 billion in the Russian Federation; $336.6 billion in India; and 
+$49.2 billion in Brazil. Even beyond these countries the cost will be significant. The cost of 
+these diseases for Tanzania in the same period is estimated to be $2.5 billion.12
+mHealth is well-positioned to address these challenges using tools currently available. For example, just as 
+SMS alerts are useful in raising public health awareness of communicable diseases, these same types of 
+alerts can be used to ensure patient adherence with treatment of chronic diseases such as diabetes. SMS 
+alerts can be sent out to address chronic diseases and mental health issues in urban areas such as smoking 
+cessation and nutrition reminders.
+Many middle-income countries in the developing world (i.e., Brazil, Argentina, Thailand, Mexico, and Turkey) 
+are already seeing a shift away from communicable diseases toward chronic diseases (such as heart dis-
+ease and diabetes).  In these countries, there is already evidence that mHealth programs are experimenting 
+with addressing a wider range of chronic non-communicable diseases, with a focus on early treatment.
+12 World Diabetes Foundation. Diabetes Facts. Retrieved on 16 November 2008 from http://www.worlddiabetesfoundation.org/composite-35.htm.
+Credit: WFP Susan Schulman 
+Assessing mHealth and Future Health Needs in Developing Countries 19
+The MediNet Healthcare Management System is being 
+developed by researchers at the University of the 
+West Indies and Microsoft for monitoring and treating 
+diabetes and cardiovascular disease. The system will 
+provide treatment suggestions to patients via mobile 
+phone text or pre-recorded voice messages.
+Evolution of Mobile Technologies
+Addressing future health needs will be facilitated by the development of mobile technologies and network 
+expansion. The key technology trends in mobile technology continue to be the same trends that have char-
+acterized technological progress for the past 40 years: miniaturization, greater speed, and cost reduction. 
+These advances are reflected in mobile telephony by some of the advancement issues shown in Table 2. A 
+greater range of services becomes possible with more uniform, faster, and more affordable broadband ac-
+cess; greater access and coverage expands the ‘subscriber’ base, building volume, creating incentives for 
+players, and helping push sustainable mHealth applications beyond simple one-way data services. ■
+Key Technology 
+Current Technology Picture Tomorrow’s Technology Picture
+Advancement Issues
+• Mobile phones carry range of features 
+suitable for basic mHealth services and
+country varations.
+• Most new handsets access web (GPRS, • WiMAX-type chipset standard • Increased intelligence blurs distinction 
+Hardware other),  download pictures and images. for PCs (Intel, others) becomes between cell phones and mobile computers.
+• Speed limits applications and standard. • Solar chargers, larger displays.
+country variations.
+• Most laptops, handhelds, PDAs easily 
+access wireless networks where available.
+• Widely available for laptop and handhelds.
+Software/ • Java Virtual Machine (JVM), • Acceptance of OSS accelerates application 
+Applications • Only recent availability for handsets as Open Systems. development, reduces cost.
+vendors open architecture.
+• Cellular common in urban, less so in rural. • Greater bandwidth for new • Network transparency.
+Network applications.
+Access • Broadband, Internet access limited • NGN, IMT-2000. • Wireless networks create near universal 
+geographically, costly. Internet access.
+• Spreading IP access for 
+Standards • Broadband, Standards may require policy standards, licensing • Greater range of services, provider decisions. decisions. partnerships permitted.
+• Education/awareness programs. • More sophisticated diagnoses/consultation, 
+• Medication monitoring. e.g., teleradiology, teleopthamology.
+Services
+• Data collection services. • More effective use of healthcare workers.
+• Disease tracking. • More ‘personal’ mHealth services. 
+• Remote monitoring. • Services for travel-restricted.
+Table 2. Evolving mobile technology capabilities.
+20 Assessing mHealth and Future Health Needs in Developing Countries
+Sustainable and Scalable
+Identifying the Building Blocks for Sustainable 
+and Scalable mHealth Programs
+Success can beget success in the field of mHealth if organizations enhance their opportunity to drive 
+successful outcomes by learning from similar projects taking place within the mHealth ‘ecosystem.’ This 
+section identifies mHealth projects that embody practices of highly scalable and sustainable mHealth 
+programs. The case studies reveal some of the key benefits of mHealth, and provide examples of how 
+to structure successful mHealth initiatives. These case studies also reflect the field’s dynamism, as each 
+was implemented within the 12 months prior to the publication of this report.
+Key Building Blocks for Success
+As a young field, mHealth is well positioned to benefit from best practices and available technology 
+documented in early project reports. The case studies of mHealth projects and input from industry 
+experts reveal common practices that collectively form the building blocks for success in this young, 
+dynamic field.
+Forge strong partnerships
+Partners from multiple sectors bring diverse strengths to the project. Ensuring that each part-
+ner advances its organizational goals through the project paves the way for successful future 
+collaborations.
+Be accessible
+Communication is more effective when tailored to specific social, ethnic, and demographic 
+groups. Colloquial language and references to pop culture may be effective in reaching teen-
+agers, while older populations may prefer a more formal approach.
+Design with the end user in mind and maintain a focus on usability
+Applications and devices must take the users work environment into account in the design 
+phase. In the mHealth environment, ease of use is essential.
+Build a long-term funding plan
+Continuing the project beyond the initial seed funding can be accomplished by aligning with 
+long-term national health goals. Integration with the national health care program of the coun-
+try of operation is essential.
+Set measurable goals
+By setting interim goals and benchmarks, mHealth projects can provide proof of success, al-
+lowing them to secure support and funding for expansion. Setting measurable goals also helps 
+project principals to identify the need to quickly correct a particular course of action in the 
+event that interim targets are not met.
+Collaborate with other mHealth organizations
+With dozens of projects currently operating, the mHealth field is now in a strong position to 
+move forward by sharing techniques and applications. Organizations such as the Open Mobile 
+Consortium are facilitating the ability of the field to move forward by sharing best practices.
+Identifying the Building Blocks for Sustainable and Scalable mHealth Programs 21
+Credit: DataDyne
+Project Masiluleke
+Country: South Africa
+Sponsoring Organization and Partners: 
+Praekelt Foundation, iTeach, National Geographic, Nokia Siemens Networks, MTN, Ghetto Ruff, Children of 
+South African Legacies, Aricent, frog design and National AIDS Helpline
+The Project 
+Project Masiluleke sent three hundred and sixty five million text messages—one million per day—in 2008 to 
+encourage people to be tested and treated for HIV/AIDS and TB. According to sponsor Pop!Tech, Project 
+Masiluleke represents the largest use of mobile devices for the delivery of HIV/AIDS and TB information and 
+treatment in South Africa, with the potential for future expansion to other countries. 
+Project Masiluleke takes advantage of the popularity of ‘Please Call Me’ (PCM) services, which are widely 
+used in South Africa and throughout Africa. These free text messages are used by individuals without phone 
+credit to prompt recipients to call them. PCM messages contain the words ‘Please Call Me,’ and the phone 
+number of the sender. The remaining 120-character spaces can be filled with advertising, but Project Masi-
+luleke sponsor MTN is donating the space in one million messages each day to be used for HIV/AIDS and TB-
+related information. The message content is provided by outreach and service organization iTeach.
+Messages are written in local languages, and are used to direct recipients to the National AIDS Helpline. Once 
+patients have called, representatives of the hotline provide information about testing services and locations.
+Be Accessible
+With many countries having multiple local and regional languages, communicating with 
+people in the language they know best is critical. Similarly, it is essential to understand the 
+target demographic. Colloquial language and references to pop culture may be effective in 
+reaching teenagers, while older populations may prefer a more formal approach.
+22 Identifying the Building Blocks for Sustainable and Scalable mHealth Programs
+Objectives and Results
+Project Masiluleke is designed to make more people aware of their HIV status because in South Africa, one-
+quarter of the population is estimated to be infected with HIV, but less than 3% know their status. The broader 
+goal of the program is to have those infected receive treatment and to halt the spread of the disease. Initial 
+results from a beta test of the project indicated that it helped to nearly triple call volume to the helpline in the 
+three weeks during which it ran. The project partners are building in rigorous monitoring and evaluation of the 
+project by, for example, linking calls to the helpline to PCM text messages through the use of distinct phone 
+numbers that allow organizers to verify the number of calls generated by the program. Once the project is 
+operating successfully, the system will be expanded to provide information about TB resources and treatment.
+Future Plans and Scaling Challenges
+The next phases of the project will be the use and extension of the Praekelt Foundation’s TxtAlert program to 
+remind HIV-positive patients to take their medication and keep medical appointments; the creation of ‘virtual’ 
+call centers staffed by highly adherent patients; and the deployment of easy-to-use home HIV test kits, as the 
+social stigma attached to HIV often prevents people from going to public clinics for testing. 
+Challenges remain for scaling projects like Masiluleke. Working across multiple networks, developing relevant 
+messaging, and catalyzing resources to take the initiative to scale are all difficult, according to Robin Miller of 
+Praekelt Foundation. Yet the project’s early achievements point to some factors that increase the likelihood of 
+success. Miller says that several ingredients have been critical for success:
+■ Ensuring strong local partners to develop relevant content. Masiluleke’s partners enable 
+the organization to tap into an already established customer base and also leverage their knowledge to 
+build valuable content.
+■ Method of interacting with the intended audience. “We have found that mobile phone innova-
+tions already exist, even without new applications. For example, sending ‘missed calls’ led to the creation 
+of the PCM message which was the starting point for the project.”
+■ Scaling and progress are only possible through rigorous data collection and  
+analysis.  Only through measurement can we know what is working and where redirection is needed.
+Credit: Vital Wave Consulting
+Identifying the Building Blocks for Sustainable and Scalable mHealth Programs 23
+Credit: UN Mark Garten
+Multiple Health Issues Addressed by SMS Campaigns
+Netcare Vodacom Smile for You Campaign—Hundreds of thousands of children in the developing world are af-
+flicted with the condition known as cleft lip and palate, a relatively common birth defect that is all but invisible in 
+rich countries where surgery to correct it is widely available and affordable. Children who are not able to have 
+this condition remedied through surgery often have eating and speech difficulties and face social discrimina-
+tion. In 2007, the Netcare Group, a private medical hospital group in South Africa, and Vodacom teamed with 
+the Praekelt Foundation to offer 50 free cleft lip and palate surgeries to children too poor to afford them. A 
+previous campaign to raise awareness of this service had relied on traditional media such as print and radio 
+but yielded disappointing results, with only about 12 candidates identified for the surgery.
+For the Smile for You campaign, the sponsors shifted to a mobile technology solution to improve response 
+levels. In South Africa, ‘Please Call Me’ (PCM) text messages, which mobile phone users can send for free with 
+a request to the sender to call, have become an enormously popular service, and operators subsidize them 
+through the sale of advertising space in the unused character space of the text message. Over the course of 
+five days, Vodacom donated space in one million PCM text messages for a message asking recipients if they 
+knew of children in need of free cleft lip and palate surgery, using Praekelt’s SocialTxt technology (also used in 
+HIV/AIDS outreach efforts). During the first two days, recipients who wanted more information were prompted 
+to phone a call center manned by Netcare staff. Beginning on the third day, recipients were given the option 
+of sending an SMS with the word ‘SMILE’ to the Netcare call center, whereupon a representative would phone 
+them to provide further information about the surgery offer (resulting in a lower cost to the message recipient).
+The results of the campaign demonstrated the effectiveness of this concept. Calls made to the call 
+center, which hovered in the single digits in the weeks before and after the campaign, 
+averaged nearly 35 per day, while staff received over 355 text messages during the 
+three days that responding via text message was an option. In all, 42 children were 
+identified as surgery candidates, more than three times the number identified during a 
+traditional media campaign lasting six weeks. The sponsors note that 203 people who did not know 
+anyone with a cleft lip or palate responded, indicating that broadening the campaign to include languages 
+other than English might yield even more promising results.
+According to the Praekelt Foundation, several factors were essential to the campaign’s success. All of the 
+partners involved in the project brought strengths to it, as well as a desire to rigorously track results. The will-
+ingness to change tactics in the middle of the campaign also allowed the sponsors to compare communication 
+methods in order to determine what was likely to work in future campaigns. And perhaps most critically, the 
+partners leveraged the popularity of PCM messages and the experience Praekelt had accumulated in previous 
+campaigns using SocialTxt software.
+24 Identifying the Building Blocks for Sustainable and Scalable mHealth Programs
+Text to Change (TTC)
+Country: Uganda
+Sponsoring Organization and Partners:  
+Celtel, AIDs Information Centre (AIC), Merck, and the Dutch Ministry of 
+Foreign Affairs
+The Project 
+Text to Change (TTC) provided HIV/AIDS awareness via an SMS-
+based quiz to 15,000 mobile phone subscribers during three months in 
+Uganda. TTC was founded with the goal of improving health education 
+through the use of text messaging, which holds the advantages of anonymity and strong uptake among 
+the population. Partnering with the mobile carrier Celtel and the local NGO AIDS Information Centre (AIC), 
+TTC conducted a pilot program from February through April 2008 in the Mbarra region of Uganda, with the 
+objective of increasing public knowledge of and changing behavior around AIDS. The program aimed to 
+encourage citizens to seek voluntary testing and counseling for HIV/AIDS.
+An SMS-based multiple choice quiz was administered to 15,000 Celtel mobile phone subscribers in the rural 
+region of Mbarra. Free airtime was offered to users to encourage participation in the program; this was de-
+termined to be a powerful incentive since users can exchange the airtime with other subscribers as a type 
+of currency.
+The quiz was interactive. When participants gave a wrong answer they received an SMS with the correct 
+answer from the cell phone provider. The uptake rate of the survey was 17.4% and focused on two specific 
+public health areas:
+■ General knowledge about HIV transmission
+■ The benefits of voluntary testing and counseling 
+At the end of the quiz, a final SMS was sent to motivate participants to go for voluntary testing and coun-
+seling at the local health center. Those who went to the center were asked a final question: Was this was 
+the first time they had an HIV test? After testing, participants were requested to leave their mobile phone 
+number so that post-test counseling could be arranged. For the people who came to the health centers 
+through TTC, HIV testing and counseling was free of charge. Initial grants from Merck, the US pharmaceuti-
+cal company, and the Dutch Ministry of Foreign Affairs supported the program launch.
+Text to Change (TTC) provided HIV/AIDS awareness 
+via an SMS-based quiz to 15,000 mobile phone 
+subscribers during three months in Uganda
+Forge Strong Partnerships
+Successful mHealth projects require the participation of partners with expertise in the fields of technology, 
+healthcare, and academia. Validation and testing are key steps in the conception of mHealth programs and this 
+phase typically occurs within a university setting or a technical organization. In order to move to the implementa-
+tion stage, however, it is essential to bring other partners into the project. Dr. Patricia Mechael of the Earth Insti-
+tute notes that “The projects that have been implemented at significant scale have forged strong partnerships, 
+either with a government or a private corporation.” Mechael further affirms that the mHealth field currently finds 
+itself in a place where a number of projects are in the design and testing phase that have not yet made the move 
+to implementation. “As the diverse sectors involved in mHealth continue to collaborate and the corporate and 
+political climate become more supportive we expect to see more projects move into the implementation phase.”
+Identifying the Building Blocks for Sustainable and Scalable mHealth Programs 25
+Set Measurable Goals
+As with any initiative, setting measurable goals establish-
+es the barometer that allows mHealth projects to assess 
+success or failure. It builds in the rigor that is required if 
+course corrections are needed during the project. Once 
+achieved, these goals, in turn, form the building blocks 
+for success, allowing the project to move forward with 
+larger implementations and broader partnerships.
+Credit: Text to Change 
+The quiz produced a 40% increase 
+in patients who came in for 
+testing—from 1,000 to 1,400 during 
+a six-week period.
+Objectives and Results
+The quiz had two goals:
+■ Collect information. In particular, the program was able to assess the rate of correct or incorrect answers 
+within certain socio-economic sectors, and pass this information along to UNICEF.
+■ Promote testing and counseling. The quiz notified participants of the location of the nearest testing 
+center. If they stated that they were referred from the quiz, testing was free (there was normally a small 
+charge for testing).
+The quiz produced a 40% increase in patients who came in for testing—from 1,000 to 1,400 during a six-week 
+period.
+In terms of information gathering, a key finding of the survey was that although people were quite knowledge-
+able about issues such as condom use, they did not think that AIDS testing was accurate or anonymous. This 
+was a major finding, in that the population of Uganda had not been surveyed on this question before. TTC was 
+able to pass this along to larger health agencies operating in the region, thereby contributing to the efficacy of 
+existing health programs.
+TTC co-founder Hajo van Beijma notes that “there was initially an element of risk for the funders since this 
+type of project had not been conducted before, but now that we have proven results we have the opportu-
+nity to expand.” TTC is planning a follow-up program in Uganda in January 2009. One of the goals of this next 
+campaign is to promote the safety and effectiveness of the testing center, and therefore specifically encour-
+age testing.
+In this phase, collaboration with local partners will be further strengthened, with the local HIV/AIDS organiza-
+tions submitting questions. Text to Change intends to shorten the duration of the program to four weeks, hop-
+ing to minimize participant drop-out rates, and to include non-English speaking subscribers by enabling them 
+to read SMS messages in their local languages.  
+The pilot saw the sponsoring partners benefit as well: Celtel (now rebranded Zain) reaps benefits not only 
+from a corporate social responsibility (CSR) perspective but also through the promotion of its texting service. 
+The testing center increased the number of tests conducted, placing them in a position to receive expanded 
+funding. 
+26 Identifying the Building Blocks for Sustainable and Scalable mHealth Programs
+Future Plans and Scaling Challenges
+Hajo van Beijma hopes to build upon lessons learned from the pilot. He comments, “After the pilot we 
+saw that our initial program didn’t have a good survey running. In the second round we developed a new 
+survey with Ugandans, and used university students. Their IT knowledge is fabulous. They really know how 
+to program these kinds of software tools in Uganda.”
+The new program in January 2009 will target 30,000 people, and ultimately TTC plans to do a nationwide 
+roll-out. Van Beijma notes, “If we are able to prove that we can send out a large number of questions, that 
+will lay the groundwork for the nationwide program. In the first pilot there were some issues with being 
+able to send out a large number of questions at the same time.”
+Van Beijma cites several critical success factors for scaling Text to Change and similar mHealth projects. 
+These include:
+■ Develop surveys in the numerous local languages. This would make their message more 
+accessible to specific ethnic and social groups. Literacy is also an issue. However, van Beijma notes, 
+“If people do not speak or read English and they get a text message they will ask their neighbor what 
+it means.” 
+■ Secure ongoing funding. Though TTC is more cost effective than many other education pro-
+grams, steady funding will allow for stable operations and growth.
+■ Collaborate with other mHealth organizations. Van Beijma notes that one of the consen-
+sus findings of the recent MobileActive conference in South Africa (October, 2008) is the need to 
+set up a consortium to promote collaboration among mHealth organizations in different developing 
+countries. “The goal is to work with organizations that are doing similar and complementary things in 
+different countries. This way if we move into other countries we will combine strengths, for example, 
+by developing software together.”
+Credit: Text to Change 
+Identifying the Building Blocks for Sustainable and Scalable mHealth Programs 27
+“In order to stop an outbreak and the 
+means of disease transfer, we need 
+to have the information very fast. 
+That’s the only way to prevent the 
+Country: Brazil virus of dengue from circulating.”
+Sponsoring Organization and Partners:  
+Nokia, Amazonas State Health Ministry —Luzia de Melo Mustafa, 
+Health Agent coordinator, Amazonas Brazil
+The Project 
+ 
+In the Amazonas state of Brazil, containing dengue fever is a constant challenge due to heavy rainfall during 
+most of the year, and local methods for storing water in homes—both of which have been shown to promote 
+mosquito breeding. The state health department must warn households constantly about the dangers of be-
+haviors that encourage mosquito proliferation. Despite these difficulties, the state is one of the most efficient 
+at containing the spread of the virus relative to other states in Brazil, due partly to its partnership with Nokia 
+on the Data Gathering mHealth initiative. 
+The Nokia Data Gathering system enables fast and effective data collection, which is essential to containing 
+the spread of the dengue virus. Development of the software began in the first quarter of 2007 and it was 
+piloted in different regions of Brazil during that same year. The Amazonas Health Department undertook the 
+first full implementation of the solution, which began in October 2008.
+Data Gathering allows the creation of customized questionnaires, which are distributed to the mobile phones 
+of health agents in the field. When the field workers finish their surveys, they send the data back to the server 
+via a wireless connection, from which it can be integrated into the organization’s existing systems for imme-
+diate analysis. Data Gathering also provides GPS location information for each record, which would otherwise 
+require dedicated instruments.
+Users report the tool is flexible and easy to use. As Luzia de Melo Mustafa, an Amazonas health agent, af-
+firms, “It’s easier, quicker and more practical. You type it and send it right away, it goes straight to the server. 
+Then the data is consolidated and we can get the result immediately and, consequently, we may take the 
+right actions, what we need to do. The devices are providing us with precision; the information we need to 
+develop [effective responses] in the areas where the infection levels are high.”
+Objectives and Results
+The goals of the project are all about saving time to save lives. Andre, project principal, states “The initial 
+impetus for the project started with a meeting in Brasilia with the federal Ministry of Health where we tried to 
+find a way to use mobile technology to improve current health data surveys being conducted using pen and 
+paper. There was a real need to make the process more agile and more reliable, providing the government 
+with a tool that could ultimately save lives through the use of smartphones.”
+Results of Data Gathering implementation to date are highly encouraging. The project team’s preliminary 
+evaluation has shown that the time spent in data gathering was drastically reduced, and end-user accept-
+ability has been very high so far. Even before the full implementation, more than 400 results were gathered 
+during the tests by a team of 20 field professionals in the course of two days, all with GPS information. Luzia 
+de Melo confirms, “Before we used to wait for one or two months before we could get all the consolidated 
+information. Now, we have it on a daily basis.” As Greg Elphinston, Community Involvement Director for 
+Nokia, elaborates, “If you have to wait two to three months for information in the health context, this can be 
+the difference between life and death.”
+More than 400 results were gathered during the tests by a team of 20 field 
+professionals in the course of two days, all with GPS information. Luzia de 
+Melo confirms, “Before we used to wait for one or two months before we 
+could get all the consolidated information. Now, we have it on a daily basis.”
+28 Identifying the Building Blocks for Sustainable and Scalable mHealth Programs
+Future Plans
+Plans for expansion will be based on a comprehensive evaluation of current work. The immediate growth 
+objective is to broaden the covered areas in the Amazonas state, as well as adding yellow fever and malaria 
+to the list of diseases to be surveyed.
+Project staff cite several critical success factors for Data Gathering and similar projects, including: 
+■ Work closely with local and regional government agencies. The service must respond to 
+the local needs as perceived by local officials. Their support for the project will make implementation and 
+expansion possible.
+■ Maintain a focus on usability. According to Andre Erthal, Head of Community Group at the Nokia 
+Technology Institute, “If the field agents do not see the device as part of their work or have difficulties in 
+using it, it may severely damage the overall success of the implementation. That is one of the reasons 
+why the solution was developed since the beginning with the end user in mind, so we could develop the 
+solution to be as user-friendly as possible.” 
+■ Working in partnership with Nokia, Pan American Health Organization (PAHO), and National Foundation 
+for Indigenous Peoples’ Health (FUNASA), the UNF-VF Technology Partnership will be launching a pro-
+gram called Mobisus in Brazil in 2009, utilizing mobile phones for health data gathering.13  
+Design With the End User in Mind
+“End-user acceptance is one of the critical success factors for the project. If the 
+field agents do not see the device as part of their work or have difficulties in using 
+it, it may severely damage the overall success of the implementation. That is one of 
+the reasons why the solution was developed since the beginning with the end user 
+in mind, so we could develop the solution to be as user-friendly as possible.”
+—Andre Erthal,
+Head of Community Group, Nokia Technology Institute
+Government Support is Critical for Long-term Success
+ 
+The majority of mHealth projects are implemented with seed funding from philanthropic orga-
+nizations such as foundations and multilateral institutions, or as part of a corporate social re-
+sponsibility initiative by a for-profit business. The three case studies highlighted in this report 
+provide proof of concept, and initial positive results. However, all too often, once the initial 
+funding has been exhausted the projects find it difficult to achieve scalability and sustainabil-
+ity, resulting in unintended termination. Ensuring long-term sustainability is a major challenge 
+for mHealth projects. 
+Expert researchers in the public health and eHealth arena are currently examining the 
+sources of sustainability for mHealth projects. In particular, Dr. Adesina Iluyemi, a PhD Can-
+didate at the University of Portsmouth, United Kingdom focusing on sustainable mHealth in 
+developing countries, has noted that mHealth projects are far more likely to be sustainable in 
+cases where buy-in from governmental or public bodies is secured. In this way, the project is 
+institutionalized into existing government health programs and can receive budget attention.
+Dr. Iluyemi notes, “It is very important that a mHealth project have the support of the national 
+or regional government. The majority of mHealth projects are currently funded by interna-
+tional agencies or CSR initiatives of companies. The problem is when the funding runs dry 
+there is no more continuity. In the long term the custodian of the project will be the govern-
+ment. This could be national, local, or regional. During the lifetime of the pilot project it is very 
+important to ensure that the government buys in and that the government sees the benefit 
+so that the project can survive beyond the donor-funded period.” For every mHealth project, 
+therefore, it is critical to ensure that the program is aligned with the strategic goals of the 
+national health system.
+13 http://commitments.clintonglobalinitiative.org/projects.htm?mode=view&rid=211710.
+Identifying the Building Blocks for Sustainable and Scalable mHealth Programs 29
+Open Source Movement: A Building Block for mHealth Success
+A component of sustainability for mHealth programs is building capacity to enable programs to be locally 
+implemented and maintained. The most successful mHealth projects have obviated the need for external 
+consultants and achieved technical self-sufficiency. For many organizations, open source software is a tool 
+for self-sufficiency, as it reduces costs, increases the available pool of programmers, and eliminates the need 
+for outside consultants. It also encourages innovation. 
+Software development costs can be reduced with open source software because there is no need to pur-
+chase licenses. Because local programmers in developing countries are increasingly being trained in open 
+source software, self-sufficiency is promoted. According to Dr. Balcha Masresha of the WHO, open source 
+software is a key variable in the ability of EpiSurveyor, a PDA-based data collection project, to be sustainable 
+and scale up to 20 countries in sub-Saharan Africa. “It is crucial for this kind of project because of existing 
+longstanding experience with the EPIINFO software (freeware developed by the Centers for Disease Control) 
+used in nearly all countries for the management of immunization and surveillance databases and analysis, 
+and because of the inhibitive costs involved in the purchase of proprietary software for the average African 
+user.”
+As Eduardo Jezierski, Vice President of Engineering at InSTEDD states, “Open source allows different proj-
+ects to ‘talk’ to each other. In this way we can pool our very limited engineering resources and say ‘here’s 
+the source code, can you help me with this.’ It is allowing us to create a platform that costs less money from 
+a licensing perspective for the countries running mHealth programs.” Jezierski further notes that “This indus-
+try is at an early stage, and it is very encouraging that people are learning from each other and are sharing 
+source code. It is very rare that an industry starts with this sort of collaboration.”
+Collaborations of this nature are steadily emerging in the mHealth arena—witness the ‘Open Mobile’ Consor-
+tium, which was conceived at the MobileActive08 conference in Johannesburg, South Africa in October 2008 
+and began to take shape in a series of meetings in New York the following month. The organization will focus 
+on developing best practices and standards for the mHealth field. Organizations of this type will pave the way 
+for coordinating the various components of mHealth on a grander scale, bringing the industry to a higher 
+stage of evolution. ■
+“It is crucial for this kind of project because of existing longstanding 
+experience with the EPIINFO software (freeware developed by 
+the Centers for Disease Control) used in nearly all countries for 
+the management of immunization and surveillance databases 
+and analysis, and because of the inhibitive costs involved in the 
+purchase of proprietary software for the average African user.”
+OpenROSA
+ 
+With so many community-based organizations involved in creating mHealth applications and a need for 
+both customization and standardization, it is not surprising that many applications are created in an open 
+source framework. With this in mind, a coalition of community health organizations and health researchers 
+created OpenROSA in 2007. OpenROSA is a consortium that develops “open source, standards-based tools 
+for mobile data collection, aggregation, analysis, and reporting.” With university partners in the United States 
+providing technical expertise and community health professionals in Africa testing and deploying mobile ap-
+plications in the field, multiple organizations are able to share their ideas, data, code, and experiences. 
+As part of this effort, OpenROSA is currently developing JavaROSA, a J2ME implementation intended to 
+run on mobile phones and PDAs. One of the programs using this architecture is CommCare, which is being 
+tested in Tanzania and Uganda by community health workers collecting health data in rural areas. The pro-
+gram was designed to maximize patient data security while remaining simple for workers to use, a difficult 
+balancing act. Participants in the project hope that as CommCare is deployed, it will not only provide better 
+data and improved patient care and service where it is used, but that the lessons from field experience will 
+help perfect the architecture for future projects.
+30 Assessing mHealth and Future Health Needs in Developing Countries
+Incentives
+Credit: ENACKQT
+Understanding the Incentives for Multiple 
+Players: mHealth Value Chain
+One of the most crucial building blocks for successful and sustainable mHealth programs is to forge strong 
+partnerships, particularly across sectors (for-profit, non-profit and public sector). A solid understanding of 
+the needs and interests of these multiple players is required in order to marshal their energy and resources. 
+One method of identifying these incentives is through value chain analysis, or an evaluation of the relationship 
+between all organizations and steps in the commercialization or delivery process of a product or service. The 
+diverse players—spanning from the patient to the equipment vendor—in the mHealth value chain are listed in 
+Table 3.
+Value Chain Models for mHealth: One-way Data Applications
+Figure 5 illustrates the most basic set of relationships and players for mHealth solutions based on a one-
+way messaging application. Examples of this type of application include medication regimen adherence and 
+monitoring programs (e.g., SIMpill, which equips pill bottles with a SIM card and transmitter to track medica-
+tion adherence) and education and support programs based on one- or two-way SMS alerts (FrontlineSMS, 
+a platform for sending and receiving group SMS messages; MyQuestion/MyAnswer, providing education on 
+HIV/AIDS via SMS communications). Figure 5 depicts the dynamics and incentives described in Table 3.
+Player Incentive
+Patient or Citizen (Mobile Subscriber) Improved health outcomes
+Health Care Provider More efficient and effective delivery of health services
+NGO Advance organizational mission, attract funding
+Foundations Advance organizational mission
+Government More efficient health care provision, effective government
+Equipment Provider Device revenue generation, improved brand recognition
+Service Provider Revenue from service fees, increased subscriber base
+Application Solutions Provider Revenue from additional applications license fees
+Content Management Increase in volume of readership or revenue
+Platform Provider Revenue from sales
+Table 3. mHealth value chain players and incentives.
+Understanding the Incentives for Multiple Players: mHealth Value Chain Understanding the Incentives for Multiple Players: mHealth V3a1lue Chain
+Considerations about project scale are crucial in planning for long-term project sustainability. Scale is a prin-
+cipal factor in the incentive structure of many value chain participants. For example, it is unlikely that project 
+leaders will be able to obtain ongoing funding for special device modifications or customized features for small 
+local initiatives, since there is not enough volume to warrant contributions from the platform developer without 
+prohibitive development and maintenance fees. On the other hand, a basic ‘one-way’ messaging service can 
+be an attractive investment even at low volumes, as it significantly reduces costs and improves efficiencies for 
+health care providers, enabling the phase-out of cumbersome manual processes.
+However, at higher levels of scale, a program can represent strategic growth for the larger value chain par-
+ticipants (those on the left side of Figure 5). Partnerships that are rooted in the business interests of for-profit 
+participants have an intrinsic value beyond corporate social responsibility (CSR) and, therefore, are less at risk 
+of being cut off during a downturn in the participant’s overall business.
+Delivery of services, 
+operational efficiencies, 
+program expansion, 
+achieving mission
+Equipment Vendor Doctor/ 
+Health 
+Revenue (short - and long-term), brand
+and business development, opportunities Provider
+for network expansion projects
+Project 
+Management Home Operational efficiencies, Monitoring 
+Application/ healthcare Device
+Solution Developer
+Revenue (short- and long-term)
+Platform Operator
+Mobile
+Revenue (short- and long-term) Subscriber
+Mobile 
+Service 
+Provider
+Revenue (short- and long- 
+term), expanded user base
+Scale Required for Sustainability
+High Medium Low
+Figure 5. Value chain model for ‘one-way’ mHealth applications.
+32 Understanding the Incentives for Multiple Players: mHealth Value Chain
+App 
+Developer
+Hardware Vendors Platform 
+PDAs, Developer
+Handsets
+Regulatory
+Laptops Internet Patient
+Ministry of 
+Health Patient
+Project Owner/ Patient
+Developer 
+Funders Mobile Service Patient
+Provider
+Banks Patient
+Content Providers
+NGOs Content Patient
+Aggregators Health Systems
+EHRs, Other 
+Content Databases
+Developers
+Figure 6. Value chain model for ‘two-way’ mHealth applications.
+Value Chain Models for mHealth: Two-Way Data Applications
+Figure 6 presents a value chain model for a more complex service offering—a two-way data application. 
+Two-way applications are developed for data access programs such as remote data collection, access to 
+client records, access to health information databases, census taking, and electronic health records cre-
+ation and storage (e.g., EpiSurveyor, a survey program for remote data collection). While it is not likely that 
+two-way services will have the volume potential of one-way services, these services appeal to potential 
+participants because they are Internet-based. Participants in the value chain may find incentive to integrate 
+mHealth solutions with growth plans around Internet access, as it is an established functionality on both 
+phones and laptops and the basis for other services (and thus revenue opportunities). 
+The complexity evident in Figure 6 creates opportunities for innovative health solutions, but also a number of 
+challenges, including increased dependence on information technology (IT) infrastructure, the need for more 
+sophisticated application development, greater support service requirements, and a more expensive hard-
+ware component. These higher-level solutions entail higher project cost and participant involvement, which 
+in some cases may be prohibitive.
+With more value chain participants and higher costs of execution, there is less reward (whether in the form 
+of revenue gains or operational efficiencies) to go around. It therefore becomes progressively more difficult 
+to achieve the financial impact that provides momentum and leads to partnership with larger players. These 
+companies’ contributions to the more ambitious initiatives, therefore, will likely be limited to the provision of 
+standard services or as a one-off CSR project. ■
+Understanding the Incentives for Multiple Players: mHealth Value Chain 33
+Health Workers
+A Call for Action
+Credit: UN Foundation/Nothing But Nets
+A Call for Action
+The mHealth field offers opportunities for players across multiple sectors, from governments to businesses 
+to NGOs. By taking a strategic approach, each of these players can advance their organizational objectives 
+while contributing to improved health outcomes on a massive scale.
+Operators
+Combine mHealth with delivery of other mServices
+Operators can capitalize on the popularity of mServices in developing countries to build support for mHealth 
+initiatives. Rapidly growing mServices such as mBanking and mCommerce are proving the viability of mobile 
+technology as a service model. Packaging such services with mHealth solutions creates economies for 
+operators and takes advantage of shared resources and best practices. It also presents a more compelling 
+proposition to end users by serving as a ‘one-stop shop’ for all their needs.
+Leverage handset maker relationships
+Mobile operators have tremendous influence and strong relationships with handset manufacturers, and they 
+should leverage this position to bring to market phones and other devices that can provide the mHealth and 
+other mobile services consumers in developing countries need. Affordability is critical, yet not sufficient to 
+significantly increase the usage of mServices across the developing world. Low-cost phones that incorpo-
+rate simple, innovative features are key to increasing access to mServices and helping to create the scale 
+and market needed to sustain them over the long run.
+34 A Call for Action
+Be pro-active in developing joint solutions
+Operators would do well to pro-actively seek out opportunities to improve health outcomes by initiating  
+public-private partnerships, teaming up with governments and NGOs to address pressing national health  
+issues, and collaborating with software providers to develop targeted healthcare solutions. Joint projects help 
+ensure that key stakeholders are on board, increasing the potential for successful outcomes. 
+Enhance mHealth infrastructure
+Infrastructure conditions vary in the developing world, and operator services geared toward mHealth can 
+enhance their networks to facilitated increased mHealth activity. As Eduardo Jezierski, Vice President of Engi-
+neering at InsteDD notes, “From a technical perspective you need to think not just about use of your network 
+as a way for humans to communicate with humans but also as a way for humans to communicate with sys-
+tems and information. The challenge is to build better application gateways that allow for different organiza-
+tions involved in mHealth to build the applications themselves. 
+For best results, think big and join forces
+Think big. As Jesse Moore of the GSMA states, “Scale is of utmost importance to mobile operators. Opera-
+tors evaluate value-added services, such as mHealth applications, by volume and volume is measured in mil-
+lions of users, not hundreds or thousands. Scale is evaluated on three dimensions: how easy is the service to 
+use by the end users? How easy is it to install and maintain on the operator’s network and how many hand-
+sets can use the service (many handsets in Africa are very basic and hence the service must be designed for 
+simple handsets). Without scale, the mHealth application will be evaluated as a corporate social responsibility 
+initiative and its sustainability will be in question.”
+Partner
+The most effective approach to 
+achieving scale is to join forces 
+with companies that are already 
+offering mServices (mobile money, 
+mobile government services, Design With the End User in Mind
+mobile education), and propose 
+a joint effort on mHealth. NGOs Operators
+bring valuable assets to the ■ Combine mHealth with delivery of other mServices
+table—they understand the local ■ Leverage handset manufacturer relationships
+environment and how to design ■ Be pro-active in developing joint solutions
+services with cultural and behav- ■ Enhance mHealth infrastructure
+ioral patterns in mind. NGOs also 
+have feet on the ground and can NGOs
+■ For best results, think big and join forces
+assist with training and education 
+■ Partner
+around the mServices. In return, 
+■ Provide proof of concept by using the simplest available technology
+they can use the existing technol-
+ogy platform to launch mHealth 
+Policymakers
+initiatives. ■ Define an mHealth policy and provide incentives 
+Funders
+■ Ensure project sustainability
+■ Provide resources for impact assessment
+A Call for Action 35
+Provide proof of concept by using the simplest available technology 
+Many operational mHealth programs build on the broad use of standard cell phones. Early applications pro-
+vide data access and exchange in the form of one-way or basic two-way services. The infrastructure for these 
+applications is already in place through standard telecommunications networks, and, unlike more complicated 
+devices such as PDAs, users have widely embraced the functionality. These simple applications thus have 
+the distinct advantages of lower start-up and operating costs and broader reach, pointing to a clearer path 
+toward financial sustainability.
+Policymakers
+Define an mHealth policy and provide incentives 
+Define what mHealth means within the national health system. mHealth applications can be designed as an 
+integral part of the overall health information system, and policymakers are in a unique position to shape these 
+efforts. One of the most important roles to play in this regard is in driving innovation through incentives. Incen-
+tives can include tax rebates to telecom providers for provision of mHealth services, and funding for universi-
+ties and research institutes studying mHealth solutions.
+Funders
+Provide resources for impact assessment
+Help grantees help themselves. Non-profit and international development funding sources are placing a grow-
+ing emphasis on ‘demonstrable impact.’ As such, mHealth proposals and programs need to be able to specify 
+and measure program success. This is even more critical given the early stage of the mHealth market and 
+the attendant absence of a body of research to which program managers can refer. To mitigate this problem, 
+funders can set aside funds to enable independent researchers to conduct rigorous evaluations of mHealth 
+programs.
+Ensure project sustainability
+Partner with national governments once the initial pilot phase has been completed. By ensuring that mHealth 
+projects are integrated into government health programs, funders gain long-term sustainability and greater 
+health impacts for their projects. Academic researchers affirm the central role of long-term financial planning: 
+Dr. Adesina Ilyumi of the University of Portsmouth states, “Foundations should incorporate sustainable busi-
+ness/financial models beyond donor funding into their strategic plan, and engage with government bodies at 
+the level of implementation in order to ensure that the project continues beyond the seed funding.” ■
+“In today’s mHealth environment there’s a general tendency to try and seek out 
+solutions to the bigger health problems. Easier ‘low-hanging fruit’ are often 
+overlooked. Enhancing basic communications within rural healthcare networks 
+is a classic low-hanging fruit…Communication is fundamental to all NGO 
+activities, particularly those working in the kinds of infrastructure-challenged 
+environments often found in the developing world. Hospital staff often lack basic 
+communication with their community healthcare workers…creating considerable 
+inefficiencies in the use and allocation of scarce resources. We need to ensure 
+that we address some of the simpler mHealth challenges…in parallel with our 
+search for solutions to what we consider to be more complex problems.”
+—Ken Banks, Founder, 
+kiwanja.net
+36 A Call for Action
+Looking Forward
+Credit: UNICEF
+Conclusion: Looking Forward
+The field of mHealth is at an inflection point. With dozens of projects implemented and proven benefits, all 
+trends indicate that investment will continue and mHealth projects will serve an ever wider range of constitu-
+ents in the years ahead. At the same time, technological innovations will bring enhanced benefits, particu-
+larly in the areas of data collection, patient monitoring, and remote diagnostic and treatment support, where 
+application development is already proceeding at breakneck speed. 
+Health needs in the developing world are rapidly evolving to include chronic diseases, in addition to the 
+communicable diseases most often associated with developing countries. mHealth is well-positioned to ad-
+dress these challenges using currently available technology. For example, SMS alerts can be equally useful 
+in raising public health awareness of HIV/AIDS and in ensuring patient adherence to treatments for chronic 
+diseases such as diabetes. Emerging technologies, such as wide-area wireless systems, will also be an as-
+set in tackling today’s health challenges and those of tomorrow.
+As this paper has shown, mHealth projects are operating in a wide variety of developing countries and 
+providing demonstrable impacts. Documented results—in both the developed and developing world—reveal 
+that mobile technology improves the efficiency of healthcare delivery. The next stage in the evolution of 
+the mHealth field is to increase the scope and scale of operations. By learning from examples of similar 
+projects, mHealth organizations will enhance their opportunity to scale and increase their health impact. 
+Case studies detailed in this paper reveal some of the key benefits of mHealth and provide examples of 
+how to structure successful mHealth initiatives. These studies also reveal key building blocks of success for 
+mHealth projects, such as forging strong partnerships and designing with the end user in mind.
+Conclusion: Looking Forward Understanding the Incentives for Multiple Players: mHealth V3a7lue Chain
+The transformational power of mobile networks and devices is helping drive the adoption of scalable and sus-
+tainable health initiatives, particularly in the developing world.  To move forward, leading players in the field of 
+mHealth agree that multi-stakeholder collaboration on a global level is needed.  
+Due to its nascent stage, mHealth presents a tremendous opportunity to create a global facilitation body, 
+enabling maximum innovation and impact on global health.  There is an agreement among participants in 
+this arena on the need for a body to address the many informational and logistical gaps in the mHealth eco-
+systems; from basic market research to best practices; from policy engagement and standards advocacy; to 
+support scalable implementations of mHealth pilot programs through public-private partnerships.
+An alliance cultivating the cross-sectoral and pan regional partnerships and projects necessary to expand the 
+existing embryonic mHealth ecosystem would be a significant step in enabling closer collaboration on mHealth 
+initiatives by multi-sectoral organizations.
+The long-term goal and expectation underlying all these efforts is that mHealth programs will have a significant 
+and lasting positive impact on health outcomes such as reduced infant mortality, longer life spans, and de-
+creased contraction of disease. This report is designed to move the field one step further in the achievement of 
+this ambitious goal by outlining the current state of the field, highlighting mHealth initiatives taking root around 
+the globe, and outlining the building blocks required for successful and sustainable mHealth initiatives. ■
+Credit: DataDyne
+38 Conclusion: Looking Forward
+Compendium
+Credit: UN Mark Garten 
+Compendium of mHealth Projects
+The mHealth project case studies are organized by primary application area, from least specialized (educa-
+tion and awareness) to most specialized (diagnostic and treatment support). Although several projects offer 
+multiple applications, they are categorized here by their more specialized function. 
+Education and Awareness 
+1. Freedom HIV/AIDS Project, India 
+2. Learning about Living, Nigeria
+3. HIV/AIDS Video Distribution by Mobile Phone, Georgia
+4. HIV Confidant, South Africa
+5. Project Masiluleke, South Africa
+6. Text to Change (TTC) – HIV Prevention through SMS Quiz, Uganda 
+Remote Data Collection
+7. Cell-PREVEN, Peru
+8. Community Accessible and Sustainable Health System (Ca:sh), India
+9. Community Health Information Tracking System (CHITS), Philippines 
+10. Dokoza System, South Africa
+11. EpiHandy, Uganda, Zambia, Burkina Faso
+12. EpiSurveyor, Kenya, Uganda, Zambia (and 20 countries in sub-Saharan Africa by end of 2008)
+13. Integrated Healthcare Information Service through Mobile Telephony (IHISM), Botswana
+14. Media Lab Asia – Shared Resource for Rural Health Management and Information Infrastructure, India 
+15. Mobile-Based Primary Healthcare Management System, India 
+16. Map of Medicine for Kijabe Hospital, Kenya
+17. Nokia Data Gathering, Brazil
+18. PDAs for Malaria Monitoring, Mozambique 
+19. Phones for Health, Rwanda
+20. TRACnet, Rwanda
+Compendium of mHealth Projects 39
+Remote Monitoring 
+21. Cell-Life Project, South Africa
+22. Chinese Aged Diabetic Assistant (CADA), China 
+23. Colecta-PALM, Peru
+24. Mashavu: Networked Health Solutions for the Developing World, Tanzania
+25. MediNet Healthcare Management System, Trinidad and Tobago
+26. Mobile Care, Support and Treatment Manager (MCST), India 
+27. Mobile Phones for Health Monitoring, India and the United Kingdom
+28. Phoned Pill Reminders for TB Treatment, Thailand
+29. SIMpill Solution for TB, South Africa
+30. Virtual Health Pet, Brazil
+Communication and Training for Healthcare Workers
+31. Enhancing Nurses Access for Care Quality and Knowledge through Technology (ENACQKT), the Caribbean
+32. HealthLine, Pakistan
+33. Mobile HIV/AIDS Support, Uganda
+34. Primary Healthcare Nursing Promotion Program, Guatemala
+35. Uganda Health Information Network (UHIN), Uganda
+Disease and Epidemic Outbreak Tracking 
+36. Acute Encephalitis Syndrome Surveillance Information System (AESSIMS), India 
+37. Alerta DISAMAR, Peru
+38. FrontlineSMS, Worldwide
+39. GATHER, Uganda
+40. Handhelds for Health, India
+41. Remote Interaction, Consultation, and Epidemiology (RICE), Vietnam
+42. Tamil Nadu Health Watch, India
+Diagnostic and Treatment Support
+43. Cell Phone Applications for Clinical Diagnostic Therapeutic and Public Health Use by Front Line Healthcare 
+Workers, Mozambique
+44. Digital Inclusion Kit in Health and Higher Education, Argentina
+45. Ericsson and Apollo Hospitals Initiative, India 
+46. HIV Mobile Decision Support, South Africa
+47. M-DOK: Mobile Telehealth and Information Resource System for Community Health Workers, Philippines
+48. Mobile E-IMCI, Tanzania
+49. Mobile Telemedicine System, Indonesia
+50. Nacer, Peru
+51. Teledoc - Jiva Healthcare Project, India 
+Credit: DataDyne
+40 Compendium of mHealth Projects
+Education and Awareness
+Credit: RAMP 
+Education and Awareness 
+Project 1: Freedom HIV/AIDS Project
+Country: India
+Sponsoring Organization and Partners: ZMQ Software Systems and Delhi State AIDS Control 
+Society
+Application Area: Education and Awareness
+Communicating information in an engaging, fun way is a critical ingredient of success in mHealth programs. 
+The Freedom HIV/AIDS games—launched in India in December 2005—have effectively enhanced HIV/AIDS 
+awareness by applying this principle. The games are tailored to target users from different social and demo-
+graphic groups and run on more than 100 types of mobile phones, from the most basic to the most sophisti-
+cated. ZMQ Software Systems, the maker of the games, believes the “Play-and-Learn method [the games  
+employ]…makes learning not only exciting and engaging but helps in the enhancement and retention of 
+knowledge.” This belief has been confirmed by the games’ popularity: by March 2006, only four months af-
+ter the launch date, more than ten million games had been downloaded, many by mobile phone subscribers 
+in small cities and towns, the most vulnerable populations.
+Reference sources: 
+http://www.freedomhivaids.in/FreedomHivAids.htm 
+http://www.zmqsoft.com/ 
+Project 2: Learning About Living
+Country: Nigeria
+Sponsoring Organization and Partners: The UK charity OneWorld, ActionAid International Nigeria, 
+Action Health Incorporated, Education as a Vaccine Against AIDS (EVA), Butterfly Works Netherlands, 
+MTN Foundation and Federal Ministry of Education and Federal Ministry of Health, Nigeria
+Application Area: Education and Awareness
+mHealth programs that take a holistic approach to public health challenges often have the best chance of 
+success. Learning about Living, a collaborative pilot program, does this by providing young Nigerians with 
+an anonymous forum to learn about health, AIDS, sex, relationships, personal development, and living skills. 
+The program includes an interactive eLearning tool based on the Nigerian Family Life and HIV/AIDS Edu-
+cation (FLHE) curriculum, as well as the mobile phone-based programs MyQuestion and MyAnswer. With 
+MyQuestion, Nigerian youth can submit questions via text message, a telephone hotline, or online. Ques-
+tions are promptly answered by trained volunteers. MyAnswer sends out a monthly question (e.g., what is 
+the difference between HIV and AIDS?) and selects winners based on responses submitted via the web or 
+text message. The two-year project, launched in February 2007, was piloted in three locations in Nigeria, 
+and saw early success. The service received more than 2,500 questions in the first five days and received 
+10,000 questions in the first month. 
+Reference sources:
+http://blog.whoiswho.de/stories/31872/
+http://mobileactive.org/ask-about-sex-text-teenagers-learn-about-living-nigeria 
+http://uk.oneworld.net/article/archive/9789 
+http://www.comminit.com/en/node/269380/38 
+http://www.learningaboutliving.com/south/about 
+http://www.youtube.com/watch?v=UCHPH-Nx-hc
+Compendium of mHealth Projects 41
+Education and Awareness
+Project 3: HIV/AIDS Video Distribution by Mobile Phone
+Country: Georgia
+Sponsoring Organization and Partners: Save the Children and UNICEF
+Application Area: Education and Awareness
+HIV/AIDS receives little attention in regions such as the Caucasus, where the topic is taboo and many peo-
+ple are uninformed about the disease and its causes. Save the Children and UNICEF collaborated in Janu-
+ary 2008 to produce a 20-minute film about HIV/AIDS aimed at educating young people in Georgia. The film 
+content is compelling, featuring well-known young actors who portray the potential health risks of everyday 
+decisions and behaviors. Taking advantage of the popularity of mobile phones among young Georgians, 
+Save the Children and UNICEF converted the film into a format that is viewable on mobile phones, at which 
+point it was sent to thousands of young people around the country, who were encouraged to pass it on to 
+friends. The project was praised for its novelty and the ease of dissemination. This innovative social distri-
+bution model for health information had never been used in Georgia before, but is sure to be replicated in 
+future initiatives. 
+Reference source: 
+http://www.unicef.org/ceecis/media_8237.html 
+Project 4: HIV Confidant 
+Country: South Africa
+Sponsoring Organization and Partners: Dimagi, Inc. (privately held software company)
+Application Area: Education and Awareness
+In places where HIV-positive status remains a stigma, successful outreach efforts must address people’s 
+privacy and confidentiality concerns. The HIV Confidant project aims to encourage HIV/AIDS testing by 
+ensuring secure distribution of test results through the use of handheld computers and standard encryp-
+tion techniques. Dimagi, a US-based software company, implemented the HIV Confidant project in 2003 at 
+the Africa Centre for Health and Population Studies in South Africa. In the pilot, 45,000 adults were tested 
+for HIV, and results were shared with participants through a secure PDA-based system. People who were 
+tested were provided with a unique ID code, and results were given only to those who provided the code. 
+The HIV Confidant system runs on Palm m500 and Handspring Visor PDAs, but can be adapted for non-
+Palm devices for greater flexibility and extended reach. 
+Reference sources: 
+http://www.dimagi.com/content/hiv-confidant.html 
+http://www.technologyreview.com/computing/13776/?a=f 
+Credit: UN Tim McKulka 
+42 Compendium of mHealth Projects
+Education and Awareness/ Remote Data Collection
+Credit: Vital Wave Consulting
+Project 5: Project Masiluleke
+Country: South Africa
+Sponsoring Organization and Partners: Praekelt Foundation, iTeach, National Geographic, Nokia 
+Siemens Networks, MTN, Ghetto Ruff, Children of South African Legacies, Aricent and frog design
+Application Area: Education and Awareness
+See case study on page 22.
+Reference sources: 
+http://newsvote.bbc.co.uk/2/hi/technology/7688268.stm 
+http://www.poptech.org/project_m/ 
+http://opensourcepbx.tmcnet.com/news/2008/10/24/3730564.htm 
+http://www.frogdesign.com/press-release/poptech-unveils-project-masiluleke.html 
+Project 6: Text to Change (TTC) – HIV Prevention Through SMS Quiz 
+Country: Uganda
+Sponsoring Organization and Partners: Text to Change (TTC), Zain (previously Celtel), the local 
+NGO AIDS Information Centre (AIC), the Dutch Ministry of Foreign Affairs and Merck
+Application Area: Education and Awareness
+See case study on page 25.
+Reference sources: 
+http://www.texttochange.com   
+Interviews with the Text To Change team
+Remote Data Collection
+Project 7: Cell-PREVEN
+Country: Peru
+Sponsoring Organization and Partners: Universidad Peruana Cayetano Heredia (Peru), Imperial 
+College (London), University of Washington (Seattle) and Peru’s Ministry of Health
+Application Area: Remote Data Collection
+When it comes to effective data collection in remote areas of the developing world, less is often more. 
+Cell-PREVEN was created to allow access to real-time data to members of the healthcare ecosystem in 
+Peru. This interactive voice response system enables health workers in the field to collect and transmit data 
+via basic mobile phones. The data is aggregated in a centralized database and made available to medical 
+professionals, and the system is designed to send SMS or e-mail alerts if certain symptoms are recorded. 
+During a three-month pilot test, 797 reports were collected and 374 adverse events were recorded—30 
+severe enough to trigger an SMS alert to a team leader. The pilot researchers believe that Cell-PREVEN 
+demonstrates that “cell phones are a feasible means of collecting and reporting data in real-time in remote 
+communities…it’s not necessary to have the latest Palm Pilot or Tablet PC to create a sophisticated public 
+health surveillance system.”
+Reference sources: 
+http://www.prevenperu.org/preven/ 
+http://www.prevenperu.org/preven/presentation_curioso.pdf  
+http://faculty.washington.edu/wcurioso/cellpreven.pdf 
+Compendium of mHealth Projects 43
+Remote Data Collection
+Project 8: Community Accessible and Sustainable Health System (Ca:sh) 
+Country: India
+Sponsoring Organization and Partners: Media Lab Asia (part of the Ministry of ICT India), Dimagi, Inc. 
+(privately-held software company) and All India Institute of Medical Sciences
+Application Area: Remote Data Collection 
+Large, rural areas in developing countries often lack comprehensive collection of health and population data. 
+In Ballabhgarh, India, Media Lab Asia community health workers used an open source software application on 
+PDAs called Ca:sh—the Community Accessible and Sustainable Health system—to collect medical and demo-
+graphic data. The pilot aimed to improve maternal and child health, and used Compaq iPAQs, which could run 
+a MySQL database capable of storing up to 7,000 records. An evaluation of the five-month pilot “indicated high 
+acceptance of the technology and reduction in total time for entry of data…the [health workers] were satisfied 
+with the user interface and were able to depend entirely on the handheld, replacing their existing paper-based 
+records.” Media Lab Asia now is exploring future applications, such as mobile surveys and disease-case man-
+agement, and has ported the software to less expensive Palm OS-based devices.
+Reference sources: 
+http://www.dimagi.com/content/cash.html
+http://www.medialabasia.in/healthcare.html 
+http://kaash.sourceforge.net/doc/dyd02.pdf 
+Project 9: Community Health Information Tracking System (CHITS)
+Country: Philippines
+Sponsoring Organization and Partners: United Nations Development Program (UNDP) and Asia-Pacific 
+Development Program (APDP)
+Application Area: Remote Data Collection
+Patient education is not the only challenge to improv-
+ing health in the developing world—often health work-
+ers are not equipped with the information they need 
+to best serve patients. The Community Health Infor-
+mation Tracking System, or CHITS, is an open source 
+program that helps to ‘train the trainers’ by facilitating 
+data collection and transmission in rural areas. The 
+system allows community health workers to send 
+SMS messages to report injuries and receive training 
+on health surveillance via their mobile phones. The 
+CHITS open source community believes they should 
+teach local health workers “how to use the informa-
+tion system, [and] allow them to gain insight into their 
+condition…so that they can decide to take action and 
+be proactive in empowering others to do the same.” 
+Like many mHealth projects, CHITS had found that 
+empowering local communities with information and 
+enabling two-way data flows is an effective strategy.
+Reference sources: 
+http://www.stockholmchallenge.se/datacommunity_
+health_informat  
+http://www.apdip.net/resources/case/rnd48/view 
+http://www.chits.ph/wiki/
+indexphp?title=WhatisCHITS 
+http://chits.ph/wiki/index.php?title=CHITS_Manifesto
+Credit: UN UNHCR
+44 Compendium of mHealth Projects
+Remote Data Collection
+Credit: Vital Wave Consulting
+Project 10: The Dokoza System 
+Country: South Africa
+Sponsoring Organization and Partners: Dokoza, State Information Technology Agency (SITA), 
+Centre for Public Service Innovation (CPSI), Centre for Scientific and Industrial Research (CSIR) and the 
+Meraka Institute, with the cooperation of South Africa’s National Department of Health
+Application Area: Remote Data Collection 
+Integrating mobile data collection solutions with existing health information systems is essential to advancing 
+patient care. The Dokoza system in South Africa seeks to meet this need. It is an SMS-based mobile system 
+designed to fast-track and improve critical services to HIV/AIDS and TB patients. Dokoza relies on SIM 
+cards that can be used across networks, which interact with a more complex back-end system that inte-
+grates with existing hospital information systems. The integration with existing infrastructure offers the pos-
+sibility of dramatic improvements to existing patient health information records, and in the 2004 pilot, both 
+doctors and patients found the system to be user-friendly. Challenges encountered during the pilot include 
+the duplication of data entry in instances where paper-based systems already existed, and staff shortages 
+that hampered information collection. Despite the promise of this technology, little new data exists on its 
+impact since the end of the pilot.
+Reference sources: 
+http://www.changemakers.net/node/1014 
+http://www.dokoza.co.za/content/patent.asp 
+http://www.ehealth-connection.org/files/conf-materials/mHealth_%20A%20Developing%20 
+Country%20Perspective_0.pdf  
+Project 11: EpiHandy
+Country: Uganda, Zambia, Burkina Faso
+Sponsoring Organization and Partners: Center for International Health, Norway
+Application Area: Remote Data Collection 
+Health data collection in the developing world is often hampered by the high costs and inefficiencies of 
+traditional large-scale paper-based surveys. The EpiHandy tool, a mobile health data collection and record 
+access program enabled by PDAs, helps to mitigate these issues. EpiHandy has been deployed in many 
+countries and by many different organizations since its first release in 2003, and has been used in multi-
+year studies in Uganda, Zambia, and Burkina Faso. In the Uganda study, mobile phones were deployed to 
+participating clinics and Ministry of Health experts trained the local staff on using the open source JavaRosa 
+software to fill and submit medical forms. The data from the forms was transmitted across the standard ser-
+vices available on the local mobile network. EpiHandy has yielded positive results during a five-year assess-
+ment in which 14 interviewers collected information on breastfeeding habits and child anthropometry in rural 
+areas of eastern Uganda. Outcomes include greatly reduced data entry errors and broad user acceptance, 
+as well as cost effectiveness relative to traditional paper-based surveys, increasing the potential for this 
+already successful solution to scale further. 
+Reference sources: 
+http://www.epihandy.com/ 
+http://www.cih.uib.no/ 
+Compendium of mHealth Projects 45
+Remote Data Collection
+Credit: UN Marco Dormino 
+Project 12: EpiSurveyor
+Country: Kenya, Uganda, Zambia (and 20 countries in sub-Saharan Africa by end of 2008)
+Sponsoring Organization and Partners: The United Nations Foundation and Vodafone Foundation 
+Technology Partnership, the World Health Organization and DataDyne
+Application Area: Remote Data Collection 
+A lack of health data is among the greatest obstacles facing health decision makers. One of the largest and 
+most heralded mHealth projects, EpiSurveyor, developed by non-profit software provider DataDyne, enables 
+public health and development professionals to create, share, and deploy health surveys and other forms 
+on mobile devices. The program runs on free and open software, is easy to use, and can be downloaded 
+to handheld devices to be used by workers in the field. Successful pilot programs in two countries result-
+ed in more timely and accessible healthcare data, making it easier to strengthen district level healthcare 
+programs like immunizations and responses to disease outbreaks. An added benefit is that country health 
+workers become fully self-sufficient in programming, designing, and deploying health surveys, eliminating 
+the need to contract outside consultants. Building upon the success of the initial programs, in fall 2008 the 
+partners announced that with the financial backing of the United Nations Foundation and Vodafone Founda-
+tion, and the scaling and expertise of the WHO and participating ministries of health, the EpiSurveyor-based 
+mHealth program would be rolled out in a further 20 countries in sub-Saharan Africa.
+Reference sources: 
+http://www.datadyne.org/?q=episurveyor/home 
+http://siteresources.worldbank.org/DEVMARKETPLACE/Resources/205097-1099409088482/ 
+Brief-DataDyneEpiSurveyor.pdf 
+http://www.unfoundation.org/global-issues/technology/mobile-health-for-development.html
+Project 13: Integrated Healthcare Information Service Through Mobile 
+Telephony (IHISM)
+Country: Botswana
+Sponsoring Organization and Partners: Microsoft Research Digital Inclusion Program and the 
+University of Botswana
+Application Area: Remote Data Collection
+In those developing countries boasting near-saturation of mobile phones, the potential benefits of mHealth 
+strategies are the greatest. Microsoft and the University of Botswana are taking advantage of mobile tele-
+phony’s broad reach in the country to develop an Integrated Healthcare Information Service (IHISM). The 
+system serves both health workers and the general public. It uses a mobile phone-based software applica-
+tion to allow health workers to capture, store, process, transmit, and access patient records. This results 
+in lower costs and greater efficiency by eliminating redundancy and reducing the amount of time devoted 
+to data input. The public can also turn to IHISM for information: individuals pose frequently asked questions 
+about HIV/AIDS via SMS messages and receive a reply straight to their mobile phones. The project partners 
+have identified several challenges, including localization and customization for illiterate users, but overall feel 
+that the system has the potential to become a valuable tool and take on increased scope.
+Reference sources: 
+http://research.microsoft.com/enus/collaboration/papers/botswana.pdf 
+http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=04195350 
+http://research.microsoft.com/enus/um/redmond/about/collaboration/awards/digitalinclusion_awards.aspx.
+http://research.microsoft.com/enus/um/redmond/events/fs2006/presentations/40_Nyongesa_071806.ppt 
+46 Compendium of mHealth Projects
+Remote Data Collection
+Project 14: Media Lab Asia – Shared Resource for Rural Health 
+Management and Information Infrastructure 
+Country: India
+Sponsoring Organization and Partners: Media Lab Asia (part of the Ministry of ICT, India)
+Application Area: Remote Data Collection 
+The immense size of India, coupled with the fact that approximately 70% of its one billion citizens live in rural 
+areas, makes affordable and flexible health data collection techniques a necessity. India’s Media Lab Asia 
+is working on a project—Shared Resource for Rural Health Management and Information Infrastructure—to 
+improve health data collection and analysis to better serve the needs of its citizens. The mHealth compo-
+nent of this project is focused on data collection. Health workers will use handheld devices to collect a wide 
+array of data in the field—medical history, demographics, immunizations, and instances of disease. This data 
+will be transmitted from the devices to the health information system database, where it can be accessed 
+on a real-time basis. The solution will be implemented initially in the Mallapuram District of Kerala in India. No 
+exact dates for project implementation have been published.
+Reference source: 
+http://www.medialabasia.in/healthcare.html 
+Project 15: Mobile-Based Primary Healthcare Management System
+Country: India
+Sponsoring Organization and Partners: Center for Development of Advanced Computing (CDAC)
+Application Area: Remote Data Collection 
+Primary Health Centers are critical in rural India as they provide direct patient care and link patients to the 
+national health system via referrals. The Center for Development of Advanced Computing (CDAC) is devel-
+oping a ‘Mobile-Based Primary Healthcare Management System’ to strengthen primary health centers in 
+both rural areas and urban slums in India. The CDAC was created in 1988 and is a research and develop-
+ment society overseen by India’s Department of Information and Ministry of Communications and Informa-
+tion Technology. A key component of the Mobile-Based Primary Healthcare Management System will be 
+an SMS-based interface, which will allow patients to transmit information to or receive information from a 
+central database via a basic mobile phone. Medical staff and health officials will be able to access this data-
+base from more sophisticated, web-enabled mobile phones. The project is in the development stage, but is 
+expected to have a broad geographic scope.
+Reference sources: 
+http://www.w3.org/2008/02/MS4D_WS/papers/cdac-mobile-healthcare-paper.pdf  
+http://www.cdacbangalore.in 
+Credit: DataDyne
+Compendium of mHealth Projects 47
+Remote Data Collection
+Project 16: Map of Medicine for Kijabe Hospital
+Country: Kenya
+Sponsoring Organization and Partners: UK National Health Service (NHS), Cisco’s Internet 
+Business Solutions Group (IBSG)
+Application Area: Remote Data Collection
+Doctors in rural areas are often forced to treat individual patients with little or no information about resourc-
+es in neighboring areas, impeding them from providing optimum care. A joint project was launched in Kenya 
+in 2006 to address this problem. The project gives Kenyan health workers at Kijabe Hospital access to the 
+Map of Medicine, a medical information database. The Map of Medicine is a web-based tool that provides 
+comprehensive, up-to-date information on diagnosis and treatment, presented in easy-to-use flowcharts or 
+‘care pathways.’ Doctors participating in the pilot study were given PDAs and access to data on HIV/AIDS, 
+TB, malaria, abdominal pain, diarrhea, and typhoid fever. Results were promising: hospital staff reported that 
+the data access and entry via the PDAs has led to greater efficiency, more time with patients, and reduced 
+administrative costs. 
+Reference sources: 
+http://www.cisco.com/web/about/ac79/docs/wp/Kijabe_Hospital_CS_1009a.pdf 
+http://www.medic-to-medic.com/ 
+Project 17: Nokia Data Gathering
+Country: Brazil
+Sponsoring Organization and Partners: Nokia, Amazonas State Health Ministry
+Application Area: Remote Data Collection 
+Please see case study write up on page 28.
+Reference source: 
+http://www.nokia.com/nokiadatagathering 
+Project 18: PDAs for Malaria Monitoring
+Country: Mozambique
+Sponsoring Organization and Partners: AED-SATELLIFE
+Application Area: Remote Data Collection 
+Malaria is the prime cause of morbidity and mortality in much of sub-Saharan Africa. Prevention and treat-
+ment of the disease are essential to reducing its effects on the population, and the rapid capture of ac-
+curate information is a key part of these efforts. The PDAs for Malaria Monitoring project, based in Mo-
+zambique, deploys PDAs and GPS devices to increase the ability of health workers implementing malaria 
+programs to make informed decisions. The workers use the devices to collect data and transmit it via the 
+GPRS network to a central database. A technical team then maps the geographic data to public health and 
+resource information. Despite some technical challenges, the results of the project have been positive. Us-
+ers are able to use the PDAs without difficulty, new data tools and training programs have been created, 
+and information gathered has helped the Health Ministry to influence and shift the allocation of resources. 
+Reference sources: 
+http://www.crdi.ca/iicr/ev-118198-201_102534-1-IDRC_ADM_INFO.html 
+http://www.idrc.ca/uploads/user-S/12053478761102534_Final_technical_Report--_PDAs_for_Malaria_
+Monitoring.pdf
+Credit: Vital Wave Consulting 
+48 Compendium of mHealth Projects
+Remote Data Collection
+Credit: UN Martine Perret
+Project 19: Phones for Health
+Country: Rwanda
+Sponsoring Organization and Partners: The GSMA Development Fund, the U.S. President’s 
+Emergency Plan for AIDS Relief (PEPFAR), Accenture Development Partnerships, Motorola, MTN and 
+Voxiva
+Application Area: Remote Data Collection 
+Most mHealth programs strive to leverage the growth and penetration of mobile phones in developing 
+countries to strengthen health systems and improve health outcomes. Phones for Health, a large public- 
+private partnership, is pursuing this goal using a system developed and deployed by Voxiva at health 
+ministries in Peru, India, and Rwanda. The program enables health workers in local communities to use a 
+standard handset equipped with a downloadable application to collect and enter health data. Once the data 
+is entered and transmitted, it can be integrated into health information systems and accessed by health of-
+ficials in real time at all levels using the Internet. The system also allows workers to order medicines, send 
+public health alerts, and download treatment guidelines. The Rwanda pilot follows the successful deploy-
+ment of a related system—TRACnet—that manages the country’s HIV/AIDS program. Rollouts are planned 
+for other areas of the health sector in Rwanda and other African countries.
+Reference source:
+http://gsmworld.com/documents/gsma_case_study_mhealth.pdf 
+Project 20: TRACnet
+Country: Rwanda
+Sponsoring Organization and Partners: TRAC (Treatment and Research AIDS Center)—an 
+institution of the Ministry of Health of Rwanda, Voxiva and the US Center for Disease Control and 
+Prevention (CDC)
+Application Area: Remote Data Collection 
+TRACnet is a comprehensive data entry, storage, access, and sharing system created in Rwanda in 2005 
+by the Treatment and Research AIDS Center (TRAC), part of the Rwandan Ministry of Health. The system is 
+used to manage critical information on HIV/AIDS patients and monitor anti-retroviral treatment (ART) pro-
+grams nationwide. Medical personnel can use TRACnet to monitor drug distribution, create and submit re-
+ports electronically, and access the most up-to-date information on HIV/AIDS care and treatment. TRACnet 
+was designed for use with all types of technology and information systems, but today, 90% of the system’s 
+users access it via mobile phones, rather than more expensive and less reliable computers and Internet 
+connections. Results of the gradual deployment and development of TRACnet have been promising. By the 
+end of 2005, 21 medical centers had switched from inefficient paper-based systems to TRACnet’s electronic 
+records system. By 2007, TRACnet covered all 168 health facilities that provide ART treatment, and there 
+were plans to extend the system to 400 more health facilities. Rwanda’s Ministry of Health also hopes to 
+expand the system to cover other chronic illnesses. 
+Reference sources: 
+http://www.un.org/esa/sustdev/publications/africa_casestudies/tracnet.pdf 
+http://www.tracrwanda.org.rw/index1.htm 
+http://www.voxiva.com/casestudies.php?caseid=22 
+Excerpts from “Local Case Studies from Africa” prepared by the Department of Economic and Social 
+Affairs, Division for Sustainable Development, United Nations
+Compendium of mHealth Projects 49
+Remote Monitoring
+Remote Monitoring 
+Project 21: The Cell-Life Project
+Country: South Africa
+Sponsoring Organization and Partners: The University of Cape Town, the Cape Peninsula University 
+of Technology and Cell-Life
+Application Area: Remote Monitoring
+Providing home-based care for HIV/AIDS is critical in the African context, where the stigma attached to the 
+disease often discourages patients from visiting health facilities. Cell-Life, a social enterprise based in South 
+Africa, is developing innovative approaches to home care with their ‘Aftercare’ program. In this program, Af-
+tercare health workers monitor patients whom they visit at home. Workers use data-enabled mobile phones 
+to record information about the patients’ medical status, medication adherence, and other relevant factors. 
+The data are then transmitted via SMS to the central Cell-Life database, where care managers use a web-
+based system to access and monitor incoming patient information. Initial program results were encourag-
+ing, but significant challenges remain. Although South Africa’s mobile penetration rate is high, the system is 
+currently used on only one network using prepaid accounts, and the software is not yet available in any of 
+South Africa’s national languages other than English. Cell-Life is currently working to address these issues 
+so the program can be adopted on a national scale.
+Reference sources: 
+http://update.cell-life.org/accolades/Commonwealth%20Health%20Ministers%20Handbook%20-%20
+June%202006.pdf 
+http://www.wired.com/medtech/health/news/2004/11/65585 
+http://mobileactive.org/files/MobilizingSocialChange_full.pdf 
+Credit: Mobiles in Malawi/Josh Nesbit
+50 Compendium of mHealth Projects
+Remote Monitoring
+Credit: WFP Paulette Jones
+Project 22: Chinese Aged Diabetic Assistant (CADA) 
+Country: China
+Sponsoring Organization and Partners: Microsoft Research, researchers from St Louis University, 
+Old Dominion University, Beijing Medical University and Peking University First Hospital 
+Application Area: Remote Monitoring
+Economic development and the resultant lifestyle changes are contributing to rapidly rising diabetes rates in 
+fast-growing nations such as China. To counter this trend, Microsoft Research and a group of researchers 
+from several universities and Chinese medical centers are developing a smartphone-based self-manage-
+ment and support system for elderly diabetics in China. The project will use smartphones to send elderly 
+diabetics recommendations and guidelines related to physical activity, glucose and blood pressure monitor-
+ing, weight measurement, and diet. Patients will be trained to enter and send data on glucose levels, and 
+doctors will be able to track patient data and graphically display data for patients. The system designers will 
+use a user-centered design approach to develop software that reflects the preferences and capabilities of 
+the targeted population to achieve maximum usability. The project’s software will be available free of charge 
+and will work on PDAs and smartphones that run the Windows Mobile operating system. 
+Reference sources: 
+http://www.cadaproject.com/ 
+http://www.cadaproject.com/data/poster.pdf 
+http://research.microsoft.com/enus/um/redmond/about/collaboration/awards/cellphone-healthcare_
+awards.aspx#ECE 
+http://www.cadaproject.com/data/Smart_Phones_for_Older_Chinese_with_Diabetes.pdf 
+Project 23: Colecta-PALM
+Country: Peru
+Sponsoring Organization and Partners: The University of Washington, the Peruvian University of 
+Cayetano Heredia and two Peruvian health clinics (Via Libre and Impacta)
+Application Area: Education and Awareness, Remote Monitoring 
+Patient-based mHealth strategies must have patient buy-in to succeed. Colecta-PALM, an open source, 
+secure web-based application that delivers Spanish-language surveys via audio on PDAs, was designed to 
+ensure patient buy-in. A pilot test of this technology was conducted with HIV/AIDS patients in Peru. The pa-
+tients used PDAs to enter and submit information regarding their ART adherence and behaviors that could 
+potentially lead to additional HIV transmission. Patients’ medicine compliance and behaviors were assessed 
+and different types of feedback were provided depending on the user’s risk profile. Of the 31 patients 
+tested, 27 (74%) reported openness to using PDAs for HIV treatment support. The researchers in this study 
+believe that these results “suggest that PDAs may be a culturally appropriate way to support ART adher-
+ence and safer sex for PLWHA [people living with HIV/AIDS]. Use of tools such as PDAs among PLWHA in 
+some resource-constrained settings may be acceptable and can build on existing use patterns.”
+Reference sources: 
+http://colectapalm.org/ 
+http://faculty.washington.edu/wcurioso/emulator/e/Poster_Colecta_Palm_07.pdf 
+http://faculty.washington.edu/wcurioso/kurth_amia_2007.pdf 
+Compendium of mHealth Projects 51
+Remote Monitoring
+Credit: DataDyne 
+Project 24: Mashavu: Networked Health Solutions for the Developing 
+World 
+Country: Tanzania
+Sponsoring Organization and Partners: Pennsylvania State University and Ideablob.com
+Application Area: Remote Monitoring 
+Lack of sustained, regular care for children is often responsible for the spread of preventable diseases in 
+the developing world. The ‘Mashavu: Networked Health Solutions for the Developing World’ project was 
+initiated by students at Pennsylvania State University to tackle this challenge through mobile solutions. 
+Mashavu (which means ‘chubby-cheeked’ in Swahili) is a computer-based system that enables doctors 
+to connect with children in developing countries via mobile phones. Essential medical data (e.g., height, 
+weight, blood pressure, and lung capacity) are collected at Mashavu stations in developing communities 
+and sent by mobile phone to a remote server. Medical professionals can then ‘electronically adopt’ children 
+by logging on to a web portal to monitor the children’s health, provide feedback or advice to the child’s 
+caregivers, and collect health statistics. The student team from Pennsylvania State University is working with 
+the Mount Meru Peak School and Good Hope orphanage in northern Tanzania to pilot test the system. 
+Reference sources: 
+http://live.psu.edu/story/29485 
+http://www.ideablob.com/ideas/1528-Mashavu-Networked-Health-Solu 
+Project 25: MediNet Healthcare Management System 
+Country: Trinidad and Tobago
+Sponsoring Organization and Partners: Microsoft Research and University of the West Indies 
+Application Area: Remote Monitoring
+The Caribbean is a region with very poor healthcare facilities, but a comparatively strong cellular phone 
+infrastructure. Microsoft Research has provided a grant to professors at the University of the West Indies to 
+create a mobile phone-based healthcare management system, to be deployed first in Trinidad and Tobago, 
+followed by a broader regional rollout. The long-term goal is to build a network that integrates medical re-
+sources and promotes the sharing of medical information and expertise. The healthcare management sys-
+tem, ‘MediNet,’ will target diabetes and cardiovascular disease. The system is designed to relay information 
+from patient monitoring devices to a central server via a cellular network. At the server, a data reasoning 
+engine extracts all relevant information and alerts medical officers about severe cases. It also recommends 
+appropriate responses such as a follow-up visit or phone call. The system can also send suggestions di-
+rectly to patients via SMS message or pre-recorded voicemail.
+Reference source: 
+http://research.microsoft.com/enus/um/redmond/about/collaboration/awards/cellphone-healthcare_
+awards.aspx#EAD  
+52 Compendium of mHealth Projects
+Remote Monitoring
+Project 26: Mobile Care, Support and Treatment Manager (MCST)
+Country: India
+Sponsoring Organization and Partners: ZMQ Software Systems
+Application Area: Remote Monitoring
+Keeping HIV/AIDS patients informed of their health status is one of the most basic ways of empowering 
+them. With that in mind, the Mobile Care, Support and Treatment Manager (MCST) is being created by ZMQ 
+Software Systems as an attempt to use technology to improve the logistical challenges of HIV/AIDS man-
+agement in developing countries. The solution is conceived as a global model, but ZMQ admits that localiza-
+tion and adaptation to rural, urban, and peri-urban contexts will be a challenge. MCST will enable HIV/AIDS 
+patients to use their mobile phones to access their lab tests and medical history reports. They can also use 
+the system for nutritional planning, create alerts to remind them to take their medication, and connect with 
+a help line. In addition, the solution can be used in ‘Group Management’ mode for organizations that work 
+with HIV/AIDS patients. ZMQ is currently seeking partners for this project. 
+Reference sources: 
+http://www.freedomhivaids.in/mCST.htm  
+http://www.zmqsoft.com/ 
+Project 27: Mobile Phones for Health Monitoring
+Country: India and the United Kingdom
+Sponsoring Organization and Partners: The UK – India Education and Research Initiative (UKIERI), 
+Loughborough University, Indian Institute of Technology, All India Institute of Medical Sciences, Aligarh 
+Muslim University and London’s Kingston University
+Application Area: Remote Monitoring
+Long considered a ‘rich country disease,’ diabetes is spreading rapidly in the developing world as afflu-
+ence changes traditional dietary habits. In 2005, engineers at Loughborough University developed a mo-
+bile phone health monitoring system to monitor diabetes and other diseases. The system allows doctors 
+to use mobile phone networks to monitor up to four key medical signals (electrocardiogram heart signal, 
+blood pressure, levels of blood glucose, and oxygen saturation levels) from patients who are on the move. 
+Engineers from the UK and India are working to ‘miniaturize the system’ so that sensors are small enough 
+to be carried by patients while procuring the necessary biomedical data. In Britain, the solution will be used 
+to improve healthcare delivery, while in India it will connect ‘centers of excellence’ to hospitals and clinics in 
+more remote areas. Over the next three years, clinical trials will occur in both the United Kingdom and India.
+Reference sources:
+http://www.lboro.ac.uk/service/publicity/newsreleases/2007/09_health_monitor.html 
+http://www.ukieri.org/docs/ukieri-awards-details-2007.doc   
+Project 28: Phoned Pill Reminders for TB Treatment
+Country: Thailand
+Sponsoring Organization and Partners: The Chiang Mai Public Health Department
+Application Area: Remote Monitoring
+The province of Chiang Mai in northern Thailand has a high number of patients with TB—a major cause of 
+death in much of the developing world. A prime reason for high TB mortality rates is the failure of patients 
+to take their medications on a regular basis. To combat this trend, the Chiang Mai Public Health Department 
+piloted a program involving 60 TB patients who were provided with mobile phones that could only receive 
+incoming calls. Patients then received daily reminder calls to take their medication. Dr. Surasing Visrutarana, 
+Chief Provincial Health Officer, noted that during a three-month pilot in 2007 the drug-taking consistency 
+rate for the patients was over 90%, a significantly higher rate of successful treatment than that observed in 
+the province’s standard TB treatment program. The project was not only effective but inexpensive, with a 
+cost of just 100 baht ($3) per person. 
+Reference sources: 
+http://listmanager.bps-lmit.com/read/messages?id=49295 
+http://nationmultimedia.com/2007/01/28/national/national_30025286.php 
+Compendium of mHealth Projects 53
+Remote Monitoring
+Credit: Vital Wave Consulting
+Project 29: SIMpill Solution for TB
+Country: South Africa
+Sponsoring Organization and Partners: SIMpill and Tellumat 
+Application Area: Remote Monitoring 
+Reminders to take daily medication are an effective means to ensure drug regime adherence, which is criti-
+cal for diseases like TB, where 99% of those infected can be cured with proper medication compliance. The 
+SIMpill solution is designed to help ensure compliance. SIMpill works by equipping a pill bottle with a SIM card 
+and transmitter. When the pill bottle is opened, an SMS message is sent to a designated healthcare worker. 
+If the pill bottle is not opened when expected, the patient gets a text message reminder to take the medica-
+tion. If the patient then fails to comply, the health worker is prompted to call or visit to encourage the taking 
+of medication. A 2007 pilot in South Africa to test the system’s efficacy yielded impressive results. The pilot 
+showed that with SIMpill, 90% of patients complied with their medication regime, compared to the typical 22 
+to 60% compliance rate without the system. The solution is now available worldwide. 
+Reference sources: 
+Paton, C. Thinking in the box. Financial Mail. 19 September 2008. Retrieved via Factiva.
+http://www.SIMpill.co.uk
+http://free.financialmail.co.za/innovations/07/0302/minn.htm
+http://www.itweb.co.za/sections/computing/2005/0501241215.asp?S=IT%20in%20Healthcare&A=ITH&O=TE 
+Project 30: Virtual Health Pet
+Country: Brazil
+Sponsoring Organization and Partners: VIDATIS and the Atech Foundation
+Application Area: Remote Monitoring 
+Virtual Health Pet has taken advantage of the popularity of the Japanese Tamagotchi virtual pets to improve 
+medication compliance and patient health in Brazil. The virtual health pet, a J2ME software application running 
+on the patient’s mobile phone and linked to an electronic health records system, interacts with the patient 
+to remind them to take their medications on time and to monitor their overall health. Alerts are sent out to 
+caregivers or emergency services if the patient does not respond to its pet’s messages in a timely manner. 
+Because the software is linked to an electronic health records system, the Virtual Health Pet is able to both 
+collect patient data and to provide the patient with near real-time information from their medical team. The 
+Virtual Health Pet won a Special Jury Award at Simagine 2006, but it is uncertain whether the application is 
+currently being deployed in the field.
+Reference sources: 
+http://developers.sun.com/champions/nardon.html 
+http://www.tridedalo.com.br/fabiane/index.htm 
+54 Compendium of mHealth Projects
+Communication and Training for Health Care Workers
+Communication and Training for Healthcare Workers
+Project 31: Enhancing Nurses Access for Care Quality and Knowledge 
+through Technology (ENACQKT)
+Country: The Caribbean
+Sponsoring Organization and Partners: The International Development Research Centre (IDRC) 
+and the University of Saskatchewan
+Application Area: Communication and Training for Health Care Workers
+In order for health workers to provide effective patient care, access to timely information is essential. In the 
+Caribbean, nurses often lack basic resources, work remotely, and are isolated, which makes data shar-
+ing challenging. Enhancing Nurses Access for Care Quality and Knowledge through Technology (ENAC-
+QKT) empowers nurses by providing training and other services via PDAs. A key component of ENACQKT 
+is building nurses’ capacity through technology instruction, giving them the means to access healthcare 
+applications through the PDAs provided by the program. This enhances professional development and 
+improves quality of care for patients. Project principals report several achievements, including time savings 
+for nurses and greater access to information, particularly in the areas of medication and treatment support. 
+The project also reports success in imparting a sense of empowerment to the nurses in terms of speaking 
+to physicians about conditions, treatments, and diagnosis.
+Reference source: 
+Interview with Pammla Petrucka, Associate Professor with the College of Nursing, University of 
+Saskatchewan
+Project 32: HealthLine
+Country: Pakistan
+Sponsoring Organization and Partners: Microsoft Research, Carnegie Melon University (CMU), Aga 
+Khan University (Karachi) and Health and Nutrition Development Society (HANDS)—a Pakistani NGO 
+Application Area: Communication and Training for Health Care Workers
+One of the chief obstacles to mHealth solutions is lit-
+eracy, or the lack thereof. To ensure that semi-literate 
+community health workers have access to critical infor-
+mation, Microsoft and others are developing HealthLine, 
+a speech recognition-based information system. The 
+solution is based on Microsoft Speech Server2007 beta 
+software. The menu-driven program can be accessed via 
+landlines or mobile phones. Callers specify a topic (or dis-
+ease) and are walked through a set of menus until they 
+reach the information they are seeking. The information 
+is then read to them—from a prerecorded message—
+in their local language. HealthLine was tested among a 
+group of low-literate maternal and child health community 
+health workers in Pakistan in mid-2007. It will continue to 
+be tested in the field with the results informing new fea-
+tures, functionality, and enhancements. Ideally, the solu-
+tion will be scaled across Pakistan for maximum impact.
+Reference sources: 
+http://www.cs.cmu.edu/~healthline/flash/detail/ 
+http://research.microsoft.com/enus/um/redmond/
+about/collaboration/awards/digitalinclusion_awards.
+aspx#Speech_Interfaces_for_Health_Information-
+Access
+http://research.microsoft.com/enus/collaboration/ Credit: Vital Wave Consulting
+papers/carnegie_mellon.pdf 
+Compendium of mHealth Projects 55
+Communication and Training for Health Care Workers
+Credit: DataDyne
+Project 33: Mobile HIV/AIDS Support
+Country: Uganda
+Sponsoring Organization and Partners: Trinity College Dublin
+Application Area: Communication and Training for Health Care Workers
+‘Training the trainers’—providing healthcare workers in the field with accessible and reliable medical informa-
+tion—is essential for improved health delivery in the developing world. Trinity College Dublin (TCD) is collabo-
+rating with the medical school at Makerere Hospital in Kampala, Uganda to explore the potential advantages 
+of using PDAs in HIV/AIDS care and treatment. The project aims to provide high-quality medical information 
+and advice to healthcare workers in Uganda and throughout sub-Saharan Africa. After an initial needs as-
+sessment, the project leaders—a group of academic clinicians from TCD, the Dublin Institute of Technology, 
+and North American universities—developed a prototype of a training program on the clinical care, research, 
+and prevention of HIV/AIDS. The program was to be evaluated by a select group of healthcare workers in 
+the field. Results of the testing and evaluation have not yet been published.
+Reference source: 
+http://www.universitiesireland.ie/pubs/report0306.pdf   
+Project 34: Primary Healthcare Nursing Promotion Program
+Country: Guatemala
+Sponsoring Organization and Partners: The National School for Nurses of Coban (Guatemala), 
+Canadian Agency for International Development and the Centre for Nursing Studies (Newfoundland, 
+Canada)
+Application Area: Communication and Training for Health Care Workers
+Nursing shortages, especially in rural areas, are common in developing countries (and increasingly in devel-
+oped ones as well). The National School for Nurses of Coban in Guatemala created the Primary Healthcare 
+Nursing Promotion Program to increase the number of nursing personnel available to work in rural areas. 
+One component of this program is a virtual nursing course, which is taught via a combination of telephone 
+and two-way data communications. Of the first virtual nursing course graduates in 2004, a subset became 
+‘community tele-facilitators.’ These tele-facilitators were each given a mobile (or satellite) phone, which 
+they used to link their rural communities with health specialists in urban areas. The pilot test was launched 
+in 2005 in five municipalities in northern Guatemala and covered 150 communities with a total population of 
+45,000. At this time, there appears to be continued progress on the virtual nursing training component, but 
+it is not certain whether the tele-facilitator program continued after the initial pilot test.
+Reference sources: 
+http://www.mspas.gob.gt/ 
+http://www.enecav.edu.gt/ 
+56 Compendium of mHealth Projects
+Communication and Training for Health Care Workers
+Project 35: The Uganda Health Information Network (UHIN)
+Country: Uganda
+Sponsoring Organization and Partners: Uganda Chartered HealthNet (UCH), AED-SATELLIFE, 
+Makerere University Medical School, Connectivity Africa and the International Development Research 
+Center (IDRC) of Canada
+Application Area: Communication and Training for Health Care Workers
+Uganda has become a laboratory for efforts to improve two-way data flows between health workers and 
+government officials, and the Uganda Health Information Network (UHIN) is a prime example of these ef-
+forts. UHIN uses PDAs to collect data and to provide continuing medical education services to physicians. 
+The PDAs send and receive messages via infrared beams that send the signals to battery-operated access 
+points. The program was launched in 2003 and currently 350 PDAs are being used. They are connected 
+to 20 access points in different districts of Uganda. Positive impacts were recorded early on: “The network 
+delivered a 25% savings in the first 6 months...health workers using the handheld technology now have bet-
+ter job satisfaction and [it] is contributing to staff retention...” The UHIN is planning an analysis to determine 
+if the project has had an impact on health outcomes such as healthcare planning, resource allocation, and 
+delivery. 
+Reference sources:
+http://unpan1.un.org/intradoc/groups/public/documents/UN/UNPAN030003.pdf 
+http://pda.healthnet.org/ 
+http://mobileactive.org/files/MobilizingSocialChange_full.pdf 
+Credit: DataDyne
+Compendium of mHealth Projects 57
+Disease and Epidemic Outbreak Tracking
+Credit: DataDyne
+Disease and Epidemic Outbreak Tracking 
+Project 36: The Acute Encephalitis Syndrome Surveillance Information 
+System (AESSIMS)
+Country: India
+Sponsoring Organization and Partners: Voxiva, Program for Appropriate Technology in Health 
+(PATH) and the Government of Andhra Pradesh
+Application Area: Disease and Epidemic Outbreak Tracking
+Every year, more than two million children die from preventable diseases in the developing world, and mil-
+lions more are left impaired. One such culprit, Japanese Encephalitis, a devastating mosquito-borne illness, 
+can be prevented by a vaccination, but it is not always administered due to its high cost and a lack of data 
+on the disease’s true prevalence and impact. To begin to tackle this problem, the Government of Andhra 
+Pradesh, where the disease is endemic, pilot tested an Acute Encephalitis Syndrome Surveillance Informa-
+tion Management System (AESSIMS) in one of its districts. Local health workers used mobile phones (or 
+web-based technologies) to report incidences of the disease to the AESSIMS system. Decision makers 
+could access and analyze this data in real time via a variety of tools, including GIS-based maps. It was en-
+visioned that if the pilot test were a success, the AESSIMS system could be rolled out across India and into 
+other Asian countries. There is no evidence yet, however, that this project was either scaled up or extended.
+Reference sources: 
+http://unpan1.un.org/intradoc/groups/public/documents/UN/UNPAN030003.pdf 
+http://www.voxiva.com/casestudies.php?caseid=21 
+58 Compendium of mHealth Projects
+Disease and Epidemic Outbreak Tracking
+Project 37: Alerta DISAMAR
+Country: Peru
+Sponsoring Organization and Partners: The US Navy, the Peruvian Navy and Voxiva 
+Application Area: Disease and Epidemic Outbreak Tracking
+When disease outbreaks occur, timely transfer of information is of the essence. Alerta DISAMAR is a dis-
+ease surveillance system, based on Voxiva technology, deployed by the Peruvian Navy with support from 
+the US Navy. The system’s strength lies in its ‘multi-platform flexibility,’ which allows users to transmit or 
+access data through multiple technologies, including mobile phones and the Internet. Alerts of disease out-
+breaks are also sent via multiple mechanisms (text messages, voice mail, and e-mail). An evaluation of the 
+project conducted in 2003 found that within the first year of deployment, Alerta DISAMAR “rapidly improved 
+disease reporting, allowed officials to obtain quality data in real time, and, most importantly, facilitated im-
+proved response to disease outbreaks in a remote region.” Since its launch, the system has reported more 
+than 80,500 health events over a wide range of medical problems, including diphtheria, yellow fever, snake 
+bites, diarrhea, and acute respiratory infections.
+Reference sources: 
+http://www.thepresidency.gov.za/learning/cell_tech4.pdf 
+http://www.govhealthit.com/online/news/94946-1.html  
+http://revision.dev.voxiva.net/news/121603.asp  
+Project 38: FrontlineSMS
+Country: Worldwide
+Sponsoring Organization and Partners: kiwanja.net, the MacArthur Foundation and the Open 
+Society Institute 
+Application Area: Education and Awareness, Remote Data Collection, and Disease and Epidemic 
+Outbreak Tracking
+One of the largest and most ambitious mHealth programs in the world is FrontlineSMS. FrontlineSMS is a 
+PC-based software application used for sending and receiving group SMS messages. It allows NGOs to 
+run awareness-raising campaigns and competitions, and carry out text-based surveys, or to simply keep in 
+touch with fieldworkers and supporters. FrontlineSMS gives access to ‘bulk’ SMS technology designed spe-
+cifically with the NGO sector in mind. Although other bulk SMS systems do exist, almost all require reliable 
+Internet connectivity—not an option in many developing countries. FrontlineSMS does not require an Internet 
+connection and works with any GSM network. The software communicates via a mobile phone or modem, 
+which can be attached to a computer with a USB cable. Users are encouraged to share views, experiences, 
+and ideas in an online forum and to provide feedback for future versions of the product. 
+FrontlineSMS has been used for many healthcare campaigns worldwide including:
+Africa-wide: Reporting and monitoring avian flu outbreaks
+Benin: Sending health alerts to young people about HIV/AIDS, TB, and malaria 
+Botswana: Coordinating a blood donation program 
+Ecuador: Running surveys among rural healthcare workers and radio listeners
+Malawi: Coordinating healthcare workers and collecting data in the field
+South Africa: Providing HIV/AIDS information services to teachers
+Tanzania: Tracing patients who fail to keep clinic appointments and sending patient reminders 
+Uganda: Aiding community-based healthcare in rural communities 
+Reference sources: 
+http://www.frontlinesms.com/who/ 
+http://mobilesinmalawi.blogspot.com
+http://wiki.mobiles.tacticaltech.org/index.php/FrontlineSMS 
+Compendium of mHealth Projects 59
+Disease and Epidemic Outbreak Tracking
+Project 39: GATHER
+Country: Uganda
+Sponsoring Organization and Partners: Dimagi, Inc. (privately held software company), AED-
+SATELLIFE and the Rockefeller Foundation
+Application Area: Disease and Epidemic Outbreak Tracking
+Achieving data and device interoperability is one of the central challenges in improving data collection in 
+developing countries. GATHER is a consortium that has developed a set of tools that enable data entry 
+from a broad range of devices, including desktops, laptops, telephones, PDAs, GPS systems, and bar-code 
+scanners. GATHER’s first field test is currently taking place in Uganda with the collaboration of the Ugandan 
+Ministry of Health. Weekly disease surveillance data for 20 health clinics is being collected by mobile phone 
+and sent to a GATHER server located at the Health Ministry’s Department of Epidemiology. The results of the 
+Ugandan field test will inform future phases of GATHER development. The developers hope the technology will 
+be ready for broader deployment by late 2009.
+Reference sources: 
+http://www.gatherdata.org/ 
+http://www.dimagi.com/content/gather.html 
+Project 40: Handhelds for Health
+Country: India
+Sponsoring Organization and Partners: St. John’s Medical College (Bangalore), Indian Institute of 
+Management (Bangalore) and Encore Software
+Application Area: Disease and Epidemic Outbreak Tracking
+Disease outbreaks often start in small clusters. Technology can play a crucial role in quickly detecting and 
+containing initial outbreaks so that broader spread of communicable disease can be prevented. In India, 
+Shashank Garg and Dr. Isha Garg have created Handhelds for Health, a social enterprise that is developing an 
+open source disease surveillance system. With this system, health workers will be able to use mobile devices 
+to collect, validate, and transmit data to a centralized server. The server will be accessible to resident experts, 
+who can use the real-time data to rapidly identify disease trends and make informed public health decisions. 
+Handhelds for Health will also be able to track non-communicable diseases, such as diabetes, that require 
+continual medical attention and follow-up. The founders further hope to use the solution to collect and trans-
+mit the data required for large, community-based, longitudinal studies of diseases and other health issues. 
+Reference source: 
+http://handheldsforhealth.org/ 
+Project 41: Remote Interaction, Consultation, and Epidemiology (RICE)
+Country: Vietnam
+Sponsoring Organization and Partners: Microsoft Corporation, Thayer School of Engineering at 
+Dartmouth College and the National Hospital of Pediatrics (Hanoi)
+Application Area: Disease and Epidemic Outbreak Tracking
+ 
+Rural locales in China and Southeast Asia have been identified as potential high-risk areas for SARS and avian 
+influenza transmission. The Remote Interaction, Consultation, and Epidemiology (RICE) telemedicine system 
+will include a disease tracking component to facilitate the early detection of such communicable diseases. 
+Through mobile technology, RICE will also enable “remote medical consultation, epidemiological surveillance 
+and access to medical knowledge in regions of the world without access to computers or the Internet.” Most 
+of the interactions among the rural clinics, regional hospitals, and national hospitals will be conducted via 
+smartphones. A pilot test of the RICE solution was conducted in March 2007 in Vietnam. Volunteers from Dart-
+mouth tested the connection between clinics and hospitals in rural areas and the National Hospital of Pediat-
+rics (NHP) in Hanoi. The researchers also investigated the information needs of rural clinics to inform continu-
+ing development of the solution.
+Reference sources: 
+http://media.americantelemed.org/conf/2007/concurrent.htm#t3d 
+http://dartmed.dartmouth.edu/summer07/pdf/vs_hanoi.pdf 
+60 Compendium of mHealth Projects
+Disease and Epidemic Outbreak Tracking
+Project 42: Tamil Nadu Health Watch 
+Country: India
+Sponsoring Organization and Partners: Voxiva
+Application Area: Disease and Epidemic Outbreak Tracking
+Following the devastating 2004 tsunami, the US-based technology company Voxiva deployed a phone- and 
+web-based data collection and disease surveillance system in India’s hard-hit Tamil Nadu state. The ‘Health 
+Watch’ program, launched in May 2005, makes use of existing communications infrastructure (i.e., mo-
+bile phones, fixed-line phones, and the Internet) to allow health workers in remote areas to report disease 
+incidence data to health officials in real time. The program also allows health professionals in distant medi-
+cal centers to quickly analyze and share information and resources, and to adequately respond to specific 
+health-related questions. For the Tamil Nadu project, over 300 primary health center doctors were trained 
+by Voxiva. The interactive training sessions featured simple, easy-to-use bilingual manuals. Training was 
+coordinated with local authorities so that disease surveillance and outbreak response protocols were pro-
+moted and reinforced.
+Reference sources: 
+http://unpan1.un.org/intradoc/groups/public/documents/UN/UNPAN030003.pdf 
+http://news.asiaone.com/News/the%2BStraits%2BTimes/Story/A1Story20080627-73159.html 
+Credit: DataDyne
+Compendium of mHealth Projects 61
+Diagnostic and Treatment Support
+Diagnostic and Treatment Support
+Project 43: Cell Phone Applications for Clinical Diagnostic 
+Therapeutic and Public Health Use by Front Line Healthcare Workers
+Country: Mozambique
+Sponsoring Organization and Partners: Microsoft Research, Department of Information Systems 
+and the University of Melbourne
+Application Area: Diagnostic and Treatment Support
+Despite being one of the world’s poorest countries, Mozambique has extensive cellular network coverage 
+and a high percentage of health workers who own mobile phones. This project, supported by Microsoft 
+Research, aims to take advantage of Mozambique’s ‘wired’ reality. The project principals, researchers from 
+the University of Melbourne, have created a suite of applications that can run on standard mobile phones. 
+The applications provide Mozambican health workers with diagnostic and analytical tools including refer-
+ence material in the phone’s memory, a calculator for determining drug dosage, and a program for analyz-
+ing inputs from medical sensors (e.g., low-cost pulse oximeter probes or a simple electrocardiogram). The 
+project runs from March 2008 to March 2009 and will conclude with an evaluation of the impact and efficacy 
+of the applications suite.
+Reference sources: 
+http://research.microsoft.com/en-us/um/redmond/about/collaboration/awards/cellphonehealthcare_
+awards.aspx#E2B
+http://www.ni.unimelb.edu.au/Research%20and%20Activities/Projects/cell.html
+Credit: DataDyne
+62 Compendium of mHealth Projects
+Diagnostic and Treatment Support
+Project 44: Digital Inclusion Kit in Health and Higher Education
+Country: Argentina
+Sponsoring Organization and Partners: University of Buenos Aires, Fundapers (an Argentinean 
+NGO) and the Microsoft Research Digital Inclusion Program
+Application Area: Diagnostic Treatment and Support
+Patients in marginalized areas in both urban and rural Argentina lack access to specialized medical centers, 
+which are often the only sites where vital diagnostic tools are available. Researchers at the University of 
+Buenos Aires are creating a Digital Inclusion Kit in Health and Higher Education (DIKHAE), which will al-
+low smartphones to wirelessly connect to diagnostic tools like electrocardiograms, enabling sophisticated 
+diagnoses to be conducted remotely. The test results can be stored on the smartphone until it is in range 
+of a cellular signal, and then uploaded to a patient records system. A pilot conducted in 2006 received high 
+marks from medical professionals for the system’s usability. Project sponsors also envision that the DIKHAE 
+will be able to connect to X-ray, MRI, and other tools in the future. 
+Reference sources: 
+http://lsc.dc.uba.ar/digital-inclusion 
+http://research.microsoft.com/enus/us/collaboration/papers/buenosaires.pdf 
+Project 45: Ericsson and Apollo Hospitals Initiative
+Country: India
+Sponsoring Organization and Partners: Ericsson and Apollo Telemedicine Networking Foundation 
+(ATNF)
+Application Area: Diagnostic and Treatment Support
+In summer 2008, Ericsson and Apollo Telemedicine Networking Foundation (ATNF) signed a Memorandum 
+of Understanding to “implement telemedicine applications over broadband-enabled mobile networks” in 
+India. The initiative is anticipated to both decrease costs and improve health care outcomes, particularly for 
+rural populations. The project specifics have not yet been announced, but mHealth will play a central role. 
+According to the Chairman of Apollo Hospitals Group: “With the availability of wireless technology, mobile 
+health will be integrated into the healthcare delivery system. The new mantra could well be ‘Healthcare for 
+anyone, anywhere, anytime.’ ” 
+Reference source: 
+http://www.ericsson.com/ericsson/press/releases/20080605-1225191.shtml 
+Project 46: HIV Mobile Decision Support
+Country: South Africa
+Sponsoring Organization and Partners: Dimagi, Inc. (privately held software company), D-Tree 
+International, the Harvard School of Public Health and the Harvard University Program for AIDS (HUPA)
+Application Area: Diagnostic and Treatment Support
+Dimagi and its partners have been working since 2005 on a software program for handheld mobile devices 
+that will help field health workers screen HIV/AIDS patients and determine their medical needs. Dimagi is 
+partnering with the Harvard University Program for AIDS (HUPA) to develop the solution. A three-month pilot 
+program was implemented in several hospitals in Tygerberg, South Africa. For this pilot, health workers were 
+able to use any Windows Mobile 5 device, including most PDA’s and Windows Mobile-based smartphones. 
+The software was designed to be sensitive to local needs, providing support in several local languages and 
+a general user-friendly experience. Data were entered and stored in an embedded MySQL database, and 
+then synchronized with a host computer via Internet or USB connection. Though this project focused on 
+HIV/AIDS screening, the software and devices could be modified to assist with screening for other illnesses, 
+or with triage and diagnosis.
+Reference sources: 
+http://www.dimagi.com/content/hiv-support.html 
+http://www.d-tree.org/index.html 
+Compendium of mHealth Projects 63
+Diagnostic and Treatment Support
+Credit: ENACKQT
+Project 47: M-DOK: Mobile Telehealth and Information Resource 
+System for Community Health Workers
+Country: Philippines
+Sponsoring Organization and Partners: UN Development Programme (UNDP) and the Philippine 
+Council for Health Research and Development (PCHRD)
+Application Area: Diagnostic and Treatment Support 
+In the Philippines, like most island states, many remote communities do not have access to medical spe-
+cialists. Technology may be limited in these areas and although basic mobile communication is common, 
+data services such as Internet access may not be available. M-Dok was designed to allow rural community 
+health workers to use simple SMS technology, with a specially designed graphical user interface, to send 
+diagnosis and treatment information to specialists in urban areas. M-Dok requires a Java-enabled mobile 
+phone with Adobe Acrobat Reader software. The project was given a one-year grant by the UNDP, and part 
+of those funds will be used to develop a network of community health workers and referral physicians for 
+the system. 
+Reference sources: 
+http://www.synapsehealth.com/portfolio.htm 
+http://www.apdip.net/resources/case/rnd54/view 
+http://www.idrc.ca/en/ev-81925-201-1-DO_TOPIC.html 
+64 Compendium of mHealth Projects
+Diagnostic and Treatment Support
+Project 48: Mobile E-IMCI
+Country: Tanzania
+Sponsoring Organization and Partners: Dimagi, Inc. (privately held software company), D-Tree 
+International, the Rockefeller Foundation, WHO and the Jerre D. Noe Professorship 
+Application Area: Diagnostic and Treatment Support 
+Often, health protocols are instituted but implementation falls short due to lack of resources in developing 
+countries. D-Tree International, Dimagi, and other partners conducted a joint study that used PDAs to im-
+prove adherence to the Integrated Management of Childhood Illness (IMCI) protocols in rural Tanzania. The 
+WHO and UNICEF developed the IMCI as part of their strategy of combating some of the most common 
+diseases afflicting children in the developing world. While the IMCI has shown positive results in Tanzania, a 
+lack of adequate supervision, insufficient training, and less-than-rigorous implementation have weakened its 
+potential impact. The project’s research team attempted to address these problems by creating a program 
+called e-IMCI, which runs on a PDA and guides health workers through the IMCI process with step-by-step 
+instructions. The pilot results for e-IMCI were encouraging, suggesting that the technology employed is  
+user-friendly enough for clinicians to use, and that both patient care and caregiver efficiency can be im-
+proved. Larger-scale and long-term studies are needed to bolster this argument, but early indicators are 
+positive.
+Reference sources: 
+http://www.dimagi.com/content/mobile-e-imci.html 
+http://www.d-tree.org/index.html 
+http://www.cs.washington.edu/homes/bderenzi/Papers/chi1104-bderenzi.pdf 
+http://www.who.int/child_adolescent_health/topics/prevention_care/child/imci/en/index.html
+Project 49: Mobile Telemedicine System
+Country: Indonesia
+Sponsoring Organization and Partners: Institut Teknologi Bandung (ITB), the International 
+Development Research Centre (IDRC) of Canada, the United Nations Development Programme’s Asia-
+Pacific Development Information Programme (UNDP-APDIP), Sukabumi Health Office, the Local Authority 
+Development of Sukabumi and the Information and Communication Department of Sukabumi
+Application Area: Diagnostic and Treatment Support
+Providing adequate health services in all locales in Indonesia, like most island states, is extremely chal-
+lenging. To overcome this challenge, a large number of technical and health-oriented organizations are 
+collaborating on a prototype mobile telemedicine system. The system will enable remote consultation and 
+diagnostics and also facilitate the collection of patient data. Depending on the communications infrastruc-
+ture available at a specific location—radio, mobile, or landline phones, and the Internet—information will be 
+shared between patients at ‘mobile telemedicine units’ and doctors at ‘medical service centers.’ As a first 
+step, researchers conducted field surveys in West Java to inventory health and communications infra-
+structure. The results of these surveys informed the prototype development. Further enhancements to 
+the system are being made and the team reports that “the project is challenging” as it integrates so many 
+disciplines and technologies. 
+Reference sources:
+http://www.researchsea.com/html/article.php/aid/1998/cid/3?PHPSESSID=92ae156683bf 
+http://www.idrc.ca/en/ev-81916-201-1-DO_TOPIC.html 
+Credit: RAMP
+Compendium of mHealth Projects 65
+Diagnostic and Treatment Support
+Project 50: Nacer 
+Country: Peru
+Sponsoring Organization and Partners: Voxiva, USAID-funded Pathfinder International program, 
+Ministry of Health of Peru and Peru’s Regional Health Directorate of Ucayali
+Application Area: Remote Data Collection, Remote Monitoring, Diagnostic and Treatment Support, and 
+Disease and Epidemic Outbreak Tracking 
+Maternal and child mortality remains excessively high in most developing countries. Nacer was created to 
+decrease by half the number of maternal and infant deaths in the Ucayali region in Peru. The Nacer solution 
+allows remote healthcare workers to share data with other remote workers, medical experts, and hospitals, 
+using any telephone (mobile, satellite, or fixed-line telephone systems—personal or public) or Internet tech-
+nology. A centralized database hosts all of this data and allows for real-time access. Through Nacer, the en-
+tire health ecosystem can send and receive information in order to monitor patient health, provide referrals 
+and follow-up care, and track supplies and disease outbreaks. Madhu Krishna of Voxiva claims that, “should 
+health personnel report symptoms that are indicative of a serious, underlying health condition in a pregnant 
+woman, regional health workers can review her records and send voicemail messages and other support to 
+ensure the woman is receiving appropriate care.”
+Reference sources: 
+http://www.voxiva.com/casestudies.php?caseid=29 
+http://www.i4donline.net/articles/current-article.asp?articleid=350&typ=News  
+Project 51: TeleDoc – Jiva Healthcare Project
+Country: India
+Sponsoring Organization and Partners: The Soros Foundation and Jiva Institute 
+Application Area: Diagnostic and Treatment Support
+A shortage of doctors spells inadequate treatment for many in the developing world, especially in remote 
+rural areas. Connecting health workers in rural areas with doctors through mobile technology is a promis-
+ing solution to this endemic problem. TeleDoc uses Java-enabled mobile phones to connect village-based 
+healthcare workers with doctors in urban areas for remote diagnosis and treatment. Doctors receive real-
+time diagnostic information entered by the healthcare workers and prescribe appropriate treatments. Tele-
+Doc field workers prepare any prescribed medicines at regional offices. These medications are delivered 
+directly to the home of patients in rural areas by a combination of pharmacies and delivery personnel. In 
+the spring of 2003, TeleDoc was tested in 15 villages in Haryana, India. The program won the World Summit 
+Award for eHealth at the World Summit on the Information Society in Geneva in 2003, and has aggressive 
+plans for expansion.
+Reference source: 
+http://www.comminit.com/en/node/116145  ■
+Credit: DataDyne
+66
+66 Compendium of mHealth Projects
+Author
+Vital Wave Consulting
+About The United Nations Foundation and Vodafone Foundation 
+Technology Partnership
+The United Nations Foundation and Vodafone Foundation Technology Partnership is a leading public-
+private alliance using strategic technology programs to strengthen the UN’s humanitarian efforts 
+worldwide. The Partnership has three core commitments: (1) to support the use of rapid response mobile 
+telecommunications to aid disaster relief; (2) to develop health data systems that improve access to health 
+data thereby helping to combat disease; and (3) to promote research and innovative initiatives using 
+technology as an agent and tool for international development. Further information can be found at:  
+www.unfoundation.org/vodafone.
+Contact
+ United Nations Foundation   The Vodafone Foundation
+ 1800 Massachusetts Ave., NW    Vodafone House
+ Suite 400     The Connection
+ Washington, D.C. 20036    Newbury, Berkshire, RG14 2FN
+ USA                                                              UK
+       Registered Charity No: 1089625
+Recommended Citation
+Vital Wave Consulting. mHealth for Development: The Opportunity of Mobile Technology for Healthcare 
+in the Developing World. Washington, D.C. and Berkshire, UK: UN Foundation-Vodafone Foundation 
+Partnership, 2009.
+Cover Photo Credits
+UN Mark Garten and UN Foundation.
+2
+mHealth for Development
+The Opportunity of Mobile Technology for Healthcare in the Developing World
+www.unfoundation.org/vodafone
+1

@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+<head>
+	<meta charset="UTF-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1130.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+		<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<title>Blog &#8211; Maternal Health Task Force</title>
+<!-- Jetpack Site Verification Tags -->
+<meta name="google-site-verification" content="S3lCi_IW9sbTvS2oECdOIGNir3P5exGdoqKo6UP0OOU" />
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="Maternal Health Task Force &raquo; Feed" href="https://www.mhtf.org/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.mhtf.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.2.3"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='twentysixteen-jetpack-css'  href='https://www.mhtf.org/wp-content/plugins/jetpack/modules/theme-tools/compat/twentysixteen.css?ver=7.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://www.mhtf.org/wp-includes/css/dist/block-library/style.min.css?ver=5.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-theme-css'  href='https://www.mhtf.org/wp-includes/css/dist/block-library/theme.min.css?ver=5.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='hsph-protected-file-front-style-css'  href='https://www.mhtf.org/wp-content/plugins/plugin-harvard-key/assets/css/hsph-pin-file-protect.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='https://www.mhtf.org/wp-includes/css/dashicons.min.css?ver=5.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='hsph-ui-shortcodes-style-css'  href='https://www.mhtf.org/wp-content/plugins/plugin-ui-shortcodes//assets/css/hsph-ui-shortcodes.css?ver=1.3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='search-filter-plugin-styles-css'  href='https://www.mhtf.org/wp-content/plugins/search-filter-pro/public/assets/css/search-filter.min.css?ver=2.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='parent-style-css'  href='https://www.mhtf.org/wp-content/themes/twentysixteen/style.css?ver=5.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='twentysixteen-fonts-css'  href='https://fonts.googleapis.com/css?family=Merriweather%3A400%2C700%2C900%2C400italic%2C700italic%2C900italic%7CMontserrat%3A400%2C700%7CInconsolata%3A400&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='genericons-css'  href='https://www.mhtf.org/wp-content/plugins/jetpack/_inc/genericons/genericons/genericons.css?ver=3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='twentysixteen-style-css'  href='https://www.mhtf.org/wp-content/themes/theme-twentysixteen-child-mhtf/style.css?ver=5.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='twentysixteen-block-style-css'  href='https://www.mhtf.org/wp-content/themes/twentysixteen/css/blocks.css?ver=20181230' type='text/css' media='all' />
+<!--[if lt IE 10]>
+<link rel='stylesheet' id='twentysixteen-ie-css'  href='https://www.mhtf.org/wp-content/themes/twentysixteen/css/ie.css?ver=20160816' type='text/css' media='all' />
+<![endif]-->
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentysixteen-ie8-css'  href='https://www.mhtf.org/wp-content/themes/twentysixteen/css/ie8.css?ver=20160816' type='text/css' media='all' />
+<![endif]-->
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='twentysixteen-ie7-css'  href='https://www.mhtf.org/wp-content/themes/twentysixteen/css/ie7.css?ver=20160816' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='jetpack_css-css'  href='https://www.mhtf.org/wp-content/plugins/jetpack/css/jetpack.css?ver=7.7.1' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.mhtf.org/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://www.mhtf.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://www.mhtf.org/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://www.mhtf.org/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://www.mhtf.org/wp-includes/js/jquery/ui/tabs.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://www.mhtf.org/wp-includes/js/jquery/ui/accordion.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://www.mhtf.org/wp-content/plugins/plugin-ui-shortcodes//assets/js/hsph-ui-shortcodes.js?ver=1.3.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var SF_LDATA = {"ajax_url":"https:\/\/www.mhtf.org\/wp-admin\/admin-ajax.php","home_url":"https:\/\/www.mhtf.org\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.mhtf.org/wp-content/plugins/search-filter-pro/public/assets/js/search-filter-build.min.js?ver=2.4.2'></script>
+<script type='text/javascript' src='https://www.mhtf.org/wp-content/plugins/search-filter-pro/public/assets/js/select2.min.js?ver=2.4.2'></script>
+<!--[if lt IE 9]>
+<script type='text/javascript' src='https://www.mhtf.org/wp-content/themes/twentysixteen/js/html5.js?ver=3.7.3'></script>
+<![endif]-->
+<link rel='https://api.w.org/' href='https://www.mhtf.org/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.mhtf.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.mhtf.org/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.2.3" />
+<!-- Google Analytics -->
+<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+			
+	ga( 'create', 'UA-84089646-2', 'sph.harvard.edu', 'trackern1');
+	ga( 'trackern1.require', 'displayfeatures');
+	ga( 'trackern1.require', 'linkid');
+	ga( 'trackern1.set', 'dimension1', 'signed_out' );
+	ga( 'trackern1.set', 'dimension2', 'none' );
+	ga( 'trackern1.send', 'pageview');
+
+
+	ga( 'create', 'UA-12300647-1', 'auto', 'trackers1');
+	ga( 'trackers1.require', 'displayfeatures');
+	ga( 'trackers1.require', 'linkid');
+	ga( 'trackers1.set', 'dimension1', 'signed_out' );
+	ga( 'trackers1.set', 'dimension2', 'none' );
+	ga( 'trackers1.send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->
+		
+<link rel='dns-prefetch' href='//v0.wordpress.com'/>
+		<style type="text/css" id="twentysixteen-header-css">
+		.site-branding {
+			margin: 0 auto 0 0;
+		}
+
+		.site-branding .site-title,
+		.site-description {
+			clip: rect(1px, 1px, 1px, 1px);
+			position: absolute;
+		}
+		</style>
+		
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Maternal Health Task Force" />
+<meta property="og:url" content="https://www.mhtf.org/blog/" />
+<meta property="og:site_name" content="Maternal Health Task Force" />
+<meta property="og:image" content="https://cdn2.sph.harvard.edu/wp-content/uploads/sites/32/2016/06/cropped-MHTF-icon.png" />
+<meta property="og:image:width" content="512" />
+<meta property="og:image:height" content="512" />
+<meta property="og:locale" content="en_US" />
+
+<!-- End Jetpack Open Graph Tags -->
+<link rel="icon" href="https://cdn2.sph.harvard.edu/wp-content/uploads/sites/32/2016/06/cropped-MHTF-icon-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://cdn2.sph.harvard.edu/wp-content/uploads/sites/32/2016/06/cropped-MHTF-icon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://cdn2.sph.harvard.edu/wp-content/uploads/sites/32/2016/06/cropped-MHTF-icon-180x180.png" />
+<meta name="msapplication-TileImage" content="https://cdn2.sph.harvard.edu/wp-content/uploads/sites/32/2016/06/cropped-MHTF-icon-270x270.png" />
+		<style type="text/css" id="wp-custom-css">
+			/*
+You can add your own CSS here.
+
+Click the help icon above to learn more.
+*/
+
+.kaltura-player-container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 57%;
+}
+
+.kaltura-player-container-absolute {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    right: 4px;
+    bottom: 4px;
+}
+ 
+.kaltura-player-container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 57%
+}		</style>
+		<style id="kirki-inline-styles"></style></head>
+
+<body class="blog wp-custom-logo wp-embed-responsive group-blog hfeed">
+<div id="page" class="site">
+	<div class="site-inner">
+
+		<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+		<header id="masthead" class="site-header" role="banner">
+			<div class="site-header-main">
+
+				<div class="site-branding">
+					<a href="https://www.mhtf.org/" class="custom-logo-link" rel="home"><img width="317" height="74" src="https://cdn2.sph.harvard.edu/wp-content/uploads/sites/32/2018/09/MHTF-main-logo.png" class="custom-logo" alt="MHTF logo" srcset="https://cdn2.sph.harvard.edu/wp-content/uploads/sites/32/2018/09/MHTF-main-logo.png 317w, https://cdn2.sph.harvard.edu/wp-content/uploads/sites/32/2018/09/MHTF-main-logo-300x70.png 300w" sizes="(max-width: 317px) 85vw, 317px" data-attachment-id="48067" data-permalink="https://www.mhtf.org/mhtf-main-logo-2/" data-orig-file="https://cdn2.sph.harvard.edu/wp-content/uploads/sites/32/2018/09/MHTF-main-logo.png" data-orig-size="317,74" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="MHTF logo" data-image-description="" data-medium-file="https://cdn2.sph.harvard.edu/wp-content/uploads/sites/32/2018/09/MHTF-main-logo-300x70.png" data-large-file="https://cdn2.sph.harvard.edu/wp-content/uploads/sites/32/2018/09/MHTF-main-logo.png" /></a>
+											<p class="site-title"><a href="https://www.mhtf.org/" rel="home">Maternal Health Task Force</a></p>
+					
+									</div><!-- .site-branding -->
+
+									<nav id="social-navigation" class="social-navigation" role="navigation" aria-label="Social Links Menu">
+						<div class="menu-social-links-container"><ul id="menu-social-links" class="social-links-menu"><li id="menu-item-18830" class="facebook menu-item menu-item-type-custom menu-item-object-custom menu-item-18830"><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/maternalhealthtaskforce"><span class="screen-reader-text">Facebook</span></a></li>
+<li id="menu-item-18831" class="twitter menu-item menu-item-type-custom menu-item-object-custom menu-item-18831"><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/MHTF"><span class="screen-reader-text">Twitter</span></a></li>
+<li id="menu-item-18832" class="vimeo menu-item menu-item-type-custom menu-item-object-custom menu-item-18832"><a target="_blank" rel="noopener noreferrer" href="https://vimeo.com/mhtf"><span class="screen-reader-text">Vimeo</span></a></li>
+<li id="menu-item-18833" class="flickr menu-item menu-item-type-custom menu-item-object-custom menu-item-18833"><a target="_blank" rel="noopener noreferrer" href="https://www.flickr.com/photos/46046481@N05/albums"><span class="screen-reader-text">Flickr</span></a></li>
+<li id="menu-item-41792" class="email menu-item menu-item-type-custom menu-item-object-custom menu-item-41792"><a target="_blank" rel="noopener noreferrer" href="http://maternalhealthtaskforce.us1.list-manage.com/subscribe?u=12f07785d047d1f4eb7414fb2&#038;id=8ac9c53ad4"><span class="screen-reader-text">Email</span></a></li>
+</ul></div>					</nav><!-- .social-navigation -->
+				
+									<button id="menu-toggle" class="menu-toggle">Menu</button>
+
+					<div id="site-header-menu" class="site-header-menu">
+												<nav id="site-navigation" class="main-navigation" role="navigation" aria-label="Primary Menu">
+							<div class="menu-main-menu-container"><ul id="menu-main-menu" class="primary-menu"><li id="menu-item-19319" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19319"><a href="https://www.mhtf.org/about-mhtf/">About</a></li>
+<li id="menu-item-19323" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19323"><a href="https://www.mhtf.org/topics/">Topics</a></li>
+<li id="menu-item-19322" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19322"><a href="https://www.mhtf.org/resources/">Resources</a></li>
+<li id="menu-item-47907" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47907"><a href="https://www.mhtf.org/mh-buzz/">Buzz</a></li>
+<li id="menu-item-19320" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-66 current_page_item current_page_parent menu-item-19320"><a href="https://www.mhtf.org/blog/" aria-current="page">Blog</a></li>
+</ul></div>						</nav><!-- .main-navigation -->
+											</div><!-- .site-header-menu -->
+				
+			</div><!-- .site-header-main -->
+		</header><!-- .site-header -->
+
+		<div id="content" class="site-content">
+<header class="entry-header">
+	<div class="header-image"
+	>
+		<div class="wrap">
+			<h1 class="page-title">Blog		</div>
+	</div>
+</header>
+
+	<div class="wrap">
+		<div id="primary" class="content-area">
+			<main id="main" class="site-main" role="main">
+
+				
+<article id="post-48831" class="post-48831 post type-post status-publish format-standard hentry category-contributor-posts category-maternal-health authors-aditya-kulkarni authors-ameya-bondre authors-anjana-donakonda authors-avinash-joshi authors-pritee-dehukar authors-shantanu-pathak geography-india topic-antenatal-care topic-barriers-health-access topic-community-based topic-maternal-newborn-health-integration language-english">
+
+	<header class="entry-header">
+
+		
+		<h2 class="entry-title"><a href="https://www.mhtf.org/2019/09/13/personalized-maternal-care-intervention-in-a-tribal-community-in-india/" rel="bookmark">Personalized maternal care intervention in a tribal community in India</a></h2><span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="https://www.mhtf.org/2019/09/13/personalized-maternal-care-intervention-in-a-tribal-community-in-india/" rel="bookmark"><time class="entry-date published" datetime="2019-09-13T16:12:48-04:00">September 13, 2019</time><time class="updated" datetime="2019-09-13T16:18:29-04:00">September 13, 2019</time></a></span><p class="mhtf-author">By: <em><a href="https://www.mhtf.org/authors/aditya-kulkarni/">Aditya Kulkarni</a>, ; <a href="https://www.mhtf.org/authors/ameya-bondre/">Ameya Bondre</a>, ; <a href="https://www.mhtf.org/authors/anjana-donakonda/">Anjana Donakonda</a>, ; <a href="https://www.mhtf.org/authors/avinash-joshi/">Avinash Joshi</a>, ; <a href="https://www.mhtf.org/authors/pritee-dehukar/">Pritee Dehukar</a>, ; <a href="https://www.mhtf.org/authors/shantanu-pathak/">Shantanu Pathak</a>, </em></p>
+	</header><!-- .entry-header -->
+
+
+	
+	<div class="entry-content">
+			</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<div class="cat-links"><span class="screen-reader-text">CATEGORIES</span><strong>CATEGORIES:</strong> <a href="https://www.mhtf.org/category/contributor-posts/" rel="category tag">Contributor Posts</a> <a href="https://www.mhtf.org/category/maternal-health/" rel="category tag">Maternal Health</a></div><div class="tax-links top"><span class="screen-reader-text">TOPICS</span><strong>TOPICS:</strong> <a href="https://www.mhtf.org/topic/antenatal-care/" rel="tag">Antenatal Care</a> <a href="https://www.mhtf.org/topic/barriers-health-access/" rel="tag">Barriers to Health Care Access</a> <a href="https://www.mhtf.org/topic/community-based/" rel="tag">Community-based Care</a> <a href="https://www.mhtf.org/topic/maternal-newborn-health-integration/" rel="tag">Maternal and Newborn Health Integration</a></div><div class="tax-links geo"><span class="screen-reader-text">GEOGRAPHIES</span><strong>GEOGRAPHIES:</strong> <a href="https://www.mhtf.org/geography/india/" rel="tag">India</a></div>	</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+<article id="post-48820" class="post-48820 post type-post status-publish format-standard hentry category-jobs">
+
+	<header class="entry-header">
+
+		
+		<h2 class="entry-title"><a href="https://www.mhtf.org/2019/08/30/new-jobs-and-internships-in-maternal-newborn-and-child-health-13/" rel="bookmark">New Jobs and Internships in Maternal, Newborn and Child Health</a></h2><span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="https://www.mhtf.org/2019/08/30/new-jobs-and-internships-in-maternal-newborn-and-child-health-13/" rel="bookmark"><time class="entry-date published updated" datetime="2019-08-30T15:59:39-04:00">August 30, 2019</time></a></span>
+	</header><!-- .entry-header -->
+
+
+	
+	<div class="entry-content">
+					<div class="entry-summary">
+				<p>Interested in a position in reproductive, maternal, newborn, child or adolescent health? Every month, the Maternal Health Task Force rounds up job and internship postings from around the globe. This month, we are featuring positions with Save the Children, PATH, Ariadne Labs..<a href="https://www.mhtf.org/2019/08/30/new-jobs-and-internships-in-maternal-newborn-and-child-health-13/" />read more</a></p>
+			</div><!-- .entry-summary -->
+				</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<div class="cat-links"><span class="screen-reader-text">CATEGORIES</span><strong>CATEGORIES:</strong> <a href="https://www.mhtf.org/category/jobs/" rel="category tag">Jobs</a></div>	</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+<article id="post-48629" class="post-48629 post type-post status-publish format-standard has-post-thumbnail hentry category-maternal-health authors-alison-farnham authors-olena-kuzyakiv geography-afghanistan topic-education topic-human-resources-health topic-maternal-mortality topic-midwifery topic-quality-care">
+
+	<header class="entry-header">
+
+		
+		<h2 class="entry-title"><a href="https://www.mhtf.org/2019/08/19/skills-gap-training-for-midwives-in-rural-afghanistan-an-evaluation/" rel="bookmark">Skills-Gap Training for Midwives in Rural Afghanistan: An Evaluation</a></h2><span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="https://www.mhtf.org/2019/08/19/skills-gap-training-for-midwives-in-rural-afghanistan-an-evaluation/" rel="bookmark"><time class="entry-date published" datetime="2019-08-19T18:37:28-04:00">August 19, 2019</time><time class="updated" datetime="2019-08-19T18:56:37-04:00">August 19, 2019</time></a></span><p class="mhtf-author">By: <em><a href="https://www.mhtf.org/authors/alison-farnham/">Alison Farnham</a>, MA MMedSci, Public Health Specialist, Action for Development; <a href="https://www.mhtf.org/authors/olena-kuzyakiv/">Olena Kuzyakiv</a>, HBSc, Public Health Specialist, Action for Development</em></p>
+	</header><!-- .entry-header -->
+
+
+	
+		<a class="post-thumbnail" href="https://www.mhtf.org/2019/08/19/skills-gap-training-for-midwives-in-rural-afghanistan-an-evaluation/" aria-hidden="true">
+		<img width="150" height="150" src="https://cdn2.sph.harvard.edu/wp-content/uploads/sites/32/2019/08/Picture1-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Skills-Gap Training for Midwives in Rural Afghanistan: An Evaluation" data-attachment-id="48631" data-permalink="https://www.mhtf.org/2019/08/19/skills-gap-training-for-midwives-in-rural-afghanistan-an-evaluation/picture1-2/" data-orig-file="https://cdn2.sph.harvard.edu/wp-content/uploads/sites/32/2019/08/Picture1.png" data-orig-size="938,625" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Picture1" data-image-description="" data-medium-file="https://cdn2.sph.harvard.edu/wp-content/uploads/sites/32/2019/08/Picture1-300x200.png" data-large-file="https://cdn2.sph.harvard.edu/wp-content/uploads/sites/32/2019/08/Picture1.png" />		</a>
+
+	
+	<div class="entry-content">
+			</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<div class="cat-links"><span class="screen-reader-text">CATEGORIES</span><strong>CATEGORIES:</strong> <a href="https://www.mhtf.org/category/maternal-health/" rel="category tag">Maternal Health</a></div><div class="tax-links top"><span class="screen-reader-text">TOPICS</span><strong>TOPICS:</strong> <a href="https://www.mhtf.org/topic/education/" rel="tag">Education</a> <a href="https://www.mhtf.org/topic/human-resources-health/" rel="tag">Human Resources for Health</a> <a href="https://www.mhtf.org/topic/maternal-mortality/" rel="tag">Maternal Mortality</a> <a href="https://www.mhtf.org/topic/midwifery/" rel="tag">Midwifery</a> <a href="https://www.mhtf.org/topic/quality-care/" rel="tag">Quality of Care</a></div><div class="tax-links geo"><span class="screen-reader-text">GEOGRAPHIES</span><strong>GEOGRAPHIES:</strong> <a href="https://www.mhtf.org/geography/afghanistan/" rel="tag">Afghanistan</a></div>	</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+<article id="post-48621" class="post-48621 post type-post status-publish format-standard hentry category-maternal-health">
+
+	<header class="entry-header">
+
+		
+		<h2 class="entry-title"><a href="https://www.mhtf.org/2019/07/26/new-jobs-and-internships-in-maternal-newborn-and-child-health-12/" rel="bookmark">New Jobs and Internships in Maternal, Newborn and Child Health</a></h2><span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="https://www.mhtf.org/2019/07/26/new-jobs-and-internships-in-maternal-newborn-and-child-health-12/" rel="bookmark"><time class="entry-date published" datetime="2019-07-26T16:04:58-04:00">July 26, 2019</time><time class="updated" datetime="2019-07-26T16:07:01-04:00">July 26, 2019</time></a></span>
+	</header><!-- .entry-header -->
+
+
+	
+	<div class="entry-content">
+					<div class="entry-summary">
+				<p>Interested in a position in reproductive, maternal, newborn, child or adolescent health? Every month, the Maternal Health Task Force rounds up job and internship postings from around the globe. This month, we are featuring positions with CHAI, CARE, Planned Parenthood Federation of America, Jhpiego, Guttmacher..<a href="https://www.mhtf.org/2019/07/26/new-jobs-and-internships-in-maternal-newborn-and-child-health-12/" />read more</a></p>
+			</div><!-- .entry-summary -->
+				</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<div class="cat-links"><span class="screen-reader-text">CATEGORIES</span><strong>CATEGORIES:</strong> <a href="https://www.mhtf.org/category/maternal-health/" rel="category tag">Maternal Health</a></div>	</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+<article id="post-48610" class="post-48610 post type-post status-publish format-standard hentry category-global-leaders category-maternal-health category-maternal-health-visionaries-series authors-bethany-kotlar geography-united-states topic-maternal-morbidity topic-maternal-mortality topic-policy topic-respectful-maternity-care topic-social-determinants language-english">
+
+	<header class="entry-header">
+
+		
+		<h2 class="entry-title"><a href="https://www.mhtf.org/2019/07/19/maternal-health-visionary-spotlight-dr-joia-crear-perry-national-birth-equity-collaborative-founder-president/" rel="bookmark">Maternal Health Visionary Spotlight:  Dr. Joia Crear-Perry, National Birth Equity Collaborative founder and president, calls on us to value every woman to achieve maternal health equity.</a></h2><span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="https://www.mhtf.org/2019/07/19/maternal-health-visionary-spotlight-dr-joia-crear-perry-national-birth-equity-collaborative-founder-president/" rel="bookmark"><time class="entry-date published" datetime="2019-07-19T10:41:47-04:00">July 19, 2019</time><time class="updated" datetime="2019-08-07T15:45:14-04:00">August 7, 2019</time></a></span><p class="mhtf-author">By: <em><a href="https://www.mhtf.org/authors/bethany-kotlar/">Bethany Kotlar</a>, </em></p>
+	</header><!-- .entry-header -->
+
+
+	
+	<div class="entry-content">
+			</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<div class="cat-links"><span class="screen-reader-text">CATEGORIES</span><strong>CATEGORIES:</strong> <a href="https://www.mhtf.org/category/global-leaders/" rel="category tag">Global Leaders in Maternal and Newborn Health</a> <a href="https://www.mhtf.org/category/maternal-health/" rel="category tag">Maternal Health</a> <a href="https://www.mhtf.org/category/maternal-health-visionaries-series/" rel="category tag">Maternal Health Visionaries Series</a></div><div class="tax-links top"><span class="screen-reader-text">TOPICS</span><strong>TOPICS:</strong> <a href="https://www.mhtf.org/topic/maternal-morbidity/" rel="tag">Maternal Morbidity</a> <a href="https://www.mhtf.org/topic/maternal-mortality/" rel="tag">Maternal Mortality</a> <a href="https://www.mhtf.org/topic/policy/" rel="tag">Policy &amp; Advocacy</a> <a href="https://www.mhtf.org/topic/respectful-maternity-care/" rel="tag">Respectful Maternity Care</a> <a href="https://www.mhtf.org/topic/social-determinants/" rel="tag">Social Determinants</a></div><div class="tax-links geo"><span class="screen-reader-text">GEOGRAPHIES</span><strong>GEOGRAPHIES:</strong> <a href="https://www.mhtf.org/geography/united-states/" rel="tag">United States</a></div>	</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+<article id="post-48592" class="post-48592 post type-post status-publish format-standard hentry category-jobs">
+
+	<header class="entry-header">
+
+		
+		<h2 class="entry-title"><a href="https://www.mhtf.org/2019/06/28/new-jobs-and-internships-in-maternal-newborn-and-child-health-11/" rel="bookmark">New Jobs and Internships in Maternal, Newborn and Child Health</a></h2><span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="https://www.mhtf.org/2019/06/28/new-jobs-and-internships-in-maternal-newborn-and-child-health-11/" rel="bookmark"><time class="entry-date published" datetime="2019-06-28T14:30:06-04:00">June 28, 2019</time><time class="updated" datetime="2019-06-28T14:38:06-04:00">June 28, 2019</time></a></span>
+	</header><!-- .entry-header -->
+
+
+	
+	<div class="entry-content">
+					<div class="entry-summary">
+				<p>Interested in a position in reproductive, maternal, newborn, child or adolescent health? Every month, the Maternal Health Task Force rounds up job and internship postings from around the globe. This month, we are featuring positions with the WHO, Planned Parenthood Federation of America, Jhpiego, Guttmacher..<a href="https://www.mhtf.org/2019/06/28/new-jobs-and-internships-in-maternal-newborn-and-child-health-11/" />read more</a></p>
+			</div><!-- .entry-summary -->
+				</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<div class="cat-links"><span class="screen-reader-text">CATEGORIES</span><strong>CATEGORIES:</strong> <a href="https://www.mhtf.org/category/jobs/" rel="category tag">Jobs</a></div>	</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+<article id="post-48579" class="post-48579 post type-post status-publish format-standard has-post-thumbnail hentry category-maternal-health authors-caroline-conena geography-united-states topic-maternal-mortality topic-monitoring-evaluation topic-policy">
+
+	<header class="entry-header">
+
+		
+		<h2 class="entry-title"><a href="https://www.mhtf.org/2019/06/07/redefining-the-challenge-of-maternal-mortality-in-contemporary-mch-a-seminar-with-dr-gene-declercq/" rel="bookmark">Redefining the Challenge of Maternal Mortality in Contemporary MCH: A seminar with Dr. Gene Declercq</a></h2><span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="https://www.mhtf.org/2019/06/07/redefining-the-challenge-of-maternal-mortality-in-contemporary-mch-a-seminar-with-dr-gene-declercq/" rel="bookmark"><time class="entry-date published updated" datetime="2019-06-07T16:22:27-04:00">June 7, 2019</time></a></span><p class="mhtf-author">By: <em><a href="https://www.mhtf.org/authors/caroline-conena/">Caroline Conena</a>, </em></p>
+	</header><!-- .entry-header -->
+
+
+	
+		<a class="post-thumbnail" href="https://www.mhtf.org/2019/06/07/redefining-the-challenge-of-maternal-mortality-in-contemporary-mch-a-seminar-with-dr-gene-declercq/" aria-hidden="true">
+		<img width="150" height="150" src="https://cdn2.sph.harvard.edu/wp-content/uploads/sites/32/2019/06/Gene-Blog-Post-Image-2-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Redefining the Challenge of Maternal Mortality in Contemporary MCH: A seminar with Dr. Gene Declercq" data-attachment-id="48580" data-permalink="https://www.mhtf.org/2019/06/07/redefining-the-challenge-of-maternal-mortality-in-contemporary-mch-a-seminar-with-dr-gene-declercq/gene-blog-post-image-2/" data-orig-file="https://cdn2.sph.harvard.edu/wp-content/uploads/sites/32/2019/06/Gene-Blog-Post-Image-2.jpg" data-orig-size="1286,710" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;Liz Gipson&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1559921908&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Timing of Maternal Deaths" data-image-description="" data-medium-file="https://cdn2.sph.harvard.edu/wp-content/uploads/sites/32/2019/06/Gene-Blog-Post-Image-2-300x166.jpg" data-large-file="https://cdn2.sph.harvard.edu/wp-content/uploads/sites/32/2019/06/Gene-Blog-Post-Image-2-1024x565.jpg" />		</a>
+
+	
+	<div class="entry-content">
+			</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<div class="cat-links"><span class="screen-reader-text">CATEGORIES</span><strong>CATEGORIES:</strong> <a href="https://www.mhtf.org/category/maternal-health/" rel="category tag">Maternal Health</a></div><div class="tax-links top"><span class="screen-reader-text">TOPICS</span><strong>TOPICS:</strong> <a href="https://www.mhtf.org/topic/maternal-mortality/" rel="tag">Maternal Mortality</a> <a href="https://www.mhtf.org/topic/monitoring-evaluation/" rel="tag">Monitoring &amp; Evaluation</a> <a href="https://www.mhtf.org/topic/policy/" rel="tag">Policy &amp; Advocacy</a></div><div class="tax-links geo"><span class="screen-reader-text">GEOGRAPHIES</span><strong>GEOGRAPHIES:</strong> <a href="https://www.mhtf.org/geography/united-states/" rel="tag">United States</a></div>	</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+<article id="post-48571" class="post-48571 post type-post status-publish format-standard hentry category-jobs tag-jobs authors-mhtf geography-global language-english">
+
+	<header class="entry-header">
+
+		
+		<h2 class="entry-title"><a href="https://www.mhtf.org/2019/05/24/new-jobs-and-internships-in-maternal-newborn-and-child-health-10/" rel="bookmark">New Jobs and Internships in Maternal, Newborn and Child Health</a></h2><span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="https://www.mhtf.org/2019/05/24/new-jobs-and-internships-in-maternal-newborn-and-child-health-10/" rel="bookmark"><time class="entry-date published updated" datetime="2019-05-24T21:44:19-04:00">May 24, 2019</time></a></span><p class="mhtf-author">By: <em><a href="https://www.mhtf.org/authors/mhtf/">Staff</a>, Maternal Health Task Force</em></p>
+	</header><!-- .entry-header -->
+
+
+	
+	<div class="entry-content">
+			</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<div class="cat-links"><span class="screen-reader-text">CATEGORIES</span><strong>CATEGORIES:</strong> <a href="https://www.mhtf.org/category/jobs/" rel="category tag">Jobs</a></div><div class="tags-links"><span class="screen-reader-text">TAGS</span><strong>TAGS:</strong> <a href="https://www.mhtf.org/tag/jobs/" rel="tag">jobs</a></div><div class="tax-links geo"><span class="screen-reader-text">GEOGRAPHIES</span><strong>GEOGRAPHIES:</strong> <a href="https://www.mhtf.org/geography/global/" rel="tag">Global</a></div>	</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+<article id="post-48527" class="post-48527 post type-post status-publish format-standard hentry category-maternal-health category-visionary-series tag-maternal-heath-visionaries authors-mhtf geography-guatemala geography-somalia geography-united-states topic-antenatal-care topic-barriers-health-access topic-community-based topic-crises-conflict-settings topic-emergency-obstetric-and-newborn-care topic-facility-based-births topic-inequities-inequalities topic-maternal-morbidity topic-maternal-mortality topic-midwifery topic-policy language-english">
+
+	<header class="entry-header">
+
+		
+		<h2 class="entry-title"><a href="https://www.mhtf.org/2019/05/04/meet-our-maternal-health-visionaries/" rel="bookmark">Meet our Maternal Health Visionaries</a></h2><span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="https://www.mhtf.org/2019/05/04/meet-our-maternal-health-visionaries/" rel="bookmark"><time class="entry-date published" datetime="2019-05-04T23:32:52-04:00">May 4, 2019</time><time class="updated" datetime="2019-07-19T10:54:23-04:00">July 19, 2019</time></a></span><p class="mhtf-author">By: <em><a href="https://www.mhtf.org/authors/mhtf/">Staff</a>, Maternal Health Task Force</em></p>
+	</header><!-- .entry-header -->
+
+
+	
+	<div class="entry-content">
+			</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<div class="cat-links"><span class="screen-reader-text">CATEGORIES</span><strong>CATEGORIES:</strong> <a href="https://www.mhtf.org/category/maternal-health/" rel="category tag">Maternal Health</a> <a href="https://www.mhtf.org/category/visionary-series/" rel="category tag">Visionary Series</a></div><div class="tags-links"><span class="screen-reader-text">TAGS</span><strong>TAGS:</strong> <a href="https://www.mhtf.org/tag/maternal-heath-visionaries/" rel="tag">maternal heath visionaries</a></div><div class="tax-links top"><span class="screen-reader-text">TOPICS</span><strong>TOPICS:</strong> <a href="https://www.mhtf.org/topic/antenatal-care/" rel="tag">Antenatal Care</a> <a href="https://www.mhtf.org/topic/barriers-health-access/" rel="tag">Barriers to Health Care Access</a> <a href="https://www.mhtf.org/topic/community-based/" rel="tag">Community-based Care</a> <a href="https://www.mhtf.org/topic/crises-conflict-settings/" rel="tag">Crises &amp; Conflict Settings</a> <a href="https://www.mhtf.org/topic/emergency-obstetric-and-newborn-care/" rel="tag">Emergency Obstetric and Newborn Care</a> <a href="https://www.mhtf.org/topic/facility-based-births/" rel="tag">Facility-based Births</a> <a href="https://www.mhtf.org/topic/inequities-inequalities/" rel="tag">Inequities &amp; Inequalities</a> <a href="https://www.mhtf.org/topic/maternal-morbidity/" rel="tag">Maternal Morbidity</a> <a href="https://www.mhtf.org/topic/maternal-mortality/" rel="tag">Maternal Mortality</a> <a href="https://www.mhtf.org/topic/midwifery/" rel="tag">Midwifery</a> <a href="https://www.mhtf.org/topic/policy/" rel="tag">Policy &amp; Advocacy</a></div><div class="tax-links geo"><span class="screen-reader-text">GEOGRAPHIES</span><strong>GEOGRAPHIES:</strong> <a href="https://www.mhtf.org/geography/guatemala/" rel="tag">Guatemala</a> <a href="https://www.mhtf.org/geography/somalia/" rel="tag">Somalia</a> <a href="https://www.mhtf.org/geography/united-states/" rel="tag">United States</a></div>	</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+<article id="post-48519" class="post-48519 post type-post status-publish format-standard hentry category-global-leaders category-maternal-health category-maternal-health-visionaries-series authors-mhtf geography-global geography-united-states topic-community-based topic-inequities-inequalities topic-maternal-morbidity topic-maternal-mortality topic-newborn-health topic-policy topic-reproductive-health language-english">
+
+	<header class="entry-header">
+
+		
+		<h2 class="entry-title"><a href="https://www.mhtf.org/2019/05/02/maternal-health-visionary-spotlight-theresa-shaver-white-ribbon-alliance-founder-reminds-us-to-stay-bold-together-to-end-maternal-and-neonatal-mortality/" rel="bookmark">Maternal Health Visionary Spotlight:  Theresa Shaver, White Ribbon Alliance founder, reminds us to stay bold together to end Maternal and Neonatal Mortality</a></h2><span class="posted-on"><span class="screen-reader-text">Posted on </span><a href="https://www.mhtf.org/2019/05/02/maternal-health-visionary-spotlight-theresa-shaver-white-ribbon-alliance-founder-reminds-us-to-stay-bold-together-to-end-maternal-and-neonatal-mortality/" rel="bookmark"><time class="entry-date published" datetime="2019-05-02T16:26:53-04:00">May 2, 2019</time><time class="updated" datetime="2019-05-03T09:59:47-04:00">May 3, 2019</time></a></span><p class="mhtf-author">By: <em><a href="https://www.mhtf.org/authors/mhtf/">Staff</a>, Maternal Health Task Force</em></p>
+	</header><!-- .entry-header -->
+
+
+	
+	<div class="entry-content">
+			</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<div class="cat-links"><span class="screen-reader-text">CATEGORIES</span><strong>CATEGORIES:</strong> <a href="https://www.mhtf.org/category/global-leaders/" rel="category tag">Global Leaders in Maternal and Newborn Health</a> <a href="https://www.mhtf.org/category/maternal-health/" rel="category tag">Maternal Health</a> <a href="https://www.mhtf.org/category/maternal-health-visionaries-series/" rel="category tag">Maternal Health Visionaries Series</a></div><div class="tax-links top"><span class="screen-reader-text">TOPICS</span><strong>TOPICS:</strong> <a href="https://www.mhtf.org/topic/community-based/" rel="tag">Community-based Care</a> <a href="https://www.mhtf.org/topic/inequities-inequalities/" rel="tag">Inequities &amp; Inequalities</a> <a href="https://www.mhtf.org/topic/maternal-morbidity/" rel="tag">Maternal Morbidity</a> <a href="https://www.mhtf.org/topic/maternal-mortality/" rel="tag">Maternal Mortality</a> <a href="https://www.mhtf.org/topic/newborn-health/" rel="tag">Newborn Health</a> <a href="https://www.mhtf.org/topic/policy/" rel="tag">Policy &amp; Advocacy</a> <a href="https://www.mhtf.org/topic/reproductive-health/" rel="tag">Reproductive Health</a></div><div class="tax-links geo"><span class="screen-reader-text">GEOGRAPHIES</span><strong>GEOGRAPHIES:</strong> <a href="https://www.mhtf.org/geography/global/" rel="tag">Global</a> <a href="https://www.mhtf.org/geography/united-states/" rel="tag">United States</a></div>	</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+	<nav class="navigation pagination" role="navigation">
+		<h2 class="screen-reader-text">Posts navigation</h2>
+		<div class="nav-links"><span aria-current='page' class='page-numbers current'><span class="meta-nav screen-reader-text">Page </span>1</span>
+<a class='page-numbers' href='https://www.mhtf.org/blog/page/2/'><span class="meta-nav screen-reader-text">Page </span>2</a>
+<span class="page-numbers dots">&hellip;</span>
+<a class='page-numbers' href='https://www.mhtf.org/blog/page/197/'><span class="meta-nav screen-reader-text">Page </span>197</a>
+<a class="next page-numbers" href="https://www.mhtf.org/blog/page/2/">Next &raquo;</a></div>
+	</nav>
+			</main>
+		</div>
+		
+	<aside id="secondary" class="sidebar widget-area" role="complementary">
+		<section id="search_filter_register_widget-3" class="widget widget_search_filter_register_widget"><h2 class="widget-title">Looking for something specific?</h2><form data-sf-form-id='41612' data-is-rtl='0' data-maintain-state='' data-results-url='https://www.mhtf.org/?sfid=41612' data-ajax-form-url='https://www.mhtf.org/?sfid=41612&amp;sf_action=get_data&amp;sf_data=form' data-display-result-method='archive' data-use-history-api='1' data-template-loaded='0' data-lang-code='' data-ajax='0' data-init-paged='1' data-auto-update='' action='https://www.mhtf.org/?sfid=41612' method='post' class='searchandfilter' id='search-filter-form-41612' autocomplete='off' data-instance-count='1'><ul><li class="sf-field-search" data-sf-field-name="search" data-sf-field-type="search" data-sf-field-input-type="">		<label><input placeholder="Search …" name="_sf_search[]" class="sf-input-text" type="text" value="" title=""></label>		</li><li class="sf-field-submit" data-sf-field-name="submit" data-sf-field-type="submit" data-sf-field-input-type=""><input type="submit" name="_sf_submit" value="Submit"></li></ul></form></section><section id="media_image-10" class="widget widget_media_image"><a href="http://maternalhealthtaskforce.us1.list-manage.com/subscribe?u=12f07785d047d1f4eb7414fb2&#038;id=8ac9c53ad4" target="_blank" rel="noopener noreferrer"><img width="300" height="300" src="https://cdn2.sph.harvard.edu/wp-content/uploads/sites/32/2017/11/Blog-Subscribe-Image-300x300.png" class="image wp-image-42620 alignnone attachment-medium size-medium" alt="" style="max-width: 100%; height: auto;" srcset="https://cdn2.sph.harvard.edu/wp-content/uploads/sites/32/2017/11/Blog-Subscribe-Image-300x300.png 300w, https://cdn2.sph.harvard.edu/wp-content/uploads/sites/32/2017/11/Blog-Subscribe-Image-150x150.png 150w, https://cdn2.sph.harvard.edu/wp-content/uploads/sites/32/2017/11/Blog-Subscribe-Image-768x768.png 768w, https://cdn2.sph.harvard.edu/wp-content/uploads/sites/32/2017/11/Blog-Subscribe-Image.png 800w" sizes="(max-width: 300px) 85vw, 300px" data-attachment-id="42620" data-permalink="https://www.mhtf.org/blog-subscribe-image/" data-orig-file="https://cdn2.sph.harvard.edu/wp-content/uploads/sites/32/2017/11/Blog-Subscribe-Image.png" data-orig-size="800,800" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Blog-Subscribe-Image" data-image-description="" data-medium-file="https://cdn2.sph.harvard.edu/wp-content/uploads/sites/32/2017/11/Blog-Subscribe-Image-300x300.png" data-large-file="https://cdn2.sph.harvard.edu/wp-content/uploads/sites/32/2017/11/Blog-Subscribe-Image.png" /></a></section><section id="media_image-11" class="widget widget_media_image"><a href="https://cdn2.sph.harvard.edu/wp-content/uploads/sites/32/2016/05/MHTF_Blog_Guest_Post_Guidelines.pdf" target="_blank" rel="noopener noreferrer"><img width="300" height="300" src="https://cdn2.sph.harvard.edu/wp-content/uploads/sites/32/2017/11/Guest-post-guidelines-300x300.png" class="image wp-image-42621 alignnone attachment-medium size-medium" alt="" style="max-width: 100%; height: auto;" srcset="https://cdn2.sph.harvard.edu/wp-content/uploads/sites/32/2017/11/Guest-post-guidelines-300x300.png 300w, https://cdn2.sph.harvard.edu/wp-content/uploads/sites/32/2017/11/Guest-post-guidelines-150x150.png 150w, https://cdn2.sph.harvard.edu/wp-content/uploads/sites/32/2017/11/Guest-post-guidelines-768x768.png 768w, https://cdn2.sph.harvard.edu/wp-content/uploads/sites/32/2017/11/Guest-post-guidelines.png 800w" sizes="(max-width: 300px) 85vw, 300px" data-attachment-id="42621" data-permalink="https://www.mhtf.org/guest-post-guidelines-3/" data-orig-file="https://cdn2.sph.harvard.edu/wp-content/uploads/sites/32/2017/11/Guest-post-guidelines.png" data-orig-size="800,800" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Guest-post-guidelines" data-image-description="" data-medium-file="https://cdn2.sph.harvard.edu/wp-content/uploads/sites/32/2017/11/Guest-post-guidelines-300x300.png" data-large-file="https://cdn2.sph.harvard.edu/wp-content/uploads/sites/32/2017/11/Guest-post-guidelines.png" /></a></section><section id="nav_menu-8" class="widget widget_nav_menu"><h2 class="widget-title">Blog Series</h2><div class="menu-blog-series-container"><ul id="menu-blog-series" class="menu"><li id="menu-item-44043" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-44043"><a href="https://www.mhtf.org/category/noncommunicable-diseases-and-maternal-health/">Noncommunicable Diseases and Maternal Health</a></li>
+<li id="menu-item-39431" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-39431"><a href="https://www.mhtf.org/category/global-maternal-health-workforce/">The Global Maternal Health Workforce</a></li>
+<li id="menu-item-34926" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-34926"><a href="https://www.mhtf.org/category/quality-maternal-health-care/">Quality of Maternal Health Care</a></li>
+<li id="menu-item-33230" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33230"><a href="https://www.mhtf.org/blog/list-of-blog-series/">See more>></a></li>
+</ul></div></section><section id="archives-4" class="widget widget_archive"><h2 class="widget-title">Archives</h2>		<label class="screen-reader-text" for="archives-dropdown-4">Archives</label>
+		<select id="archives-dropdown-4" name="archive-dropdown">
+			
+			<option value="">Select Month</option>
+				<option value='https://www.mhtf.org/2019/09/'> September 2019 &nbsp;(1)</option>
+	<option value='https://www.mhtf.org/2019/08/'> August 2019 &nbsp;(2)</option>
+	<option value='https://www.mhtf.org/2019/07/'> July 2019 &nbsp;(2)</option>
+	<option value='https://www.mhtf.org/2019/06/'> June 2019 &nbsp;(2)</option>
+	<option value='https://www.mhtf.org/2019/05/'> May 2019 &nbsp;(3)</option>
+	<option value='https://www.mhtf.org/2019/04/'> April 2019 &nbsp;(2)</option>
+	<option value='https://www.mhtf.org/2019/03/'> March 2019 &nbsp;(1)</option>
+	<option value='https://www.mhtf.org/2019/02/'> February 2019 &nbsp;(3)</option>
+	<option value='https://www.mhtf.org/2019/01/'> January 2019 &nbsp;(3)</option>
+	<option value='https://www.mhtf.org/2018/12/'> December 2018 &nbsp;(1)</option>
+	<option value='https://www.mhtf.org/2018/11/'> November 2018 &nbsp;(1)</option>
+	<option value='https://www.mhtf.org/2018/10/'> October 2018 &nbsp;(1)</option>
+	<option value='https://www.mhtf.org/2018/09/'> September 2018 &nbsp;(4)</option>
+	<option value='https://www.mhtf.org/2018/08/'> August 2018 &nbsp;(6)</option>
+	<option value='https://www.mhtf.org/2018/07/'> July 2018 &nbsp;(6)</option>
+	<option value='https://www.mhtf.org/2018/06/'> June 2018 &nbsp;(9)</option>
+	<option value='https://www.mhtf.org/2018/05/'> May 2018 &nbsp;(14)</option>
+	<option value='https://www.mhtf.org/2018/04/'> April 2018 &nbsp;(12)</option>
+	<option value='https://www.mhtf.org/2018/03/'> March 2018 &nbsp;(14)</option>
+	<option value='https://www.mhtf.org/2018/02/'> February 2018 &nbsp;(11)</option>
+	<option value='https://www.mhtf.org/2018/01/'> January 2018 &nbsp;(13)</option>
+	<option value='https://www.mhtf.org/2017/12/'> December 2017 &nbsp;(13)</option>
+	<option value='https://www.mhtf.org/2017/11/'> November 2017 &nbsp;(12)</option>
+	<option value='https://www.mhtf.org/2017/10/'> October 2017 &nbsp;(13)</option>
+	<option value='https://www.mhtf.org/2017/09/'> September 2017 &nbsp;(13)</option>
+	<option value='https://www.mhtf.org/2017/08/'> August 2017 &nbsp;(14)</option>
+	<option value='https://www.mhtf.org/2017/07/'> July 2017 &nbsp;(12)</option>
+	<option value='https://www.mhtf.org/2017/06/'> June 2017 &nbsp;(14)</option>
+	<option value='https://www.mhtf.org/2017/05/'> May 2017 &nbsp;(15)</option>
+	<option value='https://www.mhtf.org/2017/04/'> April 2017 &nbsp;(12)</option>
+	<option value='https://www.mhtf.org/2017/03/'> March 2017 &nbsp;(16)</option>
+	<option value='https://www.mhtf.org/2017/02/'> February 2017 &nbsp;(14)</option>
+	<option value='https://www.mhtf.org/2017/01/'> January 2017 &nbsp;(13)</option>
+	<option value='https://www.mhtf.org/2016/12/'> December 2016 &nbsp;(15)</option>
+	<option value='https://www.mhtf.org/2016/11/'> November 2016 &nbsp;(17)</option>
+	<option value='https://www.mhtf.org/2016/10/'> October 2016 &nbsp;(18)</option>
+	<option value='https://www.mhtf.org/2016/09/'> September 2016 &nbsp;(14)</option>
+	<option value='https://www.mhtf.org/2016/08/'> August 2016 &nbsp;(15)</option>
+	<option value='https://www.mhtf.org/2016/07/'> July 2016 &nbsp;(11)</option>
+	<option value='https://www.mhtf.org/2016/06/'> June 2016 &nbsp;(10)</option>
+	<option value='https://www.mhtf.org/2016/05/'> May 2016 &nbsp;(17)</option>
+	<option value='https://www.mhtf.org/2016/04/'> April 2016 &nbsp;(13)</option>
+	<option value='https://www.mhtf.org/2016/03/'> March 2016 &nbsp;(10)</option>
+	<option value='https://www.mhtf.org/2016/02/'> February 2016 &nbsp;(8)</option>
+	<option value='https://www.mhtf.org/2016/01/'> January 2016 &nbsp;(8)</option>
+	<option value='https://www.mhtf.org/2015/12/'> December 2015 &nbsp;(6)</option>
+	<option value='https://www.mhtf.org/2015/11/'> November 2015 &nbsp;(10)</option>
+	<option value='https://www.mhtf.org/2015/10/'> October 2015 &nbsp;(38)</option>
+	<option value='https://www.mhtf.org/2015/09/'> September 2015 &nbsp;(9)</option>
+	<option value='https://www.mhtf.org/2015/08/'> August 2015 &nbsp;(5)</option>
+	<option value='https://www.mhtf.org/2015/07/'> July 2015 &nbsp;(10)</option>
+	<option value='https://www.mhtf.org/2015/06/'> June 2015 &nbsp;(14)</option>
+	<option value='https://www.mhtf.org/2015/05/'> May 2015 &nbsp;(25)</option>
+	<option value='https://www.mhtf.org/2015/04/'> April 2015 &nbsp;(19)</option>
+	<option value='https://www.mhtf.org/2015/03/'> March 2015 &nbsp;(20)</option>
+	<option value='https://www.mhtf.org/2015/02/'> February 2015 &nbsp;(15)</option>
+	<option value='https://www.mhtf.org/2015/01/'> January 2015 &nbsp;(18)</option>
+	<option value='https://www.mhtf.org/2014/12/'> December 2014 &nbsp;(15)</option>
+	<option value='https://www.mhtf.org/2014/11/'> November 2014 &nbsp;(10)</option>
+	<option value='https://www.mhtf.org/2014/10/'> October 2014 &nbsp;(21)</option>
+	<option value='https://www.mhtf.org/2014/09/'> September 2014 &nbsp;(21)</option>
+	<option value='https://www.mhtf.org/2014/08/'> August 2014 &nbsp;(20)</option>
+	<option value='https://www.mhtf.org/2014/07/'> July 2014 &nbsp;(22)</option>
+	<option value='https://www.mhtf.org/2014/06/'> June 2014 &nbsp;(22)</option>
+	<option value='https://www.mhtf.org/2014/05/'> May 2014 &nbsp;(17)</option>
+	<option value='https://www.mhtf.org/2014/04/'> April 2014 &nbsp;(19)</option>
+	<option value='https://www.mhtf.org/2014/03/'> March 2014 &nbsp;(22)</option>
+	<option value='https://www.mhtf.org/2014/02/'> February 2014 &nbsp;(15)</option>
+	<option value='https://www.mhtf.org/2014/01/'> January 2014 &nbsp;(23)</option>
+	<option value='https://www.mhtf.org/2013/12/'> December 2013 &nbsp;(15)</option>
+	<option value='https://www.mhtf.org/2013/11/'> November 2013 &nbsp;(14)</option>
+	<option value='https://www.mhtf.org/2013/10/'> October 2013 &nbsp;(20)</option>
+	<option value='https://www.mhtf.org/2013/09/'> September 2013 &nbsp;(14)</option>
+	<option value='https://www.mhtf.org/2013/08/'> August 2013 &nbsp;(10)</option>
+	<option value='https://www.mhtf.org/2013/07/'> July 2013 &nbsp;(13)</option>
+	<option value='https://www.mhtf.org/2013/06/'> June 2013 &nbsp;(17)</option>
+	<option value='https://www.mhtf.org/2013/05/'> May 2013 &nbsp;(23)</option>
+	<option value='https://www.mhtf.org/2013/04/'> April 2013 &nbsp;(26)</option>
+	<option value='https://www.mhtf.org/2013/03/'> March 2013 &nbsp;(23)</option>
+	<option value='https://www.mhtf.org/2013/02/'> February 2013 &nbsp;(21)</option>
+	<option value='https://www.mhtf.org/2013/01/'> January 2013 &nbsp;(20)</option>
+	<option value='https://www.mhtf.org/2012/12/'> December 2012 &nbsp;(9)</option>
+	<option value='https://www.mhtf.org/2012/11/'> November 2012 &nbsp;(12)</option>
+	<option value='https://www.mhtf.org/2012/10/'> October 2012 &nbsp;(15)</option>
+	<option value='https://www.mhtf.org/2012/09/'> September 2012 &nbsp;(18)</option>
+	<option value='https://www.mhtf.org/2012/08/'> August 2012 &nbsp;(16)</option>
+	<option value='https://www.mhtf.org/2012/07/'> July 2012 &nbsp;(20)</option>
+	<option value='https://www.mhtf.org/2012/06/'> June 2012 &nbsp;(23)</option>
+	<option value='https://www.mhtf.org/2012/05/'> May 2012 &nbsp;(15)</option>
+	<option value='https://www.mhtf.org/2012/04/'> April 2012 &nbsp;(19)</option>
+	<option value='https://www.mhtf.org/2012/03/'> March 2012 &nbsp;(24)</option>
+	<option value='https://www.mhtf.org/2012/02/'> February 2012 &nbsp;(23)</option>
+	<option value='https://www.mhtf.org/2012/01/'> January 2012 &nbsp;(26)</option>
+	<option value='https://www.mhtf.org/2011/12/'> December 2011 &nbsp;(22)</option>
+	<option value='https://www.mhtf.org/2011/11/'> November 2011 &nbsp;(19)</option>
+	<option value='https://www.mhtf.org/2011/10/'> October 2011 &nbsp;(23)</option>
+	<option value='https://www.mhtf.org/2011/09/'> September 2011 &nbsp;(25)</option>
+	<option value='https://www.mhtf.org/2011/08/'> August 2011 &nbsp;(27)</option>
+	<option value='https://www.mhtf.org/2011/07/'> July 2011 &nbsp;(23)</option>
+	<option value='https://www.mhtf.org/2011/06/'> June 2011 &nbsp;(44)</option>
+	<option value='https://www.mhtf.org/2011/05/'> May 2011 &nbsp;(59)</option>
+	<option value='https://www.mhtf.org/2011/04/'> April 2011 &nbsp;(45)</option>
+	<option value='https://www.mhtf.org/2011/03/'> March 2011 &nbsp;(40)</option>
+	<option value='https://www.mhtf.org/2011/02/'> February 2011 &nbsp;(45)</option>
+	<option value='https://www.mhtf.org/2011/01/'> January 2011 &nbsp;(45)</option>
+	<option value='https://www.mhtf.org/2010/12/'> December 2010 &nbsp;(39)</option>
+	<option value='https://www.mhtf.org/2010/11/'> November 2010 &nbsp;(30)</option>
+	<option value='https://www.mhtf.org/2010/10/'> October 2010 &nbsp;(21)</option>
+	<option value='https://www.mhtf.org/2010/09/'> September 2010 &nbsp;(19)</option>
+	<option value='https://www.mhtf.org/2010/08/'> August 2010 &nbsp;(15)</option>
+	<option value='https://www.mhtf.org/2010/07/'> July 2010 &nbsp;(10)</option>
+	<option value='https://www.mhtf.org/2010/06/'> June 2010 &nbsp;(23)</option>
+	<option value='https://www.mhtf.org/2010/05/'> May 2010 &nbsp;(17)</option>
+	<option value='https://www.mhtf.org/2010/04/'> April 2010 &nbsp;(27)</option>
+	<option value='https://www.mhtf.org/2010/03/'> March 2010 &nbsp;(6)</option>
+	<option value='https://www.mhtf.org/2010/02/'> February 2010 &nbsp;(8)</option>
+	<option value='https://www.mhtf.org/2010/01/'> January 2010 &nbsp;(8)</option>
+	<option value='https://www.mhtf.org/2009/11/'> November 2009 &nbsp;(4)</option>
+	<option value='https://www.mhtf.org/2009/10/'> October 2009 &nbsp;(8)</option>
+	<option value='https://www.mhtf.org/2009/09/'> September 2009 &nbsp;(8)</option>
+	<option value='https://www.mhtf.org/2009/08/'> August 2009 &nbsp;(8)</option>
+	<option value='https://www.mhtf.org/2009/07/'> July 2009 &nbsp;(4)</option>
+	<option value='https://www.mhtf.org/2009/06/'> June 2009 &nbsp;(3)</option>
+	<option value='https://www.mhtf.org/2009/05/'> May 2009 &nbsp;(5)</option>
+	<option value='https://www.mhtf.org/2009/04/'> April 2009 &nbsp;(7)</option>
+	<option value='https://www.mhtf.org/2009/03/'> March 2009 &nbsp;(1)</option>
+	<option value='https://www.mhtf.org/2009/02/'> February 2009 &nbsp;(1)</option>
+	<option value='https://www.mhtf.org/2008/12/'> December 2008 &nbsp;(1)</option>
+
+		</select>
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+(function() {
+	var dropdown = document.getElementById( "archives-dropdown-4" );
+	function onSelectChange() {
+		if ( dropdown.options[ dropdown.selectedIndex ].value !== '' ) {
+			document.location.href = this.options[ this.selectedIndex ].value;
+		}
+	}
+	dropdown.onchange = onSelectChange;
+})();
+/* ]]> */
+</script>
+
+		</section><section id="nav_menu-9" class="widget widget_nav_menu"><h2 class="widget-title">Blogs we follow</h2><div class="menu-blogs-we-follow-container"><ul id="menu-blogs-we-follow" class="menu"><li id="menu-item-18845" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18845"><a href="http://www.healthynewbornnetwork.org/blog/">Healthy Newborn Network</a></li>
+<li id="menu-item-33053" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-33053"><a href="http://jacarandahealth.org/blog/">Jacaranda Health</a></li>
+<li id="menu-item-33054" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-33054"><a href="http://fieldnotes.jhpiego.org/">Jhpiego Field Notes</a></li>
+<li id="menu-item-26167" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-26167"><a href="http://mamaye.org/blog">MamaYe</a></li>
+<li id="menu-item-18856" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18856"><a href="http://www.mcsprogram.org/news/blog/">Maternal and Child Survival</a></li>
+<li id="menu-item-26252" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-26252"><a href="http://www.npr.org/sections/goatsandsoda/">NPR Goats and Soda</a></li>
+<li id="menu-item-18880" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18880"><a href="http://whiteribbonalliance.org/news/wra-in-the-media/">White Ribbon Alliance</a></li>
+<li id="menu-item-18881" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18881"><a href="http://womendeliver.org/issues/">Women Deliver</a></li>
+</ul></div></section><section id="text-8" class="widget widget_text"><h2 class="widget-title">MHTF Disclaimer</h2>			<div class="textwidget">The posts on this blog do not necessarily reflect the views of the Maternal Health Task Force. Our objective is to provide a platform for our Editorial Committee and other experts to post a myriad of data and evidence, as well as opinions/views that exist in the field which will contribute to expanding the maternal health dialogue.</div>
+		</section>	</aside><!-- .sidebar .widget-area -->
+	</div>
+
+	<nav class="main-navigation" role="navigation" aria-label="Footer Primary Menu">
+		<div class="wrap"><div class="sub-wrap">
+			<div class="menu-main-menu-container"><ul id="menu-main-menu-1" class="primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19319"><a href="https://www.mhtf.org/about-mhtf/">About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19323"><a href="https://www.mhtf.org/topics/">Topics</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19322"><a href="https://www.mhtf.org/resources/">Resources</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47907"><a href="https://www.mhtf.org/mh-buzz/">Buzz</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-66 current_page_item current_page_parent menu-item-19320"><a href="https://www.mhtf.org/blog/" aria-current="page">Blog</a></li>
+</ul></div>		</div></div>
+	</nav>
+<aside id="content-bottom-widgets" class="content-bottom-widgets" role="complementary">
+	<div class="wrap clear">
+					<div class="widget-area">
+				<section id="custom_html-3" class="widget_text widget widget_custom_html"><h2 class="widget-title">MATERNAL HEALTH TASK FORCE</h2><div class="textwidget custom-html-widget">Harvard Chan School Center of Excellence in Maternal and Child Health
+<br>677 Huntington Avenue<br>
+Boston, MA 02115<br>
+<a href="mailto:MHTF@hsph.harvard.edu">MHTF@hsph.harvard.edu</a><br><br>
+<small>This project is supported by the Health Resources and Services Administration (HRSA) of the U.S. Department of Health and Human Services (HHS) under grant T76MC00001 and entitled Training Grant in Maternal and Child Health. This information or content and conclusions are those of the author and should not be construed as the official position or policy of, nor should any endorsements be inferred by HRSA, HHS or the U.S. Government. 
+</small></div></section>			</div>
+		
+			</div>
+</aside><!-- .content-bottom-widgets -->
+
+		</div><!-- .site-content -->
+
+		<footer id="colophon" class="site-footer" role="contentinfo">
+							<nav class="main-navigation" role="navigation" aria-label="Footer Primary Menu">
+					<div class="menu-main-menu-container"><ul id="menu-main-menu-2" class="primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19319"><a href="https://www.mhtf.org/about-mhtf/">About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19323"><a href="https://www.mhtf.org/topics/">Topics</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19322"><a href="https://www.mhtf.org/resources/">Resources</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47907"><a href="https://www.mhtf.org/mh-buzz/">Buzz</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-66 current_page_item current_page_parent menu-item-19320"><a href="https://www.mhtf.org/blog/" aria-current="page">Blog</a></li>
+</ul></div>				</nav><!-- .main-navigation -->
+			
+							<nav class="social-navigation" role="navigation" aria-label="Footer Social Links Menu">
+					<div class="menu-social-links-container"><ul id="menu-social-links-1" class="social-links-menu"><li class="facebook menu-item menu-item-type-custom menu-item-object-custom menu-item-18830"><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/maternalhealthtaskforce"><span class="screen-reader-text">Facebook</span></a></li>
+<li class="twitter menu-item menu-item-type-custom menu-item-object-custom menu-item-18831"><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/MHTF"><span class="screen-reader-text">Twitter</span></a></li>
+<li class="vimeo menu-item menu-item-type-custom menu-item-object-custom menu-item-18832"><a target="_blank" rel="noopener noreferrer" href="https://vimeo.com/mhtf"><span class="screen-reader-text">Vimeo</span></a></li>
+<li class="flickr menu-item menu-item-type-custom menu-item-object-custom menu-item-18833"><a target="_blank" rel="noopener noreferrer" href="https://www.flickr.com/photos/46046481@N05/albums"><span class="screen-reader-text">Flickr</span></a></li>
+<li class="email menu-item menu-item-type-custom menu-item-object-custom menu-item-41792"><a target="_blank" rel="noopener noreferrer" href="http://maternalhealthtaskforce.us1.list-manage.com/subscribe?u=12f07785d047d1f4eb7414fb2&#038;id=8ac9c53ad4"><span class="screen-reader-text">Email</span></a></li>
+</ul></div>				</nav><!-- .social-navigation -->
+			
+			<div class="site-info">
+								<span class="site-title"><a href="https://www.mhtf.org/" rel="home">Maternal Health Task Force</a></span>
+								<a href="https://wordpress.org/" class="imprint">
+					Proudly powered by WordPress				</a>
+			</div><!-- .site-info -->
+		</footer><!-- .site-footer -->
+	</div><!-- .site-inner -->
+</div><!-- .site -->
+
+<script type='text/javascript' src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201938'></script>
+<script type='text/javascript' src='https://www.mhtf.org/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
+</script>
+<script type='text/javascript' src='https://www.mhtf.org/wp-content/themes/twentysixteen/js/skip-link-focus-fix.js?ver=20160816'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var screenReaderText = {"expand":"expand child menu","collapse":"collapse child menu"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.mhtf.org/wp-content/themes/twentysixteen/js/functions.js?ver=20181230'></script>
+<script type='text/javascript' src='https://www.mhtf.org/wp-includes/js/wp-embed.min.js?ver=5.2.3'></script>
+<script type='text/javascript' src='https://stats.wp.com/e-201938.js' async='async' defer='defer'></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:7.7.1',blog:'102623734',post:'66',tz:'-4',srv:'www.mhtf.org'} ]);
+	_stq.push([ 'clickTrackerInit', '102623734', '66' ]);
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"5855f939d3","applicationID":"11647346","transactionName":"ZwRRZUsCWxVYV0MPXl5OclJNCloIFl1ZAlRI","queueTime":0,"applicationTime":2146,"atts":"S0NSEwMYSBs=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

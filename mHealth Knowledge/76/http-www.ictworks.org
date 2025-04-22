@@ -1,0 +1,862 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head profile="http://gmpg.org/xfn/11">
+
+	<title>ICTworks - Expertise in sustainable ICT4D for the developing world</title>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="generator" content="WordPress 5.2.3" /> <!-- leave this for stats please -->
+<meta name="google-site-verification" content="Pik5Dy46tWhrWRMTBsx2I5KyAljydhu5g3IgLBudX4Y" />
+<meta name="msvalidate.01" content="0C79C87107DF6D3AE8016B1766493685" />
+
+      	<link rel="stylesheet" href="https://www.ictworks.org/wp-content/themes/azsimple/style.css" type="text/css" media="screen" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://www.ictworks.org/feed/" />
+	<link rel="alternate" type="text/xml" title="RSS .92" href="https://www.ictworks.org/feed/rss/" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://www.ictworks.org/feed/atom/" />
+	<link rel="pingback" href="https://www.ictworks.org/xmlrpc.php" />
+
+	<!-- jQuery -->
+	<script type="text/javascript" src="https://www.ictworks.org/wp-content/themes/azsimple/javascript/jquery-1.7.1.min.js" ></script>
+
+	<!-- bxSlider for featured posts -->
+	<script type="text/javascript" src="https://www.ictworks.org/wp-content/themes/azsimple/javascript/jquery.bxSlider.min.js" ></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#featured-posts-list').bxSlider({
+				pager: true,
+				pagerSelector: '#featured-posts-pages',
+				controls: false
+			});
+		});
+	</script>
+
+	
+		<link rel='archives' title='September 2019' href='https://www.ictworks.org/2019/09/' />
+	<link rel='archives' title='August 2019' href='https://www.ictworks.org/2019/08/' />
+	<link rel='archives' title='July 2019' href='https://www.ictworks.org/2019/07/' />
+	<link rel='archives' title='June 2019' href='https://www.ictworks.org/2019/06/' />
+	<link rel='archives' title='May 2019' href='https://www.ictworks.org/2019/05/' />
+	<link rel='archives' title='April 2019' href='https://www.ictworks.org/2019/04/' />
+	<link rel='archives' title='March 2019' href='https://www.ictworks.org/2019/03/' />
+	<link rel='archives' title='February 2019' href='https://www.ictworks.org/2019/02/' />
+	<link rel='archives' title='January 2019' href='https://www.ictworks.org/2019/01/' />
+	<link rel='archives' title='December 2018' href='https://www.ictworks.org/2018/12/' />
+	<link rel='archives' title='November 2018' href='https://www.ictworks.org/2018/11/' />
+	<link rel='archives' title='October 2018' href='https://www.ictworks.org/2018/10/' />
+	<link rel='archives' title='September 2018' href='https://www.ictworks.org/2018/09/' />
+	<link rel='archives' title='August 2018' href='https://www.ictworks.org/2018/08/' />
+	<link rel='archives' title='July 2018' href='https://www.ictworks.org/2018/07/' />
+	<link rel='archives' title='June 2018' href='https://www.ictworks.org/2018/06/' />
+	<link rel='archives' title='May 2018' href='https://www.ictworks.org/2018/05/' />
+	<link rel='archives' title='April 2018' href='https://www.ictworks.org/2018/04/' />
+	<link rel='archives' title='March 2018' href='https://www.ictworks.org/2018/03/' />
+	<link rel='archives' title='February 2018' href='https://www.ictworks.org/2018/02/' />
+	<link rel='archives' title='January 2018' href='https://www.ictworks.org/2018/01/' />
+	<link rel='archives' title='December 2017' href='https://www.ictworks.org/2017/12/' />
+	<link rel='archives' title='November 2017' href='https://www.ictworks.org/2017/11/' />
+	<link rel='archives' title='October 2017' href='https://www.ictworks.org/2017/10/' />
+	<link rel='archives' title='September 2017' href='https://www.ictworks.org/2017/09/' />
+	<link rel='archives' title='August 2017' href='https://www.ictworks.org/2017/08/' />
+	<link rel='archives' title='July 2017' href='https://www.ictworks.org/2017/07/' />
+	<link rel='archives' title='June 2017' href='https://www.ictworks.org/2017/06/' />
+	<link rel='archives' title='May 2017' href='https://www.ictworks.org/2017/05/' />
+	<link rel='archives' title='April 2017' href='https://www.ictworks.org/2017/04/' />
+	<link rel='archives' title='March 2017' href='https://www.ictworks.org/2017/03/' />
+	<link rel='archives' title='February 2017' href='https://www.ictworks.org/2017/02/' />
+	<link rel='archives' title='January 2017' href='https://www.ictworks.org/2017/01/' />
+	<link rel='archives' title='December 2016' href='https://www.ictworks.org/2016/12/' />
+	<link rel='archives' title='November 2016' href='https://www.ictworks.org/2016/11/' />
+	<link rel='archives' title='October 2016' href='https://www.ictworks.org/2016/10/' />
+	<link rel='archives' title='September 2016' href='https://www.ictworks.org/2016/09/' />
+	<link rel='archives' title='August 2016' href='https://www.ictworks.org/2016/08/' />
+	<link rel='archives' title='July 2016' href='https://www.ictworks.org/2016/07/' />
+	<link rel='archives' title='June 2016' href='https://www.ictworks.org/2016/06/' />
+	<link rel='archives' title='May 2016' href='https://www.ictworks.org/2016/05/' />
+	<link rel='archives' title='April 2016' href='https://www.ictworks.org/2016/04/' />
+	<link rel='archives' title='March 2016' href='https://www.ictworks.org/2016/03/' />
+	<link rel='archives' title='February 2016' href='https://www.ictworks.org/2016/02/' />
+	<link rel='archives' title='January 2016' href='https://www.ictworks.org/2016/01/' />
+	<link rel='archives' title='December 2015' href='https://www.ictworks.org/2015/12/' />
+	<link rel='archives' title='November 2015' href='https://www.ictworks.org/2015/11/' />
+	<link rel='archives' title='October 2015' href='https://www.ictworks.org/2015/10/' />
+	<link rel='archives' title='September 2015' href='https://www.ictworks.org/2015/09/' />
+	<link rel='archives' title='August 2015' href='https://www.ictworks.org/2015/08/' />
+	<link rel='archives' title='July 2015' href='https://www.ictworks.org/2015/07/' />
+	<link rel='archives' title='June 2015' href='https://www.ictworks.org/2015/06/' />
+	<link rel='archives' title='May 2015' href='https://www.ictworks.org/2015/05/' />
+	<link rel='archives' title='April 2015' href='https://www.ictworks.org/2015/04/' />
+	<link rel='archives' title='March 2015' href='https://www.ictworks.org/2015/03/' />
+	<link rel='archives' title='February 2015' href='https://www.ictworks.org/2015/02/' />
+	<link rel='archives' title='January 2015' href='https://www.ictworks.org/2015/01/' />
+	<link rel='archives' title='December 2014' href='https://www.ictworks.org/2014/12/' />
+	<link rel='archives' title='November 2014' href='https://www.ictworks.org/2014/11/' />
+	<link rel='archives' title='October 2014' href='https://www.ictworks.org/2014/10/' />
+	<link rel='archives' title='September 2014' href='https://www.ictworks.org/2014/09/' />
+	<link rel='archives' title='August 2014' href='https://www.ictworks.org/2014/08/' />
+	<link rel='archives' title='July 2014' href='https://www.ictworks.org/2014/07/' />
+	<link rel='archives' title='June 2014' href='https://www.ictworks.org/2014/06/' />
+	<link rel='archives' title='May 2014' href='https://www.ictworks.org/2014/05/' />
+	<link rel='archives' title='April 2014' href='https://www.ictworks.org/2014/04/' />
+	<link rel='archives' title='March 2014' href='https://www.ictworks.org/2014/03/' />
+	<link rel='archives' title='February 2014' href='https://www.ictworks.org/2014/02/' />
+	<link rel='archives' title='January 2014' href='https://www.ictworks.org/2014/01/' />
+	<link rel='archives' title='December 2013' href='https://www.ictworks.org/2013/12/' />
+	<link rel='archives' title='November 2013' href='https://www.ictworks.org/2013/11/' />
+	<link rel='archives' title='October 2013' href='https://www.ictworks.org/2013/10/' />
+	<link rel='archives' title='September 2013' href='https://www.ictworks.org/2013/09/' />
+	<link rel='archives' title='August 2013' href='https://www.ictworks.org/2013/08/' />
+	<link rel='archives' title='July 2013' href='https://www.ictworks.org/2013/07/' />
+	<link rel='archives' title='June 2013' href='https://www.ictworks.org/2013/06/' />
+	<link rel='archives' title='May 2013' href='https://www.ictworks.org/2013/05/' />
+	<link rel='archives' title='April 2013' href='https://www.ictworks.org/2013/04/' />
+	<link rel='archives' title='March 2013' href='https://www.ictworks.org/2013/03/' />
+	<link rel='archives' title='February 2013' href='https://www.ictworks.org/2013/02/' />
+	<link rel='archives' title='January 2013' href='https://www.ictworks.org/2013/01/' />
+	<link rel='archives' title='December 2012' href='https://www.ictworks.org/2012/12/' />
+	<link rel='archives' title='November 2012' href='https://www.ictworks.org/2012/11/' />
+	<link rel='archives' title='October 2012' href='https://www.ictworks.org/2012/10/' />
+	<link rel='archives' title='September 2012' href='https://www.ictworks.org/2012/09/' />
+	<link rel='archives' title='August 2012' href='https://www.ictworks.org/2012/08/' />
+	<link rel='archives' title='July 2012' href='https://www.ictworks.org/2012/07/' />
+	<link rel='archives' title='June 2012' href='https://www.ictworks.org/2012/06/' />
+	<link rel='archives' title='May 2012' href='https://www.ictworks.org/2012/05/' />
+	<link rel='archives' title='April 2012' href='https://www.ictworks.org/2012/04/' />
+	<link rel='archives' title='March 2012' href='https://www.ictworks.org/2012/03/' />
+	<link rel='archives' title='February 2012' href='https://www.ictworks.org/2012/02/' />
+	<link rel='archives' title='January 2012' href='https://www.ictworks.org/2012/01/' />
+	<link rel='archives' title='December 2011' href='https://www.ictworks.org/2011/12/' />
+	<link rel='archives' title='November 2011' href='https://www.ictworks.org/2011/11/' />
+	<link rel='archives' title='October 2011' href='https://www.ictworks.org/2011/10/' />
+	<link rel='archives' title='September 2011' href='https://www.ictworks.org/2011/09/' />
+	<link rel='archives' title='August 2011' href='https://www.ictworks.org/2011/08/' />
+	<link rel='archives' title='July 2011' href='https://www.ictworks.org/2011/07/' />
+	<link rel='archives' title='June 2011' href='https://www.ictworks.org/2011/06/' />
+	<link rel='archives' title='May 2011' href='https://www.ictworks.org/2011/05/' />
+	<link rel='archives' title='April 2011' href='https://www.ictworks.org/2011/04/' />
+	<link rel='archives' title='March 2011' href='https://www.ictworks.org/2011/03/' />
+	<link rel='archives' title='February 2011' href='https://www.ictworks.org/2011/02/' />
+	<link rel='archives' title='January 2011' href='https://www.ictworks.org/2011/01/' />
+	<link rel='archives' title='December 2010' href='https://www.ictworks.org/2010/12/' />
+	<link rel='archives' title='November 2010' href='https://www.ictworks.org/2010/11/' />
+	<link rel='archives' title='October 2010' href='https://www.ictworks.org/2010/10/' />
+	<link rel='archives' title='September 2010' href='https://www.ictworks.org/2010/09/' />
+	<link rel='archives' title='August 2010' href='https://www.ictworks.org/2010/08/' />
+	<link rel='archives' title='July 2010' href='https://www.ictworks.org/2010/07/' />
+	<link rel='archives' title='June 2010' href='https://www.ictworks.org/2010/06/' />
+	<link rel='archives' title='May 2010' href='https://www.ictworks.org/2010/05/' />
+	<link rel='archives' title='April 2010' href='https://www.ictworks.org/2010/04/' />
+	<link rel='archives' title='March 2010' href='https://www.ictworks.org/2010/03/' />
+	<link rel='archives' title='February 2010' href='https://www.ictworks.org/2010/02/' />
+	<link rel='archives' title='January 2010' href='https://www.ictworks.org/2010/01/' />
+	<link rel='archives' title='December 2009' href='https://www.ictworks.org/2009/12/' />
+	<link rel='archives' title='November 2009' href='https://www.ictworks.org/2009/11/' />
+	<link rel='archives' title='October 2009' href='https://www.ictworks.org/2009/10/' />
+	<link rel='archives' title='September 2009' href='https://www.ictworks.org/2009/09/' />
+	<link rel='archives' title='August 2009' href='https://www.ictworks.org/2009/08/' />
+	<link rel='archives' title='July 2009' href='https://www.ictworks.org/2009/07/' />
+	<link rel='archives' title='June 2009' href='https://www.ictworks.org/2009/06/' />
+	<link rel='archives' title='May 2009' href='https://www.ictworks.org/2009/05/' />
+	<link rel='archives' title='April 2009' href='https://www.ictworks.org/2009/04/' />
+				
+	<!-- Favicon -->
+	<link rel="shortcut icon" type="image/x-icon" href="" />
+
+	
+<!-- This site is optimized with the Yoast SEO plugin v12.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Expertise in sustainable ICT4D for the developing world"/>
+<link rel="canonical" href="https://www.ictworks.org/" />
+<link rel="next" href="https://www.ictworks.org/page/2/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="ICTworks - Expertise in sustainable ICT4D for the developing world" />
+<meta property="og:description" content="Expertise in sustainable ICT4D for the developing world" />
+<meta property="og:url" content="https://www.ictworks.org/" />
+<meta property="og:site_name" content="ICTworks" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="Expertise in sustainable ICT4D for the developing world" />
+<meta name="twitter:title" content="ICTworks - Expertise in sustainable ICT4D for the developing world" />
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.ictworks.org/#website","url":"https://www.ictworks.org/","name":"ICTworks","potentialAction":{"@type":"SearchAction","target":"https://www.ictworks.org/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"CollectionPage","@id":"https://www.ictworks.org/#webpage","url":"https://www.ictworks.org/","inLanguage":"en-US","name":"ICTworks - Expertise in sustainable ICT4D for the developing world","isPartOf":{"@id":"https://www.ictworks.org/#website"},"description":"Expertise in sustainable ICT4D for the developing world"}]}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//secure.gravatar.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<!-- This site uses the Google Analytics by MonsterInsights plugin v7.8.1 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+<script type="text/javascript" data-cfasync="false">
+	var mi_version         = '7.8.1';
+	var mi_track_user      = true;
+	var mi_no_track_reason = '';
+	
+	var disableStr = 'ga-disable-UA-9671985-1';
+
+	/* Function to detect opted out users */
+	function __gaTrackerIsOptedOut() {
+		return document.cookie.indexOf(disableStr + '=true') > -1;
+	}
+
+	/* Disable tracking if the opt-out cookie exists. */
+	if ( __gaTrackerIsOptedOut() ) {
+		window[disableStr] = true;
+	}
+
+	/* Opt-out function */
+	function __gaTrackerOptout() {
+	  document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+	  window[disableStr] = true;
+	}
+	
+	if ( mi_track_user ) {
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+		__gaTracker('create', 'UA-9671985-1', 'auto');
+		__gaTracker('set', 'forceSSL', true);
+		__gaTracker('send','pageview');
+	} else {
+		console.log( "" );
+		(function() {
+			/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+			var noopfn = function() {
+				return null;
+			};
+			var noopnullfn = function() {
+				return null;
+			};
+			var Tracker = function() {
+				return null;
+			};
+			var p = Tracker.prototype;
+			p.get = noopfn;
+			p.set = noopfn;
+			p.send = noopfn;
+			var __gaTracker = function() {
+				var len = arguments.length;
+				if ( len === 0 ) {
+					return;
+				}
+				var f = arguments[len-1];
+				if ( typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function' ) {
+					console.log( 'Not running function __gaTracker(' + arguments[0] + " ....) because you are not being tracked. " + mi_no_track_reason );
+					return;
+				}
+				try {
+					f.hitCallback();
+				} catch (ex) {
+
+				}
+			};
+			__gaTracker.create = function() {
+				return new Tracker();
+			};
+			__gaTracker.getByName = noopnullfn;
+			__gaTracker.getAll = function() {
+				return [];
+			};
+			__gaTracker.remove = noopfn;
+			window['__gaTracker'] = __gaTracker;
+					})();
+		}
+</script>
+<!-- / Google Analytics by MonsterInsights -->
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.ictworks.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.2.3"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='A5-framework-css'  href='https://www.ictworks.org/a5-framework-frontend.css?ver=1.0%20beta%2020160127%20FCW' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://www.ictworks.org/wp-includes/css/dist/block-library/style.min.css?ver=5.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='avatar-manager-css'  href='https://www.ictworks.org/wp-content/plugins/avatar-manager/assets/css/avatar-manager.min.css?ver=1.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wpfla-style-handle-css'  href='https://www.ictworks.org/wp-content/plugins/wp-first-letter-avatar/css/style.css?ver=5.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-polls-css'  href='https://www.ictworks.org/wp-content/plugins/wp-polls/polls-css.css?ver=2.75.2' type='text/css' media='all' />
+<style id='wp-polls-inline-css' type='text/css'>
+.wp-polls .pollbar {
+	margin: 1px;
+	font-size: 6px;
+	line-height: 8px;
+	height: 8px;
+	background-image: url('https://www.ictworks.org/wp-content/plugins/wp-polls/images/default/pollbg.gif');
+	border: 1px solid #c8c8c8;
+}
+
+</style>
+<link rel='stylesheet' id='mediaelement-css'  href='https://www.ictworks.org/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.6-78496d1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css'  href='https://www.ictworks.org/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=5.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='author-avatars-widget-css'  href='https://www.ictworks.org/wp-content/plugins/author-avatars/css/widget.css?ver=1.17' type='text/css' media='all' />
+<link rel='stylesheet' id='addthis_all_pages-css'  href='https://www.ictworks.org/wp-content/plugins/addthis/frontend/build/addthis_wordpress_public.min.css?ver=5.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='author-avatars-shortcode-css'  href='https://www.ictworks.org/wp-content/plugins/author-avatars/css/shortcode.css?ver=1.17' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='https://www.ictworks.org/wp-content/plugins/jetpack/css/jetpack.css?ver=7.7.1' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,exe,js,pdf,ppt,tgz,zip,xls","inbound_paths":"[]","home_url":"https:\/\/www.ictworks.org","hash_tracking":"false"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.ictworks.org/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend.min.js?ver=7.8.1'></script>
+<script type='text/javascript' src='https://www.ictworks.org/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://www.ictworks.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://www.ictworks.org/wp-content/plugins/avatar-manager/assets/js/avatar-manager.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='https://www.ictworks.org/wp-content/plugins/jetpack/_inc/build/tiled-gallery/tiled-gallery/tiled-gallery.min.js?ver=5.2.3'></script>
+<script type='text/javascript'>
+var mejsL10n = {"language":"en","strings":{"mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen-off":"Turn off Fullscreen","mejs.fullscreen-on":"Go Fullscreen","mejs.download-video":"Download Video","mejs.fullscreen":"Fullscreen","mejs.time-jump-forward":["Jump forward 1 second","Jump forward %1 seconds"],"mejs.loop":"Toggle Loop","mejs.play":"Play","mejs.pause":"Pause","mejs.close":"Close","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.","mejs.time-skip-back":["Skip back 1 second","Skip back %1 seconds"],"mejs.captions-subtitles":"Captions\/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.mute-toggle":"Mute Toggle","mejs.volume-help-text":"Use Up\/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.ad-skip":"Skip ad","mejs.ad-skip-info":["Skip in 1 second","Skip in %1 seconds"],"mejs.source-chooser":"Source Chooser","mejs.stop":"Stop","mejs.speed-rate":"Speed Rate","mejs.live-broadcast":"Live Broadcast","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
+</script>
+<script type='text/javascript' src='https://www.ictworks.org/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.6-78496d1'></script>
+<script type='text/javascript' src='https://www.ictworks.org/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=5.2.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive"};
+/* ]]> */
+</script>
+<link rel='https://api.w.org/' href='https://www.ictworks.org/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.ictworks.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.ictworks.org/wp-includes/wlwmanifest.xml" /> 
+<link rel='shortlink' href='https://wp.me/79kBF' />
+
+<link rel='dns-prefetch' href='//v0.wordpress.com'/>
+<link rel='dns-prefetch' href='//i0.wp.com'/>
+<link rel='dns-prefetch' href='//i1.wp.com'/>
+<link rel='dns-prefetch' href='//i2.wp.com'/>
+<style type='text/css'>img#wpstats{display:none}</style>		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		
+<!--Plugin WP Missed Schedule Active - PATCH - Secured with Genuine Authenticity KeyTag-->
+
+<!-- This site is patched against a big problem not solved since WordPress 2.5 to date -->
+
+			<style type="text/css" id="wp-custom-css">
+				/*
+You can add your own CSS here.
+
+Click the help icon above to learn more.
+*/
+
+.full-post .post-divider {display:none;}
+
+.at-share-btn-elements {margin-top:40px;}
+
+.catdesc {color: #888888;
+margin-top: 10px;
+line-height: 18px;}
+
+.catdesc p {margin-bottom:10px;}
+
+.catdesc h2 {font-size:1.5rem;margin:20px 0 10px;color:#3d3d3d;}
+
+.catdesc-content {
+	color: #888888;
+	margin-top: 10px;
+	line-height: 18px;
+}
+.catdesc a { color: #37badc; }
+.catdesc a:hover { color: #888888; }
+.catdesc .alignleft { float: left; margin: 6px 15px 6px 0; }
+.catdesc .aligncenter { margin: 6px auto; display: block; }
+.catdesc i { font-style:italic;}
+.catdesc em { font-style:italic;}
+
+.catdesc ul { padding: 5px 35px; list-style-type: square; }
+.catdesc ol { padding: 5px 35px; list-style-type: decimal; }
+			</style>
+		<link rel="stylesheet" type="text/css" href="https://www.ictworks.org/wp-content/themes/azsimple/print.css" media="print">
+</head>
+
+<body class="home blog">
+	<div id="header">
+		<div class="header-top">
+			<div class="main-menu-container">
+				<div class="main-menu"><ul id="menu-main-menu" class="menu"><li id="menu-item-7300" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-7300"><a href="https://www.ictworks.org/" aria-current="page">Home</a></li>
+<li id="menu-item-1278" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1278"><a href="https://www.ictworks.org/about/">About Us</a>
+<ul class="sub-menu">
+	<li id="menu-item-1647" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1647"><a href="https://www.ictworks.org/thought-leadership/">Contributors</a></li>
+	<li id="menu-item-7248" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7248"><a href="https://www.ictworks.org/guest-post-guidelines/">Guest Posts</a></li>
+</ul>
+</li>
+<li id="menu-item-10781" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10781"><a href="http://eepurl.com/uBF7D">Subscribe Now</a></li>
+<li id="menu-item-10130" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10130"><a href="https://www.ictworks.org/category/funding/">Find Funding</a></li>
+<li id="menu-item-2463" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2463"><a href="#">Our Topics</a>
+<ul class="sub-menu">
+	<li id="menu-item-7039" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7039"><a href="https://www.ictworks.org/category/agriculture/">Agriculture</a></li>
+	<li id="menu-item-2474" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2474"><a href="https://www.ictworks.org/category/technology/connectivity/">Connectivity</a></li>
+	<li id="menu-item-7280" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7280"><a href="https://www.ictworks.org/category/technology/data/">Data</a></li>
+	<li id="menu-item-2467" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2467"><a href="https://www.ictworks.org/category/economic-development/">Economic Development</a></li>
+	<li id="menu-item-2468" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2468"><a href="https://www.ictworks.org/category/education/">Education</a></li>
+	<li id="menu-item-2465" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2465"><a href="https://www.ictworks.org/category/business/finance/">Finance</a></li>
+	<li id="menu-item-7278" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7278"><a href="https://www.ictworks.org/category/funding/">Funding</a></li>
+	<li id="menu-item-2469" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2469"><a href="https://www.ictworks.org/category/government/">Government</a></li>
+	<li id="menu-item-2471" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2471"><a href="https://www.ictworks.org/category/ictworks-network/">ICTWorks Network</a></li>
+	<li id="menu-item-7281" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7281"><a href="https://www.ictworks.org/category/technology/hardware/">Hardware</a></li>
+	<li id="menu-item-2470" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2470"><a href="https://www.ictworks.org/category/healthcare/">Healthcare</a></li>
+	<li id="menu-item-2466" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2466"><a href="https://www.ictworks.org/category/business/management/">Management</a></li>
+	<li id="menu-item-7276" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7276"><a href="https://www.ictworks.org/category/business/marketing/">Marketing</a></li>
+	<li id="menu-item-2476" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2476"><a href="https://www.ictworks.org/category/technology/networking/">Networking</a></li>
+	<li id="menu-item-2477" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2477"><a href="https://www.ictworks.org/category/technology/power/">Power</a></li>
+	<li id="menu-item-2472" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2472"><a href="https://www.ictworks.org/category/relief/">Relief</a></li>
+	<li id="menu-item-7279" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7279"><a href="https://www.ictworks.org/category/reports/">Formal Reports</a></li>
+	<li id="menu-item-7277" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7277"><a href="https://www.ictworks.org/category/business/sales/">Sales</a></li>
+	<li id="menu-item-2478" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2478"><a href="https://www.ictworks.org/category/technology/software/">Software</a></li>
+	<li id="menu-item-2479" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2479"><a href="https://www.ictworks.org/category/technology/solutions/">Solutions</a></li>
+	<li id="menu-item-2473" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2473"><a href="https://www.ictworks.org/category/technology/">Technology</a></li>
+	<li id="menu-item-7282" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7282"><a href="https://www.ictworks.org/category/thought-leadership/">Thought Leadership</a></li>
+	<li id="menu-item-7283" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7283"><a href="https://www.ictworks.org/category/women-in-tech/">Women in Tech</a></li>
+</ul>
+</li>
+</ul></div>				<div class="social">
+					Follow us: <a href="">Facebook</a>, <a href="http://twitter.com/">Twitter</a>, <a href="https://www.ictworks.org/feed/">RSS Feed</a>
+				</div>
+			</div>
+		</div>
+		<div class="header-bottom">
+<div id="headerleft">
+			<div class="logo" style="background-image"><a href="http://ictworks.org"><img alt="ICTworks" src="/ictworkslogo.png"></a>
+				<h1><a href="https://www.ictworks.org/">ICTworks</a></h1>
+			</div>
+</div>
+
+<div id="headerright">
+<img src="/sponsors.png" alt="ICTworks Sponsors" />
+</div>			
+		</div>
+	</div>
+
+
+
+	<div id="content">
+
+		<div id="posts">
+
+		
+
+<div class="featured-posts" style="background-size:cover;background-image:url(https://www.ictworks.org/wp-content/uploads/2019/09/ict4d-development-theory.png);">	
+<div class="latest">The Latest</div>
+	<div class="single-post-text" style="float:none;width:auto;margin-top:120px;margin-left:0px;background-color:#fff;padding:20px;">
+
+						<h2><a href="https://www.ictworks.org/digital-development-theories/" rel="bookmark" title="Permanent Link to Do We Have Too Many Theories in Digital Development?">Do We Have Too Many Theories in Digital Development?</a></h2>
+						<div class="meta">
+							Published on: <span>Sep 19 2019</span> by <span>Guest Writer</span> - <a href="https://www.ictworks.org/digital-development-theories/#respond">Leave a Comment</a>						</div><!--meta--> 
+						<div class="single-post-content">
+Theory of this, theory of that. It often feels as if we have a theory for everything in international development, and in ICT4D as a subset of overall development activity.
+
+Are these theories for business development, M&amp;E,...</div>
+					
+					<div class="clearfix"></div>
+				</div>
+</div>
+ 
+
+
+				<div class="single-post" id="post-11629"> 
+ 
+
+					<div class="single-post-image">
+						<a href="https://www.ictworks.org/language-translation-technology-digital-divide/" rel="bookmark" title="Help Bridge the Language Translation Technology Digital Divide"><img src="https://i0.wp.com/www.ictworks.org/wp-content/uploads/2019/09/language-translation-technology.png?resize=150%2C150&ssl=1" alt="Help Bridge the Language Translation Technology Digital Divide" /></a>					</div>
+					
+					<div class="single-post-text">
+						<h2><a href="https://www.ictworks.org/language-translation-technology-digital-divide/" rel="bookmark" title="Permanent Link to Help Bridge the Language Translation Technology Digital Divide">Help Bridge the Language Translation Technology Digital Divide</a></h2>
+						<div class="meta">
+							Published on: <span>Sep 18 2019</span> by <span>Guest Writer</span> - <a href="https://www.ictworks.org/language-translation-technology-digital-divide/#comments">3 Comments</a>						</div><!--meta--> 
+						<div class="single-post-content">
+In the digital age, when we face a language barrier, there are a host of internet resources to overcome it. We often rely on translation platforms, dictionary apps, Wikipedia in other languages, or the simple “click to...</div>
+					</div><!-- single-post-text -->
+					<div class="clearfix"></div>
+				</div><!-- single-post -->
+
+				 
+
+
+				<div class="single-post" id="post-11636"> 
+ 
+
+					<div class="single-post-image">
+						<a href="https://www.ictworks.org/engineers-leverage-internet-of-things/" rel="bookmark" title="How Engineers Can Leverage Internet of Things for Better Development Interventions"><img src="https://i1.wp.com/www.ictworks.org/wp-content/uploads/2017/11/computer-repair.png?resize=150%2C150&ssl=1" alt="How Engineers Can Leverage Internet of Things for Better Development Interventions" /></a>					</div>
+					
+					<div class="single-post-text">
+						<h2><a href="https://www.ictworks.org/engineers-leverage-internet-of-things/" rel="bookmark" title="Permanent Link to How Engineers Can Leverage Internet of Things for Better Development Interventions">How Engineers Can Leverage Internet of Things for Better Development Interventions</a></h2>
+						<div class="meta">
+							Published on: <span>Sep 16 2019</span> by <span>Guest Writer</span> - <a href="https://www.ictworks.org/engineers-leverage-internet-of-things/#comments">1 Comment</a>						</div><!--meta--> 
+						<div class="single-post-content">
+Typically, an engineer’s role in addressing global poverty challenges has often been confined to the engineering problem facing community, regional or national scale service interventions. Engineers focused on product...</div>
+					</div><!-- single-post-text -->
+					<div class="clearfix"></div>
+				</div><!-- single-post -->
+
+				 
+
+
+				<div class="single-post" id="post-11616"> 
+ 
+
+					<div class="single-post-image">
+						<a href="https://www.ictworks.org/please-register-now-2019-cgiar-big-data-in-agriculture-convention/" rel="bookmark" title="Please Register Now: 2019 CGIAR Big Data in Agriculture Convention"><img src="https://i1.wp.com/www.ictworks.org/wp-content/uploads/2019/09/big-data-agriculture-conference.png?resize=150%2C150&ssl=1" alt="Please Register Now: 2019 CGIAR Big Data in Agriculture Convention" /></a>					</div>
+					
+					<div class="single-post-text">
+						<h2><a href="https://www.ictworks.org/please-register-now-2019-cgiar-big-data-in-agriculture-convention/" rel="bookmark" title="Permanent Link to Please Register Now: 2019 CGIAR Big Data in Agriculture Convention">Please Register Now: 2019 CGIAR Big Data in Agriculture Convention</a></h2>
+						<div class="meta">
+							Published on: <span>Sep 12 2019</span> by <span>Wayan Vota</span> - <a href="https://www.ictworks.org/please-register-now-2019-cgiar-big-data-in-agriculture-convention/#comments">2 Comments</a>						</div><!--meta--> 
+						<div class="single-post-content">
+The CGIAR Big Data in Agriculture platform is where information becomes power to predict, prescribe, and produce more food, more sustainably. It democratizes decades of agricultural data empowering us to mine information...</div>
+					</div><!-- single-post-text -->
+					<div class="clearfix"></div>
+				</div><!-- single-post -->
+
+				 
+
+
+				<div class="single-post" id="post-11588"> 
+ 
+
+					<div class="single-post-image">
+						<a href="https://www.ictworks.org/human-rights-based-approach-digital-media/" rel="bookmark" title="3 Reasons Why We Need Human Rights-Based Approach to Digital Media"><img src="https://i0.wp.com/www.ictworks.org/wp-content/uploads/2019/07/internet-shutdown.png?resize=150%2C150&ssl=1" alt="3 Reasons Why We Need Human Rights-Based Approach to Digital Media" /></a>					</div>
+					
+					<div class="single-post-text">
+						<h2><a href="https://www.ictworks.org/human-rights-based-approach-digital-media/" rel="bookmark" title="Permanent Link to 3 Reasons Why We Need Human Rights-Based Approach to Digital Media">3 Reasons Why We Need Human Rights-Based Approach to Digital Media</a></h2>
+						<div class="meta">
+							Published on: <span>Sep 11 2019</span> by <span>Guest Writer</span> - <a href="https://www.ictworks.org/human-rights-based-approach-digital-media/#respond">Leave a Comment</a>						</div><!--meta--> 
+						<div class="single-post-content">
+Citizen engagement and participation through the use of digital media is a crucial area of work at this point in history and is now being recognized in regulatory provisions.
+In July 2016 the United Nations passed a resolution...</div>
+					</div><!-- single-post-text -->
+					<div class="clearfix"></div>
+				</div><!-- single-post -->
+
+				 
+
+
+				<div class="single-post" id="post-11610"> 
+ 
+
+					<div class="single-post-image">
+						<a href="https://www.ictworks.org/bitcoin-cryptocurrency-fund-your-ict4d-project/" rel="bookmark" title="Can Bitcoin or Ethereum Cryptocurrency Fund Your Next ICT4D Project?"><img src="https://i0.wp.com/www.ictworks.org/wp-content/uploads/2019/09/bitcoin-fundraising-ict4d.png?resize=150%2C150&ssl=1" alt="Can Bitcoin or Ethereum Cryptocurrency Fund Your Next ICT4D Project?" /></a>					</div>
+					
+					<div class="single-post-text">
+						<h2><a href="https://www.ictworks.org/bitcoin-cryptocurrency-fund-your-ict4d-project/" rel="bookmark" title="Permanent Link to Can Bitcoin or Ethereum Cryptocurrency Fund Your Next ICT4D Project?">Can Bitcoin or Ethereum Cryptocurrency Fund Your Next ICT4D Project?</a></h2>
+						<div class="meta">
+							Published on: <span>Sep 09 2019</span> by <span>Guest Writer</span> - <a href="https://www.ictworks.org/bitcoin-cryptocurrency-fund-your-ict4d-project/#comments">6 Comments</a>						</div><!--meta--> 
+						<div class="single-post-content">
+While cryptocurrency is starting to become a hot topic among some non-profits, it is estimated that only 1% of non-profits are currently accepting cryptocurrency as part of their fundraising efforts.
+Since 2010, Kopernik...</div>
+					</div><!-- single-post-text -->
+					<div class="clearfix"></div>
+				</div><!-- single-post -->
+
+				 
+
+
+				<div class="single-post" id="post-11551"> 
+ 
+
+					<div class="single-post-image">
+						<a href="https://www.ictworks.org/data-quantity-equal-data-quality/" rel="bookmark" title="Caution! Data Quantity Does NOT Equal Data Quality"><img src="https://i0.wp.com/www.ictworks.org/wp-content/uploads/2017/04/gps-mapping.png?resize=150%2C150&ssl=1" alt="Caution! Data Quantity Does NOT Equal Data Quality" /></a>					</div>
+					
+					<div class="single-post-text">
+						<h2><a href="https://www.ictworks.org/data-quantity-equal-data-quality/" rel="bookmark" title="Permanent Link to Caution! Data Quantity Does NOT Equal Data Quality">Caution! Data Quantity Does NOT Equal Data Quality</a></h2>
+						<div class="meta">
+							Published on: <span>Sep 05 2019</span> by <span>Guest Writer</span> - <a href="https://www.ictworks.org/data-quantity-equal-data-quality/#respond">Leave a Comment</a>						</div><!--meta--> 
+						<div class="single-post-content">
+Revenue administrations collect large amounts of data on individuals and firms in the course of their work. Increasingly, this data is digitised. The use of digital technologies has the potential to greatly improve the efficiency...</div>
+					</div><!-- single-post-text -->
+					<div class="clearfix"></div>
+				</div><!-- single-post -->
+
+				 
+
+
+				<div class="single-post" id="post-11548"> 
+ 
+
+					<div class="single-post-image">
+						<a href="https://www.ictworks.org/data-use-government-health-ministries/" rel="bookmark" title="5 Ways to Improve Data Use by Government Health Ministries"><img src="https://i2.wp.com/www.ictworks.org/wp-content/uploads/2019/07/data-use-governments.png?resize=150%2C150&ssl=1" alt="5 Ways to Improve Data Use by Government Health Ministries" /></a>					</div>
+					
+					<div class="single-post-text">
+						<h2><a href="https://www.ictworks.org/data-use-government-health-ministries/" rel="bookmark" title="Permanent Link to 5 Ways to Improve Data Use by Government Health Ministries">5 Ways to Improve Data Use by Government Health Ministries</a></h2>
+						<div class="meta">
+							Published on: <span>Sep 04 2019</span> by <span>Guest Writer</span> - <a href="https://www.ictworks.org/data-use-government-health-ministries/#respond">Leave a Comment</a>						</div><!--meta--> 
+						<div class="single-post-content">
+Despite the growing recognition that quality, timely, and accessible data are essential to every country’s ability to deliver vaccines effectively to its population, few data use interventions have been rigorously studied...</div>
+					</div><!-- single-post-text -->
+					<div class="clearfix"></div>
+				</div><!-- single-post -->
+
+				 
+
+
+				<div class="single-post" id="post-11593"> 
+ 
+
+					<div class="single-post-image">
+						<a href="https://www.ictworks.org/paid-african-presidential-scholars-stem/" rel="bookmark" title="Apply Now: Paid African Presidential Scholars for STEM and Social Research"><img src="https://i0.wp.com/www.ictworks.org/wp-content/uploads/2019/08/umaps-african-scholars.png?resize=150%2C150&ssl=1" alt="Apply Now: Paid African Presidential Scholars for STEM and Social Research" /></a>					</div>
+					
+					<div class="single-post-text">
+						<h2><a href="https://www.ictworks.org/paid-african-presidential-scholars-stem/" rel="bookmark" title="Permanent Link to Apply Now: Paid African Presidential Scholars for STEM and Social Research">Apply Now: Paid African Presidential Scholars for STEM and Social Research</a></h2>
+						<div class="meta">
+							Published on: <span>Sep 03 2019</span> by <span>Wayan Vota</span> - <a href="https://www.ictworks.org/paid-african-presidential-scholars-stem/#comments">2 Comments</a>						</div><!--meta--> 
+						<div class="single-post-content">
+Are you an early career faculty member in a college or university in Africa? Is your academic research related to STEM or social research? Do you want to work at the University of Michigan for five months?
+Then apply now...</div>
+					</div><!-- single-post-text -->
+					<div class="clearfix"></div>
+				</div><!-- single-post -->
+
+				 
+
+
+				<div class="single-post" id="post-11585"> 
+ 
+
+					<div class="single-post-image">
+						<a href="https://www.ictworks.org/what-impact-will-facebook-libra-blockchain-have-on-international-development/" rel="bookmark" title="What Impact Will Facebook Libra Blockchain Have on International Development?"><img src="https://i2.wp.com/www.ictworks.org/wp-content/uploads/2019/08/blockchain-course.png?resize=150%2C150&ssl=1" alt="What Impact Will Facebook Libra Blockchain Have on International Development?" /></a>					</div>
+					
+					<div class="single-post-text">
+						<h2><a href="https://www.ictworks.org/what-impact-will-facebook-libra-blockchain-have-on-international-development/" rel="bookmark" title="Permanent Link to What Impact Will Facebook Libra Blockchain Have on International Development?">What Impact Will Facebook Libra Blockchain Have on International Development?</a></h2>
+						<div class="meta">
+							Published on: <span>Aug 29 2019</span> by <span>Tech Change</span> - <a href="https://www.ictworks.org/what-impact-will-facebook-libra-blockchain-have-on-international-development/#comments">1 Comment</a>						</div><!--meta--> 
+						<div class="single-post-content">
+Libra is a digital currency proposed by Facebook and intended to be managed by the Libra Association, a membership organization with 27 payment, technology, and nonprofit members. Libra will be based on permissioned blockchain...</div>
+					</div><!-- single-post-text -->
+					<div class="clearfix"></div>
+				</div><!-- single-post -->
+
+				 
+				<div class="posts-navigation">
+
+<div class="navigation"><p><a href="https://www.ictworks.org/page/2/" > Older Posts &raquo; </a></p></div>
+
+					<div class="clearfix"></div>
+				</div>
+
+			
+		</div>
+
+
+
+<div id="sidebar">
+
+	<div class="search-form">
+		<form action="https://www.ictworks.org/" method="get">
+			<input type="text" value="Type search text and press enter..." name="s" id="ls" class="searchfield" onfocus="if (this.value == 'Type search text and press enter...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Type search text and press enter...';}" />
+		</form>
+	</div>
+
+	<div class="sidebar-ads">
+		<div class="sidebar-ads-wrap"></div>
+	</div>
+
+
+	<ul class="sidebar-content">
+	<li id="text-3" class="widget widget_text"><h2 class="widgettitle">Get ICTworks 3x a Week!</h2>
+			<div class="textwidget"><form action="https://ictworks.us4.list-manage.com/subscribe/post?u=84e9f392a668e74df589375c7&amp;id=0814c7961e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+	<!-- label for="mce-EMAIL">Get ICTworks 3x a week!</label><br -->
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+</form>
+</div>
+		</li>
+<li id="text-2" class="widget widget_text"><h2 class="widgettitle">Like Us on Facebook</h2>
+			<div class="textwidget"><div class="fb-page" data-href="https://www.facebook.com/ICTworks/" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/ICTworks/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ICTworks/">ICTworks</a></blockquote></div></div>
+		</li>
+<li id="text-4" class="widget widget_text"><h2 class="widgettitle">Follow Us on Twitter</h2>
+			<div class="textwidget"> <a class="twitter-timeline"  href="https://twitter.com/ICT_Works" data-widget-id="453255664496672768">Tweets by @ICT_Works</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          
+</div>
+		</li>
+<li id="hotpost_widget-2" class="widget widget_hotpost_widget"><h2 class="widgettitle">Hot Right Now</h2>
+
+<div class="hotbox">
+<div class="hotbox-img" style="background-image:url('https://www.ictworks.org/wp-content/uploads/2019/08/blockchain-course.png');"></div>
+
+<div class="hotbox-talk comments-1 "> <div class="hotbox-num">1</div></div>
+
+<div class="hotbox-txt"><h4><a href="https://www.ictworks.org/what-impact-will-facebook-libra-blockchain-have-on-international-development/" rel="bookmark">What Impact Will Facebook Libra Blockchain Have on International Development?</a></h4></div>
+</div> 
+
+
+<div class="hotbox">
+<div class="hotbox-img" style="background-image:url('https://www.ictworks.org/wp-content/uploads/2019/07/international-development-knowledge-portal.png');"></div>
+
+<div class="hotbox-talk comments-0 "> <div class="hotbox-num">0</div></div>
+
+<div class="hotbox-txt"><h4><a href="https://www.ictworks.org/create-international-development-portal/" rel="bookmark">Please Do Not Create Yet Another Development Knowledge Portal</a></h4></div>
+</div> 
+
+
+<div class="hotbox">
+<div class="hotbox-img" style="background-image:url('https://www.ictworks.org/wp-content/uploads/2019/09/dfid-grant-funding.png');"></div>
+
+<div class="hotbox-talk comments-5 prettyhot"> <div class="hotbox-num">5</div></div>
+
+<div class="hotbox-txt"><h4><a href="https://www.ictworks.org/dfid-grant-funding-digital-principles/" rel="bookmark">Want DFID Grant Funding? Then Use Digital Principles in Your Proposals</a></h4></div>
+</div> 
+
+</li>
+<li id="recent-comments-2" class="widget widget_recent_comments"><h2 class="widgettitle">Recent Comments</h2>
+<ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link">Grace</span> on <a href="https://www.ictworks.org/language-translation-technology-digital-divide/#comment-234277">Help Bridge the Language Translation Technology Digital Divide</a></li><li class="recentcomments"><span class="comment-author-link">Marga Eichleay</span> on <a href="https://www.ictworks.org/language-translation-technology-digital-divide/#comment-234276">Help Bridge the Language Translation Technology Digital Divide</a></li><li class="recentcomments"><span class="comment-author-link">Cavin Mugarura</span> on <a href="https://www.ictworks.org/language-translation-technology-digital-divide/#comment-234273">Help Bridge the Language Translation Technology Digital Divide</a></li><li class="recentcomments"><span class="comment-author-link">Bashir Quadri</span> on <a href="https://www.ictworks.org/please-register-now-2019-cgiar-big-data-in-agriculture-convention/#comment-234271">Please Register Now: 2019 CGIAR Big Data in Agriculture Convention</a></li><li class="recentcomments"><span class="comment-author-link">William Otto Okumu</span> on <a href="https://www.ictworks.org/engineers-leverage-internet-of-things/#comment-234267">How Engineers Can Leverage Internet of Things for Better Development Interventions</a></li></ul></li>
+<li id="tag_cloud-2" class="widget widget_tag_cloud"><h2 class="widgettitle">Current Themes</h2>
+<div class="tagcloud"><a href="https://www.ictworks.org/tag/africa/" class="tag-cloud-link tag-link-215 tag-link-position-1" style="font-size: 8.4827586206897pt;" aria-label="Africa (32 items)">Africa</a>
+<a href="https://www.ictworks.org/tag/digital-development/" class="tag-cloud-link tag-link-3053 tag-link-position-2" style="font-size: 10.896551724138pt;" aria-label="Digital Development (46 items)">Digital Development</a>
+<a href="https://www.ictworks.org/tag/digital-financial-services/" class="tag-cloud-link tag-link-3260 tag-link-position-3" style="font-size: 9.7701149425287pt;" aria-label="Digital Financial Services (39 items)">Digital Financial Services</a>
+<a href="https://www.ictworks.org/tag/digital-health/" class="tag-cloud-link tag-link-4583 tag-link-position-4" style="font-size: 12.827586206897pt;" aria-label="Digital Health (61 items)">Digital Health</a>
+<a href="https://www.ictworks.org/tag/digital-principles/" class="tag-cloud-link tag-link-3783 tag-link-position-5" style="font-size: 10.091954022989pt;" aria-label="Digital Principles (41 items)">Digital Principles</a>
+<a href="https://www.ictworks.org/tag/donor-funding/" class="tag-cloud-link tag-link-437 tag-link-position-6" style="font-size: 11.540229885057pt;" aria-label="Donor Funding (50 items)">Donor Funding</a>
+<a href="https://www.ictworks.org/tag/drones/" class="tag-cloud-link tag-link-2860 tag-link-position-7" style="font-size: 9.2873563218391pt;" aria-label="Drones (36 items)">Drones</a>
+<a href="https://www.ictworks.org/tag/facebook/" class="tag-cloud-link tag-link-225 tag-link-position-8" style="font-size: 14.114942528736pt;" aria-label="Facebook (73 items)">Facebook</a>
+<a href="https://www.ictworks.org/tag/failure/" class="tag-cloud-link tag-link-527 tag-link-position-9" style="font-size: 11.218390804598pt;" aria-label="Failure (48 items)">Failure</a>
+<a href="https://www.ictworks.org/tag/fhi-360/" class="tag-cloud-link tag-link-2827 tag-link-position-10" style="font-size: 8pt;" aria-label="FHI 360 (30 items)">FHI 360</a>
+<a href="https://www.ictworks.org/tag/funding/" class="tag-cloud-link tag-link-1524 tag-link-position-11" style="font-size: 12.183908045977pt;" aria-label="Funding (55 items)">Funding</a>
+<a href="https://www.ictworks.org/tag/gender/" class="tag-cloud-link tag-link-1490 tag-link-position-12" style="font-size: 9.7701149425287pt;" aria-label="Gender (39 items)">Gender</a>
+<a href="https://www.ictworks.org/tag/ghana/" class="tag-cloud-link tag-link-29 tag-link-position-13" style="font-size: 11.701149425287pt;" aria-label="Ghana (51 items)">Ghana</a>
+<a href="https://www.ictworks.org/tag/grant-funding/" class="tag-cloud-link tag-link-3962 tag-link-position-14" style="font-size: 12.827586206897pt;" aria-label="Grant Funding (60 items)">Grant Funding</a>
+<a href="https://www.ictworks.org/tag/gsma/" class="tag-cloud-link tag-link-1247 tag-link-position-15" style="font-size: 11.862068965517pt;" aria-label="GSMA (53 items)">GSMA</a>
+<a href="https://www.ictworks.org/tag/how-to-guide/" class="tag-cloud-link tag-link-1733 tag-link-position-16" style="font-size: 13.149425287356pt;" aria-label="How To Guide (64 items)">How To Guide</a>
+<a href="https://www.ictworks.org/tag/ict4ag/" class="tag-cloud-link tag-link-1615 tag-link-position-17" style="font-size: 12.505747126437pt;" aria-label="ICT4Ag (58 items)">ICT4Ag</a>
+<a href="https://www.ictworks.org/tag/ict4d/" class="tag-cloud-link tag-link-262 tag-link-position-18" style="font-size: 22pt;" aria-label="ICT4D (230 items)">ICT4D</a>
+<a href="https://www.ictworks.org/tag/ict4edu/" class="tag-cloud-link tag-link-1276 tag-link-position-19" style="font-size: 15.402298850575pt;" aria-label="ICT4Edu (89 items)">ICT4Edu</a>
+<a href="https://www.ictworks.org/tag/ictforag/" class="tag-cloud-link tag-link-3452 tag-link-position-20" style="font-size: 14.919540229885pt;" aria-label="ICTforAg (83 items)">ICTforAg</a>
+<a href="https://www.ictworks.org/tag/india/" class="tag-cloud-link tag-link-283 tag-link-position-21" style="font-size: 8.4827586206897pt;" aria-label="India (32 items)">India</a>
+<a href="https://www.ictworks.org/tag/internet-access/" class="tag-cloud-link tag-link-133 tag-link-position-22" style="font-size: 14.597701149425pt;" aria-label="Internet Access (78 items)">Internet Access</a>
+<a href="https://www.ictworks.org/tag/inveneo/" class="tag-cloud-link tag-link-81 tag-link-position-23" style="font-size: 9.9310344827586pt;" aria-label="inveneo (40 items)">inveneo</a>
+<a href="https://www.ictworks.org/tag/kenya/" class="tag-cloud-link tag-link-132 tag-link-position-24" style="font-size: 16.689655172414pt;" aria-label="Kenya (105 items)">Kenya</a>
+<a href="https://www.ictworks.org/tag/lessons-learned/" class="tag-cloud-link tag-link-528 tag-link-position-25" style="font-size: 14.758620689655pt;" aria-label="Lessons Learned (81 items)">Lessons Learned</a>
+<a href="https://www.ictworks.org/tag/me/" class="tag-cloud-link tag-link-1815 tag-link-position-26" style="font-size: 9.9310344827586pt;" aria-label="M&amp;E (40 items)">M&amp;E</a>
+<a href="https://www.ictworks.org/tag/m4d/" class="tag-cloud-link tag-link-1096 tag-link-position-27" style="font-size: 8.3218390804598pt;" aria-label="M4D (31 items)">M4D</a>
+<a href="https://www.ictworks.org/tag/merl-tech/" class="tag-cloud-link tag-link-3650 tag-link-position-28" style="font-size: 11.701149425287pt;" aria-label="MERL Tech (51 items)">MERL Tech</a>
+<a href="https://www.ictworks.org/tag/mhealth/" class="tag-cloud-link tag-link-434 tag-link-position-29" style="font-size: 9.6091954022988pt;" aria-label="mHealth (38 items)">mHealth</a>
+<a href="https://www.ictworks.org/tag/mobile-data-collection/" class="tag-cloud-link tag-link-3208 tag-link-position-30" style="font-size: 9.1264367816092pt;" aria-label="Mobile Data Collection (35 items)">Mobile Data Collection</a>
+<a href="https://www.ictworks.org/tag/mobile-money/" class="tag-cloud-link tag-link-1441 tag-link-position-31" style="font-size: 9.9310344827586pt;" aria-label="Mobile Money (40 items)">Mobile Money</a>
+<a href="https://www.ictworks.org/tag/mobile-phones/" class="tag-cloud-link tag-link-400 tag-link-position-32" style="font-size: 17.333333333333pt;" aria-label="Mobile Phones (116 items)">Mobile Phones</a>
+<a href="https://www.ictworks.org/tag/monitoring-and-evaluation/" class="tag-cloud-link tag-link-1814 tag-link-position-33" style="font-size: 10.252873563218pt;" aria-label="Monitoring and Evaluation (42 items)">Monitoring and Evaluation</a>
+<a href="https://www.ictworks.org/tag/nigeria/" class="tag-cloud-link tag-link-129 tag-link-position-34" style="font-size: 13.471264367816pt;" aria-label="Nigeria (67 items)">Nigeria</a>
+<a href="https://www.ictworks.org/tag/open-data/" class="tag-cloud-link tag-link-1055 tag-link-position-35" style="font-size: 9.448275862069pt;" aria-label="Open Data (37 items)">Open Data</a>
+<a href="https://www.ictworks.org/tag/open-source/" class="tag-cloud-link tag-link-183 tag-link-position-36" style="font-size: 9.2873563218391pt;" aria-label="Open Source (36 items)">Open Source</a>
+<a href="https://www.ictworks.org/tag/project-funding/" class="tag-cloud-link tag-link-1222 tag-link-position-37" style="font-size: 10.252873563218pt;" aria-label="Project Funding (42 items)">Project Funding</a>
+<a href="https://www.ictworks.org/tag/research-report/" class="tag-cloud-link tag-link-2200 tag-link-position-38" style="font-size: 14.758620689655pt;" aria-label="Research Report (81 items)">Research Report</a>
+<a href="https://www.ictworks.org/tag/smallholder-farmers/" class="tag-cloud-link tag-link-3453 tag-link-position-39" style="font-size: 9.1264367816092pt;" aria-label="Smallholder Farmers (35 items)">Smallholder Farmers</a>
+<a href="https://www.ictworks.org/tag/sms/" class="tag-cloud-link tag-link-166 tag-link-position-40" style="font-size: 12.183908045977pt;" aria-label="SMS (55 items)">SMS</a>
+<a href="https://www.ictworks.org/tag/tanzania/" class="tag-cloud-link tag-link-353 tag-link-position-41" style="font-size: 10.091954022989pt;" aria-label="Tanzania (41 items)">Tanzania</a>
+<a href="https://www.ictworks.org/tag/technology-salon/" class="tag-cloud-link tag-link-972 tag-link-position-42" style="font-size: 14.758620689655pt;" aria-label="Technology Salon (80 items)">Technology Salon</a>
+<a href="https://www.ictworks.org/tag/uav/" class="tag-cloud-link tag-link-3101 tag-link-position-43" style="font-size: 9.1264367816092pt;" aria-label="UAV (35 items)">UAV</a>
+<a href="https://www.ictworks.org/tag/uganda/" class="tag-cloud-link tag-link-107 tag-link-position-44" style="font-size: 10.413793103448pt;" aria-label="Uganda (43 items)">Uganda</a>
+<a href="https://www.ictworks.org/tag/usaid/" class="tag-cloud-link tag-link-190 tag-link-position-45" style="font-size: 18.781609195402pt;" aria-label="USAID (144 items)">USAID</a></div>
+</li>
+	</ul>
+
+</div>
+
+
+		<div id="footer">
+
+
+
+			<div class="about-us">
+				<h2>About Us</h2>
+				<p></p>
+			</div> <!-- about-us -->
+
+			<div class="latest-tweets">
+				<h2>Latest Tweets</h2>
+				<a class="twitter-timeline" href="https://twitter.com/ICT_Works" data-widget-id="453255664496672768">Tweets by @ICT_Works</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
+
+ <!-- latest-tweets -->
+
+			<div class="subscribe">
+                		<h2>Subscribe to our Newsletter</h2>
+<p>Enter your e-mail to get ICTworks 3x a week!:</p>
+<form action="https://ictworks.us4.list-manage.com/subscribe/post?u=84e9f392a668e74df589375c7&amp;id=0814c7961e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+	<!-- label for="mce-EMAIL">Get ICTworks 3x a week!</label><br -->
+	<input type="email" value="" name="EMAIL" class="enteremail" id="mce-EMAIL" placeholder="email address" required>
+	<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="formsubmit">
+</form>
+
+
+<!-- mailchimp popup -->
+<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us4.list-manage.com","uuid":"84e9f392a668e74df589375c7","lid":"0814c7961e"}) })</script>
+
+			</div> <!-- subscribe -->
+<div class="subscribe">
+                		<h2>Become an ICTworks Writer</h2>
+<p>Our team gladly accepts outside contributors for ICTworks articles. If you would like to publish an article on our website, please see our <a href="https://www.ictworks.org/guest-post-guidelines/">Guest Post Guidelines</a></p>
+			</div> <!-- subscribe -->
+			<div id="footer-credits">
+				<div class="footer-credits-left">
+					<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a> This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+				</div>
+				<div class="footer-credits-right">
+					
+				</div>
+			</div>
+
+		</div> <!-- footer -->
+
+	</div> <!-- content -->
+
+		<div style="display:none">
+	</div>
+<script data-cfasync="false" type="text/javascript">if (window.addthis_product === undefined) { window.addthis_product = "wpp"; } if (window.wp_product_version === undefined) { window.wp_product_version = "wpp-6.2.6"; } if (window.addthis_share === undefined) { window.addthis_share = {"passthrough":{"twitter":{"via":"ICT_works"}}}; } if (window.addthis_config === undefined) { window.addthis_config = {"data_track_clickback":true,"ui_atversion":"300","data_track_addressbar":true}; } if (window.addthis_plugin_info === undefined) { window.addthis_plugin_info = {"info_status":"enabled","cms_name":"WordPress","plugin_name":"Share Buttons by AddThis","plugin_version":"6.2.6","plugin_mode":"AddThis","anonymous_profile_id":"wp-a542e7434bde24b09526277a8eae101b","page_info":{"template":"home","post_type":""},"sharing_enabled_on_post_via_metabox":false}; } 
+                    (function() {
+                      var first_load_interval_id = setInterval(function () {
+                        if (typeof window.addthis !== 'undefined') {
+                          window.clearInterval(first_load_interval_id);
+                          if (typeof window.addthis_layers !== 'undefined' && Object.getOwnPropertyNames(window.addthis_layers).length > 0) {
+                            window.addthis.layers(window.addthis_layers);
+                          }
+                          if (Array.isArray(window.addthis_layers_tools)) {
+                            for (i = 0; i < window.addthis_layers_tools.length; i++) {
+                              window.addthis.layers(window.addthis_layers_tools[i]);
+                            }
+                          }
+                        }
+                     },1000)
+                    }());
+                </script> <script data-cfasync="false" type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-569816c8ab968950" async="async"></script><script type='text/javascript' src='https://www.ictworks.org/wp-content/plugins/jetpack/_inc/build/photon/photon.min.js?ver=20190201'></script>
+<script type='text/javascript' src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201938'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var pollsL10n = {"ajax_url":"https:\/\/www.ictworks.org\/wp-admin\/admin-ajax.php","text_wait":"Your last request is still being processed. Please wait a while ...","text_valid":"Please choose a valid poll answer.","text_multiple":"Maximum number of choices allowed: ","show_loading":"1","show_fading":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.ictworks.org/wp-content/plugins/wp-polls/polls-js.js?ver=2.75.2'></script>
+<script type='text/javascript' src='https://www.ictworks.org/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=5.2.3'></script>
+<script type='text/javascript' src='https://secure.gravatar.com/js/gprofiles.js?ver=2019Sepaa'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.ictworks.org/wp-content/plugins/jetpack/modules/wpgroho.js?ver=5.2.3'></script>
+<script type='text/javascript' src='https://www.ictworks.org/wp-includes/js/wp-embed.min.js?ver=5.2.3'></script>
+
+<!--Plugin WP Missed Schedule Active - PATCH - Secured with Genuine Authenticity KeyTag-->
+
+<!-- This site is patched against a big problem not solved since WordPress 2.5 to date -->
+
+<script type='text/javascript' src='https://stats.wp.com/e-201938.js' async='async' defer='defer'></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:7.7.1',blog:'105658519',post:'0',tz:'-4',srv:'www.ictworks.org'} ]);
+	_stq.push([ 'clickTrackerInit', '105658519', '0' ]);
+</script>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id; js.async=true;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6&appId=184794300348";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+</body>
+</html>

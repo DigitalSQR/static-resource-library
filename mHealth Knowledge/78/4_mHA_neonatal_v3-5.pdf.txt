@@ -1,0 +1,777 @@
+mHEALTH AND 
+NEONATAL RESUSCITATION
+A Review of Interventions, Approaches and Applications
+Namita Agravat, MPH
+December 2013
+Prepared for the United Nations Commission 
+on Life-Saving Commodities Neonatal  
+Resuscitation Technical Reference Team
+Acknowledgements
+Thank you to the mHealth Alliance for commissioning this report, and to Madhu Deshmukh, William 
+Philbrick, and Avrille Hanzel who provided oversight and guidance to the preparation of the report.
+A significant expression of appreciation goes to Ada Kwan who contributed both technical and 
+editorial input during the finalization of this report. 
+Much appreciation and respect also go towards those interviewed during the construction of 
+the report: Emily Bancroft, VillageReach; Sherri Bucher, University of Indiana; Natalie Campbell 
+and Beth Yaeger, MSH; David Cantor and Olivia Velez-Benenson, MCHIP; Patricia Coffey, PATH; 
+Maria Freytsis, Independent Consultant; Craig Friderichs, GSMA; Lily Kak, USAID; Bill Keenan, AAP; 
+Steve Ollis, D-Tree International; Manjari Quintanar-Solares, PATH; Sandhya Rao, departing USAID; 
+Fay Venegas, PATH; and Donna Vivio, USAID.
+The report was designed by Eighty2degrees, LLC. 
+ 
+PHOTO CREDITS: 
+David Evans: page 7, 13; Albert Gonzalez Farran: page 11; Francis Gonzales: page 10, 14, 29; Chelsea 
+Hedquist: cover, page 8, 9, 15, 16, 19, 27, 30,40; Josh Nesbit: page 23, 33; Grey Pritchard: page 32; 
+Chelsea Solmo: page 6, 20, 31; DataDyne: page 12, 28, 34, and Dalberg Global Development Advisors: 
+page 24.
+mHEALTH AND 
+NEONATAL RESUSCITATION
+A Review of Interventions, Approaches and Applications
+Namita Agravat, MPH
+December 2013
+Acronyms and Abbreviations Table of Contents
+AAP American Academy of Pediatrics Acknowledgements ............................................................................................................................................................. 2
+CCEM Cold Chain Equipment Management Acronyms and Abbreviations ..........................................................................................................................................4
+CRVS Civil Registration and Vital Statistics
+ENAP Every Newborn Action Plan 1 Introduction to Child Mortality and mHealth ................................................... 7
+GSMA Global System for Mobile Communication Association
+HBB Helping Babies Breathe 2 Background .............................................................................................................. 9
+ICT Information Communication Technology 
+IPA International Pediatric Association 3 Methodology ...........................................................................................................12
+LMIC Low- and Middle-Income Countries
+LMIS Logistics Management Information System
+4 mHealth Opportunities in Neonatal Resuscitation .........................................15M&E  Monitoring & Evaluation
+MCHIP Maternal and Child Health Integrated Program A.  Client Education and Behavior Change and Communication ................................................. 16
+MDG Millennium Development Goals Wired Mothers ...................................................................................................................................... 16
+ODK Open Data Kit Mama .........................................................................................................................................................17
+PATH Program for Appropriate Technology in Health B.  Sensors and Point-of-Care Diagnostics ............................................................................................17
+PDA Personal Digital Assistant C.  Birth Registries and Vital Events Tracking ...................................................................................... 18
+SIAPS Systems for Increased Access to Pharmaceuticals and Services Program D.  Data Collection, Reporting, and Electronic Health Records .................................................... 19
+TB Tuberculosis mHBB (Mobile Health Babies Breathe) Pilot in Kenya ......................................................... 19
+TWG Technical Working Group MCHIP Maternal and Newborn Quality of Care Survey ........................................................21
+UNCoLSC United Nations Commission on Life-Saving Commodities E.  Electronic Decision Support – Information, Protocols, Algorithms, Checklists ...............23
+UNFPA United Nations Family Planning Association F.  Provider-to-Provider Communication and User Group Consultation ..................................23
+UNICEF United Nations Children’s Fund G. Provider Work Planning and Scheduling .........................................................................................24
+URC University Research Corporation H.  Provider Training and Education .........................................................................................................24
+USAID United States Agency for International Development I.  Human Resource Management ............................................................................................................25
+WHO World Health Organization
+J.  Supply Chain Management ...................................................................................................................25
+K. Financial Transactions and Incentives ..............................................................................................26
+5 Gaps in Knowledge and Barriers to Adoption ...............................................28
+6 Recommendations for Saving Lives...................................................................31
+Client Awareness and Education ...............................................................................................................31
+Birth Registration and Data Collection ...................................................................................................31
+Provider Training .............................................................................................................................................32
+Supply Management ......................................................................................................................................32
+7 Conclusions .............................................................................................................34
+Appendix A. List of Key Informants for Interviews ..............................................................................................35
+Appendix B. Examples of Barriers to High-Quality Resuscitation Services for Newborns Born 
+without the Ability to Breathe  ................................................................................................................. 36
+References ............................................................................................................................................................................ 38
+7
+1
+Introduction 
+to Child  
+Mortality  
+Reducing child mortality rates has been made a global and mHealth
+priority. In existing policy, this is evident through the 
+United Nations (UN) Millennium Declaration that established eight Millennium 
+Development Goals (MDGs) in 2000 to improve conditions for the world’s 
+poorest and with the more recent Every Woman, Every Child effort launched 
+by the UN Secretary-General. Progress has occurred – 4.4 million more children 
+survive every year compared to 20 years ago (1). However, MDG 4, which aims 
+to reduce child mortality by two-thirds from 1990 to 2015, is not on track, 
+and it will not be achieved in the near future without stronger and directed 
+investments and efforts in reducing neonatal mortality (2). 
+Each year, approximately four million babies do not survive the first month of 
+life. The majority of these deaths occur in low- and middle-income countries 
+(LMICs). For 23% of these deaths, death is attributed to birth asphyxia, which 
+is the failure to initiate and sustain breathing at birth.a For the majority, death 
+is avoidable since knowledge of basic interventions already exists, but the 
+right resources do not reach the most at-risk communities. 
+With the number of mobile phone subscriptions expected to surpass the world 
+population of seven billion in 2014, a technology exists for the first time that 
+can reach individuals who live in all corners of the world (3,4). In the past decade, 
+the explosion in popularity of mobile technologies and wireless networks has 
+made many interested in the mobile potential to improve population health. This 
+has led to mHealth, which is medical and public health practice supported by 
+EACH YEAR, APPROXIMATELY mobile devices, such as mobile phones, patient monitoring devices, personal digital assistants (PDAs), and other wireless devices. There is no excuse to 
+FOUR MILLION BABIES DO leverage mobile to do as much as possible to reduce the number of unneces-sary deaths among newborn children. The objective of this paper is to review 
+NOT SURVIVE THE FIRST existing mHealth interventions, successful approaches, and applications, as well as identify gaps in knowledge for the use of mHealth in neonatal resuscitation.
+MONTH OF LIFE a These figures underestimate the issue as an estimated 1.02 million intrapartum stillbirths occur every year with 
+an unknown number of these stillbirths could have been live births but misclassified as a fresh stillbirth, which is 
+when the skin is still intact suggesting that death occurred within the 12 hours before delivery (6).
+9
+2
+From another perspective, approximately 10 million Background
+of the 136 million babies born every year around the 
+world require simple stimulation at birth to breathe. Six million require basic 
+resuscitation with a bag or mask, and less than one million require more 
+advanced resuscitation. Table 1 demonstrates the three categories of resus-
+citation interventions (immediate assessment and stimulation of the newborn 
+baby, basic newborn resuscitation, and advanced newborn resuscitation) and 
+the actions involved in each one to prevent birth asphyxia. 
+However, the interventions in Table 1 are successful only if they can be applied 
+immediately during the event in which they are required, such as in the delivery 
+room or home within seconds after the birth of a newborn, Thus, the reality 
+reflects the need for better access and delivery of neonatal resuscitation 
+equipment and its correct usage by the birth attendants. In the majority of the 
+countries where newborn deaths are attributed to birth asphyxia, delivering 
+interventions for effective reduction of asphyxia-related neonatal deaths are 
+hindered by inadequate resuscitation training of health workers who interface 
+with women during labor and delivery; insufficient resuscitation equipment to 
+APPROXIMATELY 10 MILLION  TABLE 1 Three categories of resuscitation interventions that can prevent 
+birth asphyxia (5)
+OF THE 136 MILLION BABIES Immediate assessment Immediate assessment, warming, drying and 
+and stimulation of the tactile stimulation (rubbing with the drying 
+BORN EVERY YEAR AROUND newborn baby cloth, rubbing the back or flicking the feet) of the newborn at the time of birth
+THE WORLD REQUIRE  Basic Newborn Airway clearing (suctioning if required), head Resuscitation positioning, and positive pressure ventilation 
+SIMPLE STIMULATION AT with bag and maskAdvanced Newborn Basic neonatal resuscitation (as above) plus 
+BIRTH TO BREATHE Resuscitation endotracheal intubation, supplemental oxygen, chest compressions, and medications
+10 mHEALTH AND NEONATAL RESUSCITATION
+health facilities with maternity wards; on this list, which have the estimated 
+and low levels of health workers who potential to save 200,000 newborn 
+are able to deliver care to women lives per year (10). To achieve the delivery 
+during home deliveries (6). Improving of neonatal resuscitation equipment 
+these conditions requires enabling and devices, the UNCoLSC’s Neonatal 
+ingredients within the environment, Resuscitation Technical Working Group 
+such as national attention towards (TWG)b was formed to systematically 
+essential neonatal care, governmental identify best practices for scaling 
+promotion of health workers who sup- up interventions, identifying barriers 
+port home births, and better data on in current implementation and gaps 
+vital registrations (6,7). Additionally, neo- in knowledge, and addressing other 
+natal resuscitation guidelines should be issues related to reducing neonatal 
+tailored for resource-limited settings, mortality through the development of 
+since they are designed for health pro- technical standards. 
+viders with assumed extensive training 
+and appropriate technology (8). The TWG is keen to explore the use of 
+mHealth to track the availability and 
+As part of the Every Woman, Every maintenance of resuscitation equip-
+Child effort, the UN Commission on ment, to increase health worker training 
+Life-saving Commodities (UNCoLSC) and the appropriate utilization of the A METHOD WAS DEVELOPED 
+was formed to get affordable, effective resuscitation equipment, and to moni-
+medicines and simple health com- tor and evaluate facility-level data. As a 
+modities to the women and children first step to understanding the potential TO CATEGORIZE PROGRAMS 
+who need them most. The UNCoLSC of mHealth in neonatal resuscitation, 
+has identified 13 essential commod- this paper describes existing mHealth WHERE mHEALTH AND/OR 
+ities which can save women and approaches and tools to support access 
+children who are dying from prevent- to neonatal resuscitation equipment OTHER ICT WAS USED WITHIN 
+able causes (9). Neonatal resuscitation and devices.
+equipment and devices are included THE CONTEXT OF A NEONATAL 
+b The lead convener of the TWG is USAID, and partners include AAP/IPA, MCHIP, the mHealth Alliance, PATH, Save 
+the Children / Saving Newborn Lives, UNFPA, UNICEF, URC, SIAPS, and WHO (46). RESUSCITATION PROGRAM
+12 METHODOLOGY 13
+3
+Methodology To achieve the objective of this paper, a landscape scan 
+of mHealth and the use of information and commu-
+nications technology (ICT) for neonatal resuscitation, literature review, and 
+interviews with identified key informants who are involved in neonatal resus-
+citation work were conducted. This included reviewing the UNCoLSC Report 
+and Implementation Plan, along with documents and recommended literature 
+describing existing mHealth tools and programs. A review of peer-reviewed 
+and grey literature addressing mHealth and neonatal resuscitation was con- The three categories above were • Do you have any other sugges-
+ducted in PubMed, Google Scholar, PLOS, in addition to searches on Google. identified as possible and promising tions for documented or published 
+com. Established search terms for the literature review included: “mHealth”, areas of intervention or opportuni- resources for review with respect 
+“newborn resuscitation”, “neonatal resuscitation”, “ICT”, “mobile”, “newborn”, ties for mHealth. The objective was to gaps and barriers in neonatal 
+and “neonatal”. The search was combined by a review of mHealth case stud- to address issues and challenges for resuscitation?
+ies and program descriptions from knowledge management portals, such as neonatal resuscitation, as identified by • Do you have any suggestions for 
+K4Health, the mHealth Alliance website, and other websites recommended the experts and members of the TWG. other individuals with whom to 
+by the TWG and key informants. Relevant white papers, articles, theses, and speak on the topic of neonatal 
+reports were also reviewed. For the interviews, key informants were resuscitation and/or related ICT 
+selected from a random convenience innovations?
+Extracted information from the stated sources above was identified and sample with input from the TWG. 
+synthesized if it had relevance to neonatal resuscitation activities, including Appendix A is a list of the individuals The information collected was reviewed 
+reducing barriers to both implementation and the scale up of existing pro- interviewed. The main questions that and synthesized. TWG members re-
+grams, as well as filling gaps in knowledge. Existing case studies and best guided the interviews included: viewed and provided feedback to initial 
+practices for mHealth in neonatal resuscitation were identified and reviewed drafts of this paper.
+by TWG members. A method was developed to categorize programs where • Do you know of any current pro-
+mHealth and/or other ICT was used within the context of a neonatal resus- grams utilizing mobile technology 
+citation program. Categories focused on, but were not limited to, the use of to support neonatal resuscitation?
+mHealth in supporting: • What documented or published 
+resources do you know of regard-
+• Supply and maintenance of newborn resuscitation commodities ing mobile technology and neonatal 
+• Training of skilled birth attendants, including nurses and midwives trained resuscitation?
+on neonatal resuscitation • Taking a step back, where do you 
+• Monitoring and evaluation of neonatal resuscitation programs think are the gaps and barriers in 
+neonatal resuscitation programs?
+14 15
+4
+mHealth  
+Opportunities 
+in Neonatal  
+Generally, the utility of mHealth has been in improving Resuscitation
+access to and quality of health. Given the experience 
+and successes of mHealth pilots in addressing existing gaps and barriers within 
+maternal, neonatal, and child health, as well as the potential to take mHealth 
+to scale with the near ubiquity of mobile technologies, donors, implementers, 
+and governments are enthusiastic about scaling up mHealth (11). Although 
+mHealth is nascent and large-scale implementation of mHealth projects has 
+been limited to date, there is some evidence demonstrating how mHealth 
+can be effectively applied to support interventions along the reproductive, 
+maternal, neonatal, and child health (RMNCH) continuum of care. More spe-
+cifically for neonatal health, mHealth is being most commonly applied as a 
+tool for health workers who are the point of contact for newborns and women 
+during delivery (12,13), but at the time of writing this paper, a systematic review 
+of mHealth applied to neonatal resuscitation has not yet been conducted. 
+Most recently though, USAID, Dimagi, Inc., and CORE Group have developed 
+an mHealth Field Guide for Newborn Health (14). 
+While there is a lack of experience in integrating mHealth into neonatal resus-
+citation activities, the use of mHealth to reduce the incidence of birth asphyxia 
+with effective resuscitation interventions, if well-planned and implemented 
+mHEALTH IS BEING MOST  in the context of existing efforts and programs, could potentially address 
+some of the barriers in implementing interventions that reduce the number 
+COMMONLY APPLIED AS A of asphyxia-related neonatal deaths. Labrique, et al. (2013) recently published a framework of 12 common mHealth applications (see Table 1) used as health 
+TOOL FOR HEALTH WORKERS system strengthening tools across the RMNCH continuum of care (11). This framework is useful for conceptualizing opportunities for using mHealth to 
+WHO ARE THE POINT OF support neonatal resuscitation (12,13).
+CONTACT FOR NEWBORNS AND Labrique, et al. (2013) presented definitions for each of the 12 applications, which can be useful in finding opportunities where mHealth can be lever-
+aged during the delivery of neonatal resuscitation interventions. Illustrative 
+WOMEN DURING DELIVERY examples of the relevant applications are described below in the context 
+16 mHEALTH AND NEONATAL RESUSCITATION mHEALTH OPPORTUNITIES IN NEONATAL RESUSCITATION 17
+healthcare providers. The program Sensors and point-of-
+also provided health messages based care diagnostics B
+on gestational age through pregnancy 
+and six weeks after delivery as well Given the split-second response time 
+as appointment reminders. While the required for birth asphyxia, use of 
+program identified constraints, such as mHealth-supported point-of-care diag-
+who owned the phone in the family and nostics for decision-making would not 
+where the family resided, there was an be ideal. Reaction time for providers is 
+increase in skilled attendance at delivery within one minute after birth, requiring 
+for the Wired Mothers group compared all actions to have a quick response. 
+to the control group (60% vs. 47%) (15). Providers need to be adequately trained 
+ahead of time and not rely on this sort 
+MAMA of technology at the point of care.
+The Mobile Alliance for Maternal Action 
+(MAMA) program provides gestation-
+al-age-appropriate health information TABLE 3 
+of neonatal resuscitation. Examples delivering at a health facility, effective to the mobile phones of pregnant Twelve common mHealth  
+applications for health systems 
+include mHealth strategies that are cur- messaging must be developed for the women. As the due date for childbirth strengthening (11)
+rently being implemented, as well as clients as well, such as for pregnant nears, the messages become more 
+potential areas in which mHealth could women, who can tend to the traditional frequent and focus on preparing for 1 Client education and behavior 
+be leveraged, which were conceptual- practice of delivering at home. Behavior delivery, including where it will occur (11). change communication
+ized using the framework. change programs that encourage insti- 2 Sensors and point of care 
+tutional delivery can be challenging The Neonatal Resuscitation Devices diagnostics
+since the change requires a shift in what Case Study prepared by Coffey, et al. 3 Registries/vital events tracking
+A Client education and may be a cultural norm. Below are two (2013), highlights that pregnant women 
+behavior change and 4 Data collection and reportingexamples of mHealth being used for and the community may not be aware 
+communication behavior change and communication that asphyxiated babies could be saved 5 Electronic health records
+around delivery practices. While these by appropriate resuscitation equipment 6 Electronic decision support-
+Neonatal resuscitation programs gen- programs may not fully change cul- and skills (7). Having this awareness information, protocols, 
+erally focus on the supply side of health tural norms and practices, they may could empower pregnant women and algorithms, checklist
+services, such as the capacity of health be a step in the right direction towards communities to demand that providers 7 Provider to provider 
+care workers as they are the ones encouraging delivery in health facilities. be prepared to resuscitate their babies communication and user group 
+responsible for recognizing danger should the need arise, which in turn, consultation
+signs and acting quickly to administer Wired Mothers could motivate pregnant women to 8 Provider work planning and 
+neonatal resuscitation when needed. The Wired Mothers program in Zanzibar deliver at the health facilities equipped scheduling
+One of the biggest challenges to suc- contained two components. The first for such emergencies (7). Messages tar- 9 Provider training and education
+cessful neonatal resuscitation, from a used SMS and supplied mothers with geting the community and pregnant 
+10 Human resource management
+broader level, is the need for skilled registered phones and unidirectional women, in particular, around the value 
+health personnel. Delivering at a health text messaging. The second used a and use of resuscitation equipment 11 Supply chain management
+facility rather than at home can ensure mobile phone voucher system and pro- could be included in messaging pack-
+the presence of skilled health personnel vided two-way communication between ages similar to those developed in the 12 Financial transactions and 
+incentives
+during delivery. However, to encourage ‘wired mothers’ and their primary Wired Mothers and MAMA programs.
+18 mHEALTH AND NEONATAL RESUSCITATION mHEALTH OPPORTUNITIES IN NEONATAL RESUSCITATION 19
+C Birth registries and vital registration of births, along with the events tracking registration of deaths, is a component 
+of a nation’s civil registration and vital 
+The majority of stillbirths and neonatal statistics (CRVS) system. Birth regis-
+deaths happen in countries that have tration establishes legal identity for a mobile phones to send information through features available on mobile 
+very little data that can guide relevant child and serves to facilitate access to from the community through an elec- technologies. Data collection using 
+programs (6). Without vital registration essential services, as well as protect tronic information path to regional and mobile-based data entry saves time 
+(VR), not only is information on the against child trafficking (17). While birth national health authorities. The Uganda in tracking records and providing 
+cause of death missing, but also the registration is important from child pro- system, called MobileVRS, will begin quick informational feedback loops 
+lack of vital registries prevents the mon- tection and public health perspectives, registering deaths in early 2014, and the (19). Examples below include specific 
+itoring and tracking of events when: death registration is just as important registration of deaths including deaths experiences with technologies and 
+(1) neonatal resuscitation was required, from a public health perspective. In the occurring during the neonatal period platforms typically used for mobile-
+but not given, or (2) it was given, but case of neonatal resuscitation, death can provide information on the number based data collection in the context 
+had an adverse outcome. The reporting registration of babies provides infor- of deaths attributed to birth asphyxia of neonatal resuscitation, as well as in 
+of cases requiring neonatal resuscita- mation to public health authorities so or the number of babies who could not other contexts that can be adapted for 
+tion should ideally track adverse events that they can begin constructing the be resuscitated. neonatal resuscitation.
+and the steps taken to mitigate compli- appropriate public health responses to 
+cations. End users of this information address the prevalence of certain health mHBB (mobile Health Babies 
+would be policymakers, particularly conditions or issues. While there are Data collection, Breathe) pilot in Kenya
+since the information provides evidence efforts to improve death registration D reporting, and The most relevant example of data 
+supporting an audit of causes of death in LMICs, those efforts lag in compar- electronic health collection for neonatal resuscitation 
+and facilitates the case management ison with global efforts to promote utilizing mHealth is the mHBB pilot cur-
+of mothers for service providers. An birth registration.  records rently being conducted and reviewed 
+audit additionally helps policymakers in Kenya. A group from the University 
+and health authorities in determining UNICEF has been supporting the use This section combines electronic data of Indiana launched the mHBB pilot to 
+the skills of providers and availability of of RapidSMS, a mobile phone appli- collection and reporting with electronic look at M&E efforts that support the 
+equipment. This sort of information can cation, to register births, issue birth health records, particularly because of rollout of the Helping Babies Breathe 
+help in planning and directing capac- certificates and maintain a database the functionalities in common among (HBB) program, which works to ensure 
+ity support and resources for neonatal of new births in countries such as the three areas with recordkeeping. all babies are born in the presence of 
+resuscitation.  Uganda (11,18). The information collected This section overlaps conceptually with a skilled birth attendant through neo-
+using mobile phones is then relayed, the previous section describing birth natal resuscitation curricula tailored 
+With regard to the policy context, using SMS and web-based technol- and death registration systems; how- to low-resource settings (20). HBB has 
+the Global Strategy for Women’s ogy to district, regional, and national ever, for the purpose of describing the rolled out widely; however, data collec-
+and Children’s Health and the Every health and civil registration authorities. applications, the main importance in tion has not kept pace with the scale of 
+Newborn: An Action Plan to End In Nigeria, RapidSMS was developed keeping registration and data collec- its roll out. The mHBB program being 
+Newborn Deaths (ENAP) within the as a monitoring tool to identify in tion as two distinct applications in this piloted includes both web-based and 
+Every Woman, Every Child effort real-time, center-by-center birth reg- report is that birth and death registra- mobile-based systems using an open-
+focus attention on newborn health istration disparities (18). RapidSMS can tion data are relatively non-existent source ICT solution. Using Open Data 
+and identify actions for improving sur- then prompt and facilitate appropriate in LMICs. Using mHealth for data col- Kit (ODK), the mHBB pilot collects 
+vival, health, and development. One of action. In the same way it is used for lection strategies, on the other hand, data on training and implementation 
+the strategic objectives of the ENAP birth registration, tools like RapidSMS often involves turning existing paper- of HBB. Information collected fall into 
+is to count every newborn (16). The can be used to register deaths, using based processes into automated ones three categories:
+20 mHEALTH AND NEONATAL RESUSCITATION mHEALTH OPPORTUNITIES IN NEONATAL RESUSCITATION 21
+MCHIP Maternal and Newborn 3. Facility inventory
+Quality of Care Survey 4. Health worker interview and knowl-
+MCHIP (Maternal and Child Health edge test
+Integrated Program) has developed 
+a toolkit of Maternal and Newborn When these surveys were initially de-
+Quality of Care surveys with various veloped, smartphones with Windows 
+assessment capabilities. Relevant parts operating system were used. However, 
+within this toolkit include surveys in the the size of the device seemed to make 
+following areas: a difference in the ability to conduct 
+the survey effectively. A larger view-
+1. Clinical practice observation of ANC ing screen offers the ability to see 
+2. Clinical practice observation of more questions on the observation 
+Labor and Delivery checklists than devices with smaller 
+H B B  T R A I N I N G
+SET-UP REGISTRATION PRE-TEST HBB COURSE POST-TEST SURVEYS REFRESHER 
+Trainer coordi- Trainees notified Trainee registers Trainer receives Trainee completes Trainees and Just-in-time video 
+• Training-related data, including This response seemed to cut across nates with health by SMS message for course and SMS confirmation Written Knowl- Trainers complete refresher trainin, 
+facility administra- with request to completes Written of Trainee edge post-test Course Surveys with pre-test/ 
+initial and refresher training reg- gender, age, and experience with tor and other register for course. Knowledge registration using SMS text using either SMS post-test 
+istrations and course information devices. Some of the challenges faced MOH officials to Pre-test using messaging. messaging or questions. Trainees receive Trainee attends 
+identify avai;able SMS text smart phone.
+• M&E, such as learner-centered were that the pilot was meant to test confirmation and course; Trainer trainees and set messaging.
+course reminders completes course 
+up HBB course.
+evaluations both web-based and mobile-based via SMS. evaluations.
+• Quality improvement, including tools; however, the web connections 
+resuscitation debriefings and peri- were unexpectedly very poor. This 
+natal death audits required more rapid development of S S
+SMS 
+the mobile tool, which led to problems TECHNOLOGY Messaging
+Motivational 
+The facilities involved in the pilot rep- with the format in which data were PLATFORM: Messaging Incentives
+resent varying levels of volume for received. Several iterations of the data Data- Web 
+base Server
+delivery, network coverage and expe- collection forms had to be piloted (21).
+rience with ICT solutions among health 
+workers. When possible, the program This activity is still in the pilot stage 
+BI-DIRECTIONAL HBB 
+collects data both manually on paper with results expected during the spring STAKEHOLDER HBB Community Champions Regional National 
+International 
+and electronically to allow for compar- of 2014. Figure 1 highlights the many REPORTING: Providers Health Health Orgs OrgsWorkers Orgs
+ison. The schematic below presents potential reporting domains based FacilityPOTENTIAL 
+the functionality of the mHBB system on the success and scale-up of the REPORTING DOMAINS:
+being tested. mHBB pilot (12,21,22). In the long term, Resuscitation Debriefing Birth Registry Morbidity/Morality Resource allocation
+mHBB may capture additional M&E IndicatorsEarly postnatal follow-up Supply chain logistics; commodities tracking
+Based on initial qualitative feedback, data that relate to the RMNCH con- Perinatal Audit NR Commodity Surveys Cost-analysis
+the mobile tool was well received by tinuum through other efforts such Clinical Mentoring HMIS indicators 
+health care workers. Time savings from as Helping Mothers Survive, Helping M&E indicators 
+using the mobile tool relative to the Babies Survive and the Survive and 
+paper tools were quickly recognized. Thrive Global Development Alliance. FIGURE 1. mHBB data collection and reporting system. Credit: Sherri Bucher, University of Indiana.
+U R
+E  A C C
+C E
+E S
+ 
+S S
+R E  A CU C E
+C S
+E
+22 mHEALTH AND NEONATAL RESUSCITATION mHEALTH OPPORTUNITIES IN NEONATAL RESUSCITATION 23
+viewing screens. Based on feedback systems lent itself well to mHealth 
+from MCHIP, the ideal device for the applications. With respect to neonatal 
+survey was found to be a 7-inch tablet resuscitation, any ICT could help in accu-
+and the surveys can now be used on rate and timely reporting of cases and 
+Android, iPhone, iPad and Windows outcomes related to neonatal resuscita- initiative for the digital transfer of used as tools to provide guidance for 
+mobile devices (23). tion, but the data desired vary. Data can Health Management Information selecting, cleaning, assessing, and 
+include information on training, availabil- System (HMIS) data via mobile replacing equipment.
+Two of the tools developed have spe- ity of equipment, frequency of services, phones. mTrac provides a mechanism 
+cific questions related to neonatal as well as outcomes. The type and forms for community members to report 
+resuscitation and can be conducted at of data being collected can dictate the on service delivery challenges, and Provider-to-provider 
+different types of health facilities. The type of data collection tool used. Below empower District Health Teams by communication and F
+Labor and Delivery observation assess- are details of additional options. providing timely information for user group consultation
+ment is conducted by trained medical action (28). One of the key functions of 
+staff observers and includes the fol- Formhub makes basic Excel forms mTrac is in supply-chain management Mobile devices also facilitate commu-
+lowing neonatal resuscitation checks: instantly accessible on an Android of medical commodities. nication between and among health 
+• Preparation for delivery – review phone or the web.  The data can then workers. For instance, if a mother 
+of equipment and supplies that be aggregated, shared, and visualized CommCare Mobile allows for data to were transferred to a higher-level facil-
+should be set out in preparation to allow for greater understanding of be sent over standard phone networks ity after her baby received neonatal 
+for delivery information (11,24). for real-time inspection on the web. resuscitation, there may be a need for 
+• Immediate care – review of neona- In Zambia, for example, rural clinics additional communication between 
+tal resuscitation checklist which is ODK, as mentioned earlier in reference are connected to a central server, but health workers at the health facilities 
+included as a part of the complica- to the mHBB activity, is an open-source community health workers also have where she was seen. This can be facil-
+tions checklists suite of tools that helps organizations access to patient data through their itated in a timely manner through the 
+• Clean-up after neonatal resuscita- author, field, and manage mobile data mobile phone to help them conduct mobile technologies.
+tion – review of partograph and/or collection solutions. Authors design a follow-up (29).
+chart for completeness form, setup a server, and connect the Other opportunities may exist in provid-
+device to that server (11,25). ing training and supervision between 
+If neonatal resuscitation is not observed, Electronic decision health care workers at different facili-
+providers may be asked knowledge FrontlineSMS requires a computer E support – information, ties. Similar to telemedicine, health care 
+questions to capture their preparation running on Windows, MacOS or Linux. protocols, algorithms, workers can provide support to one 
+for neonatal resuscitation. The Health The FrontlineSMS application needs another via mobile devices regarding 
+Worker Interview and Knowledge Test to be downloaded and a compatible checklists neonatal resuscitation. While point-
+ask about professional and refresher mobile phone with sufficient credit for of-care support during delivery may 
+training in neonatal resuscitation. Both sending and receiving text messages is Given that the time from decision to not be the most ideal time to refer to 
+of these relevant tools are available required (11,26). Commercial systems such administration of neonatal resuscitation a mobile device, a health care worker 
+upon request (23). as DataDyne have developed Magpi for is typically within the first minute after could contact a colleague when she 
+users to develop mobile questionnaires birth, mobile-focused decision support or he suspects neonatal resuscitation 
+Various mHealth data collection tools and provide real-time maps and data tools at point of care are not an ideal may be required at delivery based on 
+exist insofar as data collection was visualization (11,27). option in improving neonatal resuscita- having observed risk factors or danger 
+one of the first applications for which tion services. As part of preparing for signs from a pregnant mother. There 
+mHealth was used. The ease in translat- In Uganda, through RapidSMS, mTrac neonatal resuscitation, mobile phone may also be benefits from contacting 
+ing paper-based systems to electronic was developed as a government-led applications with checklists could be another health care worker at another 
+24 mHEALTH AND NEONATAL RESUSCITATION mHEALTH OPPORTUNITIES IN NEONATAL RESUSCITATION 25
+Depending on the availability of however, is a different type of com-
+devices, health workers could stream modity and should accordingly be 
+videos for continuing education on handled differently when it comes 
+neonatal resuscitation. Viewing videos to supply chain management. Unlike 
+for continuing education in between single-use commodities such as 
+trainings may prove valuable in ensur- medicines, neonatal resuscitation 
+ing readiness for these workers. As equipment is generally used multiple 
+resuscitation equipment becomes times (with the exception of suction 
+more available in facilities, guidance bulbs, in some cases). Stock-outs 
+on disassembling and cleaning will be and “restocking” requests therefore 
+facility for post-procedure support to in-service training that health workers needed. Mobile devices could also be function differently. One way to look 
+ensure proper follow-up. have with respect to neonatal resus- used to help stream videos on cleaning at the equipment is to relate it to cold 
+citation. Once training schedules are and storing resuscitation equipment. chain equipment for vaccines, such 
+in place for in-service training, pro- Additionally, mobile phones or tab- as refrigerators, cold rooms, and cold 
+Provider work planning 
+G grams like RapidSMS can be used to lets could provide access to reference boxes
+ (33,34). These are items that are 
+and scheduling send reminders for trainings by SMS (18). materials, such as that of Helping also purchased for a facility and have 
+Other uses of SMS include requesting Babies Breathe, for independent review to be maintained until they no longer 
+While mHealth applications can be used and monitoring trainings for new or by health care workers. function properly, at which time, they 
+for time management, such as planning inexperienced staff. Knowledge quizzes will need to be replaced. 
+work and organizing schedules, they are could also be received and transmitted 
+not prioritized for directly supporting by SMS. Human resource I PATH has developed a Cold Chain neonatal resuscitation services at this management Equipment Manager (CCEM) software 
+time. However, it is important to ensure eMOCHA is an open-source mHealth tool which is a Microsoft-Access-based 
+the presence of a health provider prop- application that can provide point-of- Human resource management mHealth application (35). The tool has three main 
+erly trained in neonatal resuscitation in care interactive multimedia training & applications were not identified as functions:
+health facilities at all times. education, among other tools. There is an area that would directly support 
+currently an application available for neonatal resuscitation services. As • A geographic database of health 
+download on the Google Play store mentioned before, however, it is import- facilities 
+Provider training and 
+H called “TB Detect” that provides up-to- ant to ensure the presence of a neonatal • A data entry system targeting low- education date TB-related education (11,31). resuscitation-trained provider in the resource environments 
+health facility at all times. • A modeling engine for generating 
+Adequate training is imperative for The non-profit, eHealth villages, pre- cold chain equipment forecasts 
+supporting timely and effective sented an example in Kenya when a 
+neonatal resuscitation services. “In patient was admitted and the baby was Supply chain J This tool is more of an eHealth tool. order to maintain provider skills and at risk of prenatal asphyxia (sic). The management However, there may be strong poten-
+ability to manage birth asphyxia, provider had on-demand delivery of tial for incorporating an mHealth 
+birth attendants require quality pre- medical information on an iPad and was Most of the commodities presented in component.
+and in-service training, with routine able to research resuscitation. When the UNCoLSC’s report of 13 life-saving 
+refresher trainings” (30). the baby was born not breathing, the commodities are single-use medicines, Through its “Health Tech” workplan, 
+provider performed neonatal resus- which require constant updates on PATH plans to conduct a durability 
+The MCHIP Quality of Care toolkit citation. This provider now conducts stock-outs or orders to replenish. and cleaning assessment of neonatal 
+helps to identify levels of both pre- and further training for other staff (32). Neonatal resuscitation equipment, resuscitation equipment in the field 
+26 mHEALTH AND NEONATAL RESUSCITATION
+during the spring of 2014. This assess- vouchers were incentivized to contact 
+ment should give a better indication of health care providers (15). Given that 
+the lifespan of neonatal resuscitation many births occur at home, this may be 
+devices. The development of quantifi- an additional strategy for encouraging 
+cation tools and forecasting guidelines facility delivery.
+are also underway. These tools and 
+guidelines will also help identify how To provide an example of how vouchers 
+many pieces of equipment are needed can be transferred through mobile-
+in a facility.  Based on this information, based systems, mPesa, which is a 
+mHealth applications can be used to mobile money transfer program being 
+provide reminders to conduct checks implemented in several countries, can 
+on the stock status of equipment and provide another perspective; however, 
+potentially put in requests to replace it should be strongly noted that con-
+equipment. Ideally, the mHealth solu- ditional cash transfers should not be 
+tion would connect directly into the provided to incentivize neonatal resus-
+country’s LMIS system (36–38). citation. In the case of Kenya and the 
+use of mobile phones for SMS remind-
+While more involved than likely neces- ers and conditional cash transfers to 
+sary in the case of neonatal resuscitation, improve immunization, mothers who 
+SMS for Life uses mobile phones, SMS received reminders completed the fol-
+messaging and electronic mapping to low-up survey and then received funds 
+track stock levels of essential malaria through mPesa (40).
+medicines on a weekly basis (39).
+Financial transactions 
+K and incentives 
+Mobile is also starting to play a role 
+in transferring money or credit over 
+wireless networks, which can be lev-
+eraged in health interventions that use 
+financial transactions and incentives. 
+Wired Mothers offers mobile phone THE LACK OF A LARGE BODY 
+vouchers for two-way communication 
+between mothers participating in the OF EVIDENCE DEMONSTRATING 
+program and primary health provid-
+ers. Mothers can use the vouchers to THE ATTRIBUTIVE IMPACT 
+access advice and if necessary, call for 
+ambulance service (15). An evaluation of CONNECTED TO mHEALTH  
+the Wired Mothers program indicated 
+that women who received phones with HAS BEEN PROBLEMATIC
+28 GAPS IN KNOWLEDGE AND BARRIERS TO ADOPTION 29
+5
+Gaps in 
+Knowledge 
+and Barriers few opportunities for collaboration and health priorities, information systems 
+to Adoption efficient use of resources. Instead of architecture and interoperability issues A number of barriers and challenges can potentially creating independent, parallel systems, and the existence of standards. These 
+undermine the integration of mobile technology into efforts need to leverage existing ini- barriers can be addressed at the coun-
+not only neonatal resuscitation interventions, but also any health intervention tiatives into one interoperable system try-level by presenting more substantial 
+(see Appendix B). This is the case for mobile technology used by communities, to both maximize effectiveness and evidence of the benefits of mHealth 
+as well as the health sector. First, the effective use of mHealth is obviously streamline processes (43). interventions and by helping to estab-
+dependent upon the availability of phones. At the household level, mobile lish global and national level strategies 
+phones in LMICs are typically owned by, or under the control of men (41). On There is a need to address barriers to and guidelines for mHealth implemen-
+the health service delivery side, women, who constitute most of the community scale and sustainability of mHealth tation and integration into existing 
+health workers, often use phones that are shared with household members or (which is connected to the transition policies (43). Country Ministries of Health 
+with other members of the community. Second, depending upon the location, from pilots (19,43). mHealth projects would need to take an active role for 
+network coverage and the inability to charge phones are omnipresent issues in require wide availability of mobile mHealth applications to be success-
+most rural areas in LMICs. Third, low literacy in communities may limit the ability devices, consistent sources of credit ful, achieve scale, and be sustainable. 
+to use certain phone features such as SMS (42). Accordingly, strategizing the use for phone time, trained legions of health This requires continued advocacy for 
+of mHealth must consider the availability of phones among community health workers and ongoing management of countries to adopt policies related to 
+workers, gender dynamics, network coverage, availability of electricity, and the servers and other equipment con- mHealth or eHealth (44). Ministries of 
+literacy rates. When mobile devices are not readily available, project planning nected to using mobile and web-based Health are already very stretched for 
+and budget considerations would need to factor in the funding required to technology. These are just some of the resources and while pilot programs may 
+obtain mobile devices, access a working network and energy sources, and build factors that need to be considered be encouraging, their ability to take on 
+the capacity of health workers who would be responsible for using the phones. when planning to go to scale. ownership may be limited.  
+The lack of a large body of evidence demonstrating the attributive impact Applications related to mLearning (the Also, until standard neonatal resusci-
+connected to mHealth has been problematic. There is, however, well-estab- use of mobile technology for educa- tation equipment is available globally, 
+lished evidence that supports data collection using PDAs, the earlier form of tional or learning purposes, such as there will be significant variations 
+mobile technology used in LMICs. An increasing number of studies are eval- health worker training) have not been throughout countries in implementing 
+uating the impact of mobile phone technology in data collection and other widely studied as of yet. There are sev- mHealth programs to support neonatal 
+areas outlined under the framework outlined above. Yet, even as the body eral promising ideas but a look at the resuscitation services. Currently, there is 
+of evidence grows, there is a need for evaluation research to keep pace with effectiveness might also be a valuable no consistent guidance on the lifespan 
+the advancement of mobile technology (43). endeavor (43). of equipment, and there are inconsis-
+tencies in the quantity required in a 
+The tendency to create parallel independent mHealth implementation systems Policy barriers also play a role in particular health facility, current stock 
+constitutes a major operational concern, particularly considering the number mHealth. Some examples of policy bar- levels of the equipment, and the best 
+of pilots operating in a country. These systems often work in silos, creating riers include network coverage, national methods for cleaning the equipment.
+31
+6
+Recommendations 
+As we think through the opportunities for for Saving Lives
+applying mHealth to neonatal resuscita-
+tion, the best strategic direction would be to target areas with the potential 
+for the most direct impact that can be achieved practically in the short term, 
+and to build upon existing experience. Using this strategy, recommendations 
+for using mHealth in the area of neonatal resuscitation include focusing how 
+mHealth can be operationalized for client awareness and education, data col-
+lection, provider training, and supply management based on the information 
+received on existing mHealth applications, gaps and barriers, as analyzed 
+under sections 4 and 5 above.  
+Client awareness and education
+Improving client awareness and education on neonatal resuscitation is an 
+important component for improving neonatal resuscitation activities in appro-
+priate situations. Although mHealth strategies have not been applied directly 
+for supporting neonatal resuscitation, several efforts have been implemented 
+where pregnant women are able to receive mobile-based health messages 
+corresponding to how advanced their pregnancy is all the way until the post-
+natal period. Incorporating information related to birth asphyxia or neonatal 
+resuscitation in these messages would be relevant to include in the existing 
+mHEALTH IS BEING MOST  mHealth programs for maternal health. Additionally, these messages could 
+also serve as a way to monitor and register birth outcomes, since they already 
+COMMONLY APPLIED AS A register pregnant women.
+TOOL FOR HEALTH WORKERS Birth Registration and Data collectionDeveloping birth and death registration systems can capture the number of 
+WHO ARE THE POINT OF births occurring as well as identify the causes of deaths among babies, and data collection for neonatal resuscitation includes a focus on tracking numbers 
+CONTACT FOR NEWBORNS AND of health care workers trained, frequency of resuscitation, and the quality of care provided. Targeting resources (e.g. supplies and training resources) to 
+locations which experience a disproportionate number of preventable neo-
+WOMEN DURING DELIVERY natal deaths related to lack of resuscitation capacity will require linking all 
+32 mHEALTH AND NEONATAL RESUSCITATION
+these data points to outcomes in order a frequent basis. This is an area where 
+to track progress over time. There are mHealth can provide some innovation.
+several mHealth data collection tools in 
+existence that could be applied in track- Support from mHealth for training could 
+ing neonatal outcomes as they relate occur at multiple levels. Specific appli-
+to neonatal resuscitation efforts. The cations could be developed or added to 
+mHBB pilot, for instance, is currently existing interventions to include:
+tracking provider training through 
+mobile technology, but if supported, • Reminders for refresher trainings
+this effort could link to morbidity • Requests for trainings for new staff
+and mortality indicators. The MCHIP • Providing videos to be used as 
+Quality of Care survey provides tools continuing education in between 
+to monitor providers when conducting in-person trainings. Videos could be 
+neonatal resuscitation. focused on performing resuscitation 
+and proper handling of equipment 
+Collecting relevant information can when not in use, such as disassem-
+help in pinpointing other gaps in pro- bling, cleaning, and storing
+viding adequate neonatal resuscitation • Conducting knowledge checks 
+services. Just as data collection over through text messages for health 
+time has helped to indicate the need care staff, particularly those who 
+for improved resuscitation services, it may not be performing neonatal 
+can also help to identify whether or not resuscitation regularly
+gaps are occurring related to training, 
+equipment, or elsewhere. Lessons can Supply Management
+be drawn from the various projects that Also critical to the provision of neo-
+have already integrated mobile tech- natal resuscitation is the availability 
+nology for data collection. and status of the equipment. mHealth 
+support for supply management could 
+Provider training include reminders to check equipment 
+Crucial to the success of neonatal as well as a link to the central LMIS to 
+resuscitation is the training of provid- request new equipment. The Cold Chain 
+ers. In many facilities, the provision of Equipment Manager tool adapted for PLANNING ANY mHEALTH 
+neonatal resuscitation services may mobile devices may be a good example 
+be infrequent. Training is often only for managing neonatal resuscitation APPLICATION SHOULD BE DONE 
+provided during pre-service yet there equipment. The critical aspect of this 
+may be a need for more frequent in-ser- would be that inventory management IN CONJUNCTION WITH OTHER 
+vice or refresher trainings to reinforce of neonatal resuscitation equipment 
+skills and improve recall of resuscitation would need to be distinguished from HEALTH INTERVENTIONS AND 
+knowledge, especially for those who do inventory management of medical 
+not need to conduct resuscitation on commodities that are used once. mHEALTH SYSTEMS
+34 APPENDIX 35
+Appendix A
+List of key informants for interviews
+7 Emily Bancroft, VillageReach
+Sherri Bucher, University of Indiana
+Natalie Campbell, MSH
+Conclusions David Cantor, MCHIPmHealth has not been leveraged fully for reducing neo- Patricia Coffey, PATH
+natal mortality rates related to birth asphyxia; however, Madhu Deshmukh, CARE
+many opportunities exist for improving access and delivery of effective inter- Maria Freytsis, Independent consultant
+ventions, such as neonatal resuscitation. This paper has used the framework Craig Friderichs, GSMA
+presented by Labrique et al. (2013) to identify opportunities for mHealth Lily Kak, USAID
+within the context of neonatal resuscitation. Using this framework, mHealth Bill Keenan, AAP
+examples have been provided for client education and behavior change Steve Ollis, D-Tree
+and communication, sensors and point-of-care diagnostics; birth registries Bill Philbrick, mHealth Alliance/UNICEF
+and vital events tracking; data collection, reporting, and electronic health Manjari Quintanar-Solares, PATH
+records; electronic decision support for information, protocols, algorithms, Sandhya Rao (email), departing USAID
+and checklists; provider-to-provider communication and user group consul- Olivia Velez, MCHIP
+tation; provider time management; provider training and education; human Fay Venegas, PATH 
+resource management; supply chain management; and financial transactions Donna Vivio, USAID
+and incentives. Specific recommendations for where mHealth can have the Beth Yaeger, MSH
+largest health impact from neonatal resuscitation and thus reduce the number 
+of birth-asphyxia-related deaths have been identified. These areas include 
+data collection, provider training, and supply management. Recommendations 
+have been drawn from existing strategies that leverage mHealth and applied 
+to the needs for better newborn health data, such as vital registration, to 
+inform decision making; inadequate training for health workers that interact 
+with women during labor and delivery both at health facilities and households; 
+and poor supply of necessary neonatal resuscitation equipment and devices 
+at the moment when birth asphyxia complications occur.  
+Planning any mHealth application should be done in conjunction with other 
+health interventions and mHealth systems. Investing in mHealth interventions 
+purely focused on neonatal resuscitation would likely not be as cost-effec-
+tive, especially if the mHealth intervention is designed and implemented as 
+stand-alone and not integrated into the larger efforts of the health system. In 
+addition, it seems premature to look into the development of these types of 
+applications until there is more consistent guidance on the care and longev-
+ity of the equipment. At this time, there does not appear to be any specific 
+mHealth support that can be provided that would strengthen systems where 
+equipment is not available. Where it is available, the above suggestions could 
+be taken to create pilots to be used for learning and scaled as we learn more.
+36 mHEALTH AND NEONATAL RESUSCITATION APPENDIX 37
+Appendix B Appendix B 
+Examples of barriers to high-quality resuscitation services for (continued)
+newborns born without the ability to breathe 
+Credit: USAID Assist (45)
+Service Delivery Common Barriers Health System Common Upstream Barriers to Effective Delivery of Resuscitation 
+Barrier Category (National, Regional &  Services
+District Management)
+Organization & • Lack of recognition and systematic referral and transport of high-risk 
+Processes of Care pregnancies or abnormal labor to referral level facilities. National Policy & • Weak national leadership and governance (e.g. assigned national 
+Leadership
+• No designated area & process for emergency resuscitation (ready table newborn point person, steering committee, comprehensive action plan)
+with functional clean equipment and designated competent providers • Inadequate designated funding for newborn health and resuscitation
+available all maternity shifts)
+• Lack of operational strategy to translate policy into practice and 
+• Poor adherence with evidence-based resuscitation standards, including monitor progress 
+failure to promptly recognize newborn asphyxia
+• Out-of-date resuscitation standards
+• Lack of clear staff roles and organization of post-partum care to 
+• Lack of clear policy regarding specific provider cadres authorized to 
+support immediate effective teamwork in the event of an adverse event
+provide resuscitation services and lack of certification protocols
+Provider &  • Lack of initial and regular refresher clinical training in evidence-based • Lack of national policy and guidelines on commodities procurement, 
+Staff Support basic neonatal resuscitation distribution and maintenance
+• Lack of supportive supervision to oversee provider and staff • No required accreditation, licensing and re-accreditation and licensing 
+competency and performance procedures (facility and provider level)
+• Lack of quality improvement and basic data management skills Human Resources • Weak and no regulation of pre- and in-service competency-based 
+Support
+Basic Infrastructure training, refresher training, and continuous supportive supervision to • No designated and equipped “newborn corner” resuscitation space in 
+& Commodities help maintain provider clinical competencedelivery room
+• Poor manager skills to effectively manage commodities procurement, 
+• No functional, sterilized resuscitation commodities (bag and mask) distribution and maintenance
+available 24/7 in delivery areas
+• Inadequate professional development opportunities for manager and 
+• Non-functional and/or unclean equipment due to poor maintenance provider cadres
+• No routine quality assurance processes related to equipment • Low pay and lack of incentives to maintain provider and staff 
+maintenance (e.g. checklists for essential procedures with designated engagement, performance and competence
+responsible staff and routine supervision checks)
+• Lack of oversight and accountability mechanisms
+• Difficulties and delays in anticipating commodities needs and procuring 
+replacements for malfunctioning commodities Commodities and • Weak standardization of effective commodities forecasting and 
+Logistics Support procurement, distribution and tracking systems (national, regional/
+Monitoring & • Facility medical records and registers do not systematically measure district); market shaping (global and local)
+Improving Outcomes intra- and post-partum adverse events, timeliness of recognition 
+of adverse event, quality of clinical interventions and associated • Poor oversight of product quality and technical specifications 
+health outcomes • Weak regulatory efficiency for sustaining demand/supply, inventory 
+• Facility providers/managers do not collect, manage and analyze monitoring of resuscitation commodities
+available facility data for continuous improvement of health care 
+services; national/regional and district managers do not analyze Routine Health • No vital registries
+routine health information data to continuously strengthen  essential Information Systems
+• Weak or no data collection related to facility and/or population 
+supporting health system functions
+incidence of intra-partum adverse events, services provided, and 
+• Facilities do not monitor and audit maternal and perinatal adverse neonatal outcomes as part of routine health information systems
+events using standardized procedures and documentation forms
+• Poor quality of available data 
+• No routine analysis and use of available data
+• Weak data management skills among providers, managers and facilities
+38 mHEALTH AND NEONATAL RESUSCITATION REFERENCES 39
+References 22. Bucher S, Esamai F. Using mobile phones to support neonatal resuscitation training in Africa Summary. 2013. 
+23. Cantor D. ICF International. Personal communication. 2013. 
+24. Airhihenbuwa CO, Obregon R. A critical assessment of theories/models used in health communication for HIV/
+AIDS. J Health Commun [Internet]. Taylor & Francis; 2000 Jan [cited 2014 Jan 29];5 Suppl(sup1):5–15. Available 
+from: http://dx.doi.org/10.1080/10810730050019528
+25. Janz NK, Becker MH. Health Education & Behavior. 2009; 
+26. Elder JP. Behavior Change and Public Health in the Developing World [Internet]. SAGE; 2001 [cited 2014 
+1. USAID. Child survival call to action: Ending preventable child deaths, summary roadmap. 2013. 
+Jan 29]. Available from: http://books.google.com/books?hl=en&lr=&id=WuHF2qI_kdcC&pgis=1
+2. Lawn JE, Cousens S, Zupan J. Neonatal Survival 14 million neonatal deaths: When? Where? Why? 
+27. Koskinen E, Salminen J. A customizable mobile tool for supporting health behavior interventions. 
+2005;891–900. 
+2007;5907–10. 
+3. International Telecommunications Union (ITU). ICT Facts and Figures: The World in 2013. 2013. 
+28. Fogg BJ. A Behavior Model for Persuasive Design. 2009; 
+4. International Telecommunications Union (ITU). ITU releases latest global technology development figures 
+29. Freimuth VS. Theoretical foundaiton of AIDS media campaigns. In: Fitzpatrick MA, Freimuth VS, editors. 
+[Internet]. 2013 [cited 2013 Jul 12]. Available from: https://http//www.itu.int/net/pressoffice/press_releases 
+AIDS: A communication perspective. Hillsdale, NJ: Eribaum; 1992. p. 91–110. 
+/2013/05.aspx
+30. Every Woman Every Child. UN Commission on Life Saving Commodities Implementation Plan. 2012. 
+5. Lee ACC, Cousens S, Wall SN, Niermeyer S, Darmstadt GL, Carlo WA, et al. Neonatal resuscitation and 
+immediate newborn assessment and stimulation for the prevention of neonatal deaths: a systematic review, 31. Elder JP, Ayala GX, Harris S. Theories and intervention approaches to health-behavior change in primary care. 
+meta-analysis and Delphi estimation of mortality effect. BMC Public Health [Internet]. 2011 Jan [cited 2014 Jan Am J Prev Med [Internet]. Elsevier; 1999 Nov 1 [cited 2014 Jan 29];17(4):275–84. Available from: http://www.
+23];11 Suppl 3(Suppl 3):S12. Available from: http://www.biomedcentral.com/1471-2458/11/S3/S12 ajpmonline.org/article/S0749-3797(99)00094-X/abstract
+6. Lawn JE, Shibuya K, Stein C. No cry at birth: global estimates of intrapartum stillbirths and intrapartum-related 32. Linder M. Mobile health technology: touching lives across the globe. Health Manag Technol [Internet]. 2012 Jun 
+neonatal deaths. Bull World Health Organ. 2005;83:409–17. [cited 2014 Jan 29];33(6):6–7. Available from: http://www.ncbi.nlm.nih.gov/pubmed/22787942
+7. Coffey P, Kak L, Narayanan I, Bergeson Lockwood J, Singhal N, Wall S, et al. Case study: Newborn resuscitation 33. Bancroft E. VillageReach. Personal communication. 2013. 
+devices, Prepared for the United Nations Commission on Life-Saving Commodities for Women and Children. 34. PATH. Cold Chain Technologies. Technology Solutions for Global Health. Seattle, WA; 2013. 
+2012. 
+35. Fishbein M, Ajzen I. Belief, attitude, intention and behavior: an introduction to theory and research. 1975 [cited 
+8. World Health Organization. Guidelines on basic newborn resuscitation. Geneva; 2012. 2014 Jan 29]; Available from: http://trid.trb.org/view.aspx?id=1150648
+9. Every Woman Every Child. UN Commission on Life-Saving Commodities for Women and Children 36. Coffey P. PATH. Personal communication. 2013. 
+Commissioners’ Report. 2012. 
+37. Venegas F. PATH. Pesronal communication. 2013. 
+10. Every Woman Every Child. Newborn Resuscitation [Internet]. 2012 [cited 2014 Jan 20]. Available from:  
+http://www.everywomaneverychild.org/component/content/article/1-about/309-newborn-resuscitation- 38. Yeager B. Management Sciences for Health. Personal communication. 2013. 
+devices--product-profile-). 39. Crawford R. The boundaries of the self and the unhealthy other: reflections on health, culture and AIDS. Soc 
+11. Labrique AB, Vasudevan L, Kochi E, Fabricant R, Mehl G. mHealth innovations as health system strengthening Sci Med [Internet]. 1994 May [cited 2014 Jan 29];38(10):1347–65. Available from: http://www.ncbi.nlm.nih.gov/
+tools: 12 common applications and a visual framework. Glob Heal Sci Pract. 2013;1(2):160–71. pubmed/7517576
+12. Freytsis M, Velez O. Mobile Tools for Health Workers Targeting Neonatal Health in Low-Resource Settings: 40. Wakadha H, Chandir S, Were EV, Rubin A, Obor D, Levine OS, et al. The feasibility of using mobile-phone 
+A Realist Review. re. 2013. based SMS reminders and conditional cash transfers to improve timely immunization in rural Kenya. Vaccine 
+[Internet]. 2013 [cited 2014 Jan 29];31(6):987–93. Available from: http://www.sciencedirect.com/science/
+13. Philbrick WC. mHealth and MNCH State of the Evidence, Trends, Gaps, Stakeholder Needs, and Opportunities article/pii/S0264410X12017446
+for Future Research on the Use of Mobile Technology to Improve Maternal, Newborn, and Child Health. 2013. 
+41. Zurovac D, Otieno G, Kigen S, Mbithi AM, Muturi A, Snow RW, et al. Ownership and use of mobile phones 
+14. Keisling K. mHealth Field Guide for Newborn Health. Washington, DC; 2014. among health workers, caregivers of sick children and adult patients in Kenya: cross-sectional national survey. 
+15. Lund S, Hemed M, Nielsen BB, Said a, Said K, Makungu MH, et al. Mobile phones as a health communication Global Health [Internet]. 2013 Jan [cited 2014 Jan 29];9(1):20. Available from: http://www.globalizationand 
+tool to improve skilled attendance at delivery in Zanzibar: a cluster-randomised controlled trial. BJOG health.com/content/9/1/20
+[Internet]. 2012 Sep [cited 2013 Nov 11];119(10):1256–64. Available from: http://www.ncbi.nlm.nih.gov/ 42. Medical Research Centre, Government of Sierra Leone, University of Sierra Leone, Text to Change, Royal 
+pubmed/22805598 Tropical Institute, Powered by MDG 5, et al. Technical brief: mHealth for maternal and newborn health in 
+16. Rogers EM. Diffusion of Innovations, 4th Edition (Google eBook) [Internet]. Simon and Schuster; 2010 [cited resource-poor and health system settings, Sierra Leone. 2011. 
+2014 Jan 29]. Available from: http://books.google.com/books?hl=en&lr=&id=v1ii4QsB7jIC&pgis=1 43. Mechael P, Batavia H, Kaonga N, Searle S, Kwan A, Goldberger A, et al. Barriers and Gaps Affecting mHealth in 
+17. UNCEF. State of the World’s Children 2013. 2013. Low and Middle Income Countries : Policy White Paper. 2010;1–79. 
+18. Fogg BJ. A Behavior Model for Persuasive Design. 2009. 44. Internet Society of Ghana, IICD. Ghana establishes ICT policy strategy for the health sector [Internet]. 2000. 
+Available from: http://www.iicd.org/articles/IICDnews.import1417/
+19. Qiang CZ, Yamamichi M, Hausman V, Altman D. Mobile Applications for the Health Sector. 2011;(December). 
+45. USAID ASSIST. A Quality Framework for Improving and Sustaining High-impact Newborn Resuscitation 
+20. American Academy of Pediatrics. Helping Babies Breathe: The Golden Minute. 2013. 
+Services at Scale in Low-resource settings. 2013. 
+21. Bucher S. Assistant Professor of Research, Indiana University School of Medicine and USAID-AMPATH 
+46. Narayanan I. Draft UN Commission on Life-Saving Commodities: Update on Resuscitation Commodities. 2013. 
+Partnership. Personal Communication. 2013. 
+1750 Pennsylvania Avenue, NW 
+Suite 300
+Washington, D.C. 20006
+202.887.9040 (phone)
+202.887.9021 (fax)
+www.mhealthalliance.org

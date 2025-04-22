@@ -1,0 +1,1348 @@
+HEALTH 
+INFORMATION 
+AS HEALTH CARE
+THE ROLE OF MOBILES IN UNLOCKING HEALTH DATA AND WELLNESS
+DISCUSSION 
+PAPER
+mHealth
+AUTHORS
+This discussion paper was written by Jody Ranck, DrPH, with input by and collaboration 
+from Ramesh Krishnamurthy, PhD, Dykki Settle and David Lubinski, and edited by Adele 
+Waugaman.
+RECOMMENDED CITATION
+Jody Ranck, Health Information and Health Care: The Role of Technology in Unlocking Data 
+and Wellness – A Discussion Paper, (Washington, D.C.: United Nations Foundation & Voda-
+fone Foundation Technology Partnership), February 2011.
+COVER PHOTOS
+UN/Farran
+The views expressed in the report are those of the authors and do not necessarily reflect 
+those of the United Nations Foundation, The Vodafone Foundation or the mHealth Alliance.
+CONTACT
+United Nations Foundation
+1800 Massachusetts Ave., NW
+Suite 400
+Washington, D.C. 20036
+USA 
+ABOUT THE UNITED NATIONS FOUNDATION & VODAFONE FOUNDATION 
+TECHNOLOGY PARTNERSHIP 
+The United Nations Foundation and Vodafone Foundation Technology Partnership is a lead-
+ing public-private alliance using technology programs to strengthen the UN’s humanitarian 
+efforts worldwide. Created in October 2005 with a £10 million commitment from The Vodafone 
+Foundation matched by £5 million from the UN Foundation, the Technology Partnership has 
+three core areas of focus: (1) to strengthen communications in humanitarian emergencies; 
+(2) to support the development of mobile health (mHealth) programs to improve public health 
+systems, decision-making and, ultimately, patient outcomes; and (3) to promote research 
+and innovation using technology as a tool for international development. The UN Foundation 
+and The Vodafone Foundation are among the founding partners of the mHealth Alliance. 
+More information is available at: www.unfoundation.org/vodafone.
+ABOUT THE MHEALTH ALLIANCE
+The mHealth Alliance (mHA) mobilizes innovation to deliver quality health at the farthest 
+reaches of wireless networks and mobile devices. Working with diverse partners, the 
+mHA advances mHealth through research, advocacy, and support for the development 
+of interoperable solutions and sustainable deployment models. The mHA sponsors inno-
+vation challenges and conferences, leads cross-sector mHealth initiatives, and hosts 
+HUB (www.HealthUnBound.org), a global online community for resource sharing and 
+collaborative solution generation. Founding partners include the Rockefeller Foundation, 
+the United Nations Foundation and the Vodafone Foundation, the U.S. President’s Emer-
+gency Plan For AIDS Relief, the GSM Association and Hewlett-Packard. More information 
+is available at www.mHealthAlliance.org.
+A DISCUSSION PAPER COMMISSIONED BY THE UNITED NATIONS FOUNDATION  
+& VODAFONE FOUNDATION TECHNOLOGY PARTNERSHIP IN COLLABORATION  
+WITH THE MHEALTH ALLIANCE.
+Prepared by Jody Ranck, DrPH, Ramesh Krishnamurthy, PhD, Dykki Settle, David Lubinski
+
+TABLE OF CONTENTS
+ ACKNOWLEDGEMENTS 07
+ EXECUTIVE SUMMARY  09
+ GLOSSARY 11
+ INTRODUCTION 13
+ PUBLIC HEALTH SURVEILLANCE SYSTEMS 21
+ HUMAN RESOURCES ECOSYSTEMS 33
+ SUPPLY CHAIN 39
+ RECOMMENDATIONS 45
+ REFERENCES & ENDNOTES 48
+6  |  HEALTH INFORMATION AS HEALTH CARE CREDIT: UN/ESKINDER DEBEBE
+ACKNOWLEDGEMENTS 
+The United Nations Foundation and The Vodafone Foundation are thankful to the numerous 
+individuals who have shared their ideas and experiences to inform this report. In particular, 
+we would like to thank lead author Jody Ranck, and contributing authors Ramesh Krish-
+namurthy, David Lubinski and Dykki Settle. We are furthermore grateful to Manish Kumar and 
+Catharine Taylor of PATH, Neeru Gupta, Pamela Riley and Shalu Umapathy of Abt Associates, 
+Joel Selanikio of Datadyne and S. Yunkap Kwankam for their insights and feedback during 
+the editing of this report. We would like to acknowledge Dalberg Global Development Advisors 
+for their work on the Senegal case study cited within this discussion paper.
+We also are indebted to those who shared the rich photos and graphics found in this report. 
+Thanks go to Dalberg Global Development Advisors , Global Health Council, Health Metrics 
+Network, ITU World Telecommunication and ICT Indicators database, Steve Kinzett of John 
+Snow, Inc., Ramesh Krishnamurthy, Logistics Management Information System, David 
+Lubinski, Dykki Settle, The Internet Journal of Gynecology and Obstetrics, UNICEF, United 
+Nations, and the World Health Organization (WHO). 
+Lastly, we would like to thank the team that worked on creating and producing this report. 
+This includes, copy editor Active Voice llc, designer Eighty2degrees LLC, and Hal Kowenski 
+and Andre Temoney at Linemark Printing. 
+ HEALTH INFORMATION AS HEALTH CARE  |  7
+8  |  HEALTH INFORMATION AS HEALTH CARE CREDIT: UN/SOPHIA PARIS
+EXECUTIVE SUMMARY
+Around the world, countless lives are lost due to insufficient access 
+to quality health information. The availability of accurate, timely, and 
+analyzed data is directly relevant to the quality of an individual’s health 
+and the healthcare system in general, the delivery of individual care, 
+and the understanding and management of overall health systems. 
+This discussion paper will: 
+  
+¾ Examine the role information and com-  flows that technology-based solutions
+ munication technologies (ICTs), and   could address. In the case of each of 
+ mobile technology in particular, can play   these three domains, we use maternal 
+  in improving access to quality health   health as an example to show how 
+ information.   technology-backed inter ventions can 
+ improve health information flows.
+¾ Review the ecosystem of health infor- 
+ mation related to patients, tracing the ¾ Identify barriers, choke points, and 
+ data throughout the continuum of care.  other inefficiencies to guide the discus- 
+ sion of how modern ICTs can improve 
+¾ Examine health information flows from  health information flows and health 
+ patients in villages to international health  outcomes in the developing world. 
+ organizations and the most important 
+ steps in between. ¾ Provide recommendations for using 
+ mod ern ICTs to make health informa- 
+¾ Identify common ground on which tech-  tion flow more efficiently and perhaps 
+ nologists and public health professionals  even transform the process of care 
+ can develop innovative strategies and  delivery itself. 
+ tools to strengthen health care systems 
+ by supporting health data flows, working This discussion will continue online thr-
+ from the premise that better data col- ough the ‘Data Flows’ workspace on 
+ lection will lead to better health policies www.HealthUnbound.org (HUB). HUB pro-
+ and health outcomes. v ides a new model to foster collaborative 
+knowledge about global health. Check back 
+¾ Focus on three healthcare domains – sur for new discussion and activity in this space. 
+ veillance systems, supply chain, and 
+ human resources – and through the per- 
+ spectives of experts in these domains, 
+ identify critical gaps in health information 
+ HEALTH INFORMATION AS HEALTH CARE  |  9
+10  |  HEALTH INFORMATION AS HEALTH CARE CREDIT: UN/MARTINE PERRET
+GLOSSARY
+The following terms are used frequently in this paper, and are defined 
+as follows:
+  
+CONTINUUM OF CARE: An integrated GLOBAL STRATEGY FOR WOMEN AND 
+system of care that guides and tracks a CHILDREN’S HEALTH: Developed under 
+patient over time through a comprehensive the auspices of the UN Secretary-General, 
+array of health services spanning all levels of a plan recognizing that the health of women 
+intensity of care.1 and children is key to progress on all 
+development goals and calling for cross-
+COMMUNITY HEALTH WORKER (CHW): sector collaboration and the use of ICTs in 
+Frontline health care workers who, in the improving the health of women and children 
+developing world, are frequently the primary worldwide. 
+source of health information and care in rural 
+and low resource environments. The World HEALTH SYSTEMS: As defined by WHO, 
+Health Organization (WHO) further defines a all the organizations, institutions, resources, 
+health care worker as anyone whose focus and people whose primary purpose is to 
+or activity is to improve health, including pro- improve health. 
+viders (e.g., doctors, nurses, and midwives) 
+as well as technicians and managers.2 INTEROPERABILITY: The ability to share 
+data quickly, accurately, and efficiently 
+DATA FLOWS: The pathways of health between different applications across and 
+information as it moves from local to regional throughout a health system. 
+to national to international levels and from 
+patients and community health workers to MHEALTH: Using wireless communications 
+public and private health care facilities. devices, such as mobile phones, netbooks, 
+and remote sensors, for health services and 
+ENTERPRISE ARCHITECTURE: The sub- information. 
+field of information technology (IT) or infor-
+mation and communication technologies MILLENNIUM DEVELOPMENT GOALS 
+(ICT) that takes the interdependent resources, (MDGS): Eight goals for international dev-
+such as people, capital, information, and elopment agreed to by the UN General 
+knowledge amassed in support of a com- Assembly in 2000 and recognized around 
+mon mission, and maps them into a unified the world.
+and efficient technology system.
+EHEALTH: Use of ICTs , such as computers, 
+mobile phones, and satellite communica-
+tions, for health services and information. 
+ HEALTH INFORMATION AS HEALTH CARE  |  11
+12  |  HEALTH INFORMATION AS HEALTH CARE CREDIT: UN/FARRAN
+INTRODUCTION
+THE ROLE OF INFORMATION IN HEALTH 
+SYSTEMS STRENGTHENING 
+Strengthening health systems is emerging as a cornerstone of global 
+health policy. The poor state of health systems in many parts of the 
+developing world is keeping individuals from accessing essential 
+health care and slowing progress toward health-related UN Millen-
+nium Development Goals. 
+  
+Improving health systems requires enhance- A SEA CHANGE IN COMMUNICATIONS 
+ments to health worker capacity and levels Until recently, discussions about apply-
+of staffing, service delivery, infrastructure, ing information technologies to health care 
+commodities (such as equipment and in the developing world revolved around 
+medicines), logistics, progress-tracking, and replacing ubiquitous paper-based systems 
+financing.3 When applied to health systems with computers. Yet, in the past decade 
+in all these areas, information and commu- a mobile communications revolution has 
+nication technologies can transform health swept the globe and is beginning to reshape 
+systems globally, improve quality of care, how health information and services are 
+and save lives. shared. An increasingly networked world 
+has changed the way businesses, gov-
+ernments, and individuals organize and 
+FIG 1: HEALTH SYSTEMS ARE MORE THAN BUILDING BLOCKS
+communicate. This is especially true in 
+developing countries, where the proliferation 
+of mobile devices, which now far outnumber 
+fixed phones, outpaces the telecommunica-
+tions technology infrastructure. 
+Particularly in the developing world, the rise 
+of mobile communications holds tremen-
+dous potential to help ease the flow of health 
+information, whether through simple voice 
+calls, SMS messaging, wireless data, or the 
+burgeoning mobile internet. The International 
+Telecommunications Union (ITU) estimates 
+that 2011 opened with over 5.3 billion mobile 
+SOURCE: UNICEF 2010 subscriptions worldwide, of which over 3.5 
+billion are found in low and middle income 
+ HEALTH INFORMATION AS HEALTH CARE  |  13
+end of 2010 nearly 70% of the population 
+FIG 2: GLOBAL ICT DEVELOPMENT, 2000–2010
+in the developing world had access to a 
+mobile phone – a trend driven largely by the 
+rapid penetration mobile technology in the 
+Asia and Pacific region. 6 Mobile services 
+have the most room for growth in Africa, 
+where an estimated 41% of the population 
+had a mobile subscription at the end of 
+2010. Analysts estimate this percentage will 
+rise to 65% by 2013.7 
+With more than five billion subscribers con-
+necting through mobile technology around 
+* ESTIMATES
+the world, new channels of communication 
+SOURCE: ITU World Telecommunication / ICT Indicators database are opening between patients, commu-
+nity health workers, nurses, doctors, and 
+specialists, irrespective of their location. 
+countries.4 Indeed, mobile markets are grow- The flexibility of mobile communications 
+ing fastest in the developing world, which also enables new forms of communication, 
+increased its share of mobile subscriptions whether one-to-one, one-to-many, or many-
+from 53% of total mobile subscriptions at to-many.8 This is shifting the landscape of 
+the end of 2005 to 73% at the end of 2010.5 health information sharing, making it possible 
+An astonishing 90% of the world’s population to monitor and diagnose patients remotely, 
+now has access to a mobile signal, including center treatment and support on the patient, 
+80% of people in rural areas. While access sound alerts to disease outbreaks, and edu-
+to mobile services is still not universal, by the cate community health workers and others 
+from a distance.9 
+CORRELATION OF HEALTH INFRA-
+FIG 3: GLOBAL CELLULAR SUBSCRIPTIONS
+STRUCTURE TO WELLNESS
+While cost and access to medical care pres-
+ent challenges to health care around the 
+world, these barriers are particularly acute 
+in low and middle income countries. The 
+World Health Organization (WHO) estimates 
+there is a shortage of 2.4 million health ser-
+vice providers globally.
+ 
+While there are 28 doctors and 87 nurses 
+SOURCE: ITU and midwifery personnel per 10,000 people 
+in high income regions of the world, there 
+14  |  HEALTH INFORMATION AS HEALTH CARE
+and neglected tropical diseases endemic in 
+FIG 4: COUNTRIES WITH A CRITICAL SHORTAGE OF HEALTH  
+SERVICE PROVIDERS (PHYSICIANS, NURSES, AND MIDWIVES) many parts of the Global South further strain 
+under-resourced health systems. As glo-
+balization brings the challenges of obesity, 
+diabetes, and hypertension into emerging 
+market economies, health challenges only 
+continue to grow. Leveraging the growing 
+connectivity enabled by the rise of ICTs is 
+critical to meeting and overcoming these 
+challenges.
+MATERNAL CARE
+Maternal health is a fundamental building 
+block of public health, and maternal health 
+SOURCE: World Health Organization (WHO) outcomes are a leading indicator of how well 
+the system performs. Countries with weak 
+health systems and poor health infrastruc-
+are only 5 doctors and 11 nurses and mid- ture struggle to provide sufficient services 
+wifery personnel per 10,000 people in low to pregnant women. Maternal health is dou-
+income regions.10 These resource shortages bly important and determines whether the 
+are compounded by the burden of global mother delivers safely and whether the new-
+diseases, which disproportionately falls on born is healthy. One study in Bangladesh 
+the developing world. found that a child whose mother dies has 
+only a 24% chance of living to age 10, while 
+a child whose mother survives has an 89% 
+FIG 5: GLOBAL DISEASE BURDEN AND HEALTH CARE WORKFORCE chance of remaining alive. 11 
+Indeed, neonatal conditions are by far the 
+leading cause of death for children under 
+five years old. There is a direct correlation 
+between country infrastructure and maternal 
+mortality rates. Nearly all maternal deaths 
+(99%) occur in developing countries, 87% 
+occur in sub-Saharan Africa and South Asia12,
+SOURCE: Global Health Council and 65% occur in 11 countries – Afghanistan, 
+Bangladesh, the Democratic Republic of the 
+ Congo, Ethiopia, India, Indonesia, Kenya, 
+Diseases like polio and measles have been Nigeria, Pakistan, Sudan, and Tanzania. 13 
+eradicated in Europe and the Americas These figures do not account for the women 
+but still present significant challenges in who are injured, sometimes for life, in 
+Africa and Asia. The HIV/AIDS epidemic childbirth; for every woman who dies, 
+ HEALTH INFORMATION AS HEALTH CARE  |  15
+at least 20 others suffer injury, infection, health. One of the MDGs establishes tar-
+or disability. 14 gets to lower maternal mortality rates by 
+reducing deaths in childbirth and increasing 
+universal access to reproductive health. In 
+FIG 6: CAUSES OF UNDER-FIVE DEATHS 
+PERCENT – 2008 2010, the UN Secretary-General redoubled 
+these efforts, launching the Global Strategy 
+for Women and Children’s Health, which for 
+the first time identified the role ICTs can play 
+in accelerating progress toward safer preg-
+nancies and births. 
+As in other areas of global health, maternal 
+health relies heavily on access to timely and 
+reliable data. Technology can help open 
+bottlenecks in data on maternal health and 
+improve the delivery of service. Systemic 
+eHealth and mHealth interventions are 
+SOURCE: United Nations MDG Report 2010 capable of closing existing gaps in care 
+across the maternal health continuum. 
+ 
+It is critical to keep in mind that almost all HEALTH INFORMATION FLOWS
+maternal deaths are preventable. By adopt- Improving data collection is a good first step 
+ing the 2000 UN Millennium Development in creating health systems with data that 
+Goals (MDGs), the international commu- flows to appropriate points in the network 
+nity supported the drive to improve maternal and informs effective decision-making. Peter 
+Byass argues that better data collection will 
+lead to better health policies and health 
+15
+FIG 7: IMPACT OF HEALTH CARE WORKERS ON  outcomes.  In particular, the use of ICTs 
+MATERNAL, CHILD AND INFANT SURVIVAL creates efficiencies in data collection as well 
+as improves health information flows and 
+data quality. This allows timely and accurate 
+depictions of disease burdens and resource 
+flows, enabling policy makers to effectively 
+allocate limited resources. 
+Focusing on maternal health care, our paper 
+highlights the implications of data flow issues 
+and discusses a broad range of possible 
+ICT interventions.16 We hope to encourage 
+SOURCE: Global Health Council ongoing discussions to clarify what health 
+systems need so that the future information 
+16  |  HEALTH INFORMATION AS HEALTH CARE
+technology backbones of these systems The advent of mobile devices presents an 
+can facilitate that. We must identify what the opportunity to break through silo walls and 
+users and systems require before we can increase the production of and access to 
+develop the overall enterprise architecture health information. Addressing bottlenecks 
+development, framework, or process.17 in data collection and sharing also holds 
+great potential for strengthening maternal 
+Fragmentation of health data collection and care and health service delivery gaps. ICT-
+reporting methods challenges efforts to enabled data collection and sharing holds 
+transform the health care system. A number great potential for closing the health care 
+of trends and forces are at work here. The service delivery gaps affecting maternal 
+advent of the World Health Organization in health care in areas including19: 
+the 1940s led to a hierarchical model for 
+sharing global health information. The intro- ¾ family planning, counseling, services, 
+duction of computers and the subsequent  and supplies
+expansion of the Internet increased the ¾ antenatal care 
+number and complexity of actors working in ¾ communication with providers 
+information and global health development.18 ¾ lab results
+Concurrently, private donors began to con- ¾ proper maternal nutrition
+tribute more to reaching global health goals, 
+and each donor group instituted its own ICT can support limited health care systems 
+systems for collecting and sharing informa- by allowing them to transmit critical data 
+tion. Much good came from the introduction to the right people when needed, such as 
+of these new, dedicated players, but the connecting a remote health worker with an 
+many discrete information networks that urban OB/GYN specialist or enabling a preg-
+they brought with them, both horizontal nant woman to call in advance to ensure she 
+and bottom-up, fragmented the universe of can receive appropriate medical attention at 
+health data. a clinic where she plans to deliver. 
+As a multitude of donors emerged to combat As Peter Byass has argued, “Poverty in 
+a variety of diseases, they carried with them material terms is inextricably linked with pov-
+stove-piped reporting systems. These frag- erty of data.”20 Policy makers too often base 
+mented data flows have led to duplication of their understanding of health data on an 
+efforts, competition, and poor coordination incomplete grasp of reality on the ground. 
+of health planning. To strengthen the health To understand the key drivers of poor health 
+care system, we will have to put into place outcomes, it is necessary to distinguish 
+enterprise architecture that enables interop- between real gaps in health system coverage 
+erability of devices and open standards; and those generated by lack of data. This 
+those in turn will help health care data to allows health planners and technologists to 
+move across these silos. prioritize innovations and policies impacting 
+health data and will let us effectively address 
+ HEALTH INFORMATION AS HEALTH CARE  |  17
+critical pressure points in, for example, the 
+maternal health value chain. 
+ 
+Efficient data flows are an integral part 
+of an effective health information system. 
+U.S. health policy expert Don Berwick is 
+well-known for the quote, “information is 
+care.21” A strong health information system 
+enables health workers to respond rapidly 
+and with the appropriate measures. When 
+data flows readily from the village level to 
+central systems, it makes the jobs of health 
+professionals much easier and increases 
+the likelihood that health workers will deliver 
+high quality services. Conversely, uncoordi-
+nated systems with data roadblocks amplify 
+the challenge of delivering essential health 
+services. Health systems that are highly 
+fragmented and plagued by gaps in data 
+flows also play a role in high turnover rates 
+for frustrated health workers who spend a 
+great deal of time completing forms by hand. 
+Currently, lack of organized description and 
+research on the end-to-end flow of health 
+information and data, particularly in the 
+developing world, impedes progress toward 
+these global health goals. 22 These bottle-
+necks directly result in material effects such 
+as insufficient supplies of contraceptives, 
+vaccines, and drugs. In other words, health 
+data flows, while largely invisible, are criti-
+cally important to achieving greater health 
+access and equity. 
+18  |  HEALTH INFORMATION AS HEALTH CARE
+19  |  HEALTH INFORMATION AS HEALTH CARE
+20  |  HEALTH INFORMATION AS HEALTH CARE CREDIT: UN/FRED NOY
+PUBLIC HEALTH 
+SURVEILLANCE SYSTEMS
+DATA FLOWS WITHIN PUBLIC HEALTH 
+SURVEILLANCE SYSTEMS
+Written in collaboration with Ramesh Krishnamurthy of the Health Metrics Network 23
+Dr. Ramesh Krishnamurthy is the Health Metrics Network’s Chief of 
+Information Systems and Frameworks’ team leader. Previously he 
+was the senior informatics advisor and scientist at the Centers for 
+Disease Control and Prevention. The Health Metrics Network (HMN) 
+is a WHO entity responsible for strengthening health information 
+systems in the developing world.
+DATA FLOWS IN SURVEILLANCE 6. Inadequate ICT infrastructure
+SYSTEMS 7. Jurisdictional barriers to sharing 
+This section examines data flows in the  information
+context of disease surveillance systems. 
+We define “data” to include distinct fac- ORGANIZATION OF DATA FLOWS IN 
+tual measurements or items represented SURVEILLANCE SYSTEMS
+as numbers, words, images, and biological Public health professionals, including epi-
+samples, and “information” as analyzed and demiologists, informatics specialists, and 
+interpreted data. Disease surveillance sys- information systems managers, need a com-
+tems serve as the backbone of public health prehensive understanding of the flow of data 
+systems and represent a major portion of the pertaining to their areas of interest. This is 
+data that feed into country health informa- true whether they are embarking on design-
+tion systems. Effective surveillance systems ing new information systems to collect and 
+monitor disease trends in a population and manage surveillance data or administering 
+help identify and control epidemics through existing surveillance information systems. 
+the allocation of necessary resources. There 
+are seven major bottlenecks to the flow of At the broadest level, the process of public 
+health data flows in this environment: surveillance data activity can be broken into 
+three main categories: 
+1. Fragmentation of health information 
+2. Lack of unique health identifiers 1. Data collection 
+3. Poor data quality 2. Data storage and analysis
+4. Lack of standards and interoperability 3. Data interpretation, dissemination, and use
+5. Limited human resources
+ HEALTH INFORMATION AS HEALTH CARE  |  21
+ been slow, as it is collected and transmitted 
+FIG 8: PUBLIC HEALTH SURVEILLANCE AT A GLANCE on paper. In recent years, the increased use 
+of ICTs in disease surveillance data collec-
+tion has influenced the ways public health 
+data is collected and managed. In more 
+advanced surveillance systems, data flow 
+occurs within the context of an intertwined 
+process (Figure 8) under a common data 
+architecture involving standardized vocabu-
+laries, messaging, data transportation pro- 
+tocols, and interoperable data collection and 
+SOURCE: “Health Metrics Network Framework 2007” management tools. 
+ The data flow activity levels vary substantially 
+In most countries, national or sub-national based on the complexity of the surveillance 
+public health surveillance systems fall system. 24 Table 1 provides observations on 
+under the jurisdiction of the ministries of data collection activities and implies that 
+health or departments of public health, passive surveillance systems have more 
+where surveillance data is generally man- complex data activities. 
+aged for dissemination and public health 
+action. Key consumers of data include There can be substantial variability in data 
+governments (national and sub-national collection methods at the level of data cap-
+public health agencies), patients, hospitals, ture across the primary data sources. In 
+practitioners, the research community, addition, as shown below, the quality of data 
+donors, philanthropists, and businesses. may vary substantially at different levels of 
+ health facilities.
+Data flow can occur in unstructured and 
+structured forms. Traditionally, data flow has 
+TABLE 1: LEVELS OF COMPLEXITY AND DATA FLOW
+LOWER COMPLEXITY DATA ACTIVITIES HIGHER COMPLEXITY DATA ACTIVITIES
+Active Surveillance Passive Surveillance
+Individual patient observations Geographic or organizational unit observations
+Single disease or issue Integrated surveillance systems
+Surveillance only Surveillance plus case management
+Confirmed cases only Situational awareness and early warning
+Universal data collection Sampling of the population under study
+Primary data collection Using existing data collected for other purposes
+22  |  HEALTH INFORMATION AS HEALTH CARE
+SOURCES OF DATA distinct pathways within any surveillance 
+The primary source of surveillance data may system. Figure 9 captures a simplified yet 
+include direct observations of cases as well rich view of the critical transactions that 
+as secondary extractions from unstructured occur from the point of original data capture 
+or structured diaries of auxiliary health work- all the way through to the dissemination of 
+ers, ailment registries, state surveillance findings to inform public health actions. Dur-
+registries, or electronic medical records ing the course of routine data management, 
+(EMRs), among other sources. These pri- surveillance flow pathway diagrams can 
+mary data sources are usually paper-based serve as a quick reference manual to iden-
+records and forms. However, event-based tify the critical areas that require monitoring 
+surveillance can also utilize automated and intervention to assure data quality and 
+scanning of mass media and internet data data integrity. Periodic updating of these 
+sources.25 Other primary sources of health diagrams can guide complex and long-term 
+data include censuses, civil registrations, data management activities. 
+population surveys, individual records, ser-
+vice records, and resource records.26 “Data Public health data is generally collected on 
+capture” is a term we use to understand paper and then re-entered on a computer 
+which signals first enter a surveillance sys- for storage and analysis. However, more 
+tem.27 Structured surveillance systems use and more, original electronic data is cap-
+explicit, predefined data capture modalities. tured at the point of origin using hand-held 
+Unstructured surveillance systems, or event- devices or direct input to desktop applica-
+based surveillance, utilize a wider range tions. Entities such as the U.S. Centers for 
+of data capture methods. These methods Disease Control and Prevention (CDC), 
+include informal and structured reports WHO, DataDyne, InSTEDD, and Voxiva have 
+from local clinicians, traditional healers, civil developed numerous electronic applications 
+authorities, the general public, etc. to collect surveillance data. Some are open 
+source applications and some are propri-
+Raw, unstructured data flows, workflow, etary. DataDyne created the free and open 
+and structured information flows are three source EpiSurveyor health data collection 
+FIG 9: DATA FLOW IN THE CONTEXT OF DATA
+DATA CAPTURE DATA STORAGE DATA ANALYSIS
+Use paper forms  Organized storage  Use of statistical  
+or electronic data  of paper forms or  approach to  
+capture tool electronic data interpret data
+ HEALTH INFORMATION AS HEALTH CARE  |  23
+tool with funding from the United Nations health sub-center to the state, the following 
+Foundation and Vodafone Foundation Tech- figure provides an overview of the National 
+nology Partnership and in 2006 deployed it ICT infrastructure for a country. Note that 
+in sub-Saharan Africa in coordination with this diagram does not incorporate mHealth 
+WHO and participating ministries of health. capabilities. Figures 10 and 11 assume man- 
+Other software and software kits that are ual, paper data capture at the front line levels 
+now being used to capture and/or use data with data entry only at the district level: 
+to support health in the developing world 
+include EpiInfo, OpenXdata, Open Data Kit, 
+FIG 10: SIMPLIFIED ILLUSTRATION OF A NON-MOBILE  
+Open Dream, Open MRS, OpeneLIS, Open- ICT INFRASTRUCTURE IN THE CONTEXT OF NATIONAL  
+Clinica, District Health Information System SURVEILLANCE DATA COLLECTION AND REPORTING
+(DHIS), Managing News, Sahana, Geo-
+Chat, Riff/Evolve, Mesh4x, Ushahidi, and 
+Epidefender. 
+A well-designed electronic information sys-
+tem allows: 
+1. A streamlined data entry process
+2. The direct digital capture of laboratory 
+ test results or clinical diagnoses
+3. Efficient data merge capabilities from 
+ multiple data sources
+4. Automated data quality checks SOURCE: Ramesh Krishnamurthy
+5. Rapid search, retrieval, and visualization 
+ capabilities FIG 11: SIMPLIFIED ILLUSTRATION OF GENERAL NATIONAL  
+6. Early warning alerts for potential disease SURVEILLANCE DATA COLLECTION AND REPORTING
+ threats and disease outbreaks. 
+After data is captured, data flows must move 
+among the various health care providers and 
+surveillance officers and be translated into 
+data formats (i.e., from hardcopy to digital 
+formats or from a computer drive or wireless 
+handset to a database). The data can then 
+be sent to the different levels of the health 
+system (Figure 10) where there are data 
+feedback mechanisms to ensure quality, 
+manage corrections, and supply analysis. To 
+provide an idea of the potential magnitude SOURCE: Ramesh Krishnamurthy
+of the layers in the system moving from a 
+24  |  HEALTH INFORMATION AS HEALTH CARE
+HAND  DELIVER HAND  DELIVER
+A generalized model, as shown above in Fig- Therefore, the impact on the information 
+ure 11, used database programs at various system is uncoordinated and may lead to 
+levels of the public health system to collect fragmentation of data. 
+and aggregate paper based forms. 
+ 
+FIG 12: ILLUSTRATION OF SURVEILLANCE DATA  FIG 13: EXAMPLE OF COUNTRY HEALTH INFORMATION SYSTEMS
+COLLECTION USING MOBILE COMPUTING DEVICES
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+SOURCE: Ramesh Krishnamurthy SOURCE: Ramesh Krishnamurthy
+ In the example above, we see a series of 
+MAJOR BOTTLENECKS IN DATA FLOW different donors with their respective pro-
+grams. When a donor funds a country and 
+ISSUE 1: Fragmentation of Information requests a report of indicators on diseases 
+Systems such as TB or HIV, the country will typically 
+The legacy of paper-based records com- create a vertical program to comply. When 
+bined with donors’ requests for disease- multiple donors in the same country make 
+specific indicators for use in their programs similar requests, the country ends up put-
+have fragmented data, i.e., created data ting up silos that prohibit systematic data 
+silos. Such approaches have reporting sys- exchange between the silos themselves and 
+tems that feed vertically from community across a common national health informa-
+level programs to national reporting systems tion system. 
+and donors.
+ISSUE 2: Lack of Unique Health Identi-
+A vast array of donor and technical agen- fiers for Persons
+cies now work in public health. They provide Vertically driven systems typically do not 
+much needed financial support to countries share data horizontally. This causes prob-
+with limited resources. They also typically lems because individuals are not uniquely 
+require separate indicators to measure the identified within national health information 
+public health impact of their programs. systems. Standards for data are also lacking. 
+ HEALTH INFORMATION AS HEALTH CARE  |  25
+For example, an HIV-positive patient travels Aggregate data – often tallied by hand and 
+from a village to visit a relative in a neighbor- then recorded in an electronic database or 
+ing city. If the patient contracts and is treated carried to the next level via paper formats – 
+for an opportunistic disease while visiting, is also fertile ground for mistakes. 
+the HIV status may be counted twice due 
+to the lack of unique identification numbers. Maternal health and labor records or par-
+Over-counting can lead to an inefficient allo- tographs used by midwives and clinicians 
+cation of resources. involved in child delivery provide an excellent 
+example of poor data quality. A partograph 
+Similar conundrums are found in the field records cervical dilation, descent of fetal head 
+of maternal health. A woman who receives and uterine contractions. Partographs can 
+antenatal care in a city but returns to her also monitor fetal conditions with the follow-
+village for childbirth will likely have uncoordi- ing parameters: fetal heart rate, membranes 
+nated and fragmented health records. Such and liquor (amniotic fluid), and molding of 
+records can result in sub-optimal clinical care. fetal skull. Additionally the partograph moni-
+tors the mother’s condition including pulse, 
+A number of countries, such as India, have blood pressure, temperature, urine, drugs, 
+launched major efforts to assign a unique IV fluids and administration of oxytocin.
+identification number to each citizen. 
+ 
+FIG 15: EXAMPLE OF A PARTOGRAPH USED TO MONITOR LABOR
+ISSUE 3: Poor Data Quality
+Errors in data can occur in numerous forms. 
+There can be substantial human error in 
+data collected and compiled on paper. 
+FIG 14: EXAMPLE OF A PUBLIC HEALTH HOSPITAL  
+DATA RECORDED IN OPD REGISTER
+SOURCE: “The Internet Journal of Gynecology and Obstetrics”
+ 
+Health care practitioners in the United States 
+and Europe have used the partograph to 
+improve maternal and neonatal health out-
+SOURCE: Ramesh Krishnamurthy comes. Unfortunately it is rarely used in 
+developing country health care contexts, and 
+26  |  HEALTH INFORMATION AS HEALTH CARE
+the warning signs the partograph reveals are 
+often missed. Maternal health practitioners 
+do not know why the form has not had the 
+same success in developing countries. The 
+material effect can be seen in the number 
+of obstructed or distressed labor cases in 
+the developing world. Furthermore, the lack 
+of reporting or misreporting of problematic 
+childbirths makes it difficult to discern the 
+true extent of these problems. As we con-
+template redesigning forms and process 
+to work in new electronic health data sys-
+tems, we need to integrate the partograph 
+into developing countries’ data collection 
+practices.
+In a related issue, an initial use of the Epi-
+Surveyor application on mobile handsets 
+to support a supply chain was shown to 
+increase the availability of partographs in 
+Senegal. This is further explored in the case 
+study on the next page.
+ HEALTH INFORMATION AS HEALTH CARE  |  27
+TECHNOLOGY’S ANSWER TO AGE OLD QUESTIONS:
+A CASE STUDY OF HEALTH SURVEYS USING  
+EPISURVEYOR IN SENEGAL
+In 2009, the United Nations Foundation and increase of 10,000 Vitamin A tablets ordered 
+The Vodafone Foundation commissioned an after data gathered by the survey indicated 
+evaluation of mHealth activities undertaken a shortage. 
+by the World Health Organization in collabo-
+ration with the Ministry of Health in Senegal The study also found that the survey data 
+using EpiSurveyor to collect and analyze alerted medical authorities to the insuf-
+health data. EpiSurveyor is an open source ficient use of the basic birthing tool called 
+software tool for mobile devices (including the partograph. The partograph is used by 
+PDAs and mobile phones), that makes data midwives to monitor the process of labor. 
+collection more efficient and accurate. This effective, inexpensive, and simple 
+system helps medical officers identify devia-
+In early 2008, the Senegalese Ministry of tions from the expected trajectory of labor 
+Health (MOH), in partnership with WHO, that might require intervention. Despite 
+asked its field officers to begin collect- the fact that Senegalese midwives believe 
+ing data for multiple health departments the partograph reduces labor and deliv-
+using EpiSurveyor. The Ministry piloted the ery complications, around 310,000 babies 
+tool in ten districts, providing officers with were delivered in Senegal in 2008 without a 
+PDAs running EpiSurveyor loaded with an partograph.
+integrated health data gathering survey. 
+The EpiSurveyor mobile health data collec- The survey revealed that only 55% of dis-
+tion trial marked the first time in more than tricts were systematically monitoring labor 
+two decades that the health ministry had using the partograph. Based on this newly-
+taken an integrated approach to health data collected information, the Senegalese health 
+collection.  ministry recommended that field officers 
+encourage the use of the partograph. Using 
+The evaluation, produced by Dalberg Global EpiSurveyor, health workers then were able 
+Development Advisors, found that the Epi- to verify usage, provide training, and ensure 
+Surveyor-backed survey enabled faster subsequent distribution as needed of the 
+data-gathering and improved decision mak- forms. From March to August 2008, usage 
+ing. In the six months of the program, pilot of the partograph in clinics involved in the 
+clinics using PDAs were able to show an pilot survey increased from 55% to 69%. To 
+improvement of 67% in health indicators place this figure in context, the Senegalese 
+(out of 79, 53 showed improvement). In one Reproductive Health Program’s biannual 
+district, data that had previously taken a day survey conducted at the end of 2008 
+to compile was gathered in one hour. Fur- showed that the number of births involving 
+thermore, this district’s health budget was partographs in the districts covered by the 
+reprioritized based on the needs identified pilot EpiSurveyor program rose by 28% in 
+by the survey. As a result, the district saw a 2008, compared to an increase of just 1% in 
+500% increase in infant vaccinations, and an the rest of the country.
+28  |  HEALTH INFORMATION AS HEALTH CARE
+Data flow in surveillance systems (and for 
+all other purposes) requires standards to 
+enable interoperability. A technical standard 
+is an established norm or requirement that 
+describes data format and rules governing 
+the formats. Standards are usually reflected 
+in a formal document that establishes 
+uniform engineering or technical criteria, 
+definitions, methods, processes and prac-
+tices. Most voluntary standards are used by 
+people, professional societies, regulators, 
+or industry. When a published standard 
+achieves widespread acceptance and dom-
+inance, it can become a broader de facto 
+standard for an industry. 
+Combined with the complexity of informa-
+tion silos, the lack of interoperability and 
+CREDIT: DALBER GLOBAL 
+DEVELOPMENT ADVISORS data standards present some of the biggest 
+stumbling blocks to public health systems. 
+ISSUE 4: Standards and interoperability While there has been a great deal of atten-
+of data and systems tion focused in the developed world on 
+Interoperability allows data to be shared health information exchange standards, this 
+quickly and be linked from multiple sources. has not occurred in the developing world. 
+Moreover, the standards that have been 
+developed and deployed for the developed 
+FIG 16: ILLUSTRATION OF MANY DATA  world are often inappropriate as they tend to 
+STANDARDS REQUIRED FOR INTEROPERABILITY
+focus on hospitals, rather than primary care.
+ISSUE 5: Inadequate Technical and Human 
+Capacity and Resources
+Human error and lack of capacity to train 
+sufficient numbers of technologically-literate 
+health workers is a major problem. To date there 
+has been little research conducted to ade- 
+quately capture the extent of the health work-
+force technological literacy problem.28 In the
+U.S. alone there is a shortfall of 50,000 health 
+SOURCE: Ramesh Krishnamurthy informatics professionals.29 We expect the num-
+bers to be far greater in developing countries.30
+ HEALTH INFORMATION AS HEALTH CARE  |  29
+Health workers, patients and decision- ISSUE 7: Jurisdictional Boundaries 
+makers need a better understanding of Often Dictate the Flow of Data Within 
+basic health technology literacy levels to and Between Health Sub-Sectors 
+assess capacity and critical needs. From Data captured within jurisdictional bou-  
+senior policy makers and managers to ndaries can leave important gaps or mis-
+frontline care providers, health professionals repr esentations of disease realities on the 
+need to understand how ICT capabilities ground. Standards enabling interoperability 
+can enhance the delivery of health informa- across jurisdictional boundaries are critical. 
+tion and services. Most health ministries in Equally important are policy agreements to 
+developing countries are short on expertise share the data across boundaries.
+in health ICT.
+SUMMARY OF DATA FLOWS IN 
+Overall, a shift in health data ownership may SURVEILLANCE SYSTEMS
+be required. The change should involve mov- ¾ ICT-backed interventions have the 
+ing from the idea that health data is owned  potential to address the most important 
+by various providers within the health sys-  barriers facing health information flows 
+tem to the view that health data is produced  in disease surveillance systems. 
+and held by the patient as well. The growth 
+of smartphones and related applications will ¾ In siloed and fragmented health systems, 
+allow patients to see, understand, manipu-   the adoption of data standards and 
+late and share their own health data. This  interoperable platforms can ease the 
+may accelerate a trend toward more per-  flow of health information to all required 
+sonal control of health data. The trend may  data points. Legacy systems, however, 
+be reinforced by data produced and stored  will continue to pose a challenge. 
+outside of the formal health care system.  Technology is not enough; technical 
+ interoperability needs to be supplemented 
+ISSUE 6: ICT Infrastructure Failure   with information-sharing policies that 
+Interruption of data flow can occur through  take advantage of it.
+ICT infrastructure failure such as: IT commu-
+nication and network errors; interruptions in ¾ Where patients are not currently tracked 
+electrical supply; and ICT devices infected  at the national level, the adoption of 
+with malware or viruses. Currently, little infor-  unique health identifiers monitored by 
+mation exist to determine the magnitude of  electronic devices can ensure better 
+this problem. It is clear that all devices gath-  coordination across health systems and 
+ering or using electronic data need to have  enable improved epidemiological profiles. 
+store and forward capabilities, rather than 
+assume constant connectivity. ¾ Where data were previously collected 
+ and analyzed on paper, electronic capture 
+  and synthesis can eliminate human error 
+ and increase the speed of analysis and 
+ use by policy makers. 
+30  |  HEALTH INFORMATION AS HEALTH CARE
+¾ Data standards developed to support 
+ interoperability are critical to enable 
+ health information flows. The rapid prolif- 
+ eration of mHealth and eHealth appli- 
+ cations and tools require those con- 
+ cerned about public health to work 
+ actively to develop methods for various 
+ tools to ‘plug in’ to one another. 
+¾ Where health staff is limited, electronic 
+ collection can speed data capture and 
+ compensate, to some extent, for lack of 
+ training. Yet the lack of sufficient numbers 
+  and training for health informatics pro- 
+ fessionals will retard this growth. 
+ 
+ HEALTH INFORMATION AS HEALTH CARE  |  31
+32  |  HEALTH INFORMATION AS HEALTH CARE CREDIT: UN/MARTINE PERRET
+DATA FLOWS IN HEALTH HUMAN 
+RESOURCES ECOSYSTEMS
+Written in collaboration with Dykki Settle of IntraHealth 31
+Dykki Settle leads IntraHealth and CapacityPlus efforts in health 
+worker informatics, bringing a health worker-centered approach to 
+the availability and use of high quality information for better health. 
+Settle’s areas of leadership include developing and implementing 
+Open Source human resources for health information solutions; 
+helping countries build capacity to absorb new health technologies; 
+and supporting regional and country health organizations as they 
+realize the power of Open Source for global health. 
+Human resources are another central A snapshot of the five main areas where 
+domain of health systems where improved public health planners use data about 
+information can provide significant benefits. human resources underscores the impor-
+Better data on health worker supply and tance of this domain. 
+demand can help allocate human resources 
+appropriately across geographies and spe- ¾ EDUCATION AND TRAINING: data
+cialties. This is particularly critical where  used to make sound decisions about the 
+there is a shortage of healthcare workers  number and type of health workers 
+and where health managers may face issues  needed to meet health system goals
+of absenteeism, lack of certification and 
+proper qualification and training of work- ¾ REGULATION: data used to ensure
+ers. Meeting MDG 5 depends on deploying  patient safety and the quality of health 
+healthcare human resources effectively  information and services
+because childbirths do not stick to normal 
+office hours and require, in addition to skilled ¾ DEPLOYMENT: data used to meet ser-
+staff, that medications be available.  vice provision needs and ensure efficiency
+Currently many countries’ health systems ¾ MANAGEMENT: data used to track
+have projections or mandates for where  number and location of personnel and 
+their employees should be located, but few  their movements
+have measures in place to show where 
+their health human resources are actu- ¾ PLANNING: data used to deploy the
+ally deployed. Health systems also need to  appropriate number of personnel to the 
+track personnel skills and resources to serve  right place
+community needs. 
+ HEALTH INFORMATION AS HEALTH CARE  |  33
+The diagram below provides an over- to pay public sector health workers. The 
+view of the role of human resources in the professional councils oversee the licensing 
+nationwide organization of health services, of all regulated health professions. In most 
+showing national and local government as systems this is where one can find data 
+well as the public and private sectors. On on each qualified worker. However there 
+the left, the figure depicts the public sector are significant gaps in data requirements 
+with the public service Human Resource between the local and national levels: Local 
+Information System (HRIS) and the Min- systems focus on everyday practice and 
+istry of Health. The government uses the management while national systems require 
+Health Medical Information Service (HMIS) broader system wide planning. 
+and HRIS to manage activities at the local 
+government level. On the right is the range GOVERNMENT HUMAN RESOURCE 
+of private stakeholders that use HRIS, DATA CHOKEPOINTS
+including faith-based organizations (FBOs), The most critical chokepoints in the system 
+non-governmental organizations (NGOs) occur between both local facilities, such 
+and for-profit entities. those managed by villages, and those man-
+aged by the central government. Frequently 
+there are separate systems for tracking and 
+FIG 17: ORGANIZATION OF HEALTH HUMAN RESOURCES  
+IN THE PUBLIC AND PRIVATE SECTORS recording human resources information, 
+e.g., one for payroll, one for staffing, and one 
+for training. Only if these systems have the 
+same standards can data be extracted from 
+one system and cross-referenced for fur-
+ther examination with another, for instance 
+to check where workers with a particular 
+skill set are currently assigned, or to identify 
+potential absentee workers. Central gov-
+ernments typically review data from health 
+workers in the HMIS on a quarterly basis. 
+In many countries, a major source of health 
+worker data is the payroll office, managed 
+SOURCE: Dykki Settle by the Ministry of Finance, but this data is 
+rarely used in making decisions about health 
+ human resources. 
+Between the public and private sectors are 
+the training institutions for the health work The most critical bottlenecks occur within 
+force. The facilities and service providers human resource information systems as we 
+are the doctors, nurses, midwives, commu- move away from a country’s capital. Human 
+nity health workers and other providers of resource systems are less likely to reach 
+health services to families and communities. the hinterlands and data is not entered 
+Within the public sector the HRIS is used as frequently. Yet current and accurate 
+34  |  HEALTH INFORMATION AS HEALTH CARE
+community-level health data is vital to any and lack strong direct ties to the Ministry of 
+attempt to strengthen health systems. Health. This results in planning in the educa-
+tion sector that does not adequately reflect 
+mHealth offers major opportunities for healthcare workforce needs. IntraHealth, a 
+improving human resources management, U.S. based nonprofit dedicated to strength-
+particularly of remote staff. Real time mea- ening health workers and the systems that 
+suring and reporting of activity can reduce support them, has addressed this gap. It 
+absenteeism, for example, by showing developed “iHRIS” software, an open source 
+whether community health workers are human resources information system for 
+actually visiting patients or simply entering managing health worker data. The system 
+data. In the same way, electronic payments builds necessary links so accurate data from 
+can be tied to work and the accuracy of work. training institutions can converge with better 
+data on existing health worker resources at 
+PRIVATE AND THIRD SECTOR HUMAN the village level. The diagram below demon-
+RESOURCE DATA CHOKEPOINTS strates how training institutions sit relative to 
+In the private sector and the so-called third HRIS and HMIS systems. 
+sector, that is, nonprofits, the same bottle-
+necks exist and are often exacerbated. In  
+FIG 18: DATA SYSTEMS THAT LINK HMIS AND  
+most countries, private entities do not have  HRIS FOR HEALTH WORKER DATA
+the national infrastructure that ministries 
+of health enjoy. One exception is Ghana, 
+where faith-based organizations have much 
+more sophisticated administrative capac-
+ity.) Health workers frequently move back  
+and forth between government and private  
+sector/NGOs, but most countries do not  
+have standardized electronic registries to  
+track them. It is important to build trust and 
+a spirit of collaboration between the public 
+and private sectors and to develop policy  
+frameworks that incentivize truthful report-  
+ing. One way would be for the private sector  SOURCE: Ramesh Krishnamurthy
+to provide more information on its health 
+workforce to the Ministry of Health.
+There is a final bottleneck at the level of 
+Training institutions, or the associations and the professional councils, which maintain 
+professional organizations responsible for records of trained health professionals. All 
+accrediting health professionals, also can be health workers in the system must register 
+a chokepoint for health human resource data with the councils, in most cases annually. 
+flows. In most countries the training institu- Obtaining or updating one’s license often 
+tions report to the Ministry of Education requires a long trip to the capital city. The 
+ HEALTH INFORMATION AS HEALTH CARE  |  35
+relicensing procedure, however, offers a  about the supply of and demand for health 
+rich opportunity for ICT-based interven-   workers. There must be closer colla- 
+tion, which could turn the bottleneck into  boration between the ministries of health 
+an asset. Licensing paperwork and fees   and education through integrated HRIS.
+could be filed electronically. And a coun-
+try’s electronic payment system (including  
+mPayments, or payments via mobile device) 
+could be integrated with the online certifica-
+tion infrastructure through human resource 
+electronic management software applica-
+tions such as iHRIS. The result: bottleneck 
+unclogged and the health system improved. 
+SUMMARY OF CRITICAL DATA FLOW 
+ISSUES IN HUMAN RESOURCE SYSTEMS
+The discussion of human resource systems 
+has emphasized the following bottlenecks:
+¾ Data does not flow smoothly or regularly 
+ between local clinics and regional and 
+ national entities. This makes it difficult to 
+ determine how or even if human res- 
+ ources are deployed within the system 
+  (ghost workers). Greater investments are 
+ needed to extend the reach of HR systems 
+  beyond the center to the periphery.
+¾ Private sector organizations must collect 
+ more data on their human resources and 
+ share it with government systems to create 
+  an accurate picture of the actual human 
+ resources issues within countries. 
+¾ Training and certification processes must 
+  be strengthened and tracked via infor- 
+ mation systems so that accurate data on 
+ supply and demand area available.
+¾ Gaps between training institutions and 
+ the health system lead to inaccurate data 
+ and misinformed policy decision-making 
+36  |  HEALTH INFORMATION AS HEALTH CARE
+37  |  HEALTH INFORMATION AS HEALTH CARE
+38  |  HEALTH INFORMATION AS HEALTH CARE CREDIT: UN/ESKINDER DEBEBE
+DATA FLOWS IN HEALTH 
+SUPPLY CHAINS
+Written in collaboration with David Lubinski of PATH 32
+As a senior technical advisor at PAT, David Lubinski, M.B.A., M.A., 
+leads the development of the technical framework for strengthening 
+country health information systems. Previously he was chief technol-
+ogy officer to the Health Metrics Network (HMN), a Geneva-based 
+partnership with the World Health Organization that seeks to increase 
+the availability, quality, value, and use of timely and accurate health 
+information by catalyzing the joint funding and development of country 
+health information systems. David brings more than 30 years of 
+experience in commercial, government, and non-governmental 
+organizations focused on health information systems. 
+Health supply chains are a third critical development of pharmaceutical products 
+component of effective health systems. for developing country markets. 
+Managers are tasked with providing medical 
+goods such as vaccines, drugs and equip- Like other health systems domains, supply 
+ment to clinics, hospitals and community chains are adversely affected by the fact that 
+health workers at various service delivery drugs and supplies for global health have 
+points. Underperforming health systems been funded in disease-specific verticals. 
+frequently are traced back to broken supply For example, there have been major efforts 
+chains, which often result from poor data devoted to distributing AIDS and polio medi-
+flows. According to one study the availability cines but little effort devoted to increasing 
+of essential medicines in public sector access to contraceptives. Consequently, 
+facilities is roughly 38%, and under 60% the supplies of drugs needed for maternal 
+in nongovernmental facilities.33 When data health are frequently unavailable in clinics, 
+does not flow freely within the supply chain, forcing a pregnant woman or her relatives 
+the result can be stock outages of essential to procure essential drugs from the private 
+drugs and scarceness of up-to-date infor- sector or to go without them. 
+mation. In the context of maternal health, 
+disrupted supply chains can mean that In most developing countries, local levels 
+patients do not have access to family plan- of the supply chains are managed through 
+ning tools or drugs required for safe births. paper records. Missing data at the lowest 
+Broken supply chains negatively impact rungs of the chain create significant chal-
+patients and health care providers and lenges at the ministry level. This can lead to 
+create barriers to incentives for research and a system of irrational allocation of resources 
+ HEALTH INFORMATION AS HEALTH CARE  |  39
+proving costly to health infrastructure and the data needs of frontline health workers. 
+outcomes. Paper-based data collection Considering the complexity of the system 
+makes it difficult for local governments and the few incentives in place to drive col-
+to capture a timely picture of their health lection and transmission of accurate data, 
+needs and it becomes virtually impossible it is easy to see how many supply chains 
+for health ministries to build supply chains struggle to deliver the right commodities to 
+based on supply and demand. As a result, the right points in the system at the right 
+health supplies, including those for maternal time. Before examining supply chain data 
+health, are allocated on the basis of legacy flows in more detail, it is useful to look at 
+distribution systems and experiences that concepts and constructs that are funda-
+do not account for shifting demographics mental to understanding the supply chain 
+and needs. One of the reasons for this type ecosystem. 
+of legacy system is that supply 
+chains have historically been  FIG 19: KENYAN COMMODITY LOGISTICS SYSTEM
+designed from the top down.  
+Technology-enabled enterprise 
+architectures can bridge the 
+needs of both top-down and 
+bottom-up systems, creat-
+ing workaround systems that 
+make supply chains perform 
+better at the local level. Local  
+data can then be merged into 
+a broader system.
+COMPLEXITY OF SUPPLY 
+CHAIN SYSTEMS
+Supply chains have grown inc-
+redibly complex over the past 
+SOURCE: John Snow, Inc.
+several decades as the systems 
+for procurement, financing and  
+distribution of health commodities have A service delivery point is the point in the 
+become inserted within vertically-driven supply chain where the drug, vaccine or 
+donor and disease portfolios. To illustrate medical supply is administered to a patient. 
+the complexity of the supply chains for It is the goal of supply chain administration 
+health commodities, below is a diagram of to ensure service delivery points are stocked 
+the system for Kenya that was developed as with the right product, in the proper condi-
+a case study several years ago. tion, and at the right time to meet demand 
+at that precise point. The primary delivery 
+As David Lubinski points out, this is a system points are community health workers, clinics, 
+built from the top down with little focus on and hospitals.
+40  |  HEALTH INFORMATION AS HEALTH CARE
+The following diagram depicts the multiple be unavailable from neighboring centers or 
+levels of a typical supply chain ecosystem. intermediaries. 
+It shows how supplies enter into the health 
+system, move through a series of inventory A second challenge concerns supply chain 
+intermediaries in national supply warehouses, communications between local clinics, 
+and then reach final delivery points. inventory intermediaries, and the health 
+ministry. Many countries have automated 
+ inventory systems. Yet managers at the 
+FIG 20: NATIONAL LEVEL SUPPLY CHAIN ECOSYSTEM
+intermediary level (between national clearing 
+houses and local clinics and pharmacies) 
+cannot see what is available at the local 
+level. Managers or storekeepers often have 
+little access to online information about what 
+is available. Lack of communication can also 
+compromise the ability to respond to out-
+breaks. Taking the supply chain as a whole, 
+we see the information asymmetries or data 
+flow blockages at the lowest level cascading 
+upward through the district and intermedi-
+ate levels until the entire health system is 
+SOURCE: David Lubinski compromised. 
+ The power, infrastructure and training to 
+KEY CHALLENGES FACING SUPPLY adequately address the needs of the entire 
+CHAINS system exist only at the national level. 
+Understanding inventory data, or what There, supply chain information typically is 
+supplies are available, is key to a properly automated via a warehouse management 
+working chain. In general, the service deliv- system. The challenge is to move beyond 
+ery points have immediate access to the the walls of the warehouse and see inven-
+information on their inventory. But in some tory and usage at local levels. The data 
+contexts this can be difficult. The big- flow blockages rising from below create a 
+gest challenge is getting reliable data from scenario where inventory is determined by 
+frontline workers and clinics. Most frontline forecasts based on consumption histories 
+service delivery points lack data on available from the past that contain inaccuracies and 
+inventory in nearby clinics or service deliv- dated information. Adequately forecasting 
+ery points, much less data at the inventory demand becomes a serious challenge and 
+intermediaries. It is difficult to make deci- compromises the ability to meet health out-
+sions without reliable inventory data. It can come targets. 
+result in district-level managers not knowing 
+whether it is even worth ordering supplies A third challenge is posed by the lack of 
+because they believe the product(s) may proper monitoring and evaluation in the 
+ HEALTH INFORMATION AS HEALTH CARE  |  41
+supply chain data flows, thereby hindering Typically, given current systems, little data 
+efforts to analyze improvements in those exists on the temperature and other quali-
+flows. Take as an example donors who want tative indicators of the vaccine’s lifespan 
+to assess the economic impact of health throughout the supply chain. However, as 
+interventions. They may look at vaccines, the price of sensors and RFID begin to fall 
+which are seen as a public good. However, we should expect this situation to gradually 
+countries typically do not bear the expense change. At the present time the high price of 
+of vaccines as they might for other health remote sensors has kept them from being 
+and medical commodities. Therefore, accu- widely adopted in low-income markets.
+rate financial data on the improvement of 
+the system will likely be difficult to come by Many mHealth and eHealth tools have been 
+since national governments do not track this used within supply chains to remedy some 
+data. This challenge raises an interesting of the challenges addressed above. The 
+question: how we can encourage adopting National Malaria Control Programme and 
+eHealth/mHealth solutions when it may be Rollback Malaria Partnership employed 
+difficult to structure incentives around eco- SMS for Life to track anti-malarial medica-
+nomic gains? tions and serve as an alert for stock outages. 
+Stop the Stockouts deployed FrontlineSMS 
+The illustration below provides an overview in a number of partnerships to map drug 
+of the supply chain process for a typical availability. And UNICEF uses RapidSMS for 
+medical commodity such as a vaccine. Here inventory management.34 
+we can see the types of data that must flow 
+through the system to ensure proper deci- We have learned some important things 
+sion making. from enterprise architecture work on supply 
+chain management. The primary 
+ FIG 21: SUPPLY CHAIN DECISION MAKING focus on users and their needs 
+ has caused a lack of focus on 
+ overall system requirements. For 
+ example, many current pilots in 
+mHealth have demonstrated anec-
+dotal success stories on a small 
+GENERAL PROCESS NOTES
+Objective: Ensure timely ordering of the right vac- 3. Commodities Required scale. In Zambia, SMS has been 
+cine/drug/supply in the right quantity  Are additional commodities required to meet  
+The store may operate under a push or pull system.  estimated need used to communicate better about 
+The requisition business process should facilitate 
+inventory control and provide a tracing mechanism 4. Issue Requisition
+for goods.   Create requisition based on estimated needs the supply chain for malaria drugs 
+ Consider minimum safety levels 
+1. Estimate Ne ed  Consider lead time for stock receipt Consult order history and current outstanding  and supplies in one part of the 
+ orders to esti mate need 
+5. Transmit Requisition 
+ Determine average consumption of goods  Submit the requisition to the appropriate store  country. However, no study has yet 
+ Calculate required quantities based on guide  for fulfillment
+ lines and rules
+6. Validate Requisition reviewed the entire drug and sup-
+2. Determine Current/Projected Available  This step in the process allows for an approval  
+ Determine quantity of goods currently available   mechanism at higher levels and the ability to  plies system. Consequently, we 
+ in the store  edit the quantities requested and/or approve  
+ Compute quantity to requisition based on esti-  the requisition as is.
+ mated need and current available stock do not know if this initial success 
+can scale up to cover all needs. 
+SOURCE: Logistics Management Information System
+ One recent relevant example is the 
+42  |  HEALTH INFORMATION AS HEALTH CARE
+STORE
+ACTIVITY DETAILS / NARRATIVE
+PROGRAM MANAGER
+case of EpiSurveyor in Malawi (MSH 2010)  This makes it difficult to address gaps 
+for data collection for End Use Verification as   in supply and demand. Most of the 
+part of the President’s malaria initiative. This  records collected at the local level are 
+system is relatively inexpensive and easier to  paper-based. Moving from paper-based 
+scale up. It could readily play a role in supply  records to electronic systems will make 
+chain management as a system moves from  data more transparent both horizontally 
+paper to electronic records.  and vertically.
+Lubinski points out that we must be able to ¾ The lack of transparency at the most 
+demonstrate scope (beyond malaria), scale  local level means that intermediaries 
+(across districts), and financial sustainability.  are unable to make decisions based 
+It is no longer simply a question of whether  on real supply and demand. Once 
+the ICT-backed health interventions can be  systems move to electronic formats it 
+introduced to demonstrate impact. Instead,  will be necessary to instill a “culture of 
+the question now is whether the design of  data” that encourages making decisions 
+an application is sufficient to enable scalable  on real inventories.
+and sustainable interventions when the total 
+cost of ownership – across a country and ¾ The cascade of data flow blockages 
+across all relevant uses – is factored in.  beginning at the local level means that 
+ national level warehouses make deci- 
+SUMMARY OF KEY ISSUES IN SUPPLY  sions based on sketchy forecasts rather 
+CHAIN DATA FLOWS  than actual inventories and actual 
+Strong health systems rely on a functioning  demand. Mobiles and electronic systems 
+supply chain. Improvements in this domain   are needed. 
+can vastly improve the availability and quality 
+of care at the local level and bolster supply We must design systems that are built on 
+chain systems nationally. Across health ver- and scaled for local needs. One model to 
+ticals, and for maternal health in particular, consider is that of Belize, where the Belize 
+data flows that provide reliable and valid Health Information System integrates vari-
+indications of supply and demand of drugs ous health ecosystem domains. Belize is, 
+and other supplies will be central to produc- however, a relatively small country. It over-
+ing better health outcomes. came many of its challenges by employing 
+a single IT system. While it is unlikely that 
+Some key findings in the supply chain area Belize’s particular solution would work in 
+include: much larger countries, we should study it for 
+ideas that might be relevant in other settings.
+¾ There are critical chokepoints across 
+ the system. But much of the problem  
+ begins at the local level where data on 
+ inventories are neither electronically 
+ recorded nor available across localities. 
+ HEALTH INFORMATION AS HEALTH CARE  |  43
+44  |  HEALTH INFORMATION AS HEALTH CARE CREDIT: DATADYNE GROUP
+RECOMMENDATIONS
+This discussion paper has analyzed the three major domains of the 
+eHealth ecosystems and has identified several ways to strengthen 
+health data flows. Our recommendations address a continuum of 
+issues that range from technological to organizational to building 
+health workforce capacity.
+DEVELOP A CULTURE OF DATA AND at the regional level and who can respond 
+INFORMATION: Hozumi et al (2002) define to the needs of frontline workers. Having a 
+“culture of information” as “the capacity and well-trained cadre of midlevel hybrid profes-
+control to promote values and beliefs among sionals who understand both health systems 
+members of an organization by collecting, and eHealth technologies will be important 
+analyzing and using information to accom- for making sure that data flows both across 
+plish the organization’s goals and mission.” and up vertically driven programs. 
+The question of data flows is not purely a 
+technological matter but an organizational DESIGN THINKING FOR DATA COLLEC-
+challenge where decision-making needs to TION: Designers are playing an increasingly 
+be shaped around obtaining and using the important role in global health and develop-
+best available data. Leadership in health ment. Insights taken from the design field 
+organizations must commit resources for could be useful in the context of eHealth 
+planning, training (capacity-building), financ- systems. For example, the partogram expe-
+ing, and supervising in order to strengthen rience described in the report addresses the 
+ehealth systems. manner in which vital data forms are often 
+left incomplete in developing countries and 
+DEVELOP TOOLS FOR CAPACITY BUILD- demonstrates deleterious effects when prob-
+ING IN EHEALTH ACROSS THE PUBLIC lematic pregnancies occur. Designers might 
+HEALTH PROFESSIONS: Information and be able to develop creative “work arounds” 
+communications technologies are playing an or forms more friendly to health workers or 
+increasingly important role in making health platforms that are more clearly integrated 
+systems stronger. They have the potential into workflows and clinical contexts. 
+ability to scale up or down and to cut across 
+the vertical silos that have plagued those BUILDING SYSTEMS FROM THE GRO- 
+systems in recent years. The fundamental UND UP: A sound design approach begins 
+building blocks must be in place to allow with the end users and then structures 
+a system to interoperate. Then the health incentives and rewards for collecting and 
+workforce must maintain and build that sys- transmitting accurate data – and the right 
+tem for future use.. This requires a layer of data – for making good decisions at all lev-
+supervisory technology professionals who els. The supply chain case study is a good 
+can manage health information systems illustration in this respect. Systems have 
+ HEALTH INFORMATION AS HEALTH CARE  |  45
+been created to push data up the supply 
+chain without giving consideration to the 
+uses of data and priorities at the local level. 
+We must pay attention to the multiple direc-
+tions data can flow as well as how senior 
+management will use it if we are to develop 
+better systems. 
+OPPORTUNITY OR INNOVATION MAP-
+PING FOR DATA FLOWS: We have provided 
+an overview of the typical scenarios for data 
+flow challenges in the domains. The next 
+step in addressing these challenges would 
+be to crowd source an inventory of tools and 
+approaches that have dealt with bottlenecks 
+in diverse geographic contexts and find out 
+how these tools were deployed and scaled. 
+Ministries of health could then turn to a list 
+of “best in class” tools and deployments as 
+they seek to build robust eHealth systems.
+MATERNAL HEALTH CONTINUUM OF 
+CARE AND OVERALL HEALTH SYSTEM 
+STRENGTHENING MUST WORK HAND 
+IN HAND: Throughout this paper we have 
+used maternal health as a particular focal 
+point where possible. We believe this is 
+important because there is a growing inter-
+est in maternal health as an indicator of how 
+effective an entire health system is. How-
+ever, we must avoid creating another silo 
+for maternal care and focus instead on it as 
+an eHealth model for transforming an entire 
+system. Systems and platforms designed 
+for this domain must be scalable to other 
+problem spaces as well as being capable 
+of engaging with sectors outside of health. 
+This is a point that is often neglected in the 
+current eHealth discussions.
+ 
+46  |  HEALTH INFORMATION AS HEALTH CARE
+47  |  HEALTH INFORMATION AS HEALTH CARE
+REFERENCES
+Anwer Aqil, Theo Lippeveld, Dairiku Hozumi, “PRISM framework: a paradigm shift for 
+designing, strengthening and evaluation routine health information systems,” Health Policy
+and Planning 24 (2009): 217-228.
+Peter Byass, “The unequal world of health data,” PLoS medicine 6:11, 
+http://dx.plos.org/10.1371/journal.pmed.1000155 (2009).
+William Hersh, Alvaro Margolis, Fernán Quirós, Paula Otero, “Building a health informatics 
+workforce in developing countries,” Health Affairs (Project Hope) 29:2 (2010), p. 274-277.
+D. Hozumi, Anwer Aqil, Theo Lippeveld, “Pakistan situation analysis,” MEASURE
+Evaluation Project, USAID, (2002).
+Krishnamurthy, Ramesh; St. Louis, Michael “Informatics and the Management of Surveillance 
+Data,”in LM Lee, SM Teutsch, SB Thacker, ME St. Louis,eds., Principles and Practice of
+Public Health Surveillance, 3rd Edition, (Oxford University Press, 2010). 
+Leslie Lenert, “Levels of complexity in surveillance data management,” Personal
+Communication (2009). 
+Management Sciences for Health (2010). Applying or Integrating Mobile-based Episurveyor 
+Technology into Malawi Malaria Supervision. Strengthening Pharmaceutical Systems. 
+Accessed on January 24, 2010 at http://www.datadyne.org/blog/msh-malawi
+Sally Stansfield, Nosa Orobaton, David Lubinski Steven Uggowitzer, Henry Mwanyika, 
+“The Case for a National Health Information System Enterprise Architecture: the Missing 
+Link to Guiding Global Development and Implementation.” 
+48  |  HEALTH INFORMATION AS HEALTH CARE
+ENDNOTES
+ 1 C. Evashwick, “Creating the Continuum of Care,” Health Matrix 7:1 (Spring 1989), 30-39.
+ 2  http://www.globalhealth.org/health_systems/health_care_workers/ 
+ 3 WHO, About Health Systems, http://www.who.int/healthsystems/about/en/ 
+ (December 20, 2010). 
+  
+4  World Telecommunication/ICT Development Report 2010 (ITU, 2010), 1.
+5  World Telecommunication/ICT Development Report 2010, 2. 
+6  World Telecommunication/ICT Development Report 2010, 2.
+7 “Ericsson: Benefits of mobile communication in rural and developing areas” Reuters, Sep.  
+ 20, 2010, (http://www.reuters.com/article/idUS91685+20-Sep-2010+HUG20100920). 
+8  Diane Coyle, Patrick Meier, New Technologies in Emergencies and Conflicts: The Role of
+ Information and Social Networks, (Washington, D.C. and London, UK: UN Foundation- 
+ Vodafone Foundation Partnership, 2009) 6.
+9  Vital Wave Consulting, mHealth for Development: The Opportunity of Mobile Technology
+ for Healthcare in the Developing World, (Washington, D.C. and Berkshire, UK: UN 
+ Foundation-Vodafone Foundation Partnership, 2009), 9.
+10 S Naicker, JB Eastwood, J Plange-Rhule, RC Tutt, “Shortage of healthcare works in  
+ sub-Saharan Africa: a nephrological perspective,” Clin Nephrol Sup 74:S1: 129-133.
+11 Save the Children. A Fair Chance At Life: Why Equity Matters for Child Mortality. A
+  Report for the 2010 Summit on the Millennium Development Goals. London, UK: 2010, 
+ p. 5. (References study by H. Yusuf and H. Atrash, ‘Parents’ death and survival of their 
+  children’ in The Lancet, 375, 9730, 2010, pp 1944–1946.) Online at http://www.  
+ savethechildren.org.uk/en/docs/A_Fair_Chance_at_Life.pdf (last accessed on 
+  February 1, 2011).  
+12  http://whqlibdoc.who.int/publications/2010/9789241500265_eng.pdf 
+13  Ibid. 
+ HEALTH INFORMATION AS HEALTH CARE  |  49
+14  http://www.countdown2015mnch.org/documents/2010report/CountdownReportOnly.pdf
+  
+15  Peter Byass, “The unequal world of health data,” PLoS medicine 6:11,
+ http://dx.plos.org/10.1371/journal.pmed.1000155 (2009).
+16  A future version of this project may attempt to track data flows across the continuum   
+ of care for maternal health. Astute readers of this paper may recognize that surveillance   
+ systems are not necessarily an aspect of the maternal continuum of care. Data flows for  
+ maternal care would most certainly include health care facilities and clinical data flows.
+17 Sally Stansfield, Nosa Orobaton, David Lubinski, Steven Uggowitzer, Henry Mwanyika,   
+ “Remarks of Theo Lippeveld on the paper: The Case for a National Health Information 
+  System Enterprise Architecture: the Missing Link to Guiding Global Development and 
+  Implementation,” http://www.who.int/healthmetrics/tools/1HMN_Architecture_for_National 
+ _HIS_20080620.pdf One should note that data architectures are several steps downstream 
+  from the core or initial enterprise architecture systems requirements process. 
+18 Yochai Benkler, The Wealth of Networks. 2006, Yale University Press, New Haven.
+19 MV Kinney, KJ Kerber, RE Black, B Cohen, F Nkrumah, et al., “Sub-Saharan Africa’s
+  Mothers,Newborns, and Children: Where and Why Do They Die?,” PLoS Med 7:6, 
+  e1000294. doi:10.1371/journal.pmed.1000294, (2010) and Fabiano Teixeira da Cruz, 
+ “How Mobile Phone Technology can Fight Maternal Mortality,” UN Dispatch, 
+ http://www.undispatch.com/node/9952, (June 8, 2010).
+20 Peter Byass 
+21 Donald Berwick (2003). Escape Fire: Lessons for the Future of Health Care. Jossey Bass.
+22 For further information, see Patrician Mechel, Barriers and Gaps Affecting mHealth Policy
+  and Research in the Developing World, (Washington, D.C.: mHealth Alliance, 2010).
+23 The following section was written in collaboration with Ramesh Krishnamurthy, June 2010.
+24 Lennert and Krishnamurthy, 2009.
+25 Krishnamurthy and St. Louis, 2010.
+26 HMN Framework, 2007. http://www.who.int/healthmetrics/documents/framework/en/  
+ index.html 
+ 
+50  |  HEALTH INFORMATION AS HEALTH CARE
+27 Ibid. 
+28 According to William Hersch et al, 2010. Hersh WR, Margolis A, Quirós F, Otero P, Building
+  a health informatics workforce in developing countries, Health Affairs, 2010, 29: 274-277.
+29 David Blumenthal, National Coordinator for Health IT, quoted in 2009: 
+ http://www.healthcareitnews.com/news/health-it-effort-create-thousands-new-jobs-says 
+ -blumenthal
+30 We are essentially at the beginning of the movement to build ehealth capacity with
+  initiatives, such as the American Medical Informatics Association’s 10 x 10 program that 
+ aims to train 10,000 health workers in health informatics by the end of 2010, and several 
+ other nascent partnerships. 
+31 The following section is written in collaboration with Dykki Settle, June 2010.
+32 The following section is written in collaboration with David Lubinski, June 2010.
+33 Center for Global Development (2007). Global Health Forecasting Working Group. A
+ Risky Business: Saving Money and Improving Global Health Through Better Demand 
+ Forecasts. Washington, DC.
+34 See study by Ali Bloch for mHealth Alliance (forthcoming).
+ HEALTH INFORMATION AS HEALTH CARE  |  51
+

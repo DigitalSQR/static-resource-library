@@ -1,0 +1,1575 @@
+The State of 
+Standards and 
+Interoperability 
+for mHealth 
+among Low- and Middle-Income Countries
+Jonathan D. Payne 
+mHeaLtH aLLIanCe 
+MarCH 2013
+Photo credit: Grameen Foundation
+
+Table of Contents
+3 acknowledgements 
+4 executive Summary 
+7 acronyms 
+8 Background 
+11 Methodology 
+11  Literature Review 
+12  Key Informant Interviews 
+13 Overview of Health Informatics Standards and Interoperability 
+13  Stakeholder Map 
+16  Health Informatics Standards 
+18  The Standardization Gap 
+18  Interoperability 
+19  eHealth Architecture 
+21 Literature review 
+21  Overview 
+21  Analysis of Literature and Systematic Reviews 
+21   Marcelo, 2012 – Health Informatics for Development 
+23   Garg and Brewer, 2012 – Telemedicine Security Standards 
+23   Ludwig – Home Telehealth Information Systems Architecture 
+24  Supplementary Articles Review 
+27 Key Informant Interviews 
+27  Results 
+27   1. Perceptions of the past and future of interoperability efforts 
+28   2. Perceptions of health informatics standards 
+29   3. mHealth relative to eHealth 
+30   4. The pivotal role of donors 
+31   5. Role of other stakeholders in health informatics standards uptake 
+33 Discussion of Gaps and Opportunities 
+33  1. Building capacity and increasing standards access 
+34  2. Filling in standards gaps for adoption among LMICs 
+36  3. LMIC engagement and mediation 
+36  4. Promoting coordination and alignment 
+37  5. Strengthening mHealth and eHealth governance 
+39 Conclusion 
+41 appendix a – Key Informant Interview List 
+42 references 
+Acknowledgements
+I would like to express my sincere gratitude to Patty Mechael, the Executive Director of the mHealth 
+Alliance, whose deep expertise and leadership in mobile health have helped to bring the challenging 
+questions of scale and impact to the forefront. This report would not have been possible without the 
+mHealth Alliance, hosted by the United Nations Foundation, and the tireless work of Avrille Hanzel, 
+Mandy Sugrue and Bill Philbrick. I would also like to express my appreciation to Beatriz Leao and Chris 
+Seebregts, whose work at the forefront of mHealth and eHealth standards and interoperability in many 
+parts of the world fashioned much of the intellectual underpinning for this report.
+Special thanks are due to Ramesh Krishnamurthy of the World Health Organization whose outstanding 
+leadership in the field, conversations, and careful reviews contributed many important concepts to 
+this report.
+Acknowledgement and gratitude are owed to the many individuals who provided both their time and 
+invaluable input to this report through interviews: Alex Pavluck (Task Force for Global Health), Alvin 
+Marcelo (Philippine Health Insurance Corporation), Andrew Grant (Sherbrooke University), Bart Stidham 
+(Thoughtworks), Beatriz de Faria Leao (Consultant), Bob Jolliffe (Consultant), Catherine Chronaki (HL7 
+International), Catherine Omaswa (eHealth Society of Uganda), Chris Bailey (World Health Organization), 
+Chris Seebregts (Jembi Health Systems), Chuck Parker (Continua Health Alliance), Craig Frederichs 
+(GSMA), Darius Jazayeri (OpenMRS), David Hutchful (Grameen), Derek Ritz (Consultant), Erica Kochi 
+(UNICEF), Frederick Kristensen (NORAD), Fredrik Winsnes (NetHope), Hamish Fraser (Harvard Medical 
+School), Hani Eskandar (ITU), Jeff Wishnie (Thought Works), Joaquin Blaya (eHealth Systems), John 
+Ritter (HL7 International), Jonathan Jackson (Dimagi), Karl Brown (Rockefeller Foundation), Kelly 
+Keisling (NetHOPE), Liz Peloso (Consultant), Matt Berg (Earth Institute), Michael Kleeman (University 
+of California, Davis), Najeeb Al-Shorbaji (World Health Organization),  Neal Lesh (Dimagi), and Richard 
+Gakuba (Government of Rwanda).
+Finally, many thanks to the reviewers, including Adam Slote (USAID), Alvin Marcelo (PhilHealth), Beatriz 
+Leao (Consultant), Bill Philbrick (mHealth Alliance), Catherine Chronaki (HL7 International), Catherine 
+Omaswa (Government of Uganda), Chaitali Sinha (IDRC), Chris Seebregts (Jembi), Derek Ritz (Consultant), 
+Isaac Holman (Medic Mobile), John Ritter (HL7 International), Kate Wilson (PATH), Ken Warman (Gates 
+Foundation), Lincoln Moura (International Medical Informatics Association), Patty Mechael (mHealth 
+Alliance), Ramesh Krishnamurthy (WHO), Rosemary Foster (Consultant), Rowena Luk (Dimagi), Sean 
+Blaschke (UNICEF), and Shariq Khoja (mHealth Alliance).
+2 The State of Standards and Interoperability for mHealth among Low- and Middle-Income Countries
+ome Countries
+The State of Standards and 
+Interoperability for mHealth among 
+Low- and Middle-Income Countries
+    mHealth Alliance  March 2013 3
+Executive Summary
+The mHealth Alliance commissioned this report to review the state of health informatics standards 
+and interoperability with respect to the use of mobile health among low- and middle-income countries 
+(LMICs) with the aim of identifying critical gaps and opportunities to support the scale up of mHealth. 
+The intended audience for this report is stakeholders developing or employing health informatics stan-
+dards, and implementers and vendors seeking to interoperate systems. This report provides guidance 
+for how the above stakeholders may align efforts around the use of standards to achieve interoperable 
+mHealth at scale. 
+This report is based on three sources of information: (1) a landscape scan of current initiatives and gray 
+literature related to mHealth standards and interoperability; (2) a review of academic articles examining 
+the use of standards to achieve interoperability within mHealth; and (3) unstructured informal inter-
+views with 33 informants who directly or indirectly influence the uptake of health informatics standards 
+and the structure of the national ICT environment.
+Improved continuity of care across provider, place, and time is one of the great promises of mHealth, 
+but this can only be achieved if information is readily available at the right place and time, regardless 
+of how or on what information system it was collected. Interoperability of data in such heterogeneous 
+environments is enabled through the application health informatics standards within the context of a 
+strategic eHealth framework. Such a framework must address critical issues of governance, infrastruc-
+ture, architecture, workforce capacity, policy, and financing.
+There are many organizations actively developing standards and standards implementation guidelines 
+to achieve interoperability within a specific health domain, such as the International Organization for 
+Standardization (ISO), Health Level 7 International, and Integrating the Healthcare Enterprise. The World 
+Health Organization and International Telecommunications Union play both normative and informa-
+tional roles with respect to standards development and dissemination. While standards development 
+organizations (SDOs) have historically focused on high-income country health systems, due to greater 
+readiness to adopt and substantial government and private industry investment, there is a notable 
+broadening of scope to accommodate LMIC needs, as evidenced through the formation of LMIC-focused 
+working groups and the 2012 ISO publication of the Capacity-based eHealth Architecture Roadmap.
+Yet significant gaps exist in the capacity and participation of LMICs in the development and adoption 
+of health informatics standards. The largest challenges are lack of local informatics human resource 
+capacity and insufficient investment into standards activities, which prevents productive engagement 
+with international standards development organizations (SDOs). 
+mHealth is a subset of eHealth and, as such, many of the issues surrounding the scale up and harmo-
+nization of eHealth are the same for mHealth, such as the need for national eHealth strategies and 
+stronger eHealth governance. mHealth within LMICs also presents unique challenges, including limited 
+bandwidth and infrastructure, reliance on insecure or unreliable messaging protocols such as the short 
+messaging service (SMS), and the shift towards non-clinical and community-based workers delivering 
+new types of services and in new settings. 
+4 The State of Standards and Interoperability for mHealth among Low- and Middle-Income Countries
+While the body of academic literature related to mHealth and standards has grown over the last decade, 
+the literature review indicated that there have been no evaluations of the comparative advantages of 
+using health informatics standards to achieve interoperability of eHealth and mHealth systems focused 
+on LMICs. However, at the time of publication, there were very few scaled-up and interoperable imple-
+mentations to be evaluated, so this result was not unexpected. LMIC-focused articles were generally 
+descriptive in nature, often advocating for global alignment around standards, interoperability, and 
+capacity issues. Studies assessing the comparative advantages of specific video compression and 
+security protocols have been published and should be applied to future telemedicine deployments. 
+There remains a gap in the evaluation of the use of specific packages of standards to achieve specific 
+health system or health information system goals.
+Key informants noted a recent shift in the global eHealth discourse, in that most LMICs have developed 
+or are developing national eHealth strategies and that interoperability was nearly universally accepted 
+as a key element of these strategies. Governments were considered to have the most important role 
+in influencing the design and requirements of mobile and electronic health systems implemented in 
+each of their countries, and local implementers and development partners generally wanted a more 
+robust and enabling regulatory environment in place to provide this guidance and lower investment 
+risk. Donors were viewed as playing a pivotal role in providing financial incentives to shift the market 
+in favor of interoperable systems. Key informants acknowledged that health informatics workforce 
+capacity was lacking among all stakeholders aside from SDOs, but that SDOs generally had little expe-
+rience in LMICs.
+The gaps and opportunities with respect to the use of standards to achieve interoperable mHealth at 
+scale can be categorized into five buckets: (1) Building capacity and increasing standards access; (2) 
+Filling in standards gaps for adoption among LMICs; (3) LMIC engagement and mediation; (4) Promoting 
+coordination and alignment; and (5) Strengthening mHealth and eHealth governance. More details 
+about each of these categories are provided below.
+1. All stakeholders other than SDOs generally lacked capacity in health informatics expertise, although 
+the shortage was most severe among LMIC governments and local implementers. Capacity deficien-
+cies may be addressed by establishing formal health informatics training and education programs, 
+better informing local decision and policy makers of the strategic implications of adopting standards 
+and interoperability best practices, improving donors and implementers’ ability to strategically invest 
+in an interoperable health system, empowering local professionals and professional organizations, and 
+addressing barriers to standards access.
+2. Most existing health informatics standards can be repurposed without alteration in LMIC contexts, 
+although adaptation and possibly new standards development may be necessary in some cases in order 
+to support unique LMIC business requirements and new mHealth use cases. The development of a 
+mHealth reference architecture will provide critical guidance on the design of mobile health informa-
+tion systems that is consistent and compatible with other reference architectures. Implementation 
+guides are needed to assist LMIC governments and implementers in the adaptation of standards for 
+local contexts.
+    mHealth Alliance  March 2013 5
+3. Bridging the standardization gap in the short-term means ensuring that LMIC requirements are 
+represented in health informatics standards. Implementers and development partners with experience 
+working in specific regions can and should, in partnership with governments and SDOs, collate and 
+contribute LMIC requirements to the standards development process to ensure that the final product 
+is applicable globally. The long-term solution to the standards gap is for LMICs to engage productively 
+in the standards development process as participating members. Regional eHealth standardization 
+collaboratives, established by local governments and in partnership with academic institutions, private 
+sector, SDOs and other international organizations, may be an effective mechanism for joint regional 
+learning, engagement with the international standards community, and a valuable step on the way 
+towards forming independent national standards bodies.
+4. Mechanisms to promote coordination and alignment between governments and their partners are 
+needed to broker the social and institutional relationships neccesary for interoperability among and 
+between other stakeholder types. Guidelines should be developed to help donors strategically invest 
+in technology implementations and platforms that align with country priorities and international best 
+practices. Regional eHealth standardization collaboratives could serve as an effective forum for iden-
+tification and development of local priorities and standards requirements. Methods should be explored 
+for requiring standards compliance in grants, possibly through certification, which would serve to shift 
+market incentives to favor interoperability. 
+5. As mobile health systems move towards scale, existing guidelines and strategies will need to be 
+revised to reflect new demands on (1) Executive sponsorship;  (2) National leadership of eHealth 
+programs; (3) eHealth standards adoption and implementation; (4) Development of eHealth capability 
+and capacity; (5) eHealth financing and performance management; and (6) eHealth planning and archi-
+tecture maintenance. Regulations regarding standards adoption and interoperability of mHealth and 
+eHealth systems will play a key role in shifting market dynamics to favor interoperability.
+Three crosscutting recommendations were identified that are intended to frame subsequent dialogue 
+around near-term opportunities for the global community to address these challenges in a more coor-
+dinated fashion: 
+1)  Shift market dynamics to incentivize interoperability, primarily through regulatory and financing 
+mechanisms; 
+2)  Align investments and implementations with national and regional eHealth strategies; and 
+3) Establish regional eHealth standardization collaboratives to facilitate pooling of resources and 
+expertise and to serve as focal point for standards activities in a region.
+6 The State of Standards and Interoperability for mHealth among Low- and Middle-Income Countries
+Acronyms
+ Acronym Description
+ CEN European Committee for Standardization
+ CHW Community Health Worker
+ DICOM Digital Imaging and Communications in Medicine
+ EHR Electronic Health Record
+ ESA European Space Agency
+ FLW Front Line Worker
+ GOe Global Observatory for eHealth
+ GPRS General Packet Radio Services
+ GPS Global Positioning System
+ GSMA Groupe Speciale Mobile Association
+ HIS Health Information System
+ ICT Information and Communications Technology
+ IEEE Institute of Electrical and Electronics Engineers
+ IHE Integrating the Healthcare Enterprise
+ ISO International Organization for Standardization
+ ITU International Telecommunications Union
+ LMIC Low- and Middle-Income Country
+ MNO Mobile Network Operator
+ NGO Non-Governmental Organization
+ NIH US National Institutes of Health
+ SDO Standards Development Organization
+ SMS Short Messaging Service
+ UN United Nations
+ USAID United States Agency for International Development
+ USSD Unstructured Supplementary Service Data
+ WHO World Health Organization
+    mHealth Alliance  March 2013 7
+Background
+Mobile health, or “mHealth,” refers to the use of mobile telecommunication and multimedia technologies 
+to support service delivery and health systems.1 mHealth is a subset of eHealth, which the World Health 
+Organization (WHO) defines as the use of information and communications technologies for health.2 
+Mobile technology is being used increasingly to augment health service delivery throughout the world. 
+As mHealth projects scale up, integration of mobile health programs and applications into the broader 
+health information system becomes essential.
+Even in high-income economies, health systems are struggling to realize the full potential of informa-
+tion and communications technology (ICT) to strengthen health systems and support care delivery, 
+due, in part, to limited technological and institutional interoperability. The promise of a connected and 
+interoperable health system is that regardless of how data is collected, the right information is avail-
+able to the right person, in the right place, and at the right time. With the advent of mobile health, there 
+is an even greater need to ensure reliability of services, availability of information, and patient privacy 
+and confidentiality. In particular, continuity of care across provider, time, and institution requires that 
+information is shared, trusted, and secured. Low- and middle-income countries (LMICs) have perhaps 
+the greatest potential to extend health systems’ reach by using mHealth to integrate remote workers 
+and patients into the health system. Interoperability in such heterogeneous environments necessitates 
+improved governance and alignment at the national and international levels, and greater diffusion of 
+existing health informatics standards, adaptation of standards to LMIC contexts, and, in some cases, 
+development of new standards. 
+Standardization at the national level can only be achieved by aligning efforts of international and 
+bilateral institutions, standards development organizations (SDOs), donors, mobile network operators 
+(MNOs), and other private sector actors with local government and health system priorities. The stan-
+dardization gap means that representatives from developing countries are not at the table contributing 
+their unique requirements for the use of ICT or standards utilization to the standards development 
+process.3 Furthermore, even if LMIC requirements are represented in health informatics standards, 
+there is a large gap between development of a standard and effective adoption of that standard. High 
+cost of standards adoption, lack of prioritization, and limited local health informatics capacity remains 
+a significant challenge in many countries.
+While mHealth-enabled interventions have been documented in countries with eHealth ecosystems 
+at all levels of maturity, interventions expected to have the greatest impact rely on more advanced 
+ICT infrastructure. For example, countries with limited ICT infrastructure and expertise may be able to 
+leverage mobile networks’ short messaging service (SMS), or text messages, to send automated alerts 
+and appointment reminders to remote health workers. But, the same countries may find that network 
+reliability prohibits expansion of telemedicine services beyond city centers.
+The WHO and International Telecommunications Union (ITU) describe the national context for eHealth 
+development in terms of the ICt environment, which represents the physical infrastructure and market 
+adoption of components that utilize the infrastructure, and the ICt enabling environment, which 
+consists of governance, policy, standards, human resources, and other aspects that are critical in the 
+scaling of ICTs (Figure 1).4
+8 The State of Standards and Interoperability for mHealth among Low- and Middle-Income Countries
+National Context for eHealth Development
+                 Scali ng - u  p s ann do  i inat
+tegra
+und t  i fo one , cat os
+ cr
+e t-e
+t, ffe
+en cti
+nm vo enir es
+nv
+Mainstreaming
+Scaling up
+Developing and Building up
+emerging enabling environment for ehealth establisheD enabling environment for ehealth
+Early adaption
+Experimentation
+Figure 1. WHO-ITU National eHealth Strategy Toolkit
+    mHealth Alliance  March 2013 9
+                
+          
+                      St
+th
+re
+al
+ngthe
+or e
+He ning
+ f  eH
+as
+e ea
+ c lte h e
+ th ne ab
+ak li
+m n, g 
+re e
+emerging iCt environment establisheD iCt environment
+Strengthening infrastructu
+d innovat
+ion
+an
+curi
+ty 
+y, s
+e
+riv
+ac
+r p
+s f
+o
+ci
+e
+i
+ol
+, ps
+Numerous global health and health informatics organizations have cited interoperability as a major 
+obstacle to the meaningful use of ICTs at scale (see references2,5,27). Development of a national stan-
+dards and interoperability framework provides the context and forum for the multi-sectoral engagement 
+necessary to address these issues in a deeply interconnected health system. Guidelines for this 
+process are described in several key documents, including the 2012 National eHealth Strategy Toolkit 
+developed by the WHO and the ITU.4
+The mHealth Alliance Business Plan5, developed with Dalberg in 2011, identified limited technological 
+integration and interoperability amongst mobile and electronic health systems as a key barrier to 
+scaling mHealth. The report further identified key issues that contributed to limited technological inte-
+gration and interoperability:
+1)  Lack of alignment on standards
+2)  Limited opportunities for collaboration
+3)  Limited collaboration or communication across other mServices (e.g. mobile banking, mobile 
+education)
+4)  Limited guidance from donors and governments on which standards to use
+The mHealth Alliance commissioned this follow-up report to identify critical gaps, as well as opportuni-
+ties, with respect to the current state of health informatics standards and interoperability to support the 
+scale of mHealth systems. The audience for this report includes stakeholders developing or employing 
+health informatics standards, policy makers creating eHealth guidelines, national standards bodies or 
+professional organizations, and implementers or vendors seeking to interoperate systems. 
+Findings are broken into the following sections:
+1)  a conceptual framework for approaching the complex space 
+of standards, technical integration, and interoperability;
+2)  an assessment and catalogue of key obstacles that 
+are preventing mHealth from achieving scale;
+3)  a review of published and gray literature 
+related to the use of health informatics 
+standards and interoperability within 
+mHealth in LMICs;
+4)  results and analysis of key informant 
+interviews; and
+5)  a discussion of opportunities and strat-
+egies for addressing key obstacles.
+10 The State of Standards and Interoperability for mHealth among Low- and Middle-Income Countries
+Photo Credit: Photographer name here
+Methodology
+Information contained in this report was derived from three sources:
+1)  Landscape scan of current initiatives and gray literature produced by multi- and bi-lateral insti-
+tutions, governments, and major implementing organizations, etc;
+2)  Published literature review of peer-reviewed journals; and
+3)  Key informant interviews of individuals representing a cross-section of institutions and stake-
+holders involved in the scale up of mobile health programs, including donors, policy makers, 
+mobile network operators, academics, implementers, and technology developers.
+While every effort was made to present a balanced and objective view of the current state of standards 
+and interoperability with respect to mHealth, there is a bias and subjectivity that is both unavoidable 
+and useful for representing stakeholders’ diverse engagement with the field.
+Literature review
+The literature review consisted of a search in PubMed for scientific published articles that contained 
+both a “mobile health” term and a “standards” or “interoperability” term. References in the articles were 
+followed to identify additional relevant materials. “Mobile health” search terms included: 
+•  mHealth
+•  mHealth
+•  mobile health
+•  mobile phones
+•  mobile technology
+•  telemedicine
+•  telehealth
+The “standards” and “interoperability” search terms included:
+•  standardization
+•  standard(s)
+•  interoperability
+•  integration
+•  architecture
+No crosscutting systematic reviews of mHealth standards and interoperability were found, which would 
+have provided a lower time bound for the literature search. Therefore, the search was restricted to 
+articles published in the year 2002 or later based on the assumption that this timeframe would capture 
+the vast majority of articles in the still nascent field of mobile health. 
+    mHealth Alliance  March 2013 11
+Photo Credit: Photographer name here
+A total of 2,154 published articles from peer-reviewed sources were identified in PubMed and by 
+following references. All articles were then screened for their relevance to the subject of this report. 
+The exclusion criteria used for screening were as follows:
+• Literature proposing a reference architecture without specific mention of mobile health were 
+excluded. Articles describing specific clinical interventions that used mobile devices, evalua-
+tions of mobile health interventions measuring health outcomes, or particular software products 
+or platforms were excluded, unless addressing particular standards or interoperability issues. 
+Articles covering the “quantified self,” implanted or embedded sensors and sensor networks, 
+implantable devices, social or peer-to-peer networks, grid networks, or public health databases 
+such as genetics or surveillance were also excluded. Articles discussing standards related to the 
+health effects of electromagnetic radiation from mobile devices were also excluded.
+• Articles that use “telemedicine” to refer to the use of internet-based video conferencing to 
+connect a clinician to a remote patient were excluded, unless standards were a primary focus, as 
+were literature and programs that leveraged information and communication technology infra-
+structure to link traditional computers as opposed to mobile devices.
+Note that while this literature review was methodical, it was not a systematic review in the strict sense. 
+Also note that full versions of articles were not accessed unless available for free or judged to contain 
+relevant insights not available in the abstract alone.
+Key Informant Interviews
+A total of 33 key informants were interviewed by phone or in person between May 8 and September 
+3, 2012. Informants represent a non-random convenience sampling of a broad range of stakeholders 
+engaged in mHealth standards and interoperability. Interviewees were categorized as follows:
+•  Mobile Network Operators (1)
+•  Standards Development Organizations (4)
+•  NGOs / Implementers (4)
+•  Technology Developers (9)
+•  Researchers / Academics (3)
+•  Donors (5)
+•  Multinational Organizations (5)
+•  Government (2)
+Of the key informants, 5 (15%) were female, and 28 (85%) were male, 15 (45%) were US-based, and 7 (21%) 
+represented LMICs. Refer to Appendix A for the full list of interviewees.
+12 The State of Standards and Interoperability for mHealth among Low- and Middle-Income Countries
+Overview of Health 
+Informatics Standards  
+and Interoperability
+the field of health informatics standards and interoperability is expansive and touches on 
+hardware, infrastructure, software, semantics, social and institutional structures, and the 
+interactions between each of these. this section describes the stakeholders involved in the 
+development and harmonization of health informatics standards, provides working defini-
+tions for standards and interoperability, and presents a comprehensive eHealth architecture 
+as proposed by the International Organization for Standardization (ISO).
+Stakeholder Map
+There are a number of organizations developing or contributing to the development and use of health 
+informatics standards globally. Several key organizations are listed below:
+•  ISO technical Committee 215 (ISO tC 215) develops standards across all areas of health infor-
+matics. It is divided into working groups that focus specifically on data structures, architecture, 
+interoperability, devices, privacy and security. TC 215 is the governing body of the Public Health 
+task Force (PHtF), which was established to improve the uptake of health informatics standards 
+among low-income countries.6
+•  Health Level 7 International (HL7) develops standards for the interoperability of health informa-
+tion technology. Examples include the HL7 Electronic Health Record Functional Model and the 
+HL7 Clinical Document Architecture.
+•  european Committee for normalization (Cen) tC 251 is the health information technology 
+technical committee of the European Union SDO. ISO TC 215 and CEN TC 251 regularly work jointly 
+in standards development efforts.
+•  CDISC (Clinical Data Interchange Standards Consortium) develops standards for the interoper-
+ability of medical research information and related systems. Examples of standards include the 
+Study Data Tabulation Model (SDTM), Standard for Exchange of Non-clinical Data (SEND), and 
+Analysis Data Model (ADaM).
+•  GS-1 develops standards related to supply-chains and their management. The GS-1 System is 
+comprised of standards for Barcodes for identification, eCom for business messaging standards, 
+GDSN (global data synchronization network), and EPCGlobal for tracking.
+•  IHtSDO (International Health terminology Standardization Organization) owns and maintains 
+SNOMED CT, which stands for Systematized nomenclature of Medicine – Clinical terms. This 
+is the most comprehensive terminology dictionary for diseases, clinical findings and symptoms, 
+procedures, etc.
+    mHealth Alliance  March 2013 13
+•  IHe (Integrating the Healthcare enterprise) is an industry and professional organization working 
+to improve information sharing between healthcare information systems. Note that IHE is not a 
+SDO, rather it creates profiles for developers and users, such as the Cardiology or Laboratory 
+profiles, to guide implementers and vendors on standards compliance necessary to achieve a 
+specified level of interoperability within a domain.
+The seven organizations above comprise the Joint Initiative on SDO Global Health Informatics 
+Standardization, commonly known as the Joint Initiative Council (JIC). The JIC was organized 
+to facilitate coordination and harmonization of standards development activities. The JIC provides an 
+important mechanism for joint publication of standards by two or more SDOs and a forum for resolving 
+conflicts.
+There are several organizations that play important roles in the field of health informatics that are not 
+directly linked to the JIC:
+• International telecommunications Union (ItU) is the United Nations agency responsible for 
+information and communications technology. ITU has specific arms for Standardization (ITU-T) 
+and for the Development Sector (ITU-D). 
+•  World Health Organization (WHO) plays an important leadership role in both standards develop-
+ment and in interoperability priority setting and standards dissemination. The WHO maintains 
+and produces the WHO Family of International Classifications (FIC) to provide a common, global 
+framework and language for health information. The FIC includes the International Classification 
+of Diseases (ICD), International Classification of Function, Disability and Health (ICF), and 
+International Classification of Health Interventions (ICHI). The WHO also developed the stan-
+dard for Statistical Data and Metadata Exchange – Health Domain (SDMX-HD) for exchange of 
+monitoring and evaluation data. The WHO also has several entities that interact with the stan-
+dards space through leadership and prioritization, guideline development, and convening. These 
+include the Department of Knowledge Management and Sharing, Department of Health Statistics 
+and Health Information, and the Global Observatory for eHealth (GOe), which provides valuable 
+information to support governments on the strategic adoption of electronic health information 
+systems. GOe has published reports on key eHealth topics, including eHealth country profiles7, tele-
+medicine8, mHealth2, safety and security9, legal frameworks10, and management of patient information11. 
+• International Medical Informatics association (IMIa) is a member organization for national or 
+regional informatics associations that promotes the effective use of informatics within health-
+care, the dissemination of knowledge and health informatics education, and translation of 
+research into practice. IMIA has significant representation throughout the world, including 
+LMICs. IMIA Working Groups on Standards, Health Informatics for Development and Education 
+deal directly with eHealth in LMIC countries.
+•  Public Health Data Standards Consortium (PHDSC) is a US-based member organization that 
+aims to empower healthcare and public health communities with health information technology 
+standards to improve individual and community health. PHDSC contributes to international stan-
+dards development efforts and is engaged in development of standards curricula.
+14 The State of Standards and Interoperability for mHealth among Low- and Middle-Income Countries
+•  Continua Health alliance is a non-profit industry organization of more than 220 healthcare and 
+technology companies worldwide focusing on interoperable personal connected health devices 
+and solutions. Continua provides product certification and industry recommendations to SDOs.
+•  african Union eHealth expert Group is a member project that is making recommendations for the 
+harmonization of eHealth across the African continent and drafting the document “African Union 
+eHealth Development to Support the Africa Health Strategy: 2007-2015”. This group represents 
+many of the key local health informatics experts.
+In 2005, the WHO General Assembly adopted a resolution promoting the use of eHealth to achieve 
+health system goals among all member states.12 The Regional WHO Committee for Africa adopted a 
+similar resolution in 2010, with key recommendations for African states:13
+•  Establish national eHealth strategies and implement monitoring and evaluation systems to 
+track progress
+•  Strengthen national political commitment, leadership and coordination by establishing intersec-
+toral support mechanisms for eHealth
+•  Establish a conducive policy environment
+•  Build out infrastructure and establish services for eHealth (e.g. Internet connectivity and online 
+resources)
+•  Develop human capacity for eHealth by establishing sustainable education and training opportunities
+•  Set up sustainable financing for eHealth infrastructure and ICT integration, and encourage 
+private sector engagement
+Several global initiatives build off the above commitments across multiple programmatic areas. The 
+Commission on Information and Accountability for Women’s and Children’s Health was established in 
+2011 to “improve global reporting, oversight and accountability for women’s and children’s health.” 
+Integration of ICTs into national health information systems and adoption of technical standards are 
+key recommendations of the commission.14 The Innovation Working Group and Every Woman Every 
+Child movement are investing into mobile and electronic tools to accelerate progress towards reduc-
+tions in maternal and child mortality. Innovative technologies, including mobile phones and SMS, are 
+also a key focus of the UN Commission on Life-Saving Commodities for Women and Children’s Health 
+for their role in facilitating access to selected products and in complementing and informing service 
+delivery. The WHO is garnering support for a global resolution specifically on eHealth standards and 
+interoperability with the goal of adoption and harmonization.
+The health informatics standards community has begun to mobilize resources to increase the accessi-
+bility of standards, to address limited adoption of standards among LMICs, and to fill mHealth standards 
+gaps. The Standards Knowledge Management Tool (SKMT Glossary), supported by the Joint Initiative 
+Council, is a free web-based portal that serves as a single point of reference for all published standards 
+and definitions from JIC members and other relevant documents such as WHO publications.1 The Health 
+Informatics Wiki combines information from national eHealth case studies with the SKMT Glossary to 
+1  www.skmtglossary.org 
+    mHealth Alliance  March 2013 15
+assist in identification of standards relevant to a particular health system context.2 Several efforts, 
+including the Public Health Task Force at ISO and the Africa Initiative of HL7’s International Mentoring 
+Committee, specifically aim to increase standards capacity and adoption among LMICs. HL7, IHE, and 
+HIMSS have formed distinct mHealth task forces or working groups to address unique standards gaps 
+related to the use of mobile and smart devices within health care. SDO efforts are expected to result in 
+the development of a reference architecture and domain profiles for using mHealth in health systems at 
+various levels of maturity and health domains, and integrating it with other health information systems, 
+including electronic health records, laboratory information management systems, or district health 
+information systems.
+Health Informatics Standards
+ISO defines a standard as the following:
+ “A standard is a document that provides requirements, specifications, guidelines or characteris-
+tics that can be used consistently to ensure that materials, products, processes and services are 
+fit for their purpose.”15
+There are several ways to classify and scope health informatics standards. For the purposes of this 
+report, we use the divisions of ISO Technical Committee 215 on Health Informatics (ISO TC 215), which 
+are broken into working groups as follows:16
+•  architecture (Working Groups 1 and 8) – Definitions, templates, data sets. Standardized models 
+of the functions and conformance criteria associated with a system that is platform agnostic 
+(e.g., HL7 Electronic Health Record System Functional Model), including definition of business 
+requirements and data structures. 
+• Data interchange (Working Groups 2 and 7) – Harmonization and adaptation of clinical and 
+administrative messages for system and device interoperability. 
+•  Semantic content (Working Group 3) – Develops standards for the representation of termino-
+logical resources, such as health concepts and data. 
+• Security, safety and privacy (Working Group 4) – Confidentiality, integrity and availability, 
+accountability, security management, and information systems safety. 
+•  Pharmacy and medicines business (Working Group 5) – Develops standards for interoperability 
+of e-pharmacy systems and other medicines applications.
+It is important to clarify that ISO standards are considered “open” according to the following definition: 
+a) the entire contents of each standard may be obtained; b) each standard was developed and defined 
+as part of an open, transparent process; and c) ISO standards are not subject to sudden changes as 
+modifications are sent through a pre-defined systematic review. However, “open” ISO standards are 
+generally not free.
+2  www.hiwiki.org 
+16 The State of Standards and Interoperability for mHealth among Low- and Middle-Income Countries
+70
+70 54
+55
+60
+50 29
+40 36 20 24
+30 15 11
+9
+20 9 8 10
+10 3
+4 2
+0
+2 0 Co
+ untries 1
+ IMIA 0
+ ISO TC 215 
+P ISO TC 215 
+O HL7
+Figure 2. ISO, HL7 and IMIA membership categorized by country economic grouping as of September 2011.
+eCOnOMIC 
+GrOUPInG ISO tC 215 P ISO tC 215 O HL7 IMIa
+LIC Kenya Zimbabwe - Burundi, Malawi, Mali, togo
+LMIC armenia, Honduras,  Mongolia, Ukraine - Cameroon, Côte d’Ivoire, Ghana,  
+ Philippines   Honduras, nigeria, Pakistan, 
+    Philippines, Sri Lanka, Ukraine
+UMIC Brazil, China, Iran, argentina, Bulgaria,  argentina, Bosnia  argentina, Bosnia and
+ Malaysia, Mexico, Colombia, ecuador,  and Herzegovina,  Herzegovina, Brazil, 
+ russian Federation, Kazakhstan,  Brazil, China,  Chile, China, Cuba, 
+ South africa,  romania, Serbia,  Colombia, Mexico,  Iran, Mexico, Peru, 
+ tunisia, turkey thailand romania, russian romania, South africa, 
+   Federation, turkey,  thailand, turkey, 
+   Uruguay Uruguay, Venezuala
+Figure 3.  LIC, LMIC, UMIC standards organization membership.
+GeOGraPHIC reGIOn COUntrIeS ISO tC 215 P ISO tC 215 O HL7 IMIa
+Sub-Saharan africa 43 1 1 0 7
+South asia 8 1 0 0 3
+europe & Central asia 23 3 5 4 4
+east asia & Pacific 24 4 2 1 3
+Latin america & Caribbean 29 2 3 5 8
+Middle east & north africa 13 2 0 0 1
+Other 75 21 11 24 31
+tOtaL 215 33 6 33 57
+Figure 4. ISO, HL7 and IMIA membership categorized by geographic region.
+    mHealth Alliance  March 2013 17
+LIC LMIC UMIC HIC
+the Standardization Gap
+Significant gaps exist in the capacity and participation of LMICs in the development and adoption of 
+health informatics standards. This is due to an interrelated set of factors, including: lack of local infor-
+matics human resource capacity and high complexity of standards; low prioritization by governments, 
+vendors, and implementers; limited access to existing standards; limited funding for engagement with 
+international SDOs; absence of national standards bodies; and inadequate ICT infrastructure for stan-
+dards participation. These challenges, as well as potential solutions, are laid out in the 2009 ITU-T 
+Bridging the Standardization Gap.3
+Low- and middle-income countries have limited representation and membership in international stan-
+dards organizations, which limits stakeholders’ ability to contribute their unique requirements to the 
+standards development process. Within ISO TC 215, there are two membership types: Participating 
+members (P-members) are full members and are requested to vote on every proposed standard; 
+Observing members (O-members) may contribute but are not permitted to vote. Figure 2 illustrates the 
+marked difference in representation of low-, lower-middle-, upper-middle-, and high-income country 
+membership in ISO TC 215, HL7 International, and IMIA.17,18 Figure 3 lists specific country membership 
+in standards organizations for LIC, LMIC, and UMIC. Figure 4 groups country membership according to 
+geographic region. Note that while IMIA is not an SDO, it is included in these charts because its greater 
+penetration among low-income countries and among target geographic regions makes it a natural 
+forum for health informatics activities in these countries.
+The majority of standards are available for purchase, through licensing or through SDO membership. 
+HL7 recently announced that it intended to make a majority of its standards available for free19, but 
+since most SDO revenue comes from standards sales or membership, new business models may be 
+needed before other SDOs will follow suit.
+Interoperability
+Interoperability broadly refers to the ability for entities within a system to interact, while standards 
+define the entities and their interactions. Defining interoperability is important because it “shapes the 
+scope of the problem and thus the response in terms of policy, resources, and priorities.”20 The defini-
+tion adopted by HIMSS provides a useful starting point:
+ “Interoperability means the ability of health information systems to work together within and 
+across organizational boundaries in order to advance the effective delivery of healthcare for 
+individuals and communities.”21
+In 2007, HL7 surveyed leading health informatics institutions globally to further define interoperability 
+and identified three broad categories: technical, semantic, and process.22 To these three, Palfrey and 
+Gasser propose a fourth layer of “institutional interoperability” to capture interactions between societal 
+systems.23 For the purposes of this report, we refer to the following four interoperability layers:
+1)  technical Interoperability – the physical conveyance of a payload or the transmission and 
+reception of information at the level of hardware
+2)  Semantic Interoperability – the ability of information shared by systems to be understood
+18 The State of Standards and Interoperability for mHealth among Low- and Middle-Income Countries
+3)  Process Interoperability – the communication of information in a time-, event-, and sequence-
+oriented manner to optimize and coordinate the work processes of a care team
+4)  Institutional Interoperability – the structured interaction of societal systems, involving organi-
+zational models, policy and governance, trade agreements, and systems of law
+While the eHealth community has prioritized technical and semantic interoperability for some time, 
+process interoperability was not formally adopted as a standardized approach by SDOs until 2007. 
+Institutional interoperability is often beyond the scope of purely eHealth-oriented interoperability 
+discussions, but is included here, as many gaps and recommendations pertain to agreements between 
+the global, regional, sub-regional, national, or sub-national institutions that shape the eHealth 
+ecosystem.
+The Integrating the Healthcare Enterprises initiative (IHE) proposes that Security be included as 
+a distinct interoperability layer (separate from institutional or legal), given its critical importance in 
+protecting and enabling interactions.24 While security is not broken out into a separate layer in this 
+report, the need for an integrated security framework for mHealth, telehealth, and eHealth to enable 
+interoperability is echoed throughout the literature and in stakeholder interviews. 
+eHealth architecture
+mHealth at scale must rely heavily on other health information systems, such as electronic health 
+record systems, electronic facility registries or health management information systems. As such, 
+mHealth must be considered within the context of the broader eHealth architecture. The approach 
+taken in this report is that mHealth is the subset of eHealth that includes mobile phones, other mobile 
+devices, and services delivered via telecommunications networks, the software, platforms, devices, and 
+infrastructure that are used by the mobile device to support health system activities, and all supporting 
+eHealth systems and standards. eHealth is defined more broadly as the application of information and 
+communications technologies to health service delivery and supporting health system functions.
+ISO TC 215 published the Technical Report (TR) 14639 “Part 1: Capacity-based eHealth architecture 
+roadmap: Overview of national eHealth initiatives” in August 2012.25 This important document has been 
+widely used by the Public Health Task Force of ISO as it presents case studies of the national eHealth 
+architectures implemented by Australia, Brazil, Canada, India, and Kenya, and describes a national 
+eHealth architecture framework, nicknamed the “Parthenon” (see Figure 5). The Parthenon was derived 
+from an original graphic developed by Dr. Richard Gakuba, National eHealth Coordinator for Rwanda, as 
+part of the Rwanda National eHealth Architecture initiative. The document recognizes that international 
+standards typically describe systems at a high level of maturity and advocates for the development of 
+a roadmap to guide countries in moving from a low to medium to high level of maturity. ISO TC 215 is 
+expected to publish “Part 2: Architectural components and maturity model” in early 2013. Concurrent 
+national eHealth architecture efforts in Brazil, Rwanda, and South Africa utilized similar frameworks as 
+the one presented here. It is a key recommendation of this report that the framework presented in 
+ISO tr 14639-1 be adopted by the international community to structure dialogue, investments, and 
+development of mobile and electronic health components. Note that as an ISO standard, this report 
+is available for purchase, although ISO TC 215 has submitted a request to the ISO central secretariat to 
+make this standard available free of charge.
+    mHealth Alliance  March 2013 19
+Informed health policy 
+Improved access to care
+evidence-based practice
+Informed health service planning
+efficiency, productivity, cost-effectiveness
+Improved quality of care — to individuals & populations
+HeaLtH PrOCeSS DOMaIn COMPOnentS
+Patient Path – supporting continuity of care
+GOVernanCe & 
+natIOnaL OWnerSHIP
+Executive 
+sponsorship
+National leadership 
+of eHealth program
+eHealth standards 
+adoption & 
+implementation
+HS planning, monitoring & evaluation
+FOUnDatIOn – eHeaLtH InFOStrUCtUre
+Development of 
+EHR & health Identification Data interchange 
+Clinical terminology eHealth capability 
+information registries interoperability 
+& classifications & capacity
+repositories & directories & accessibility
+Consent/access Census, population 
+Privacy, security 
+control & workflow information & 
+& safety regime
+management data warehouse eHealth financing 
+& performance 
+management
+FOUnDatIOn – ICt InFraStrUCtUre
+Local access Electronic ICT processing ICT professional 
+to ICT equipment communications and storage & technical 
+and facilities infrastructure services support eHealth planning  
+& architecture  
+maintenance
+Standards, methods, guidelines, frameworks
+Figure 5. National eHealth Architecture from ISO Technical Report 14639-1 – Capacity-based  
+eHealth architecture roadmap – Part 1: Overview of national eHealth initiatives.
+20 The State of Standards and Interoperability for mHealth among Low- and Middle-Income Countries
+Community-based services
+Primary care services
+Hospital/institutional services
+Public health & disease surveillance
+Emergency response
+Diagnostic services
+Pharmacy services
+Healthcare supply chain
+Human resources in health
+Health finance and insurance
+Vital records collection & management
+Environmental monitoring
+Knowledge management & eLearning
+Literature Review
+Overview
+the following literature review was performed to assess how mHealth 
+standards and interoperability have been addressed in academic and gray 
+literature, and to identify the gaps. 
+The academic community plays an important role in evaluating the benefits of employing mobile and 
+electronic health systems to facilitate the delivery of health services, and there is a growing body 
+of evidence to support their use.26 Yet, evaluations of the comparative value of adopting specific 
+health informatics standards in support of mHealth programs were uncommon. This is not unexpected, 
+however, as there are very few scaled-up, interoperable implementations to be evaluated at the time 
+of publication.
+While there has been an upsurge of scientific articles in the past decade on mHealth standards and 
+interoperability, the majority were focused on high-income settings and narrowly on telemedicine or 
+home telehealth. Peer-reviewed articles that looked at LMIC settings were generally descriptive in 
+nature, often advocating for global alignment around eHealth standards, interoperability, or capacity 
+issues.62 However, a scan of gray literature uncovered numerous LMIC-focused documents describing 
+international, national, or sub-national efforts to support local actors in LMICs to tackle standards and 
+interoperability challenges.
+The review indicates that the integration of mHealth into the eHealth ecosystem is an inadequately 
+defined problem space. The issue is exacerbated by the realities of working in developing health 
+systems, which often includes limited resources, poor infrastructure, and the absence of an existing 
+eHealth infrastructure with which to integrate.
+analysis of Literature and Systematic reviews
+Three literature reviews addressed specific sub-topics within mHealth standards and interoperability: 
+(1) health informatics for development; (2) telehealth security standards; and (3) home telehealth 
+information system architecture. 
+Marcelo, 2012 – Health Informatics for Development
+A literature review in 2012 by A. Marcelo, A. Adejumo, and D. Luna (hereafter Marcelo) examined efforts 
+to build health informatics capacity within low- and middle-income countries and proposed a roadmap 
+to “fast track” uptake of health informatics for development.27 The review identified 77 articles that fit 
+the search criteria of “health informatics” and “development”, of which only 9 focused on African or 
+Asian countries. 
+    mHealth Alliance  March 2013 21
+The authors described the state of health informatics capacity in three regions:
+•  Health informatics in Latin america is generally led by the private sector, rather than ministries of 
+health, leading to poor coordination between health informatics stakeholders and proliferation of 
+proprietary systems. Argentina, Brazil, and Uruguay have medical informatics training initiatives, 
+and Ministries of Health from Brazil and Chile have formally engaged in standards development 
+and adoption, but the rest of the region has progressed more slowly.
+•  africa has experienced an increase in health informatics activity in recent years due to increased 
+interest in ICT projects, but implementations are fragmented, small, and generally led by the 
+donor community rather than local stakeholders. Poor infrastructure, including unreliable elec-
+tric power, is a primary obstacle. Africa is among the fastest growing mobile phone markets in 
+the world.
+•  Despite presence of local expertise, governments in asia have been slow to adopt recommended 
+health informatics standards. Geography, diversity of languages, and limited investments into 
+health informatics all contribute to slow adoption and the lack of regional efforts.
+Marcelo described the cyclical nature of how poor infrastructure limits the growth of local capacity, 
+which in turn limits infrastructure development. Use of proprietary software systems, lack of national 
+privacy frameworks, and lack of standards adoption were identified as key obstacles to the develop-
+ment of local health informatics ecosystems.
+Marcelo proposes a three-pronged strategy to fast track the development of local health informatics 
+capacity: establishing partnerships, adopting standards, and leveraging mobile health. Partnering with 
+established global health informatics institutions (e.g., a collaboration agreement between a local and 
+foreign university) will accelerate the rate of knowledge transfer to low- and middle-income coun-
+tries. Pairing training with implementations will ensure that informatics practices are contextualized 
+and incentivize involvement for both parties. One notable example is the Pan-Asian Collaboration for 
+Evidence-based eHealth Adoption and Application (PANaCeA) formed by the International Development 
+Research Centre of Canada (IDRC) and Aga Khan University. PANaCeA has funded eight projects since 
+February 2007 to generate evidence for the use of eHealth within the Asian context.
+The second recommendation made by Marcelo is to adopt standards for interoperability during the 
+formative period of the ICT infrastructure and health informatics ecosystem. Mature standards did 
+not exist when high-income economies began developing eHealth systems, which has contributed 
+to fragmented systems and poor interoperability. LMICs have the opportunity to avoid this by proac-
+tively defining their unique functional requirements and developing enterprise architectures to guide 
+ecosystem development. The exchange of indicator definitions and data for aggregating reporting, 
+possibly using the SDMX-HD standard developed by the WHO, and standardized geographic codes 
+are emerging standards categories that have the potential to impact developing world health systems.
+The final recommendation made by Marcelo is to leverage mobile phones for health. The pervasiveness 
+and well-understood interfaces of mobile phones provides new opportunities for decentralized data 
+collection and reporting. 
+22 The State of Standards and Interoperability for mHealth among Low- and Middle-Income Countries
+Garg and Brewer, 2012 – Telemedicine Security Standards
+Garg and Brewer, 201228, in February 2011, performed a systematic review of 58 articles raising serious 
+concerns around security and privacy standards utilization within telemedicine. Articles represented 
+11 high-income and 2 middle-income countries. Despite the availability of mature privacy standards, 
+including the Health Information Portability and Accountability Act (HIPAA) in the United States and HL7 
+that is widely used in Europe, not a single article specifically tested security. 61% of articles proposed 
+solutions for specific security issues, but few exploited a comprehensive security framework, which 
+must address privacy, data integrity, authentication, authorization, and reliability. A limited number of 
+articles provided details of security protocols implemented, and several that did so used protocols that 
+were outdated or that had known flaws.
+Garg and Brewer note that telemedicine presents some security requirements 
+that are not common to other forms of health information technology, in 
+particular the reliability, availability, and usability of systems. These 
+issues must be addressed before telemedicine can be consis-
+tently used in lieu of in-person clinical encounters. Telemedicine 
+researchers are encouraged to collaborate closely with security 
+experts to address numerous gaps in telemedicine security.
+Ludwig – Home Telehealth Information Systems Architecture
+Standards organizations have not yet endorsed a reference 
+architecture for home telehealth information systems. Ludwig et 
+al (hereafter “Ludwig”)29 reviewed 22 articles to develop a nomen-
+clature for the information and communications technologies that 
+support home telehealth services as a preliminary step in development 
+of a reference architecture. Architectures to support telehealth informa-
+tion systems differ from traditional architectures in two important ways:
+• Home telehealth services are sensor-enhanced. This means that devices in the 
+patient’s home or those worn by the patient are automatically generating data and integrating 
+that data into a health information system.
+• Home telehealth services are trans-institutional, which means that two or more distinct legal 
+entities are involved in managing a patient’s care, raising questions about ownership, security, 
+duplicative data stores, and assignment of responsibility.
+Ludwig presents a nomenclature broken into six categories: users, services, operating organizations, 
+information flow, geographical reach, and architectural paradigm. While this nomenclature targeted 
+home-telehealth within high-income countries, the nomenclature may be expanded to incorporate 
+other aspects of mHealth or provide a template for developing a similar nomenclature within specific 
+mHealth subsets.
+    mHealth Alliance  March 2013 23
+Photo credit: MAMA (Mobile Alliance for Maternal Action)
+Supplementary articles review
+In total, 2,154 published articles from peer-reviewed sources matched the above search criteria, 
+although the majority of articles were duplicative or fell within the exclusion criteria. After screening, 
+46 published articles met the search criteria.
+It is important to note that there were a large number of articles covering the topics of eHealth stan-
+dards and interoperability without explicit mention of mobile health or a variation of the term. A search 
+on PubMed for eHealth related terms with a standards or interoperability term resulted in well over 
+5,000 articles prior to screening. Many standards previously used exclusively in the context of eHealth 
+are also applicable within mHealth (e.g., standardized vocabularies, security protocols, etc.), while others 
+require adaptation to support different form factors or use cases. Given the overlap between eHealth 
+and mHealth, it is probable that many articles that are pertinent to the topic of mHealth standards and 
+interoperability were not identified due to this difference in classification.
+The goal of the review was to explore how mHealth standards and interoperability were being addressed 
+in scientific literature. The breakdown below provides a snapshot:
+•  3 articles were literature reviews looking at (1) health informatics for development (2) telemedicine 
+security standards and (3) home telehealth information system architecture. No crosscutting litera-
+ture reviews were found that examined mHealth standards and interoperability more broadly.
+•  24% of published articles targeted low- and/or middle-income countries or were global in scope, 
+63% targeted high-income countries, and 15% addressed technical standards with no specific 
+country target. LMICs referred to specifically included Philippines, Uganda, and Uruguay (note 
+that articles may fall in more than one category). For an LMIC example, Margolis et al present a 
+countrywide EHR implementation with prominent use of health informatics standards, including 
+terminology services and telemedicine applications.30
+•  9% proposed a new standard or assessed the relevancy of a standard based on a specific use case.31
+•  15% proposed or described an implementation of one or more standards for a specific use 
+case. 32,33,34,35 For example, Constantinescu et al demonstrated the use of standards-based 
+protocols to deliver multimedia-rich content to mobile handsets from EHR, diagnostic imaging 
+repositories, and other systems.36
+•  30% of articles focused on mHealth security or privacy. DD Luxton et al also identifies the lack 
+of security standards as a key obstacle to supporting “ubiquitous use of mobile health technolo-
+gies.” 37 P. Pharow et al advocated for development of a standards-based interoperable security 
+infrastructure.38 Koster et al “[introduced] end-to-end security requirements and [presented] a 
+design for consent management in the context of the Continua Health Alliance architecture.”39 
+Adoption of standards supporting identity management within eHealth and telemedicine are far 
+behind the maturity of the standards.40
+•  2 articles specifically recommended that the health informatics community revise the definition 
+of interoperability to better address an overarching security framework in the context of inter-
+connected systems. 24,41 
+24 The State of Standards and Interoperability for mHealth among Low- and Middle-Income Countries
+•  9 articles (20%) made explicit mention of HL7 standards33,34,35,42,43,, 3 (7%) of IHE profiles42, 
+4 (9%) of DICOM42,44, and 6 (13%) of ISO/IEEE 11073 family of standards for medical device 
+interoperability45,46,47,48.
+• 3 articles proposed chronic disease, in particular diabetes, as the use case for interoperability 
+within a heterogeneous environment of patient or home-based health devices. 35,49,50
+•  6 articles focused on development of home telehealth networks capable of integrating informa-
+tion from heterogeneous sources, including personal health devices and sensors.51,52,53
+•  2 articles did the challenging work of proposing how a group of related standards can be used in 
+conjunction to achieve interoperability within a heterogeneous environment of health systems 
+and devices. Mense et al proposed development of a framework for leveraging international 
+standards ISO/IEEE 11073, HL7, IHE, CEN 13606 to integrate data from a mixed environment of 
+proprietary devices.54
+•  Several examples of standards-based software components and platforms specifically address 
+the issue of intelligently integrating information from multiple personal health devices, including 
+mobile phones.55,56,57 Middleware components were the most common integration architecture 
+proposed. While these tools employ standards, many of the interfacing components and related 
+processes remain proprietary. Special care is needed to handle variance in the accuracy, bias, 
+and availability of data from these sources.
+•  Blobel presented an architectural framework to support a lifelong patient record that is scalable, 
+flexible, portable, secure, and integrates data from heterogeneous sources. The architecture 
+must follow the ISO reference model for open distributing processing (ISO RM-ODP). Examples 
+include Australian GEHR, openEHR initiative, CEN ENV 13606 “Electronic Health Record communi-
+cation”, and HL7 version 3 (specifically HL7 v3 Reference Implementation Model, HL7 Development 
+Framework, and HL7 Clinical Document Architecture). 
+•  While no articles evaluated the patient or health system impact of the use of standards or 
+systems integration, Mechael et al described the design of an impact evaluation of mHealth 
+within the existing eHealth architecture already in use by the Millennium Villages Project.58
+As expected, the number of relevant articles increased in recent years, with 81% of the articles being 
+published after 2007 (Figure 3).
+Count of Publications by Year
+12
+10
+8
+6
+4
+2
+0
+ 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012
+Figure 3. Number of publications included in the literature review by year.
+    mHealth Alliance  March 2013 25
+The Telemedicine Alliance, a consortium comprised of the ESA, WHO, and ITU formed in 2002, identified 
+interoperability as the “main showstopper” in eHealth implementation.59 Indeed, the preponderance of 
+articles reviewed stated the need for mHealth standards and interoperability in order for mHealth proj-
+ects to lead to improved health system performance at scale. Specific concerns included:
+•  Lack of standards compliance or awareness
+•  Lack of technical compatibility or interoperability between systems60,61
+•  Lack of mechanisms for collaborative investments into eHealth62
+•  Inadequate local health informatics expertise27
+•  Widespread use of proprietary systems and databases
+•  Reference architectures and ontologies lack new mHealth use cases63
+• Increase in the volume and quality of data as devices used by frontline workers (FLWs) and 
+patients are integrated into health information systems
+M. Ackerman et al also identified interoperability of data among telehealth systems and integration with 
+other electronic systems, such as EHR, as key obstacles to effective use and analysis of telehealth, and 
+a potential source of dissatisfaction among patients. 64 The article makes several recommendations to 
+the US National Institutes of Health that may be translatable to governmental institutions in resource-
+constrained settings:
+•  Conduct multi-stakeholder meetings with 
+focused deliverables and provide funding oppor-
+tunities for convening
+•  Fund innovative research to develop, 
+assess, and support telehealth-related 
+tools and technologies, with a focus on 
+translational platforms
+•  Fund implementation research 
+to improve delivery, use, and adop-
+tion of telehealth technologies
+•  Create a central information 
+resource compiling free telehealth 
+software and resources
+26 The State of Standards and Interoperability for mHealth among Low- and Middle-Income Countries
+Photo credit: United Nations, Eric Kanalstein
+Key Informant Interviews
+Key informants were interviewed to inform the gaps analysis and to gauge 
+how each stakeholder group uniquely perceives and engages with mHealth 
+standards and interoperability.
+results
+1. Perceptions of the past and future of interoperability efforts
+Interoperability efforts are not new and opinions on the effectiveness of past efforts were mixed. A 
+common sentiment was that interoperability has turned out to be far more challenging than expected. 
+Some key informants believed that in the past, there was not a strong enough central force to achieve 
+the necessary coordination across a variety of stakeholders. Several cited that the lack of a common 
+definition for interoperability and the lack of common measures for success for interoperability contrib-
+uted to an overall perception that interoperability efforts were ineffectual. Some informants pointed 
+to the fact that there are few examples of major eHealth and mHealth projects that are interoperable. 
+There was concern that this may lead to lower participation and reduced confidence in the eventual 
+success of future high-level efforts.
+There was an alternative view that prior interoperability efforts were successful, just not in the way that 
+was expected. As one informant said, 
+ When the conversation first started, it was trying to explain what interoperability was and 
+“what a standard is and why these are important…but now it is almost universally accepted that interoperability is needed. You have governments writing this into their strategies.
+The sentiment was that the conversations of the last decade had, in a way, set the stage for t”oday’s 
+major interoperability efforts, such as those seen in the Rwanda Health Enterprise Architecture initia-
+tive and the MoTech Suite. 
+Interoperability was on the agenda of stakeholders of all types, from governments and standards 
+developers, to vendors and donors. The most common need for interoperability was that tools could 
+share critical health information. For most stakeholders, the drivers behind this were: the difficulty 
+interfacing systems of different types, from different vendors, or collected from different health worker 
+types; aggregating individual patient data for district- or national-level reporting; and comparing data 
+from several similar projects by different implementers funded by different donors. Donors and imple-
+menters were also interested in the ability to repurpose software components developed in one setting 
+in another context. 
+    mHealth Alliance  March 2013 27
+Among vendors, the idea that systems should interoperate has resistance from some entities who 
+have legitimate competitive or cost-effectiveness interests. In some cases, market pressures actually 
+reward non-standards-based efforts for differentiating themselves. Innovation grants may inadver-
+tently encourage new developments or incompatible technologies, and they rarely carry the budgets 
+necessary to support standards compliance. In a competitive market, vendors can achieve lock-in by 
+intentionally not adopting standards.
+As one key informant noted, “interoperability is a reflection of social and institutional relationships,” 
+yet many initiatives in the space have focused solely on the technological aspects. Another informant 
+commented, “There is no one who has any degree of interoperability accidentally.”
+Lack of clarity of the necessary steps and the costs of achieving interoperability were commons themes. 
+2. Perceptions of health informatics standards
+ Standards are a bit like doing plumbing – technically challenging, critical to get right, no 
+“one wants to do it.While all key informants agreed that standards play a valuable normative role, there was a wide” range 
+of opinions of the relevance and levels of knowledge of health informatics standards. An issue cited by 
+many informants was the perception of the lack of relevance of standards to pilots and to LMIC projects. 
+ There is this idea that the use cases are so different that existing standards are not rele-
+“vant, at least not without major adaptation.The fact that LMIC countries have little representation among SDOs helped to reinforce the i”dea of 
+“developing country exceptionalism.” Other informants suggested that LMIC and HIC environments are 
+more similar than they are different.
+ It’s suggesting that these environments are so fundamentally different that there’s never 
+“going to be convergence. If you look at other domains, financial markets, how they build and run airports and shipping…that doesn’t hold at all.
+Most informants agreed that increased engagement of LMICs among SDOs is needed, but that do”es not 
+necessarily equate to developing new standards for LMIC-specific approaches to problems that have 
+already been solved for HICs. An interviewee stated, “LMICs no longer start with a blank sheet of paper; 
+they start instead with guidance.”
+Informants proposed two potential solutions to this issue: one, the development of implementation 
+guides to assist implementers in employing specific international standards; and, two, creating a 
+compendium of standards and their use cases to help users understand which standards are relevant 
+to meeting particular requirements. Capacity building and training on standards was recommended for 
+ministries of health, implementers, and donors, in particular, to encourage prioritization of standards-
+based approaches, to increase awareness of what standards exist, and to improve stakeholders’ ability 
+to effectively adopt.
+28 The State of Standards and Interoperability for mHealth among Low- and Middle-Income Countries
+Limited access by LMICs to published health informatics standards was a common theme, in part because 
+the majority of standards are only available for purchase and, more importantly, the cost of adoption is 
+high. Interestingly, most informants were not aware of the price of standards (which can be as little as 
+100USD, although many are much more expensive). Many key informants called for “open standards” 
+and stated the need for global leaders to step up and advocate for standards to be made available for 
+free. As one informant stated, “Openness is not historically a part of the international standards devel-
+opment process,” and only recently have major SDOs taken this issue on. One informant recommended 
+an interesting alternative that may bypass the issue – development of open-source software compo-
+nents that are based on closed international standards, but made available as public good.
+Key informants recognized the difficulty of balancing between pragmatism and standards-compliance. 
+Ideas that are common in mHealth, such as pilots, prototyping, minimum viable products, and quick 
+iteration of software, were all seen as being in competition with standards-based approaches, which 
+require careful architecting and design. Others suggested that going through the process of developing 
+or implementing a homegrown solution helps people understand the need and value of standards-
+based solutions. One technology and standards developer acknowledged that it often does not make 
+sense to adopt complex representations described by international standards first. While there are 
+“lightweight” versions of certain standards that exist just for this purpose (e.g., Green CDA), informants 
+agreed that more lightweight versions are essential if standards are to become widespread for mHealth 
+and among LMICs.
+One key informant suggested that the split between pragmatism and standards-compliance was a false 
+dichotomy, and that you should always “optimize for pragmatism.” In other words, the realities of a 
+specific business need and context must always be accommodated, while still meeting an acceptable 
+level of compliance with international standards. Key informants noted the lack of appropriate forums 
+to discuss balance points with the broader community.
+While there was the expectation that some new standards are needed and that some existing stan-
+dards will need to be adapted to support mHealth within LMICs, key informants stated that an eHealth 
+reference architecture that adequately addressed mobile clients is the critical first step since it serves 
+as a framework for future standards work. Stakeholders from SDOs made it clear that until a mHealth 
+reference architecture is developed, it will not be clear what the gaps are in health informatics stan-
+dards in order to enable mHealth to interoperate with other health information systems. From the HL7 
+standpoint, this means identifying the linkages between the mHealth architecture and the existing 
+Electronic Health Record, Personal Health Record, and Public Health profiles.
+3. mHealth relative to eHealth
+There was unanimous agreement that the global community should not address mHealth independently 
+from eHealth. Two notable quotes:
+• “There is no mHealth without eHealth.”
+• “We do not make a distinction between m and e in terms of health data standards.”
+    mHealth Alliance  March 2013 29
+Yet, there was lack of clarity about the actual standards and interoperability issues that are particular 
+to mHealth. In other words, steps should be taken to determine how to approach the broader eHealth 
+ecosystem through the lens of mHealth. This was regarded as a “critical” or “central” issue by several 
+informants.
+Informants from SDOs concurred that they had yet to agree on what new standards development or adap-
+tation was needed to accommodate requirements for mHealth usage worldwide, but they also did not 
+necessarily see this as a unique problem. As one SDO informant stated, each actor throughout the health 
+system will have their own definition of what mHealth is, and it may not be the same from country to 
+country. Elucidating ambiguities and developing consensus on the definition of mHealth from each partic-
+ular stakeholder’s point of view is part of the process of developing a mHealth reference architecture.
+4. The pivotal role of donors
+Donors were seen as being key drivers of eHealth interoperability in the future, but also as having 
+contributed to the existing fragmented eHealth environment. One key informant put it very succinctly:
+“ If there is always funding for a silo, then a silo will always be built.Some interviewees placed much of the burden for a shift towards eHea”lth interoperability on donors 
+because of their ability to influence market dynamics and incentives in favor of platforms, vendors, 
+governments, and implementers that agree to employ standards and meet specified interoperability 
+requirements. One mechanism proposed was to include language in requests for proposals (RFPs) 
+requiring demonstrated compliance with interoperability requirements or adequate justification for 
+non-compliance.
+While this sounds promising, others were skeptical, noting that interoperability is only funded when it is 
+needed to support a specific health problem, meaning that interoperability is not often funded directly. 
+Two interviewees pointed to the fact that no donor has funded the development of a robust inter-
+face between mobile phones used by community health workers and commonly used electronic health 
+record systems, despite the fact that it was defined as an important obstacle several years ago. Some 
+informants noted that donors do not often have sufficient expertise in standards and interoperability 
+to accept much risk in their investments into the space. As one donor said:
+ We’re not very sophisticated on [interoperability]. We have no in-house competency in 
+“interoperability and do not have a clear position on it…We expect those that we fund to be able to make decisions about interoperability.
+The lack of coordination and alignment between donors was a common topic. An informant brou”ght up 
+the common example of two projects addressing the same health priority within the same ministry of 
+health being entirely incompatible because separate donors funded them. A donor acknowledged that 
+there are no accepted modalities to jointly fund interoperability efforts at the ministry level across 
+multiple independent donor projects. Many informants recognized the need for a global forum for 
+donors to achieve alignment amongst themselves and with governments, SDOs, and implementers. 
+30 The State of Standards and Interoperability for mHealth among Low- and Middle-Income Countries
+Three informants proposed independent certification of mHealth and eHealth software as a possible 
+mechanism that donors could use to ensure their investments met objective measures for stan-
+dards and interoperability compliance. In addition, funding of “camps” or “product suites” that can be 
+marketed as integrated packages was suggested as a pragmatic way forward. This would be similar to 
+the lines of products from Apple or Microsoft, which have very little interoperability with each other, but 
+are highly integrated internally.
+5. Role of other stakeholders in health informatics standards uptake
+Each stakeholder has different priorities, incentives, and capacity with respect to standards and 
+interoperability. 
+Governments were considered to be the primary target for standards adoption efforts, as they are the 
+primary organizational beneficiaries of interoperable systems and they ultimately have the potential 
+to serve as gatekeepers for eHealth deployments within their health systems. Interviewees acknowl-
+edged that there are many obstacles to LMICs effectively adopting standards and interoperability best 
+practices. Specific obstacles included: a general dearth of experience and expertise with standards; 
+lack of prioritization and understanding of the need for standards; limited resources for standards 
+activities; under-empowered national standards bodies (if they exist at all); and little participation in 
+the international standards process. One government representative said:
+ I can’t overemphasize the need for governance, for eHealth strategy, standards, and 
+“implementation monitoring (compliance). That has been our greatest thorn here…This is where ministers (not abstract ministries) must take leadership (or must actively delegate) or else any eHealth governance activity will fizzle out…
+Several interviewees lauded the trend towards developing national eHealth strategies among” LMICs 
+with appropriate mention of standards and interoperability, but noted that many countries are strug-
+gling to operationalize these strategies due to the same issues listed above. While international efforts 
+to increase uptake of standards among LMICs will be helpful, several indicated that there is no replace-
+ment for national forums to make standards relevant to country efforts. Given the influence donors 
+have on national health systems, donors must align their activities and RFPs with countries’ actual 
+eHealth priorities.
+The technology developers and vendors tended to be very familiar with important information tech-
+nology standards, such as JSON, XML, or REST, but less familiar with health informatics standards, 
+even in cases where those standards are built off the same technology (i.e., JSON, XML, and REST). The 
+technology developers tend to be focused on a single platform, and, as one developer said, “standards 
+are only considered relevant when interfacing with another information system,” which is typically the 
+responsibility of the implementer or government, not the technology developer.
+Several informants noted that many of the interoperability issues are technologically simple, but that 
+there is no one directly funding it. Referring to designing an interface between mobiles and electronic 
+medical records, one developer commented that if a donor required it in order to apply for a RFP, or if it 
+were funded directly, “it could be ready in a month.” 
+    mHealth Alliance  March 2013 31
+Even if funding were available, the market incentives may encourage development of non-interoper-
+able systems. One informant noted:
+ As long as this is true that if I have more money and can go faster it will become a de facto 
+“standard, then those seeking market share or product stacks will have a disincentive to adopt.The competitive advantage to building proprietary systems may never go away, but governm”ents, 
+donors, and other payers have the ability to shift market dynamics in such a way that compliance is 
+rewarded, for example, by facilitating access to a larger customer base. In some cases, this actually 
+lowers risk for vendors—and implementers—by providing assurance of long-term market compatibility. 
+Implementers most frequently cited real world mHealth interoperability struggles, as they often have 
+the responsibility for making multiple systems work on the ground. Implementers have been quicker to 
+adopt innovative mHealth solutions than governments, which means they have felt the growing pains 
+of a nascent field. Implementers have also been among the first to adopt stan-
+dards and to work towards interoperable systems. Implementers 
+cited issues of insufficient capacity, lack of awareness of rele-
+vant standards for interoperation, limited mechanisms 
+to align technology approaches with government or 
+other local implementers, and inability to divert 
+limited grant funding towards development of 
+generic software interfaces. 
+academics and researchers noted that 
+the lack of common terminology and 
+interoperable systems was a key 
+obstacle in comparing results across 
+projects, thus limiting their ability 
+to perform evaluations. The paucity 
+of existing interoperable deploy-
+ments has prevented the evaluation 
+of the comparative effectiveness of 
+adopting health informatics standards. 
+Multinational organizations were most 
+concerned with aggregation of health 
+information from heterogeneous sources 
+and challenges of coordinating a large 
+community of diverse stakeholders.
+32 The State of Standards and Interoperability for mHealth among Low- and Middle-Income Countries
+Photo credit: Josh Nesbit
+Discussion of Gaps  
+and Opportunities
+the gaps and opportunities with respect to the use of standards to achieve 
+interoperable mHealth at scale can be categorized into five buckets: (1) Building 
+capacity and increasing standards access; (2) Filling in standards gaps for 
+LMICs; (3) LMIC engagement and mediation; (4) Promoting coordination and 
+alignment; and (5) Strengthening mHealth and eHealth governance.
+1. Building capacity and increasing standards access
+Building up of health informatics capacity and ensuring access to international standards are critical 
+components of an overarching strategy for the increased uptake of health informatics standards and 
+interoperability best practices. Each stakeholder involved in mHealth has capacity needs, but the 
+shortage is felt more acutely by LMIC governments and local implementers. Capacity can only be built 
+through a mix of short- and long-term efforts. 
+Establish formal health informatics training and education programs – The global eHealth community 
+can support institutionalization of health informatics programs at universities and technical colleges 
+within LMICs, and establish scholarships to degree-granting programs or certificate courses at foreign 
+institutions. Formal training programs can be supplemented by online eHealth technical training courses 
+around interoperability, standards, tools, implementation guides, case studies, etc. Education is a long-
+term approach. In the short-term, a mechanism for providing access to international health informatics 
+expertise could ameliorate the workforce shortage.
+Inform local decision and policy makers of the implications of adopting (or not adopting) standards and 
+interoperability best practices – While this constituency does not need technical standards training, 
+better information is needed about the costs, best practices, and governance of mHealth and eHealth 
+infrastructure. LMIC governments will need to prioritize national standardization and harmonization 
+activities, in part by empowering and funding national standards bodies. Decision makers also need 
+increased awareness of which standards can be employed for particular scenarios and guidance on 
+how to select between multiple options and adapt for local needs. Implementation guides will be a key 
+component of this, coupled with in-country workshops and regional events organized in collaboration 
+with the WHO, SDOs, and other key stakeholders. The WHO is pursuing a global resolution on health 
+information sharing and standards harmonization that will help guide policy makers in this process. 
+Improve donors and implementers’ ability to strategically invest in an interoperable health system – 
+Similar to local policy makers, donors, implementers and other stakeholders are also in need of additional 
+capacity in order to make more strategic investment decisions and to select appropriate standards and 
+platforms. Many of the same strategies can be used with this group.
+    mHealth Alliance  March 2013 33
+Photo credit: Josh Nesbit
+Empower local professionals and professional organizations – Professional organizations, such as IMIA, 
+play an important role in building and retaining local expertise. Road shows hosted in LMICs organized 
+in conjunction with a consortium of SDOs and professional organizations may be an important avenue 
+for linking to local industry.
+Address barriers to standards access – There is inadequate access among all stakeholders to infor-
+mation with respect to selection, adoption, deployment, and maintenance of standards. Part of this 
+issue can be solved by encouraging governments to provide actors within each of their countries with 
+national requirements, norms, and guidance for design and implementation of eHealth systems. Donors 
+should also provide similar guidance to their grantees. But before this guidance can be provided, certain 
+information gaps need to be filled. 
+A global, curated compendium of health informatics standards and implementation guides relevant 
+to LMICs would streamline access to additional information about standards. Additional implemen-
+tation guides tailored to LMIC use cases would provide clarity around the use of standards within 
+new contexts.
+Even with better information, certain standards are out of reach to certain stakeholders due to their 
+cost. The global community should advocate for other SDOs to follow HL7’s lead in open sourcing 
+their intellectual property and collaboratively explore the development of business models to support 
+ongoing SDO activities. Donors can also fund the development of open source software components of 
+specific standards and the tooling to facilitate their deployment. These components could be contrib-
+uted to the mHealth commons at no expense.
+2. Filling in standards gaps for adoption among LMICs
+Most existing health informatics standards can be repurposed without alteration in LMIC contexts, 
+although for some adaptation will be necessary. In addition, a limited number of new standards may 
+be needed to support unique LMIC requirements. There are three primary drivers of adaptation and 
+possible development of standards:
+1)  Limited bandwidth and infrastructure leading to power fluctuations and intermittent cellular 
+connectivity may require lighter-weight and more reliable transmission protocols.
+2)  The use of insecure and technically limited messaging interfaces, especially SMS and USSD, to 
+communicate with patients, health workers, or information systems may require new methods for 
+securing, verifying, and efficiently transmitting data and protecting patient privacy.
+3)  The shift to non-clinical and community-based workers has revealed gaps in standardized termi-
+nology to represent community-based care, especially in rural settings, and presents unique 
+challenges in terms of connecting systems to enable continuity of care.
+34 The State of Standards and Interoperability for mHealth among Low- and Middle-Income Countries
+As noted in the interviews, standards adaptation and development must be guided by a mHealth refer-
+ence architecture developed by a consensus process among SDOs. The reference architecture will 
+describe the functional components of a mHealth ecosystem that links into existing functional models, 
+such as the Electronic Health Record profile, and will comprehensively represent relevant use cases and 
+scenarios. This work is already underway among newly created mHealth Working Groups within several 
+SDOs, but there are areas where contributions from the global community are needed. Descriptions of 
+existing national eHealth architectures, compilation of existing mHealth projects and their business 
+requirements and use cases, and a more comprehensive understanding of the use of existing stan-
+dards and their gaps will help inform the development of an overarching mHealth functional model. The 
+following snapshot represents several use cases unique to projects in LMICs that merit integration into 
+such an architecture:
+•  Use of short messaging service (SMS) for automated alerts, querying of patient information, 
+patient registration, and other basic health services
+• Use of SMS and Interactive Voice Response (IVR) to contact clients regarding appointment and 
+medication reminders and lab results
+• Use of SMS printers or other cellular connected devices to facilitate ancillary health system 
+services
+• Use of voice calls and SMS to send information for supply chain and inventory management
+• Phone-based decision support protocol that guides an auxiliary nurse midwife through provision 
+of antenatal care in a pregnant woman’s home
+ISO TR 14639 Capacity-based eHealth Roadmap provides an important reference point for national 
+health information systems by documenting the national health information system architectures 
+employed in five different countries. It also contains a list of standards most relevant to such systems. 
+Part 2 of this standard, expected in early 2013, will describe a maturity model for use of standards at 
+low, middle, and high levels of maturity.
+The standards development community is engaged in the ongoing evolution and development of stan-
+dards for vocabulary, content exchange, transport, privacy, and security with respect to eHealth. It will 
+also be necessary to add new terminology for requirements that are unique to the developing world, in 
+particular to accommodate the significant shift towards nonclinical and community-based workers. For 
+example, there is currently no standardized way to capture the number of nights that the members of 
+a family slept under a treated bed net in a given period of time.
+While not a technical specification, the standards community also develops implementation guides, 
+which describe the application of one or more standards to a use case and set of business requirements 
+that is in agreement the relevant reference architectures. An example of this is the IHE Pharmacy 
+Profile. These guides are a critical part of ensuring that implementers employ the right standards and 
+that governments ensure they are meeting service delivery requirements. The global health community 
+should fund and coordinate with SDOs the development of implementation guides applicable to the 
+implementation and integration of mHealth among LMICs.
+    mHealth Alliance  March 2013 35
+3. LMIC engagement and mediation
+The end goal with respect to the standardization gap is for LMICs to establish national health stan-
+dards bodies and to become active participants in the international standards development process. 
+Their current lack of representation among SDOs means that LMICs do not have the opportunity to 
+contribute their requirements to standards as they are developed and that they do not have the benefit 
+of learning from people around the world struggling with similar health system challenges. A multi-
+faceted approach is needed to ensure that standards are applicable to LMICs and that LMICs begin 
+the long process of establishing national bodies in order to be represented in the international 
+standards process:
+•  The WHO and other multi-national institutions, donors, and implementers have significant expe-
+rience working in LMICs and can collate and represent LMIC requirements to SDOs. The global 
+community can also support the attendance of LMIC representatives to SDO meetings and tech-
+nical working groups.
+• Regional eHealth standardization collaboratives, established by local governments in partner-
+ship with academic institutions, private sector, SDOs, and other international organizations, can 
+serve as a mechanism for joint regional learning, engagement with the international standards 
+community, and can act as a valuable step on the way towards forming national standards bodies.
+4. Promoting coordination and alignment
+Lack of alignment and the need for regularly structured opportunities to coordinate efforts were 
+common themes during interviews and in the literature. Some mechanisms for coordination and align-
+ment already exist, such as the Joint Initiative Council for harmonization of standards activities among 
+SDOs. Additional mechanisms are needed to broker the social and institutional relationships needed for 
+interoperability among and between other stakeholder types. 
+In particular, there is a great need to align donor investments with eHealth standards endorsed by 
+multi-national organizations and SDOs, as well as with the national eHealth strategies of the countries 
+within which they are funding implementations. Donors are also in need of a mechanism to facilitate 
+coordination of strategies and collaboration on interoperable health reporting systems, and to leverage 
+investments into common eHealth and mHealth platforms. Empowering or establishing regional stan-
+dards collaboratives, as described above, or other mechanisms are needed for LMIC stakeholders to 
+engage with SDOs, to convey unique requirements, and to increase participation in standards develop-
+ment activities.
+Given the influential role that donors play in shaping local eHealth deployments, they represent an 
+important conduit through which governments and implementers can be encouraged and incentivized 
+to adopt platforms and practices that comply with a minimum set of interoperability requirements. The 
+WHO is currently developing Donor Alignment Principles, which are a set of high-level principles to 
+36 The State of Standards and Interoperability for mHealth among Low- and Middle-Income Countries
+provide guidance for eHealth harmonization and standardization. Taking that effort one step further, 
+donors could quickly endorse use of standards by adopting standards, interoperability and data access 
+requirements in their grant requirements. Independent certification, e.g., mHealth Interoperability 
+Certification, would provide an objective measure of standards compliance and can instill market 
+confidence in a platform. Different levels of certification may be appropriate to support, for example, a 
+system that exposes its data via standard APIs but does not comply with the full reference architecture. 
+Donors could require or favor certification in RFPs and governments could require or favor certification 
+in local implementations to incentivize adoption by vendors and implementers. Certification require-
+ments would also serve as a guide for future platform development and interoperability efforts.
+Certain high-profile events and awards may also encourage the technical community to adopt stan-
+dards and interoperability best practices. For example, the “Best of mHealth Interop Award”65 could be 
+given in conjunction with periodic “Hackers Workshops” or “Connect-athons”, such as the HIMSS IHE 
+Connect-a-thon. These can be tied on to other major events, such as the mHealth Summit. Competitions 
+could be held to compete for micro-grants to build interfaces for key integration points identified by a 
+set of global health partners.
+5. Strengthening mHealth and eHealth governance
+Even though national eHealth strategies themselves are often strong, operationalization and gover-
+nance of the policies have proven challenging. As mobile health systems move towards scale, existing 
+guidelines and strategies will need to be revised to reflect new demands across all categories of gover-
+nance. The framework in ISO TR 14639 Capacity-based eHealth Roadmap identified six categories 
+of eHealth governance: (1) Executive sponsorship; (2) National leadership of eHealth program; (3) 
+eHealth standards adoption and implementation; (4) Development of eHealth capability and capacity 
+(5) eHealth financing and performance management; and (6) eHealth planning and architecture mainte-
+nance. Regulations regarding standards adoption and interoperability of mHealth and eHealth systems 
+will play a key role in shifting market dynamics to favor interoperability. Such regulations should be 
+developed carefully to ensure that they do not reduce innovation, but rather shift innovation towards 
+increasing continuity of care for patients. National interoperability efforts will be strengthened if 
+coupled with shared facilities for compliancy testing and technical assistance to adopt and adhere to 
+standards and interoperability guidelines.
+An international agreement with key stakeholders could provision the development of governance 
+guidelines and support operationalization of eHealth Strategies across the six categories of ISO TR 
+14639, while building off the recommendations of the WHO-ITU National eHealth Strategy Toolkit. 
+Workshops and networks between candidate LMIC organizations and governments to facilitate organi-
+zational interoperability and experience sharing could support operationalization and capacity building. 
+    mHealth Alliance  March 2013 37
+Conclusion
+Improving adoption of health informatics standards in support of interoperable mHealth tools at scale is 
+a complex and long-term process and there is no silver bullet solution. The following three crosscutting 
+recommendations are intended to frame subsequent dialogue around near-term opportunities for the 
+global community to address these challenges in a more coordinated fashion:
+1. Shift market dynamics to incentivize interoperability – Existing market dynamics do not 
+penalize and even reward the use of proprietary and non-interoperable systems. This is caused 
+by many factors, including lack of funding and limited guidance for standards compliance, and, 
+in some cases, legitimate competitive interests. Governments, through leadership and regula-
+tory mechanisms, play the biggest role in shifting market dynamics to encourage interoperable 
+systems. Donors have the opportunity to accelerate the market shift through strategic invest-
+ments that require an appropriate level of standards compliance for grantees, through a 
+certification process. Technology partners will bear the lion’s share of the technical burden for 
+developing standards-based software components, but the burden can be lowered through a 
+transparent, participatory regulatory process and incentivized through increased market access 
+and reduced market risk. Lowering the cost of standards adoption and adaptation will reduce 
+market disincentives. This can be done through developing implementation guides and domain 
+profiles, funding the development of reusable open-source software implementations of stan-
+dards, and providing technical assistance and resources at the national and international level 
+for selection, adaptation, and adoption of standards.
+2. align with national eHealth strategies – National eHealth strategies provide a country-specific 
+framework for the harmonization of mobile and electronic health within a country in a strategic 
+and sustainable fashion. Alignment with the strategy provides a clear roadmap to scale and 
+compatibility with the national information systems. Investments and implementations that do 
+not align with the national strategy risk increased health system fragmentation, reduced local 
+buy-in, lack of interoperability, shortened product lifespan, and, ultimately, reduced impact. 
+A broad assessment of national eHealth strategies that builds off existing case studies and 
+inventories performed by the WHO, ISO, and others, will be an important first step in assisting 
+stakeholders in identifying steps needed to align with local requirements.
+3. establish regional eHealth standardization collaboratives – Regional eHealth Standardization 
+Collaboratives will allow governments and local stakeholders to pool resources and expertise, 
+to make national and regional standards recommendations, to facilitate shared learning, and 
+to serve as a focal point for capacity building activities and for interacting with international 
+standards organizations. The collaborative would be a resource for organizations implementing 
+mobile and electronic health tools within the region. When countries are prepared, the collabora-
+tive would also serve as a launching pad for establishing national standards bodies.
+38 The State of Standards and Interoperability for mHealth among Low- and Middle-Income Countries
+mHealth is still in its early stages and very few implementations have moved past the pilot phase. As 
+more and more deployments are scaled up, interoperability between these systems and the broader 
+health information system will become essential in order for health data to be made available to the 
+right person, at the right place and time. While health informatics standards are fundamental to enabling 
+interoperability and continuity of care, both are ultimately a reflection of human institutions and their 
+resulting processes. Standards are an essential building block, but it is up to governments, vendors, 
+donors, and implementers to build an enabling environment that incentivizes the use of standards-based 
+technologies to strengthen health systems and to improve health outcomes for those most in need. 
+    mHealth Alliance  March 2013 39
+Photo credit: United Nations, Albert Gonazalez Farran
+40 The State of Standards and Interoperability for mHealth among Low- and Middle-Income Countries
+Photo credit: United Nations, Stuart Price
+aPPenDIx a – Key InFOrMan  InterVIeW LISt
+ name Organization Country
+1 Alex Pavluck Task Force for Global Health United States
+2 Alvin Marcelo Philippine Health Insurance Corporation Philippines
+3 Andrew Grant Sherbrooke University Canada
+4 Bart Stidham Thoughtworks United States
+5 Beatriz de Faria Leao Consultant Brazil
+6 Bob Jolliffe Consultant Ireland
+7 Catherine Chronaki HL7 International Greece
+8 Catherine Omaswa eHealth Society of Uganda Uganda
+9 Chris Bailey World Health Organization Switzerland
+10 Chris Seebregts Jembi Health Systems South Africa
+11 Chuck Parker Continua Health Alliance United States
+12 Craig Frederichs GSMA South Africa
+13 Darius Jazayeri OpenMRS United States
+14 David Hutchful Grameen Ghana
+15 Derek Ritz Consultant Canada
+16 Erica Kochi UNICEF United States
+17 Frederick Kristensen NORAD Norway
+18 Fredrik Winsnes NetHope United States
+19 Hamish Fraser Harvard Medical School United States
+20 Hani Eskandar ITU Switzerland
+21 Jeff Wishnie Thought Works United States
+22 Joaquin Blaya eHealth Systems Chile
+23 John Ritter HL7 International United States
+24 Jonathan Jackson Dimagi United States
+25 Karl Brown Rockefeller Foundation United States
+26 Kelly Keisling NetHOPE United States
+27 Liz Peloso Consultant Canada
+28 Matt Berg Earth Institute United States
+29 Michael Kleeman University of California, Davis United States
+30 Najeeb Al-Shorbaji World Health Organization Switzerland
+31 Neal Lesh Dimagi United States
+32 Ramesh Krishnamurthy World Health Organization Switzerland
+33 Richard Gakuba Government of Rwanda Rwanda
+    mHealth Alliance  March 2013 41
+Photo credit: United Nations, Stuart Price
+    reFerenCeS
+1 Mechael, P. et al. Barriers 20 Ed Larson, HIMSS Insider, May 2005. (pulled from HL7, 
+and Gaps Affecting mHealth in Low and Middle Income Coming to Terms, February 2007)
+Countries. 2010. 21 HIMSS. “HIMSS Dictionary of Healthcare Information 
+2 Global Observatory for eHealth. “Global Observatory Technology Terms, Acronyms and Organizations.” 
+for eHealth series – Volume 3: mHealth: New horizons Healthcare Informatics Information Systems Society, 2006.
+for health through mobile technologies.” World Health 22 Health Level 7, EHR Interoperability Working Group. 
+Organization. June 2011. Coming to Terms: Scoping Interoperability for Health 
+3 ITU-T. “Bridging the standardization gap – ITU-T Care. February 7, 2007.
+Research Project: Measuring and Reducing the 23 John Palfrey, Urs Gasser. Interop: The Promise and 
+Standardization Gap.” ITU. 4 December 2009. Perils of Highly Interconnected Systems. Basic Books, 
+4 WHO-ITU National eHealth Strategy Toolkit. June 2012. New York. 2012.
+5 mHealth Alliance Business Plan 24 Wozak F, Ammenwerth E, Hörbst A, Sögner P, Mair 
+6 ISO Technical Committee 215 Health informatics. R, Schabetsberger T. “IHE based interoperability - 
+Accessed October 2012: http://www.iso.org/iso/iso_ benefits and challenges.” Stud Health Technol Inform. 
+technical_committee?commid=54960. 2008;136:771-6.
+7 Global Observatory for eHealth. “Global Observatory 25 ISO Technical Report (TR) 14639-1 – Capacity-based 
+for eHealth series – Volume 1: Atlas – eHealth country eHealth Architecture roadmap – Part 1: Overview of 
+profiles.” World Health Organization. Dec 2010. national eHealth initiatives.
+8 Global Observatory for eHealth. “Global Observatory 26 Philbrick, William. “mHealth and MNCH: State of the 
+for eHealth series – Volume 2: Telemedicine – Evidence.” mHealth Alliance. June 2012. 
+Opportunities and developments in Member States.” 27 Marcelo, A., Adejumo, A., Luna, D. “Health Informatics 
+World Health Organization. Jan 2011. for Development: a Three-pronged Strategy 
+9 Global Observatory for eHealth. “Global Observatory for of Partnerships, Standards, and Mobile Health. 
+eHealth series – Volume 4: Safety and security on the Contribution of the IMIA Working Group on Health 
+Internet: challenges and advances in Member States.” Informatics for Development.” Yearb Med Inform. 
+World Health Organization. Dec 2011. 2011;6(1):96-101.
+10 Global Observatory for eHealth. “Global Observatory 28 Garg V, Brewer J. Telemedicine security: a systematic 
+for eHealth series – Volume 5: Legal frameworks for review. J Diabetes Sci Technol. 2011 May 1;5(3):768-77. 
+eHealth.” World Health Organization. Feb 2012. Review.
+11 Global Observatory for eHealth. “Global Observatory 29 Ludwig W, Wolf KH, Duwenkamp C, Gusew N, Hellrung 
+for eHealth series – Volume 6: Management of patient N, Marschollek M, Von Bargen T, Wagner M, Haux R. 
+information: trends and challenges in Member States.” “Health information systems for home telehealth 
+World Health Organization. Nov 2012. services--a nomenclature for sensor-enhanced  
+12  World Health Assembly – Resolutions and Decisions. transinstitutional information system architectures.” 
+“WHA58.28. – eHealth.” World Health Organization. Inform Health Soc Care. 2010 Sep-Dec;35(3-4):211-25.
+May 2005. 30 Margolis A, Bessonart L, Barbiel A, Pazos P, Gil J, 
+13  Regional Committee for Africa. “AFR/RC60/WP/3 Machado H, Vero A. “A countrywide clinical informatics 
+– eHealth Solutions in the African Region: Current project in Uruguay.” Stud Health Technol Inform. 
+Context and Perspectives.” World Health Organization 2010;160(Pt 1):391-5.
+Africa. June 2010. 31  Puustjärvi J, Puustjärvi L. “Personal Health Ontology: 
+14 “Opportunities for innovation in information and towards the interoperation of e-health tools.” Int J 
+communications technology.” Commission on Electron Healthc. 2011;6(1):62-75.
+Information and Accountability for Women’s and 32 Liu WL, Zhang K, Locatis C, Ackerman M. Internet-
+Children’s Health. 2012. Access September 2012: based videoconferencing coder/decoders and tools for 
+http://www.who.int/topics/millennium_devel- telemedicine. Telemed J E Health. 2011 Jun;17(5):358-
+opment_goals/accountability_commission/ 62. Epub 2011 May 12.
+ICT_for_Accountability.pdf. 33 Klein A, Ganslandt T, Brinkmann L, Spitzer M, Ueckert 
+15 International Standards Organization. Accessed F, Prokosch HU. “Experiences with an interoperable 
+January 2013: http://www.iso.org/iso/home/standards.htm. data acquisition platform for multi-centric research 
+16 ISO TC 215 Health Informatics Subcommittees/Working networks based on HL7 CDA.” AMIA Annu Symp Proc. 
+Groups. Accessed October 2012: http://www.iso.org/ 2006:986.
+iso/iso_technical_committee?commid=54960#structure. 34 De Toledo, P., Lalinde, W., Del Pozo, F., Thurber, D., 
+17 Data from ISO website. Accessed September 2011. Jimenez-Fernandez, S. “Interoperability of a mobile 
+18 Data from IMIA website. Accessed September 2011. health care solution with electronic healthcare 
+19 Bernie Monegain, “HL7 to make standards avail- record systems.” Conf Proc IEEE Eng Med Biol Soc. 
+able for free for public good.” Healthcare IT News, 2006;1:5214-7.
+September 5, 2012. Access October 2012: http://www. 35 Huang, E.W., Hung, R.S., Chiou, S.F., Liu, F.Y., Liou, D.M. 
+healthcareitnews.com/news/hl7-make-standards- “Design and development of a tele-healthcare informa-
+available-free-public-good?topic=08,17. tion system based on web services and HL7 standards.” 
+Adv Exp Med Biol. 2011;696:599-606.
+42 The State of Standards and Interoperability for mHealth among Low- and Middle-Income Countries
+36 Constantinescu L, Kim J, Feng DD. SparkMed: a  51 Song B, Marschollek M, Wolf KH, Gietzelt M, Franken T, 
+framework for dynamic integration of multimedia Haux R. “A home-centered ICT architecture for health-
+medical data into distributed m-Health systems. IEEE enabling technologies.” Stud Health Technol Inform. 
+Trans Inf Technol Biomed. 2012 Jan;16(1):40-52. Epub 2010;160(Pt 1):48-52.
+2011 Oct 28. 52 Chen SK, Kao T, Chan CT, Huang CN, Chiang CY, Lai CY, 
+37 Luxton, D.D., Kayl, R.A., Mishkind, M.C. “mHealth data Tung TH, Wang PC. A reliable transmission protocol for 
+security: the need for HIPAA-compliant standardiza- ZigBee-based wireless patient monitoring. IEEE Trans 
+tion.” Telemed J E Health. 2012 May;18(4):284-8. Epub Inf Technol Biomed. 2012 Jan;16(1):6-16. Epub 2011 Oct 13.
+2012 Mar 8. 53 Jovanov, E. “Wireless Technology and System 
+38 Pharow, P., Blobel, B. “Mobile health requires mobile Integration in Body Area Networks for m-Health 
+security: challenges, solutions, and standardization.” Applications.” Conf Proc IEEE Eng Med Biol Soc. 
+Stud Health Technol Inform. 2008;136:697-702. 2005;7:7158-60.
+39 Koster P, Asim M, Petkovic M. End-to-end security  54 Mense A, Sauermann S, Gerbovic G, Frohner M, Pohn 
+for personal telehealth. Stud Health Technol Inform. B, Bruckner R, Urbauer P, Eckkrammer F, Wahl H. 
+2011;169:621-5. “Usage of international standards for integrating 
+40 Savastano M, Hovsto A, Pharow P, Blobel B. “Identity- extramural monitoring and personal health device data 
+management factors in e-health and telemdicine into medical information infrastructure.” Stud Health 
+applications.” J Telemed Telecare. 2008;14(7):386-8. Technol Inform. 2010;160(Pt 1):550-3.
+41 Kun L, Coatrieux G, Quantin C, Beuscart R, Mathews 55 Chen, C., Haddad, D., Selsky, J., Hoffman, J.E., Kravitz, 
+R. “Improving outcomes with interoperable EHRs and R.L. Estrin, D.E., Sim, I. “Making sense of mobile health 
+secure global health information infrastructure.”  data: an open architecture to improve individual- and 
+Stud Health Technol Inform. 2008;137:68-79. population-level health.” J Med Internet Res. 2012  
+42 Rojo MG, Daniel C, Schrader T. Standardization efforts Aug 9;14(4):e112.
+of digital pathology in Europe. Anal Cell Pathol (Amst). 56 Vergari F, Salmon Cinotti T, D’Elia A, Roffia L, Zamagni 
+2012;35(1):19-23. G, Lamberti C. “An integrated framework to achieve 
+43 Blobel B. “Advanced and secure architectural EHR interoperability in person-centric health management.” 
+approaches.” Int J Med Inform. 2006 Mar-Apr;75(3- Int J Telemed Appl. 2011;2011:549282. Epub 2011 Jul 24.
+4):185-90. Epub 2005 Aug 19. 57 Kolovou L, Karavatselou E, Lymberopoulos D. 
+44 Tang FH, Law MY, Lee AC, Chan LW. “A mobile phone “Reference implmentation model for Medical 
+integrated health care delivery system of medical Information Systems’ interoperability.” Conf Proc  
+images.” J Digit Imaging. 2004 Sep;17(3):217-25. Epub IEEE Eng Med Biol Soc. 2008;2008:1510-3.
+2004 Aug 3. 58 Mechael, P., Nemser, B., Cosmaciuc, R., Cole-Lewis, 
+45 Trigo JD, Chiarugi F, Alesanco A, Martínez-Espronceda H., Ohemeng-Dapaah, S., Dusabe, S., Kaonga, N.N., 
+M, Serrano L, Chronaki CE, Escayola J, Martínez I, García Namakula, P., Shemsanga, M., Burbach, R., Kanter,  
+J. “Interoperability in digital electrocardiography: A.S. “Capitalizing on the characteristics of mHealth  
+harmonization of ISO/IEEE x73-PHD and SCP-ECG.” to evaluate its impact.” J Health Commun. 2012;17 
+IEEE Trans Inf Technol Biomed. 2010 Nov;14(6):1303-17. Suppl 1:62-6.
+Epub 2010 Aug 9. 59 Bescos C, Schmitt D, Kass J, García-Barbero M, 
+46 Martinez I, Escayola J, Martinez-Espronceda M, Kantchev P. “Interoperability and HealthGRID.” 
+Serrano L, Trigo JD, Led S, Garcia J. “Implementation Methods Inf Med. 2005;44(2):190-2.
+experiences of ISO/IEEE11073 standard applied to new 60 Akter, S., Ray, P. “mHealth - an Ultimate Platform to 
+use cases for e-health environments.” Conf Proc IEEE Serve the Unserved.” yearb Med Inform. 2010:94-100.
+Eng Med Biol Soc. 2009;2009:1679-82. 61 Craft, R.L. “Toward technical interoperability in tele-
+47 Clarke, M. “Developing a standard for personal health medicine.” Telemed J E Health. 2005 Jun;11(3):384-404.
+devices based on 11,073.” Stud Health Technol Inform. 62 Gerber, T., Olazabal, V. Brown, K., Pablos-Mendez, A. 
+2008;136:717-22. “An agenda for action on global e-health.” Health Aff 
+48 Hu, F., Hao, Q., Lukowiak, M., Sun, Q., Wilhelm, K., (Millwood). 2010 Feb;29(2):233-6.
+Radziszowski, S., Wu, Y. “Trustworthy data collection 63 Norgall, T. “Interoperability--a key infrastructure 
+from implantable medical devices via high-speed  requirement for personalised health services.” Stud 
+security implementation based on IEEE 1363.” IEEE Health Technol Inform. 2005;117:125-33.
+Trans Inf Technol Biomed.” 201 Nov;14(6):1397-404. 64 Ackerman MJ, Filart R, Burgess LP, Lee I, Poropatich 
+Epub 2010 Apr 26. RK. “Developing next-generation telehealth tools and 
+49 Istepanian RS, Hu S, Philip NY, Sungoor A. The potential technologies: patients, systems, and data perspec-
+of Internet of m-health Things “m-IoT” for non-invasive tives.” Telemed J E Health. 2010 Jan-Feb;16(1):93-5.
+glucose level sensing. Conf Proc IEEE Eng Med Biol 65 See Best of Interop 2012 Awards: www.bestofinterop.com
+Soc. 2011;2011:5264-6.
+50 García-Sáez G, Hernando ME, Martínez-Sarriegui I, 
+Rigla M, Torralba V, Brugués E, de Leiva A, Gómez EJ. 
+“Architecture of a wireless Personal Assistant for 
+telemedical diabetes care.” Int J Med Inform. 2009 
+Jun;78(6):391-403. Epub 2009 Jan 21.
+    mHealth Alliance  March 2013 43
+Photo credit: United Nations, Stuart Price
+    mHealth Alliance  March 2013 45
+

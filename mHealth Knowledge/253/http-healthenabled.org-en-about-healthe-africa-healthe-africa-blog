@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="shortcut icon" href="http://healthenabled.org/wordpress/wp-content/themes/healthenabled/favicon.png" />
+
+<script src="https://use.typekit.net/qqs1yan.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+<title>HealthE Africa | HealthEnabled</title>
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//secure.gravatar.com' />
+<link rel='dns-prefetch' href='//use.fontawesome.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="HealthEnabled &raquo; Feed" href="http://healthenabled.org/wordpress/feed/" />
+<link rel="alternate" type="application/rss+xml" title="HealthEnabled &raquo; Comments Feed" href="http://healthenabled.org/wordpress/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/healthenabled.org\/wordpress\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.11"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='gtranslate-style-css'  href='http://healthenabled.org/wordpress/wp-content/plugins/gtranslate/gtranslate-style24.css?ver=4.9.11' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='http://healthenabled.org/wordpress/wp-includes/css/dashicons.min.css?ver=4.9.11' type='text/css' media='all' />
+<link rel='stylesheet' id='theme-my-login-css'  href='http://healthenabled.org/wordpress/wp-content/plugins/theme-my-login/theme-my-login.css?ver=6.4.10' type='text/css' media='all' />
+<link rel='stylesheet' id='healthenabled-bootstrap-css'  href='http://healthenabled.org/wordpress/wp-content/themes/healthenabled/css/bootstrap.min.css?ver=4.9.11' type='text/css' media='all' />
+<link rel='stylesheet' id='healthenabled-style-css'  href='http://healthenabled.org/wordpress/wp-content/themes/healthenabled/style.css?ver=4.9.11' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='http://healthenabled.org/wordpress/wp-content/plugins/jetpack/css/jetpack.css?ver=6.6.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://healthenabled.org/wordpress/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://healthenabled.org/wordpress/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://healthenabled.org/wordpress/wp-content/themes/healthenabled/js/modernizr.min.js?ver=20170306'></script>
+<link rel='https://api.w.org/' href='http://healthenabled.org/wordpress/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://healthenabled.org/wordpress/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://healthenabled.org/wordpress/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.9.11" />
+<link rel='shortlink' href='https://wp.me/PalRtY-k' />
+<link rel="alternate" type="application/json+oembed" href="http://healthenabled.org/wordpress/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fhealthenabled.org%2Fwordpress%2Fhealthe-africa%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://healthenabled.org/wordpress/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fhealthenabled.org%2Fwordpress%2Fhealthe-africa%2F&#038;format=xml" />
+	<link rel="canonical" href="http://healthenabled.org/wordpress/healthe-africa/" />
+	<meta name="description" content="HealthE Africa is a pan-African peer-assistance networking initiative undertaken in partnership with Knowledge for Health (K4Health), with support from ..." />
+
+<link rel='dns-prefetch' href='//v0.wordpress.com'/>
+<style type='text/css'>img#wpstats{display:none}</style>		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="HealthE Africa" />
+<meta property="og:url" content="http://healthenabled.org/wordpress/healthe-africa/" />
+<meta property="og:description" content="HealthE Africa is a pan-African peer-assistance networking initiative undertaken in partnership with Knowledge for Health (K4Health), with support from USAID, to raise the visibility of digital hea…" />
+<meta property="article:published_time" content="2017-03-06T20:15:02+00:00" />
+<meta property="article:modified_time" content="2018-05-24T11:52:51+00:00" />
+<meta property="og:site_name" content="HealthEnabled" />
+<meta property="og:image" content="https://s0.wp.com/i/blank.jpg" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:text:title" content="HealthE Africa" />
+<meta name="twitter:card" content="summary" />
+
+<!-- End Jetpack Open Graph Tags -->
+
+<script type="text/javascript">
+	function imgLoaded(img){
+	    var imgWrapper = img.parentNode;
+	    imgWrapper.className += imgWrapper.className ? ' loaded' : 'loaded';
+	};
+</script>
+</head>
+
+<body class="page-template page-template-page-healthe-africa page-template-page-healthe-africa-php page page-id-20 page-healthe-africa group-blog">
+<div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+	<header id="masthead" class="site-header container-fluid" role="banner">
+		<div class="row row-fixed">
+			<div class="site-branding col-9 col-sm-4">
+									<p class="site-title"><a href="http://healthenabled.org/wordpress/" rel="home"><img class="site-logo" src="http://healthenabled.org/wordpress/wp-content/themes/healthenabled/assets/healthenabled_logo_primary.png"></a></p>
+							</div><!-- .site-branding -->
+
+			<nav id="site-navigation" class="main-navigation hidden-md-down col-8" role="navigation">
+				<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">Primary Menu</button>
+				<div class="menu-menu-1-container"><ul id="primary-menu" class="menu"><li id="menu-item-179" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-179"><a href="http://healthenabled.org/wordpress/about-us/">About</a></li>
+<li id="menu-item-180" class="bg-purple menu-item menu-item-type-post_type menu-item-object-page menu-item-180"><a href="http://healthenabled.org/wordpress/projects/">Projects</a></li>
+<li id="menu-item-184" class="bg-pink menu-item menu-item-type-post_type menu-item-object-page menu-item-184"><a href="http://healthenabled.org/wordpress/expert-network/">Expert Network</a></li>
+<li id="menu-item-183" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-20 current_page_item menu-item-183"><a href="http://healthenabled.org/wordpress/healthe-africa/">HealthE Africa</a></li>
+<li id="menu-item-182" class="bg-purple menu-item menu-item-type-post_type menu-item-object-page menu-item-182"><a href="http://healthenabled.org/wordpress/resources/">Resources</a></li>
+<li id="menu-item-181" class="bg-pink menu-item menu-item-type-post_type menu-item-object-page menu-item-181"><a href="http://healthenabled.org/wordpress/news/">News</a></li>
+</ul></div>			</nav><!-- #site-navigation -->
+
+			<div class="hidden-lg-up col" id="mobile-site-navigation">
+				<div id="toggle--mobile-nav">
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<nav class="mobile-main-navigation" role="navigation">
+					<div class="menu-mobile-menu-container"><ul id="mobile-menu" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-179"><a href="http://healthenabled.org/wordpress/about-us/">About</a></li>
+<li class="bg-purple menu-item menu-item-type-post_type menu-item-object-page menu-item-180"><a href="http://healthenabled.org/wordpress/projects/">Projects</a></li>
+<li class="bg-pink menu-item menu-item-type-post_type menu-item-object-page menu-item-184"><a href="http://healthenabled.org/wordpress/expert-network/">Expert Network</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-20 current_page_item menu-item-183"><a href="http://healthenabled.org/wordpress/healthe-africa/">HealthE Africa</a></li>
+<li class="bg-purple menu-item menu-item-type-post_type menu-item-object-page menu-item-182"><a href="http://healthenabled.org/wordpress/resources/">Resources</a></li>
+<li class="bg-pink menu-item menu-item-type-post_type menu-item-object-page menu-item-181"><a href="http://healthenabled.org/wordpress/news/">News</a></li>
+</ul></div>				</nav><!-- #site-navigation -->
+			</div>
+		</div>
+	</header><!-- #masthead -->
+
+	<div id="content" class="site-content container-fluid">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+			
+<article id="post-20" class="post-20 page type-page status-publish hentry">
+	<header class="entry-header row">
+		<div class='entry-header-bg load-image'>
+			<img class="bg_cache" src="http://healthenabled.org/wordpress/wp-content/themes/healthenabled/assets/healthenabled_bg_blue.jpg" onload="imgLoaded(this)" />
+		</div>
+		<div class="col">
+			<div class="row row-fixed">
+				<div class="breadcrumbs col-12" typeof="BreadcrumbList" vocab="https://schema.org/">
+					<!-- Breadcrumb NavXT 6.0.4 -->
+<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to HealthEnabled." href="http://healthenabled.org/wordpress" class="home"><span property="name">HealthEnabled</span></a><meta property="position" content="1"></span> &gt; <span property="itemListElement" typeof="ListItem"><span property="name">HealthE Africa</span><meta property="position" content="2"></span>				</div>
+				<div class="col-12">
+					<h1 class="entry-title">HealthE Africa</h1>				</div>
+			</div>
+		</div>
+	</header><!-- .entry-header -->
+
+	<div class="page-content row row-fixed">
+		<div class="page-intro col-12 col-md-8">
+			<div class="page-section">
+				<p>HealthE Africa is a pan-African peer-assistance networking initiative undertaken in partnership with Knowledge for Health (K4Health), with support from USAID, to raise the visibility of digital health needs, experts and projects on the continent. The initiative has been designed to meet the needs of digital health on the continent, connecting programme needs with African technology experts and service providers and fostering an environment for sharing and learning. In particular, the initiative seeks to:</p>
+<ul>
+<li><strong>Build an understanding of the digital health context in each country</strong></li>
+<li><strong>Create and strengthen networks</strong></li>
+<li><strong>Build capacity</strong></li>
+<li><strong>Develop tools and resources</strong></li>
+</ul>
+<p>If you are interested or working on digital health on the continent, we welcome you to join the Health E Africa community and dialogue. Together we build digital health capacity in Africa.</p>
+<p><img class="alignnone size-full wp-image-1314" src="http://healthenabled.org/wordpress/wp-content/uploads/2018/02/USAID-e1517498567272.jpg" alt="" width="261" height="90" />      <img class="alignnone size-full wp-image-1313" src="http://healthenabled.org/wordpress/wp-content/uploads/2018/02/K4Health-e1517498537770.jpg" alt="" width="291" height="90" /></p>
+			</div>
+		</div>
+		<div class="col-12 col-md-4">
+			<div class="side-nav bg-blue">
+				<h4>HealthE Africa Newsletter</h4>
+				<p><strong>The East African Health Research Commission (EAHRC)</strong></p>
+<p>The East African Health Research Commission (EAHRC) is an institution of the East African Community. The EAHRC is hosting a conference in Kampala to deliberate on the roadmap for digital health in the region. Among the issues being discussed are government policy, technical interoperability, data privacy and security, cross-border issues, the role of the public and private sectors.</p>
+<p>For Webinar Recording Reporting on East African Digital Health Road Map click <a href="https://webinar.com/channel/dfeb4171204c47678cbe7c8c7a5024a5" target="_blank" rel="noopener">here</a>.</p>
+<p>Want to stay current on digital health news, events and programmes on the continent? <a href="http://eepurl.com/b4txq5" target="_blank" rel="noopener">Sign up</a> for the HealthE Africa “Monthly Digital Health Digest”.</p>
+<p>You can also access past issues <a href="http://us13.campaign-archive1.com/home/?u=11df436113f04dd88026b3b6c&amp;id=29432390ee" target="_blank" rel="noopener">here</a>.</p>
+			</div>
+		</div>
+		<div class="col-12">
+			<div class="page-section projects-current">
+				<div class="card-section healthe-africa-cards row">
+
+					
+					
+						<div class="col-12">
+							<h2 class="color-blue">Country Dashboards</h2>
+						</div>
+
+						<!-- the loop -->
+						
+							<div class="col-12 col-md-4">
+								<div class="card">
+									<div class="img-featured" style="background-image: url('http://healthenabled.org/wordpress/wp-content/uploads/2017/03/kenya_country_map.png');"></div>
+									<div class="card-content">
+										<h4>Kenya Digital Health Dashboard</h4>
+										<p class="project-summary">Kenya is rated 86th out of 139 countries in terms of networked readiness (2016).</p>
+										<a href="http://healthenabled.org/wordpress/kenya-digital-health-dashboard/">View Dashboard <span class="circle-arrow"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></span></a>
+									</div>
+								</div>
+							</div>
+						
+							<div class="col-12 col-md-4">
+								<div class="card">
+									<div class="img-featured" style="background-image: url('http://healthenabled.org/wordpress/wp-content/uploads/2017/08/liberia_country_map.png');"></div>
+									<div class="card-content">
+										<h4>Liberia Digital Health Dashboard</h4>
+										<p class="project-summary">Ranked 130 out of 139 on the 2016 Networked Readiness Index, Liberia is challenged with issues around all 10 pillars of the readiness index with the lowest being infrastructure and individual usage.</p>
+										<a href="http://healthenabled.org/wordpress/liberia-digital-health-dashboard/">View Dashboard <span class="circle-arrow"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></span></a>
+									</div>
+								</div>
+							</div>
+						
+							<div class="col-12 col-md-4">
+								<div class="card">
+									<div class="img-featured" style="background-image: url('http://healthenabled.org/wordpress/wp-content/uploads/2017/03/malawi_country_map.png');"></div>
+									<div class="card-content">
+										<h4>Malawi Digital Health Dashboard</h4>
+										<p class="project-summary">Malawi has a low World Economic Forum's Networked Readiness Index (132 out of 139 in 2016), and faces a number of challenges in implementing digital health programmes.</p>
+										<a href="http://healthenabled.org/wordpress/malawi-digital-health-dashboard/">View Dashboard <span class="circle-arrow"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></span></a>
+									</div>
+								</div>
+							</div>
+						
+							<div class="col-12 col-md-4">
+								<div class="card">
+									<div class="img-featured" style="background-image: url('http://healthenabled.org/wordpress/wp-content/uploads/2017/04/mozambique_country_map.png');"></div>
+									<div class="card-content">
+										<h4>Mozambique Digital Health Dashboard</h4>
+										<p class="project-summary">Ranking 123 out of 139 in 2016 on the global network readiness index, and mobile coverage is fairly low, and less than half of people have access to a mobile phone.</p>
+										<a href="http://healthenabled.org/wordpress/mozambique-digital-health-dashboard/">View Dashboard <span class="circle-arrow"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></span></a>
+									</div>
+								</div>
+							</div>
+						
+							<div class="col-12 col-md-4">
+								<div class="card">
+									<div class="img-featured" style="background-image: url('http://healthenabled.org/wordpress/wp-content/uploads/2017/04/nigeria_map-1.png');"></div>
+									<div class="card-content">
+										<h4>Nigeria Digital Health Dashboard</h4>
+										<p class="project-summary">In the 2016 World Economic Forum Networked Readiness index, Nigeria was rated 119 out of 139 countries.</p>
+										<a href="http://healthenabled.org/wordpress/nigeria-digital-health-dashboard/">View Dashboard <span class="circle-arrow"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></span></a>
+									</div>
+								</div>
+							</div>
+						
+							<div class="col-12 col-md-4">
+								<div class="card">
+									<div class="img-featured" style="background-image: url('http://healthenabled.org/wordpress/wp-content/uploads/2017/04/rwanda_country_map.png');"></div>
+									<div class="card-content">
+										<h4>Rwanda Digital Health Dashboard</h4>
+										<p class="project-summary">In 2016, Rwanda ranked 80th word-wide in terms of networked readiness, with a very strong political and regulatory environment and good government usage of ICTs.</p>
+										<a href="http://healthenabled.org/wordpress/rwanda-digital-health-dashboard/">View Dashboard <span class="circle-arrow"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></span></a>
+									</div>
+								</div>
+							</div>
+						
+							<div class="col-12 col-md-4">
+								<div class="card">
+									<div class="img-featured" style="background-image: url('http://healthenabled.org/wordpress/wp-content/uploads/2017/04/south_africa_country_map.png');"></div>
+									<div class="card-content">
+										<h4>South Africa Digital Health Dashboard</h4>
+										<p class="project-summary">South Africa is rated 65th out of 139 countries in terms of networked readiness (2016), which is high relative to other African countries. It has strong policy & regulatory, and business and innovation environments but rates poorly in terms of affordability, infrastructure and skills.</p>
+										<a href="http://healthenabled.org/wordpress/south-africa-digital-health-dashboard/">View Dashboard <span class="circle-arrow"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></span></a>
+									</div>
+								</div>
+							</div>
+						
+							<div class="col-12 col-md-4">
+								<div class="card">
+									<div class="img-featured" style="background-image: url('http://healthenabled.org/wordpress/wp-content/uploads/2017/04/tanzania_country_maps.png');"></div>
+									<div class="card-content">
+										<h4>Tanzania Digital Health Dashboard</h4>
+										<p class="project-summary">Although it has a relatively low ranking in terms of the World Economic Forum's Networked Readiness Index (126rd of 139 in 2016). the ICT environment in Tanzania is rapidly changing, in large part because of the Eastern Africa Submarine Cable System and the National ICT Broadband Backbone. The increased competition in both the voice and data markets has led to reduced pricing though it is still considered relatively expensive.</p>
+										<a href="http://healthenabled.org/wordpress/tanzania-digital-health-dashboard/">View Dashboard <span class="circle-arrow"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></span></a>
+									</div>
+								</div>
+							</div>
+						
+							<div class="col-12 col-md-4">
+								<div class="card">
+									<div class="img-featured" style="background-image: url('http://healthenabled.org/wordpress/wp-content/uploads/2017/04/uganda_country_maps.png');"></div>
+									<div class="card-content">
+										<h4>Uganda Digital Health Dashboard</h4>
+										<p class="project-summary">Ranking 121 out of 139 in 2016 on the global network readiness index, Uganda is an active digital health hub with the government playing a central role in co-ordinating digital health initiatives in the country. Funding for eHealth projects however, has traditionally been through fragmented donor funding which poses a challenge to sustainability.</p>
+										<a href="http://healthenabled.org/wordpress/uganda-digital-health-dashboard/">View Dashboard <span class="circle-arrow"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></span></a>
+									</div>
+								</div>
+							</div>
+						
+							<div class="col-12 col-md-4">
+								<div class="card">
+									<div class="img-featured" style="background-image: url('http://healthenabled.org/wordpress/wp-content/uploads/2017/04/zambia_country_maps.png');"></div>
+									<div class="card-content">
+										<h4>Zambia Digital Health Dashboard</h4>
+										<p class="project-summary">Ranking 116 out of 139 on the 2016 Networked Readiness Index, Zambia is challenged with infrastructure and a lack of IT skills. It also has a high disease burden, a shortage of health care professionals, and inadequacies in drugs and medical supplies, funding, equipment and infrastructure.</p>
+										<a href="http://healthenabled.org/wordpress/zambia-digital-health-dashboard/">View Dashboard <span class="circle-arrow"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></span></a>
+									</div>
+								</div>
+							</div>
+						
+							<div class="col-12 col-md-4">
+								<div class="card">
+									<div class="img-featured" style="background-image: url('http://healthenabled.org/wordpress/wp-content/uploads/2017/03/ghana_country_map.png');"></div>
+									<div class="card-content">
+										<h4>Ghana Digital Health Dashboard</h4>
+										<p class="project-summary">Ranking 102 of 139 in terms of networked readiness (2016), Ghana faces a number of eHealth challenges.</p>
+										<a href="http://healthenabled.org/wordpress/ghana-digital-health-dashboard/">View Dashboard <span class="circle-arrow"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></span></a>
+									</div>
+								</div>
+							</div>
+												<!-- end of the loop -->
+
+						
+					
+				</div>
+			</div>
+		</div>
+	</div><!-- .entry-content -->
+
+	</article><!-- #post-## -->
+
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+	</div><!-- #content -->
+
+	<footer id="colophon" class="site-footer container-fluid" role="contentinfo">
+		<div class="row row-fixed justify-content-between">
+			<div class="text-center text-uppercase" id="back-to-top">
+				<div><span><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></span><br>Back<br>To Top</div>
+			</div>
+			<div class="col-12 col-sm-auto" id="footer--logo">
+				<img src="http://healthenabled.org/wordpress/wp-content/themes/healthenabled/assets/healthenabled_logo_white.png">
+			</div>
+							<div class="col-12 col-sm-auto col-footer"><h4 class="footer-widget-title">Contact Us</h4>			<div class="textwidget"><a href="mailto:info@healthenabled.org">info@healthenabled.org</a>
+<br><br>
++27(0)21 701 0766
+<br><br>
+Unit E7A, Westlake Square
+<br>
+Westlake Drive, Westlake
+<br>
+Cape Town, 7945, South Africa</div>
+		</div><div class="col-12 col-sm-auto col-footer"><h4 class="footer-widget-title">Quick Links</h4><div class="menu-menu-1-container"><ul id="menu-menu-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-179"><a href="http://healthenabled.org/wordpress/about-us/">About</a></li>
+<li class="bg-purple menu-item menu-item-type-post_type menu-item-object-page menu-item-180"><a href="http://healthenabled.org/wordpress/projects/">Projects</a></li>
+<li class="bg-pink menu-item menu-item-type-post_type menu-item-object-page menu-item-184"><a href="http://healthenabled.org/wordpress/expert-network/">Expert Network</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-20 current_page_item menu-item-183"><a href="http://healthenabled.org/wordpress/healthe-africa/">HealthE Africa</a></li>
+<li class="bg-purple menu-item menu-item-type-post_type menu-item-object-page menu-item-182"><a href="http://healthenabled.org/wordpress/resources/">Resources</a></li>
+<li class="bg-pink menu-item menu-item-type-post_type menu-item-object-page menu-item-181"><a href="http://healthenabled.org/wordpress/news/">News</a></li>
+</ul></div></div><div class="col-12 col-sm-auto col-footer"><h4 class="footer-widget-title">Newsletter</h4>			<div class="textwidget">Sign up for our newsletter:
+<br><br>
+<!-- Begin MailChimp Signup Form -->
+<div id="mc_embed_signup">
+<form action="//healthenabled.us13.list-manage.com/subscribe/post?u=11df436113f04dd88026b3b6c&amp;id=29432390ee" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+<div class="mc-field-group">
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Enter Your Email...">
+	<input type="submit" value="" name="subscribe" id="mc-embedded-subscribe" class="button">
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_11df436113f04dd88026b3b6c_29432390ee" tabindex="-1" value=""></div>
+    </div>
+</form>
+</div>
+<!--End mc_embed_signup--></div>
+		</div>					</div>
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+	<div style="display:none">
+	</div>
+<script type='text/javascript' src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201938'></script>
+<script type='text/javascript' src='https://secure.gravatar.com/js/gprofiles.js?ver=2019Sepaa'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://healthenabled.org/wordpress/wp-content/plugins/jetpack/modules/wpgroho.js?ver=4.9.11'></script>
+<script type='text/javascript' src='https://use.fontawesome.com/4adc98a186.js?ver=20170306'></script>
+<script type='text/javascript' src='http://healthenabled.org/wordpress/wp-content/themes/healthenabled/js/slick.min.js?ver=20170306'></script>
+<script type='text/javascript' src='http://healthenabled.org/wordpress/wp-content/themes/healthenabled/js/mixitup.min.js?ver=20170306'></script>
+<script type='text/javascript' src='http://healthenabled.org/wordpress/wp-content/themes/healthenabled/js/scripts.js?ver=20170306'></script>
+<script type='text/javascript' src='http://healthenabled.org/wordpress/wp-content/themes/healthenabled/js/skip-link-focus-fix.js?ver=20151215'></script>
+<script type='text/javascript' src='http://healthenabled.org/wordpress/wp-includes/js/wp-embed.min.js?ver=4.9.11'></script>
+<script type='text/javascript' src='https://stats.wp.com/e-201938.js' async='async' defer='defer'></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:6.6.1',blog:'152973838',post:'20',tz:'2',srv:'healthenabled.org'} ]);
+	_stq.push([ 'clickTrackerInit', '152973838', '20' ]);
+</script>
+
+</body>
+</html>

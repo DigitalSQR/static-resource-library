@@ -1,0 +1,649 @@
+White Paper Series on mHealth and Aging
+CREDIT: TÉLÉCOMS SANS FRONTIÈRS
+mHEALTH OPPORTUNITIES FOR 
+NON-COMMUNICABLE DISEASES 
+AMONG THE ELDERY
+ADA KWAN
+mHealth Alliance, UN Foundation
+October 2013
+CREDIT: DATADYNE
+ACKNOWLEDGEMENTS
+This white paper would not have been possible without the support and commitment of Pfizer, Inc. 
+and the mHealth Alliance at the United Nations Foundation. I would be remiss not to thank them 
+for having the vision to fuel the timely conversation on how technologies can mitigate the growing 
+burden of non-communicable diseases (NCDs) in the world’s quickly aging population. I would also 
+like to thank the individuals who, during the development and production of this paper, shared their 
+insights and experiences on NCDs, aging and the potential for mobile. These individuals include: 
+Cathy Mwangi of CDC Foundation mHealth Kenya, Heather Cole-Lewis of Columbia University, 
+Jennifer Pollex of the Institute of Development Studies, Alice Fabiano and Anu Gupta from Johnson 
+& Johnson, Bethany Brown and Paul Ong of HelpAge International, Isabella Aboderin of the Oxford 
+Institute of Aging, and Ting Shih of ClickMedix. For their critical feedback, coordination and support 
+on this paper, I am additionally grateful to my colleagues at the mHealth Alliance: Sharia Khoja, Avrille 
+Hanzel, Chelsea Hedquist and Chelsea Solmo. 
+Much appreciation specifically goes to Chris Gray and his colleagues at Pfizer, Inc., the mHealth 
+Alliance and every member of the mHealth Aging Working Group for acknowledging the under-
+recognized health topic of non-communicable diseases (NCDs) in the context of aging. I can only 
+hope that this paper becomes a catalyst for producing healthier solutions around the world with 
+existing resources and technologies. 
+Ada Kwan, mHealth Alliance, United Nations Foundation
+2
+ABSTRACT 
+THIS WHITE PAPER, WHICH HAS EVOLVED stress on caregivers and health systems. If the world 
+FROM PRIOR RESEARCH (1), IS ONE PART neglects these issues and chooses not to invest in 
+OF A THREE-PART SERIES DEVOTED TO the health of the elderly and capitalize on their life 
+EXPLORING THE USE OF MOBILE AND knowledge and experiences, the consequences could 
+WIRELESS TECHNOLOGIES IN HEALTH take a devastating human and economic toll around the 
+(MHEALTH) and the opportunities for impacting and world (7). Failure to address the aging population could 
+advancing healthy aging in low- and middle-income eventually become a larger and more costly threat to 
+countries (LMICs). This specific paper focuses on the global economic development than fiscal crises, natural 
+use of mHealth for the prevention and control of non- disasters or pandemic influenza (7).
+communicable diseases (NCDs) among elderly persons 
+in LMICs. The imminent global threat of NCDs, combined with an 
+expanding older population, calls for urgent solutions 
+In 2000, the number of people in the world over the that have wide reach, strong potential for scale-up 
+age of 65 was just over 500 million, and this number and the ability to extend existing health systems into 
+is expected to triple by the year 2050 (2). The largest the community. In early 2013, the number of mobile 
+growth will occur in LMICs, and this fact reflects phone subscriptions around the world reached 6.8 
+many achievements in public health, such as higher billion, and this figure is expected to grow and surpass 
+immunization coverage, better disease prevention and the world population in the year 2014 (8, 9). This recent 
+control, and improved access to safe drinking water and explosion and near ubiquity of mobile phone uptake 
+basic sanitation. However, the growing size of an older around the world may offer opportunities for NCD 
+world population foreshadows significant challenges prevention, health promotion, treatment and disease 
+ahead (3). As individuals age, nearly half will develop at management. mHealth efforts focused on NCDs are 
+least one NCD, such as cardiovascular disease, cancer, already being implemented (10, 11), and new evidence 
+diabetes, and chronic respiratory disease (4). Despite based on rigorous trials have begun reporting the 
+NCDs being largely preventable, they are associated benefits of text messaging, automated telephone 
+with 60% of deaths around the world. Three quarters monitoring, treatment reminders and self-care support 
+of NCD-related deaths are among individuals over for improving health outcomes related to chronic 
+the age of 60, who comprise an age segment that is disease management (12). This paper describes ways 
+often neglected in policy and requires more specialized mHealth can reduce the burden of NCDs affecting the 
+attention in health services, particularly for diagnostic, elderly in LMICs. It concludes with a call to action to 
+curative and rehabilitative care (5). Existing health systems, bring together stakeholders from a variety of sectors to 
+especially those in LMICs, are not prepared for these achieve this potential.
+challenges, especially as the aging population will 
+increasingly demand more long-term care options and 
+specialized attention in homes and communities (6).
+The global disease burden from NCDs is predicted to 
+progress over time, resulting in increased treatment 
+costs and losses to productivity in the estimated 
+amount of US $47 trillion over the next 20 years (7). If 
+action is not taken now to prevent and control NCDs 
+in the context of aging, the burden and corresponding 
+costs will grow substantially, which will place great 
+3
+In 2012, the number of 
+people in the world who 
+were 60 years or older was 
+approximately 810 million, 
+which is more than the number 
+of children over the age of 5.
+INTRODUCTION 
+THE BURDEN OF CAREGIVING FOR OLDER to these challenges (4, 7), and over time, it will become 
+PEOPLE IS QUICKLY INCREASING AROUND more difficult for the elderly to get appropriate help 
+THE WORLD. In 2012, the number of people in the as the demand for specialized attention and care, 
+world who were 60 years or older was approximately especially long-term care, increases with a shrinking 
+810 million, which is more than the number of children pool of available caregivers (6).
+over the age of 5 (5). Growing quickly, this number is 
+expected to surpass one billion in ten more years and Despite NCDs being largely preventable, the prevalence 
+reach two billion by 2050 (5). The largest growth will and incidence of NCDs are expected to increase 
+occur in low- and middle-income countries (LMICs), and substantially alongside a world population growing 
+these countries in particular will undergo epidemiologic older over the next two decades, with the majority of 
+transitions in which non-communicable diseases (NCDs) the increase occurring in LMICs (18). Between 1990 and 
+will replace infectious diseases as the leading causes 2020, ischemic heart disease – the leading cause of 
+of death (5). Globally the leading causes of mortality, death in the world (19) – is expected to increase by 120% 
+NCDs include cardiovascular diseases, cancer, chronic for women and 137% for men in LMICs (18). The next 
+obstructive pulmonary disease, and diabetes mellitus. two decades will be witness to a tripling of ischemic 
+As individuals age, nearly half will develop at least one heart disease and stroke mortality in Latin America, 
+NCD, commonly with comorbidities  (4). In addition to the Middle East, and sub-Saharan Africa (18). Diabetes, 
+the general burden of NCDs, older adults are at higher which affected approximately 171 million individuals in 
+risk for long-term consequences of NCDs, which 2000, will affect 366 million people by 2030 (18). If more 
+include retinopathy; nephropathy; auditory issues action is not undertaken to avert the growing burden 
+related to long-standing diabetes; greater chances of NCDs, the productivity losses and long-term costs 
+of congestive heart failure, renal failure, and strokes of treatment will take a devastating toll on individuals, 
+related to hypertension; depression; anxiety; cognitive families, and societies and could become one of the 
+dysfunction; as well as reduced motor control (13-17). most severe threats to global economic development 
+Health systems in LMICs are not prepared to respond in the future (20). LMICs must develop comprehensive 
+4
+CREDIT: UN/ARAMBURU
+health policies to improve health service provision for 
+older adults with NCDs by developing primary health With the number 
+care services and extending care to communities and 
+homes (21). of mobile phone 
+Alongside the growing NCD burden and expanding subscriptions predicted 
+aging population, the world is witnessing another 
+global trend that could be part of the urgently needed to surpass the world 
+solution. Mobile and wireless technologies and mHealth, 
+which are increasingly prevalent across LMICs, are 
+being used to support healthier aging in the prevention, population in 2014, 
+treatment and management of NCDs by offering 
+new ways to transmit information and easier ways mHealth provides a way 
+to communicate. With the number of mobile phone 
+subscriptions predicted to surpass the world population to reach individuals in 
+in 2014, mHealth provides a way to reach individuals in 
+almost all corners of the world (8, 9). The objectives of almost all corners of 
+this white paper are (i) to understand the implications 
+of NCDs in the world’s aging population and (ii) to the world.
+understand how to capitalize on mobile and wireless 
+technologies to improve the quality of life and access 
+to health services for elderly people living with NCDs. 
+The focus will be on LMICs while drawing on relevant 
+information from high-income countries (HICs).
+5
+BACKGROUND
+AS PEOPLE AGE, STAYING IN GOOD NCDs are associated with six specific risk factors: high 
+HEALTH OFTEN BECOMES A CHALLENGE(12) blood pressure, tobacco use, high blood glucose levels, 
+FOlder adults living in poverty are most vulnerable, as physical inactivity, obesity or being overweight, and 
+they cannot access quality health services or maintain high cholesterol levels (20). A United Nations High-Level 
+proper nutrition, have poor literacy and low levels of meeting on NCDs held in September 2011 described 
+education, and rarely have strong caregiver support (5). tobacco control as the “most urgent and immediate 
+Thus, this demographic will be the hardest hit by the priority” (21). However, the non-modifiable risk factor 
+growing NCD burden. In 2008, NCDs were responsible that will require more attention is age.
+for 60% of the 57 million deaths that occurred globally 
+(22). NCDs are defined as “diseases of long duration, On the population level, the growing burden of NCDs 
+generally slow progression and they are the major is “the result of complex interaction between health, 
+cause of adult mortality and morbidity worldwide” (7, 23). economic growth and development, and … is strongly 
+Although actual data on cause-specific mortality rates associated with universal trends such as aging of the 
+are difficult to achieve because of gaps in surveillance, global population, rapid unplanned urbanization and 
+individuals over the age of 60 account for three quarters the globalization of unhealthy lifestyles” (7), and the 
+of NCD-related deaths (24). NCD burden is only accelerating as the world grows 
+older (3). Effective population-level responses will have 
+NCDs are associated with certain risk factors, which to combat not only universal shifting patterns in diets 
+is why NCDs have been said to “originate early in dominated by higher fat and sugar content intake, but 
+life [and] develop insidiously” (25). NCDs are largely also changing activity patterns at work and in leisure, 
+preventable, given the amount of exposure to NCD- which are associated with increasing rates of physical 
+related risk factors; however, diseases are often inactivity and tobacco consumption (26, 27). 
+symptomless, which makes them difficult to detect at 
+preventable or curable stages, particularly in LMICs. The situation will be particularly challenging for LMICs 
+Thus, early detection by screening is one strategy to where demographic transitions will place pressure on 
+mitigate the effects of advanced stages of illness. Risk governments to work on strengthening health systems 
+factors for NCDs are categorized as modifiable or non- to control and respond to NCDs at the same time as 
+modifiable. Modifiable risk factors are characteristics responding to infectious diseases. On the policy level, 
+that can be changed on the individual or environmental NCDs are not prioritized, despite the fact there is strong 
+level. Non-modifiable risk factors are ones that cannot awareness of the importance of addressing NCDs 
+be changed, such as age, sex, and genetic tendencies. among decision-makers, donors, and governments 
+According to a report from the World Health (19). Few developing countries have committed 
+Organization (WHO), a large proportion of deaths from significant resources to disease control, nor have they 
+1 The presence of two or more NCDs in an individual.
+6
+addressed aging (18). More comprehensive policies and can be implemented to mitigate these costs, but more 
+fiscal space will need to be developed for integrated solutions in reducing high healthcare costs, medical 
+prevention, surveillance, and control approaches that waste, inequality of care, and hospital readmissions 
+emphasize the role of aging and the growing population are required (7). The costs of treatment and productivity 
+of older adults. Donors and development agencies losses related to NCDs will be devastating to societies 
+also do not prioritize investment in aging issues or in and global economic development (7). Cost savings can 
+interventions for the prevention and control of NCDs. begin to accrue with effective prevention strategies 
+In 2002, only 0.1% of the US$2.9 billion dollars spent (e.g., behavior change interventions that can begin 
+by the Official Overseas Development Aid on health promoting more healthful habits, such as better diet 
+went to chronic diseases, including mental health and increased physical activity), as well as by adapting 
+(18). Poor funding streams and lack of prioritization for health system strengthening efforts for better access 
+NCDs affect national NGOs, which can play a large to higher quality primary health care and in-community 
+role in reducing risk factors and building in-country disease management for older adults (29).
+capacity for strong diet, nutrition and exercise habits 
+(18). The Millennium Development Goals (MDGs), which 
+were established by the United Nations to reach eight A recent report on 
+health and development goals by 2015, helped focus 
+global development efforts towards certain targets NCDs estimates 
+and have led to “significant and substantial” progress 
+in reducing extreme poverty and increasing access to that NCDs will cost 
+safe drinking water, but did not address the expanding 
+aging population or age-related health conditions, such over US$47 trillion – 
+as NCDs (5, 28). A great deal must be done quickly to 
+place aging and NCDs on the international and policy 
+agendas or else the consequences will be expensive, approximately 75% of 
+despite being preventable. the 2010 global GDP – 
+Regardless of the root cause at the individual or 
+population level, there is a strong economic argument for over the course of the 
+taking action now. A recent report on NCDs estimates 
+that NCDs will cost over US$47 trillion – approximately next 20 years. 
+75% of the 2010 global GDP – over the course of the 
+next 20 years (7). Existing knowledge and interventions 
+2 Although the majority of countries are equipped with evidence-based guidelines, protocols, or standards for diabetes, hypertension, and dietary counseling, the WHO reports 
+less than a third fully implement them (22).
+7
+CREDIT: TÉLÉCOMS SANS FRONTIÈRS
+EXISTING SOLUTIONS: mHealth in NCD interventions
+MOBILE AND WIRELESS TECHNOLOGIES (38-40). For improving NCD treatment compliance, a 
+HAVE CHANGED THE WAY PEOPLE COM- systematic review of interventions demonstrated that 
+MUNICATE AND ACCESS INFORMATION adherence improved most in behavioral interventions 
+AROUND THE WORLD, and there is growing that reduced the demands of dose schedules and that 
+interest in using mobile to improve health outcomes. had monitoring and feedback (41). For NCD monitoring, 
+This section will describe the strategies in which wireless sensors, such as accelerometers, are being 
+mHealth is being applied in the context of NCDs and developed with easy access to Internet for sending data 
+how mobile solutions can be considered for the aging to clinicians or with algorithms for recognizing abnormal 
+population. This section will also include examples of signs (35). Disease surveillance and home monitoring 
+projects that are capitalizing on mHealth to prevent, using wearable sensors, including wireless links 
+treat and manage NCDs to minimize the growing between mobile phones and backend systems, will 
+disease burdens attributed to NCDs. Several of these become more sophisticated with time, and particularly 
+interventions address older adults specifically, such as as aging interventions are delivered in the community. 
+the Chinese Aged Diabetic Assistant (CADA) Project in Using remote learning options, health workers can 
+China and projects implemented by ClickMedix, which improve their education and training on age-related 
+are described in more detail later in this section (11, 12, health conditions, as their access to learning modules, 
+30-37). literature and the ability to call other health workers 
+increases. Tracking medicines and supplies with mobile 
+Rigorous trials have reported the benefits of text messag- technologies also offers short-term benefits, as supplies 
+ing, automated telephone monitoring, treatment reminders can be monitored to improve limited access to and 
+and self-care support for improving health outcomes prevent stock-outs of essential hypertension, diabetes 
+related to chronic disease management (12). For NCD and cancer medicine. Long-term benefits include data 
+prevention, mHealth behavior change interventions in generated by mobile technologies producing insights 
+the form of mobile phone applications or text messaging and facilitating discoveries in drug development and 
+have been implemented for encouraging individuals to health care delivery.
+exercise, improve their diets, or reduce tobacco use 
+8
+For NCD prevention, mHealth behavior 
+change interventions in the form of mobile 
+phone applications or text messaging 
+have been implemented for encouraging 
+individuals to exercise, improve their 
+diets, or reduce tobacco use.
+The field of mHealth is fairly new and evolving rapidly, access of electronic medical records for patients with 
+and the evidence base for the effectiveness of mHealth chronic inflammatory bowel disease reported that 
+in disease management – even without considering the technology considered to be useful for health providers 
+aging context – is small and often derived from high- and patients was “multifaceted, self-care promoting, 
+income country (HIC) contexts (42). Moreover, mHealth and integrated into the patient’s already existing 
+implementation in the context of aging is rarely health and psychosocial support infrastructure” (44). 
+discussed and, when it is addressed, it is almost never in These design characteristics of technology have also 
+detail. At the time of this report, the link to actual health been demonstrated to be useful to other end users of 
+outcomes is equivocal and requires closer scrutiny with mHealth interventions, and thus should be emphasized 
+rigorous evaluation methods. This will only happen as in the development of other mHealth solutions (31, 42, 44). 
+the periods of evaluation begin to last long enough to Additionally, the actual mechanisms by which mHealth 
+assess actual health outcomes and once studies can solutions are able to motivate and encourage behavior 
+be conducted in a variety of settings. However, some change that reduces risk factors for NCDs are not well 
+feasibility studies suggest mHealth use in NCD-related understood, but are expected to be better understood 
+interventions improves user satisfaction (43). One study in the future (45).
+found participants with a mean age of 72.93 years 
+were satisfied with a telecare system that monitored In Table 1, there are several examples of mHealth being 
+their oxygen levels, pulse rates and respiration rates implemented for NCD-related interventions; however, 
+(43). Although the study participants found the screen not all of them are specifically targeted towards older 
+and buttons difficult to read and use, respectively, the adults. They are divided into cases from LMICs and 
+findings suggested that improving the design was a HICs.
+better option than not using the technology, and the 
+authors called for a rigorous evaluation to assess the 
+telecare system’s effectiveness in improving health 
+outcomes (43). Another study that assessed Internet 
+9
+NCD-related mHealth Interventions in LMICs
+APPLICATION 
+OR 
+IMPLEMENTING 
+ORGANIZATIONS, PROJECT DEFINITION
+LOCATION 
+ IMPLEMENTION
+The International Federation of Pharmaceutical Manufacturers and Associations (IFPMA), 
+International Telecommunications Union (ITU) and WHO is working on the Be He@lthy, Be 
+Mobile initiative, which aims to scale up mHealth in eight countries for NCD prevention, 
+treatment, and policy (46). In the countries, mHealth interventions for NCDs are being 
+implemented and standard mHealth operating procedures are being developed to integrate 
+mobile solutions into existing NCD prevention and control activities. The first country in this 
+initiative will be Costa Rica, where the government and local partners will employ mHealth for 
+smoking cessation (47).
+The CADA Project allows older adults with diabetes in rural and urban China to self-manage 
+their condition through the use of smart phones (36). The phones will send messages with 
+recommendations related to physical activity, blood glucose monitoring, blood pressure 
+monitoring, weight and waist measurement, and eating habits. To design the applications 
+better for the elderly target population, the members of the project: conducted clinician 
+interviews, focus groups and direct observation of diabetic elderly in rural and urban China; 
+measured usability; and allowed for iterative design (48). The user-centered approach was 
+adopted to account for user needs, desires and limitations. The interface was initially offered 
+in a prototype for its smartphone application CADA. The elderly were excited to use this 
+application and found it to be simple and straightforward. The elderly expressed their desires 
+for CADA to be connected to televisions.
+ClickMedix offers mHealth applications that allow healthcare professionals to conduct 
+home-care and specialist telemedicine services, including cervical cancer screening, mobile 
+teledermatology and mobile teleradiology services, as well as HIV clinical staging and mobile-
+based pre/post oral surgery from a distance. In China, home visit care for seniors is offered 
+(49). Seniors can be visited at home several times, beginning with the initial assessment 
+where a physician collects vitals and other body measurements. Nurses and caregivers pay 
+subsequent visits to the seniors. These health workers use forms that have been digitized 
+from the original paper-based forms by ClickMedix, as well as diagnostics whose information 
+can be wirelessly transmitted with mobile data collection tools.
+A non-profit organization called Arogya World has teamed up with Nokia to generate 
+awareness for diabetes and encourage healthier behaviors that can prevent a targeted 50,000 
+individuals in India (50). In one year, the program enrolled over one million individuals and has 
+sent over 45 million text messages for free. The content of the messages were developed for 
+cultural relevancy and translated into 12 languages. The partnership is currently developing an 
+evaluation that will help inform a model that can be adapted and replicated in other countries.
+First created for low-income women with type 2 diabetes to self-manage their conditions, 
+a text messaging program leverages peer networks of women who support each other 
+in managing NCDs (51). The effort is a collaboration among DPS Health; the University of 
+California, Los Angeles; and Women for Peace in South Africa. 
+10
+Text 
+Messaging Be He@lthy,  
+mDiabetes,  ClickMedix,  CADA Project,  
+for Health, Be Mobile, Multiple 
+India Multiple Countries China
+South Countries
+Africa
+NCD-related mHealth Interventions in HICs
+APPLICATION 
+OR 
+IMPLEMENTING 
+ORGANIZATIONS, PROJECT DEFINITION
+LOCATION 
+ IMPLEMENTION
+The Center for Technology and Aging at the Public Health Institute has designed a toolkit 
+that supports planning, design and implementation stages of programs that leverage health 
+technologies (52). For the United States context, the toolkit consists of many resources 
+including practical guidelines and lessons learned in remote patient monitoring, medication 
+optimization, care transitions and mobile health – all designed to maintain independence for 
+the elderly.
+Care4Today Mobile Adherence Manager is a combined two-way messaging platform, 
+mobile application and website for clients to improve their medication adherence, refill their 
+prescriptions and have communication with their health providers when necessary (53). The 
+mobile application and website offer opportunities for clients to track their progress. 
+The Digital Health Scorecard is a downloadable application that calculates an overall health 
+score on a scale from 0 to 100, which can be tracked and sent to a provider (54). The score, 
+which reflects how likely one is to develop a chronic condition, is based on responses to seven 
+questions related to lifestyle and health indicators (e.g., blood pressure, body mass index, 
+physical activity, tobacco and alcohol use).
+A healthcare company, WellDoc, Inc. works to improve patient outcomes for heart disease, 
+asthma, chronic obstructive pulmonary disease, and oncology by using mobile technologies 
+to deliver a set of clinically validated disease management tools (55). Specifically, the WellDoc 
+DiabetesManager System enables doctors and individuals with diabetes, including the elderly, 
+to collaborate on capturing, storing and transferring in real time blood glucose data and other 
+diabetes self-management information in a highly secure environment. On the back end, 
+WellDoc’s Automated Expert Analytics System identifies trends, which helps send educational 
+and behavioral coaching to patients and decision support to providers. 
+TABLE 1. NCD-related mHealth interventions in LMICs and HICs.
+11
+BJohnson Care4Today 
+& Johnson Mobile Health 
+WellDoc, Inc., ADOPT Toolkit, 
+Digital Health Manager 
+United States United Statess
+Scorecard, by Janssen, 
+United States United States
+CREDIT: TÉLÉCOMS SANS FRONTIÈRS
+In 2008, Beaglehole et al. published in the Lancet series (e.g., information, protocols, algorithms and checklists); 
+“Alma Ata: Rebirth and Revision” on primary health provider-to-provider communication (e.g., user groups, 
+care a specific report on improving the prevention consultation); provider work planning and scheduling; 
+and management of chronic diseases in LMICs (56). provider training and education; human resource 
+The authors reported that certain components of management; supply chain management; and financial 
+traditional health service delivery, if enhanced, could transactions and incentives.3  
+improve the prevention and control of NCDs in 
+LMICs with respect to primary health care (41). These 
+components included community resources, health Opportunities in 
+systems, self-management support, decision support, 
+delivery-system redesign, and clinical information mHealth...can be 
+systems to avert NCDs, but lacked specific guidance 
+on how to provide these more effectively for older tailored for caregivers 
+adults (41). Opportunities in mHealth, as seen in the 
+above mHealth interventions, have demonstrated the who take care of older 
+capability of working in each of these components, can 
+be tailored for caregivers who take care of older adults adults and can create 
+and can create an environment for more active aging. 
+In fact, a more recently published mHealth framework an environment for 
+by Labrique et al. (2013) maps out 12 common 
+mHealth solutions that overlap greatly and support 
+the logical application of mHealth in the prevention more active aging.
+and control of NCDs (57). This framework includes: 
+client education and behavior change communication; 
+sensors and point-of-care diagnostics; registries/
+vital events tracking; data collection and reporting; 
+electronic health records; electronic decision support 
+3 Financial transactions and incentives may not be an apparent solution for minimizing the NCD burden, but models that encourage healthier behavior changes in individuals 
+or incentivize better health services in the health system through financial rewards have been implemented with success (58, 59). The ability to transfer money on mobile 
+12 phones makes these efforts simple and holds strong potential for health; however, previous efforts have reported high set-up costs (60).
+More knowledge will need 
+to be generated, especially 
+on how solutions can best be 
+tailored for older adults.
+CONSIDERATIONS FOR mHEALTH RELEVANT  
+TO THE PREVENTION AND CONTROL OF NCDs  
+AMONG THE ELDERLY
+DESIGNING AND IMPLEMENTING mHEALTH Mobile is a tool that can help deliver effective 
+SOLUTIONS FOR THE PREVENTION AND interventions, rather than a stand-alone solution 
+CONTROL OF NCDs, IN THE CONTEXT OF for managing NCDs among elderly.  The potential for 
+AGING, POSES MANY CHALLENGES. The mobile and wireless technologies can be best met as 
+most obvious is the lack of emphasis on older adults part of a larger solution or as a vehicle to communicate 
+and aging in funding, research, implementation and or transmit information. Facilitated by an enabling donor 
+policy. More knowledge will need to be generated, and policy environment, partnerships implementing 
+especially on how solutions can best be tailored for mHealth solutions for NCDs in the context of aging 
+older adults. Below are other considerations to take must find the best solution for the end user, which 
+into account. may involve combining mHealth with existing agents 
+involved in providing treatment (e.g., traditional healers) 
+Solutions that can be adapted for multiple diseases or with technology already being used (e.g., radio or 
+will match reality better than solutions that focus television, similar to what was suggested by participants 
+on single diseases. Nearly half of older adults will in the CADA Project study).
+develop at least one NCD, and co-morbidities and 
+complex treatments are common (61). mHealth solutions Lessons from other mHealth projects, especially 
+offering the flexibility to tackle co-morbidities should implemented in LMICs, are good initial sources of 
+be considered when designing solutions for single information. Much mHealth work has been done in 
+disease conditions. This does not only apply to NCDs, LMICs; however, most of this work focuses on using 
+but efforts must plan for the coexistence of cancer, mobile technologies for HIV/AIDS or maternal and child 
+diabetes, and heart diseases with HIV, tuberculosis, health. The experience and lessons learned from these 
+and malaria. efforts are still helpful with regard to tackling issues 
+13
+related to design, training, connectivity, language and effects of text messaging on self-managing chronic 
+culture. General processes learned from other mHealth conditions (34). 
+interventions can also be useful, such as how the Mobile 
+Alliance for Maternal Action (MAMA) project tested More evidence is needed for how the elderly 
+different content for text messages with potential interact with technologies to make a measurable 
+end users and then made final modifications, such as impact on reducing NCD burden. There is no 
+making sure the tone of the content worked with the replacement for formative research and usability 
+language and the message was both supportive and testing for understanding how end users will respond 
+easily understood for users with low literacy rates and to the content and technology of an mHealth solution. 
+education levels (62). However, usability research for mobile technologies 
+focuses on younger populations and “considerably 
+Existing theoretical and behavioral models can fewer” studies have considered the way older adults 
+be applied to strategically leverage technology. interact with technology (67). Blaschke et al. (2009) 
+Theoretical and behavioral models have been useful summarize some concerns for older adults using 
+for integrating and applying technology into health technology, which include age-related issues (e.g., 
+interventions,4  but are not commonly used and do not impaired vision, issues with manual dexterity and 
+account for age-related concepts (63). Findings from a mobility, memory and cognition issues), characteristics 
+review conducted by Cole-Lewis and Kershaw (2010) of current technology (e.g., small text on screens, 
+on behavior change in mHealth suggest that mobile small keypads, poorly built technology), issues related 
+content developed from theoretical and behavioral to attitudes (e.g., not feeling perceived benefits, 
+models was more successful at achieving intended perception that technology is expensive), training and 
+results (45). However, there is debate on the adequacy of support issues (e.g., lack of training opportunities or 
+existing health behavior models to explain the effect of adequate support to learn how to use the technology), 
+mHealth on behavior change. Other theoretical models and cost (e.g., technology is not considered affordable 
+may be applicable, such as the Technology Acceptance for everyone) (68). The authors conclude that, despite 
+Model and the Use of Technology Model (64-66). these barriers, there are enough indications that point 
+towards the value of developing more capacity for 
+mHealth solutions for NCDs in aging will need to information and communication technologies, including 
+overcome structural barriers. The barriers that will mobile technologies, in long-term care, within health 
+have to be addressed to prevent and reduce the NCD care and among family members who act as caregivers 
+burden include regulatory- and policy-related barriers, (68). Additionally, as more of the world’s population 
+socio-cultural barriers, as well as intergenerational enters old age, this segment will attribute more value 
+patterns and dynamics of mobile phone use within to and also adapt more quickly to technology. Blaschke 
+families (29). et al. (2009) states, “the situation is thus very fluid, and 
+the evolving research agendas will have to adjust to this 
+Gaps in knowledge exist for the effects of mHealth dynamic process” (68).  
+on NCDs, but will be filled with coordination and 
+sharing of lessons learned. The field is expected to 
+move quickly and, thus, monitoring and evaluation and 
+sharing knowledge will be critical for efforts to maximize 
+their impact. Studies with rigorous evaluation methods 
+are needed, particularly in low-income settings (34). At 
+this time, data reflecting a study period of more than 
+12 months have not been collected to understand the 
+4  A published article by Riley et al. (2011) discusses how smoking and weight loss mHealth studies often had a theoretical basis, but most studies on mHealth in medication 
+adherence and disease management did not (63).
+14
+CALL TO ACTION: REALIZING THE mHEALTH POTENTIAL
+PRIORITIZING AGING AND NCDS IN POLICY resources, and access to regional and national NCD 
+AND BUDGETS, COMBINED WITH ESTAB- alliances.
+LISHING EFFECTIVE PARTNERSHIPS, WILL 
+BE CRITICAL IN ADVANCING mHEALTH Researchers – Develop the evidence surrounding 
+EFFORTS FOR NCDS IN AGING POPULA- mHealth and NCDs among the elderly, especially in 
+TIONS. Recommendations from a recent report low-resource settings. In addition to measuring health 
+written by Lemaire (2013) and commissioned by the outcomes from mHealth and satisfaction levels of 
+Advanced Development for Africa on scaling up using mHealth, it will be important to share challenges, 
+mHealth describe how to build, implement and successes and other lessons learned during design and 
+sustain partnerships, as well as how to ensure that implementation to expand the knowledge base. This 
+partnerships are able to achieve mHealth scale-up will also help investment and policy decisions in the 
+(50). One of the characteristics of a good partnership rapidly evolving field of mHealth.
+for mHealth includes clear roles and an understood 
+vision. Developers and implementers, health care Governments – Prioritize NCD programs in the context 
+professionals, organizations, researchers, governments, of aging, beginning with the implementation of existing 
+mobile phone and network operators, and donors and NCD guidelines and protocols and integrating the WHO 
+development agencies are all called to action with their STEPwise approach5 to NCD surveillance (70), and begin 
+roles below in this effort to leverage the full potential of capacity building for NCD health services for elderly by 
+mHealth in NCD prevention and control. encouraging institutions to incorporate NCD material in 15
+health professional training and curricula (68). In health 
+Developers and Implementers – Create, design, and systems, NCD services should be integrated alongside 
+implement mHealth solutions centered on the context infectious disease services, particularly at the primary 
+and be mindful of accounting for older adults as a health care level, while considering mHealth options to 
+user group if they are not the main target population. extend service delivery from facilities into homes, as well as 
+The technology alone can’t minimize NCD-related risk creating new services at the community or household level. 
+factors or fix medication adherence issues, but can be  
+a strong vehicle to carry effective strategies. For this, Mobile phone and network operators – Participate in 
+it will also be important to consider the absence or this growing need by joining in partnerships that support 
+presence of caregiver. NCDs and the aging population. Handsets, products, 
+and networks should be developed to accommodate 
+Health care professionals – Participate in the design seamless interaction among older adults, caregivers, 
+and help support the link of high-quality mHealth and health professionals while considering privacy and 
+strategies for the elderly and their caregivers to data security issues.
+community-based health workers, professional health 
+workers, formal care support, the health system, as Donors and development agencies – Be active in 
+well as other individuals patients seek when they are developing appropriate fiscal space for NCD policies and 
+not feeling well, such as traditional and faith healers. programs for older adults. Funding should be earmarked 
+not only for projects that aim to improve quality of life 
+Organizations – Join networks or alliances with other and access to appropriate NCD care for the elderly, 
+organizations involved in aging- and NCD-related work especially in LMICs, but also for training health workers 
+to coordinate program and advocacy networks and to respond properly to NCDs. Developing incremental 
+tap into knowledge resources that are in line with funding for existing efforts and earmarking funding for 
+international recommendations. For example, the NCD building capacity and supporting partnerships to scale 
+Alliance offers a global monitoring framework, additional effective projects can encourage sustainability.
+5  The WHO STEPwise approach is an approach to obtain “core data on the established risk factors that determine the major disease burden” and allows “each country 
+to expand on the core variables and risk factors” (69). The approach offers optional modules related to local or regional interests” and uses three steps: questionnaires, 
+physical measurements, and biochemical measurements. 15
+CONCLUSION
+This paper has described the ways mHealth can help avert risk factors associated with NCDs in the 
+context of aging. These include: 
+• Enabling and creating new resources in the • Improving decision support by offering guide-
+community such as in-community or home lines and protocols on the mobile phones of 
+monitoring systems with access to providers health providers or community-based health 
+workers
+• Strengthening the health system response 
+to NCDs by offering flexible ways for health • Formalizing linkages between patients and 
+professionals to reach patients remotely, which primary health centers through patient 
+can also help alleviate the human resource networks, helplines, appointment reminders, 
+crisis in health or simple phone calls from providers to their 
+patients
+• Allowing the elderly and their caregivers to 
+take more control of managing their health • Digitizing monitoring systems for treatment, 
+conditions by sending informational messages health records, and disease surveillance 
+and encouraging self-management with information that can assist decision making 
+telecare options on the policy, patient-provider relationship, or 
+individual levels. 
+Available resources, such as mobile technologies, can help societies invest in the health of the elderly 
+and start to capitalize on their life knowledge and experiences without the fear of NCDs taking a 
+devastating human and economic toll. Action must be taken immediately to prevent and control the 
+growing disease burden of NCDs among older adults. As the deadline for the MDGs arrives in 2015, 
+there is an urgent need on the international level to place aging and NCDs in the post-2015 agenda 
+and to set explicit goals and prioritize strategies for aging and reducing risk factors associated with 
+NCDs (5, 71). 
+Significant challenges in public health, such as pandemics, infectious diseases, and poor sanitation, 
+have been overcome with the invention of certain technologies that were accessed, delivered, and 
+scaled up rapidly. This paper describes the imminent challenges societies will need to confront as the 
+NCD disease burden grows and weighs heavily on the world’s aging population and existing health 
+systems. With mobile phone subscriptions set to surpass the world population in 2014, mobile and 
+wireless options hold strong potential for providing wider access to better health for individuals who 
+may develop or already have developed NCDs. 
+16
+REFERENCES
+1. A. Kwan, “Using mobile technologies for healthier 10. C. Déglise, L. S. Suggs, P. Odermatt, SMS for disease 
+aging”  (mHealth Alliance and Pfizer, 2012). control in developing countries: a systematic review of mobile 
+health applications. Journal of Telemedicine and Telecare 18, 
+2. National Institute on Aging National Institutes of Health 273 (2011).
+U.S. Department of Health and Human Services, World 
+Health Organization, “Global Health and Aging”  (2011). 11. V. S. Ajay, D. Prabhakaran, The Scope of Cell Phones in 
+Diabetes Management in Developing Country Health Care 
+3. World Health Organization, World Heart Federation, Settings. Journal of Diabetes Science and Technology 5, 778 
+World Stroke Organization, “Global Atlas on cardiovascular (2011).
+disease prevention and control”  (World Health Organization, 
+Geneva, 2011). 12. J. D. Piette, M. O. Mendoza-Avelares, E. C. Milton, 
+I. Lange, R. Fajardo, Access to Mobile Communication 
+4. R. Williams, R. Krakauer, in Global Population Ageing: Technology and Willingness to Participate in Automated 
+Peril or Promise?, J. Beard et al., Eds. (Harvard Initiative for Telemedicine Calls Among Chronically Ill Patients in Honduras. 
+Global Health, 2012). Telemedicine and e-Health 16, 1030 (2010).
+5. United Nations Population Fund, HelpAge International, 13. P. J. Dyck et al., The prevalence by staged severity 
+“Ageing in the Twenty-First Century: A Celebration and A of various types of diabetic neuropathy, retinopathy, and 
+Challenge”  (UNFPA and HelpAge International, New York nephropathy in a population‐based cohort. Neurology 43, 
+and London, 2012). 817 (1993).
+6. F. Colombo, A. Llena-Nozal, J. Mercier, F. Tjadens, “Help 14. J. Rodríguez-Saldaña et al., Diabetes Mellitus in a 
+Wanted? Providing and Paying for Long-Term Care”  (OECD Subgroup of Older Mexicans: Prevalence, Association 
+Publishing, 2011). with Cardiovascular Risk Factors, Functional and Cognitive 
+7. D. Bloom et al., “Globalisation and the prevention and Impairment, and Mortality. Journal of the American Geriatrics 
+control of non-communicable disease: the neglected chronic Society 50, 111 (2002).
+diseases of adults”  (World Economic Forum, Geneva, 2011). 15. A. Fontbonne, C. Berr, P. Ducimetiere, A. Alpérovitch, 
+8. International Telecommunications Union (ITU), “ICT Changes in Cognitive Abilities Over a 4-Year Period Are 
+Facts and Figures: The World in 2013”  (International Unfavorably Affected in Elderly Diabetic Subjects Results of 
+Communications Union (ITU), 2013). the Epidemiology of Vascular Aging Study. Diabetes Care 24, 
+366 (2001).
+9. International Telecommunications Union (ITU). ITU 
+releases latest global technology development figures. 16. M. Munshi et al., Cognitive Dysfunction Is Associated 
+(2013). Accessed on: Access Year Access Date|. Available With Poor Diabetes Control in Older Adults. Diabetes Care 
+rom: URL. 29, 1794 (2006).
+17
+REFERENCES (continued)
+17. D. L. Musselman, D. L. Evans, C. B. Nemeroff, The 27. B. M. Popkin, S. Horton, S. Kim, A. Mahal, J. Shuigao, 
+Relationship of Depression to Cardiovascular Disease Trends in diet, nutritional status, and diet-related non-
+Epidemiology, Biology, and Treatment. JAMA Psychiatry 55, communicable diseases in China and India: The economic 
+580 (1998). costs of the nutrition transition. Nutrition Reviews 59, 379 
+(2001).
+18. D. Yach, C. Hawkes, L. Gould, K. J. Hofman, The Global 28. United Nations, “The Millennium Development Goals 
+Burden of Chronic Diseases Overcoming Impediments to Report 2013”  (United Nations, New York, 2013).
+Prevention and Control. JAMA 291, 2616 (2004).
+29. GSM Association, “Global views on potential of mobile 
+19. Ebrahim, L. Smeeth, Non-communicable diseases in health solutions to address chronic disease challenges” 
+low- and middle-income countries: a priority or a distraction? (GSMA, 2012).
+International Journal of Epidemiology 34, 961 (2005).
+20. K. M. V. Narayan, M. K. Ali, J. P. Koplan, Global Non- 30. PricewaterhouseCoopers LLC, “Emerging mHealth- Paths 
+communicable Diseases — Where Worlds Meet. NEJM 363,  for growth”  (2012).
+1196 (2010).
+31. F. Mirza, T. Norris, R. Stockdale, Mobile technologies 
+21. R. Beaglehole et al., Priority actions for the non- and the holistic management of chronic diseases. Health 
+communicable disease crisis. The Lancet 377, 1438 (2011). Informatics Journal 14, 309 (2008).
+22. World Health Organization, “Assessing national capacity 32. J. C. Smith, B. R. Schatz, in AMIA Annu Symp Proc. 
+for the prevention and control of noncommunicable diseases” (AMIA, 2010),  pp. 757-761.
+(World Health Organization, Geneva, 2012).
+33. S. Clough, C. C. Quinn, in 12th Annual Care Continuum 
+23. World Health Organization, “Preventing chronic diseases: 
+Alliance Forum and the Integrated Care Summit P. H. 
+a vital investment”  (World Health Organization, Geneva, 2005).
+Management, Ed. (Washington DC, 2012), vol. 13, pp. 353. 
+24. World Health Organization, “Global status report on 
+non-communicable diseases”  (World Health Organization, 34. T. de Jongh, I. Gurol-Urganci, V. Vodopivec-Jamsek, 
+Geneva, 2011). J. Car, R. Atun, “Mobile phone messaging for facilitating 
+self-management of long-term illnesses”  (The Cochrane 
+25. J. F. Fries, Aging, natural death, and the compression of Collaboration, 2012).
+morbidity. NEJM 303, 130 (1980).
+35. B. H. Dobkin, A. Dorsch, The promise of mHealth: Daily 
+26. B. M. Popkin, Global nutrition dynamics: the world is activity monitoring and outcome assessments by wearable 
+shifting rapidly toward a diet linked with noncommunicable sensors. Neurorehabilitation and Neural Repair 25, 788 
+diseases. Am J Clin Nutr 84, 289 (2006). (2011).
+18
+36. J. H. Flaherty, “Smart Phones” for Older Chinese with 44. W. J. Winkelman, K. J. Leonard, P. G. Rossos, Patient- 
+Diabetes. Aging Successfully 18, 17 (2008). Perceived Usefulness of Online Electronic Medical Records: 
+Employing Grounded Theory in the Development of Information 
+37. M. Zolfaghari, S. A. Mousavifar, S. Pedram, Mobile and Communication Technologies for Use by Patients Living 
+Phone Text Messaging and Telephone Follow-Up in Iranian with Chronic Illness. J Am Med Inform Assoc 12, 306 (2005).
+Type 2 Diabetic Patients for 3 Months: A Comparative Study. 
+Iranian Journal of Diabetes and Obesity 1, 45 (2009). 45. H. Cole-Lewis, T. Kershaw, Text messaging as a 
+tool for behavior change in disease prevention and 
+38. L. C. Abroms, N. Padmanabhan, L. Thaweethai, T. 
+management. Epidemiol Rev 32, 56 (2010).
+Phillips, iPhone Apps for Smoking Cessation: A Content 
+Analysis. Am J Prev Med 40, 279 (2010).
+39. P. Mechael et al., “Barriers and gaps affecting mHealth 
+in low and middle income countries: Policy white paper” 
+(The Earth Institute Columbia University and the mHealth 
+Alliance, 2010).
+40. H. Cole-Lewis, T. Kershaw, Text messaging as a tool for 
+behavior change in disease prevention and management. 
+Epidemiologic Reviews 32, 56 (2010).
+41. R. Beaglehole et al., Prevention of chronic diseases: a 
+call to action. The Lancet 9605, 2152 (2008).
+42. C. Free et al., The Effectiveness of Mobile-Health 
+Technology-Based Health Behaviour Change or Disease 
+Management Interventions for Health Care Consumers: A 
+Systematic Review. PLoS Med 10, e1001362 (2013).
+43. J. P.-C. Chau et al., A feasibility study to investigate the 
+acceptability and potential effectiveness of a telecare service 
+for older people with chronic obstructive pulmonary disease. 
+International Journal of Medical Informatics 81, 674 (2012).
+19
+

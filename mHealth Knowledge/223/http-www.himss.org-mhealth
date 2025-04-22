@@ -1,0 +1,1090 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html lang="en" dir="ltr"
+  xmlns:fb="http://www.facebook.com/2008/fbml"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="x-ua-compatible" content="IE=edge">
+  <meta charset="utf-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1130.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+      <script>
+        WebFontConfig = {
+          custom: {
+            families: [
+              'proxima-nova',
+              'proxima-nova-bold',
+              'proxima-nova-light'
+              ],
+              urls: ['/sites/all/themes/sitetheme/fonts/fonts.css']
+            }
+        };
+
+        (function() {
+          var wf = document.createElement('script');
+          wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+            '://ajax.googleapis.com/ajax/libs/webfont/1.5.6/webfont.js';
+          wf.type = 'text/javascript';
+          wf.async = 'true';
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(wf, s);
+        })();
+      </script><link rel="apple-touch-icon" href="https://www.himss.org/sites/all/themes/sitetheme/img/favicon/preferred/favicon-preferred-120.png" type="image/png" />
+<link rel="shortcut icon" href="https://www.himss.org/sites/all/themes/sitetheme/img/favicon/preferred/favicon-preferred-16.png" type="image/png" />
+<link rel="apple-touch-icon-precomposed" href="https://www.himss.org/sites/all/themes/sitetheme/img/favicon/preferred/favicon-preferred-120.png" type="image/png" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://www.himss.org/library/mhealth" />
+<link rel="shortlink" href="https://www.himss.org/node/93051" />
+<meta property="og:site_name" content="HIMSS" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.himss.org/library/mhealth" />
+<meta property="og:title" content="mHealth" />
+<meta property="og:updated_time" content="2018-05-30T09:29:20-07:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@HIMSS" />
+<meta name="twitter:creator" content="@HIMSS" />
+<meta name="twitter:url" content="https://www.himss.org/library/mhealth" />
+<meta property="article:published_time" content="2016-03-04T14:37:07-08:00" />
+<meta property="article:modified_time" content="2018-05-30T09:29:20-07:00" />
+<meta name="layout_2col" content="2" />
+<meta name="google-site-verification" content="WkbhhmylCqyRHKDxX2A0Iz0V_ZEuhpwKRiucOAYOmNI" />
+<meta name="yandex-verification" content="cc4620b0372103c1" />
+  <title>mHealth | HIMSS</title>
+  <link type="text/css" rel="stylesheet" href="/sites/all/libraries/bootstrap-3.1.1/css/bootstrap.min.css?py336p" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/himssorg/files/advagg_css/css__1jRMSNPyXQPy71mMY8Y8vpWFsyliU6N4VGTTNIiXK9E__WErxyF-dmucvh3gFxKTJyPVOWnIvAOuE7H7l0F6_e2U__3neccuQwuP700kQqBMMjtLhPyX6iqiSgrS-B2_jXApc.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/himssorg/files/advagg_css/css__kVK7QGMkzlqHEpjZFliZ5PavWoUCbKRl8PYtd25BPVw__cu00zc63E91RHrDxhTNfb1pc00keOkS9WMkAGJVBqm8__3neccuQwuP700kQqBMMjtLhPyX6iqiSgrS-B2_jXApc.css" media="all" />
+  <!-- HTML5 element support for IE6-8 -->
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <script src="/sites/himssorg/files/advagg_js/js__Gt8wzxut6ksCAYl2AJpRPqYjNLziQH9pAT5unNDPFFk__JGxX6F_XGoNQIGfhOhWOILmzWLWz7n4q5LywhY5uLKU__3neccuQwuP700kQqBMMjtLhPyX6iqiSgrS-B2_jXApc.js"></script>
+<script>jQuery.migrateMute=true;jQuery.migrateTrace=false;</script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script>window.jQuery && window.jQuery.migrateWarnings || document.write("<script src='/sites/all/modules/contrib/jquery_update/replace/jquery-migrate/1.2.1/jquery-migrate.min.js'>\x3C/script>")</script>
+<script src="/sites/himssorg/files/advagg_js/js__BK4nE3jHZ3sn3GC9zvueNgLpzAhCMvNjkwgAyT296_Y__KYYXPpCz3_x0Npr7JX3bXj8pf347db6ec6j5oUgOZF8__3neccuQwuP700kQqBMMjtLhPyX6iqiSgrS-B2_jXApc.js"></script>
+<script>window.CKEDITOR_BASEPATH = '/sites/all/libraries/ckeditor/'</script>
+<script src="/sites/himssorg/files/advagg_js/js__XGpTYgx0cTzJzdvOzbtNRPaJUyrAtt1io_rohVZjVQo__3jUq5CCjZEGYNNgSN3NyxZXoqUkz7dIQxNr-70G8nq0__3neccuQwuP700kQqBMMjtLhPyX6iqiSgrS-B2_jXApc.js"></script>
+<script src="/sites/himssorg/files/advagg_js/js__2T8tnNVmx3gBjvXCjYu2TMKWUc84uSOIx9D3p-iP3Hk__5t7G5W3tCBHPd6RtNy5wCb_jtHPvH1CYZs4KoAdNLqw__3neccuQwuP700kQqBMMjtLhPyX6iqiSgrS-B2_jXApc.js"></script>
+<script src="/sites/himssorg/files/advagg_js/js__O7esaalT7JnYBl6R8TsXajUUxkwpQNLCiYsZxwqcwUY__Oa2_9jJ9M18BqrG8w3k6CKu97iha7FO0B5iwO57FyoA__3neccuQwuP700kQqBMMjtLhPyX6iqiSgrS-B2_jXApc.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"sitetheme","theme_token":"HiJhVHIO-4sgRDlMQ2ZUaknoFZ2-Ukya6Y1cC-CfoFU","jquery_version":"2.1","css":{"https:\/\/www.himss.org\/sites\/all\/libraries\/bootstrap-3.1.1\/css\/bootstrap.min.css":1,"modules\/system\/system.base.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"sites\/all\/modules\/contrib\/access_unpublished\/css\/access_unpublished.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/logintoboggan\/logintoboggan.css":1,"sites\/all\/modules\/contrib\/site_alert\/css\/site-alert.css":1,"sites\/himssorg\/modules\/contrib\/youtube\/css\/youtube.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/libraries\/colorbox\/example1\/colorbox.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/modal.css":1,"sites\/all\/modules\/contrib\/panels\/plugins\/layouts\/onecol\/onecol.css":1,"sites\/all\/modules\/contrib\/field_collection\/field_collection.theme.css":1,"sites\/all\/themes\/bootstrap\/css\/overrides.css":1,"sites\/all\/themes\/sitetheme\/css\/style-himssorg.css":1},"js":{"sites\/all\/modules\/contrib\/addthis\/addthis.js":1,"sites\/all\/themes\/bootstrap\/js\/bootstrap.js":1,"public:\/\/google_tag\/google_tag.script.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/2.1\/jquery.min.js":1,"\/\/code.jquery.com\/jquery-migrate-1.2.1.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/bootstrap-3.1.1\/js\/bootstrap.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.effect.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery.form\/3\/jquery.form.min.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/custom\/himss_taxonomy\/js\/oas.js":1,"sites\/all\/modules\/custom\/core\/js\/back2top.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/custom\/himss_365_api\/assets\/base.js":1,"sites\/all\/libraries\/underscore\/underscore.js":1,"sites\/all\/themes\/bootstrap\/js\/misc\/_progress.js":1,"sites\/all\/modules\/contrib\/ctools\/js\/modal.js":1,"sites\/all\/modules\/custom\/patch\/includes\/ctools.js":1,"sites\/all\/modules\/contrib\/ctools\/js\/ajax-responder.js":1,"sites\/himssorg\/modules\/custom\/himssorg_core\/js\/himss_recent_headlines.js":1,"sites\/himssorg\/modules\/custom\/himssorg_core\/js\/in_this_section_collapse.js":1,"sites\/all\/modules\/custom\/patch\/includes\/block.js":1,"sites\/all\/modules\/custom\/patch\/includes\/common.js":1,"sites\/all\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/modules\/custom\/himss_taxonomy\/js\/metadata.js":1,"sites\/all\/themes\/bootstrap\/js\/misc\/ajax.js":1,"sites\/all\/themes\/bootstrap\/js\/modules\/ctools\/js\/modal.js":1,"sites\/all\/themes\/sitetheme\/js\/header.js":1,"sites\/all\/themes\/sitetheme\/js\/menu.js":1,"sites\/all\/themes\/sitetheme\/js\/framework.js":1,"sites\/all\/themes\/sitetheme\/js\/front.js":1,"sites\/all\/themes\/sitetheme\/js\/media.js":1,"sites\/all\/themes\/sitetheme\/js\/sidebar.js":1,"sites\/all\/themes\/sitetheme\/js\/comment.js":1,"sites\/all\/themes\/sitetheme\/js\/term.js":1,"sites\/all\/themes\/sitetheme\/js\/layout.js":1,"sites\/all\/themes\/sitetheme\/js\/node.js":1,"sites\/all\/themes\/sitetheme\/js\/bootstrap-hover-dropdown.min.js":1,"sites\/all\/themes\/sitetheme\/js\/packery.pkgd.min.js":1,"sites\/all\/themes\/sitetheme\/js\/common.js":1,"sites\/all\/themes\/sitetheme\/js\/jquery.mobile.custom.min.js":1,"sites\/all\/themes\/sitetheme\/js\/footer.js":1,"sites\/all\/themes\/sitetheme\/js\/bootstrap-toolkit.js":1,"sites\/all\/themes\/sitetheme\/js\/jquery.waypoints.min.js":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"himss_365_api":{"host":"http:\/\/365.himss.org"},"better_exposed_filters":{"views":{"news":{"displays":{"topic_latest_news":{"filters":[]}}},"landing_left_callout":{"displays":{"block":{"filters":[]}}},"events":{"displays":{"upcoming_events":{"filters":[]}}}}},"field_group":{"div":"full"},"CToolsModal":{"loadingText":"Loading...","closeText":"Close Window","closeImage":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022https:\/\/www.himss.org\/sites\/all\/modules\/contrib\/ctools\/images\/icon-close-window.png\u0022 alt=\u0022Close window\u0022 title=\u0022Close window\u0022 \/\u003E","throbber":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022https:\/\/www.himss.org\/sites\/all\/modules\/contrib\/ctools\/images\/throbber.gif\u0022 alt=\u0022Loading\u0022 title=\u0022Loading...\u0022 \/\u003E"},"addthis":{"async":1,"domready":1,"widget_url":"https:\/\/s7.addthis.com\/js\/300\/addthis_widget.js","addthis_config":{"pubid":"ra-4e6f7c7d2221c281","services_compact":"more","services_exclude":"","data_track_clickback":false,"ui_508_compliant":false,"ui_click":false,"ui_cobrand":"","ui_delay":0,"ui_header_background":"","ui_header_color":"","ui_open_windows":true,"ui_use_css":true,"ui_use_addressbook":false,"ui_language":"en"},"addthis_share":{"templates":{"twitter":"{{title}} {{url}} via @AddThis"}}},"bootstrap":{"anchorsFix":1,"anchorsSmoothScrolling":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+  <!-- Begin Data Layer -->
+  <script type="text/javascript">
+    window.Et = window.Et || {};
+    window.Et.metadata = {"articleId":"93051","articleType":"landing","articleName":"mHealth","articleLevel1":"3111|Mobile Health IT","event":"genericEvent","eventAction":"Article View","eventCategory":"Article Tracking","eventNonInteraction":true,"eventValue":0,"id":"93051","type":"landing","title":"mhealth","marketo_params":"id=93051&type=landing&title=mhealth&topic=telehealth&topic=technology&","topics":"Telehealth,Technology","oas_hostname":"oasc17.247realmedia.com","oas_sitepage":"himss.org","oas_query":"telehealth,technology","oas_listpos":"Top,Right1,Right2,Bottom"};
+    window.dataLayer = window.dataLayer || []; window.dataLayer.push(window.Et.metadata);
+  </script>
+  <!-- End Data Layer -->
+  <!-- OAS Rich Media -->
+  <script type="text/javascript">
+    <!--//--><![CDATA[//><!--
+    (function() {
+      var url = document.location.protocol + '//oasc17.247realmedia.com/RealMedia/ads/adstream_mjx.ads/',
+        sitepage = 'himss.org',
+        listpos = 'Top,Right1,Right2,Bottom',
+        query = 'telehealth,technology',
+        rns = (Math.random() + "").substring(2, 11);
+        document.write('<script src="' + url + sitepage + '/1' + rns + '@' + listpos +  '?' + query + '"><\/script>');
+    })();
+    //--><!]]>
+  </script>
+  <!-- End OAS Rich Media -->
+</head>
+<body class="html not-front not-logged-in two-sidebars page-node page-node- page-node-93051 node-type-landing site-himssorg" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div class="region region-page-top">
+    <noscript aria-hidden="true"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-HX4K" height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Manager">Google Tag Manager</iframe></noscript>  </div>
+  
+<header id="navbar" role="banner" class="navbar container navbar-default" scrollspy>
+  <div class="container">
+    <div class="header-ad">
+      <div class="container">
+                    <div class="region region-header-ad">
+    <section id="block-block-141" class="block block-block clearfix">
+      
+  <!-- Start Visual Website Optimizer Asynchronous Code -->
+<script type="text/javascript">
+<!--//--><![CDATA[// ><!--
+
+var _vwo_code=(function(){
+var account_id=131086,
+settings_tolerance=2000,
+library_tolerance=2500,
+use_existing_jquery=false,
+// DO NOT EDIT BELOW THIS LINE
+f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+
+//--><!]]>
+</script><!-- End Visual Website Optimizer Asynchronous Code -->
+</section> <!-- /.block -->
+<section id="block-boxes-ads-top" class="block block-boxes hidden-xs hidden-sm block-boxes-simple clearfix">
+      
+  <div id='boxes-box-ads_top' class='boxes-box'><div class="boxes-box-content"><!--- Top Banner Ad --->
+<div id="ads-top-banner">
+<script>
+<!--//--><![CDATA[// ><!--
+OAS_RICH('Top');
+//--><!]]>
+</script></div>
+<!-- /top-ad --></div></div>
+</section> <!-- /.block -->
+<section id="block-boxes-adsense-init" class="block block-boxes block-boxes-simple clearfix">
+      
+  <div id='boxes-box-adsense_init' class='boxes-box'><div class="boxes-box-content"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+ (adsbygoogle = window.adsbygoogle || []).push({
+   google_ad_client: "ca-pub-3955345058731660",
+   enable_page_level_ads: true
+ });
+</script></div></div>
+</section> <!-- /.block -->
+  </div>
+              </div>
+    </div>
+    <div class="header-top">
+      <div class="container">
+                    <div class="region region-header-top">
+    <section id="block-menu-menu-information-for" class="block block-menu block-menu-information-for clearfix">
+      
+  <ul class="menu nav navbar-nav"><li class="first expanded dropdown"><a href="/about-himss" class="dropdown-toggle" data-mlid="16531">About HIMSS <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/about/collaborative-activities" data-mlid="16561">Collaborative Activities</a></li>
+<li class="leaf"><a href="/himss-faqs" data-mlid="16571">FAQs</a></li>
+<li class="leaf"><a href="/about/himss-na-board-of-directors" data-mlid="16576">North America Board of Directors</a></li>
+<li class="leaf"><a href="/about/board-of-directors" data-mlid="16581">Board of Directors</a></li>
+<li class="leaf"><a href="/himss-executive-bios" data-mlid="49749">Executive Management</a></li>
+<li class="leaf"><a href="/about/business-conduct-guidelines" data-mlid="16586">By-Laws &amp; Business Conduct Guidelines</a></li>
+<li class="leaf"><a href="/general-content-classification/job-opportunities-himss" data-mlid="16591">Job Opportunities at HIMSS</a></li>
+<li class="leaf"><a href="/about/legal" data-mlid="16596">HIMSS Legal</a></li>
+<li class="last leaf"><a href="/about/sites" data-mlid="16601">HIMSS Sites</a></li>
+</ul></li>
+<li class="leaf"><a href="/contactus" data-mlid="16536">Contact Us</a></li>
+<li class="leaf"><a href="/vendor-center" data-mlid="16541">Vendor Center</a></li>
+<li class="leaf"><a href="/library/health-it-policy" data-mlid="16546">Policy Center</a></li>
+<li class="leaf"><a href="https://www.himss.org/himss-international" data-mlid="49769">HIMSS International</a></li>
+<li class="last leaf"><a href="/about/sites" data-mlid="16556">HIMSS Companies</a></li>
+</ul>
+</section> <!-- /.block -->
+<section id="block-block-41" class="block block-block block-41 clearfix">
+      
+  <div class="utilityNav">
+    <div class="container">
+      <ul class="nav nav-icons pull-right"><li>
+          <a href="https://www.facebook.com/HIMSSpage" target="_blank" title="Follow HIMSS on Facebook" rel="nofollow">
+   <span class="fa-stack fa-lg">
+     <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+   </span>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/company/himss/" target="_blank" title="Connect with HIMSS on LinkedIn" rel="nofollow">
+   <span class="fa-stack fa-lg">
+     <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+   </span>
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/himss" target="_blank" title="Follow HIMSS on Twitter" rel="nofollow">
+   <span class="fa-stack fa-lg">
+     <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+   </span>
+          </a>
+        </li>
+       <li>
+          <a href="/rss" title="HIMSS RSS Feeds" rel="nofollow">
+   <span class="fa-stack fa-lg">
+     <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+   </span>
+          </a>
+        </li>
+        <!--<li>
+          <a href="http://plus.google.com/u/0/106418070596742055335"
+             title="Follow HIMSS on Google+" rel="nofollow">
+   <span class="fa-stack fa-lg">
+     <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+   </span>
+          </a>
+        </li>
+        <li>
+          <a href="http://youtube.com/himss"
+             title="Subscribe to HIMSS on YouTube" rel="nofollow">
+   <span class="fa-stack fa-lg">
+     <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+   </span>
+          </a>
+        </li>
+        <li class="hidden-xs hidden-sm last-link"><a
+            href="https://twitter.com/search?q=%23HIMSS16" style="color:#fff;"
+            rel="nofollow">#HIMSS16</a>
+        </li>-->
+      </ul></div>
+  </div>
+</section> <!-- /.block -->
+<section id="block-menu-menu-navigation-additional-2" class="block block-menu clearfix">
+      
+  <ul class="menu nav navbar-nav"><li class="first leaf"><a href="http://marketplace.himss.org/cart/" data-mlid="21706"><i class="fa fa-shopping-cart"></i><div class="hidden">Shopping Cart</div></a></li>
+<li class="last leaf"><a href="/%3Cseparator%3E" class="separator" data-mlid="21711"><div class="divider-vertical light-blue"></div><div class="hidden">Separator</div></a></li>
+</ul>
+</section> <!-- /.block -->
+<section id="block-himssorg-core-himss-user-menu-2" class="block block-himssorg-core clearfix">
+      
+    
+    <ul class="menu nav hidden-affix-md hidden-md">
+      <li>
+        <a href="/user/login"><i class="fa fa-user fa-fw"></i> Sign In</a>
+      </li>
+    </ul>
+
+  
+</section> <!-- /.block -->
+  </div>
+              </div>
+    </div>
+    <div class="header-bottom-affix"></div>
+    <div id="affix-content-spacing"></div>
+    <div class="header-bottom-affixed-wrapper">
+      <div class="header-bottom">
+        <div class="container">
+                      <a class="logo" href="/" title="Home">
+              <img src="https://www.himss.org/sites/all/themes/sitetheme/img/logo/himss-logo-with-tagline.svg" alt="Home"/>
+            </a>
+                                <nav role="navigation">
+                                <div class="region region-navigation">
+    <section id="block-menu-menu-navigation-additional" class="block block-menu block-menu-navigation-additional clearfix">
+      
+  <ul class="menu nav navbar-nav"><li class="first leaf"><a href="/%3Cseparator%3E" class="hidden-sm hidden-xs separator" data-mlid="2706"><div class="divider-vertical "></div><div class="hidden">Separator 1</div></a></li>
+<li class="leaf"><a href="http://marketplace.himss.org/My-Account/" data-mlid="21716"><i class="fa fa-user fa-stack-1x fa-inverse"></i><div class="hidden">My Account</div></a></li>
+<li class="leaf"><a href="/site-search" data-mlid="21721"><i class="fa fa-search fa-stack-1x fa-inverse"></i><div class="hidden">Search</div></a></li>
+<li class="leaf"><a href="/%3Cseparator%3E" class="hidden-md hidden-lg separator" data-mlid="21756"><div class="divider-vertical "></div><div class="hidden">Separator 2</div></a></li>
+<li class="last leaf menu-link-expand hidden-md hidden-lg"><a href="/" data-mlid="21761"><i class="fa fa-bars fa-stack-1x fa-inverse"></i><div class="hidden">Mobile Menu</div></a></li>
+</ul>
+</section> <!-- /.block -->
+<section id="block-himssorg-core-himss-user-menu" class="block block-himssorg-core clearfix">
+      
+    
+    <ul class="menu nav hidden-affix-md hidden-lg hidden-xs hidden-sm">
+      <li>
+        <a href="/user/login"><i class="fa fa-user fa-fw"></i> Sign In</a>
+      </li>
+    </ul>
+
+  
+</section> <!-- /.block -->
+<section id="block-system-main-menu" class="block block-system block-menu-main block-menu clearfix">
+      
+  <ul class="menu nav navbar-nav"><li class="first leaf"><a href="http://www.himss.org/" data-mlid="37796">Home</a></li>
+<li class="expanded dropdown"><a href="/news" class="dropdown-toggle" data-mlid="37801">News <span class="caret"></span></a><ul class="dropdown-menu"><div class="container"><li class="first leaf"><a href="/himss-news-1" data-mlid="37836">Health IT Pulse</a></li>
+<li class="expanded"><a href="/News/Journalist-Resources" data-mlid="37846">Journalist Resources</a></li>
+<li class="expanded"><a href="/newsletters" data-mlid="37851">HIMSS eNewsletters</a></li>
+<li class="leaf"><a href="/himss-corporate-member-news" data-mlid="37856">Corporate Member News</a></li>
+<li class="last leaf"><a href="/News/social-media" data-mlid="47696">Social Media</a></li>
+</div></ul></li>
+<li class="expanded dropdown"><a href="/ProfessionalDevelopment" class="dropdown-toggle" data-mlid="37806">Professional Development <span class="caret"></span></a><ul class="dropdown-menu"><div class="container"><li class="first expanded"><a href="/health-it-education/global-conference" data-mlid="37871">Global Conference</a></li>
+<li class="leaf"><a href="http://www.himss.org/get-involved/approved-education-partner" data-mlid="48326">Approved Education Partners</a></li>
+<li class="expanded"><a href="/awards" data-mlid="37876">Awards</a></li>
+<li class="expanded"><a href="/health-it-career-services" data-mlid="37881">Career Services</a></li>
+<li class="expanded"><a href="/health-it-certification" data-mlid="37886">Certification</a></li>
+<li class="collapsed"><a href="/concert-himss" data-mlid="49827">ConCert by HIMSS™</a></li>
+<li class="leaf"><a href="/professionaldevelopment/himss-executive-education" data-mlid="49768">HIMSS Executive Education</a></li>
+<li class="leaf"><a href="/health-it-career-services/search-healthcare-technology-jobs" data-mlid="37896">HIMSS JobMine</a></li>
+<li class="collapsed"><a href="/health-it-education/learning-center" data-mlid="37901">Learning Center</a></li>
+<li class="expanded"><a href="/professional-development/member-advancement" data-mlid="38006">Member Advancement</a></li>
+<li class="leaf"><a href="/health-it-education/scholarships" data-mlid="37911">Scholarships</a></li>
+<li class="leaf"><a href="/professional-development/student-case-competition" data-mlid="49575">Student Case Competition</a></li>
+<li class="last expanded"><a href="/professionaldevelopment/tiger-initiative" data-mlid="37916">TIGER Initiative</a></li>
+</div></ul></li>
+<li class="expanded active-trail dropdown"><a href="/library" class="active-trail dropdown-toggle" data-mlid="37811">Resource Library <span class="caret"></span></a><ul class="dropdown-menu"><div class="container"><li class="first expanded active-trail"><a href="/library/topics" class="active-trail" data-mlid="37921">Browse by Topic</a></li>
+<li class="leaf"><a href="/library/corporate-member-resources" data-mlid="48356">Corporate Member Resources</a></li>
+<li class="expanded"><a href="/resourcelibrary/featuredcollections" data-mlid="37926">Featured Collections</a></li>
+<li class="expanded"><a href="/health-it-industry-research" data-mlid="37931">Industry Research</a></li>
+<li class="expanded"><a href="/library/podcasts" data-mlid="37936">Podcasts</a></li>
+<li class="expanded"><a href="/health-it-publications" data-mlid="37946">Publications</a></li>
+<li class="last expanded"><a href="/library/sponsored-resources" data-mlid="37951">Sponsored Resources</a></li>
+</div></ul></li>
+<li class="expanded dropdown"><a href="/GetInvolved" class="dropdown-toggle" data-mlid="37826">Get Involved <span class="caret"></span></a><ul class="dropdown-menu"><div class="container"><li class="first expanded"><a href="/get-involved/approved-education-partner" data-mlid="37986">Approved Education Partners</a></li>
+<li class="expanded"><a href="/himss-local-chapters" data-mlid="37991">Chapters</a></li>
+<li class="expanded"><a href="/get-involved/committees" data-mlid="37996">Committees</a></li>
+<li class="expanded"><a href="/get-involved/community" data-mlid="38001">Communities</a></li>
+<li class="expanded"><a href="/get-involved/roundtables" data-mlid="38016">Roundtables</a></li>
+<li class="expanded"><a href="/get-involved/sigs" data-mlid="38021">Special Interest Groups</a></li>
+<li class="last leaf"><a href="/sponsorship-opportunities" data-mlid="38026">Sponsorship Opportunities</a></li>
+</div></ul></li>
+<li class="leaf"><a href="https://marketplace.himss.org/Store/" data-mlid="37816">Store</a></li>
+<li class="expanded dropdown"><a href="/membership" class="dropdown-toggle" data-mlid="37821">Membership <span class="caret"></span></a><ul class="dropdown-menu"><div class="container"><li class="first leaf"><a href="/membership" data-mlid="37956">Join HIMSS</a></li>
+<li class="leaf"><a href="https://marketplace.himss.org/MemberDirectory" data-mlid="39736">Member Directory</a></li>
+<li class="expanded"><a href="/membership/individual-options" data-mlid="37961">Individual</a></li>
+<li class="expanded"><a href="/membership/corporate" data-mlid="37966">Corporate</a></li>
+<li class="expanded"><a href="/membership/non-profit-partner" data-mlid="37971">Non-Profit Partner</a></li>
+<li class="last expanded"><a href="/membership/organizational-affiliate" data-mlid="37981">Organizational Affiliate</a></li>
+</div></ul></li>
+<li class="last expanded dropdown"><a href="/Events" class="dropdown-toggle" data-mlid="37831">Events <span class="caret"></span></a><ul class="dropdown-menu"><div class="container"><li class="first leaf"><a href="/Events" data-mlid="38031">Upcoming Events</a></li>
+<li class="leaf"><a href="https://www.himssconference.org" target="_blank" data-mlid="38036">HIMSS20</a></li>
+<li class="leaf"><a href="/Events/index.aspx/index.aspx?f%5B0%5D=field_calendar_list%253Aparents_all%3A9186" data-mlid="38041">Virtual Events</a></li>
+<li class="leaf"><a href="/Events/ArchivedEvents.aspx" data-mlid="38046">Archived Events</a></li>
+<li class="last leaf"><a href="/vendor-center" data-mlid="38051">Vendor Center</a></li>
+</div></ul></li>
+</ul>
+</section> <!-- /.block -->
+  </div>
+                          </nav>
+          
+                      <a class="name navbar-brand" href="/"
+               title="Home">HIMSS</a>
+          
+        </div>
+              </div>
+      <nav class="header-mobile nav-push nav-push-right visible-xs visible-sm">
+        <div class="header-mobile-inner">
+          <a class="logo" href="/" title="Home"><img typeof="foaf:Image" src="https://www.himss.org/sites/all/themes/sitetheme/img/logo/himss-white-logo-with-tagline.svg" alt="" /></a>
+          <section id="block-panels-mini-mobile-menu" class="block block-panels-mini clearfix">
+      
+  <div class="panel-display panel-1col clearfix" id="mini-panel-mobile_menu">
+  <div class="panel-panel panel-col">
+    <div><div class="panel-pane pane-block pane-himssorg-core-himss-user-menu-mobile pane-himssorg-core"  >
+  
+      
+  
+  <div class="pane-content">
+      
+    <ul class="menu">
+      <li class="leaf">
+        <a href="/user/login"><i class="fa fa-user fa-fw"></i> Sign In</a>
+      </li>
+    </ul>
+
+    </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-system-main-menu pane-system"  >
+  
+        <h2 class="pane-title">
+      Main menu    </h2>
+    
+  
+  <div class="pane-content">
+    <ul class="menu nav navbar-nav"><li class="first leaf"><a href="http://www.himss.org/" data-mlid="37796">Home</a></li>
+<li class="expanded dropdown"><a href="/news" class="dropdown-toggle" data-mlid="37801">News <span class="caret"></span></a><ul class="dropdown-menu"><div class="container"><li class="first leaf"><a href="/himss-news-1" data-mlid="37836">Health IT Pulse</a></li>
+<li class="expanded"><a href="/News/Journalist-Resources" data-mlid="37846">Journalist Resources</a></li>
+<li class="expanded"><a href="/newsletters" data-mlid="37851">HIMSS eNewsletters</a></li>
+<li class="leaf"><a href="/himss-corporate-member-news" data-mlid="37856">Corporate Member News</a></li>
+<li class="last leaf"><a href="/News/social-media" data-mlid="47696">Social Media</a></li>
+</div></ul></li>
+<li class="expanded dropdown"><a href="/ProfessionalDevelopment" class="dropdown-toggle" data-mlid="37806">Professional Development <span class="caret"></span></a><ul class="dropdown-menu"><div class="container"><li class="first expanded"><a href="/health-it-education/global-conference" data-mlid="37871">Global Conference</a></li>
+<li class="leaf"><a href="http://www.himss.org/get-involved/approved-education-partner" data-mlid="48326">Approved Education Partners</a></li>
+<li class="expanded"><a href="/awards" data-mlid="37876">Awards</a></li>
+<li class="expanded"><a href="/health-it-career-services" data-mlid="37881">Career Services</a></li>
+<li class="expanded"><a href="/health-it-certification" data-mlid="37886">Certification</a></li>
+<li class="collapsed"><a href="/concert-himss" data-mlid="49827">ConCert by HIMSS™</a></li>
+<li class="leaf"><a href="/professionaldevelopment/himss-executive-education" data-mlid="49768">HIMSS Executive Education</a></li>
+<li class="leaf"><a href="/health-it-career-services/search-healthcare-technology-jobs" data-mlid="37896">HIMSS JobMine</a></li>
+<li class="collapsed"><a href="/health-it-education/learning-center" data-mlid="37901">Learning Center</a></li>
+<li class="expanded"><a href="/professional-development/member-advancement" data-mlid="38006">Member Advancement</a></li>
+<li class="leaf"><a href="/health-it-education/scholarships" data-mlid="37911">Scholarships</a></li>
+<li class="leaf"><a href="/professional-development/student-case-competition" data-mlid="49575">Student Case Competition</a></li>
+<li class="last expanded"><a href="/professionaldevelopment/tiger-initiative" data-mlid="37916">TIGER Initiative</a></li>
+</div></ul></li>
+<li class="expanded active-trail dropdown"><a href="/library" class="active-trail dropdown-toggle" data-mlid="37811">Resource Library <span class="caret"></span></a><ul class="dropdown-menu"><div class="container"><li class="first expanded active-trail"><a href="/library/topics" class="active-trail" data-mlid="37921">Browse by Topic</a></li>
+<li class="leaf"><a href="/library/corporate-member-resources" data-mlid="48356">Corporate Member Resources</a></li>
+<li class="expanded"><a href="/resourcelibrary/featuredcollections" data-mlid="37926">Featured Collections</a></li>
+<li class="expanded"><a href="/health-it-industry-research" data-mlid="37931">Industry Research</a></li>
+<li class="expanded"><a href="/library/podcasts" data-mlid="37936">Podcasts</a></li>
+<li class="expanded"><a href="/health-it-publications" data-mlid="37946">Publications</a></li>
+<li class="last expanded"><a href="/library/sponsored-resources" data-mlid="37951">Sponsored Resources</a></li>
+</div></ul></li>
+<li class="expanded dropdown"><a href="/GetInvolved" class="dropdown-toggle" data-mlid="37826">Get Involved <span class="caret"></span></a><ul class="dropdown-menu"><div class="container"><li class="first expanded"><a href="/get-involved/approved-education-partner" data-mlid="37986">Approved Education Partners</a></li>
+<li class="expanded"><a href="/himss-local-chapters" data-mlid="37991">Chapters</a></li>
+<li class="expanded"><a href="/get-involved/committees" data-mlid="37996">Committees</a></li>
+<li class="expanded"><a href="/get-involved/community" data-mlid="38001">Communities</a></li>
+<li class="expanded"><a href="/get-involved/roundtables" data-mlid="38016">Roundtables</a></li>
+<li class="expanded"><a href="/get-involved/sigs" data-mlid="38021">Special Interest Groups</a></li>
+<li class="last leaf"><a href="/sponsorship-opportunities" data-mlid="38026">Sponsorship Opportunities</a></li>
+</div></ul></li>
+<li class="leaf"><a href="https://marketplace.himss.org/Store/" data-mlid="37816">Store</a></li>
+<li class="expanded dropdown"><a href="/membership" class="dropdown-toggle" data-mlid="37821">Membership <span class="caret"></span></a><ul class="dropdown-menu"><div class="container"><li class="first leaf"><a href="/membership" data-mlid="37956">Join HIMSS</a></li>
+<li class="leaf"><a href="https://marketplace.himss.org/MemberDirectory" data-mlid="39736">Member Directory</a></li>
+<li class="expanded"><a href="/membership/individual-options" data-mlid="37961">Individual</a></li>
+<li class="expanded"><a href="/membership/corporate" data-mlid="37966">Corporate</a></li>
+<li class="expanded"><a href="/membership/non-profit-partner" data-mlid="37971">Non-Profit Partner</a></li>
+<li class="last expanded"><a href="/membership/organizational-affiliate" data-mlid="37981">Organizational Affiliate</a></li>
+</div></ul></li>
+<li class="last expanded dropdown"><a href="/Events" class="dropdown-toggle" data-mlid="37831">Events <span class="caret"></span></a><ul class="dropdown-menu"><div class="container"><li class="first leaf"><a href="/Events" data-mlid="38031">Upcoming Events</a></li>
+<li class="leaf"><a href="https://www.himssconference.org" target="_blank" data-mlid="38036">HIMSS20</a></li>
+<li class="leaf"><a href="/Events/index.aspx/index.aspx?f%5B0%5D=field_calendar_list%253Aparents_all%3A9186" data-mlid="38041">Virtual Events</a></li>
+<li class="leaf"><a href="/Events/ArchivedEvents.aspx" data-mlid="38046">Archived Events</a></li>
+<li class="last leaf"><a href="/vendor-center" data-mlid="38051">Vendor Center</a></li>
+</div></ul></li>
+</ul>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-menu-menu-information-for pane-menu"  >
+  
+        <h2 class="pane-title">
+      Information for    </h2>
+    
+  
+  <div class="pane-content">
+    <ul class="menu nav navbar-nav"><li class="first expanded dropdown"><a href="/about-himss" class="dropdown-toggle" data-mlid="16531">About HIMSS <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/about/collaborative-activities" data-mlid="16561">Collaborative Activities</a></li>
+<li class="leaf"><a href="/himss-faqs" data-mlid="16571">FAQs</a></li>
+<li class="leaf"><a href="/about/himss-na-board-of-directors" data-mlid="16576">North America Board of Directors</a></li>
+<li class="leaf"><a href="/about/board-of-directors" data-mlid="16581">Board of Directors</a></li>
+<li class="leaf"><a href="/himss-executive-bios" data-mlid="49749">Executive Management</a></li>
+<li class="leaf"><a href="/about/business-conduct-guidelines" data-mlid="16586">By-Laws &amp; Business Conduct Guidelines</a></li>
+<li class="leaf"><a href="/general-content-classification/job-opportunities-himss" data-mlid="16591">Job Opportunities at HIMSS</a></li>
+<li class="leaf"><a href="/about/legal" data-mlid="16596">HIMSS Legal</a></li>
+<li class="last leaf"><a href="/about/sites" data-mlid="16601">HIMSS Sites</a></li>
+</ul></li>
+<li class="leaf"><a href="/contactus" data-mlid="16536">Contact Us</a></li>
+<li class="leaf"><a href="/vendor-center" data-mlid="16541">Vendor Center</a></li>
+<li class="leaf"><a href="/library/health-it-policy" data-mlid="16546">Policy Center</a></li>
+<li class="leaf"><a href="https://www.himss.org/himss-international" data-mlid="49769">HIMSS International</a></li>
+<li class="last leaf"><a href="/about/sites" data-mlid="16556">HIMSS Companies</a></li>
+</ul>  </div>
+
+  
+  </div>
+</div>
+  </div>
+</div>
+
+</section> <!-- /.block -->
+        </div>
+      </nav>
+      <div id="multicolor-bar">
+        <div class="col-xs-2 colorblock-1"></div>
+        <div class="col-xs-2 colorblock-2"></div>
+        <div class="col-xs-2 colorblock-3"></div>
+        <div class="col-xs-2 colorblock-4"></div>
+        <div class="col-xs-2 colorblock-5"></div>
+        <div class="col-xs-2 colorblock-6"></div>
+      </div>
+    </div>
+</header>
+<div id="contentBar">
+
+      <div class="sidebarFill hidden-xs hidden-sm"></div>
+  
+  <header role="banner" id="page-header">
+    
+      </header>
+  <!-- /#page-header -->
+  <div class="main-container container">
+    <div class="row">
+      <div class="col-md-8">
+                  <div class="row">
+            <div class="col-md-12">
+                <div class="region region-pre-content">
+    <section id="block-himssorg-core-himssorg-core-crumbs" class="block block-himssorg-core clearfix">
+      
+  <ol class="breadcrumb"><li class="first"><a href="/">Home</a></li>
+<li><i class="fa fa-angle-right"></i></li>
+<li><a href="/library">Resource Library</a></li>
+<li><i class="fa fa-angle-right"></i></li>
+<li><a href="/library/topics">Browse by Topic</a></li>
+<li><i class="fa fa-angle-right"></i></li>
+<li class="active last">mHealth</li>
+</ol>
+</section> <!-- /.block -->
+  </div>
+            </div>
+          </div>
+        
+        <div class="row">
+                      <aside class="col-lg-3" role="complementary">
+                <div class="region region-sidebar-first">
+    <section id="block-himssorg-core-himssorg-core-in-this-section" class="block block-himssorg-core clearfix">
+        <h2 class="block-title">In This Section</h2>
+    
+  <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-2">
+  <ul class="menu nav navbar-nav"><li class="first leaf menu-mlid-40211"><a href="/roadmap-updates" data-mlid="40211">Roadmap Updates</a></li>
+<li class="leaf menu-mlid-40216"><a href="/new-care-models-mobile-health" data-mlid="40216">New Care Models in Mobile Health</a></li>
+<li class="leaf menu-mlid-40221"><a href="/mobile-health-technology" data-mlid="40221">Mobile Health Technology</a></li>
+<li class="leaf menu-mlid-40226"><a href="/mobile-health-roi-payment" data-mlid="40226">Mobile Health ROI &amp; Payment</a></li>
+<li class="leaf menu-mlid-40231"><a href="/mobile-health-policy" data-mlid="40231">Mobile Health Policy</a></li>
+<li class="leaf menu-mlid-40236"><a href="/mobile-health-standards-interoperability" data-mlid="40236">Mobile Health Standards &amp; Interoperability</a></li>
+<li class="leaf menu-mlid-40241"><a href="/mobile-health-privacy-security" data-mlid="40241">Mobile Health Privacy &amp; Security</a></li>
+<li class="leaf menu-mlid-40246"><a href="/case-studies-mhealth-action" data-mlid="40246">Case Studies: mHealth in Action</a></li>
+<li class="leaf menu-mlid-40251"><a href="/general-resources-mobile-health" data-mlid="40251">General Resources Mobile Health</a></li>
+<li class="leaf menu-mlid-40256"><a href="/mhealth-international-perspectives" data-mlid="40256">mHealth: International Perspectives</a></li>
+<li class="leaf menu-mlid-40261"><a href="/mhealth-body-evidence" data-mlid="40261">mHealth Body of Evidence</a></li>
+<li class="last leaf menu-mlid-40266"><a href="/mhealth-corporate-member-whitepapers" data-mlid="40266">mHealth Corporate Member Whitepapers</a></li>
+</ul></div>
+
+</section> <!-- /.block -->
+  </div>
+            </aside>  <!-- /#sidebar-first -->
+          
+          <section class="col-lg-8">
+                                    <a id="main-content"></a>
+                                                                                                                            <div class="region region-content">
+    <section id="block-system-main" class="block block-system clearfix">
+      
+  <div  about="/library/mhealth" typeof="sioc:Item foaf:Document" class="ds-1col node node-landing topic-landing-page view-mode-full  clearfix">
+
+  
+  <div class="collapsible group-background field-group-div intro-background speed-fast effect-none">
+      <h3><span class="field-group-format-toggler"></span></h3>
+      <div class="field-group-format-wrapper" style="display: block;"><div class="collapsible group-info field-group-div info speed-fast effect-none">
+      <h3><span class="field-group-format-toggler"></span></h3>
+      <div class="field-group-format-wrapper" style="display: block;"><div class="field-name-title"><h1>mHealth</h1></div></div></div></div></div><div class="field-name-field-body no-float-body">
+<p>Connected Health is the generation, aggregation, and dissemination of health information via mobile and wireless devices and the sharing of that information between patients and providers. The mHealth topic area, supported by the <a href="https://www.himss.org/get-involved/community/mhealth-community">HIMSS mHealth Community,</a> provides critical updates on mobile health IT policy, industry thought leadership, such as the <a href="https://www.himss.org/mobilehealthit/roadmap">mHealth Roadmap</a>, <a href="https://www.himss.org/resourcelibrary/SubTopicList.aspx?MetaDataID=2307">how the Roadmap is being used</a>, and the opportunity to network with stakeholders across the mHealth ecosystem, guided by the <a href="https://www.himss.org/get-involved/committees/mhealth">mHealth Committee.</a> For more information on how to get involved, contact us at <a href="mailto:mHealth@himss.org">mHealth@himss.org</a>.</p>
+</div><div class="field-collection-container clearfix"><div class="field-name-field-landing-expand" id="landing-expand"><div class="field-collection-view clearfix view-mode-full"><div  about="/field-collection/field-landing-expand/573726" typeof="" class="ds-1col entity entity-field-collection-item field-collection-item-field-landing-expand view-mode-full accordion clearfix">
+
+  
+  <h2 class="field-name-field-title">Resources - Best Practicies, Case Studies, and Implementation of mHealth</h2><div class="accordion-content field-name-field-body">
+<h3>New Care Models</h3><p>Today's traditional care model landscape is changing dramatically, driven by federal healthcare policy, advancements in technology, and a continuing quest to deliver high-quality care in the most cost-efficient manner. <a href="https://www.himss.org/resourcelibrary/TopicList.aspx?MetaDataID=2296"> View the New Care Models Resources&gt;</a></p><h3>Technology</h3><p>The connection between eHealth and mHealth is important: no mobile medical or monitoring device will be meaningful without the capability to capture and exchange information with key systems. <a href="https://www.himss.org/resourcelibrary/TopicList.aspx?MetaDataID=2297">View the Technology Resources&gt;</a></p><h3>ROI/Payment</h3><p>Transformation in the U.S. healthcare system is not an issue but a necessity.  The present system is wasteful, fragmented, and limits engagement between patients and providers. <a href="https://www.himss.org/resourcelibrary/TopicList.aspx?MetaDataID=2298">View the ROI/Payment Resources&gt;</a></p><h3>Policy</h3><p>A number of recent policy developments have changed the way patients, physicians, and other healthcare professional’s access information and healthcare. <a href="https://www.himss.org/resourcelibrary/TopicList.aspx?MetaDataID=2299">View the Policy Resources&gt;</a></p><h3>Standards &amp; Interoperability</h3><p>To properly support this communication, mobile devices must support standards for information exchange which serve as the building blocks for the seamless and secure exchange of health information. <a href="https://www.himss.org/resourcelibrary/TopicList.aspx?MetaDataID=2300">View the Standards &amp; Interoperability Resources&gt;</a></p><h3>Privacy &amp; Security</h3><p>Privacy and security in healthcare involve a process that must be navigated to reach our destination of protecting the patient, providers, organizations, and vendors. <a href="https://www.himss.org/resourcelibrary/TopicList.aspx?MetaDataID=2301">View the Privacy &amp; Security Resources&gt;</a></p>
+</div></div>
+
+</div><div class="field-collection-view clearfix view-mode-full"><div  about="/field-collection/field-landing-expand/573731" typeof="" class="ds-1col entity entity-field-collection-item field-collection-item-field-landing-expand view-mode-full accordion clearfix">
+
+  
+  <h2 class="field-name-field-title">mHealth Strategies for Providers: Value &amp; Insights</h2><div class="accordion-content field-name-field-body">
+<h3>Insights for Providers</h3><p>Utilize these presentations to gain insights on how mHealth can be used by providers. <a href="https://www.himss.org/resourcelibrary/TopicList.aspx?MetaDataID=4061">Learn more</a>.</p><h3>mHealth Roadmap Updates</h3><p>See how the Roadmap is <a href="https://www.himss.org/resourcelibrary/SubTopicList.aspx?MetaDataID=2307">informing and equipping providers </a></p><h3>Mobile Security Toolkit</h3><p>View the <a href="https://www.himss.org/library/healthcare-privacy-security/mobile-security-toolkit/introduction">The Mobile Security Toolkit</a></p><h3>mHealth Body of Evidence</h3><p><a href="https://www.himss.org/resourcelibrary/TopicList.aspx?MetaDataID=3102">Challenges, successes, lessons learned,</a> and outcomes supported by metrics from peer reviewed and outside organizations.</p><h3>International Perspectives</h3><p>The mHealth Community by <a href="https://www.himss.org/resourcelibrary/TopicList.aspx?MetaDataID=2333">HIMSS curates research and best practices from across the globe</a>.</p>
+</div></div>
+
+</div><div class="field-collection-view clearfix view-mode-full"><div  about="/field-collection/field-landing-expand/573736" typeof="" class="ds-1col entity entity-field-collection-item field-collection-item-field-landing-expand view-mode-full accordion clearfix">
+
+  
+  <h2 class="field-name-field-title">Partners – Updates from the Ecosystem</h2><div class="accordion-content field-name-field-body">
+<p>View updates from the continuum through these Federal mHealth and Partner organization resources.</p><h3>Partner Organizations</h3><p><a href="https://www.pchalliance.org/"><em><strong><img alt="PCHA Logo" src="/sites/himssorg/files/images/vendorLogo/pcha-logo.gif" title="PCHA Logo" /></strong></em></a><a href="https://www.continuaalliance.org/"><img alt="Continua" src="/sites/himssorg/files/images/vendorLogo/continua.gif" title="Continua" /></a></p><h3>Federal Resources (FDA, ONC, FCC)</h3><p>View updates and resources from the Federal government on mHealth and Telehealth. <a href="https://www.himss.org/resourcelibrary/TopicList.aspx?MetaDataID=4062">Learn more</a>.</p>
+</div></div>
+
+</div><div class="field-collection-view clearfix view-mode-full field-collection-view-final"><div  about="/field-collection/field-landing-expand/573741" typeof="" class="ds-1col entity entity-field-collection-item field-collection-item-field-landing-expand view-mode-full accordion clearfix">
+
+  
+  <h2 class="field-name-field-title">Get Involved! - Community, Committee, &amp; Task Forces</h2><div class="accordion-content field-name-field-body">
+<p>Get involved with the mHealth Community, Committee, and Task Forces!</p><h3>Connected Health Community</h3><p>The <a href="https://www.himss.org/get-involved/community/connected-health-community">Connected Health Community</a> of HIMSS is the globally-focused mobile initiative of HIMSS working towards the increased use of mobile technologies to improve quality, accessibility, safety, and cost-effectiveness of health and healthcare.</p><h3>Connected Health Committee</h3><p>As mobile technology continues to grow in the healthcare space, <a href="https://www.himss.org/get-involved/committees/connected-health">the Connected Health Committee</a> will provide domain expertise, leadership and guidance to HIMSS activities, initiatives, and collaborations with the Connected Health Community related to building resources for providers with a focus on new care models (remote monitoring, telehealth), ROI, privacy and security, standards and interoperability, policy, and technology, across the mHealth ecosystem.</p>
+</div></div>
+
+</div></div></div><div class="field-collection-container clearfix"><div class="field field-name-field-main-button field-type-field-collection field-label-hidden"><div class="field-items"><div class="field-item even"><div class="field-collection-view clearfix view-mode-full field-collection-view-final"><div  about="/field-collection/field-main-button/573746" typeof="" class="ds-1col entity entity-field-collection-item field-collection-item-field-main-button view-mode-full  clearfix">
+
+  
+  </div>
+
+</div></div></div></div></div><div class="field field-name-field-closing-copy field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even">
+<p> </p><h3>Contact Us</h3><p>We’d love to hear from you! Questions on getting involved? How to submit a blog? Looking for resources? Suggestions? Please reach out to <a href="mailto:mHealth@himss.org">connectedhealth@himss.org</a>.</p>
+</div></div></div></div>
+
+
+</section> <!-- /.block -->
+<section id="block-views-news-topic-latest-news" class="block block-views clearfix">
+      
+  <div class="view view-news view-id-news view-display-id-topic_latest_news view-dom-id-6d52edaa59be21f369cff870ba02748c">
+            <div class="view-header">
+      <h2>Latest News</h2>    </div>
+  
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+    <div  about="/news/new-alliance-focused-best-practices-mobile-health-applications" typeof="sioc:Item foaf:Document" class="ds-1col node node-news type-himss-news view-mode-latest_news  clearfix">
+
+  
+  <small class="field-name-post-date">12/13/2016</small><div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even" property="dc:title"><h3><a href="/news/new-alliance-focused-best-practices-mobile-health-applications">New Alliance Focused on Best Practices for Mobile Health Applications</a></h3></div></div></div><div class="field field-name-field-body-search field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p>HIMSS aligns with three other organizations to form Excertia, a nonprofit corporation focused on developing mobile app guidelines</p></div></div></div></div>
+
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+    <div  about="/news/2016-himss-connected-health-survey-suggests-positive-future-connected-health-technologies-us" typeof="sioc:Item foaf:Document" class="ds-1col node node-news type-himss-news view-mode-latest_news  clearfix">
+
+  
+  <small class="field-name-post-date">03/02/2016</small><div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even" property="dc:title"><h3><a href="/news/2016-himss-connected-health-survey-suggests-positive-future-connected-health-technologies-us">2016 HIMSS Connected Health Survey Suggests Positive Future for Connected Health Technologies in U.S. Hospitals</a></h3></div></div></div><div class="field field-name-field-body-search field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even">More than Half of Hospitals Represented Currently Use Three or More Connected Health Technologies with Many Organizations Planning to Implement Additional Technologies to Improve Engagement and Quality of Care with Patients</div></div></div></div>
+
+  </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last">
+    <div  about="/news/are-you-ready-rise-patient-empowerment" typeof="sioc:Item foaf:Document" class="ds-1col node node-news type-blog view-mode-latest_news  clearfix">
+
+  
+  <small class="field-name-post-date">02/12/2016</small><div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even" property="dc:title"><h3><a href="/news/are-you-ready-rise-patient-empowerment">Are You Ready for the Rise of Patient Empowerment?</a></h3></div></div></div><div class="field field-name-field-body-search field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even">We saw glimpses of the rise in patient empowerment last year at HIMSS15 in Chicago. More fitness tracker watches and apps were visible and many attendees wanted to know how this trend was going to impact the healthcare technology landscape.</div></div></div></div>
+
+  </div>
+    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <a href="/topic-feed/3111" title="RSS Feed for News">
+								<span class="fa-stack fa-lg">
+									<i class="fa fa-circle fa-stack-2x"></i>
+									<i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+								</span>
+								</a>
+<div class="divider-vertical"></div>
+<a href="/News" class="btn btn-link">More News <i class="fa fa-fw fa-angle-double-right"></i></a>    </div>
+  
+  
+</div>
+</section> <!-- /.block -->
+  </div>
+          </section>
+        </div>
+      </div>
+
+              <aside class="col-md-4" role="complementary">
+            <div class="region region-sidebar-second">
+    <section id="block-boxes-newsletter-signup" class="block block-boxes block-boxes-simple clearfix">
+      
+  <div id='boxes-box-newsletter_signup' class='boxes-box'><div class="boxes-box-content"><p><a class="btn btn-primary btn-block" href="http://marketplace.himss.org/Solicitation/Manage"><i class="fa fa-envelope"></i>  Subscribe to HIMSS eNewsletters</a></p></div></div>
+</section> <!-- /.block -->
+<section id="block-boxes-ads-sidebar" class="block block-boxes block-boxes-simple clearfix">
+      
+  <div id='boxes-box-ads_sidebar' class='boxes-box'><div class="boxes-box-content"><!--- Right Column Ad --->
+<br /><div class="ad-right">
+<script>
+<!--//--><![CDATA[// ><!--
+OAS_RICH('Right1');
+//--><!]]>
+</script></div><!-- end: .ad-right -->
+<br /></div></div>
+</section> <!-- /.block -->
+<section id="block-views-events-upcoming-events" class="block block-views clearfix">
+      
+  <div class="view view-events view-id-events view-display-id-upcoming_events view-dom-id-2271ca4a3d341a07ba691a72c652370b">
+            <div class="view-header">
+      <h2>Upcoming Events</h2>    </div>
+  
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+    <div  about="/event/nursing-informatics-bootcamp-susan-newbold-central-north-florida-chapter-himss" typeof="sioc:Item foaf:Document" class="ds-1col node node-event view-mode-upcoming_event  clearfix">
+
+  
+  <div class="field field-name-field-date field-type-datetime field-label-hidden"><div class="field-items"><div class="field-item even">20 Sep</div></div></div><div class="group-right field-group-div"><div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even" property="dc:title"><h5><a href="/event/nursing-informatics-bootcamp-susan-newbold-central-north-florida-chapter-himss">Nursing Informatics Bootcamp with Susan Newbold | Central & North Florida Chapter of HIMSS</a></h5></div></div></div><div class="field field-name-field-event-type field-type-taxonomy-term-reference field-label-hidden"><div class="field-items"><div class="field-item even">HIMSS Event</div></div></div></div></div>
+
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+    <div  about="/event/business-process-management-healthcare-industry-workshop" typeof="sioc:Item foaf:Document" class="ds-1col node node-event view-mode-upcoming_event  clearfix">
+
+  
+  <div class="field field-name-field-date field-type-datetime field-label-hidden"><div class="field-items"><div class="field-item even">23 Sep</div></div></div><div class="group-right field-group-div"><div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even" property="dc:title"><h5><a href="/event/business-process-management-healthcare-industry-workshop">Business Process Management for Healthcare Industry Workshop</a></h5></div></div></div><div class="field field-name-field-event-type field-type-taxonomy-term-reference field-label-hidden"><div class="field-items"><div class="field-item even">HIMSS Event</div></div></div></div></div>
+
+  </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last">
+    <div  about="/event/us-national-health-it-week-0" typeof="sioc:Item foaf:Document" class="ds-1col node node-event view-mode-upcoming_event  clearfix">
+
+  
+  <div class="field field-name-field-date field-type-datetime field-label-hidden"><div class="field-items"><div class="field-item even">23 Sep</div></div></div><div class="group-right field-group-div"><div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even" property="dc:title"><h5><a href="/event/us-national-health-it-week-0">U.S. National Health IT Week</a></h5></div></div></div><div class="field field-name-field-event-type field-type-taxonomy-term-reference field-label-hidden"><div class="field-items"><div class="field-item even">HIMSS Event</div></div></div></div></div>
+
+  </div>
+    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <a href="/Events" class="btn btn-darkgray btn-sm btn-rounded more-link">More Events</a>    </div>
+  
+  
+</div>
+</section> <!-- /.block -->
+<section id="block-boxes-oas-right2" class="block block-boxes block-boxes-simple clearfix">
+      
+  <div id='boxes-box-oas_right2' class='boxes-box'><div class="boxes-box-content"><!--- Right Column Ad --->
+<br /><div class="ad-right">
+<script>
+<!--//--><![CDATA[// ><!--
+OAS_RICH('Right2');
+//--><!]]>
+</script></div><!-- end: .ad-right -->
+<br /></div></div>
+</section> <!-- /.block -->
+  </div>
+        </aside>  <!-- /#sidebar-second -->
+          </div>
+  </div>
+</div>
+
+<footer class="footer">
+  
+      <div class="footer-middle">
+      <div class="container">
+          <div class="region region-footer-middle">
+    <section id="block-menu-menu-footer" class="block block-menu clearfix">
+      
+  <ul class="menu nav navbar-nav"><li class="first leaf"><a href="/about-himss" data-mlid="18366">About HIMSS</a></li>
+<li class="leaf"><a href="/general-content-classification/job-opportunities-himss" data-mlid="18371">Job Opportunities</a></li>
+<li class="leaf"><a href="/about/legal" data-mlid="631">Legal/Privacy Policy</a></li>
+<li class="leaf"><a href="/contactus" data-mlid="18381">Contact Us</a></li>
+<li class="last leaf"><a href="/vendor-center" data-mlid="18386">Advertise</a></li>
+</ul>
+</section> <!-- /.block -->
+<section id="block-block-1" class="block block-block clearfix">
+      
+  <p><strong>Healthcare Information and Management Systems Society (HIMSS)</strong><br />33 West Monroe Street, Suite 1700, Chicago, IL 60603-5616 <br />Phone: 312.664.4467 | Fax: 312.664.6143</p><p>© 2019 Healthcare Information and Management Systems Society (HIMSS)</p>
+</section> <!-- /.block -->
+<section id="block-block-21" class="block block-block clearfix">
+      
+  <div class="addthis_responsive_sharing"></div>
+</section> <!-- /.block -->
+<section id="block-core-core-back-to-top" class="block block-core clearfix">
+      
+  
+        <div class="block-content col-sm-1 col-sm-push-11">
+          <a id="back2top" title="Back to Top">
+            <span class="fa-stack fa-3x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-angle-up fa-stack-1x"></i>
+            </span>
+          </a>
+        </div>
+</section> <!-- /.block -->
+  </div>
+      </div>
+    </div>
+  
+      <div class="footer-bottom">
+      <div class="container">
+          <div class="region region-footer-bottom">
+    <section id="block-block-26" class="block block-block clearfix">
+      
+  <div class="utilityNav">
+    <div class="container">
+<ul class="nav nav-icons pull-left"><li>
+          <a href="/site-search" title="Follow HIMSS on Facebook" rel="nofollow">
+   <span class="fa-stack fa-lg">
+     <i class="fa fa-search fa-stack-1x fa-inverse"></i>
+   </span>
+          </a>
+        </li>
+</ul><ul class="nav nav-icons pull-right"><li>
+          <a href="https://www.facebook.com/HIMSSpage" target="_blank" title="Follow HIMSS on Facebook" rel="nofollow">
+   <span class="fa-stack fa-lg">
+     <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+   </span>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/company/himss/" target="_blank" title="Connect with HIMSS on LinkedIn" rel="nofollow">
+   <span class="fa-stack fa-lg">
+     <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+   </span>
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/himss" target="_blank" title="Follow HIMSS on Twitter" rel="nofollow">
+   <span class="fa-stack fa-lg">
+     <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+   </span>
+          </a>
+        </li>
+        <!--<li>
+          <a href="http://plus.google.com/u/0/106418070596742055335"
+             title="Follow HIMSS on Google+" rel="nofollow">
+   <span class="fa-stack fa-lg">
+     <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+   </span>
+          </a>
+        </li>
+        <li>
+          <a href="http://youtube.com/himss"
+             title="Subscribe to HIMSS on YouTube" rel="nofollow">
+   <span class="fa-stack fa-lg">
+     <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+   </span>
+          </a>
+        </li>
+        <li class="hidden-xs hidden-sm last-link"><a
+            href="https://twitter.com/search?q=%23HIMSS16" style="color:#fff;"
+            rel="nofollow">#HIMSS16</a>
+        </li>-->
+      </ul></div>
+  </div>
+</section> <!-- /.block -->
+  </div>
+      </div>
+    </div>
+        <div class="footer-ad">
+      <div class="container">
+          <div class="region region-footer-ad">
+    <section id="block-boxes-ads-bottom" class="block block-boxes hidden-xs hidden-sm block-boxes-simple clearfix">
+      
+  <div id='boxes-box-ads_bottom' class='boxes-box'><div class="boxes-box-content"><!--- Bottom Banner Ad --->
+<div id="ads-bottom-banner">
+<script>
+<!--//--><![CDATA[// ><!--
+OAS_RICH('Bottom');
+//--><!]]>
+</script></div><!-- /bottom-ad --></div></div>
+</section> <!-- /.block -->
+<section id="block-block-101" class="block block-block clearfix">
+      
+  <style>
+<!--/*--><![CDATA[/* ><!--*/
+
+h3 {font-size:1.17em;}
+
+.thumbnail {border: 1px solid #ccc;
+display: block;
+margin: 5px 20px 10px 0px;
+padding: 0;
+float: left;
+text-align: center;
+color: #fff;
+background: #098bb1;}
+.thumbnail img {padding: 8px 20px;
+background: #fff;}
+.thumbnail a {color:#fff;}
+.thumbnail .caption {color: #fff;}
+.img-cornered {
+    border-radius: 7px;
+}
+
+ul.nav-tabs {margin-bottom:10px!important; font-size: 1.2em;}
+ul.nav-tabs li a {margin-right:10px!important; padding:10px 20px!important;}
+
+body.site-himssconference .node.view-mode-full .field-name-body img {width: initial;}
+
+div.logopool img {margin:0px 5px 5px 0px; border:1px solid #E6E6E6; padding:5px; width:180px; height:100px;}
+
+.btn-reghome {
+background-color:#F6A01A!important;
+color:#fff!important;
+text-shadow:none!important;
+padding:10px!important;
+}
+#mini-panel-mobile_menu .btn-reghome {margin:20px; width:85%; padding: 15px!important;}
+
+
+p.keynoteDateTime {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #a3a51d;
+    margin-top: 50px;
+}
+
+img.headshot {
+    float: right;
+    margin: 0 0 10px 10px;
+}
+/*-----ALERTS-----*/
+.alert {padding:15px 20px;border:1px solid transparent;margin: 0 0 20px 0!important;border-radius:8px;display:block;}
+.alert > span {display:block;padding-left:2em;position:relative;}
+.alert > span > i{position:absolute;top:3px;left:0;}
+.alert .btn > i{display:inline;}
+.alert .btn, .alert button, .alert input[type=button], .alert input[type=submit]{font-weight:normal;}
+.alert a{font-weight:bold;text-decoration:underline;}
+.alert h1, .alert h2, .alert h3, .alert h4, .alert h5, .alert h6, .alert .alert-heading{font-size:20px;margin-bottom:5px;}
+.alert-error{background-color:#FFE6E6!important;border-color:#D9531E;color:#D9531E;}
+    .alert-error a{color:#D9531E;}
+    .alert-error .btn{background-color:#D9531E!important;border-color:#D9531E!important;color:#FFF;}
+	.alert-error h1, .alert-error h2, .alert-error h3, .alert-error h4, .alert-error h5, .alert-error h6, .alert-error .alert-heading{color:#D9531E!important;}
+.alert-info{background-color:#E7F2F7!important;border-color:#098BB1;color:#098BB1;}
+    .alert-info a{color:#098BB1;}
+    .alert-info .btn{background-color:#098BB1!important;border-color:#098BB1!important;color:#FFF;}
+	.alert-info h1, .alert-info h2, .alert-info h3, .alert-info h4, .alert-info h5, .alert-info h6, .alert-info .alert-heading{color:#098BB1!important;}
+.alert-success{background-color:#EDFCCA!important;border-color:#849E49;color:#849E49;}
+    .alert-success a{color:#849E49;}
+    .alert-success .btn{background-color:#849E49!important;border-color:#849E49!important;color:#FFF;}
+	.alert-success h1, .alert-success h2, .alert-success h3, .alert-success h4, .alert-success h5, .alert-success h6, .alert-success .alert-heading{color:#849E49!important;}
+.alert-warning{background-color:#F7Df71!important;border-color:#C59A1D;color:#957510;}
+    .alert-warning a{color:#957510;}
+    .alert-warning .btn{background-color:#C59A1D!important;border-color:#C59A1D!important;color:#FFF;}
+	.alert-warning h1, .alert-warning h2, .alert-warning h3, .alert-warning h4, .alert-warning h5, .alert-warning h6, .alert-warning .alert-heading{color:#957510!important;}
+
+/*----------VISUAL LIST BLOCKS----------*/
+section.news-homepage-block {display:none;}
+
+.list {
+    margin:0;
+}
+
+.list .list-item, .list li {
+    border:none;
+    border-bottom:2.5px dotted #f1f1f2;
+    position:relative;
+    padding:20px 0;
+    list-style:none;
+    box-shadow:none;
+    margin:0;
+}
+
+/*.list .list-heading {
+    border:none;
+    position:relative;
+    padding:5px 10px;
+    list-style:none;
+    box-shadow:none;
+    margin:0;
+    background-color:#098BB1;
+    border-radius:5px 5px 0 0;
+    color:#FFF;
+}*/
+.list li:before {
+    display:none;
+} 
+.list .list-item:last-child, .list li:last-child {
+    border-bottom:none;
+    box-shadow:none;
+}
+.list .list-item:first-child, .list li:first-child {
+    border-top:none;
+    box-shadow:none;
+}
+.list .list-item a.item-heading, .list li a.item-heading{
+    display:block;
+    font-size:1.2em;
+}
+    .list.list-date .list-item, .list.list-date li {
+        padding:10px 0;
+    }
+    .list.list-date .list-item, .list.list-date li {
+        display:table;
+    }
+    .list.list-date .list-item div, .list.list-date li div {
+        display:table-cell;
+        vertical-align:top;
+    }  
+    .list.list-date> .list-item  div:first-child, .list.list-date  li  div:first-child {
+        padding-right:20px;
+    }   
+    .list.list-date  .list-item a.item-heading, .list.list-date  li a.item-heading {
+        /*font-size:.9em;*/
+    }
+
+    .list.list-shadowed .list-item {
+        -webkit-box-shadow: -3px -3x 3px #E7E7E8;
+        -moz-box-shadow: -3px -3px 3px #E7E7E8;
+        box-shadow: -3px -3px 3px #E7E7E8;
+        padding-left:25px;
+        margin-bottom:20px;
+        border:none;
+    }
+/*--- Slider ---*/	
+.slider-wrapper {
+	position:relative;
+}
+.slider-wrapper img {
+	display:block;
+	max-width:100%;
+	height:auto;
+	margin-bottom:0;
+}
+
+.slider-content {
+	background:#F1F1F3;
+	display:block;
+	margin-top:0;
+	padding:5px 30px 20px 30px;
+	text-align:center;
+	width:auto;	
+}
+.slider-content h2 {font-size:1.7em;}
+.home-sections a:hover {color:#fff;}
+
+@media (min-width: 992px) {
+	.slider-content {
+		position:absolute;
+		top:0;
+		width:500px;
+		padding-top:1em;
+		background:none;
+	}
+	.slider-content h2 {font-size:1.5em;}
+	.slider-content-left {
+		left:0;
+		text-align:left;
+		padding-left:7em;
+	}
+	.slider-content-right {
+		right:0;
+		padding-right:12em;
+		text-align:right;
+	}
+}
+
+@media (min-width: 1200px){
+	.slider-content {
+		position:absolute;
+		top:0;
+		width:550px;
+		padding-top:2em;
+		background:none;
+	}
+	.slider-content h2 {font-size:2.3em;}
+	.slider-content-left {
+		padding-left:12em;
+	}
+	.slider-content-right {
+		padding-right:12em;
+	}
+}
+
+@media (max-width:450px){
+	img.visible-sxs {
+		display:block!important;;
+	}
+	img.visible-xs {display:none!important;}
+}
+
+@media (max-width: 767px){
+	.home-sections {clear:both;}
+	.home-sections h2 {font-size:1em;}
+	.slider-content {
+		
+	}
+	.slider-wrapper img {
+		
+		
+	}
+	.slider-content .btn-lg {font-size:1em!important;}
+}
+
+
+@media(max-width:1200px){
+	div.header-bottom a.logo img {
+	  width:146px;
+	  height:83px;
+	  padding-left:180px;
+	  background: url(/sites/himssorg/files/logo/himss-logo-no-tagline.png) no-repeat left center;
+	} 
+}
+
+.block-himssconference-search {float:right!important;}
+#ads-top-banner, #ads-bottom-banner {text-align:center;}
+
+#packery a.inner:hover {text-decoration:none;}
+body.site-himssorg #block-boxes-vs-homepage {
+margin-top: -100px;}
+body.site-himssorg #block-boxes-vs-homepage #boxes-box-vs_homepage .boxes-box-content h1 {
+margin-top: 80px;}
+
+body.site-himssorg #navbar .navbar-header a.logo img{
+max-height:100%;
+}
+
+
+/*--><!]]>*/
+</style><script type="text/javascript">
+<!--//--><![CDATA[// ><!--
+
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0030/3128.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+
+//--><!]]>
+</script>
+</section> <!-- /.block -->
+  </div>
+      </div>
+    </div>
+  </footer>  <script src="/sites/himssorg/files/advagg_js/js___F8KGWIiHdQfl5bO6Dui8ksNE0NZVOw6z7uq1-lDB4k__tkY0XGqphgKxrpfoJ5XLMot4uI1j7Q6RUQjt3Ugx2Uc__3neccuQwuP700kQqBMMjtLhPyX6iqiSgrS-B2_jXApc.js"></script>
+<script src="/sites/himssorg/files/advagg_js/js__i11V-7AETPhfL9YzRpXBpECwVkYyQ_ahu2eHxES_mK0__Tgy2Gm7LmUJY8GXZeWxVbS51f3txED35LX1ul4UiOfk__3neccuQwuP700kQqBMMjtLhPyX6iqiSgrS-B2_jXApc.js"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"bf70f03321","applicationID":"64534403","transactionName":"NVBSZ0AFXERUVxJQWQwacVBGDV1ZGlAVZlMaQUJSQTtcWFFROUlXBVBvRVsBRQ==","queueTime":0,"applicationTime":3973,"atts":"GRdREQgfT0o=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

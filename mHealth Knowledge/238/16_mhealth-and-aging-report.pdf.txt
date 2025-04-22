@@ -1,0 +1,963 @@
+ 
+Using Mobile Technologies for Healthier Aging 
+By Ada Kwan 
+mHealth Alliance, United Nations Foundation 
+ 
+ 
+ 
+ 
+ 
+Table of Contents 
+ 
+Acknowledgements ............................................................................................................................................................ 2 
+Executive Summary ........................................................................................................................................................... 3 
+A Graying World ................................................................................................................................................................. 4 
+Existing mHealth Strategies and Opportunities for Healthier Aging .................................................................................. 7 
+Putting an Aging Lens on mHealth .................................................................................................................................. 13 
+mHealth and Aging Call to Action .................................................................................................................................... 15 
+Conclusion: Advancing mHealth for Healthier Aging ....................................................................................................... 18 
+References ....................................................................................................................................................................... 19 
+Appendix A. Individual and Population Aging Frameworks ............................................................................................. 21 
+1 
+ 
+ 
+ 
+Acknowledgements 
+Acknowledgements 
+I would like to gratefully acknowledge the many people who helped put this report together. Many thanks go to the 
+following individuals for their exchanges, reviews, discussions, resources, and the time they took out of their busy 
+schedules to contribute and provide insight throughout this process: Jon Broyles of the Coalition to Transform Advanced 
+Care; Unity Stoakes and Polina Hanin of StartUp Health; Alice Borrelli and David Prendergast of Intel Corporation; Jane 
+Barratt of the International Federation on Ageing; Josh Collett and Bill Walsh of AARP; Julie Sipchen of the Alzheimer’s 
+Association; Alice Fabiano of Johnson & Johnson; Heather Cole-Lewis of Columbia University; Alain Labrique of the 
+Johns Hopkins Bloomberg School of Public Health; Rajiv Mehta of Bhageera Consulting; Nicholas Ward of Montana State 
+University; Bethany Brown of HelpAge USA, and her colleagues Mark Gorman and Paul Ong of HelpAge International; 
+and Brendan Smith and Brooke Partridge of Vital Wave Consulting. 
+This report would not have been possible without the aforementioned individuals and their openness in sharing best 
+practices, recommendations, examples, learned lessons, and their passion related to evolving a society better designed 
+with today’s technologies and for a rapidly growing aging population.  
+Most importantly, I would like to express my deepest appreciation and regards to the mHealth Alliance hosted by the 
+United Nations Foundation, as well as Chris Gray and his colleagues at Pfizer, Inc. Their leadership, support, and 
+commitment in advancing discussions on the role of mobile technology in global aging have been essential to this report 
+throughout the entire process, beginning with its conception. The content in this report has drawn heavily from much 
+research and experience in aging and in the integration of mobile phones for health. In the research and experience of 
+both fields, I have found a current tide of transformations for which we have many reasons to be optimistic. It is my utmost 
+desire that the product of these efforts will play a catalytic role in creating a practical ecosystem where healthier aging is 
+the norm rather than the exception. 
+2 
+ 
+ 
+ 
+Executive Summary 
+Executive Summary 
+Introduction 
+Globally, there is a demographic transition underway. People are living longer. Even though “old” is defined differently 
+1
+across the world, there will be more people over the age of 65 than children under five by 2015.  By 2050, there will be an 
+2
+estimated 1.5B people age 65 or older.  Without strong preparation around prevention, treatment, and rehabilitation, the 
+so-called “silver tsunami” will significantly increase the burden of global diseases associated with aging, notably for non-
+communicable diseases (NCDs), or chronic diseases such as cancer, diabetes, and cardiovascular diseases. The burden 
+of disease will also include declining cognitive acuity and mental health without adequate preparation. Clearly, this 
+situation creates urgent needs worldwide to extend access to health information, develop new and effective behavior 
+change strategies, and expand access to appropriate health services. With the exponential spread and penetration of 
+mobile phone coverage and access in even the most remote places, mHealth, or the use of mobile information and 
+communication technologies for health, and related software applications offer unique opportunities. By advancing and 
+accelerating innovative mHealth solutions for aging populations, the promise of greater longevity – additional active and 
+productive years – is more likely to materialize. 
+Objective 
+The objective of this report is to provide momentum to an emerging conversation on ways mobile communications 
+technology can help people age better and in good health. The report is mindful of the fact that different opportunities and 
+challenges exist in low- and middle-income countries (LMICs) versus developed countries. At the same time, this report 
+considers how mHealth innovations occurring in each are also instructive to one another. Many of the examples in this 
+report are drawn from developed world contexts with a view towards how programs can be tailored for LMIC conditions. 
+This report serves both as a resource and a call-to-action for all stakeholders including project implementers, 
+organizations, the private sector, and policymakers. 
+Methods 
+This report was informed by a review of both white and gray literature on aging, chronic conditions, and the use of mobile 
+technologies for health. New ideas and gaps in the existing knowledge base around mHealth and aging were also 
+identified through primary and secondary research. Key informant interviews were conducted with experts in health, 
+technology, and aging populations, as well as individuals with experience in the development and implementation of 
+mHealth programs in countries around the world. 
+Findings and Conclusions 
+Research is prolific on aging issues and the base of analytical work around mHealth is growing, but coordination and 
+sharing of lessons learned need improvement. There are several programs, only a few research initiatives, and even 
+fewer trials that focus on the intersection of mHealth and age. Emerging evidence supports the use of mHealth to promote 
+efficiencies in care management practices and improvements in individual and population health outcomes through 
+behavior change strategies aimed at increasing healthier behaviors (e.g., exercise, appointment attendance, treatment 
+compliance), reducing unhealthy behaviors (e.g., tobacco use), and expanding access to care for chronic disease 
+management. Additionally, an mHealth for aging ecosystem is beginning to form that includes not only older people, but 
+also others who are a part of an older person’s life, including friends, family, caregivers, and healthcare providers. 
+Strategic planning and stronger coordination across the fields of health, information technologies, and aging are 
+necessary to ensure that the full potential of mobile and wireless technology for the improvement of preventive and 
+supportive care for conditions associated with aging can be realized for older people, the fastest growing segment of the 
+population worldwide. A call-to-action is made to catalyze a conversation among stakeholders and to identify areas that 
+can be advanced today. 
+3 
+ 
+ 
+ 
+A Graying World 
+A Graying World 
+Globally, there is a demographic transition underway. People are living longer. Even though what is considered as 
+1a
+“old” varies around the world, there will be more people over the age of 65 than children under five by 2015.  By 2050, 
+2
+there will be an estimated 1.5B people age 65 or older, with some estimates much higher.  This growth is attributable to 
+decreasing fertility rates and increasing life expectancies, which reflect tremendous successes in improving health and 
+quality of lifeworldwide.  
+However, the impact of a demographic change of this magnitude presents an urgent and immediate challenge globally in 
+1
+health for governments, as well as private and not-for-profit sectors.  The extent of the challenge is particularly significant 
+in low- and middle-income countries (LMICs), where the rapid rise in the number of older people far exceeds that of 
+1
+developed countries (See Figure 1).  Moreover, health systems in LMICs are not prepared to handle a rapidly aging 
+1
+population. In many cases, social safety nets such as social security are not in place.  Additionally, for many older people, 
+1,2
+costs and a lack of access to health services limit the services they receive.  
+The objective of this report is to provide fresh momentum to an emerging conversation on ways mobile communications 
+technology can help people age well. Mindful of the fact that many mHealth applications are occurring in the developed 
+world context, the report also focuses on the opportunities and challenges in the LMIC context. 
+Figure 1: Number of people age 60 or over in developed and developing countries between 1950 and 2050  
+(Millions) 
+2,500
+2,000
+1,500
+1,000
+500
+0
+Developing Countries Developed Countries
+ 
+Source: UNFPA, 2012, p. 13. 
+Source: UNDESA, World Population Ageing 2011(2012; forthcoming), based on UNDESA Population Division medium projection scenario, World 
+Population Prospects: The 2010 Revision. 
+Note: The group of “developed countries” corresponds to the “more developed regions” of the World Population Prospects: The 2010 Revision, and the 
+group “developing countries” corresponds to the “less developed regions” of the same publication. 
+                                               
+a
+ For this report, the term “older,” “older people,” or “elderly” will be used in reference to individuals age 60 and older. However, the term “older persons” 
+is used by the United Nations, and “seniors” used in the United States in reference to people over age 60. 
+4 
+ 
+1950
+1955
+1960
+1965
+1970
+1975
+1980
+1985
+1990
+1995
+2000
+2005
+2010
+2015
+2020
+2025
+2030
+2035
+2040
+2045
+2050
+ 
+ 
+A Graying World 
+ 
+A Changing Health Landscape 
+Without strong global action around prevention, treatment, and rehabilitation, the so-called “silver tsunami” will 
+significantly increase the global disease burden for non-communicable diseases (NCDs),or chronic diseases, such as 
+cancer, diabetes, and cardiovascular diseases. The burden of disease will also include declining cognitive acuity and 
+mental health. However, many of these conditions are preventable and can be avoided or mitigated with cost-effective 
+2
+solutions.
+Clearly, this situation creates an urgent need throughout 
+ Fact Check: Non-Communicable Diseases 
+the world to extend access to health information, 
+develop new and effective behavior change strategies,  In 2008, NCDs alone accounted for approximately 
+and expand service access. The fact that people are 86% of the disease burden in high-income countries, 
+living longer can be celebrated – it means advances in 65% in middle-income countries, and 37% in  
+sanitation, hygiene, and medical innovation have reaped low-income countries 
+rewards in terms of years of life gained. The downside, 
+ While NCDs are proportionally more prevalent 
+however, is that some people are living longer in poor 
+compared to communicable diseases in high-income 
+health, sometimes for a decade or more. In fact, 
+countries, 90% of NCD deaths worldwide occur in 
+economic losses in LMICs from heart disease, stroke, 
+LMICs 
+and diabetes are expected to total US$83B accumulated 
+2
+between 2006 and 2015.  Thus, the challenge is to  In LMICs, where many older people are unlikely to 
+adapt to the changing landscape as quickly as possible have access to healthcare, chronic conditions often go 
+by strategically planning for the shifting healthcare undiagnosed because they are asymptomatic in early 
+needs. stages 
+Fortunately, during this demographic transition, another 
+ Advanced chronic conditions will increase the strain on 
+massive global trend is underway: the mobile phone 
+existing health systems already suffering from critical 
+revolution, or the exponential spread and penetration of 
+health worker shortages, supply chain failures, and 
+mobile phone coverage and access in even the most 
+inefficiencies at the facility level 
+remote areas. This year, mobile phone subscriptions 
+have surpassed the 6B on mark for the world’s  In LMICs, economic losses from heart disease, stroke, 
+3
+population of 7B.  In a survey of older people in 36 and diabetes are expected to total US$83B 
+countries including many LMICs, 61% of older people accumulated between 2006 and 2015 
+1
+had access to a mobile phone in 2011.  This trend offers 
+ Treatment for chronic diseases cost US$3.5T across 
+society a unique opportunity to develop and capitalize on 
+OECD and BRIC countries in 2007 
+options that can accelerate innovative solutions to not 
+only extend life but to add healthy and productive years 
+Source:National Institute on Aging, 2011. 
+while simultaneously tackling the growing tide of health 
+issues associated with aging. 
+ Fact Check: Mobile Phones 
+The promise of mHealth – the use of mobile information 
+and communication technology and applications for  In 2012, there are over 6B mobile phone subscriptions 
+health – is the ability to assist in preventing the onset of for a world population of over 7B 
+debilitating, chronic diseases associated with age and 
+ A survey of older people in 36 countries, including 
+also to assist in the management and treatment of 
+many LMICs, 61% of older people had access to a 
+existing conditions toward a society of citizens who are 
+mobile phone in 2011 
+more productive, functional, and healthier. 
+ In 2007, using mobile tools and services could have 
+saved a total of US$175 to $210B on chronic disease 
+treatment 
+Source: UNFPA, 2012; McKinsey & Company, & the GSM Association, 
+2010. 
+5 
+ 
+ 
+ 
+A Graying World 
+ 
+b c
+In 2007, where treatment for chronic diseases cost US$3.5T across OECD and BRIC countries, the use of mobile tools 
+4
+and services had a cost-saving potential of between US$175B and $210B.  
+Even on mobile phones with less sophisticated features, which are more prevalent today in LMICs, the potential of voice- 
+and text-based applications for age-related issues can provide valuable mHealth services in the form of education, data 
+collection, and two-way communication between patients or caregivers and healthcare providers. As broadband and 
+smartphones become more accessible around the world, refined and secure mHealth applications can offer more 
+5
+solutions in the form of remote diagnostics and monitoring, expert consultation, and health records management.  
+But are the advances in mobile phone use disproportionately benefitting younger populations? Are incentives in place to 
+encourage the use of mobile phones to advance healthy aging among young, but aging, cohorts? What is being done to 
+increase mobile phone saturation and know-how among older populations? 
+Already numerous efforts by government agencies and civil society organizations have begun to take advantage of the 
+increasing affordability, ease of use, and ubiquity of mobile phones to implement a wide range of projects and products 
+that enhance the delivery of health interventions. Despite these innovations, the US$175B to $210 billion dollars in 
+savings has yet to occur for chronic diseases, and it will not until more investment is made in containing costs in 
+healthcare across the world through mobile technology. This report serves as a call-to-action to spur the decisions and 
+actions necessary to begin utilizing mobile phones to their full potential in aging, particularly for NCDs. With the parallel 
+trends of a rapidly expanding older population and increasing mobile telephony, the opportunity is too good to pass up.
+                                               
+b
+ There are 34 countries that are members of the Organisation for Economic Co-operation and Development. 
+c
+ Brazil, Russia, India, and China 
+6 
+ 
+ 
+ Existing mHealth Strategies and 
+Opportunities for Healthier Aging 
+Existing mHealth Strategies and Opportunities for Healthier Aging 
+For aging populations, mHealth holds promise for improving health, enabling greater independence, and transforming the 
+ecosystem of traditional healthcare delivery through potentially cost-effective mechanisms, whether it be a simple text-
+based program or an advanced mobile application. Certain mechanisms focus on prevention for those who are healthy or 
+in manageable stages of their conditions (e.g., screening, early treatment, behavior modification). Others serve those at 
+advanced stages of illnesses (e.g., access to care, improved quality of care, adherence to care regimens, and caregiver 
+support). Across prevention and care, solutions provided by mHealth generally fall into three broad categories: 
+ Education – equipping individuals with easier access to validated health information  
+ Motivation – encouraging individuals to adhere to treatment regimens and attend appointments through messages 
+and reminders 
+ Connectivity – creating new and strengthening existing communication channels, particularly between caregivers 
+and older people; improving monitoring; and strengthening interventions 
+In general, mHealth solutions leverage mobile phone features such as text or voice messages, which can be educational 
+or motivational for the patient. At the same time, these features can improve connectivity. Chronic conditions benefit from 
+near real-time monitoring of blood pressure, heart rate, and changes in cholesterol levels. End users of mHealth solutions 
+include older individuals, healthcare providers, caregivers, and families, which create a seamless mobile ecosystem to 
+enable a more functional andproductive lifestyle. Emerging evidence supports the use of mHealth to promote efficiencies 
+in care management practices and improvements in individual and population health outcomes through behavior change 
+strategies aimed at increasing healthier behaviors (e.g., exercise, appointment attendance, treatment compliance), 
+reducing unhealthy behaviors (e.g., tobacco consumption), and expanding access to care for chronic disease 
+management. In addition, the ability to link mobile devices to software applications and information hardware systems 
+extends options for disease monitoring and surveillance, and medical record updates. 
+The tremendous potential of mobile phones to promote wellness by enabling the individual to manage, maintain, and 
+improve his or her own health is relevant for individuals at any age because, in fact, we are all getting older. Despite the 
+promise, however, society is far from benefiting from the full potential of mHealth for aging. 
+The Beginning of a Mobile Ecosystem for Aging 
+In the past decade and through the increasing ubiquity of mobile phones, communities have emerged – for example 
+groups of individuals responsible for caring for a friend or family member. Such informal groups connect with healthcare 
+and service providers, forming a virtual network of support. Although not yet seamless, this “mHealth ecosystem” 
+capitalizes on the ability of mobile phones to address four major areas (See Figure 2). 
+  
+7 
+ 
+ 
+ Existing mHealth Strategies and 
+Opportunities for Healthier Aging 
+ 
+Figure 2: Four areas that mobile phones can address in the mHealth ecosystem 
+  
+Reduce the Increase Improve the Develop Aging-
+Delay in Seeking Healthcare Patient-Provider Friendly Health 
+ 
+Care Access Interaction Services 
+ 
+Bring attention and Extend healthcare Turn short, discrete Broaden healthcare 
+care to the present beyond health doctor visits at a to respond to 
+ 
+moment or near facilities into the facility, where chronic conditions 
+real-time, which community and providers ask and not merely 
+ encourages more households, where patients to recall injuries, infections, 
+proactive (and less wellness past events, to and emergencies 
+ reactive) attitudes maintenance and more frequent, 
+for health promotion management of small events in a 
+ chronic conditions larger ecosystem, 
+happen day-to-day where providers 
+Within the forming mobile ecosystem, there are three main types of end users that applications are focusing on: (1) older 
+individuals, (2) caregivers, and (3) providers (See Figure 3). 
+Figure 3: The mHealth ecosystem surrounding healthier aging includes older people, their caregivers and family 
+members, as well as health providers. 
+ Health Providers 
+– mHealth programs can take advantage of health providers’ pivotal and respected role in providing healthcare monitoring 
+and information. However, this may not be feasible in all settings. The United Nations Population Fund (UNFPA) Ageing in 
+the Twenty-First Century report mentions that some older people “often experienced the attitudes or lack of expertise of 
+7
+[healthcare] professionals as barriers to accessing adequate [healthcare].”  This was not reported for older individuals 
+interviewed from Northern and Western Europe or Canada. Thus, using a thorough understanding of existing health 
+system dynamics, the relationship between older individuals and providers, and the perceptions of older individuals on 
+receiving health services, are necessary to inform an mHealth aging program before selecting providers as end users. 
+Caregiversand Family 
+– Some older people may be affected by conditions that influence their ability to easily interact with mobile phones, 
+such as impaired hearing or dementia. Consequently, mHealth interventions that are focused on helping caregivers 
+and family members could be valuable. For example, a community of friends and family of an older individual can use 
+a mobile phone application to help maintain a schedule of caregiving activities. 
+Older People 
+– A recent New York Times article articulated one of the barriers to the uptake of mHealth in the older community: 
+“What’s Wi-Fi and Do I Really Need a Smartphone?” The article described how many older adults feel fearful or 
+anxious about technology, or embarrassed about their lack of understanding.6 Over time, individuals already 
+comfortable and accustomed to having mobile technologies in their hands will surpass one of the arbitrary 
+thresholds by which society considers them “old.” Characteristics of the older population will change, for example, 
+as the Baby Boomer generation in the developed world surpasses age 65. However, there is still a large portion of 
+the current older population that is resistant to using mobile technology for a variety of reasons. Understanding 
+the perceptions of older individuals regarding technology will be critical for adoption to increase. 
+8 
+ 
+ 
+E xisting mHealth Strategies and 
+Opportunities for Healthier Aging 
+ 
+The Broad Landscape of mHealth for Active and Healthy Aging 
+Some examples of mHealth applications are drawn from developed countries such as home monitoring, advances in 
+social inclusion, smart homes, and sophisticated health technologies. In these cases, broader lessons can be learned that 
+may be applicable to populations with limited resources. mHealth solutions in LMICs have been extracted from other 
+health fields including HIV/AIDS and maternal and child morbidity and mortality and applied to the context of aging. For 
+example, basic texting platforms, such as Text4Baby in the U.S., send text message with reminders and information to 
+6
+women during pregnancy and to new mothers regarding newborn care and health.  The same program can be tailored for 
+an older population also at high risk for preventable diseases. 
+To confront challenges in aging, the broad landscape of mHealth is developing projects and applications aimed at: 
+ Increasing efficiency and coordination among caregivers through electronic health recordkeeping 
+ Increasing physical, social, and cognitive stimulation 
+ Improving health and living conditions, particularly for women who have longer life expectancies and may have lost a 
+spouse, through income generation activities and health services 
+ Improving health and living conditions for grandparents who may be raising grandchildren by providing support (e.g., 
+in the case where middle-aged family members are moving to the cities and the older generation remain in rural 
+settings to raise grandchildren or continue with family farms) 
+ Expanding access to emergency services with systems that can receive emergency calls and arrange transportation 
+to providers or other parts of formal health systems 
+ Providing at-home support and health services to older individuals by connecting them with caregivers 
+ Expanding health services to remote or rural areas through teleconsultation services or hotlines, where older 
+individuals can reach providers or community health workers can reach older people with appropriate medicine and 
+point-of-care applications uploaded to mobile phones (e.g., applications to do routine monitoring, procedures to 
+identify advanced illnesses, measurements of vitals and degree of frailty, and mental health assessments) 
+The following sections further detail prevention and supporting behavior change, NCDs, and cognitive decline and mental 
+health in the context of aging. 
+Prevention and Supporting Behavior Change 
+Prevention plays a large role in healthy aging. By focusing on decreasing unhealthy behaviors such as smoking or 
+increasing healthy behaviors, such as staying fit and taking actions to avoid getting sick, mHealth can help improve the 
+1, 7
+quality of life of older people so that they can continue supporting their families and communities.  Text messaging and 
+one-on-one calls are examples of the way mobile phones are being used to improve lives by (1) helping people become 
+better informed, motivated, and encouraged to practice self-management of their own health; (2) improving patient 
+satisfaction levels; (3) offering more tailored and targeted interventions; and (4) improving patient-provider relationships.5 
+In short, solutions facilitate education, motivation, and connectivity. These techniques can be applied to a number of 
+prevention initiatives, such as weight loss, physical activity promotion, and blood pressure management. 
+Behavior change is crucial for optimizing services and maximizing the impact of cost-effective prevention, care, and 
+8
+treatment.  Mobile behavior change communication (mBCC) includes such tools as electronic reminders to take 
+medications and quizzes to improve the skillsets of healthcare providers. 
+9 
+ 
+ 
+ Existing mHealth Strategies and 
+Opportunities for Healthier Aging 
+ 
+Tobacco Use 
+One example of how mHealth can support behavior change is mHealth for tobacco usage cessation. Smoking and 
+tobacco use are common risk factors for cancer. Smoking also contributes to other NCDs such as chronic lung disease 
+9
+and cardiovascular disease.  It further accelerates a common concern of many older people – premature wrinkling. 
+Although current evidence about the use of mHealth for tobacco use cessation is largely derived from developed world 
+contexts, lessons learned may be applied in LMICs. Two studies – one conducted in New Zealand and the other in the 
+United Kingdom – have found that individuals receiving personalized and motivational text messages were more likely to 
+10,11 
+quit smoking. Another study that evaluated a smoking cessation intervention that utilized email, webpages, interactive 
+voice response, and text messages found that individuals receiving the intervention were significantly more likely to quit 
+12
+(22.3% vs. 13.1%).  In these types of studies, individuals were asked to set a specific quit date at enrollment, and 
+13,14
+behavior change models were used to inform the design of text message content.  
+Non-Communicable Diseases 
+While some mHealth solutions focus on behavior change to mitigate risk factors, others are aimed at treatment for NCDs 
+9
+and adherence to curative or palliative therapies. In many cases, older people suffer from multiple chronic conditions.  
+This is a critical consideration for mHealth application developers; the complexity of using multiple apps for different 
+diseases could inhibit uptake among older people (See Figure 4).  
+Ease-of-use will be a critical factor in ensuring that mHealth solutions are successful in addressing chronic conditions in 
+environments outside of the traditional healthcare system. Since it is difficult for many patients with chronic conditions to 
+travel to health clinics, or for these patients to keep track of their health information and trends using paper-based 
+logbooks, mHealth provides real-time, analyzable options that can both empower patients and feed statistics into provider 
+information systems. 
+15,16 
+Figure 4: Prevention and control for non-communicable diseases
+In developed countries, a great portion of mHealth interventions for NCDs 
+involves wearable sensors that can monitor NCD-related measurements and 
+informative vital signs, which will eventually become embedded sensors in the 
+not-so-distant future. Although wearable sensors may not be as applicable in 
+LMICs, the agility of mHealth technology is present in that it can help influence 
+positive behavior changes over time for subtle nudges towards aging well, 
+provide timely information and access to care, connect older persons in a 
+larger health and social ecosystem, and inform health providers on aggregated 
+population indicators and trends with location-based data. 
+ 
+ 
+ 
+Sources: WHO 2012; WHO 2008. 
+10 
+ 
+ 
+ Existing mHealth Strategies and 
+Opportunities for Healthier Aging 
+ 
+Education 
+To further address education and information dissemination, mHealth projects targeting cardiovascular health and 
+d
+prevention of cardiovascular diseases (CVDs) , such as the “Use of Mobile Technology to Prevent Progression of Pre-
+17
+Hypertension in Latin American Urban Settings” trial, are gaining momentum throughout the world.  This program is 
+utilizing text messages and phone calls to promote lifestyle modification focused on reducing blood pressure in Argentina, 
+Guatemala, and Peru.  
+18
+MediNet is another tool that is used to create personalized recommendations for individuals with high blood pressure.  In 
+this system, the patient is hooked up to at-home glucose and blood pressure monitoring sensors that transmit readings to 
+a mobile phone with a USB or Bluetooth connection custom built for the user’s phone. The patient is guided through a 
+series of lifestyle and exercise questions, and both the individual’s responses and the sensor readings are analyzed in the 
+system using electronic reasoning, returning a personalized response to the patient. MediNet’s effectiveness has not been 
+reported, but the developers have mentioned their intentions to develop a low-cost version of the system for economically-
+18
+disadvantaged individuals living in countries in the Caribbean.  
+Motivation 
+Several mHealth applications focus on motivating individuals in terms of behaviors and patient self-management to 
+improve health outcomes. One example is a mobile coaching option for individuals with type-2 diabetes, with which they 
+are able to enter blood glucose values, carbohydrate intake, medication, and other information on their mobile handsets 
+19
+and then receive automated messages specific to their data.  Algorithms are used to send patients both educational and 
+19
+motivational messages, and patients are encouraged to communicate electronically with educators.  Type-2 diabetics 
+can also benefit from a mobile phone application that allows patients to take pictures of their food consumption, as an 
+20
+alternative to the traditional strategy of food journaling with pen and paper. Other efforts to improve diabetes 
+21
+management have focused on reinforcing the provider-patient relationship with mobile phones.  
+Connectivity 
+The enhanced ability for older people and their caregivers to engage with healthcare professionals remotely addresses a 
+key challenge for the aging population. The connectivity provided by some mHealth solutions allows health workers to visit 
+older people in their home and conduct routine screening and other basic evaluative procedures. For example, OScan is 
+22
+an easy-to-use mobile device that enables community health workers to screen for oral cancer using camera phones.  
+This technology was first tested in India, where there is one dentist for every 250,000 people. By taking pictures of 
+suspected lesions, community health workers can quickly reach dentists and oral surgeons who are miles away for a 
+diagnosis. Simple screening programs are particularly important in LMICs,where many cancer cases are presented to 
+medical professionals at late stages because of a lack of prevention and treatment options. 
+  
+                                               
+d
+CVDs are the number one cause of death globally and will increasingly affect the world’s aging population (WHO 2008). 
+11 
+ 
+ 
+ Existing mHealth Strategies and 
+Opportunities for Healthier Aging 
+ 
+Because diabetic patients are sometimes required to take at-home vital and blood glucose level measurements, mobile 
+23
+phones offer the opportunity for the measurements to be collected and sent to a server via text messaging.  These data 
+can then be monitored and the patient can either be sent a text message when they have forgotten to take measurements 
+24
+or if measurements are at risky levels.  Similar to diabetes, disease management for CVDs involves constant monitoring 
+of pulse, blood pressure, and other vital information. Two solutions are a wearable sphygmomanometer and pulsimeter, 
+whereby the former reminds an individual to measure his or her blood pressure and the latter to measure his or her 
+25
+pulse.  Both have wireless transmission abilities, which allow the information to be transmitted to servers accessible to 
+25
+doctors.  In all cases, these applications offer encouragement to patients to be more cognizant of their present health 
+and provide opportunities to more quickly detect acute attacks or complications based on measurements as well as 
+reaching out when help is needed with a simple phone call. 
+However, connectivity does not always directly link to healthier behavior change. In response to the challenges of being 
+able to continue monitoring patients after they have left the doctor’s office, a wireless monitoring system was developed in 
+26, 27
+Italy for patients to transmit information regarding symptoms and quality of life to medical professionals.  When piloted 
+with 97 cancer patients, those who responded had very low levels of missing data; however, 42% of the individuals did not 
+27
+opt to take part, which suggests that adoption issues may hinder uptake of the system.  This is a reminder that mobile 
+technology may not be familiar for everyone. 
+Cognitive Decline and Mental Health 
+Common cognitive decline and mental health disorders impacting aging populations include memory loss, depression, 
+1,28
+and dementia. None of these issues receive sufficient attention in LMICs, and co-morbidity is often poorly addressed.  
+Social isolation is a significant challenge facing older people, particularly women who tend to live longer than men in most 
+societies, since it can have negative effects on an individual’s overall health and wellbeing. Although there is a common 
+belief that an increase in technology use could have an adverse effect on socialization, it has been found that there is a 
+29
+strong, positive relationship between the size and diversity of people’s closest social ties with the frequency of use.  
+mHealth solutions in this context emphasize the basic ability of mobile phones to offer a way for humans to talk to each 
+other. mHealth can alleviate pressures felt by patients and families when the need to seek care for mental disorders is 
+necessary. Particularly in LMICs, mobile phones allow remote communication between patients and mental health 
+professionals. 
+12 
+ 
+ 
+ 
+Putting an Aging Lens on mHealth 
+Putting an Aging Lens on mHealth 
+To better customize mobile phones and applications for older users, more research and innovation will be needed in 
+design and manufacturing, as well as selecting handsets, features for use, and applications. For many older people, the 
+1
+biggest barrier to adoption of mobile phones is cost.  This is true in both LMICs and some developed countries that have 
+high poverty rates among older age groups. According to a recent report published by the UNFPA and HelpAge 
+1
+International, income security is among the most urgent concerns of older people worldwide.  
+Second, trust is a key barrier to adoption since a decision to continue using or to discard an mHealth application is easily 
+30
+influenced in the first few moments of an individual’s interaction with it.  For older populations, who may not have as 
+much exposure or comfort with mobile phone applications, the trust hurdle may be higher than average. mHealth solutions 
+designed with older people in mind will likely have a better chance of success and continued use than those aimed at the 
+general population. 
+Third, ergonomics play a pivotal role in individuals’ decisions whether to continue use of a technology. Special attention is  
+required when considering mHealth ergonomics, for example, which handsets are better geared for use by aging 
+populations. Large screens and large buttons that are easy to see and touch are better for older individuals with impaired 
+vision and hearing. Additionally, cognitive decline can have an effect on how screen flow is perceived. Audio options 
+should be predesigned and preset to allow older people to more easily hear conversations over a handheld phone and to 
+notify them of incoming calls, text messages, or other alerts. 
+The selection of a user communication type (i.e., voice vs. text vs. video) for a mHealth aging program should be based 
+on the program’s objectives. Limitations of mobile technologies and communication strategies with older people as a 
+target population should be thoroughly researched, as these limitations could have critical effects on the program’s 
+success. Limitations affecting communication strategies such as illiteracy should be taken into consideration. Additionally, 
+user population preferences, such as easily disabling auto-correct functions during text messaging and improving ease of 
+use for voice-to-text features, are particularly important to account for when literacy rates are lower – usually in the LMIC 
+context – or when eyesight capabilities decline among older individuals. 
+The potential for mHealth to address the needs of aging populations on a deeper and broader scale is enhanced because, 
+in some cases, existing applications aimed at children, adolescents, or young adults can be tailored with minimal effort. In 
+other cases, motivations for behavior change may differ significantly between younger and older individuals. 
+Evidence is growing on the benefits of mHealth in general; however, right now, there is not enough. As the field of 
+5
+mHealth grows in sophistication, it will likely be progressively easier to find appropriate “off-the-shelf” solutions.  For now, 
+best practices regarding design principles for aging populations are emerging. These can go a long way to guide mHealth 
+31
+application developers. Some examples of best practices for design include : 
+ Designs should not assume that all older users are impaired. Growing old does not necessarily result in 
+impairment. In fact, variability in performance may actually increase among older people as they age, meaning that 
+some older people may actually have better performance than some younger people 
+ Designs should accommodate how aging results in changes to one’s senses (how we perceive), cognition 
+(how we think), body (how we react), and social status (what we want). Suggested considerations include: 
+  
+13 
+ 
+ 
+ 
+Putting an Aging Lens on mHealth 
+ 
+– Ways to easily repeat commands since spoken commands may be easily forgotten (in comparison to text or icons 
+that can be looked at again for reminding) 
+– Ways to restart or start over when mistakes have been made 
+– Icons that are intuitive and understood by older persons – especially across different cultures 
+– Input buttons large enough to accommodate possible reduced fine-motor control 
+– Information should be in a large, legible font 
+– Inputs that provide a visual (lighting up) or auditory (beeping) input so the user has confirmation that their action 
+was received 
+– Speech not used for input (speech recognition) unless it is very fast and very reliable since mistakes and delays in 
+speech recognition may be frustrating and confusing 
+ Simple design can go further. Because cognition, or memory, changes with age, mHealth device designs should 
+not require older users to retain information. Thus, the menu layout of an mHealth device should be simple.Older 
+people may become confused and unable to comprehend or remember a complex menu structure provided by an 
+application 
+ Focus on the user experience. Older people may need more time to complete certain tasks, so there should be no 
+actual or perceived sense of time urgency. The user may need very explicit indications from the system they have 
+done it correctly and that the desired process is successfully underway 
+ Make the user interface as easy as possible.  Women in Focus 
+Some complex features could be preloaded by a 
+The issue of women and aging deserves particular 
+doctor or a mobile application developer so that 
+attention from the design and policy perspectives. One 
+older users only have a single “easy” button to 
+subcategory is that which is directed at the asymmetry 
+press. Basic medical information could be 
+between populations of men and women in old age. 
+automatically entered for an older user by knowing 
+Although age discrimination occurs around the world for 
+the individual’s medical needs. Additionally, some 
+both men and women, women live longer than men and 
+smart systems may anticipate user needs through 
+are more likely to endure ill health for longer amounts of 
+imputing their medical history in relation to the 
+time. Illiteracy and low education levels, for which 
+current date and time. For example, an older user 
+women suffer disproportionately than men, have been 
+could receive a prompt based on knowledge of 
+associated with lower levels of seeking health services, 
+current medications that states, “You appear to be 
+for example, in cancer screening in Latin America and 
+nearly out of your medicine; shall we reorder?”  
+the Caribbean. Additionally, several factors specific to 
+women (e.g., multiple pregnancies, fistula, heart 
+Successful design is not just about products that are 
+disease, certain types of cancer, the onset of 
+practical or ergonomically functional. The design should 
+menopause which increases the risks of osteoporosis 
+allow the user to feel an emotional appeal or connection 
+and bone fractures) are unique to women at later ages. 
+to the device. For older adult users, that emotional 
+Women are more likely than men to live alone, and this 
+connection is more likely to exist if the mHealth 
+5 increases the risk of poverty and isolation. The economic 
+application appears as trustworthy, reliable, and kind.  In 
+and mental burdens associated with aging women, 
+other words, mHealth applications should be designed 
+particularly widowed and single, can oftentimes 
+with “emotional intelligence” for older people. 
+overshadow the benefits of greater longevity as 
+compared to men. In order to better respond to older 
+women’s needs, mHealth aging applications should 
+account for these issues. 
+Source: WHO 2008; Reyes-Ortiz et al. 2007 
+14 
+ 
+ 
+ 
+mHealth and Aging Call to Action 
+mHealth and Aging Call to Action 
+While a movement to advance mHealth targeting maternal, newborn, and child health (MNCH) is well underway, a parallel 
+effort to address the needs and opportunities of aging populations has yet to materialize. Policymakers and other 
+stakeholders are increasingly aware of the promise of mHealth. Entrepreneurs are prolific in developing new applications 
+targeting the needs of older people. How will these trends coalesce around the needs of rapidly aging populations and 
+what is needed to ensure scalability and cost-effectiveness? A call-to-action is needed for project implementers, 
+organizations, the private sector, and policymakers to help rapidly advance mHealth solutions for aging populations. 
+What project implementers need to do… 
+ Start small and expand. mHealth projects for aging should begin small before scaling-up. Many lessons have 
+already been learned in mHealth from other health topic areas such as HIV/AIDS and MNCH. It is best to draw from 
+the lessons learned in these applications as much as possible so that costs can be cut and quicker implementation 
+can occur with the support of governments and public-private partnerships 
+ Collaborate with other experts. Experts in the mobile technology field will need to engage with experts in aging to 
+understand the nuances or major differences in the ways older people will benefit, how they will respond, and how to 
+measure success 
+ Focus on and empower the end user. Since older people will generally trail younger populations in uptake and 
+5
+comfort with new technologies, designs should emphasize simplicity.  Understanding end users and their needs and 
+5
+capabilities will ensure the sustainability of a program.  In order to do this, projects should consider several 
+32
+components.  These include: 
+– Put the end users at the center of mHealth for aging design  
+– Assess the needs and challenges of older users including knowledge, ability to recognize problems, ability to 
+express their concerns, motivation, difficulty incorporating healthier behaviors into their schedule, access – or lack 
+thereof – to transportation, and healthcare stigmas affecting older people  
+– Incorporate positive and motivating strategies for the aging population 
+– Provide critical information, support, and links to reputable resources that enable healthy aging 
+What organizations need to do… 
+ Create effective business models for sustainability. Effective business models coupled with monitoring and 
+evaluation (M&E), as well as supportive policy, regulation, and mechanisms for more sustainable funding (e.g., payer 
+commitments, subscriptions by patients or providers, insurance discounts), would enable meaningful scale-up and 
+commercialization of mHealth 
+ Integrate M&E from the beginning and generate evidence for identifying effective solutions. Although there is 
+growing proof that mHealth programs and applications are being implemented worldwide, the evidence base of 
+5,33
+mHealth program and application effectiveness does not confirm what actually works, or does not, and why.  
+Project managers and evaluation specialists should improve their use of real-time data and apply an aging lens in 
+recommending improvements. M&E should be incorporated to help these projects evolve, increasing their usefulness 
+and effectiveness over time. Since mobile technologies are electronic, data for M&E purposes can be extracted more 
+easily than ever. However, the World Health Organization (WHO) 2009 Global eHealth survey stated that only 12% 
+33
+of United Nations Member States reported conducting evaluations of mHealth programs.  As adapted from Cash-
+Gibson (2012), there are several suggestions for what to monitor and evaluate, specifically for programs focused on 
+34
+disease prevention and management.  An adaptation of these suggestions include the following: 
+  
+15 
+ 
+ 
+ 
+mHealth and Aging Call to Action 
+ 
+– Primary Outcomes 
+• Quality of data recorded 
+• Lifestyle modifications of relevance to the mHealth program (e.g., tobacco consumption, weight, dietary intake, 
+physical activity levels) 
+• Data disaggregated by age and gender 
+– Secondary Outcomes 
+• Response rates to invitations to assessments 
+• Patient treatment compliance 
+• Biomarker readings (e.g., blood cholesterol level changes, blood pressure readings, glycosylated  
+hemoglobin levels) 
+• Cost-effectiveness 
+• Patient and provider satisfaction with methods 
+• Adverse events (e.g., hospitalizations, morbidity, mortality) 
+• Data disaggregated by age and gender 
+ Address confidentiality, privacy, and security issues. Confidentiality, privacy, and security are all serious 
+concerns in respecting and protecting individual health information. However, 56% of European member states and 
+50% of member states in the Americas reported in the WHO 2009 Global eHealth survey that missing legal 
+33,35
+guidelines for privacy and confidentiality are the top two barriers to mHealth implementation.  Without regulations 
+or set boundaries, health information sent via mobile phones across wireless networks can result in serious violations 
+35
+of patients’ rights.  Health professionals should be properly trained in informing patients about their rights in 
+36
+deciding who can access his or her patient information.  Interventions that use mobile phones as a communication 
+gateway with patients can cause confidentiality and privacy concerns for individuals who share their mobile phones 
+37
+with friends or family members.  This has been expressed more frequently in mHealth interventions that focus on 
+37,38
+diseases that carry stigma and discrimination.  
+What the private sector needs to do… 
+ Participate in partnerships to create effective mHealth business models for sustainability. For the private 
+sector, collaboration with project implementers and non-profit organizations will be key. Organizations that have 
+expertise in aging populations as well as mobile phone network providers should collaborate with project 
+implementers and organizations. These partnerships should devise mechanisms for more sustainable funding (e.g., 
+payer commitments, subscriptions by patients or providers, insurance discounts), which will enable meaningful scale-
+up and commercialization of mHealth for aging.  
+16 
+ 
+ 
+ 
+mHealth and Aging Call to Action 
+ 
+What policymakers need to do… 
+ Create an enabling environment to facilitate wide-scale use of mobile phones for aging. One of the often-cited 
+reasons for successes achieved in mHealth interventions is strong commitment and support from local governments. 
+Governments that have invested in mHealth or eHealth, which is electronic information transfer for health, have a 
+solid understanding of the potential positive outcomes and advancements that mobile technologies can bring to their 
+constituents. For example, the Government of Bangladesh has supported the development of an eHealth plan as 
+well as text messaging services for health. The Government of Rwanda, as another example, has developed its own 
+eHealth plan in addition to a nationwide interoperable electronic health information system, an electronic medical 
+record system, a mobile phone-based system for community health worker communication responsibilities, and a 
+33,39
+new eHealth Center of Excellence.  However, in some countries, sending private patient information over mobile 
+is limited by regulations and confidentiality laws. 
+ Implement coordinated strategies that support program sustainability. Because mHealth is a new field, the 
+landscape is saturated with pilot projects that have yet to be brought to scale. Only within the past few years have 
+countries begun to incorporate mobile phone use in national plans and policies, creating an enabling environment for 
+general acceptance and increased use. As aging and NCDs become integral pieces of national development plans, 
+poverty reduction strategies, and stronger legislation, government use of mHealth for improving the health of older 
+people can encourage and drive health systems and private marketplaces to adopt similar applications. 
+17 
+ 
+ 
+C onclusion: Advancing mHealth 
+for Healthier Aging 
+ 
+Conclusion: Advancing mHealth for Healthier Aging 
+There are promising examples of how mHealth can successfully address the conditions that occur most frequently among 
+older populations, including those, which if left untreated, result in disability. Wireless disease monitoring, health 
+promotion, and self-management in non-communicable disease (NCD) interventions represent just a few mHealth 
+applications addressed in this report. Increasingly, the information and data transferred via mobile devices is becoming 
+27
+more personal and tailored to end users – a promising sign and a critical success factor among older populations.  
+On a more basic level, mHealth applications are enhancing a sense of social connectivity and cognitive stimulation, which 
+is critical for older people facing isolation, depression, and fear of disability in their mature years. Not all older persons are 
+able – due to disability, lack of transportation, or caregiving responsibilities – to join their friends in person for social 
+stimulation. So far, not enough older individuals are enjoying the fruits of mHealth because of ongoing barriers to 
+adoption, as addressed in this report. 
+In fact, large strides still need to be made before mHealth reaches its full potential for healthier aging. In particular, these 
+include tailoring mHealth applications focused on NCDs for use by older people and their families, friends, and caregivers; 
+translating learned lessons from developed countries to LMIC contexts, and in some cases vice versa; and focusing more 
+on the health needs of older women. These are all achievable if strategic efforts are coordinated amongst stakeholders 
+across the mHealth, aging, and health systems fields. 
+At the project level, rigorous evaluation is needed to determine how to best mitigate the factors hindering scale-up and 
+commercialization of mHealth projects. Suggestions include creating effective business models for sustainable demand 
+generation; establishing a long-term mission; filling research gaps in monitoring and evaluation for identifying effective 
+solutions and guidance; focusing on the end user whether it be older individuals, caregivers, or health providers; obtaining 
+and incorporating feedback from the end user; and addressing confidentiality, privacy, and security issues.  
+At the policy level, top-down mechanisms can enable an environment in which mHealth aging projects can grow to be 
+sustainable and scalable. Policies are needed to advance the integration of mobile phones and other information and 
+communications technology into national health plans, chronic disease action plans, and socioeconomic support policies 
+aimed at preventing poverty and disability in older populations. 
+Healthy and active aging is a goal that most individuals hope to achieve. mHealth offers a unique and versatile platform to 
+help people realize that goal. The rapid graying of populations, or expansion in the number of older people, in both 
+developed and LMICs is certain. It is also clear, as the UNFPA and HelpAge International indicate, that “[t]he balance 
+between the challenges and opportunities of population [aging] will in large part be determined by whether people age in 
+1
+good or in poor health” (p. 60). What remains to be seen is the extent to which mHealth will serve as a tool and resource 
+to help aging populations remain healthy and productive for as long as possible. The first step in moving forward is to 
+ensure that research and discussions about the mobile and demographic revolutions intersect. All stakeholders – project 
+implementers, organizations, the private sector, policymakers, and individuals – must also work together to address the 
+gaps and challenges described throughout this report and, in particular, in its call-to-action. Strategic planning and 
+stronger coordination across the fields of health, information technologies, and aging are necessary to ensure that the full 
+potential of mobile and wireless technology to improve preventive and supportive care for conditions associated with 
+aging can be realized for older people, the fastest growing segment of the population worldwide. 
+18 
+ 
+ 
+ 
+References 
+References 
+1. United Nations Population Fund, HelpAge International. Ageing in the Twenty-First Century: A Celebration and A Challenge. New 
+York and London: UNFPA and HelpAge International; 2012. 
+2. National Institute on Aging National Institutes of Health U.S. Department of Health and Human Services, World Health 
+Organization. Global Health and Aging; 2011. 
+3. World Bank. Information and Communications for Development 2012: Maximizing Mobile. Washington, DC: World Bank; 2012. 
+4. McKinsey & Company, The GSM Association. mHealth: A new vision for healthcare; 2010. 
+5. Mechael P, Batavia H, Kaonga N, Searle S, Kwan A, Goldberger A, et al. Barriers and gaps affecting mHealth in low and middle 
+income countries: Policy white paper: The Earth Institute Columbia University and the mHealth Alliance,; 2010. 
+6. van Heerden A, Tomlinson M, Swartz L. Point of care in your pocket: a research agenda for the field of m-health. Bulletin of the 
+World Health Organization. 2012; 90: 393-4. 
+th 
+7. Zadek S, Merme M, Forstater M, Yu K. Sustaining the Golden Thread: The economic opportunity of aging for China. 8
+International Forum on Social Policy: New Thinking for an Aging Society. Beijing; 2012. 
+8. Cole-Lewis H, Kershaw T. Text messaging as a tool for behavior change in disease prevention and management. Epidemiol Rev. 
+2010; 32: 56-69. 
+9. AARP Public Policy Institute. Chronic Care: A call to action for health reform: AARP; 2009. 
+10. Bramley D, Riddell T, Whittaker R, Corbett T, Lin RB, Wills M, et al. Smoking cessation using mobile phone text messaging is as 
+effective in Maori as non-Maori. NZMJ. 2005; 118(1216). 
+11. Severi E, Free C, Knight R, Robertson S, Edwards P, Hoile E. Two controlled trials to increase participant retention in a 
+randomized controlled trial of mobile phone based smoking cessation support in the United Kingdom. Clin Trials. 2011; 8: 654-60. 
+12. Brendryen H, Kraft P. Happy Ending: a randomized controlled trial of a digital multi-media smoking cessation intervention. 
+Addiction. 2008; 103: 478-84. 
+13. Rodgers A, Corbett T, Bramley D, Riddell T, Wills M, Lin RB, et al. Do u smoke after txt? Results of a randomised trial of smoking 
+cessation using mobile phone text messaging. Tobacco Control. 2005; 14: 255-61. 
+14. Free C, Knight R, Robertson S, Whittaker R, Edwards P, Zhou W, et al. Smoking cessation support delivered via mobile phone text 
+messaging (txt2stop): a single-blind, randomised trial. The Lancet. 2011; 378(9785): 49-55. 
+15. World Health Organization. 2008-2013 Action Plan for the Global Strategy for the Prevention and Control of Noncommunicable 
+Diseases. Geneva, Switzerland: World Health Organization; 2008. 
+16. World Health Organization. Development of an updated Action Plan for the Global Strategy for the Prevention and Control of 
+Noncommunicable Diseases covering the period 2013 to 2020: World Health Organization,; 2012. 
+17. ClinicalTrials.gov. Use of Mobile Technology to Prevent Progression of Pre-hypertension in Latin American Urban Settings. 
+2011[cited 11/14/2012]; Available from: http://clinicaltrials.gov/ct2/show/NCT01295216 
+18. Mohan P, Marin D, Sultan S, Deen A. MediNet: Personalizing the self-care process for patients with diabetes and cardiovascular 
+disease using mobile telephony.IEEE eng med biol soc; 2008; 2008. p. 755-8. 
+19. Quinn CC, Shardell MD, Terrin ML, Barr EA, Ballew SH, Gruber-Baldini AL. Cluster-randomized trial of a mobile phone 
+personalized behavioral intervention for blood glucose control. Diabetes Care. 2011; 34: 1934-42. 
+20. Rollo ME, Ash S, Lyons-Wall P, Russell A. Trial of a mobile phone method for recording dietary intake in adults with type 2 
+diabetes: evaluation and implications for future applications. Journal of Telemedicine and Telecare. 2011; 17(318-323). 
+21. Lyles CR, Harris LT, Le T, Flowers J, Tufano J, Britt D, et al. Qualitative evaluation of a mobile phone and web-based collaborative 
+care intervention for patients with type 2 diabetes. Diabetes Technology & Therapeutics. 2011; 13(5). 
+22. PraKash Lab at Stanford University. OScan: Screening tool for oral lesions.2012[cited 11/14/2012]; Available from: 
+http://www.stanford.edu/~manup/Oscan/ 
+23. Cole-Lewis H, Kershaw T. Text messaging as a tool for behavior change in disease prevention and management. Epidemiologic 
+Reviews. 2010; 32(1): 56-69. 
+24. Bäck I, Mäkelä K. Mobile phone messaging in health care- Where are we now? J Inform Tech Soft Eng. 2012; 2(1): 1-6. 
+25. Wang CS. Mobile and wireless technologies applying on sphygmonameter and pulsimeter for patients with pacemaker 
+implementation and other cardiovascular complications. J Biomedical Science and Engineering. 2010; 3: 47-51. 
+26. Bielli E, Carminati F, La Capra S, Lina M, Brunelli C, Tamburini M. A wireless health outcomes monitoring system (WHOMS): 
+development and field testing with cancer patients using mobile phones. BMC Medical Informatics and Decision Making. 2004; 
+4(7). 
+19 
+ 
+ 
+ 
+References 
+ 
+27. Blake H. Mobile phone technology in chronic disease management. Nursing Standard. 2008; 23(12): 43-6. 
+28. Bass JK, Bornemann TH, Burkey M, Chehil S, Chen L, Copeland JRM, et al. A United Nations General Assembly Special Session 
+for Mental, Neurological, and Substance Use Disorders: The Time Has Come. PLoS Med. 2012; 9(1): e1001159. 
+29. Olsen S. Does technology reduce social isolation? New York Times. 2009. 
+30. GSM Association, PricewaterhouseCoopers Private Limited. Touching lives through mobile health: Assessment of the global 
+market opportunity; 2012. 
+31. Ward N. Best practices regarding design principles for aging populations. 2012. 
+32. Kamani P, Mehta R. Taking charge of your own wellness: Embracing the philosophy of individual wellness empowerment to 
+develop and maintain your own personal wellness ecosystem: Zume Life, Inc; 2008. 
+33. World Health Organization. mHealth: New horizons for health through mobile technologies. Geneva, Switzerland: World Health 
+Organization,; 2011. 
+34. Cash-Gibson L, Pappas Y, Car J. Computer-assisted versus oral-and-written history taking for the management of cardiovascular 
+disease (Protocol): The Cochrane Collaboration,; 2012. 
+th
+35. Wickramasinghe N, Goldberg S. A framework for delivering mHealth excellence.18  Bled eConference, eIntegration in Action. 
+Bled, Slovenia; 2005. 
+36. World Health Organization. Legal frameworks for eHealth. Geneva, Switzerland: World Health Organization,; 2012. 
+37. Chang LW, Kagaayi J, Arem H, Nakigozi G, Ssempijja V, Serwadda D, et al. Impact of a mHealth intervention for peer health 
+workers on AIDS care in rural Uganda: A mixed methods evaluation of a cluster-randomized trial. AIDS Behav. 2011; 15: 1776-84. 
+38. Mechael P, The Dodowa Health Research Center, For the Grameen Technology Foundation. MoTECH: mHealth Ethnography 
+Report; 2009. 
+39. Gerber T, Olazabal V, Brown K, Pablos-Mendez A. An agenda for action on global e-health. Health Affairs. 2010; 29(2): 235-8. 
+40. Waggener Edstrom Worldwide, AARP, The GSM Association. Mobile health for independent living: Landscape report; 2011. 
+41. Coalition to Transform Advanced Care. Call to Action: Transforming Advanced Illness Care; 2012. 
+ 
+ 
+ 
+20 
+ 
+ 
+ Appendix A: Individual and 
+Population Aging Frameworks 
+ 
+Appendix A. Individual and Population Aging Frameworks 
+Making aging healthier is challenging. One of the most challenging parts of improving aging is agreeing on the problem. 
+This section describes two frameworks that this call-to-action aims to advance regarding new perspectives on aging and 
+the role innovative technology can play as a solution. Drawing from recent academic literature and civil society thought 
+leadership, both of these frameworks fundamentally support the fact that aging does not begin at a specific age but 
+instead is a lifelong process where, in general, healthy behaviors can promote wellbeing. 
+Framework 1: The Vicious and Virtuous Cycles of Physical Wellness and Cognition Among the Elderly 
+The first framework, drawn from a discussion paper entitled “Sustaining the Golden Thread: The Economic Opportunity of 
+7
+Aging for China,”  visually represents two ways particular attitudes and behaviors can either accelerate or delay physical 
+and cognitive decline among older people (See Figure 5). The vicious cycle emphasizes that excluding elderly 
+populations can isolate and marginalize them, as well as limit how much they can – and feel they can – contribute, all 
+while increasing the stereotype that older people are a burden. All of these events can fuel certain behaviors and 
+attitudes, resulting in accelerated physical and cognitive decline among the elderly. Removing these perceptions among 
+both the elderly and other segments of the population is a critical element of healthier aging around the world. 
+By reversing the vicious cycle, the virtuous cycle capitalizes on the knowledge and productive roles older people already 
+have in society. With a well-thought-out strategy that considers molding positive changes in attitudes, practices, and 
+policy, society will be better able to benefit from a lifetime wealth of knowledge and experiences of older generations; 
+aging individuals will feel and see themselves as contributors. With stronger physical and cognitive capacities, which can 
+imply healthier aging, reductions can be expected in costs placed on older people, their families, and their health systems 
+from age-related illnesses. 
+Figure 5: Two ways particular attitudes and behaviors can accelerate or delay physical and cognitive decline 
+among elderly 
+ 
+Source: Adapted from Zadek 2012 
+Mobile technologies can help catalyze the movement toward a more virtuous cycle, particularly for NCDs, as well as 
+cognitive acuity and mental health. When designed appropriately and through targeted programs, mHealth can empower 
+older people and their caregivers in such a way as to delay physical and cognitive declines, at the same time allowing 
+improved quality of life through better disease management. 
+ 
+21 
+ 
+ 
+A ppendix A: Individual and 
+Population Aging Frameworks 
+ 
+ 
+Framework 2: Aging on the Health Continuum 
+With age comes increased susceptibility to developing a chronic disease and developing co-morbidity from more than one 
+chronic disease.40 Developed by the Coalition to Transform Advanced Care (C-TAC), the second framework 
+contextualizes the health continuum of older individuals by illustrating how illnesses can advance (See Figure 6). As 
+shown, individuals, regardless of age, may endure illnesses that can develop into chronic conditions, which can then 
+worsen and limit daily activities such as getting out of bed, getting dressed, using the toilet, bathing, eating, and taking 
+medicine. Ideally, care for chronically ill people, including those at advanced stages, is appropriate, seamless, and 
+individually-tailored so that they can live with security and dignity. Needless to say, older people are more likely to suffer 
+from co-morbidity.  
+Figure 6: Development of Advanced Illness on the Health Continuum. (Figure from Coalition to Transform 
+41
+Advanced Care (C-TAC). Call to Action: Transforming Advanced Illness Care. ) 
+ 
+Source: C-TAC, 2012. 
+22 
+ 

@@ -1,0 +1,2579 @@
+57388_UNF_S2:Layout 1 5/6/08 9:23 AM Page 1
+Access to
+Communication Publication Series
+Volume 2
+Wireless Technology for Social Change:
+Trends in Mobile Use by NGOs
+www.unfoundation.org/vodafone
+57388_UNF_S2:Layout 1 5/6/08 9:23 AM Page 59
+Recommended Readings
+Banks, Ken, and Richard Burge. Mobile Phones: An Appropriate Tool for Conservation and Devel-
+opment? (Cambridge, UK: Fauna and Flora International, 2004).
+Chetley, Andrew (ed.). Improving health, connecting people: The role of ICTs in the health
+sector of developing countries (Washington, DC: InfoDev, 2006).
+Coyle, Diane/Enlightenment Economics. The Role of Mobiles in Disasters and Emergencies
+(London, UK:GSM Association, 2005).
+Crawford, Diane. Role of IT in emergency response and crisis management. Communica-
+tions of the Association of Computer Machinery 50 (2007).
+Currion, Paul. Information and Technology Requirements Initiative: Assessment Report - Global
+Response (Emergency Capacity Building Project, 2006).
+Kaplan, Warren. Can the ubiquitous power of mobile phones be used to improve health out-
+comes in developing countries? Globalization and Health 2 (2006): 9. www.globalizationand-
+health.com/content/2/1/9.
+Authors:
+Löffler, Jobst, and Markus Klann (eds.). Mobile Response: First International Workshop on
+Sheila Kinkade Mobile Information Technology for Emergency Response. Mobile Response 2007, Sankt
+Katrin Verclas, MobileActive.org Augustin, Germany, 22-23 February 2007, Revised Selected Papers. Lecture Notes in Computer
+Science 4458 (Springer, 2008).
+About The Vodafone Group Foundation and the UN Foundation Partnership
+MTC Group. Mobility: A Nation Under Siege. An insight into mobile communications during the
+The UN Foundation–Vodafone Group Foundation Partnership is the leading public–private 2006 Lebanon conflict (MTC Group, 2007).
+alliance using strategic technology programs to strengthen the United Nation’s humanitarian
+efforts worldwide. The Partnership has three core commitments: (1) to develop rapid Shackleton, Sally Jean. Rapid Assessment of Cell Phones for Development (UNICEF, 2007).
+response telecommunications teams to aid disaster relief; (2) to develop health data systems Wattegama, Chanuka. ICT for Disaster Management (Bangkok, Thailand: United Nations
+that improve access to health data thereby helping to combat disease; and (3) to promote Development Programme – Asia-Pacific Development Information Programme and
+research and innovative initiatives using technology as an agent and tool for international Asian and Pacific Training Centre for Information and Communication Technology for
+development. Further information can be found at www.unfoundation.org/vodafone. Development, 2007).
+Contact:
+United Nations Foundation The Vodafone Group Foundation
+1800 Massachusetts Ave., NW Vodafone House
+Suite 400 The Connection
+Washington, DC 20036 Newbury, Berkshire, RG14 2FN
+U.S.A. UK
+Recommended Citation: Sheila Kinkade and Katrin Verclas. Wireless Technology for
+Social Change. Washington, DC and Berkshire, UK: UN Foundation–Vodafone Group
+Foundation Partnership, 2008.
+Cover Photo Credits:
+Clockwise left to right: World Food Programme/ICT; DataDyne; Cell-Life; Télécoms Sans
+Frontières (TSF); FishMS; TSF.
+Wireless Technology for Social Change: Trends in Mobile Use by NGOs 59
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:20 AM  Page 1
+Access to Communications Publications Series
+Table of Contents
+Foreword 4
+Acknowledgements 5
+Survey of NGO Use 6
+Introduction 8
+GLOBAL HEALTH 11
+1. Delivering Patient HIV/AIDS Care (South Africa) 13
+2. Connecting Health Clinics and Remote Health Workers (Uganda) 16
+3. Lowering the Barriers for Access to Public Health Data (Kenya, Zambia) 19
+4. Connecting Youth to Sexual Health Information (United States) 23
+Credit: DataDyne
+HUMANITARIAN ASSISTANCE 29
+5. Delivering Food Aid to Iraqi Refugees (Syria) 31
+6. Facilitating Communication in Emergency Situations (Peru, Indonesia) 34
+7. Text Messaging as a Violence-Prevention Tool (Kenya) 38
+ENVIRONMENTAL CONSERVATION 43
+8. Text Messaging to Save Trees (Argentina) 45
+9. A Survey of Text Message ‘Infolines’ (South Africa, United Kingdom) 48
+10. Environmental Monitoring with Mobile Phones (Ghana) 52
+11. Protecting Wildlife and Human Wellbeing (Kenya) 55
+Recommended Reading 59
+Credit: TSF
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:20 AM  Page 4
+Foreword
+Mobilizing for Change
+our years ago, we stood together at the United Nations to announce a global part-
+Fnership that would help bring innovative technology to bear on some of the world’smost intractable problems. Since that time, through the United Nations Founda-tion–Vodafone Group Foundation Technology Partnership, we’ve brought the best
+of the business world together with dynamic UN agencies and other organizations to help
+collect and track health data in Africa, respond to humanitarian disasters across the globe,
+and drive forward policy changes related to technology and development.
+This partnership is helping the United Nations achieve the Millennium Development Goals
+and tackle key health, social, environmental, and development challenges. Technology—es-
+pecially wireless communication—is crucial to finding solutions to these problems. It can
+connect families separated by disaster, help emergency relief workers respond more quickly,
+empower farmers to ask for better prices in markets, help track the impacts of climate
+change, and so much more.
+Our partnership is also constantly exploring new ways of applying technology to benefit de-
+veloping countries, where mobile technology adoption rates are highest. To this end, we
+support original research to expand the discussion about how technology can help trans-
+form lives.
+In this second publication in our Access to Communications Publication Series, the authors
+examine real-life examples of and trends in wireless technology solutions being used to
+drive change in the areas of health, humanitarian assistance, and environmental conserva-
+tion. The compelling stories portrayed in this report demonstrate that telecommunications
+can be a powerful tool for positive change in our world.
+We hope you’ll join our efforts to harness technology and innovate on behalf of humanitar-
+ian causes and a better world.
+Arun Sarin, CEO Ted Turner, Chairman
+Vodafone United Nations Foundation
+4 Wireless Technology for Social Change: Trends in Mobile Use by NGOs
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:20 AM  Page 5
+Acknowledgements
+he United Nations Foundation and The Vodafone Group Founda-
+Ttion are indebted to the many individuals who made the researchand stories in this publication come to life. In particular, we wouldlike to thank report co-authors Katrin Verclas of MobileActive.org
+and Sheila Kinkade.
+We are also grateful for the participation of survey group Greenberg Quinlan
+Rosner Research and the many non-governmental organization (NGO) rep-
+resentatives who responded to the survey about how they are using mobile
+technology. We appreciate the partnership approach of the eight NGO net-
+works who welcomed us to use their websites and email lists to reach a di-
+verse set of NGOs with the survey—Idealist.org, InterAction, International
+Youth Foundation, MobileActive.org, New Tactics in Human Rights,
+OneWorld, SANGONeT, and ShareIdeas.
+This report would not have been possible without the help of the NGOs and
+intergovernmental organizations profiled in this publication. We would like to
+thank all of the representatives from these organizations for the time spent
+sharing the results of their projects.
+Finally, we would like to acknowledge the team that worked to produce the
+document you now hold in your hands. This includes copyeditor Lelani
+Arris, and Hal Kowenski and Karen Finkel at Linemark Printing.
+Wireless Technology for Social Change: Trends in Mobile Use by NGOs 5
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:20 AM  Page 6
+A Survey of NGO Use of Mobile
+Technology for Social Change
+Between December 10, 2007 and January 13, 2008, 560 non-governmentalorganization (NGO) workers participated in a survey designed to demonstratehow NGOs are using wireless technology to help reach various social, civil,economic, and political goals.
+The survey was developed by Greenberg Quinlan Rosner Research, and distributed via the
+email networks of eight partner groups reaching a geographically and thematically diverse
+group of NGOs: Idealist.org, InterAction, International Youth Foundation, MobileActive.org,
+New Tactics in Human Rights, OneWorld, SANGONeT, and ShareIdeas. The survey was
+also shared with the contacts of the two sponsoring organizations: The Vodafone Group
+Foundation and the United Nations Foundation. Responses were collected from NGO
+representatives in all parts of the world.
+NGOs’ Use of Mobile Technology Very Widespread and
+Indispensable
+Eight-six percent of NGO employees are using mobile technology in their work. NGO
+representatives working on projects in Africa or Asia are more likely to be mobile
+technology users than their colleagues in areas with more ‘wired’ infrastructures. Ninety-nine
+percent of technology users characterize the impact of mobile technology as positive.
+Moreover, nearly a quarter describe this technology as “revolutionary” and another 31
+percent say it would be difficult to do their jobs without it.
+Total (%)
+It has completely revolutionized the way my organization or
+project does its work 25
+It would have been very difficult to do the work without it 31
+It is/was very helpful for my organization or project 36
+It is/was only somewhat helpful 8
+Ultimately, it is/was more of a burden than a help 0
+It was a waste of time and money 0
+6 Wireless Technology for Social Change: Trends in Mobile Use by NGOs
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:20 AM  Page 7
+Applications of NGO Mobile Use Are Diverse
+While voice and text messaging are still the most common applications of mobile
+technology among NGO workers, respondents report using wireless technology in a
+number of other ways, including photo and video (39 percent); data collection or transfer
+(28 percent); and multi-media messaging (27 percent). The survey also finds some NGO
+workers using mobile technology for more sophisticated purposes such as data analysis (8
+percent), inventory management (8 percent), and mapping (10 percent). Importantly, the
+amount of money invested in mobile technology correlates to a higher diversity of
+application; those NGOs that spend more use this technology for higher-end functions.
+Users of mobile technology on projects with a health focus are also more likely to use
+mobile technology for data purposes.
+Perceived Benefits of NGO Mobile Use are Enormous
+The survey reveals that the key benefits of mobile technology for all NGOs include time
+savings (95 percent); the ability to quickly mobilize or organize individuals (91 percent);
+reaching audiences that were previously difficult or impossible to reach (74 percent); the
+ability to transmit data more quickly and accurately (67 percent); and the ability to gather
+data more quickly and accurately (59 percent).
+Not surprisingly, then, 76 percent of NGO users said they would likely increase their use of
+mobile technology in the future. Many of these survey results are reflected in the case
+studies featured in this report.
+Wireless Technology for Social Change: Trends in Mobile Use by NGOs 7
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:20 AM  Page 8
+Introduction
+n estimated 3.5 billion mobile
+A Innovative Uses of Technologyphones are now in use around Driving Changethe world—more people nowhave one than don’t.1 This Looking at the work of NGOs in three
+remarkable revolution—widespread access specific issue areas—health, the
+to the most ubiquitous communication environment, and humanitarian relief—we
+device in human history—has changed the found a number of creative and innovative
+way societies and communities organize uses of mobile technology for change. In
+themselves and do business. exploring the various applications in these
+areas, we observed the following:
+We, the authors, set out in this report to
+explore the ways in which non-
+governmental organizations (NGOs) and Innovation and Scaling
+other groups deploy and use mobile  Organizations are thinking in creative,
+technology in their work to help solve some innovative, and often very
+of the world’s greatest problems. This study entrepreneurial ways about how mobile
+is not meant to be exhaustive or definitive, technology can advance their social
+but rather to provide a view into how a impact.
+number of organizations are using mobile  The potential to scale and replicate
+technology to achieve social impact. We projects is significant. Although the vast
+selected case studies that enabled an majority of projects are ground-
+exploration of significant innovations, breaking, often they are pilot projects
+opportunities, and emerging trends, as well that are small in scale. Many of the
+as the obstacles, in the use of mobile organizations we talked to recognize
+technology to advance social goals. that scaling their projects beyond a
+relatively small pilot and replicating
+1UNCTAD (United Nations Conference on Trade and them elsewhere will be vital to realizing
+Development). Information Economy Report 2007-2008 the potential of mobile technology in
+(UN Publications, 2008). the areas studied.
+ Creative partnerships are key to
+bringing promising mobile initiatives to
+scale. For example, SexInfo, a text
+message-based health information
+service for youth, was made possible
+through collaboration between the San
+Francisco Department of Public Health
+and a local nonprofit. Now it is being
+scaled up in a similar way in two new
+locations. Similarly, both Satellife’s
+project in Uganda and the EpiSurveyor
+project piloted in Kenya and Zambia
+are being replicated and scaled to use
+mobile devices for health data
+collection and analysis in several
+additional countries.
+Credit: TSF
+8 Wireless Technology for Social Change: Trends in Mobile Use by NGOs
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:20 AM  Page 9
+ Sharing information and technical access is increasingly assured. Likewise,
+exchanges could reduce the amount of mobile initiatives can be more
+time it takes to launch a solution and affordable but the skills and training
+reduce the associated costs. Smaller necessary to implement them less so.
+organizations, in particular, continue to
+ Mobile technology initiatives in this
+exercise a great deal of trial and error
+field are still emerging, with most of the
+when it comes to utilizing mobile
+projects we investigated at the ‘proof of
+technology in their work. ISIS-Inc., the
+concept’ stage. A report by the World
+parent organization of the SexInfo
+Bank’s InfoDev program states, “It is
+project (Case Study 4) spent nearly six
+harder to find examples of analysis that
+months researching cost effective ways
+moves beyond the project purpose to
+of implementing its text messaging-
+[…] look at the conditions that might
+based health information service before
+need to be in place to scale up
+a technology firm in Australia offered to
+interventions and what might be the
+provide a short code at no cost.
+impact of such activity.”2
+ More needs to be done to overcome
+ While we can point to solid outcomes
+the ‘innovation silos’ some
+for the programs, for example, the
+organizations operate in, where
+number of clients served or number
+advances and knowledge gained in the
+of text messages sent, strong evidence-
+use of mobile technology do not
+based information about the widespread
+necessarily transfer across
+impact of mobile initiatives on
+organizational boundaries.
+international development goals is
+ We have seen in the health field that elusive. In our review of organizations’
+mobile technology is facilitating data work and relevant literature, only rarely
+collection; yet health providers and did we find solid impact assessments
+local and national governments are that evaluate whether an empirical link
+now facing the need to create back-end exists between a technology solution
+systems capable of aggregating and and the achievement of a social or
+analyzing a wealth of new data. Systems international development goal.
+are complex and multi-faceted and
+ Investment in knowledge-sharing and
+interventions in one area may require
+impact assessments are vital to realize
+investments in others. In some cases,
+what we believe is the enormous
+advances made possible through
+potential of mobile technologies to
+mobile technology demand more
+further development goals such as those
+sophisticated back-end systems.
+outlined in the United Nations’
+Millennium Development Goals.
+Social Impact Several donors, such as Canada’s
+ Mobile initiatives provide greater International Development Research
+opportunities for social impact that Centre, are now investing considerable
+other information and communications resources to assess over several years
+technology (ICT) projects do not the impact of mobile technologies in
+necessarily share. For example, physical improving health, for example, to build
+access to mobile phones is obviously a more solid body of evidence about
+much greater compared to computers social impacts.
+and other less readily available
+technologies. With rapid mobile phone 2Chetley, Andrew, ed. Improving Health, Connecting
+penetration in many areas of the globe People: The Role of ICTs in the Health Sector of Developing
+and growing mobile network coverage, Countries (Washington, DC: InfoDev, 2006).
+www.infodev.org/en/Publication.84.html.
+Wireless Technology for Social Change: Trends in Mobile Use by NGOs 9
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:20 AM  Page 10
+Challenges • Mobile solutions, as with any other
+ The costs of developing and deploying ICT project, need to be appropriate
+mobile technologies are often onerous to their environment to have impact,
+for organizations, explaining, in part, and be responsive to local needs and
+why projects are small in scale. We conditions.
+found that many projects rely on
+• Users need to be involved in the
+heavily subsidized technology or
+planning and design of mobile
+transmissions or even direct donations
+systems and they need incentives
+by technology companies and mobile
+(such as increased efficiency or time
+operators. While some players are
+savings) to use the technology.
+willing to donate their services for
+smaller projects, there are questions as • Training for users needs to be a
+to whether scaled initiatives would focus of mobile projects within an
+receive the same level of support. organization.
+ The potential for scaling up ‘mobile for • There needs to be a focus on the
+good’ initiatives may come with benefits of a given system rather
+identifying commercial incentives, as is then the technology per se.
+the case with GSMA/Safaricom
+initiative that we describe in this report, • Governmental ICT policies and
+designed to protect human populations regulatory frameworks should be
+and elephants in Kenya. Identifying consistent and predictable and foster
+potential win-win solutions for an environment for innovation.
+businesses and nonprofit organizations There are still significant barriers in
+holds promise for expanding and this arena, despite efforts by trade
+sustaining the impact of such initiatives associations such as the GSMA to
+in the future. increase awareness of these issues
+for development.
+Lessons Learned We are hopeful that increased attention and
+ Many of the same lessons learned in investment into the real and concrete
+information and communication potential and actual use of mobile
+technologies (ICT) development and technologies will help improve lives around
+deployment apply to mobile initiatives. the world.
+Our research has uncovered a set of
+potential best practices for technology
+deployment:
+• There need to be clear and realistic
+program goals and solid knowledge
+about the needs on the ground and
+of the intended beneficiaries.
+10 Wireless Technology for Social Change: Trends in Mobile Use by NGOs
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:20 AM  Page 11
+I. Global Health
+Mobile Technology in Health
+he Millennium Development Goals (MDGs) acknowledge
+Tthe centrality of health in reducing poverty and increasinghuman development. The role of mobile phones, as withother information and communication technologies (ICT), is
+under increasing scrutiny in the health arena, precisely because the
+stakes are so high and the potential gains from technology development
+so significant.
+Take HIV/AIDS, for example. A 2007 report on the MDGs states:
+“The number of people dying from AIDS worldwide increased to 2.9
+million in 2006, and prevention measures are failing to keep pace with
+the growth of the epidemic. In 2005, more than 15 million children had
+lost one or both parents to AIDS.”3
+Furthermore, of the one billion people living in extreme poverty, 75
+percent live in rural areas. A report by InfoDev notes: “Health
+Credit: Cell-Life conditions in rural areas are generally poorer, and access to
+information, services, and supplies is most limited.”4
+Delivering Patient HIV/AIDS Care
+(South Africa) . . . . . . . . . . . . . . . . . . . .13 Informa Telecoms & Media estimates that in mid-2007, mobile
+networks covered 90 percent of the global population, and that in 2008
+Connecting Health Clinics and Remote worldwide mobile phone penetration will hit 50 percent, with well over
+Health Workers (Uganda) . . . . . . . . .16 3 billion subscriptions.
+5 With rapidly increasing mobile coverage
+around the world and expansion to rural areas where Internet access is
+Lowering the Barriers for Access to Public still years away, mobile technology holds great promise for making
+Health Data (Kenya, Zambia) . . . . . . . .19 health prevention and medical care more effective for the world’s
+poorest people.
+Connecting Youth to Sexual Health Mobile technology has been piloted in a range of health-related areas,
+Information (United States) . . . . . . . .23 including improving dissemination of public health information (e.g.,
+disease outbreak and prevention messages); facilitating remote
+consultation, diagnosis, and treatment; disseminating health
+information to doctors and nurses; managing patients; monitoring
+public health; and increasing the efficiency of administrative systems.
+In all these areas, evidence exists that mobile phones can play a
+significant role. Further work is underway to look at the actual impact
+of mobile phones on improving health outcomes. The PanAsian
+Collaboration for Evidence-based e-health Adoption and Application
+(PANACeA), a project underway at the International Development
+Research Centre, is assessing the effect of mobile phones on improved
+health.
+3United Nations. Millennium Development Goals Report, 2007 (United Nations, 2007).
+4Chetley, Andrew, ed. Improving Health, Connecting People: The Role of ICTs in the Health
+Sector of Developing Countries (Washington, DC: InfoDev, 2006.
+www.infodev.org/en/Publication.84.html).
+5Informa Telecoms. Mobile Industry Outlook 2008, 6th Edition (London: Informa Telecoms,
+2007).
+Wireless Technology for Social Change: Trends in Mobile Use by NGOs 11
+Health
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:20 AM  Page 12
+While impact assessments and outcome measurements are
+hard to come by, there is evidence that text message
+reminders increase patient compliance in taking medication
+for such diseases as tuberculosis and HIV.6 Yet much of the
+published evidence about the use of mobiles in health
+remains in the proof of concept stage.
+The case studies featured here explore areas where mobile
+phones show great potential: health workers making better
+treatment decisions because of information delivered via the
+mobile network (e.g., Academy for Educational
+Development (AED)-Satellife), people making informed
+choices about their health with better access to information
+delivered via mobile phones (e.g., SexInfo), and the
+collection of medical data on mobile devices for better
+patient and public health management (e.g., DataDyne and
+Cell-Life).
+Credit: DataDyne In order to justify investing in the use of mobile
+technologies in the health sector in poor countries, much
+more attention needs to be paid to how such technologies
+effectively integrate and improve basic service delivery on
+the ground. Furthermore, the potential benefits in improved
+access, quality of care, and better clinical results need to be
+clearly demonstrated.
+The challenge is how to move from proof of concept to
+larger scale implementations of promising projects. We are
+optimistic that with increased investments in evaluating the
+health impact of using mobile technologies and, more
+importantly, in the scaling of projects that are shown to
+work, we will see significant progress in some of the areas
+discussed. Lastly, we hope that there will be continued
+investment in new and innovative uses of mobile
+technology in exploring, for example, how mobile phones
+can play a role in maternal health.
+6Vodafone Group. The Role of Mobile Phones in Increasing Accessibility and
+Efficiency in Health Care. Vodafone Group Policy Paper Series (Newbury, UK:
+Vodafone Group, 2006).
+12 Wireless Technology for Social Change: Trends in Mobile Use by NGOs
+Health
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:20 AM  Page 13
+C A S E S T U D Y 1
+Delivering Patient HIV/AIDS Care (South Africa)
+Issue: Confronting South adherence to medication is not kept above
+Africa’s HIV/AIDS Epidemic 90 percent, HIV can develop mutations
+that lead to drug resistance, making first-line
+edical workers and doctors ART ineffective and worsening the
+Min South Africa are epidemic.confronted daily with nearlyimpossible odds: over one-
+tenth of the South African population has
+HIV/AIDS, with younger age groups
+showing infection rates as high as 30
+percent. With more than 5.6 million
+afflicted with HIV or AIDS, South Africa
+has the worst AIDS epidemic in the world.7
+The South African government began
+supplying anti-retroviral drugs in 2004. By
+2006, 33 percent of people living with
+HIV/AIDS were receiving anti-retroviral
+treatment.8
+A weak state health infrastructure and
+disparate system of rural clinics make
+consistent anti-retroviral treatment (ART) Credit: Cell-Life
+and patient monitoring extremely difficult. Response: Improving
+Eighty percent of the HIV/AIDS patients Treatment through Mobile
+that do receive medical care rely on the Applications
+government health care system. HIV/AIDS
+patients living in rural areas must travel long Cell-Life, a non-governmental organization
+distances to reach a hospital. Frequently, based in Cape Town, South Africa, created
+they encounter a day-long wait as its “Aftercare” program to work with the
+understaffed and under-resourced clinics public health system and its health workers
+attempt to cope with the high demand. to provide home-based care for HIV/AIDS
+Sometimes hospitals run out of the necessary patients receiving ART treatments. The
+drugs, and patients return home without mobile technology-based Aftercare
+medications. Secondary infections such as program supports the effective treatment of
+tuberculosis or pneumonia are common. HIV/AIDS patients, and covers other
+aspects such as voluntary counseling.
+For those patients fortunate enough to be
+receiving ART, effective patient care Each Aftercare worker is assigned to
+monitoring is essential to reducing the risk monitor 15 to 20 patients. The worker visits
+of high toxicity levels from treatment, and the patient in his or her home, and in a one-
+to ensure a regular treatment regime. If on-one session discusses the patient’s
+current treatment. Using their mobile
+7See www.avert.org/aidssouthafrica.htm. phones for data capture, Aftercare workers
+8WHO. Towards Universal Access: Scaling Up Priority record information about patient medical
+HIV/AIDS Interventions in the Health Sector (Geneva,
+Switzerland: World Health Organization, 2007, status, drug adherence, and other factors
+www.who.int/mediacentre/news/releases/2007/pr16/en/index that may affect a patient’s ART therapy.
+.html).
+Wireless Technology for Social Change: Trends in Mobile Use by NGOs 13
+Health
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:20 AM  Page 14
+C A S E S T U D Y 1 C O N T I N U E D
+Aftercare workers then relay this designed with end users in mind. It
+information via text message to a central functions in a participatory fashion, is
+Cell-Life database. simple and works consistently, and provides
+feedback to the counselors via text message
+The data sent via text message reaches the when reports from the home health aides
+Cell-Life server, where a care manager uses are received. The program has been able to
+a web-based system to access and monitor keep costs relatively low by using data
+the incoming patient information. The collection software that functions even on
+manager can also respond to Aftercare low-cost phones.
+workers’ questions and provide
+supplemental information to improve
+patient care. Challenges: Sustainability and
+Scalability
+The information collected not only
+facilitates individual patient care, but is also Two major challenges for Aftercare’s future
+used to build a database of information on identified in several evaluations are long-
+the severity and prevalence of the South term financial sustainability and the
+African AIDS epidemic in these regions. difficulty of implementation on a larger
+The goals of the program include reduction scale. Scaling the project to more areas is
+of treatment errors, increased volume of expensive and difficult because the system
+patient data, and increased comfort for the can only be used on one network using
+patients as they receive HIV/AIDS care. prepaid accounts. And because the software
+is written only in English, it would have to
+Outcome: Delivering Health be translated into South Africa’s eleven
+national languages in order to be
+Care for HIV/AIDS Patients successfully scaled.
+The Cell-Life Aftercare project was Ulrike Rivett, founder and director of Cell-
+conceived as a joint project with the Life, says: “The single greatest risk [to
+University of Cape Town and the Cape effective patient monitoring] is the lack of
+Peninsula University of Technology. The resources to roll out ART effectively. The
+partners built a monitoring and evaluation areas with the highest prevalence of HIV
+system into the Aftercare program, and have a shortage of skilled medical
+initial results indicated that the quality of personnel, lack of good nursing and
+care for patients has improved. A Women’s management staff and have limited financial
+Net and United Nations Children’s Fund resources,” making mobile health solutions
+(UNICEF) report billed Aftercare as “one all the more valuable.
+of the most experienced initiatives
+combining mobile phone technologies
+and AIDS management.”9
+In part, the efficacy of Cell-Life’s work in
+South Africa can be attributed to the high
+prevalence of mobile phones. South Africa’s
+mobile penetration rate is 41 percent, and
+mobile phone networks cover more than 90
+percent of the country’s territory.10 The
+Aftercare program and technology were
+9Shackleton, Sally Jean. Rapid Assessment of Cell Phones
+for Development (Women’s Net and UNICEF, 2007,
+10
+http://www.unicef.org/southafrica/SAF_resources_cellphones4 The Economist Intelligence Unit, data accessed
+dev.pdf). February 2008.
+14 Wireless Technology for Social Change: Trends in Mobile Use by NGOs
+Health
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:20 AM  Page 15
+C A S E S T U D Y 1 C O N T I N U E D
+Cell-Life is also considering a migration to
+Java and GPRS (General Packet Radio
+Service) platforms to lower data
+transmission costs. They are also looking to
+enhance security measures and translate the
+program to other languages spoken in
+South Africa.
+In a country challenged by a high rate of
+HIV/AIDS, a weak state health
+infrastructure, and a disparate system of
+rural health clinics, the Cell-Life Aftercare
+program is demonstrating how an
+innovative mobile application can improve
+patient treatment. If the program can
+overcome the significant barriers to
+expanding nationwide, it may provide a
+Credit: Cell-Life
+necessary tool for South Africa’s ability to
+Next Steps: Expanding the confront its HIV/AIDS epidemic through
+Cell-Life Model the delivery of effective treatment. 
+Beyond securing the necessary funding,
+Cell-Life has identified a number of criteria
+that would influence the future of Aftercare.
+These include:
+ further development of its data
+management software;
+ expansion of its partnerships with other
+actors in the public health sector and
+commercial operators in South Africa;
+ better interoperability between its
+systems;
+ greater standardization for medical
+record collection forms; and
+ the adaptation of the system to other
+chronic and acute diseases.
+Wireless Technology for Social Change: Trends in Mobile Use by NGOs 15
+Health
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:20 AM  Page 16
+C A S E S T U D Y 2
+Connecting Health Clinics and Remote Health
+Workers (Uganda)
+Issue: Relaying Medical Care How It Works
+Information in Rural Areas AED-Satellife has used handheld computers
+for the last six years to deliver medical
+n developing countries, health care is
+I information at the point of care. It deliversoften delivered by a lone nurse medical information including diseasepractitioner in a one-room clinic. As treatment guidelines, continuing educationthey battle AIDS, tuberculosis, materials, newsletters, and essential drug
+malnutrition, malaria, and other diseases, the lists and databases. Nurses also receive
+practitioners frequently lack access to national and international news articles on
+electricity or running water, let alone medical their devices.
+information, a telephone, or the Internet.
+AED-Satellife also has customized software
+Often the quality of care a patient receives for data collection on handhelds so medical
+is limited to whatever knowledge the nurse workers are able to track patients and keep
+retained from basic training. In Uganda, per records electronically. Clinics are required
+capita spending on health is US $57 per to regularly send data on public health
+year. In Rakai, a rural district about 200 programs and routine epidemiological data
+miles southwest of the capital city of back to the regional health centers.
+Kampala, there is one doctor for every
+22,400 people; in the Mbale district, a rural
+agricultural district where coffee and Personal Digital Assistants
+bananas are grown, there is one doctor for
+every 15,000 people. With medical staff PDA, or personal digital assistant,
+stretched so thin and working under is a small, handheld computer that
+challenging circumstances, access to Amakes it possible to store, access,
+wireless-enabled health care information and organize large volumes of information.
+becomes a critical lifeline just when it is Personal digital assistants can exchange data
+needed—at the point of care. electronically with other devices. They are
+sometimes also referred to as ‘smart phones’
+Response: Using Wireless when telephone capabilities are included.
+Personal Digital Assistants to
+Bridge the Gap Holly Ladd, Director of AED-Satellife,
+describes how handheld devices deliver
+To address this urgent need for point-of-care vital information: “We have seen changes in
+medical information, Academy for practice, particularly around treatment for
+Educational Development (AED)-Satellife, diarrhea. We emphasize in the medical
+a U.S.-based nonprofit organization, has treatment alerts that we send to the
+implemented projects in more than a dozen handheld devices in the clinics that re-
+countries where health professionals hydration therapy is strongly recommended
+working in resource-poor areas use as a first course of action, particularly with
+handheld personal digital assistants (PDAs) kids. We have evidence that this is now
+to transmit and receive vital data via a used much more often as a first course of
+wireless or mobile network. action in those clinics.”
+16 Wireless Technology for Social Change: Trends in Mobile Use by NGOs
+Health
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:20 AM  Page 17
+computers result in “more rapid, accurate,
+and cost-effective data collection and
+reporting.”11 It found that a handheld
+computer network spanning two districts in
+Uganda indicated a 24 percent savings over
+traditional paper-and-pencil methods, and
+that further savings are expected as
+additional surveys are converted to the
+Credit: AED-Satellife handheld format.
+Likewise, PDAs can streamline health data AED-Satellife has carefully documented its
+collection from remote areas. Ladd lessons learned from years of using PDAs
+describes a recent typhoid outbreak that in delivering and collecting health
+was detected early because clinics regularly information in developing countries. The
+reported cases with PDAs. “The outbreak organization has produced a ‘PDA Toolkit’
+was contained because we could see that complete with a step-by-step guide on how
+something was amiss. This would not have to deploy PDAs, including information on
+been possible with paper and pencil the opportunities available and how to
+reporting, which is much more time- assess an organization’s readiness for using
+consuming,” she says. handhelds.
+AED-Satellife has pioneered the use of Ladd notes that AED-Satellife now knows
+handheld devices that can perform the “what users like and do not like, what
+same tasks as a desktop or laptop computer incentives they need to use the PDAs,
+in health-care settings in developing where we need to cheerlead, support, and
+countries. The Uganda Health Information evangelize. It turns out that delivering news
+Network is an AED-Satellife Project and popular content—including gossip
+operated in collaboration with Uganda columns—onto the nurses PDAs is a great
+Chartered HealthNet and the Faculty of way to get users used to using them.”
+Medicine of Makerere University. It is the
+largest of AED-Satellife’s current projects
+using PDAs in health clinics. Next Steps: Coordinating with
+Key Partners to Bring
+Outcome: More Effective Data Programs to Scale
+Collection, Better Health Care In order to expand projects like AED-
+Services Satellife, the Uganda Health Information
+Network needs institutional support from
+Four years into the project in Uganda, 175 the national healthcare system. In Uganda,
+remote health facilities serving more than the AED-Satellife project was initiated by
+1.5 million people are able to send and two non-governmental organizations
+receive data and medical updates. AED- (NGOs) in conjunction with the Faculty of
+Satellife is replicating the project in Medicine of Makerere University.
+Mozambique, having translated the
+software and materials into Portuguese, Although the District Health Services—
+where 110 health centers are receiving Uganda’s regional health system—was
+medical updates and are collecting health actively supportive, the Ugandan Ministry
+information. It also launched in South of Health initially wanted to wait until the
+Africa in spring 2008. viability of the solution was proven before
+An evaluation of AED-Satellife’s project in 11AED Satellife internal evaluation
+Uganda determined that handheld
+Wireless Technology for Social Change: Trends in Mobile Use by NGOs 17
+Health
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:20 AM  Page 18
+C A S E S T U D Y 2 C O N T I N U E D
+making a decision about whether to become with health workers. Particularly for remote,
+a direct implementing partner. AED- under-resourced areas, access to wireless-
+Satellife continuously updated the Health enabled health care information can serve
+Ministry on the project, and in 2007 the as a critical lifeline for informed health
+Ministry indicated its intent to roll out the care. 
+network to additional 20 districts.
+Ladd says: “We have proof of concept now, Developing Open Source
+and are working with the Health Ministry to Standards
+scale the network from 174 health centers
+here are now several consortia
+operating at the district level to an Tthat aim to collaborativelyadditional 20 health districts with standardize software for medical
+approximately 3,000 additional health
+records collection. The Open Medical
+centers.”
+Records System (OpenMRS) is a free
+In Mozambique, AED-Satellife took a and open source electronic medical
+slightly different approach. That project, record application for developing
+which began with the launch of PDA countries (www.openmrs.org). The
+programs in 110 health centers, was application has been used to manage
+initiated by the Maputo Ministry of Health patient and treatment information
+and supported at that level. Engaging the associated with HIV/AIDS and
+Ministry of Health from the very beginning tuberculosis care in several countries in
+proved to be instrumental in ensuring sub-Saharan Africa. Open Rosa, another
+project sustainability, and facilitating rapid consortium just now forming, aims to
+skills transference to Ministry technical develop a mobile medical record
+personnel. system. Both consortia have received
+funding and are aimed at reducing
+As the program is brought to scale, the
+redundancy amongst NGOs developing
+wireless connections established through
+medical record systems, and
+the AED-Satellife programs are increasing
+standardizing the way medical data is
+health officers’ knowledge of health care
+collected and managed, both on
+needs—even in the most remote areas—while
+computers and on handheld and mobile
+sharing critical medical and health updates
+devices.
+Credit: AED-Satellife
+18 Wireless Technology for Social Change: Trends in Mobile Use by NGOs
+Health
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:20 AM  Page 19
+C A S E S T U D Y 3
+Lowering the Barriers for Access to Public Health Data
+(Kenya, Zambia)
+Issue: Monitoring Disease in Response: Collecting Health
+Developing Countries Data through an Open-Source
+t was the late 1990s and I was Mobile Software Tool
+“Iamazed by the lack of adoption of In 2002, Selanikio teamed up withmodern IT [information technology] computer scientist Rose Donna to form thein collecting health data, whether you DataDyne Group, a non-profit dedicated to
+were in Haiti or parts of the U.S.,” increasing access to public health data
+recalls Joel Selanikio, a pediatrician, through mobile software solutions. Inspired
+technologist, epidemiologist, and co- by an earlier CDC product called Epi Info,
+founder of the non-profit DataDyne.org. Selanikio created EpiSurveyor, a free, open-
+“Government agencies tend to lag far
+behind the private sector in pursuing new
+technologies.”
+Dr. Selanikio began his public health career
+working at the Centers for Disease Control
+and Prevention (CDC), a U.S. government
+agency. He traveled the globe investigating
+disease outbreaks. Searching for clues, he
+collected and analyzed health data,
+evaluated programs, interviewed patients,
+and was sometimes able to discern patterns
+others had overlooked. Yet, as is often the
+case in addressing public health concerns,
+his efforts were hindered by a lack of
+reliable, systematically recorded data. In a
+number of countries, critical health data was
+being collected through agonizingly slow
+paper-based systems—if it was collected at Credit: DataDyne
+all. These gaps in access to up-to-date source, mobile data collection software tool.
+public health data made informed public EpiSurveyor offers health data collection
+health decision-making extremely difficult. forms that can be downloaded at no cost
+and modified by anyone with basic
+Having worked earlier in his career as an IT computer skills. Selanikio and Donna
+consultant on Wall Street, Selanikio began believed that this technological innovation
+exploring the use of handheld computers to could empower developing country health
+record field data. He discovered that while officials with the tools needed to gather
+the hardware needed to collect data was time-sensitive health data quickly, and
+readily available, the software required was without outside assistance.
+often too complex and costly for use by
+those in developing countries.
+Wireless Technology for Social Change: Trends in Mobile Use by NGOs 19
+Health
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:20 AM  Page 20
+C A S E S T U D Y 3 C O N T I N U E D
+In many cases when developing countries creating mobile data products to address
+track public health data, they do so by public health needs in developing countries.
+hiring programming consultants to
+customize the required IT solutions. This In 2006, DataDyne entered into a
+arrangement can strain limited resources, partnership with the United Nations
+and in some cases also raise questions about Foundation, The Vodafone Group
+health data ownership. Selanikio designed Foundation, the World Health Organization
+EpiSurveyor to lower the barriers of access (WHO), and the Ministries of Health of
+to public health data through a user-friendly Kenya and Zambia to launch a pilot
+and easily adaptable health data collection program that scaled the beta-tested software
+tool. “We wanted to create a tool that the at the provincial level. Through the pilot,
+average person who knows how to word public health officials in Kenya and Zambia
+process could handle,” Selanikio says. received training and mobile computing
+devices to support the fight against measles.
+“For some time, we had been exploring
+How It Works how to use mobile technology to collect
+piSurveyor incorporates a Win- data on the ground that could be used byE health officials in making life-savingdows-based “Designer” forms- decisions,” says Mitul Shah, senior directorcreation application, and a
+of technology partnerships at the United
+Java-based engine that can run on per-
+Nations Foundation. “In Zambia and
+sonal digital assistants (PDAs), smart Kenya, for example, health officers
+phones, and soon, common mobile traditionally traveled to remote facilities and
+phones. Users start by downloading the recorded information, like stock levels, on
+software from the DataDyne.org website paper. This information was then
+(www.datadyne.org). Then, using a desk- transferred manually to an electronic
+top or laptop computer, they enter the database, which took time. We wanted to
+health survey questions into the De- systematize how health data was collected.”
+signer program. The resulting form can
+The pilot sought to contribute to the goals
+then be published to a mobile device. of the Measles Initiative, a partnership
+For data that is collected via PDA or aimed at reducing measles deaths
+smart phone, once data is collected from worldwide, that counts as its founding
+the field the mobile device is synchro- partners the American Red Cross, U.S.
+nized with the computer. Data from Centers for Disease Control and
+multiple handsets can then be combined Prevention, the United Nations Children’s
+into a single data table for analysis. Fund (UNICEF), the WHO, and the
+United Nations Foundation. From 2000 to
+2006, the Initiative succeeded in reducing
+Piloting the Approach measles deaths in Africa by more than 90
+percent. Still, monitoring measles
+Shortly after developing EpiSurveyor, and
+vaccination rates and disease outbreaks in
+working with Dr. Mark Grabowsky, then of
+hard-to-reach areas was a complex and
+the American Red Cross, Selanikio entered
+time-consuming task. While the Measles
+and won a grant from the World Bank’s
+Initiative had worked with DataDyne in
+Development Marketplace Competition.
+using PDAs for this purpose in the past,
+They used the award to develop and test a
+Selanikio realized that switching from a
+beta version of the software in Kenya. At
+consultant-based solution to a country-
+the same time, Selanikio and Donna were
+owned process using EpiSurveyor would
+launching DataDyne, with the goal of
+provide a more sustainable solution.
+20 Wireless Technology for Social Change: Trends in Mobile Use by NGOs
+Health
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:20 AM  Page 21
+“The long-term goal [of the pilot] was to occurred in Kenya, when political unrest
+strengthen systems—to make clinics more and fighting in neighboring Somalia brought
+responsive and train health surveillance in waves of unvaccinated refugees—some of
+officers to be able to report more accurately whom carried the polio virus. Despite the
+and on a more timely basis about measles fact that the last native case of polio in
+and other priority diseases,” says Andrea Kenya had been seen more than two
+Gay, executive director of Children’s decades ago, the human migration
+Health for the United Nations Foundation introduced a new threat of disease outbreak.
+and senior advisor to the Measles Initiative.
+Titus Kolongie, who works with the Kenya
+Expanded Programme on Immunizations
+(KEPI), was part of a cadre of health workers
+trained on EpiSurveyor who responded to
+the crisis. Using a PDA loaded with
+EpiSurveyor, he evaluated an emergency
+polio vaccination campaign that targeted
+individuals who may have come into contact
+with the virus as it entered Kenya. In total,
+KEPI was targeting almost two million
+children for vaccination, giving the polio
+virus fewer places to hide, and preventing
+life-long infections from a debilitating
+Credit: DataDyne disease. Says Kolongie, “EpiSurveyor made
+things work efficiently, allowing us to collect
+Outcome: Improved Public information and conduct analyses quickly.”
+Health Response to Disease Even more remarkably, the pilot officers in
+Outbreaks Zambia learned of the outbreak investigation
+form created by the Kenyan team,
+Through the pilot, thirty provincial health downloaded it from the project website, and
+supervisors in each country were trained in put it into use in Zambia with minor
+how to use EpiSurveyor on Palm Zire™ modifications. This adaptation of the
+handheld computers. The health officers software and forms came as great news to
+then used EpiSurveyor to collect Selanikio.
+management data about public health
+clinics—such as medical supply quantities “First, you had health professionals using
+and levels of staff training. In both countries, the software—on their own initiative—to
+officers went beyond the purpose of the meet a pressing need,” he explains. “Next,
+pilot to gather additional health data as new
+needs arose. In Zambia, for example, the
+supplied PDAs and EpiSurveyor software
+were used by health officers to conduct a
+post-measles vaccination campaign
+coverage survey—the very first time that
+such a survey had been independently
+conducted by in-country staff using PDAs.
+Another instance in which local health
+officials modified the open source software
+to meet new health needs as they arose
+Credit: DataDyne
+Wireless Technology for Social Change: Trends in Mobile Use by NGOs 21
+Health
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:20 AM  Page 22
+C A S E S T U D Y 3 C O N T I N U E D
+you had health professionals in a different Tools like EpiSurveyor offer great potential
+country sharing forms leading to the for helping to monitor these needs.”
+standardization of data. This is a potentially
+revolutionary change in the way we collect Based on the results of the pilot program,
+data.” If comparable health data were WHO is considering plans to implement
+available across countries, it would be easier EpiSurveyor in all sub-Saharan African
+to share best practices and implement more countries. Starting in 2008, health
+widespread interventions, he adds. professionals in ten countries will be trained
+to use the software in their work,
+particularly in the area of disease
+Challenges: Overcoming In- surveillance.
+Country Logistical Constraints
+DataDyne is also working with Cell-Life
+Selanikio points out the challenge of (see Case Study 1), a non-profit developer
+measuring the effectiveness of a tool like in South Africa, to adapt EpiSurveyor to
+EpiSurveyor in the face of independent run on Java-enabled mobile phones. This
+variables that users have no control over. In will allow users of the software to transmit
+some communities in Kenya, for example, data wirelessly, thereby saving time and
+lack of fuel and bad weather made it improving efficiency.
+difficult for those trained to use
+Because the software is open source and can
+EpiSurveyor to travel to clinics.
+be easily downloaded for free, hundreds of
+An abundance of new data is also people and organizations have accessed
+generating a demand in government EpiSurveyor and are using it—formally and
+ministries of health for back-end data informally—in their work. Among these are
+aggregation and analysis tools. This means the Harvard and Johns Hopkins schools of
+that in some cases, until aggregation and public health. Those who seek to modify the
+analysis are embedded in the system, this EpiSurveyor code to create new
+new data may not be acted upon as quickly functionality, rather than simply using it as
+as one might hope. Still, this offers a real provided, are required by the licensing
+opportunity for further research and agreement to make their source code open to
+development to bring to fruition complete others, thereby stimulating new innovations
+front- and back-end solutions. and the sharing of valuable tools.
+For its part, DataDyne is focused on
+Next Steps: Adapting the refining and adapting the software to
+Application, and Bringing It address a wide variety of needs. “By adding
+to Scale functionality, we can use the platform to
+provide clinical updates, patient tracking
+Despite these challenges, the results of the and management, reference materials, and
+pilot have paved the way for wider other tools,” says Selanikio.
+applications of EpiSurveyor. “The results
+are very encouraging in that they By the year 2010, DataDyne estimates that
+demonstrate the potential for using mobile more than 1,000 public health professionals
+devices for widespread data collection,” will be using EpiSurveyor for data
+says Shah. “The Millennium Development collection and analysis. “We’ve just put our
+Goals have underscored the need for better toe into the pool,” says Selanikio. “Imagine
+data—data that can help prevent the spread where this could be ten years from now.” 
+of disease, monitor child nutrition, and
+determine people’s access to clean water.
+22 Wireless Technology for Social Change: Trends in Mobile Use by NGOs
+Health
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:20 AM  Page 23
+C A S E S T U D Y 4
+Connecting Youth to Sexual Health Information
+(United States)
+Issue: Improving Sex Response: Reaching teens
+Education for the Teen through text messaging
+Population “The thing about mobile phones is that
+t was while standing in front of the they’re small and can be used privately to
+IMission High School near her home in access information anonymously,” saysSan Francisco, California that Levine. With 85 percent of the city’s youthDeborah Levine, executive director of owning a mobile phone, a text-based
+Internet Sexuality Information Services approach simply made sense.
+(ISIS-Inc.), a nonprofit she founded that ISIS-Inc. and SFDPH had a history of
+develops “high-tech solutions for sexual collaborating in using information and
+health education,” conceived of a potential communication technologies to address
+solution to a pressing public health problem. public health challenges. Now, they were
+Levine had recently been approached by poised to enter new territory in using
+the San Francisco Department of Public mobile technology to promote teen sexual
+Health (SFDPH) to develop a website to health.
+address rising rates of sexually transmitted “ISIS brought its experience in technology,
+diseases among at-risk youth. In 2005, rates innovation, and working at the community
+of gonorrhea among African-American level,” says Jeff Klausner, MD, SFDPH
+youth, ages 18 to 25, had gone up over 100 Deputy Health Officer. “We brought a long
+percent, with African-American women history of working in sexual health
+being infected by the disease at 12 times the education and disease prevention, financial
+rate of American women of Caucasian resources, and expertise in marketing,
+descent. monitoring, and evaluation.”
+As she watched a flood of teenagers emerge As Levine began researching her idea, she
+from the school’s entrance, Levine was learned of a similar initiative in London. In
+struck by how many were calling and 2002, The Brook Advisory Centre, a
+texting their friends. So began her inquiry national charitable organization, launched
+into how to use mobile phones as a health a text messaging service that United
+awareness and disease prevention tool. Kingdom (UK) youth could use to access
+sexual health information and referral
+services (see sidebar). Levine received
+helpful ideas from Brook staff and set out to
+design a solution to address the needs of at-
+risk youth in San Francisco. The service
+would soon become known as “SexInfo.”
+A critical first step was informing and
+engaging local community members. ISIS-
+Inc. and SFDPH identified representatives
+of community organizations (e.g., high
+school health programs, public clinic staff
+serving African-American youth, juvenile
+Credit: ISIS-Inc.
+Wireless Technology for Social Change: Trends in Mobile Use by NGOs 23
+Health
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:20 AM  Page 24
+C A S E S T U D Y 4 C O N T I N U E D
+probation officers, and local clergy) to serve answers to when it came to their
+on an Advisory Board. The group provided reproductive health.
+valuable feedback during the planning
+stage, and was consulted regularly SexInfo was also designed to provide youth
+thereafter. with information on where they could
+access free, confidential sexual health
+Focus groups were also held with young services. To address this need, ISIS-Inc.
+African-American men and women to staff mapped youth-oriented clinical and
+determine their needs and how they social services in communities in or near
+preferred to access sexual health where those young people they sought to
+information. Questions focused on young reach lived. Staff then visited the clinics to
+people’s existing knowledge of sexually gauge their relevance to youth.
+transmitted diseases (STDs), their sources of
+information, and their use of technology,
+including cell phones. “One hundred
+percent said this would be a great way to
+reach them and their peers,” says Levine.
+Focus group discussions also emphasized
+the need for an ‘opt-in’ service, whereby
+users would control the type of information
+they received and when. “They didn’t want
+anyone pinging them with messages or
+asking them to get tested for an STD,” says
+Levine.
+Based on this research, ISIS health
+educators initiated the content development
+phase of the project. They began by
+identifying key questions that sexually
+active youth, ages 12 to 24, most needed
+Credit: ISIS-Inc.
+“Ask Brook”: Providing Young People in the United Kingdom with
+Sexual Health Information
+In 2002, The Brook Advisory Centre, a UK char- According to Lisa Bartlett, Ask Brook Programmeity, launched an enhanced “Ask Brook” infor- Manager, a major benefit of text-based services ismation service providing young people with that they are confidential and appeal to young peo-
+sexual health knowledge and support via tele- ple who are intimidated at the thought of talking
+phone, the Internet, and text message. about sensitive issues. “Once up and running, such
+services don’t require a lot of resources beyond pro-
+To access the service via mobile phone, young peo-
+motion,” she says. Brook benefits from its name
+ple text BRK, followed by their postcode, to 81222.
+recognition and 40-year history. Given its relation-
+Subsequently, they receive information regarding
+ship with local government and national health
+sexual health services in their area. They can also
+services, Brook is able to promote the service with-
+select standardized responses to questions relating
+out investing significant ongoing resources.
+to contraception, pregnancy, sexually transmitted
+disease, and other sexual health issues. In 2006 and For more information, visit: www.brook.org.uk
+2007, the service received an average of 100 text
+message queries per month.
+24 Wireless Technology for Social Change: Trends in Mobile Use by NGOs
+Health
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:20 AM  Page 25
+Developing the Technology and Outcome: Texting the Relevant
+Launching the Service Information to Teens—
+ISIS hired HipCricket, Inc., a mobile Anywhere, Anytime
+marketing firm in Australia, to program the
+service and ensure the confidentiality of During the first 25 weeks of the project
+users. Next came the task of working with (April–October 2006), 4,500 individuals
+mobile operators to provide mobile phone accessed the service, with 2,500 taking the
+subscribers with access to the service. steps to retrieve content and referrals. The
+HipCricket offered to let ISIS-Inc. use its top three messages accessed were: “What 2
+five-digit ‘short code’ during the project’s do if ur condom broke,” “2 find out about
+start-up phase. Levine was then able to STDs” and “if u think ur pregnant.” Table 1
+work through an aggregator in the United demonstrates the number of inquiries per
+States to obtain the short code (61827) now message.12
+being used to access SexInfo. Short codes
+are generally used to market or promote a
+product or service to mobile users. Table 1. Most Popular Messages
+Prior to launching SexInfo, ISIS-Inc. Most
+worked with Youth United Through Health Popular Message Inquiries
+Education (YUTHE), a program of
+#1 A1 (if ur condom broke) 523
+SFDPH, to develop marketing materials
+and test their appeal among local youth. #2 C3 (to find out about STDs) 486
+Outreach materials included posters, palm- #3 B2 (if u think ur pregnant) 372
+sized cards, and bus shelter ads. To engage
+parents and community members, ISIS-Inc. #4 D4 (to find out about HIV) 277
+created a companion website #5 E9 (if ur sexually active) 199
+(www.sextextsf.org) where the public could
+learn about the service and view the content #6 F6 (if they’re cheating on u) 181
+of the text messages online. ISIS-Inc. has #7 F8 (if ur not sure u want to have sex) 158
+also created a mobile WAP (wireless
+#8 E7 (if u think u might be gay) 110
+application protocol) site that can be viewed
+on mobile phones (m.sextext.org). #9 E5 (Need to speak to some one now!) 78
+SexInfo launched formally on 24 April #10 G11 (if u need a place to stay) 59
+2006. Following the initial media campaign, #11 F10 (if someone’s hurting u) 44
+ISIS-Inc. and SFDPH explored creative
+means of reminding youth about the
+service. One of these involved producing a
+“Working with the government—and in our
+public service announcement for television
+case, the public health department—has
+featuring a popular rap musician, Mistah
+helped enormously with evaluation efforts,”
+F.A.B. The announcement was broadcast
+says Andrew Woodruff, ISIS-Inc. Program
+locally on Black Entertainment Television
+Director. “We’ve found that a text-based
+and MTV and is now available on
+approach can get the information into
+YouTube.
+people’s hands. They can be anywhere and
+access the information they need.”
+12Levine, Deborah, et al., “SEXINFO: A Sexual
+Health Text Messaging Service for San Francisco
+Youth,” American Journal of Public Health, 98 (2008):
+393–395.
+Wireless Technology for Social Change: Trends in Mobile Use by NGOs 25
+Health
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:20 AM  Page 26
+C A S E S T U D Y 4 C O N T I N U E D
+Challenges: Meeting Teen ISIS-Inc. is now looking to expand the
+Needs with a Relevant, Usable online component of SexInfo based on
+evidence that its target group uses mobile
+Service technology to surf the web. By adding
+In 2007, ISIS-Inc. made a number of wallpapers, ringtones, and other items of
+changes to the service based on initial interest to youth, ISIS-Inc. seeks to
+results and a usability test. The test was reinforce the service’s overall appeal and
+carried out by Youth United Through impact.
+Health Education (YUTHE) team While getting the technology right is
+members—college students—who went out critical, SFDPH’s Klausner emphasizes the
+on the street with a video camera and a importance of finding the right partner(s) to
+professional market researcher to document develop an effective solution. “Frustrations
+how young people used the service. can emerge between governmental and
+Roughly half of the young people surveyed non-governmental organizations because
+reported difficulty in navigating the SexInfo they have different styles,” he says. To
+menu of options. To simplify the user’s address these differences, Klausner stresses
+experience, ISIS-Inc. has shortened the the importance of mutually establishing
+number of questions from eleven to four. timelines and facilitating regular and open
+Now, rather than entering two digits (e.g., communication.
+A1) to obtain an answer to a question, users
+need enter only one. These changes have
+increased the percentage of young people
+who get to the resources provided by over
+100 percent.
+Health Info-Lines: A Promising Tool in the Fight Against HIV/AIDS
+Health information lines, accessible via a A related monthly competition, ‘MyAnswer,’ invitesmobile phone texting service, are young people to text in their answer to a question—increasingly being looked to as a tool in for example, what is the difference between HIV
+the fight against HIV/AIDS. A new service, and AIDS? Every month, ten of those who answer
+‘MyQuestion,’ launched in Nigeria in November correctly win a prize. The contest encourages young
+2007, is directed at increasing HIV/AIDS awareness people to research and reflect on issues that affect
+and promoting healthy behaviors among 10- to 25- their health.
+year-olds. Through the service, young people can
+Both services are part of the wider eLearning pilot
+obtain answers to reproductive health-related
+program, Learning About Living, in Nigeria.
+questions by sending text messages, emailing, or
+Learning about Living is funded by Oxfam Novib
+calling a telephone hotline. Through providing
+and the MacArthur Foundation and is being
+varied options for accessing the service, it is hoped
+managed by One World UK, in collaboration with
+that even the most reluctant youth will find their
+Action Health Incorporated, Butterfly Works,
+comfort zone when it comes to asking sensitive
+Nigerian Education Research & Development
+questions.
+Centre, Federal Ministry of Education, Federal
+During the first three months of the service, the Ministry of Health, Education as a Vaccine Against
+mobile phone component has proven to be the Aids, and Girls’ Power Initiative. To learn more,
+most popular medium by far, with 14,000 text visit: www.learningaboutliving.com.
+message responses sent to teenagers accessing the
+service.
+26 Wireless Technology for Social Change: Trends in Mobile Use by NGOs
+Health
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:20 AM  Page 27
+C A S E S T U D Y 4 C O N T I N U E D
+Looking ahead, Levine is encouraged about
+the prospects for more nonprofits to
+incorporate text-messaging services into
+their health education and disease
+prevention efforts. “The more mobile
+technology work that’s being done, the
+more costs will start to come down,” she
+says. “We’re still in the pioneering years of
+this in the U.S.”
+To an ever-growing worldwide population
+conversant in text messaging, anonymous,
+mobile-enabled services that provide real-
+time sexual health information are proving
+an easy way to communicate sensitive
+information, anytime, anywhere.
+Expanding these services to new geographic
+areas, and across other health issues, is a
+natural next step in the process of
+improving public access to health
+information through mobile phones. 
+Credit: ISIS-Inc.
+Next Steps: Expanding Text
+Services—To Other Cities and
+Other Public Health Issues
+Steps are underway to adapt SexInfo’s
+approach to Washington, DC and Toronto,
+Canada. In Washington, ISIS-Inc. is
+working with the local government and
+Metro TeenAIDS, a community health
+organization, to adapt the SexInfo
+approach. Rather than have youth call into
+the service, messages will be “pushed out”
+to young people who have signed up to
+receive information. In Toronto, ISIS-Inc. is
+collaborating with the Toronto Department
+of Public Health and hopes to launch
+SexInfo there by summer 2008.
+Wireless Technology for Social Change: Trends in Mobile Use by NGOs 27
+Health
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:20 AM  Page 28
+28 Wireless Technology for Social Change: Trends in Mobile Use by NGOs
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:21 AM  Page 29
+II. Humanitarian Assistance
+Mobile Phones in Disasters and Humanitarian
+Relief
+obile technology plays an important role in communica-
+Mtions efforts during the various phases of a humanitariancatastrophe—from the early warning phase through theimmediate disaster response and longer-term recon-
+struction efforts. Stories abound about how mobile technology has
+been used in recent disasters, from reestablishing communications net-
+works vital to the work of first responders to providing a first line of
+communications for refugees trying to reconnect with a loved one.
+Communication needs differ in each unique situation, ranging from
+mass broadcasting of text messages in the early warning phase, for ex-
+ample, to decentralized two-way communication among relief workers
+and affected populations in the aftermath of a disaster.
+Early warning systems involving mobile phones—both cell broadcast
+and text messaging alerts—are being considered or implemented in var-
+Credit: TSF ious countries. Because it can quickly and informally disseminate infor-
+mation from person to person, mobile communication is a good
+medium for information sharing both during and in the aftermath of a
+disaster. The case study on the World Food Programme’s use of text
+messaging to inform Iraqi refugees of food shipments illustrates both
+Delivering Food Aid to Iraqi the challenges and opportunities of text alerts.
+Refugees (Syria) .........................31 There is evidence that neither the public nor emergency workers uti-
+lize mobile technology to its fullest potential. For emergency workers,
+Facilitating Communication in key barriers include organizational and communication inefficiencies
+Emergency Situations and breakdowns, as well as technical barriers such as overburdened
+(Peru, Indonesia) .............................34 systems unable to handle post-disaster traffic.13 For the affected popu-
+lations, emergency communication needs to take a priority and may
+Text Messaging as a Violence- necessitate prioritizing that particular traffic over person-to-person
+Prevention Tool (Kenya) ............38 communication.
+A 2005 GSMA study14 found that in the immediate aftermath of a dis-
+aster the speed with which cellular networks can recover from dam-
+age—often within hours—plays a critical role in relief supply
+management and economic recovery. As the case study on Télécoms
+Sans Frontières illustrates, rapid restoration of networks is essential in
+the critical period right after a disaster.
+Our research underscores the importance of operators, governments,
+13Currion, Paul. Emergency Capacity Building Report: Information and Technology Requirements
+Initiative. Assessment Report (Emergency Capacity Building Project, 2006).
+14Coyle, Diana. The Role of Mobiles in Disasters and Emergencies (London: GSM
+Association, 2005).
+Wireless Technology for Social Change: Trends in Mobile Use by NGOs 29
+Humanitarian
+Assistance
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:21 AM  Page 30
+Credit: TSF and relief organizations working closely to- have grown increasingly popular in recent
+gether to ensure that mobile networks are years, with private donations in many cases
+available for critical communication, and exceeding government expenditures in the
+that information is able to flow freely. The wake of a disaster. This was especially true
+GSMA study states that: “in the case of de- after the 2004 Indian Ocean tsunami, when
+veloping countries in particular, mobiles are millions of dollars were raised via text mes-
+likely to be the dominant means of commu- saging—particularly in Europe. Even though
+nication for affected members of the public. donations are relatively small, their cumula-
+This flow of information—not mediated by tive impact can be substantial.
+broadcasting agencies or public authorities—
+ensures that people elsewhere quickly come Looking ahead, there are a number of op-
+to know what is happening and what help is portunities for improving the effectiveness
+needed. In the chaotic aftermath of a disas- of mobile technology in disaster relief. As
+ter, when people are displaced, buildings mobile infrastructure grows worldwide,
+and infrastructure destroyed, no central au- early warning and last minute information
+thority can possibly hold all the necessary dissemination become more viable, espe-
+information and allocate resources in the cially if there are strategic investments and
+place of greatest need.”15 agreement on standards. Similarly, efforts
+are needed to coordinate relief organiza-
+Hence, there is a need for government coor- tions more effectively and increase their in-
+dination with telecommunication carriers to ternal capacity to take strategic advantage of
+ensure that there is rapid rebuilding after a mobile technology.
+disaster, and ‘light touch’ regulation to sup-
+port this.
+Text messaging-based fundraising appeals
+15Ibid, p. 33.
+30 Wireless Technology for Social Change: Trends in Mobile Use by NGOs
+Humanitarian
+Assistance
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:21 AM  Page 31
+C A S E S T U D Y 5
+Delivering Food Aid to Iraqi Refugees (Syria)
+Issue: Alerting Refugees to
+Food Aid Deliveries
+eneficiaries of the United Nations
+B(UN) World Food Programme(WFP) are the poorest of the poor.As the frontline agency mandated
+to combat global hunger—and entirely re-
+liant on voluntary funding—WFP must
+make stark choices about whom it can pro-
+vide with food assistance. This year, WFP
+aims to assist 73 million people in 78 coun-
+tries—knowing that there are a staggering
+850 million hungry people worldwide.
+About two million Iraqis have fled their needed. To facilitate this process, the UN Credit: WFP/John Wreford
+country since 2003, and an additional agency recently instituted a text messaging
+60,000 are leaving each month.16 Syria has program to notify refugees about the avail-
+received the majority of these refugees and ability of food aid.
+there are now an estimated 1.4 million
+Iraqis in Syria. The WFP has estimated that
+about 50,000 of the Iraqis in Syria need Response: Using Text
+food aid. Messaging to Communicate
+Every month at distribution centers and News of Food Supplies
+warehouses of the Syrian Red Crescent, the With a responsibility for coordinating the
+WFP and Syrian Red Crescent provide eli- logistics and emergency communications
+gible refugee families with basic food com- for other UN agencies and NGOs, WFP is
+modities, such as rice, lentils, and oil, and constantly looking for innovative ways of
+complementary items, such as sugar, tea, stretching its donations to benefit as many
+pasta, tomato paste, and bulgur. people as possible. The Iraqi beneficiaries
+described in the case study are far from typ-
+Charged with coordinating these distribu-
+ical in that they have access to mobile tele-
+tions, WFP alerts eligible families about
+phones.
+food rations and directs them to the appro-
+priate distribution centers. Previously, the Describing the genesis of the project,
+WFP had used local non-governmental or- Haitham El Noush, program officer at WFP
+ganizations (NGOs) who work with Damascus, says: “Last year we started dis-
+refugees to help get the word out. Since not tributing food to refugees in Damascus. But
+all eligible families had regular contact with how were we going to announce distribu-
+local NGOs, however, a new strategy was tion? We wanted to alert about 6,000 fami-
+lies in a pilot project when food was ready
+16al-Khalidi, Ashraf, Sophia Hoffman, and Victor for pick-up. Someone in the office came up
+Tanner. Iraqi Refugees in the Syrian Arab Republic: A Field-
+Based Snapshot (Washington, DC: The Brookings with the idea to use a text messaging service
+Institution–University of Bern Project on Internal to alert these families.”
+Displacement, 2007).
+Wireless Technology for Social Change: Trends in Mobile Use by NGOs 31
+Humanitarian
+Assistance
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:21 AM  Page 32
+C A S E S T U D Y 5 C O N T I N U E D
+In August 2007, WFP’s program in Damas-
+cus contacted one of the mobile telephone
+operators in the country, to inquire about
+covering a portion of the costs of the text
+messaging. The operator agreed to provide
+an initial 800 text messages at no cost. El
+Noush notes: “The idea was new; this was
+the first time this was ever done. And it was
+simple: We sent a text message to people on
+our list to go to the distribution site and re-
+ceive the food.”
+To bring the text message pilot program to
+scale, the WFP set up an account with a mo- Credit: WFP/John Wreford
+bile marketing vendor to accommodate their
+bulk messaging needs. WFP buys text mes- However, says El Noush, even though
+sages in bulk to secure a volume discount, “there are lots of internet cafes and people
+and uses a list of phone numbers provided can have easy internet access, we still cannot
+by the UN High Commissioner for be 100 percent sure that we don’t exclude
+Refugees (UNHCR) to target its food distri- some people by this extra step. At the same
+bution alerts. WFP manages and distributes time, text messaging really is the most effec-
+messages using a do-it-yourself dashboard tive way to reach people—everyone has a
+on the mobile vendor’s website. The mes- mobile phone and by sending some 35,000
+sage that is delivered to refugees provides a messages we got a lot of visibility about the
+URL (uniform resource locator) where po- program.” UNHCR is now asking individu-
+tential food aid recipients can verify whether als picking up food to update their phone
+they are eligible for food benefits. number at the distribution center in the
+hope that this will reduce errors over time
+Challenges: Reaching the and ensure a more accurate list of numbers.
+Right Recipients with the Right Another challenge of texting is the limited
+Information space-especially in Arabic. While a text
+message in English can accommodate 160
+One of the limits of a program like this is characters, a text message in Arabic can
+that the messaging is only as targeted as the hold only 70. With such limited space, mes-
+phone numbers on the contact list. Because sages must be very clear to be understood
+people switch phone numbers or share by the recipient.
+phones, delivery of a message to an intended
+recipient is not always assured, especially in
+a sometimes chaotic environment. As a re- Outcome: Improved
+sult, during the first month of the program, Awareness and Targeting of
+some messages were delivered to people not Food Aid
+eligible for food aid, who were subsequently
+turned away at the distribution center. The initial distribution of text messages to
+800 families was successful in reaching tar-
+El Noush notes that, “people thought the geted recipients of food aid, and the pro-
+text message was like an entitlement and gram expanded rapidly. In the first six
+then showed up and wanted the food but months of operation in 2007, WFP sent out
+had to be turned down.” Learning this les- about 35,000 text messages to 140,000 eligi-
+son, recipients are now directed to a website ble people—approximately one message per
+to make sure that they are indeed eligible. registered family.
+32 Wireless Technology for Social Change: Trends in Mobile Use by NGOs
+Humanitarian
+Assistance
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:21 AM  Page 33
+While some text messages went to people Next Steps: Bringing the Food
+not eligible for food, most were successfully Aid Alert Model to Scale
+delivered and the families expressed grati-
+tude and appreciation. Says El Noush, “The WFP’s food aid text message alert program
+text messages have the side effect of creat- has grown rapidly. The first effort reached
+ing news in the city by word of mouth. We about 6,600 people through some 800 mes-
+are finding the program to be very effective. sages; approximately one message per
+You give good news to people on their mo- phone number available for each family.
+biles. People reported that they felt happy The second round of messaging targeted
+when they received the text messages from some 30,000 individuals. At the time of
+us, and told us that they felt that someone publication, the WFP’s list had grown to in-
+cares about them.” clude more than 142,000 Iraqi refugees in
+Syria that it is reaching via text messaging.
+The target for 2008 is to notify a total of
+362,000 Iraqi refugees in Syria about the
+availability of food aid.
+Although this program has yet to be repli-
+cated elsewhere, the WFP is excited about
+the potential of the program. When condi-
+tions permit, as in the case of Iraqi refugees
+in Syria, communicating with large groups
+via text messaging can provide targeted de-
+livery of essential information—including
+where one might find one’s next meal. 
+Credit: WFP/John Wreford
+Wireless Technology for Social Change: Trends in Mobile Use by NGOs 33
+Humanitarian
+Assistance
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:21 AM  Page 34
+C A S E S T U D Y 6
+Facilitating Communication in Emergency Situations
+(Peru, Indonesia)
+Issue: Essential Emergency
+Communications for Disaster
+Relief
+n the evening of 15 August
+O2007, a 7.9 magnitudeearthquake struck the coast ofPeru, bringing down buildings,
+cutting power supplies, and disrupting
+communications. More than 500 people
+died and 1,600 were injured, with tens of
+thousands more left homeless.
+As with other major international disasters,
+relief agencies across various government,
+non-governmental, and intergovernmental
+bodies activated to deliver food, medicine,
+and supplies to those in need. Yet none of
+these groups could operate effectively
+without a communications system enabling
+them to share information among Credit: TSF
+themselves, and with operational
+headquarters. phones, mobile phones, routers, laptops, fax
+machines, printers, and scanners.
+Response: Deploying Rapid Within 24 hours of their arrival, the team
+Response Emergency had established temporary
+telecommunications centers in three of
+Communications Peru’s hardest-hit areas: Pisco, Inca, and
+Télécoms Sans Frontières (TSF), or Chicha. Over the next ten days, a broad
+Telecoms Without Borders, a range of disaster relief agencies used TSF’s
+nongovernmental organization (NGO) service to coordinate relief efforts and help
+headquartered in France, uses mobile save lives. These included the Peruvian
+telecommunications to help reestablish Ministries of Health and Education, the
+these vital communications networks in the National Program for Food Assistance, the
+response to and management of United Nations (UN), and local and
+humanitarian crises. Within hours of the international NGOs. Satellite phones were
+earthquake in Peru, five staff and volunteers also made available so that local residents
+boarded a commercial aircraft from TSF’s could contact family and friends. In all,
+Latin America regional office in Managua, more than 17 agencies and 1,400 families
+Nicaragua to Peru’s capital city of Lima. accessed TSF’s services over the course of
+With them, they carried everything they its deployment.
+would need to set up emergency
+telecommunication operations—satellite
+34 Wireless Technology for Social Change: Trends in Mobile Use by NGOs
+Humanitarian
+Assistance
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:21 AM  Page 35
+Outcome: Providing Vital TSF was founded in 1998 with the goal of
+Communications Services providing disaster survivors with three-
+minute phone calls that enable survivors to
+When and Where Needed place a call to a loved one—often to confirm
+Most family members’ whereabouts or to request
+In 2006 and 2007 alone, TSF responded to assistance. Today, its services have grown to
+17 emergency situations around the globe— include establishing communications centers
+facilitating relief efforts in southern for relief groups, including UN agencies.
+Lebanon during the Lebanon-Israel conflict, TSF has put in place a 24-hour emergency
+helping survivors of a cyclone in monitoring system and coordinates closely
+Bangladesh, and assisting victims of the with the UN Office for Coordination of
+ongoing civil war in the Democratic Humanitarian Affairs (OCHA) and the UN
+Republic of Congo. Children’s Fund (UNICEF) before deploying
+to a particular location. Headquartered in
+Pau, in southwestern France, TSF has field
+How It Works offices in Managua, Nicaragua and Bangkok,
+Thailand. The majority of the
+In May 2006, after a 6.3 magnitude telecommunication experts TSF deploys areearthquake struck southern Java in volunteers, who receive a modest stipend forIndonesia, TSF was among the
+their time in the field. Most are students or
+agencies to respond. Rajan Gengaje,
+recent university graduates in their twenties
+head of the UN Disaster Assessment and
+or professionals over 50 with backgrounds in
+Coordination team—a stand-by team of
+information and communications technology
+disaster management professionals
+(ICT) and engineering.
+working closely with the UN Office for
+the Coordination of Humanitarian Af- TSF’s work in support of UN agencies is
+fairs (OCHA)—described his experience supported by a joint grant from the United
+working with TSF in Java. Nations Foundation and The Vodafone
+Group Foundation. TSF is also supported by
+“TSF’s technical skills, the availability of
+a diverse group of public and private sector
+professional support staff, their speed of
+donors, including the European
+deployment, and excellent understand-
+Commission’s Humanitarian Aid Office, and
+ing of the international humanitarian re-
+telecommunications and technology
+sponse environment certainly add value
+companies such as Inmarsat, Eutelsat, AT&T,
+to the UN’s response initiatives,” he
+Cable and Wireless, and Vizada.
+said. "During the crisis in Yogyakarta,
+TSF offered vital information manage-
+ment support and helped train volun- Challenge: Keeping Apace
+teers to use mobile GPS units to with Technology
+monitor needs on the ground.” Developments While Staying
+the Course
+The origins of TSF’s work date back to the
+late 1990s when TSF co-founders Jean- A key challenge, according to TSF
+Francois Cazenave and Monique Information and Communications
+Lanne-Petit were volunteering with Coordinator Oisin Walton, is keeping up
+humanitarian missions that took them to with changes in technology and
+Kosovo, Afghanistan, and Iraq. Refugees determining how best to adapt new
+would pass Cazenave slips of paper asking if technologies to meet needs in the field.
+he would contact their loved ones abroad. Currently, TSF maintains an inventory of
+Wireless Technology for Social Change: Trends in Mobile Use by NGOs 35
+Humanitarian
+Assistance
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:21 AM  Page 36
+C A S E S T U D Y 5 C O N T I N U E D
+50 data transmitters, more than 100 phones, through helping communities prepare in
+and assorted computers. A mainstay of advance of an emergency, particularly in
+TSF’s work is the Inmarsat BGan, which cases where annual weather patterns
+offers voice, fax, and broadband Internet predictably lead to flooding or droughts.
+connections. For longer duration
+emergencies, TSF employs a Very Small In Nicaragua, for example, following its
+Aperture Terminal (VSAT), a satellite dish emergency response to Hurricane Felix in
+that can facilitate data transmission from September 2007, TSF installed an emergency
+several satellite phones. TSF’s mobile communications network in the remote
+“visio-emergency” video system allows for North Atlantic Autonomous Region of the
+satellite transmission of live videos filmed at country, where no traditional
+the site of an emergency. Similarly, TSF can communications exist. The network will
+set up a video conferencing system capable allow for improved response in the event of
+of linking field staff with headquarters. future emergencies.
+Looking ahead, Walton acknowledges that TSF is also looking at expanding its use of
+the sustainability of TSF’s efforts is a key mobile technology, and setting up temporary
+issue. The bulk of funds TSF receives are GSMA networks at base camps. “With GSM
+directed at immediate disaster service networks being reestablished faster and faster
+provision, and not at strengthening TSF’s in emergencies, we are looking at ways of
+long-term capacity to respond to using more GSM technology.” He adds:
+emergencies. TSF is making the case for the “When mobile networks are disrupted, we
+vital importance of disaster communications could deploy equipment capable of
+to corporations and other funding connecting to the network outside the
+organizations that support more traditional affected area.”
+relief measures such as the provision of TSF’s work alongside UN agencies, national
+food, water, shelter, and education. governments, and other disaster relief groups
+demonstrates the crucial role of mobile and
+Next Steps: Expanding and other communications technology in all
+Developing Services to stages of disaster relief. TSF has consistently
+delivered rapid response emergency
+Improve Emergency Response communications to support humanitarian
+Following each assignment, TSF staff conduct activities, and has frequently provided a first
+a thorough debriefing on what went well and line of communication for refugees and other
+where future improvement is needed. Among populations affected by disasters. Continuing
+those areas being looked at is how to expand its work on building the capacity of mobile
+the use of TSF services by governments and communications to play a role in disaster
+large NGOs, many of which rely on their prevention and preparedness could be a
+own telecommunications capacity, and the promising area for TSF’s growth. Another
+development of new services in cooperation area for exploration is the use of mobile
+with TSF’s existing partners. phones for money transfer services (‘m-
+transactions’) during disasters. M-transactions
+TSF is exploring a number of ways to have the potential to meet a widespread need
+improve and expand its emergency services. during challenging circumstances. 
+For example, it is looking into what would be
+required to set up ‘cyber cafes’ in relief areas
+that would enable affected individuals to send
+emails to family and friends about their
+situation and needs. It is also exploring how
+to play a greater role in prevention efforts
+36 Wireless Technology for Social Change: Trends in Mobile Use by NGOs
+Humanitarian
+Assistance
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:21 AM  Page 37
+C A S E S T U D Y 5 C O N T I N U E D
+Credit: TSF
+Text Messaging Critical News in the Aftermath of a Disaster
+More than 5,000 people died and 1.6 million were displaced as a result of theMay 2006 earthquake in Yogyakarta and Central Java in Indonesia. During thedays and weeks following the disaster, ordinary citizens received valuable
+news via text message. The text messaging service was put in place by Internews, a U.S.-
+based NGO that works to improve people’s access to information around the world.
+The service was run through an emergency AM radio station, Radio Punokawan,
+established by the Indonesian Press and Broadcast Society, with support from Internews.
+In addition to radio broadcasts, important information was sent and received from the
+newsroom via text messaging. Outgoing messages warned of aftershocks and identified
+communities that had not yet received government assistance. More than 180 Indonesian
+journalists distributed and received information through the service.
+Credit: TSF
+Wireless Technology for Social Change: Trends in Mobile Use by NGOs 37
+Humanitarian
+Assistance
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:21 AM  Page 38
+C A S E S T U D Y 7
+Text Messaging as a Violence-Prevention Tool
+(Kenya)
+Issue: Providing Real-Time Manager in Kenya. “After the election, they
+Information in Times of Crisis decided it would be valuable to have people
+text into a nerve center, which could then pass
+ollowing the December 2007 information along to relevant authorities and
+Fpresidential election in Kenya, waves the police. Sometimes if you put a fewof political and ethnic violence swept policemen or elders in place, you can preventthe country. The election, which something unfortunate from happening.”
+returned President Mwai Kibanki to office,
+was marred by widespread allegations of vote Oxfam-GB’s contribution of roughly £36,000
+rigging. To help stem the violence, human was used to support PeaceNet’s field
+rights advocates in the country quickly operations and headquarters costs during the
+mobilized by creating a text messaging ‘nerve crisis. Oxfam-GB also used its connections to
+center.’ That center served as a vital tool for negotiate a deal with Celtel, the second largest
+conflict management and prevention by mobile phone network in Kenya, to halve its
+providing a hub for real-time information ordinary rates for those transmitting and
+about actual and planned attacks between receiving messages through the text message
+rival ethnic and political groups. The text ‘nerve center.’
+messages, sent in by human rights advocates,
+religious leaders, and others, were then Outcome: Communicating by
+relayed to local Peace Committees for Mobile Phone to Avert Crisis
+response.
+Through facilitating emergency
+The initiative was funded by Oxfam Great communications, PeaceNet’s text message
+Britain (Oxfam-GB)—a development, ‘nerve center’ was able to prevent violent
+advocacy, and relief agency—as part of its incidents in the weeks and months following
+emergency response. Oxfam-GB has the election. For example, in the city of
+employed several text messaging strategies as Eldoret, PeaceNet mobilized local non-
+it develops its knowledge and evaluates the governmental organization (NGO) and
+effectiveness of that platform as a fundraising, religious leaders to form Peace Committees to
+awareness-building, and advocacy tool. offer early warning of violent activity and to
+serve as intermediaries. When one local
+Response: Connecting citizen learned of a pending attack against a
+Communities in Crisis through camp for internally displaced people, a text
+alert was sent to the text message ‘nerve
+Mobile Communications center.’ It, in turn, alerted the Peace
+As part of its emergency response during the Committee in Eldoret, which took steps to
+crisis in Kenya, Oxfam-GB provided financial avert the attack.
+support to PeaceNet, an umbrella body made During another instance, following the
+up of Kenyan organizations and individuals murder of a member of the Kenyan
+dedicated to human rights, peace, and justice. Parliament, a group of young people made
+“Before the elections, PeaceNet was gathering plans to attack residents of a particular ethnic
+information around Kenya to make sure community. Once the ‘nerve center’ was
+nothing went awry,” explains Philippa alerted, it notified Peace Committee members
+Crosland Taylor, Oxfam Country Programme who persuaded the youth to go home.
+38 Wireless Technology for Social Change: Trends in Mobile Use by NGOs
+Humanitarian
+Assistance
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:21 AM  Page 39
+tion by linking Nairobi to incidences as they
+happened on the ground,” says Barasa
+Mang’eni, PeaceNet-Kenya program officer.
+“The initiative encouraged local level dia-
+logue and mediation to stop violence and fa-
+cilitated communication to security forces,
+the Kenya Red Cross, and UN Office for
+Coordination of Humanitarian Affairs. Civil
+society actors were linked to peace processes
+at the community level, enabling them to
+contribute to nonviolence advocacy.”
+Challenges: Diverting Time,
+Credit: Tom Baldwin/Oxfam Attention, and Expertise to New
+“In the wake of a government ban on live Outreach Efforts
+broadcasting of incidences of violence, the While encouraged by the successes of the text
+SMS Center became a lifeline for informa- message ‘nerve center’ in preventing violence
+A Mobile Advocacy Case Study: The Make Poverty History Campaign
+In 2005, Oxfam-GB launched a textmessage-based outreach initiative aspart of its role in the Make Poverty
+History Campaign. Make Poverty History,
+an alliance of United Kingdom charities,
+advocacy groups, and faith-based organi-
+zations, set out to mobilize people to sup-
+port the Global Call to Action Against
+Poverty, the largest anti-poverty move-
+cated short code. It is currently using the code to en-
+ment in the world, representing more than 150 million
+courage people to sign up for various campaigns or
+people in over 100 countries.
+set up a regular gift. For example, individuals can text
+Advertisements were placed on several campaign in to receive updates on actions they can take and
+websites and in newspapers urging people to text the events related to issues like climate change. “The
+keyword “BAND” to receive a white wristband, the beauty of texting is its immediacy,” says Pierino Cioffi,
+global campaign’s symbol. Users would then receive marketing and communications officer for Oxfam-GB.
+an automatic response requesting their name, street “We believe nearly all text messages get read.” Emails
+number, and postal code. Oxfam-GB benefited from sent by charities and commercial players in the United
+the fact that they were able to use a shared short Kingdom, on the other hand, have an open rate of
+code, provided by a mobile marketing solutions roughly 20 percent, he adds.
+provider, to facilitate the campaign. Approximately
+A valuable byproduct of the campaign was the collec-
+50,000 people ordered their white band through the
+tion of names and phone numbers to be used in future
+Oxfam text messaging campaign. Users were charged
+outreach efforts. Oxfam-GB continues to send text
+£1.50 per text conversation to cover packaging and
+message alerts about public demonstrations and
+postage costs, taxes, and network and aggregator fees.
+fundraising appeals to several thousand of its white
+While Oxfam-GB relied on a shared short code for its band responders who agreed to receive future an-
+White Band appeal, it has since purchased a dedi- nouncements.
+Wireless Technology for Social Change: Trends in Mobile Use by NGOs 39
+Humanitarian
+Assistance
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:21 AM  Page 40
+C A S E S T U D Y 7 C O N T I N U E D
+in Kenya, and its text message outreach efforts
+related to the Make Poverty History
+campaign, Oxfam-GB emphasizes that its use
+of mobile applications remains in the
+preliminary stages, and has yet to develop
+into a cohesive strategy for employing mobile
+applications in the future. Part of the challenge
+lies in developing the necessary expertise.
+Oxfam-GB relied heavily on a mobile
+marketing firm for support and advice during
+the White Band campaign.
+Oxfam-GB’s experience in using text
+messaging as an awareness-building tool
+mirrors that of many NGOs. Because text
+message-based advocacy is relatively new,
+expertise is limited and few successful case
+studies exist. Set-up costs are also a big factor.
+Particularly in the area of fundraising via text
+messages, those NGOs that have claimed
+successes tend to be well known and represent
+causes that elicit an emotional response that
+drives people to take immediate action.
+Mobile Fundraising: Supporting Disaster Victims in the United States
+In the aftermath of Hurricane Katrina in the United service are charged the customary fee for transmitting aStates, the Wireless Foundation partnered with the text message. Individuals are able to make up to fourAmerican Red Cross to develop a mechanism $5.00 donations on their account at a time.
+through which citizens could make fast, easy donations.
+Text 2HELP™ is made available in the event of a large-
+In just two months, more than US $100,000 was raised for
+scale national disaster. In February 2007, for example, the
+the American Red Cross to assist hurricane victims.
+program was activated to raise support for tornado
+Realizing this arrangement could help victims of future
+victims in central Florida. It was activated again during
+natural disasters, the partnering organizations established
+the wildfires in California in late 2007. Funds were used to
+a permanent text messaging response system.
+provide food, shelter, counseling, and other assistance.
+The result was Text 2HELP™. Through the program,
+The American Red Cross is part of the International Red
+customers of participating wireless carriers simply text
+Cross and Red Crescent Movement, a global network of
+message “2HELP” (24357), with the keyword “GIVE,” to
+over 180 national societies that work to restore hope and
+make a $5.00 donation to the American Red Cross
+dignity to the world’s most vulnerable people.
+Disaster Relief Fund to support relief efforts in the event
+Established in 1881, the American Red Cross provides fast
+of a large-scale disaster.
+relief to victims of natural disasters and helps people to
+The amount appears on the customer’s bill, or is debited prevent, prepare for, and respond to emergency
+from prepaid account balances, with 100 percent of the situations.
+donation amount going to relief efforts. Those using the
+40 Wireless Technology for Social Change: Trends in Mobile Use by NGOs
+Humanitarian
+Assistance
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:21 AM  Page 41
+C A S E S T U D Y 7 C O N T I N U E D
+Next Steps: Increasing Text messaging has emerged as an increasingly
+Organizational Reach through powerful tool in humanitarian crises—helping to
+disseminate life-saving information, providing
+Mobile Phones critical news updates, andmobilizing people to
+Looking ahead, Cioffi is encouraged by the make donations to help those in need. As the
+potential for people to be able to make use of mobile phones keeps expanding, the
+donations via the Internet on mobile phones power and reach of these strategies will only
+that are wireless access protocol (WAP)- continue to grow.
+enabled. “From our point of view,” says Cioffi,
+“we see mobiles as a way that people can
+spontaneously donate. If they see a billboard or
+a poster, they can do so right away.”
+Text Messages Received by the ‘Nerve Center’ About Election-
+Related Violence in January 2008
+“We have been alerted that it is not safe tonight, in Bamburi, Utange, home area. We a
+asking 4 security here please.”
+“Over 400 people with no food or water holed in Huruma PCEA church in Eldoret for
+three days. Help needed immediately.”
+“I humbly ask for security in the church we are in, Elgon view, Eldoret as we have heard
+of the killings in the Kiambaa church.”
+“People evicted from their homes in Saboti, are starving no basic needs, food, blankets,
+etc. People are camping at Kiungani, Kiminini and Sikhendu Kitale.”
+“People fleeing to Kitale from Gitwamba (very serious) torching of houses, lootings, etc.
+RED CROSS if possible, should assist.”
+“The situation in Narok south is bad. People have camped at the catholic church in Mulot
+and there are fears that they may be attacked tonight.”
+Wireless Technology for Social Change: Trends in Mobile Use by NGOs 41
+Humanitarian
+Assistance
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:21 AM  Page 42
+42 Wireless Technology for Social Change: Trends in Mobile Use by NGOs
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:21 AM  Page 43
+III. Environmental Conservation
+Using Mobile Phones to Protect the Environment
+round the world, mobile phones are being used in the
+Aenvironmental arena—from efforts to promote wildlifeconservation to environmental advocacy to educating andinfluencing consumers about the environmental impact of
+their purchasing decisions.
+In the area of conservation, mobile phones are used to track wildlife and
+provide an early warning system designed to mitigate human/animal
+conflict. Central to these efforts is improving communication among
+Credit: FishMS
+local stakeholders, non-governmental organizations (NGOs), and
+Text Messaging to Save Trees government agencies. For conservation efforts to be successful, all
+(Argentina) . . . . . . . . . . . . . .45 stakeholders, including local residents of sensitive areas, must be
+engaged and their interests taken into consideration. As the case study
+A Survey of Text Message on wildlife conservation in Kenya shows, opening up communication
+‘Infolines’ (South Africa, United channels using mobile phones can play a valuable role in community-
+Kingdom) . . . . . . . . . . . . . . .48 based conservation efforts.
+Mobile technology is also being used to monitor wildlife. One pilot
+Environmental Monitoring with
+project initiated by Save the Elephants in Kenya employed Global
+Mobile Phones (Ghana) . . .52
+Positioning System/Groupe Spéciale Mobile collars to track elephant
+movements. Unlike the more expensive satellite/very high frequency
+Protecting Wildlife and Human
+tracking systems, mobile communication inexpensively pinpoints the
+Wellbeing (Kenya) . . . . . . . .55
+elephant’s location and text messages the coordinates back to the
+researchers. These efforts are in the beginning stages but show great
+potential for making animal tracking easier and more precise.
+The case study on Greenpeace Argentina’s efforts to protect forests and
+pass environmental legislation demonstrates the use of mobile phones in
+environmental advocacy. Text messages, because they are immediate
+and direct, offer an effective way to alert constituents about important
+news and move them to action. If the action is a phone call to a decision
+maker (e.g., a legislator), mobile communication is especially useful.
+There is growing evidence that mobile phones can move people to
+action more effectively than other media. A number of campaigns
+reported to us a response rate of 20 to 45 percent for text appeals, which
+is considerably higher than that recorded for email alerts.
+This data is supported by research from the commercial market that
+shows that text messaging works to influence decision-making and
+purchasing behavior. Existing research studies reflect that mobile
+communication can influence how people feel about a product or
+brand, and affect their behavior. One study concludes: “The reported
+Wireless Technology for Social Change: Trends in Mobile Use by NGOs 43
+Environment
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:21 AM  Page 44
+increased likelihood to purchase is the most important finding of
+this research; on average this was 35%, but it was as high as 71%
+for one [text message] campaign.”17
+Given these findings, we sought to investigate some of the text
+message services that disseminate data on products and companies
+with the goal of getting consumers to buy or use environmentally
+sustainable products. While text messaging information lines are
+proliferating, we have not seen direct evidence that they influence
+consumer behavior other than by inference based on data from the
+commercial sector.
+Lastly, we looked into using mobile phones as environmental
+sensing devices, an emerging area that is attracting both
+commercial and academic interest. Several pilot projects illustrate
+what may be possible in the future when it comes to applications
+such as monitoring air quality. Such applications are in the
+experimental stage and remain relatively expensive for widespread
+public use.
+17Rettie, Ruth and Ursula Grandcolas. “Text Message Advertising: Dramatic Effect on
+Purchase Intentions.” Unpublished paper. Accessed 1 March 2008 at
+www.kingston.ac.uk/~ku03468/docs/.
+44 Wireless Technology for Social Change: Trends in Mobile Use by NGOs
+Environment
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:21 AM  Page 45
+C A S E S T U D Y 8
+Text Messaging to Save Trees (Argentina)
+Issue: Protecting Argentina’s
+Forests
+very hour, trees covering an area
+Ethe size of forty soccer fields arecleared from the old growth forestsof Argentina, home to indigenous
+tribes and numerous endangered species.
+According to Greenpeace, 300,000 hectares
+(3,000 square kilometers or 1,150 square
+miles) of native forest are cleared in Argentina
+each year. To confront this rapid deforestation,
+Greenpeace Argentina used the web, mobile
+phones, and publicity on television and in
+newspapers to gather 1.5 million signatures for
+a petition supporting La Ley de Bosques, or the Greenpeace used their mobile phone network
+Forest Law. in several ways. The organization collected
+about 3,000 signatures for the petition via text
+Response: Mobilizing the messaging. Greenpeace also sent out text
+Public for Environmental messages asking people to call specificlegislators to lobby for the law. Text messages
+Protection were sent out to specific target audiences, so
+The Forest Law, Argentina’s first federal forest that people would be directed to their
+protection act, was passed in 2007. It includes legislator. Finally, Greenpeace used the mobile
+a one-year moratorium on clearing native network to send urgent alerts about other
+forests, giving the forest service time to actions or news.
+develop appropriate forest management
+regulations. The law, funded in part by an Using text messaging for advocacy requires an
+export tax on genetically engineered soy, also active list of mobile subscribers who have
+establishes public hearings and environmental agreed to receive communications from a
+impact studies. campaign. Hernan Pablo Nadal, Greenpeace
+Greenpeace was able to effectively advocate for Argentina’s online organizer, describes how
+the Ley de Bosques by building a large database Greenpeace expanded its mobile list: “Two
+of supporters. Through a form on the years ago, we had 10,000 mobile numbers. By
+organization’s website, individuals were asked October 2007 with a lot of outreach, we had
+to sign a petition supporting the Forest Law, and 45,000 numbers. With the campaign for the
+submit both email addresses andmobile phone Forest Law, we gave signers of the petition the
+numbers. About 300,000 phone numbers were option of giving us their mobile number. As a
+collected from this web form, and an additional result, we now have 350,000 mobile activists
+50,000 were collected via other means, such as and 1.5 million people on our list—and a law
+email or through volunteers stationed on busy on the books that protects Argentinean
+streets. This 350,000-numbermobile phone list forests.”
+is one of the larger active mobile phone lists The Forest Law campaign was not the first
+used in advocacy today. By the end of the time that Greenpeace Argentina successfully
+campaign, over 1.5 million people had signed used mobile phones for a campaign. In 2005,
+the petition supporting the Forest Law. Greenpeace lobbied for a “Zero Waste” law in
+Wireless Technology for Social Change: Trends in Mobile Use by NGOs 45
+Environment
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:21 AM  Page 46
+C A S E S T U D Y 8 C O N T I N U E D
+Buenos Aires that mandated that the Challenges: Managing and
+government reduce urban waste sent to Maintaining a Growing List
+landfills by 50 percent by 2012, and by 100
+percent by 2020. The city produces between With relatively scant resources, Greenpeace
+4,000 and 5,000 tons of waste each day. Using Argentina has long shown that it can still
+text messages, Greenpeace encouraged achieve impact. The organization used an in-
+supporters to call their legislators and urge house technical team to write the software
+them to pass the bill during critical hearings, handling bulk text messaging, keeping costs
+and prior to city council votes. Greenpeace low. Beyond those programming costs,
+also used text message alerts to coordinate Greenpeace Argentina spent about 1,000
+lobbying meetings and demonstrations. As a euros18 per month on text messaging
+result of this comprehensive approach, the transmission charges, at about 5 euro cents
+Zero Waste Law was successfully passed. per message. As Nadal notes, “Negotiating the
+costs with the telecom carriers is imperative
+Outcome: A Rapidly now that we have such a large mobile list of
+350,000 numbers.”
+Deployable Cadre of Activists
+With so large a list of mobile constituents, list
+Greenpeace Argentina has established itself as segmentation—or the process of targeting
+one of the premier advocacy organizations in specific constituents based on some
+the country and region. Alongside the direct- characteristic—becomes important. Yet this
+action flair for which Greenpeace is famous, its would require merging mobile contact
+grassroots organizing, online advocacy, use of information with a sophisticated database of
+social media, and innovative use of mobile constituent information. Because the mobile
+technology has enabled it to win remarkable constituent system that Greenpeace Argentina
+legislative victories in Argentina. is using is homegrown, integrating it with their
+Organizers are clear about what makes member and supporter database has
+mobile messaging effective in an advocacy presented challenges.
+context: the ability to mobilize large numbers Response metrics for text messages are
+of people wherever they are at a given notoriously hard to determine, so it is not
+moment. As demonstrated by its legislative clear how many people read a message or
+victories, Greenpeace Argentina has been forward it to a friend. Greenpeace Argentina
+particularly effective at deploying this tactic reports anecdotal evidence that about 15 to 25
+during strategic times, such as in the lead-up percent of mobile activists report back to the
+to legislative deliberations. Greenpeace organization that they participated in a
+Argentina has also used text messaging to particular action. This is a high response rate
+mobilize supporters to attend mass rallies. for a direct marketing effort, and can be
+Says Nadal, “We mobilized our database of explained in part by the strong commitment
+móvil activistas even from inside the Congress of the organization’s supporters.
+building several times. City politicians from But as Nadal notes, “Mobile marketing for
+Buenos Aires are used to being pushed by NGOs [non-governmental organizations] is
+Greenpeace, but this was a national campaign hard and is just starting. There needs to be a
+and representatives in Congress are not used greater depth of discussion with the carriers
+to our pressure. Our constituents made some and vendors in many countries about what
+300 calls an hour to legislators. That definitely
+made an impression.” 18Greenpeace Argentina uses the euro as its
+benchmark currency because the organization’s
+headquarters are based in Europe.
+46 Wireless Technology for Social Change: Trends in Mobile Use by NGOs
+Environment
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:21 AM  Page 47
+nonprofits need.” In Argentina, as in most
+other countries, text message marketing is
+almost entirely focused on commercial uses
+and often associated with selling content. Live Earth’s Mobile
+Greenpeace is now exploring hiring a mobile Campaign
+vendor that is capable of handling the volume
+of supporters on its mobile list, and is also ive Earth, a global music event on
+negotiating directly with Argentinean mobile 7 July 2007, raised awareness
+carriers for more favorable text messaging Labout climate change through live
+rates. concerts in Hamburg, Johannesburg,
+London, New York, Rio de Janeiro,
+Next Steps: Replicating the Shanghai, Sydney, and Tokyo. The 24-
+Greenpeace Argentina Model hour concert was broadcast on television
+and streamed online to an audience of an
+The work of Greenpeace Argentina in using estimated two billion people. Live Earth
+mobile phones in advocacy campaigns is also featured a coordinated four-country
+closely watched—not just by intermediaries text message advocacy campaign
+such as MobileActive.org that are monitoring encouraging individuals to pledge to
+the industry—but also by other advocacy take action to solve the climate crisis.
+organizations, and, of course, by Greenpeace
+affiliates in other countries. Several other The campaign generated thousands of
+Greenpeace offices will test the Argentinean text message sign-ups and action pledges
+method of mobile activism in 2008. via text message (exact figures were not
+Greenpeace Argentina, meanwhile, has set its released by the campaign). Audience
+own goals, including expanding its mobile members in the four countries were able
+infrastructure with a more robust platform; to see their mobile pledges projected on
+integrating its mobile activist list and giant screens at event venues and on
+constituent database for better list television.
+segmentation; increasing sending speeds and
+delivery rates; and generating better reports
+However, with little time to prepare and
+on actions taken.
+no engagement prior to the events, the
+Greenpeace Argentina’s text messaging text messaging component was well
+campaign clearly struck a chord with the integrated with the broadcast of the show
+general population. The tremendous in only three countries—a critical success
+participation rates have not only empowered factor for a live-event mobile campaign.
+the organization with a core group of mobile
+activists, but have also demonstrated the Catherine Geanuracos, senior strategist
+power of mobile phones to serve as an for interactive media for the campaign,
+effective tool to influence political change.  notes: “It’s amazing how few people are
+thinking about how to use a mobile as
+community organizing tool. One of our
+successes was a group on Twitter (a
+mobile and online social network) that
+had thousands receiving updates on the
+event and a daily climate change tip,
+fostering a sense of community via
+mobile.”
+Wireless Technology for Social Change: Trends in Mobile Use by NGOs 47
+Environment
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:21 AM  Page 48
+C A S E S T U D Y 9
+A Survey of Text Message
+‘Infolines’ (South Africa, United Kingdom)
+number of environmental According to SASSI coordinator Jaco
+Agroups are embracing text Barendse, mobile phones are “the ideal waymessaging as a means of to combine technology and informationengaging key stakeholders, with the growing awareness that the ocean’s
+whether in their capacity as community resources aren’t infinite.” And because the
+members or consumers. This case study data are interactive (unlike the wallet cards),
+surveys several of these initiatives. FishMS also provides data about trends in
+consumer behavior. “We can see that the
+FishMS: Alerting Consumers market is responsive, especially to press
+stories,” he says. “If something was in the
+to Endangered Stocks news about a certain type of fish, you can
+Imagine this scenario: A woman in also see the spikes [in text-based queries
+Johannesburg, South Africa, stands at the about that fish] the next day.”
+fish counter in her local supermarket and Between December 2006 and February of
+texts the name of a fish to a phone number. 2008, the service received 30,000 queries
+Within seconds, she receives back from 7,254 individual users, indicating that
+information via a short text message some users send repeated queries.
+informing her whether the fish is legally and
+sustainably harvested, and advising her
+whether “to tuck in, think twice or avoid Other Text Message ‘Infolines’:
+completely.” Climate Change, Healthy Toys,
+The shopper is using FishMS, a text airTEXT
+messaging-based service that provides FishMS was the first of a growing number
+point-of-sale information about the impact of environmental text message information
+of fishing on fish stocks, enabling services that use mobile technology to
+consumers to make informed choices about provide just-in-time information about the
+the seafood they purchase. environmental impact of products and
+The Southern African Sustainable Seafood companies. Text message ‘infolines’ work
+Initiative (SASSI), a project of the World when consumers text the name of a product
+Wildlife Fund South Africa, condensed or company to a short code (a five-digit
+available research on local fish stocks into phone number) to receive back information,
+wallet-sized cards that organized species providing ‘just-in time’ information at the
+into three color-coded categories: green for point of purchase. For the information lines
+species that are not over-fished; orange for
+fish that are legal to sell, but where stocks
+are jeopardized; and red, indicating fish that
+are illegal to buy and sell in South Africa.
+With the collaboration of local information
+technology company iVeri Payment
+Technology and their programmers, SASSI
+moved this system to a mobile platform,
+enabling a wider group of consumers to
+access more regularly updated data.
+Credit: FishMS
+48 Wireless Technology for Social Change: Trends in Mobile Use by NGOs
+Environment
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:21 AM  Page 49
+described here there are no costs to the mobile phone or the web, and contains
+consumer other than standard text message more than 1,200 products.
+charges.
+airTEXT
+Climate Counts Similarly, numerous air quality information
+One of these text message-based information services are available that push information
+services is the U.S.-based Climate Counts, about dangerous levels of pollution to
+which enables consumers to check companies’ citizens. In the United Kingdom (UK),
+environmental sustainability ratings, and airTEXT is a free air quality information
+compare them with their competitors. The service for people in London. Users who
+information, in the form of a scorecard that is sign up for airTEXT receive voice or text
+delivered via text message back to the user, message alerts when air pollution is forecast
+reflects the self-reported efforts of companies to be higher than normal. The service is
+to address climate change. aimed at people who suffer from heart and
+breathing problems, whose health or quality
+Climate Counts has compiled an index
+of life may be affected by air pollution.
+based on whether companies have
+Similar services exist for specific locations
+measured their climate ‘footprint,’ reduced
+in the United States.
+their impact on global warming, supported
+(or suggested intent to block) progressive
+climate legislation, and publicly disclosed
+their climate actions. It is funded by U.S. Air Quality ‘Infoline’
+yogurt company Stoneyfield and powered
+by Mobile Commons, a mobile vendor that Services
+provides the messaging technology.
+airTEXT (www.airtext.info/): Whenusers register with the UK-basedairTEXT service, they specify for
+which borough of London they’d like to
+receive information. When the pollution
+level for that borough reaches a moder-
+ate or high level of air pollution, they
+receive an alert from the system.
+Arizona Department of Environmental
+Quality (ADEQ) text messaging alerts
+(www.azdeq.gov/sms.html): The ADEQ
+offers a text service that sends users
+alerts when there is a high pollution
+alert in the Greater Phoenix Area.
+Credit: HealthyToys
+Ergo (www.urban-atmospheres.net/Ex-
+Healthy Toys
+periments/Ergo/index.html): Ergo is a
+Healthy Toys is a project of two U.S.
+U.S.-based system that provides real-
+environmental organizations and Moms
+time air quality readings based on data
+Rising, an advocacy organization. It enables
+from the Environmental Protection
+parents or guardians to verify whether
+Agency. Users can receive daily mes-
+children’s toys or products are safe to use.
+sages with air quality information for a
+Users can send via text message the name
+specific zip code or can receive a one-
+of a toy or product and receive back
+time reading for an area of their choice.
+information about the chemical content of
+toys. The database can be queried via
+Wireless Technology for Social Change: Trends in Mobile Use by NGOs 49
+Environment
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:21 AM  Page 50
+C A S E S T U D Y 9 C O N T I N U E D
+Unlike the text information services that
+function as a ‘pull’ service, where a
+consumer actively queries a database, most
+air quality information services function on
+a ‘push’ basis, that is, a consumer signs up
+and then automatically receives updates
+about dangerous air quality levels and
+pollution information via text message.
+How ‘Infoline’ Services Work
+All text infoline services rely on a platform
+to handle the query and delivery of
+messages, and a database that contains
+information pertaining to users’ queries.
+When information is needed, a user actively
+queries a database via a text message
+keyword sent to a short code or a regular reliable, well indexed, and ready for queries
+phone number. The user receives a text are not simple tasks. In fact, all of the
+message response with the results from that services profiled here already had data
+database, customized to fit the 160-character compiled and available through other
+limitation of most text messaging services. channels, such as in print or on the Web.
+Alternatively, a user can sign up (such as on And all groups already had made
+the Web) to receive text message alerts to considerable investments in collecting,
+his or her mobile phone. verifying, and organizing this information.
+For these groups, all that was needed was to
+Most text messaging infoline services also make the data they already had available
+follow a similar model in how they convey via a mobile channel.
+results. Similar to the three-tiered system of
+FishMS’ response—used to indicate whether Another cost to consider is the fee to the
+a consumer should buy, consider, or abstain vendor that provides the delivery platform.
+from buying a particular fish—Climate Vendor costs range widely, depending on
+Counts uses a three-point scorecard to country and complexity of delivery, but
+indicate whether a company is ‘stuck,’ average a few thousand U.S. dollars per
+‘starting,’ or ‘striding’ in its efforts to lower month. Lastly, groups need to consider the
+its carbon footprint. Research shows that it transmission costs for communicating via
+is helpful to associate an indexed result with text messaging with their constituents.
+a recommended action. An air quality Obviously, the more popular an infoline
+numeric value, for example, is not as useful service, the more text messages need to be
+as a message that states “unhealthful air, sent to consumers and the higher the
+stay inside.” message delivery charges will be. In-kind
+donations from telecommunications
+providers can drive these costs down, but
+Challenges: Managing an this strategy can also raise questions about
+Effective ‘Infoline’ Service project sustainability.
+For groups with limited funds, text There are also significant social marketing
+messaging infoline services can be challenges that limit user uptake. Non-
+expensive to set up and maintain. Gathering governmental organizations offering these
+and compiling comprehensive data that are infoline services must deploy an intensive
+50 Wireless Technology for Social Change: Trends in Mobile Use by NGOs
+Environment
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:21 AM  Page 51
+and effective marketing campaign to get mobGAS: Tracking
+consumers to remember to use the service, Greenhouse Gas Emissions
+and which number to text to. Another
+limiting factor is that aggregating reliable Amobile application calledand accurate data on hundreds or mobGAS can be used to trackthousands of products, services, companies, individual emissions of
+or other data points is very expensive and greenhouse gases. The application,
+time-consuming.19 Climate Count’s developed by scientists at the European
+database, for example, so far includes Commission’s Joint Research Centre,
+climate change information on only 56 tracks the emissions of carbon dioxide,
+companies. nitrous oxide, and methane based on
+information on daily activities entered
+Next Steps: The Future of by the user. Users can enter the
+information on a website or their
+‘Infolines’ Advocacy mobile phone and then compare their
+At the present time there is still little evidence emissions with national and
+to demonstrate that these services are actually international averages.
+changing consumer behavior. Overall usage, The application is particularly useful on
+measured by total number of subscribers to mobile phones because users can enter
+infoline services described in this case study, data about activities that cause
+is small, ranging only in the thousands. Yet emissions—like watching television,
+the potential of this tool is clear. driving, or cooking—at any time. By
+Just-in-time information sharing via text helping users make connections
+message infolines, as in the case of FishMS, between their daily activities and
+can transform consumers into activists whose greenhouse gas emissions, mobGAS
+purchasing power can exert pressure on hopes to encourage individuals to make
+retailers or fishing companies. Groups lifestyle changes. The application also
+considering using an infoline service should offers tips on how to modify activities to
+ask themselves not only what information decrease emissions.
+they want to relay to the consumer, but also According to Tiago de Sousa Pedrosa, a
+what further steps they recommend the project coordinator, mobGAS was
+consumer take. In the final analysis, the real downloaded more than 3,000 times
+value of these services will be judged by their between December 2007 and February
+ability to use information to change behavior, 2008. By raising awareness of individual
+resulting in concrete and measurable actions emissions, mobGAS hopes that the
+by consumers and other constituents.  application can spark higher-level
+change.
+19A team at the University of California at Berkeley
+(United States), is compiling a massive database of the
+health and environmental impact of thousands of
+products and services. This meta-database would be
+accessible to environmental advocacy and consumer
+organizations worldwide, decreasing the relative costs
+to individual organizations of having to aggregate this
+information themselves.
+Wireless Technology for Social Change: Trends in Mobile Use by NGOs 51
+Environment
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:21 AM  Page 52
+C A S E S T U D Y 1 0
+Environmental Monitoring with Mobile Phones
+(Ghana)
+Issue: A Need for More points transmitted by individual mobile phones,
+Comprehensive Data on mobile sensing can paint a complex and
+dynamic portrait of the environment in which
+Urban Air Quality users are based. There are efforts underway to
+“ e need to shatter our use sensing-equippedmobile phones to monitorWunderstanding of mobile a range of environmental factors, from ambientphones as merely phones and air pollution to transportation and traffic
+celebrate them in their new patterns to noise pollution.
+role as measurement instruments,” says Eric The World Health Organization estimates
+Paulos of Intel Research in California (United that more than 4.6 million people die
+States), a pioneer in the so-called urban- annually from the direct impact of air
+sensing movement. His desire is to add pollution—more than from car accidents
+‘super-sensing’ tools that transform ordinary every year.20 According to Paulos, in many
+mobile devices into tools that can collect and cases our knowledge of ambient air quality is
+help track environmental trends. limited to “a small handful of government-
+More than 3.5 billion people carry mobile installed environmental monitoring stations
+phones today, and researchers are beginning that use extrapolation to derive a single air
+to notice mobile phones’ ability to become quality measurement for an entire
+the ‘ultimate data collection machines.’ metropolitan region.” He argues that this
+Mobile sensing—also known as ‘participatory “sparse sensing strategy does little to capture
+sensing,’ ‘urban sensing,’ or ‘participatory the very dynamic variability of air quality that
+urbanism,’—enables data collection from large depends on automobile traffic patterns,
+numbers of people in ways that previously human activity, and output of industries.”
+were not possible. By affixing a sensory To demonstrate the potential of citizen-
+device to a mobile phone, mobile sensing generated environmental data, Paulos and his
+provides the opportunity to track multiple team ran a small-scale project in Accra,
+data points and collect dynamic information Ghana, where they equipped a small group
+about environmental trends from ambient air of taxi drivers with devices that gauged the
+quality to urban traffic patterns. amount of pollution in the air. Accra has
+Or as Debora Estrin, a prominent researcher generally poor air quality, generated by
+in this field from the University of California tailpipe emissions, dust, and the common
+at Los Angeles, put it: “We can now manifest practice of domestic cooking outside using
+the previously unobservable in science.” wood, charcoal, and other fuel sources that
+can spread harmful pollutants across the city.
+To help monitor air quality, Accra has a
+Response: Empowering stationary monitoring system installed by the
+Citizens with Data Collection U.S. Environmental Protection Agency. This
+Devices tool makes it possible to compare data from a
+stationary point with the mobile air
+Mobile sensing represents an important shift
+in mobile device usage from communication 20World Health Organization (WHO).WHO Air
+tool to a ‘networked mobile measurement Quality Guidelines for Particulate Matter, Ozone, Nitrogen
+Dioxide and Sulfur Dioxide: Global Update 2005 (Geneva:
+instrument.’ By aggregating thousands of data WHO, 2006).
+52 Wireless Technology for Social Change: Trends in Mobile Use by NGOs
+Environment
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:21 AM  Page 53
+monitoring of the Intel Berkeley research
+project.
+Outcome: A Clearer Picture of
+Polluted Air
+In the Accra study, seven taxi drivers were
+provided with a dash-mounted global
+positioning system (GPS) device and a tube to
+hang from their passenger window. The tube
+contained a carbon monoxide sensor.
+Similarly, three students were each given a
+mobile clip sensor pack containing a GPS
+device, and a carbon monoxide sensor. The
+taxi drivers and students were asked to carry
+their sensors as much as possible during their
+normal everyday activities. Throughout the A heat-map visualization of carbon monoxide readings across Accra,
+Ghana rendered atop Google Earth. Colors represent individual
+day, the sensing system automatically logged intensity reading of carbon monoxide during a single 24-hour period
+sensor data. At the end of each day, the pilot across the city. Red circles are locations where actual readings were
+participants dropped off their sensor packs at taken.
+a central location where the data was then
+resulted from the participatory data collection
+extracted and the sensors recharged.
+process. Paulos tells the story of how Accra
+Paulos notes: “This study allowed us to col- taxi drivers, who met at the end of the day at
+lect actual air quality sensor data by citizens the mobile sensing device charging station,
+across an urban landscape. It also influ- began to share their data, look at roads and
+enced our design for an integrated air qual- areas that were particularly polluted, and
+ity sensor with a mobile phone.” Variations trade tips on how to avoid certain routes. He
+across smaller neighborhoods and different notes that this incident illustrates the potential
+parts of the city are clearly visible. of ‘participatory sensing’ to both yield rich
+and interactive environmental data critical for
+The data gathered provided a previously public health and pollution reduction, and
+unmeasured map of carbon monoxide and motivate people to become active
+air quality across the city. Colors in this participants in their environment.
+image represent the individual taxi drivers’
+readings while the size of the patch indi- Another area for further exploration is the
+cates the intensity reading of carbon ability of mobile sensing to contribute to
+monoxide during a single day. Variations public health by linking health with
+across smaller neighborhoods and different environmental factors that have not been
+parts of the city are clearly visible. available before. For example, even though
+we know that there is a link between asthma
+symptoms and air pollution, previously it was
+Challenge: Harnessing the not possible to directly correlate an
+Potential of the Mobile Sensing individual’s symptoms with their exposure to
+Platform air pollutants. Measuring people’s lung
+performance while measuring ambient air
+Intel’s mobile sensing pilot in Accra pollution exposure could shed new light on
+produced some interesting unanticipated the links between air pollution and asthma,
+outcomes, including a ‘human aspect’ that perhaps resulting in better treatments.
+Wireless Technology for Social Change: Trends in Mobile Use by NGOs 53
+Environment
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:21 AM  Page 54
+- - - - C A S E S T U D Y 1 0 C O N T I N U E D
+Research is also underway to assess whether Mobile Sensing Device or
+it is possible to detect avian influenza viruses Mobile Sensing Phone?
+and other diseases through mobile sensing
+devices. Similar linkages may be possible in hile the early Accra project
+other issue areas, such as in emergency used mobile sensing devices
+detection and warnings, which are important Wbut not mobile phones, Paulos
+to public safety, and emergency and disaster and his team are now working on
+response applications. integrating a sensor into a mobile phone
+as a prototype of a more integrated
+Next Steps: Securing a Future platform for collecting data in California.
+for Mobile Sensing Meanwhile, in Cambridge, England,
+mobile phones are being used by bicycle
+Users in mobile participatory data collection
+couriers to gather pollution information.
+projects are divulging private information
+Each phone is connected via Bluetooth to
+about their location and context. Security and
+a sensor attached to a courier’s bike. The
+privacy are therefore of concern. There is
+sensor monitors air pollution while the
+considerable discussion about how to ensure
+phone transmits the data back to a
+privacy while still transmitting useful
+research lab at the University of
+information. This could include giving users
+Cambridge. Custom software reports
+the choice of only selectively sharing direct
+levels of air pollutants and a GPS
+observations, and designing protocols that
+transmits the exact location of the courier.
+ensure a person’s anonymity.
+Commercial players such as Nokia are
+Mobile sensing is an emerging area where
+beginning to enter this field as well.
+costs and benefits to date are hard to
+Nokia recently featured a concept phone
+determine because it is still so early in the
+with a wearable eco-sensor that detects
+research cycle. However, it is also a rapidly
+carbon monoxide, particulate matter, and
+developing area of inquiry that will likely see
+ground-level ozone. Data would be
+considerable activity and interest, not just on
+transmitted to the phone where a user
+the part of university or commercial
+could choose to share the environmental
+researchers but also on the part of citizen
+data, aiding in research and increasing
+groups and environmental advocates.
+environmental awareness.
+Using mobile phones as sensing devices and
+aggregating “crowdsourced” data into
+sophisticated and previously impossible
+environmental maps is an emerging field
+with only preliminary trials. Yet while still in
+early phases of concept development, the
+potential of mobile sensing to contribute to
+environmental conservation and related fields
+is clear. Ongoing research in this area will
+continue to provide fascinating data for
+researchers, citizen groups, and
+environmental advocates. 
+54 Wireless Technology for Social Change: Trends in Mobile Use by NGOs
+Environment
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:21 AM  Page 55
+C A S E S T U D Y 1 1
+Protecting Wildlife and Human Wellbeing (Kenya)
+Issue: Humans and Animals Response: Push-to-Talk
+Competing for Land Technology Program Launched
+he Laikipia District of north in Laikipia
+Tcentral Kenya is a popular tourist Believing that mobile technology coulddestination, teeming with wildlife. offer a solution, the GSMA DevelopmentCovering 9,700 square Fund, together with Safaricom Ltd.,
+kilometers, Laikipia comprises a patchwork Wireless Zeta Telecomunicaciones (Wireless
+of small farms, large ranches, privately ZT), Nokia, the Nokia Siemens Networks,
+owned conservancies, and government and local conservation organizations,
+land. Some 5,000 elephants, the second- collaborated in launching a pilot project in
+largest elephant population in the country, Laikipia. Using GSM technology, the
+inhabit the region. As farmers, ranchers, project sought to facilitate cost-effective
+and these animals struggle to co-exist, the communication among local communities,
+region has gained a reputation for being government wildlife service personnel, and
+one of the worst areas for human–elephant private landowners through an early
+conflict, with more than 3,000 incidents warning system that would allow farmers to
+occurring annually. preserve their crops while protecting
+Human-wildlife conflict is a growing wildlife.
+phenomenon around the world as human The pilot utilized ‘Push to Talk on Cellular
+populations place mounting pressure on (Phones)’ (PoC) technology, which
+ecosystems, wildlife habitat is reduced, and combines the functionality of a walkie-talkie
+animal migration routes are made or two-way radio with a mobile phone. PoC
+inaccessible. As a result, humans are enables communication between two
+susceptible to injury, and even death, and individuals, or a group of people, and is
+animals suffer attacks by humans. In particularly useful in connecting a user
+Laikipia alone, an average of five people group intermittently over a period of time
+and ten elephants are killed each year as a (e.g., a working day).
+result of human–elephant conflict.21
+“The tension [in Laikipia] stems from
+communities having their crops damaged
+by elephants,” explains Dr. Max Graham,
+Associate at the Department of Geography,
+University of Cambridge (United
+Kingdom), who has been studying and
+working in Laikipia for almost a decade.
+“There’s a perception that the elephants
+belong to the government and ranchers,
+both of whom benefit from tourism.
+Meanwhile, communities suffer. Farmers
+get killed. Elephants get speared or
+poisoned.”
+21Conservation Kenya: Final Report (GSM Association &
+Safaricom Ltd., 2007).
+Credit: GSMA
+Wireless Technology for Social Change: Trends in Mobile Use by NGOs 55
+Environment
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:21 AM  Page 56
+C A S E S T U D Y 1 1 C O N T I N U E D
+A benefit of PoC is that it can be used commercially as an incentive to keep it
+alongside voice and data services on a running in the field,” explains Christina
+single handset. Users can make standard Greenwood, Project Manager, GSMA
+phone calls and send text messages, while Development Fund, who worked on
+also accessing two-way communication and developing the pilot. “At the same time, we
+group talk through the press of a button. were looking to offer the service at a
+Because network resources are used only
+for the duration of each talk ‘spurt,’ PoC
+technology requires less airtime, demands
+less energy, and is less costly than a
+conventional phone call.
+Equally important was finding a solution
+that would be sustainable and scalable over
+the long term. To address this need, the
+pilot was designed to test the commercial
+viability of the proposed solution. If the
+product could be successfully sold—at a
+discounted rate to nonprofits—it would stand
+a far better chance of making it in the
+marketplace.
+“The goal was to develop a sustainable
+project that an operator could use
+Credit: GSMA
+Planning the Push-to-Talk Pilot
+The PoC pilot was carried out at three sites in Laikipia from 3 November to 3 December
+2007. Prior to launching the service, community members filled out a simple
+questionnaire aimed at identifying existing warning systems and challenges. The
+questionnaire pointed to a prevailing atmosphere of mistrust, with ranch owners and
+government rangers perceived as not doing their part to alert local community members
+of elephant dangers.
+Key indicators for measuring the project’s effectiveness were also identified. These
+included reducing the number of elephant crop-raiding incidents, improving crop
+harvests, reducing the number of human injuries and deaths, and reducing injuries to
+elephants.
+Fifty people, including community-elected scouts, government rangers, and private
+landowners, received training in how to use the handsets, how to make group and one-to-
+one PoC calls, and the protocol for communication between users (e.g., “copy that” to
+mean you have received a message, or “over” to indicate that a user has finished
+speaking).
+Once trained, individuals patrolling the fences surrounding farms and ranches were
+charged with calling other group members to warn of elephants coming in close
+proximity to private landholdings. The trial was carried out across three different
+human–elephant conflict sites. Over the course of the 30-day trial, 84 incidents were
+reported.
+56 Wireless Technology for Social Change: Trends in Mobile Use by NGOs
+Environment
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:21 AM  Page 57
+subsidized rate, or with lower tariffs, to In Mwenji, for example, the trial focused on
+nonprofits to make sure they could access it.” the monitoring of an electrified fence.
+When elephants tried to break the fence,
+Outcome: Successfully man- security guards hired to patrol the
+perimeters of private ranches were able to
+aged human–elephant conflict report the incidents to community members
+Based on data collected and exit surveys, and conservancy rangers who could take
+the pilot was found to reduce the number action. “It forced the guys who were meant
+and severity of human–elephant conflicts in to act to act,” says Graham. “Because there
+the four areas covered. Said Dickson were ten people listening it created
+Kamau, Chairman of the Rumuruti Forest collective pressure and improved
+Association: “Push-to-talk has helped us a accountability.”
+lot. Before they [the game rangers] would In Rumuriti, the trial had an unexpected
+never come to scare the elephants back [to effect. Local scouts assigned by a
+the forest] but with this they could not make community association to patrol the area
+excuses because there were many of us used the phones to alert KWS officials of
+listening.” the location of elephants to reduce incidents
+of human–elephant conflict. With the
+phones, they were also able to report illegal
+logging and animal theft in the area. The
+trial “helped with policing elephants and
+the forest,” says Graham. “It was the first
+time we were able to empower the
+community to play such a role.”
+In Ex-erok, the phones were used by
+security patrols to alert KWS officials to
+both elephant incursions and animal stock
+theft. Graham cites three occasions when
+Credit: GSMA farm animals such as goats were recovered
+as a result of easy and fast communication.
+One hundred percent of PoC users engaged
+in the trial found the service to be helpful in
+managing human–elephant conflict, with 72 Challenges and Lessons
+percent of users reporting that PoC helped Learned
+provide an early warning system to reduce
+crop raiding, and 41 percent claiming that The primary challenge this project faced
+PoC was most useful in improving was securing the right partners to address
+communication among all stakeholders. the diverse needs of the stakeholder groups.
+Preparations for the program required
+A significant result of the pilot was reduced coordination among a broad range of
+tension and improved trust among farmers stakeholders—from telecommunications and
+and community members, the Kenyan technology groups to local nature
+Wildlife Service (KWS), private conservancies. Only a multi-sector
+landowners, and local law enforcement partnership could adequately cover all
+officials. The PoC trial enhanced aspects of project work, from assessing the
+communication among these stakeholders needs of Laikipia communities to the
+and, in particular, helped community project’s commercial feasibility.
+members recognize that conservationists
+were there to help them.
+Wireless Technology for Social Change: Trends in Mobile Use by NGOs 57
+Environment
+57388_UNF_S1_R1:UNFoundation.qxd  5/6/08  9:21 AM  Page 58
+C A S E S T U D Y 1 1 C O N T I N U E D
+The project would only work if local
+communities adopted the technology
+solution. Here, non-governmental
+organization partners such as the University
+of Cambridge Laikipia Elephant Project
+and Laikipia Wildlife Forum were essential.
+These groups developed trusted
+relationships with the community that
+engendered good will for the project. They
+also could identify community users, and
+assist with the training, monitoring, and
+assessment.
+While the results were positive overall, an
+important lesson emerging from the trial
+was the cost and time needed to keep the
+phones charged. Because they were used
+more often than traditional handsets, the
+phones needed to be charged more Credit: GSMA
+frequently. This required that users visit message-based ‘early warning’ system has
+charging stations several kilometers away, been established in South Africa, enabling
+and incur additional costs. To address this Kruger National Park authorities to contact
+issue, project partners are exploring the local communities outside of the park’s
+inclusion of a solar or wind-up charger in borders in an effort to reduce human–
+future applications of PoC technology for elephant conflict there.
+conservation uses.
+Mobile technology is also being employed
+Another lesson involved the time needed to to raise awareness of endangered species.
+train local citizens to use the product. Given In 2003 and 2004, Fauna Flora
+that most trial participants were accustomed International (FFI), a UK-based global
+to more rudimentary phones, each needed conservation charity, launched Wildlive!
+to learn to operate the more sophisticated with support from Vodafone UK and The
+handsets donated for the trial. Vodafone Group Foundation. Through the
+initiative, subscribers were able to track the
+Next Steps: Further Exploring progress of FFI conservation projects,
+PoC Strategies for Environ- access conservation news, and enter
+competitions. Customers paid a fee to
+mental Conservation download animal screensavers and animal
+A decision is still pending with respect to sounds as ringtones, with 100 percent of
+future expansion and/or replication of the profits going to FFI. The initiative was
+PoC trial in Kenya. What is clear is that timed to coincide with FFIs 50th
+mobile technology holds considerable anniversary celebration and in 2004 raised
+potential for strengthening wildlife £100,000 to support FFI’s mission. Similar
+conservation efforts in such areas as mobile fundraising efforts aimed at
+monitoring animals, reducing conflict protecting endangered animals have been
+among humans and wildlife, enhancing launched in other parts of the world. 
+stakeholder communication, and increasing
+public awareness of endangered species. In
+much the same vein as the PoC trial, a text
+58 Wireless Technology for Social Change: Trends in Mobile Use by NGOs
+Environment
+Recommended Readings
+Banks, Ken, and Richard Burge. Mobile Phones: An Appropriate Tool for Conservation and Devel-
+opment? (Cambridge, UK: Fauna and Flora International, 2004).
+Chetley, Andrew (ed.). Improving health, connecting people: The role of ICTs in the health
+sector of developing countries (Washington, DC: InfoDev, 2006).
+Coyle, Diane/Enlightenment Economics. The Role of Mobiles in Disasters and Emergencies
+(London, UK:GSM Association, 2005).
+Crawford, Diane. Role of IT in emergency response and crisis management. Communica-
+tions of the Association of Computer Machinery 50 (2007).
+Currion, Paul. Information and Technology Requirements Initiative: Assessment Report - Global
+Response (Emergency Capacity Building Project, 2006).
+Kaplan, Warren. Can the ubiquitous power of mobile phones be used to improve health out-
+comes in developing countries? Globalization and Health 2 (2006): 9. www.globalizationand-
+health.com/content/2/1/9.
+Löffler, Jobst, and Markus Klann (eds.). Mobile Response: First International Workshop on
+Mobile Information Technology for Emergency Response. Mobile Response 2007, Sankt
+Augustin, Germany, 22-23 February 2007, Revised Selected Papers. Lecture Notes in Computer
+Science 4458 (Springer, 2008).
+MTC Group. Mobility: A Nation Under Siege. An insight into mobile communications during the
+2006 Lebanon conflict (MTC Group, 2007).
+Shackleton, Sally Jean. Rapid Assessment of Cell Phones for Development (UNICEF, 2007).
+Wattegama, Chanuka. ICT for Disaster Management (Bangkok, Thailand: United Nations
+Development Programme – Asia-Pacific Development Information Programme and
+Asian and Pacific Training Centre for Information and Communication Technology for
+Development, 2007).
+Wireless Technology for Social Change: Trends in Mobile Use by NGOs 59
+www.unfoundation.org/vodafone

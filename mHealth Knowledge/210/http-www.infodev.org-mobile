@@ -1,0 +1,944 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html lang="en" dir="ltr" prefix="fb: http://www.facebook.com/2008/fbml content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=EDGE"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="The World Bank’s Mobile Application Labs (mLabs) accelerate the growth of digital businesses in the Caribbean, Kenya, South Africa and more." />
+<meta name="generator" content="Drupal 7 (https://www.drupal.org)" />
+<link rel="canonical" href="http://www.infodev.org/digital-entrepreneurship" />
+<link rel="shortlink" href="http://www.infodev.org/digital-entrepreneurship" />
+<meta itemprop="name" content="Digital Entrepreneurship" />
+<link rel="shortcut icon" href="http://www.infodev.org/sites/default/files/favicon_0.png" type="image/png" />
+  <title>Digital Entrepreneurship Program | infoDev</title>
+  <link type="text/css" rel="stylesheet" href="http://www.infodev.org/sites/default/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.infodev.org/sites/default/files/css/css_M2AmZzAsASmLZfHNCcrbJm3GlENjMFcl_jaoGQMCjp0.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.infodev.org/sites/default/files/css/css_fLNbihQnjVQTU1_Q-i1hAq_roGl5TNRen2MCzIwey4o.css" media="all" />
+
+<!--[if lte IE 8]>
+<link type="text/css" rel="stylesheet" href="http://www.infodev.org/sites/default/files/css/css_47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU.css" media="all" />
+<![endif]-->
+<link type="text/css" rel="stylesheet" href="http://www.infodev.org/sites/default/files/css/css_qoJAaDaPC_Sty8zlZnF-eO--Ekiw4DRZfjVH_QZLx5w.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.infodev.org/sites/default/files/css/css_Pu-SqVhFIyJEkeTi0BGqulwh0Df0mZfzrgZu5iJv2SQ.css" media="all" />
+<style media="screen"> .not-front .zone-menu-wrapper {
+	background-color: #951b1b;
+	background-image: linear-gradient(#951b1b, #500e0e);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7a848e), color-stop(100%,#500e0e)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #951b1b 0%, #500e0e 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #951b1b 0%,#500e0e 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #951b1b 0%, #500e0e 100%); /* IE10+ */
+	filter: progidXImageTransform.Microsoft.gradient( startColorstr='#951b1b', endColorstr='#500e0e',GradientType=0 ); /* IE6-9 */
+} </style>
+  <!-- HTML5 element support for IE6-8 -->
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  
+  <script src="http://www.infodev.org/sites/default/files/js/js_gYWhuqN0Wsid8HOSk0yFzqMg-2NTv-xegwc2ACYMGws.js"></script>
+<script src="http://www.infodev.org/sites/default/files/js/js_-jenMcWHoY-_YofME9QdfIdN78Hvtfo2npip2cxdObU.js"></script>
+<script>L_ROOT_URL = "/sites/all/libraries/leaflet/";</script>
+<script src="http://www.infodev.org/sites/default/files/js/js_p6vIbB8YuoFpP8Zg43APFKa20ZDbWkKEqX0NQdp7XAQ.js"></script>
+<script src="http://www.infodev.org/sites/default/files/js/js_qus7Roj2iFoJ_iIDpAjSjyAVMCu5Qf2aoGzaA2bjD9k.js"></script>
+<script src="http://www.infodev.org/sites/all/modules/contrib/lightbox2/js/lightbox.js?1568905410"></script>
+<script src="http://www.infodev.org/sites/default/files/js/js_3DiS2B4SzjF3oplPEptDU95S4LsgvFXJNTDnA7gqlSU.js"></script>
+<script>L.Icon.Default.imagePath = "/sites/all/libraries/leaflet/images/";</script>
+<script src="http://www.infodev.org/sites/default/files/js/js_kgpU9wc4jTk4VOvrC1KfCCrhxZufR704m_rk0Mxnyvs.js"></script>
+<script src="http://www.infodev.org/sites/default/files/js/js_ChjrLUl9_gAozdNWAZYytDvRWKMJ90PzLviCObxGxBI.js"></script>
+<script src="http://www.infodev.org/sites/default/files/js/js_v89jUZ_l2LR8NzEXW2kWQ6me12tC-jCbLw8O3mpuQ2A.js"></script>
+<script src="http://www.infodev.org/sites/default/files/js_injector/js_injector_1.js?prul4g"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"bootstrap_infodev","theme_token":"ZNt38fnMygnDwDXcehYHeG7W9E7jVA33iJ-TuZGM3OE","jquery_version":"1.9","js":{"sites\/all\/modules\/contrib\/addthis\/addthis.js":1,"sites\/all\/themes\/contrib\/bootstrap\/js\/bootstrap.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.9\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.min.js":1,"0":1,"sites\/all\/libraries\/leaflet\/leaflet.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/contrib\/ajax_links_api\/ajax_links_api.js":1,"sites\/all\/modules\/contrib\/lightbox2\/js\/lightbox.js":1,"sites\/all\/modules\/contrib\/views\/js\/base.js":1,"sites\/all\/themes\/contrib\/bootstrap\/js\/misc\/_progress.js":1,"sites\/all\/modules\/contrib\/leaflet\/leaflet.drupal.js":1,"1":1,"sites\/all\/modules\/contrib\/views\/js\/ajax_view.js":1,"sites\/all\/themes\/custom\/bootstrap_infodev\/js\/jquery-ui.js":1,"sites\/all\/themes\/custom\/bootstrap_infodev\/bootstrap\/js\/bootstrap.min.js":1,"sites\/all\/themes\/custom\/bootstrap_infodev\/js\/jquery-migrate-1.2.1.js":1,"sites\/all\/themes\/custom\/bootstrap_infodev\/js\/switchery.min.js":1,"sites\/all\/themes\/custom\/bootstrap_infodev\/js\/jquery.cycle2.js":1,"sites\/all\/themes\/custom\/bootstrap_infodev\/js\/custom.js":1,"sites\/all\/themes\/custom\/bootstrap_infodev\/js\/main.js":1,"sites\/all\/themes\/custom\/bootstrap_infodev\/js\/main-custom.js":1,"sites\/all\/themes\/contrib\/bootstrap\/js\/modules\/views\/js\/ajax_view.js":1,"sites\/all\/themes\/contrib\/bootstrap\/js\/misc\/ajax.js":1,"sites\/default\/files\/js_injector\/js_injector_1.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/contrib\/simplenews\/simplenews.css":1,"sites\/all\/modules\/contrib\/ajax_links_api\/ajax_links_api.css":1,"sites\/all\/modules\/contrib\/calendar\/css\/calendar_multiday.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/contrib\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/field_hidden\/field_hidden.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/lightbox2\/css\/lightbox.css":1,"sites\/all\/modules\/contrib\/leaflet\/leaflet_extras.css":1,"sites\/all\/libraries\/leaflet\/leaflet.css":1,"sites\/all\/libraries\/leaflet\/leaflet.ie.css":1,"sites\/all\/themes\/custom\/bootstrap_infodev\/css\/switchery.min.css":1,"sites\/all\/themes\/custom\/bootstrap_infodev\/css\/source sans.css":1,"sites\/all\/themes\/custom\/bootstrap_infodev\/css\/style.css":1,"sites\/all\/themes\/custom\/bootstrap_infodev\/css\/mobile.css":1,"sites\/all\/themes\/custom\/bootstrap_infodev\/css\/large.css":1,"sites\/all\/themes\/custom\/bootstrap_infodev\/css\/tab.css":1,"sites\/all\/themes\/custom\/bootstrap_infodev\/css\/medium.css":1,"sites\/all\/themes\/custom\/bootstrap_infodev\/css\/font-awesome.min.css":1,"sites\/all\/themes\/custom\/bootstrap_infodev\/css\/font-awesome.css":1,"sites\/all\/themes\/custom\/bootstrap_infodev\/css\/header-menu-font.css":1,"sites\/all\/themes\/custom\/bootstrap_infodev\/bootstrap\/css\/bootstrap.min.css":1,"sites\/all\/themes\/custom\/bootstrap_infodev\/css\/bootstrap-overrides.css":1,"sites\/all\/themes\/custom\/bootstrap_infodev\/css\/font.css":1,"sites\/all\/themes\/custom\/bootstrap_infodev\/css\/custom.css":1,"sites\/all\/themes\/custom\/bootstrap_infodev\/css\/custom1.css":1,"sites\/all\/themes\/custom\/bootstrap_infodev\/css\/header-footer.css":1,"sites\/all\/themes\/custom\/bootstrap_infodev\/css\/responsive-home.css":1,"sites\/all\/themes\/custom\/bootstrap_infodev\/css\/home-page.css":1,"sites\/all\/themes\/custom\/bootstrap_infodev\/css\/home-page-new.css":1,"sites\/all\/themes\/custom\/bootstrap_infodev\/css\/header-footer-responsive.css":1,"sites\/all\/themes\/custom\/bootstrap_infodev\/css\/home-page-new-lg.css":1,"sites\/all\/themes\/custom\/bootstrap_infodev\/css\/home-page-new-md.css":1,"sites\/all\/themes\/custom\/bootstrap_infodev\/css\/home-page-new-sm.css":1,"sites\/all\/themes\/custom\/bootstrap_infodev\/css\/home-page-new-xs.css":1,"sites\/all\/themes\/custom\/bootstrap_infodev\/css\/custom-new.css":1,"sites\/all\/themes\/custom\/bootstrap_infodev\/css\/article-node.css":1,"sites\/all\/themes\/custom\/bootstrap_infodev\/css\/stream.css":1,"sites\/all\/themes\/custom\/bootstrap_infodev\/css\/signup-scroll.css":1,"public:\/\/css_injector\/css_injector_2.css":1,"public:\/\/css_injector\/css_injector_4.css":1,"public:\/\/css_injector\/css_injector_10.css":1,"0":1}},"ajax_links_api":{"selector":"#content","trigger":".ajax-link","negative_triggers":"","html5":1,"vpager":1},"lightbox2":{"rtl":0,"file_path":"\/(\\w\\w\/)public:\/","default_image":"\/sites\/all\/modules\/contrib\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":true,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":false,"disable_resize":false,"disable_zoom":false,"force_show_nav":false,"show_caption":true,"loop_items":false,"node_link_text":"View Image Details","node_link_target":false,"image_count":"Image !current of !total","video_count":"Video !current of !total","page_count":"Page !current of !total","lite_press_x_close":"press \u003Ca href=\u0022#\u0022 onclick=\u0022hideLightbox(); return FALSE;\u0022\u003E\u003Ckbd\u003Ex\u003C\/kbd\u003E\u003C\/a\u003E to close","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":0,"custom_trigger_classes":"","disable_for_gallery_lists":true,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":1,"slideshow_automatic_exit":1,"show_play_pause":1,"pause_on_next_click":0,"pause_on_previous_click":1,"loop_slides":0,"iframe_width":400,"iframe_height":200,"iframe_border":1,"enable_video":false},"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:2e36e0262d0db2bd5536db496535fa52":{"view_name":"highlights","view_display_id":"block_10","view_args":"601","view_path":"work-stream\/601","view_base_path":null,"view_dom_id":"2e36e0262d0db2bd5536db496535fa52","pager_element":0},"views_dom_id:f89c8a8dff7594f1aa69645955b3d4a7":{"view_name":"highlights","view_display_id":"block_2","view_args":"601","view_path":"work-stream\/601","view_base_path":null,"view_dom_id":"f89c8a8dff7594f1aa69645955b3d4a7","pager_element":0}}},"urlIsAjaxTrusted":{"\/views\/ajax":true,"\/digital-entrepreneurship":true},"leaflet":[{"mapId":"leaflet-map-297596551","map":{"label":"Map","description":"","settings":{"attributionControl":true,"closePopupOnClick":true,"doubleClickZoom":true,"dragging":true,"fadeAnimation":true,"layerControl":false,"maxZoom":18,"minZoom":0,"scrollWheelZoom":0,"touchZoom":true,"trackResize":true,"zoom":"2","zoomAnimation":true,"zoomControl":true},"layers":{"earth":{"urlTemplate":"\/\/api.mapbox.com\/styles\/v1\/gsdpm\/ciyefdd39000t2rmzgf1egkcb\/tiles\/{z}\/{x}\/{y}?access_token=pk.eyJ1IjoiZ3NkcG0iLCJhIjoiY2lqbmN5eG9mMDBndHVmbTU5Mmg1djF6MiJ9.QqFCD7tcmccysN8GUClW8w","options":{"attribution":"","tileSize":512,"zoomOffset":-1}}}},"features":[{"type":"point","lat":14.497401,"lon":-14.452362000000001,"popup":"\u003Ch4\u003E\n\tSenegal Centers and Programs\u003C\/h4\u003E\n\u003Cul\u003E\n\t\u003Cli\u003E\n\t\t\u003Cstrong\u003E\u003Ca href=\u0022http:\/\/www.cticdakar.com\/fr\/?\u0022 style=\u0022background-color: rgb(255, 255, 255);\u0022\u003ECTIC Dakar\u003C\/a\u003E\u003C\/strong\u003E\u0026nbsp;| Serves mobile application and digital goods\/services entrepreneurs\u003C\/li\u003E\n\t\u003Cli\u003E\n\t\t\u003Ca href=\u0022http:\/\/jambartechlab.com\/\u0022 style=\u0022font-weight: 700; background-color: rgb(255, 255, 255);\u0022\u003EJambar Tech Lab\u003C\/a\u003E\u0026nbsp;| Serves mature mobile application and digital goods\/services entrepreneurs\u003C\/li\u003E\n\u003C\/ul\u003E\n"},{"type":"point","lat":-30.559481999999999,"lon":22.937505999999999,"popup":"\u003Cp\u003E\n\t\u003Cstrong\u003E\u003Ca href=\u0022http:\/\/www.mlab.co.za\/\u0022\u003EmLab\u0026nbsp;South Africa\u003C\/a\u003E\u003C\/strong\u003E\u0026nbsp;| Serves mobile application and digital goods\/services entrepreneurs\u003C\/p\u003E\n"},{"type":"point","lat":-0.023559,"lon":37.906193000000002,"popup":"\u003Cp\u003E\n\t\u003Cstrong\u003E\u003Ca href=\u0022https:\/\/ihub.co.ke\/\u0022\u003EiHub\u003C\/a\u003E\u003C\/strong\u003E\u0026nbsp;| Serves mobile application and digital entrepreneurs in East Africa\u003C\/p\u003E\n"},{"type":"point","lat":18.109580999999999,"lon":-77.297507999999993,"popup":"\u003Cp\u003E\n\t\u003Cspan style=\u0022font-weight: 700; font-family: open_sansregular; color: rgb(0, 0, 0);\u0022\u003E\u003Ca href=\u0022http:\/\/pitchitcaribbean.com\/support\u0022\u003EPitch It Caribbean\u003C\/a\u003E\u003C\/span\u003E\u0026nbsp;|\u0026nbsp;Serves mobile application and digital goods\/services entrepreneurs\u003C\/p\u003E\n"}]}],"bootstrap":{"anchorsFix":1,"anchorsSmoothScrolling":1,"formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+   <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-654851-10', 'auto');
+    ga('send', 'pageview');
+  </script>  
+ <script src="//assets.adobedtm.com/572ee9d70241b5c796ae15c773eaaee4365408ec/satelliteLib-efd6120a6f6ed94da49cf49e2ba626ac110c7e3c.js"></script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-work-stream page-work-stream- page-work-stream-601 work-stream" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    
+<div class="header-block">
+<header id="navbar" role="banner" class="navbar container navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+            <a class="logo navbar-btn pull-left" href="/" title="Home">
+        <img src="http://www.infodev.org/sites/all/themes/custom/bootstrap_infodev/logo.png" alt="Home" />
+      </a>
+      
+            <a class="name navbar-brand" href="/" title="Home">infoDev</a>
+      
+      <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+          <div class="navbar-collapse collapse">
+        <nav role="navigation">
+                      <ul class="menu nav navbar-nav"><li class="first expanded dropdown"><a href="/" class="who-we-are dropdown-toggle" data-target="#" data-toggle="dropdown">WHO WE ARE <span class="caret"></span></a><ul class="dropdown-menu"><li class="first last leaf"><a href="/about">About infoDev</a></li>
+</ul></li>
+<li class="expanded dropdown"><a href="http://www.infodev.org/" class="our-work dropdown-toggle" data-target="#" data-toggle="dropdown">WHAT WE DO <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/agribusiness-entrepreneurship" class="agri">Agribusiness Entrepreneurship</a></li>
+<li class="leaf"><a href="/climate" class="climate">Climate Technology</a></li>
+<li class="leaf"><a href="/digital-entrepreneurship" class="mobile active">Digital Entrepreneurship</a></li>
+<li class="leaf"><a href="/early-stage-financing" class="a2f">Early Stage Financing</a></li>
+<li class="leaf"><a href="/women-entrepreneurs" class="women">Women&#039;s Entrepreneurship</a></li>
+<li class="last leaf"><a href="/EPIC">Entrepreneurship Program for Innovation in the Caribbean</a></li>
+</ul></li>
+<li class="expanded dropdown"><a href="/" data-target="#" class="dropdown-toggle" data-toggle="dropdown">KNOWLEDGE <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/publications" class="publication">Publications</a></li>
+<li class="leaf"><a href="/toolkits" class="toolkit">Toolkits &amp; Practical Guides</a></li>
+<li class="leaf"><a href="https://www.innovationpolicyplatform.org/" target="_blank">Innovation Policy Platform</a></li>
+<li class="leaf"><a href="http://tcdata360.worldbank.org/">Data Portal</a></li>
+<li class="last leaf"><a href="http://blogs.worldbank.org/psd/">Blog</a></li>
+</ul></li>
+<li class="expanded dropdown"><a href="/" data-target="#" class="dropdown-toggle" data-toggle="dropdown">IMPACT <span class="caret"></span></a><ul class="dropdown-menu"><li class="first last leaf"><a href="/featured-entrepreneurs" class="enterprener">Featured Entrepreneurs</a></li>
+</ul></li>
+<li class="expanded dropdown"><a href="/" data-target="#" class="dropdown-toggle" data-toggle="dropdown">NEWS <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/news" class="info-news">Media Coverage</a></li>
+<li class="last leaf"><a href="/press-releases" class="media-relese">Press Releases</a></li>
+</ul></li>
+<li class="last leaf"><a href="/videos" class="videos-part">VIDEOS</a></li>
+</ul>                                      </nav>
+      </div>
+      </div>
+</header>
+</div>
+
+<header class="header-area container">
+    <div class="header-inner">
+          <div class="row clearfix">
+                          <div class="header-left pull-left col-xs-12 col-sm-6 col-md-6 "><!--well-->
+                  <div class="region region-brending">
+    <section id="block-block-24" class="block block-block infologo clearfix">
+ <div class="block-inner">
+<div class="content">
+        <h2 class="block-title">infodev-home-logo</h2>
+        
+  <div class="logo col-sm-6 col-xs-4 col-md-5"><a href=http://www.infodev.org> <img class="img-responsive" src=http://www.infodev.org/sites/all/themes/custom/bootstrap_infodev/images/Logo_InfoDev.svg> </a></div><div class="logo-bank col-sm-6 col-xs-8 col-md-7"> <a href=http://www.infodev.org> <img class="img-responsive" src=http://www.infodev.org/sites/all/themes/custom/bootstrap_infodev/images/Logo_WB.svg> </a></div> 
+ </div>
+ </div>
+    
+</section> <!-- /.block -->
+  </div>
+              </div>
+            			
+			<div class="menutoggle">
+				<h2 class="search-btn">
+					<span class="glyphicon glyphicon-search"></span>
+				</h2>
+				<h2 class="menu-btn">
+					<span class="glyphicon glyphicon-th-list"></span>
+				</h2>
+			</div>
+			
+			<div class="header-right pull-right col-xs-12 col-sm-6 col-md-6">
+				<div class="row clearfix">
+				
+										<div class="search-block  col-xs-12 col-sm-12">
+					  <div class="region region-header-second">
+    <section id="block-block-23" class="block block-block h-social-media-icons media-icons  hidden-xs hidden-sm  col-md-6 col-sm-6 clearfix">
+ <div class="block-inner">
+<div class="content">
+        <h2 class="block-title">Social Media</h2>
+        
+  <a href="https://www.facebook.com/infoDevWBG" class="h-fb" title="Facebook" alt="Facebook" target="_blank"><img class="img-responsive" src="http://www.infodev.org/sites/all/themes/custom/bootstrap_infodev/images/fb_icon.png"/></a><a href="https://twitter.com/infoDev" class="h-twitter" title="Twitter" alt="Twitter" target="_blank"><img class="img-responsive" src="http://www.infodev.org/sites/all/themes/custom/bootstrap_infodev/images/tweets_icon.png"/></a><a href="https://www.youtube.com/user/infoDevICT" class="h-youtube" title="Youtube" alt="Youtube" target="_blank"><img class="img-responsive" src="http://www.infodev.org/sites/all/themes/custom/bootstrap_infodev/images/you_tube_icon.png"/></a><a href="http://www.linkedin.com/groups/infoDev-Information-Development-Program-3209639/about" class="h-linkedin" title="Linkedin" alt="Linkedin" target="_blank"><img class="img-responsive" src="http://www.infodev.org/sites/all/themes/custom/bootstrap_infodev/images/linked_in_icon.png"/></a>
+ 
+ </div>
+ </div>
+    
+</section> <!-- /.block -->
+<section id="block-block-19" class="block block-block google-search hidden-xs  clearfix">
+ <div class="block-inner">
+<div class="content">
+        <h2 class="block-title">Google Search</h2>
+        
+  <div class="siteserach-block">
+<div class="serach-site "><img class="img-responsive" src=http://www.infodev.org/sites/all/themes/custom/bootstrap_infodev/images/icn_search.png></div><a href="/site-search">Advanced Search</a><script>
+  (function() {
+  
+    var cx = '018224613263771772794:wzarzqgbjao';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+</div>
+
+ 
+ </div>
+ </div>
+    
+</section> <!-- /.block -->
+<section id="block-block-25" class="block block-block advance-searches visible-xs clearfix">
+ <div class="block-inner">
+<div class="content">
+          
+  <script>
+  (function() {
+  
+    var cx = '018224613263771772794:wzarzqgbjao';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+ 
+ 
+ </div>
+ </div>
+    
+</section> <!-- /.block -->
+<section id="block-block-26" class="block block-block follow-media  visible-xs visible-sm clearfix">
+ <div class="block-inner">
+<div class="content">
+          
+  <div class="dropdown"><div class="btn-group">
+<span class="dropdown-toggle fa-share-alt " data-toggle="dropdown"></span><ul class="dropdown-menu"><a href="https://twitter.com/infoDev" class="h-twitter social-icons" target="_blank">Twitter</a><a href="https://www.facebook.com/infoDevWBG" class="h-facebook social-icons" target="_blank">Facebook</a><a href="http://www.linkedin.com/groups/infoDev-Information-Development-Program-3209639/about" class="h-linkedin social-icons" target="_blank">Linkedin</a><a href="https://plus.google.com/+InfodevOrg/posts" class="h-googleplus social-icons" target="_blank">Google Plus</a></ul></div></div> 
+ </div>
+ </div>
+    
+</section> <!-- /.block -->
+  </div>
+					</div>
+								
+				
+					<!--					<div class="menu-block  col-xs-12 col-sm-12"><!--well-->
+					<!--					</div>
+					-->
+										
+										<div class="world-bank-logo col-xs-6 col-sm-4"><!--well-->
+					  <div class="region region-header-right-logo">
+    <section id="block-block-27" class="block block-block hidden-xs clearfix">
+ <div class="block-inner">
+<div class="content">
+          
+  <div class="logo"> <a href=http://www.infodev.org> <img class="img-responsive" src=http://www.infodev.org/sites/all/themes/custom/bootstrap_infodev/images/wblogo.png> </a></div> 
+ </div>
+ </div>
+    
+</section> <!-- /.block -->
+  </div>
+					</div>
+											
+					
+				</div>
+			</div>
+			<div class="col-md-9 pull-right menu-wrapper">
+								<div class="menu-block col-xs-12 col-sm-12"><!--well-->
+				  <div class="region region-header-first">
+    <section id="block-system-main-menu" class="block block-system main-menus block-menu clearfix">
+ <div class="block-inner">
+<div class="content">
+        <h2 class="block-title">header-menu </h2>
+        
+  <ul class="menu nav"><li class="first expanded dropdown"><a href="/" class="who-we-are dropdown-toggle" data-target="#" data-toggle="dropdown">WHO WE ARE <span class="caret"></span></a><ul class="dropdown-menu"><li class="first last leaf"><a href="/about">About infoDev</a></li>
+</ul></li>
+<li class="expanded dropdown"><a href="http://www.infodev.org/" class="our-work dropdown-toggle" data-target="#" data-toggle="dropdown">WHAT WE DO <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/agribusiness-entrepreneurship" class="agri">Agribusiness Entrepreneurship</a></li>
+<li class="leaf"><a href="/climate" class="climate">Climate Technology</a></li>
+<li class="leaf"><a href="/digital-entrepreneurship" class="mobile active">Digital Entrepreneurship</a></li>
+<li class="leaf"><a href="/early-stage-financing" class="a2f">Early Stage Financing</a></li>
+<li class="leaf"><a href="/women-entrepreneurs" class="women">Women&#039;s Entrepreneurship</a></li>
+<li class="last leaf"><a href="/EPIC">Entrepreneurship Program for Innovation in the Caribbean</a></li>
+</ul></li>
+<li class="expanded dropdown"><a href="/" data-target="#" class="dropdown-toggle" data-toggle="dropdown">KNOWLEDGE <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/publications" class="publication">Publications</a></li>
+<li class="leaf"><a href="/toolkits" class="toolkit">Toolkits &amp; Practical Guides</a></li>
+<li class="leaf"><a href="https://www.innovationpolicyplatform.org/" target="_blank">Innovation Policy Platform</a></li>
+<li class="leaf"><a href="http://tcdata360.worldbank.org/">Data Portal</a></li>
+<li class="last leaf"><a href="http://blogs.worldbank.org/psd/">Blog</a></li>
+</ul></li>
+<li class="expanded dropdown"><a href="/" data-target="#" class="dropdown-toggle" data-toggle="dropdown">IMPACT <span class="caret"></span></a><ul class="dropdown-menu"><li class="first last leaf"><a href="/featured-entrepreneurs" class="enterprener">Featured Entrepreneurs</a></li>
+</ul></li>
+<li class="expanded dropdown"><a href="/" data-target="#" class="dropdown-toggle" data-toggle="dropdown">NEWS <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/news" class="info-news">Media Coverage</a></li>
+<li class="last leaf"><a href="/press-releases" class="media-relese">Press Releases</a></li>
+</ul></li>
+<li class="last leaf"><a href="/videos" class="videos-part">VIDEOS</a></li>
+</ul> 
+ </div>
+ </div>
+    
+</section> <!-- /.block -->
+  </div>
+				</div>
+							
+			</div>
+          </div>
+        
+      
+    </div>
+  
+ </header>
+ <hr class="header-seperation">
+
+<div class="main-container container-fluid container">
+  <div class="row clearfix main-row">
+	 <div class="col-md-12 column large-row">
+       <header role="banner" id="page-header">
+						       </header> <!-- /#page-header -->
+        </div>
+ </div>
+
+   <div class="row clearfix row-bar">
+	   <div class="column index-block large-index col-md-12">
+	   
+	   					   
+		    <div class="row clearfix">
+				
+		             <section class="col-sm-12">
+            
+      <!---->
+      
+      
+      <a id="main-content"></a>
+                  
+                                                                
+        <div class="region region-content">
+    <section id="block-block-32" class="block block-block mobile-social-media-icons media-icons hidden-xs hidden-md hidden-lg clearfix">
+ <div class="block-inner">
+<div class="content">
+        <h2 class="block-title">Social Media</h2>
+        
+  	<a href="https://www.facebook.com/infoDevWBG" class="h-fb" title="Facebook" alt="Facebook" target="_blank">f</a><a href="https://twitter.com/infoDev" class="h-twitter" title="Twitter" alt="Twitter" target="_blank">t</a><a href="https://www.youtube.com/user/infoDevICT" class="h-youtube" title="Youtube" alt="Youtube" target="_blank">y</a><a href="http://www.linkedin.com/groups/infoDev-Information-Development-Program-3209639/about" class="h-linkedin" title="Linkedin" alt="Linkedin" target="_blank">l</a> 
+ </div>
+ </div>
+    
+</section> <!-- /.block -->
+<section id="block-views-access-to-finance-banner-block" class="block block-views access-block  col-xs-12 clearfix">
+ <div class="block-inner">
+<div class="content">
+          
+  <div class="view view-access-to-finance-banner view-id-access_to_finance_banner view-display-id-block view-access view-dom-id-8763f07d1ed993a102d7d72090ed7891">
+            <div class="view-header">
+      <h1 class="title">Digital Entrepreneurship</h1>
+<div class="acess-menu link"><ul class="menu">
+ <li class="first leaf" style="display: none;"><a id="intro" href="#zone-intro">Intro</a></li>
+<li class="last leaf"><a id="highlights" href="#zone-highlights">Highlights</a></li>
+<li class="leaf"><a id="Publications" href="#zone-resources">Publications</a></li>
+<li class="leaf"><a id="donors" href="#zone-donors">Donors</a></li>
+</ul>
+</div>
+    </div>
+  
+  
+  
+      <div class="view-content">
+                <div class ="row clearfix">  
+             <div class="views-row views-row-1 views-row-odd views-row-first views-row-last col-xs-12">
+      
+  <div class="views-field views-field-field-global-blurb">        <div class="field-content desc views-field-content">Internet and mobile technologies are powerful tools for creating high-value jobs and strengthening social inclusion. The Digital Entrepreneurship Program supports the growth of competitive mobile applications industries in emerging and frontier markets. The program is scaling Mobile Application Labs (mLabs)—incubation facilities and innovation hubs for digital entrepreneurs—in Kenya, South Africa, and Senegal.</div>  </div>  
+  <div class="views-field views-field-edit-node">        <span class="field-content"></span>  </div>  </div>
+          </div>
+                
+          
+          
+             
+    </div>
+  
+  
+  
+  
+  
+  
+</div> 
+ </div>
+ </div>
+    
+</section> <!-- /.block -->
+<section id="block-stream-map-get-stream-map" class="block block-stream-map map-block col-xs-12 clearfix">
+ <div class="block-inner">
+<div class="content">
+          
+  <div class="view map-content">
+				<div class="view-content">
+					<div class="row clearfix">
+						<div class="views-row views-row-1 views-row-odd views-row-first col-xs-12 col-sm-12 col-md-8 ">
+							<div class="views-field views-field-map ">
+								<!--<iframe frameborder="0" height="367" width="100%" src="http://www.infodev.org/map.php?mapid=&height=347&width=632"></iframe>-->
+                 <div class="stream-map"><div class="view view-homepage-map view-id-homepage_map view-display-id-block_1 view-dom-id-5c7f825ab8ac5abfe2865aa827769401">
+        
+  
+  
+      <div class="view-content">
+                <div class ="row clearfix">  
+           <div id="leaflet-map-297596551" style="height: 400px"></div>
+          </div>
+                
+          
+          
+             
+    </div>
+  
+  
+  
+  
+  
+  
+</div></div>
+
+							</div>
+						</div>
+						<div class="views-row views-row-2 views-row-even views-row-last col-xs-12  col-sm-12 col-md-4">
+							<div class="views-field views-field-header">
+								<h3>Mobile Application Labs (mLabs)</h3>
+							</div>
+							<div class="views-field views-field-content">
+								<p><p>
+	mLabs are regional incubation facilities for mobile software entrepreneurs that offer physical work spaces, state-of-the-art equipment and testing facilities, business skills training, and access to early-stage finance through investor networks. Explore the map to learn more about mLabs and local innovation hubs (mHubs).</p>
+</p>
+							</div>
+							<!--<div class="views-field views-field-link link">
+								<a href="http://www.infodev.org/map.php?render=media-popup&mapid=">View full map</a>
+							</div>-->
+						</div>
+					</div>
+				</div>		
+			</div> 
+ </div>
+ </div>
+    
+</section> <!-- /.block -->
+<section id="block-views-bbbb-block-1" class="block block-views Highlights highlights-content highlight-block  col-xs-12 clearfix">
+ <div class="block-inner">
+<div class="content">
+        <h2 class="block-title">Highlights</h2>
+        
+  <div class="view view-bbbb view-id-bbbb view-display-id-block_1 columns highlights-content view-dom-id-7cac7b30eda979fdb5d3c6151a75fb12">
+        
+  
+  
+      <div class="view-content">
+                <div class ="row clearfix">  
+             <div class="views-row views-row-1 views-row-odd views-row-first col-sm-6 col-xs-12">
+      
+  <div class="highlights-media views-field views-field-image">        <span><a href="http://www.infodev.org/articles/evolution-mlab-innovating-and-iterating-help-south-african-entrepreneurs"><img typeof="foaf:Image" class="img-responsive" src="http://www.infodev.org/sites/default/files/styles/access_to_finance/public/highlight_4.jpg?itok=5xzft4uN" width="454" height="302" alt="mLab offices in Tshwane, near Pretoria, South Africa’s capital. Photo © mLab SA" title="mLab offices in Tshwane, near Pretoria, South Africa’s capital. Photo © mLab SA" /></a></span>  </div>  
+  <div class="views-field views-field-field-global-blurb">        <div class="field-content"><div class="column-one link">
+<h3>Article</h3>
+</div></div>  </div>  
+  <div class="views-field views-field-field-global-display-title">        <p class="field-content"><a href="http://www.infodev.org/articles/evolution-mlab-innovating-and-iterating-help-south-african-entrepreneurs ">Evolution of an mLab: Innovating and Iterating to Help South African Entrepreneurs</a></p>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even col-sm-6 col-xs-12">
+      
+  <div class="highlights-media views-field views-field-image">        <span><a href="http://www.infodev.org/articles/caribbean-transit-solutions-paving-way-more-efficient-caribbean-transportation-system"><img typeof="foaf:Image" class="img-responsive" src="http://www.infodev.org/sites/default/files/styles/access_to_finance/public/highlight_image_15.png?itok=f5sJKcLT" width="454" height="302" alt="Khalil Bryan collaborates with his partner, Veronica Millington (Credit: Christoff Griffith)" title="Khalil Bryan collaborates with his partner, Veronica Millington (Credit: Christoff Griffith)" /></a></span>  </div>  
+  <div class="views-field views-field-field-global-blurb">        <div class="field-content"><div class="column-one link">
+<h3>Article</h3>
+</div></div>  </div>  
+  <div class="views-field views-field-field-global-display-title">        <p class="field-content"><a href="http://www.infodev.org/articles/caribbean-transit-solutions-paving-way-more-efficient-caribbean-transportation-system ">Caribbean Transit Solutions: Paving the Way for a More Efficient Caribbean Transportation System</a></p>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd col-sm-6 col-xs-12">
+      
+  <div class="highlights-media views-field views-field-image">        <span><a href="http://www.infodev.org/articles/investors-take-notice-start-sendy-disrupts-last-mile-logistics-kenya"><img typeof="foaf:Image" class="img-responsive" src="http://www.infodev.org/sites/default/files/styles/access_to_finance/public/highlight_image_11.png?itok=cTm9w5z3" width="454" height="302" alt="Boda boda (motorcycle) delivery drivers wearing branded Sendy jackets. Photo © Sendy" title="Boda boda (motorcycle) delivery drivers wearing branded Sendy jackets. Photo © Sendy" /></a></span>  </div>  
+  <div class="views-field views-field-field-global-blurb">        <div class="field-content"><div class="column-one link">
+<h3>Article</h3>
+</div></div>  </div>  
+  <div class="views-field views-field-field-global-display-title">        <p class="field-content"><a href="http://www.infodev.org/articles/investors-take-notice-start-sendy-disrupts-last-mile-logistics-kenya ">Investors Take Notice as Start-Up Sendy Disrupts Last-Mile Logistics in Kenya</a></p>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even col-sm-6 col-xs-12">
+      
+  <div class="highlights-media views-field views-field-image">        <span><a href="http://www.infodev.org/highlights/xl-africa-boost-continents-digital-innovation"><img typeof="foaf:Image" class="img-responsive" src="http://www.infodev.org/sites/default/files/styles/access_to_finance/public/highlight_media.jpg?itok=IE5X6cVJ" width="454" height="302" alt="XL Africa entrepreneurs on stage with their mentors and representatives from the World Bank Group and implementing partners. Credit: Jacque Maritz / IMC Worldwide / World Bank Grou" title="XL Africa entrepreneurs on stage with their mentors and representatives from the World Bank Group and implementing partners. Credit: Jacque Maritz / IMC Worldwide / World Bank Grou" /></a></span>  </div>  
+  <div class="views-field views-field-field-global-blurb">        <div class="field-content"><div class="column-one link">
+<h3>Highlight</h3>
+</div></div>  </div>  
+  <div class="views-field views-field-field-global-display-title">        <p class="field-content"><a href="http://www.infodev.org/highlights/xl-africa-boost-continents-digital-innovation ">Technology Entrepreneurs See Increased Financing with XL Africa</a></p>  </div>  </div>
+  <div class="views-row views-row-5 views-row-odd col-sm-6 col-xs-12">
+      
+  <div class="highlights-media views-field views-field-image">        <span><a href="http://www.infodev.org/articles/tanzania-jamii-increasing-digital-inclusion-and-making-impact"><img typeof="foaf:Image" class="img-responsive" src="http://www.infodev.org/sites/default/files/styles/access_to_finance/public/highlight_media_0.jpg?itok=6lsQ5iFw" width="454" height="302" /></a></span>  </div>  
+  <div class="views-field views-field-field-global-blurb">        <div class="field-content"><div class="column-one link">
+<h3>Article</h3>
+</div></div>  </div>  
+  <div class="views-field views-field-field-global-display-title">        <p class="field-content"><a href="http://www.infodev.org/articles/tanzania-jamii-increasing-digital-inclusion-and-making-impact ">Tanzania: Jamii Is Increasing Digital Inclusion and Making an Impact </a></p>  </div>  </div>
+  <div class="views-row views-row-6 views-row-even col-sm-6 col-xs-12">
+      
+  <div class="highlights-media views-field views-field-image">        <span><a href="http://www.infodev.org/articles/transforming-tourism-nepal-one-trek-time"><img typeof="foaf:Image" class="img-responsive" src="http://www.infodev.org/sites/default/files/styles/access_to_finance/public/nepal_content_.jpg?itok=OdXdlJIz" width="454" height="302" alt="Kathmandu, Nepal © Curt Carnemark / World Bank " title="Kathmandu, Nepal © Curt Carnemark / World Bank " /></a></span>  </div>  
+  <div class="views-field views-field-field-global-blurb">        <div class="field-content"><div class="column-one link">
+<h3>Article</h3>
+</div></div>  </div>  
+  <div class="views-field views-field-field-global-display-title">        <p class="field-content"><a href="http://www.infodev.org/articles/transforming-tourism-nepal-one-trek-time ">Transforming Tourism in Nepal, One Trek at a Time</a></p>  </div>  </div>
+  <div class="views-row views-row-7 views-row-odd col-sm-6 col-xs-12">
+      
+  <div class="highlights-media views-field views-field-image">        <span><a href="http://www.infodev.org/articles/ghana-tech-entrepreneur-connects-farmers-global-supply-chains"><img typeof="foaf:Image" class="img-responsive" src="http://www.infodev.org/sites/default/files/styles/access_to_finance/public/highlight_image_9.png?itok=ZLfQ9UJl" width="454" height="302" alt="Douglas Adjei receiving weather tip calls from Farmerline" title="Douglas Adjei receiving weather tip calls from Farmerline" /></a></span>  </div>  
+  <div class="views-field views-field-field-global-blurb">        <div class="field-content"><div class="column-one link">
+<h3>Article</h3>
+</div></div>  </div>  
+  <div class="views-field views-field-field-global-display-title">        <p class="field-content"><a href="http://www.infodev.org/articles/ghana-tech-entrepreneur-connects-farmers-global-supply-chains ">Ghana: Tech Entrepreneur Connects Farmers to Global Supply Chains</a></p>  </div>  </div>
+  <div class="views-row views-row-8 views-row-even col-sm-6 col-xs-12">
+      
+  <div class="highlights-media views-field views-field-image">        <span><a href="http://www.infodev.org/highlights/creating-digital-markets-traders-mozambique"><img typeof="foaf:Image" class="img-responsive" src="http://www.infodev.org/sites/default/files/styles/access_to_finance/public/highlight2.jpg?itok=VOoK-qQ9" width="454" height="302" /></a></span>  </div>  
+  <div class="views-field views-field-field-global-blurb">        <div class="field-content"><div class="column-one link">
+<h3>Highlight</h3>
+</div></div>  </div>  
+  <div class="views-field views-field-field-global-display-title">        <p class="field-content"><a href="http://www.infodev.org/highlights/creating-digital-markets-traders-mozambique ">Creating Digital Markets for Traders in Mozambique</a></p>  </div>  </div>
+  <div class="views-row views-row-9 views-row-odd col-sm-6 col-xs-12">
+      
+  <div class="highlights-media views-field views-field-image">        <span><a href="http://www.infodev.org/articles/turning-youth-developers-and-developers-entrepreneurs"><img typeof="foaf:Image" class="img-responsive" src="http://www.infodev.org/sites/default/files/styles/access_to_finance/public/abdoul_slush_volkeno.jpg?itok=v5OckAop" width="454" height="302" title="Abdoul Diallo in Helsinki for Slush 2016 © Abdoul Diallo " /></a></span>  </div>  
+  <div class="views-field views-field-field-global-blurb">        <div class="field-content"><div class="column-one link">
+<h3>Article</h3>
+</div></div>  </div>  
+  <div class="views-field views-field-field-global-display-title">        <p class="field-content"><a href="http://www.infodev.org/articles/turning-youth-developers-and-developers-entrepreneurs ">Turning Youth into Developers, and Developers into Entrepreneurs!</a></p>  </div>  </div>
+  <div class="views-row views-row-10 views-row-even views-row-last col-sm-6 col-xs-12">
+      
+  <div class="highlights-media views-field views-field-image">        <span><a href="http://www.infodev.org/articles/south-africa-start-geekulcha-grows-tech-and-geek-culture-colleges"><img typeof="foaf:Image" class="img-responsive" src="http://www.infodev.org/sites/default/files/styles/access_to_finance/public/geek_culture_highlight_media.png?itok=3ELq79F-" width="454" height="302" alt="South Africa: Start-Up Geekulcha Grows Tech and ‘Geek’ Culture at Colleges" title="South Africa: Start-Up Geekulcha Grows Tech and ‘Geek’ Culture at Colleges" /></a></span>  </div>  
+  <div class="views-field views-field-field-global-blurb">        <div class="field-content"><div class="column-one link">
+<h3>Article</h3>
+</div></div>  </div>  
+  <div class="views-field views-field-field-global-display-title">        <p class="field-content"><a href="http://www.infodev.org/articles/south-africa-start-geekulcha-grows-tech-and-geek-culture-colleges ">South Africa: Start-Up Geekulcha Grows Tech and ‘Geek’ Culture at Colleges and Beyond</a></p>  </div>  </div>
+          </div>
+                
+          
+          
+             
+    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <a href="/digital-entrepreneurship/highlights" class="btn more info-button btn btn-primary">More Highlights</a>    </div>
+  
+  
+</div> 
+ </div>
+ </div>
+    
+</section> <!-- /.block -->
+<section id="block-views-highlights-block-2" class="block block-views resources-content col-xs-12 publications-block clearfix">
+ <div class="block-inner">
+<div class="content">
+        <h2 class="block-title">Publications</h2>
+        
+  <div class="view view-highlights view-id-highlights view-display-id-block_2 common-view-structure view-publications view-dom-id-f89c8a8dff7594f1aa69645955b3d4a7">
+        
+  
+  
+      <div class="view-content">
+                <div class ="row clearfix">  
+             <div class="views-row views-row-1 views-row-odd views-row-first  col-xs-12 col-sm-6">
+    <div class="row">
+  
+          <div class="resources-image views-field views-field-image col-xs-3 col-sm-5"><img typeof="foaf:Image" class="img-responsive" src="http://www.infodev.org/sites/default/files/styles/publication_listing/public/cover_-_1500px_-_internet_of_thing_-_the_new_government-to-business_platform_-_11-2017-1.jpg?itok=6dy7MaKg" /></div>    
+  <div class="views-field views-field-title link col-xs-9 col-sm-7">        <span class="field-content"><a href="http://www.infodev.org/report/internet-things-hype-reality">Internet of Things: The New Government to Business Platform</a></span>  </div>  
+  <div class="views-field views-field-field-global-sub-title">        <p class="field-content">
+	Sensors in elevators that alert government agencies to public safety risks; data from school bags to keep children safe; garbage trucks with the smarts to save cities money… The Internet of Things (IoT) will change everything. That is the conventional wisdom. We set out to look for evidence...</p>  </div>  
+  <div class="views-field views-field-nothing views-field-more col-xs-9 col-sm-7">        <span class="field-content"><a href="http://www.infodev.org/report/internet-things-hype-reality ">Read more</a></span>  </div></div>
+  </div>
+  <div class="views-row views-row-2 views-row-even  col-xs-12 col-sm-6">
+    <div class="row">
+  
+          <div class="resources-image views-field views-field-image col-xs-3 col-sm-5"><img typeof="foaf:Image" class="img-responsive" src="http://www.infodev.org/sites/default/files/styles/publication_listing/public/do_mlabs_still_make_a_difference_-_a_second_assessment_-_full_report_-_digital_entrepreneurship_program_-_infodev_2017_-_cover.png?itok=4DqfFlbP" alt="Do mLabs Still Make a Difference - A Second Assessment - Full report - Digital Entrepreneurship Program - infoDev 2017" title="Do mLabs Still Make a Difference - A Second Assessment - Full report - Digital Entrepreneurship Program - infoDev 2017" /></div>    
+  <div class="views-field views-field-title link col-xs-9 col-sm-7">        <span class="field-content"><a href="http://www.infodev.org/report/do-mlabs-still-make-difference-second-assessment">Do mLabs Still Make a Difference?</a></span>  </div>  
+  <div class="views-field views-field-field-global-sub-title">        <p class="field-content">
+	This report is a follow-up assessment from the 2014 report Do mLabs make a Difference. The report shares key findings on the impact of infoDev’s mobile application labs (mLabs). mLabs were designed as pilot projects in 2011, to provide specialized incubation and acceleration services to digital...</p>  </div>  
+  <div class="views-field views-field-nothing views-field-more col-xs-9 col-sm-7">        <span class="field-content"><a href="http://www.infodev.org/report/do-mlabs-still-make-difference-second-assessment ">Read more</a></span>  </div></div>
+  </div>
+  <div class="views-row views-row-3 views-row-odd  col-xs-12 col-sm-6">
+    <div class="row">
+  
+          <div class="resources-image views-field views-field-image col-xs-3 col-sm-5"><img typeof="foaf:Image" class="img-responsive" src="http://www.infodev.org/sites/default/files/styles/publication_listing/public/businessanalyticstoolkit_cover.png?itok=_IhwvY8_" alt="Business-analytics-toolkit-cover" /></div>    
+  <div class="views-field views-field-title link col-xs-9 col-sm-7">        <span class="field-content"><a href="http://www.infodev.org/mobile/tech-hub-business-analytics-toolkit">Business Analytics Toolkit for Tech Hubs</a></span>  </div>  
+  <div class="views-field views-field-field-global-sub-title">        <p class="field-content">
+	
+		This toolkit was made for managers of tech hubs. Dozens of tech hubs have emerged over the last few years across the globe. Managers of these innovation and entrepreneurship enablers grapple with problems that infoDev has experience with. This toolkit takes lessons that infoDev has gathered...</p>  </div>  
+  <div class="views-field views-field-nothing views-field-more col-xs-9 col-sm-7">        <span class="field-content"><a href="http://www.infodev.org/mobile/tech-hub-business-analytics-toolkit ">Read more</a></span>  </div></div>
+  </div>
+  <div class="views-row views-row-4 views-row-even views-row-last  col-xs-12 col-sm-6">
+    <div class="row">
+  
+          <div class="resources-image views-field views-field-image col-xs-3 col-sm-5"><img typeof="foaf:Image" class="img-responsive" src="http://www.infodev.org/sites/default/files/styles/publication_listing/public/mobile-bop-summary.jpg?itok=-mR_SEPy" /></div>    
+  <div class="views-field views-field-title link col-xs-9 col-sm-7">        <span class="field-content"><a href="http://www.infodev.org/sites/default/files/mobile_apps_at_the_base_of_the_pyramid_summary_report.pdf">Mobile at the Base of the Pyramid</a></span>  </div>  
+  <div class="views-field views-field-field-global-sub-title">        <p class="field-content">
+	This set of reports assesses existing mobile application (app) business models targeted at, or suitable for, people living at the base of the pyramid (BoP). The reports address specific pain points for app developers and provide practical, actionable advice. Their recommendations are specific to...</p>  </div>  
+  <div class="views-field views-field-nothing views-field-more col-xs-9 col-sm-7">        <span class="field-content"><a href="http://www.infodev.org/sites/default/files/mobile_apps_at_the_base_of_the_pyramid_summary_report.pdf ">Read more</a></span>  </div></div>
+  </div>
+          </div>
+                
+          
+          
+             
+    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <a href="/digital-entrepreneurship/publications" class="btn more info-button btn btn-primary">More Publications</a>
+
+
+    </div>
+  
+  
+</div> 
+ </div>
+ </div>
+    
+</section> <!-- /.block -->
+<section id="block-views-bbbb-block-2" class="block block-views donors-content donors-partners-block col-xs-12 col-md-6 clearfix">
+ <div class="block-inner">
+<div class="content">
+          
+  <div class="view view-bbbb view-id-bbbb view-display-id-block_2 view-dom-id-8dfec018f201dd44770d582b54fbe6a7">
+        
+  
+  
+      <div class="view-content">
+                <div class ="clearfix">
+           
+<div class="donors">
+		  <h2 class="donors-partners-title">Donors</h3>
+	<div class="donors-partners-content">
+  <div>
+      
+          <img src="http://www.infodev.org/sites/default/files/styles/donor_partner_style/public/canada_0.png?itok=4d9GRFch" alt="" title=""/>
+    </div>
+  <div>
+      
+          <img src="http://www.infodev.org/sites/default/files/styles/donor_partner_style/public/finland_-_mfa_0.png?itok=XLX_4ybb" alt="" title=""/>
+    </div>
+  <div>
+      
+          <img src="http://www.infodev.org/sites/default/files/styles/donor_partner_style/public/sweden_-_sida.png?itok=so0psemH" alt="" title=""/>
+    </div>
+  <div>
+      
+          <img src="http://www.infodev.org/sites/default/files/styles/donor_partner_style/public/norway_-_norad.png?itok=gzA1gG_z" alt="" title=""/>
+    </div>
+  <div>
+      
+          <img src="http://www.infodev.org/sites/default/files/styles/donor_partner_style/public/korea_-_ministry_of_finance_and_strategy.png?itok=HgfdSsX9" alt="" title=""/>
+    </div>
+</div>
+</div>
+          </div>
+                     
+    </div>
+  
+  
+  
+  
+  
+  
+</div> 
+ </div>
+ </div>
+    
+</section> <!-- /.block -->
+<section id="block-views-bbbb-block-3" class="block block-views donors-content partners-block col-xs-12 col-md-6 clearfix">
+ <div class="block-inner">
+<div class="content">
+        <h2 class="block-title">Partners</h2>
+        
+  <div class="view view-bbbb view-id-bbbb view-display-id-block_3 partners-list donors  view-dom-id-232373de3381f37e234506898c4bafa7">
+        
+  
+  
+      <div class="view-content">
+                <div class ="row clearfix">  
+             <div class="views-row views-row-1 views-row-odd views-row-first views-row-last col-sm-6 col-xs-12">
+      
+  <div class="views-field views-field-php">        <span class="field-content"><span class="donors-partners-no-logo">
+Nokia
+</span></span>  </div>  </div>
+          </div>
+                
+          
+          
+             
+    </div>
+  
+  
+  
+  
+  
+  
+</div> 
+ </div>
+ </div>
+    
+</section> <!-- /.block -->
+  </div>
+          </section>
+
+
+        
+           
+        </div>
+		
+		</div>
+		</div>
+		
+     </div>
+  </div>
+</div>
+
+<!--footer region-->
+  <!--<div class="footer-scroll-top"></div>-->
+  <div class="footer-first-wrapper">
+	  <div class="footer-first-block">
+		<div class="signup-close"></div>
+	    <footer class="footer-first container top-menu">
+	      <div class="row clearfix">
+	        <div class="col-md-12 column">
+	            <div class="region region-footer">
+    <section id="block-block-35" class="block block-block block-simplenews newsletter col-md-9 col-lg-12 hompe-page-newsletter clearfix">
+ <div class="block-inner">
+<div class="content">
+        <h2 class="block-title">SIGN UP FOR OUR NEWSLETTER:</h2>
+        
+  <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+  We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="//infodev.us8.list-manage.com/subscribe/post?u=ff8d197980d32ac1e98deb0b9&amp;id=c49e42689b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Your Email Address" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ff8d197980d32ac1e98deb0b9_c49e42689b" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div> 
+ </div>
+ </div>
+    
+</section> <!-- /.block -->
+  </div>
+	        </div>
+	      </div>
+	    </footer>	
+	  </div>
+  </div>
+
+
+<!--footer second region-->
+<footer class="footer-second-block">
+	<div class="footer-inner container">
+    		
+				
+			  				<div class="block block-ourwork menu-block col-xs-4 col-sm-4 col-md-4 col-lg-4">
+				
+				  <div class="block-inner">
+				 
+					  <div class="region region-footer-first">
+    <section id="block-menu-menu-who-we-are" class="block block-menu clearfix">
+ <div class="block-inner">
+<div class="content">
+        <h2 class="block-title">Who We Are</h2>
+        
+  <ul class="menu"><li class="first last leaf"><a href="/about">About infoDev</a></li>
+</ul> 
+ </div>
+ </div>
+    
+</section> <!-- /.block -->
+<section id="block-menu-menu-menu-footer-workstreams" class="block block-menu workstreams footer-area clearfix">
+ <div class="block-inner">
+<div class="content">
+        <h2 class="block-title">What We Do</h2>
+        
+  <ul class="menu"><li class="first leaf"><a href="/agribusiness-entrepreneurship">Agribusiness Entrepreneurship</a></li>
+<li class="leaf"><a href="/climate">Climate Technology</a></li>
+<li class="leaf"><a href="/digital-entrepreneurship" class="active">Digital Entrepreneurship</a></li>
+<li class="leaf"><a href="/early-stage-financing">Early Stage Financing</a></li>
+<li class="leaf"><a href="/women-entrepreneurs">Women&#039;s Entrepreneurship</a></li>
+<li class="last leaf"><a href="/EPIC">Entrepreneurship Program for Innovation in the Caribbean</a></li>
+</ul> 
+ </div>
+ </div>
+    
+</section> <!-- /.block -->
+  </div>
+				 
+				  </div>
+					
+				</div>
+			  
+			  				<div class="block block-follow-us menu-block col-xs-4 col-sm-4 col-md-4 col-lg-4">
+				
+				  <div class="block-inner">
+				
+					  <div class="region region-footer-second">
+    <section id="block-menu-menu-knowledge-menu" class="block block-menu clearfix">
+ <div class="block-inner">
+<div class="content">
+        <h2 class="block-title">Knowledge</h2>
+        
+  <ul class="menu"><li class="first leaf"><a href="/publications">Publications</a></li>
+<li class="leaf"><a href="/toolkits">Training Guides</a></li>
+<li class="last leaf"><a href="https://www.innovationpolicyplatform.org/">Innovation Policy Platform</a></li>
+</ul> 
+ </div>
+ </div>
+    
+</section> <!-- /.block -->
+<section id="block-menu-menu-impact-menu" class="block block-menu clearfix">
+ <div class="block-inner">
+<div class="content">
+        <h2 class="block-title">Impact</h2>
+        
+  <ul class="menu"><li class="first leaf"><a href="/annual-report-2015">Annual Report</a></li>
+<li class="last leaf"><a href="/featured-entrepreneurs">Featured Entrepreneurs</a></li>
+</ul> 
+ </div>
+ </div>
+    
+</section> <!-- /.block -->
+<section id="block-menu-menu-news-menu" class="block block-menu clearfix">
+ <div class="block-inner">
+<div class="content">
+        <h2 class="block-title">News</h2>
+        
+  <ul class="menu"><li class="first leaf"><a href="/news">Media Coverage</a></li>
+<li class="last leaf"><a href="/press-releases">Press Releases</a></li>
+</ul> 
+ </div>
+ </div>
+    
+</section> <!-- /.block -->
+  </div>
+				  </div>					
+				</div>	  
+			  			  
+			   				<div class="block block-about-us menu-block col-xs-4 col-sm-4 col-md-4 col-lg-4">				
+				  <div class="block-inner">    
+					  <div class="region region-footer-third">
+    <section id="block-menu-menu-videos-menu" class="block block-menu clearfix">
+ <div class="block-inner">
+<div class="content">
+        <h2 class="block-title">Videos</h2>
+        
+  <ul class="menu"><li class="first last leaf"><a href="/videos">Videos</a></li>
+</ul> 
+ </div>
+ </div>
+    
+</section> <!-- /.block -->
+<section id="block-menu-menu-menu-footer-about-us" class="block block-menu  about-us footer-area clearfix">
+ <div class="block-inner">
+<div class="content">
+        <h2 class="block-title">Work with Us</h2>
+        
+  <ul class="menu"><li class="first leaf"><a href="/job-opportunities">Job Opportunities</a></li>
+<li class="last leaf"><a href="/REOI">Request for Expressions of Interest</a></li>
+</ul> 
+ </div>
+ </div>
+    
+</section> <!-- /.block -->
+  </div>
+      
+				  </div>
+      
+				</div>	  
+			  
+		<!--copyright region-->
+			</div>
+</footer>
+
+ <div class="addthis-area"></div>
+
+
+
+
+
+
+  <script src="http://www.infodev.org/sites/default/files/js/js_MLVgtzZ1ORq9krYqkeOsRay6ou_T-0QZytivuM9tTT8.js"></script>
+<script src="http://www.infodev.org/sites/default/files/js/js_FbpwIZNwgzwEuuL4Q2HOM07BOSCY5LxL_gwSK4ohQBM.js"></script>
+  
+<!-- SiteCatalyst code version: G.6. Copyright 1997-2004 Omniture, Inc. More info available at http://www.omniture.com -->
+<script language="JavaScript" src="http://siteresources.worldbank.org/SITEMGR/Resources/WebStatsUtil.js"></script>
+<script language="JavaScript">
+<!--
+var s_pageName="";
+var s_channel="FPD InfoDev EXT";
+var s_hier1 = "FPD,FPD InfoDev EXT";
+var s_prop1 = "";
+var s_prop2 = "Not Available";  /* Author */
+var s_prop3 = "Not Available";  /* Date */
+var s_prop4 = "Not Available";  /* Topic */
+var s_prop5 = "Not Available";  /* Sub Topic */
+var s_prop6 = "Not Available";  /* Region */
+var s_prop7 = "Not Available";  /* Country */
+var s_prop8 = "Not Available";  /* DocType */
+var s_prop9 = "Not Available";  /* MDK or unique identifier */
+var s_prop10 = "Live";          /* Site Status */
+var s_prop11 = "Not Available"; /* Data Source */
+var s_prop13 = "FPD";           /* VPU */
+var s_prop16="English";         /* doc language */
+var s_prop17="English";         /* site language */
+var omnitureCookieContent= getCookieValueByName('omniture');							 
+	var s_prop18 =getVPU(omnitureCookieContent);	
+	var s_prop19 =getDutyStation(omnitureCookieContent);
+	var s_prop20 =getUserType(omnitureCookieContent);
+
+var sTitle = document.title;
+
+s_pageName = "InfoDev > " + sTitle;
+s_prop1 = sTitle;
+s_hier1 += ", " + sTitle;
+
+var s_account="wbnispfpdinfodev,wbglobalext";
+//-->
+</script>  
+  
+  
+  
+<script language="JavaScript" src="http://siteresources.worldbank.org/scripts/omniture/g9/s_code_remote.js"></script>
+<!-- End SiteCatalyst code version: G.6. -->
+<!-- AddThis Smart Layers BEGIN -->
+<!-- Go to http://www.addthis.com/get/smart-layers to customize -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5395fd762dbe0bcb"></script>
+<!--<script type="text/javascript">
+  addthis.layers({
+    'theme' : 'transparent',
+    'share' : {
+      'position' : 'left',
+      'numPreferredServices' : 4
+    },  
+    'whatsnext' : {}  
+  });
+</script>-->
+<!-- AddThis Smart Layers END -->
+ <script type="text/javascript">
+		function changeTweet() {
+			var tweets_desc;
+			tweets_desc = ""
+     //addthis_share.templates.twitter = "{{title}}  {{url}} " + tweets_desc + " via @infoDev";
+        addthis_share = {
+          passthrough : {
+            twitter: {
+              text: tweets_desc,
+               url:"{{url}}",
+              via: "infoDev"
+              
+            }
+          }
+        }
+		}
+		var loadItems = window.onload;
+		window.onload = function() {
+			if(loadItems) {
+				loadItems();
+			}
+			changeTweet();
+			
+		};
+  </script> 
+  <script type="text/javascript">_satellite.pageBottom();</script>
+</body>
+</html>

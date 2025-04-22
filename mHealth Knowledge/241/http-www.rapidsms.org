@@ -1,0 +1,232 @@
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <title>RapidSMS: A Free and Open Source SMS Framework</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RapidSMS is a free and open-source Django based framework for dynamic data collection, logistics coordination and communication, leveraging basic short message service (SMS) mobile phone technology. ">
+    <meta name="author" content="RapidSMS">
+    <meta name="keywords" content="SMS, mhealth, mobile health, python, django, open source, framework, sms applications">
+    
+    
+    <script>
+    var fills = {'defaultFill': '#EDDC4E', 'project': '#1f77b4'};
+    var homemap_data = {"NGA": {"url": "/projects/ureport/", "country": "Nigeria", "description": "U-report is a free, SMS-based system that allows young people to speak out on what's happening in communities across th", "name": "U-report", "fillKey": "project"}, "ZMB": {"url": "/projects/ureport/", "country": "Zambia", "description": "U-report is a free, SMS-based system that allows young people to speak out on what's happening in communities across th", "name": "U-report", "fillKey": "project"}, "UGA": {"url": "/projects/ureport/", "country": "Uganda", "description": "U-report is a free, SMS-based system that allows young people to speak out on what's happening in communities across th", "name": "U-report", "fillKey": "project"}, "BDI": {"url": "/projects/ureport/", "country": "Burundi", "description": "U-report is a free, SMS-based system that allows young people to speak out on what's happening in communities across th", "name": "U-report", "fillKey": "project"}, "SWZ": {"url": "/projects/ureport/", "country": "Swaziland", "description": "U-report is a free, SMS-based system that allows young people to speak out on what's happening in communities across th", "name": "U-report", "fillKey": "project"}, "COD": {"url": "/projects/ureport/", "country": "Democratic Republic of the Congo", "description": "U-report is a free, SMS-based system that allows young people to speak out on what's happening in communities across th", "name": "U-report", "fillKey": "project"}};
+    var scope = {"code": "AF", "name": "Africa", "color": "#EDDC4E", "lon": 23.961648, "scale": 0.4, "lat": -1.444463};
+</script>
+
+    <link rel="shortcut icon" href="/static/images/favicon.ico">
+    
+
+    <link rel="stylesheet" href="/static/CACHE/css/b5350bbea328.css" type="text/css" />
+
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css">
+
+
+    
+    <link rel="stylesheet" href="/static/CACHE/css/a56d0b080ff5.css" type="text/css" media="all" />
+    
+
+    
+    
+
+    
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. -->
+    <!--[if lt IE 9]>
+        <script charset="utf-8" src="/static/flat-ui/js/html5shiv.js"></script>
+    <![endif]-->
+    <script charset="utf-8" src="/static/js/libs/modernizr-2.5.3.js"></script>
+    
+    
+
+    
+    <link rel="stylesheet"
+            href="/static/scribbler/css/scribbler.css" />
+    <script type="text/javascript" charset="utf-8"
+            data-main="/static/js/main.js"
+            src="/static/scribbler/libs/require.js"></script>
+    
+</head>
+<body id="home" class="">
+    
+<div id="masthead">
+    <header>
+
+            
+    <div>
+                    <small>Version 0.21.1</small>
+            </div>
+
+
+
+        <img src="/static/images/rapidsms-logo.png" alt="RapidSMS">
+
+    <div>
+<p>Build scalable mobile services with Python</p>
+</div>
+
+
+    </header>
+</div>
+
+
+    
+        
+<div class="navbar navbar-inverse">
+    <div class="navbar-inner">
+        <div class="container-fluid">
+
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                 <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+
+            <a href="/" class="brand">
+                <img src="/static/images/rapidsms-logo-sm.png" alt="RapidSMS">
+            </a>
+
+            
+            <div class="nav-collapse collapse">
+
+                <ul class="nav">
+
+                    <li><a href="/about/">About</a></li>
+                    <li><a href="https://pypi.python.org/pypi/RapidSMS/"><i class="icon-external-link"></i> Download</a></li>
+                    <li><a href="http://rapidsms.readthedocs.org/en/develop/"><i class="icon-external-link"></i> Documentation</a></li>
+                    <li><a href="/projects/">Projects </a></li>
+                    <li><a href="/packages/">Packages</a></li>
+                    <li><a href="/community/">Community</a></li>
+                    
+                    
+                        <li><a href="/users/login/">Register/Log In</a></li>
+                    
+                   </ul>
+
+                <form id="search-form" class="span2" method="get" action="/search/">
+                    <input name="q" type="text" placeholder="SEARCH" />
+                    <i class="fui-search"></i>
+                    <input type="submit" style="display:none" />
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+    
+
+    
+    <div id="content" class="container-fluid">
+        
+        <div class="row-fluid">
+            <div class="span12">
+            
+
+<!-- Courtesy of http://codepo8.github.io/css-fork-on-github-ribbon/ -->
+<span id="fork" class="hidden-phone">
+    <a href="https://github.com/RapidSMS/RapidSMS">Fork me on GitHub!</a>
+</span>
+
+<div class="about-rapidsms row-fluid">
+
+    <div><h1>ABOUT RAPIDSMS</h1>
+    <p class="lead">
+      RapidSMS is a free and open-source framework for rapidly building mobile services for scale. RapidSMS is built with <a href="http://python.org/">Python</a> and <a href="http://djangoproject.com">Django</a> and is designed for building robust, highly customized mobile services with web-based dashboards. RapidSMS provides a flexible platform and modular components for large-scale data collection, managing complex workflows, and automating data analysis.
+    </p></div>
+
+
+</div>
+
+<div class="whats-next row-fluid">
+
+    <div>    <div class="span6">
+        <div class="tile">
+            <i class="icon-user"></i>
+            <h4>Are you an implementer?</h4>
+            <p>Explore the <a href="/projects/">Project listings</a> to see what can be done with RapidSMS (or add your own project).
+            To learn more about how to use RapidSMS in your work, read the <a href="https://www.dropbox.com/s/4opr504bllvuvz3/howtorapidsms20April2010.pdf">'How To RapidSMS'</a> implementation guide.
+            If you need help developing your project, connect with experienced <a href="/users/for-hire">RapidSMS programmers</a> that are available for hire.
+            RapidSMS may not be the best solution for your project, so be sure to check out related solutions on the <a href="/ecosystem/"></a>ecosystem page.</p>
+        </div>
+    </div>
+    <div class="span6">
+        <div class="tile">
+            <i class="icon-user"></i>
+            <h4>Are you a developer?</h4>
+            <p>Explore the <a href="/packages/">Package listings</a> to see apps and libraries you can use in your RapidSMS project (or add your own packages).
+            Check out the <a href="http://rapidsms.readthedocs.org/en/develop/">documentation</a> to get started with RapidSMS.
+            Learn how to build scalable mobile services by walking through the <a href="http://rapidsms.readthedocs.org/en/develop/tutorial/index.html">tutorial</a>.
+            To get help with RapidSMS, connect with RapidSMS developers worldwide on the <a href="http://groups.google.com/group/rapidsms">mailing list</a> or in the <a href="/community/">IRC room</a>.</p>
+        </div>
+    </div></div>
+
+
+</div>
+
+<div class="featured-project row-fluid">
+    <h2>FEATURED PROJECT</h2>
+    <div class="span6">
+        <!-- FEATURE PROJECT -->
+        
+        <h4>U-report</h4>
+        <p>U-report is a free, SMS-based system that allows young people to speak out on what&#39;s happening in communities across their country, and work together with other community leaders and policy makers for positive change. 
+U-report conducts weekly SMS messages and polls to and from a growing community of U-reporters that are complimented with regular radio programs that will broadcast stories gathered by U-report as well as newspaper articles that will publish stories from the U-report community. </p>
+        <a class="btn btn-inverse" href="/projects/ureport/">Visit project page</a>
+        
+    </div>
+    <div class="span5">
+        <!-- Map -->
+        <div class="map-container">
+            <div id="home-map" style="height: 100%; width: 100%;"></div>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+    </div>
+    
+
+    
+        <footer class="footer">
+    <div class="container-fluid">
+        <div class="row-fluid text-center">
+            <p><img src="/static/images/rapidsms-logo-footer.png" alt="Rapid SMS"></p>
+            <ul class="inline">
+                <li><a href="/about/">About</a></li>
+                <li><a href="/community/">Help</a></li>
+                <li><a href="https://pypi.python.org/pypi/RapidSMS/">Download</a></li>
+                <li><a href="http://rapidsms.readthedocs.org/en/develop/">Documentation</a></li>
+            </ul>
+            <p>&copy; Copyright 2013 - Site created by Caktus Group</p>
+        </div>
+    </div>
+</footer>
+
+    
+
+    
+        <script charset="utf-8" src="/static/js/libs/jquery.js"></script>
+        <script charset="utf-8" src="/static/flat-ui/js/jquery-ui-1.10.3.custom.min.js"></script>
+        <script charset="utf-8" src="/static/flat-ui/js/jquery.ui.touch-punch.min.js"></script>
+        <script type="text/javascript" src="/static/CACHE/js/0845f60639cf.js"></script>
+    
+    
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-83697-9']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+</body>
+</html>

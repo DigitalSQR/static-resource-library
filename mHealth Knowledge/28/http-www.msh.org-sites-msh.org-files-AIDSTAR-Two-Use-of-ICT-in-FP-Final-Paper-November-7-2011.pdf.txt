@@ -1,0 +1,2194 @@
+ 
+ 
+AIDS Support and Technical 
+Assistance Resources 
+ 
+ 
+ 
+ 
+ 
+ 
+The Use of Information 
+and Communication Technology in 
+Family Planning, Reproductive Health, and 
+Other Health Programs: 
+A Review of Trends and Evidence 
+ 
+ 
+ 
+ 
+ 
+Submitted to USAID by Management Sciences for Health 
+ 
+ 
+ 
+This document is made possible by the generous support of the US President’s Emergency Plan for AIDS Relief 
+(PEPFAR) and the US Agency for International Development (USAID) under contract No. GHH-I-00-0700068-00.  
+The contents are the responsibility of the AIDSTAR-Two Project and do not necessarily reflect the views of USAID  
+or the US Government. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The AIDSTAR-Two Project. The Use of Information and Communication Technology in Family Planning, 
+Reproductive Health, and Other Health Programs: A Review of Trends and Evidence. Cambridge: 
+Management Sciences for Health, 2011. 
+ 
+Funding for this publication was provided by the US President’s Emergency Plan for AIDS Relief (PEFAR) 
+and the US Agency for International Development under contract No. GHH-I-00-0700068-00. The 
+contents are the responsibility of the AIDSTAR-Two Project and do not necessarily reflect the views of 
+USAID or the United States Government. 
+Contents 
+ 
+Acronyms ......................................................................................................................................... iv 
+Acknowledgments ............................................................................................................................ vi 
+Executive Summary ............................................................................................................................1 
+Introduction ......................................................................................................................................4 
+Objective of This Paper ......................................................................................................................5 
+ICT for Health: Definition and Trends ..................................................................................................6 
+Elements for Success in Family Planning Programming: Summary of select ICT applications in family 
+planning, reproductive health, and other programs .......................................................................... 10 
+Element #1: Build a high-performing, well-trained staff. ....................................................................... 11 
+Element #2: Provide strong leadership. .................................................................................................. 13 
+Element #3: Communicate effectively. ................................................................................................... 15 
+Element #4: Base decisions on evidence. ............................................................................................... 18 
+Element #5: Assure contraceptive security with a strong logistics system. ........................................... 19 
+Using ICTs for Health Systems Strengthening .................................................................................... 23 
+Enabling Conditions for ICT Use and Scale-up .................................................................................... 26 
+Conclusion ....................................................................................................................................... 32 
+ 
+APPENDIX A: ICT-Related Definitions ................................................................................................ 34 
+APPENDIX B: Matrix on ICTs and Family Planning/Reproductive Health ............................................. 35 
+APPENDIX C: References and Resources............................................................................................ 36 
+ 
+Acronyms 
+ 
+AIDS acquired immune deficiency syndrome  
+AMREF African Medical and Research Foundation 
+ARV antiretroviral 
+CHMI Center for Health Market Innovations 
+CHW community health worker 
+CPR contraceptive prevalence rate 
+DGFP Directorate General of Family Planning 
+DLC distance learning center 
+eHealth Electronic Health 
+EHSDI E-Health Software Development and Implementation 
+FHI  Family Health International 
+FOOS free and open source software 
+FSN Foreign Service National 
+GAID Global Alliance for ITC and Development 
+GHI Global Health Initiative 
+HIV human immunodeficiency virus 
+HR human resources 
+ICT information and communication technology 
+ICT4D information and communication technology for development 
+IEC information, education, and communication 
+ILS integrated logistics system 
+IPPF   International Planned Parenthood Foundation 
+IRH   Institute for Reproductive Health 
+ISP Internet service provider 
+IT information technology 
+JHU CCP  Johns Hopkins University Center for Communication Programs 
+JSI   John Snow International 
+K4H   Knowledge for Health 
+KNH   Kenyatta National Hospital 
+MDG   Millennium Development Goal 
+MSD   Medical Stores Department 
+M&E   monitoring and evaluation 
+mHealth  mobile health 
+mHealthEd  mobile health education 
+MOH   Ministry of Health 
+m4RH   Mobile for Reproductive Health 
+MRS   medical record system 
+MSD   Medical Stores Department 
+MSH   Management Sciences for Health 
+NCK   Nursing Council of Kenya 
+NGO   nongovernmental organization 
+PEPFAR   Presidents Emergency Plan for AIDS Relief 
+PDA   personal digital [or data] assistant 
+PHN   population health and nutrition 
+PRB   Population Research Bureau 
+ 
+R4D   Results for Development 
+RH   reproductive health 
+SCIP   Supply Chain Information Portal 
+SDP   service delivery post 
+SMS   short message service 
+SSBCC   Strategic Social Behavior Change Communication 
+TB   tuberculosis 
+UHIN   Uganda Health Information Network 
+UNFPA   United Nations Population Fund 
+USAID   US Agency for International Development 
+VLDP   Virtual Leadership Development Program 
+WHO   World Health Organization 
+ 
+ 
+  
+ 
+Acknowledgments  
+ 
+This paper was produced by the AIDSTAR-Two Project in collaboration with the US Agency for 
+International Development (USAID) Africa Bureau. Funded by USAID’s Office of HIV/AIDS, the overall 
+objective of AIDSTAR-Two is to contribute to stronger and more sustainable, country-led HIV/AIDS 
+programs, organizations, and networks. The AIDSTAR-Two consortium, led by Management Sciences for 
+Health (MSH), includes International HIV/AIDS Alliance; Cardno Emerging Markets, USA, Ltd. (Cardno); 
+Health & Development Africa, Ltd.; Initiatives, Inc.; Save the Children Federation; and Religions for 
+Peace. 
+ 
+Willow Gerber, knowledge management officer for AIDSTAR-Two, is the author of this paper. Ummuro 
+Adano, the project’s deputy director and senior capacity building technical advisor provided valuable 
+technical input. We extend our thanks to USAID, in particular, Ishrat Z. Husain, senior health adviser, 
+Africa Bureau and Laurie Rushton, AIDSTAR-Two Contracting Officer's Technical Representative (COTR) 
+for their support, and to Peggy D’Adamo, information technology & knowledge management (IT/KM) 
+advisor—USAID Bureau for Global Health, Office of Population & Reproductive Health, for her extensive 
+technical review and useful comments. AIDSTAR-Two Project Director Sarah Johnson offered technical 
+guidance and reviewed and commented on early drafts. Elizabeth Walsh of MSH provided skilled editing, 
+and Joanna Chao helped with program support. 
+ 
+Our thanks also to the many individuals and organizations that offered their time to give critical input on 
+current technologies and relevant information and communication technology (ICT) programming 
+considerations. Their perspectives and contributions were invaluable for this document. We are 
+especially grateful to those who volunteered to be interviewed, including Peggy D’Adamo of USAID; 
+David Aylward, senior advisor, Global Health and Technology at Ashoka; Kelly L’Engle, senior technical 
+advisor, FHI 360; Josh Nesbit, CEO, Medic Mobile \+/; Dr. Solomon Orero; Jody Ranck, DrPH.; Rose Reis, 
+program officer, Results for Development Institute; Dykki Settle, HRIS Leader, CapacityPlus heath 
+informatics, IntraHealth; Dr. Adam Slote, USAID Bureau for Global Health; and Dr. Marsden Solomon, 
+regional family planning/reproductive health advisor, FHI 360 Kenya.  
+ 
+Finally, we are very grateful to the people and organizations whose ICT-related projects are featured in 
+this paper. They are pioneers in creative and useful ICT applications that are designed to improve health 
+systems and achieve health goals. We realize that there are many more people worldwide who are 
+actively involved in ICT applications for health. While time and budgetary constraints did not permit a 
+more extensive review, we would like to acknowledge them for their contributions to the field.  
+ 
+ 
+ 
+ 
+Executive Summary 
+Since 2001, the US Agency for International Development (USAID) and its partners have been working to 
+ensure that family planning and reproductive health remain a priority in the face of competing global 
+health demands. The growing field of information and communication technology (ICT) can play an 
+integral part in supporting these efforts to address family planning, reproductive health, and other 
+health needs. The term “eHealth” was coined to describe the combined use of electronic 
+communication and information technology in the health sector, but as one leading ICT scholar notes, 
+“In a broader sense, the term characterizes not only a technical development, but also a new way of 
+working, an attitude, and a commitment for networked, global thinking, to improve health care locally, 
+regionally, and worldwide by using information and communication technology” (Pagliari 2005).  
+ 
+As these new ways of working take hold, existing ICTs—particularly mobile technologies—have the 
+capacity to improve access to family planning and reproductive health information and services for 
+women, men, and youth, with the ultimate potential to better both their health status and their quality 
+of life. ICTs also have the potential to strengthen the health care workforce through education and 
+training opportunities by reaching health care workers at all levels of the system and supporting other 
+areas of the health system including health finance, health information and the logistics system for 
+vaccines, medicines, and lab supplies and equipment. 
+ 
+This paper examines the current use of ICTs to advance family planning, reproductive health, and other 
+health programs, and identifies the enabling conditions for further scale-up. The examples of ICTs at 
+work are structured around specific elements of success that were captured in the 2008 USAID-funded 
+report, Elements of Success in Family Planning Programming: (1) building a high-performing, well-
+trained staff; (2) providing strong leadership; (3) communicating effectively; (4) basing decisions on 
+evidence; and (5) assuring contraceptive security with a strong logistics system (Richey and Salem, 
+2008). 
+ 
+Examples of ICT are being applied to support or advance family planning and reproductive health programs 
+in many African countries. Examples from Ethiopia, Kenya, Rwanda, Senegal, Tanzania, Malawi and Uganda 
+are examined here, complemented by a review of efforts in Bangladesh and India as well as several virtual 
+global programs. The paper also takes a look at how digital platforms and mobile technology are being 
+integrated into the overall health systems strengthening approach. The collective review of these 
+programs illustrates the myriad ways in which technology is adapted to respond to local needs as well as to 
+support national health programs and global health initiatives such as the Millennium Development Goals, 
+the Global Health Initiative, and the President’s Emergency Plan for AIDS Relief (PEPFAR).  
+ 
+This paper identifies nine overall enabling conditions for ICT use and scale-up in family planning and 
+other health programs, as follows: 
+1.  Appropriate Infrastructure: While the ICT infrastructure in Africa has dramatically improved 
+during the last decade, the Internet is said to still be in its infancy in sub-Saharan Africa. Efforts 
+to advance broadband capacity are just beginning, and fiber optic cables have been put in place 
+around the African continent. A recent report on ICTs indicates that the next major challenge on 
+the horizon for policy makers in this region is the delivery of broadband Internet access at a 
+reasonable cost to consumers. 
+2. Cost: Health systems have competing priorities, and some people within the system consider ICT 
+a luxury, particularly the current mobile and digital versions. In addition to the costs related to 
+The Use of ICT in Family Planning and Other Health Programs: Trends and Evidence  Page 1 
+broadband Internet access, hardware and software quickly become obsolete, necessitating 
+additional investments and adding further financial burdens to already stretched health 
+budgets. Civil society organizations, nongovernmental organizations (NGOs), the public sector, 
+and other stakeholders should join forces to leverage their collective power to negotiate lower 
+rates from private sector telecom providers.  
+3. ICT Literacy: Overburdened health workers may view ICTs as just another work requirement for 
+which they must struggle to make time. Many health workers may not have received basic 
+computer training, and some from rural areas may never have used a computer. Successful 
+engagement with health workers is crucial to the integration and scale-up of ICTs in family 
+planning and reproductive health efforts, and that engagement is much easier when there is a 
+clearly perceived value and sufficient training and support. 
+4. Standards and Interoperability: The proliferation of digital and mobile ICTs has created systems 
+that, though well intentioned, are often incapable of sharing information. Research indicates the 
+need for interoperability standards in health information systems that would allow different ICT 
+applications to be shared, replicated, and scaled up. Applications based on open source, as well 
+as open standards, can further ICTs that can be more broadly shared, more effectively 
+evaluated, and more cost effective for resource-poor countries.  
+5. National Policies and Regulations: In the past, leaders did not need to put much focus on 
+telecommunications in crafting national health policies and regulations. With the exponential 
+growth in eHealth, officials and policy makers must now distinctly consider ICTs in their official 
+approaches. Many countries in Africa must also overcome the challenge of restrictive telecom 
+regulations that hinder ICT progress. 
+6. Contextual Understanding:  Sociocultural contexts shape behavior and attitudes toward family 
+planning, and much of family planning counseling takes place outside the formal health sector, 
+delivered by local community health workers (CHWs). Marrying the complexities of counseling 
+with the resources available to locally based service providers requires a focus on the needs of 
+the community members themselves, including support to adopt and adapt new technologies. 
+7. Sound Management: The influx of huge volumes of information created by ICTs presents a 
+challenge for managers who need to decide what technologies are most appropriate for their 
+staff, which are most cost effective, and which will increase productivity. Building the capacity of 
+health workers and other intermediaries to be able to effectively use, work with, manage, 
+adapt, and develop appropriate ICTs is an ongoing task. 
+8. Language: With the exception of radio and television programming, the issue of language is 
+frequently ignored in ICT programs, most of which offer very little content in local languages. 
+Improving health workers’ capacity to deliver effective family planning or other health services 
+involves providing these workers with updated information and guidance in a language they can 
+easily understand—preferably their own. 
+9. Evaluation: Many technologies look like sure successes while in the planning stage, but fail to 
+deliver what they promised when implemented. Evaluation measures impact and allows 
+corrective measures to be taken where necessary and offers opportunities for sharing lessons 
+and exchanging knowledge. 
+ 
+In the face of rapid change, many health and health systems needs remain constant: the need for 
+reliable, accessible family planning methods and services; the demand for continuing education for 
+health workers at all levels of the health system; the need to overcome gender inequities so women are 
+able to take control of their own health; and the need for reliable health information. While it seems 
+The Use of ICT in Family Planning and Other Health Programs: Trends and Evidence  Page 2 
+that technology is changing every nanosecond, the astounding pace has led to many advances in the 
+global health community, as the examples in this paper illustrate. ICTs can play an even greater role in 
+the delivery of quality health care services and the overall support of the health system, especially if the 
+scale-up of ICT interventions takes into account the conditions for success outlined in this paper.  
+The Use of ICT in Family Planning and Other Health Programs: Trends and Evidence  Page 3 
+Introduction  
+I'm beginning to sense a continuing shift towards a better understanding and appreciation 
+of appropriate technology in the information and communication technology for 
+development (ICT4D) field. People are beginning to make the right noises—local 
+ownership of technologies and tools, local content, and projects where end-users drive 
+the process among them—and as new projects emerge… I hope we'll see actions speaking 
+louder than words. 
+—Ken Banks, mobile technologist, anthropologist, conservationist.  
+Tech Awards Laureate 2009. Founder: kiwanja.net; creator: FrontlineSMS1 
+ 
+Over the last several decades, there have been continuous efforts to promote and improve family 
+planning and reproductive health, especially in the developing world. Despite these efforts, “unmet 
+need”2 is likely to grow by 40 percent in the next 15 years (United Nations Population Fund [UNFPA] 
+2011). In sub-Saharan Africa, where almost half the female population is of reproductive age, one in four 
+married women still does not have her contraceptive needs met, and the total fertility rate of 5.2 is 
+more than double the world average. The region also has the highest percent of adults ages 15-49 with 
+HIV/AIDS. This has severely hampered economic and social progress; further impeding family 
+planning/reproductive health efforts. As in many other parts of the world, significant gender barriers 
+exist in Africa that contribute to unequal power relations, limiting the ability of women to gain economic 
+freedom and improve their health status. Gender norms can present barriers to health services and 
+contraceptive use when men control household finances, women’s mobility, and decisions on family 
+health care (Foreman 2011). 
+ 
+Since 2001, USAID—through the Office of Population and Reproductive Health, the Africa Bureau, and 
+local missions—as well as the World Health Organization (WHO), and other partners, have been working 
+to reposition family planning in sub-Saharan Africa to ensure that it remains a priority in the face of 
+competing global health demands. Activities include: 
+ Identifying targeted areas for increased investment and technical support in family planning at 
+the country level; 
+ Providing leadership development training to ensure advocates and managers have the skills 
+needed to work in this new environment;  
+ Developing methodologies for National Health Accounts sub-account analysis and other 
+financial tools to support ministries of health in planning and budgeting for family planning 
+services and commodities; 
+ Improving the policy environment for private sector involvement in family planning service 
+delivery; 
+ Increasing health sector capacity by expanding the cadre of service providers, including 
+community-based distributors through training, to administer injectable contraception; 
+ Working with international and national partners in identification and dissemination of best 
+practices (USAID, 2006). 
+ 
+                                                          
+1
+ FrontlineSMS is free, open source software that turns a laptop and a mobile phone into a central 
+communications hub. Once installed, the program enables users to send and receive text messages through mobile 
+phones with groups of people. 
+2
+ “Unmet need” refers to women of reproductive age who are not practicing contraception but who do not want 
+any more births (limiting their number of children) or who want to postpone the next birth for at least two years 
+(spacing their children). 
+The Use of ICT in Family Planning and Other Health Programs: Trends and Evidence  Page 4 
+The Global Health Initiative (GHI) launched by the United States Government has an important focus on 
+family planning/reproductive health outcomes that includes the prevention of 54 million unplanned 
+pregnancies by reaching a modern contraceptive prevalence rate (CPR) of 35 percent across all GHI-
+assisted countries. Similarly, national governments and other international donors are working to 
+revitalize the focus on family planning and reproductive health and, as a result of a range of combined 
+efforts to do so, countries are in various stages of repositioning family planning/reproductive health 
+(Judice, 2011; UNC, 2010). 
+ 
+Information and communication technology (ICT) can play an integral part in addressing family planning, 
+reproductive health, HIV/AIDS, tuberculosis (TB), and many other health needs. ICT methods can be 
+used to inform and educate family planning/reproductive health program planners, local clinic staff, 
+community health workers, and other service providers, as well as clients. Appropriately applied, 
+existing ICTs—particularly mobile technologies—have the capacity to improve access to family 
+planning/reproductive health information and services for women, men, and youth, as well as to 
+increase their opportunities to more effectively engage in the economy, with the ultimate potential to 
+better both their health status and their quality of life. These technologies could also play a role in an 
+overall approach to addressing gender inequities if care is taken to purposely support and encourage 
+their use for and by women.  
+ 
+Objective of This Paper 
+Linking ICT and global health development is not a new concept, but the proliferation of ICT applications 
+over the last decade is unprecedented. Key global health documents now mention ICTs as a means to 
+support strategic development goals. The United Nations’ Millenium Development Goal number 8 (MDG 
+8) calls specifically for increased access to new technologies,3 but ICTs also have the potential to 
+advance results for the other seven MDGs. In particular, ICT applications used for family 
+planning/reproductive health efforts are critical for moving ahead on MDG 3 (promote gender equality 
+and empower women),  MDG 4 (reduce child mortality), MDG 5 (improve maternal health), and MDG 6 
+(combat HIV/AIDS, malaria, and other diseases). Program strategies aligned to support the GHI’s goal of 
+a 35 percent CPR could benefit by including an ICT 
+component across each phase of the family Fostering innovation will require 
+planning/reproductive health program cycle. There are “expand*ing+ access to existing 
+also numerous opportunities to include ICT interventions technologies and practices,” as well 
+in carrying out the seven core principles of the GHI.4 as “expand*ing+ global access to 
+According to USAID’s High Impact Practices in Family knowledge by harnessing modern 
+Planning, ICTs are recognized as recommended and information technology to narrow 
+emerging categories of high impact service delivery the “digital divide.” 
+practices based on the strength and consistency of the  
+family planning/reproductive health evidence-base (US U. S. Strategy for Meeting  
+Agency for International Development 2011). the MDGs, July 2010 
+ 
+                                                          
+3
+ MDG 8 reads: “Develop a global partnership for development,” and its sixth target is, “In cooperation with the 
+private sector, make available the benefits of new technologies, especially information and communications.” Its 
+specific indicators include: telephone lines per 100 population, cellular subscribers per 100 population, and 
+internet users per 100 population. 
+4
+ The GHI’s core principles include: implementing a woman- and girl-centered approach; increasing impact through 
+strategic coordination and integration; strengthening and leveraging key multilateral organizations, global health 
+partnerships, and private sector engagement; encouraging country ownership and investing in country‐led plans; 
+building sustainability through health systems strengthening; improving metrics, monitoring, and evaluation; and 
+promoting research and innovation.  
+The Use of ICT in Family Planning and Other Health Programs: Trends and Evidence  Page 5 
+ 
+The purpose of this paper is to examine the current use of ICTs to advance family planning/reproductive 
+health and other health programs, and to identify the enabling conditions for further ICT use and scale-
+up. The paper takes into account USAID’s Repositioning Family Planning Initiative’s three key 
+intervention areas (advocating for policy change; strengthening leadership; and improving capacity to 
+deliver services) for achieving its goals of increasing political and financial commitment to family 
+planning, supporting expanded access, and helping meet women’s stated desire for safe, effective 
+modern contraception (USAID, 2009). This paper discusses how ICT can contribute to specific elements 
+of family planning mentioned in Elements of Success in Family Planning Programming (Richey & Salem, 
+2008). The geographic focus of this paper is sub-Saharan Africa, where unmet need for contraception is 
+the highest (PRB, 2011), there is an acute shortage of healthcare providers, and although eHealth 
+initiatives are greatly increasing, they are doing so with uncoordinated systems that prevent cost 
+efficiencies and scale-up.  
+ 
+In preparing this paper, the author reviewed more than 140 relevant documents through online 
+literature searches and materials provided by interested parties. In addition, the author conducted key 
+informant interviews to enhance understanding of this broad topic and obtain further information on 
+the referenced ICT examples. 
+ 
+ICT for Health: Definition and Trends  
+There is confusing and sometimes conflicting information on what constitutes ICT. Terms such as 
+information and communication technologies (ICTs), information and communication technology for 
+development (ICT4D), electronic health (eHealth), and mobile health (mHealth) are often used 
+interchangeably. Another new term has recently emerged—mHealth education or mHealthEd—to 
+describe applications for mobile devices used primarily to support education and training for health care 
+workers. This paper uses the definition of ICT stated below; related definitions are provided in Appendix 
+A. 
+ 
+Information and communication technologies: Tools that facilitate communication and the processing 
+and transmission of information and the sharing of knowledge by electronic means. This encompasses 
+the full range of electronic digital and analog ICTs, from radio and television to telephones (fixed and 
+mobile), computers, and electronic-based media such as digital text, audio-video recording, and the 
+Internet, including Web 2.0 and 3.0, social networking and web-based communities (GAID, 2010).  
+ 
+The use of ICT throughout the world has skyrocketed in the last two decades, albeit with a prevailing, 
+significant difference in the use and scale of ICTs between the Global North and the Global South due to 
+cost, availability, accessibility, and interoperability. The growing use of ICTs in the Global South—
+eHealth in particular—demonstrates how this region is adapting relevant ICT to local contexts and 
+effectively changing standard public health practices.  
+Claudia Pagliari, a leading scholar in the ICT field, believes that eHealth is not only a worldwide technical 
+advancement but something much larger: “In a broader sense, the term characterizes not only a 
+technical development, but also a new way of working, an attitude, and a commitment for networked, 
+global thinking, to improve health care locally, regionally, and worldwide by using information and 
+communication technology” (Open Clinical, 2011). ICT is unquestionably revolutionizing the way we live 
+and work, and touching health profoundly. In short, “used effectively, ICTs have enormous potential as 
+tools to increase information flows and the dissemination of evidence-based knowledge, and to 
+empower citizens” (InfoDev, 2006). 
+ 
+The Use of ICT in Family Planning and Other Health Programs: Trends and Evidence  Page 6 
+Most people are familiar with the use of more conventional ICTs in health interventions, including radio, 
+television, computers, Internet, email, fixed land-line telephones, and fax. Some of these, such as radio 
+and television, have been used for generations with differing results to support a multitude of family 
+planning/reproductive health, HIV/AIDS, and other health programs. Health workers and health 
+organizations are familiar with myriad examples: the driver who transports contraceptives from a 
+warehouse to a clinic based on stock data emailed from a central office; the woman listening to a 
+community radio serial or soap opera designed to increase modern contraceptive use or to encourage 
+couples to openly discuss HIV/AIDS; the doctor who accesses the Internet to research family 
+planning/reproductive health protocols or how to integrate services—all these are ICT in action.  
+ICT for Sustainable Development 
+The emergence of the ICT sector is the ideal vehicle for the dissemination of informational 
+content. Currently, the community radio sector uses fax, telephone, e-mail, and cell phone to 
+support the use of radio. 
+[The] information highway is understood to originate and flow from the developed countries to 
+the developing world. But, in the past few years, information and communications technology 
+has been a pouring wave into the developing countries. 
+The developing countries have no other choice but to adopt such technologies. Those who do 
+not, risk being further marginalised. We need to jealously guard the role of broadcasting and 
+local content development, as we face the challenges of information highway and convergence 
+of technologies. Let’s ensure that information and communication are respected as human 
+rights, in the building of [the current] knowledge society. 
+ 
+“Community Radio, the Cradle of Information Technology” 
+Africa.oneworld.net 
+ 
+ 
+Of the more established ICT-based practices, radio and television use has been well tested  
+and reported, and there are numerous websites and portals dedicated to documenting their results, for 
+example Johns Hopkins University Center for Communication Programs (JHU CCP), Drumbeat, Soul Beat, 
+infoDEV, K4H, C-Hub, and Communication Initiative. Current strategic social behavior change 
+communication (SBCC) interventions use mass media in their structural-environmental models and radio 
+and television have the greatest media reach to support these efforts.  
+ 
+Radio—often called “Africa’s medium”—has been a staple ICT used for information, education and 
+communication (IEC) and SBCC efforts for decades. Successful radio programs have reported extensive 
+audience reach—frequently in the millions—and production and distribution costs are relatively 
+inexpensive. Radios create “listening communities that radically shift the nature of the public sphere” 
+and radio broadcasts can “transcend the barriers of cost, geographical boundaries, the colonial linguistic 
+heritage, and low literacy levels” (WITS, 2011). 
+ 
+There are countless examples of highly successful family planning/reproductive health-related radio 
+shows, many of which incorporate multiple ICTs in their implementation, such as when a family 
+planning/reproductive health serial program also holds call-in quizzes (by phone), and/or is recorded on 
+audiocassettes to be rebroadcast, perhaps as a means for further community outreach by local NGOs or 
+to broadcast in a local clinic. The SANYU FM radio station in Kampala, Uganda, recently adopted a 
+The Use of ICT in Family Planning and Other Health Programs: Trends and Evidence  Page 7 
+multiple ICT approach for their programming; they held a radio poll asking listeners what service 
+delivery area (health, education, security, transport, or sanitation) should be the priority. Using a new 
+tool called TRAC FM, the station solicited listener comments via short message service (SMS), discussed 
+the comments on air, and then created and posted online visualizations of the results on Facebook. Of 
+the listeners who voted, 65 percent said healthcare was the greatest concern.5 The station continues to 
+solicit listener input on a wide variety of issues. In their use of radio, SMS, and Internet, Trac FM is 
+mixing old and new technology to promote public debate and create a powerful feedback loop that 
+allows Ugandan citizens to share their views and hold their leaders accountable. 
+ 
+Television is also frequently used for family planning/reproductive health and HIV/AIDS community 
+mobilization efforts, although there are fewer televisions than radios throughout Africa. It is considered 
+an effective tool for raising awareness and distance learning. Its moving images attract and hold viewers 
+attention and “can bring abstract ideas like family planning to life and give them effective value” 
+(Munyanziza 1993).  
+ 
+Lessons learned in the use of television in the health sector include: 
+ Programming should be adapted to local contexts and cultural realities and include careful 
+preparation, pretesting, evaluation, and revision. 
+ In the case of family planning/reproductive health–related content, programs should clearly 
+explain contraceptive choices and provide viewers with information on where to seek family 
+planning/reproductive health services.  
+ The disadvantages of television include its high cost and limited access in rural and urban poor 
+settings (those that need family planning/reproductive health information the most); a limited 
+pool of knowledgeable broadcasters to support it; and its single direction communication, which 
+does not allow audience interaction (Munyanziza 1993).  
+ 
+Both radio and television will remain viable ICT tools for family planning/reproductive health, HIV/AIDS, 
+and other health issues for years to come. How they may be transformed by digital broadcasting 
+technology in sub-Saharan Africa and elsewhere remains to be seen.  
+ 
+Computers, specifically personal computers, are an extremely important technology that can be used to 
+strengthen health systems, advance health services, and 
+widely share and exchange health information. However, Now, the computer has joined the 
+there are significant areas of sub-Saharan Africa where aeroplane as the tool of choice to 
+computers are still not in use, and health clinics rarely bring modern health care to remote 
+have staff with the time or requisite skills to champion rural hospitals. Using mobile phones 
+their use in a sustainable manner. Furthermore, there is and computer, AMREF consultants 
+little ongoing support from the health system to maintain can advise doctors (often not 
+and upgrade computer equipment or software. While the specialists) in rural hospitals through 
+personal computer penetration rate in households in the audio and video links on how to 
+industrialized world is over 70 percent, in the Global handle difficult medical cases. 
+South, the rate is less than 25 percent (Ahonen & Moore, –African Medical and Research 
+2011). Although no concrete data is available on computer Foundation (AMREF) 
+access in health service settings in sub-Saharan Africa, it is  
+likely low. While computer use is frequently associated 
+                                                          
+5
+ TRAC FM is an open source platform partially built in RapidSMS and originally developed by UNICEF. Interested 
+fans can view more data visualizations of TRAC FM polls on its Facebook page and Twitter. TRAC FM Facebook’s 
+page is located at http://www.facebook.com/#!/pages/TRAC-FM/123256091082072. Their Twitter feed is at 
+http://twitter.com/#!/TracFM.  
+The Use of ICT in Family Planning and Other Health Programs: Trends and Evidence  Page 8 
+with Internet use, not all computers are connected to the Internet. Handheld devices, including mobile 
+phones, are now being used extensively for Internet access and are generally less expensive and more 
+user-friendly than desk- or laptop computers, and they do not require a constant power source. 
+ 
+Internet penetration in Africa as of April 2011 was 11.4 percent, while the world average is 30.2 percent. 
+Nigeria currently has the highest number of Internet users (44 million) across the continent (not 
+unsurprising given its large population), but only a 28 percent Internet penetration rate. In the sub-
+Saharan region, the Seychelles has the highest penetration rate, at 37 percent, and Sierra Leone has the 
+lowest at 0.2 percent, followed closely by the Central African Republic, Congo, and Niger—all at 0.3 
+percent (Miniwatts Marketing Group, 2011). Although large parts of Africa gained access to 
+international fiber bandwidth for the first time in 2009 and 2010 through submarine cables, current 
+broadband penetration in sub-Saharan Africa is less than 1 percent, making bandwidth expensive and 
+connectivity very limited. Nonetheless, remarkable telecommunication advances are currently taking 
+place throughout the region, which will have a great impact on Internet use and ICT applications. 
+ 
+New wireless ICTs are revolutionizing all aspects of life and development around the world. Previous 
+generations of ICT are being upgraded to digital platforms and open-source software use is increasing 
+transparency and operability.  
+ 
+People often associate wireless technology with mobile phones and personal digital (or data) assistants 
+(PDAs), but the number and sophistication of wireless products and services is astounding, and many of 
+these are being designed specifically to improve health information, diagnostics, and services. In 2009, 
+the interest in mobile technology for health spurred the launch of the mHealth Alliance to “harness the 
+power of wireless technologies to improve health outcomes in low- and middle-income countries.”6 The 
+numbers are indisputable: there are now more than 5 billion wireless subscribers worldwide, and more 
+than 70 percent of them live in low- and middle-income countries. Commercial wireless signals cover 
+more than 85 percent of the global population, providing a much greater reach than the electrical grid 
+(WHO 2011).  
+ 
+Wireless technology does not rely on fixed telephone landlines, which are uncommon in many places 
+throughout Africa. In 2009, sub-Saharan Africa had more than 300 million wireless subscribers and the 
+mobile phone coverage was at 60 percent (Aker & Mbiti 2010). Beyond what wireless technology can do 
+for the end-user, it also provides significant revenue for governments; between 2000 and 2012, sub-
+Saharan governments will receive US$71 billion in tax revenues from the wireless industry (Wireless ICT 
+Task Force 2010). 
+ 
+mHealth, a more recent ICT that is based on digital and mobile capability, is now at the forefront of 
+eHealth discourse because of its potential to transform information and knowledge exchange using 
+wireless technology. There are multiple examples of mHealth initiatives worldwide, including data 
+collection, supply chain management, health financing, treatment adherence support, health 
+information messaging, diagnostic support services, and client helpline services. Certain applications can 
+be integrated in a single program so a health worker can use the same mobile phone to do multiple 
+tasks, such as accessing diagnostic support and training, collecting and sending data for epidemiological 
+surveys, and updating patient records. Available evidence on the use of mHealth tends to be at the 
+proof-of-concept stage only and very little formal evaluation has been conducted to date. With 
+insufficient large-scale studies on eHealth and mHealth available to determine their relevance, 
+applicability, and cost-effectiveness, it is difficult for sub-Saharan governments to determine related 
+                                                          
+6
+ The mHealth Alliance original founding partners include the UN Foundation, the Rockefeller Foundation, and the 
+Vodafone Foundation. Additional partners include the GSMA, PEPFAR, and Hewlett Packard. 
+The Use of ICT in Family Planning and Other Health Programs: Trends and Evidence  Page 9 
+health investment priorities (infoDev 2006). Regardless, compelling work is being done and it is critical 
+to evaluate these experiences to develop appropriate guidelines and inform next steps.  
+ 
+Elements for Success in Family Planning Programming: Summary of select ICT 
+applications in family planning, reproductive health, and other programs 
+In theory, any available ICT could be used to directly or indirectly support family planning, reproductive 
+health, and HIV/AIDS activities and help build the capacity of health providers and clients alike. An ICT 
+that “improves the ability of a person or entity to carry out stated objectives” (LaFond 2002) can be 
+viewed as an element of capacity-building and systems strengthening. The variety, availability, and the 
+cost of ICTs directly affect usefulness and uptake. How well people can use them depends on ICT literacy 
+and operability.  
+ 
+The use of ICTs in health is not merely about technology; ICTs are a way to achieve a series of desired 
+outcomes, for example: 
+ Health workers making better treatment decisions; 
+ Hospitals providing higher quality and safer care; 
+ Governments becoming more responsive to health needs; 
+ National and local information systems supporting the development of effective, efficient, and 
+equitable health systems; 
+ Policymakers and the public becoming more aware of health risks; 
+ People having better access to the information and knowledge they need to make informed 
+choices for their own better health (infoDev, 2007). 
+ 
+In this section of the paper, examples of current ICT applications are presented based on the USAID-
+funded report Elements of Success in Family Planning Programming (Richey & Salem 2008):  
+1. Build a high-performing, well-trained staff. 
+2. Provide strong leadership. 
+3. Communicate effectively. 
+4. Work for supportive policies. 
+5. Make services affordable. 
+6. Base decisions on evidence (M&E). 
+7. Assure contraceptive security with a strong logistics system. 
+8. Offer client-centered care. 
+9. Integrate services. 
+10. Make services accessible through a mix of delivery sites. 
+ 
+For ease of reference, the following ICT examples are grouped under five of these 10 elements. The 
+remaining categories (work for supportive policies, make services affordable; offer client-centered care; 
+integrate services; and make services accessible through a mix of delivery sites) have been subsumed 
+under the following five elements:   
+1. Build a high-performing, well-trained staff. 
+2. Provide strong leadership. 
+3. Communicate effectively. 
+4. Base decisions on evidence (M&E). 
+5. Assure contraceptive security with a strong logistics system. 
+ 
+The Use of ICT in Family Planning and Other Health Programs: Trends and Evidence  Page 10 
+Element #1: Build a high-performing, well-trained staff.  
+Programs can keep workers motivated and on the job by creating a good working environment, 
+matching skills with tasks, and rewarding a job well done (Richey & Salem 2008). 
+ 
+ICT can play a vital role in training and updating the knowledge and practices of health care students and 
+professionals—in nursing and medical schools, health facilities, urban settings, and particularly rural 
+areas, where it is often needed the most. For example, ICT can support healthcare workers in remote 
+hospitals, health centers and dispensaries, which are typically under-staffed and service hard-to-reach 
+populations. Family planning services can use ICT to enhance provider skills and take health care worker 
+productivity to the next level, helping them to update their knowledge and also maximize their direct 
+interaction with patients. The technology already exists to deliver on-site, high-quality educational 
+opportunities to health care workers in remote and rural areas through individual handheld devices and 
+computers receiving relevant data directly from satellite feeds. 
+ 
+The following are examples of programs that use SMS, text messages, and web-based and wireless 
+eLearning platforms to build a high-performing and well-trained health staff. 
+ 
+AMREF’s Distance Learning for Nurses in Kenya and Beyond: There are 20,000 nurses in Kenya—among 
+them one registered nurse per 27,000 people. More than 85 percent of them do not have the requisite 
+diploma to be “registered nurses,” leaving them inadequately qualified to treat major diseases. The 
+number of nursing schools is insufficient for the number of applicants vying for the classroom-based 
+training; only 100 of the 20,000 nurses can qualify each year.  
+ 
+Beginning in 2005, the African Medical and Research Foundation (AMREF) and the Nursing Council of 
+Kenya (NCK) changed the traditional classroom-based teaching to a paper-based distance learning effort 
+that eventually transitioned to an “eLearning” option. This provided greatly increased opportunities for 
+nurses to get the training they needed for the registered nurses diploma online. Now, in partnership 
+with the Kenyan Ministry of Health, Accenture, and the 
+Kenya Medical Training Colleges, AMREF and NCK are using eLearning is cheaper and faster than 
+eLearning with the goal of registering 20,000 Kenyan the traditional residential program. It 
+nurses. offers an interactive mode of learning 
+ and allows students to gain IT skills. 
+Four computer-based training modules are being delivered This mode of training harnesses 
+through more than 100 eLearning centers by 400 tutors, technological advances to improve 
+reaching nurses in even the remotest parts of Kenya. Twenty- health and reduce poverty on a local 
+five nursing schools are also engaged in the program. level, and can easily be replicated 
+Although students must pay tuition to the nursing institutions across Africa. 
+where they are studying, some employers, such as Kenyatta Peter Ngatia 
+National Hospital (KNH) are now supporting their employees’ Director of Capacity Building, AMREF 
+participation in the program (ReliefWeb 2008).   
+ 
+Between 2005 and March 2011, more than 7,000 students have enrolled in the program, which is now 
+being replicated by the ministries of health in Uganda and Tanzania with AMREF’s support. Program 
+graduates working in Kenya’s Kangundo Hospital are reportedly more motivated, knowledgeable, and 
+proactive. They also have enhanced computer literacy skills that directly build their general professional 
+capacities. According to one graduate, “I *now+ interact a lot with the patients and give them more 
+attention than I used to. Even the doctors respect us. Before, we were just there to follow instructions, but 
+after seeing what we’re able to do, they listen to us and even consult us” (iheed 2011). 
+ 
+The Use of ICT in Family Planning and Other Health Programs: Trends and Evidence  Page 11 
+SpacedEd Continuing Professional Development: Scaling up health workforce education to meet the 
+overwhelming demand for more health workers generally involves tremendous resources, including 
+investments in infrastructure and training facilities, as well as recurrent costs for trainer fees and 
+program materials. Traditional classroom training often requires that participants be absent from their 
+jobs, and does not usually take into account individual learning styles and/or scheduling conflicts. In 
+response to these limitations, IntraHealth International’s CapacityPlus project is collaborating with 
+SpacedEd.com on a unique approach to delivering knowledge and training through the Internet and 
+mobile phones.  
+ 
+Spaced education is a cutting-edge learning method that combines two core psychology research 
+findings—the spacing effect and the testing effect. The spacing effect refers to the research finding 
+that information presented and repeated over spaced intervals is learned and retained more 
+effectively. The testing effect refers to the finding that long-tem information retention is greatly 
+improved by testing learners on this information. Hence, “testing is not merely a means to measure a 
+learner’s level of knowledge, but rather causes knowledge to be stored more effectively in long-term 
+memory” (IntraHealth 2011). SpacedEd.com uses spaced education methodology to deliver learning 
+content. 
+ 
+CapacityPlus will develop and test context-specific health courses, using Harvard University’s Space 
+Education platform, to deliver individualized in-service training via SMS and interactive voice response 
+on cell phones. Courses will focus on family planning/reproductive health, HIV/AIDS, maternal and child 
+health, malaria, and gender. Though currently available only in English, the platform will expand to 
+include four additional languages: French, Mandarin, Portuguese, and Spanish. Ethiopia’s Ministry of 
+Health has asked CapacityPlus to develop a course on breastfeeding for HIV-positive mothers that 
+community health workers could access by mobile phones. In Mali, CapacityPlus is developing an in-
+service course on postpartum family planning and a program monitoring family planning protocols. 
+ 
+Knowledge for Health (K4H): Eighty-three percent of Malawi’s population lives in rural areas, and thus 
+family planning/reproductive health and HIV/AIDS services are largely delivered in community health 
+centers and district hospitals located miles from rural villages. To increase access to these services, 
+Malawi’s Ministry of Health (MOH) has been working with coordinating partners to revitalize a cadre of 
+volunteer community health workers (CHWs) to bring contraceptives and family planning/reproductive 
+health and HIV/AIDS education directly to the rural population. The USAID-funded K4H pilot project 
+promotes family planning/reproductive health and HIV/AIDS information use and exchange, and aims to 
+increase access to up-to-date information on these topics through the use of district health learning 
+centers, electronic health information toolkits, and a SMS-based mobile telephone network to benefit 
+managers and service providers at the national, district, and community levels to improve family 
+planning/reproductive health and HIV/AIDS services. 
+ 
+To centralize and increase information access, District Learning Centers (DLCs) have been established 
+in district hospitals in Nkhotakota and Salima; these offer a range of resources, including print 
+materials and opportunities for face-to-face training and networking. The DLCs offer computers with 
+free access to online and CD-ROM-based learning, including standardized Malawi-specific family 
+planning/reproductive health and HIV/AIDS “toolkits.” Three Malawi-specific e-toolkits on family 
+planning, neonatal and maternal health, and youth and reproductive health have been developed by 
+technical working groups sponsored by the MOH; these include information to support the 
+implementation of national policies and standards. The working groups are responsible for keeping 
+the toolkits up-to-date. 
+The Use of ICT in Family Planning and Other Health Programs: Trends and Evidence  Page 12 
+In collaboration with Medic Mobile \+/, an SMS-based mobile telephone network was established that 
+allows community health workers to send text messages between cell phones and other devices. 
+Through the mobile network, the program alerts these health workers to new resources, training 
+opportunities, changes in protocols, and other relevant knowledge exchange and public health activities 
+in their district. 
+As a result of these efforts, 60 percent of health workers at the national level and 40 percent at the 
+district level are accessing information through the toolkits. Two DLCs are open, and 91 health 
+workers have received computer training. Seventy-seven percent of CHWs have received telephones 
+and are using SMS to report emergencies, make diagnoses, and communicate with supervisors. Many 
+have reported significant reductions in travel time and expenses due to the use of these ICTs 
+(Management Sciences for Health 2011). 
+Global Health eLearning Center: USAID’s Population, Health, and Nutrition officers (PHNs) and Foreign 
+Service Nationals (FSNs) demand current information on global health topics, but logistic and time 
+constraints frequently make such knowledge exchange a challenge. In response to repeated requests 
+from field staff for access to technical public health information, USAID’s Bureau of Global Health 
+launched the Global Health eLearning Center, which offers Internet-based courses that: 
+ Provide useful and timely continuing education for health professionals;  
+ Offer state-of-the-art technical content on key public health topics;  
+ Serve as a practical resource for increasing public health knowledge (USAID 2011). 
+ 
+There are nine global health “certificate tracks” with dozens of online courses offered in each tract. 
+More than two dozen courses relate to family planning/reproductive health, including  “Family 
+Planning 101,” “Family planning Programming—Elements of Success,” “Family Planning Legislation & 
+Policy Requirements,” “Family Planning/Reproductive Health for People Living with HIV,” 
+“Contraceptive Logistics,” and more. Subject matter experts design the courses, which can be 
+completed by users in one to two hours online. Participants can also download and print the course 
+materials for further study (USAID 2011). 
+ 
+Since its launch in 2005, participants from over 150 countries worldwide, representing USAID, its 
+cooperating agencies, and other partners have accessed the eLearning Center. The program has 
+awarded over 68,000 certificates to date for family planning/reproductive health-related courses.7  
+ 
+Element #2: Provide strong leadership.  
+Strong leadership helps programs navigate change. Good management solves operational 
+problems (Richey & Salem 2008). 
+ 
+Virtual Leadership Development Program (VLDP): In response to demand from public and private 
+health care organizations for cost-effective, practical, and accessible leadership and management 
+development, Management Sciences for Health (MSH) designed the Virtual Leadership Development 
+Program (VLDP) in 2002. As of September 2011, the VLDP—available in Arabic, English, French, 
+Portuguese, Russian, and Spanish—had been delivered to more than 2,900 participants from 379 
+health teams in 63 countries around the world, with many managers and providers in family 
+planning/ reproductive health, HIV/AIDs, and other health programs as participants. 
+ 
+                                                          
+7
+ Data provided by MSH IT and program staff in personal email communication. Sept. 2011. 
+The Use of ICT in Family Planning and Other Health Programs: Trends and Evidence  Page 13 
+The VLDP uses the Internet, a print workbook, and teamwork to strengthen the capacity of health 
+workers to overcome workplace challenges. While traditional leadership programs might call for 
+giving a few top level managers off-site training for one to two weeks or longer, the VLDP trains 
+teams of from four to 10 people virtually over the course of 13 weeks. Each team develops an action 
+plan to address a current work challenge they are facing and applies the knowledge and skills they 
+learn throughout the VLDP to improve the situation. 
+ The course cannot close before I can 
+The VLDP requires approximately four to six hours of share how much the program changed 
+individual commitment per week by participants who me. You will never know your challenges 
+can work according to their own schedules. Team until you are taught to analyze the root 
+members work independently on the VLDP website cause. It was not only about those I lead 
+with additional support from the workbook and a but also about me… 
+team of expert facilitators. They also participate in VLDP Participant Remigio Kadzviti, 
+on-site team meetings within their organizations Botswana, 2011 
+throughout the program.   
+ 
+A virtual program such as the VLDP offers a learning opportunity at a fraction of the cost of comparable 
+face-to-face training. The estimated cost per participant of implementing a 16-week VLDP is 
+US$78/week, while the estimated cost of sending one participant from an East African country to the 
+United States for a three-week training course is approximately US$1,433 per week (MSH 2010). 
+ 
+iHRIS Manage: The way health workers are managed and supported is central to the quality of the 
+health services they deliver. According to human resources (HR) management expert, Ummuro Adano, 
+“Adequate HR management capacity remains one of the critical missing factors in current efforts to 
+meet the goals of national and global health system strengthening efforts including large global health 
+initiatives” (McCaffery & Adano 2009). Recent efforts to support professionalizing HR personnel 
+throughout sub-Saharan Africa can benefit from ICT applications and tools that can help HR personnel 
+streamline management functions such as hiring, deployment, and training. The USAID-funded 
+CapacityPlus project has designed and implemented one such tool, iHRIS Manage. 
+ 
+iHRIS Manage is a free tool based on open source technology that gives health managers timely 
+information to assess HR issues and functions, and to plan and evaluate appropriate interventions. It is 
+primarily intended to help manage health care workers employed within a national ministry of health, a 
+hospital, or other large health care organization, but it can also be used by private service providers or 
+adapted to other settings.  
+ 
+To ease the heavy HR administrative burden, iHRIS  
+provides a Scanned Paper Records Module to We don't provide just software but offer a 
+“archive paper forms and letters generated and program of technical assistance and expertise 
+distributed when health workers are confirmed, to ensure that the technology is transferred 
+promoted, or transferred” (IntraHealth 2011). In effectively and serves the ability of decision-
+Kenya and Uganda, iHRIS Manage is showing makers to use data to lead and manage.  
+results, helping the central ministry’s Human CapacityPlus, 2011 
+Resources Directorate to manage the workforce 
+more efficiently while reducing costs and data 
+errors. Using the system, HR professionals are able to standardize job titles and classifications, solicit job 
+applications for open positions, assign employees to fill positions, and maintain a searchable database of 
+all employees that includes their identifying information and qualifications. Managers can also track 
+each employee's history with the organization, including their positions and salary histories, and record 
+the reason for departure when the employee leaves. 
+The Use of ICT in Family Planning and Other Health Programs: Trends and Evidence  Page 14 
+ 
+The developers believe in a “release early, release often” philosophy that encourages user feedback. 
+Within the last year, multiple new modules and software features for advanced HR management have 
+been introduced. iHRIS software now integrates with other health information systems more easily, 
+allowing health workforce data to be aggregated with health delivery information and disease statistics.  
+ 
+“One of the aspects that I’m excited about is the ability to build custom reports to facilitate health 
+worker data analysis. Although the iHRIS software installation comes with a number of standard reports, 
+the iHRIS team often receives requests for help creating custom reports. This new direction helps to 
+meet the goals of the iHRIS team to build local capacity for the iHRIS software, as well as diversify and 
+expand the iHRIS developer community,” says Kabelo Bitsang, iHRIS administrator for the Botswana 
+Ministry of Health.  
+ 
+With the addition of Translatewiki, a site that provides a large community of volunteer translators, the 
+program now also offers better support to users in the current available languages of Dutch, English, 
+Estonian, French, German, Italian, Portuguese, Brazilian Portuguese, Spanish, Swahili, and Tagalog. 
+ 
+Element #3: Communicate effectively.  
+Communication grounded in behavior theory and sensitive to local norms motivates 
+clients to seek services and helps them make good family planning choices (Richey & 
+Salem 2008). 
+ 
+A woman’s well-being and that of her family and community depend on access to quality health 
+information and education. There are many examples of ICT use for engaging, educating, and informing 
+the community about family planning/reproductive health, HIV/AIDS, and other health issues, as well as 
+the availability of related services. The programs described below use SMS and text messaging to 
+effectively reach the community. 
+ 
+Mobile for Reproductive Health (m4RH): In 2010, FHI 360's Mobile for Reproductive Health (m4RH) 
+project launched a set of SMS and text messages about eight family planning methods for mobile users 
+in Kenya and Tanzania. The nine-month pilot project began in Nairobi in collaboration with nine of the 
+city’s health clinics, including two private clinics operated by Marie Stopes International/Kenya and 
+Family Health Options Kenya, the Kenyan Planned Parenthood affiliate. The messages were developed 
+using information from evidence-based sources such as WHO’s family planning handbook for providers. 
+They conform to the standard 160-character texting limit, and were rigorously tested for user 
+comprehension. The m4RH system also provides service delivery information so users can locate clinics 
+for the family planning method of their choice. The mobile access codes that clients need to get into the 
+m4RH system are publicized on posters, palm cards, and flyers (see Figures 1 and 2).  
+  
+The Use of ICT in Family Planning and Other Health Programs: Trends and Evidence  Page 15 
+ 
+ 
+Figures 1 and 2: Sample Information Cards for m4RH  
+ 
+Ongoing research on the SMS project revealed that more than 10 percent of clients accessed 
+information on all contraceptive methods, but in both Kenya and Tanzania, the menu of natural family 
+planning methods received the highest number of hits (9.1%). Kenya’s client user numbers were 
+significantly higher than those of Tanzania (20,489 vs. 7,377), but uptake was more rapid in Tanzania, 
+where the m4RH service is offered in Swahili, the country’s local language. Although the service has yet 
+to be formally evaluated, anecdotal evidence suggests that it is quite popular with young couples and 
+youth. 
+ 
+m4RH is one of the few text messaging services in Africa designed to provide family planning 
+information and education to the general public, and anyone with a mobile phone in Kenya or Tanzania 
+can access the free service. Partners see m4RH as a 
+feasible and affordable means to deliver family We’re always talking about not knowing 
+planning/reproductive health information to large numbers how to reach youth—they are so tech -
+of people, many of whom would not normally seek such savvy now so this is a perfect way to 
+information in clinics. The expectation is that access to this reach them! 
+information will generate demand for related services. A –Dr. Marsden Solomon 
+separate FHI 360 project is now promoting m4RH among Regional family planning/reproductive  
+its HIV/AIDS peer educators and CHWs as a way to health advisor, FHI 360 Kenya 
+integrate family planning into their HIV/AIDS programs.   
+ 
+m4RH is now “earmarked for expansion and replication to cover more geographic acreage” (Mwaila 
+2011). At a stakeholder dissemination meeting in March 2011, participants recommended that the 
+platform be used to promote the services of youth-friendly centers, expand the support information for 
+service providers to improve quality of care, and to strengthen Health Management Information 
+Systems relative to commodity security. There was also a proposal to set the team up under the 
+chairmanship of the Division of Reproductive Health “to support replication, further development, and 
+institutionalization” (Mwaila 2011). With 25 million mobile phone subscribers in Kenya and more than 
+14 million in Tanzania, m4RH has significant potential for scale-up (International Telecommunications 
+Union 2011; JamiiForums 2010). 
+ 
+CycelTel™: The Institute for Reproductive Health (IRH) at Georgetown University developed CycelTel as 
+an educational and support mechanism for clients who prefer a nonhormonal modern contraceptive. 
+CycelTel is a mobile phone–based version of the well-known fertility awareness product, Cycle Beads.® 
+The developers considered the following trends to support the initiative:  
+The Use of ICT in Family Planning and Other Health Programs: Trends and Evidence  Page 16 
+ More than two-thirds of the world's 5 billion mobile phone subscribers live in developing 
+countries. 
+ Over 3 billion (of 5 billion) are short message service (SMS) users. 
+ India topped 350 million cell phone users in 2008 (as of June 2011, India has 851.7 million 
+mobile phone subscribers). 
+ The vast majority of subscribers are women and men of reproductive age. 
+ Mobile messaging services are extremely popular and growing, with mobile phone users sending 
+over 2 trillion messages annually worldwide (Puleio 2011). 
+The proof-of-concept testing in India used Frontline SMS–based delivery of the Standard Days Method, 
+where 500 women subscribed to the service with SMS on the first day of their menses and then received 
+daily follow-up text messages indicating fertility status. The Standard Days Method has been found to be 
+over 95 percent effective in avoiding unplanned pregnancy and is recognized as an “evidence-based 
+practice” by WHO. An additional menu-based service allowed women to receive information via SMS on 
+alternative family planning/reproductive health methods (with an emphasis on the importance of 
+healthy timing and spacing of pregnancies), STI/HIV prevention, condom use, and counseling and testing 
+information, as well as to connect to local health clinics. A helpline number for individual phone 
+consultation was also available (Bhavsar for MobileActive.org 2010). As the project develops, women 
+and men will be able to access answers to their questions about the Standard Days Method and other 
+RH issues via SMS.  
+Voxiva, Inc. is the technology provider for CycleTel, whose application has significant potential to be 
+scaled up across many countries and in different 
+languages. The application is able to handle a high “In light of the high unmet need for family 
+volume of users and messages—possibly reaching planning and reproductive health 
+millions of people based on demand. According to the information, there is the significant 
+Institute for Reproductive Health, “Voxiva's system is potential to help women avoid pregnancy 
+able to send as many as 200 SMS messages per and improve their reproductive health by 
+second and has proven ability to support expanding providing them with timely, actionable, 
+messaging and data needs as projects scale. Data personalized information through SMS.” 
+collection occurs in real time and is stored in one –Institute for Reproductive Health 
+central database, accessible to researchers and Georgetown University 
+project managers at any time from any personal 
+computer connected to the Internet” (Devries 2009).  
+Preliminary feasibility study results indicate that CycleTel w ould “fit well within typical mobile phone use 
+and SMS habits in the study areas, and that women have significant interest in applying SMS to use the 
+Standard Days Method and receiving related RH information” (Devries 2009). Other relevant findings 
+included: 
+ Messages should be precise and non-technical. 
+ Participants definitely preferred text rather than voice messages. 
+ The phrase “fertile day” was perceived as degrading to women.  
+ Participants in the study showed a preference for phrasing "safe/unsafe day" rather than "you 
+can/cannot get pregnant today" to protect privacy—confidentiality is an issue, even when cell 
+phones are individually owned. 
+ There was a preference for messages only on unsafe days and for minimal information about 
+length of fertile window (only when it begins/ends). 
+The Use of ICT in Family Planning and Other Health Programs: Trends and Evidence  Page 17 
+ Messages should be Hindi words spelled with Roman alphabet (“Hinglish”)—researchers 
+suggest assessing the feasibility of sending messages in languages based on the non-Roman 
+alphabet.  
+ Half of the male respondents thought both partners should receive messages. 
+ People are willing to pay for a monthly service. 
+ 
+These findings are being used to refine the CycleTel application and the service will be expanded in India 
+and possibly adapted for other countries. 
+ 
+Element #4: Base decisions on evidence.  
+Research, monitoring, and evaluation yield important information to guide decision-
+making, and these activities need not be expensive (Richey & Salem 2008).  
+ 
+Monitoring and evaluation (M&E) is a core component of sound program design and management and is 
+essential in advancing family planning/reproductive health, HIV/AIDS, and other health-related goals. 
+Information acquired through appropriate research and M&E allows program staff to see how well a 
+project is working, provides vital information to make well-informed decisions about performance, helps 
+staff plan activities based on evidence, and helps determine whether projects are on track to meet 
+desired goals. It also reveals if systems are in place and working effectively and, ultimately, whether a 
+program is well established in the target community. Monitoring and evaluation can be used to help 
+strengthen and institutionalize programs, shape funding decisions, and contribute to a global 
+understanding of “what works” (Adamchak 2000). 
+ 
+The following two examples cite interventions using mobile collection tools to facilitate M&E and 
+research efforts. 
+ 
+Last 10 Kilometer (L10K): John Snow International’s (JSI’s) Last 10 Kilometer (L10K) Project is using 
+DataDyne’s EpiSurveyor8 (a free web-based mobile phone data collection software) in a program that 
+allows field researchers in more than 115 communities in four regions of Ethiopia to collect critical data 
+to help strengthen the bridge between households, communities, and the government’s flagship Health 
+Extension program. The effort aims to “mobilize families and communities to more fully engage to 
+improve household and community health practices and ultimately improve key reproductive, maternal, 
+neonatal and child health outcomes.” L10K beneficiaries include approximately 14.5 million people, 
+including 2.6 million children under five, and 3.5 million women of reproductive age (John Snow 
+International 2011).  
+ 
+EpiSurveyor in Senegal: In 2008, the Senegal Ministry of Health, in partnership with WHO, improved M&E 
+health data collection by using mobile ICT. They gave 20 CHWs in 10 districts PDAs loaded with EpiSurveyor 
+and trained them on its use. During a six-month pilot project, with PDAs in hand, the CHWs visited 90 
+health posts each month. They carried out an 82-question survey on basic supervisory data and entered 
+their responses in real time into EpiSurveyor. The data was then sent electronically to the district level, 
+                                                          
+8
+ EpiSurveyor is a web- and mobile phone-based tool that makes it simple to collect public health and other data on 
+mobile phones. Usable on common mobile phones available in every country, as well as PDAs and a variety of 
+smartphones, EpiSurveyor is a simple, no-cost tool that requires only basic word processing and cell phone skills to 
+use. Survey forms can be downloaded and modified, and data entered and synchronized. Recent releases of 
+EpiSurveyor include automated analysis in charts and graphs and reporting by email and upload of data via SMS. 
+EpiSurveyor is now the most widely adopted open source mobile health software in the world and has been 
+officially established as an electronic data collection standard by WHO.  
+The Use of ICT in Family Planning and Other Health Programs: Trends and Evidence  Page 18 
+where it was analyzed and then sent on to the MOH, where it was synthesized and included with reports 
+from other districts. The pilot clinics using PDAs showed an improvement in 67 percent of health 
+indicators. In one district, data that would previously take a full day to compile was gathered in one hour. 
+The district saw a 500% increase in infant vaccinations, and an increase of 10,000 vitamin A tablets ordered 
+after data gathered by the survey indicated a shortage. Timely data processing allowed health officials to 
+reallocate their budgets to promptly respond to identified needs (Ranck 2011). 
+ 
+Relevant data from the pilot study indicated that health facilities in the pilot districts had a serious 
+shortage of partograms, a basic birthing tool. The low-cost partogram is used by midwives to monitor 
+labor to ensure safe deliveries. The EpiSurveyor-collected data allowed the MOH to identify that only 55 
+percent of the surveyed districts had partograms. Based on this information, the MOH increased 
+distribution of partograms and asked field workers to encourage midwives to use the tool for every 
+delivery. Follow-up surveys noted the midwives needed training to use the partograms effectively, so 
+necessary guidance was initiated. Subsequent EpiSurveyor information showed that partogram use 
+during labor increased on average by 28 percent in the 10 pilot regions compared to only a one percent 
+increase in use in areas outside the study (WHO 2011). 
+ 
+Element #5: Assure contraceptive security with a strong logistics system.  
+A strong logistics system and a long-term plan for contraceptive security ensure that a 
+variety of methods, and the supplies and equipment to provide them, are always available 
+(Richey& Salem 2008). 
+ 
+Supply chain management systems in many countries throughout Africa are using eHealth and mHealth 
+to transmit information “between medical dispensaries, logistics management units, local pharmacists, 
+and patients to increase efficiency and fight against drug counterfeiting” (Vital Wave Consulting 2011). 
+Required skills for any senior contraceptive supply chain advisor now include knowledge and experience 
+with specific ICT for supply chain management and applications (e.g., software development and 
+automation of logistics management information systems, use of mobile technologies for supply chain 
+reporting, ordering, and monitoring), as well as capacity-building and organizational development for 
+supply chain management (eTransformAfrica 2011). 
+ 
+The following interventions use ICT to facilitate contraceptive security through strong logistic systems. 
+ 
+Bangladesh Supply Chain Information Portal: USAID has been supporting efforts to strengthen the supply 
+chain management system in Bangladesh to ensure family planning/reproductive health commodity 
+security for many years. While advances have been made, problems still hinder the continuous availability 
+of reproductive health commodities. Since the fall of 2009, the USAID-funded Strengthening 
+Pharmaceutical Systems (SPS) Program has provided technical assistance to the country’s Directorate 
+General of Family planning (DGFP) and other national stakeholders to improve procurement management 
+for reproductive health commodities, build up the existing distribution and management information 
+systems, and increase local capacity to strengthen health systems overall. This support has resulted in 
+the Government of Bangladesh streamlining procurement, which led to the World Bank’s approval of 
+commodities amounting to US$63 million. 
+ 
+ 
+ 
+ 
+ 
+ 
+The Use of ICT in Family Planning and Other Health Programs: Trends and Evidence  Page 19 
+ 
+  
+ Figure 3: Screenshot of Bangladesh SCIP’s Procurement Tracker 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The DGFP Supply Chain Information Portal helps ensure contraceptive availability in Upazila 
+and at the field level, which eventually will help reduce unwanted pregnancies and 
+population growth—steps toward reaching the relevant MDGs. 
+The DGFP’s new Supply Chain Information Portal (SCIP) is key to the improved procurement 
+management system, offering relevant and timely information for informed decision-making .9 
+ 
+The Procurement Tracker (seen in Figure 3) allows government officials to track the status of the 
+procurement process every step of the way, which helps prevent delays while also promoting 
+transparency. The SCIP also provides information on current DGFP tenders and procurement 
+opportunities, tender documentation, results of past tenders, a news page, and a photo gallery 
+(http://dgfplmis.org/). The portal is unique in the government sector for its ability to allow users to 
+manage data and create presentations using web-based dashboards.  
+ 
+  
+                                                          
+9
+ The SCIP received two prestigious awards at Bangladesh’s Digital Innovation Fair in July 2011. The secretary of 
+Bangladesh’s Ministry of Health and Family Welfare accepted the SCIP’s award for the best e-governance initiative; 
+in addition, the portal won the runner-up award for national digital innovation in the e-health category, making it 
+eligible for the 2011 World Summit Award—the global initiative to promote the world's most innovative 
+information technology applications.  
+The Use of ICT in Family Planning and Other Health Programs: Trends and Evidence  Page 20 
+The ILSGateway (Tanzania): Health system performance and related family planning/reproductive 
+health outcomes are severely affected when essential supplies and contraceptives are not available on 
+demand at service facilities. Poor supply chain management causing stock-outs or surpluses produce 
+cost inefficiencies and result in poor quality of care for clients. Over the last two decades, the DELIVER 
+Project, funded by USAID, has gathered experience and expertise in contraceptive security logistics and, 
+more recently, in antiretrovirals and anti-malarial drugs. DELIVER staff have done so with a core focus on 
+using appropriate ICTs.  
+ 
+A large volume of data gets generated in logistics systems, and having a means to organize the data in a 
+visual dashboard makes it much easier for decision-makers to translate the information effectively. Vast 
+amounts of information are also produced by routine reports that are frequently difficult to summarize 
+or analyze at the central level. To respond to this “information overload” challenge, the DELIVER Project 
+in Tanzania worked with a local software developer to create a database application that allows 
+systematic data capturing and analysis at the central level. The database facilitates order processing at 
+the Medical Stores Department (MSD) and data collection on commodity use at the facility level, which 
+the MSD had not regularly collected in the past. The system is “built with remote access capacity and 
+has features that will also enable online order submission by Web-enabled facilities through the Internet 
+and provide access to data on product usage to MOH program managers” (JSI 2007). 
+ 
+In 2010, the project began working with Tanzania’s Ministry of Health and Social Welfare to develop a 
+series of technological innovations to address weaknesses in the country’s newest supply chain system, 
+the Integrated Logistics System (ILS). The ILSGateway is designed as a routine reporting system using 
+SMS text messages and USB-powered bar scanners to scan order forms.  
+ 
+Both the SMS messages and scanned report and request forms feed into a website with a user-friendly 
+dashboard interface, which provides a reporting system with greater visibility of stock levels at service 
+delivery points. This visual graphic information is intended to improve ordering and reporting rates and 
+adherence to ILS procedures. It will also empower district logistics managers to diagnose and prevent 
+chronic stock outs of contraceptive and other health commodities. ILSGateway began its pilot phase in 
+several districts in November 2010 with the following objectives: 
+1. Provide real-time stock status information on RH commodities. 
+2. Improve the timeliness and accuracy of paper-based ordering and reporting from service 
+delivery posts (SDPs). 
+3. Improve the accuracy and timeliness of deliveries to SDPs by confirming delivery arrival in real 
+time. 
+4. Allow decision-makers at all levels to monitor the regularity and spread of facility-level 
+supervision by managers at district and other levels. 
+5. Prevent widespread emergency ordering that has resulted from other reporting systems by 
+aiding districts and facilities in regular and routine ordering (JSI 2011). 
+ 
+Figure 4 presents a view of the ILSGateway website. 
+The Use of ICT in Family Planning and Other Health Programs: Trends and Evidence  Page 21 
+ 
+Figure 4: Screenshot from the ILSGateway 
+ 
+The Use of ICT in Family Planning and Other Health Programs: Trends and Evidence  Page 22 
+Using ICTs for Health Systems Strengthening 
+We’ve realized that it’s how you use this new set of tools to enact system change that 
+makes the difference. It’s about the people in the system and their roles and how they 
+relate to each other that’s most important. For ICT, mobile has the most impact because 
+it’s people-centered. It allows patients and community health workers to all of a sudden 
+be INTEGRAL to the system. This changes expectations and roles for patients and 
+community health workers in a very positive way. When someone walks 40 miles to get 
+trained, it means they want to play a particular role in the health system. Mobile tech can 
+make that happen.  
+–Josh Nesbitt 
+CEO, Medic Mobile \+/ 
+ 
+Health systems are complex and the people working within these systems require dedicated attention, skills, 
+and support in order to sustain positive health results. ICTs are currently being applied to strengthen all six of 
+the WHO health system building blocks—information, health service delivery, human resources, financing, 
+governance and leadership, and drugs/vaccines. Information systems in particular involve sophisticated 
+applications to help gather, send, analyze, store, and disseminate tremendous amounts of data from multiple 
+sources. ICTs are used in many ways, including electronic patient records, monitoring drug supplies, ordering 
+systems, budget management, and tracking disease prevalence. 
+ 
+The following are examples of digital platforms and mobile technology being used to strengthen 
+national health systems. 
+ 
+Uganda Health Information Network (UHIN): Uganda has one of the highest burdens of disease in the 
+world but also some of the best cellular telephone coverage in Africa. UHIN, launched in 2003, is a 
+wireless network built around the country's cell phone network, handheld computers, and wireless 
+servers to enable CHWs to access vital information. It makes data collection and reporting easier, 
+disseminates health information, provides learning materials, and facilitates email exchange for health 
+workers. At its start, the project equipped 700 health care providers in five districts of Uganda with PDAs 
+loaded with a mobile clinical library, including MOH 
+documents such as the Uganda Clinical Guidelines and other We received accurate HMIS data in 
+resources on HIV/AIDS treatment and care, malaria, and a timely manner, empowering us to 
+maternal and child health.  make evidence-based decisions 
+regarding resource allocation and 
+According to UHIN program staff, health workers use the PDAs response to outbreak prone 
+to collect public health data at the community level and then diseases quickly.  
+upload it along with emails they need to send to wireless –Dr. Robert Mayanja  
+access points via infrared, Bluetooth, or Wi-Fi at a rural health Rakai District Health Officer, 
+facility.10  These points transmit the data and messages over Uganda  
+the network to a Kampala-based server, which routes them to  
+the correct recipients and sends back the messages, data, and health information that clinicians need. 
+Because the technology is solar powered, health care workers are able to access and exchange 
+information in remote areas without fixed telephone lines or regular access to electricity.  
+Among the information exchanged: monthly Health Management Information System reports; disease 
+surveillance data; reports related to HIV/AIDS, tuberculosis, and malaria; and data for monitoring drug 
+                                                          
+10
+ Bluetooth, Wi-Fi, and infrared wireless technologies are commonly used for short-range wireless communication 
+between electronic devices. 
+The Use of ICT in Family Planning and Other Health Programs: Trends and Evidence  Page 23 
+usage and stocks. Additional tools for electronic data collection of non-routine sources of information—
+especially in relation to community-based health care, nutrition, and environmental sanitation 
+programs—have also been developed, and rural health facilities are using the network to capture data 
+and report to district health offices and the MOH.  
+In addition, continuing medical education for all health workers is regularly broadcast through the UHIN. 
+Three times a week, health workers receive eLearning content pertaining to diagnosis, treatment, and 
+prevention of major health problems on their PDAs. They also receive news from mainstream media on 
+a daily basis through the network. 
+A 2010 study showed that UHIN reduced the cost of managing health information by 25 percent 
+compared to the “cumbersome paper-based manual systems that are delay-prone, less reliable, and in 
+some cases incomplete” (NSJ 2010). Following the end of the initial project, the MOH of Uganda 
+incorporated UHIN into its comprehensive strategy for a National Health Information System, and the 
+districts continue to use the system to gather, report, and deliver vital health information and data.  
+National Medical Record System in Rwanda: A key element for improving health service quality is the 
+consistent use of appropriate medical records aligned with a strategic health information system. 
+Though multiple electronic medical record systems exist in the private sector, there is a trend 
+supporting national electronic records taking place throughout Africa. 
+ 
+As part of the country’s Vision Figure 5: Rwanda's eHealth Architecture  
+2020 effort, the Rwandan 
+government implemented a 
+comprehensive national 
+medical record system for use 
+in all their health facilities 
+using TraCNet, Open MRS 
+(medical record system), and 
+the National Health 
+Information System. The 
+system consists of programs 
+for tracking patient records, 
+monitoring infectious diseases, 
+managing drug and supply 
+chains, telemedicine 
+communications with health 
+professionals in remote areas, 
+and eLearning and training for 
+health care workers (Fasier, 
+May & Wanchoo 2008). The 
+system will need to address 
+patient record security and 
+privacy as part of its quality 
+control mechanism, an area of particular sensitivity for family planning/reproductive health and 
+HIV/AIDS clients.  
+This national initiative requires substantial technical expertise by local technicians, data managers, and 
+programmers to implement, manage, and further develop software according to Rwanda’s clinical 
+needs. To that end, the International Development Research Centre funded a technical mentorship 
+program to train Rwandan programmers as local software developers for OpenMRS. 
+The Use of ICT in Family Planning and Other Health Programs: Trends and Evidence  Page 24 
+The E-Health Software Development and Implementation (EHSDI) training course is operated primarily 
+by U.S.-based Partners In Health and the Rwandan Information Technology Authority.11 At the outset, 10 
+recent graduates of top Rwandan universities were selected after a rigorous written exam and 
+interview. The three EHSDI mentors supporting the graduates are experienced computer programmers, 
+and the program also includes guest lecturers from Rwanda and other countries. In keeping with the 
+trend to share learning experiences openly, the EHSDI team also created a blog to document their 
+process (Partners in Health 2011). 
+M-Pesa: In 2005, Nick Hughes, managing director at Signal Point Partners and Susie Lonie, executive 
+head of Mobile Payments with Vodacom in South Africa, started a mobile money initiative in Kenya 
+called M-Pesa (M for mobile, Pesa for “money” in Swahili). This joint venture between Safaricom, the 
+leading mobile telecommunications company in Kenya, and Vodafone allows people to transfer money, 
+pay bills, and save money by using a mobile phone, all without a bank account. M-Pesa’s mobile phone 
+application also allows users to purchase airtime. Since its launch in late 2007, M-Pesa has attracted 
+more than 13.8 million subscribers and has a network of 24,000 outlets. By 2009, 40 percent of Kenyans 
+had used the service to send and receive money. The cumulative value of the money transferred via M-
+Pesa since its inception is over US$3.7 billion—almost 10 percent of Kenya’s annual GDP (Safaricom 
+2009). M-Pesa has inspired other mobile money services around the globe, and these “m-money” 
+systems have recently transitioned from a pure money transfer system into a payment platform that 
+allows NGOs, schools, hospitals, and firms to send and receive payments. 
+In Kenya, Tanzania, and Afghanistan, M-Pesa directly helps improve health care by providing families 
+“quick cash” necessary to pay for transportation to clinics or hospitals. In Tanzania, M-Pesa works with 
+the Comprehensive Community Based Rehabilitation Center to transfer money quickly and directly to 
+transportation companies and allows families to pay back the small transportation loan at a later date. 
+In Kenya, it supports the Changamka Medical Smartcard, allowing women with limited access to money 
+to pay for maternity care (Kim 2011).  
+Center for Health Market Innovations (CHMI): The Center for Health Market Innovations (CHMI) is a 
+global network of partners that collects, analyzes, and disseminates information about Health Market 
+Innovations in developing countries with the goal of accelerating the diffusion of successful models. The 
+research team consists of eight partner organizations in 16 countries that look for relevant and 
+innovative health programs to document and include in an innovators’ database available on an open 
+Internet platform at http://healthmarketinnovations.org. Highlighted activities can be implemented by 
+governments, NGOs, social entrepreneurs, or private companies—as long as they have the potential to 
+improve the way health markets operate.  
+Beyond the core team, CHMI relies on the website’s users (which include program implementers and 
+social entrepreneurs in the for‐profit and nonprofit private sectors, donors and investors, government 
+policy makers and practitioners, and researchers from academic institutions) to contribute possible 
+market innovation program information and to update the status of existing entries. The site has 
+detailed information on more than 1,000 programs in more than 100 countries and an interactive 
+database that can present comparable, visual information about the expanding number of programs. 
+Users and contributors can “map” global innovations by program type, health focus, legal status, and 
+target population. Registered users can also directly connect with people running the programs featured 
+                                                          
+11
+ The EHSDI course is now in its second year of implementation in Rwanda, where it is run in partnership with the 
+Rwanda Development Board. The goal of the course is to produce local software developers with the necessary 
+knowledge and skills to develop electronic medical record software, specifically to create modules for OpenMRS. 
+The course is nine months long (the first year it was 11 months).  
+The Use of ICT in Family Planning and Other Health Programs: Trends and Evidence  Page 25 
+in the database to learn more and to find implementing partners in their own countries. They can 
+dialogue with the extended community on CHMI’s blog and download the whole database to use—with 
+appropriate attribution, of course. CHMI’s database is a significant tool for researchers studying the 
+private sector’s role in the health marketplace and for donors and investors looking to identify potential 
+programs to fund.  
+ “CHMI uses its rich information on programs around the world to identify and analyze emerging 
+innovative models that could be scaled-up or adapted in other countries. CHMI works to better 
+understand which emerging program models truly have the potential to improve health and financial 
+protection in health markets” (Center for Health Market Innovations 2011). CHMI is coordinated by the 
+Results for Development Institute with funding from the Bill & Melinda Gates Foundation and the 
+Rockefeller Foundation.  
+ 
+Enabling Conditions for ICT Use and Scale-up  
+As stated previously, many conventional ICTs (radio, television, fixed phones, and fax) have been used 
+for generations and are fully integrated into family planning/reproductive health, HIV/AIDS, and other 
+health interventions. Their use depends on the reliability of an electrical power supply, fixed telephone 
+lines, the necessary resources to pay electric bills, and a comfort level for routine use. Personal 
+computers, with Internet access and email, also rely on a stable power supply and are currently less 
+available in remote areas for several reasons, including lack of appropriate infrastructure, cost, and 
+limited computer literacy.  
+ 
+These barriers to use also apply to the more current mobile and digital ICTs and are key areas that need 
+to be addressed in order to accelerate ICT development in sub-Saharan Africa.  
+Leading global health transformation expert David Aylward sums up the current state of ICTs and what 
+must happen to further advance the field of mHealth:  
+What has not happened in either the developed or developing market is taking mHealth 
+to scale or even to really big trials. Most of what is out there are small, non-sustainable 
+proofs of concept addressing specific problems, rather than large health systems. We are 
+really looking for how to support and facilitate the integration of services so that rather 
+than having a series of point solution services, like SMS to people about behavior change, 
+we get everything connected in an integrated, transformed system. This surely means 
+empowering health workers in communities with new mHealth information and devices, 
+but they need to be connected to clinics; they and the clinics (and the public) need to be 
+connected to information centers; and then all that needs to be connected into the 
+traditional health system. And we need to integrate across primary care; we cannot have 
+disease-specific silos any more.  
+So integrating those primary care services is one mission. Then integrating those kinds of 
+services into underlying healthcare systems, e-health to use the short language, is a 
+second. This means connections to labs, pharmacies, hospitals, doctors, insurance and 
+payments generally. In other words, mHeath is not going to stand by itself. It is an 
+extension of a transformed health system.  
+Getting sustainable economics under both of the above is a third challenge. Who are the 
+organizations and what are their costs and benefits? Researching and showing the health 
+The Use of ICT in Family Planning and Other Health Programs: Trends and Evidence  Page 26 
+and economic effects of these transformed approaches is a fourth. Research in a data rich 
+environment is a very different animal from the data poor situation we have today.  
+So, fundamentally, it’s those four goals that we are after.12 
+ 
+This penultimate section of this paper discusses nine overall enabling conditions for ICT use and scale-
+up: appropriate infrastructure, cost, ICT literacy, standards and operability, policies and regulations, 
+contextual understanding, sound management, appropriate language, and evaluation. 
+ 
+1. Appropriate Infrastructure: In general, the ICT infrastructure in sub-Saharan Africa has dramatically 
+improved over the last decade, however, there is still only a minimum of fixed telephone lines, which 
+offer poor service, and subscription rates to these services are stagnant.13 The primary ICT focus now is 
+broadband Internet, which requires fiber optic cables and satellites, and whose use has become central 
+to developed countries long-term economic strategies. In sub-Saharan Africa, the Internet is said to still 
+be in its infancy and efforts to advance broadband capacity are just beginning. Nonetheless, much 
+progress is being made, as illustrated in Figure 6. In 2009, undersea fiber-optic cables began connecting 
+Africa to the global communications network. The work is ongoing, and an US$1.7 billion investment for 
+fiber-optic cables brings with it radically higher volumes of potential Internet traffic. A recent report on 
+ICTs indicates that the next major challenge on the horizon for policy makers in this region is “*e+nsuring 
+that networks are capable of delivering broadband Internet access at affordable prices” (World Bank 
+2011).  
+  
+                                                          
+12
+ Personal communication. September/October 2011. 
+13
+ According to the World Bank, in 2005 almost 70 percent of fixed lines were out of service at some point in the 
+year, and the number of subscribers in 2008 was the same as it was in 2000, 1.4 subscribers per 100 people.  
+The Use of ICT in Family Planning and Other Health Programs: Trends and Evidence  Page 27 
+ 
+Figure 6: Africa's Undersea Cable Coverage 
+ 
+ “The map paints a different-from-the-usual picture of Africa. It’s not a picture of a dark continent 
+but rather a brightly lit one, lit by terabits of light capacity brought by a dozen  
+cables landing on sub-Saharan African shores either now or in the near future. Africa, the brilliant 
+continent. This also happens to be the Africa I believe in.” Steve Song 
+(http://manypossibilities.net/) 
+ 
+2. Cost: Health systems have competing priorities and some people within the system may consider ICT 
+a luxury, particularly the current mobile and digital versions. “The cost of hardware, software, telephone 
+connections, and Internet service providers (ISPs) is high in low- and middle-income countries, both in 
+absolute terms and relative to the income people have available” (K4H 2009). In addition, hardware and 
+software quickly become obsolete, necessitating additional investments in technology and adding 
+further financial burdens to limited health budgets. Using open source software can help contain costs 
+and also supports transparent efficiencies. 
+The hub for global knowledge exchange is the Internet, and access to it is very expensive throughout 
+sub-Saharan Africa compared to the Global North, a factor inhibiting broader use. High-end volumes of 
+information now require a broadband connection to be effective, and in 2008 the median cost of a 
+broadband connection in Africa was US$92 per month, far beyond the reach for many individuals and 
+institutions. Wireless broadband technologies are causing access prices to fall, and as more operators 
+enter the market, costs should continue to decrease (World Bank 2011). Civil society organizations, 
+NGOs, the public sector, and other organized stakeholders should join forces to leverage their power in 
+numbers to negotiate lower rates from private sector telecom providers.  
+The Use of ICT in Family Planning and Other Health Programs: Trends and Evidence  Page 28 
+3. ICT Literacy: There is a severe health workforce shortage across sub-Saharan Africa. Already 
+overburdened health workers may view learning about and using ICTs as just another work requirement 
+for which they must struggle to make time. Many health workers may not have received basic computer 
+training and some from rural areas may never have used a computer.  
+ 
+Lack of experience with eHealth can sometimes result in decision makers and frontline users feeling 
+uncomfortable with its use or intimidated by ICTs that require solid computer literacy. Even in countries 
+with far more exposure and access to modern ICTs, there are still reluctant adopters. Those who did not 
+grow up in the information or digital age may not embrace the technology for a variety of reasons, 
+including a preference for face-to-face exchanges or traditional learning methods. In addition, 
+“information technology professionals who can maintain computer systems and trouble shoot problems 
+are [also] in short supply in some countries outside of capital cities,” (K4H 2009) leaving those willing to try 
+the new technologies with apprehension over how to move forward if they run into problems.  
+ 
+Because of the severe personnel shortages, health systems throughout Africa often rely on community 
+health workers to carry out basic health services and, in some cases, functions such as providing 
+injectable contraceptives. Some of these CHWs may not have more than an elementary education or 
+may have low literacy levels, which may present a challenge for adopting ICTs with mHealth or 
+mHealthEd functions or diagnosis-assistance menus that support advanced services. Programs need to 
+plan accordingly and have staff on hand at central or regional locations to answer calls directly rather 
+than offering text message instructions for CHWs in that category.  
+ 
+On the other hand, it is striking how many health workers at all levels have adopted ICT use—computers, 
+Internet, SMS messaging, and eLearning/mHealthEd. mHealth remains in a category all its own because it 
+combines the capacity of higher-end text exchange (the written word) with direct verbal exchange. 
+Successful engagement with health workers is crucial to the integration and scale-up of ICTs in family 
+planning/reproductive health, and that engagement is much easier when there is a clearly perceived value 
+as well as sufficient training and support. ICT can fundamentally change the way care is delivered, including 
+changing working practices, empowering clinicians to make decisions about patient care, providing further 
+education and information to CHWs and reducing their paper-only reporting load, and empowering 
+patients to assume more responsibility for their reproductive health. Most would find this an extraordinary 
+advancement, though some professionals may feel that the old ways they know best are being challenged. 
+This is where Pagliari’s previously mentioned remarks about a new way of working and attitudinal shifts 
+must come in to play (Open Clinical 2011) and where ICT capacity-building is crucial. 
+ 
+4. Standards and Interoperability: The proliferation of digital and mobile ICTs has created systems that, 
+though well intentioned, are frequently incapable of sharing information. To remedy this, ICT health 
+programmers are encouraging the use of free and open-source software (FOOS). Research throughout 
+the Global South indicates the need for interoperability standards in health information systems that 
+allow different health ICT applications to be shared, replicated, and scaled up. Health applications based 
+on open source, as well as open standards, ensure that they can be broadly shared and more effectively 
+evaluated; FOSS is particularly helpful in the context of cost containment for resource-poor countries.  
+ 
+Interoperability is also crucial to transparent and inclusive processes—which can be enhanced by 
+allowing the free flow of health-related information when ICT systems can be linked and are able to 
+exchange data according to an agreed set of protocols and standards. However, developing countries 
+have limited access to such standards. One of the solutions could be “open standards” that nonprofit 
+organizations make publicly available, either free or at a nominal charge. 
+The Use of ICT in Family Planning and Other Health Programs: Trends and Evidence  Page 29 
+Recognizing the need for interoperability and attaining it are two different things. As one consortium of 
+technology experts has noted, “Interoperability standards, guidelines and best practices can help 
+overcome the problem, but achieving interoperability for products and services requires a change in 
+mind set among key decision makers, product manufacturers, and service providers. Standardization is 
+an important instrument in transparent processes, and should be promoted by innovative companies. 
+The better that industry applies the processes of interoperability and standardization, the less will 
+governments need to intervene” (The World Standards Cooperation 2011). 
+5. National Policies and Regulations: In the past, health 
+“The telecommunications 
+officials did not need to put much focus on 
+regulatory environment can play a 
+telecommunications in crafting national health policies and 
+key role in fostering increased 
+regulations. Now, with the exponential growth in eHealth, 
+mobile phone adoption. State 
+officials must distinctly consider ICTs in their official 
+ownership of telecommunications 
+approaches. There are few eHealth policies in place in Africa, 
+operators distorts markets and 
+and those that do exist are not always aligned with national 
+adversely affects competition. 
+health strategies. Only three countries in sub-Saharan Africa 
+Realizing this, governments across 
+currently have eHealth as part of their national health 
+the region have privatized their 
+strategies. According to Brahima Sanu, regional international 
+state-owned telecommunications 
+telecommunications union representative for Africa, the new 
+operators. By 2010, 28 African 
+knowledge-based economy is forcing a paradigm shift for 
+countries had gone through this 
+policy makers in Africa who must include streamlining ICT as 
+process.”  
+a key factor in regional and national health policies.  
+(The World Bank, 2011) 
+ 
+Many countries in sub-Saharan Africa still have restrictive 
+telecom regulations and national policies that hinder ICT progress. These can also impede important 
+“cross-border harmonization of licensing rules, thereby frustrating the economies of scale that are 
+needed to make large [ICT] projects affordable” (IDRC & CRDI 2010). In late 2007, the Connect Africa 
+Summit helped to “kick-start Africa’s push for broadband and eLearning.” Participants developed five 
+goals but few, if any, can be realized in the short time frame that they proposed. Of particular note is 
+Goal 3, which focuses on easing regulation to expand ICT opportunities. It reads:  
+Adopt key regulatory measures that promote affordable, widespread access to a full range 
+of broadband ICT services, including technology and service neutral licensing/ 
+authorization practices, allocating spectrum for multiple, competitive broadband wireless 
+service providers, creating national Internet Exchange Points (IXPs) and implementing 
+competition in the provision of international Internet connectivity. 
+According to GSMA, an association representing the interests of the worldwide mobile communications 
+industry, market liberalization results in increased volume and quality of mobile service (in both 
+domestic and international traffic). Prices also decrease following market liberalization; with partial 
+liberalization, prices fell by a minimum of 31 percent in Africa and up to 90 percent following full 
+liberalization (World Bank 2011). 
+An important question to consider in this area is how are the health sector structure and the national 
+regulatory framework encouraging problem-oriented, interdisciplinary, rapid-response technical 
+collaboration. Furthermore, what are the political, regulatory, and managerial tasks needed for taking 
+on the current complex multifaceted technical challenges that come along with the progressive ICT 
+landscape as it continues to rapidly evolve? (infoDev 2006) 
+The Use of ICT in Family Planning and Other Health Programs: Trends and Evidence  Page 30 
+6. Contextual Understanding: Deciding which technologies to use 
+should be determined mainly by specific local contexts and 
+Context and Content in ICT Use and demand (Weigel & Waldburger 2004). Context and content 
+Scale-Up in Family Planning factors are critically important in considering ICT use and scale-up, 
+ including local content creation, the language used, and the 
+Uptake of family planning methods is relevance of content to the local situation. Information on 
+influenced not only by poor knowledge sociocultural contexts that shape behavior and attitudes, patterns 
+of modern contraceptive methods, but of population movement, cultural attitudes, and ICT readiness 
+also importantly by cultural beliefs and define the ability of users to engage in developing innovative 
+community opinions. In such a approaches in using ICTs and taking them to scale. Appropriate 
+situation, there may be significant ICT enhancements depend on knowledge of the context, as 
+benefit in having the counselling 
+Routen et al. indicate in the box at left. 
+offered from someone who lives within 
+the community he/she serves, and who  
+therefore will be fully cognizant of the 7. Sound Management: As stated earlier, the six building blocks 
+nature of local concerns.  of the health system can each benefit from ICTs that provide 
+ strategic ways to collect, organize, manage, and share 
+Community health workers may visit information and educate and inform staff and the community. 
+their clients on a regular basis and so The influx of huge volumes of information created by current 
+be able to address, in a way in which ICTs presents a challenge for managers who need to decide 
+clinics are not, important issues which technologies are most appropriate for their staffs, are 
+relating to method compliance and most cost effective, and will increase productivity. Building the 
+continuation. Family planning 
+capacity of health workers and other intermediaries to be able 
+counselling is, however, relatively 
+complex and there may be a mismatch to effectively use, work with, manage, adapt, and develop 
+between this complexity and the appropriate ICTs is an ongoing task. Many may feel 
+resources available to the community overwhelmed by the abundance of information available 
+health worker, who typically receives through rapidly increasing means (e.g., streaming content; 
+relatively little training. digital archives; and the vast number of websites, listservs, 
+ blogs, etc.). Hence, knowledge management depends heavily on 
+Our project is developing mobile- whether ICTs are considered a help or a hindrance. The ICT field 
+phone based software to support itself is grappling with exponential growth, and those looking in 
+community health workers in providing from the outside view the rapid fire of ever-changing technology 
+high quality family planning counseling 
+and applications with awe and frequent anxiety. 
+to their clients. Our objective is to take 
+a best-practice family planning  
+counseling method and encode the 8. Language: With the exception of radio and television 
+provider-client dialogue it prescribes in programming, the issue of language is frequently ignored in ICT 
+an interactive application. The programs, most of which offer very little content in local 
+community health worker can then use languages. There are a huge number of languages in sub-
+this application in guiding each Saharan Africa, and almost two dozen of them are considered 
+counseling session along this best- “official.” In South Africa alone, there are 11 official languages. 
+practice path. We believe that this Very few health information resources available on the web are 
+model will prove to be an important 
+written in any of those official languages, with the exception of 
+addition to the resources available to 
+English, French, Portuguese, and Spanish. Most current ICT 
+support efforts in promoting the 
+broadest provision of community applications designed to facilitate learning and knowledge 
+based family planning counseling. exchange are not in local languages either. Improving health 
+ workers’ capacity to deliver effective family planning or other 
+–T. Routen et al. health services involves providing these workers with updated 
+Using Mobile Technology to  
+information and guidance in a language they can easily 
+Support Family Planning Counseling  
+in the Community understand—preferably their own. 
+  
+The Use of ICT in Family Planning and Other Health Programs: Trends and Evidence  Page 31 
+ 
+9. Evaluation 
+Evaluation is critically important in determining whether the investment in ICT use is worthwhile, 
+particularly in gauging the benefits to the health initiative the ICT is supporting. Evaluation can measure 
+impact and allows corrective measures to be taken where necessary and provides opportunities to share 
+lessons learned for new or ongoing efforts. However, organizations frequently do not formally evaluate 
+their ICT systems and may not fully understand how best to negotiate or address limitations in existing 
+evaluation techniques that are still grappling with knowledge management evaluation models.  
+ 
+As Charles Kenny of the Center for Global Development notes,  
+Technology is at the center of global improvements in the quality of life. At the same time, 
+the relationship between technology and development is a complex one, and many 
+technologies that look wonderful on paper fail miserably in the field. So the three cheers 
+for USAID’s new engagement have to be accompanied by a thousand cautions. Perhaps 
+most importantly, any technology initiative needs to be intimately tied in with USAID’s 
+revived focus on monitoring and evaluation (2011). 
+ 
+Conclusion 
+As public health folks we need to be IN the technology and influencing how it gets 
+developed and created and become very literate so that our concerns are in the 
+development of it further upstream rather than us being just passive recipients of it. I 
+think that’s what the next generation of movements in public health will be. We don’t just 
+have to passively accept things; we need to be there at the creation . . . We should be at 
+the leading edge of innovating with these tools. 
+–Jody Ranck, DrPH 
+Global eHealth and Innovation Expert 
+ 
+ICT solutions are facilitating access to information and education for patients, health workers and policy 
+makers. As illustrated in this paper, ICT applications in family planning and reproductive health range 
+from using SMS and text messages to give information on family planning methods to women mobile 
+users; to wireless solutions that update and connect rural health workers to web-based distance 
+learning programs; to mobile phones and PC solutions that help to manage health data, drug supplies, 
+patient’s electronic medical records, and the health workforce. The use of ICT is breaking down barriers, 
+enabling health service providers to work together more closely and reach out to local clients as well as 
+communities far beyond their geographic borders. 
+ 
+At the same time, governments and donor agencies worldwide are trying to come to terms with the 
+complexity of current ICT opportunities, the multitude of new ICTs coming online, and the realities of 
+the global digital divide. They are doing so at the same time that they are attempting to harness the 
+power of cutting-edge digital technology within their own organizations. In some cases, already 
+overburdened health workers and program managers are being asked to embrace new technologies 
+even while standards and policies for their use are not yet in place.  
+ 
+ICT costs are still prohibitive for many African countries and few have necessary eHealth policies in place 
+to govern this exponentially growing field. A focus on the local context for capacity-building in the 
+information and digital age is extremely important, as is collaboration and transparency among 
+government ministries that each have a role in advancing eHealth; it is no longer just a matter for the 
+The Use of ICT in Family Planning and Other Health Programs: Trends and Evidence  Page 32 
+ministries of health, but also for ministries and leaders who manage education, economics, 
+environment, energy, gender, and even trade. 
+ 
+Donors, researchers, and public health practitioners agree that ICT will continue to play a significant role 
+in the delivery of evidence-based interventions for greater health impact. This requires continued 
+investment not only in hardware, software, and other technologies, but also in people, who are key to 
+the success of any health system and in capacity building.  
+ 
+It is important to move forward and act on some of the recommendations and lessons that have been 
+generated by previous research studies. For example, in Improving Health, Connecting People: The Role 
+of ICTs in the Health Sector of Development Countries, Working Paper No. 1, 2007, the authors present 
+the following lessons learned on using ICTs to help strengthen health systems:  
+ Pay attention to past experience. 
+ Involve users in the planning and design of the system. 
+ Build information cultures. 
+ Strengthen the capacity of users. 
+ Set realistic goals. 
+ Focus on the benefits of the system, rather than the technology. 
+ 
+In the face of rapid change, many health care needs as well as health system needs remain constant: the 
+need for reliable, accessible family planning methods and family planning/reproductive health services; 
+the demand for continuing education for health workers at all levels of the health system; the need for 
+reliable health information as well as a regular supply of vaccines and medicines; and the need to 
+overcome gender inequities so women are able to take control of their own health. Young people, with 
+their open embrace of technology and their seemingly natural aptitude for mastering it quickly, can be a 
+critical resource as ICT addresses these needs.  
+ 
+While it seems that technology is changing every nanosecond, the astounding pace has led to many 
+advances in the global health community, as the examples in this paper have shown. ICT can play an 
+important role in addressing all these needs and in the delivery of quality, efficient health care services 
+and the overall support of the health system, especially if the scale-up of ICT interventions takes into 
+account the conditions for success outlined in this paper.  
+ 
+ 
+  
+The Use of ICT in Family Planning and Other Health Programs: Trends and Evidence  Page 33 
+APPENDIX A: ICT-Related Definitions  
+ 
+Information communication technologies (ICTs): tools that facilitate communication and the processing 
+and transmission of information and the sharing of knowledge by electronic means. This encompasses 
+the full range of electronic digital and analog ICTs, from radio and television to telephones (fixed and 
+mobile), computers, and electronic-based media such as digital text, audio-video recording, and the 
+Internet, including Web 2.0 and 3.0, social networking, and web-based communities (GAID 2010). 
+Information and Communication Technology for Development (ICT4D): a relatively new and highly 
+dynamic field of development interventions that use ICT to help poor and marginalized communities 
+across the world benefit from modern technology that improves the quality of their lives. ICT4D is by 
+nature multidisciplinary, and its interventions require a multi-stakeholder approach, not least to keep 
+abreast with and take full advantage of rapid technological developments (SPIDER 2011). 
+ 
+Electronic Health (eHealth): the combined use of electronic communication and information technology 
+in the health sector for “cost-effective and secure use of ICT in support of health and health-related 
+fields, including health-care services, health surveillance, health literature, and health education, 
+knowledge, and research" [WHO]. Key eHealth applications include, but are not limited to, electronic 
+medical records, telemedicine, health information networks, decision-support tools, Internet-based 
+technologies and services, digital imaging, computer-assisted surgery, wearable and portable monitoring 
+systems, and health portals (Open Clinical 2011). 
+ 
+Mobile Health (mHealth): a new field of eHealth that supports health service provision and information 
+via mobile and wireless technologies. According to the WHO’s Global Observatory for eHealth (GOe), 
+mHealth is “medical and public health practice supported by mobile devices, such as mobile phones, 
+patient monitoring devices, personal digital assistants (PDAs), and other wireless devices. mHealth 
+involves the use and capitalization on a mobile phone’s core utility of voice and short messaging service 
+(SMS) as well as more complex functionalities and applications including general packet radio service, 
+third and fourth generation mobile telecommunications (3G and 4G systems), global positioning system 
+(GPS), and Bluetooth technology” (WHO 2011). 
+ 
+mHealth Education (mHealthEd): an emerging new set of applications designed for mobile devices and 
+used for training, testing, supporting, and supervising health care workers, as well as applications that 
+provide health information to individuals (iheed 2011). 
+ 
+The Use of ICT in Family Planning and Other Health Programs: Trends and Evidence  Page 34 
+APPENDIX B: Matrix on ICTs and Family Planning/Reproductive Health 
+ 
+What issues currently dominate ICT use in FP/RH What emerging How does research How do 
+(principally with regards to e-Health)? technologies are inform e-health? developments in e-
+likely to impact health inform 
+health care? research? 
+Professional Electronic Consumer New Technologies Research Input Research 
+Clinical Patient/Health Health  Outcomes 
+Informatics Records (EPR, EHR) Informatics  
+- Decision aids for - Electronic medical - Decision aids for - Satellite - Development - - Potential of 
+practitioners records. patients facing communications (for Need for user electronic databases 
+(prompts, Record linkage. difficult choices remote medicine) involvement in such as population 
+reminders, care Databases and (genetic screening)  product conception, registers for 
+pathways, Population registers  - Wireless networks design and testing. epidemiological 
+guidelines)  - Information on (within hospitals, Iterative research. 
+ - Achieving the Web and/or across geographical development. Needs  
+- Clinical multiprofessional digital TV (public areas) assessment, - Research into the 
+management tools access. Technical information and  accessibility and impact or use of 
+(electronic health and ethical issues. educational tools - Palmtop technologies usability research. informatics tools 
+records, audit tools)  for specific clinical (for information, for Multifaceted suggests appropriate 
+ - Data protection/ groups) records) expertise required. and cost-effective 
+- Educational aids security issues    priorities for 
+(guidelines, medical  - Clinician-patient - New mobile - Implementation  policy makers. 
+teaching) - Patient access communication telephones Understanding  
+ and control tools:  people and - Areas of crossover 
+- Electronic clinical  1. Remote: Clinical e- - Digital TV (for organizational (bioinformatics) 
+communications - Integration with mail and Web-based disseminating health factors, system 
+tools (referral, other services (social messaging systems for information & acceptability, 
+booking, discharge; work, police in case of consultation, disease communicating with resistance to 
+correspondence, rape) monitoring, service- patients) change. Use of 
+clinical email/second  oriented tasks  tailored 
+opinion, laboratory test - Clinical coding (appointment booking, - The WWW and its implementation. 
+requesting  issues prescription reordering). applications for health 
+and results (terminologies)  (issues: quality control, 
+reporting  2. Proximal: Shared confidentiality, access) 
+ Organizational  decision-making tools,  
+- Electronic Management informed consent aids - Virtual reality  
+networks (clinical 1. Billing and  
+networking systems) tracking systems 3. Mixed: Online 
+  screening tools (for 
+- Condition-specific 2. Audit & quality depression) and 
+tools and information assessment therapeutic interventions 
+(diabetes informatics; systems (cognitive behavior 
+hypertension informatics;  therapy) 
+etc.)  
+3. HRH 
+ - Access and 
+- Telemedicine equity issues 
+applications (for (data protection 
+interprofessional issues, the Digital Divide) 
+communication,  
+patient - Quality issues 
+communication and for health information 
+remote on the net 
+consultation) - “virtual” health 
+ communities 
+- Subfields (nursing 
+& primary care 
+informatics) 
+Source:  Vital Wave Consulting, 2011 
+ 
+The Use of ICT in Family Planning and Other Health Programs: Trends and Evidence  Page 35 
+APPENDIX C: References and Resources 
+ 
+Adamchak, S., et al. A Guide to Monitoring and Evaluation of Adolescent Health Programs, Tool 
+Series 5. Focus on Young Adults for USAID. 2000. 
+http://www.fhi.org/NR/rdonlyres/eix2wdqdzrfy34nj7xgdqyc4nxnkzi3mghpymg3wqcu5u53yg6g
+4uf654mn5k2iosigwudwyp2ezlc/mandEguidepart3enyt.pdf (accessed Sept. 9, 2011). 
+African Society for Information and Communication Technology. “Women in Pink Collar ICT Jobs in 
+Cameroon.” ASICT Research and Teaching Repository, 2010. 
+http://asictresearch.wordpress.com/2010/05/21/272/ (accessed June 1, 2011). 
+Ahonen, Tomi. “Household Penetration Rates for Technology Across the Digital Divide.” 
+http://communities-dominate.blogs.com/brands/2011/01/household-penetration-rates-for-
+technology-across-the-digital-divide.html. Blog on Communities Dominate Brands book 
+website. Posted Jan. 21, 2011 (accessed Sept. 16, 2011).  
+Ahonen, Toni. “Latest Unique Ability for Mobile, the 8th is Discovered: Augmented Reality.” Blog on 
+Communities Dominate Brands book website. Posted Dec. 10, 2009. http://communities-
+dominate.blogs.com/brands/2009/12/latest-unique-ability-for-mobile-the-8th-is-discovered-
+augmented-reality.html (accessed June 1, 2011). 
+Aker, Jenny C. and Isaac M. Mbiti. 2010. Mobile Phones and Economic Development in Africa. CDG 
+Working Paper 211. Washington, D.C.: Center for Global Development. 
+Allocate, Version 1: A Computer Program to Improve Priority Setting and Resource Allocation for 
+Reproductive Health. http://www.policyproject.com/pubs/manuals/AlloManE.pdf (accessed 
+Sept. 15, 2011).  
+APC Africa ICT Policy web page. http://africa.rights.apc.org/ (accessed Sept. 14, 2011). 
+BiztechAfrica website. “Renewed Call for Interoperability.” 
+http://www.biztechafrica.com/section/computing/article/renewed-call-interoperability/784/ 
+(accessed June 12, 2011). 
+BRIDGE Project. “Building Media Capacity to Cover Population and Reproductive Health.” Population 
+Reference Bureau. https://www.prb.org/pdf10/bridge-media.pdf (accessed Aug. 28, 2011). 
+Butcher, D., “Mobile Software Reinventing Healthcare in the Developing World.” Mobile Marketer 
+TM. 2009. Web page. http://www.mobilemarketer.com/cms/news/software-
+technology/3204.html (accessed Aug. 28, 2011). 
+CapacityPlus. “iHRIS—A Year of Development.” 2011. 
+http://www.capacityplus.org/hris/blog/index.php/2011/08/ihris-a-year-of-development/ 
+(accessed Sept. 18, 2011). 
+Capps, J. and Wilcox, S. for US Agency for International Development. BRIDGE Project Final 
+Evaluation, September 2008. http://www.ghtechproject.com/Attachment.axd?ID=4c2f7742-
+1015-42ad-a33f-24f82c24b468 (accessed Aug. 28, 2011)  
+The Use of ICT in Family Planning and Other Health Programs: Trends and Evidence  Page 36 
+Casier, Peter, How to Convert “Social Media Reach” to “Impact”—Part 2. ICT-KM. 9 June 2011. 
+http://ictkm.cgiar.org/2011/06/09/how-to-convert-social-media-reach-to-impact-part-2/ 
+(accessed Aug. 12, 2011). 
+Center for Health Market Innovations. Fact Sheet. Washington, D.C.: Results for Development 
+Institute. 2011. 
+http://resultsfordevelopment.org/sites/resultsfordevelopment.org/files/CHMI%202%20pager.
+pdf (accessed Sept. 12, 2011). 
+Chetley, Andrew, ed. “Improving Health, Connecting People: The Role of ICTs in the Health Sector of 
+Developing Countries A Framework Paper.” 2007. Washington: infoDev. 
+http://www.infodev.org/en/Document.84.pdf (accessed 27 August, 2011). 
+Chuhan-Pole, Punam, and Manka Angwafo, eds. “ICT in sub-Saharan Africa: Success Stories.” Ch. 19 
+in Yes Africa can: success stories from a dynamic continent. Washington, DC: The World Bank, 
+2011. http://siteresources.worldbank.org/AFRICAEXT/Resources/258643-1271798012256/ICT-
+19.pdf (accessed Aug. 10, 2011). 
+Cole, R. ICTs, Telecenters, and Community Development. Ithaca, NY: Cornell University. 2001. 
+Commonwealth Secretariat. Concept Note. “Commonwealth West Africa Regional Meeting on 
+eHealth—Use of Information and Communication Technology for Health.” 2009. 
+http://www.thecommonwealth.org/files/220413/FileName/ConceptNote.pdf (accessed Aug. 
+10, 2011). 
+Community-based Family Planning Toolkit: Monitoring & Evaluation. K4H. 
+http://www.flexfund.org/resources/training/English_PDME/Facilitators_Guide_FINAL.pdf 
+(accessed Sept. 14, 2011). 
+Connor, C. et al. “Paying for a Healthier Future”. Global Health Magazine, Summer 2011, Issue 11. 
+http://www.abtassociates.com/articles/GHC_summer_2011.pdf (accessed Sept. 21, 2011).  
+Core Group. “Cell Phone Hotline Spreads Family Planning Information in DR Congo.” Washington, 
+DC: The CORE Group. 2010. 
+http://www.flexfund.org/resources/technical_updates/psi_drc_case_study.pdf (accessed June 
+1, 2011). 
+Core Group. “mHealth Fundamentals Debate.” 2011. http://www.coregroup.org/our-technical-
+work/initiatives/mhealth/126 (accessed Aug. 11, 2011). 
+Corker J. “Ligne Verte” Toll-Free Hotline: using cell phones to increase access to family planning 
+information in the Democratic Republic of Congo. Cases in Public Health Communication & 
+Marketing, 2010, 4:23–37. www.casesjournal.org/volume4 (accessed June. 10, 2011). 
+DELIVER. Tanzania: Final Country Report. Arlington, Va.: DELIVER, for the U.S. Agency for 
+International Development, 2007. 
+Devries, K. “Creating Healthy Families in Nepal: Sustaining Family Planning Practices Among 
+Marginalized Groups.” The CORE Group. ICT for Development Network website. 2009. 
+http://www.comminit.com/community-radio-africa/node/288856. (accessed Aug. 10, 2011). 
+The Use of ICT in Family Planning and Other Health Programs: Trends and Evidence  Page 37 
+ 
+Devries, K. “Elements of Family Planning Success.” ICT for Development Network website. 2008. 
+http://www.comminit.com/?q=africa/node/274968 (accessed Aug. 10, 2011). 
+Devries, K. “Family Planning via Mobile Phones: Proof-of-concept Testing in India (CycleTel).” 
+Institute for Reproductive Health, Georgetown University. ICT for Development Network 
+website. 2009. http://www.comminit.com/?q=ict-4-development/node/307314 (accessed Aug. 
+10, 2011). 
+Devries, K., Uganda Health Information Network. 2011. ICT for Development Network web page. 
+http://www.comminit.com/?q=ict-4-development/node/119535 (accessed Sept. 14, 2011). 
+Donner, J., et al. “Reflections of MobileActive 2008 and the M4D Landscape.” 2008. 
+http://mobileactive.org/files/DVT_M4D_choices_final.pdf (accessed Aug. 10, 2011). 
+eHealth Connection. “Health Informatics and eHealth Capacity Building.” 2008. http://ehealth-
+connection.org/wiki/index.php?title=Health_Informatics_and_eHealth_Capacity_Building 
+(accessed Aug. 10, 2011). 
+eHealth Strategies, web page for European Union. http://www.ehealth-
+strategies.eu/about/about.html (accessed Aug. 15, 2011). 
+Family Health International 360. “M4RH Innovative Approach with Global Potential.” 2009. 
+http://www.k4health.org/system/files/m4RH%20description%20FHI%20Oct%202010.pdf 
+(accessed Aug. 18, 2011). 
+Foreman, Mia. “The Challenges of Integrating Family Planning and Maternal/Child Health Services.” 
+The Population Reference Bureau. 2011. http://www.prb.org/Articles/2011/family-planning-
+maternal-child-health-integration-programs.aspx (accessed Sept. 10, 2011). 
+Foreman, Mia. “Unmet Need for Contraception in the 21st Century: sub-Saharan Africa.” 2002. 
+http://www.prcdc.org/files/Unmet_Need_Africa.pdf (accessed Sept. 10, 2011). 
+Futures Group. Rapid/Women Flyer. Health Policy Initiative. 2011. 
+http://www.healthpolicyinitiative.com/Publications/Documents/1452_1_RAPID_Women_Flyer
+_FINAL_May_2011_acc.pdf. (accessed Sept. 10, 2011). 
+Gebru, Berhane. “Disease Surveillance with Mobile Phones in Uganda.” Mobile Active. 2008. 
+http://mobileactive.org/berhane-gebru-disease-surveillance-mobile-phones-uganda (accessed 
+Aug. 16, 2011). 
+Gerardy, Justine. “Africa turns to cellphones for better health.” mHealth Alliance. 
+http://www.mhealthalliance.org/news/africa-turns-cellphones-better-health (accessed May 
+21, 2011). 
+Global Alliance for ICT and Development (GAID). “Information and Communication Technologies for 
+Development: Health.” White Paper. 2010. http://www.scribd.com/doc/35120854/GAID-
+White-Paper-on-ICT4D-Health (accessed Aug. 8, 2011).  
+The Use of ICT in Family Planning and Other Health Programs: Trends and Evidence  Page 38 
+GOOD. “The UN Millennium Declaration.” Video, 2000. 
+http://www.youtube.com/watch?v=nuvl9vOZedE. (accessed June 12, 2011). 
+Health Policy Project: Software and Models. The Futures Group. 
+http://www.healthpolicyproject.com/index.cfm?id=software (accessed Sept. 14, 2011). 
+Health Unbound. “Mobile Operators as Clinical Service Providers?” http://www.healthunbound.org/ 
+(accessed Aug. 10, 2011). 
+Henrie, Gervais. “Mapping Seychelles ICTs.” BlogSpot posting. http://henrieict.blogspot.com/ 
+(accessed Sept. 14, 2011). 
+One World Africa. “Community Radio, The Cradle of Information Technology.” 
+http://africa.oneworld.net/editorchoice/community-radio-the-cradle-of-information-
+technology (accessed July 12, 2011). 
+HUB: Health Unbound. mHealth Alliance. http://www.mhealthalliance.org/hub (accessed Aug. 10, 
+2011). 
+ICT for Development Network. “Family Planning Through Mobile Phone, No Doctor Necessary!” 10 
+Nov 2010. http://www.comminit.com/ict-4-development/node/325843 (accessed June 1, 
+2011). 
+ICT for Development. “Family Planning via Mobile Phones: Proof-of-concept Testing in India 
+(CycleTel).” ICT for Development Network. 2009. 
+http://change.comminit.com/en/node/307314/307 (accessed June 1, 2011). 
+ICT for Development Network. ClareG Blog: The Challenges of Promoting Southern Knowledge. 13 
+Sept 2011. http://www.comminit.com/global/blogaboutGDNet (accessed Oct. 12, 2011). 
+IDRC:CRDI. “The Development Challenge: Kick-starting Africa’s Digital Revolution.” 
+http://www.idrc.ca/EN/Programs/Information_and_Communication_Technologies_for_Develo
+pment/Acacia/Pages/ArticleDetails.aspx?PublicationID=594 (accessed Aug. 12, 2011). 
+iheed Institute. “mHealth Education: Harnessing the Mobile Revolution to Bridge the Health 
+Education & Training Gap in Developing Countries: Report for mHealth 2011 at the Mobile 
+Health Summit June 2011.” Iheed Institute and Dalhberg Global Development Advisors. 2011. 
+http://www.mhealthed.org/iheed_report_updates.pdf (accessed Aug. 28, 2011).  
+Implementing Integrated Family planning and HIV/AIDS Policies and Programs Tools and Resources 
+Futures Group and CEDPA, 2007. 
+http://www.policyproject.com/pubs/generalreport/ImplementingPoliciesandPrograms.pdf 
+(accessed Sept. 10, 2011). 
+infoDev. “ICT in Health: The Role of ICTs in the Health Sector in Developing Countries.” InfoDev 
+Activity File #1254. http://www.infodev.org/en/Project.38.html (accessed Aug. 12, 2011). 
+infoDev. “Summary of On-line Discussions.” infoDev Working Paper Series---Improving Health, 
+Connecting People: The Role of ICT in the Health Sector in Development Countries. April 2008. 
+http://www.infodev.org/en/Publication.486.html (accessed Aug. 28, 2011).  
+The Use of ICT in Family Planning and Other Health Programs: Trends and Evidence  Page 39 
+infoDev. “Transforming the East African ICT Sector by Creating a Business Engine for SMEs: What’s 
+next for ICT in Africa?” Posted April  25, 2011. http://www.infodev.org/en/Article.703.html 
+(accessed Aug. 12, 2011). 
+Information for Development Program. “Improving Health, Connecting People: The Role of ICT in the 
+Health Sector in Developing Countries.” K4H Toolkit. 2006. 
+http://www.k4health.org/toolkits/mhealth/improving-health-connecting-people-role-ict-
+health-sector-developing-countries (accessed Aug. 12, 2011). 
+Integrating ICT into Sustainable Local Policies. IGIGlobal.com. 
+http://www.igiglobal.com/bookstore/chapter.aspx?TitleId=43194 (accessed Sept. 15, 2011) 
+International Development Research Centre, Acacia Program web page. 
+http://www.idrc.ca/EN/Programs/Information_and_Communication_Technologies_for_Develo
+pment/Acacia/Pages/ArticleDetails.aspx?PublicationID=594 (accessed Aug. 12, 2011). 
+International Development Research Centre. “Cape Town to Cairo: Connecting Africa.” Ottowa: 
+2010. http://www.idrc.ca/EN/Documents/cape-town-to-cairo-connecting-africa.pdf (accessed 
+Aug. 12, 2011). 
+International Telecommunications Union. “Kenya Adds 2.9 MLN Mobile Users in Q4.” Web post on 
+ICT Statistics Newslog June 28, 2011. http://www.itu.int/ITU-
+D/ict/newslog/Kenya+Adds+29+Mln+Mobile+Users+In+Q4.aspx (accessed Aug. 10, 2011). 
+International Telecommunication Union. “Measuring the Information Society: The ICT Development 
+Index.” International Telecommunication Union. p. 108, 2009. http://www.itu.int/ITU-
+D/ict/publications/idi/2009/material/IDI2009_w5.pdf (accessed Aug. 12, 2011). 
+IntraHealth iHRIS Manage Overview. Web page. https://launchpad.net/ihris-manage (accessed Sept. 
+12, 2011). 
+ITU-D. The World in 2010: ICT Facts and Figures. International Telecommunications Union, Geneva: 
+Switzerland. 2010. http://www.itu.int/ITU-D/ict/material/FactsFigures2010.pdf (accessed Aug. 
+12, 2011). 
+JamiiForums. “Tanzania 4th Mobile Phone User in Africa.” Web page. 2010. 
+http://www.jamiiforums.com/business-and-economic-forum/48668-tanzania-4th-mobile-
+phone-user-in-africa.html (accessed Aug. 14, 2011). 
+Jembi Health Systems. District hospital in South Africa: Jembi. www.jembi.org  
+Jones, Becca. “Executive Summary—Unmet Need for Contraception in the 21st Century: sub-
+Saharan Africa.” Insert. Population Resource Center, September 2002. 
+http://www.prcdc.org/files/Unmet_Need_Africa.pdf (accessed Aug. 12, 2011). 
+Judice, R. and Snyder, E. “Framework for Monitoring and Evaluating Efforts to Reposition Family 
+Planning.” [Unpublished], Washington: MEASURE Evaluation, 2011. 
+Juma, Sahim. Guest post on Consultant Value Added. “Africa Broadband Revolution 2010: Tanzania 
+Case Study.” 2010. http://consultantvalueadded.com/2010/04/14/africa-broadband-
+revolution-2010-tanzania-case-study/ (accessed Aug. 14, 2011). 
+The Use of ICT in Family Planning and Other Health Programs: Trends and Evidence  Page 40 
+K4Health. “Elements of Family Planning Success: Supportive Policies.  
+http://www.k4health.org/toolkits/fpsuccess (accessed Sept. 15, 2001). 
+K4Health. “Mobile Outreach Service Delivery.” Community Based Family Planning–Technical Update 
+No. 8, 2010. 
+http://www.flexfund.org/resources/technical_updates/No8_MobileOutreachServiceDelivery.p
+df (accessed June 1, 2011).  
+K4H—mHealth Toolkit. “Behavior Change Communication.” 
+http://www.k4health.org/toolkits/mhealth/behavior-change-communication-8 (accessed Aug. 
+11, 2011). 
+Kanter, Andrew, et al. “Bringing Together Millennium Villages Throughout sub-Saharan Africa.” 
+International Journal of Medical Informatics, 78, 802–807. 2009. 
+http://millenniumvillages.org/files/2011/02/Kanter_MGV-Net.pdf (accessed Aug. 12, 2011). 
+Kenya Launches eHealth Strategy. Aug. 2011. Reliefweb website. http://reliefweb.int/node/440501 
+(accessed Aug. 28, 2011). 
+Kim, G. “M-PESA Supports Healthcare.” Mobile Marketing and Technology website. Posted March 
+19, 2011. http://www.mobilemarketingandtechnology.com/2011/toppost/m-pesa-supports-
+health-care/ (accessed Aug. 4, 2011). 
+Kols, Adrienne. “Summary Report of the K4Health Environment Scan: Findings and Implications.” 
+Baltimore: Johns Hopkins Bloomberg School of Public Health, Center for Communication 
+Programs, Knowledge for Health [K4Health], 2009. http://www.k4health.org/needs-
+assessments/EnvironmentScan (accessed June 1, 2011).  
+LaFond, A. B. “Mapping capacity in the health sector: A conceptual framework.” International 
+Journal of health Planning and Management, 17:3–22. 
+L’Engle, Kelly, and Vadhat, Heather. “Mobile Phone Interventions for Reproductive Health (m4RH): 
+Testing the Feasibility of Text Messaging to Improve Family Planning.” Family Health 
+International. 2009. 
+http://www.fhi.org/NR/rdonlyres/e426xemcs6kjxllp2t37p3k2h7sgpol5rjzft4gzqdwztaxjp7afnh6
+pck6hedydsyzxzinimbfe3o/FormativeResultsM4RH1.pdf (accessed Aug. 28, 2011). 
+Li, JunHua, Lesley Pek Wee Land, Subhagata Chattopadhyay, and Pradeep Ray. “eHealth Readiness 
+from Electronic Health Records Perspective.” University of New South Wales, Sidney: Australia, 
+undated. http://www.globdev.org/files/9-Paper-Li-E-Health-Readiness-Revised.PDF (accessed 
+Aug 12, 2011). 
+Luk, Rowena, Matei Zaharia, Melissa Ho, Brian Levine, and Paul M. Aoki. "ICTD for Healthcare in 
+Ghana: Two Parallel Case Studies.” 
+http://www.cs.berkeley.edu/~matei/papers/2009/ictd_ghana.pdf. Proc. IEEE/ACM Conf. on 
+Information and Communication Technologies and Development, Doha, Qatar, Apr. 2009, 118-
+128. IEEE CS Press (accessed Aug. 28, 2011).  
+ 
+The Use of ICT in Family Planning and Other Health Programs: Trends and Evidence  Page 41 
+Making/the/eHealth/Connection (conference website) and The Rockefeller Foundation. “Archbishop 
+Desmond Tutu Launches Bellagio eHealth Call to Action.” Video, 2011. http://ehealth-
+connection.org/content/archbishop-desmond-tutu-launches-bellagio-ehealth-call-action 
+(accessed Aug. 28, 2011). 
+Mano, Winston, and Wendy Willems. “Emerging communities, emerging media: the case of a 
+Zimbabwean nurse in the British Big Brother show.” Critical Arts, 22 (1), pp. 101–128, 2008. 
+http://www.scribd.com/doc/18755393/Journal-of-African-Media-Studies-Volume-1-Issue-1 
+(accessed Aug. 14, 2011).  
+Mars, Maurice and Chris Seebregts. “Country Case Study for e-Health: South Africa.” http://ehealth-
+connection.org/files/resources/County%20Case%20Study%20for%20eHealth%20South%20Afri
+ca.pdf (accessed Aug. 28, 2011). 
+mBillionth Award South Asia 2011. http://mbillionth.in/. (accessed Aug. 28, 2011).  
+McCaffery, James and Ummuro Adano. “Strengthening Human Resources Management: Knowledge, 
+Skills and Leadership.” Capacity Project Legacy Series 11, Chapel Hill, NC: Capacity Project, 
+2009. http://www.capacityplus.org/files/resources/LegacySeries_11.pdf (accessed Sept. 12, 
+2011).  
+MDG. Celebrate, Innovate, and Sustain: Toward 2015 and Beyond. The United States’ Strategy for 
+Meeting the Millennium Development Goals.  2010. http://www.globalproblems-
+globalsolutions-files.org/pdf/2010/US_MDG_Strategy.pdf (accessed Aug. 14, 2011). 
+Measure Evaluation Population and Reproductive Health Project for USAID. Indicators Database. 
+Chapel Hill: UNC Carolina Population Center, 2010. 
+http://www.cpc.unc.edu/measure/prh/rh_indicators/specific/repositioning-family-planning 
+(accessed Aug. 28, 2011).  
+Ministerial-Leadership Initiative. Program website. http://www.ministerial-leadership.org/blog 
+(accessed Aug. 21, 2011). 
+Miniwatts Marketing Group. “Internet World Stats—Usage and Population Statistics.” 2011. 
+http://www.internetworldstats.com/list4.htm (accessed Sept. 18, 2011).  
+MobileActive.org. “Family Planning Through the Mobile Phone, No Doctor Necessary!” 10 Nov 2010. 
+http://www.mobileactive.org/case-studies/family-planning (accessed June 2, 2011). 
+Mobihealthnews. “Could Apricot Forest become the Epocrates of China?” 2011. 
+http://mobihealthnews.com/11711/could-apricot-forest-become-the-epocrates-of-china/ 
+(accessed Aug. 2, 2011).  
+Mobihealthnews. “J&J Clinton launches MAMA maternal mobile health service.” 2011. 
+http://mobihealthnews.com/10865/jj-clinton-launch-maternal-mobile-health-service/ 
+(accessed Aug. 2, 2011). 
+Mobihealthnews. “Text4Baby plans to reach 1M moms by 2012.” 2011. 
+http://mobihealthnews.com/10683/text4baby-plans-to-reach-1m-moms-by-2012/ (accessed 
+Sept. 1, 2011). 
+The Use of ICT in Family Planning and Other Health Programs: Trends and Evidence  Page 42 
+MobileActive.org. “Bad Services? Holding Officials Accountable with SMS, Radio, and TRAC FM.” 
+Sept. 21, 2011 web post. http://www.mobileactive.org/casestudies/tracfm (accessed Sept. 24, 
+2011). 
+Munyanziza, B., “Television could be effective in the family planning program in Rwanda.” 
+Imbonezamuryango. 1993 Apr; (26):31–4.  
+Musembi, V. & Kariuki, J. Private Sector Franchising for Long Term Methods in Kenya. Powerpoint 
+presentation. PSI. 
+http://www.fpconference2009.org/media/DIR_169701/15f1ae857ca97193ffff837cffffd524.pdf 
+(accessed Sept. 14, 2011). 
+Mwaila, M. “Reproductive Health Services Going Mobile.” Posted 19 March, 2011 on GIZ Health 
+Sector Program Blog. http://www.gtzkenyahealth.com/blog3/?p=7403 (accessed Aug. 28, 
+2011). 
+Nakkazi, E., Uganda to Adopt Electronic Health Records System. 
+http://www.newsciencejournalism.net/index.php?/news_articles/view/uganda_to_adopt_elec
+tronic_health_records_system/ (accessed Sept. 14, 2011). 
+NGOconnect Africa. “Spotlight on Jembi.” 
+http://www.ngoconnectafrica.org/NGOCONNECTAFRICA/NGOCONNECTAFRICA/Communities/
+NGOSpotlight/Jembi/ (accessed Aug. 28, 2011). 
+Nigeria: ICT4D Annual Review. 2007. http://www.jidaw.com/itsolutions/ict4dreview2007.html/ 
+(accessed Sept. 14, 2011). 
+Nigeria: ICT4D National Policy. https://www.comminit.com/?q=ict-4-development/node/148341 
+(accessed Sept. 19, 2011). 
+Official Google Blog. “An Update on Google Health and Google Power Meter." 2011. 
+http://googleblog.blogspot.com/2011/06/update-on-google-health-and-google.html (accessed 
+Sept. 19, 2011). 
+One World Africa. “Community Radio, the Cradle of Information Technology.” Web page, 2011. 
+http://africa.oneworld.net/editorchoice/community-radio-the-cradle-of-information-
+technology (accessed Aug. 9, 2011). 
+Open Clinical. “eHealth.” Web page. 2011. Open Clinical: Knowledge Management for Medical Care: 
+http://www.openclinical.org/e-Health.html#applications (accessed July 13, 2011). 
+Pagliari, Claudia, David Sloan, Peter Gregor, Frank Sullivan, Don Detmer, James P Kahan, Wija 
+Oortwijn, Steve MacGillivray. “What is eHealth? A Scoping Exercise to Map the Field.” J Med Internet 
+Res. 2005 Jan-Mar; 7(1): e9. 
+http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1550637/?tool=pubmed (accessed June 12, 
+2011).  
+Podcast. “Mobile Health in Africa: What Can We Learn?” 2010. 
+http://www.mhealthalliance.org/news/audio-mobile-health-africa-what-can-we-learn 
+(accessed Sept. 19, 2011). 
+The Use of ICT in Family Planning and Other Health Programs: Trends and Evidence  Page 43 
+“Program Design, Monitoring and Evaluation (PDME) of Family Planning Programs. Facilitators 
+Guide.” ORC Macro and Save the Children for USAID. 2009. 
+http://www.flexfund.org/resources/training/English_PDME/Facilitators_Guide_FINAL.pdf 
+(accessed Aug. 2, 2011). 
+Puleio, M., and V. Jennings. “CycleTel in India, From Proof-of-Concept to Development.” PowerPoint 
+presentation. http://www.coregroup.org/storage/CycleTel_mHealth_WG_Jan2011-1.pdf 
+(accessed Aug. 2, 2011). 
+Radio in Africa, 2011: http://witspress.co.za/wp-content/uploads/2011/07/WUPcatalogue2011lr.pdf 
+(accessed Sept. 14, 2011). 
+Ranck, J., “Health Information and Health Care: The Role of Technology in Unlocking Data and 
+Wellness – A Discussion Paper.” Washington, D.C.: United Nations Foundation & Vodafone 
+Foundation Technology Partnership, February 2011. 
+Reliefweb web page. “AMREF to train nurses for Kenya's largest referral hospital.” 
+http://reliefweb.int/node/272530 (accessed Sept. 18, 2011). 
+RH Reality Check. http://www.rhrealitycheck.org/about-us (accessed Sept. 12, 2011). 
+Richey, Catherine, and Ruwaida M. Salem. Elements of Success in Family Planning Programming. 
+Population Reports, Series J, No. 57. Baltimore, INFO Project, Johns Hopkins Bloomberg School 
+of Public Health, 2008. pdf.usaid.gov/pdf_docs/PNADN430.pdf (accessed Aug. 24, 2011). 
+Routen, T. Silas, et al. “Using Mobile Technology to Support Family Planning Counseling in the 
+Community—Case Study, Proceedings of the 3rd International Conference on ICT for Africa, 
+March 25-27, Yaounde, Cameroon.” Baton Rouge, LA: International Center for IT and 
+Development, 2010. 
+Solo, J. Expanding Contraceptive Choice to the Underserved Through Mobile Outreach Service 
+Delivery: a Handbook for Program Planners. Washington, D.C.: USAID, 2010.  
+Song, Steve. “Randomness vs. Leadership or the Inevitable Meets the Ineffable.” Blog on Many 
+Possibilities website, 2011. http://manypossibilities.net/ (accessed Aug. 2, 2011). 
+Soul Beat Africa. “Impact Data: Radio and Family Planning.” From Valente, T.W., et al. "Radio 
+Promotion of Family Planning in The Gambia". International Family Planning Perspectives, Vol. 
+20, pgs. 96–100, 1994. http://www.comminit.com/?q=community-radio-africa/node/295247 
+(accessed July 12, 2011). 
+Southwood, Russell. “Achieving a High-speed Africa—Closing the Gap Between the Potential 
+Promise and Current Reality.” AllAfrica.com, 2011. 
+http://allafrica.com/stories/201109190475.html (accessed Sept. 17, 2011). 
+SpacedEd Continuing Professional Development. http://www.spaceded.com/?locale=en (accessed 
+Sept. 20, 2011). 
+SpacedEd: An Innovative Learning Methodology to Support Health Workforces. 
+http://www.capacityplus.org/files/resources/spaced-education-overview.pdf (accessed Sept. 
+20, 2011). 
+The Use of ICT in Family Planning and Other Health Programs: Trends and Evidence  Page 44 
+Spicehandler, Joanne. The Role of Health Systems Strengthening in Effectively Updating and 
+Disseminating Family planning/Reproductive Health Guidelines. The Capacity Project for USAID, 
+Washington, DC: 2009, http://www.intrahealth.org/page/the-role-of-health-systems-
+strengthening-in-effectively-updating-and-disseminating-family-planningreproductive-health-
+guidelines (accessed Aug. 6, 2011). 
+SPIDER. (2011 July). About ICT4D. The Swedish Program for ICT in Developing Regions: 
+http://www.spidercenter.org/about-ict4d (accessed July 14, 2011). 
+Stroetmann, Karl, Jörg Artmann, and Veli N. Stroetmann. European countries on their journey 
+towards national eHealth infrastructures—eHealth strategies final European progress report. 
+Brussels: European Commission, 2011. http://www.ehealth-
+strategies.eu/report/eHealth_Strategies_Final_Report_Web.pdf (accessed Aug. 4, 2011). 
+Tatalovid, Mido. “New technologies altering healthcare landscape, says UN report.” 
+http://www.textually.org/ (accessed Sept. 20, 2011). 
+Telecom Regulatory Authority of India. "Highlights of Telecom Subscription Data as on 30th June 
+2011." Press release, 8/11/11. 
+http://www.trai.gov.in/WriteReadData/trai/upload/PressReleases/835/Press%20Release%20Ju
+ne11.pdf (accessed Aug. 29, 2011). 
+Torero, Maximo, and Von Braun, Joachim. Information and Communication Technologies for 
+Development and Poverty Reduction: The Potential of Telecommunications. Johns Hopkins 
+University Press. 2006.  
+Torgan, Carol. “The mHealth Summit: Local and Global Converge.” Blog on Kinetics website, 2009. 
+http://www.caroltorgan.com/mhealth-summit/ (accessed July 7, 2011). 
+Transparency and Accountability Program. http://tap.resultsfordevelopment.org/ (accessed Sept. 
+14, 2011). 
+Unifying Kenyan Information systems for Health web page. 
+http://www.abtassociates.com/Page.cfm?PageID=12605&CSB=1&OWID=2109769387 
+(accessed Sept. 12, 2011). 
+United Nations. Compendium of ICT Applications on Electronic Government, Volume 1: Mobile 
+Applications on Health and Learning. United Nations: 2006. 
+http://unpan1.un.org/intradoc/groups/public/documents/UN/UNPAN030003.pdf (accessed 
+June. 12, 2011). 
+United Nations Population Fund. “Ensuring that Every Pregnancy is Wanted.” UNFPA. 
+http://www.unfamily planninga.org/rh/planning.htm (accessed June 1, 2011). 
+US Agency for International Development. Family Planning Projects web page. 
+http://www.usaid.gov/our_work/global_health/pop/partnerships/projects_purpose.html. 
+(accessed July 25, 2011).  
+US Agency for International Development. Global Health eLearning. 
+http://www.globalhealthlearning.org/assets/filelib/GHeL%20eLearning%20Fact%20Sheet.pdf 
+(accessed Sept. 12, 2011). 
+The Use of ICT in Family Planning and Other Health Programs: Trends and Evidence  Page 45 
+US Agency for International Development. High Impact Practices in Family Planning. 2011, 
+Washington. D.C.: USAID, 2011. 
+http://www.usaid.gov/our_work/global_health/pop/publications/docs/high_impact_practices.pdf 
+(accessed Sept. 14, 2011). 
+US Agency for International Development. “Repositioning Family Planning in sub-Saharan Africa.” 
+Issue Brief, Washington, D.C.: USAID, 2006. 
+http://www.usaid.gov/our_work/global_health/pop/techareas/repositioning/briefs/repo_suba
+fr.pdf (accessed Sept. 14, 2011). 
+US Agency for International Development. “Repositioning family planning operational plan 2008–
+2013.” [unpublished]. Washington: USAID. 2009. 
+Ushahidi. “Old War. New Peace. What it takes to send a text in Liberia.” Ushahidi blog. 2011. 
+http://blog.ushahidi.com/index.php/2011/10/03/old-war-new-peace-and-what-it-takes-to-
+send-a-text-in-liberia/ (accessed Oct. 5, 2011).  
+Vasquez, Paloma. “Digital Life, Today and Tomorrow.” 
+http://consultantvalueadded.com/2011/06/03/digital-life-today-and-tomorrow/ (accessed 
+Aug. 28, 2011). 
+Virtual Learning Development Program (VLDP). Program Description. Cambridge, MA: Management 
+Sciences for Health. Undated. http://www1.msh.org/projects/lms/Documents/upload/VLDP-
+Brochure.pdf (accessed Sept. 8, 2011). 
+Vital Wave Consulting. ICT Landscape Analysis for eTransform Africa:  Health Sectorial Study. June 
+21, 2011. http://etransformafrica.org/sites/default/files/Opportunities-challanges-
+health%20.pdf (accessed Aug. 28, 2011). 
+Vital Wave Consulting. mHealth for Development: The Opportunity of Mobile Technology for 
+Healthcare in the Developing World. Washington, D.C., and Berkshire, UK: UN Foundation-
+Vodafone Foundation Partnership, 2009. 
+http://www.vitalwaveconsulting.com/pdf/mHealth.pdf (accessed Aug. 28, 2011). 
+Walter, D. “Radio in Africa.” Wits University Press. ICT for Development Network website. 2011. 
+http://www.comminit.com/community-radio-africa/content/radio-africa. (accessed Aug. 28, 
+2011). 
+Wikipedia. Information and Communication Technologies for Development (ICT4D). 2011. 
+http://en.wikipedia.org/wiki/Information_and_communication_technologies_for_development 
+(accessed June 12, 2011). 
+Wikipedia. mHealth. 2011. http://en.wikipedia.org/wiki/MHealth. (accessed June 12, 2011). 
+Wireless ICT Task Force. “Helping Fuel ICT Growth in Ethiopia.” PowerPoint Presentation, Ethiopia: 
+2010. http://www.ictet.org/downloads/Duty%20Waiver.pdf. (accessed Aug. 28, 2011). 
+World Bank. Recent Developments in the Telecoms Sector in sub-Saharan Africa—a Booming Sector. 
+The World Bank. 2011. 
+http://web.worldbank.org/WBSITE/EXTERNAL/EXTDEC/EXTDECPROSPECTS/EXTGBLPROSPECTS
+The Use of ICT in Family Planning and Other Health Programs: Trends and Evidence  Page 46 
+APRIL/0,,contentMDK:22931817~menuPK:659178~pagePK:2470434~piPK:4977459~theSitePK:
+659149~isCURL:Y,00.html (accessed Sept. 12, 2011). 
+World Standards Cooperation. No. 2, May 2011 Newsletter. 
+http://worldstandardscooperation.org/newsletters/002/newsletter02.html. (accessed Aug. 28, 
+2011).  
+World Summit on the Information Society. http://www.itu.int/wsis/index.html (accessed June 1, 
+2011). 
+www.AllAfrica.com. “Growing Use of Cell Phones for Family Planning.” 2009. 
+http://allafrica.com/stories/200911200001.html (accessed June 1, 2011). 
+ 
+ 
+The Use of ICT in Family Planning and Other Health Programs: Trends and Evidence  Page 47 

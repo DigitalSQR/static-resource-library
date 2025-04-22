@@ -1,0 +1,677 @@
+FTI he CommCare Evidence Base 
+ 
+Alison Chatfield, Gillian Javetski, Andrea Fletcher, Neal Lesh 
+ 
+ March 2015 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Co mmCare: The Most Evidence-Based 
+Mo bile Tool for Frontline Workers 
+40 pa pers have been written about CommCare and a system that 
+supp orts a PDA pre-cursor to CommCare, including 21 published 
+studies. These papers support evidence that equipping Frontline 
+Work ers (FLWs) with mobile phones increases quality of care, 
+experience of care, accountability of services, and clients’ knowledge, 
+attitu de, and/or practice.  
+!
+0!
+Executive Summary  
+CommCare (www.commcarehq.org) is an open  Highlights 
+source mobile and web cloud product used by Pregnant women that access CommCare are 
+Frontline Workers (FLWs) across a variety of 20% more likely to access antenatal care and 
+sectors, including community health workers,  
+agricultural extension workers, mobile trainers, and 22% more likely to have skilled deliveries. 
+[Afghanistan, 2013] 
+supervisors. CommCare replaces cumbersome  
+paper registers, reporting forms, and client  
+education flipcharts with an open source cloud C HWs that use CommCare have home visits 
+product that can run on simple Java enabled that are 1.7x longer, and are 2.6x more 
+phones, as well as higher end android smart l ikely to include the client’s husband. [India, 2013] 
+phones and tablets. With over 12,500 registered  
+mobile users in 40+ countries that are part of C ardiovascular Disease screening trainings took 
+active mobile projects, CommCare is one of the 
+12 hours with paper tools, versus 3 hours 
+most widely adopted and technically advanced w ith CommCare. [South Africa, 2013] 
+mobile platforms for FLWs. 
+ 
+Based on our research, CommCare is also the C ommCare feedback increases FLW visit 
+most evidence based mobile health tool available timeliness by 85%. [Tanzania, 2012] 
+for frontline workforces in low-resource settings.  
+This literature review presents all published paper  
+and unpublished (grey literature) studies about the I n a study of 1,221 children, only 20.7% of 
+CommCare platform. children were assessed for all ten IMCI areas 
+This collection of 40 papers offers substantial w ith paper protocols, compared with 70.9% 
+evidence that CommCare improves access to, with CommCare. [Tanzania, 2013] 
+quality, experience, and accountability of services   
+provided by FLWs and directly impacts clients’ After four months of using CommCare, CHWs 
+knowledge, attitude, and/or practice. It also i ncreased knowledge of danger signs in all 
+demonstrates that when a mobile tool like major health categories by 22%. [India, 2012] 
+CommCare is deployed, “the effect on the   
+program extends beyond the tool, acting as a 
+forcing function for wide program and C ommCare resulted in higher medicine 
+organizational level change” [Bhavsar, 2014]. dosing accuracy [Mexico & Guatemala, 2013] 
+ 
+Although there is no definitive study showing an  
+improvement in health outcomes from adopting Clinicians that use CommCare completed 
+CommCare, the collective evidence base makes a 2 0% more of required protocol steps 
+convincing case that, when used correctly, [Tanzania, 2008] 
+CommCare’s system can improve community   
+programs, both in the health and non-health FLWs are more likely to select 
+domains. Overall, FLWs have reported that C ommCare over paper –based tools [Mexico & 
+CommCare makes their job easier and has helped Guatemala, 2013]!
+them gain more respect from clients in their   
+community.  
+ 
+!
+1!
+Critical Properties for Frontline 
+Worker (FLW) Applications 
+There are three critical properties of successful 
+mobile applications for FLWs (Figure 1).  
+Client Tracking allows FLWs to register and track 
+clients over time. A client list is maintained on the 
+phone as a longitudinal record for each client. This 
+means that a client such as a pregnant mother can 
+be registered and followed up with multiple times. 
+Client tracking is an important feature for FLWs to 
+conduct visits that requires complex workflows. 
+Decision Support is used by FLWs to improve the 
+quality of home visits through electronic checklists, Figure 1. The three critical properties of CommCare and 
+as well as step-by-step guidance through other successful mobile platforms for frontline workers 
+protocols. Applications that use decision support include the ability to track clients over time, support 
+must be able to include different types of decision-making, and the of inclusion of multimedia 
+questions and contain complex logic. Examples of 
+this include following standard protocols, Finally, it is important to note that these are 
+calculating algorithms for screening tools, and different than pure data collection systems (e.g. 
+supporting diagnostics.  Open Data Kit, Magpi), as well as applications that 
+do not connect to the Internet, such as pure SMS 
+Mounting evidence shows that multimedia applications (Rapid SMS). While these applications 
+increases client experiences. Images, audio, and bring their own advantages, they provide a 
+videos are integrated into applications to facilitate fundamentally different value proposition and were 
+transfer of knowledge and improve service considered to be separate from the complex 
+delivery.  workflows that are necessary for FLWs. 
+In addition to CommCare, there are several Literature reviewed in this paper 
+alternative systems that include these three critical 
+properties, including applications being deployed The 40 papers included in this literature review 
+by D-tree International, Mobenzi, Mezzanine, include published and non-published papers on 
+Medic Mobile, Virtuosos, Vodafone, and eMocha. CommCare (36 total), in addition to 4 papers on a 
+There are important differentiators among these PDA-based system that is considered to be 
+applications and CommCare, such as whether or precursors to CommCare [DeRenzi, 2008] 
+not they are cloud products, which allow non- [Mitchell, 2012] [Mitchell, 2012a] and [Mitchell, 
+programmers to create and adapt the applications; 2013]. Note that D-tree International supports an 
+the code is open source; and what types of alternative software application in addition to 
+phones are supported. These are key factors for having contributed to several CommCare-related 
+scalability of applications.  publications. 
+ 
+!
+2!
+Levels of 
+Evidence 
+Papers are categorized by 
+their level of evidence and 
+organized by the paper’s 
+rigor in addressing 
+whether CommCare can 
+improve client health 
+outcomes (Figure 2). Level 
+6, the final level of 
+evidence, refers to a study 
+that demonstrates an Figure 3. Total # of published, unpublished papers in the Evidence Base.  
+mHealth system has an 
+impact on client outcomes.  Note that because papers that are about a system that supports a 
+CommCare is used across several sectors, only PDA-based precursor to CommCare.  
+health-related studies could fulfill the Level 6 Of the 40 studies included in the evidence base, 16 
+criteria. At this point, there are no Level 6 studies were conducted in India and another nine were 
+that demonstrate mHealth system impacts clients’ conducted in Tanzania. These are the two 
+health outcomes.  countries that Dimagi and D-tree International have 
+There are a total of 21 published papers on most widely implemented CommCare. CommCare 
+CommCare and 15 unpublished papers on was first developed and tested in Tanzania, and 
+CommCare. Additionally, this review includes four India has the largest number of CommCare 
+projects in the world. 14 of the studies in the 
+evidence base were put out in 2012.  
+Figure 2. Evidence levels based on the rigor in addressing whether CommCare can improve client health outcomes 
+!
+3!
+The Four Pillars of Evidence 
+The CommCare Evidence Base is organized into 
+four pillars. Each is based on how CommCare 
+influences clients’ knowledge, attitude, and 
+practices (Figure 4).  
+Before anything, the evidence base looks at FLWs’ 
+and clients’ perceived Acceptability and 
+Feasibility of CommCare.  This refers to whether 
+CommCare is well received by FLWs and clients 
+across geographical regions and types of 
+programs. Barriers to this include that CommCare 
+is too difficult to use, not intuitive, or that FLWs or 
+clients are skeptical or hesitant to use CommCare. Figure 4. The four pillars of the CommCare Evidence Base. 
+Before any other evidence can be established, it is 
+important to demonstrate that CommCare is well persuasive. Common barriers to high experience of 
+received as a system by FLWs and clients.  care include if a FLW doesn’t carry or misuses 
+promotional materials and if they have low 
+The first pillar is to expand Access to care for credibility in their community.  
+clients. Access can be defined as how often and 
+for how long a client meets with a FLW. Common The fourth pillar aims to create Accountability and 
+barriers to access include high FLW turnover rates, is defined as providing more visibility into FLWs’ 
+FLWs not enrolling all eligible clients in their job-related activities. Common barriers to high 
+catchment areas, FLWs not conducting necessary accountability of care include redundant and 
+visits after enrolling eligible clients, and FLWs misused paper registers, data that is filled out 
+spending limited time with clients during visits. solely for reporting purposes, and delays in 
+compiling and reporting data. CommCare has the 
+The second pillar seeks to increase the Quality of potential to dramatically improve accountability of 
+care clients receive when seeking out services. We care by providing nearly real-time reports about 
+define quality of care in terms of whether a client each interaction between an FLW and a client—
+receives complete and accurate information, and if with a level of detail and speed that is far beyond 
+their FLWs make the necessary assessments and what even the best paper reporting systems can 
+decisions and propose well-informed accomplish. 
+recommendations and follow-up steps. Common 
+barriers to delivering high quality services include a CommCare is designed to be used by FLWs, and 
+lack of training for new or replacement FLWs, accordingly, all four pillars demonstrate how 
+FLWs failing to administer all counseling CommCare improves FLWs’ processes and 
+information due to sensitive topics or limited time, behaviors. While improving FLWs’ processes and 
+and inaccurate clinical assessments that are the behaviors is important to any frontline program, a 
+result of poor measurement tools or lack of primary goal of frontline programs is to increase 
+motivation to act upon the assessment. clients’ positive behaviors. In this evidence base, 
+Level 5 studies demonstrate how CommCare 
+The third pillar is to improve the Experience clients contributes to improving Client Knowledge, 
+have when receiving care. For the purpose of this Attitude, & Practice in the clients that FLWs 
+evidence base, we define experience of care by a serve. 
+client’s level of engagement during a FLW visit and 
+the degree to which the client finds their FLW 
+!
+4!
+Table of Articles Included in Evidence Base 
+Lead 
+Level Published 
+Author Highlights Year Platform Country 
+Presents flexible approach for utilizing 
+1 Braa DHIS2.0, OpenMRS, and CommCare 2010 CommCare Published Sierra Leone 
+together 
+1 DeRenzi Presents case management framework 2011a CommCare Published Unspecific 
+1 DeRenzi Outlines six key functions for mobile health CommCare (mhealth) 2011b (& others) Published Unspecific 
+1 Routen Describes how to use CommCare to support family planning 2010 CommCare Published Unspecific 
+Drawing from survey of 34 CommCare users 
+2 Bhavsar in India to present a mobile design 2014 CommCare Published India 
+framework 
+2 Bogan Overview of CommCare applications in Tanzania 2009 CommCare Published Tanzania 
+Five-fold increase in adverse event 
+2 Chaiyahati submission rates using CommCare 2013 CommCare Published South Africa 
+compared to paper 
+2 Mangilima Case study of CommCare in Tanzania 2010 CommCare Published Tanzania 
+2 Mhila Case study of CommCare in Tanzania 2009 CommCare Published Tanzania 
+Demonstrates that CommCare helped 
+2 Schuttner Grey/  improve linkages between community and 2011 CommCare 
+clinic Poster 
+Zambia 
+2 Treatman Case study of CommCare in India 2012 CommCare Published India 
+CommCare helped FLWs follow up with 
+referred TB symptomatics reduced 
+2 Wilson communication delays for test results, and 2013 CommCare Grey/ India 
+reduced the number of FLW visits to Poster 
+diagnostic centers 
+FLWs reported their clients were more 
+3 Bhavsar attentive and trusted audio messages in CommCare more than what the FLWs 2012 CommCare Grey Guatemala 
+themselves were saying 
+CommCare lent credibility to the message of 
+3 Chittamuru FLWs. CommCare allowed FLWs to work around cultural and social barriers when 2012 CommCare Published India 
+discussing sensitive or taboo 
+CommCare strengthens ASHA workflow by 
+improving ASHA performance, improving the 
+3 Flaming ASHA-beneficiary interaction, changing health norms in community, and improving 2014 CommCare Grey India 
+the monitoring of ASHAs within the health 
+system 
+3 Mitchell Electronic protocols well received by 2012a Related Published Tanzania 
+clinicians and clients, using a pre-cursor to 
+!
+5!
+CommCare 
+CommCare saves FLWs time calculating 
+children’s nutritional status; reduced time for 
+3 Ortiz data to be available 2014 CommCare Grey Madagascar 
+CommCare informs client counseling 
+3 Schwartz sessions, tracks clients, and helps ASHAs 2013 CommCare Published India 
+deliver appropriate information 
+3 Treatman Multimedia improves experience for clients and FLWs 2012 CommCare Published India 
+3 Vijaykumar Use of CommCare improves FLW credibility 2012 CommCare Grey India 
+Collected qualitative feedback about 
+3 Wise CommCare from Village Workers in 2013 CommCare Grey India 
+Maharashtra, India 
+4 Birnbaum Algorithms can detect outliers and identify FLWs who are submitting false forms 2012 CommCare Published Tanzania 
+FLWs’ knowledge of high impact MNCH 
+interventions increased by 24% after five 
+4 CRS months CommCare improves counseling 2013a CommCare Grey India 
+quality and family’s receptiveness of 
+counseling 
+Electronic guidance increased adherence to 
+4 DeRenzi clinical protocols by ~20% using a pre- 2008 Related Published Tanzania 
+cursor to CommCare 
+4 DeRenzi Reminders and escalation to supervisor increased timeliness of visits by 85% 2012 CommCare Published Tanzania 
+FLW knowledge of at least 3 of 5 danger 
+4 IntraHealth Grey/  signs improved from 48% to 70% after four 2012 CommCare India 
+months of using CommCare Poster 
+9 of 10 FLWs self-reported improved social 
+respect in community from using 
+4 Medhi CommCare. CommCare reduced average time to get data to program coordinator from 2012 CommCare Published India 
+45 days to 8 hours. CommCare improved 
+data completeness from 67% to 84% 
+Counselor using an electronic protocol can 
+4 Mitchell effectively screen HIV patients (i.e. task 2012 Related Published South Africa 
+shifting) using a pre-cursor to CommCare 
+Pre-cursor to CommCare improved the 
+consistency, accuracy and completeness of 
+4 Mitchell IMCI assessments. Study found only 20.7& of children had all ten IMCI items assessed 2013 Related Published Tanzania 
+using paper-based IMCI protocols, 
+compared to 70.9% with eIMCI 
+4 Mohamed CommCare increases the duration of client visits and engages more decision makers 2014 CommCare Published India 
+CommCare is more efficient, effective, and 
+4 Nascimento cost-effective tool than paper systems in 2014 CommCare Grey Mozambique 
+conducting searches for HIV/AIDS patients 
+that defaulted on ARTs, missed 
+!
+6!
+appointments, or lab test dates. 
+Medicine dosing accuracy using CommCare 
+4 Palazuelos was higher than using paper tool; Mexico/GuateCommCare enhances FLW credibility with 2013 CommCare Published mala 
+communities 
+Integrating CommCare lead to 
+improvements in quality of ANC care by 
+4 Pathfinder CHEWs, improved quality scores related to frequency that CHEWs performed technical 2014 CommCare Grey Nigeria 
+aspects of care, and a strong effect on 
+counseling provided by CHEWs. 
+CommCare enhances screening for CVD by 
+enabling faster and easier trainings, more 
+4 Surka efficient screenings, and by reducing the 2014 CommCare Published South Africa 
+margin of error in calculating CVD risk scores 
+compared to the paper-based tools 
+Sharing family planning counseling with 
+5 CHS CommCare led to increased demand for 2013 CommCare Grey Benin 
+family planning services 
+Over five months, a CommCare project saw 
+5 CRS a 33% increase in clients who asked 2013b CommCare Grey India 
+questions during visits (from 24% to 57%) 
+An intervention including CommCare 
+5 Hoy achieved an institutional delivery rate of 71% 2014 CommCare Published Tanzania 
+compared to the regional average of 32%. 
+Pregnant women that had access to 
+CommCare had a higher likelihood of 
+accessing antenatal care, have births 
+5 WorldVision assisted by a skilled provider, know pregnancy danger signs, seek care at a 2012 CommCare Grey Mozambique 
+facility, and be more prepared for birth (64%) 
+than in five similar studies, where rates 
+varied between 7% and 48%. 
+CommCare is attributed with an 
+improvement in women who received 
+antenatal care (20%), had skilled deliveries 
+5 WorldVision (22.3%), had birth plans that coordinated 2013 CommCare Grey Afghanistan 
+with a facility (12.6%), and who had 
+increased knowledge of pregnancy danger 
+signs (12.6%) 
+!
+7!
+Findings 
+Although there is no definitive study showing an 
+improvement in health outcomes from adopting 
+CommCare, the collective evidence base suggests 
+that, when used correctly, CommCare’s system 
+can improve community programs, both in the 
+health and non-health domains. 
+Acceptability & Feasibility 
+Several published case studies about CommCare 
+provide clear evidence that the system is well Figure 5. Example of improved performance of 
+received by FLWs and clients across different Community Health Workers (CHWs) over time increasing 
+geographical regions and types of community access to care by providing 85% more timely visits in a 
+programs [Mhila, 2009] [Bogan, 2009] [Mangilma, randomly controlled trial [DeRenzi, 2012]. 
+2010] [Treatmen, 2012]. It is clear that CommCare 
+can be introduced into FLW programs Access to Care 
+successfully, although a program’s ability to Several studies have looked at how CommCare 
+maintain enthusiasm for the system is a separate improves clients’ access to care, including 
+question. This is validated by several studies that increasing FLW visit frequency and reducing 
+have conducted qualitative interviews with FLWs missed appointments. A randomized controlled 
+using CommCare in Tanzania, India, and study in Tanzania found that feedback generated 
+Guatemala [Mhila,2009] [Bhavsar, 2012] from data collected by CommCare increased FLW 
+[Chittamuru, 2012] [Treatman, 2012] [Vjaykumar, visit frequency [DeRenzi, 2012]. The approach 
+2012]. A study of FLWs in Mexico and Guatemala hinges on the fact that FLWs’ visits are reported in 
+found that FLWs were more likely to choose near real-time to a central server, CommCareHQ. 
+CommCare over a paper-based tool, and 94% of FLWs can be encouraged to perform a visit until 
+FLWs found CommCare to be easy to use visit data is reported. The study found that SMS 
+[Palazuelos, 2013]. An evaluation of a nine-FLW reminders that were escalated to a supervisor in 
+CommCare pilot in Madagascar found that all of the case of a missed visit improved FLW visit 
+the FLWs preferred CommCare to the paper-based timeliness by 86%, compared to CommCare-using 
+system, primarily because it both reduced their FLWs who did not receive SMS reminders (Figure 
+workload and made it easier to complete tasks 5). CommCare has also been deployed in Zambia 
+(including tracking clients and performing weight- to help FLWs improve follow-up rates at clinics. 
+for-age z-score calculations [Ortiz, 2014]. The preliminary investigation showed that: 
+Overall, FLWs have reported that CommCare  
+makes their job easier, has helped them gain more 
+respect from clients, and even family members at  “The system widely penetrated into 
+home. In one study in India, children and husbands the pilot communities, and showed 
+of FLWs in India reported that the device signals 
+that the mother/wife “does important work” functioning linkages between 
+[Schwartz, 2013]. While these results are partially community and clinic.” [Schuttner, 2001]
+biased due to the fact that interviewees typically 
+want to speak more favorably about CommCare,  
+they are still highly encouraging. 
+!
+8!
+In India, CommCare helped reduce delays in the A recurring theme in the CommCare literature is 
+time it takes to follow up with TB patients and that CommCare reduces the time it takes FLWs to 
+communicate TB test results [Wilson, 2013]. A participate in trainings or complete job-related 
+study by MEASURE Evaluation in Mozambique tasks, which could possibly enable them to see 
+found that CommCare was more efficient, more or spend more time with clients. A study in 
+effective, and cost-effective tool than traditional South Africa found that FLWs that use paper-
+paper systems in conducting searches for based tools during trainings for cardiovascular 
+HIV/AIDS patients that defaulted on their ARTs, disease screening (CVD) took four times longer to 
+missed appointments, or lab test dates. complete than the trainings where FLWs used 
+[Nascimento, 2014]. CommCare (12.25 hours compared to 3 hours). 
+When it came to the actual screening of clients, it 
+Another study in Mozambique found that pregnant took FLWs using the paper tool an average of 36 
+women whose Community Health Volunteers minutes to complete one screening, compared to 
+(CHVs) used CommCare had a higher likelihood of 21 minutes for a FLW using CommCare [Surka, 
+accessing antenatal care and have their births 2014].  
+assisted by a skilled provider than women in the 
+control group [World Vision, 2012]. Study results Quality of Care 
+from Afghanistan showed a 20% improvement in 
+antenatal attendance and a 22.3% improvement in The quality of services an FLW provides is based 
+the number of women receiving skilled deliveries at upon them knowing and being comfortable 
+a health facility. The same study also noted that delivering correct information to clients. One study 
+equipping non-literate CHVs with mobile phones in India demonstrated that, after a period of four 
+allowed them to have: months of use, FLWs had increased their 
+knowledge retention of at least three to five danger 
+ signs across all key health categories from 48% at 
+baseline to 70% [IntraHealth, 2012]. A separate 
+“Better access and deliver medical pilot project of 111 Accredited Health Social 
+supplies during the winter months, in Activists (ASHAs) in Kaushambi, India found a 24% 
+addition to making referrals to health improvement in ASHAs’ knowledge of high impact 
+facilities”  [World Vision, 2012] maternal and newborn care interventions since first using CommCare five months earlier [Mohamed, 
+ 2014]. Other FLWs in India have self-reported 
+better knowledge retention as a result of using 
+A study of 25 FLWs using CommCare and 25 not CommCare, which has been helpful in presenting 
+using CommCare in Kaushambi, Uttar Pradesh complex and sensitive topics [Chitamuru, 2012]. 
+investigated how long FLWs spent with their 
+clients and who attended the counseling sessions. A prominent trend in the CommCare evidence 
+The results showed that sessions led by FLWs base is that CommCare can supplement FLW 
+using CommCare are on average 1.7 times longer, training. A controlled trial in 2008 in Tanzania 
+2.6 times more likely to include the client’s tested a PDA-based precursor to CommCare 
+husband, and 1.6 times more likely to include the (eIMCI) that contained an electronic version of 
+client’s mother-in-law than counseling sessions led Integrated Management of Childhood Illness (IMCI) 
+by FLWs that do not use CommCare. Qualitative protocol for classifying and treating common 
+interviews from the study also confirmed that causes of child mortality (Figure 6). The trial results 
+CommCare attracts family members to counseling indicated that clinicians using electronic guidance 
+sessions [Mohammed, 2014].  completed on average 20% more of the required 
+steps than clinicians that did not use electronic 
+!
+9!
+guidance [DeRenzi, 2008]. Likewise, a study of 17 frequency at which CHEWs performed more 
+FLWs in Mexico and Guatemala found the use of technical aspects of care. [Pathfinder 2014]. 
+CommCare consistently resulted in a higher 
+medicine dosing accuracy compared to a paper- Experience of Care 
+based tool during a dosing practice test 
+[Palazuelos, 2013].  CommCare applications typically make extensive 
+use of multimedia, especially images and audio 
+At the clinical level, CommCare has been shown to clips that are recorded locally by native speakers. 
+improve the consistency, accuracy, and CommCare also supports videos, although these 
+completeness of clinical assessments. In the same are less common due to production expenses. The 
+study, it was discovered that the proportion of literature indicates that multimedia usage in 
+completed assessments for each of the 10 critical CommCare increases client engagement 
+IMCI items ranged from 61%-98% using paper- [Treatman, 2012].  
+based protocols, compared to 92-100% with the 
+CommCare precursor (eIMCI). Only 20.7% of the Several studies have shown that CommCare 
+1,221 children in the study had all ten IMCI items improves FLWs’ personal credibility and the 
+assessed with paper protocols, compared with credibility of the health messages they deliver 
+70.9% that had electronic guidance. The [Chitamuru, 2012] [Vijaykumar, 2012] [Bhavsar, 
+CommCare precursor also resulted in more 2012] [Medhi, 2012] [Schwartz, 2013] [Ortiz, 2014]. 
+accurate disease classification (90.9%) compared These findings have emerged from qualitative 
+to paper (82.7%), and clinical assessments that interviews with FLWs, who have reported that 
+use CommCare are more consistent across clinics CommCare has enhanced their credibility in their 
+[Mitchell, 2013]. In Nigeria, Pathfinder International community, and clients and their families perceive 
+found that CommCare increased the quality score recorded messages as more trustworthy. 
+for ANC visits from 13.3 at baseline to 17.2 at the CommCare is widely viewed as an independent, 
+endline (p<0.0001), out of a possible score of 25. objective source of information, which greatly 
+The study cited that, with CommCare, there was benefits FLWs’ ability to deliver sensitive health 
+an improvement and increase in CHEWs messages. An FLW can act more as a trusted 
+counseling beneficiaries and an increase in the mediator in addressing the listeners’ questions 
+Figure 6. Clinicians that used CommCare completed 20% more required protocol steps (Tanzania, 2008) 
+!
+10!
+with the phone’s messages. On the other hand, (Figure 7). Research on CommCare has included 
+concerns are noted that the use of CommCare to the development of algorithms to detect 
+play health messages to clients can reduce anomalous data from FLWs. After testing data 
+interaction if the FLW simply plays the audio clips generated by FLWs who were asked to submit 
+without initiating a follow-up discussion. false yet realistic data, the algorithms were able to 
+identify the false data with 80% sensitivity and 
+CommCare has also been shown to improve 90% specificity [Birnbaum, 2012]. 
+clients’ visits and experiences and FLWs’ ability to 
+deliver counseling messages. As part of the study CommCare has also been shown to improve form 
+in Tanzania, parents of ill children were interviewed submission rates. A study in South Africa found 
+after a clinician using the PDA-based precursor to that CommCare increased Healthcare Workers’ 
+CommCare (eIMCI) examined their child. The (HCWs) submission rates of adverse event forms 
+caretakers had positive views of the electronic from 5% at baseline using paper forms to 27% 
+system, and specifically noted that the system using CommCare. The study also found a 
+prompted providers to conduct more thorough disconnection between HCWs’ expressed 
+examinations and ask more questions about their enthusiasm for using CommCare and actual 
+children [Mitchell, 2012]. A study in India found practice (which was lower than expected). The 
+that FLWs’ counseling techniques improved after study concluded that programs should carefully 
+five months of using CommCare. This included a explore FLW motivations and technologic 
+34% increase in FLWs who encouraged clients to enhancements prior to scaling new mobile health 
+use a health service, a 22% increase in FLWs who initiatives [Chijayachati, 2013]. 
+encouraged clients to ask questions or speak 
+during visits, and a 25% increase in FLWs who 
+waited for clients to respond to a question 
+[Mohamed, 2014] 
+Accountability of Care 
+A crosscutting trend from the evidence base is that 
+CommCare improves monitoring and 
+communication. In one project in India, the 
+introduction of CommCare improved data 
+completeness from 67% with the paper-based 
+system to an average of 84% with CommCare. 
+CommCare also reduced the average time it took 
+to submit data to a program coordinator from 45 
+days to 8 hours [Medhi, 2012]. A small pilot in 
+Madagascar found that introducing CommCare 
+reduced the time until data was made available 
+[Ortiz, 2014]. In qualitative interviews, FLWs in 
+Bihar and Uttar Pradesh, India, reported that Figure 7. Algorithms used to support quality control 
+community members felt greater social pressure to analyze the distribution of answers by FLWs detect systematic errors and fake form submissions 
+comply with recommended behaviors when they (Birnbaum, 2012) 
+knew that their knowledge, attitudes, and practices 
+were being recorded [Chittamuru, 2012].  Client Knowledge, Attitude, or Practice 
+Another promising aspect of mobile data capture is 
+its ability to conduct real-time quality control 
+!
+11!
+There are a few examples in the literature where visited a health center to meet a health worker and 
+CommCare has helped improve client knowledge, 68 adopted a family planning method. While there 
+attitude, and/or practice. A study in India found were no control group results to compare this 
+that after interacting for five months with FLWs adoption rate to, CHS noted that this was a 
+who used CommCare clients were 33% more likely significant increase than what CHWs are used to. 
+to ask questions than when they interacted for five They cite a testimonial from a midwife that 
+months with FLWs who didn’t use CommCare demonstrates these results: 
+[Mohamed, 2014]. CommCare was used in 
+Zanzibar to increase the institutional delivery rates,  
+especially in cases of complicated pregnancies. 
+Traditional birth attendants (TBAs) were equipped  “Since the CHWs have begun this 
+with CommCare to identify danger signs, refer work with the phone [that uses 
+clients, record family members’ permission to CommCare], there has been greater 
+transport the women in case of emergencies, and demand for adopting family planning 
+facilitate payment to local vehicle owners to 
+transport women to a facility. The intervention methods.” [Center for Human Services, 2013]  
+reported a 68% facility delivery rate, compared to 
+the baseline of 40% and 23% recorded in the two  
+control areas [ICT4CHW, 2011]. Research has also shown that CommCare not only 
+A World Vision study found that pregnant women impacts the knowledge, attitudes, and practices of 
+in Mozambique who interacted with a CommCare clients, but of family members as well. A study in 
+pregnancy and postpartum module were more India of 50 FLWs found that family members of 
+likely to know about pregnancy danger signs (20%) pregnant women— specifically their husband, 
+and seek facility care in case of complications. sisters-in-law, and mothers-in-law—were more 
+They were also more likely to be prepared for birth likely to sit in on CommCare-using FLWs’ home 
+(64%) than in five similar studies where rates visits with pregnant women than home visits where 
+varied between 7% and 48%. Study results also an FLW was not using CommCare, [Mohamed, 
+indicated that there is an association between birth 2014]. 
+preparedness and referral completion rates (91% 
+during prenatal period and 47% during postpartum Conclusion 
+period) [World Vision, 2012]. Another World Vision Over the last ten years, Dimagi has participated in 
+study in Afghanistan reported similar findings. In research initiatives for ICT platforms and 
+addition to being attributed to increasing the healthcare delivery in under-served population 
+likelihood that woman receives antenatal care around the world. In doing so, Dimagi has 
+(20%) or has a skilled delivery (22.3%), CommCare partnered with research firms, non-profit 
+was attributed to increasing pregnant women’s organizations, governments, and academic 
+knowledge of two or more pregnancy danger signs institutions to conduct research around the use of 
+(12.9%), the likelihood that a pregnant woman the CommCare platform. While many of the studies 
+would have a birth plan (12.6%), and the number involved staff from Dimagi or D-tree International, 
+of pregnant women who took iron supplements the majority of these studies were led by academic 
+(14.4%) [World Vision, 2013]. researchers from outside organizations including 
+In a study in Benin led by Center for Human the University of Pennsylvania, Nanyang 
+Services (CHS), 264 clients in Benin received Technological University, Microsoft Research, and 
+family planning counseling from a FLW with the University of Washington. 
+CommCare over four months. Of these women, 72 
+!
+12!
+The result is an extensive evidence base. There are [Bhavsar, 2012] Bhavsar, M., Brunsting, R., Coy Quiroa, NM, 
+21 published papers about CommCare. Available Monterrey, W.A., Gombay, C., Lesh, N., Lobos, I. (Poster) Perceptions of Community Health Workers in Rural Guatemala Using a Mobile 
+evidence about CommCare is further bolstered by Application for Early Identification of High Risk Pregnancies. Salud y 
+important grey literature studies and papers on a Equidad en América Latina: e-Salud para enfermedades crónicas no 
+transmisibles. 2012.  
+closely related system that support PDA-based 
+precursors to CommCare. These papers reflect [Bhavasar, 2014] Bhavsar, M., Grijalva, K. From paper to Mobile: 
+what was available at the time of this literature Design Considerations for Field Level Worker Programs. Mobile Communication For Development Conference. April 2014. Dakar, 
+review. The CommCare evidence base is updated Senegal. [Website] 
+periodically as more papers are published. 
+[Birnbaum, 2012] Birnbaum B.E., DeRenzi B., Flaxman A.D., & Lesh 
+The collective findings from the 40 papers in the N. Automated quality control for mobile data collection. ACM DEV, 1-1, 2012. [Website] 
+evidence base are encouraging. They demonstrate 
+the potential for organizations to use CommCare [Bolinger, 2011] Bollinger R., McKenzie-White J., Gupta A. Building a 
+Global Health Education Network for Clinical Care and Research: The 
+to improve a wide range of aspects within their Benefits and Challenges of Distance Learning Tools. Infect Dis Clin 
+community program(s). The findings also support North Am. 2011 June ; 25(2): 385–398. [Website] 
+the hypothesis that CommCare can be used to [Bogan, 2009] Bogan M., van Esch J., Mhila G., DeRenzi B., Lesh N., 
+increase the timeliness, accuracy, and relevance of & Mitchell M. Improving standards of care with mobile applications in 
+essential information delivered to clients. However, Tanzania. W3C Workshop in Africa to Explore the Role of Mobile 
+Technologies for Development, Maputo, Mozambique. 2009. [Website] 
+it is important to note that CommCare by itself will 
+not improve the behavior of FLWs, but can only [Braa, 2010] Braa J., Kanter A.S., Lesh N., Crichton R., Jolliffe B., 
+amplify an organization’s efforts to improve their Saebø J., Kossi E., & Seebregts C.J.,. Comprehensive yet scalable health information systems for low resource settings: a collaborative 
+community program. Organizations must effort in Sierra Leone. AMIA Annu Symp Proc, 2010: 372-376, 2010. 
+continually support their FLWs and utilize the [Website] 
+information delivered by CommCare in order to [Chaiyachati, 2013] Chaiyachati KH, Loveday M, Lorenz S, Lesh 
+realize the potential benefits of introducing a N, Larkan L-M, et al. (2013) A Pilot Study of an mHealth Application 
+mobile system to their FLWs. for Healthcare Workers: Poor Uptake Despite High Reported Acceptability at a Rural South African Community-Based MDR-TB 
+Treatment Program. PLoS ONE 8(5): e64662. [Website] 
+Future Research 
+[Chittamuru, 2012] Chittamuru, D. CommCare: Evaluation of a mobile 
+It is encouraging that there is preliminary evidence, application for maternal health. International Association of Media and Communications Research, 2012 Conference: South-North 
+in unpublished studies, that CommCare can create Conversations. Durban, South Africa, 2012. [Website] 
+changes in client behavior, including knowledge, 
+attitude, and practice. As we think about our next [CHS, 2013] Texting for Maternal Wellbeing: Use of Mobile Phones by CHWs to Offer Family Planning Services. University Research Co-
+steps in expanding CommCare’s evidence base, Center for Human Services. 2013. [Website] 
+one area that we would like to further evaluate is [CRS, 2013a] Internal report shared through personal correspondence 
+CommCare’s impact on clients’ knowledge, with authors. 
+attitude, and practice. We hope to also see 
+rigorous studies demonstrating health benefits in [CRS, 2013b] Internal report shared through personal correspondence with authors. 
+the future, but acknowledge that these studies will 
+be expensive and require extensive resources. [DeRenzi, 2008] DeRenzi B., Lesh N., Parikh T.S., Sims C., Maokola W., Chemba M., Hamisi Y., Schellenberg D., & Borriello G. E-IMCI: 
+These intermediate studies play an important role improving pediatric health care in low-income countries. ACM 
+in providing insight into the potential benefit of Conference on Computer-Human Interaction (CHI), 2008. [Website] 
+CommCare and other mobile systems for FLWs, as [DeRenzi, 2011a] DeRenzi B., Sims C., Jackson J., Borriello G., & 
+well as guidance on how to improve CommCare to Lesh N. A framework for case-based community health information 
+best reach its potential. systems. Global Humanitarian Conference, 2011. [Website] 
+[DeRenzi, 2011b] DeRenzi B., Borriello G., Jackson J., Kumar V.S., 
+References Parikh T.S., Virk P., & Lesh N. Mobile phone tools for field-based 
+!
+13!
+health care workers in low-income countries. The Mount Sinai Journal retention. USAID, PEPFAR, Measure Evaluation. August 2014. 
+of Medicine, 78(3), 406-418, 2011. [Website] [Website] 
+[DeRenzi, 2012] DeRenzi B., Findlater L., Borriello G., Jackson J.,  [Ortiz, 2014] Ortiz, K. Salohi CommCare Evaluation. Grey Literature. 
+Payne J., Birnbaum B., Parikh T., & Lesh N. Improving community 
+health worker performance through automated SMS. The Fifth [Palazuelos, 2013] Palazuelos D., Diallo A., Palazuelos L., Carlile N., 
+International Conference on Information and Communication Payne J., & Franke M. User Perception of an mHealth Medicine 
+Technologies and Development, 25-34, 2012. [Website] Dosing Tool for Community Health Workers. JMIR MHealth and 
+UHealth. 2013; 1(1):e2. [Website] 
+[Flaming, 2014] Flaming, A., Khan, A. Interoperability of CommCare 
+within India’s ASHA framework: a study of mobile health in Kishangarh [Pathfinder, 2014]. McNabb, M., Chukwu, E., Ojo, O., Shekhar, N., 
+block of Ajmera, Rajasthan. National Conference for Undergraduate Salami, H., Jega, F. Assessments of the quality of antenatal care 
+Research. April, 3-5, 2014.  services provided by health workers using a mobile phone decision 
+support application in northern Nigeria: a pre/post-intervention study. 
+[Hoy, 2014] Hoy, R., Rubin, J., Mitchell, M., Using mobile technology Pathfinder International. 2014. [Website] 
+to address the ‘three delays’ to reduce maternal mortality in Zanzibar, 
+(International Journal of Use-Driven Healthcare, Jan 2014). [Website] [Routen, 2010] Routen, T. Silas, L.F., Mitchell, M., Van Esch, J., Lesh, 
+N., Lyons, J. and Badiani, R. Using Mobile Technology to Support 
+[IntraHealth, 2012] Grey literature. Summary available online at the Family Planning Counseling in the Community – Case Study. 
+following address: [Website] Proceedings of the 3rd International Conference on ICT for Africa, 
+2010. [Website] 
+[Mangilima, 2010] Mangilma J., DeRenzi B., Lyons J., Mrema B., Ollis 
+S., Schaefer W., Sims C., & Lesh N. CommCare: a phone-based tool [Schuttner, 2011] Schuttner L., Zijdel W., Manda H., Shearer K., 
+for home based care in Tanzania. Second International Conference on Siyingwa R., Theis M., Mwaba L., Zue C., Musatwe D., Roos D., 
+Mobiles for Development, Kampala, Uganda, 2010 Mwansa N., Mwalukanga M., Nyakubaya L., Stringer J.S.A., Chi B.H., 
+& Chintu N. Use of mobile phone-guided community outreach for 
+[Medhi, 2012] Medhi I., Jain M., Tewari A., Bhavsar M., Matheke- integrated primary health care and HIV services in Zambia. Poster 
+Fischer M., & Cutrell E. Combating rural child malnutrition through TUPE444, Sixth IAS Conference on HIV Pathogenesis, Treatment and 
+inexpensive mobile phones. Nordic Conference on Human-Computer Prevention, Rome, Italy, July 2013. [Website] 
+Interaction, 2012 [Website] 
+[Schwartz, 2013] Schwartz, A., Bhavsar, M., Cutrell, E., Donner, J., 
+[Mhila, 2009] Mhila G., DeRenzi B., Mushi C., Wakabi T., Steele M., Densmore, M. Balancing burden and benefit: non-prescribed use of 
+Roos D., Jackson J., Dhadialla P., Sims C., & Lesh N. Using mobile employer-issued mobiles devices. Proceedings of the Sixth 
+applications for community-based social support for chronic patients. International Conference on Information and Communication 
+HELINA, 2009. [Website] Technologies and Development. 2013. DOI: 
+10.1145/2517899.2517911 
+[Mitchell, 2012a] Mitchell M., Hedt B.L., Eshun-Wilson I., Fraser H, 
+John MA, Menezes C, Grobusch MP, Jackson J, Taljaard J, & Lesh N. [Surka, 2014] Surka, Sam et al. Evaluating the use of mobile phone 
+Electronic decision protocols for ART patient triaging to expand technology to enhance cardiovascular disease screening by 
+access to HIV treatment in South Africa: a cross sectional study for community health workers, International Journal of Medicine 
+development and validation. International Journal of Medical Informatics, 2014. [Website]  
+Informatics, 81(3):166-72, 2012.   [Website] 
+[Tomlinson, 2013] Tomlinson, M., Rotheram-Borus, M.J., Doherty, T., 
+[Mitchell, 2012b] Mitchell M., Getchell M., Nkaka M., Msellemu D., Swendeman, D., Tsai, A., Ijumba, P., le Roux, I., Jackson, D., Stewart, 
+Van Esch J., & Hedt-Gauthier B. Perceived improvement in integrated J., Friedman, A., Colvin, M., Chopra, M. Value of mobile information 
+management of childhood illness implementation through use of system to improve quality of care by community health workers. SA 
+mobile technology: qualitative evidence from a pilot study in Tanzania. Journal of Information Management 15(1).  April 2013. 
+Journal of Health Communication. 2012; 17(Suppl 1):118-127. 
+[Website] [Treatman, 2012a] Treatman D., Bhavsar M., Kumar V., & Lesh N. 
+Mobile phones for community health workers of Bihar empower 
+[Mitchell, 2013] Mitchell M., Hedt-Gauthier B., Msellemu D., Nkaka adolescent girls. WHO South-East Asia Journal of Public Health, 1(2), 
+M., & Lesh N. Using electronic technology to improve clinical care – 224-226. 2012. [Website] 
+results from a before-after cluster trial to evaluate assessment and 
+classification of sick children according to the Integrated Management [Treatman, 2012b] Treatman D., Lesh N. Strengthening Community 
+of Childhood Illness (IMCI) protocol in Tanzania. BMC Medical Health Systems with Localized Multimedia. Mobile for Development. 
+Informatics and Decision Making 2013, 13:95. [Website] Mobiles for Development, 2012. [Website] 
+[Mohamed, 2014] Mohamed, N., Lesh, N., Conte, F., & Findlater L. [Tumwebaze, 2012] Tumwebaze H, Tumwesigye E, Baeten JM, Kurth 
+Using ICT4CHW To Influence Decision Makers. Mobile AE, Revall J, Murnane PM, Chang LW, Celum C. Household-Based 
+Communication For Development Conference. April 2014. Dakar, HIV Counseling and Testing as a Platform for Referral to HIV Care and 
+Senegal. [Website] Medical Male Circumcision in Uganda: A Pilot Evaluation. PLoS ONE 
+7(12), 2012. [Website] 
+[Nascimento, 2014] Nascimento, N., Cannon, M., Perales, N., 
+Chariyeva, Z. Assessment of an mHealth initiative to improve patient [Vijaykumar, 2012] Grey literature, informally described on ict4chw 
+list: [Website]  
+!
+14!
+[Wilson2013]. Wilson, N.C., Chadha, S., Prasad, S., Prasad, B.M., 
+Sagili, K., Kumar, S., Izenberg, M. mTB by Front Line Workers in a 
+Tribal District in India: A Pilot Study. Poster at the 45th Union World 
+Conference On Lung Health in Barcelona Spain, October 28-
+November 1 2014.  
+[WorldVision, 2012] Grey literature. Internal report shared through 
+personal correspondence with authors. 
+[WorldVision, 2013] Mobile Technology Strengthens Behavior 
+Change Communication and Referrals by Community Health Workers 
+for Maternal, Newborn, and Child Health in Rural Afghanistan. 
+Operations Research Brief. USIAD and World Vision. [Website] 
+[Wise, 2013] Wise, E. Assessing the Implementation of Mobile Health 
+Technology by Village Health Workers: A Case Study of Jamkhed, 
+Maharasthra. Grey Literature. Internal report shared through personal 
+correspondence with author.  
+ 
+!
+15!

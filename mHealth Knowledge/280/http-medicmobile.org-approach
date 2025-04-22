@@ -1,0 +1,998 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Design | Medic Mobile</title>
+		<meta name="description" content="Medic Mobile is a 501(c)(3) nonprofit organization. We design, deliver, and support world-class software for health workers providing care in the hardest-to-reach communities.">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0, user-scalable=yes">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-touch-fullscreen" content="yes">
+		<meta property="og:url" content="/design"/>
+		<meta property="og:title" content="Design" />
+		<meta property="og:image" content=""/>
+
+		<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+		<link rel="home" href="/" />
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon-precomposed.png">
+				
+		<link rel="stylesheet" href="/cache/cached.6605a87fc04450fca4c4c3383ecfdd4c.css">
+
+		<link rel="stylesheet" href="/stylus/style.css">
+		<script src="/js/vendor/modernizr-2.6.2.min.js"></script>
+		
+		<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '973142399456900');
+fbq('track', 'PageView');
+</script>
+<noscript>
+<img height="1" width="1"
+src="https://www.facebook.com/tr?id=973142399456900&ev=PageView
+&noscript=1"/>
+</noscript>
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1708913492725942');
+fbq('track', 'PageView');
+</script>
+<noscript>
+<img height="1" width="1"
+src="https://www.facebook.com/tr?id=1708913492725942&ev=PageView
+&noscript=1"/>
+</noscript>
+
+		<style type="text/css">
+header.approach {
+        		background: url( //medicmobile.org/img/approach/header-1400x250-HCD.jpg ) center top no-repeat scroll;
+        		-webkit-background-size: cover;
+        		 -moz-background-size: cover;
+        		 -o-background-size: cover;
+        		 background-size: cover;
+        	}
+        
+        		        
+        	@media (max-width: 767px){
+        		header.approach {
+        			background: url( //medicmobile.org/img/approach/header-466x250-HCD-mobile.jpg ) center top no-repeat scroll;
+        			-webkit-background-size: cover;
+        			 -moz-background-size: cover;
+        			 -o-background-size: cover;
+        			 background-size: cover;
+        		}
+        	}
+</style></head>
+
+<body>
+	<div class="snap-drawers">
+			<div class="snap-drawer snap-drawer-left">
+			<nav class="snap-drawer-left-nav clearfix">
+				<ul>
+					<li><a class="mm-steal-dk text-uppercase" href="https://medicmobile.org/tools">The Tools</a></li>
+					<li><a class="mm-steal-dk text-uppercase" href="https://medicmobile.org/use-cases">Use Cases</a></li>
+					<li><a class="mm-steal-dk text-uppercase" href="https://medicmobile.org/deploy-the-tools">Deploy The Tools</a></li>
+					<li><a class="mm-steal-dk text-uppercase" href="https://medicmobile.org/design">Design</a></li>
+					<li><a class="mm-steal-dk text-uppercase" href="https://medicmobile.org/partners">Partners</a></li>
+					<li><a class="mm-steal-dk text-uppercase" href="https://medicmobile.org/research-impact-reports">Research & Impact</a></li>
+					<li><a class="mm-steal-dk text-uppercase" href="https://medicmobile.org/blog">Blog</a></li>
+					<li><a class="mm-steal-dk text-uppercase" href="https://medicmobile.org/team">Our Team</a></li>
+					<li><a class="mm-steal-dk text-uppercase" href="https://medicmobile.org/careers">Careers</a></li>
+					<li><a class="mm-steal-dk text-uppercase" href="https://medicmobile.org/contact">Contact</a></li>
+					<li><a data-custom data-custom-amounts='10,20,30,70,100,200,1000' class='commitchange-donate mm-lime text-uppercase'>Donate</a></li>
+					<li><a class="mm-blue text-uppercase" href="https://medicmobile.org/phone-donations">Phone donations</a></li>
+				</ul>
+				<div class="nav-left-social col-md-12 clearfix">
+					<a class="btn btn-footer-social mm-steal-dk" href="https://twitter.com/medic" target="blank"><img src="/assets/twitter-lt-grey.png" alt="" /></a>
+					<a class="btn btn-footer-social mm-steal-dk" href="https://www.facebook.com/MedicMobile" target="blank"><img src="/assets/fb-lt-grey.png" alt="" /></a>
+					<a class="btn btn-footer-social mm-steal-dk" href="https://www.youtube.com/channel/UC0ottwy7ZoKRAxK_GnnZnOg" target="blank"><img src="/assets/youtube-lt-grey.png" alt="" /></a>
+				</div> 			</nav> 		</div>
+		    
+			<div class="snap-drawer snap-drawer-right clearfix">
+			<section class="col-md-12 clearfix actions">
+																					<a class="btn btn-hope col-xs-12 col-md-12 mm-yellow" href="/deploy-the-tools"><h4 class="futura-lt text-uppercase">Equip Health Workers</h4></a>
+												<p>Software tools are used by large organizations supporting thousands of frontline health workers, as well as local organizations and clinics. Learn more about your deployment options.</p>
+						<hr>
+																										<a class="btn btn-hope col-xs-12 col-md-12 mm-warmred" href="/tools"><h4 class="futura-lt text-uppercase">Explore the Tools</h4></a>
+												<p>Learn more about the&nbsp;latest software&nbsp;for community health.</p>
+						<hr>
+												</section>
+		</div>
+	
+	</div>
+		
+	<div id="top"></div>
+	<img class="print-logo" src="/assets/medic-mobile-logo+name-100.png" alt="" />
+	
+	<div id="toolbar">
+	    <a href="#" id="open-left"></a>
+	    <div class="toggler" id="ol"></div>
+	    
+	    <a href="/" id="home"></a>
+	    <object type="image/svg+xml" data="/assets/medic-mobile-logo+name-white.svg"><img class="header-logo" src="/assets/medic-mobile-logo+name-100-white.png" alt="" /></object>
+	    
+		<nav id="top-nav">
+			<ul class="btn-involved">
+				<a href="https://medicmobile.org/get-involved"><li class="btn-involved mm-blue text-uppercase">Get Involved</li></a>
+			</ul>
+			<ul class="btn-action">
+				<li class="toggler-top mm-warmred" id="or"> <h4 class="futura-md text-uppercase">Start Now</h4></li>
+			</ul>
+		</nav>
+				<!--[if lte IE 8]>
+	        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+	   <![endif]-->
+
+			
+	
+	
+</div>
+<div id="content" class="snap-content">
+	    
+
+	<header class="image-top approach"></header>
+	<div class="title text-uppercase mm-ltgreen"><h1>Design</h1></div>
+
+
+	<div class="main-wrapper">
+		
+		<section class="main">
+
+			<div class="panel-wrapper">
+							</div>
+			
+			<div class="panel-wrapper">
+				<h1 class="text-uppercase">Designing with and for Health Workers</h1>
+				
+				
+				<div class="row">
+				<div class="col-xs-12 col-md-8 clearfix">
+				<p>At Medic Mobile, health workers are at the center of everything we do. Before building or deploying any technology, we get to know the people who will use and benefit from an improved health system. Our team designs workflows and tools to achieve greater health coverage and improved health equity in the communities they serve.</p>
+
+<p>We have always been inspired by health workers working to improve health outcomes in their communities. The people we meet and their stories shape our design principles: design for the familiar, solve the most important challenges first, and let the best ideas lead to better solutions. Creating an intuitive mobile and web application is about making informed design choices while keeping the best interests of health workers in mind. We have formalized these values into a human-centered design practice that guides our use case and impact strategy, workflow design, and technology roadmap.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h1>Process &amp; Practical Methods</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p>Human-centered design is a methodology and a mindset at Medic Mobile. We believe that designing for and with end users not only yields a more impactful result, but also resonates with our commitment to engaging communities as active creators of their own futures. We live out these principles from the proposal stage through to post-deployment monitoring and support.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p><img src="//medicmobile.org/img/approach/design-cards-ranju-6113.jpg" alt="design-cards-ranju-6113.jpg#asset:3049" /><br /></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p><strong>Build Empathy<br /></strong>Start with people. We seek to understand their work and home environments, goals, strengths, assets, and pain points.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p><strong>Define Opportunities<br /></strong>Identify the most important problems, and the ones our mobile tools are best positioned to solve.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p><strong>Ideate Solutions<br /></strong>Our participatory workshops ensure that our workflows and tools can be easily integrated into daily work practices, are grounded in the reality of the context, and are informed by the way health workers think and solve problems.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p><strong>Iterate and Improve<br /></strong>Pay close attention to how our tools are used once they are deployed; seek opportunities for continued improvement and growth.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h1>What Design Delivers</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p>Partners experience our design process during the time we spend with their health workers defining and adapting our workflows to their unique social and cultural context. These collaborative sessions invite health workers to participate and create an improved health delivery system for their communities. With sketches and custom-made design cards, we encourage health workers to get hands-on in defining each step in their current chain of events, then take a fresh approach and reimagine a new series of events using our tools.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p><img src="//medicmobile.org/img/approach/IMG_7135_hcd-1200.jpg" alt="IMG_7135_hcd-1200.jpg#asset:4072" /><br /></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p>Medic’s tools are continually evolving to improve the experience for health workers. We generate stories about how health workers will use these features then test them with users to validate each new feature. Using our design principles as a guide for our tool’s user interface, we continually iterate and refine the health worker’s experience based on their feedback.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p>The methods and learnings from our design approach provide a solid foundation for our training materials, deployment process, and delivery strategy. Our how-to guides support successful adoption of our tools, cater our post-deployment support for the needs of managers, while creating a whole delivery strategy aimed at customizing the Medic experience for small-scale community-based organizations.</p>
+				</div>
+				
+				<div class="col-xs-12 col-md-4 clearfix">
+
+							
+					<aside class="approach-video clearfix">
+						<h2>Start the conversation</h2>
+												<img src="//medicmobile.org/img/approach/_horizontal300x200/approach_liberia-01.jpg" alt="approach liberia-01" />
+												<button class="modal-approach" data-toggle="modal" data-target="#Video1">
+						  <span class="glyphicon glyphicon-play-circle"></span>
+						</button>
+						<h3 class="futura-md">Medic Mobile design cards in action, Last Mile Health in Liberia </h3>
+					</aside>
+
+											
+					<aside class="approach-video clearfix">
+						<h2>Break down barriers</h2>
+												<img src="//medicmobile.org/img/approach/_horizontal300x200/approach_Liberia-7.jpg" alt="approach Liberia-7" />
+												<button class="modal-approach" data-toggle="modal" data-target="#Video2">
+						  <span class="glyphicon glyphicon-play-circle"></span>
+						</button>
+						<h3 class="futura-md">Medic Mobile design cards in action, Antenatal Care </h3>
+					</aside>
+
+											
+				</div>
+				</div>
+							</div>
+						
+		</section>
+		
+		<section class="main mm-ltgrey">
+			<div class="panel-wrapper">
+				
+				<h1 class="col-xs-12 col-md-8 clearfix text-uppercase">DESIGN SKETCH CARDS</h1>
+				<a class="btn btn-top btn-approach col-xs-12 col-md-4 mm-ltgreen" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RALXSBCPHAANG" target="blank"><h4 class="futura-md text-uppercase">Purchase with paypal</h4></a>
+				
+								
+					<div class="col-xs-12 col-md-5 clearfix sketchcards ">
+												<img src="//medicmobile.org/img/approach/_square400x400/approach-sketch-cards.jpg" alt="approach-sketch-cards" />
+											</div>
+				
+				<div class="col-xs-12 col-md-7 clearfix sketchcards-copy">
+					<p>Medic Mobile developed a set of 50 “design cards," hand-drawn by Chief Design Officer, Dianna Kane. Each card has a drawing of different components of the healthcare system: community members, healthcare workers, places, technology, and actions involved—such as visits to clinics. These cards are a visual and tactile way to engage people in role play to help facilitate understanding of our work and imagine new ways of doing it. They invite everyone to get involved, even where language barriers are present. </p>
+
+<p>
+	Every purchase goes toward Medic Mobile's mission to connect lifesaving care to underserved communities. </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ul><li>Pack of 50 black &amp; white cards</li>	<li>Hand-drawn designs</li>	<li>Printed on Heavy card stock</li>	<li>Size: 3.5" x 2.5"</li>	<li>Ships in 3 to 4 weeks</li></ul>
+				</div>
+			</div>
+					</section>
+		
+				
+	</div>
+	
+<!--//////// footer //////////--> #}
+		<div id="footer-wrapper">
+			<a class="btn btn-footer-up scroll-top mm-steal-dk" href="#top"><img src="/assets/arrow-up.png" alt="" /></a>
+			
+			<footer>
+				<div class="footer-contact col-xs-12 col-sm-3 col-md-3">
+				<h1 class="text-uppercase">Contact</h1>
+				<p>3254 19th Street, Floor Two<br />San Francisco, CA 94110<br />+1(415) 746-9758 </p>
+				<a class="btn btn-footer-message col-xs-12 col-md-12 mm-yellow" href="https://medicmobile.org/contact"><h4 class="futura-md text-uppercase">Send a message</h4></a>
+				</div>
+				
+				<div class="footer-join col-xs-12 col-sm-3 col-md-3">
+				<h1 class="text-uppercase">Careers</h1>
+				<p>Medic Mobile is growing and we’re hiring great people.</p>
+				<a class="btn btn-footer-message col-xs-12 col-md-12 mm-teal" href="https://medicmobile.org/careers"><h4 class="futura-md text-uppercase">VIEW JOBS</h4></a>
+				</div>
+				
+				<div class="footer-news col-xs-12 col-sm-3 col-md-3">
+					<h1 class="text-uppercase">News</h1>
+					<p>Stay up to date on the latest mHealth news and sign up for our newsletter.</p>
+
+					<div class="form-group">
+						  
+							<!-- Begin MailChimp Signup Form -->
+							  <div id="mc_embed_signup"> 
+								<form action="//medicmobile.us8.list-manage.com/subscribe/post?u=e5b07d2afb4b273eaff8e3c53&amp;id=6f368ee7ca" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+
+									<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+										<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+										<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e5b07d2afb4b273eaff8e3c53_6f368ee7ca" tabindex="-1" value=""></div>
+										<div class="clear"><input type="submit" value="SEND" name="subscribe" id="mc-embedded-subscribe" class="button col-xs-12 col-md-12 mm-blue futura-md"></div>
+								</form>
+								</div>
+							<!--End mc_embed_signup-->
+					</div>
+					<!-- end from group -->
+
+				</div>
+								
+				<div class="footer-connect col-xs-12 col-sm-3 col-md-3">
+				<h1 class="text-uppercase">Connect</h1>
+				<a class="btn btn-footer-social mm-steal-dk" href="https://twitter.com/medic" target="blank"><img src="/assets/twitter-lt-grey.png" alt="" /></a>
+				<a class="btn btn-footer-social mm-steal-dk" href="https://www.facebook.com/MedicMobile" target="blank"><img src="/assets/fb-lt-grey.png" alt="" /></a>
+				<a class="btn btn-footer-social mm-steal-dk" href="https://www.youtube.com/channel/UC0ottwy7ZoKRAxK_GnnZnOg" target="blank"><img src="/assets/youtube-lt-grey.png" alt="" /></a>
+				<a data-custom data-custom-amounts='10,20,30,70,100,200,1000' class='commitchange-donate btn btn-footer-connect col-xs-12 col-md-12 mm-orange'><h4 class="futura-md  text-uppercase">Donate</h4></a>
+				</div>
+			</footer>
+			<div class="mission">
+				
+				<h2><img src="/assets/medic-mobile-logo-100-white.png" alt="" />We design, deliver, and support world-class software for health workers providing care in the hardest-to-reach communities.</h2>
+				<h5>© 2019 Medic Mobile is a 501(c)(3) non profit. . All Rights Reserved.</h5>
+			</div>
+		
+		</div>
+		  
+
+</div>
+
+			<div class="modal fade" id="Video1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h4 class="modal-title" id="myModalLabel">Start the conversation</h4>
+		        <button type="button" class="btn btn-default mm-grey close-bio" data-dismiss="modal">X</button>
+		      </div>
+		      <div class="modal-body">
+		     
+		        <div class="embed-responsive embed-responsive-16by9">
+
+		        </div>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default mm-grey close-video" data-dismiss="modal">CLOSE</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>       
+				<div class="modal fade" id="Video2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h4 class="modal-title" id="myModalLabel">Break down barriers</h4>
+		        <button type="button" class="btn btn-default mm-grey close-bio" data-dismiss="modal">X</button>
+		      </div>
+		      <div class="modal-body">
+		     
+		        <div class="embed-responsive embed-responsive-16by9">
+
+		        </div>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default mm-grey close-video" data-dismiss="modal">CLOSE</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>       
+	
+
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+		<script id='commitchange-donation-script' data-npo-id='3744' src='//commitchange.com/js/donate-button.v2.js'></script>
+        
+		<script src="/cache/cached.a01f4d9929d2805bf23e78f29eb35e58.js"></script>
+
+			<script>
+			(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+			function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+			e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+			e.src='//www.google-analytics.com/analytics.js';
+			r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+			ga('create','UA-48460132-1');ga('send','pageview');
+		</script>
+	<script type="text/javascript">
+/*<![CDATA[*/
+$(function(){
+	        	
+	        			$('.modal-approach').click(function() {
+	        			  $('#Video1 .embed-responsive').append('<iframe width="560" height="315" src="https://www.youtube.com/embed/-OUQ242CzBs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
+	        			});
+
+	        			$('.close-bio, .close-video').click(function() {
+	        			  	$(this).closest('.modal-content').find('iframe').remove();   
+	        			});
+	        			
+	        			$('#Video1').on('hidden.bs.modal', function () {
+	        			   	$('#Video1 iframe').remove();
+	        			})
+	        		
+	        		});
+
+					
+	        		$(function(){
+	        	
+	        			$('.modal-approach').click(function() {
+	        			  $('#Video2 .embed-responsive').append('<iframe src="//www.youtube.com/embed/EJcIOQB2BZU?rel=0" frameborder="0"  allowfullscreen="true"></iframe>');
+	        			});
+
+	        			$('.close-bio, .close-video').click(function() {
+	        			  	$(this).closest('.modal-content').find('iframe').remove();   
+	        			});
+	        			
+	        			$('#Video2').on('hidden.bs.modal', function () {
+	        			   	$('#Video2 iframe').remove();
+	        			})
+	        		
+	        		});
+/*]]>*/
+</script></body>
+</html>

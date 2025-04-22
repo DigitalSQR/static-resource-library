@@ -1,0 +1,1245 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+	<meta charset="UTF-8" />
+	<title>GSMA Mobile for Development - Mobile Internet Skills Training Toolkit</title>
+	<meta name="viewport" content="width=device-width" />
+	<link rel="stylesheet" type="text/css" href="https://www.gsma.com/mobilefordevelopment/wp-content/themes/theme_gsmatheme/style.css" />
+	<link rel="icon" href="https://www.gsma.com/mobilefordevelopment/wp-content/themes/theme_gsmatheme/images/favicon.png" type="image/x-icon" />
+	<link rel="shortcut icon" href="https://www.gsma.com/mobilefordevelopment/wp-content/themes/theme_gsmatheme/images/favicon.png" type="image/x-icon" />
+	<title>Mobile for Development - Mobile Internet Skills Training Toolkit</title>
+
+<!-- This site is optimized with the Yoast SEO Premium plugin v12.0.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Mobile Internet Skills Training Toolkit: A guide for training people in basic mobile internet skills, in India."/>
+<link rel="canonical" href="https://www.gsma.com/mobilefordevelopment/connected-society/mistt/" />
+<meta property="og:locale" content="en_GB" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Mobile for Development - Mobile Internet Skills Training Toolkit" />
+<meta property="og:description" content="Mobile Internet Skills Training Toolkit: A guide for training people in basic mobile internet skills, in India." />
+<meta property="og:url" content="https://www.gsma.com/mobilefordevelopment/connected-society/mistt/" />
+<meta property="og:site_name" content="Mobile for Development" />
+<meta property="article:publisher" content="https://www.facebook.com/gsma/" />
+<meta property="article:author" content="adam.taylor@gsma.com" />
+<meta property="og:image" content="https://i0.wp.com/www.gsma.com/mobilefordevelopment/wp-content/uploads/2017/12/GSMA_logo_colour_web.jpg?fit=1000%2C1000&#038;ssl=1" />
+<meta property="og:image:secure_url" content="https://i0.wp.com/www.gsma.com/mobilefordevelopment/wp-content/uploads/2017/12/GSMA_logo_colour_web.jpg?fit=1000%2C1000&#038;ssl=1" />
+<meta property="og:image:width" content="1000" />
+<meta property="og:image:height" content="1000" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="Mobile Internet Skills Training Toolkit: A guide for training people in basic mobile internet skills, in India." />
+<meta name="twitter:title" content="Mobile for Development - Mobile Internet Skills Training Toolkit" />
+<meta name="twitter:site" content="@GSMA" />
+<meta name="twitter:image" content="https://www.gsma.com/mobilefordevelopment/wp-content/uploads/2017/12/GSMA_logo_colour_web.jpg" />
+<meta name="twitter:creator" content="@GSMA" />
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.gsma.com/mobilefordevelopment/#website","url":"https://www.gsma.com/mobilefordevelopment/","name":"Mobile for Development","potentialAction":{"@type":"SearchAction","target":"https://www.gsma.com/mobilefordevelopment/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"WebPage","@id":"https://www.gsma.com/mobilefordevelopment/connected-society/mistt/#webpage","url":"https://www.gsma.com/mobilefordevelopment/connected-society/mistt/","inLanguage":"en-GB","name":"Mobile for Development - Mobile Internet Skills Training Toolkit","isPartOf":{"@id":"https://www.gsma.com/mobilefordevelopment/#website"},"datePublished":"2016-05-11T07:51:02+00:00","dateModified":"2019-08-02T08:14:33+00:00","description":"Mobile Internet Skills Training Toolkit: A guide for training people in basic mobile internet skills, in India."}]}</script>
+<!-- / Yoast SEO Premium plugin. -->
+
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//animate.adobe.com' />
+<link rel='dns-prefetch' href='//unpkg.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Mobile for Development &raquo; Feed" href="https://www.gsma.com/mobilefordevelopment/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Mobile for Development &raquo; Comments Feed" href="https://www.gsma.com/mobilefordevelopment/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.gsma.com\/mobilefordevelopment\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.2.3"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://c0.wp.com/c/5.2.3/wp-includes/css/dist/block-library/style.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='m4d-css-css'  href='https://www.gsma.com/mobilefordevelopment/wp-content/plugins/plugin_m4d_shortcodes/main.css?ver=5.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='custom-admin-style-css'  href='https://www.gsma.com/mobilefordevelopment/wp-content/plugins/plugin_m4d_utilities_map_templates//css/custom-admin.css?ver=5.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='sf-frontend-style-css'  href='https://www.gsma.com/mobilefordevelopment/wp-content/plugins/plugin_sf_forms/front/sf-form.css?ver=5.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='main-css-css'  href='https://www.gsma.com/mobilefordevelopment/wp-content/themes/theme_gsmatheme/main.css?ver=5.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='choices-css-css'  href='https://www.gsma.com/mobilefordevelopment/wp-content/themes/theme_gsmatheme/scripts/choicesjs/assets/styles/choices.min.css?ver=5.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='datepicker-css-css'  href='https://www.gsma.com/mobilefordevelopment/wp-content/themes/theme_gsmatheme/scripts/flatpickr.min.css?ver=5.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='plugin-header_overload-css'  href='https://www.gsma.com/mobilefordevelopment/wp-content/plugins/plugin_header_overload//plugin_header_overload.css?ver=0.1.0' type='text/css' media='all' />
+<style id='plugin-header_overload-inline-css' type='text/css'>
+
+        div#header{height: 120px;}            
+        div#header *{                
+                display: none;
+        }
+</style>
+<link rel='stylesheet' id='jetpack_css-css'  href='https://c0.wp.com/p/jetpack/7.7.1/css/jetpack.css' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.gsma.com/mobilefordevelopment/wp-content/plugins/plugin_m4d_utilities_map_templates//js/ammap.js?ver=5.2.3'></script>
+<script type='text/javascript' src='https://www.gsma.com/mobilefordevelopment/wp-content/plugins/plugin_m4d_utilities_map_templates//js/worldLow.js?ver=5.2.3'></script>
+<script type='text/javascript' src='https://www.gsma.com/mobilefordevelopment/wp-content/plugins/plugin_m4d_utilities_map_templates//js/classie.js?ver=5.2.3'></script>
+<script type='text/javascript' src='https://www.gsma.com/mobilefordevelopment/wp-content/plugins/plugin_m4d_utilities_map_templates//js/selectFx.js?ver=5.2.3'></script>
+<script type='text/javascript' src='https://c0.wp.com/c/5.2.3/wp-includes/js/jquery/jquery.js'></script>
+<script type='text/javascript' src='https://c0.wp.com/c/5.2.3/wp-includes/js/jquery/jquery-migrate.min.js'></script>
+<script type='text/javascript' src='https://www.gsma.com/mobilefordevelopment/wp-content/plugins/plugin_sf_forms/front/sf-campaign.js?ver=5.2.3'></script>
+<script type='text/javascript' src='https://www.gsma.com/mobilefordevelopment/wp-content/plugins/plugin_sf_forms/front/jquery.selectbox-0.2.min.js?ver=5.2.3'></script>
+<script type='text/javascript' src='https://www.gsma.com/mobilefordevelopment/wp-content/plugins/plugin_sf_forms/admin/picklists.js?ver=5.2.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ajax_admin_link = {"ajaxurl":"https:\/\/www.gsma.com\/mobilefordevelopment\/wp-admin\/admin-ajax.php","full_url":"https:\/\/www.gsma.com\/mobilefordevelopment","jittabit_submit_link":"https:\/\/GSMA.jitterbit.eu\/Production\/SFINT?method=POST_FORM"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.gsma.com/mobilefordevelopment/wp-content/plugins/plugin_sf_forms/front/sf-form.js?ver=5.2.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var header_overload_ajax_obj = {"ajax_url":"https:\/\/www.gsma.com\/mobilefordevelopment\/wp-admin\/admin-ajax.php","ajax_data_url":"","ajax_default_url":"https:\/\/www.gsma.com\/mobilefordevelopment\/wp-content\/plugins\/plugin_header_overload\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.gsma.com/mobilefordevelopment/wp-content/plugins/plugin_header_overload/plugin_header_overload.js?ver=1'></script>
+<script type='text/javascript' src='https://www.gsma.com/mobilefordevelopment/wp-content/plugins/plugin_header_overload//hls/hls.min.js?ver=1'></script>
+<link rel='https://api.w.org/' href='https://www.gsma.com/mobilefordevelopment/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.gsma.com/mobilefordevelopment/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.gsma.com/mobilefordevelopment/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.2.3" />
+<link rel='shortlink' href='https://wp.me/PaMghO-89O' />
+<link rel="alternate" type="application/json+oembed" href="https://www.gsma.com/mobilefordevelopment/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.gsma.com%2Fmobilefordevelopment%2Fconnected-society%2Fmistt%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.gsma.com/mobilefordevelopment/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.gsma.com%2Fmobilefordevelopment%2Fconnected-society%2Fmistt%2F&#038;format=xml" />
+
+<link rel='dns-prefetch' href='//i0.wp.com'/>
+<link rel='dns-prefetch' href='//i1.wp.com'/>
+<link rel='dns-prefetch' href='//i2.wp.com'/>
+<link rel='dns-prefetch' href='//c0.wp.com'/>
+<style type='text/css'>img#wpstats{display:none}</style>	</head>
+<body class="page-template-default page page-id-31360 page-parent page-child parent-pageid-21525">
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNXLRB"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+	
+	<!-- GSMA Main Header -->
+	<header id="gsma_header">
+		<section id="gsma_main_header">
+			<div id="header"></div>
+		</section>
+	</header>
+	<!-- END GSMA Main Header -->
+
+	<div id="wrapper" class="hfeed"> <!-- wrapper div wraps round entire content -->
+		
+		<!-- GSMA Dept / Section Header -->
+		<header id="gsma_section_header" class="">
+			<section id="gsma_section">
+				<div id="gsma_section_title">
+					<h2><a href="https://www.gsma.com/mobilefordevelopment/" title="Mobile for Development" rel="home">Mobile for Development</a></h2>
+					<div id="lang_button_space">
+											</div>
+				</div>
+				<div id="gsma_sub_section_bar">
+					<div class="gsma_sub_section_bar_wrapper">
+						<h3><div id='gsmasite_breadcrumb'></div></h3>
+						<nav id="menu_mobile" class="menu_mobile" role="navigation">
+							<i class="fas fa-bars hamburger" id="hamburger"></i>
+							<div id='mobile_menu_container' class='menu_container'></div>
+						</nav>
+					</div>
+				</div>
+				<div id='color_bar'></div>			</section>
+		</header>
+		<!-- END GSMA Dept / Section Header -->
+
+	<div id="container" class=""><aside id="sidebar" role="complementary">
+		<noscript>
+      <style>#sidebar #site-navigation .menu li a{ display: inline-block; }</style>
+  </noscript>
+
+	<nav id="site-navigation" class="main-navigation" role="navigation" aria-label="menu">
+				<div id="section-menu" data-menu="Menu" data-home="Home" data-back="Back to ">
+			<div id="menu-title">
+				<div id="menu-title-section"></div>
+			</div>
+				<div class="menu-main-container"><ul id="menu-main" class="menu main-menu"><li id='menu_id_237' class=' menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-ancestor current_page_ancestor menu-item-has-children menu_parent_0 menu_depth_0'><a class="current_false post_type link_menu_depth_0 current_item_ancestor_true" href="https://www.gsma.com/mobilefordevelopment/" >Mobile for Development</a>
+<ul class="sub-menu">
+<li id='menu_id_51229' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_237 menu_depth_1'><a class="current_false post_type link_menu_depth_1 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/10yearsofm4d/" >10 Years of M4D</a></li>
+<li id='menu_id_46409' class=' menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu_parent_237 menu_depth_1'><a class="current_false post_type link_menu_depth_1 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/agritech/" >AgriTech</a>
+	<ul class="sub-menu">
+<li id='menu_id_49896' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_46409 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/agritech/innovation-fund/" >Innovation Fund</a></li>
+<li id='menu_id_44770' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_46409 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/agritech/magri-design-toolkit/" >Mobile Agriculture Design Toolkit</a></li>
+<li id='menu_id_37573' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_46409 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/agritech/creating-scalable-mobile-solutions/" >Creating scalable, engaging mobile solutions for agriculture</a></li>
+<li id='menu_id_45271' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_46409 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/agritech/mnutrition-agricultural-content/" >Digital Content</a></li>
+	</ul>
+</li>
+<li id='menu_id_51376' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_237 menu_depth_1'><a class="current_false post_type link_menu_depth_1 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/assistive-tech/" >Assistive Tech</a></li>
+<li id='menu_id_38240' class=' menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-has-children menu_parent_237 menu_depth_1'><a class="current_false post_type link_menu_depth_1 current_item_ancestor_true" href="https://www.gsma.com/mobilefordevelopment/connected-society/" >Connected Society</a>
+	<ul class="sub-menu">
+<li id='menu_id_32222' class=' menu-item menu-item-type-custom menu-item-object-custom menu_parent_38240 menu_depth_2'><a class="current_false custom link_menu_depth_2 current_item_ancestor_false" href="http://www.mobileconnectivityindex.com/" target='_blank'>Mobile Connectivity Index</a></li>
+<li id='menu_id_43488' class=' menu-item menu-item-type-custom menu-item-object-custom menu_parent_38240 menu_depth_2'><a class="current_false custom link_menu_depth_2 current_item_ancestor_false" href="https://www.mobilecoveragemaps.com/" target='_blank'>Mobile Coverage Maps</a></li>
+<li id='menu_id_46628' class=' menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-31360 current_page_item menu_parent_38240 menu_depth_2'><a class="current_true post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/connected-society/mistt/" >Mobile Internet Skills Training Toolkit</a></li>
+<li id='menu_id_44553' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_38240 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/connected-society-innovation-fund/" >Innovation Fund</a></li>
+<li id='menu_id_51678' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_38240 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/connected-society/gsma-national-dialogues/" >GSMA National Dialogues</a></li>
+<li id='menu_id_49377' class=' menu-item menu-item-type-custom menu-item-object-custom menu_parent_38240 menu_depth_2'><a class="current_false custom_internal link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/resources-2/?resource_cats=connected-society" >Resources</a></li>
+<li id='menu_id_49379' class=' menu-item menu-item-type-custom menu-item-object-custom menu_parent_38240 menu_depth_2'><a class="current_false custom_internal link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/blog-2/?post_cats=connected-society" >Blog</a></li>
+	</ul>
+</li>
+<li id='menu_id_38238' class=' menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu_parent_237 menu_depth_1'><a class="current_false post_type link_menu_depth_1 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/connected-women/" >Connected Women</a>
+	<ul class="sub-menu">
+<li id='menu_id_29407' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_38238 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/connected-women/the-commitment/" >Commitment Initiative</a></li>
+<li id='menu_id_26199' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_38238 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/connected-women/our-grantees/" >Our Grantees</a></li>
+<li id='menu_id_42994' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_38238 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/connected-women/accelerating-digital-and-financial-inclusion/" >Accelerating digital and financial inclusion</a></li>
+<li id='menu_id_49378' class=' menu-item menu-item-type-custom menu-item-object-custom menu_parent_38238 menu_depth_2'><a class="current_false custom_internal link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/resources-2/?resource_cats=connected-women" >Resources</a></li>
+<li id='menu_id_49380' class=' menu-item menu-item-type-custom menu-item-object-custom menu_parent_38238 menu_depth_2'><a class="current_false custom_internal link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/blog-2/?post_cats=connected-women" >Blog</a></li>
+	</ul>
+</li>
+<li id='menu_id_50639' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_237 menu_depth_1'><a class="current_false post_type link_menu_depth_1 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/digital-equity-initiative/" >Digital Equity Initiative</a></li>
+<li id='menu_id_47761' class=' menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu_parent_237 menu_depth_1'><a class="current_false post_type link_menu_depth_1 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/digital-identity/" >Digital Identity</a>
+	<ul class="sub-menu">
+<li id='menu_id_47659' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_47761 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/commonwealthinitiative/" >Commonwealth Digital Identity Initiative</a></li>
+	</ul>
+</li>
+<li id='menu_id_46301' class=' menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu_parent_237 menu_depth_1'><a class="current_false post_type link_menu_depth_1 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/ecosystem-accelerator/" >Ecosystem Accelerator</a>
+	<ul class="sub-menu">
+<li id='menu_id_43124' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_46301 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/ecosystem-accelerator/our-insights/" >Our Insights</a></li>
+<li id='menu_id_32704' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_46301 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/eainnovationfund/" >Innovation Fund</a></li>
+	</ul>
+</li>
+<li id='menu_id_46398' class=' menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu_parent_237 menu_depth_1'><a class="current_false post_type link_menu_depth_1 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/m4dutilities/" >Mobile for Development Utilities</a>
+	<ul class="sub-menu">
+<li id='menu_id_39044' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_46398 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/m4dutilities/innovation-fund-2/" >Innovation Fund</a></li>
+<li id='menu_id_47339' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_46398 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/m4dutilities/our-insights/" >Our Insights</a></li>
+	</ul>
+</li>
+<li id='menu_id_46417' class=' menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu_parent_237 menu_depth_1'><a class="current_false post_type link_menu_depth_1 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/mobile-for-humanitarian-innovation/" >Mobile for Humanitarian Innovation</a>
+	<ul class="sub-menu">
+<li id='menu_id_38473' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_46417 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/mobile-for-humanitarian-innovation/innovation-fund/" >Innovation Fund</a></li>
+<li id='menu_id_34937' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_46417 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/mobile-for-humanitarian-innovation/humanitarian-connectivity-charter/" >Humanitarian Connectivity Charter</a></li>
+	</ul>
+</li>
+<li id='menu_id_46288' class=' menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu_parent_237 menu_depth_1'><a class="current_false post_type link_menu_depth_1 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/mobile-money/" >Mobile Money</a>
+	<ul class="sub-menu">
+<li id='menu_id_26382' class=' menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu_parent_46288 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/mobile-money/building-the-ecosystem/" >Building the ecosystem</a>
+		<ul class="sub-menu">
+<li id='menu_id_46638' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_26382 menu_depth_3'><a class="current_false post_type link_menu_depth_3 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/mobile-money-international-remittances/" >Mobile Money and <br>International Remittances</a></li>
+<li id='menu_id_46639' class=' menu-item menu-item-type-custom menu-item-object-custom menu_parent_26382 menu_depth_3'><a class="current_false custom link_menu_depth_3 current_item_ancestor_false" href="https://developer.mobilemoneyapi.io/" target='_blank'>Mobile Money API</a></li>
+<li id='menu_id_46640' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_26382 menu_depth_3'><a class="current_false post_type link_menu_depth_3 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/mobile-money/instant-payment-notification-ipn-hub/" >The Instant Payment Notification (IPN) Hub</a></li>
+		</ul>
+</li>
+<li id='menu_id_26381' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_46288 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/mobile-money/policy-and-regulation/" >Policy and regulation</a></li>
+<li id='menu_id_26380' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_46288 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/mobile-money/industry-data-and-insights/" >Industry data and insights</a></li>
+<li id='menu_id_47544' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_46288 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/sotir/" >State of the Industry Report on Mobile Money</a></li>
+<li id='menu_id_46671' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_46288 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/mobile-money/certification/" >GSMA Mobile Money Certification</a></li>
+<li id='menu_id_52427' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_46288 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/mobile-money/gsma-inclusive-tech-lab/" >GSMA Inclusive Tech Lab</a></li>
+<li id='menu_id_48330' class=' menu-item menu-item-type-custom menu-item-object-custom menu_parent_46288 menu_depth_2'><a class="current_false custom_internal link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/resources-2/?resource_cats=mobile-money" >Resources</a></li>
+<li id='menu_id_48331' class=' menu-item menu-item-type-custom menu-item-object-custom menu_parent_46288 menu_depth_2'><a class="current_false custom_internal link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/blog-2/?post_cats=mobile-money" >Blog</a></li>
+	</ul>
+</li>
+<li id='menu_id_46416' class=' menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu_parent_237 menu_depth_1'><a class="current_false post_type link_menu_depth_1 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/mhealth/" >mHealth</a>
+	<ul class="sub-menu">
+<li id='menu_id_37318' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_46416 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/mhealth/mhealth-design-toolkit/" >mHealth Design Toolkit</a></li>
+<li id='menu_id_41815' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_46416 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/mhealth/creating-mobile-health-solutions-behaviour-change/" >Creating mobile health solutions for behaviour change</a></li>
+<li id='menu_id_47624' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_46416 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/m4d-tracker/mhealth-deployment-tracker/" >mHealth Tracker</a></li>
+	</ul>
+</li>
+<li id='menu_id_8151' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_237 menu_depth_1'><a class="current_false post_type link_menu_depth_1 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/meet-the-team/" >Meet The Team</a></li>
+<li id='menu_id_45856' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_237 menu_depth_1'><a class="current_false post_type link_menu_depth_1 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/m4d-events/" >Events</a></li>
+<li id='menu_id_35174' class=' menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu_parent_237 menu_depth_1'><a class="current_false custom_internal link_menu_depth_1 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/resources-2/?utm_source=Nav" >Resources</a>
+	<ul class="sub-menu">
+<li id='menu_id_27289' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_35174 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/m4d-tracker/" >Mobile for Development Trackers</a></li>
+	</ul>
+</li>
+<li id='menu_id_35175' class=' menu-item menu-item-type-custom menu-item-object-custom menu_parent_237 menu_depth_1'><a class="current_false custom_internal link_menu_depth_1 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/blog-2/" >Blog</a></li>
+<li id='menu_id_26080' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_237 menu_depth_1'><a class="current_false post_type link_menu_depth_1 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/contact-us/" >Contact Us</a></li>
+</ul>
+</li>
+<li id='menu_id_52591' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_0 menu_depth_0'><a class="current_false post_type link_menu_depth_0 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/cleantech/" >CleanTech</a></li>
+</ul></div>			<div id="menu-back-link"></div>
+			<div id="see-all-menu-button">
+				<!-- <span><i class="fas fa-chevron-circle-down"></i></span> -->
+				<span><i class="fas fa-bars"></i></span>
+				<!-- <div id="on-hover-see-sitemap">View Sitemap</div> -->
+			</div>
+		</div>
+
+		<div id="all-menu">
+			<div id="all-menu-title">
+				<div>
+						All Pages
+				</div>
+				<div id="close-all-menu-button">
+					<i class="fas fa-chevron-circle-up"></i>
+				</div>
+			</div>
+				<div class="menu-main-container"><ul id="menu-main-1" class="menu all-menu"><li id='menu_id_237' class=' menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-ancestor current_page_ancestor menu-item-has-children menu_parent_0 menu_depth_0'><a class="current_false post_type link_menu_depth_0 current_item_ancestor_true" href="https://www.gsma.com/mobilefordevelopment/" >Mobile for Development</a>
+<ul class="sub-menu">
+<li id='menu_id_51229' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_237 menu_depth_1'><a class="current_false post_type link_menu_depth_1 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/10yearsofm4d/" >10 Years of M4D</a></li>
+<li id='menu_id_46409' class=' menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu_parent_237 menu_depth_1'><a class="current_false post_type link_menu_depth_1 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/agritech/" >AgriTech</a>
+	<ul class="sub-menu">
+<li id='menu_id_49896' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_46409 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/agritech/innovation-fund/" >Innovation Fund</a></li>
+<li id='menu_id_44770' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_46409 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/agritech/magri-design-toolkit/" >Mobile Agriculture Design Toolkit</a></li>
+<li id='menu_id_37573' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_46409 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/agritech/creating-scalable-mobile-solutions/" >Creating scalable, engaging mobile solutions for agriculture</a></li>
+<li id='menu_id_45271' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_46409 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/agritech/mnutrition-agricultural-content/" >Digital Content</a></li>
+	</ul>
+</li>
+<li id='menu_id_51376' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_237 menu_depth_1'><a class="current_false post_type link_menu_depth_1 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/assistive-tech/" >Assistive Tech</a></li>
+<li id='menu_id_38240' class=' menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-has-children menu_parent_237 menu_depth_1'><a class="current_false post_type link_menu_depth_1 current_item_ancestor_true" href="https://www.gsma.com/mobilefordevelopment/connected-society/" >Connected Society</a>
+	<ul class="sub-menu">
+<li id='menu_id_32222' class=' menu-item menu-item-type-custom menu-item-object-custom menu_parent_38240 menu_depth_2'><a class="current_false custom link_menu_depth_2 current_item_ancestor_false" href="http://www.mobileconnectivityindex.com/" target='_blank'>Mobile Connectivity Index</a></li>
+<li id='menu_id_43488' class=' menu-item menu-item-type-custom menu-item-object-custom menu_parent_38240 menu_depth_2'><a class="current_false custom link_menu_depth_2 current_item_ancestor_false" href="https://www.mobilecoveragemaps.com/" target='_blank'>Mobile Coverage Maps</a></li>
+<li id='menu_id_46628' class=' menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-31360 current_page_item menu_parent_38240 menu_depth_2'><a class="current_true post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/connected-society/mistt/" >Mobile Internet Skills Training Toolkit</a></li>
+<li id='menu_id_44553' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_38240 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/connected-society-innovation-fund/" >Innovation Fund</a></li>
+<li id='menu_id_51678' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_38240 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/connected-society/gsma-national-dialogues/" >GSMA National Dialogues</a></li>
+<li id='menu_id_49377' class=' menu-item menu-item-type-custom menu-item-object-custom menu_parent_38240 menu_depth_2'><a class="current_false custom_internal link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/resources-2/?resource_cats=connected-society" >Resources</a></li>
+<li id='menu_id_49379' class=' menu-item menu-item-type-custom menu-item-object-custom menu_parent_38240 menu_depth_2'><a class="current_false custom_internal link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/blog-2/?post_cats=connected-society" >Blog</a></li>
+	</ul>
+</li>
+<li id='menu_id_38238' class=' menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu_parent_237 menu_depth_1'><a class="current_false post_type link_menu_depth_1 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/connected-women/" >Connected Women</a>
+	<ul class="sub-menu">
+<li id='menu_id_29407' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_38238 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/connected-women/the-commitment/" >Commitment Initiative</a></li>
+<li id='menu_id_26199' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_38238 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/connected-women/our-grantees/" >Our Grantees</a></li>
+<li id='menu_id_42994' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_38238 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/connected-women/accelerating-digital-and-financial-inclusion/" >Accelerating digital and financial inclusion</a></li>
+<li id='menu_id_49378' class=' menu-item menu-item-type-custom menu-item-object-custom menu_parent_38238 menu_depth_2'><a class="current_false custom_internal link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/resources-2/?resource_cats=connected-women" >Resources</a></li>
+<li id='menu_id_49380' class=' menu-item menu-item-type-custom menu-item-object-custom menu_parent_38238 menu_depth_2'><a class="current_false custom_internal link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/blog-2/?post_cats=connected-women" >Blog</a></li>
+	</ul>
+</li>
+<li id='menu_id_50639' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_237 menu_depth_1'><a class="current_false post_type link_menu_depth_1 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/digital-equity-initiative/" >Digital Equity Initiative</a></li>
+<li id='menu_id_47761' class=' menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu_parent_237 menu_depth_1'><a class="current_false post_type link_menu_depth_1 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/digital-identity/" >Digital Identity</a>
+	<ul class="sub-menu">
+<li id='menu_id_47659' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_47761 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/commonwealthinitiative/" >Commonwealth Digital Identity Initiative</a></li>
+	</ul>
+</li>
+<li id='menu_id_46301' class=' menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu_parent_237 menu_depth_1'><a class="current_false post_type link_menu_depth_1 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/ecosystem-accelerator/" >Ecosystem Accelerator</a>
+	<ul class="sub-menu">
+<li id='menu_id_43124' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_46301 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/ecosystem-accelerator/our-insights/" >Our Insights</a></li>
+<li id='menu_id_32704' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_46301 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/eainnovationfund/" >Innovation Fund</a></li>
+	</ul>
+</li>
+<li id='menu_id_46398' class=' menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu_parent_237 menu_depth_1'><a class="current_false post_type link_menu_depth_1 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/m4dutilities/" >Mobile for Development Utilities</a>
+	<ul class="sub-menu">
+<li id='menu_id_39044' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_46398 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/m4dutilities/innovation-fund-2/" >Innovation Fund</a></li>
+<li id='menu_id_47339' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_46398 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/m4dutilities/our-insights/" >Our Insights</a></li>
+	</ul>
+</li>
+<li id='menu_id_46417' class=' menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu_parent_237 menu_depth_1'><a class="current_false post_type link_menu_depth_1 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/mobile-for-humanitarian-innovation/" >Mobile for Humanitarian Innovation</a>
+	<ul class="sub-menu">
+<li id='menu_id_38473' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_46417 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/mobile-for-humanitarian-innovation/innovation-fund/" >Innovation Fund</a></li>
+<li id='menu_id_34937' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_46417 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/mobile-for-humanitarian-innovation/humanitarian-connectivity-charter/" >Humanitarian Connectivity Charter</a></li>
+	</ul>
+</li>
+<li id='menu_id_46288' class=' menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu_parent_237 menu_depth_1'><a class="current_false post_type link_menu_depth_1 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/mobile-money/" >Mobile Money</a>
+	<ul class="sub-menu">
+<li id='menu_id_26382' class=' menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu_parent_46288 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/mobile-money/building-the-ecosystem/" >Building the ecosystem</a>
+		<ul class="sub-menu">
+<li id='menu_id_46638' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_26382 menu_depth_3'><a class="current_false post_type link_menu_depth_3 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/mobile-money-international-remittances/" >Mobile Money and <br>International Remittances</a></li>
+<li id='menu_id_46639' class=' menu-item menu-item-type-custom menu-item-object-custom menu_parent_26382 menu_depth_3'><a class="current_false custom link_menu_depth_3 current_item_ancestor_false" href="https://developer.mobilemoneyapi.io/" target='_blank'>Mobile Money API</a></li>
+<li id='menu_id_46640' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_26382 menu_depth_3'><a class="current_false post_type link_menu_depth_3 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/mobile-money/instant-payment-notification-ipn-hub/" >The Instant Payment Notification (IPN) Hub</a></li>
+		</ul>
+</li>
+<li id='menu_id_26381' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_46288 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/mobile-money/policy-and-regulation/" >Policy and regulation</a></li>
+<li id='menu_id_26380' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_46288 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/mobile-money/industry-data-and-insights/" >Industry data and insights</a></li>
+<li id='menu_id_47544' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_46288 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/sotir/" >State of the Industry Report on Mobile Money</a></li>
+<li id='menu_id_46671' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_46288 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/mobile-money/certification/" >GSMA Mobile Money Certification</a></li>
+<li id='menu_id_52427' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_46288 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/mobile-money/gsma-inclusive-tech-lab/" >GSMA Inclusive Tech Lab</a></li>
+<li id='menu_id_48330' class=' menu-item menu-item-type-custom menu-item-object-custom menu_parent_46288 menu_depth_2'><a class="current_false custom_internal link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/resources-2/?resource_cats=mobile-money" >Resources</a></li>
+<li id='menu_id_48331' class=' menu-item menu-item-type-custom menu-item-object-custom menu_parent_46288 menu_depth_2'><a class="current_false custom_internal link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/blog-2/?post_cats=mobile-money" >Blog</a></li>
+	</ul>
+</li>
+<li id='menu_id_46416' class=' menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu_parent_237 menu_depth_1'><a class="current_false post_type link_menu_depth_1 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/mhealth/" >mHealth</a>
+	<ul class="sub-menu">
+<li id='menu_id_37318' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_46416 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/mhealth/mhealth-design-toolkit/" >mHealth Design Toolkit</a></li>
+<li id='menu_id_41815' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_46416 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/mhealth/creating-mobile-health-solutions-behaviour-change/" >Creating mobile health solutions for behaviour change</a></li>
+<li id='menu_id_47624' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_46416 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/m4d-tracker/mhealth-deployment-tracker/" >mHealth Tracker</a></li>
+	</ul>
+</li>
+<li id='menu_id_8151' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_237 menu_depth_1'><a class="current_false post_type link_menu_depth_1 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/meet-the-team/" >Meet The Team</a></li>
+<li id='menu_id_45856' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_237 menu_depth_1'><a class="current_false post_type link_menu_depth_1 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/m4d-events/" >Events</a></li>
+<li id='menu_id_35174' class=' menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu_parent_237 menu_depth_1'><a class="current_false custom_internal link_menu_depth_1 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/resources-2/?utm_source=Nav" >Resources</a>
+	<ul class="sub-menu">
+<li id='menu_id_27289' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_35174 menu_depth_2'><a class="current_false post_type link_menu_depth_2 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/m4d-tracker/" >Mobile for Development Trackers</a></li>
+	</ul>
+</li>
+<li id='menu_id_35175' class=' menu-item menu-item-type-custom menu-item-object-custom menu_parent_237 menu_depth_1'><a class="current_false custom_internal link_menu_depth_1 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/blog-2/" >Blog</a></li>
+<li id='menu_id_26080' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_237 menu_depth_1'><a class="current_false post_type link_menu_depth_1 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/contact-us/" >Contact Us</a></li>
+</ul>
+</li>
+<li id='menu_id_52591' class=' menu-item menu-item-type-post_type menu-item-object-page menu_parent_0 menu_depth_0'><a class="current_false post_type link_menu_depth_0 current_item_ancestor_false" href="https://www.gsma.com/mobilefordevelopment/cleantech/" >CleanTech</a></li>
+</ul></div>		</div>
+	</nav><!-- .main-navigation -->
+
+		<div id="sidebar_widgets" class="widget-area">
+		<div id="posts_widget-3" class="widget-container widget_posts_widget"><h3 class="widget-title"><div class="widget_title_button" class="tns-controls" aria-label="Carousel Navigation" tabindex="0"><button data-controls="prev" tabindex="-1" aria-controls="tns1" type="button" onClick="moveBackWidged()"><i class="fas fa-chevron-left"></i></button><button data-controls="next" tabindex="-1" aria-controls="tns1" type="button" onClick="moveWidged()"><i class="fas fa-chevron-right"></i></button></div><a href='https://www.gsma.com/mobilefordevelopment/blog-2/?post_cats=connected-society'>Latest Blogs</a></h3><div class="widget_content"><div class="hidden slidingWidged"><a href="https://www.gsma.com/mobilefordevelopment/blog/are-mobile-operators-under-investing-in-rural-coverage-in-emerging-markets/"><div class="title_over_featured_image"><p>Are mobile operators under-investing in rural coverage in emerging markets?</p>
+                    <div class="permalink" style="background-image: url(https://www.gsma.com/mobilefordevelopment/wp-content/uploads/2019/08/Coverage-Maps-Blog-Featured-Image-900x350.png)"></div></div></a>
+                <div class="details"><p class="excerpt">There is a common belief that the lack of rural network coverage in emerging markets is the result of under-investment by mobile ...</p><p class="read_more"><a href="https://www.gsma.com/mobilefordevelopment/blog/are-mobile-operators-under-investing-in-rural-coverage-in-emerging-markets/">Read More</a></p></div></div><div class="hidden slidingWidged"><a href="https://www.gsma.com/mobilefordevelopment/blog/a-recap-of-mobile360-africa-from-kaios-technologies/"><div class="title_over_featured_image"><p>A Recap of Mobile360 Africa from KaiOS Technologies</p>
+                    <div class="permalink" style="background-image: url(https://www.gsma.com/mobilefordevelopment/wp-content/uploads/2019/07/M360-KaiOS-Guest-Blog-Image-900x350.png)"></div></div></a>
+                <div class="details"><p class="excerpt">GSMA Intelligence shows that since 2014, 4G has reached an additional 200 million people and 40 million new social media accounts. As a ...</p><p class="read_more"><a href="https://www.gsma.com/mobilefordevelopment/blog/a-recap-of-mobile360-africa-from-kaios-technologies/">Read More</a></p></div></div><div class="hidden slidingWidged"><a href="https://www.gsma.com/mobilefordevelopment/blog/innovation-is-needed-to-connect-the-unconnected/"><div class="title_over_featured_image"><p>Innovation is needed to connect the unconnected</p>
+                    <div class="permalink" style="background-image: url(https://www.gsma.com/mobilefordevelopment/wp-content/uploads/2019/07/Innovations-Blog.png)"></div></div></a>
+                <div class="details"><p class="excerpt">Globally, 750 million people do not live within the footprint of mobile broadband. Without this coverage and connectivity, they’re ...</p><p class="read_more"><a href="https://www.gsma.com/mobilefordevelopment/blog/innovation-is-needed-to-connect-the-unconnected/">Read More</a></p></div></div><div class="hidden slidingWidged"><a href="https://www.gsma.com/mobilefordevelopment/blog/how-africa-is-driving-progress-in-global-mobile-internet-connectivity/"><div class="title_over_featured_image"><p>How Africa is driving progress in global mobile internet connectivity</p>
+                    <div class="permalink" style="background-image: url(https://www.gsma.com/mobilefordevelopment/wp-content/uploads/2019/07/MCI-Blog-Feature-Image.png)"></div></div></a>
+                <div class="details"><p class="excerpt">In 2018, for the first time, more than half of the world’s population was using the internet. For many mobile is the primary – or only ...</p><p class="read_more"><a href="https://www.gsma.com/mobilefordevelopment/blog/how-africa-is-driving-progress-in-global-mobile-internet-connectivity/">Read More</a></p></div></div><div class="hidden slidingWidged"><a href="https://www.gsma.com/mobilefordevelopment/blog/banglalink-and-the-gsma-partner-to-increase-digital-literacy-in-bangladesh/"><div class="title_over_featured_image"><p>Banglalink and the GSMA partner to increase digital literacy in Bangladesh</p>
+                    <div class="permalink" style="background-image: url(https://www.gsma.com/mobilefordevelopment/wp-content/uploads/2019/07/Banglalink-MISTT-Guest-Blog-Hero-Image.png)"></div></div></a>
+                <div class="details"><p class="excerpt">Bangladesh has a population of 160 million people, of which around 90 million are mobile users. 50% of the population is still not ...</p><p class="read_more"><a href="https://www.gsma.com/mobilefordevelopment/blog/banglalink-and-the-gsma-partner-to-increase-digital-literacy-in-bangladesh/">Read More</a></p></div></div><div class="hidden slidingWidged"><a href="https://www.gsma.com/mobilefordevelopment/blog/cellcard-cambodia-innovations-in-rural-coverage/"><div class="title_over_featured_image"><p>Cellcard Cambodia: Innovations in Rural Coverage</p>
+                    <div class="permalink" style="background-image: url(https://www.gsma.com/mobilefordevelopment/wp-content/uploads/2019/03/feature-image-900x350.png)"></div></div></a>
+                <div class="details"><p class="excerpt">Rolling out mobile coverage in rural areas is expensive, particularly in low- and middle-income countries. Most of the key costs ...</p><p class="read_more"><a href="https://www.gsma.com/mobilefordevelopment/blog/cellcard-cambodia-innovations-in-rural-coverage/">Read More</a></p></div></div></div></div><div id="resources_widget-3" class="widget-container widget_resources_widget"><h3 class="widget-title"><div class="widget_title_button" class="tns-controls" aria-label="Carousel Navigation" tabindex="0"><button data-controls="prev" tabindex="-1" aria-controls="tns1" type="button" onClick="moveBackWidged(null,'slidingResourceWidged')"><i class="fas fa-chevron-left"></i></button><button data-controls="next" tabindex="-1" aria-controls="tns1" type="button" onClick="moveWidged(null,'slidingResourceWidged')"><i class="fas fa-chevron-right"></i></button></div><a href='https://www.gsma.com/mobilefordevelopment/resources-2/?resource_cats=connected-society'>Resources</a></h3><div class="widget_content"><div class="hidden slidingResourceWidged"><a href="https://www.gsma.com/mobilefordevelopment/resources/webinar-on-demand-closing-the-coverage-gap-how-innovation-can-drive-rural-connectivity/"><div class="title_over_featured_image"><p>Webinar on Demand: Closing the Coverage Gap &#8211; How Innovation Can Drive Rural Connectivity</p>
+                    <div class="permalink" style="background-image: url(https://i0.wp.com/www.gsma.com/mobilefordevelopment/wp-content/uploads/2019/09/Innovations-in-Rural-Infrastructure-Image.png?fit=300%2C154&ssl=1)"></div></div></a>
+                    <div class="details"><p class="excerpt">In this webinar recording you will hear from the author of the recent Connected Society report, 'Closing the Coverage Gap - How ...</p><p class="read_more"><a href="https://www.gsma.com/mobilefordevelopment/resources/webinar-on-demand-closing-the-coverage-gap-how-innovation-can-drive-rural-connectivity/">Read More</a></p></div></div><div class="hidden slidingResourceWidged"><a href="https://www.gsma.com/mobilefordevelopment/resources/webinar-recording-exploring-the-gsma-coverage-maps-platform/"><div class="title_over_featured_image"><p>Webinar on Demand: Exploring the GSMA Coverage Maps Platform</p>
+                    <div class="permalink" style="background-image: url(https://i1.wp.com/www.gsma.com/mobilefordevelopment/wp-content/uploads/2019/07/Coverage-Maps-Webinar-Recording-Image.png?fit=300%2C154&ssl=1)"></div></div></a>
+                    <div class="details"><p class="excerpt"></p><p class="read_more"><a href="https://www.gsma.com/mobilefordevelopment/resources/webinar-recording-exploring-the-gsma-coverage-maps-platform/">Read More</a></p></div></div><div class="hidden slidingResourceWidged"><a href="https://www.gsma.com/mobilefordevelopment/resources/closing-the-coverage-gap-how-innovation-can-drive-rural-connectivity/"><div class="title_over_featured_image"><p>Closing the Coverage Gap: How Innovation Can Drive Rural Connectivity</p>
+                    <div class="permalink" style="background-image: url(https://i2.wp.com/www.gsma.com/mobilefordevelopment/wp-content/uploads/2019/07/Innovations-Report-Front-Cover-Thumbnail.png?fit=212%2C300&ssl=1)"></div></div></a>
+                    <div class="details"><p class="excerpt">Millions of people still do not live within reach of a mobile broadband network. Delivering this connectivity is increasingly becoming ...</p><p class="read_more"><a href="https://www.gsma.com/mobilefordevelopment/resources/closing-the-coverage-gap-how-innovation-can-drive-rural-connectivity/">Read More</a></p></div></div><div class="hidden slidingResourceWidged"><a href="https://www.gsma.com/mobilefordevelopment/resources/the-state-of-mobile-internet-connectivity-report-2019/"><div class="title_over_featured_image"><p>The State of Mobile Internet Connectivity Report 2019</p>
+                    <div class="permalink" style="background-image: url(https://i0.wp.com/www.gsma.com/mobilefordevelopment/wp-content/uploads/2019/07/The-State-of-MCI-Report-Thumbnail.png?fit=212%2C300&ssl=1)"></div></div></a>
+                    <div class="details"><p class="excerpt">Only 40% of the LMIC population are connected, compared to almost 75% of the population in high-income countries. More than half the ...</p><p class="read_more"><a href="https://www.gsma.com/mobilefordevelopment/resources/the-state-of-mobile-internet-connectivity-report-2019/">Read More</a></p></div></div><div class="hidden slidingResourceWidged"><a href="https://www.gsma.com/mobilefordevelopment/resources/mobile-internet-skills-training-toolkit-banglalink-pilot-evaluation/"><div class="title_over_featured_image"><p>Mobile Internet Skills Training Toolkit: Banglalink Pilot Evaluation</p>
+                    <div class="permalink" style="background-image: url(https://i2.wp.com/www.gsma.com/mobilefordevelopment/wp-content/uploads/2019/05/Bangallink-MISTT-Case-Study-Front-Cover.png?fit=212%2C300&ssl=1)"></div></div></a>
+                    <div class="details"><p class="excerpt">This report presents the findings of a pilot conducted in partnership with Banglalink to test the mobile internet skills training and ...</p><p class="read_more"><a href="https://www.gsma.com/mobilefordevelopment/resources/mobile-internet-skills-training-toolkit-banglalink-pilot-evaluation/">Read More</a></p></div></div><div class="hidden slidingResourceWidged"><a href="https://www.gsma.com/mobilefordevelopment/resources/mobile-internet-skills-training-toolkit-banglalink-case-study/"><div class="title_over_featured_image"><p>Driving Digital Skills in Bangladesh: Banglalink Case Study</p>
+                    <div class="permalink" style="background-image: url(https://i2.wp.com/www.gsma.com/mobilefordevelopment/wp-content/uploads/2019/05/Banglalink-Case-Study-MISTT-Video-Thumbnail.png?fit=300%2C154&ssl=1)"></div></div></a>
+                    <div class="details"><p class="excerpt">Mobile has connected over 3.6 billion people to the internet, enabling rapid socio-economic development. In Bangladesh, 87% of the ...</p><p class="read_more"><a href="https://www.gsma.com/mobilefordevelopment/resources/mobile-internet-skills-training-toolkit-banglalink-case-study/">Read More</a></p></div></div></div></div><div id="social_widget-2" class="widget-container widget_social_widget"><h3 class="widget-title"></h3><div class="widget_content"><div class="social_widget">
+                <div class="label">FOLLOW </div>
+                <div class="logo_wrapper">
+                    <a class="push twitter_icon" href="https://twitter.com/GSMAm4d" target="_blank"><div><span></span></div></a>
+                    <a class="linkedin_icon" href="https://www.linkedin.com/company/gsma" target="_blank"><div><span></span></div></a>
+                </div>
+            </div></div></div><div id="subscribe_link_widget-2" class="widget-container widget_subscribe_link_widget"><h3 class="widget-title"></h3><div class="widget_content"><div class="subscribe_link_widget">
+                <div class="label">Subscribe to our Newsletter</div>
+                <div class="logo_wrapper">
+                <a href="https://www.gsma.com/mobilefordevelopment/subscribe/"><div><span class="subscribe_icon"></span></div></a>
+                </div>
+            </div></div></div><div id="link_link_widget-2" class="widget-container widget_link_link_widget"><h3 class="widget-title"></h3><div class="widget_content"><div class="link_link_widget" style="background-color: select colour">
+                <div class="label">M4D Donors</div>
+                <a href="https://www.gsma.com/aboutus/foundation/donors"><div><span class="link_icon"></span></div></a>
+            </div></div></div>	</div>
+	
+</aside><!-- DO NOT TOUCH ANYTHING ABOVE THIS LINE-->
+
+<section id="content" role="main">
+    <article id="post-31360" class="post-31360 page type-page status-publish hentry">
+    <header class="header hide_title">
+      <h1 class="entry-title">Mobile Internet Skills Training Toolkit</h1>    </header>
+
+
+    <section class="entry-content">
+    
+    <div class='shortcode_pageheroimage'>
+      <h1>Mobile Internet Skills<br />
+Training Toolkit</h1>
+      <img alt='<p>Mobile Internet Skills<br />
+Training Toolkit</p>
+' src='https://www.gsma.com/mobilefordevelopment/wp-content/uploads/2019/08/MISTT-Web-Banner-2.png'/>
+    </div>
+  
+<p><strong>Today there is still a “usage gap” of 3.3 billion people who have access to mobile broadband coverage, but are either unable or unwilling to use it.</strong></p>
+<p>GSMA research has consistently shown that low levels of basic digital literacy are one of the main barriers to mobile internet adoption. To address this, the GSMA Connected Society programme developed the Mobile Internet Skills Training Toolkit (MISTT).</p>
+<p>The MISTT is a visual, easy-to follow curriculum that helps trainers demonstrate the functionality and value of the internet on internet-enabled mobile phones. With modules that can be adapted to local needs and languages, the MISTT uses a “train the trainer” approach to build a rich body of knowledge from the bottom up.</p>
+<p>The six core MISTT modules are: Wikipedia, Facebook, WhatsApp, YouTube and Google, as well as an introductory module that covers the basics of the internet, including internet safety and costs.</p>
+<p><strong>To download the MISTT training materials please fill in the form below or <a href="https://www.gsma.com/mobilefordevelopment/connected-society/mistt/download-not-subscribed/">click here</a>.</strong> If you&#8217;d like to be the first to hear about new MISTT modules, features and publications, submit your details here and we&#8217;ll email you with important updates. You can unsubscribe at any time.</p>
+<style>.wForm form{text-align: left;}</style><!-- FORM: HEAD SECTION -->
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+                        <style>
+                    .captcha {
+                        padding-bottom: 1em !important;
+                    }
+                    .wForm .captcha .oneField {
+                        margin: 0;
+                        padding: 0;
+                    }
+                </style>
+                <script type="text/javascript">
+                    // initialize our variables
+                    var captchaReady = 0;
+                    var wFORMSReady = 0;
+
+                    // when wForms is loaded call this
+                    var wformsReadyCallback = function () {
+                        // using this var to denote if wForms is loaded
+                        wFORMSReady = 1;
+                        // call our recaptcha function which is dependent on both
+                        // wForms and an async call to google
+                        // note the meat of this function wont fire until both
+                        // wFORMSReady = 1 and captchaReady = 1
+                        onloadCallback();
+                    }
+                    var gCaptchaReadyCallback = function() {
+                        // using this var to denote if captcha is loaded
+                        captchaReady = 1;
+                        // call our recaptcha function which is dependent on both
+                        // wForms and an async call to google
+                        // note the meat of this function wont fire until both
+                        // wFORMSReady = 1 and captchaReady = 1
+                        onloadCallback();
+                    };
+
+                    // add event listener to fire when wForms is fully loaded
+                    document.addEventListener("wFORMSLoaded", wformsReadyCallback);
+
+                    var enableSubmitButton = function() {
+                        var submitButton = document.getElementById('submit_button');
+                        var explanation = document.getElementById('disabled-explanation');
+                        if (submitButton != null) {
+                            submitButton.removeAttribute('disabled');
+                            if (explanation != null) {
+                                explanation.style.display = 'none';
+                            }
+                        }
+                    };
+                    var disableSubmitButton = function() {
+                        var submitButton = document.getElementById('submit_button');
+                        var explanation = document.getElementById('disabled-explanation');
+                        if (submitButton != null) {
+                            submitButton.disabled = true;
+                            if (explanation != null) {
+                                explanation.style.display = 'block';
+                            }
+                        }
+                    };
+
+                    // call this on both captcha async complete and wforms fully
+                    // initialized since we can't be sure which will complete first
+                    // and we need both done for this to function just check that they are
+                    // done to fire the functionality
+                    var onloadCallback = function () {
+                        // if our captcha is ready (async call completed)
+                        // and wFORMS is completely loaded then we are ready to add
+                        // the captcha to the page
+                        if (captchaReady && wFORMSReady) {
+                            grecaptcha.render('g-recaptcha-render-div', {
+                                'sitekey': '6LeISQ8UAAAAAL-Qe-lDcy4OIElnii__H_cEGV0C',
+                                'theme': 'light',
+                                'size': 'normal',
+                                'callback': 'enableSubmitButton',
+                                'expired-callback': 'disableSubmitButton'
+                            });
+                            var oldRecaptchaCheck = parseInt('1');
+                            if (oldRecaptchaCheck === -1) {
+                                var standardCaptcha = document.getElementById("tfa_captcha_text");
+                                standardCaptcha = standardCaptcha.parentNode.parentNode.parentNode;
+                                standardCaptcha.parentNode.removeChild(standardCaptcha);
+                            }
+
+                            if (!wFORMS.instances['paging']) {
+                                document.getElementById("g-recaptcha-render-div").parentNode.parentNode.parentNode.style.display = "block";
+                                //document.getElementById("g-recaptcha-render-div").parentNode.parentNode.parentNode.removeAttribute("hidden");
+                            }
+                            document.getElementById("g-recaptcha-render-div").getAttributeNode('id').value = 'tfa_captcha_text';
+
+                            var captchaError = '';
+                            if (captchaError == '1') {
+                                var errMsgText = 'The CAPTCHA was not completed successfully.';
+                                var errMsgDiv = document.createElement('div');
+                                errMsgDiv.id = "tfa_captcha_text-E";
+                                errMsgDiv.className = "err errMsg";
+                                errMsgDiv.innerText = errMsgText;
+                                var loc = document.querySelector('.g-captcha-error');
+                                loc.insertBefore(errMsgDiv, loc.childNodes[0]);
+
+                                /* See wFORMS.behaviors.paging.applyTo for origin of this code */
+                                if (wFORMS.instances['paging']) {
+                                    var b = wFORMS.instances['paging'][0];
+                                    var pp = base2.DOM.Element.querySelector(document, wFORMS.behaviors.paging.CAPTCHA_ERROR);
+                                    if (pp) {
+                                        var lastPage = 1;
+                                        for (var i = 1; i < 100; i++) {
+                                            if (b.behavior.isLastPageIndex(i)) {
+                                                lastPage = i;
+                                                break;
+                                            }
+                                        }
+                                        b.jumpTo(lastPage);
+                                    }
+                                }
+                            }
+                        }
+                    };
+                </script>
+                <script src='https://www.google.com/recaptcha/api.js?onload=gCaptchaReadyCallback&render=explicit' async
+                        defer></script>
+                <script type="text/javascript">
+                    document.addEventListener("DOMContentLoaded", function() {
+                        var warning = document.getElementById("javascript-warning");
+                        if (warning != null) {
+                            warning.parentNode.removeChild(warning);
+                        }
+                        var oldRecaptchaCheck = parseInt('1');
+                        if (oldRecaptchaCheck !== -1) {
+                            var explanation = document.getElementById('disabled-explanation');
+                            var submitButton = document.getElementById('submit_button');
+                            if (submitButton != null) {
+                                submitButton.disabled = true;
+                                if (explanation != null) {
+                                    explanation.style.display = 'block';
+                                }
+                            }
+                        }
+                    });
+                </script>
+                <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function(){
+            const FORM_TIME_START = Math.floor((new Date).getTime()/1000);
+            let formElement = document.getElementById("tfa_0");
+            if (null === formElement) {
+                formElement = document.getElementById("0");
+            }
+            let appendJsTimerElement = function(){
+                let formTimeDiff = Math.floor((new Date).getTime()/1000) - FORM_TIME_START;
+                let cumulatedTimeElement = document.getElementById("tfa_dbCumulatedTime");
+                if (null !== cumulatedTimeElement) {
+                    let cumulatedTime = parseInt(cumulatedTimeElement.value);
+                    if (null !== cumulatedTime && cumulatedTime > 0) {
+                        formTimeDiff += cumulatedTime;
+                    }
+                }
+                let jsTimeInput = document.createElement("input");
+                jsTimeInput.setAttribute("type", "hidden");
+                jsTimeInput.setAttribute("value", formTimeDiff.toString());
+                jsTimeInput.setAttribute("name", "tfa_dbElapsedJsTime");
+                jsTimeInput.setAttribute("id", "tfa_dbElapsedJsTime");
+                jsTimeInput.setAttribute("autocomplete", "off");
+                if (null !== formElement) {
+                    formElement.appendChild(jsTimeInput);
+                }
+            };
+            if (null !== formElement) {
+                if(formElement.addEventListener){
+                    formElement.addEventListener('submit', appendJsTimerElement, false);
+                } else if(formElement.attachEvent){
+                    formElement.attachEvent('onsubmit', appendJsTimerElement);
+                }
+            }
+        });
+    </script>
+
+    <link href="https://gsma.tfaforms.net/dist/form-builder/5.0.0/wforms-layout.css?v=548-4" rel="stylesheet" type="text/css" />
+
+    <link href="https://gsma.tfaforms.net/uploads/themes/theme-34.css" rel="stylesheet" type="text/css" />
+    <link href="https://gsma.tfaforms.net/dist/form-builder/5.0.0/wforms-jsonly.css?v=548-4" rel="alternate stylesheet" title="This stylesheet activated by javascript" type="text/css" />
+    <script type="text/javascript" src="https://gsma.tfaforms.net/wForms/3.11/js/wforms.js?v=548-4"></script>
+    <script type="text/javascript">
+        if(wFORMS.behaviors.prefill) wFORMS.behaviors.prefill.skip = true;
+    </script>
+    <script type="text/javascript" src="https://gsma.tfaforms.net/wForms/3.11/js/localization-en_US.js?v=548-4"></script>
+
+<!-- FORM: BODY SECTION -->
+<div class="wFormContainer"  >
+    <div class="wFormHeader"></div>
+    <style type="text/css">
+                #tfa_2344,
+                *[id^="tfa_2344["] {
+                    width: 195px !important;
+                }
+                #tfa_2344-D,
+                *[id^="tfa_2344["][class~="field-container-D"] {
+                    width: auto !important;
+                }
+            </style><div class=""><div class="wForm" id="145-WRPR" dir="ltr">
+<div class="codesection" id="code-145"><style type="text/css">
+
+#element_id {
+color: blue;
+font-size: 110%;
+}
+
+</style> 
+</div>
+<h3 class="wFormTitle" id="145-T"><b style="">Mobile for Development_MISTT- NEW</b></h3>
+<form method="post" action="https://gsma.tfaforms.net/rest/responses/processor" class="hintsBelow labelsAbove" id="145" role="form">
+<div id="tfa_2" class="section group">
+<label class="label preField" id="tfa_2-L"><b>About You</b></label><br><div id="tfa_5" class="section inline group">
+<div class="oneField field-container-D    " id="tfa_3-D">
+<label id="tfa_3-L" class="label preField reqMark" for="tfa_3">First Name</label><br><div class="inputWrapper"><input type="text" id="tfa_3" name="tfa_3" value="" aria-required="true" title="First Name" data-dataset-allow-free-responses="" class="required"></div>
+</div>
+<div class="oneField field-container-D    " id="tfa_4-D">
+<label id="tfa_4-L" class="label preField reqMark" for="tfa_4">Last Name</label><br><div class="inputWrapper"><input type="text" id="tfa_4" name="tfa_4" value="" aria-required="true" title="Last Name" data-dataset-allow-free-responses="" class="required"></div>
+</div>
+</div>
+<div id="tfa_8" class="section inline group">
+<div class="oneField field-container-D    " id="tfa_9-D">
+<label id="tfa_9-L" class="label preField reqMark" for="tfa_9">Email</label><br><div class="inputWrapper"><input type="text" id="tfa_9" name="tfa_9" value="" aria-required="true" title="Email" data-dataset-allow-free-responses="" class="validate-email required"></div>
+</div>
+<div class="oneField field-container-D    " id="tfa_6-D">
+<label id="tfa_6-L" class="label preField reqMark" for="tfa_6">Company Name</label><br><div class="inputWrapper"><input type="text" id="tfa_6" name="tfa_6" value="" aria-required="true" title="Company Name" data-dataset-allow-free-responses="" class="required"></div>
+</div>
+<div class="oneField field-container-D    " id="tfa_7-D">
+<label id="tfa_7-L" class="label preField reqMark" for="tfa_7">Job Title</label><br><div class="inputWrapper"><input type="text" id="tfa_7" name="tfa_7" value="" aria-required="true" title="Job Title" data-dataset-allow-free-responses="" class="required"></div>
+</div>
+<div class="oneField field-container-D    " id="tfa_525-D">
+<label id="tfa_525-L" class="label preField reqMark" for="tfa_525">Country/Region</label><br><div class="inputWrapper"><select id="tfa_525" name="tfa_525" title="Country/Region" aria-required="true" class="required"><option value="">Please select...</option>
+<option value="tfa_526" id="tfa_526" class="">AFGHANISTAN</option>
+<option value="tfa_527" id="tfa_527" class="">ALAND ISLANDS</option>
+<option value="tfa_528" id="tfa_528" class="">ALBANIA</option>
+<option value="tfa_529" id="tfa_529" class="">ALGERIA</option>
+<option value="tfa_530" id="tfa_530" class="">AMERICAN SAMOA</option>
+<option value="tfa_531" id="tfa_531" class="">ANDORRA</option>
+<option value="tfa_532" id="tfa_532" class="">ANGOLA</option>
+<option value="tfa_533" id="tfa_533" class="">ANGUILLA</option>
+<option value="tfa_534" id="tfa_534" class="">ANTIGUA AND BARBUDA</option>
+<option value="tfa_535" id="tfa_535" class="">ARGENTINA</option>
+<option value="tfa_536" id="tfa_536" class="">ARMENIA, REPUBLIC OF</option>
+<option value="tfa_537" id="tfa_537" class="">ARUBA</option>
+<option value="tfa_538" id="tfa_538" class="">AUSTRALIA</option>
+<option value="tfa_539" id="tfa_539" class="">AUSTRIA</option>
+<option value="tfa_540" id="tfa_540" class="">AZERBAIJAN, REPUBLIC OF</option>
+<option value="tfa_541" id="tfa_541" class="">BAHAMAS</option>
+<option value="tfa_542" id="tfa_542" class="">BAHRAIN, KINGDOM OF</option>
+<option value="tfa_543" id="tfa_543" class="">BANGLADESH</option>
+<option value="tfa_544" id="tfa_544" class="">BARBADOS</option>
+<option value="tfa_545" id="tfa_545" class="">BELARUS</option>
+<option value="tfa_546" id="tfa_546" class="">BELGIUM</option>
+<option value="tfa_547" id="tfa_547" class="">BELIZE</option>
+<option value="tfa_548" id="tfa_548" class="">BENIN</option>
+<option value="tfa_549" id="tfa_549" class="">BERMUDA</option>
+<option value="tfa_550" id="tfa_550" class="">BHUTAN</option>
+<option value="tfa_551" id="tfa_551" class="">BOLIVIA</option>
+<option value="tfa_552" id="tfa_552" class="">BOSNIA HERZEGOVINA</option>
+<option value="tfa_553" id="tfa_553" class="">BOTSWANA</option>
+<option value="tfa_554" id="tfa_554" class="">BRAZIL</option>
+<option value="tfa_555" id="tfa_555" class="">BRUNEI DARUSSALAM</option>
+<option value="tfa_556" id="tfa_556" class="">BULGARIA</option>
+<option value="tfa_557" id="tfa_557" class="">BURKINA FASO</option>
+<option value="tfa_558" id="tfa_558" class="">BURUNDI</option>
+<option value="tfa_559" id="tfa_559" class="">CAMBODIA, KINGDOM OF</option>
+<option value="tfa_560" id="tfa_560" class="">CAMEROON</option>
+<option value="tfa_561" id="tfa_561" class="">CANADA</option>
+<option value="tfa_562" id="tfa_562" class="">CAPE VERDE</option>
+<option value="tfa_563" id="tfa_563" class="">CAYMAN ISLANDS</option>
+<option value="tfa_564" id="tfa_564" class="">CENTRAL AFRICAN REPUBLIC</option>
+<option value="tfa_565" id="tfa_565" class="">CHAD</option>
+<option value="tfa_566" id="tfa_566" class="">CHILE</option>
+<option value="tfa_567" id="tfa_567" class="">CHINA, PEOPLE'S REPUBLIC OF</option>
+<option value="tfa_568" id="tfa_568" class="">CHRISTMAS ISLAND</option>
+<option value="tfa_569" id="tfa_569" class="">COCOS (KEELING) ISLANDS</option>
+<option value="tfa_570" id="tfa_570" class="">COLOMBIA</option>
+<option value="tfa_571" id="tfa_571" class="">COMOROS</option>
+<option value="tfa_572" id="tfa_572" class="">CONGO</option>
+<option value="tfa_573" id="tfa_573" class="">CONGO, DEMOCRATIC REPUBLIC OF THE</option>
+<option value="tfa_574" id="tfa_574" class="">COOK ISLANDS</option>
+<option value="tfa_575" id="tfa_575" class="">COSTA RICA</option>
+<option value="tfa_576" id="tfa_576" class="">COTE D'IVOIRE</option>
+<option value="tfa_577" id="tfa_577" class="">CROATIA</option>
+<option value="tfa_578" id="tfa_578" class="">CUBA</option>
+<option value="tfa_579" id="tfa_579" class="">CURACAO</option>
+<option value="tfa_580" id="tfa_580" class="">CYPRUS</option>
+<option value="tfa_581" id="tfa_581" class="">CZECH REPUBLIC</option>
+<option value="tfa_582" id="tfa_582" class="">DENMARK</option>
+<option value="tfa_583" id="tfa_583" class="">DIEGO GARCIA</option>
+<option value="tfa_584" id="tfa_584" class="">DJIBOUTI, REPUBLIC OF</option>
+<option value="tfa_585" id="tfa_585" class="">DOMINICA, COMMONWEALTH OF</option>
+<option value="tfa_586" id="tfa_586" class="">DOMINICAN REPUBLIC</option>
+<option value="tfa_587" id="tfa_587" class="">ECUADOR</option>
+<option value="tfa_588" id="tfa_588" class="">EGYPT</option>
+<option value="tfa_589" id="tfa_589" class="">EL SALVADOR</option>
+<option value="tfa_590" id="tfa_590" class="">EQUATORIAL GUINEA</option>
+<option value="tfa_591" id="tfa_591" class="">ERITREA</option>
+<option value="tfa_592" id="tfa_592" class="">ESTONIA</option>
+<option value="tfa_593" id="tfa_593" class="">ETHIOPIA</option>
+<option value="tfa_594" id="tfa_594" class="">FALKLAND ISLANDS, MALVINAS</option>
+<option value="tfa_595" id="tfa_595" class="">FAROE ISLANDS</option>
+<option value="tfa_596" id="tfa_596" class="">FIJI</option>
+<option value="tfa_597" id="tfa_597" class="">FINLAND</option>
+<option value="tfa_598" id="tfa_598" class="">FRANCE</option>
+<option value="tfa_599" id="tfa_599" class="">FRENCH GUIANA</option>
+<option value="tfa_600" id="tfa_600" class="">FRENCH POLYNESIA</option>
+<option value="tfa_601" id="tfa_601" class="">FRENCH WEST INDIES</option>
+<option value="tfa_602" id="tfa_602" class="">GABON</option>
+<option value="tfa_603" id="tfa_603" class="">GAMBIA</option>
+<option value="tfa_604" id="tfa_604" class="">GEORGIA</option>
+<option value="tfa_605" id="tfa_605" class="">GERMANY</option>
+<option value="tfa_606" id="tfa_606" class="">GHANA</option>
+<option value="tfa_607" id="tfa_607" class="">GIBRALTAR</option>
+<option value="tfa_608" id="tfa_608" class="">GREECE</option>
+<option value="tfa_609" id="tfa_609" class="">GREENLAND</option>
+<option value="tfa_610" id="tfa_610" class="">GRENADA</option>
+<option value="tfa_611" id="tfa_611" class="">GUADELOUPE</option>
+<option value="tfa_612" id="tfa_612" class="">GUAM</option>
+<option value="tfa_613" id="tfa_613" class="">GUATEMALA</option>
+<option value="tfa_614" id="tfa_614" class="">GUERNSEY</option>
+<option value="tfa_615" id="tfa_615" class="">GUINEA</option>
+<option value="tfa_616" id="tfa_616" class="">GUINEA BISSAU</option>
+<option value="tfa_617" id="tfa_617" class="">GUYANA</option>
+<option value="tfa_618" id="tfa_618" class="">HAITI</option>
+<option value="tfa_619" id="tfa_619" class="">HONDURAS</option>
+<option value="tfa_620" id="tfa_620" class="">HONG KONG, SAR CHINA</option>
+<option value="tfa_621" id="tfa_621" class="">HUNGARY</option>
+<option value="tfa_622" id="tfa_622" class="">ICELAND</option>
+<option value="tfa_623" id="tfa_623" class="">INDIA</option>
+<option value="tfa_624" id="tfa_624" class="">INDONESIA</option>
+<option value="tfa_625" id="tfa_625" class="">IRAN</option>
+<option value="tfa_626" id="tfa_626" class="">IRAQ</option>
+<option value="tfa_627" id="tfa_627" class="">IRELAND</option>
+<option value="tfa_628" id="tfa_628" class="">ISLE OF MAN</option>
+<option value="tfa_629" id="tfa_629" class="">ISRAEL</option>
+<option value="tfa_630" id="tfa_630" class="">ITALY</option>
+<option value="tfa_631" id="tfa_631" class="">JAMAICA</option>
+<option value="tfa_632" id="tfa_632" class="">JAPAN</option>
+<option value="tfa_633" id="tfa_633" class="">JERSEY</option>
+<option value="tfa_634" id="tfa_634" class="">JORDAN</option>
+<option value="tfa_635" id="tfa_635" class="">KAZAKHSTAN</option>
+<option value="tfa_636" id="tfa_636" class="">KENYA</option>
+<option value="tfa_637" id="tfa_637" class="">KIRIBATI</option>
+<option value="tfa_638" id="tfa_638" class="">KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF</option>
+<option value="tfa_639" id="tfa_639" class="">KOREA, REPUBLIC OF</option>
+<option value="tfa_640" id="tfa_640" class="">KOSOVO</option>
+<option value="tfa_641" id="tfa_641" class="">KUWAIT</option>
+<option value="tfa_642" id="tfa_642" class="">KYRGYZSTAN</option>
+<option value="tfa_643" id="tfa_643" class="">LAO, PEOPLE'S DEMOCRATIC REPUBLIC</option>
+<option value="tfa_644" id="tfa_644" class="">LATVIA</option>
+<option value="tfa_645" id="tfa_645" class="">LEBANON</option>
+<option value="tfa_646" id="tfa_646" class="">LESOTHO</option>
+<option value="tfa_647" id="tfa_647" class="">LIBERIA</option>
+<option value="tfa_648" id="tfa_648" class="">LIBYA</option>
+<option value="tfa_649" id="tfa_649" class="">LIECHTENSTEIN</option>
+<option value="tfa_650" id="tfa_650" class="">LITHUANIA</option>
+<option value="tfa_651" id="tfa_651" class="">LUXEMBOURG</option>
+<option value="tfa_652" id="tfa_652" class="">MACAO, SAR CHINA</option>
+<option value="tfa_653" id="tfa_653" class="">MACEDONIA</option>
+<option value="tfa_654" id="tfa_654" class="">MADAGASCAR</option>
+<option value="tfa_655" id="tfa_655" class="">MALAWI</option>
+<option value="tfa_656" id="tfa_656" class="">MALAYSIA</option>
+<option value="tfa_657" id="tfa_657" class="">MALDIVES</option>
+<option value="tfa_658" id="tfa_658" class="">MALI</option>
+<option value="tfa_659" id="tfa_659" class="">MALTA</option>
+<option value="tfa_660" id="tfa_660" class="">MARSHALL ISLANDS, REPUBLIC OF</option>
+<option value="tfa_661" id="tfa_661" class="">MARTINIQUE</option>
+<option value="tfa_662" id="tfa_662" class="">MAURITANIA</option>
+<option value="tfa_663" id="tfa_663" class="">MAURITIUS</option>
+<option value="tfa_664" id="tfa_664" class="">MAYOTTE</option>
+<option value="tfa_665" id="tfa_665" class="">MEXICO</option>
+<option value="tfa_666" id="tfa_666" class="">MICRONESIA, FEDERATED STATES OF</option>
+<option value="tfa_667" id="tfa_667" class="">MOLDOVA, REPUBLIC OF</option>
+<option value="tfa_668" id="tfa_668" class="">MONACO</option>
+<option value="tfa_669" id="tfa_669" class="">MONGOLIA</option>
+<option value="tfa_670" id="tfa_670" class="">MONTENEGRO</option>
+<option value="tfa_671" id="tfa_671" class="">MONTSERRAT</option>
+<option value="tfa_672" id="tfa_672" class="">MOROCCO</option>
+<option value="tfa_673" id="tfa_673" class="">MOZAMBIQUE</option>
+<option value="tfa_674" id="tfa_674" class="">MYANMAR</option>
+<option value="tfa_675" id="tfa_675" class="">NAMIBIA</option>
+<option value="tfa_676" id="tfa_676" class="">NAURU</option>
+<option value="tfa_677" id="tfa_677" class="">NEPAL</option>
+<option value="tfa_678" id="tfa_678" class="">NETHERLANDS</option>
+<option value="tfa_679" id="tfa_679" class="">NETHERLANDS ANTILLES</option>
+<option value="tfa_680" id="tfa_680" class="">NEW CALEDONIA</option>
+<option value="tfa_681" id="tfa_681" class="">NEW ZEALAND</option>
+<option value="tfa_682" id="tfa_682" class="">NICARAGUA</option>
+<option value="tfa_683" id="tfa_683" class="">NIGER</option>
+<option value="tfa_684" id="tfa_684" class="">NIGERIA</option>
+<option value="tfa_685" id="tfa_685" class="">NIUE ISLAND</option>
+<option value="tfa_686" id="tfa_686" class="">NORFOLK ISLAND</option>
+<option value="tfa_687" id="tfa_687" class="">NORTHERN MARIANA ISLANDS</option>
+<option value="tfa_688" id="tfa_688" class="">NORWAY</option>
+<option value="tfa_689" id="tfa_689" class="">OMAN, SULTANATE OF</option>
+<option value="tfa_690" id="tfa_690" class="">PAKISTAN</option>
+<option value="tfa_691" id="tfa_691" class="">PALAU, REPUBLIC OF</option>
+<option value="tfa_692" id="tfa_692" class="">PALESTINE, STATE OF</option>
+<option value="tfa_693" id="tfa_693" class="">PANAMA, REPUBLIC OF</option>
+<option value="tfa_694" id="tfa_694" class="">PAPUA NEW GUINEA</option>
+<option value="tfa_695" id="tfa_695" class="">PARAGUAY</option>
+<option value="tfa_696" id="tfa_696" class="">PERU</option>
+<option value="tfa_697" id="tfa_697" class="">PHILIPPINES</option>
+<option value="tfa_698" id="tfa_698" class="">PITCAIRN</option>
+<option value="tfa_699" id="tfa_699" class="">POLAND</option>
+<option value="tfa_700" id="tfa_700" class="">PORTUGAL</option>
+<option value="tfa_701" id="tfa_701" class="">PUERTO RICO</option>
+<option value="tfa_702" id="tfa_702" class="">QATAR</option>
+<option value="tfa_703" id="tfa_703" class="">REUNION, LA</option>
+<option value="tfa_704" id="tfa_704" class="">ROMANIA</option>
+<option value="tfa_705" id="tfa_705" class="">RUSSIA</option>
+<option value="tfa_706" id="tfa_706" class="">RWANDA, REPUBLIC OF</option>
+<option value="tfa_707" id="tfa_707" class="">SAINT HELENA, ASCENSION &amp; TRISTAN DA CUNHA</option>
+<option value="tfa_708" id="tfa_708" class="">SAINT KITTS AND NEVIS</option>
+<option value="tfa_709" id="tfa_709" class="">SAINT LUCIA</option>
+<option value="tfa_710" id="tfa_710" class="">SAINT PIERRE ET MIQUELON</option>
+<option value="tfa_711" id="tfa_711" class="">SAINT VINCENT AND THE GRENADINES</option>
+<option value="tfa_712" id="tfa_712" class="">SAMOA</option>
+<option value="tfa_713" id="tfa_713" class="">SAN MARINO, REPUBLIC OF</option>
+<option value="tfa_714" id="tfa_714" class="">SAO TOME AND PRINCIPE</option>
+<option value="tfa_715" id="tfa_715" class="">SAUDI ARABIA</option>
+<option value="tfa_716" id="tfa_716" class="">SENEGAL</option>
+<option value="tfa_717" id="tfa_717" class="">SERBIA</option>
+<option value="tfa_718" id="tfa_718" class="">SEYCHELLES</option>
+<option value="tfa_719" id="tfa_719" class="">SIERRA LEONE</option>
+<option value="tfa_720" id="tfa_720" class="">SINGAPORE</option>
+<option value="tfa_721" id="tfa_721" class="">SLOVAKIA</option>
+<option value="tfa_722" id="tfa_722" class="">SLOVENIA</option>
+<option value="tfa_723" id="tfa_723" class="">SOLOMON ISLANDS</option>
+<option value="tfa_724" id="tfa_724" class="">SOMALIA</option>
+<option value="tfa_725" id="tfa_725" class="">SOUTH AFRICA</option>
+<option value="tfa_726" id="tfa_726" class="">SOUTH SUDAN</option>
+<option value="tfa_727" id="tfa_727" class="">SPAIN</option>
+<option value="tfa_728" id="tfa_728" class="">SRI LANKA</option>
+<option value="tfa_729" id="tfa_729" class="">SUDAN</option>
+<option value="tfa_730" id="tfa_730" class="">SURINAME</option>
+<option value="tfa_731" id="tfa_731" class="">SVALBARD AND JAN MAYEN</option>
+<option value="tfa_732" id="tfa_732" class="">SWAZILAND</option>
+<option value="tfa_733" id="tfa_733" class="">SWEDEN</option>
+<option value="tfa_734" id="tfa_734" class="">SWITZERLAND</option>
+<option value="tfa_735" id="tfa_735" class="">SYRIA</option>
+<option value="tfa_736" id="tfa_736" class="">TAIWAN, PROVINCE OF CHINA</option>
+<option value="tfa_737" id="tfa_737" class="">TAJIKISTAN</option>
+<option value="tfa_738" id="tfa_738" class="">TANZANIA</option>
+<option value="tfa_739" id="tfa_739" class="">THAILAND</option>
+<option value="tfa_740" id="tfa_740" class="">TIMOR-LESTE</option>
+<option value="tfa_741" id="tfa_741" class="">TOGO</option>
+<option value="tfa_742" id="tfa_742" class="">TOKELAU</option>
+<option value="tfa_743" id="tfa_743" class="">TONGA</option>
+<option value="tfa_744" id="tfa_744" class="">TRINIDAD AND TOBAGO</option>
+<option value="tfa_745" id="tfa_745" class="">TUNISIA</option>
+<option value="tfa_746" id="tfa_746" class="">TURKEY</option>
+<option value="tfa_747" id="tfa_747" class="">TURKMENISTAN</option>
+<option value="tfa_748" id="tfa_748" class="">TURKS AND CAICOS ISLANDS</option>
+<option value="tfa_749" id="tfa_749" class="">TUVALU</option>
+<option value="tfa_750" id="tfa_750" class="">UGANDA</option>
+<option value="tfa_751" id="tfa_751" class="">UKRAINE</option>
+<option value="tfa_752" id="tfa_752" class="">UNDEFINED</option>
+<option value="tfa_753" id="tfa_753" class="">UNITED ARAB EMIRATES</option>
+<option value="tfa_754" id="tfa_754" class="">UNITED KINGDOM</option>
+<option value="tfa_755" id="tfa_755" class="">UNITED STATES</option>
+<option value="tfa_756" id="tfa_756" class="">URUGUAY</option>
+<option value="tfa_757" id="tfa_757" class="">UZBEKISTAN</option>
+<option value="tfa_758" id="tfa_758" class="">VANUATU</option>
+<option value="tfa_759" id="tfa_759" class="">VATICAN</option>
+<option value="tfa_760" id="tfa_760" class="">VENEZUELA</option>
+<option value="tfa_761" id="tfa_761" class="">VIETNAM</option>
+<option value="tfa_762" id="tfa_762" class="">VIRGIN ISLANDS, BRITISH</option>
+<option value="tfa_763" id="tfa_763" class="">VIRGIN ISLANDS, U.S.</option>
+<option value="tfa_764" id="tfa_764" class="">WALLIS AND FUTUNA</option>
+<option value="tfa_765" id="tfa_765" class="">WESTERN SAHARA</option>
+<option value="tfa_766" id="tfa_766" class="">YEMEN</option>
+<option value="tfa_767" id="tfa_767" class="">ZAMBIA</option>
+<option value="tfa_768" id="tfa_768" class="">ZIMBABWE</option></select></div>
+</div>
+</div>
+<div id="tfa_2357" class="section inline group">
+<div class="oneField field-container-D    " id="tfa_2346-D">
+<label id="tfa_2346-L" class="label preField " for="tfa_2346">Sector</label><br><div class="inputWrapper"><select id="tfa_2346" name="tfa_2346" title="Sector" class=""><option value="">Please select...</option>
+<option value="tfa_2347" id="tfa_2347" class="">Telecommunications</option>
+<option value="tfa_2348" id="tfa_2348" class="">Technology</option>
+<option value="tfa_2349" id="tfa_2349" class="">Development</option>
+<option value="tfa_2350" id="tfa_2350" class="">Education</option>
+<option value="tfa_2351" id="tfa_2351" class="">Other</option></select></div>
+</div>
+<div class="oneField field-container-D    " id="tfa_2352-D">
+<label id="tfa_2352-L" class="label preField " for="tfa_2352">What is your intended use of the MISTT?</label><br><div class="inputWrapper"><select id="tfa_2352" name="tfa_2352" title="What is your intended use of the MISTT?" class=""><option value="">Please select...</option>
+<option value="tfa_2353" id="tfa_2353" class="">To teach myself basic digital skills</option>
+<option value="tfa_2354" id="tfa_2354" class="">To teach friends/family basic digital skills</option>
+<option value="tfa_2355" id="tfa_2355" class="">To use for training purposes to teach basic digital skills to groups of users</option>
+<option value="tfa_2356" id="tfa_2356" data-conditionals="#tfa_2358" class="">Other</option></select></div>
+</div>
+<div class="oneField field-container-D    " id="tfa_2358-D">
+<label id="tfa_2358-L" class="label preField " for="tfa_2358">If other, please specify</label><br><div class="inputWrapper"><input type="text" id="tfa_2358" name="tfa_2358" value="" data-condition="`#tfa_2356`" title="If other, please specify" data-dataset-allow-free-responses="" class=""></div>
+</div>
+</div>
+</div>
+<div class="oneField field-container-D    " id="tfa_488-D" role="group" aria-labelledby="tfa_488-L" data-tfa-labelledby="-L tfa_488-L">
+<label id="tfa_488-L" class="label preField "><b>EMAIL CONSENT</b></label><br><div class="inputWrapper"><span id="tfa_488" class="choices vertical "><span class="oneChoice"><input type="checkbox" value="tfa_489" class="" id="tfa_489" name="tfa_489" aria-labelledby="tfa_489-L" data-tfa-labelledby="tfa_488-L tfa_489-L"><label class="label postField" id="tfa_489-L" for="tfa_489"><span class="input-checkbox-faux"></span><span style="color: rgb(82, 81, 81); font-size: 15px;">To ensure you stay up-to-date on the latest developments in the mobile industry, the GSMA would like to send you information about events, products, services and initiatives, as well as industry news. Please subscribe by ticking this box; once subscribed, you can tailor what you receive from us at any time, or unsubscribe, should you wish.</span></label></span></span></div>
+</div>
+<input type="hidden" id="tfa_490" name="tfa_490" value="" class=""><div id="tfa_2340" class="section empty group"></div>
+<div id="tfa_2343" class="section group wf-acl-hidden">
+<input type="hidden" id="tfa_2344" name="tfa_2344" value="" class="calc-GOOGLEACCOUNTID"><div class="htmlSection" id="tfa_2345"><div class="htmlContent" id="tfa_2345-HTML"><script type="text/javascript">
+/* Google Tracking Code   */
+
+(function(){ 
+	if(!document.querySelector && base2) {
+	  document.querySelector = base2.DOM.Element.querySelector
+	}
+	var gaId = document.querySelector('input.calc-GOOGLEACCOUNTID');
+	if(gaId) gaId = gaId.value;
+	
+	if(gaId && !window._gaq) {        
+	    window._gaq = window._gaq || [];
+	    window._gaq.push(['_setAccount', gaId]);
+        window._gaq.push(['_setAllowLinker', true]);
+	    window._gaq.push(['_trackPageview']);
+	  
+	    (function() {
+	      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	    })();
+	}
+})();
+ 
+</script></div></div>
+</div>
+<div id="tfa_2359" class="section group">
+<input type="hidden" id="tfa_2360" name="tfa_2360" value="utm_content__c" class=""><input type="hidden" id="tfa_2361" name="tfa_2361" value="utm_medium__c" class=""><input type="hidden" id="tfa_2362" name="tfa_2362" value="utm_source__c" class=""><input type="hidden" id="tfa_2363" name="tfa_2363" value="utm_campaign__c" class="">
+</div>
+<div class="actions" id="145-A">
+<div id="google-captcha" style="display: none">
+<br><div class="captcha">
+<div class="oneField">
+<div class="g-recaptcha" id="g-recaptcha-render-div"></div>
+<div class="g-captcha-error"></div>
+<br>
+</div>
+<div class="captchaHelp">reCAPTCHA helps prevent automated form spam.<br>
+</div>
+<div id="disabled-explanation" class="captchaHelp" style="display: none">The submit button will be disabled until you complete the CAPTCHA.</div>
+</div>
+</div>
+<input type="submit" data-label="Submit" class="primaryAction" id="submit_button" value="Submit">
+</div>
+<div style="clear:both"></div>
+<input type="hidden" value="86-ecbdeb65a5fbcdcb1bd4c3278dfa4e26" name="tfa_dbCounters" id="tfa_dbCounters" autocomplete="off"><input type="hidden" value="145" name="tfa_dbFormId" id="tfa_dbFormId"><input type="hidden" value="" name="tfa_dbResponseId" id="tfa_dbResponseId"><input type="hidden" value="0627185190dd0391ba2fc15e44bc1819" name="tfa_dbControl" id="tfa_dbControl"><input type="hidden" value="1568907852" name="tfa_dbTimeStarted" id="tfa_dbTimeStarted" autocomplete="off"><input type="hidden" value="5" name="tfa_dbVersionId" id="tfa_dbVersionId"><input type="hidden" value="" name="tfa_switchedoff" id="tfa_switchedoff">
+</form>
+</div></div><div class="wFormFooter"><p class="supportInfo"><br></p></div>
+  <p class="supportInfo" >
+    
+
+      </p>
+ </div>
+
+    	<div class="m4d_toolkit_slider_wrapper">
+    		<div id="num-nav"><div rel="1" href="#" class="active-num">1</div><div rel="2" href="#" class="">2</div><div rel="3" href="#" class="">3</div><div rel="4" href="#" class="">4</div><div rel="5" href="#" class="">5</div><div rel="6" href="#" class="">6</div></div>
+      <div class="max-width white contents m4d_toolkit_slider">
+               <div class="inner-col active-col style-gray">
+          		<div class="inner-wrapper">	
+          		<div class="left">	
+          			<div class="inner">                   			
+                     	  <h3>1. Driving digital inclusion in Bangladesh</h3>
+                      	<p>In Bangladesh, 87% of the population use mobile. Yet, only 25% of them use mobile internet. A key reason for this is a lack of basic digital skills.<br><br>
+						By using a force of 3,200 sales agents, Banglalink trained over 117,000 customers over three months and has already delivered positive results. After just three months, amongst customers who were trained, there was:<br><br>
+						- A 228% increase in mobile internet usage<br>
+						- A 143% growth in data revenue<br>
+						- A 83% total revenue growth<br>
+						- Increased traffic to Banglalink’s self-care app<br><br>
+						<a href="/mobilefordevelopment/resources/mobile-internet-skills-training-toolkit-banglalink-pilot-evaluation/" target="_blank">Read the Banglalink case study</a></p>
+
+                  	</div>
+          		</div>    
+          		<div class="right">
+                  	<div class="video-chapter">
+                      	<!-- <img src="https://i2.wp.com/www.gsma.com/mobilefordevelopment/wp-content/plugins/plugin_m4d_shortcodes//mistt/images/1-introduction.jpg?w=900&#038;ssl=1" data-recalc-dims="1" /> -->
+						<iframe width="400" height="280" src="https://www.youtube.com/embed/9_HJIp2V_hk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                      </div>
+          		</div>
+              </div>
+              </div>
+              
+              
+              
+              <div class="inner-col style-blue">
+              <div class="inner-wrapper">
+          		<div class="left">	
+          			<div class="inner">                   			
+                      	<h3>2. Driving digital inclusion in Rwanda</h3>
+						<p>A pilot study of the MISTT was conducted in Sub-Saharan Africa by Tigo Rwanda. Over 300 sales agents were trained to use the MISTT who, in turn, trained over 250,000 customers. This resulted in significant benefits for Tigo Rwanda including:<br><br>
+						- 77% of MISTT trained customers increased their data usage in the period after their sales agents introduced the training<br>
+						- MISTT trained sales agents we able to increase the number of new data subscribers by 15%<br>
+						- This led to a 240% increase in quarterly return on investment<br><br>
+						<a href="/mobilefordevelopment/resources/mobile-internet-skills-training-toolkit-tigo-rwanda-pilot-evaluation/" target="_blank">Read the Tigo Rwanda case study</a></p>
+						
+                  	</div>
+          		</div>    
+          		<div class="right">
+                  	<div class="video-chapter">
+                      	<iframe width="400" height="280" src="https://www.youtube.com/embed/TxvjMnvL0EE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                      </div>
+          		</div>
+              </div>
+              </div>
+
+
+		<div class="inner-col style-orange">
+		<div class="inner-wrapper">
+          		<div class="left">	
+          			<div class="inner">                   			
+                     	  <h3>3. How to design a Mobile Internet Skills Training Toolkit</h3>
+                      	<p>In this accompanying ‘How To Guide’, organisations will learn how they can develop and deliver their own resources in basic mobile internet skills. This guide provides actions and recommendations on how to develop tailored, meaningful training
+sessions and materials for your particular audience.<br><br><a target="_blank" href="/mobilefordevelopment/wp-content/plugins/plugin_m4d_shortcodes/mistt/pdfs/GSMA_MobileInternetToolkit_HowToGuide_FINAL.pdf">Read the ‘How To Guide’</a></p>
+
+                  	</div>
+          		</div>    
+          		<div class="right">
+                  	<div class="video-chapter">
+                      	<img src="https://i0.wp.com/www.gsma.com/mobilefordevelopment/wp-content/plugins/plugin_m4d_shortcodes//mistt/images/slide-2.jpg?w=900&#038;ssl=1" data-recalc-dims="1" />
+                      </div>
+          		</div>
+              </div>
+              </div>
+              
+		<div class="inner-col style-blue">
+		<div class="inner-wrapper">
+          		<div class="left">	
+          			<div class="inner">                   			
+                      	<h3>4. Introduction to the MISTT: Insights from our partners</h3>                              
+             				<p>In this video, find out about the aims and scope of the Mobile Internet Skills Training Toolkit. Hear from our partners (Telenor, Idea Cellular and the Digital Empowerment Foundation) on why the MISTT is such an important tool for digital
+inclusion and why other operators should join the initiative.<br><br><a target="_blank" href="https://www.youtube.com/watch?time_continue=209&v=JzBxpc9PAm8">Watch the video</a></p>
+						
+                  	</div>
+          		</div>    
+          		<div class="right">
+                  	<div class="video-chapter">
+                      	<iframe width="400" height="280" src="https://www.youtube.com/embed/JzBxpc9PAm8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                      </div>
+          		</div>
+              </div>
+              </div>
+              
+              
+              <div class="inner-col style-blue">
+              <div class="inner-wrapper">
+          		<div class="left">	
+          			<div class="inner">                   			
+                      	<h3>5. Connecting the unconnected in Pune</h3>                              
+             				<p>In this video see the Mobile Internet Skills Training Toolkit being taught in live classes to mobile users in Pune, India. Hear insights from Telenor, Idea Cellular and the Digital Empowerment Foundation on the barriers to mobile internet and learn from the trainees about the benefits the training has given them.<br><br><a target="_blank" href="https://www.youtube.com/watch?time_continue=1&v=3iz9tFjvIsM">Watch the video</a></p>
+                  	</div>
+          		</div>    
+          		<div class="right">
+                  	<div class="video-chapter">
+                      	<iframe width="400" height="280" src="https://www.youtube.com/embed/3iz9tFjvIsM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                      </div>
+          		</div>
+              </div>
+              </div>
+		
+              
+      </div>
+      </div>
+    
+
+    <div class="entry-links"></div>
+    </section>
+  </article>
+  
+	
+</section>
+
+<!-- DO NOT TOUCH ANYTHING BELOW THIS LINE-->
+<div class="clear"></div>
+</div> <!-- END container div, starts in header.php -->
+</div> <!-- END wrapper div, starts in header.php -->
+<!-- DO NOT TOUCH ANYTHING ABOVE THIS LINE-->
+
+<footer>
+  <div class="wrapper full-footer-background footer" id="footer"><div class="inner">
+    <div class="footer">
+        <div class="footer-nav">
+            <h1>What We Do</h1>
+            <ul>
+                <li class="main-link"><a href="#">Industry Programmes</a></li>
+                <li><a href="https://www.gsma.com/futurenetworks/">Future Networks</a></li>
+                <li><a href="https://www.gsma.com/identity/">Identity</a></li>
+                <li><a href="https://www.gsma.com/iot/">Internet of Things</a></li>
+              <li class="main-link" style="margin-top:10px;"><a href="https://www.gsma.com/newsroom/gsmadocuments/">GSMA Documents</a></li>
+            </ul>
+            <ul>
+                <li class="main-link"><a href="#">Advocacy Initiatives </a></li>
+                <li><a href="https://www.gsma.com/betterfuture/"> Industry Purpose </a></li>
+                <li><a href="https://www.gsma.com/mobilefordevelopment/"> Mobile for Development </a></li>
+                <li><a href="https://www.gsma.com/publicpolicy/"> Public Policy </a></li>
+                <li><a href="https://www.gsma.com/spectrum/"> Spectrum</a></li>
+                <li><a href="https://www.gsma.com/mobileeconomy/"> The Mobile Economy </a></li>
+            </ul>
+            <ul>
+                <li class="main-link"><a href="https://www.gsma.com/services/">Services</a></li>
+                 <li><a href="https://www.gsma.com/newsroom/gsmai/">GSMA Intelligence</a></li>
+                         <li><a href="https://www.gsma.com/services/pathfinder/">PathFinder</a></li>
+            <li><a href="https://www.gsma.com/services/tac-allocation/">TAC Allocation</a></li>
+            </ul>
+            <ul>
+                <li class="main-link"><a href="#">Convening the Industry</a></li>
+                <li><a href="https://www.mobile360series.com/"> GSMA Mobile 360 Series</a></li>
+                <li><a href="https://www.mobileworldcongress.com/"> Mobile World Congress</a></li>
+                <li><a href="https://www.mwcamericas.com/"> Mobile World Congress Americas</a></li>
+                <li><a href="https://www.mwcshanghai.com/"> Mobile World Congress Shanghai</a></li>
+            </ul>
+            <a href="https://careers.gsma.com/" class="join-footer-button"> Join us!<span> Click here for current vacancies within the GSMA</span></a>
+            <div class="copy">
+                <a class="logo" href="#" title="GSMA"><h1>GSMA</h1><img src="https://www.gsma.com/mobilefordevelopment/wp-content/themes/theme_gsmatheme/images/logo.png"></a>
+                <div class="copy-links">
+                    <a href="https://www.gsma.com/aboutus/legal">Legal<!--<span>|</span>--></a>
+                    <p>© Copyright 2019 GSM Association.<br>The GSM logo is registered and owned by the GSM Association.</p>
+                </div>
+            </div>
+        </div>
+    </div><!--footer-->
+</div><!--inner--></div>
+</footer>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcdVc0ZtsjPaafDjfdVbBk8oA7YuJyTaU"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.8.6/tiny-slider.css">
+<!--[if (lt IE 9)]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.8.6/min/tiny-slider.helper.ie8.js"></script><![endif]-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.8.6/min/tiny-slider.js"></script>
+<!-- NOTE: prior to v2.2.1 tiny-slider.js need to be in <body> -->
+
+	<script>
+	(function modalInit() {
+		document.addEventListener('DOMContentLoaded', function(){ 
+			var image_links = document.getElementsByClassName("image_link");
+
+			// for (var i = 0; i < image_links.length; i++) {
+			// 	let href = image_links[i].getAttribute("href");
+			// 	if(href.includes("video::")){
+			// 		image_links[i].addEventListener('click', function (event) {
+			// 		    event.preventDefault();
+			// 		});
+			// 	}     
+	  //       }
+
+		    if(window.hasOwnProperty('MicroModal')){
+				MicroModal.init({
+				  // onShow: modal => setupvideopopup(modal.id), // [1]
+				  // onClose: modal => closevideopopup(modal.id), // [2]
+				  //debugMode: true // [8]
+				});
+			}
+		}, false);
+	})();
+	</script>
+	<script type='text/javascript' src='https://c0.wp.com/p/jetpack/7.7.1/_inc/build/photon/photon.min.js'></script>
+<script type='text/javascript' src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201938'></script>
+<script type='text/javascript' src='https://www.gsma.com/mobilefordevelopment/wp-content/plugins/plugin_m4d_shortcodes/tw_mHealth_animation_2018_v1.hyperesources/twmhealthanimation2018v1_hype_generated_script.js?72108&#038;ver=5.2.3'></script>
+<script type='text/javascript' src='https://animate.adobe.com/runtime/6.0.0/edge.6.0.0.min.js?ver=5.2.3'></script>
+<script type='text/javascript' src='https://www.gsma.com/mobilefordevelopment/wp-content/plugins/plugin_m4d_shortcodes/main.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://www.gsma.com/mobilefordevelopment/wp-content/themes/theme_gsmatheme/scripts/main.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://www.gsma.com/mobilefordevelopment/wp-content/themes/theme_gsmatheme/scripts/widged.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://unpkg.com/micromodal/dist/micromodal.min.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://www.gsma.com/mobilefordevelopment/wp-content/themes/theme_gsmatheme/scripts/choicesjs/assets/scripts/choices.min.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://www.gsma.com/mobilefordevelopment/wp-content/themes/theme_gsmatheme/scripts/flatpickr.js?ver=5.2.3'></script>
+<script type='text/javascript' src='https://www.gsma.com/mobilefordevelopment/wp-content/themes/theme_gsmatheme/scripts/filterboxes.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://c0.wp.com/c/5.2.3/wp-includes/js/wp-embed.min.js'></script>
+<script type='text/javascript' src='https://stats.wp.com/e-201938.js' async='async' defer='defer'></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:7.7.1',blog:'159265712',post:'31360',tz:'1',srv:'www.gsma.com'} ]);
+	_stq.push([ 'clickTrackerInit', '159265712', '31360' ]);
+</script>
+
+
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#231f20"
+    },
+    "button": {
+      "background": "#de002b"
+    }
+  },
+  "theme": "edgeless",
+  "position": "bottom-right",
+  "content": {
+    "message": "We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners. By continuing to use our site, you accept our use of cookies.",
+    "link": "Learn more",
+    "href": "/aboutus/legal/cookie-policy"
+  }
+})});
+</script>
+
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1003357,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-KNXLRB');</script>
+<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNXLRB" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+
+<script type="text/javascript" src="//7296028.collect.igodigital.com/collect.js"></script> <script type="text/javascript"> var getID = function(){ var parameterInUrl = _etmc.getURLParameter("ID"); var clickID = parameterInUrl ? parameterInUrl : localStorage.getItem("currID"); if(parameterInUrl){ localStorage.setItem("currID",parameterInUrl); return parameterInUrl; }else{ return clickID; } } _etmc.push(["setOrgId", "7296028"]); _etmc.push(["setUserInfo", {"email": getID()}]); _etmc.push(["trackPageView"]); _etmc.push(["setOrgId", "7299387"]); _etmc.push(["setUserInfo", {"email": getID()}]); _etmc.push(["trackPageView"]); </script>
+
+<script type="text/javascript"> var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(66529360); (function() { var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//static.getclicky.com/js'; ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s ); })(); </script>
+
+</body>
+</html>

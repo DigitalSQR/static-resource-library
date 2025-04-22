@@ -1,0 +1,1394 @@
+Planning an information  
+systems project
+A TOOLKIT FOR PUBLIC HEALTH MANAGERS
+THIS  DOCUMENT WAS  CONTACT  INFORMATION: ABOUT  PROJECT  OPTIMIZE
+COMMISSIONED BY  
+OPTIMIZE :  IMMUNIZATION  Jan Grevendonk Project Optimize, a five-year partnership between the World  
+SYSTEMS AND TECHNOLOGIES Technical Officer, PATH Health Organization (WHO) and PATH, was established to  
+FOR  TOMORROW,  grevendonkj@who.inta collaboration identify ways in which supply chains can be optimized to meet the 
+between the World Health Organization  Brian Taliesin demands of an increasingly large and costly portfolio of vaccines. 
+and PATH. The report was authored by  Technical Officer, PATH
+Jan Grevendonk, Brian Taliesin, and  btaliesin@path.org Optimize worked directly with national governments and other institutions to identify 
+Dan Brigden of PATH. problems in the supply chain and test innovative solutions. We also worked with vaccine 
+Dan Brigden manufacturers and policymakers to help ensure that new products and policies enable 
+ACKNOWLEDGMENTS Consultant supply chain systems to function effectively. The goal was to help define an ideal vaccine 
+brigdend@who.int
+The authors would like to thank all the  supply chain that can be used to develop stronger, more adaptable, and more efficient 
+people who provided valuable feedback  logistics systems, extending the reach of lifesaving health technologies to people around World Health Organization
+during the creation of this guide. the world.
+Avenue Appia 20 
+1211 Geneva, Switzerland
+In particular: Anup Akkihal, Thomas  
+www.who.int For more information, please visit the Optimize websites.
+Cherian, Marta Gacic-Dobo, Andrew Garnett,  
+Skye Gilbert, Ajay Goel, Heidi Lasher,  PATH PATH:
+David Lubinski, Henry Mwanyika,   www.path.org/projects/project-optimize
+Sophie Newland, Liz Peloso, Kathleen Tiffay, Mail
+Maeve Wagner, Allen Wilcox, Kate Wilson. PO Box 900922 WHO:
+Seattle, WA 98109 USA
+ www.who.int/immunization_delivery/optimize
+Design: Rebecca Richards-Diop Street
+2201 Westlake Avenue, Suite 200
+Seattle, WA 98121 USA
+www.path.org
+Cover photo: Joint Learning Network for Universal Health Coverage/Buddy Ganzone
+World Health Organization, PATH. Planning an Information This work was funded in whole or part by a grant from the  Copyright © 2013 World Health Organization (WHO), Program for Appropriate Technology in Health (PATH). All rights reserved.  
+Systems Project: A Toolkit for Public Health Managers. Bill & Melinda Gates Foundation. The views expressed herein  The material in this document may be freely used for educational or noncommercial purposes, provided that the material is  
+Seattle: PATH; 2013. are solely those of the authors and do not necessarily reflect  accompanied by an acknowledgment.
+the views of the Foundation.
+How will a better information system benefit you? 
+1 . DE F INE  How should you define the scope? OU T C OME S How will you measure success?
+ABOUT THIS TOOLKIT
+This toolkit can help public health managers to plan for  
+What skills and roles are required to bring  
+the implementation of information and communications  2. F OR M  YOUR T E A M your project to a satisfying outcome?
+technology (ICT) in health information systems. It draws  
+on lessons learned during project Optimize, a five-year  
+partnership between the World Health Organization DE F INE  W H AT  How can you define your requirements for  
+and PATH to help optimize the vaccine supply chain. 3 . YOUR S YS T E M the system?
+NE E D S T O  DO
+The toolkit focuses on the planning phase of an information systems project.  
+It proposes an eight-step process that can help decision-makers:
+•	 Choose	the	solution	that	best	fits	their	needs	and	context. Should you buy or build your system? Do you select 
+•	 Obtain	the	external	help	and	expertise	they	need. 4 . F IND  T HE  R IGH T an open-source or proprietary system? How do you S OL U T ION
+•	 Develop,	scale,	and	then	sustain	their	chosen	solution. evaluate different systems and select the best one?
+This document describes each step and includes planning tools to help you complete them. 
+It is not an exhaustive technical guide to implementing information systems, however, and it 
+How do you make sure you select the best  
+does not address the strategic questions around a wider electronic health vision. Managers 5 . S E L E C T  T HE R IGH T  V E NDOR S providers of technical services?
+looking for more detailed guidance should refer to “Finding more information” on  
+page 27 for additional suggested resources in these areas.
+All health information systems use a variety of technologies that can include paper-based E S T IM AT E  How much will your project cost to pilot, scale, 
+tools as well as ICT. In many cases, introducing new information technology presents the 6 . IMP L E ME N TAT ION A N D OP E R AT IN G and maintain?
+best opportunity to improve these systems. However, doing so also poses considerable  C O S T S
+challenges. This toolkit can help managers to meet these challenges by carefully planning 
+their use of ICT. 
+C R E AT E  A N  
+There are eight steps in the process of planning an information systems project: 7. IMP L E ME N TAT ION How long will it take to develop, pilot, and scale up?
+P L A N
+UN DE R S TA ND  
+8 . A ND M A N A GE What can go wrong and how can you plan for that?
+P R O JE C T  R I S K S
+TABLE OF CONTENTS
+Acknowledgments  . . . . . . . . . . . . . . . . . . . . . . . . . . i STEP 1.  Annex 1.  
+Define outcomes . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1 Project charter . . . . . . . . . . . . . . . . . . . . . . . . . . . .  28
+About this toolkit. . . . . . . . . . . . . . . . . . . . . . . . . .  ii
+STEP 2.  Annex 2.  
+Acronyms . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . iv Form your team . . . . . . . . . . . . . . . . . . . . . . . . . . . .  5 Project roles and responsibilities matrix . . . . . . . . .  29
+Introduction:  STEP 3.  Annex 3.  
+Why do so many health  Define what your system needs to do. . . . . . . . . . . .  8 Nonfunctional requirements checklist. . . . . . . . . . .  30
+information systems fail? . . . . . . . . . . . . . . . . . . . . . iv
+STEP 4.  Annex 4.  
+Find the right solution . . . . . . . . . . . . . . . . . . . . . .  13 Selection matrix  . . . . . . . . . . . . . . . . . . . . . . . . . .  32
+STEP 5.  Annex 5.  
+Select the right vendors . . . . . . . . . . . . . . . . . . . . . . 17 Governance and design principles . . . . . . . . . . . . .  33
+STEP 6.  Annex 6.  
+Estimate implementation and  Proposal scoring matrix for the selection  
+operating costs . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19 of a software developer . . . . . . . . . . . . . . . . . . . . .  34
+STEP 7.  Annex 7.  
+Create an implementation plan . . . . . . . . . . . . . . . . 21 Vendor questions  . . . . . . . . . . . . . . . . . . . . . . . . .  35
+STEP 8.  Annex 8.  
+Understand and manage project risks  . . . . . . . . . . 23 What drives costs in all phases of the  
+project lifecycle? . . . . . . . . . . . . . . . . . . . . . . . . . .  36
+Annex 9.  
+Finding more information  . . . . . . . . . . . . . . . . . .  27 Total cost of ownership budget matrix . . . . . . . . . .  37
+Annex 10. Work plan . . . . . . . . . . . . . . . . . . . . . . .  38
+P L A N N I N G  A N  I N F O R M A T I O N  S Y S T E M S  P R O J E C T  T O O L K I T P A G E  i i i
+INTRODUCTION Why do so many health information systems fail?
+Small-scale electronic health (eHealth) and mobile health (mHealth) projects and pilots are  
+proliferating in Africa and Asia. Many of these are implemented by nonprofit or donor organizations  
+in a small geographic area and with a narrow functional or programmatic scope (for example, a  
+stock tracking and reporting system for malaria drugs in a particular district). Despite the interest  
+of ministries of health and donor organizations to invest in information technology (IT), there are  
+few success stories of widely implemented health information systems.
+ACRONYMS
+What is holding back the widespread  Typical	barriers	and	pitfalls
+Collaborative Requirements adoption of information and communications CRDM Managers take shortcuts through established system development  Development Methodology technology (ICT) systems in the health systems methodologies: they do not spend enough time at the beginning of the  
+of developing countries? project on system analysis and design; therefore, the development time  
+eHealth Electronic health and effort escalates. 
+EU European Union Why are so many seemingly great ideas 
+never scaled up beyond the pilot phase? The agendas of technical assistance providers and donors are not aligned  
+ICT Information and  with the interests of the system users. communications technology
+Why do some sophisticated and proven 
+IT Information technology systems bring little value or improvement  The architecture of the system is unsuitable for its envisioned scale and  
+LMIS Logistics management 
+to the health system? scope, or for the context in which it is deployed.
+information systems
+mHealth There are many reasons, but typical barriers Mobile health There is a premature commitment to a fixed budget and schedule, with  
+and pitfalls include the following. some project areas (usually those that are less well understood by planners 
+MOH Ministry of Health and decision-makers) receiving insufficient resources. 
+PATH Program for Appropriate Technology in Health
+Pilot projects are not documented and evaluated well enough to  
+RFP Request for proposal demonstrate the efficiency gains, health outcomes, and value for money 
+required to scale them up.
+SaaS Software as a service
+TCO Total cost of ownership
+P L A N N I N G  A N  I N F O R M A T I O N  S Y S T E M S  P R O J E C T  T O O L K I T P A G E  i v
+INTRODUCTION Why do so many health information systems fail?
+Unfortunately, many ministries of health Typically, there are three main phases of an ICT project:  Quality assessment reviews should be 
+lack the staff and general capacity to plan pilot, scale, and sustain. planned between each phase. For example, 
+adequately for information systems projects. the decision to move from development to 
+While this guide cannot fully address such Three	ICT	project	phases national scale should depend on the success-
+shortcomings, it can help planners to address ful conclusion of a pilot demonstration. Then, 
+many of the challenges. Pilot once the system has been scaled up, the 
+The team develops or selects the right solution, based on program needs and priorities. outcomes should be evaluated against the 
+The system is then tested in a small-scale pilot to measure outcomes, impacts, and costs 
+This document will focus on what could  1 and to identify potential improvements. original project objectives and, if necessary, 
+have been done instead: start with the  design changes should be made. In the box 
+larger vision and desired outcomes in mind; Scale to follow, we describe several real-life project 
+define the project scope well; then budget  2 The system is deployed to its intended reach— for example, in all districts in the country, failures and examine how better planning adequate time and resources for planning, going from 50 to 2,000 users. could have led to success. 
+requirements gathering, and system design.
+Sustain
+3 To provide continued value, the system needs to be maintained and sustained. After  five to ten years, it may need to be improved or even replaced, starting again with  
+the first phase.
+P L A N N I N G  A N  I N F O R M A T I O N  S Y S T E M S  P R O J E C T  T O O L K I T P A G E  v
+INTRODUCTION Why do so many health information systems fail?
+E X A MP L E S  OF  P RO JE C T  FA IL UR E S
+Limited design Not planning to scale Risk management and 
+In the context of a technical knowledge transfer  In one African country, a consortium of donors and  implementation issues
+program sponsored by the European Union (EU),  technical partners implemented a short message  Wealthy countries suffer project failures, too. 
+an EU country helped a middle-income country  service–based system to track the commodities used The United Kingdom’s “National Health Service 
+implement its immunization registry system. When in a public health program. While it was scaled up National Programme for IT” was established in 2002 
+the program ended, the receiving country’s officials nationally for some commodities, it will not be  with the aim of implementing an electronic medical 
+discovered they had no way to modify reports or  easy to extend its use to a large number of other  record system, among other things. The program was 
+functionality, or even access the database directly. commodities; sending a different text message for initially expected to cost £2.3 billion over three years, 
+They abandoned the system. every transaction for a large number of commodities but in 2011 it was dismantled after having spent  
+will be too cumbersome and costly. £6.4 billion without achieving its initial goals.
+What went wrong? 
+It is likely that not enough time was spent planning What went wrong? What went wrong? 
+and designing the project. It was simply assumed  The system design was not aligned with the wider  There are probably many interlinked reasons,  
+that what worked in one country would work in  eHealth and mHealth vision. Instead, it focused on although an important one could be that it was too 
+another. Many factors, not simply functionality,  the demonstration of a technology. Failing to think ambitious in scope and scale from the start, making 
+affect the feasibility and usefulness of a system in  through what would happen in the long run means it difficult to obtain the necessary engagement and 
+a specific country. that the system might not be adopted and maintained support of stakeholders. A well-planned pilot phase 
+by the ministry of health of that country. with a well-managed scope would have limited the 
+financial risk.
+P L A N N I N G  A N  I N F O R M A T I O N  S Y S T E M S  P R O J E C T  T O O L K I T P A G E  v i
+STEP 1: DEFINE OUTCOMES
+Investment in information systems can help to strengthen national public health systems, but  
+why should a ministry of health (MOH) with limited resources make such an investment when it has 
+so many other priorities to consider? Making a clear case for information systems will help secure  
+funding and prioritize the effort. Furthermore, defining the outcomes and scope of a project will  
+focus stakeholders on common goals.
+Identify	problems	and	 the perceived gaps and opportunities are 
+BY TA K IN G T HI S  S T E P  opportunities documented, with a strong focus on  
+YOU S HOUL D BE  A BL E  A national health information system is the describing the desired benefits and the 
+T O  A N S W E R … combination of people and IT that supports “why.” It may include the development of  
+the operations, management, and evidence- a high-level business case that compares  
+based decision-making within a public  the benefits to estimated costs.
+✓ What do I need my  
+information system  health system. The ultimate goal of a health 
+to do? information system is to improve health Think about which problems in your health 
+outcomes by providing high-quality, relevant system could be solved if you or other  
+✓ How does an information 
+system help us  data in a timely manner. health workers had better (more accurate, 
+implement our strategy? complete, timely, or relevant) information. 
+Improvements to a health information As possible, obtain quantitative data about 
+✓ How can I make a  business	case	for	 system emerge from a need for change: health outcomes or efficiencies and  
+investment in health either the existing system does not meet the measure whether the implementation of 
+information systems? evolving needs of the program, or there is an an information system could improve these 
+✓ Where is the system  understanding that emerging technologies indicators. A successful ICT project will 
+going	to	be	 allow for radically better systems. Typically, produce many kinds of benefits for all of its 
+implemented? a small group or “project champion”  users. Table 1.1 shows the kinds of benefits 
+✓ How will I measure  identifies this need and then tries to mobilize information systems can bring.
+success? a bigger group of stakeholders. In this phase, 
+P L A N N I N G  A N  I N F O R M A T I O N  S Y S T E M S  P R O J E C T  T O O L K I T P A G E  1
+STEP 1: DEFINE OUTCOMES
+Table	1.1	The	benefits	a	good	information	system	can	bring
+BE NE F I T E X A MP L E S HOW T O  E VA L UAT E  S UC CE S S
+•	 Targeted advocacy efforts help to address higher-than- •	 Did the system produce credible data for these indicators?
+Better indicators for strategic planning average vaccination dropout rates in specific population •	 Were managers able to act on this information? 
+groups.
+•	 Did the information change decisions and how did that 
+•	 Credible estimates of vaccine wastage rates for each  benefit the program?
+health center lead to tailored vaccination strategies to 
+reduce wastage. •	 Was there any measurable impact on outcome indicators, 
+such as vaccination coverage?
+•	 High failure rates in certain types of cold chain equipment 
+lead to the discontinuation of that equipment.
+•	 A district officer validates a vaccine request based on  •	 Did the system lead to operations that are more efficient? 
+Better day-to-day decision-making the available stock, target population, and average  For example, was there a reduction in buffer stocks or  
+consumption in the health center that sent the request. wastage?
+•	 A nurse uses the immunization register of her clinic to •	 Did the system lead to better availability of stock?
+find the children who are falling behind their vaccination •	 Did it change the way people work and did that improve 
+schedule. health outcomes (for example, higher coverage, lower 
+•	 A warehouse manager analyzes average demand and dropouts)?
+makes sure that stock is kept between minimum and  
+maximum levels.
+•	 In Senegal, some health programs have outsourced the •	 Do the system data accurately reflect reality?
+Better control and oversight distribution of their commodities to the national pharmacy. •	 Did the system highlight poor performance?
+With access to stock and delivery information, they can 
+regularly monitor the arrangement.
+•	 In Turkey, pharmacists scan barcodes when they  
+dispatch drugs to make sure that the insurance system  
+is not overcharged. 
+•	 Through a last-mile stock management system, managers 
+can monitor whether some health centers or districts are 
+regularly overstocked or experiencing stockouts. 
+•	 Health workers enter monthly reports directly into a  •	 Comparing how people spent their time before  
+	Reduced	administrative	burden computer or mobile device and transmit them electronically. implementation of the system change and how they  
+•	 Aggregate coverage reports are generated automatically  spend it since the change, what are the differences?
+by the system.
+P L A N N I N G  A N  I N F O R M A T I O N  S Y S T E M S  P R O J E C T  T O O L K I T P A G E  2
+STEP 1: DEFINE OUTCOMES
+The project champion should draft a business 1.	Functional
+CASE A L BA NI A N IMMUNI Z AT ION case that describes these benefits (either The functional scope of the system refers to 
+STUDY INF OR M AT ION S YS T E M in quantitative terms or by assigning dollar what it does. Will it support patient records, values to each of them) and that compares disease surveillance, stock management,  
+the benefits to the estimated overall cost  and logistics? Advocacy and outreach? 
+The Albanian Institute for Public Health worked to implement an immunization  of implementing and maintaining the  Finance and accounting? Human resource 
+information system that digitizes child immunization records and the stock  system. Step 6 of this guide describes how  management? 
+management system in an integrated manner. By recording every individual child,  to estimate the total cost of ownership (TCO) 
+vaccination, and stock movement in a central database, the system is able to provide of a system. The business case needs to be 2. Programmatic
+the following benefits: refined after the pilot phase has confirmed The programmatic scope refers to the public 
+the benefits. By being able to show value for health programs that will be using the  
+1. Better estimates of immunization coverage. money, you can increase your opportunities system. Is it going to be made specifically  
+for internal and external fundraising. for one program or will it be integrated?  
+2. Managers can list the registered children who are unvaccinated and use  To answer this question, it is worth thinking 
+that list to find out why. Setting and respecting boundaries will be about the end users of the system. Will they 
+a key success factor for your project. You end up needing several systems to do their 
+3. Reminders and automated work planning reduce dropout rates and improve can achieve this by clearly establishing and job? In that case, their development needs 
+the timeliness of vaccination. agreeing on the scope—that is, defining	 should be coordinated. 
+4. When a bad lot needs to be recalled, managers can find out easily where it what is and is not included in your  
+was distributed and to which children it was administered. project—in terms of its functional,  3. Geographic
+programmatic, and geographic dimensions. The geographic scope of the system refers 
+5. Ability to check whether new and more expensive vaccines are administered to where it will be used, and by whom. Is it 
+to the children they were meant for. meant for nationwide deployment? At what 
+Nurses spend less time preparing for levels of the health system? In hospitals? 6.
+vaccination sessions and reporting District offices? Community health centers?
+to the district.
+Photo:  PATH / Ilir Kaso
+P L A N N I N G  A N  I N F O R M A T I O N  S Y S T E M S  P R O J E C T  T O O L K I T P A G E  3
+STEP 1: DEFINE OUTCOMES
+You cannot deploy a system that does therefore important to have a sense of both 
+CASE everything for everybody from the start. It the initial and final scope before you begin: L OGI S T IM O IN  S OU T H S UDA N
+STUDY makes sense to begin with a pilot, in which the long-term vision will drive the system de-the scope is reduced to make the implemen- sign and the architectural choices you make. 
+tation more manageable and to allow you 
+In South Sudan, the Expanded Programme on Immunization, United Nations to find and correct weaknesses before you At the start of any major ICT project, the 
+Children’s Fund, and project Optimize worked together to implement Logistimo, add functional, programmatic, or geographic project management team should create  
+a stock management system that uses mobile phones. By allowing users to order scope. Often, this is achieved by testing the a project charter or terms of reference  
+vaccines and record transactions such as receipts, issues, and wastage in real system first in one geographic area, and with document that summarizes what the project 
+time, Logistimo provided the following benefits: a core set of the final functionality. After will accomplish and where and when they 
+evaluation, it can then be scaled geographi- will implement it. That way, there is no  
+1. Managers can view stock balances in remote locations, which helps to  cally, after which new layers of functionality confusion about the project’s objectives, 
+avoid stockouts and overstocking. are added over time, or it can be perfected targets, and scope. 
+and complemented with new functional-
+2. Managers can analyze consumption patterns to assess the appropriateness ity before it is implemented nationally. It is 
+of order quantities.
+3. Users can transmit orders over the phone and receive text message  
+updates on when the shipments will arrive, allowing them to organize  
+their work better.
+Photo: PATH/Jan Grevendonk
+T OOL BOX
+PROJECT	CHARTER	 
+An	example	project	 
+charter is provided at  
+the end of this toolkit.  
+Annex	1.	Project	charter
+P L A N N I N G  A N  I N F O R M A T I O N  S Y S T E M S  P R O J E C T  T O O L K I T P A G E  4
+STEP 2: FORM YOUR TEAM
+There is more to IT projects than developing software; in fact, an information system is 
+always a combination of people and technology. At the start of your project, you should form 
+a multidisciplinary team that can manage every project function, not only the development, 
+deployment, and operations functions, but also the management and governance functions.
+To avoid misunderstandings and to make sure that your team possesses the required skills, consider the roles that will be required.  
+Select individuals or organizations that will fulfill these roles. Completing a roles	and	responsibilities	matrix can help.
+BY TA K IN G T HI S  S T E P  
+YOU  S HOUL D BE  A BL E  
+T O  A N S W E R …
+✓ What resources and  
+skills do I need for each Governance
+of the three phases 
+(develop,	scale,	and	
+sustain)? Management
+✓ How can I assess  
+what skills are already 
+available	in	the	MOH,	
+other	ministries,	or	 
+partners? 
+Development Deployment Operations
+Figure	2.1	Project	functions
+P L A N N I N G  A N  I N F O R M A T I O N  S Y S T E M S  P R O J E C T  T O O L K I T P A G E  5
+STEP 2: FORM YOUR TEAM
+Table	2.1	Views	of	stakeholders	in	an	information	systems	project
+GROUP OB JE C T I V E S  + IN T E R E S T S
+Ministries of health  Improved outcomes from investment.
+and finance Project implemented on time, within budget, and meeting user requirements.
+Governance 
+There are likely to be numerous groups Ministry or department  Alignment of project with the national eHealth strategy and compliance with  
+involved in your project, and each will have policies. Ensuring the project leverages existing investments in IT servers,  of IT or planning
+different objectives and interests. This can communication networks, etc.
+seriously complicate decision-making. Under-
+standing the various perspectives and finding Funding sponsor Lasting impact and demonstrated value for money of the project.
+areas of consensus and collaboration are 
+important to ensure the project’s success. For 
+Users Delivery of a system that meets their requirements with acceptable usability,  
+projects of significant magnitude, a project performance, and flexibility.
+champion from the senior level of the MOH 
+who can align interests and resolve potential Project team Meeting short-term criteria set by project sponsors and the funding organization.
+conflicts is required.  This person should  
+chair a committee of stakeholders that  Subcontractors Receiving short-term payments for services delivered.
+sets the overall direction for the system 
+implementation, makes key decisions,  
+and identifies key team members. Some  Vendors Establishment of a long-term revenue stream.
+typical views of stakeholders in an informa-
+tion systems project are given in Table 2.1.
+Researchers Validation of hypotheses. Publication submissions.
+P L A N N I N G  A N  I N F O R M A T I O N  S Y S T E M S  P R O J E C T  T O O L K I T P A G E  6
+STEP 2: FORM YOUR TEAM
+Management Development Deployment Operations 
+The project needs to be planned, managed, The development or customization of a To implement the system at scale, a new set Once implemented, the system needs to  
+monitored, and evaluated by a project man- software system is a specialized and time- of skills is required, mostly around training be maintained, and users will need some 
+ager and support staff. This management limited role. Therefore, the development and the mass deployment or upgrade of form of overall support. This is where the 
+group should also include administrative team normally needs external resources, computer equipment. This function may also operations team comes in. Key skills  
+functions such as procurement. Often,  such as IT contractors or technical assistants. rely on short-term technical assistance. include database management and help 
+more than one project manager oversees The development function is most impor- desk support.
+a project: typically one representing the tant in the pilot phase. However, during the 
+MOH, one representing the donor  scale-up phase, the development team will 
+organization or technical agency that still need to fix any software problems and 
+supports the project, and one designated accommodate requirements not identified 
+by the IT company that has been selected. during the pilot phase. Even during the 
+Having multiple project managers may  maintenance phase, development work may 
+be acceptable as long as roles and  still be necessary, for example, because users 
+responsibilities have been clearly defined require new reports. The skills in this team T OOL BOX
+and the MOH project manager is in control vary from very technical (such as database 
+of the overall direction of the project. administrator) to more analytical (business ROLES AND  
+RESPONSIBILITIES MATRIX  
+analyst, for example). An	example	roles	and	
+responsibilities	matrix	is	
+provided at the end of  
+this toolkit.  
+Annex	2.	Project	roles	and	
+responsibilities	matrix
+P L A N N I N G  A N  I N F O R M A T I O N  S Y S T E M S  P R O J E C T  T O O L K I T P A G E  7
+STEP 3: DEFINE WHAT YOUR SYSTEM NEEDS TO DO
+In a typical project, public health staff work together with technical people such as vendors,  
+developers, consultants, and IT staff in the MOH. Often, these two groups have completely 
+different backgrounds and even seem to speak different languages. As a result, a lack of 
+understanding between the future users of a system and the people who design it is one 
+of the main causes of frustration, delays, cost overruns, and even failures in IT projects.
+A methodology to document user require-
+BY TAKING THIS  STEP ments can help to mitigate the risk of 
+YOU SHOULD BE  ABLE  misunderstanding and ensure that program 
+TO  ANSWER… managers remain in control of system 
+functionality. One such methodology is the 
+Collaborative Requirements Development 
+✓ How can I document my system requirements and  Methodology (CRDM) developed by the 
+communicate	better	with	technical	people? Public Health Informatics Institute and PATH. 
+✓ Which	processes	will	be	needed	to	support	the	objectives	 The CRDM is a methodology for low-resource 
+and outcomes? settings that enables public health managers 
+to define and document their requirements in 
+✓ What	are	the	technical	requirements	I	should	be	worrying	 a standardized and collaborative way. 
+about?	How	will	the	information	system	perform	when	we	
+have	a	problem	with	electricity	and/or	Internet	connectivity?	 A methodology by itself is not sufficient—
+✓ true understanding depends on people. The How does the design of my health information system  
+enable	our	country	to	maintain	it?	Is	it	possible	to	design	 bridging function between different groups is 
+an information system so that training is minimized? often filled by a business analyst—a public 
+health person who understands ICT or an ICT 
+✓ How will newly computerized processes link to retained person who understands public health. Focus-
+manual	and	paper-based	processes?
+ing too much on current processes may also 
+lead to lost opportunities to transform and 
+improve them. Resources permitting, experts 
+in human behavior change can help to ensure 
+that the system is built in a way that makes 
+people want to use the data it produces.
+P L A N N I N G  A N  I N F O R M A T I O N  S Y S T E M S  P R O J E C T  T O O L K I T P A G E  8
+STEP 3: DEFINE WHAT YOUR SYSTEM NEEDS TO DO
+Defining business processes can encourage you to think about the way people work (or could work) before you dive in to the details of what 
+your system will look like. This process enhances the likelihood that the system will adapt itself to people and their work objectives.  
+Table	3.1	Example	process	matrix
+# P ROCE S S OB JE C T I V E INP U T OU T P U T TA S K S E T OU T C OME S
+Patient  Maintain a database of •	 Patient information  Patient records available  •	 Register patient More complete registration 
+management all newborns, with their from hospital  for other processes in  •	 Search for existing of newbornsvaccination history. information systems the application
+A record 
+•	 Newborn  •	 Maintain patient 
+information from civil database
+registry systems
+Vaccination  Ensure that all infants are •	 Patient records from Vaccination records •	 Define national schedule More timely vaccination, 
+management vaccinated with all vaccine process A, “Patient •	 Plan vaccinations higher vaccination coveragedoses in the national  management” •	 Send reminders
+B schedule. •	 National immunization •	 Register vaccinations
+schedule
+•	 Monitor vaccination 
+coverage
+Stock management Ensure that vaccines and  •	 Historic vaccine usage Data about available lots •	 Order stock Higher availability and  
+other stock are always  data from process B, for process B, “Vaccination •	 Receive lower wastage of vaccine  
+available when needed,  “Vaccination  management” •	 Store and other stock
+while minimizing wastage management”
+C and excess stock. •	 Count stock•	 Stock available?
+•	 Monitor balances,  
+expiry dates, wastage, 
+and usage
+Cold	chain	 Ensure that high-quality cold •	 Register equipment Higher uptime of cold chain 
+D management chain equipment is available •	 Update working status equipmentwhere needed. •	 Monitor working status
+Reference data Provide common reference Reference data •	 Define health facilities Reference data available 
+management data for other modules and •	 Define system users for other systems/ processes/
+E processes. •	 Define stock items modules
+•	 Define geographies
+P L A N N I N G  A N  I N F O R M A T I O N  S Y S T E M S  P R O J E C T  T O O L K I T P A G E  9
+STEP 3: DEFINE WHAT YOUR SYSTEM NEEDS TO DO
+Describe	processes Create	task	flows Figure	3.1	Collaborative	requirements	session
+A business process is a set of tasks that A task flow diagram describes the  
+together accomplish a goal or produce activities of a business process and the  
+something of value for the benefit of the people who perform those activities. The  
+organization.  task flow provides a “story” for the process 
+and serves as a focal point for achieving  
+An information system aims to make  clarity and agreement among group  
+business processes more effective or efficient, members and stakeholders. Task flow  
+and a detailed process analysis is the starting diagrams look like standard flow charts.
+point to define what the information system 
+is supposed to do. Business processes can be 
+supported by manual as well as automated 
+activities, and by paper-based as well as 
+digital information. 
+Figure	3.2	Example	task	flow	diagram	for	drug	dispensing
+The process matrix in Table 3.1 above 
+includes illustrative processes for an  
+immunization information system.  1.
+Completing a process matrix such as this  
+Start Encounter
+can help you with your work, and should  
+be adapted for your situation. Thinking 
+through the process will help you identify  
+the details that are critical for your context. 2. 3. 5. 6. 7.YES
+Consult + Treatment Dispense Update Record Inform Next Visit End
+Diagnose Available?
+NO
+4.
+P L A N N I N G  A N  I N F O R M A T I O N  S Y S T E M S  P R O J E C T  T O O L K I T P A G E  1 0
+SERVICE  DEL IVERY  POINT
+Health worker Patient
+Photo: PATH/Henry Mwanyika
+STEP 3: DEFINE WHAT YOUR SYSTEM NEEDS TO DO
+Figure 3.1 shows technical officers discuss- Define requirements Functional requirements Nonfunctional 
+ing, describing, and improving a set of task Requirements specify what is needed to Functional requirements are usually requirements
+flows. Organizing a workshop like this and solve a problem or to achieve the objective. expressed as statements that begin with, Nonfunctional requirements often describe 
+drawing on diverse resources from all levels Requirements may also be rules required “The system must or should…” They express the technical and environmental constraints 
+(health center and district staff, as well as  within the system to satisfy a contract, the functional abilities of a system, for  that vendors and developers need to under-
+national and global experts) can help to standard, or specification. For the purpose example, the ability to generate a certain stand, such as the availability of electricity 
+ensure that every issue is considered from of this toolkit, we distinguish functional and report or the ability to keep track of  or Internet connectivity in certain areas.
+different points of view before the developers nonfunctional requirements. individual lots of a vaccine. An example  
+start work. Another benefit is that participa- of a user requirements matrix is shown in 
+tion in such workshops creates a sense of Table 3.2. This list can be used:
+investment and ownership in the project. •	 To evaluate an existing system 
+(does it comply with the requirements?)
+Task flow diagrams have a start and an  •	 To communicate requirements to a 
+end, and are read from left to right or top  developer who can find the best 
+to bottom. Rectangles are used to describe  way to implement them.
+the steps. Diamonds indicate decisions, and •	 As a checklist to test a system that 
+arrows indicate the sequence. They also was developed.
+specify who is responsible for the step and 
+where it is taking place.  An example task 
+flow diagram is shown in Figure 3.2.
+T OOL BOX
+NONFUNCTIONAL	REQUIREMENTS
+A checklist for nonfunctional requirements is provided at the 
+end of this toolkit.  Annex	3.	Nonfunctional	requirements
+CRDM	TOOLS
+For	more	information	on	how	to	define	processes,	task	
+flows,	and	functional	requirements,	please	refer	to	the	
+following document: Common	Requirements	for	Logistics	
+Management Information Systems
+P L A N N I N G  A N  I N F O R M A T I O N  S Y S T E M S  P R O J E C T  T O O L K I T P A G E  1 1
+STEP 3: DEFINE WHAT YOUR SYSTEM NEEDS TO DO
+Table	3.2	Example	user	requirements	matrix
+PROCESS:	VACCINATION MANAGEMENT CONTACT:	STEVEN SMITH
+P ROCE S S MU S T ? T HE  S YS T E M MU S T  OR  S HOUL D
+Allow the user to define a national vaccination schedule. This schedule defines the ideal age at which children should 
+receive a certain vaccine dose within three constraints: 
+1 ✓ •	 The minimum age before which a child is not eligible for a certain dose.
+•	 The maximum age beyond which a child is not eligible for a certain dose.
+•	  A minimum time that needs to pass between doses of the same vaccine.
+2 ✓ Reproduce (display and print) a list of children requiring immunizations from a certain health center at a particular  time, with all the doses that are due and overdue.
+3 Send SMS (short message service) text message reminders to caregivers. 
+4 ✓ Allow users to update a child’s immunization record with the date of vaccination, the health center where the  vaccination took place, and the vaccines and doses that were administered. 
+5 Register the lot number that was used for each vaccination in a child’s immunization record. 
+6 ✓ Reproduce (display and print) a child’s vaccination history, together with all due and overdue appointments. 
+7 ✓ Reproduce (display and print) a coverage report that shows vaccination coverage as the percentage of children living  in a certain area that were born within a certain time frame and that were vaccinated with a certain vaccine dose. 
+8 ✓ Reproduce (display and print) a report that shows all vaccinations administered— by dose and by health facility or group of health facilities (district, region, or national level). 
+P L A N N I N G  A N  I N F O R M A T I O N  S Y S T E M S  P R O J E C T  T O O L K I T P A G E  1 2
+STEP 4: FIND THE RIGHT SOLUTION
+Now that you know what you want to achieve (Step 1), have formed a team (Step 2), and defined 
+what your system will do (Step 3), you need to find the best solution for your problem and context.  
+In this step, you will find an appropriate system solution that aligns with your context and national 
+information architecture.
+Consider	existing	systems	and	 •	 INFRASTRUCTURE	ARCHITECTURE: 
+BY TAK ING T HIS S T EP  standards in your country the hardware to be used and the 
+YOU SHOUL D BE ABL E  Before looking at potential solutions, network and data exchange protocols 
+T O ANSWER … you should consider the existing systems, to be followed. 
+standards, and policies in your country. Are •	 INFORMATION	ARCHITECTURE: 
+✓ What is an enterprise there any other systems the new system will the data and application standards  architecture and why need to link with? What kind of equipment 
+does it matter? to be followed, which include the  and technology is already in use and where? mandatory use of existing reference 
+✓ What are others doing? Does any authority mandate compliance with tables (for example, a list of medical 
+certain standards for data and communica- products) or a common service  
+✓ Should	we	build,	buy,	 tion? Are there any policies regarding data 
+or adopt a system? application (for example, a vital  security and privacy? If so, this will focus registration system that needs to be 
+✓ What is open-source your options. Ideally, any existing policies used by other applications). 
+software,	and	software	 and standards will be described in a national 
+as a service (SaaS)? •	 FUNCTIONAL	ARCHITECTURE: eHealth strategy document. In this case, you 
+Is open-source  the national vision, principles, and ✓ must be sure to align your choice of solution software always a  information policies, including those  
+better	alternative	than	 with these requirements. on privacy and data security. It can also 
+purchasing from a  include the repository of functional 
+vendor? The standards and policies to be followed 
+requirements for health applications.
+✓ How do I compare  can be conceptually represented in an  various options  enterprise architecture like the model in 
+objectively? Figure 4.1. In broad terms, the architecture 
+defines three areas. 
+P L A N N I N G  A N  I N F O R M A T I O N  S Y S T E M S  P R O J E C T  T O O L K I T P A G E  1 3
+STEP 4: F IND THE RIGHT SOLUTION
+Figure	4.1	Enterprise	architecture	model
+Annex	5	lists important governance and exists regarding challenges, lessons 
+design principles that robust information learned, or technical details. However, we 
+E N T E R P R I S E  A R C HI T E C T UR E systems should adhere to. have provided details of some resources 
+that are available in “Finding more 
+In the absence of a national eHealth strategy, information”on page 27.
+FUNCTIONAL Vision | Principles | Policy decision-makers are often unable to align 
+ARCHITECTURE Functional Requirements their system with the existing systems, Explore	different 
+standards, and policies in their country, and software models 
+INFORMATION ARCHITECTURE choose instead a health application to meet Before deciding on a specific software 
+Data their immediate and segmented needs. This solution, consider the advantages and 
+creates a situation that is difficult for the disadvantages of the different strategies 
+TECHNICAL Applications MOH to manage and sustain. that exist to acquire a software system: 
+ARCHITECTURE INFRASTRUCTURE ARCHITECTURE you can build a system from scratch or 
+Phones	+	Computers Find out what others choose something that already exists. 
+are doing  This can be a commercial application, 
+Networks	+	Communications Too often, the wheel is reinvented when it or a freely available system. Table 4.1 
+comes to developing software. Even if you provides an overview of the available  
+are convinced that you need a system that options. 
+is custom developed for your needs, it still 
+makes sense to look at what other people 
+are doing, in a different country or in a 
+different program in your country. This is 
+not always easy because there is no single 
+repository that contains many experiences 
+around information systems projects in public 
+health. Furthermore, information is most 
+often advocacy oriented, and biased toward 
+success stories. Not much documentation 
+P L A N N I N G  A N  I N F O R M A T I O N  S Y S T E M S  P R O J E C T  T O O L K I T P A G E  1 4
+STEP 4: F IND THE RIGHT SOLUTION
+Table	4.1	Benefits	and	risks	of	different	software	models
+M ODE L BE NE F I T S R I S K S
+Custom-developed	 Examples: •	 You have control over technology, functionality, and design. •	 Custom development tends to be difficult to manage within time 
+software Project Optimize demonstration •	 The development experience creates ownership and improves and budget. 
+Build a software system  projects in Albania, Guatemala, sustainability. •	 Control over design does not guarantee satisfaction with the end 
+from scratch. Senegal, and Vietnam. •	 It is possible to engage the local IT industry. product, as that depends on the capabilities of the technical team.
+•	 Long-term support depends on the continued availability of 
+individuals. 
+Commercial	off- Examples: •	 The lead time from selection to implementation is normally shorter. •	 Often expensive and sold with unclear and complex fee structures, 
+the-shelf software  Sage Enterprise Resource Planning, •	 You can evaluate it before buying. for example, a fee-per-server processor.
+Buy a commercially  which is in use in many countries •	 The product is maintained and upgraded (at a cost). •	 Commercial off-the-shelf software is not often designed for 
+available product. in Francophone Africa for essential •	 It has normally been tested and refined in other implementations. implementation in low-resource settings.
+medicines.
+Free packaged  Examples: •	 Shorter lead time. •	 There is often no contract, so service and warranty for bug-fixing 
+software USAID/John Snow, Inc.: •	 Possibility to evaluate. depends on goodwill of one or two individuals and there is no 
+Software developed by a donor •	 PipeLine •	 No upfront cost (but maintaining or customizing it may institutional support.
+organization or technical agency. •	 Supply Chain Manager require investment). •	 Many implementation and running costs are hidden.
+Alternatively, a system developed 
+by a neighboring country. World Health Organization:
+•	 Vaccination Supplies Stock 
+Management tool
+•	 District Vaccine Data  
+Management tool
+Open-source  Examples: •	 You have the right to make changes to the software. •	 Can end up with a poorly supported product.
+software OpenLMIS.org •	 You can engage the local IT industry. •	 A loosely knit community might not be able to provide the business 
+The source code as well as the OpenMRS.org •	 Benefit from communities and share development costs with relationship you need.
+software product is freely available. DHIS2.org other organizations. •	 Some of the implementation and running costs are hidden.
+Often, a community has been OpenXData.org
+formed to support the open-source 
+software.
+Software as a  Examples: •	 Highly feasible to implement and maintain. •	 Data hosted on remote servers: not always in agreement 
+service (SaaS) Logistimo •	 Clarity about the cost to implement and run a SaaS application. with national policy.
+Database and application hosted Magpi •	 Investment in improved software can easily be shared among •	 Ministries of health are not often well positioned to pay a 
+on remote servers, and software is customers. regular service fee.
+sold (or offered freely) as a service 
+that can be contracted per user 
+and per month or year.
+P L A N N I N G  A N  I N F O R M A T I O N  S Y S T E M S  P R O J E C T  T O O L K I T P A G E  1 5
+STEP 4: F IND THE RIGHT SOLUTION
+Select a solution The acquisition or development cost is a 
+part of the TCO, but even more significant 
+The choice of a software system depends on two factors:
+are the scale-up and maintenance costs. In 
+this context, the user-friendliness and ease 
+The	match	between	the	proposed	solution	and	 of implementation of the system are crucial. 1 the requirements you have defined Sophisticated, full-featured systems may look 
+attractive, but implementing them may be 
+costly. In other words, do not buy a Ferrari if 
+2 you are going to drive it on dirt roads. See The	total	cost	of	ownership	(TCO)	of	the	system Step 6 for a more detailed discussion of the 
+impact of design on cost.
+T OOL BOX
+SELECTION	MATRIX
+An	example	selection	matrix	is	provided	at	the	end	of	this	
+toolkit.	This	can	help	you	to	select	the	best	option	from	your	
+list	of	possible	solutions.	Annex	4.	Selection	matrix
+GOVERNANCE	AND	DESIGN	PRINCIPLES
+A list of important governance and design principles that  
+robust	information	systems	should	adhere	to	is	provided	at	 
+the end of this toolkit.   
+Annex	5.	Governance	and	design	principles
+FIND OUT WHAT OTHERS ARE DOING
+The	USAID	|	DELIVER	PROJECT	conducted	a	supply	chain	 
+software	survey	in	2012	that	includes	information	on	54	 
+software applications used at different levels of the supply 
+chain in 30 countries.
+P L A N N I N G  A N  I N F O R M A T I O N  S Y S T E M S  P R O J E C T  T O O L K I T P A G E  1 6
+STEP 5: SELECT THE RIGHT VENDORS
+It is easy to be overwhelmed by vendors with more experience selling their service or 
+product than you have buying it. This step helps you to ask the right questions when 
+selecting a vendor. 
+Issue a request for proposal If you will select multiple vendors, it is  
+BY TA K ING T HIS  S T E P  In many cases, the MOH and technical assis- important to be clear on how they will  
+YOU SHOUL D BE  A BL E  tants do not have all the required skills to work together. A good practice is to ask  
+T O A N S W E R … implement an information system success- one vendor to take the overall lead and 
+fully. You will therefore need to engage responsibility, and subcontract with other 
+How can I select the with one or more vendors of specialized ICT 
+vendors. 
+✓
+right vendors and  services or equipment. An important first At a minimum, the RFP should state that 
+consultants? step in doing this is to issue a request for proposals must include:
+How do I ensure that  proposal (RFP). An RFP is a document that 
+•	 A description of the proposed solution.
+✓
+a contract for an  is distributed to potential vendors request- •	 A description of how the solution will 
+information system ing them to provide details of the product or be implemented in your context.
+clearly	specifies	how	 services they intend to provide. To assist the •	 An implementation work plan with 
+the system should vendor in submitting an RFP, you will need timeline, methodology, roles, and perform?
+to provide detailed information on what you responsibilities.
+✓ How will I ensure  expect the vendor to deliver. The functional •	 The technical and organizational 
+that short-term  
+and nonfunctional requirements from capabilities of the vendor, highlighting technical consultants 
+will provide my team  Step 3 are good elements to include in an past projects that are most relevant  
+with the knowledge RFP, as they clearly communicate what you for this work.
+and skills I need to expect from a system. The RFP should also •	 The cost and level of effort, including 
+sustain my information 
+system? explain how you will evaluate proposals.
+the effort required from MOH staff.
+P L A N N I N G  A N  I N F O R M A T I O N  S Y S T E M S  P R O J E C T  T O O L K I T P A G E  1 7
+STEP 5: SELECT THE RIGHT VENDORS
+Evaluate the merit Evaluate the cost Make a contract or  deliverables and stipulates milestones (the 
+of each proposal of each proposal memorandum of  dates when key outcomes and deadlines  
+A core team should screen proposals before and select a vendor understanding will be met). Failing to meet these milestones 
+a procurement committee evaluates them  Next, evaluate the cost of the shortlisted Finally, award a contract to the winning may lead to deferred or reduced payment. 
+in depth. Having broad expertise on a  proposals. This is a difficult matter because vendor. If you will not have a commercial The contract should also deal with licens-
+procurement committee can help to ensure you should consider not just the contracting relationship with the selected technical ing (who will own the system, including the 
+that key aspects of a proposal are not costs for this vendor, but also any implication partner (for example, because it is a non- software code?) and service after the project 
+missed. This expertise should include  on the overall lifecycle costs of the system. governmental organization or university that (until when will the company be required  
+subject matter experts in the system domain It may be justified to select a proposal or receives funding from a different source), to fix bugs with no extra payment?). 
+(for example, immunization systems, logistics, system with a higher upfront cost if the you still need to formalize your collaboration 
+and laboratory systems, among others), maintenance costs are expected to be lower, in a memorandum of understanding. 
+system architecture, business analysis,  if the solution is technically superior, or if  The contract or memorandum of understand-
+project management, software development, the delivery date is more favorable. ing may refer to the RFP or contain its main 
+procurement, and senior management. elements. It clearly describes the expected 
+The procurement committee is responsible for 
+evaluating proposals based on the evaluation 
+criteria outlined in the RFP. The committee 
+shortlists two or three proposals, and after 
+demonstrations, in-person interviews, and 
+vendor presentations, a winner is selected. T OOL BOX
+The goal of in-person interviews is to clarify 
+any doubts and to assess whether a good PROPOSAL	SELECTION	MATRIX 
+This	matrix	will	help	you	evaluate	multiple	received	 
+rapport exists between the individuals that proposals in a systematic and standardized way.  
+will be working on the project. An	example	matrix	is	provided	at	the	end	of	this	toolkit.	 
+Annex	6.	Proposal	scoring	matrix
+VENDOR	QUESTIONS 
+It is not always easy to ask the right questions from  
+technical vendors. A list of suggested questions is provided  
+at the end of this toolkit. Annex	7.	Vendor	questions
+P L A N N I N G  A N  I N F O R M A T I O N  S Y S T E M S  P R O J E C T  T O O L K I T P A G E  1 8
+STEP 6: ESTIMATE IMPLEMENTATION &  OPERATING COSTS
+Most people underestimate the costs related to information systems projects, and often focus only  
+on the costs related to initial development and piloting. Understanding the TCO is important  
+to understand the funding needs and the long-term impact on the program budget. 
+Calculate	the	total	 Figure 6.1 below shows a hypothetical 
+BY TA K IN G T HI S  S T E P  cost of ownership but representative cost profile that clearly 
+YOU S HOUL D BE  A BL E  The TCO includes not just the initial highlights that the largest costs will not be 
+T O  A N S W E R … investment, but also the costs to scale and incurred in the development phase, but in  
+sustain the system over three to five years the consecutive scale and sustain phases of 
+after implementation. Looking at the TCO the system’s lifecycle. 
+✓ How much will this helps to drive greater investments in certain 
+information system cost 
+to	develop,	scale,	and	 aspects of the system. For example, an initial 
+sustain? investment in improved usability may reduce 
+long-term training and support costs. 
+✓ What are the individual 
+major cost categories 
+and	the	variables	that	 Figure	6.1	Cost	profile	for	a	typical	information	system
+drive these costs?
+✓ Develop Deploy RunHow	do	I	budget	 
+for information  $300K
+system support  
+and maintenance? $250K
+$200K
+$150K
+$100K
+$50K
+$0
+2010 2011 2012 2013 2014 2015 2016 2017 2018
+P IL O T S C A L E S U S TA IN
+P L A N N I N G  A N  I N F O R M A T I O N  S Y S T E M S  P R O J E C T  T O O L K I T P A G E  1 9
+STEP 6: ESTIMATE IMPLEMENTATION + OPERATING COSTS
+Understand the cost drivers During different phases of the project, from The cost to maintain the system should 
+The World Health Organization and Interna- development to deployment and operational provide an ongoing benefit that outweighs 
+tional Telecommunication Union estimate support, the spending on various cost this cost. When seeking to manage the cost 
+that eHealth projects typically allocate 60 categories changes: of operations, the organization should review 
+to 70 percent of the budget to human •	 PILOT: ways to reduce the cost of:
+resources (with an emphasis on training). The functional, technical, and  •	 Data and communication plans.
+Approximately 10 to 15 percent is spent organizational complexity of the  •	 Software and hardware maintenance 
+on additional equipment, another 10 to 15 project drives costs. Costs do not  fees.
+percent is spent on supporting ongoing vary significantly for a large or a  •	 Hardware replacement.
+operations, and the remaining amount is small country. •	 Ongoing training needed due to staff 
+spent on other aspects of the project. Based turnover and refresher training.
+•	 SCALE:	 
+on the scale of the system and the existing 
+The number of future users and the 
+ICT infrastructure, the percentages may vary.
+cost per user to deploy it are the most 
+important variables. The cost per user 
+depends on the way in which users will 
+access the system (for example, desktop 
+computer, mobile phone, paper) and 
+their training needs. 
+T OOL BOX
+•	 SUSTAIN: 
+Apart from the number of users,  
+the selected technology is critical  DETAILED	COST	DRIVERSA more detailed discussion of cost drivers is provided  
+here. For example, any solution that at the end of this toolkit.  
+requires local software installation and Annex	8.	What	drives	costs	in	all	phases	 
+maintenance will be more expensive of the project lifecycle? 
+than a centralized system, such as a BUDGET MATRIX
+web-based or cloud system. A	budget	matrix	can	be	used	to	summarize	the	main	spending	
+buckets	and	allocation	across	categories.	An	example	budget	
+matrix	is	provided	at	the	end	of	this	toolkit.
+Annex	9.	Total	cost	of	ownership	budget	matrix
+P L A N N I N G  A N  I N F O R M A T I O N  S Y S T E M S  P R O J E C T  T O O L K I T P A G E  2 0
+STEP 7: CREATE AN IMPLEMENTATION PL AN
+Just as costs are often underestimated, so is the time it takes to implement a successful 
+information system. This sometimes leads to hurried analysis phases, unclear requirement and 
+scope definitions, and skipping necessary quality controls. In the end, this results in even longer 
+timelines. Having a plan and following a project methodology is the key to ensuring success. 
+This step highlights some attention points. 
+Define a work plan Track milestones
+BY TA K ING T HIS  S T E P  The key tasks in the implementation plan The project manager will divide the project 
+YOU SHOUL D BE  A BL E  vary by the kind of project and by project phases into discrete milestones to show and 
+T O A N S W E R … phase. Annex	10 provides a list of activities report progress. The project management 
+that may be a good starting point to  team should monitor the timeline, budget, 
+assemble your own work plan. Work plans and quality, as well as manage risks. 
+✓ What are the key tasks are often finalized in collaboration with 
+necessary for successful 
+deployment? selected contractors or technical partners. 
+✓ How	do	I	break	the	
+project into discrete 
+milestones so that we 
+demonstrate value  
+and progress to all 
+stakeholders?
+✓ What are the main  
+quality control points?
+✓ How do I monitor 
+whether the project is 
+meeting	its	objectives?
+✓ What role should  
+I play during the  
+implementation?
+P L A N N I N G  A N  I N F O R M A T I O N  S Y S T E M S  P R O J E C T  T O O L K I T P A G E  2 1
+STEP 7: CREATE AN IMPLEMENTATION PL AN
+The project manager handles much of the •	 Hold team members accountable  
+responsibility for tactical details. However, for their roles and responsibilities,  User acceptance test
+senior leaders need to remain involved ensuring that the various departments A functional user acceptance test in which key users test whether the  
+in the following ways: and components of the health  1 system lives up to their requirements. At a first stage, this takes place in a controlled central setting, with test data. (Sometimes this is referred to as  
+•	 Participate in regularly scheduled  system support project activities in a “conference room pilot.”)
+meetings to review project status. good faith and adhere to work plans 
+•	 Coordinate partners and facilitate  and schedules as determined in their Pilot test
+collaboration at all levels of the  individual work plans.
+2 A pilot test in a real-life setting in which a limited number of real users  health system. •	 Assess team performance and ensure work with the system, entering real data and following their normal process 
+•	 Provide oversight for issues that cannot that the organization takes ownership as much as possible.
+be resolved by members of the project of operations.
+team, maintaining the focus on the Volume (stress) test
+project goals and scope. Typically, developers will work in short  3 A volume or stress test, in which a large number of users enter a large  
+iterations to develop a software system  number of transactions to ensure the system is fit for a larger scale.
+and organize informal tests as they do so. 
+However, it is a good idea to organize at 
+least three formal signoff points:
+TOOLBOX
+WORK PLAN
+An	example	work	plan	 
+is provided at the end  
+of this toolkit.  
+Annex	10.	Work	plan
+P L A N N I N G  A N  I N F O R M A T I O N  S Y S T E M S  P R O J E C T  T O O L K I T P A G E  2 2
+STEP 8: UNDERSTAND AND MANAGE PROJECT RISKS
+Following the seven steps described previously should lower project risk by aligning requirements to 
+organizational objectives, understanding costs, planning appropriately, and choosing the right vendors 
+and partners. However, despite the planning that takes place, a significant number of projects have a 
+different outcome than expected.
+BY TA K IN G T HI S  S T E P  C OMM ON R I S K  FA C T OR S
+YOU S HOUL D BE  A BL E  A risk factor is a situation that may give rise to one or more of the following project risks:
+T O  A N S W E R … Lack of governance
+Projects that do not have active participation or adequate representation by senior 
+✓ What are some  leadership often struggle. In fact, many cite lack of leadership buy-in as the most  
+critical factors for  
+project failure? important factor for project success.
+✓ How can project risk  Poor management
+be	managed? The management team lacks the technical capacity or the organizational authority
+to provide the project the stability it needs.
+In addition, low adoption by the intended Development risk
+users often prevents the system from Relates to changing user requirements and a misunderstanding of the technology 
+achieving the intended results. Perhaps most that is being used.
+concerning are projects that continue to 
+invest resources and political capital despite Deployment risk
+evidence showing they have a limited chance Stems from a failure to manage the changes that will affect the organization because 
+of success. What are the common risks for of the new information system. 
+failure in a project and how can they be 
+managed? Operational risk
+Arises when the organization is not ready to support newly introduced technologies 
+over the longer term. 
+P L A N N I N G  A N  I N F O R M A T I O N  S Y S T E M S  P R O J E C T  T O O L K I T P A G E  2 3
+STEP 8: UNDERSTAND AND MANAGE PROJECT RISKS
+Managing risk A checklist including the most common 
+To manage your project effectively, you need  F OUR  WAYS T O  M A N A GE  R I S K risk factors in the implementation of health 
+to be able to understand and manage risk. information systems is shown in Table 8.1 
+Avoid risk
+Understanding risk is the first and most 1 below. An extra column is provided for The team develops or selects the right solution, based on program needs and priorities. important step in this process. Without doing The system is then tested in a small-scale pilot to measure outcomes, impacts, and costs, project managers to enter possible strategies 
+so, you will not be able to minimize or even and to identify potential improvements. to mitigate the risk.
+eliminate its impact on your project. Once Transfer risk
+you have understood the nature of a risk, 2 The system is deployed to its intended reach, for example, in all districts in the country, there are four ways to manage it. going from 50 to 2,000 users. 
+Mitigate risk
+3 To provide continued value, the system needs to be maintained and sustained. After  five to ten years, it may need to be improved or even replaced, starting again with  
+the first phase.
+Accept risk
+4 Sometimes nothing can be done to prevent the risk; instead, the risk consequences should be part of the plan.
+P L A N N I N G  A N  I N F O R M A T I O N  S Y S T E M S  P R O J E C T  T O O L K I T P A G E  2 4
+STEP 8: UNDERSTAND AND MANAGE PROJECT RISKS
+Table	8.1	Risk	management	checklist
+RISK  FACTOR IS  IT  A  R ISK? MIT IGATION STRATEGY
+Governance
+Lack of a project champion/support from upper management YES  ❍ NO ❍
+Misalignment of partners’ objectives and stakes YES  ❍ NO ❍
+Political games/conflicts YES  ❍ NO ❍
+Unreliable external partners YES  ❍ NO ❍
+Organizational instability YES  ❍ NO ❍
+Management
+Changes to membership on the project team YES  ❍ NO ❍
+Lack of project leadership YES  ❍ NO ❍
+Lack of required management knowledge or skills YES  ❍ NO ❍
+Lack of clear role definitions YES  ❍ NO ❍
+Large and complex project YES  ❍ NO ❍
+Increased scope of project YES  ❍ NO ❍
+Changes to requirements YES  ❍ NO ❍
+Insufficient resources YES  ❍ NO ❍
+Development
+Introduction of a new technology YES  ❍ NO ❍
+Unreliable technical infrastructure or network YES  ❍ NO ❍
+Complex software solution YES  ❍ NO ❍
+P L A N N I N G  A N  I N F O R M A T I O N  S Y S T E M S  P R O J E C T  T O O L K I T P A G E  2 5
+STEP 8: UNDERSTAND AND MANAGE PROJECT RISKS
+RISK  FACTOR (CONTINUED) IS  IT  A  R ISK? MIT IGATION STRATEGY  (CONTINUED)
+Development (cont)
+Complex/incompatible hardware YES  ❍ NO ❍
+Poor software performance YES  ❍ NO ❍
+Poor perceived system ease of use YES  ❍ NO ❍
+Poor perceived system usefulness YES  ❍ NO ❍
+Misalignment with local practices and processes YES  ❍ NO ❍
+Deployment
+Unrealistic user expectations YES  ❍ NO ❍
+Overall resistance to change YES  ❍ NO ❍
+Lack of cooperation/commitment from users YES  ❍ NO ❍
+Lack of computer skills and knowledge among users YES  ❍ NO ❍
+Prior negative experiences with information and communications  
+technology projects YES  ❍ NO ❍
+Operations
+Lack of local personnel knowledgeable in information and  
+communications technology YES  ❍ NO ❍
+Lack of predictable long-term funding YES  ❍ NO ❍
+P L A N N I N G  A N  I N F O R M A T I O N  S Y S T E M S  P R O J E C T  T O O L K I T P A G E  2 6
+FINDING MORE INFORMATION
+Public health managers planning the implementation of health information systems may  
+find the following resources helpful.
+GUIDE S  T O  P L A NNIN G HE A LT H ONL INE  
+INF OR M AT ION S YS T E M S R E S OURCE S
+National eHealth  TechNet-21.org
+Strategy Toolkit TechNet-21.org is a technical network for strengthening immunization services. This is a 
+Created by the World Health Organization community-based forum and sharing network, moderated by the World Health Organization, 
+and International Telecommunication  and mostly used by logisticians at global, regional, and country levels. It contains an  
+Union, this toolkit is an expert guide for increasing number of posts about information systems in immunization programs.
+the development and implementation of a  www.technet-21.org
+national electronic health (eHealth) vision, 
+action plan, and monitoring framework. OpenLMIS.org 
+ www.who.int/ehealth OpenLMIS.org is a collaboration of domain experts in logistics and supply chains, eHealth 
+information systems, software development for low-resource settings, and process  
+Computerizing	logistics	 improvement. Like other open initiatives, the intention is to ensure that OpenLMIS becomes  
+management a place for sharing information about logistics management information systems (LMIS)  
+information systems planning, requirements, and system design; promoting interoperability between systems;  
+Created by the USAID: DELIVER PROJECT, and developing open-source solutions for effective, scalable, and sustainable results.
+this excellent resource includes detail   www.openlmis.org
+around development and implementation, 
+including some of the concepts contained  HINGX.org 
+in this toolkit. HINGX.org (Health Ingenuity Exchange) is a community-driven platform that brings together 
+ http://deliver.jsi.com/dlvr_content/ reusable tools, guidelines, and personal experience in health information systems. It facilitates 
+resources/allpubs/guidelines/ the productive exchange of such material in a way that propels the development of health 
+GuidImplCLMIS.pdf information technology. It is aimed primarily at eHealth and information and communications 
+technology professionals.
+ www.hingx.org
+AANNNNEEXX
+ANNEX 1. PROJECT CHARTER An example project charter is provided below. This should be  completed by the project management team to summarize what the project will accomplish and where and when they will implement it.
+Vision/objectives
+A concise description of what outcomes are 
+expected from the system. Describe how the  
+organization will benefit at the end of  
+the project.
+Background
+Current situation that requires a system change; 
+inventory of existing tools and systems; context 
+diagram that visually represents the project 
+participants, problems, and opportunities.
+Functional scope
+A brief description of the main functional blocks 
+or modules that will be included. 
+Programs	to	be	included
+Which of the Ministry of Health departments 
+and programs will eventually use this system? 
+Will it include only a subset at first, and then be 
+expanded?
+Geographic scope
+Where will the system be implemented over 
+time? Where will it be piloted? Who will be 
+using it? District people or also at the health 
+center level?  
+Participants
+List of individuals whose input has been  
+gathered as part of the scope definition.
+Timing
+By when do you expect the system to be  
+operational at the pilot level? And at scale?
+P L A N N I N G  A N  I N F O R M A T I O N  S Y S T E M S  P R O J E C T  T O O L K I T P A G E  2 8
+ANNEX 2. PROJECT ROLES AND RESPONSIBILITIES MATRIX
+An example roles and responsibilities matrix is provided below.
+R O L E R E S P O N S I B L E  I N D I V I D U A L
+G O V E R N A N C E  T E A M
+Senior ministry sponsor: Holds overall accountability for the project. Represents the organization  
+that is the major recipient of the system benefits.
+Representatives of relevant Ministry of Health departments: May include planning, finance,  
+and the programs that are involved in the implementation.
+Representatives of donors and technical agencies: Provide guidance, and technical and  
+financial support.
+M A N A G E M E N T  T E A M
+Project manager: Takes on the responsibility for day-to-day direction of the project, communicates 
+with the governance team, and ensures the system is deployed on time and on budget. This role is ideally 
+filled by an influential and skilled person within the Ministry of Health, but can be supported by technical 
+partners. This is the first step toward a successful project. The project manager should possess excellent 
+managerial, technical, and negotiation skills.
+Procurement: Ensures that implementation partners are following organizational guidelines for contract-
+ing and licensing.
+Research,	monitoring,	and	evaluation: Individual or team responsible for providing management with 
+the measurement framework and documenting indicators.
+Enterprise architect: Assists with the information technology system architecture and supports the 
+organization’s health strategy.
+D E V E L O P M E N T  T E A M 
+Business analyst: Models current operations and documents requirements described by the users of 
+the system for the identified health system domain. Identifies areas where improvements in workflow are 
+warranted. Serves as a facilitator who is skilled in methods to reach rough consensus on key decisions and 
+move forward in an efficient manner. This is a key role.
+System	analysts,	software	engineers,	and	test	specialists: Transform business and information 
+requirements into specifications for information systems. Implement specifications using the technologies 
+chosen to support the organization. Validate that the system meets functional and nonfunctional  
+requirements at the proper scale.
+Content,	standards,	and	localization: Create and localize technical documentation, operations  
+manuals, and user manuals.
+D E P L O Y M E N T  T E A M 
+Hardware,	telecommunication,	and	networking	services: Provide services to procure, deploy, and 
+configure components that are necessary in the field. Provide consumable supplies, such as paper and ink 
+cartridges for printers.
+Training: Train end users and administrators of the system.
+O P E R A T I O N S  T E A M 
+Data center/hosting: Installs, configures, maintains, and monitors the system within the data center.  
+Applies ongoing security patches and manages data backup and restoration activities.
+System administration: Oversees overall configuration of the health information system. Monitors 
+system use and serves as the secondary level of support escalation from call center operations.
+Help desk/support: Provides different methods of support via email, voice, and in person.
+P L A N N I N G  A N  I N F O R M A T I O N  S Y S T E M S  P R O J E C T  T O O L K I T P A G E  2 9
+ANNEX 3. NONFUNCTIONAL REQUIREMENTS CHECKLIST
+Use the following checklist as a basis for creating country-specific nonfunctional requirements, as well as for evaluating other systems.
+S Y S T E M  N A M E E V A L U A T E D  O N
+O R G A N I Z A T I O N S U B M I T T E D  B Y
+C A T E G O R Y :  P E R F O R M A N C E
+F U L L Y P A R T . 
+I D R E Q U I R E M E N T M E E T S M E E T S P L A N N E D N / A
+1 . 1 Make efficient use of data communication time. ❒ ❒ ❒ ❒
+1 . 2 Make efficient use of capabilities of lower-cost mobile devices. ❒ ❒ ❒ ❒
+1 . 3 Support data capacity considerations (include those for data transmission, storage, and processing)  
+for all users over the expected lifetime of the system. ❒ ❒ ❒ ❒
+1 . 4 Use a database that can scale to support projected transaction volume. ❒ ❒ ❒ ❒
+1 . 5 Provide real-time response to transactions submitted by connected devices up to the configured 
+national volume level. ❒ ❒ ❒ ❒
+C A T E G O R Y :  C O M P A T I B I L I T Y
+F U L L Y P A R T . 
+I D R E Q U I R E M E N T M E E T S M E E T S P L A N N E D N / A
+2 . 1 Use open standards to promote interoperability. ❒ ❒ ❒ ❒
+2 . 2 Exchange actionable data between systems (need to enforce semantic interoperability). ❒ ❒ ❒ ❒
+2 . 3 Provide access from Internet-enabled devices. ❒ ❒ ❒ ❒
+2 . 4 Support flexible models for data collection (e.g., including paper forms, web forms, short message 
+service [SMS] text messages), barcode, etc.). ❒ ❒ ❒ ❒
+2 . 5 Comply with industry standards for data exchange. ❒ ❒ ❒ ❒
+2 . 6 Interface to open-source or third-party reporting tools. ❒ ❒ ❒ ❒
+2 . 7 Comply with industry standards for track and trace of supplies. ❒ ❒ ❒ ❒
+C A T E G O R Y :  U S A B I L I T Y
+F U L L Y P A R T . 
+I D R E Q U I R E M E N T M E E T S M E E T S P L A N N E D N / A
+3 . 1 Allow for flexible configurations based on the context of use, including the physical and social  
+environment. ❒ ❒ ❒ ❒
+3 . 2 Transmit information in a language (script or voice) that is understood by the user population. ❒ ❒ ❒ ❒
+3 . 3 Emphasize ease of use and learnability to reduce training costs. ❒ ❒ ❒ ❒
+3 . 4 Be able to be learned by end users and supervisors to meet specified goals of system effectiveness  
+and efficiency. ❒ ❒ ❒ ❒
+3 . 5 Enable easy data collection, organization, and dissemination. ❒ ❒ ❒ ❒
+3 . 6 Focus on the mobile user experience with secondary use of a computer. ❒ ❒ ❒ ❒
+3 . 7 Allow users to find features in two clicks or less. ❒ ❒ ❒ ❒
+3 . 8 Enable pleasing and satisfying interaction for the user. ❒ ❒ ❒ ❒
+3 . 9 Provide a search interface to reduce data entry burden and improve accuracy on mobile devices. ❒ ❒ ❒ ❒
+3 . 1 0 Support real-time data entry validation and feedback to prevent data entry errors from being recorded. ❒ ❒ ❒ ❒
+3 . 1 1 Support ability to calculate values on behalf of user (eliminating need to add, subtract, multiply, or 
+divide). ❒ ❒ ❒ ❒
+P L A N N I N G  A N  I N F O R M A T I O N  S Y S T E M S  P R O J E C T  T O O L K I T P A G E  3 0
+ANNEX 3. NONFUNCTIONAL REQUIREMENTS CHECKLIST (CONTINUED)
+C A T E G O R Y :  R E L I A B I L I T Y
+F U L L Y P A R T . 
+I D R E Q U I R E M E N T M E E T S M E E T S P L A N N E D N / A
+4 . 1 Enable a task to be canceled and rolled back to previous state. ❒ ❒ ❒ ❒
+4 . 2 Enable users to work offline and then synchronize data when data connection is available. ❒ ❒ ❒ ❒
+4 . 3 Allow a task to be interrupted and resumed. ❒ ❒ ❒ ❒
+4 . 4 Enable earlier versions of a record to be recoverable. ❒ ❒ ❒ ❒
+4 . 5 Enable backup of data so that information is recoverable in the event of a system or hardware failure. ❒ ❒ ❒ ❒
+4 . 6 Accommodate loss of connectivity to hosted application (network may become unavailable while a 
+user is in the process of submitting a form). ❒ ❒ ❒ ❒
+4 . 7 Be able to reliably perform tasks within appropriate time with resistance to failures or deadlocks. ❒ ❒ ❒ ❒
+4 . 8 Be deployable in an environment subject to power loss. ❒ ❒ ❒ ❒
+4 . 9 Allow for client devices with low bandwidth or irregular connectivity. ❒ ❒ ❒ ❒
+C A T E G O R Y :  S E C U R I T Y
+F U L L Y P A R T . 
+I D R E Q U I R E M E N T M E E T S M E E T S P L A N N E D N / A
+5 . 1 Prevent unauthorized access to patients’ protected health information. ❒ ❒ ❒ ❒
+5 . 2 Prevent updates to the database occurring only partially (atomicity), which can cause greater problems ❒ ❒ ❒ ❒
+than rejecting an entire submission of a form.
+5 . 3 Trace and record changes to data taken by the system and by users (update/delete/add). ❒ ❒ ❒ ❒
+5 . 4 Allow the administrator to establish access privileges and priorities. ❒ ❒ ❒ ❒
+5 . 5 Support definitions of unlimited roles and assigned levels of access, viewing, entry, editing, and  ❒ ❒ ❒ ❒
+auditing.
+5 . 6 Require each user to authenticate by role before gaining access to the system. ❒ ❒ ❒ ❒
+5 . 7 Provide flexible password control to align to national policy and standard operating procedures. ❒ ❒ ❒ ❒
+C A T E G O R Y :  M A I N T A I N A B I L I T Y
+F U L L Y P A R T . 
+I D R E Q U I R E M E N T M E E T S M E E T S P L A N N E D N / A
+6 . 1 Be built using technologies that enable local control, open competition, and transparency of the code. ❒ ❒ ❒ ❒
+6 . 2 Have adequate support resources to ensure scalability and sustainability. ❒ ❒ ❒ ❒
+6 . 3 Promote easier acquisition by supporting a range of devices and form factors. ❒ ❒ ❒ ❒
+6 . 4 Able to access the system at all levels/stores. ❒ ❒ ❒ ❒
+6 . 5 Enable local control of operations. ❒ ❒ ❒ ❒
+6 . 6 Be well documented, including known issues. ❒ ❒ ❒ ❒
+6 . 7 Support repair or upgrade of a component in a running system. ❒ ❒ ❒ ❒
+6 . 8 Provide a unique version number for all future updates and releases. ❒ ❒ ❒ ❒
+6 . 9 Enable the system to detect incompatible versions of software running on different components. ❒ ❒ ❒ ❒
+6 . 1 0 Enable configuration to any national or subnational administrative structure or number of levels. ❒ ❒ ❒ ❒
+6 . 1 1 Have a support process that tracks and documents bugs from discovery to resolution. ❒ ❒ ❒ ❒
+6 . 1 2 Enable access to the central system from all levels of the health system. ❒ ❒ ❒ ❒
+6 . 1 3 Support changes to organizational alignment of facilities and personnel. ❒ ❒ ❒ ❒
+6 . 1 4 Include an administrable content management system. ❒ ❒ ❒ ❒
+C A T E G O R Y :  P O R T A B I L I T Y
+F U L L Y P A R T . 
+I D R E Q U I R E M E N T M E E T S M E E T S P L A N N E D N / A
+7 . 1 Be able to provide continuity and access to data throughout changes in infrastructure  
+(e.g., telecommunication, power) at the health post level. ❒ ❒ ❒ ❒
+7 . 2 Support extensibility and/or the ability to accept new services or functionality. ❒ ❒ ❒ ❒
+P L A N N I N G  A N  I N F O R M A T I O N  S Y S T E M S  P R O J E C T  T O O L K I T P A G E  3 1
+ANNEX 4. SELECTION MATRIX
+ P O I N T S 
+D E S C R I P T I O N A V A I L A B L E S Y S T E M  1 S Y S T E M  2 S Y S T E M  3 S Y S T E M  4 S Y S T E M  5
+Requirements 
+How well does the system meet the user needs?
+Scalability  
+Has the system been tested or implemented at the scale necessary?
+Sustainability  
+Can the system be easily maintained and adapted as organizational 
+needs change? 
+User fit  
+Does the system fit well within the existing culture, language, and 
+user processes? 
+Costs  
+Are the costs of implementation and operations within funding 
+constraints?
+Timeline  
+Can the system be implemented within the expected time frame?
+Licensing and contracting  
+How well does the system fit the procurement guidelines for  
+intellectual property and use of local resources?
+S C O R E
+P L A N N I N G  A N  I N F O R M A T I O N  S Y S T E M S  P R O J E C T  T O O L K I T P A G E  3 2
+ANNEX 5. GOVERNANCE AND DESIGN PRINCIPLES
+P R I N C I P L E D E S C R I P T I O N
+Business continuity Organization operations are maintained in spite of system interruptions. 
+Common	use	applications Development of applications used across the organization is preferred over the development of similar  or duplicative applications that are only provided to a particular department or unit of the organization.
+Common	vocabulary	and	 Data are defined consistently throughout the organization, and the definitions are understandable  
+data definitions and available to all users.
+Control	technical	diversity Technological diversity is controlled to minimize the nontrivial cost of maintaining expertise in and  connectivity between multiple processing environments.
+Data	are	accessible Data are accessible for users to perform their functions.
+Data are an asset Data are an asset that has value to the organization and is managed accordingly.
+Data are shared Users have access to the data necessary to perform their duties; therefore, data are shared across all functions, departments, and units of the organization.
+Data quality A health information system must have clear rules and methods for handling missing or erroneous data and indicators. Correction algorithms should be developed.
+Data security Data are protected from unauthorized use and disclosure.
+Ease of use Applications are easy to use. The underlying technology is transparent to users, so they can concentrate on tasks at hand.
+A health information system must be flexible in order to adapt itself to changes of all kinds, such as 
+Flexible	and	adaptable evolving sociologic and economic conditions, changes in the epidemiological situation and the state of health of the population, scientific progress in public health and medicine, and changes in information 
+technology.
+Focus on logic of the system  Analyze and make apparent the logical structure of the health information system first, and then think 
+about computerization. All software within the system, including that for hospital information systems, 
+before	solutions needs to be developed and applied in a coherent and coordinated fashion.
+Make	the	system	visible	and	 
+A health information system needs to have a logical and transparent structure.
+easy to understand
+Primacy of principles These principles of health information systems apply to all parts of the organization.
+A health institution sends a report on paper only to the higher-level institution that needs it most or most 
+Reduce	burden	on	data	collectors urgently. It is then up to the latter to distribute it horizontally to those who require it. A higher-level office 
+never requires “summary” reports from the lower level.
+Requirements-based	change Only in response to business needs are changes made to applications and technology.
+Responsive change management Changes to the organization’s information environment are implemented in a timely manner. 
+Simplify registers In a given health institution, there should be only one register for each target population.
+Simplify	user	experience Coordinate registers and reporting forms by their layout and by a clear designation of corresponding  variables. Calculate indicators as much as possible as part of the daily work routine.
+Technology independence Applications are independent of specific technology choices and therefore can operate on a variety of technology platforms.
+Use	routine	data	whenever	possible Explore all possibilities of exploiting a health information system for conducting, or facilitating, research studies. Treat sample surveys and related studies as components of a general health information system.
+P L A N N I N G  A N  I N F O R M A T I O N  S Y S T E M S  P R O J E C T  T O O L K I T P A G E  3 3
+ANNEX 6. PROPOSAL SCORING MATRIX FOR  
+THE SELECTION OF A SOF T WARE DEVELOPER
+C O M P A N I E S
+M A X 
+S C O R E 1 2 3 4 5
+P R O P O S E D  S O L U T I O N
+The proposal successfully communicates a good understanding of the project goals. 1 5
+The proposal communicates an understanding of the project structure and localities. 1 5
+The proposed technical solution seems feasible. 2 5
+The proposed technical solution is complete, addressing all the requirements outlined in the 2 5
+request for proposal.
+The proposal presents a logical system of when and where different modes of communica- 1 0
+tion technology will be used (e.g., general packet radio service versus short message service 
+[text messages] versus wired Internet).
+The company proactively identified technical or functional challenges and proposed solutions. 1 0
+TOTALS 1 0 0
+P R O P O S E D  M E T H O D O L O G Y ,  W O R K  P L A N ,  T I M E L I N E
+The proposed work plan fits roughly within the timeline. 2 0
+The proposed work plan includes ample time for project requirements definition and design.  1 0
+The proposed methodology reflects an approach of high communication with the business  2 0
+owner and users.
+The proposed work plan includes time for testing/feedback/iterative development.  1 0
+The proposal includes all of the key deliverables listed as required in the request for proposal. 1 0
+The vendor proactively identified issues and risks to the proposed work plan/timeline and  2 0
+offered solutions to mitigate them.
+The proposal reflects the requirements stated in the request for proposal related to warranty, 1 0
+pilot support, and maintenance contracts.
+TOTALS 1 0 0
+O R G A N I Z A T I O N A L  C A P A B I L I T I E S
+Programming and computing capabilities with required architecture, languages, and tools is 2 0
+evident (Python, .NET, C/C#, Java, SQL).
+The proposal refers to previous work that is relevant to our project methods and goals. 1 5
+Sufficient staff are proposed who have appropriate skills and experience. 2 0
+The proposal contains guarantees for documentation, maintenance, warranty, and ownership 1 5
+transfer.
+The quality of the written proposal indicates the company’s ability to document appropriately 2 0
+and communicate in the language of interest.
+The proposal provides some evidence that the company has experience working with organi- 1 0
+zations similar to our own.
+TOTALS 1 0 0
+GRAND TOTALS 3 0 0
+P R O P O S E D  P R O J E C T  C O S T
+The proposed terms and conditions are reasonable and acceptable under contracting policies.
+O T H E R
+Level of effort—total work identified in each company’s proposal (in days).
+P L A N N I N G  A N  I N F O R M A T I O N  S Y S T E M S  P R O J E C T  T O O L K I T P A G E  3 4
+ANNEX 7. VENDOR QUESTIONS
+Q U E S T I O N R E A S O N I N G
+What is your largest implementation?  Determine if the vendor has experience or evidence that they are able to 
+How	many	users?	How	many	records	in	the	database? support the size of your desired implementation.
+If your users typically access the system and provide all of their reports on 
+How many users can use the system at the same time? Friday afternoons, you do not want the system to fail or have very poor 
+performance during those times.
+What components of the proposed platform are proprietary? To follow a principle such as technology independence, knowing the licens-
+What components use commercial off-the-shelf software? ing requirements early is important. For system maintenance, knowing the underlying technology and corresponding robustness of either the software 
+What components are open source? provider or the open-source community can be important.
+What service-level agreement for uptime do you guarantee What amount of time is tolerable for the system to be unavailable? A total of 
+each month? How many hours of maintenance is the  95 percent uptime translates to eight hours each week. Usually, the vendor 
+system	unavailable	each	month	and	when	are	those	 will apply security updates to the software on your behalf. Yet, you would 
+typically scheduled? not want this to occur during key periods of system use.
+If an integrated system is a key principle, knowing that the application has a 
+How would you integrate with our health information system? demonstrated architecture for data exchange is necessary. If the integration 
+Can	you	provide	examples	of	how	you	have	done	this	before? has never been done before, it may be considered an unsupported customi-
+zation that requires ongoing maintenance fees.
+Data security is critical for health information systems. Information such as 
+How do you safeguard the security and privacy of our data? patient records can be hard to replace and should not fall into the wrong 
+What	were	the	results	of	your	most	recent	external	audit? hands. Data can be lost due to disasters such as a flood or fire but also to 
+hackers or a malware infection.
+How	often	would	our	data	be	backed	up?	Can	you	provide	
+your	disaster	recovery	plans?	When	was	the	last	exercise	 If data are an asset, knowing that the vendor has processes to store and restore your system in the event of an emergency is important. 
+and what were the results?
+Early clarification of roles and responsibilities for deploying the software is 
+What training and support services do you provide?  needed to understand the overall costs. Training users is often a large part 
+of the deployment budget. Sometimes, the vendor will provide training for 
+What	hours	is	support	available? administrators and train your trainers. Do your normal hours of operation 
+coincide with the support hours provided?
+For ease of use, the system user interface should be in the language of your 
+What languages does your application support? users. If the language is not currently supported, ideally the vendor has 
+capabilities that allow you to localize the various terms.
+What is the annual maintenance and licensing fee?  Sometimes hidden fees obscure the true costs of the system. Maintenance 
+fees of upwards of 20 percent of the software license may be required when 
+How	much	is	this	expected	to	increase	annually? the contract is signed. 
+P L A N N I N G  A N  I N F O R M A T I O N  S Y S T E M S  P R O J E C T  T O O L K I T P A G E  3 5
+ANNEX 8. WHAT DRIVES COSTS IN ALL PHASES  
+OF THE PROJECT LIFECYCLE?
+C A T E G O R Y C O S T  D R I V E R S
+G O V E R N A N C E •	 Number of trips and meetings.
+M A N A G E M E N T •	 Head count, salary, and travel expenses.•	 Mix of local versus international technical assistance.
+D E V E L O P M E N T
+Software and interfaces: Configuring the environment, •	 Number of user requirements or stories to be developed.
+customizing modules, and developing interfaces to other parts of •	 Licensing costs per environment (production, test, training).
+the health system take time and money in addition to any fees •	 Licensing costs per user.
+incurred for software licensing. •	 Number of interfaces required and level of effort.
+Content,	standards,	and	localization: If the system is not al- •	 Number of additional languages not currently supported.
+ready available in the local language, some costs may be incurred 
+to modify documentation and the user interface.
+D E P L O Y M E N T
+Client	hardware: Includes components such as computers, •	 Number of users on desktop computers and mobile devices.
+printers, and scanners. If the system will be using mobile devices, •	 Cost and availability of data connectivity and power.
+there is a need to determine if existing hardware can be used, or 
+if new mobile devices will need to be purchased.
+Training: The cost of developing and delivering training to the •	 Number of users to be trained.
+staff in the appropriate language. Includes ongoing training •	 Days of training per user.
+for software updates and to address the needs of new users. •	 Days of refresher training per year. 
+Includes the per diems for training participants, transportation 
+costs of bringing individuals to the training events, and  
+facility fees.
+O P E R A T I O N S
+Data and communication services: Voice and data services •	 Internet connectivity.
+to support the data and communication flow. •	 Monthly mobile data plan.
+•	 Expected minutes and data use per user.
+•	 Number of text messages.
+Hardware maintenance and replacement: Desktop  •	 Number of hardware devices. 
+computers need to be upgraded and maintained; lost or stolen •	 Replacement rate.
+mobile devices will need to be replaced; etc. •	 Maintenance costs per device.
+Server management and hosting: The cost of internal and •	 Data center setup.
+external support needed to support the system for both software •	 Currently supported hardware and software infrastructure.
+and hardware problems and maintenance. •	 Service levels.
+•	 Software and hardware maintenance fees.
+Administration and call center support: In order for local •	 Expected percentage of support calls.
+individuals to manage day-to-day operations, there is often an •	 Call center staffing hours.
+administrator training that allows a small group to configure  •	 Additional support staff required at the national and subnational level.
+and modify the system. •	 Equipment replacement percentage.
+•	 Staff turnover.
+P L A N N I N G  A N  I N F O R M A T I O N  S Y S T E M S  P R O J E C T  T O O L K I T P A G E  3 6
+ANNEX 9. TOTAL COST OF OWNERSHIP BUDGET MATRIX
+The table below can be used to summarize costs across categories.
+Y E A R  0  
+( I N I T I A L 
+B U D G E T I N G  C A T E G O R Y L A U N C H ) Y E A R  1 Y E A R  2 Y E A R  3
+Governance
+Meetings and administrative support
+Management
+Overall project management
+Research,	monitoring,	and	evaluation
+Development
+Software and interfaces
+Content,	standards,	and	localization
+Deployment
+Client	hardware
+Training
+Operations
+Data and communication services
+Server management and hosting
+Administration and call center support
+T O T A L
+Note: Ideally, costs of international support decrease over time with a corresponding increase in local health systems strengthening.
+P L A N N I N G  A N  I N F O R M A T I O N  S Y S T E M S  P R O J E C T  T O O L K I T P A G E  3 7
+ANNEX 10. WORK PL AN
+# A C T I V I T Y M I L E S T O N E S
+1 2 3 4 5 6 7 8 9
+1 P L A N N I N G
+1 . 1 Define outcomes and form vision X
+1 . 2 Negotiate scope of project X
+1 . 3 Establish project charter and governance X
+Milestone review X
+1 . 4 Form initial team X
+1 . 5 Define requirements and expected results through user  
+involvement X
+1 . 6 Find the right solution—seek evidence and lessons learned  
+from similar projects X
+1 . 7 Establish budget X
+1 . 8 Develop draft implementation plan X
+Milestone review X
+1 . 9 Post additional positions X
+1 . 1 0 Hire and/or obtain short-term technical assistance X
+1 . 1 1 Select the right vendor(s) X
+1 . 1 2 Negotiate/finalize vendor contract(s) X
+Milestone review X
+1 . 1 3 Finalize implementation plan X
+1 . 1 4 Finalize monitoring and evaluation plan X
+1 . 1 5 Draft communication plan X
+Milestone review X
+2 M A N A G E M E N T  A N D  C O M M U N I C A T I O N S
+Schedule the following items…
+2 . 1 Project manager progress reports X X X X X X X X
+2 . 2 Working group meetings X X X X X X X X
+2 . 3 Updates for senior management X X X X X X X X X
+2 . 4 Governance committee meetings X X X X X X X X X
+2 . 5 Communication to organization X X X X X X X
+3 D E V E L O P M E N T
+3 . 1 Hold project kickoff meeting X
+3 . 2 Establish risk and change management plan X
+3 . 3 Perform gap analysis X
+3 . 4 Finalize technical protocols, standards, and operating systems X
+3 . 5 Redesign processes and tools for optimization X
+3 . 6 Design training programs X
+3 . 7 Obtain approval for new processes, tools, and training plan X
+3 . 8 Finalize training strategy and plan X
+Milestone review X
+P L A N N I N G  A N  I N F O R M A T I O N  S Y S T E M S  P R O J E C T  T O O L K I T P A G E  3 8
+# A C T I V I T Y M I L E S T O N E S
+1 2 3 4 5 6 7 8 9
+3 D E V E L O P M E N T  ( C O N T I N U E D )
+3 . 9 Complete capacity sizing and needs assessment X
+3 . 1 0 Gather accurate performance data for existing systems  X
+and processes
+3 . 1 1 Establish data center and hosting environment as needed X
+3 . 1 2 Install and configure server environment X
+3 . 1 3 Test integrations X
+3 . 1 4 Prepare user acceptance testing scripts X
+Milestone review X
+3 . 1 5 Set up call center and train support staff X
+3 . 1 6 Perform user acceptance testing X
+3 . 1 7 Resolve high- and medium-level issues X
+Milestone review and signoff on phase X
+4 D E P L O Y M E N T
+4 . 1 Procure items (might be staggered based on rollout strategy) X
+4 . 2 Print updated tools X
+Milestone review X
+4 . 3 Execute communication plan at subnational level, districts, and X
+health facilities
+4 . 4 P I L O T
+4 . 4 . 1 Prepare implementation checklist X
+4 . 4 . 2 Install network infrastructure (telecommunication and power) X
+4 . 4 . 3 Install hardware and software at pilot sites X
+4 . 4 . 4 Provide updated tools, as necessary X
+4 . 4 . 5 Pilot test processes, tools, and technology X
+4 . 4 . 6 Resolve high- and medium-level issues, modify configuration  X
+as necessary
+4 . 4 . 7 Revise implementation checklist and training X
+Milestone review X
+4 . 5 R O L L O U T
+4 . 5 . 1 Install hardware and software X
+4 . 5 . 2 Deploy new tools X
+4 . 5 . 3 Execute training for revised processes, tools, and technology X
+Milestone review X
+(Repeat above for each rollout cycle) X
+5 O P E R A T I O N S
+5 . 1 Implement monitoring process and tools X
+5 . 2 Finalize service-level agreements and maintenance contracts X
+5 . 3 Establish backup procedures X
+5 . 4 Monitor use and maintenance needs X
+5 . 5 Evaluate system performance X
+Milestone review X
+P L A N N I N G  A N  I N F O R M A T I O N  S Y S T E M S  P R O J E C T  T O O L K I T P A G E  3 9
+

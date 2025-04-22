@@ -1,0 +1,884 @@
+ 
+ 
+ 
+ 
+The Economics of eHealth 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+One of a series of discussion papers published by the mHealth Alliance 
+  
+ 
+The Economics of eHealth 
+Julian Schweitzer 
+Christina Synowiec  
+Results for Development Institute 
+ 
+INTRODUCTION 
+The value of research 
+Information and communication technologies (ICTs) are potentially powerful instruments to strengthen 
+health systems, with innovations ranging from electronic health records to transmission of clinical data. 
+These technologies show great promise in low- and middle-income countries (LMICs) whose health 
+systems face severe financial, infrastructural, technical and human resource constraints. This is evident 
+in the growing number of health service providers beginning to focus on mobile technologies to improve 
+access and quality of health services1.  
+At the same time, there is a growing debate about whether the touted potential of ICT benefits and 
+savings can be actualized on a large scale, both in OECD countries and LMICs2. Over a decade of efforts 
+to implement ICTs in healthcare demonstrate notable successes, but also costly failures2. Furthermore, 
+despite a growing global interest in e- and mHealth, relatively little is known about the economics of 
+eHealth. In fact, a recent paper notes that the failure to demonstrate the value of eHealth is one of the 
+principal challenges to achieving widespread adoption of high-performing ICT initiatives2. However, the 
+lack of hard evidence to support eHealth investments should be seen in the context of a rapidly 
+developing field; other major economic sectors have embraced modern IT to improve productivity and 
+effectiveness, and it is likely that the health sector can also share in many of these benefits. There is, 
+however, a real need for economic analysis that can guide public and private investment decisions. 
+Given the increasing number of mHealth trials and level of interest in e- and mHealth, this is an 
+opportune time to review the available data on the costs and benefits of e- and mHealth and suggest a 
+roadmap for future research. This paper is intended to provide an outline of key economic and financial 
+questions to pursue in the development of scenarios for in-country eHealth policy and strategy 
+investments. 
+                                                          
+1
+ This paper reviews the economics of eHealth (of which mHealth is a part), though as a practical matter mHealth 
+has the potential to predominate in LMICs due to the growing ubiquity of wireless, the relative absence of wired 
+infrastructure, and the importance of delivering care to people with limited access to clinics and skilled health 
+workers. 
+2
+ OECD. “Improving Health Sector Efficiency: The Role of Information and Communication Technologies.” Paris: 
+OECD, 2010. 
+2 
+ 
+ 
+The term mHealth is defined in this paper as the provision of health-related services using mobile 
+telecommunication and multimedia technologies3, 4. Mobile technology, general e-infrastructure, and 
+eHealth infrastructure are interrelated entities, with mobile technologies serving as a key access 
+technology in LMICs. Within ICTs, portable technology through the use of mobile devices (mHealth) is by 
+far the fastest growing segment¹. Examples of mobile devices commonly utilized in healthcare today 
+include (but are not limited to): 
+ Mobile phones and smart phones 
+ Laptop computers and netbooks 
+ Global Positioning System (GPS) devices 
+ Mobile telemedicine/telecare devices 
+ Mobile patient monitoring devices 
+This paper focuses on technologies that are likely to have high potential to enhance healthcare delivery 
+in LMICs. These include technologies that increase patient access to health services and information, 
+and improve the way health professionals deliver health services. In most cases, mHealth exists as an 
+extension and augmentation of existing IT-based health capability (eHealth), however limited that may 
+be. Indeed, it is this combination that is likely to produce the greatest systemic benefits, though there 
+are emerging solutions in the areas of patient access to information (e.g. peer-to-peer forums on the 
+web), and in supply chain efficiencies (preventing counterfeiting, stock-outs), that are not dependent on 
+the national healthcare systems, public and private. 
+The promise of e and mHealth in LMICs 
+The potential of mHealth and eHealth for resource-constrained environments becomes obvious when 
+considering the following facts. 1) The global eHealth market is estimated at $96 billion and growing, 
+with many innovations coming from LMICs5, 6. 2) 70% of all mobile phone users are in emerging markets, 
+which are also the fastest growing markets7, 8. 3) Almost 90% of the world’s population lives in areas 
+with mobile phone coverage, providing a technology platform for mHealth applications7, 9. 4) By 2012, 
+                                                          
+3 Istepanian, R. and J. Lacal (2003). “Emerging Mobile Communication Technologies for Health: Some Imperative 
+notes on m-Health.” Paper presented at the 25th International Conference of the IEEE Engineering in Medicine and 
+Biology Society, Cancun,Mexico. 
+4
+ Mechael, Patricia N. “The Case for mHealth in Developing Countries.” Innovations. Cambridge, MA: MIT Press, 
+2009.  
+5
+ Boston Consulting Group. Understanding the eHealth market. Presented at “Making the eHealth Connection: 
+Global Partners, Local Solutions”. Bellagio, Italy: 2008. 
+6
+ Gerber, Ticia, Veronica Olazabal, Karl Brown, and Ariel Pablos-Mendez. “An Agenda for Action on Global E-
+Health.” Health Affairs 29:2 (2010): 235-238. 
+7
+ International Telecommunications Union Statistics, 2010. 
+8
+ Lambert, Olivier and Elizabeth Littlefield. “Dial Growth.” Finance & Development 46:3 (2009). 
+9
+ Vital Wave Consulting. “mHealth in the Global South: Landscape Analysis.” Washington, D.C.: United Nations 
+Foundation and Vodafone Foundation, 2008. 
+3 
+ 
+ 
+half of all individuals in remote areas of the world will have mobile phones10. 5) Smartphones 
+constituted 14% of all handset sales in 2009, were by far the fastest growing segment (up 24%), and are 
+predicted to reach parity with global feature phone sales by 2012, enabling a slew of more advanced 
+mHealth applications. The rapidly increasing ubiquity, capability and innovation of mobile technologies 
+stands in stark contrast to those of more conventional health technologies and health infrastructures in 
+many LMICs, demonstrating the potential of mobile technologies to help a rapid scale up and 
+improvement of health services to underserved populations.  
+The health care sector in many LMICs is constrained by the high financial and human resource costs, as 
+well as lengthy implementation times, of expanding health facilities and training workforces based on 
+accepted WHO standards. A recent report from UNICEF11 argues for an equity-based approach to child 
+survival as the most practical and cost-effective way of meeting the health Millennium Goals, and it is 
+likely that mHealth will be a key tool in the arsenal of policies and programs to reach poor and under-
+served populations. Many policymakers are therefore exploring the extent to which ICT, especially 
+mobile technologies, can augment or substitute existing health care models by focusing on distributed 
+primary care and centralized administration. This approach leverages the limited ICT administrative 
+capacity of the healthcare system, while extending health knowledge directly to villages and community 
+health workers, using mobile solutions that include data collection, remote diagnostics, treatment 
+checklists, decision support, and patient reminders.  
+More than 100 countries are now exploring the use of mobile phones to achieve better health. In 
+Ghana, for instance, nurse midwives use mobile phones to discuss complex cases with their colleagues 
+and supervisors. In India, mDhil12 sends text messages giving information about various rarely discussed 
+health topics and supporting prevention and patient self-management efforts. Rwanda uses a system of 
+rapid SMS alerts, through which community health workers inform health centers about emergency 
+obstetric and infant cases, enabling the centers to offer advice or call for an ambulance if needed13. 
+mHealth and eHealth have the potential to overcome many traditional obstacles to the delivery of 
+health services to the poor in LMICs, especially those of access, quality, time, and resources4. In 
+particular, one obstacle many LMICs face in the delivery of health services is the shortage of health 
+workers and poor distribution of existing providers. At present, 57 countries face critical shortages of 
+health workers, with estimates ranging from a global deficit of 2.4 million to over 4 million doctors, 
+nurses, and midwives14, 15. These problems are exacerbated by deficiencies in the skills, training, and 
+                                                          
+10
+Vital Wave Consulting. “mHealth for Development: The Opportunity of Mobile Technology for Healthcare in the 
+Developing World.” Washington, D.C.: United Nations Foundation and Vodafone Foundation, 2009. 
+11
+ UNICEF. “Narrowing the Gaps to Meet the Goals.” New York: UNICEF, 2010. 
+http://www.unicef.org/media/files/Narrowing_the_Gaps_to_Meet_the_Goals_090310_2a.pdf. 
+12
+ mDhil is an mHealth product that provides basic healthcare information to the Indian consumer via text 
+messaging, mobile web browser, and interactive digital content. See http://www.mdhil.com/aboutus 
+13
+ UN, Global Strategy for Women and Children’s Health, 2010. 
+14
+ World Health Organization. The World Health Report 2006: Working Together for Health. Geneva: WHO, 2006. 
+4 
+ 
+ 
+distribution of the existing workforce, with the majority of highly skilled health workers located in urban 
+centers10.  
+Low-cost mobile technologies can overcome some of these barriers through the remote delivery of 
+health services and information, thus leveraging existing health service delivery platforms. Low-cost 
+mobile technologies can also play an important role in enhancing the effectiveness of health workers, 
+while giving rural and periurban populations access to health resources where skilled health workers 
+and conventional infrastructure are limited. For example, the government of Rwanda recently 
+announced a $32m eHealth plan to coordinate and promote the use of technology to support 
+healthcare delivery nationwide, with the ultimate goal of leveraging ICT mechanisms, including mobile 
+technologies, to achieve universal health coverage16.   
+Perhaps nowhere is there greater potential for mHealth than in accelerating progress towards the 
+Maternal and Child Millennium Development Goals (MDGs)17. Poor women and children often have very 
+low access to quality health services due to poverty, lack of physical access to health facilities, poorly 
+trained health providers, and cultural factors that limit health care accessibility18. Many countries are 
+successfully employing community health workers to provide a first line service to these neglected 
+groups. e- and mHealth have the potential to enhance these services by providing first-line providers 
+with information, low-cost and easy-to-use diagnostic and decision support tools, and access to remote 
+diagnostic centers, while giving systems administrators real time, actionable information on their staff, 
+supply chains, and emerging patterns. In summary, the e- and mHealth combination has the potential to 
+increase progress toward global health goals, ranging from improved disease-specific outcomes such as 
+HIV/AIDS and malaria, to strengthened health systems. 
+The economic evidence-base for e- and mHealth 
+Although there is a growing recognition of the potential benefits of e- and mHealth, the literature shows 
+little research to date into the economic impact of such investments in LMICs. First, while many papers 
+note the potential benefits of eHealth9, 10, 3, 4, few take this beyond speculation, by measuring outcomes 
+directly linked to e- and mHealth solutions. Second, much of the literature takes a micro-view of the 
+field, restricted to a case-specific evaluation of existing technologies10, 19, 20. Third, as further discussed in 
+the section “LMIC-specific cost analysis”, the limited range of studies on the economics of eHealth is 
+                                                                                                                                                                                           
+15
+ World Health Organization and Global Health Workforce Alliance. The Kampala Declaration and Agenda for 
+Global Action. Geneva: WHO, 2008. 
+16
+ The New Times. “$32M Health Initiative Unveiled.” www.newtimes.co.rw/pdf.php?issue=14315&article=19469. 
+1 September 2009. 
+17
+ MDG 4: Reduce child mortality; MDG 5: Improve maternal health.  
+18
+ World Health Organization. Countdown to 2015: Tracking Progress in Maternal, Newborn and Child Survival. The 
+2008 Report. Geneva: WHO, 2008. 
+19
+ World Bank. eCapacity Enhancement Project for the Health Sector in Sri Lanka. Geneva: World Bank, 2005. 
+20
+ eHealth Case Studies. http://www.ehealth-impact.org/case_studies/index_en.htm. 
+5 
+ 
+ 
+mainly confined to OECD countries21, 22, 23, with perhaps rather limited relevance for the very different 
+problems that LMICs face (including the continuing brain drain of ICT and healthcare workers to the 
+developed world). 
+With this in mind, this paper aims to encourage further discussion and research around the economics 
+of eHealth in LMICs. Some important questions for consideration include: 1) the costs of eHealth 
+infrastructure; 2) regulatory structures which provide incentives at different levels of the health delivery 
+system to encourage investment in, and use of, eHealth; and 3) measuring the outcomes of successful 
+eHealth utilization, including anticipated return on investment (ROI). The need is not just to add up the 
+costs of ICTs, but to compare the costs of a distributed approach to the current health service delivery 
+cost structure.  It should also be noted that eHealth and mHealth deployments to date have almost 
+invariably been one-off solutions for specific problems, rather than standardized, integrated systems 
+connecting and sharing information along the full continuum of care. A siloed approach can result in 1) 
+interoperability concerns, and 2) the inability to promote scale. And finally, it is important to evaluate 
+how eHealth is applied, as that will also determine its effectiveness. 
+In recognition that eHealth is already a rapidly progressing field, answers to these questions can help 
+identify: 1) how to best leverage these technologies at lowest cost, and 2) how to prioritize initiatives 
+based on need, availability of resources, and anticipated outcomes. Toward this aim, we have divided 
+the paper into two main sections focused on the costs and benefits of eHealth. Each section will 
+highlight specific questions for further research, setting the roadmap for ongoing research and analysis. 
+Within each question, we review the available literature, propose promising areas of inquiry, and offer 
+methods to generate economic models for planning and analysis.  
+  
+                                                          
+21
+ OECD. Improving Health Sector Efficiency: The Role of Information and Communication Technologies. Paris: 
+OECD, 2010. 
+22
+ RAND Europe and Capgemini Consulting. Business Models for eHealth. Cambridge, United Kingdom: European 
+Commission, 2009. 
+23
+ Dobrev, Alexander, Tom Jones, Karl Stroetmann, Yvonne Vatter, and Kai Peng. Study on the Economic Impact of 
+Interoperable Electronic Health Records and ePrescription in Europe. Germany: European Commission, 2009. 
+6 
+ 
+ 
+AN EXAMINATION OF EHEALTH COSTS 
+LMIC-specific cost analysis 
+The literature on the cost of ICTs in health is largely limited to OECD countries, with a focus on the role 
+of information and communication technologies in improving health sector efficiency, deriving value 
+from eHealth systems, and assessing the economic impact of eHealth investments. mHealth is not the 
+explicit focus of the research. Furthermore, while this analysis is useful as a starting point, it may not be 
+entirely relevant for LMICs. First, most OECD countries are heavily urbanized, with generally universal 
+access to healthcare. Much of the investment has therefore gone into health management information 
+systems and hospital administration, rather than the use of mHealth to increase access for underserved 
+populations. Second, the level of training of health workers, the public-private mix of healthcare 
+financing and providers, the health and IT regulatory systems, and the capacity of the public sector to 
+introduce new technologies may be very different in poorer countries.  
+It is therefore important that separate studies are carried out in LMICs. These broad-based studies need 
+to focus on LMIC-specific issues, including 1) the introduction of mobile technologies in remote, rural 
+areas; and 2) the training of community health workers to use mHealth technologies. Outlined below 
+are potential approaches to assessing e- and mHealth costs, including an examination of the impact of 
+mHealth on overall healthcare costs, the drivers of cost within mHealth itself, and incentive structures to 
+drive down costs of mHealth. This can include cost-effectiveness, cost-benefit, and cost-utility analyses 
+as economic evaluations. Regardless of approach, it is important to maintain an LMIC-specific lens 
+within each approach in order to address the deficit of research on mHealth costs within LMICs. 
+Impact of eHealth on health costs 
+Historically, in rich countries, technological innovation has tended to drive healthcare costs upwards24. 
+Overall costs rise as new, expensive products are diffused to increasingly broader segments of the 
+patient population. It has proved difficult to control demand, even if the efficacy of the new product is 
+not yet well demonstrated. For example, within the United States there are many market incentives for 
+consumers to overuse new products, in turn driving overall costs up. Information technology may also 
+fail to decrease the costs of health administration. Contrary to the overall experience of business and 
+government enterprises outside of health, where ICT has increased productivity, a recent HIMSS survey 
+showed that while U.S. hospitals have increased their use of IT, there was no indication that it lowered 
+costs or streamlined administration25. 
+It is a reasonable hypothesis, however, that the introduction of low-cost mobile technologies has the 
+potential to reverse this trend, at least as far as delivering health services to poor, underserved 
+                                                          
+24
+ Beever, Charles and Melanie Karbe. The Cost of Medical Technologies: Maximizing the Value of Innovation. 
+McLean, Virginia: Booz Allen Hamilton, 2003. 
+25
+ Healthcare IT News. “Health IT savings estimates are ‘wishful thinking,’ say Harvard researchers.”  
+7 
+ 
+ 
+populations in both rural and urban areas. The cost of mobile phones, other hand-held devices, and 
+computers has declined dramatically over the last decade even as capabilities have increased. Similarly, 
+mobile bandwidth capacity is increasing as costs decline26. Remote collection and transmission of 
+diagnostic data by community health workers to centers with a critical mass of computer programs, 
+skilled technicians and doctors (and computers) to interpret the data should be more cost-effective than 
+often unsuccessful efforts to train and deploy an adequately skilled workforce in rural areas (and 
+develop the requisite rural infrastructure). eHealth can provide transformative alternatives to increase 
+the productivity of healthcare. However, since e- and mHealth are still in their relative infancy in LMICs, 
+there is little concrete data and research to test hypotheses of this kind. 
+Potential methods for evaluating such trends include: 
+ Analysis of relevant technology cost trends outside of healthcare. This would allow for the 
+extrapolation of trends in general ICT costs to potential cost shifts in health ICTs. While there is 
+little direct evidence on the impact of ICTs on the cost of healthcare in LMICs, it is well 
+established that ICT unit costs are declining rapidly. For example, according to U.S. Bureau of 
+Labor Statistics consumer price data for computer equipment and mobile phones27, the price of 
+computers has dropped drastically, with a 20% annual decrease from 1999 to 2003 and an 11-
+12% annual decline for the last three years. The evaluation of non-healthcare technology costs 
+over time is appealing as an immediate proxy for the lack of readily available data on eHealth-
+specific costs globally. 
+ Analysis of cost of increased consumption of health services as a result of mHealth. mHealth is 
+largely intended to provide increased health access to people that are typically excluded or hard 
+to reach. Studies of mHealth’s impact on total health expenditures would compare the cost of 
+this increased use with the cost if the same services had been delivered and consumed in the 
+traditional manner.   
+ Country-specific case study.  As previously noted, available research on costs related to e- and 
+mHealth are typically restricted to OECD and EU countries21, 22, 23, and may have limited value for 
+policymakers in LMICs (although providing a useful starting point in study design, monitoring, 
+and evaluation). Further, most trials of mHealth in LMICs are of single source solutions.  To 
+better understand cost trends in LMICs, it will be necessary to carry out a series of case studies 
+in countries with a diverse range of development and health challenges. Potential countries for 
+research include India, China, Nigeria, Ghana, Rwanda, and South Africa. These studies need to 
+be broad and deep enough to reflect a complete system or subsystem, such as maternal care 
+within a district. This will allow the full range of costs and benefits to be addressed.    
+                                                          
+26
+ To put this in context, in rural India, mobile phone coverage is 25 per 100 population, with higher costs in rural 
+than in urban areas due to power shortages. Only 50m people, largely in urban areas, have broadband access and 
+there are serious capacity constraints (evidence provided to author). However, scale up is likely to be rapid. 
+27
+ U.S. Bureau of Labor Statistics: Consumer Price Index. http://www.bls.gov/cpi/ 
+8 
+ 
+ 
+ Segmentation of the eHealth LMIC market. Understanding segmentation of the consumer 
+market is important in understanding product and service functionality, and the potential 
+impact on prices. eHealth has yet to be subjected to this discipline as it is still in its early stages 
+of development and largely driven by government grants and research donations. The 
+Rockefeller Foundation-funded Center for Health Market Innovations database28, housed by 
+Results for Development Institute, may reveal useful information that can help identify the level 
+of adoption of mobile technologies by market demographics. For example, it appears from 
+studies by the Development Fund of the Global Systems for Mobile Communications Association 
+(GSMA) that 24x7 health information call centers are a valued and profitable service in a 
+number of LMIC countries29. This information can help organizations developing mobile devices 
+to focus on the subset of the population most likely to adopt the technology, based on need, 
+interest, and rate of return. It can also help organizations identify differences in product 
+considerations when defining market segments. 
+Drivers of cost within eHealth 
+In order for eHealth to fulfill its potential, the likely drivers of cost within the eHealth infrastructure 
+should be assessed and, in turn, successful methods to contain costs identified. Such analysis first 
+requires the identification and assessment of the individual drivers of cost within e- and mHealth, as 
+outlined below. In recognition that an assessment of cost drivers should not be the sole focus of a 
+financial analysis of eHealth, the cost drivers outlined below serve as a starting point for future research. 
+Potential methods for evaluating key cost drivers include: 
+Production process 
+ Upfront investment in planning the eHealth infrastructure. This can stand as a fixed or variable 
+cost, but is an inherent part of eHealth infrastructure development. This can include the human 
+resources, technology development, and initial training costs, as well as the costs of developing 
+metrics to measure eHealth performance over time. 
+ Assessment of integrated, interoperable systems (platforms) vs. a one-off approach. ICTs have 
+proliferated globally because standardization and competition have driven down costs and 
+addressed consumer needs very effectively. Thus far, eHealth and mHealth investments have 
+often been the opposite: primarily one-off projects to solve specific problems.  A more efficient 
+approach is to seek to replicate the scope and scale of the global wireless industry through the 
+standardization of the architecture and interfaces of underlying hardware and software. This will 
+allow the technology to be interoperable and support the full continuum of care through the 
+sharing of platforms and common utilities. While there are certainly country differences in 
+                                                          
+28
+ Center for Health Market Innovations. http://healthmarketinnovations.org 
+29
+ Ivatury, Gautam, Jesse Moore, and Alison Bloch. A Doctor in Your Pocket: Health Hotlines in Developing 
+Countries. London: GSMA Development Fund, 2009. 
+9 
+ 
+ 
+policy, content and infrastructure development, there are many similarities that can be 
+leveraged to promote scale and reduce costs. Another example of deployment efficiency is the 
+ability to host mHealth applications in large, secure data centers; this can help mitigate the need 
+for IT infrastructure and expertise at the local level. It can also promote the sharing and 
+implementation of best practices more quickly (due to fewer nodes to upgrade).  
+ eHealth’s impact on human resources.  The impact of ICTs on the deployment of health workers, 
+such as physicians, is critical to evaluate in determining overall costs. While distributed care 
+obviously cannot always substitute for actual practitioner-to-patient care (for example, if 
+surgery is required), it can enhance the quality of diagnostic and treatment services and greatly 
+increase patient access, especially to initial primary care. For example, a telemedicine link 
+between a specialist located in an urban setting and a patient in a rural setting promotes access, 
+but may not change the cost structure. However, a distributed health system where functions 
+currently designed to be performed by doctors or nurses in a clinic setting are transferred to less 
+expensive health workers in the field (or to computers), enabled and monitored with ICT, saving 
+only the critical cases for the doctors to review, may significantly impact the cost structure.  
+ Cost savings as a result of the existing wireless market infrastructure.  A key issue for mHealth is 
+the cost and capabilities of wireless hardware and services. These are generally already shared 
+with non-health services, resulting in cost savings. Furthermore, private entities have developed 
+such infrastructures with private investment, taking advantage of global economies of scale. 
+There is a clear upward trend in capabilities (as evidenced by the introduction of higher capacity 
+networks and smart phones), and a clear downward trend in costs of handsets and service.  The 
+latter is still relatively high in a number of developing markets. The primary determinant of cost 
+of telecommunications to healthcare users will be some combination of competition in the 
+overall market and any special arrangements made for health, either by a carrier for marketing 
+reasons, or arrangements with the government.   
+  Assessment of the cost-impact of sharing services between mHealth and other mServices. The 
+growing ubiquity of mobile technologies is resulting in the development of mServices, such as 
+mobile banking, with an increasing emphasis on location-based services enabled by GPS. The 
+cross-impacts of mPayments and mInsurance with mHealth is particularly interesting, with the 
+potential to leverage common identification and registry databases.  Given the overlap between 
+mHealth and mServices, it would be useful to analyze the cost saving opportunities of shared 
+devices, services and information platforms (e.g. shared promotion and education costs to the 
+same users, common support and billing, etc.)   
+ An examination of the relationship between cost and mass production.  Increased unit demand 
+leads to volume production that pushes down unit costs in electronics. The GSMA led an 
+initiative to reduce the cost of mobile handsets, by aggregating demand from a number of 
+developing countries, and then developing a handset contract with an assured volume of 40 
+million phones30. If the forces of the global market can be brought to bear on mHealth, similar 
+                                                          
+30
+ GSMA Embedded Mobile initiative. See www.gsmworld.com/our-work 
+10 
+ 
+ 
+economies of scale are likely to prove true for mHealth technologies, and, potentially, mHealth 
+services. Increased demand for mHealth technologies (resulting in part from the benefits of 
+standardization) would allow vendors to reduce prices and increase market share and size. For 
+example, a developer of a wireless ultrasound product currently prices an individual unit at 
+US$5,000. However, the price would drop below US$1,000 per unit if there were a market for 
+100,000 units31. Standardization has other benefits. The mobile industry recently agreed to 
+move to a universal power supply design, which, in addition to cost benefits, means any phone 
+can use any charger. Further investigation, including discussions with technology manufacturers 
+and suppliers will help determine whether such economies of scale in mHealth devices are likely 
+to be the norm, or whether a market intervention is needed to aggregate demand (incentive 
+structures for economies of scale are discussed below).  
+ Impact of competition on product cost. Competition has the potential to increase efficiencies 
+and drive down costs amongst competing vendors. As such, it is important to survey the 
+landscape of existing and potential competition for the specific eHealth product, in addition to 
+opportunities for partnerships and economies of scale. 
+Public-private partnerships 
+ Cost-impact of public-private partnerships (country case study). It is most likely that eHealth and 
+mHealth will be offered in LMICs by a combination of public and private entities, with potential 
+implications for costs. For example, wireless carriers may choose to host applications or services 
+for free or reduced costs in order to stimulate overall wireless demand. Given that a number of 
+these partnerships are already in development in countries like Brazil32 and South Africa33, they 
+provide a real-time opportunity to collect and assess data on the cost impact of such 
+relationships10. However, they are currently limited in scope. As the health value chain and the 
+parallel economic value chain for integrated systems along the continuum of care are developed 
+and understood, parties can develop sustainable partnerships where public and private interests 
+are both served. In essence, how can each sector best direct the financial, technical, and 
+operational responsibilities of developing an mHealth infrastructure in a cost-effective fashion?  
+This is a critical area for public and private leaders to advance, creating examples that can be 
+studied.     
+ Case studies on end-to-end service along the continuum of care. Recent reports have highlighted 
+the need for dynamic public-private partnerships to help achieve MDGS 4 and 510, 34, 35, 36.  Trials 
+                                                          
+31
+ Anecdotal evidence provided to authors. 
+32
+ Nokia Data Gathering system through a partnership between Nokia and the Amazonas State Health Ministry. 
+33
+ The Dokoza System through a partnership between Dokoza, State Information Technology Agency, Centre for 
+Public Service Innovation, Centre for Scientific and Industrial Research and the Meraka Institute, South Africa’s 
+National Department of Health. 
+34
+ Khan, M. Adil. Achieving the Millennium Development Goals: The Public/Private Mix. UN-DESA. 
+35
+ Feezel, Charlie and Virginia Sopyla. Achieving Millennium Development Goals through Public-Private 
+Partnerships. Boston: Harvard University. 
+11 
+ 
+ 
+of end-to-end systems to test the public-private model will provide opportunities to evaluate 
+the impact of public-private partnerships on costs. One example is the recently announced 
+Maternal mHealth Initiative37. One of its goals is to develop country trials of integrated ICT 
+systems in maternal and child health through public-private partnerships.   
+ Impact of donors on eHealth costs. A key to driving down costs is standardization. Currently, 
+donors are funding a wide range of individual, but siloed e- and mHealth initiatives; this 
+approach may inadvertently hinder interoperability and standardization. Agreement between 
+donors, LMIC policymakers and industry on architecture, standards and best practices should 
+speed deployment, improve interoperability and drive down costs (as has been experienced in 
+the computer and wireless industries over the last 25 years.) 
+ The role of the public sector. It is reasonable to assume that the private sector and civil society 
+will continue to be important drivers of mHealth adoption, with many of the newest mobile 
+technologies emerging from medical device and mobile technology companies. The public 
+sector in LMICs will play an important role as purchaser and regulator, providing incentives or 
+disincentives to increase uptake of mHealth and to reduce cost. It is likely that the overall 
+healthcare and telecommunications regulatory structures will heavily influence the costs and 
+speed of scale-up of mHealth. An analysis of the regulatory environment will therefore be 
+necessary in determining the investment case for eHealth and mHealth. It would need to include 
+the following: competition and price regulation; authorization of telecommunication/ICT 
+services; universal access and service; radio spectrum management; legal and institutional 
+framework; new technologies and impact on regulation38. Other factors, such as the relatively 
+higher costs of provision of mobile phone access in rural areas needs to be considered39.  
+As an example of the influence of regulatory systems, the global wireless explosion is generally credited 
+to the decision by most countries (a) to license several wireless competitors, not just the incumbent 
+wireline monopoly, and (b) to not regulate prices or services.  In countries that have liberalized their 
+infrastructure markets, some wholesale networks have emerged through the impact of market forces. In 
+other countries, mobile operators are required by law to use the incumbent’s network for backbone 
+services, which may drive up the cost and/or reduce options for IT users40.  Ethiopia still has a monopoly 
+service provider so its wireless coverage lags far behind most other countries. This serves as a valuable 
+case study of the downstream costs (and savings) for getting regulation correct.   
+In summary, it will be important to carry out case studies of different country regulatory systems to 
+determine the healthcare and telecommunications regulatory structures that provide the best 
+opportunities for low cost eHealth provision.  
+                                                                                                                                                                                           
+36
+ Taskforce on Innovative Financing for Health Systems, 2009. 
+37
+ See www.mHealthAlliance.org 
+38
+ World Bank, infoDev and International Telecommunications Union, ICT Regulation Toolkit, 2010. 
+39
+ For example, mobile operators may need to provide back-up power generators in areas with unreliable power 
+supplies, thus increasing operating costs. 
+40
+ Broadband for Africa, Developing Backbone Communications Networks, Williams D, World Bank 2010. 
+12 
+ 
+ 
+Potential questions for consideration include:41 
+ What are the reforms (e.g. in regulatory and licensing systems) needed to incentivize 
+investment in, and utilization of, e- and mHealth services and devices?  
+ What incentives can the public sector put in place to drive down costs?  
+ What are the incentives for the public sector to support the development of a standards-based 
+system, perhaps including a baseline information system platform? 
+  
+                                                          
+41 Potential countries for evaluation against these questions include South Africa, Bangladesh, India and Brazil. 
+13 
+ 
+ 
+AN EXAMINATION OF EHEALTH BENEFITS 
+Analysis of downstream savings from investments in standardized mHealth 
+platforms 
+Interoperability, defined as the ability to exchange and use information from another system or device, 
+has proved to be challenging to implement. As systems move to machine-to-machine mode, simple 
+connectivity is no longer adequate42. Furthermore, the addition of mobile communication devices adds 
+completely new communication systems and rules. Interoperability is key to the scaling up of mobile 
+health services in LMIC markets, and to ensuring end user convenience and flexibility in the utilization of 
+mHealth devices and programs.  
+As such, it is important to build a basic health information platform to coordinate, guide, and support 
+resultant individual mHealth initiatives. This will ensure interoperability among individual mobile 
+technologies at the data communications layer, while addressing the challenge of scaling up mHealth 
+programs. Furthermore, upfront investment has the potential to yield downstream savings, as individual 
+mHealth devices will have the capacity from the outset to interface, share data, and leapfrog off one 
+another’s services. Through the development of a framework architecture, one can then create specific 
+web, software, or mobile services for large-scale deployment in alignment with the existing architecture. 
+Potential methods for evaluating such trends include: 
+ Case study of an end-to-end, integrated system, such as the Maternal mHealth Initiative of 
+PMNCH, the mHealth Alliance and other organizations. The initiative presents an opportunity to 
+develop, measure, and analyze data on downstream savings as a result of the development of a 
+standardized information system platform. This would also take an area-specific case study 
+approach, focused on the use of a common information systems platform and offer the 
+opportunity to evaluate the impacts of such a platform on costs. 
+ Analysis of downstream savings from investments in information technology platforms outside 
+of healthcare. In particular, the development of the mobile phone infrastructure provides 
+opportunities to study the benefits of the use of standards.  The single GSM wireless standard 
+used by most of the world and the global market buying and deploying it have been major 
+drivers of innovation and cost reductions.  
+Determining the benefits of mHealth 
+As previously noted, there is little research on the benefits accruing from eHealth. Measuring the value-
+added of eHealth to global health outputs and outcomes will require cost-effectiveness analysis of such 
+investments. Such analysis will help determine the objective value of eHealth investments, as compared 
+                                                          
+42
+ Waegemann, C. Peter. “mHealth: The Next Generation of Telemedicine?” Telemedicine and e-Health 16.1 
+(Jan/Feb 2010) : 23-25. Print. 
+14 
+ 
+ 
+with other investments that can improve patient health. Furthermore, it is important to recognize that 
+while eHealth may not decrease overall costs (even if unit costs decline, overall costs may rise as usage 
+increases), it can still result in decreased unit costs for delivering specific services.  And it can result in 
+increased benefits, such as improved patient access to quality healthcare and patient satisfaction.  
+Measurement of mHealth costs and benefits can therefore help generate the data necessary to target 
+and attract investments in mobile technologies, and prioritize these investments in the face of 
+competing demands and resource constraints; in essence, developing an infrastructure that enables, 
+first, greater health outcomes, and second, potentially lower costs. The measures described below push 
+beyond commonly cited health outcomes, such as morbidity and mortality, and explore other metrics 
+for evaluating program success.  
+Potential methods for evaluating such trends include: 
+ Analysis of potential areas for cost savings and increased efficiency. In evaluating the value of 
+eHealth, it is essential to take into consideration the potential benefits to the overall health 
+system, as captured below. The table outlines eHealth’s opportunities for reducing costs and 
+increasing efficiency as related to the patient and administration, and helps hone in on benefits 
+that fall outside of outcomes tied to quality of care (eHealth’s potential benefit to quality of care 
+is discussed below). Further analysis should also take into consideration the extent of 
+transformational change to business operations. Implementers must think through the layers of 
+potential savings and efficiency gains, outlined in the table below, weighed against the level of 
+change required for workflow and operations.  
+Health Systems: Examples of Potential Areas for Saving Costs and Increasing Efficiency  
+Patient Issues Opportunities for Reducing Costs and Increasing Efficiency 
+Patient registration  One-time registration 
+ Information available on subsequent visits 
+ Serves multiple purposes (e.g. vital statistics registries in 
+addition to care) 
+Creation of persistent record  Improved speed and efficiency of care delivered 
+ Information base developed for wide variety of direct care 
+and administrative uses 
+ Data is entered once  
+Payment for services  Streamlined automatic billing, payment system 
+ Documentation of billing, payment actions 
+Remote diagnostics  Reduction of clinic visits 
+ Saves time for patient 
+ Improved patient triage 
+ More efficient use of time of skilled health workers  
+Referrals  Efficient access to closest available resources 
+Scheduling follow-ups  Automatic messaging to public and providers 
+15 
+ 
+ 
+Disease surveillance  Enables real-time surveillance, resource allocation 
+Public information  More targeted distribution of information 
+24x7 call centers  Decreased need for in-person clinic visits 
+Administration Issues  
+Performance review  Easier and more timely aggregation of data by factors 
+including district, region, provider, and disease 
+Staff communications  Voice and data communications increase efficiency 
+Staff management  Ability to mine data to monitor staff performance through 
+various filters, including at the individual or aggregate level 
+ Ability to supervise staff in real-time 
+Staff training  Combination of physical and eTraining may provide 
+efficiencies over traditional model, particularly for  “just-in-
+time” training 
+Payments  Operations and record keeping efficiency 
+ Fraud protection 
+Supply chain management  Avoiding stockouts 
+ Fraud protection, e.g. fake medicines 
+Research  Development of data marts that can be leveraged for 
+research 
+ Reduce repetitive and costly primary research and data 
+collection efforts.  
+ 
+ Cost-effectiveness analysis of eHealth technology investments. An evaluation of the benefits of 
+eHealth programs should focus on clinical and social outcomes using reliable conversion 
+factors43. The outcomes are focused on benefits to the patient and the provider, the two targets 
+of eHealth technologies as discussed in the section on “The promise of eHealth.” It is important, 
+however, to translate the metrics to the end user of the specific technology. For example, smart 
+phones could be used to help train community health workers in aspects of maternal and child 
+health and the metrics should frame specified outcomes for mothers, newborns, and children 
+resulting from the training. Further research should focus on the ability of eHealth to improve 
+health systems outcomes as well, including but not limited to efficiency gains and strengthened 
+service programs. The table below, derived from Dávalos et al43, may serve as a starting point 
+for measuring the value of clinical and social outcomes resulting from mHealth. 
+ 
+Representative Monetary Conversion Factors for mHealth Outcomes 
+Client/Patient Perspective 
+Outcome Measure Unit Monetary Conversion Factor 
+                                                          
+43
+ Dávalos, María E., Michael T. French, Anne E. Burdick, and Scott C. Simmons. “Economic Evaluation of 
+Telemedicine: Review of the Literature and Research Guidelines for Benefit-Cost Analysis.” Telemedicine and e-
+Health 15.10 (2009) : 933-949. Print. 
+16 
+ 
+ 
+Medical Effectiveness 
+Reduced morbidity44 Change in quality-adjusted life- Value of a statistical life-year from 
+years (QALYs) the value of a statistical life 
+Avoided mortality44 Avoided years of life lost Value of a statistical life-year from 
+the value of a statistical life 
+Healthcare services and others 
+Increased access to healthcare Indirect effect: Change in QALYs Value of a statistical life-year from 
+the value of a statistical life 
+Increased health knowledge/ Indirect effect: Change in QALYs Value of a statistical life-year from 
+ability for self-care the value of a statistical life 
+Faster/accurate diagnosis and Indirect effect: Change in QALYs Value of a statistical life-year from 
+treatment the value of a statistical life 
+Reduced waiting and/or Missed hours/days of Average of minimum context-
+consultation time employment, classroom or leisure specific wage rate (hourly or daily) 
+time 
+Increased adherence to medical Indirect effect: Change in QALYs Value of a statistical life-year from 
+regimen the value of a statistical life 
+Occupation 
+Continuity of income Missed hours/ days of Average of minimum context-
+employment avoided specific wage rate (hourly or daily) 
+Increased employment/ Missed days or hours of classroom Average or minimum context-
+leisure/classroom time time or work absences avoided; specific wage rate (hourly or daily) 
+increased available leisure time 
+Travel 
+Money spent on travel: Distance Mileage allowance rate or airfare 
+transportation cost to nearest referral facility 
+Money spent on travel: Average cost for accommodations 1.00 
+accommodation in referral location 
+Money spent on travel: other Money spent on local 1.00 
+expenses transportation and meals 
+ 
+Provider Perspective 
+Outcome Measure Unit Monetary Conversion Factor 
+Healthcare services and others 
+Reduced length of stay at Days Context-specific charges per 
+medical facility inpatient day in facility 
+Avoided medical readmissions Count Context-specific charges per 
+inpatient day in facility multiplied 
+by the average duration of 
+readmissions 
+Avoided inpatient visits Count Context-specific charges per 
+inpatient day in facility multiplied 
+by the average duration of 
+                                                          
+44
+ Potential opportunity to highlight outcomes specific to maternal, newborn, and child health. 
+17 
+ 
+ 
+inpatient visits 
+Avoided laboratory tests Count Average context-specific charges 
+per emergency room visit 
+Avoided patient’s transportation Count Average context-specific charges 
+to healthcare facilities per laboratory test 
+Reduced length of consultations Minutes or hours Average context-specific physician 
+or specialists’ fee (hourly) 
+Other outcomes 
+Increased medication adherence Indirect effect: avoided use of Average context-specific charges 
+healthcare utilization: number of for specific healthcare services 
+inpatient visits, referrals, etc. 
+Increased knowledge transfer Avoided referrals from knowledge Average context-specific specialist 
+among practitioners transfer or hours/ days of training fee (patient avoided costs should 
+required to obtain same be included as well or cost per day 
+knowledge plus work time lost (in of training plus work loss at 
+hours or days) for training average context-specific 
+physician’s hourly or daily fee) 
+Increased accuracy and faster Indirect effect: avoided use of Average context-specific charges 
+diagnosis and treatment healthcare utilization: number of for specific healthcare services 
+inpatient visits, referrals, etc. 
+Increased patient satisfaction .. 1.00 (willingness to pay for 
+mHealth program) 
+Decreased travel and/or home visits for staff 
+Increased employment time Days or hours Average context-specific wage 
+(productivity) rate for nurses, physicians or 
+other specialists (hourly or daily) 
+Money spent on travel: Distance in kilometers or miles Cost to travel 
+transportation 
+Money spent on travel: Average cost for overnight stay 1.00 
+accommodation 
+ 
+Other Stakeholders Perspective 
+Outcome Measure Unit Monetary Conversion Factor 
+Healthcare services and others 
+Increased productivity of Avoided missed days/hours of Average or minimum context-
+workers (less travel, less illness) employment time specific wage rate (hourly or daily) 
+More efficient access to health Distance to referral facility and Mileage allowance rate for 
+for special groups (informal days/hours of work for staff transportation and average daily 
+sector, etc.): transportation or hourly wage rate for staff 
+costs, staff costs 
+Avoided cases of communicable Cases Average medical costs (health 
+diseases resources utilization and staff) per 
+case, average avoided loss of 
+wages and productivity from 
+illness per case 
+18 
+ 
+ 
+ 
+ Cost-benefit comparison of mHealth technologies and alternative methods of health service 
+delivery. One of the key questions in determining cost is the standard against which to compare 
+the value. There is now widespread agreement on the interventions, including health worker 
+training and health systems infrastructure needed to reach the MDGs and these interventions 
+have been costed36. Building on the metrics to measure mHealth benefits, as outlined above, 
+further research could investigate mHealth outcomes as compared to traditional service delivery 
+methods. For example, what is the difference in timeliness of treatment for a patient utilizing an 
+mHealth device vs. a patient traveling in person to a medical facility? What is the difference in 
+levels of patient satisfaction? This approach would not only provide a baseline point of 
+comparison for program benefits and patient satisfaction, but also explore the potential for 
+cost-minimization as a result of mHealth technologies. Additionally, it would highlight areas in 
+which mHealth may not provide cost-effective outcomes for health access and service delivery, 
+thus providing the factors which determine when mHealth is best leveraged.  
+ Maternal, newborn, and child health (MNCH)-specific outcomes analysis. Mobile technologies 
+are recognized to have much to offer in improving MNCH, with significant efforts under way 
+now through the mHealth Alliance and other public-private partnerships to harness their 
+potential. In the utilization of mHealth programs with the MDGs, however, it is important to 
+direct efforts towards areas of greatest need. Fig 1 below identifies the gaps in the coverage of 
+procedures within the continuum of care related to maternal, newborn, and child health, which 
+if met, would significantly impact on the MDGs45. Future mHealth initiatives addressing MDGS 4 
+and 5 should target mHealth technology investments to these areas of greatest need. For 
+example, could mHealth investments be used to improve coverage of post-natal visits within 
+two days, by developing an SMS reminder service for pending appointments? 
+Fig 1. Coverage estimates for interventions across the continuum of care in the 68 priority 
+countries (2000-2006). 
+                                                          
+45 Source: Countdown to 2015: Tracking Progress in Maternal, Newborn and Child Survival. The 2008 report. 
+ 
+ 
+19 
+ 
+ 
+ 
+  
+20 
+ 
+ 
+A PRACTICAL APPLICATION 
+eHealth and Maternal and Child Health 
+This paper proposes two basic lines of enquiry into the economics of eHealth: 1) an examination of the 
+drivers of eHealth costs, and 2) an analysis of the benefits – to patients and health workers – which can 
+accrue from the introduction of eHealth systems. The paper sets out a basic roadmap for investigation 
+which can support sound investment decisions for eHealth in LMICs. The central premise of this paper is 
+that systemic investments in m- and eHealth can rapidly expand cost-effective quality health care 
+distribution to under-served groups – this is essential if the global community is to reach the MDGs. An 
+end-to-end systems approach is necessary to avoid costly and potentially mutually incompatible one-off 
+solutions. 
+In developing a policy and research program to test this premise, it is essential to avoid one of the 
+central problems identified in the literature review: individual studies of independent components. 
+These are unlikely to provide the kind of information which policy makers will need to make large-scale 
+investment decisions. As such, the proposed next step would be to identify a diverse group of three to 
+four leading LMICs in the eHealth arena which could provide the platform for this research, to help 
+guide policymaker decisions on eHealth investments. Within those countries, the proposal would be to 
+create large scale trials of integrated systems (i.e. supporting the full continuum of care in an area, such 
+as maternal care), as opposed to point solutions. These would be designed to produce answers to the 
+key financial issues which policymakers face.  The areas outlined suggest a framework for further 
+research that can be applied through case studies in a variety of settings and for a range of audiences. 
+Further, given the critical importance of women and children’s health, the research should be focused in 
+this area. 
+The previously cited 2010 UNICEF study Narrowing the Gaps to Meet the Goals, notes that millions of 
+lives can be saved by investing first in the most disadvantaged children and communities46. The most 
+impoverished child populations are faced with the greatest national burdens of disease, ill health, and 
+illiteracy; as such, focusing on these children with the greatest need can greatly accelerate progress 
+towards the MDGs and reduce disparities47. Using, for example, the “marginal budgeting for 
+bottlenecks” (MMB) approach48, eHealth planners and end users can estimate the costs of leveraging 
+technology to leapfrog existing bottlenecks within healthcare delivery, and more specifically, within 
+MNCH.  eHealth’s greatest promise for LMICs lies in its potential to leapfrog traditional obstacles to 
+healthcare delivery in resource-constrained areas; and the MBB approach can serve as a starting point 
+                                                          
+46
+ UNICEF. “Narrowing the Gaps to Meet the Goals.” New York: UNICEF, 2010. 
+http://www.unicef.org/media/files/Narrowing_the_Gaps_to_Meet_the_Goals_090310_2a.pdf. 
+47
+ UNICEF. “New UNICEF study shows MDGs for children can be reached faster with focus on most disadvantaged.” 
+www.unicef.com. 7 Sept 2010. 
+48
+ A results-based planning and budgeting tool developed by UNICEF, UNFPA and the World Bank that identifies 
+system-wide supply and demand bottlenecks to adequate and effective coverage of essential health services. 
+21 
+ 
+ 
+for planning and evaluating e- and mHealth investments.  The UNICEF research needs to be supported 
+with a more detailed study of how mHealth and eHealth can help achieve its tactical goals.   
+Case studies for the application of eHealth to MNCH in systemic innovation trials need to be developed. 
+In these cases, the investigation of the proposed research areas can help to guide analysis and decision-
+making from the outset, and in turn develop a framework for assessing ROI scenarios 5-10 years into the 
+future. 
+  
+22 
+ 
+ 
+CONCLUSION 
+Looking forward 
+With the rapid increase in the number of e- and mHealth projects, several trends indicate the potential 
+for such technologies to overcome some core health obstacles in LMICs, particularly in resource-
+constrained areas. In particular, mHealth has the potential to contribute to the achievement of MDGs 4 
+and 5, providing mothers and children with increased access to health resources and services. However, 
+it is essential to consider and quantify the full range of financial costs and benefits through rigorous 
+economic evaluation.  The need is not just to add up the costs of ICTs, but to compare, to the extent 
+feasible, the costs of a distributed approach enabled by mHealth to the current health service delivery 
+cost structure.  The previously cited “Narrowing the Gap” UNICEF report points the way.  
+At present, there is little economic evaluation of eHealth, with existing research at too small a scale to 
+reach generalizable conclusions for investment decisions. For eHealth programs to succeed, public and 
+private health and IT stakeholders need to develop an investment case to drive scale up and 
+sustainability of eHealth infrastructures. The economic models and scenarios provided in this paper will 
+help measure, direct, and evaluate eHealth program performance and better target and attract public 
+and private investment. Failure to do so could result in missed opportunities to harness the 
+transformational power of eHealth networks and devices. 
+This paper focuses on promising areas for research to build such an evidence-base, through real-world 
+case studies and economic models, and attempts to provide a preliminary framework of questions to 
+pursue in the evaluation of the economics of eHealth.  Although eHealth projects are already operating 
+in a wide variety of countries around the world, and thus may provide useful data to generate a 
+platform for informed decision making on investments in eHealth, we are not aware of any that have 
+been designed as integrated systems (i.e. supporting the full continuum of care in an area, such as 
+maternal care), as opposed to point solutions.  The research and analysis outlined in this paper can help 
+maximize the value added of future eHealth investments.  The next step should be a carefully targeted 
+research program across a diverse group of low and middle income countries using integrated systems 
+as the subject.   
+  
+23 
+ 
+ 
+Acknowledgements 
+The authors acknowledge with thanks support from the mHealth Alliance which funded the preparation 
+of this paper. We also acknowledge the many helpful suggestions and comments on earlier drafts of the 
+paper, and in particular the advice from participants at the expert meeting organized by the mHealth 
+Alliance  and World Health Organization in Geneva on September 6th and 7th, 2010. 
+  
+24 
+ 
+ 
+BIOGRAPHIES 
+Julian Schweitzer 
+Julian Schweitzer is Principal at the Results for Development Institute (R4D), a nonprofit organization 
+dedicated to accelerating social and economic progress in low and middle income countries. Prior to 
+joining R4D, Julian had a distinguished career at the World Bank, with recent positions as Director of the 
+Health, Nutrition and Population Department and Acting Vice President, Human Development Network. 
+He has over thirty years of development experience with a focus on human development. He holds a 
+Ph.D. from the University of London and has authored numerous articles and essays on economic and 
+human development.   
+Christina Synowiec 
+Christina Synowiec is a Program Associate at the Results for Development Institute (R4D), focusing on 
+health systems development and the promotion of universal health coverage, in addition to mHealth. 
+Prior to joining R4D, Ms. Synowiec was a Senior Research Analyst at the Advisory Board Company, 
+where she designed and executed best practice research studies analyzing key economic and political 
+trends affecting U.S. hospitals. Ms. Synowiec holds a Bachelors of Philosophy in Interdisciplinary Studies 
+(Magna Cum Laude) specializing in international human rights from Miami University in Oxford, Ohio. 
+25 
+ 

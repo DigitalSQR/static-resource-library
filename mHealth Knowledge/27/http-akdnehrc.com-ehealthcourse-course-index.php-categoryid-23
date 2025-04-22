@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html  dir="ltr" lang="en" xml:lang="en">
+<head>
+    <title>Home: Online Certificate Course in eHealth - 2017</title>
+    <link rel="shortcut icon" href="http://akdnehrc.com/ehealthcourse/theme/image.php/lambda/theme/1525073049/favicon" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="moodle, Home: Online Certificate Course in eHealth - 2017" />
+<script type="text/javascript">
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"http:\/\/akdnehrc.com\/ehealthcourse","sesskey":"PkUvJhmUZU","loadingicon":"http:\/\/akdnehrc.com\/ehealthcourse\/theme\/image.php\/lambda\/core\/1525073049\/i\/loading_small","themerev":"1525073049","slasharguments":1,"theme":"lambda","jsrev":"1487583007","svgicons":true};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''};if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else me.path=component+'/'+component+'.'+me.type};
+YUI_config = {"debug":false,"base":"http:\/\/akdnehrc.com\/ehealthcourse\/lib\/yuilib\/3.17.2\/","comboBase":"http:\/\/akdnehrc.com\/ehealthcourse\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"http:\/\/akdnehrc.com\/ehealthcourse\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"http:\/\/akdnehrc.com\/ehealthcourse\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"http:\/\/akdnehrc.com\/ehealthcourse\/theme\/yui_combo.php?m\/1487583007\/","combine":true,"comboBase":"http:\/\/akdnehrc.com\/ehealthcourse\/theme\/yui_combo.php?","ext":false,"root":"m\/1487583007\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-formautosubmit":{"requires":["base","event-key"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-formchangechecker":{"requires":["base","event-focus"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-checknet":{"requires":["base-base","moodle-core-notification-alert","io-base"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-dock":{"requires":["base","node","event-custom","event-mouseenter","event-resize","escape","moodle-core-dock-loader"]},"moodle-core-dock-loader":{"requires":["escape"]},"moodle-core_availability-form":{"requires":["base","node","event","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-calendar-eventmanager":{"requires":["base","node","event-mouseenter","overlay","moodle-calendar-eventmanager-skin"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-modchooser":{"requires":["moodle-core-chooserdialogue","moodle-course-coursebase"]},"moodle-course-toolboxes":{"requires":["node","base","event-key","node","io","moodle-course-coursebase","moodle-course-util"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-form-showadvanced":{"requires":["node","base","selector-css3"]},"moodle-form-passwordunmask":{"requires":["node","base"]},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-form-shortforms":{"requires":["node","base","selector-css3"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-question-qbankmanager":{"requires":["node","selector-css3"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_mobileapp-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_dialogue-userpreference":{"requires":["base","node","json-parse","userpreference","userpreference-filters","userpreference-highlighters","event","event-key"]},"moodle-mod_dialogue-autocomplete":{"requires":["base","node","json-parse","autocomplete","autocomplete-filters","autocomplete-highlighters","event","event-key"]},"moodle-mod_dialogue-clickredirector":{"requires":["base","node","json-parse","clickredirector","clickredirector-filters","clickredirector-highlighters","event","event-key"]},"moodle-mod_forum-subscriptiontoggle":{"requires":["base-base","io-base"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-repaginate":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-randomquestion":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-util":{"requires":["node"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_quiz-quizquestionbank":{"requires":["base","event","node","io","io-form","yui-later","moodle-question-qbankmanager","moodle-core-notification-dialogue"]},"moodle-mod_videofile-videojs":{"requires":["base","node","event"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-block_navigation-navigation":{"requires":["base","io-base","node","event-synthetic","event-delegate","json-parse"]},"moodle-block_xp-notification":{"requires":["base","node","handlebars","button-plugin","moodle-core-notification-dialogue"]},"moodle-block_xp-rulepicker":{"requires":["base","node","handlebars","moodle-core-notification-dialogue"]},"moodle-block_xp-filters":{"requires":["base","node","moodle-core-dragdrop","moodle-block_xp-rulepicker"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-format_grid-gridkeys":{"requires":["event-nav-keys"]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-theme_bootstrapbase-bootstrap":{"requires":["node","selector-css3"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_html-button":{"requires":["moodle-editor_atto-plugin","event-valuechange"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"http:\/\/akdnehrc.com\/ehealthcourse\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"http:\/\/akdnehrc.com\/ehealthcourse\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1487583007\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"http:\/\/akdnehrc.com\/ehealthcourse\/lib\/javascript.php\/1487583007\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker"]},"mathjax":{"name":"mathjax","fullpath":"http:\/\/cdn.mathjax.org\/mathjax\/2.3-latest\/MathJax.js?delayStartupUntil=configured"}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+<link rel="stylesheet" type="text/css" href="http://akdnehrc.com/ehealthcourse/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css" /><script type="text/javascript" src="http://akdnehrc.com/ehealthcourse/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.js&amp;rollup/1487583007/mcore-min.js"></script><script type="text/javascript" src="http://akdnehrc.com/ehealthcourse/theme/jquery.php/core/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="http://akdnehrc.com/ehealthcourse/theme/jquery.php/theme_lambda/dropdown_2_3_2.js"></script>
+<script type="text/javascript" src="http://akdnehrc.com/ehealthcourse/theme/jquery.php/theme_lambda/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="http://akdnehrc.com/ehealthcourse/theme/jquery.php/theme_lambda/camera.min.1.11.js"></script>
+<script type="text/javascript" src="http://akdnehrc.com/ehealthcourse/theme/jquery.php/theme_lambda/jquery.bxslider.js"></script>
+<script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="http://akdnehrc.com/ehealthcourse/theme/styles.php/lambda/1525073049/all" />
+<script type="text/javascript" src="http://akdnehrc.com/ehealthcourse/lib/javascript.php/1487583007/lib/javascript-static.js"></script>
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1807487422847044'); // Insert your pixel ID here.
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1807487422847044&ev=PageView&noscript=1"
+/></noscript>
+<!-- DO NOT MODIFY -->
+<!-- End Facebook Pixel Code -->    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google web fonts -->
+    <style type="text/css">
+	@font-face {
+	font-family:'FontAwesome';
+	src: url('http://akdnehrc.com/ehealthcourse/theme/lambda/fonts/fontawesome-webfont.eot');
+	src: url('http://akdnehrc.com/ehealthcourse/theme/lambda/fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'), url('http://akdnehrc.com/ehealthcourse/theme/lambda/fonts/fontawesome-webfont.woff') format('woff'), url('http://akdnehrc.com/ehealthcourse/theme/lambda/fonts/fontawesome-webfont.ttf') format('truetype'), url('http://akdnehrc.com/ehealthcourse/theme/lambda/fonts/fontawesome-webfont.svg#fontawesomeregular') format('svg');
+	font-weight:normal;
+	font-style:normal;
+	}
+</style>
+
+<style type="text/css">
+	@font-face {
+	font-family:'open_sansregular';
+	src:url('http://akdnehrc.com/ehealthcourse/theme/lambda/fonts/OpenSans-Regular-webfont.eot');
+	src:url('http://akdnehrc.com/ehealthcourse/theme/lambda/fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),url('http://akdnehrc.com/ehealthcourse/theme/lambda/fonts/OpenSans-Regular-webfont.woff') format('woff'),url('http://akdnehrc.com/ehealthcourse/theme/lambda/fonts/OpenSans-Regular-webfont.ttf') format('truetype'),url('http://akdnehrc.com/ehealthcourse/theme/lambda/fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+	font-weight:normal;
+	font-style:normal;
+	}
+	@font-face {
+	font-family:'open_sansbold';
+	src:url('http://akdnehrc.com/ehealthcourse/theme/lambda/fonts/OpenSans-Bold-webfont.eot');
+	src:url('http://akdnehrc.com/ehealthcourse/theme/lambda/fonts/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),url('http://akdnehrc.com/ehealthcourse/theme/lambda/fonts/OpenSans-Bold-webfont.woff') format('woff'),url('http://akdnehrc.com/ehealthcourse/theme/lambda/fonts/OpenSans-Bold-webfont.ttf') format('truetype'),url('http://akdnehrc.com/ehealthcourse/theme/lambda/fonts/OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+	font-weight:normal;
+	font-style:normal;
+	}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body  id="page-course-index-category" class="format-site  path-course path-course-index safari dir-ltr lang-en yui-skin-sam yui3-skin-sam akdnehrc-com--ehealthcourse pagelayout-coursecategory course-1 context-1682 category-23 notloggedin has-region-side-pre empty-region-side-pre has-region-side-post used-region-side-post has-region-footer-left empty-region-footer-left has-region-footer-middle empty-region-footer-middle has-region-footer-right empty-region-footer-right">
+
+<div class="skiplinks"><a class="skip" href="#maincontent">Skip to main content</a></div>
+<script type="text/javascript">
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+<div id="wrapper">
+
+
+
+
+    <header id="page-header" class="clearfix">
+       
+    <div class="container-fluid">    
+    <div class="row-fluid">
+    <!-- HEADER: LOGO AREA -->
+        	
+                            <div class="logo-header">
+                	<a class="logo" href="http://akdnehrc.com/ehealthcourse" title="Home">
+                    <img src="//akdnehrc.com/ehealthcourse/pluginfile.php/1/theme_lambda/logo/1525073049/logo.png" class="logo" alt="logo" />                    </a>
+                </div>
+                  	
+            
+            <div class="login-header">
+            <div class="profileblock">
+            
+            		<form class="navbar-form pull-right" method="post" action="http://akdnehrc.com/ehealthcourse/login/index.php?authldap_skipntlmsso=1">
+		<div id="block-login">
+		<label id="user"><i class="fa fa-user"></i></label>	
+		<input class="span2" type="text" name="username" onFocus="if(this.value =='Username' ) this.value=''" onBlur="if(this.value=='') this.value='Username'" value="Username" style="margin-bottom:10px;">
+		<label id="pass"><i class="fa fa-key"></i></label>
+		<input class="span2" type="text" name="password" value="Password" onFocus="if(this.value =='Password' ) this.value='';this.type='password'" onBlur="if(this.value=='') {this.value='Password';this.type='text';}">
+		<input type="submit" id="submit" name="submit" value=""/>
+		</div>
+		</form>
+	
+	</div>
+	</div>
+            
+    </div>
+    </div>
+               
+</header>
+
+<header role="banner" class="navbar">
+    <nav role="navigation" class="navbar-inner">
+        <div class="container-fluid">
+            <a class="brand" href="http://akdnehrc.com/ehealthcourse">Home</a>
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+            <div class="nav-collapse collapse">
+                                <div class="nav-divider-right"></div>
+                <ul class="nav pull-right">
+                    <li></li>
+                </ul>
+                
+                <form id="search" action="http://akdnehrc.com/ehealthcourse/course/search.php" method="GET">
+                <div class="nav-divider-left"></div>							
+					<input id="coursesearchbox" type="text" onFocus="if(this.value =='Search courses' ) this.value=''" onBlur="if(this.value=='') this.value='Search courses'" value="Search courses" name="search">
+					<input type="submit" value="">							
+				</form>
+                
+            </div>
+        </div>
+    </nav>
+</header>
+<div class="text-center" style="line-height:1em;">
+	<img src="http://akdnehrc.com/ehealthcourse/theme/lambda/pix/bg/shadow.png" class="slidershadow" alt="">
+</div>
+
+<!-- Start Main Regions -->
+<div id="page" class="container-fluid">
+
+    
+    <div id="page-content" class="row-fluid">
+        <div id="region-bs-main-and-pre" class="span9">
+            <div class="row-fluid">
+            	                <section id="region-main" class="span8">
+                                    <div role="main"><span id="maincontent"></span><span></span><div class="categorypicker"><div class="singleselect"><form method="get" action="http://akdnehrc.com/ehealthcourse/course/index.php" id="switchcategory"><div><label for="single_select5d83a1a8470c31">Course categories:</label><select id="single_select5d83a1a8470c31" class="select autosubmit singleselect" name="categoryid"><option selected="selected" value="23">Online Certificate Course in eHealth - 2017</option><option value="18">Online Certificate Course in eHealth - 2016</option></select><noscript class="inline"><div><input type="submit" value="Go" /></div></noscript></div></form></div></div><form id="coursesearch" action="http://akdnehrc.com/ehealthcourse/course/search.php" method="get"><fieldset class="coursesearchbox invisiblefieldset"><label for="coursesearchbox">Search courses: </label><input type="text" id="coursesearchbox" size="30" name="search" value="" /><input type="submit" value="Go" /></fieldset></form><div class="course_category_tree clearfix "><div class="content"><div class="courses category-browse category-browse-23"><div class="coursebox clearfix odd first" data-courseid="52" data-type="1"><div class="info"><h3 class="coursename"><a class="" href="http://akdnehrc.com/ehealthcourse/course/view.php?id=52">Course Description</a></h3><div class="moreinfo"></div><div class="enrolmenticons"><img alt="Guest access requires password" class="smallicon" title="Guest access requires password" src="http://akdnehrc.com/ehealthcourse/theme/image.php/lambda/enrol_guest/1525073049/withpassword" /></div></div><div class="content"><div class="summary"><div class="no-overflow">AKDN eHRC is offering a year-long online certificate course in eHealth. This course is designed to build the eHealth capacities of professionals working in the health sector. It focuses on helping the audience understand the concepts of eHealth, implement eHealth solutions and address the challenges around eHealth service delivery, primarily in low- and-middle income countries. <br><br>The course consists of 11 modules. Each module is delivered asynchronously over a period of three weeks. For more information, visit the 'Course Structure' tab on the right side of this page. <br><br>Each module below also includes a video explains the module, walks you through the weekly activities that you will perform and outlines what is expected of you from this module.<br></div></div></div></div><div class="coursebox clearfix even" data-courseid="54" data-type="1"><div class="info"><h3 class="coursename"><a class="" href="http://akdnehrc.com/ehealthcourse/course/view.php?id=54">Module 1: Introduction to Health and Health Care System</a></h3><div class="moreinfo"></div></div><div class="content"><div class="summary"><div class="no-overflow"><div style="text-align: left;"><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;;">This module provides an overview of the basic concepts of health and the health system. It explains the importance of health in an individual's life for supporting a better future and discusses various challenges currently faced by health care systems around the world. Moreover, it sheds light on the mission and health-related activities implemented by the World Health Organization (WHO), to improve the health status of people in developing countries.&nbsp;</span><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;;"><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><br><div style="text-align: center;"><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;;"><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;;"><span style="font-size:12.0pt;
+line-height:150%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;"><a href="http://akdnehrc.com/ehealthcourse/mod/page/view.php?id=1187">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img src="http://akdnehrc.com/ehealthcourse/pluginfile.php/1701/course/summary/Untitled-1.png" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="141" width="250"></a></span></span></span></div><div style="text-align: center;"><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;;"><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;;"><br></span></span></div><div style="text-align: center;"><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;;"><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;;"><span style="font-family: calibri, serif; line-height: 18.4px; text-align: left;"><b>Module Timeline:</b> Apr 17, 2017 - May 07, 2017</span></span></span></div><div style="text-align: center;"><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;;"><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;;"><span style="font-family: calibri, serif; line-height: 18.4px; text-align: left;"><br></span></span></span></div><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;;"><div style="text-align: left;"><div style="text-align: right;"><div style="text-align: center;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="font-size:12.0pt;
+line-height:150%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;"><button type="button" onclick="parent.location='http://akdnehrc.com/ehealthcourse/course/view.php?id=54'" class="btn btn-success">Go to the Module</button></span><br></div></div> </div></span></div></div></div><div class="courseimage"><img src="http://akdnehrc.com/ehealthcourse/pluginfile.php/1701/course/overviewfiles/module_1.png" /></div></div></div><div class="coursebox clearfix odd" data-courseid="55" data-type="1"><div class="info"><h3 class="coursename"><a class="" href="http://akdnehrc.com/ehealthcourse/course/view.php?id=55">Module 2: Introduction to Information and Communication Technology</a></h3><div class="moreinfo"></div></div><div class="content"><div class="summary"><div class="no-overflow"><div style="text-align: left;"><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;;">This introductory module presents an overview of the basic concepts of Information and Communication Technology (ICT). This section of the course will familiarise novice eHealth professionals with the basic components of ICT along with its application in different sectors. This module will prepare professionals to embrace ICT to excel in this technology-driven world.</span></div><div style="text-align: left;"><br><div style="text-align: center;"><a href="http://akdnehrc.com/ehealthcourse/mod/page/view.php?id=1219"><img src="http://akdnehrc.com/ehealthcourse/pluginfile.php/1737/course/summary/module_2_video_thumb.png" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" height="141" width="250"><br></a></div><div style="text-align: center;"><a href="http://akdnehrc.com/ehealthcourse/mod/page/view.php?id=1219"><br></a></div><div style="text-align: center;"><span style="font-family: calibri, serif; font-size: 16px; line-height: 18.4px; text-align: left;"><b>Module Timeline:</b> May 15, 2017 - Jun 04, 2017</span><br></div><div style="text-align: center;"><br></div><div style="text-align: right;"><div style="text-align: center;"><span style="font-size:12.0pt;
+line-height:150%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;"><button type="button" onclick="parent.location='http://akdnehrc.com/ehealthcourse/course/view.php?id=55'" class="btn btn-success">Go to the Module</button></span><br><br></div></div> </div></div></div><div class="courseimage"><img src="http://akdnehrc.com/ehealthcourse/pluginfile.php/1737/course/overviewfiles/module_2.png" /></div></div></div><div class="coursebox clearfix even" data-courseid="57" data-type="1"><div class="info"><h3 class="coursename"><a class="" href="http://akdnehrc.com/ehealthcourse/course/view.php?id=57">Module 3: Introduction to eHealth</a></h3><div class="moreinfo"></div></div><div class="content"><div class="summary"><div class="no-overflow"><div style="text-align: left;"><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;;">The field of eHealth comes at the intersection of health and technology. This fusion of information technology and health has opened new ways of health care delivery beyond geographical boundaries. This module presents an overview of the field of eHealth. This section of the course will familiarise professionals from both IT and non-IT backgrounds with the basic concepts of eHealth.</span></div><div style="text-align: left;"><a target="_blank" href="http://akdnehrc.com/ehealthcourse/mod/page/view.php?id=1282" style="font-family: calibri, serif; font-size: 12pt; line-height: 115%;"><b><br></b></a><div style="text-align: center;"><b><a target="_blank" href="http://akdnehrc.com/ehealthcourse/mod/page/view.php?id=1282"><img src="http://akdnehrc.com/ehealthcourse/material_images/Untitled-1.png" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" height="141" width="250"></a></b></div><div style="text-align: center;"><br></div><div style="text-align: center;"><span style="font-family: calibri, serif; font-size: 16px; line-height: 18.4px; text-align: left;"><b>Module Timeline:</b>&nbsp;Jun 05, 2017 - Jun 25, 2017</span></div><div style="text-align: center;"><span style="font-family: calibri, serif; font-size: 16px; line-height: 18.4px; text-align: left;"><br></span></div><div style="text-align: right;"><div style="text-align: center;"><span style="font-size:12.0pt;
+line-height:150%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;"><button type="button" onclick="parent.location='http://akdnehrc.com/ehealthcourse/course/view.php?id=57'" class="btn btn-success">Go to the Module</button></span><br><br></div></div> </div></div></div><div class="courseimage"><img src="http://akdnehrc.com/ehealthcourse/pluginfile.php/1805/course/overviewfiles/module_3.png" /></div></div></div><div class="coursebox clearfix odd" data-courseid="58" data-type="1"><div class="info"><h3 class="coursename"><a class="" href="http://akdnehrc.com/ehealthcourse/course/view.php?id=58">Module 4: Understanding Technology</a></h3><div class="moreinfo"></div></div><div class="content"><div class="summary"><div class="no-overflow"><div style="text-align: left;"><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;;">This module is an extension of Module 2 on 'Introduction to Technology'. It provides learners with an in-depth understanding of the concepts of ICT along with its integration in health care. Moreover, it helps participants learn about the significance of health care information - its storage, sharing, and retrieval in health information systems. One of the main focuses of this module is to explain various health care interoperability standards used in the health care industry.</span></div><div style="text-align: left;"><br></div><div style="text-align: left;"><div style="text-align: center;"><b><a href="http://akdnehrc.com/ehealthcourse/mod/page/view.php?id=1312"><img src="http://akdnehrc.com/ehealthcourse/pluginfile.php/1842/course/summary/module-4.png" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" height="141" width="240"></a></b></div><div style="text-align: center;"><br></div><div style="text-align: center;"><span style="font-family: calibri, serif; font-size: 16px; line-height: 18.4px; text-align: left;"><b>Module Timeline: </b>Jul 17, 2017 - Aug 06, 2017</span><br></div><div style="text-align: center;"><span style="font-family: calibri, serif; font-size: 16px; line-height: 18.4px; text-align: left;"><br></span></div><div style="text-align: right;"><div style="text-align: center;"><span style="font-size:12.0pt;
+line-height:150%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;Times New Roman&quot;"><button type="button" onclick="parent.location='http://akdnehrc.com/ehealthcourse/course/view.php?id=58'" class="btn btn-success">Go to the Module</button></span><br><br></div></div> </div></div></div><div class="courseimage"><img src="http://akdnehrc.com/ehealthcourse/pluginfile.php/1842/course/overviewfiles/module_4.jpg" /></div></div></div><div class="coursebox clearfix even" data-courseid="59" data-type="1"><div class="info"><h3 class="coursename"><a class="" href="http://akdnehrc.com/ehealthcourse/course/view.php?id=59">Module 5: Understanding Telemedicine</a></h3><div class="moreinfo"></div><div class="enrolmenticons"><img alt="Guest access requires password" class="smallicon" title="Guest access requires password" src="http://akdnehrc.com/ehealthcourse/theme/image.php/lambda/enrol_guest/1525073049/withpassword" /></div></div><div class="content"><div class="summary"><div class="no-overflow"><div style="text-align: left;"><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;;">This module offers an overview of telemedicine. It explores potentials and opportunities in the field of telemedicine and provides insight on how to implement and set-up telemedicine services. The module highlights some of the best practices as well as challenges faced by telemedicine implementers and explicates the outcomes of telemedicine and its impact on people's lives.&nbsp;</span></div><div style="text-align: left;"><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;;"><br></span></div><div style="text-align: left;"><div style="text-align: center;"><div style="text-align: left;"><b><div style="text-align: center;"><a href="http://akdnehrc.com/moodle/mod/page/view.php?id=910"></a></div><p style="text-align: center;"><b><a href="http://akdnehrc.com/moodle/mod/page/view.php?id=910" target="_blank"><img src="http://akdnehrc.com/moodle/material_images/Screenshot_2_new.png" alt="" width="250" height="141" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;"></a></b></p><p style="text-align: center;"><br></p><p style="text-align: center;"><span style="font-family: calibri, serif; font-size: 16px; line-height: 18.4px; text-align: left;">Module Timeline: </span><span style="font-family: calibri, serif; font-size: 16px; font-weight: normal; line-height: 18.4px; text-align: left;">Aug 7, 2017 - Aug 27, 2017</span></p><p style="text-align: center;"><span style="font-family: calibri, serif; font-size: 16px; font-weight: normal; line-height: 18.4px; text-align: left;"><br></span></p></b></div><div style="text-align: right;"><div style="text-align: center;"><b><span style="font-size:12.0pt;
+line-height:150%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;Times New Roman&quot;"><button type="button" onclick="parent.location='http://akdnehrc.com/ehealthcourse/course/view.php?id=59'" class="btn btn-success">Go to the Module</button></span><br><br></b></div></div><b> </b></div></div></div></div><div class="courseimage"><img src="http://akdnehrc.com/ehealthcourse/pluginfile.php/1866/course/overviewfiles/module_6.png" /></div></div></div><div class="coursebox clearfix odd" data-courseid="60" data-type="1"><div class="info"><h3 class="coursename"><a class="" href="http://akdnehrc.com/ehealthcourse/course/view.php?id=60">Module 6: Understanding mHealth</a></h3><div class="moreinfo"></div></div><div class="content"><div class="summary"><div class="no-overflow"><div style="text-align: left;"><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;;">This module provides an in-depth understanding of mobile technologies in the field of health care. It describes the basic components of mobile health (mHealth), its application in health care systems, and the benefits, potentials and challenges of mHealth within health care organizations.</span></div><div style="text-align: left;"><div style="text-align: center;"><br></div><div style="text-align: center;"></div><p style="text-align: center;"><a href="http://akdnehrc.com/moodle/mod/page/view.php?id=879"><img src="http://akdnehrc.com/moodle/material_images/moduleimage6overview.png" alt="" role="presentation" class="img-responsive" style="vertical-align: text-bottom; margin: 0px 0.5em;" height="141" width="250"></a></p><p style="text-align: center;"><b style="font-family: calibri, serif; font-size: 12pt; line-height: 18.4px;"><br></b></p><p style="text-align: center;"><b style="font-family: calibri, serif; font-size: 12pt; line-height: 18.4px;">Module Timeline:</b><span style="font-family: calibri, serif; font-size: 12pt; line-height: 18.4px;"> Sep 4, 2017 - Sep 24, 2017</span></p><p style="text-align: center;"><span style="font-family: calibri, serif; font-size: 12pt; line-height: 18.4px;"><br></span></p><div style="text-align: center;"><div style="text-align: center;"><span style="font-size:12.0pt;
+line-height:150%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;"><button type="button" onclick="parent.location='http://akdnehrc.com/ehealthcourse/course/view.php?id=60'" class="btn btn-success">Go to the Module</button></span><br><br></div></div> </div></div></div><div class="courseimage"><img src="http://akdnehrc.com/ehealthcourse/pluginfile.php/1904/course/overviewfiles/module_7.jpg" /></div></div></div><div class="coursebox clearfix even" data-courseid="61" data-type="1"><div class="info"><h3 class="coursename"><a class="" href="http://akdnehrc.com/ehealthcourse/course/view.php?id=61">Module 7: Understanding eLearning</a></h3><div class="moreinfo"></div></div><div class="content"><div class="summary"><div class="no-overflow"><div style="text-align: left;"><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;;">This module provides an overview of eLearning in health care. It describes the benefits and challenges of adopting eLearning for the education of health care providers. Various aspects of eLearning are explored through a series of activities.&nbsp; Participants are provided with the essential terminology and processes required to set-up an eLearning programme for their organisations.&nbsp;</span></div><div style="text-align: left;"><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;;"><br></span></div><div style="text-align: left;"><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;;"><div style="text-align: left;"><div style="text-align: center;"><div style="text-align: center;"><b><a href="http://akdnehrc.com/moodle/mod/page/view.php?id=840"><img src="http://akdnehrc.com/moodle/material_images/Module%20_07_overview.jpg" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="141" width="250"></a></b></div><div style="text-align: center;"><br></div><div style="text-align: center;"><span style="font-family: calibri, serif; line-height: 18.4px; text-align: left;"><b>Module Timeline: </b>Oct 2, 2017 - Oct 22, 2017</span><br></div></div><div style="text-align: right;"><b><b style="">&nbsp;&nbsp;<br></b></b><div style="text-align: center;"><a href="http://akdnehrc.com/ehealthcourse/course/view.php?id=61"><span style="font-size:12.0pt;
+line-height:150%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;"><button type="button" onclick="parent.location='http://akdnehrc.com/moodle/course/view.php?id=35'" class="btn btn-success">Go to the Module</button></span><br></a></div><br></div></div> </span></div></div></div><div class="courseimage"><img src="http://akdnehrc.com/ehealthcourse/pluginfile.php/1936/course/overviewfiles/module_5a.png" /></div></div></div><div class="coursebox clearfix odd" data-courseid="62" data-type="1"><div class="info"><h3 class="coursename"><a class="" href="http://akdnehrc.com/ehealthcourse/course/view.php?id=62">Module 8: Understanding Health Information Systems</a></h3><div class="moreinfo"></div></div><div class="content"><div class="summary"><div class="no-overflow"><div style="text-align: left;"><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;;">With exponential growth in medical knowledge, there is an inherent need to share health care information. This module gives participants an in-depth understanding of various Health Information Systems (HIS), while focusing on the applications, scope, potentials and challenges of HIS.</span></div><div style="text-align: left;"><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;;"><br></span></div><div style="text-align: left;"><div style="text-align: center;"><a href="http://akdnehrc.com/moodle/mod/page/view.php?id=809" target="_blank"><img src="http://akdnehrc.com/moodle/material_images/Module_8.jpg" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="141" width="250"></a></div><div style="text-align: center;"><br></div><div style="text-align: center;"><span style="font-family: calibri, serif; font-size: 16px; line-height: 18.4px; text-align: left;"><b>Module Timeline:</b> Oct 30, 2017 - Nov 19, 2017</span></div><div style="text-align: center;"><b style="text-align: right;"><b>&nbsp;&nbsp;</b></b></div><div style="text-align: right;"><div style="text-align: center;"><span style="font-size:12.0pt;
+line-height:150%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;"><button type="button" onclick="parent.location='http://akdnehrc.com/moodle/course/view.php?id=34'" class="btn btn-success"><a href="http://akdnehrc.com/ehealthcourse/course/view.php?id=62">Go to the Module</a></button></span><br></div><br></div></div></div></div><div class="courseimage"><img src="http://akdnehrc.com/ehealthcourse/pluginfile.php/1977/course/overviewfiles/module_8.png" /></div></div></div><div class="coursebox clearfix even" data-courseid="63" data-type="1"><div class="info"><h3 class="coursename"><a class="" href="http://akdnehrc.com/ehealthcourse/course/view.php?id=63">Module 9: eHealth Management</a></h3><div class="moreinfo"></div></div><div class="content"><div class="summary"><div class="no-overflow"><div style="text-align: left;"><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;;">This module presents an overview of eHealth management. It focuses on project management and its processes that can be applied to eHealth projects. It determines the need to integrate eHealth into the health care service delivery system. This module provides knowledge and understanding about eHealth policy implications and gaps. It also highlights common challenges faced during eHealth implementation and proposes ways to address them. Lastly, it deals with quality and change management process that can be applied during eHealth adoption.&nbsp;</span></div><div style="text-align: left;"><br></div><div style="text-align: left;"><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;;"><div style="text-align: left;"><div style="text-align: center;"><div style="text-align: center;"><b><a href="http://akdnehrc.com/moodle/mod/page/view.php?id=779"><img src="http://akdnehrc.com/moodle/material_images/eHealth%20Management.png" alt="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" class="img-responsive" height="141" width="250"></a></b></div><div style="text-align: center;"><br></div><div style="text-align: center;"><span style="font-family: calibri, serif; line-height: 18.4px; text-align: left;"><b>Module Timeline:</b>&nbsp;Nov 27, 2017 - Dec 17, 2017</span><br></div></div><div style="text-align: right;"><b><b style="">&nbsp; <br></b></b><div style="text-align: center;"><span style="font-size:12.0pt;
+line-height:150%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;"><button type="button" onclick="parent.location='http://akdnehrc.com/ehealthcourse/course/view.php?id=63'" class="btn btn-success">Go to the Module</button></span><br></div><br></div></div> </span></div></div></div><div class="courseimage"><img src="http://akdnehrc.com/ehealthcourse/pluginfile.php/2013/course/overviewfiles/module_9.jpg" /></div></div></div><div class="coursebox clearfix odd" data-courseid="64" data-type="1"><div class="info"><h3 class="coursename"><a class="" href="http://akdnehrc.com/ehealthcourse/course/view.php?id=64">Module 10: Monitoring and Evaluation</a></h3><div class="moreinfo"></div></div><div class="content"><div class="summary"><div class="no-overflow"><div style="text-align: left;"><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;;">This module focuses on various aspects of monitoring and evaluation in eHealth. Opportunities to improve the quality of eHealth projects or programmes by enhancing systematic monitoring and evaluation systems are explored.&nbsp;</span></div><div style="text-align: left;"><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;;"><br></span><div style="text-align: center;"><a href="http://akdnehrc.com/moodle/mod/page/view.php?id=749"><img src="http://akdnehrc.com/moodle/material_images/thumb_image%20(1).jpg" alt=" " =""="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" height="141" width="240"></a></div><div style="text-align: center;"><br></div><div style="text-align: center;"><span style="font-family: calibri, serif; font-size: 16px; line-height: 18.4px; text-align: left;"><b>Module Timeline:</b> Jan 1, 2018 - Jan 21, 2018</span><br></div><div style="text-align: center;"><span style="font-family: calibri, serif; font-size: 16px; line-height: 18.4px; text-align: left;"><br></span></div><div style="text-align: right;"><div style="text-align: center;"><span style="font-size:12.0pt;
+line-height:150%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;Times New Roman&quot;"><button type="button" onclick="parent.location='http://akdnehrc.com/ehealthcourse/course/view.php?id=64'" class="btn btn-success">Go to the Module</button></span><br><br></div></div> </div></div></div><div class="courseimage"><img src="http://akdnehrc.com/ehealthcourse/pluginfile.php/2046/course/overviewfiles/module_10.jpg" /></div></div></div><div class="coursebox clearfix even last" data-courseid="65" data-type="1"><div class="info"><h3 class="coursename"><a class="" href="http://akdnehrc.com/ehealthcourse/course/view.php?id=65">Module 11:Capstone</a></h3><div class="moreinfo"></div></div><div class="content"><div class="summary"><div class="no-overflow"><div style="text-align: left;"><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;;">This is the last module of the course. It elaborates upon the need, importance, and components of developing a proposal for eHealth service delivery projects. Since this module integrates learning from all the previous modules, it will enable participants to analyse various aspects of the core components of eHealth (mHealth, eLearning, telehealth, and health informatics). On the basis of this, participants will develop a service-based proposal for an eHealth project.</span></div><div style="text-align: left;"><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;;"><br></span><div style="text-align: center;"><a href="http://akdnehrc.com/moodle/mod/page/view.php?id=725"><img src="http://akdnehrc.com/moodle/material_images/module11.png" alt=" " =""="" role="presentation" style="vertical-align:text-bottom; margin: 0 .5em;" height="141" width="240"></a></div><div style="text-align: center;"><br></div><div style="text-align: center;"><span style="font-family: calibri, serif; font-size: 16px; line-height: 18.4px; text-align: left;"><b>Module Timeline:</b> Feb 5, 2018 - Apr 1, 2018</span><br></div><div style="text-align: center;"><br></div><div style="text-align: right;"><div style="text-align: center;"><span style="font-size:12.0pt;
+line-height:150%;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;Times New Roman&quot;"><button type="button" onclick="parent.location='http://akdnehrc.com/ehealthcourse/course/view.php?id=65'" class="btn btn-success">Go to the Module</button></span><br><br></div></div> </div></div></div><div class="courseimage"><img src="http://akdnehrc.com/ehealthcourse/pluginfile.php/2074/course/overviewfiles/module_11.png" /></div></div></div></div></div></div><div class="buttons"></div></div>                </section>
+                <aside id="block-region-side-pre" class="span4 desktop-first-column pull-right block-region" data-blockregion="side-pre" data-droptarget="1"></aside>            </div>
+        </div>
+        <aside id="block-region-side-post" class="span3 block-region" data-blockregion="side-post" data-droptarget="1"><a href="#sb-1" class="skip-block">Skip Online Certificate Course in eHealth</a><div id="inst243" class="block_html  block" role="complementary" data-block="html" data-instanceid="243" aria-labelledby="instance-243-header"><div class="header"><div class="title"><div class="block_action"></div><h2 id="instance-243-header">Online Certificate Course in eHealth</h2></div></div><div class="content"><div class="no-overflow"><div class="panel-group" id="accordion">
+<div class="panel panel-default">
+<div class="panel-heading">
+<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+Course Objectives&nbsp;</a>
+</div>
+<div style="height: 0px;" id="collapseOne" class="panel-collapse collapse">
+<div class="panel-body"><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;;">By the end of the course, participants would be able to:<br><br></span><ol><li>Define health and identify health care needs of the developing world;</li><li>Understand basic concepts of Information and Communication Technology (ICT);</li><li>Define eHealth and discuss its importance and applications in health care;</li><li>Understand advance concepts of ICT and its application in health care;</li><li>Explore the applications of telemedicine services;</li><li>Understand the uses and potentials of mobile technologies for health care;</li><li>Explore the scope of eLearning and the process of setting-up an eLearning programme;</li><li>Identify the role and importance of Health Information Systems;</li><li>Understand the process of eHealth management and integration into existing health systems;</li><li>Explain the concept and process of monitoring and evaluation for eHealth projects;</li><li>Develop a proposal for an eHealth service delivery project.</li></ol></div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" class="collapsed">
+Who Should Attend&nbsp;</a>
+</div>
+<div style="height: 0px;" id="collapseThree" class="panel-collapse collapse">
+<div style="text-align: left;" class="panel-body"><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;;">The module and the course is open to all professionals from the health care sector. These include doctors, nurses, technicians, pharmacists, allied health professionals, public health professionals, biomedical engineers, researchers, academicians, administrators, managers, IT professionals and students among others.</span><p></p>
+
+
+
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<a data-toggle="collapse" data-parent="#accordion" href="#collapseFour" class="collapsed">
+Course Structure&nbsp;</a>
+</div>
+<div style="height: 0px;" id="collapseFour" class="panel-collapse collapse">
+<div style="text-align: left;" class="panel-body"><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;;">The course consists of 11 modules; each module will be delivered asynchronously over a period of three weeks. There is no live interaction between participants and facilitators. The modules details, objectives, and timelines are described in the respective module tab. Students will be expected to commit six to nine hours (two to three hours per week) for each module and will be required to interact online with course participants and/or course facilitators at least once a week. Students will be graded on the quality and quantity of their online interaction along with their performance in mid-term and final assessments. A certificate of participation will be awarded to successful participants at the end of each module and upon completion of the entire course.&nbsp;</span>
+
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<a data-toggle="collapse" data-parent="#accordion" href="#collapseSix" class="collapsed">
+Passing Criteria</a>
+</div>
+<div style="height: 0px;" id="collapseSix" class="panel-collapse collapse">
+<div style="text-align: left;" class="panel-body"><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;;">The passing criterion for each module is 50% or more marks in the overall module score. However, if you score less than 50% marks in any individual assessment, you will be given the option to retake the assessment one more time to improve your score.</span><br>
+
+
+</div>
+</div>
+</div>
+
+<div class="panel panel-default">
+<div class="panel-heading">
+<a data-toggle="collapse" data-parent="#accordion" href="#collapseeight" class="collapsed">
+How to Apply</a>
+</div>
+<div style="height: 0px;" id="collapseeight" class="panel-collapse collapse">
+<div style="text-align: left;" class="panel-body">
+<div style="text-align: left;"><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;;">Interested candidates may apply for specific module(s) or the entire course by submitting the <a href="http://akdnehrc.com/ehealthcourse/login/signup.php" target="_blank">online application form</a> and a personal statement.&nbsp;</span></div><p></p>
+
+</div>
+</div>
+</div>
+
+<div class="panel panel-default">
+<div class="panel-heading">
+<a data-toggle="collapse" data-parent="#accordion" href="#collapseFive" class="collapsed">
+Course Fee</a>
+</div>
+<div style="height: 0px;" id="collapseFive" class="panel-collapse collapse">
+<div style="text-align: left;" class="panel-body">
+<div style="text-align: left;"><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;;">The fee for the entire course (10 modules + 1 Capstone module) is USD 599.00. The fee for each module is USD 49.00. The fee for the Capstone module is USD 109.00. <br></span></div><p></p>
+
+</div>
+</div>
+</div>
+
+<div class="panel panel-default">
+<div class="panel-heading">
+<a data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" class="collapsed">
+Eligibility criteria</a></div>
+<div style="height: 0px;" id="collapseSeven" class="panel-collapse collapse">
+<div style="text-align: left;" class="panel-body">
+<div style="text-align: left;"><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;;"> 
+The course is open to all professionals from the health care, Information Technology and social development sector.&nbsp;</span></div><div style="text-align: left;"><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;;">Candidates must be:&nbsp;</span></div><div style="text-align: left;"><ul><li>fluent in English computer&nbsp;<br></li><li>literate with basic computer skills &nbsp;<br></li></ul></div>
+</div>
+</div>
+</div>
+
+<div class="panel panel-default">
+<div class="panel-heading">
+<a data-toggle="collapse" data-parent="#accordion" href="#collapseEleven" class="collapsed">
+Scholarship</a></div>
+<div style="height: 0px;" id="collapseEleven" class="panel-collapse collapse">
+<div style="text-align: left;" class="panel-body">
+<div style="text-align: left;"><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;;"> 
+• Applicant should have a Cumulative GPA of 3 or more</span></div><div style="text-align: left;"><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;;">• Applicant must enroll for all 11 modules&nbsp;</span></div><div style="text-align: left;"><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;;">• Applicants should be able to able to produce, at least one professional or academic reference
+* Please download, fill out and submit the scholarship form available&nbsp;<a href="http://akdnehrc.com/moodle/mod/resource/view.php?id=1173" target="_blank">here </a>(click to download).&nbsp;</span></div>
+</div>
+</div>
+</div>
+<div class="panel panel-default" style="margin-bottom: 4px !important;">
+<div class="panel-heading">
+<a data-toggle="collapse" data-parent="#accordion" href="#collapseNine" class="collapsed">
+Academic Policy</a>
+</div>
+<div style="height: 0px;" id="collapseNine" class="panel-collapse collapse">
+<div style="text-align: left;" class="panel-body">
+<div><span style="line-height: 115%;"> 
+To view academic policy, click <a href="http://akdnehrc.com/moodle/pluginfile.php/1690/mod_resource/content/1/Student%20Academic%20Appeals%20%20Policy.pdf" target="_blank">Here</a>.</span></div></div></div>
+
+<div class="panel panel-default" style="margin-bottom: 4px !important; margin-top: 4px !important;">
+<div class="panel-heading">
+<a href="http://akdnehrc.com/moodle/faq.php" target="_blank">
+FAQ</a>
+</div>
+<div style="height: 0px;" id="collapseFive" class="panel-collapse collapse">
+<div style="text-align: left;" class="panel-body">
+<div style="text-align: left;"><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;;">The fee for the course (11 modules) is USD 660.</span></div><p></p>
+
+</div>
+</div>
+</div>
+
+<div class="panel panel-default" style="margin-bottom: 4px !important;">
+<div class="panel-heading">
+<a data-toggle="collapse" data-parent="#accordion" href="#collapseEight" class="collapsed">
+Acknowledgement&nbsp;</a>
+</div>
+<div style="height: 0px;" id="collapseEight" class="panel-collapse collapse">
+<div style="text-align: left;" class="panel-body">
+<div style="text-align: left;"><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;;"><b>Content Development:&nbsp;</b></span></div><div style="text-align: left;"><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;;">Saleem Sayani, Afroz Sajwani, Sehrish Sajjad, Shaista Naeem Tejani,  Suha Tirmizi, Anam Feroz, Azra Naseem,  Abdul Muqeet, Imtiaz Hafiz, Nida Nizar Ali &amp; Eman Rashwan.</span></div><div style="text-align: left;"><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;;"><b>Content Review:&nbsp;</b></span></div><div style="text-align: left;"><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;;">Zohray Talib (Introduction to Health and Healthcare Systems), Syed Raza Abidi (Introduction to ICT, Understanding Technology), Joseph Tan (Introduction to eHealth, Understanding Telemedicine, Understanding mHealth, eHealth management, Monitoring and Evaluation), Azra Naseem (Understanding eLearning), Saleem Sayani (Capstone) &amp; Afroz Sajwani (Capstone).</span></div><div style="text-align: left;"><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;;"><b>Technical Assistance:&nbsp;</b></span></div><div style="text-align: left;"><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;;">Haris Mateen, Anila Shams, Fabiha Zaidi, Shahrukh Sharif &amp; Danish Sharif.&nbsp;</span></div><div style="text-align: left;"><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;;"><b>Editorial Review:</b>&nbsp;</span></div><div style="text-align: left;"><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;;">Tehniat Sheikh &amp; Kiran Qureshi.</span></div>
+</div>
+</div>
+</div>
+
+<div class="panel panel-default" style="margin-bottom: 0px !important;">
+<div class="panel-heading">
+<a data-toggle="collapse" data-parent="#accordion" href="#collapseTen" class="collapsed">
+Contact Us</a>
+</div>
+<div style="height: 0px;" id="collapseTen" class="panel-collapse collapse">
+<div style="text-align: left;" class="panel-body">
+<div style="text-align: left;"><span style="font-size:12.0pt;line-height:
+115%;font-family:&quot;calibri&quot;,&quot;serif&quot;;calibri&quot;;"> 
+For any course enrollment related queries, kindly contact us on 
+ehealthcoursesadmin@akdn.org.For all technical queries, kindly contact 
+us on ehealthcoursesupport@akdn.org.For respective module's content 
+specific queries, kindly post your questions in the "General query 
+forum" present within each module.&nbsp;</span>
+</div>
+</div>
+</div>
+</div></div></div></div></div></div><span id="sb-1" class="skip-block-to"></span></aside>    </div>
+    
+    <!-- End Main Regions -->
+
+    <a href="#top" class="back-to-top"><i class="fa fa-chevron-circle-up fa-3x"></i><p></p></a>
+
+	</div>
+
+	<footer id="page-footer" class="container-fluid">
+			<div class="row-fluid">
+		<aside id="block-region-footer-left" class="span4 block-region" data-blockregion="footer-left" data-droptarget="1"></aside><aside id="block-region-footer-middle" class="span4 block-region" data-blockregion="footer-middle" data-droptarget="1"></aside><aside id="block-region-footer-right" class="span4 block-region" data-blockregion="footer-right" data-droptarget="1"></aside> 	</div>
+
+	<div class="footerlinks">
+    	<div class="row-fluid">
+    		<p class="helplink"></p>
+    		<div class="footnote"><a href="#" onclick="window.open('https://www.sitelock.com/verify.php?site=akdnehrc.com','SiteLock','width=600,height=600,left=160,top=170');"><img alt="SiteLock" title="SiteLock" src="//shield.sitelock.com/shield/akdnehrc.com"></a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; AKDN eHealth Resource Centre<p><br></p></div>		</div>
+        
+            		
+    	        
+   	</div>
+	
+
+	</footer>
+
+    <script type="text/javascript" src="http://akdnehrc.com/ehealthcourse/theme/javascript.php/lambda/1525073049/footer"></script>
+<script type="text/javascript">
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"Last modified","name":"Name","error":"Error","info":"Information","morehelp":"More help","loadinghelp":"Loading...","cancel":"Cancel","yes":"Yes","confirm":"Confirm","no":"No","areyousure":"Are you sure?","closebuttontitle":"Close","unknownerror":"Unknown error"},"repository":{"type":"Type","size":"Size","invalidjson":"Invalid JSON string","nofilesattached":"No files attached","filepicker":"File picker","logout":"Logout","nofilesavailable":"No files available","norepositoriesavailable":"Sorry, none of your current repositories can return files in the required format.","fileexistsdialogheader":"File exists","fileexistsdialog_editor":"A file with that name has already been attached to the text you are editing.","fileexistsdialog_filemanager":"A file with that name has already been attached","renameto":"Rename to \"{$a}\"","referencesexist":"There are {$a} alias\/shortcut files that use this file as their source","select":"Select"},"admin":{"confirmation":"Confirmation"}};
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+YUI().use('node', function(Y) {
+M.util.load_flowplayer();
+setTimeout("fix_column_widths()", 20);
+Y.use("moodle-core-formautosubmit",function() {M.core.init_formautosubmit({"selectid":"single_select5d83a1a8470c31","nothing":false});
+});
+Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.configure({"mathjaxconfig":"\nMathJax.Hub.Config({\n    config: [\"MMLorHTML.js\", \"Safe.js\"],\n    jax: [\"input\/TeX\",\"input\/MathML\",\"output\/HTML-CSS\",\"output\/NativeMML\"],\n    extensions: [\"tex2jax.js\",\"mml2jax.js\",\"MathMenu.js\",\"MathZoom.js\"],\n    TeX: {\n        extensions: [\"AMSmath.js\",\"AMSsymbols.js\",\"noErrors.js\",\"noUndefined.js\"]\n    },\n    menuSettings: {\n        zoom: \"Double-Click\",\n        mpContext: true,\n        mpMouse: true\n    },\n    errorSettings: { message: [\"!\"] },\n    skipStartupTypeset: true,\n    messageStyle: \"none\"\n});\n","lang":"en"});
+});
+Y.use("moodle-block_navigation-navigation",function() {M.block_navigation.init_add_tree({"id":"5","instance":"5","candock":false});
+});
+M.util.help_popups.setup(Y);
+Y.use("moodle-core-popuphelp",function() {M.core.init_popuphelp();
+});
+M.util.init_block_hider(Y, {"id":"inst243","title":"Online Certificate Course in eHealth","preference":"block243hidden","tooltipVisible":"Hide Online Certificate Course in eHealth block","tooltipHidden":"Show Online Certificate Course in eHealth block"});
+ M.util.js_pending('random5d83a1a8470c34'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random5d83a1a8470c34'); });
+
+});
+//]]>
+</script>
+
+</div>
+
+
+<script>
+jQuery(document).ready(function ($) {
+$('.navbar .dropdown').hover(function() {
+	$(this).addClass('extra-nav-class').find('.dropdown-menu').first().stop(true, true).delay(250).slideDown();
+}, function() {
+	var na = $(this)
+	na.find('.dropdown-menu').first().stop(true, true).delay(100).slideUp('fast', function(){ na.removeClass('extra-nav-class') })
+});
+
+/** $('.dropdown-submenu').hover(function() {
+	$(this).addClass('extra-nav-class').find('.dropdown-menu').first().css({ display: "none" });
+	$(this).addClass('extra-nav-class').find('.dropdown-menu').first().stop(true, true).delay(250).slideDown();
+}, function() {
+	var na = $(this)
+	na.find('.dropdown-menu').first().stop(true, true).delay(100).slideUp('fast', function(){ na.removeClass('extra-nav-class') })
+}); */
+
+});
+</script>
+
+<script type="text/javascript">
+jQuery(document).ready(function() {
+    var offset = 220;
+    var duration = 500;
+    jQuery(window).scroll(function() {
+        if (jQuery(this).scrollTop() > offset) {
+            jQuery('.back-to-top').fadeIn(duration);
+        } else {
+            jQuery('.back-to-top').fadeOut(duration);
+        }
+    });
+    
+    jQuery('.back-to-top').click(function(event) {
+        event.preventDefault();
+        jQuery('html, body').animate({scrollTop: 0}, duration);
+        return false;
+    })
+});
+</script>
+
+
+</body>
+</html>

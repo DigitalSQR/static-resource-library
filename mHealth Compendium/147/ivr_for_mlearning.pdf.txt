@@ -1,0 +1,98 @@
+Advantages of IVR mLearning system to deliver refresher 
+trainings 
+ Delivers training to health workers at their post: Fewer 
+disruptions to service provision 
+ Uses health workers own basic mobile phone: Does not require 
+purchase of new phones  
+ No Internet connection required: Can reach remote and rural 
+health workers  
+ Voice-based system: Can be used to train illiterate health 
+workers and target health workers speaking non-majority 
+languages 
+IVR FOR mLEARNING PLATFORM 
+Delivering refresher trainings to health care providers in Senegal  
+SERVICE DELIVERY 
+Implementation date: 2013 
+In-service training reinforces and updates health care providers’ knowledge, but it is often expensive and requires providers to 
+leave their posts1. When health workers are away from their posts for training, there may be no one else to deliver health 
+services in their place. Most mHealth applications to train health workers require smartphones or digital tablets and Internet 
+connectivity2,3,4,5 or use short message service (SMS) text systems to provide training, guidance, and updates6,7,8.  
+The IntraHealth International-led CapacityPlus Project developed, deployed and assessed an innovative mLearning system that 
+used a combination of Interactive Voice Response (IVR) and SMS text-messaging to deliver refresher training to family planning 
+providers in Senegal, focusing on management of contraceptive side effects and counseling to dispel misconceptions. The course 
+was aligned with Senegal’s national policies and international guidelines9,10,11; it used a spaced education approach, where content 
+is spaced and repeated over time12,13,14.   
+About IVR for mLearning 
+The Project used IVR technology—possible with any type of The training content (in the form of 20 multiple-choice 
+p hone—to deliver information via audio recordings and questions and accompanying detailed explanations on family 
+allow users to provide feedback by pressing a number key.  planning) was delivered to the trainee’s mobile phone and 
+The mLearning system allows for the delivery of more was compatible with all basic phone models. Whenever the 
+ 
+robust information than SMS text but does not require trainee was available and ready—even if hours or days after 
+Internet connectivity.15,16 The system used a set of custom the initial reminder—they texted the mLearning system to 
+s cripts (“middleware”) that manage interactions between prompt a call. Trainees then responded to audio-recorded 
+open source IVR software tools and learning solutions, questions using their phone keypad. The system indicated 
+including Gammu, FreeSwitch, and Moodle. The project whether the answer was correct or incorrect and provided 
+p rioritized open source technologies because of their low a detailed explanation via audio recording. The same 
+cost and ability to easily undergo local adaptation.  questions and explanations were delivered a second time to 
+the trainees until all questions were answered correctly 
+T he application was piloted among 20 midwives, nurses, 
+twice.   
+nursing assistants, and health agents, chosen in coordination 
+w ith the Ministry of Health, in two districts in the Thiès  
+region of Senegal. 
+ 
+68  |  mHealth Compendium Volume 4 
+Evaluation and Results 
+To assess acceptability, trained data 
+collectors visited trainees at their health 
+posts within five weeks of course 
+completion to administer a post-training 
+survey about participants’ opinions and 
+experiences. To assess changes in 
+knowledge, participants completed a 
+written test—comprised of 20 multiple-
+choice and true/false questions—at an 
+orientation to the system (pre-test), at the 
+same time as the post-training survey 
+(post-test), and again during a supervision 
+visit 10 months after the training.  The 
+pilot application was carried out among a 
+limited number of participants to allow for 
+careful assessment and modifications 
+before larger-scale implementation. 
+Participants reported that the overall experience of using a mobile phone to complete in-service training was either good (35 
+percent) or very good (65 percent). Participants greatly appreciated the convenience and flexibility of the mLearning system: 
+60 percent liked the ability to determine the course’s pace and 55 percent liked being able to access the course when 
+convenient. The largest criticism (35 percent) was poor network reception.  
+Overall, participants’ knowledge of contraceptive side effects and misconceptions was relatively high at baseline and 
+significantly increased (p < 0.05) from an average of 12.6 correct questions (out of 20) before the training to 16 out of 20 
+after the training. There was a slight decline in average knowledge scores ten months after the post-test (14.8 out of 20), but 
+the gains in knowledge were still significantly higher than before the training (p <0.05). 
+Lessons Learned 
+ An IVR and SMS mLearning system is appropriate, feasible, acceptable, and associated with sustained gains in knowledge 
+ Trainees accessed IVR most frequently during non-regular 
+working hours and the average call duration was 13 minutes, 
+suggesting that the training did not disrupt health workers’ 
+service delivery schedules Geographic Coverage: Two districts in Thiès 
+region, Senegal 
+ Providing pertinent written materials and incorporating different 
+interactive exercises enhances learners’ experiences Implementation Partners: IntraHealth 
+International (implementers), in coordination with 
+ Sufficient time is necessary to pre-paid and post-paid (or the national, regional, and district Ministry of 
+contract) mobile phone mechanisms before starting course Health  
+delivery 
+Funder: USAID-Washington through the 
+CapacityPlus project  
+Conclusion 
+Contact Information: 
+The IVR mLearning platform using a spaced education approach has 
+the potential to be an effective, efficient, and low-cost means of Intrahealth | Dykki Settle, Director, Health 
+providing refresher training and/or updates on National health Workforce Informatics (+1-919-313-9133, 
+guidelines, policies, and protocols (see panel). The pilot experience dsettle@intrahealth.org) 
+provides compelling evidence that the mLearning system could be 
+See References on page 89. 
+scaled up to other training topics and geographic areas in Senegal and  
+beyond.  
+ 
+mHealth Compendium Volume 4  |  69 

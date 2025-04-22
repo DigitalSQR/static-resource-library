@@ -1,0 +1,109 @@
+  
+ I ntegrated Health Systems Strengthening 
+Project – IHSSP: RapidSMS 
+Brief Overview 
+The Rwandan health care system has made significant progress 
+on reducing maternal and child mortality over the past ten 
+years.  According to the demographic health survey (DHS) the 
+both the maternal mortality ratio (MMR) and the infant 
+mortality rate were cut by more that 50 percent. The MMR 
+decined from 1070/100,000 live births in 2000 to 476 in 2010 
+and the infant mortality rate declined from 107 to 50.  
+However, data shows that most maternal deaths still occur at 
+community level: 33 percent of women died before giving birth, 
+44 percent were aged between 21-30 years old and 45 percent 
+had had more than three pregnancies. 
+ 
+In order to better identify and manage the health issues of at 
+risk newborns and mothers, Management Sciences for Health 
+(MSH), under the Integrated Health Systems Strengthening 
+Project (IHSSP) worked with Rwanda’s Ministry of Health and 
+UNICEF to implement a mobile phone-based tool for 
+community health workers to use with their clients. The RapidSMS application follows national and 
+international guidelines of care, helping community health workers (CHWs) to closely monitor pregnant 
+women from through the duration of their pregnancy and providing guidance on the provision of care, 
+especially related to high risk situtations. As a result of RapidSMS, there has been increased use of the formal 
+health system by pregnant women and this has been demonstrated to have a positive health impact on 
+mothers and their children.  
+ 
+Initially introduced in one of Rwanda’s thirty districts, the system has now been rolled out nationwide.  It has 
+also been integrated into the national eHealth Enterprise Architecture Framework, exchanging data on risk 
+factors with the national shared health record.   
+ 
+   Geographic Coverage: 
+ Rwanda, Nationwide (30 districts as of 2012) 
+ 
+ Implementation Partners: 
+Rwanda Ministry of Health,UNICEF, Management Sciences for Health led a team of 
+partners which included: Boston University | Cordaid | Futures Group International | 
+Health Development & Performance (HDP) | Healthnet International | IDEAS | Intrahealth  
+ 
+ 
+ Funder: 
+UNICEF, USAID, Government of Rwanda  
+ 
+ For More Information Contact: 
+UNICEF 
+ Dr Friday Nwaigwe, UNICEF/Rwanda; 
+Email: fnwaigwe@unicef.org 
+MSH  
+ Dr Apolline Uwayitu, Chief of Party; 
+Avenue Murehe, 04, Kicukiro District P.O Box 371 Kigali, Rwanda; 
+ 31 
+Tel: +250-(0)7-88-30-80-81/82, email:  auwayitu@msh.org 
+ 
+Data Collection 
+ Integrated Health Systems Strengthening 
+Project  - IHSSP: RapidSMS 
+About RapidSMS 25 percent, home deliveries decreased by 54 percent, 
+RapidSMS is a cell phone-based technology designed to while deliveries at health facilities increased by 26 
+save newborns and mothers though routine surveillance percent. Health officials believe that the system also 
+of health events by CHWs. The system relies on simple contributed to reducing the under-five deaths by 48 
+text messages that are composed by CHWs to report percent. (Data from the Musanze District Hospital). 
+specific events during the course of a woman’s  
+pregnancy, delivery, and the first year of the infant’s life.  The use of RapidSMS also contributed to: 
+At the national level, these messages are incorporated • The instant transmission and analysis of data 
+into a web-enabled database. If the reported event which is immediately accessible to all 
+indicates a risk for the mother or child, the system stakeholders; 
+automatically sends a short SMS reply to the CHW • A decrease in data entry error rates through a 
+notifying them of specific actions to take. In some feedback loop system identifying data outside 
+villages, the CHW’s mobile phone is also the most normal parameters and verification with end-
+direct method of communication for patient referral and users; and 
+emergency transport through the nation’s ambulance • Improved monitoring capacity at the clinic, 
+service (SAMU). district and national levels. 
+  
+The application runs on an open source software Lessons Learned 
+platform Ubuntu Linux server, the MySQL database and • Community health workers at the front-lines of 
+is programmed using the Python language.  Any cell health service provision in Rwanda and can 
+phone can be used since it relies only on SMS messaging.  benefit from mHealth activities.  
+In addition the system has a web-based graphical user • In spite of their limited educational background 
+interface that allows supervisors at the district and and difficulties manipulating cell phones for the 
+national levels to monitor use of the system, configure first time, CHWs quickly adapted to the 
+the system and broadcast SMS messages to CHWs. technology.  
+ • Regular feedback sessions are required to 
+In order to implement RapidSMS, IHSSP procured and continually improve CHWs skills and share the 
+distributed 10,000 cell phones to CHWs.  These were successes and difficulties encountered. 
+combined with another 30,000 phones provided by • Phone maintenance and charging in areas 
+other donors and distributed to all CHWs. MSH without electricity can be a challenge. 
+coordinated the development of a national training • The use of solar chargers in areas without 
+curriculum and approximately 1,000 people, including regular electricity can further use of mHealth 
+data managers and CHW coordinators from nearly 450 applications. 
+health centers, were trained in the use of RapidSMS.   
+These trainers subsequently organized training on the Conclusion 
+application for the CHWs in their catchment areas. All 
+CHWs from a health center’s catchment area meet Clear progress has been documented in maternal and 
+monthly to discuss progress and review feedback from child health in Rwanda by the recent demographic and 
+RapidSMS and the CHW Health Worker Information health survey (DHS 2010).  However, maternal and child 
+System (SIScom).  deaths are still high. Increasing the use of interventions, 
+ which target maternal and child health, has been a 
+Evaluation and Results national priority for the Rwandan government. Mobile 
+phone-based applications, such as RapidSMS, show great 
+A study of RapidSMS in Musanze district, located in the potential for supporting health workers at the lower 
+north of the country, demonstrated appreciable results levels of the health system.  These mHealth tools can 
+in improving maternal and child health. One year after assist CHWs in facilitating access to health services for 
+the launch of RapidSMS, prenatal care visits increased by the population and in turn improving health outcomes.  
+Information was excerpted from:  
+32 http://intranet.msh.org/news-and-events/news/news-story.cfm?customel_datapageid_600=69167; RapidSMS Rwanda -  http://healthmarketinnovations.org/program/rapidsms-rwanda; Saving Mothers and Newborn lives in the community using 
+RAPIDSMS technology – Exerience from Musange District of Rwanda: Dr. John Kalachi, District Hospital of Ruhengeri, Musange; 
+International Conference on Community Health, Kigali 25-28 January, 2011  
+ 

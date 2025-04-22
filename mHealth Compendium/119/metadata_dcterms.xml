@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dcterms">
+  <dcvalue element="abstract" qualifier="none" language="">SIJARIEMAS&#x20;is&#x20;a&#x20;system&#x20;that&#x20;utilizes&#x20;SMS&#x20;and&#x20;phone&#x20;calls&#x20;to&#x20;initiate&#x20;and&#x20;manage&#x20;the&#x20;referral&#x20;process&#x20;for&#x20;obstetric&#x20;and&#x20;newborn&#x20;emergencies.&#x20;Upon&#x20;identification&#x20;of&#x20;an&#x20;emergency&#x20;case,&#x20;a&#x20;health-center&#x20;based&#x20;midwife&#x20;sends&#x20;an&#x20;SMS&#x20;with&#x20;patient&#x20;data,&#x20;vital&#x20;signs&#x20;and&#x20;diagnosis&#x20;to&#x20;the&#x20;system.&#x20;The&#x20;system&#x20;automatically&#x20;routes&#x20;the&#x20;information&#x20;to&#x20;the&#x20;nearest&#x20;hospital,&#x20;where&#x20;an&#x20;alarm&#x20;is&#x20;activated&#x20;to&#x20;prepare&#x20;staff&#x20;for&#x20;the&#x20;arrival&#x20;of&#x20;the&#x20;emergency&#x20;case.</dcvalue>
+  <dcvalue element="alternative" qualifier="none" language="">SIJARIEMAS</dcvalue>
+  <dcvalue element="audience" qualifier="none" language="">CHW,&#x20;providers,&#x20;clinics</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Maya&#x20;Tholandi,&#x20;Senior&#x20;Director&#x20;M&amp;E,&#x20;JHPIEGO,&#x20;Email:&#x20;maya.tholandi@jhpiego.org&#x20;|&#x20;Bambang&#x20;Wijayanto,&#x20;ICT&#x20;Advisor,&#x20;RIT&#x20;International,&#x20;Email:&#x20;bwijayanto@id-emas.rti.org</dcvalue>
+  <dcvalue element="coverage" qualifier="none" language="">Indonesia</dcvalue>
+  <dcvalue element="description" qualifier="none" language="">USAID</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Service&#x20;Delivery</dcvalue>
+  <dcvalue element="title" qualifier="none" language="">The&#x20;Referral&#x20;Exchange&#x20;System&#x20;(SIJARIEMAS)</dcvalue>
+  <dcvalue element="type" qualifier="none" language="">Electronic&#x20;Health&#x20;Records,&#x20;Electronic&#x20;Decision&#x20;Support,&#x20;Provider&#x20;Work&#x20;Planning&#x20;and&#x20;Scheduling,&#x20;Maternal&#x20;Health</dcvalue>
+</dublin_core>

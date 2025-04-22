@@ -1,0 +1,88 @@
+Donors of nets can now 
+click on any point and 
+see exactly to whom 
+their net was given and 
+where, providing a new 
+level of transparency and 
+accountability never seen 
+before in net distributions.
+HANG-UP AND TRACK 
+IMPLEMENTATION DATE:  October 2014 to December 2014
+Increase bednet distribution accountability 
+and usage in households through mobile data collection 
+Malaria is one of the deadliest diseases in the Democratic Republic of Congo (DRC), where an 
+estimated 500 children under the age of five die each day from this disease. Research has shown that 
+the use of long-lasting insecticidal nets (LLINs) is effective in preventing malaria.1  
+To address malaria prevention through LLIN distribution, IMA World Health, with approval from the 
+Programme National de Lutte contre de Paludisme (PNLP) of the Ministry of Public Health and funding 
+from the Against Malaria Foundation (AMF) and UK Aid, kicked off a mass LLIN distribution campaign 
+in eight health zones in Kasai-Occidental province. IMA World Health devised a Hang-up and Track 
+(HUT) campaign in which community health workers (CHWs) not only distributed the LLINs, but they 
+also installed and hung them up in each household and recorded household registration data using 
+smart phones to ensure accountability and accuracy.
+About Hang-Up and Track
+The LLIN distribution campaign is one cornerstone of First, instead of distributing LLINs to beneficiaries, LLINs PNLP’s national strategy to decrease the burden of malar- were hung up and installed in the beneficiaries’ households. 
+ia through prevention by ensuring that all households in the Second, smart phones were used to track distribution data for 
+DRC receive and use LLINs.2 In this campaign, IMA World each household that received LLINs.
+Health, with net funding from AMF and non-net costs fund- When the LLINs were being installed, one of the CHWs 
+ed by UK Aid, was tasked to distribute LLINs in eight health within the team was tasked to track the progress by entering 
+zones in the western Kasai-Occidental province. In order to household registration data into a smart phone. Open Data 
+increase accountability and household utilization, the strategy Kit (ODK) software was installed on each smart phone with 
+devised was to “hang-up and track.” The strategy is two-fold: a form specifically designed for the hang-up. The ODK form 
+36  n  DATA COLLECTION
+Crystal Stafford, IMA World Health
+Table 1.
+Sleeping Quality LLINs 
+Health Zones Households places LLINs installed
+Kitangwa 22,188 54,465 3,796 50,643
+Mutena 27,509 67,369 1,265 66,104
+Kamonia 39,869 85,491 1,492 83,999 Lessons Learned 
+Kamuesha 42,140 99,766 2,242 97,524
+n Infrastructure deficiencies, especially electricity, need 
+Banga Lubaka 16,001 42,229 1,039 41,190 to be assessed before distribution.
+Kanzala 26,966 70,449 1,216 69,233
+n CHWs need to be thoroughly assessed due to litera-
+Tshikapa 37,643 105,474 1,594 103,880 cy and lack of technology training.
+Kalonda 44,317 113,824 1,865 111,959
+n Data analysis needs to be incorporated into the 
+Total 256,633 639,067 14,509 624,532 distribution campaign schedule better due to amount of 
+incoming data.
+collected distribution data on the number of sleeping places n Although originally translated the ODK form to local 
+and the amount of LLINs given and installed. But to in- languages and dialects for CHWs, French was still 
+crease further accountability, the form also asks for the global preferred because local dialects were often not written 
+positioning system (GPS) coordinates, signature of consenting languages.
+household, and a picture of the LLINs installed. Socioeco- n Rugged mobile phones and hardware are recommended.
+nomic, malaria perception, and malaria treatment data for 
+each household was also collected. All the data were then 
+uploaded to a supervisor’s laptop using ODK Aggregate VM Conclusion
+server software, and later aggregated at a central level.
+IMA is the first organization in the DRC to leverage 
+Once the distribution was completed, a table was created that mHealth technology like ODK for mass LLIN distribution  
+included the name of the head of household, the GPS coor- campaigns. By using the HUT strategy, not only was  
+dinates of that household, how many nets were distributed to each household pinpointed through GPS, but the entire  
+that household, and a photo of the recipient and their newly distribution was aggregated visually through GIS. This,  
+hung net. All recipients photographed signed a release within along with the signature file and photo of LLIN installation  
+the ODK allowing us to use their photo. If they did not wish within the household, increased accountability that the  
+to be photographed only the net was pictured. The table was LLINs reached the beneficiaries and decreased fraudulent  
+then uploaded to Google Fusion Tables and an interactive map activities. The utilization rate of LLINs by the beneficiaries  
+was created. Donors of nets can now click on any point and will be measured every six months to assess user adoption.  
+see exactly to whom their net was given and where, provid- In the next phase, the malaria perception and treatment  
+ing a new level of transparency and accountability never seen data collected will be used to formulate better behavior 
+before in net distributions. change communication and messaging, and incorporate  
+that into a more holistic approach in the next LLIN distribu-
+Evaluation and Results  tion campaign. n
+The LLINs distribution in western Kasai-Occidental lasted 
+from October 2014 to December 2014. In the chart sub-
+mitted here, the HUT campaign captured data for each of Geographic Coverage: Eight health zones in western Kasai-Oc-
+the visited households. For each household, the ODK form cidental province, Democratic Republic of Congo: Kitangwa, 
+asked the number of sleeping places in the household, which Mutena, Kamonia, Kamuesha, Banga Lubaka, Kanzala, Tshikapa, 
+coincided with the number of nets given and installed in that and Kalonda
+household. However, if there were already good quality LLINs Implementation Partner: IMA World Health
+assessed in that household, ODK will automatically calculate Donor: Against Malaria Foundation, UKAID 
+and subtract the number of good quality LLINs from number Contact Information: Crystal Stafford, Project Coordinator, Ma-
+of LLINs installed to avoid giving more LLINs than necessary. laria Program, IMA World Health, crystalstafford@imaworld-
+ODK will also disallow the CHW to give more LLINs than health.org; Charlotte Ndolerire, Project Coordinator, Malaria 
+the number of sleeping places reported. It was estimated that Program, IMA World Health,CharlotteNdolerire@imawor-ldhealth.org; Andrew Chou, Consultant–Mobile Technology, 
+by using the HUT strategy, 93 to 99 percent of households in the Malaria Program, IMA World Health, yuheng.andrew.chou@
+eight health zones where LLINs were distributed were reached. gmail.com
+mHEALTH COMPENDIUM  VOLUME 5  n  37

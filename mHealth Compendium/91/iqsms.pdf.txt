@@ -1,0 +1,88 @@
+IQSMS provides district, 
+regional, and national 
+stakeholders with up-to-
+date, vital information and 
+assists with decision making 
+about the distribution 
+and re-distribution of HIV 
+commodities to avoid 
+disruption in the testing 
+of pregnant mothers and 
+exposed infants. 
+IQSMS  
+International Quality Short Messaging System
+IMPLEMENTATION DATE:  October 2012 to March 2016 
+Using mobile technology to improve distribution and availability of HIV 
+commodities in remote health facilities in Tanzania
+The Local Partners Excel in Comprehensive HIV & AIDS Service Delivery (LEAD) project, funded by 
+the Centers for Disease Control under PEPFAR, supports prevention of mother-to-child transmission 
+(PMTCT) services at 509 facilities in the Mara and Tanga regions of Tanzania. Most are health centers 
+and dispensaries in remote locations with unreliable or no sources of funds to transport reports and 
+travel to collect medical supplies. These factors contribute to regular stock outs of health commodities 
+needed for HIV testing of pregnant women and exposed infants. In July 2010, LEAD introduced the use 
+of International Quality Short Message Software (IQSMS) to support facilities to share HIV commodity 
+information. 
+About IQSMS
+IQ SMS uses healthcare workers’ mobile phones to send sumptions to product reallocations and forecasting. Districts preformatted commodity reports to a central server via and facilities have been able to boost HIV testing services, 
+SMS.  Messages sent to the server undergo quality checks, improve proper medicines distribution according to con-
+with responses sent to the sender before the data is integrated signments, and ensure successful preparations of Report and 
+into the server. These messages contain key HIV stock status Request (R&R) forms. The application at glance provides 
+for Determine, Unigold, and Dried Blood Spot (DBS) test real time data from the root cause at health facilities; the 
+kits. The stock reports are then retrieved, analyzed, and tool facilitates health care workers to submit national core 
+shared with key stakeholders for immediate action. reporting indicators that are found on the national reporting 
+The application enables facilities, districts, and implementing tools (MTUHA), capturing monthly data. In a single button 
+partners to make profitable decisions about HIV commod- click, the tool enables districts to receive a full order of all 
+ities ordering cycles and quantity levels, from product con- commodities as quantified by the system based on what has 
+66  n  LOGISTICS
+JSI
+actually been consumed. All quantifications and calculations treatment, six were reported dead, and five were lost to 
+are handled by the system with consideration to physical follow up.
+stock taking. 
+To avoid parallel reporting, the system is now interoperable Lessons Learned 
+with both DATIM and DHIS2, based on OpenHIE us-
+ing DXF2. The system is able to use Application Program 
+n Combining both a mobile system and a Web-based 
+Interface (API) to feed data collected from the health facility system helps ensure that data collected from facilities 
+level directly into DHIS2’s central server. During data expor- are made easily available for use by MOHs and are 
+tation, IQSMS performs information comparison to see if interoperable with systems at  the central/national level.
+data has already been captured by DHIS2 and quantifies the 
+relationship. n Mobile phone SMS technology is a cost-effective, quick, 
+and simple mechanism that requires minimal train-
+ing for system use and implementation by health care 
+Evaluation and Results workers.
+n The use of IQSMS to trace exposed infants has reduced 
+Using a snapshot of reports sent by 509 sites in October the number of infants lost to follow up rates and 
+2013, analysis indicated that 77 percent of 12,475 newly can be applied across various program areas for effective 
+enrolled pregnant women were tested. A total of 44 facilities monitoring.
+had no Determine, 58 had no Unigold, and 194 had no 
+DBS test kits. A total of 25,071 Determine, 4,820 Unigold, 
+and 1,791 DBS kits were available at the sites, which Conclusion 
+could enable testing of all pregnant women enrolled. This 
+information helped program, district, and facility staff to IQSMS provides district, regional, and national stakeholders 
+support re-distribution of test kits to sites that had none. The with up-to-date, vital information and assists with decision 
+November 2013  PMTCT stock report indicated 90% of making about the distribution and re-distribution of HIV 
+13,564 newly enrolled pregnant women in all 509 sites were commodities to avoid disruption in the testing of pregnant 
+tested, there were no stock-outs of Determine, and only three mothers and exposed infants. This mHealth innovation has 
+facilities reported no Unigold. A total of 797 stock status and also enabled data collection and direct reporting from lower 
+PMTCT reports sent to the IQSMS server were exported to level health facilities to sub-national and national levels. 
+the national DHIS2 system. This reduced multiple entries of IQSMS reduces the burden of paper-driven data collection 
+the same data in various systems because district health care and assists program implementation in areas where challenges 
+workers could export their data from IQSMS directly into are inevitable. n
+DHIS2.   
+IQSMS was also used to identify infants who were not 
+tested for HIV during their initial clinic visit in 293 
+facilities in Tanga region. Through automated monthly 
+reports generated by IQSMS, an analysis of the reports for 
+infants who had not been tested was sent to the respective 
+facilities whereby multidisciplinary teams, including home-
+based care providers, traced the untested infants using the 
+infants’ mother/guardian home address, mobile phones, or 
+treatment supporters’ contact information retrieved from Geographic Coverage:  Tanzania
+the facility register. Between October 2013 and September 
+2014, there were 1,757 registered exposed infants from 293 Implementation Partners: Futures Group International, Catholic Relief Services (CRS), MGIT, Tanzania Ministry of Health, 
+facilities located in remote areas with limited resources in CSSC, IMA 
+Tanga region.  A total of 1,749 (99.5 percent) were traced Donor: Centers for Disease Control and Prevention, Tanzania 
+and tested for HIV within 12 months of their birth using Contact Information: Bobby Jefferson, Director, Futures Group 
+DNA-PCR; of these 50 (2.9 percent) were diagnosed HIV International, BJefferson@futuresgroup.com 
+positive. Of the identified positive, 39 (78 percent) initiated 
+mHEALTH COMPENDIUM  VOLUME 5  n  67

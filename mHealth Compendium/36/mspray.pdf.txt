@@ -1,0 +1,78 @@
+mSPRAY 
+An Indoor Residual Spray mapping, monitoring and feedback tool for malaria 
+control in Zambia  
+SERVICE DELIVERY 
+Implementation date: October 2014 (Piloted in 2011/2012)  
+Indoor residual spraying (IRS) along with long-lasting insecticide treated nets (LLINs) form the mainstay of malaria control in 
+Zambia. The country now boasts IRS coverage levels in excess of 35 percent in urban / peri-urban settings. National malaria 
+parasitemia has fallen from 22 percent in 2006 to 14.9 percent in 2012. However, IRS implementation is expensive and 
+requires operations to be as efficient and effective as possible. 
+Historically, IRS operators recorded spray activities on a paper form, which was then manually aggregated each day before entry 
+into an Excel worksheet, followed by manual cut-and-paste aggregation. This system is labor intensive, error-prone, and too slow 
+to provide data for managers above field level. Akros and partners developed mSpray to provide collection of electronic data in 
+the field, giving spray teams and managers a real-time visual display of spray coverage overlaid on satellite images of target 
+areas. mSpray improves the efficiency of operations and helps teams and managers to monitor whether they achieve desired 
+spray coverage. mSpray is being used during the 2014/2015 spray season by 253 IRS staff across seven high malaria-burden 
+districts in Zambia to guide their operations and monitor their progress in real-time. 
+About mSpray 
+mSpray is an IRS tool, primarily accessed through a web Collect which uses formhub as the data backend service. 
+browser-based interface, which displays the areas targeted The spatially-integrated spray data is then visualized on the 
+f or spraying and identifies the houses within the target areas, tablet by the TL showing the location and type of spray 
+all overlaid on satellite maps. These target areas depict the point. The spray coverage indicators are updated 
+precise number and location of houses to be sprayed.  immediately to reflect the latest form submissions. This 
+ 
+Houses were mapped using satellite imagery, which was far immediate feedback of indicators and spray points allow TLs 
+less costly, more accurate and more extensive than the to accurately understand their spray data and make near real
+p revious ground-based mapping exercises. The target areas -time or in-field operational decisions on spray progress. 
+encompassing houses were defined by taking malaria burden, Additionally, the tool allows for improvements in operational 
+operational efficiency and local knowledge into account.   efficiencies by enabling IRS commodities to be delivered to 
+ houses targeted for spray activities and by informing planning 
+mSpray streamlines, simplifies and increases quantity and improvements through more granular data. 
+quality of data collected. During the spray operations, Team 
+L eaders (TLs) each manage three Spray Operators (SOPs). 
+TLs enter data on their tablets while standing with the SOP 
+at each house, which is sent to the cloud server as soon as a 
+data connection is established. The forms are built in ODK 
+ 
+36  |  mHealth Compendium Volume 4 
+ 
+Evaluation and Results 
+While mSpray is currently being implemented for the 2014/2015 spray season, initial evaluation and results from the 
+2011/2012 spray season pilot are also available. The initial mSpray pilot in Chibombo involved 40 spray operators who 
+visited 15,929 structures over a period of two months. During this trial, mSpray was able to provide feedback on overall 
+spray performance. Initially, feedback was provided around day 30. At this stage it was clear that National Malaria Control 
+Centre (NMCC)-set spray operator targets of 10 to 15 structures per day were not being met. As a result, mSpray was able 
+to identify this issue and highlight the fact that teams were beginning operations late each day. Based on this data, operational 
+changes were made and coverage was dramatically improved (see Figure). mSpray also identified areas missed during 
+spraying that were originally targeted, again allowing spray teams to revisit these overlooked areas. The current mSpray tool 
+has made significant improvements since the pilot. 
+Lessons Learned 
+ It is key to understand the importance of spray data feedback 
+during the spray season, instead of post season, as it greatly 
+improves the spray operator performance in reaching their 
+targets  Geographic Coverage: Seven Districts in 
+Luapula Province, Zambia  
+ Operational efficiencies are gained through monitoring spray 
+operator start and end times and by knowing exactly how many Implementation Partners: African Indoor 
+structures need to be sprayed and where Residual Spray Program, Government of Zambia 
+Ministry of Community Development Mother and 
+ Providing more granular spatially-integrated spray data allows 
+Child Health, and Ministry of Health & Akros  
+program managers to assess whether high-burden malaria areas 
+that were targeted are actually the areas being sprayed Funder: Africa Indoor Residual Spray Program 
+ Minor challenges were encountered during the rollout of mSpray Contact Information: 
+including unfamiliarity with digital technologies and the need for 
+regular unit recharging; Most of these issues could be addressed Akros |  Derek Pollard, IRS Program Manager (+26
+through additional training or selection of operators with higher -0965126200, dpollard@akros.com); Daniel 
+educational background, both issues being pushed by Akros for Bridges, Director of Research (+26-0976081040, 
+the upcoming 2014/2015 spray season   dbridges@akros.com)  
+See References on page 89. 
+Conclusion 
+mSpray is the first Geographic Information System (GIS)-integrated 
+smartphone data management system for IRS. It is capable of delivering precise, real-time data on spray operator activity, 
+automatically aggregated throughout the reporting hierarchy in easy-to-use maps, charts and graphs. Through rapid 
+reporting, in-field data validation, identification of areas requiring focal spraying, spatially referenced spraying, and data 
+feedback, the application is able to provide valuable results to help improve the implementation and supervision of costly IRS 
+operations, ultimately contributing to a greater reduction in the overall burden of malaria.  
+ 
+mHealth Compendium Volume 4  |  37 

@@ -1,0 +1,105 @@
+ 
+TXTALERT FOR PATIENT REMINDERS 
+BRIEF OVERVIEW 
+The biggest challenge for people with 
+chronic conditions is to stick to their 
+medication. For conditions that require 
+lifelong treatment, like HIV and diabetes, 
+patients go through many daily challenges. 
+Some of these challenges include forgetting 
+to take their drugs, feeling sick (nauseous) 
+when they do take the drugs, and fear or 
+reluctance to go to the doctor regularly, as 
+this would potentially entail more drugs, 
+more injections, blood samples, etc.  
+Drug resistance is a very dangerous and 
+often life-threatening condition where 
+prescribed treatments cannot successfully 
+treat a condition and cure the patient. Drug 
+resistant tuberculosis (TB) has very high 
+fatality rates. Drug resistance is generally 
+preventable if patients stick to, and complete, their department by reminding patients of their visits while 
+prescribed treatment. also allowing them to easily and cost-effectively follow 
+up on a patient who has missed an appointment. The 
+Another huge challenge is to have patients come to the aim was to allow for appointment reminders and to 
+doctor at regular intervals. In rural and resource-poor create a facility where patients could contact the clinic 
+communities, challenges with transport and gaps in to reschedule or confirm an appointment – at no cost to 
+communication between the patient and the treatment the patient.  
+provider often result in patients "dropping off 
+treatment" or becoming "lost to follow up". Once a txtAlert is a server-based system that works in 
+patient is "lost to follow up" or off the treatment radar, conjunction with a hospital/clinic's medical record 
+it is often very hard to track them down and system (MRS) to remind patients of their upcoming 
+reintroduce them onto treatment. appointments.  In clinics where an existing electronic 
+MRS is in place, txtAlert will then integrate with that 
+txtAlert is a server-based system that works in MRS.  In clinics where no electronic MRS exists, 
+conjunction with a hospital/clinic's medical record Praekelt Foundation can develop a custom interface to 
+system (MRS) to remind patients of their upcoming input appointment data and manage patient bookings 
+appointments. more effectively. 
+txtAlert now has four different iterations: 
+ABOUT TXTALERT 
+ txtAlert ARV: This version of txtAlert sends 
+txtAlert was first piloted in 2007 in partnership with 
+appointment reminders to users to reduce loss to 
+Right To Care, one of the biggest ARV (antiretroviral) 
+follow up at clinics. Additionally, users can send a 
+treatment providers in South Africa. Right to Care was 
+free “Please Call Me” SMS to a designated number 
+struggling with large numbers of patients who miss their 
+to reschedule appointments. 
+appointments, who simply drop off treatment, or 
+become "lost to follow up". They wanted a mechanism  txtAlert CD4: This version of txtAlert delivers 
+which would strengthen their patient tracking CD4 count results to patients who have been tested 
+70 mHEALTH COMPENDIUM   │    VOLUME 2 
+ 
+ SERVICE DELIVERY 
+for HIV but may not return to the clinic to collect phone and has not disclosed their status. 
+their CD4 counts results, and therefore may not 
+know that they qualify for ARV treatment.  Lack of electronic medical records systems in clinics 
+and hospitals presents a major challenge for roll-out 
+ txtAlert PMTCT: This version of txtAlert sends of this service  
+reminder SMSs to pregnant women who are follow 
+a PMTCT protocol, and can also include general  Buy-in from clinic staff is critical to the success of a 
+maternal support messages for moms during their txtAlert project  
+pregnancy. These SMSs are aimed at helping women 
+to adhere to this treatment based on various 
+criteria and results of tests entered into the Medical CONCLUSION 
+Records System. txtAlert has shown positive results in studies so far and 
+has a number of variations that can be used for different 
+ txtAlert TB: This is the latest iteration which disease – and reminder protocols. Plans for expansion of 
+Praekelt is currently developing, and will send the project include integration into additional Medical 
+reminders for patients on TB-treatment, to help Record Systems, including OpenMRS . 
+them complete their treatment. It will also have a 
+built-in self-reporting mechanism for patients to 
+report their progress in TB treatment completion. GEOGRAPHIC COVERAGE 
+Gauteng and KwaZulu-Natal Provinces, South Africa  
+EVALUATION AND RESULTS IMPLEMENTATION PARTNERS 
+In the initial trial of txtAlert at the Theba Lethu clinic, Praekelt Foundation developed the core technology; 
+significant results were achieved in reducing the number Partners: Virtual Purple, Therapy Edge, Provincial 
+of missed appointments.  Missed appointments have Department of Health, KwaZulu-Natal, Right to Care, 
+fallen from 30 percent to 4 percent, and loss to follow Wits Reproductive Health & HIV Institute (WRHI), 
+up has declined from 27 percent to 4 percent as well. UNICEF South Africa  
+There are currently over 18000 users of the system at 
+three different clinics in Gauteng, South Africa. FUNDER 
+Vodacom Foundation South Africa, USAID, Right to 
+The Wits Reproductive Health & HIV Institute (WRHI) 
+Care, UNICEF South Africa  
+is conducting a study on txtAlert Standard and CD4 
+users at two of these clinics as part of the Vodacom 
+mHealth Initiative. Thus far, results show that those CONTACT INFORMATION 
+patients receiving SMSs in the CD4 program started Praekelt Foundation  
+ARV treatment earlier than those not receiving SMS  Marcha Bekker, Business Development 
+results. Manager  
+Email: marcha@praekeltfoundation.org  
+The PMTCT version of txtAlert currently has 6000 Vodacom Foundation South Africa  
+participants enrolled in a study at 33 clinics and two  Mthobeli Tengimfene, Executive Head of 
+hospitals in KwaZulu-Natal. The results of this study will CSI Projects 
+be published in September 2013.  Email: Mthobeli.Tengimfene@vodacom.co.za  
+UNICEF South Africa  
+ Dr. Sanjana Bhardwaj, Senior PMTCT 
+LESSONS LEARNED and Pediatric AIDS Specialist   
+ The language and tone of the SMS reminders is Email: sbhardwaj@unicef.org  
+critical – especially in cases where a user shares a 
+  MHEALTH COMPENDIUM  |  VOLUME 2 71 
+ 
+ 
+ 

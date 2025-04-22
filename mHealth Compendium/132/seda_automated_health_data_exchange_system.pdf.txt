@@ -1,0 +1,85 @@
+In Senegal, the availability 
+and reliability of health data 
+was constrained due to 
+a number of causes. The 
+SEDA mobile phone-based 
+reporting system for health 
+data assists in easier and 
+more timely reporting. 
+SEDA Automated Health Data Exchange System
+IMPLEMENTATION DATE:  October 2011 to Present 
+Applying mHealth to improve data monitoring in Senegal 
+In Senegal, the Automated Health Data Exchange System (SEDA) is an integrated health data and 
+stock-out monitoring system that uses inexpensive and ubiquitous mobile phones for data collection, 
+reporting, and supervision. Data are aggregated in a web-based central system to visualize and manage 
+decision support. SEDA targets the IntraHealth International-led Health Services Improvement (HSI) 
+project’s aim to improve the quality and frequency of data collected at the district and regional levels in 
+partnership with Senegal’s Ministry of Health and Social Action. A prime goal of SEDA is to transform 
+the methods and speed with which health workers, supervisors, and senior-level ministry staff use 
+collected data to make decisions about maternal, neonatal, and child health programs, and to prevent 
+stock-outs of essential medicines and contraceptive products. Prior to SEDA, available data were often 
+outdated, incomplete, and unreliable. This situation left the ministry unable to make timely decisions 
+to improve health programs, appropriately deploy health workers, or positively influence the health of 
+clients and their families. 
+About SEDA
+SEDA analytics allow health system managers to visualize can use SEDA to monitor and ensure data consistency data submitted from health facilities via mobile phone. In and completeness, and analyze data through the system’s 
+collaboration with the ministry, HSI developed 70 specific predefined dashboards. 
+health indicators that address key health issues in Senegal, SEDA employs user-centered design principles and aligns with 
+including family planning, maternal and child health, malaria, existing technologies to provide key indicators. It is possible 
+HIV/AIDS referrals, and health commodities/products. to scale SEDA nationally wherever GSM networks (the most 
+These facility-level indicators are reported into a web-based widely used cell phone technology) are available. Moreover, 
+data analytics platform that creates custom data visualizations using ubiquitous and inexpensive technology supports sus-
+and dashboards. Supervisors at all levels of the health system tainability. SEDA’s open source technology includes Ubuntu 
+40  n  DATA COLLECTION
+Clément Tardif, IntraHealth International 
+server software using a standard GSM gateway, GAMMU Lessons Learned  
+SMS texting software, and JSON forms on mobile phone 
+SIM cards to collect structured data. The system protects 
+n The automatic recovery and analysis of health data by 
+privacy and security by using phone numbers to authenti- mobile technologies is reliable and inexpensive.
+cate data from the local level. Web-based authentication and 
+security methods protect data at the central server. n The use of data collected at the operational level adds 
+value and is a source of motivation for providers and 
+SEDA aligns with the Ministry of Health’s district-level district health teams.
+deployment of DHIS2 by interoperating with DHIS2 as a 
+mobile data collection tool. Aggregate-level data reported n Automated reports are time savers and improve data 
+into the mobile system from health facilities are automatically management.
+uploaded into DHIS2 once validated. n Data can be easily analyzed at all levels of the health 
+system.
+Evaluation and Results n Constraints include insufficient wireless coverage in 
+some areas of the country; limited Internet access in 
+Benefits of SEDA include the use of inexpensive mobile certain areas; and barriers of electricity and cost, which 
+phones and related infrastructure to reliably upload data for can prevent some health districts and providers from 
+analysis and decision-making. Collected operational data are accessing and using SEDA. 
+useful to supervisors and health care providers because they 
+allow for timely and direct feedback about data reporting Conclusion
+and errors. SEDA has also helped to eliminate the repetition 
+or omission of data, reduced duplication of effort during 
+reporting, and made data more transparent and available. In Senegal, a number of factors previously constrained the 
+Likewise, the HSI project has found that SEDA encourages availability and reliability of health data, including health 
+participation in the information-reporting cycle since it worker data retention, lack of infrastructure in rural health 
+permits providers to directly see how their performance facilities, limited resources, and inadequate staff engagement. 
+corresponds to district, regional, and national indicators. IntraHealth, in collaboration with the Ministry of Health, is addressing these issues by implementing the SEDA mobile 
+By the end of 2014, 35 ministry staff and over 500 health phone-based reporting system for health data. SEDA’s bene-
+workers in 21 districts in four regions covering 318 service fits include the use of inexpensive mobile phones and related 
+delivery points (SDPs) were using SEDA. In 2015, the HSI infrastructure to reliably upload data for analysis. 
+project anticipates adding an additional 100 health workers 
+from 800 SDPs in 54 districts in 10 regions to the system. An When operational data are routinely and reliably collected, 
+analysis of data uploaded by providers into SEDA shows that they can be useful to the health workers implicated in the 
+in districts using SEDA for reporting, 80 percent of pregnant reporting process. By assisting the government of Senegal 
+women received intermittent preventive treatment for malar- to build an efficient health information system accessible to 
+ia, 96 percent of births received active management of third all cadres of health workers, the HSI project is ensuring that 
+stage of labor, and 82 percent of newborns received a check- health data can be more easily reported and acted upon. The 
+up by a qualified provider one to three days postpartum. new and easy-to-use SEDA technology—which streamlines 
+With SEDA, providers, supervisors, and district and regional the collection and exploitation of health data by providers, 
+health teams are better able to directly analyze, monitor, and supervisors, and district and regional health teams—will 
+improve performance in a timely and efficient manner. strengthen decision-making and ultimately improve the health of communities. n
+Despite SEDA’s success, challenges still exist to enabling all 
+health workers to access and use the system. Facilities and health 
+districts often grapple with the high cost of mobile services, Geographic Coverage: 10 out of 14 regions in Senegal
+experience insufficient wireless coverage, or a lack of reliable Implementation Partners: IntraHealth International; Ministry of 
+electricity. Furthermore, providers in some health districts have Health and Social Action; Medic Mobile 
+commented on the need to further expand the current list of Donor: USAID
+indicators to respond to emerging issues such as Ebola. Contact Information: David Potenziani, Sr. Informatics Advisor, 
+IntraHealth International, dpotenziani@intrahealth.org 
+mHEALTH COMPENDIUM  VOLUME 5  n  41

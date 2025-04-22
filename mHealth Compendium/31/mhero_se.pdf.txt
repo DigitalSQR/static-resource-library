@@ -1,0 +1,184 @@
+Connecting ministries of health with frontline 
+health workers via SMS
+Photo by Emily Nicholson for IntraHealth International
+42  n  MHERO 
+mHERO
+MHero is a two-way, mobile phone-based communication 
+platform that uses basic text messaging, or SMS, to connect 
+ministries of health and health workers. mHero operates  
+on simple talk-and-text mobile devices—no smartphone or 
+tablet required. 
+MHero is not a new technology. It’s a way to connect data from existing health information systems (HIS) to allow 
+targeted, real-time communication. mHero brings together components of a country’s HIS using open international 
+interoperability standards for health information exchange.  Health officials can use mHero to:
+n communicate critical messages to health workers and informal indicators, one-time assessments, and 
+during a crisis; validation of health worker and facility data; and 
+n target messages to health workers based on cadre, n support surveillance systems for real-time report-
+location, or skill set; ing on active cases and potential outbreaks and to 
+ collect critical information that supports resilient reinforce health workers’ skills—part of a country’s n
+health systems, including stock levels, routine formal solution for Integrated Disease Surveillance and 
+Response (IDSR).
+Harnessing the principles for digital development—guidelines that can help development practitioners integrate 
+established best practices into technology-enabled programs—IntraHealth International and UNICEF created mHero in 
+August 2014 to support health sector communication during the Ebola outbreak in Liberia.1 mHero is currently being 
+scaled up in Liberia, piloted in Guinea and Sierra Leone, and deployed in Mali and Senegal as part of the Global Health 
+Security Agenda to support IDSR use cases. 
+About mHero
+MHero combines iHRIS, an open source human resourc- What makes mHero work at national scale is rigorous es information system (HRIS) developed by Intra- adoption of open international standards for health in-
+Health, and RapidPro, UNICEF’s SMS platform that allows formation data exchange. These include the Care Services 
+users to create SMS messages in a “workflow” through a Discovery (CSD), Mobile Alert Communication Manage-
+website. mHero supports one-time messages to health work- ment (mACM), and HL7 Fast Healthcare Interoperability 
+ers or two-way communication between health workers and Resources (FHIR) standards for sharing health worker and 
+the ministry of health. Health workers can initiate messages health facility data and to provide standards-based commu-
+themselves by sending a standardized SMS to the mHero nication protocols for health workers. The open source and 
+phone number. open standards approach means that the mHero platform is 
+The technology behind mHero includes interoperability with not tied to any specific piece of software and allows minis-
+other systems, such as DHIS2, through OpenHIE, an archi- tries of health to readily integrate mHero into their HIS.   
+tecture that supports mHero as HIS expands and evolves. A variety of tools support the mHero platform.2 These 
+Using these open source systems, ministries of health are able include video tutorials on operating the platform; operations 
+to efficiently leverage health information technologies, many and management tools to support implementation; and a 
+of which they have already invested in scaling to improve wiki to guide developers and program implementers setting 
+their own HIS. up their own instances of the platform.3,4
+mHEALTH COMPENDIUM  SPECIAL EDITION 2016  n  43
+Program Design Process
+The mHero platform is designed by facilitating interoper- rica, Johns Hopkins Center for Communication Programs, 
+ability of existing HIS.   Linking iHRIS and RapidPro via International Medical Corps, Dimagi, the Clinton Health 
+an interlinked health worker registry, information on health Access Initiative and many others.
+workers (including cadre, facility, location), as well as their The most important stakeholder, however, is the ministry 
+mobile numbers, are pulled from iHRIS and attached to the of health in the country in which mHero is implemented. 
+workflow developed in RapidPro. mHero was also created to mHero is fully integrated into and operated directly by the 
+be interoperable with District Health Information Soft- ministry. The ministry decides which use cases to prioritize 
+ware 2  (DHIS2) and interlinked facility registries to ensure and which health workers to target with messages, and de-
+standardized facility data are part of the mHero platform. velops and sends the workflows. IntraHealth works with the 
+Security, access control, and data synchronization services are ministries and partners in the respective countries to align 
+provided through the OpenHIM software. mHero with national policies and strategies so the platform 
+mHero’s initial development was supported by UNICEF, can be utilized to support the existing (or future) HIS and to 
+the US Agency for International Development (USAID) respond to priority health needs.
+through the K4Health Project, and Johnson & Johnson. IntraHealth and UNICEF are building the capacity of 
+The design process engaged a number of partners, including mHero implementers at ministries of health in Liberia, 
+Jembi Health Systems, Thoughtworks, USAID, and others. Sierra Leone, and Guinea. This includes collaboration to 
+An intentional multistakeholder approach was undertaken in strategically integrate mHero into existing data collection 
+the development and implementation of mHero to include and reporting structures, training in RapidPro to create 
+as much collaboration as possible to ensure the platform workflows and in operation of the platform through iHRIS, 
+aligned with other digital efforts to reach health workers, establishing interoperability between RapidPro and iHRIS, 
+especially during the Ebola response. These stakeholders and developing standard operating procedures and other 
+have expanded to include the World Health Organization, critical management processes to integrate mHero into the 
+MEASURE Evaluation, Jhpiego, Management Sciences for existing HIS framework.5 
+Health, mPowering Frontline Health Workers, eHealth Af-
+Growth in Scale 
+The first mHero use cases were developed to help Libe- The success of mHero in Liberia can be attributed to the 
+ria’s Ministry of Health and Social Welfare determine the ministry mHero team’s ownership of the platform and 
+location of health workers during the Ebola response and commitment to ensuring mHero is aligned with Liberia’s 
+which facilities were open. After a successful pilot in four HIS and that the platform is successful in responding to the 
+facilities in four counties, the mHero team at the ministry ministry’s information and communication needs.As mHero 
+began raising awareness of the platform among county-level scaled in Liberia, ministries in Guinea and Sierra Leone 
+stakeholders.  began planning implementations. Officials from the three 
+Interest in the system grew as officials realized the platform’s countries met through iHRIS and mHero trainings to share 
+accessibility and flexibility, allowing for new use cases to experiences developing and deploying the platform, includ-
+be developed. These included collecting information about ing integration into ministry and HIS structures and best 
+mental health services, conducting an assessment of anthro- practices for strategic development of meaningful use cases. 
+pometric nutrition tools, alerting new staff to their payroll As of March 2016, the ministry in Sierra Leone had planned 
+IDs, and collecting information from health workers on their its use cases and was close to piloting the platform. Efforts 
+level of family planning training, commodities supply, and to build a sustainable base for mHero in Guinea are gaining 
+service provision.6 To date, 22 distinct use cases have reached momentum as the ministry develops its HIS strategic plan. 
+over 5,000 health workers throughout the country. The min- USAID has supported scale-up of mHero in the three coun-
+istry is now engaging external partners in the development tries through the Ebola Grand Challenge Innovation Grant 
+and sending of use cases, demonstrating its role in leading through the Global Health Bureau.
+health worker communications in Liberia. 
+44  n  MHERO 
+In Mali, IntraHealth is working with the Ministry of Health reinforcement of health workers’ skill sets during the surveil-
+to develop and deploy mHero in both SMS and interactive lance process. In Senegal, the Ministry of Health is deploying 
+voice response (IVR) formats to support the surveillance a version of mHero across its health regions. 
+system, including enhancements in real-time reporting and 
+Evaluation and Results
+In November 2015, one year after the initial pilot, a baseline associated with Liberia’s Ministry of Health and Social Wel-
+assessment was conducted in Liberia to measure frontline fare. The largest factor contributing to awareness of mHero 
+health workers’ awareness of, use of, and attitudes toward was exposure, as 81% of those who knew of the platform 
+mHero. Ten-question phone surveys were administered to had received an SMS sent via mHero. Health workers iden-
+266 randomly selected recipients who fit the definition of tified various factors motivating them to respond to these 
+a frontline health worker. A randomly selected subsample messages, with the most frequent reason being that they had 
+of 20 health workers responded to an extended survey. This been told about mHero prior to receiving the text. Responses 
+survey featured additional queries that elicited more detailed to the extended survey indicate that health workers almost 
+information about respondents’ phone use, including mobile universally bring their phones to work each day, and more 
+technologies such game playing, accessing social media, use their phones for connecting to social media than they do 
+and taking online courses. The extended survey also probed for playing games or taking courses. Health workers report 
+participants’ phone use patterns, such as preferred times for receiving a wide variety of health-related texts each month of 
+receiving and responding to text messages. varying origin.
+Overall, survey findings at baseline proved very preliminary An endline assessment using the same questions will be con-
+due to a lack of awareness of mHero among respondents. ducted in Liberia in July 2016 toward the end of the USAID 
+Out of the 266 respondents, only 7.9% of the health workers Ebola Grand Challenge Project.
+had heard of mHero, and even fewer knew that mHero was 
+mHEALTH COMPENDIUM  SPECIAL EDITION 2016  n  45
+Photos by Emily Nicholson for IntraHealth International
+ 
+Lessons Learned in Program Implementation and Scaling
+A number of key insights and lessons learned have emerged working with other implementing partners to improve 
+since mHero’s initial pilot in late 2014. These include: infrastructure in Liberia, Guinea, and Sierra Leone. 
+ Ministry of health leadership and ownership: mHe- The needed infrastructural investments are not extreme n
+ro’s success depends on the ministry stakeholders who and can support other subsystems of an HIS and basic 
+utilize and implement the platform. It can take time operations of the ministry. This includes basic Internet 
+to build a sense of ownership, to identify the strategic connection, procuring laptops for ministry staff, and 
+“home” for mHero within the ministry, and to integrate provision of servers and backup servers for data and en-
+mHero into the HIS architecture. suring security of mHero and iHRIS data. Working with 
+other partners and donors to ensure a strategic approach 
+n Awareness-raising with health workers: To encour- to infrastructure improvement is important, especially 
+age their active engagement, health workers need to during an emergency response when coordination of 
+know that mHero messages are legitimately from the investments is challenging.
+ministry and that their responses are important for 
+decision-making. Flyers, brochures, and other commu- n Implementation capacity: Though mHero harnesses 
+nication tools can help spread the word. existing technology, the processes for implementing 
+mHero are new. Ensuring ongoing capacity-building 
+n Infrastructure: mHero’s functionality depends on a for mHero team members to not only facilitate the 
+number of infrastructure components, including ade- interoperability of the systems but also establish proce-
+quate software and hardware to operate the platform and dures that fit within their local context is important, as 
+mobile network service throughout the country. Inade- is building capacity to manage and use data. Through 
+quate infrastructure has delayed mHero implementation, ongoing training and mentorship, both from a distance 
+in some cases more so than expected, but IntraHealth is and through short-term technical assistance, IntraHealth 
+46  n  MHERO 
+Photo by Emily Nicholson for IntraHealth International
+continues to work with mHero teams in the respective n Engaging other external partners: Many other donors 
+ministries to foster skills-building in systems operations and implementing partners have been operating in 
+and data use. Staff turnover and non-mHero work Liberia, Guinea, and Sierra Leone to support the Ebola 
+demands have posed challenges, thus an organizational response and rebuilding efforts, creating an additional 
+development approach must be taken in capacity-build- but important layer of collaboration and commitment 
+ing efforts. for mHero implementation to be successful.
+Future Plans 
+The future of mHero focuses on thoughtful steps toward the n Streamlined integration for communication with a 
+full integration of the platform into ministry of health HIS health facility’s point of contact
+plans and procedures, ensuring strategic use of the platform 
+n Integration with other communication platforms as 
+to support the needs of health workers and ministries, and alternatives to RapidPro (e.g., CommCare) for countries 
+raising awareness to encourage message response. Future that are comfortable with their existing platform
+trainings on both iHRIS and mHero have been planned, as 
+well as workshops on the strategic use of data to inform pro- n Expanded analytics capabilities  n
+grammatic and policy decisions. Discussions about interop-
+erability are underway to ensure mHero can directly support 
+other HIS subsystems. Pilot messages will be initiated in 
+Sierra Leone, Guinea, and Liberia in the coming months, Snapshot: mHero
+demonstrating full regional scale of the platform. In addi-
+Geographic Guinea, Liberia, Mali, Senegal, Sierra Leone, Tanzania
+tion, the Liberia ministry is interested in decentralizing use Coverage
+of mHero so that county human resource officers can use it Implementation November 2014 to present
+to communicate with health workers in facilities.  Dates
+Other future plans to expand the capability of the mHero Implementation IntraHealth (co-founder of platform);
+platform include the following: Partners UNICEF (co-founder of platform)
+mHero is implemented by Ministries of Health
+n Providing mHero functionality at the level of the Inter- Donor(s) USAI
+linked Health Worker Registry, rather than iHRIS, for Johnson & Johnson
+countries or programs that do not use iHRIS UNICEF Global Innovation Centre
+UNICEF Liberia
+n Tighter integration with DHIS2 for routine data col-
+lection as well as alerts and reminders to support the Contact Amanda Puckett BenDor, Technical Advisor, Information IntraHealth, apuckett@intrahealth.org
+routine data-collection process
+References & Additional Resources 
+1. “The Principles.” Principles for Digital Development, accessed March 15, 2016. http://digitalprinciples.org/
+2. “Toolbox & Resources.” mHero.org, last modified April 19, 2016, http://www.mhero.org/toolbox-resources
+3. Leitner, Carl. “mHero Videos by Carl.” YouTube.com, last modified September 1, 2015, https://www.youtube.com/playlist?list=PLVS-
+gzqqaj15C4JEF-_GD5n8553ZgO_Nc
+4. “MHero Installation and Configuration.” ihris.org, last modified March 1, 2016. https://wiki.ihris.org/wiki/MHero_Installation_and_
+Configuration
+5. “RapidPro Table of Contents.” RapidPro.io, accessed March 21, 2016. http://docs.rapidpro.io/
+6. Puckett BenDor, Amanda; Nicholson, Emily. “Spotlight: mHero Connects Frontline Health Workers with Mental Health Services in Liberia. “ 
+IntraHealth.org. December, 2015. http://www.intrahealth.org/page/mheromentalhealth
+ 
+mHEALTH COMPENDIUM  SPECIAL EDITION 2016  n  47

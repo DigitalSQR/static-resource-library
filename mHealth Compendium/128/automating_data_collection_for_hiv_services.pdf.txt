@@ -1,0 +1,105 @@
+ 
+  
+Automating Data Colle ction for HIV Services 
+ 
+B rief Overview 
+ 
+Faced with the high costs of printing and couriering 
+paper client records, with a high data entry burden, and 
+inconsistent quality of reporting, many programs are 
+turning to electronic data capture solutions to improve 
+efficiency and lower costs. Indeed, a project’s reporting 
+requirements may involve multiple paper-based tools 
+used to collect client information, laboratory testing 
+results, and supervision data.  Client Intake Register 
+(CIR) forms are often incorrectly or incompletely filled 
+out by staff, while the large data entry burden regularly 
+results in delays in reporting. Because of rising client 
+volumes, it can become increasingly expensive to print 
+client record forms, pay for courier services, and even 
+pay for data entry (data entry might be outsourced to research agencies).  
+Population Services International/Zimbabwe (PSI) annually provides counseling and testing (VCT) services to 
+over 350,000 people through its network of 17 VCT sites. To lower costs and improve the data entry 
+process, PSI/Zimbabwe piloted the use of tablet computers for data capture in its New Start Centers and by 
+outreach teams. A pilot was conducted during the second half of 2011 in three sites.  
+ 
+ Geographic Coverage: 
+Three sites in Zimbabwe 
+ 
+ Implementation Partners: 
+Population Services International 
+ 
+ Funder: 
+USAID 
+ 
+ For More Information Contact: 
+USAID 
+ Bill Jansen, USAID/Zimbabwe; 
+Pascoe Avenue, Belgravia, Harare, Zimbabwe; 
+Tel: +263-4-250-992; email: wjansen@usaid.gov 
+PSI 
+ Aleck Dhliwayo, MIS Coordinator, PSI/Zimbabwe; 
+30 The Chase West, Emerald Park Offices, Block E, 
+Emerald Hill, Harare, Zimbabwe; 
+Tel: +263-4-334-63; email: adhliwayo@psi-zim.co.zw 
+ 
+ 25 
+ 
+Data Collection 
+  
+ Automating Data Collection for HIV Services 
+ 
+About Automating Data Collection  
+A Windows-based application was developed by a Estimated cost comparison over five years 
+consultant and includes a data collection tool with digital Source: Population Services International, 2012 
+CIR forms, a data management interface, and export 
+functionalities. Key system requirements were that it $250,000
+should be a scalable system, allowing for easy upload of $200,000
+client records to a central repository, the incorporation $150,000 Paper Based
+of logical skip patterns and coherence tests into the data System$100,000
+collection forms, and interconnections between tablets Tablet Based
+in order for multiple counselors to have access to all $50,000 System
+information of a particular client.  $0
+ Yr 1 Yr 2 Yr 3 Yr 4 Yr 5
+Suitable hardware was identified and the system was  
+deployed and tested at three New Start clinics for a Lessons Learned 
+period of three months; 12 counselors were trained on • Users struggled with navigation of Windows 7, 
+the use of the tablets and of the application. Each team which requires additional training. 
+of about 10 devices was to have its own WLAN hub • Device to device network (15m radius) did not 
+with one of the tablets acting as the back-end server for work well. Each site and outreach team needs to 
+synchronization purposes. Technical support was have a Wireless Local Area Network (WLAN). 
+provided throughout the pilot by the IT and MIS units • Battery life problems can be alleviated by including 
+and by the consultant. battery packs and solar chargers in the hardware 
+ requirements and using tablets that are less power-
+Evaluation and Results intensive. 
+The successful pilot highlighted the value technology will • Windows 7 licenses are very expensive. Revised 
+bring to the testing and counseling department while forms will be developed in a Java-based application 
+significantly reducing the cost of the data collection compatible with Android operation system, 
+process. During the pilot, the IT/MIS team successfully resulting in lower price for equipment and no more 
+created a user-friendly digital data collection form for license fees. 
+the client intake forms, and designed a system that • Securing the devices is difficult. Counselors have to 
+allowed for networking of responses among the multiple carry the device around and then store them in the 
+clients and sharing of client records between safe after hours. 
+counselors. All 54 variables required for statistical • Adequate IT resources and IT support staff is 
+analysis and reporting purposes were successfully required to set up and run the system. 
+exported into SPSS. The forms can be paused and  
+resumed at any time, and include built-in logical skip Conclusion 
+patterns. 
+Using tablets to collect data can result in improved data 
+ 
+quality, faster data collection, near real-time data and 
+Currently PSI is installing the system in all of its 17 New 
+timely reporting of client records on monthly basis, and 
+Start clinics, soon to be followed by the organization’s 
+is less costly, despite high initial set-up costs. Tablets can 
+New Life sites (provision of post-test support services). 
+also be used for data collection and reporting by field 
+Phase one of the implementation plan is now completed, 
+staff such as IPC agents, medical detailers, or community 
+with five sites now exclusively using tablets for VCT 
+health workers. 
+record keeping (following a transition period during 
+which both digital and paper records were kept). During  
+the pilot, CIR printing, data entry and courier costs  
+were significantly cut.   
+26  

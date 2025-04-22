@@ -1,0 +1,104 @@
+ 
+OPENHDS 
+BRIEF 
+OVERVIEW 
+Decision makers in many 
+low-income countries lack 
+the required data for 
+evidence-based health 
+system management. One 
+reason for this lack of data 
+is the fact that the routine 
+n a t i o n a l  h e a l t h 
+management information 
+systems (HMIS) do not 
+extend to the ‘last mile’—
+the communities and the 
+informal setting of villages, 
+where a  s igni f i cant 
+proportion of health-
+related events occur. In 
+Nigeria, only 35 percent of 
+people access health 
+services (Nigeria DHS, 2008). Health issues faced by 65 2.0 database. Health program administrators and policy 
+percent of the population may never be accounted for in makers can thus have real time access to health and 
+the facility-based HMIS. As in most countries, demographic information in the community.     
+community-based HMIS data collection is often either 
+poor, or non-existent, in low resource settings. The web-enabled, tablet-based OpenHDS application 
+allows users to efficiently select previously registered 
+The OpenHDS (Open Health and Demographic System) individuals and launch various OpenDataKit (ODK) 
+uses an Android tablet application to collect individual forms to collect additional demographic, morbidity, and 
+level health and demographic data in rural areas. service delivery information. 
+Community field workers periodically visit households 
+to collect information about births, deaths, migrations, The mobile application facilitates the collection, through 
+pregnancies, deliveries, immunization and other household interviews, of many health events that occur 
+pertinent health information. in the community (or outside the formal health system). 
+Even with a relatively small target population, accurate 
+and statistically significant health and demographic rates 
+ABOUT OPENHDS can be computed when health events are combined with 
+OpenHDS is an open source Android tablet application ongoing population demographic information. In addition 
+that enables community field workers to collect births, to computing rates needed for MDGs 4 and 5, health 
+deaths, migrations, pregnancies, deliveries, immunization administrators and researchers are able to assess health 
+and other pertinent health information. Field workers system utilization and the burden of disease for these 
+can collect data "offline" and upload data to the rural communities over time.  
+OpenHDS server when they have mobile connectivity. 
+Data validation checks were built into the mobile data 
+The OpenHDS server application has functionality to 
+forms. Identifying most errors during interviews allowed 
+aggregate data by location, time period, and indicators, 
+for more accurate resolution of the inconsistencies.   
+and to export this aggregate information to the DHIS 
+36 mHEALTH COMPENDIUM   │    VOLUME 2 
+ 
+ DATA COLLECTION 
+EVALUATION AND RESULTS CONCLUSION 
+The project adopted an implementation research The OpenHDS application is addressed to the 
+approach founded on participatory action research information needs of frontline health workers, and 
+principles, where researchers were directly involved in district health managers. This work is a first step in an 
+iteratively designing and implementing organizational iterative process of health information systems 
+change in collaboration with the stakeholders.  The improvement in poor, rural regions around the world. 
+guiding research question was: Can mobile technology 
+reduce the complexity of community data collection for Ultimately, providing timely and accessible health 
+state and national HMIS?  information to the key stakeholders of the health care 
+system will have a transformative impact on the 
+Trained field workers used the application to collect effectiveness of health care delivery. While building 
+health and demographic data from a population of 4,445 these systems requires advanced software development 
+individuals (from 1251 households). The project skills, attention to standards based specifications and 
+successfully replaced a paper-based community health configurable design will make these systems more 
+reporting system with the OpenHDS tablet application. readily available to groups that can make use of them. 
+As a result of implementing OpenHDS, printing, copying, 
+distributing, transporting and storing of paper forms was GEOGRAPHIC COVERAGE 
+no longer needed.  Data entry clerks were also not Nigeria (Akpabuyo district in Cross River State) and 
+required and workers involved in the paper supply chain Tanzania (Ifakara)  
+(including printers and driver person-hours) were 
+eliminated. Not surprisingly, resistance to change was 
+IMPLEMENTATION PARTNERS 
+encountered as the mobile system introduced some 
+redundancies in the function of the data entry staff. The University of Calabar (Nigeria), the Ifakara Health 
+work of data entry staff had to be reorganized to data Institute (Tanzania), the Swiss Tropical Institute in Basel 
+collection and supervisory tasks. (Switzerland), and the Columbia University School of 
+Public Health (USA)  
+LESSONS LEARNED FUNDER 
+ Mobile data collection is much more efficient that Canadian International Development Agency (CIDA), 
+using paper and, ultimately, it has made collecting Canada’s International Development Research Centre 
+accurate community health information viable. (IDRC) 
+Mobile data collection eliminates many of the time 
+consuming and organizationally messy steps of CONTACT INFORMATION 
+handling paper, including printing, distribution, data University of Southern Maine  
+entry, and error correction.  Professor Bruce MacLeod, University of 
+Southern Maine  
+ The project found little guidance on country specific 
+Email: macleod@usm.maine.edu  
+guidelines for securely managing health information.  
+University of Calabar  
+ Compared to Android smart phones, the screen  Professor Martin Meremikwu, University 
+real estate and battery life of Android tablets made of Calabar  
+a significant improvement in data collection. Email: mmeremiku@yahoo.co.uk  
+IDRC 
+  Dr. Sharmila Mhatre, Program Leader  
+Email: smhatre@idrc.ca  
+ 
+  MHEALTH COMPENDIUM  |  VOLUME 2 37 
+ 
+FINANCE 
+ 

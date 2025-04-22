@@ -1,0 +1,92 @@
+This project aims to reduce 
+perinatal transmission 
+rates of HIV through the 
+enhancement of information 
+management, and to 
+fortify the knowledge base 
+and foster information 
+acquisition and sharing 
+among clinicians, patients, 
+and the community. 
+MOBILE APP  
+for Management of HIV in Pregnancy
+IMPLEMENTATION DATE:  March 2015 - Present 
+Reducing perinatal transmission of HIV by improving information management
+Highly active antiretroviral therapy (HAART) taken by a woman during the peripartum period 
+can virtually eliminate perinatal transmission of HIV.1 Access and adherence to medication; a skilled, 
+knowledgeable workforce; and patient retention, tracking, and monitoring are essential. However, 
+much of the world suffers severe health care staffing and information deficits. Mobile, electronic health 
+technologies can compensate for these deficits by providing access to patient records, access to up-to-
+date management guidelines, facilitating clinician and patient communication, retaining patients in care, 
+and enabling extensive data mining and analysis.2 A mobile technology-enhanced, combined electronic 
+medical record and clinical decision support-system aimed at the co-management of HIV and 
+pregnancy has been developed and will be studied for usability and effects on management processes.
+About Mobile App for Management of HIV in Pregnancy
+This project seeks to reduce perinatal transmission rates of The system utilizes the open source OpenMRS medical HIV by utilizing wireless broadband technology, mobile record software and the widely recognized CIEL-MVP 
+telecommunications technology, and electronic information dictionary, assuring interoperability with other OpenMRS-
+systems to create a combined electronic medical record and based systems and concept definition coherence with 
+clinical decision-support system (EMR/CDSS) to support the internationally recognized nomenclature systems. This system 
+clinic, clinician, and patient in the delivery of care. This system also provides the highest levels of security and standards for 
+is accessible via wireless broadband services on Chromebooks, patient confidentiality. 
+which are low-cost, fast laptops. The wireless broadband The system provides access to individual patient electron-
+accessibility and self-powered nature of the devices ensure that ic medical records. The record itself guides the clinician 
+the system has utility in care environments that lack power through both pregnancy and HIV management. Current, 
+and grounded Internet connections and when facilities lose evidence-based management guidelines specific to pregnancy 
+power services. and HIV infection have been incorporated at relevant points 
+92  n  SERVICE DELIVERY 
+Collins Otwane
+throughout the record and are accessible by clicking on an information access, workflow, patient interaction, 
+information icon. These guidelines address antepartum, intra- management decision-making, consultation and referral 
+partum, postpartum, breastfeeding, and infant antiretroviral capabilities, and ease of use.
+algorithms as well as opportunistic infection management, Quantitative analysis will employ a post-interventional study 
+including malaria and tuberculosis, preventative services group and a pre-interventional control group. Comparisons 
+(immunization, malaria prophylaxis, deworming, and micro- will be made between the two groups with respect to usage of 
+nutrient supplementation), breastfeeding recommendations, continuous HAART versus no therapy or episodic therapy, 
+contraceptive planning, and other pregnancy- and labora- treatment with HAART for longer than 12 weeks, and 
+tory-related issues—at all points taking into consideration changes in the types of antiretroviral agents used. A sample 
+pregnancy and HIV status. size of 100 in each group will mean that a difference of 20 
+These guidelines are derived from the World Health percent in treatment between the groups will be able to be 
+Organization, Centers for Disease Control and Prevention, detected with 80 percent power (using a= 0.05).
+the National Institutes of Health, Kenya’s National AIDS 
+and Sexually Transmitted Infection Control Program, and Lessons Learned 
+National Institute for Health and Care Excellence sources, 
+and are updated in the EMR/CDSS when they are updated at 
+n Unfamiliarty with using laptop computers and track 
+the source. System-based, interactive graphics allow clinicians pads required extra time for training of staff.
+and patients to review danger signs during pregnancy as well 
+as cover routine educational elements during visits. Patients n Extreme weather events caused widespread power 
+may choose to be reminded of upcoming appointments and outages in Kakamega and caused extensive damage 
+recalls to the clinic via SMS. Recall and clinic notification of to the cell tower that the project is utilizing. Paper-
+missed appointments can be generated at the discretion of the based records have been printed to continue with data 
+clinic team. Clinical and administrative flags are generated collection in case of these events in the future.
+on both patient-specific and clinic population-specific bases n Programming and debugging the record took  
+for missed appointments, concerning laboratory analysis longer than expected. This should be prepared for in 
+values, and missing information. Flags appear both when an future projects.
+individual record is opened and reports are also generated n The Kakamega-based project coordinator has been 
+daily for all flags in the clinic system. an essential element of the project.
+As the EMR/CDSS is coded to concepts, reports may be 
+generated at any interval requested, incorporating virtually Conclusion 
+any parameter that is part of the record. This function will 
+assist with quality assurance and data reporting. Further, as the This project aims to reduce perinatal transmission rates of HIV 
+OpenMRS system is used in many locations worldwide and through the enhancement of information management, and to 
+the concept dictionary is used widely, data from this project fortify the knowledge base and foster information acquisition 
+may be incorporated with data from other locations.3 The and sharing among clinicians, patients, and the community. It 
+potential applications of this level of data mining are limitless. seeks to maximize the utility of clinicians and facilities, extend 
+geographic access and patient volume capacities of clinicians, 
+Evaluation and Results improve diagnosis and treatment, and enhance data manage-ment and analysis in both centralized and decentralized care 
+environments. The study will add to the evidence base regarding 
+The research study associated with this project will take place the use of mHealth and eHealth systems. All stakeholders are 
+at Kakamega County General Hospital in western Kenya. looking forward to the data collection phase of the project.  n   
+The EMR/CDSS will be used by clinicians at the point of 
+care in the antenatal clinic for women living with HIV. A 
+Chromebook loaded with the technology will be in the labor Geographic Coverage:  Kakamega County General Hospital, 
+and birth suite and the medical director and HIV specialist Kakamega Kenya
+physician will have a Chromebook loaded with the EMR/ Implementation Partners: Curtin University, Bentley, Western 
+CDSS to consult when clinical staff in the antenatal or labor Australia; Moi University Teaching and Referral Hospital, 
+and delivery unit require consultation. The launch date was Eldoret, Kenya; Uamuzi Bora
+March 6, 2015. Donors: Curtin University; Curtin University Postgraduate Stu-
+dent Association Grant; Neel Arant Bandy
+The research design utilizes qualitative and quantitative 
+approaches. The qualitative element will evaluate user Contact Information: Neel Arant Bandy, Curtin University, Bently, Western Australia, neelarant@gmail.com 
+experiences of the system and focuses on changes to 
+mHEALTH COMPENDIUM  VOLUME 5  n  93

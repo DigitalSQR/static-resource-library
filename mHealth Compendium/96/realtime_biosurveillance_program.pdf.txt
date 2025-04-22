@@ -1,0 +1,110 @@
+ 
+REAL-TIME BIOSURVEILLANCE PROGRAM  
+Utilizing information and communication technologies to improve early detection 
+and notification of infectious disease outbreaks   
+Epidemiology Unit Officials in India and Sri Lanka 
+face problems in receiving health information in a 
+timely manner which would enable the prevention 
+of diseases from reaching epidemic states. 
+Statistics on a priority list of infectious 
+disease  data, from regional and community health 
+centers, continue to be gathered and analyzed 
+largely through paper-based forms and 
+procedures, and notifications are issued from the 
+regional health administrations to local authorities 
+using paper-based reporting. Experts in the field of 
+biosurveillance and health informatics have argued 
+that improvements in disease detection and 
+notification can be achieved by introducing more 
+efficient means of gathering, analyzing, and reporting patient data in a prescribed format that is transmitted to 
+of data from multiple locations as well as on a larger a centralized database. The ICT system utilizes General 
+set of disease and syndromic information.  New Packet Radio Service (GPRS), while also storing records 
+Information and Communication Technologies (ICTs) on the phone during times of limited or no connectivity. 
+are regarded as an important means to achieve these 
+efficiency gains.  Health facility health records, such as demographic 
+information, symptoms, suspected and diagnosed 
+The Real-Time Biosurveillance Program (RTBP) was a diseases are collected through the mHealthSurvey that 
+multi-partner research initiative that studied the feeds into the TCWI, a browser-based statistical analysis 
+potential for new ICTs to improve early detection and software tool that uses cutting edge algorithms to 
+notification of disease outbreaks in Sri Lanka and India. detect adverse events. Health officials are notified of the 
+RTBP established a pilot project involving village-level adverse events using the Sahana Alerting module 
+nurses in select districts, and an attempt to scale up the through SMS, email and web. Sahana is a free and open 
+project began in March 2011 based on evaluation of the source software collection of disaster management 
+pilot.  modules that work as a platform for integrating multi-
+organization response efforts that provide critical 
+Implementation date: June 2008 to December information to responders’ communication needs.  
+2010  
+Evaluation and Results 
+About RTBP 
+Initial findings show significant efficiency gains in terms of 
+RTBP provides the ability to detect and monitor a wide disease reporting, outbreak detection, and health 
+variety of health events involving communicable, non- alerting. Over the 15-month study, the project’s three 
+communicable, reportable and non-reportable diseases, components were successfully integrated into an 
+and follows WHO’s general recommendations for operational system, which collected more than 450,000 
+disease surveillance systems. The RTBP infrastructure is and 130,000 patient records in Sri Lanka and India, 
+composed of an interconnected network between respectively. A cost analysis also identified 35% savings 
+healthcare workers via a mHealthSurvey mobile phone in both countries when compared to the existing 
+(J2ME) application, T-Cube web interface (TCWI) and systems. Public Health Inspectors in Sri Lanka were able 
+Sahana Messaging/Alerting Module. Village level nurses to detect a Chickenpox outbreak well in advance so 
+are provided mobile phones with the mHealthSurvey they were able to notify the regional healthcare 
+custom software installed to message individual out- workers, enabling them to be better prepared. Similarly, 
+28 mHEALTH COMPENDIUM   |   VOLUME 3 
+ 
+REAL-TIME BIOSURVEILLANCE PROGRAM  
+Utilizing information and communication technologies to improve early detection 
+and notification of infectious disease outbreaks    DATA COLLECTION 
+Nurses in India detected diarrhea outbreaks and real-time reporting of patient records from community 
+identified the source of origin, which was a religious health centers. However, further research is needed to 
+festival gathering. The value of collecting data on non- better understand the challenges associated with scaling 
+communicable diseases and non-priority communicable such a system up to a regional or national level. Further 
+diseases were evident when TCWI revealed trends and work needs to be done to optimize data entry over low 
+population segments in specific geographic locations that cost mobile devices, to address usability and training 
+were vulnerable to life-style-associated and respiratory requirements for the analytics platform, and to continue 
+diseases. Central healthcare workers were taking to enhance and integrate health notification into national 
+advantage of the Sahana Alerting tool to share and regional systems and practices.  
+investigation information with field-level health 
+-------------------------------------------------------- 
+inspectors through SMS. Previously, the inspectors 
+would have had to make a long journey to the central Geographic Coverage: India, Sri Lanka 
+office to collect this paper-based information, and then, 
+return to their village to conduct the investigation.  Implementation Partners: Carnegie Mellon University's 
+Auton Lab, USA; Epidemiology Unit, Ministry of Health and 
+Nutrition, Sri Lanka; Indian Institute of Technology-Madras; 
+Lessons Learned LIRNEasia; National Center for Biological Science, 
+ Frontline health workers found the standard mobile Bangalore, India; National Institute of Communicable 
+phone numeric keypad difficult to use, particularly Diseases, Ministry of Family and Welfare, Tamil Nadu, 
+when entering large numbers of records India; Sarvodaya Shramadana Movement; University of 
+Alberta 
+ Many records entered into the system contained 
+errors that could likely be eliminated through Funder: Canada’s International Development Research 
+improved user interface design and a mobile phone Center (IDRC)  
+application 
+Contact Information:  
+ While desktop computers, provided by the Partner Name: Nuwan Waidyanatha, Senior Research 
+government, were harder to maintain and not often Fellow (nuwan@lirneasia.net) 
+used, healthcare workers took it upon themselves IDRC: Laurent Elder, Program Officer (lelder@idrc.ca) 
+to maintain the mobile phones as they served a dual 
+References: 
+purpose for both official and personal use. 
+1. Sampath, W.G.C. et al. 2010, Real-time Bio-surveillance Pilot 
+ TCWI was able to apply statistical methods to Programme in Sri Lanka: Lessons Learned, Sri-Lanka Journal of 
+detect data inconsistencies and entry errors; which Bio-Medical Informatics 1(3): 139-154 
+the project verified as a result of occasional false 2. Gow G.A. et al. 2010, Using Mobile Phones in a Real-Time 
+reporting to maintain statistics to implicate job Biosurveillance Program: Lessons from the Frontlines in Sri 
+security  Lanka and India, 2010 IEEE International Symposium on 
+Technology and Society (ISTAS ’10), Wollongong, New South 
+Wales, Australia 
+Conclusion 3. Waidyanatha, N.2010, Evaluation of an Information 
+Communiation Technology Pilot in Support of Public Health in 
+The project demonstrated that new ICTs can 
+South Asia, International Development Research Center 
+dramatically reduce turnaround time for outbreak 
+4. Waidyanatha, N. 2008, Real-Time Biosurveillance Program: A 
+detection and alerting from weeks to a matter of days 
+Research Proposal, LIRNEasia  
+or even hours. It also demonstrated the feasibility of 
+ 
+using low-cost mobile phones and existing commercial 
+Photo credits: LIRNEasia 
+cellular infrastructure and services to enable affordable, 
+  mHEALTH COMPENDIUM   |   VOLUME 3 29 

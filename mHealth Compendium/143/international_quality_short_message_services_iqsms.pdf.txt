@@ -1,0 +1,110 @@
+ 
+ I nternational Q
+ uality Short Message Services 
+(IQSMS) 
+ 
+Brief Overview 
+The LEAD project, led by CRS, provides high-quality care and 
+antiretroviral therapy to people living with HIV in four 
+regions of Tanzania. One of the primary objectives is to 
+strengthen the capacity of local partners to provide quality 
+services. In collaboration with 126 government and faith-
+based Care and Treatment HIV facilities and 787 PMTCT 
+sites, LEAD supports antiretroviral therapy, prevention of 
+mother-to-child transmission and tuberculosis services. 
+ 
+The project aims to increase access to the full continuum of 
+care for PLHIV and their families and envisions a Government 
+of Tanzania healthcare system linking care across community 
+services, healthcare workers, local facilities, and government.  
+ 
+In 2010, AIDSRelief (the predecessor to the LEAD project) 
+introduced International Quality Short Message (IQSMS) to 
+100 facilities. IQSMS tracks routine aggregate PMTCT indicators using basic SMS mobile phone technology to 
+meet donor and Tanzania Ministry of Health reporting requirements. Reports are submitted monthly to the 
+district and regional levels for program monitoring and decision making. 
+ 
+  
+ Geographic Coverage: 
+Afghanistan, Angola, Bangladesh, Benin, Brazil, Burundi, China, Dominican Republic, DR 
+Congo, Ethiopia, Guatemala, India, Indonesia, Jordan, Kenya, Lesotho, Liberia, Mali, 
+Namibia, Philippines, Rwanda, Senegal, South Africa, South Sudan,  Swaziland, 
+Tanzania, Ukraine, Vietnam  
+ 
+ Implementation Partners: 
+Catholic Relief Services (CRS) leads a team of partners which includes:  
+Futures Group International (Futures) | Interchurch Medical Assistance World Health 
+(IMA) | University of Maryland School Of Medicine – Institute of Human Virology 
+ 
+ Funder: 
+CDC 
+ 
+ For More Information Contact: 
+CDC 
+ Brandy Airall, Project Officer; 
+Centers for Disease Control and Prevention 
+2448 Luthuli Road; PO Box 9124, Dar es Salaam,Tanzania; 
+Email:bairall@cdc.gov 
+Futures Group 
+ Bobby Jefferson  
+Senior Health Informatics Advisor, Futures Group 
+Principal Investigator CDC HMIS Grant Kenya 
+ Senior HMIS Advisor, Center for Health Solutions – Futures; 45 
+Email: bjefferson@futuresgroup.com 
+ 
+ 
+Logistics 
+ 
+International Quality Short Message Services (IQSMS) 
+About IQSMS errors. Wait time on feedback of the quality of reports 
+IQSMS was developed by Futures Group as freely is significantly reduced. IQSMS has also helped the 
+available, open source software, under the creative district and regional offices to be able to compare their 
+commons license. This allows IQSMS software to be reports with other regions for improvement. 
+used by local implementing partners, NGOs and local  
+ICT groups in Tanzania. By taking an open approach to By October 2012, 558 sites were sending their reports 
+designing ICT solutions, it enables the Ministry of Health to a centralized project server in Dar es Salaam. The 
+and the Government of Tanzania to have country reports include: PMTCT Antenatal Clinic (ANC) 
+ownership and ensure sustainability of this innovative monthly summary form; PMTCT care monthly summary 
+ICT mhealth solution. IQSMS is an application that uses form; PMTCT mother-child follow-up monthly summary 
+mobile phone sms to report data in a predetermined form; and labor and delivery monthly summary form. 
+format to a centralized server. The SMS is transformed Complaints about the accuracy of the transcription of 
+into an integrated database.  paper-based reports have been reduced. There is also 
+ reduced time in error checking as the system checks 
+The software uses SMS data in a predetermined format, automatically and final results are posted within 20-30 
+sent to a dedicated central server (can be a basic seconds. 
+desktop) connected to a modem or 3G connection.  
+IQSMS records incoming SMS and reports into a SQL Lessons Learned 
+database. Automated data quality checks, business rules • 558 PMTCT facilities have been reached.  
+and immediate notifications are sent to users • No paper based reports leading to minimal 
+ensuring that only validated data is added to database.  storage and office space need.  
+IQSMS was implemented at rural and hard-to-reach • Reduced travel costs and increased productivity 
+sites in areas with network coverage. Messages were at the facility since monthly travel to deliver 
+received by a modem connected to a server which reports is no longer required.  
+performed data quality checks and responded to sender.  
+After data verification, the data was automatically IQSMS supports the government to ensure continuity of 
+integrated into the database. The user was notified reports between partners and the Tanzanian Ministry of 
+about any inaccurate reports rejected by server. Health and Social welfare. IQSMS is implemented 
+PMTCT staff participated in a four-hour training session without any significant investments in data collection 
+on using IQSMS. The application is very flexible and labor, transportation and storage costs. 
+reports, data validation and business rules can be  
+updated by an administrator without the need to engage Conclusion 
+a software developer. The tool can be used for IQSMS is an easy to use and effective tool for aggregate 
+reporting other program areas with no further reporting of health and development information. 
+development.  IQSMS reduces the time required to provide feedback 
+ to the reporting facilities and can lead to improved 
+Results efficiencies by reducing travel time to submit reports. 
+IQSMS has made reports available on time at the The software does not require Smartphones or a 
+district, regional and national level from facilities. It has specific operating system; a simple feature phone with 
+reduced the travel frequency of facility staff and field SMS enabled is the only mobile phone requirement. The 
+officers since data is sent electronically rather than system improves data quality and requires to facilities to 
+submitting hard copies. Staff at the district, regional and submit validated reports.  
+national level no longer need to aggregate data manually  
+from the facility level and time in error checking has  
+been reduced as the system checks automatically for 
+Information was excerpted from:  
+AIDSRelief Marks Lifesaving Milestones - http://crs.org/united-states/aidsrelief-landmark-event/; 
+http://www.stockholmchallenge.org/project/2010/international-quality-short-message-services; Futures Health Informatics Presentation Bobby 
+Jefferson, Senior Health Informatics Advisor; http://www.iqstrategy.net/frmiqsms.shtml; 
+46  http://www.stockholmchallenge.org/project/2010/international-quality-short-message-services; Using mobile technology to improve prevention of mother-to-child transmission reporting in Tanzania: T.S. Tulli, J. Ndega, I. Darlene, B. Jefferson, B. Chikira, M. Upendo, E. Robinson, M. Deas, M. 
+Clement, A. Essau, L. Burrows, N. Mwemezi, M. Aidi; 6th IAS Conference on HIV Pathogenesis and Treatment 
+Abstract no. TUPE459; http://www.iasociety.org/Abstracts/A200743546.aspx 

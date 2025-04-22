@@ -1,0 +1,89 @@
+MOBILE HIV & MALARIA DIAGNOSIS 
+AND REPORTING SYSTEM 
+Improve disease monitoring in Zimbabwe 
+DATA COLLECTION 
+Implementation date: October to December 2013 
+In 2012 and 2013, 15 percent of Zimbabwe’s population was HIV positive and half the population was at risk of contracting 
+malaria. Accurate diagnosis of disease is needed to guide patient treatment and timely reporting of results is needed to guide 
+disease control programs. The challenge is that most disease reporting still relies on paper-based systems. These systems often 
+have gaps such as errors in data or delays in reporting.  In 2013, Global Solutions for Infectious Diseases (GSID), the University 
+of Washington and Dimagi created a mobile application to analyze and capture RDT results at the point of care and report 
+them to a secure web-server for remote monitoring by public health officials.  
+About Mobile HIV & Malaria Diagnosis and Reporting System 
+The Android-based software utilizes CommCare’s case This system has the capability to photograph and analyze 
+m anagement and reporting features, developed by Dimagi, to HIV or malaria RDT results. The application captures the 
+digitize case report forms and Open Data Kit (ODK) type of test used, time, date, and location, as well as allowing 
+s oftware (developed by the University of Washington) to the HCW to enter demographic data. The results are 
+process, analyze and return RDT results with computer transmitted wirelessly to a central, web-accessible database 
+v ision algorithms. The mHealth tool seeks to: that aggregates the data and provides customized reports for 
+use by health officers. The data assist in tracking and 
+ Analyze and deliver RDT results to health care workers 
+managing patients’ cases and monitoring disease trends and 
+ (HCWs) at the point of care health commodity consumption. All data are secured and 
+ Provide a universal reader capable of reading multiple 
+made available based on the national regulations and 
+RDTs from various manufacturers 
+ guidelines. 
+ Automate data collection and eliminate key sources of 
+errors 
+  Reduce HCWs’ workload by digitizing reporting 
+ Enable high-level supervision and quality assurance of 
+health workers’ RDT administration 
+ 
+ Provide real-time, accurate disease reporting 
+          
+ 
+32  |  mHealth Compendium Volume 4 
+Evaluation and Results 
+Table 1 - Zimbabwe Study Summary (Oct - Dec 2013) Working with the Zimbabwean Ministry of Health and Child Care 
+(MOHCC), a pilot study was conducted across five sites in 
+HIV Malaria
+Manicaland Province: one provincial hospital, two district 
+Number Positive Number Positive
+hospitals, and two rural health centers. The application was 
+Male 214 17% 749 24% calibrated to read six different RDTs distributed by the MOHCC 
+Female 648 13% 965 20% (three  for HIV and three for malaria). During the study, over 
+Total 862 14% 1714 22% 2,500 test results were collected (summarized in Table1). 
+Based on interviews, HCWs said the application was easy to learn and use. Actual data entry required about 90 seconds per 
+result.  Moreover, they strongly believed that it would improve their workload, primarily by eliminating paper-based 
+reporting requirements on a daily, weekly and monthly basis.  
+One of the primary goals was to validate the application by comparing the results from the application to those from visual 
+interpretation by the trained HCWs during actual service provision. The study successfully demonstrated a high 
+concordance between the software and visual interpretations. The results have been submitted for publication.  
+The GSID project provided one phone per clinic, with 60 nurses sharing 15 phones across five different sites. Each user was 
+given a unique login, allowing multiple users to access CommCare on one phone. Supervisors were able to monitor 
+individual locations and hospital departments’ performance through CommCare reports. 
+During the study, GSID used images uploaded to CommCareHQ to conduct quality assurance, identifying when the nurses 
+were performing RDTs incorrectly (such as using too much solution or applying too much blood to the receptor). 
+Representatives at the Central Lab in Harare were able to follow up directly with specific sites, reviewing proper procedures 
+for performing RDTs.  
+Lessons Learned Geographic Coverage: Manicaland Province, 
+Zimbabwe  
+ HCWs can quickly learn and easily incorporate the mHealth 
+application into their existing workflow without major Implementation Partners: Global Solutions for 
+disruptions.  Infectious Diseases (GSID); Dimagi, Inc.; Open 
+ Relevant data can be easily collected and rapidly reported for Data Kit (ODK), University of Washington; 
+remote monitoring by central public health authorities.  Zimbabwe Ministry of Health and Child Care  
+ Future studies will need to assess how real-time data can be Funder: Econet Wireless Zimbabwe  
+incorporated with other data sources and used to improve 
+Contact Information: 
+monitoring and management of disease control programs.  
+Global Solutions for Infectious Diseases | Ian 
+Francis, Director for Diagnostics and Surveillance 
+Conclusion (ifrancis@gsid.org) 
+After a successful pilot, expanded use of the mobile application would Dimagi | Kieran Sharpey-Schafer, South Africa 
+improve health care, from the point of care up through the senior Country Director (ksharpey@dimagi.com) 
+level of MOHCC. For patient-level management, the application 
+University of Washington | Nicola Dell, 
+provides  standardized interpretation of diagnostic results to guide 
+(nixdell@cs.washington.edu) 
+the appropriate care provided by even minimally trained health 
+workers, in resource-limited settings. From the public health See References on page 89. 
+perspective, the infectious disease reporting cycle can be dramatically 
+shortened using mHealth, allowing health officers to gather, assess 
+and respond to real-time disease occurrence for improved disease control. Results can be monitored to detect outbreaks 
+and trends of specific diseases can be evaluated to support evidence-based decision making. Accurate supply consumption 
+data will better inform supply-chain managers. Data can also be used by program funders to enhance transparency and 
+provide better monitoring and evaluation at all levels.  
+ 
+mHealth Compendium Volume 4  |  33 

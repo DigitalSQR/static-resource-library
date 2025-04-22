@@ -1,0 +1,79 @@
+OppiaMobile is being 
+tested to deliver in mobile 
+phones the complete 
+national health extension 
+worker (HEW) training 
+materials, approved by the 
+Ministry of Health.
+OPPIAMOBILE
+IMPLEMENTATION DATE:  August 2013, when started the project and content adaptation, to October 2016 
+Mobile delivery of health extension worker training materials
+Health workers in Ethiopia are generally under-trained. The standard training pedagogy can often 
+involve an excessive use of text-heavy, didactic lecturing that lacks the interactive, participatory 
+pedagogy needed for effective adult learning. Moreover, there is little follow up on how health workers 
+use their newly acquired knowledge and skills.1 Research on the introduction of ICT in education 
+has shown that it is effective only when developers understand the strengths and weaknesses of the 
+technology and integrate the technology into appropriate pedagogical practices.2,3,4 To supplement and 
+enhance learning within existing training programs, the UK-based company Digital Campus’ technical 
+and medical team have developed OppiaMobile, an open source mobile learning platform for delivering 
+learning content, video, and quizzes, specifically designed for-low resource environments with poor 
+Internet connectivity, such as rural Ethiopia.
+About OppiaMobile
+The OppiaMobile platform consists of three main Supports video/multimedia: Multimedia content can be components: a Moodle plugin for authoring, the included in courses; this would usually be copied directly 
+OppiaMobile server, and phone client application. All of onto the phone SD card to reduce the course package 
+the code is open source (GPLv3 license), enabling anyone to size, especially when the user has poor or slow Internet 
+set up their own server/client application and customize as connectivity. 
+necessary. Key features of OppiaMobile include: Embedded quizzes and self-assessment tests: Quizzes can 
+Offline access: OppiaMobile assumes that the user has be included in the courses, supporting a range of question 
+limited Internet connectivity. All features of the learning types, including multichoice, multiselect, matching, numeri-
+content and activities are stored directly on the phone’s cal, and short answers. Feedback can also be provided.
+SD card and therefore function even when offline. When a Tracking and monitoring: An analytics dashboard on the 
+connection is available, the stored tracking information, quiz server allows teachers, trainers, and supervisors to monitor and 
+scores, details of videos watched are sent back to the server.
+76  n  SERVICE DELIVERY 
+Warren Zelman
+track students’ progress in almost real time. This includes quiz The training course, comprised of 13 modules, taught over 
+scores (including responses given for individual questions) and 8-12 months, covers a variety of health topics, including ante-
+the length of time users spent on a particular activity. natal and postnatal care, labor and delivery, nutrition, family 
+Multilingual content supported: Activities can be provided planning, immunization, adolescent and youth reproductive 
+in multiple languages, allowing users to switch to their health, hygiene and environmental health, communicable 
+preferred language. and noncommunicable diseases, and health management. All 
+the materials are released under a Creative Commons license. 
+Collaborative editing: Moodle is used for course content It provides a source of information that can be used for both 
+development, taking advantage of the existing authoring preservice and inservice training and to reinforce critical health 
+environment and allowing existing courses in Moodle format messages so that health workers feel confident and empowered 
+to be easily converted to run on OppiaMobile. to deliver effective services in their communities.
+Automatic notification of content updates: When a course 
+is updated, users are automatically notified that an update is 
+available and they will not lose the progress indicators. Lessons Learned 
+Customized app and server: All the server and app n Use well-established open source software with a 
+components are open source. large community of developers and Institutional users.
+Gamification: Learners can earn points and badges for n Student engagement increases when working with 
+completing activities, quiz scores, and watching videos. official accredited training courses.
+n Always use open source software and content 
+Evaluation and Results licenses (GPLv3 license).
+n This mHealth intervention requires initial and recurring 
+OppiaMobile is being tested to deliver in mobile phones the costs, although OppiaMobile is designed to reduce 
+complete national health extension worker (HEW) training information and communication technology support to a 
+materials, approved by the Ministry of Health, to upgrade its minimum of mHealth solutions; it cannot be viewed as 
+more than 34,000 HEWs. The main outputs of the first phase a quick fix to an underlying complex educational system 
+of this project (18 months) in Ethiopia has been the technical problem. Learning on mobile devices will never replace 
+development of the mobile learning platform and the adap- the classroom; however, if leveraged properly, mobile 
+tation of the complete HEW training materials: 13 modules technology can complement and add value to education.
+covering all aspects of primary healthcare, with additional vid-
+eo content from Medical Aid Films and Global Health Media 
+Project, and hundreds of new self assessment quiz questions. Conclusion 
+This is still an ongoing study, having enrolled a first cohort 
+of 200 HEWs in one training center (Mekelle) in northern The OppiaMobile platform allows mobile-ready offline 
+Ethiopia from September 2014 to July 2015, with a courses to be developed without the need for technical 
+15-month follow-up of HEWs when they have returned to development. The platform is already in use in Ethiopia, 
+their health posts. Nigeria, Ghana, and India, and collaboration with the 
+mPowering partnership (http://mpoweringhealth.org/)  
+will ensure the platform and adapted content be used  
+more widely. n
+Geographic Coverage:  Ethiopia, Nigeria, India 
+Implementation Partners: Jhpiego 
+Donors: UKAid; mPowering Frontline Health Workers 
+Contact Information: Roman Blanco/ Alex Little Digital Campus 
+Ltd.  http://www.digital-campus.org
+mHEALTH COMPENDIUM  VOLUME 5  n  77

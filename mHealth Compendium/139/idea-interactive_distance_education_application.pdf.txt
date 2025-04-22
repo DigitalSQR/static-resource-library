@@ -1,0 +1,86 @@
+iDEA: Interactive Distance Education Application
+IMPLEMENTATION DATE:  October 2013 to March 2015
+Providing health workers with mobile-based video instruction and reference materials
+Nigeria has one of the highest population growth rates in the world. The United Nations projects that 
+the current population estimates of roughly 160 million will increase to almost one billion by the end of 
+the century. Despite the pressing need, Nigeria has had a stagnant contraceptive prevalence rate (percent 
+of currently married women who use contraceptives) of only around 15 percent and a fertility rate of 
+5.5 births per woman for nearly 10 years.1 The Nigerian Urban Reproductive Health Initiative (NURHI) 
+managed by the Johns Hopkins Bloomberg School of Public Health Center for Communication Programs 
+(CCP) discovered that the service providers in the cities of Abuja, Ibadan, Ilorin, and Kaduna were restricting 
+the use of many family planning methods based on internal biases and reasons that included the client’s age, 
+parity (number of births), their marital status, and whether their spouse had granted consent. 
+About iDEA
+NURHI staff found that provider bias is difficult to planning methods that are appropriate and based on clients’ change, and often remains even after refresher training. desires and medical eligibility. NURHI, in conjunction 
+Due to the midwives’ work schedule, the desire to use videos with a local production company, developed instructional 
+as the medium for information sharing, and the need to videos with an entertainment-education approach. Each 
+track progress, a mobile-based solution was proposed. As a video scenario features examples to help providers recognize 
+result, NURHI launched the Interactive Distance Education their biases and then address them by suggesting alternative 
+Application (iDEA) system for midwives in order to provide approaches towards counseling. Each scenario has a pretest 
+a platform for providers to access relevant educational content and a posttest to gauge learning.
+and resources from Android-based smartphones or tablets. iDEA is integrated with Moodle, a popular open-source 
+iDEA is adapted from the Digital Campus open source learning management system, which provides users with the 
+application OppiaMobile. Educational content is integrated ability to create educational modules complete with videos, 
+into the application to reinforce skills after training to images, text, or audio in minutes. OppiaMobile automati-
+increase a provider’s ability and willingness to deliver family cally converts the modules for use with Android, which users 
+26  n  BEHAVIOR CHANGE COMMUNICATION
+Media hits
+Wk Tot=587
+and assess diffusion. The provider interviews will help supply 
+an explanation of the findings of the client exit interviews.
+120 hits Page nished
+Wk Tot=242
+100 Lessons Learned
+80
+Quiz nished n Convenience: As an offline application, connectivity 
+60 Wk Tot=129 costs are minimal so there is no requirement to enter 
+40 Unique users into negotiations with mobile network operators.
+Wk Tot=59
+20
+n Sustainability: By registering the application through 
+Google Play, the odds for project sustainability are great-
+Wed. Thu. Fri. Sat. Sun. Mon. Tue.
+3 Dec 4 Dec 5 Dec 6 Dec 7 Dec 8 Dec 9 Dec ly enhanced because midwives are able to update the 
+Site visits during one week in 2014 application themselves. However, connectivity in remote 
+areas is still so problematic that this registration process 
+Figure 1. Usage statistics is not always achievable.
+n Dissemination of messaging: It is important to assume 
+can install from Google Play. With a one-time connection to that the smartphone itself will be shared, and in some 
+the Internet, users can download the app, install the educa- cases personal media will be loaded onto the phones. 
+tional content, and register, and then can run the application There are a variety of measures that can be employed 
+and content offline. (See image left page.) to reduce file tampering, such as password protection, 
+which should be explored.
+Evaluation and Results
+Conclusion 
+In Nigeria, pretests determined midwives’ knowledge of 
+counseling techniques prior to exposure to educational The public health community is in the midst of exploring  
+content. The average pretest score was 70 percent while the whether wide-scale deployment of mobile technology will  
+ensuing post-test showed an average improvement of about  improve frontline health worker and health system performance.  
+5 percent. One likely explanation for the relatively minor There are several parts to this question, including: (1) technical 
+improvement in scores was that the midwives already knew  feasibility; (2) usability; (3) acceptability among users;  
+the material; what they did not recognize, until a video (4) improvement in health outcomes; and (5) sustainability. The 
+role play was provided, was their own tendency to display deployment of iDEA has satisfactorily addressed the first three 
+a negative bias towards their clients. Qualitative interviews issues, while a planned evaluation in 2015 will begin to address 
+demonstrated that the midwives recognized themselves the fourth. The design of the program will, with time, prove to 
+in the “bad” example of client counseling and they then be sustainable given the low cost and accessibility of the open 
+felt uncomfortable with their own behavior. Focus group source components of the application and learning management 
+discussions were held; some midwives expressed guilt at system that form the core of the technology. With a planned 
+having prevented clients from making their own decisions. integration of the mPowering Initiative’s media sharing platform, 
+The self-assessments were typical in that the videos reflected these components could provide a complete architectural design 
+and helped them recognize some of their biases. This was con- of an end-to-end educational media distribution system that any 
+firmed during the pilot test and during follow-up focus group national or regional initiative could adopt in the future. Further 
+discussions several months after initial deployment. plans for an open collaboration in the refinement of the tools 
+and the overall distribution system will further enhance function-
+Usage statistics are routinely collected by the application and ality and reduce the cost of future deployments.  n
+are uploaded to the administration server whenever there is a 
+connection. The graph below reflects the typical usage rates 
+where, for example, over the course of one week, 59 differ- Geographic Coverage: Four Nigerian cities: Abuja, Ibadan, Kaduna, 
+ent users accessed 242 pages in the family planning module, llorin
+attempted 129 quizzes, and viewed 587 media sources. (See Implementation Partners: Johns Hopkins Bloomberg School of 
+Figure 1 above.) Public Health Center for Communication Programs; Digital 
+Campus
+An evaluation is planned for early 2015 using a two-arm qua- Donor: Bill & Melinda Gates Foundation
+si-experimental design with client exit interviews to compare Contact Information: Mike Bailey, Systems Development Manag-
+providers with and without phones. Interviews will be con- er at Johns Hopkins Center for Communication Programs, 
+ducted with providers to document perceptions about iDEA mike.bailey@jhu.edu
+mHEALTH COMPENDIUM  VOLUME 5  n  27

@@ -1,0 +1,99 @@
+ 
+BABY MONITOR 
+Preventing maternal and newborn deaths through mobile phone-based screening 
+Despite significant global progress in reducing When fully operational, Baby Monitor will include an 
+maternal and infant mortality rates, nearly 300,000 “action” component that uses screening results to 
+maternal deaths and an estimated 5 million infant trigger automated referrals and emergency dispatch.   
+deaths occur each year. Prenatal care and a series of 
+proven interventions delivered by a skilled attendant Baby Monitor uses Verboice, a free IVR platform, 
+could prevent nearly 80% of maternal deaths and 66% installed on an Amazon Elastic Compute Cloud (EC2) 
+of newborn deaths.  However, many women and server connected to a Voice over IP (VOIP) provider in 
+infants are never assessed and connected to Kenya.  Each call costs Baby Monitor USD $0.04 per 
+healthcare. Baby Monitor, a new mHealth platform minute, which could be reduced through bulk pricing.  
+that takes clinical screening directly to pregnant 
+women, aims to change this.  
+Evaluation and Results 
+The goal of Baby Monitor is to save lives, improve health The initial study conducted in Nairobi in 2012 allowed 
+outcomes, and optimize the use of community health Baby Monitor developers to: 
+workers (CHWs) in rural and remote regions where 
+access to health systems is limited and clinical 1. evaluate the feasibility and acceptability of Baby 
+assessment often occurs too late or not at all. With Monitor through interviews and focus group 
+seed funding from the Saving Lives at Birth Grand discussions with study participants and consultations 
+Challenge, Population Council and its partners with our clinical partner and 
+developed and tested a beta version of Baby Monitor, a 
+2. assess reliability and accuracy of the mobile 
+mobile-phone based screening, referral and patient 
+screening protocols by comparing results from 
+management service that targets hard-to-reach pregnant 
+mobile screenings to follow-up, in-person clinical 
+women as end-users. The formative study was 
+assessments. 
+conducted in a periurban catchment area in Nairobi, 
+Kenya in 2012. Baby Monitor is currently being further Four health screening protocols were developed for 
+refined and tested in a second study in Bungoma East different stages of the birth continuum. The antenatal 
+District, Kenya.    protocol included screening questions about maternal 
+physical and mental health. The postnatal protocol, used 
+Implementation date: October 2011 
+one and three days after delivery, assessed maternal and 
+infant physical health (but not mental health or infant 
+development). The postnatal protocol, used seven days 
+About  Baby Monitor 
+after delivery, assessed maternal physical health, 
+Baby Monitor is an open source mobile phone perinatal depression and infant physical health, and the 
+application that uses interactive voice response (IVR) postnatal screenings, delivered at 6, 10 and 14 weeks, 
+technology to offer free mobile screenings to pregnant assessed maternal physical health, perinatal depression, 
+women and new mothers. When it is time for a prenatal infant physical health and infant development. 
+or postnatal exam, a registered user receives a text 
+message with a code that can be redeemed by “flashing” Ninety-five (95) women in their second trimester were 
+the Baby Monitor phone number to trigger a free call enrolled for the study.  Women completed automated 
+back. The woman selects her preferred language, listens screenings and, one day later, completed the same 
+to recorded audio prompts asking her how she and her screening with a nurse.   
+baby are feeling, and presses keys on her phone’s 
+number pad to respond. All of her responses are logged In the prenatal period, Baby Monitor correctly identified 
+in an electronic medical record. The analysis engine 88.5% of positive cases—those classified by the nurse as 
+determines whether the woman is likely to need referral having “any problems”.  The screening tool was less 
+to a medical facility or more immediate assistance.  successful in the postnatal period, only correctly 
+52 mHEALTH COMPENDIUM   |   VOLUME 3 
+ 
+BABY MONITOR 
+Preventing maternal and newborn deaths through mobile phone-based screening  SERVICE DELIVERY 
+integration with existing electronic medical records 
+systems, the developers of Baby Monitor will be able to 
+build an interoperable service that encourages women 
+to seek healthcare, optimizes the use of health system 
+resources, tracks outcomes and offers women a more 
+personalized health experience.  
+-------------------------------------------------------- 
+Geographic Coverage: Kenya (initial study in Nairobi, 
+current study in Bungoma East District) 
+Implementation Partners: Population Council, in 
+partnership with InSTEDD, Jacaranda Health and Moi 
+University 
+Funder: Saving Lives at Birth Grand Challenge partners, 
+including USAID, the Government of Norway, the Bill & 
+identifying 23.8% of positive cases. The tool Melinda Gates Foundation, Grand Challenges Canada, and 
+demonstrated high specificity, positive predictive value the World Bank 
+and negative predictive value in both periods. Contact Information:  
+Overall, the screening tool proved to be a valid Population Council: Eric Green, Principal Investigator, 
+assessment of medical need. It also had acceptable initial Population Council (+1919-666-7111, 
+measures of reliability, meaning that the women largely eric.green@duke.edu) 
+provided the same responses to the automated service  
+as they did to the live nurse. Reliability can be improved References: 
+as the system moves to production by increasing the 1. Green, Bellows, di Tada and Pearson (2013).  “Baby Monitor: 
+stability of the platform and enhancing the audio quality Developing and testing a mHealth screening service for pregnant 
+of the phone connection.  women and new mothers in Kenya.”  Preliminary Working 
+Draft. 
+2. Baby Monitor Slide Deck, Tech’n’Talk session, Women Deliver 
+Lessons Learned 2013. 
+ 3. http://www.babymonitor.co  The Baby Monitor system is feasible to implement 
+and acceptable to users. 
+ Automated screening can be used as a tool to 
+identify women and infants with medical needs. 
+Conclusion 
+For many women in rural and remote settings, a mobile 
+phone signal is more likely to reach their home than a 
+community health worker. The formative study of Baby 
+Monitor demonstrates the potential of using an 
+automated IVR screening on mobile phones to identify 
+women and infants with medical needs. Through 
+  mHEALTH COMPENDIUM   |   VOLUME 3 53 

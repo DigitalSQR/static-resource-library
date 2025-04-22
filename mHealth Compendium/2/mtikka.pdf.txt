@@ -1,0 +1,88 @@
+Preliminary results 
+from the pilot study 
+showing improvements 
+in vaccination timeliness 
+suggest mTikka  
+will improve health 
+outcomes by increasing 
+timely immunization rates.  
+mTIKKA
+IMPLEMENTATION DATE:  September 2013 to December 2014 
+A virtual vaccine record, reminder, and session management 
+system designed for frontline immunizers
+Bangladesh has a population of more than 162 million with more than 1 million births every year.  
+The mTikka system was designed to assist Government of Bangladesh frontline immunizers in providing 
+timely immunizations to newborns and children under five by addressing barriers identified during 
+formative research. Barriers identified include the inability to track a child’s vaccination history, the lack 
+of timely vaccination reminders, the lack of incentives for families to take children to be vaccinated, and 
+limited awareness about vaccine effectiveness. 
+mTikka provides solutions to each of these barriers. To ensure availability of vaccination history, mTikka 
+maintains a copy of the child’s immunization record on the server that is also accessible by the caregiver’s 
+phone number or scanning of a unique identifier code bracelet given to each child at registration. To 
+provide timely reminders, mTikka sends server-generated short message service (SMS) reminders to 
+the mobile number linked to children’s records the day before they are due to attend an immunization 
+session. Additionally, the health assistant (HA) pushed alerts the morning of a vaccination session when 
+the HA is actually present and ready to provide immunizations. 
+To address lack of incentives, mobile flexi-loads were given to vaccine advocates (VA)—individuals 
+nominated by the family to receive and relay these SMS alerts on their behalf—to incentivize sharing 
+immunization reminders and alert messages with the families who nominated them. Lastly, to address 
+limited awareness about vaccine effectiveness, in each child’s registration form in mTikka is a vaccine 
+beliefs survey, comprised of 10 true-false questions and answers that serve as a guide for HAs with 
+which to counsel mothers and caregivers on basic vaccine facts. 
+80  n  SERVICE DELIVERY 
+Kelsey Zeller
+About mTIKKA Based on this pre-post design, the effect of the mTikka 
+system on immunizations, session attendance, and vacci-
+he mTikka system is a virtual vaccination registry and nation beliefs were analyzed and preliminary results show T immunization performance tracking system designed to a significant increase in timely vaccination coverage among 
+reduce barriers to timely vaccination of infants in rural children who interacted with the mTikka application during 
+the post-mTikka period compared with children in the 
+Bangladesh. mTikka optimizes record-keeping, manages pre-mTikka phase.
+workflows, and connects families to routine immunization 
+services. mTikka is currently deployed in two unions of 
+Gaibandha District, in rural northwest Bangladesh by Johns Lessons Learned 
+Hopkins Bloomberg School of Public Health, mPower, and 
+the Ministry of Health of the Government of Bangladesh.  Several existing features of the mTikka system that could be 
+It includes an Android-based mobile application, web portal, optimized in the future for improved usage and identified, 
+server, and SMS portal. The mTikka mobile application, include:  
+when loaded onto locally available smartphones, allows n The immunization workforce in Bangladesh varies 
+the health worker to digitally register children, track their widely in terms of comfortably interacting with mobile 
+immunization records, connect with nonadherent families phones and changing immunization practices. In future 
+before vaccination sessions end, and send SMS reminders trainings additional effort will be made to keep the 
+to families when their children are due for immunization fast-paced learners interested in the trainings after 
+services. mTikka does this by calculating, on the server-side, they’ve mastered the basic functionality, and to move 
+vaccination due dates based on an infant’s date of birth and at a more comfortable pace for those workers who have 
+vaccination history. It also integrates information on when more difficulty with the device and system functionality.  
+outreach vaccination sessions are scheduled in the area into n Uptake by clients of the birth notification SMS is 
+the scheduling logic to inform parents not just when their crucial for increasing early access to mTikka during 
+children are due for immunization but when their child children’s most vulnerable period.
+could actually receive the vaccination from a nearby center. 
+Using this information, the server automatically sends a re-
+minder SMS to parents or caregivers the day before a child’s Conclusion 
+next vaccine dose is due. The immunizer pushes another type 
+of SMS, called an announcement SMS, to clients, alerting Based on usability and feasibility testing, implementation of a 
+them of the time and place of the vaccination session. mobile system like mTikka is feasible in the rural Bangladesh 
+The core functions included in the mTikka system were context. Preliminary results from the pilot study showing 
+based on known barriers to vaccine schedule adherence but improvements in vaccination timeliness suggest mTikka will 
+were further optimized to the rural Bangladesh setting after improve health outcomes by increasing timely immunization 
+an extensive formative, user-centered design phase, focused rates and should therefore be a candidate for expanded im-
+on identifying both demand and supply-side obstacles to plementation. Conducting formative research was vital to ap-
+timely immunization. propriately mapping and transferring the paper-based immu-
+nization process into an intuitive, optimized mobile-powered 
+system. Future iterations of the mTikka system will include 
+Evaluation and Results more health workers, infants, and a broader geographical area 
+enabling additional reporting on health outcome changes that 
+Field-testing of mTikka focused on usability of the sys- may be triggered by the mTikka system.  n
+tem and feasibility of implementation. Additional data on 
+immunization records, vaccine beliefs, and attendance at 
+immunization sessions was also collected. There were 210 
+mother-infant pairs first enrolled and surveyed on socio-
+economic status, mobile phone usage, etc. During the next Geographic Coverage:  Two unions (Kuptala and Konchibari) of 
+10 weeks the mothers sought immunization care as they the Gaibandha District in rural, northwestern Bangladesh 
+normally would, with the government workers not yet using Implementation Partners: Johns Hopkins University; mPower 
+the mTikka application. Follow-up interviews were conduct- Social Enterprises; Government of Bangladesh 
+ed after the 10-week period. A second set of mother-infant Donors: Bill & Melinda Gates Foundation, Grand Challenges 
+pairs were enrolled and the same interviews and follow-ups Exploration Grant 
+were conducted, except that the government workers used Contact Information: Dr. Alain B. Labrique, Associate Professor, 
+Johns Hopkins University, alabriqu@gmail.com 
+the mTikka system during the 10-week period.  
+mHEALTH COMPENDIUM  VOLUME 5  n  81

@@ -1,0 +1,89 @@
+Example of service delivery 
+report sent vis SMS
+A=# clients attended
+B=# U5 attended
+C=# U5 with malaria
+G=# U5 with pneumonia
+F=# U5 with diarrhea
+D=# U5 referred
+E=# clients received FP pills
+ACCREDITED Drug Dispensing Outlet
+IMPLEMENTATION DATE:  April 2012 to May 2015 
+Improving regulatory capacity to enhance pharmaceutical 
+product and service quality 
+Many people in rural Tanzania seek health care and medicines from retail drug shops, which historically 
+had unqualified, untrained and unsupervised sellers.1 1 Launched in 2003, the Accredited Drug 
+Dispensing Outlet (ADDO) program sought to improve access to affordable, quality medicines 
+and pharmaceutical services in underserved areas through a combination of training, incentives, and 
+regulatory oversight of set standards.2 One of the goals of Management Sciences for Health (MSH)’s 
+Sustainable Drug Seller Initiatives (SDSI) program was to assure the ADDO program’s long-term 
+sustainability by increasing access to data for informed program decision-making. With nationwide scale-
+up and over 9,000 shops accredited or nearly accredited in Tanzania, the Pharmacy Council of  Tanzania 
+(PC) needed a comprehensive database to organize information on ADDO and pharmacy facilities 
+and personnel. In addition, PC was interested in using mobile technology to improve its communication, 
+reporting, and fees collection systems for these facilities. SDSI collaborated with Invention and 
+Technological Ideas Development Organization (ITIDO), a local group, to help PC meet its needs. 
+About ADDO
+Working with MSH and PC, ITIDO developed a and personnel fees, a short message service (SMS)-based web-based database of information on private sector reporting module for outlets to report on standard service 
+drug outlets’ premises and personnel, including facility delivery-related indicators, and an SMS-based information 
+registration, personnel qualifications and certifications, exchange module, which allows ADDO and pharmacy 
+inspections, and payments of associated fees. ITIDO also personnel to send and receive information, for example, on 
+developed mobile applications that link to the database accreditation requirements or drug recalls. The applications 
+and include a mobile payment component for premises work with the basic mobile phones that ADDO personnel 
+50  n  FINANCE
+Rachel Lieber
+already own, precluding the need for smartphones.3 SDSI Although feedback was mostly positive, some pharmacy 
+tasked ADDO, pharmacy, and PC personnel with identifying personnel felt their training on the helpline was inadequate. 
+features they wanted to see in the system; stakeholder input Others noted delays in receiving report confirmations or 
+on the system design helps ensure sustainability. In addition, answers to queries from PC. Mobile money had allowed PC 
+ITIDO developed the technology using JAVA-based open to collect fees quickly, and PC staff reported that mobile 
+source software to ensure affordability and adaptability.  technology had improved communication between themselves 
+PC, MSH, and ITIDO introduced the technology in the and ADDOs. A challenge was that not all PC departments 
+Dar es Salaam and Pwani regions in May 2014 to determine were using the database, which limited its usefulness. Despite 
+its ease of use and whether it improves regulatory capacity challenges, PC staff were eager to see that the tools were used 
+and efficiency. The pilot involved 289 ADDO owners and effectively to improve their own operations and those of 
+dispensers from Pwani, 218 pharmacy owners and personnel ADDOs and pharmacies. 
+from Dar es Salaam, and PC staff. A process evaluation and 
+qualitative interviews were conducted to assess user experi- Lessons Learned 
+ences with the integrated mobile technology and database.  
+After the pilot, ITIDO used the findings to refine the n Engaging and training all potential technology users 
+applications. PC has entered into the system basic in the regulatory organization is critical to realizing the 
+information on ADDOs and pharmacies nationwide, technology’s full potential and benefits.
+including GIS coordinates, in preparation for the technology’s 
+n Something as simple as a helpline may not be intuitive 
+scale-up. SDSI and ITIDO also helped PC draft a technology to all, which limits its use; therefore, training time 
+scale-up and sustainability strategy. Drug shop regulatory needs to be adequate to suit everyone’s needs.
+agencies in other countries have already expressed interest in 
+adapting and implementing the technology. n End-users, such as ADDO and pharmacy personnel, 
+should receive aggregated feedback on service reports 
+so that they know the data are being used.
+Evaluation and Results 
+During the four months of the pilot, all applications worked Conclusion 
+well: 129 people used mobile money to pay more than 12 
+million Tanzanian shillings or 6,443 USD in fees; over three The pilot of the database and mobile applications suite 
+months, more than 750 service delivery reports were received demonstrated that low-cost technology using basic mobile 
+from participating ADDOs (illustrated top left); and PC phones is a viable option for regulatory authorities seeking 
+sent out 13,000 text messages and received over 200 queries.4 to collect data from remotely located private sector outlets. 
+In-depth interviews were conducted with 28 ADDO owners/ The majority of ADDO and pharmacy users picked up the 
+dispensers in Pwani region, eight pharmacy representatives mobile applications with ease and expressed appreciation 
+in the Dar es Salaam region, and five PC staff members.5 for the technology. If taken to scale, the technology has 
+Interviews provided perspectives on the utility of service the potential to improve PC’s ability to locate and manage 
+delivery reports, the two-way helpline, and mobile money. rural ADDO facilities, track professional licensing status 
+and collect related fees, and better communicate with the 
+Respondents reported that all three applications saved them outlets. In addition, MSH has been working with regulatory 
+time and money: authorities in Uganda and Liberia to adapt this database 
+n Service reports: “This has made not only our life easier and applications to increase their own oversight efficiencies 
+but also for PC themselves. They do not need to come to related to their accredited drug seller initiatives.  n
+the outlets to collect the reports, and we do not need to 
+go all the way to the district councils to submit them. It 
+saves time and money.” (Dispenser, Kibaha)
+n Helpline: “Oh yes, this service is good. You can send a Geographic Coverage: Tanzania
+question asking about the process of opening a drug shop Implementation Partners: Management Sciences for Health; 
+and you get all the information.” (Dispenser, Bagamoyo) Pharmacy Council of Tanzania; Invention and Technological 
+Ideas Development Organization (ITIDO); Dr. Angel Dillip, 
+n Mobile money: “It is also safe, you don’t need to carry Apotheker Consultancy Inc.
+money every time; you might get robbed. Paying through Donor: Bill & Melinda Gates Foundation
+M-Pesa is very safe.” (Dispenser, Bagamoyo)
+Contact Information: Jafary Liana, Senior Technical Advisor, MSH 
+Tanzania jliana@msh.org 
+mHEALTH COMPENDIUM  VOLUME 5  n  51

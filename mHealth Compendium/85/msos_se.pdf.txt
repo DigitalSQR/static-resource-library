@@ -1,0 +1,252 @@
+Enhancing event-based disease surveillance 
+and response efforts in Kenya through SMS 
+reporting and web portal dashboards
+Photo by Takeshi Kuno
+54  n  MSOS 
+mSOS
+Mobile SMS-based disease outbreak alert system (mSOS) 
+enhanced timely notification—and the technology can be used to 
+enhance disease survellance in resource-limited settings. 
+Disease outbreaks pose serious public health risks worldwide as seen in the recent SARS, Ebola, and Zika epidemics. 
+Resource-limited settings lack strong disease surveillance mechanisms to quickly detect, diagnose, and contain 
+outbreaks.1 This hinders a nation’s ability to fully comply with the World Health Organization (WHO)’s International 
+Health Regulations (IHR 2005) and the Integrated Disease Surveillance and Response (IDSR) strategies.2-4
+In Kenya, as in other African countries, paper-based reports or ad hoc information from the health facilities reach the 
+authorities at the national and sub-national levels late, which in turn limits abilities to respond in a timely manner 
+to control the outbreaks.4 To overcome these challenges, the Ministry of Health (MOH) and the Japan International 
+Cooperation Agency, Japan Agency for Medical Research and Development, Science and Technology Research 
+Partnership for Sustainable Development (JICA-AMED SATREPS) project piloted the mSOS (mobile SMS-based disease 
+outbreak alert system) in 2012–2014.5-7 
+A randomized controlled trial was implemented, which showed that mSOS enhanced timely notification and that the 
+technology can be used to enhance disease surveillance in resource-limited settings.8,9 Based on recommendations from 
+the stakeholders, a technical working group was formed at MOH, and the system is currently undertaking a series of 
+modifications before a nation-wide rollout.10-13
+About mSOS
+Mobile SMS-based disease outbreak alert system (mSOS) 1. mSOS (text messaging): The text messaging function is a formatted text-message system that allows real-time allows health facility workers to input formatted text 
+communication between health facility workers and disease messaging with patient-level information of suspected 
+surveillance coordinators at the sub-county, county, and disease outbreaks. A text message is immediately sent 
+national levels in line with the IDSR guidelines.5-7 to relevant health authorities at the national and sub-
+At the time of the pilot, the IDSR guidelines recommended national levels with information on the place, time, and 
+health facility workers completing and submitting paper- details of a patient with suspected disease that needs to 
+based forms to the sub-county-level disease surveillance  be reported within 24 hours.
+coordinators, and sub-county-level disease surveillance 2. mSOS web portal (dashboard): mSOS web portal 
+coordinators electronically transmitting information to displays a dashboard with patient-level information, bar 
+higher-level managers at the county and national-levels. graphs with cumulative incidents, and hot spot maps 
+Sub-county disease surveillance coordinators are the first- indicating the health facilities that reported the cases. 
+level responders to the reporting facilities. mSOS tried to The relevant authorities at the national and sub-national 
+eliminate redundancies of data entry at multiple levels, and levels can also enter the time and details of actions taken 
+to make information-sharing instant at all levels.4 The system on the notifications sent.
+consists of two components: text messaging function, and 
+web portal (see Figure 1, next page).
+mHEALTH COMPENDIUM  SPECIAL EDITION 2016  n  55
+Figure 1.  
+Structure of the mSOS Integrated Disease Surveillance and Response Mobile System 
+Twelve diseases and conditions were picked for the pilot infectious, zoonotic, foodborne, chemical, radio nuclear, or 
+from the immediately notifiable diseases list in IDSR. The caused by an unknown condition). The pilot was implement-
+list included adverse events following immunization (AEFI), ed in two counties: Busia and Kajiado. Busia County borders 
+anthrax, cholera, dengue fever, Guinea worm, measles, neo- Uganda by the Victoria Lake basin with 7 sub-counties, and 
+natal tetanus, plague, Rift Valley fever, viral hemorrhagic fe- Kajiado County borders Tanzania with 5 sub-counties.8-14
+ver, yellow fever, and any public health event of concern (e.g, 
+Program Design Process
+The design process took 1 year: 6 months in conceptual- circulated to all members.
+ization, 3 months in programming, and 3 months in beta 3. Contracting: Strathmore University Faculty of 
+testing. The implementation period was 6 months. information technology (IT) was identified as the 
+1. Conceptualization: mSOS was conceptualized in institution to perform programming for mSOS because 
+mid- to late-2012. The JICA expert conducted informal of past experience working with the MOH. One of the 
+interviews with MOH employees and workers in health servers at the MOH was identified to host mSOS. Due 
+facilities to objectively understand the practice and to strict regulations by the Kenyan telecommunication 
+implementation of IDSR guidelines and bottlenecks of authorities, a contract for a toll-free number was signed 
+disease surveillance activities on the ground. with a premium rate service provider (PRSP) and not 
+directly with a telecommunication company. 
+2. Technical working group: A technical working group 
+was formed at the MOH Disease Surveillance and 4. Programming: Several students at Strathmore 
+Response Unit (DSRU), and mSOS was developed University Faculty of IT undertook mSOS 
+in early 2013. The technical working group consisted programming as part of their internship. Students and 
+of the head of DSRU, managers in charge of national their supervisor regularly attended the technical working 
+disease surveillance and data management, the JICA group meetings to understand user requirements, and 
+expert, and experts from the WHO and Kenya Medical presented progress in the technical working group 
+Research Institute (KEMRI). Minutes were written and meetings. 
+56  n  MSOS 
+5. Stabilizing the system: After repeated prototyping of 6. Pilot implementation: mSOS pilot was implemented 
+the system, mSOS was pretested in a few health facilities for 6 months, October 2013–April 2014. A 1-day 
+in Nairobi in early 2013, and several bugs and issues training or refresher course for IDSR guidelines and a 
+with power outages were identified. A tracking system 1-day training on mSOS was conducted in September 
+was programmed in order to monitor downtime, and and October 2013 for 67 health facility in-charges in 
+redundant backup was created. Busia and Kajiado counties. All 12 sub-county disease 
+surveillance coordinators were also trained on how to 
+troubleshoot and use the mSOS web portal. 
+Growth in Scale 
+After the implementation of the pilot, and before the results 3. mSOS Ebola (KEMRI Laboratory module): Results 
+were analyzed, DSRU recommended mSOS to be modified on the laboratory confirmation of the patient serum 
+as mSOS Ebola.15-17 samples were updated using the mSOS Ebola web 
+portal, and text messages were automatically delivered to 
+1. mSOS Ebola (text messaging): When a patient senior management at DSRU and a few policy decision-
+suspected of having Ebola was identified by the Ebola makers at the MOH. 
+Rapid Response Team, patient-level information was After mSOS Ebola was implemented, the mSOS 
+sent through formatted text-messaging using mSOS stakeholders’ meeting was held to disseminate the 
+Ebola. The messages with the detailed information on preliminary results of the pilot.
+the time, place, and nature of the suspected patient 
+case were delivered to senior management at DSRU 4. mSOS pilot dissemination: At the stakeholders’ 
+and a few policy decision-makers at the MOH. An meeting, mSOS was very well received. Health workers 
+alert message was also sent to the designated KEMRI appreciated the ease of use of the system and rapid 
+laboratory workers. feedback from their managers through mSOS.
+11-12 
+Health managers especially appreciated the real-time 
+2. mSOS Ebola (web portal): Patient-level information information sharing. The system was unanimously 
+on the suspected cases, response action conducted, recommended for integration into the national health 
+and laboratory confirmation were displayed on the information and management system, specifically to the 
+password-protected web portal dashboard. open-source District Health Information Software 2 
+(DHIS2) platform.18 
+Sample mSOS alert messaging (left) and web portal dashboard (right)
+mHEALTH COMPENDIUM  SPECIAL EDITION 2016  n  57
+5. Buy-in from the MOH: Due to the overwhelming 7. Establishment of mSOS/IDSR Weekly Mobile 
+recommendations at the stakeholders’ meeting on the Reporting System: A new enhanced version of the 
+ability of mSOS to quickly adapt to the needs on the mSOS pilot, mSOS/IDSR Weekly Mobile Reporting 
+ground (as seen by mSOS Ebola), the scale-up of mSOS System was developed through the technical working 
+was included in the Cabinet Secretary’s Performance group in late 2015. This new system combines 
+Contract 2015/16, a contract between the MOH event-based and indicator-based disease surveillance 
+Cabinet Secretary and the President of Kenya.19 information. Once a suspected disease outbreak or 
+6. Technical working group for scale-up efforts: A public health event is detected at the health facility 
+technical working group coordinated by DSRU includes level, information is sent through the system to a central 
+multiple units within the MOH, such as the Health server at the MOH. The central server then sends alert 
+Information System; Information, Communication, messages to multiple officers responsible for outbreak 
+Technology; eHealth; Zoonotic Disease; and Disaster and disaster response. The list of diseases and conditions 
+Response units. It also includes multiple international is expanded to not only suspected disease outbreaks of 
+partners, such as the WHO [SIKIWIS], Centers for immediate concern, such as cholera and measles, but 
+Disease Control and Prevention (CDC) [mHealth also public health events (event-based) and routine 
+Kenya, I-TECH], JICA [JICA-AMED SATREPS disease information (indicator-based), including diseases 
+20
+project], and United States Agency for International such as malaria.  
+Development (USAID) [AfyaInfo project].13 
+Evaluation and Results
+As part of the cluster randomized controlled trial to test stratifying health facilities by sub-counties and randomly 
+the effectiveness of the system, the research study included selecting intervention facilities from each stratum by a 1:1 
+quantitative and qualitative assessments of the current IDSR ratio. Sixty-eight facilities were in the control group and 67 
+guidelines implementation, and the impact of mSOS imple- were in the intervention group. A total of 65 health facilities 
+mentation.21 in the control group and 66 health facilities in the interven-
+A baseline assessment was conducted in June 2013, includ- tion group were assessed during the follow-up survey. 
+ing retrospective data for the six-months before the interven- The quantitative analysis included examining the reporting 
+tion (December 2012–May 2013), reviewing all information rates comparing paper-based and mSOS reports. A retro-
+from outpatient, inpatient, and maternal and child health spective review at the baseline survey showed that 36 cases 
+registers for the 12 diseases and conditions selected for the (17 cases in the control group and 19 cases in the inter-
+study. In addition, in-depth interviews with health facility vention group) required immediate notification. Only one 
+in-charges and sub-county disease surveillance coordinators paper-based report in the control group was completed. 
+were completed. A post-intervention survey, including doc- During the post-intervention survey, we found that 130 cases 
+uments review, and in-depth interviews with health facility in the intervention group and 39 cases in the control group 
+in-charges and sub-county disease surveillance coordinators required immediate notification. One paper-based report in 
+were completed in May 2014. In addition, a focus group the control group was completed, and 25 cases were report-
+discussion was conducted at the national level. ed through mSOS in the intervention group. The results 
+A total of 153 health facilities were assessed for eligibility, showed that the health facilities that used mSOS achieved 
+and 142 completed the baseline survey in the selected 12 more timely notifications than those that did not (+16.7%). 
+sub-counties in Busia and Kajiado counties. Health facilities The results of the evaluation were published in Emerging 
+8
+included public, private, faith-based, and non-governmen- Infectious Diseases in April 2016.  
+tal organization-owned facilities at all levels of care. A total Analyses are currently ongoing for qualitative data collected 
+of 135 health facilities attended the IDSR training and the during field interviews and focus group discussions.
+randomization was conducted during the IDSR training by 
+58  n  MSOS 
+Lessons Learned in Program Implementation and Scaling 
+Lessons learned from mSOS pilot implementation were that  only pilot the system, but also to tie into current disease 
+timing, leadership, and feedback are important components surveillance efforts within Kenya’s MOH.
+of the implementation success.
+2. Leadership: Strong leadership by the DSRU, which 
+1. Timing: mSOS was conceptualized, piloted, and promoted buy-in from the national government, 
+disseminated during a time when the MOH was county governments, and international partners, 
+exploring ways to move from paper-based reporting to lead to mSOS being recommended for scale-up and 
+electronic reporting. It was also a time when various integration into the national health information and 
+outbreaks occurred within Kenya and around the management system. DSRU included mSOS in its 
+world, most notably Ebola in West Africa. At the same work plans, and staff members from the unit helped 
+time, mobile phone penetration skyrocketed within support the system. DSRU also worked with the Health 
+the country, even in hard-to-reach areas. Compliance Information Systems (HIS), ICT, and eHealth units and 
+with IHR 2005 was also a task that the MOH needed their partners to assure that the maintenance could be 
+to address. Overall, there was an increased awareness conducted within the ministry through DHIS2. This in 
+and willingness of the ministry to look at a mobile turn would help mSOS be a sustainable system. 
+phone solution that could enhance disease surveillance 3. Feedback: Inclusion of the opinions from all aspects, 
+and compliance with IHR 2005. The scale-up was also such as the end-user, programmers, and health managers 
+suggested at a time when the MOH is addressing a were an important component of the development and 
+number of related efforts including: trying to integrate implementation of mSOS pilot. Repeated pretesting 
+all information systems within DHIS2, preparing an and informal feedback from users helped mitigate 
+electronic nationwide master facility list, conducting system abruption and solve bugs in a timely manner. 
+a review of event-based surveillance, proposing In addition, engagements with various stakeholders 
+mobile phone-based indicator surveillance, holding through the technical working group helped mSOS 
+various taskforce meetings for national outbreaks, and be programmed and evolve as a flexible tool to offer 
+construction of an Emergency Operation Centre at the local solutions to local problems. The large stakeholder 
+MOH. mSOS was able to leverage these timings to not meeting and users’ feedback helped move mSOS into 
+the next stage. 
+mHEALTH COMPENDIUM  SPECIAL EDITION 2016  n  59
+Future Plans 
+The MOH envisions that real-time reporting and response to notifications that need further investigation. The 
+through the mSOS/IDSR Weekly Mobile Reporting System system will serve as an early warning mechanism, whereby 
+will reduce lag time for notification and response to out- analysis on trends could inform potential outbreaks and 
+breaks and disasters, and minimize morbidity and mortal- mitigate morbidity and mortality in the nation.
+ity in Kenya. The system will continue to improve as the 
+5. Expansion of users: In the future, the system will be 
+MOH rolls it out to all levels, including all 47 counties, 
+all sub-counties, and the 7,500 health facilities across the expanded to the community level and to the public 
+nation. where suspected cases can be reported and filtered automatically by the system. 
+1. Stakeholders meeting: A stakeholders meeting was 6. Paperless reporting: Once the system is rolled out to 
+held in December 2015 and pretesting was completed the whole nation, it may also replace the current paper-
+with the relevant MOH units and international based reporting guidelines in the future.   n
+partners. 
+2. Training: In early 2016, national-level officers in the 
+MOH attended a training of trainers (TOT) workshop. Snapshot: mSOS
+Since February 2016, a series of TOT workshops Geographic Kenya
+including county and sub-county disease surveillance Coverage Pilot: 67 health facilities
+coordinators (DSCs) and health records information Scale-up: 7,500 health facilities
+officers (HRIOs) have been ongoing by the MOH Implementation 2013 to present
+with funding support from international partners. The Dates
+training materials, including manuals and slides, were Implementation Ministry of Health (multiple units), Kenya
+drafted and printed. As of April 2016, approximately Partners SATREPS ProjectJapan International Cooperation Agency (JICA)
+350 national, county, and sub-county DSCs and Japan Agency for Medical Research and 
+HRIOs were trained in half of the regions in Kenya.13  Development (AMED)
+A launch ceremony is scheduled in 2016 after TOT is Strathmore University Faculty of Information 
+Technology
+completed at the national, county, and sub-county levels.
+Donor(s) World Health Organization
+3. Expansion of modes: The system would be modified to Centers for Disease Control 
+smartphone- and feature phone-based applications so that USAID
+health workers could use their personal phones to report. JICAAMED
+4. Emergency Operation Centre: The system will be Contact Dr. Daniel Langat, Disease Surveillance and 
+linked to the national Emergency Operation Centre for Information Response Unit, Ministry of Health, Kenya,  
+24/7 analysis of information and prompt response action langat4@yahoo.com
+60  n  MSOS 
+References & Additional Resources
+1. Gates, B., The next epidemic—lessons from Ebola. N Engl J Med, 2015. 372(15): p. 1381-4.
+2. World Health Organization, International Health Regulations (2005), 2008.
+3. Kasolo, F., et al., IDSR as a platform for implementing IHR in African countries. Biosecur Bioterror, 2013. 11(3): p. 163-9.
+4. Ministry of Public Health and Sanitation. Integrated Disease Surveillance and Response in Kenya: Technical Guidelines 2012, 2012.
+5. Ministry of Health Disease Surveillance and Response Unit. Mobile SMS Based Disease Outbreak Alert System. 2015  [cited 2015 December 
+15]; Available from: http://ddsr.or.ke/mSOS/about.
+6. Mendoza, G., et al., mSOS: Using mHealth to strengthen real-time disease surveillance and response in Kenya, in mHealth Compendium 
+2014,  African Strategies for Health (ASH), Management Sciences for Health (MSH); USAID: Arlington, VA.
+7. Osamu, S., Feature Story: Using Mobile Phones to Prevent an Epidemic of Infectious Diseases, 2016, Japan Journal.
+8. Toda, M., et al., Effectiveness of a Mobile Short-Message-Service-Based Disease Outbreak Alert System in Kenya. Emerg Infect Dis, 2016. 
+22(4): p. 711-5.
+9. Njeru, I., et al., mSOS (mobile SMS-based disease outbreak alert system) Preliminary Report, 2015, Disease Surveillance and Response Unit 
+(DSRU) at the Ministry of Health: Nairobi, Kenya.
+10. Njeru, I., et al., Meeting Highlights: mSOS Stakeholders’ Meeting: Dissemination of findings, 2015, JICA-AMED SATREPS project.
+11. Japan International Cooperation Agency. mSOS Stakeholders’ Meeting (05 June 2015). 2015 [cited 2015 June 5]; Available from: http://www.
+jica.go.jp/project/english/kenya/006/news/general/150605.html
+12. Japan International Cooperation Agency. mSOS: A Versatile Tool for Disease Outbreak Alert. 2015 June 5, 2015 [cited 2015 June 5]; Available from: 
+http://www.jica.go.jp/kenya/english/office/topics/150605.html
+13. Japan International Cooperation Agency. Activities towards nationwide scale-up of mSOS. 2016  [cited 2016 April 4]; Available from: http://www.
+jica.go.jp/project/english/kenya/006/news/general/160404.html
+14. Toda, M., et al., mSOS User Manual, 2013, Disease Surveillance and Response (DDSR), Ministry of Health (MOH); Japan International 
+Cooperation Agency (JICA): Nairobi, Kenya.
+15. Japan International Cooperation Agency. One year after the declaration of an Ebola state of emergency. 2015 [cited 2015 July 31]; Available 
+from: http://www.jica.go.jp/english/news/focus_on/ebolaphotos.html
+16. Japan International Cooperation Agency. mSOS Ebola handover ceremony was held at the Ministry of Health in December 9, 2014. 2014  
+[cited 2014 December 9]; Available from: http://www.jica.go.jp/project/english/kenya/006/news/general/141209.html
+17. Japan Science and Techology Agency. Using Mobile Phones to Contain Infectious Diseases. 2015 April 27, 2015 [cited 2015 March]; Available 
+from: http://www.jst.go.jp/report/2014/150313-2_e.html
+18. Ministry of Medical Services. Ministries of Health Launch District Health information System. 21 Feb 2012 5 July 2012 [cited 2012 5 
+July]; Available from: http://www.medical.go.ke/index.php?option=com_content&view=article&id=136:ministry-of-health-launch-dhis-
+software&catid=34:news-and-events&Itemid=62
+19. Japan International Cooperation Agency. Meeting with Mr. James Macharia, Cabinet Secretary, Ministry of Health. 2015  [cited 2015 
+December]; Available from: http://www.jica.go.jp/project/english/kenya/006/news/general/150708.html
+20. Wanjiru, R., et al., mSOS/IDSR Weekly Mobile Reporting: Training Manual, 2016, Ministry of Health Kenya; World Health Organization (WHO); 
+Centers for Disease Control and Prevention (CDC); Japan International Cooperation Agency (JICA); United States Agency for International 
+Development (USAID): Nairobi, Kenya.
+21. ISRCTN Registry. ISRCTN79529838: Evaluating the response to suspected disease outbreaks using a short message service (SMS) model. 
+Available from: http://www.isrctn.com/ISRCTN79529838, http://apps.who.int/trialsearch/Trial2.aspx?TrialID=ISRCTN79529838
+mHEALTH COMPENDIUM  SPECIAL EDITION 2016  n  61

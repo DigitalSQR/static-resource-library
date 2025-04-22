@@ -1,0 +1,77 @@
+ 
+ENAT MESSENGER FOR MATERNAL 
+HEALTH IN ETHIOPIA  
+confirmation and transmission services via an automated 
+BRIEF OVERVIEW message manager. The system consists of a server, a 
+The  maternal mortality ratio in Ethiopia is among the modem, Nokia 2700 mobile phones with solar chargers 
+highest in the world with a rate of 676 deaths per and a web-based application with a database. A system 
+100,000 live births in 2011. According to the same data, document, user manual, and handbook for health 
+only 34% of pregnant women received antenatal care extension workers (HEW) were developed to support 
+(ANC) from a skilled health care provider, while only implementation.  
+10% of deliveries occurred at a health facility. Each week, HEWs sent ANC data from their health post 
+In order to reach the goal of 60% of deliveries taking to the nearest health center. The health center entered 
+place in health facilities and attended by skilled health the data (sent from the health posts and the ANC data 
+care workers, the Clinton Health Access Initiative, in for pregnant women following ANC at  the health 
+partnership with Addis Ababa University School of centre level) into the Enat system manually. Based on 
+Information Science and in consultation with the the data entered, which includes last menstrual period 
+Ethiopian Federal Ministry of Health, has developed an or gestational age, the system automatically calculated 
+mHealth application that facilitates tracking and referrals the expected delivery date (EDD) and sent text message 
+at the community level. The system, Enat Messenger, reminders to the respective HEWs one month and one 
+works to increase the retention of women in ANC care week before a pregnant woman’s EDD. The reminder 
+to ensure delivery at a health center.  served as a prompt for the HEW to visit the mother to 
+assess her status. 
+Enat Messenger was piloted from January 2011 to 
+September 2012 in 56 health posts and 10 health After each visit, the HEW was expected to send an SMS 
+centers in two regions (Tigray and Oromia).  confirmation back to the system to confirm the visit. 
+The responses were monitored by health care workers 
+at the health center. 
+ABOUT ENAT The system could also be used to prompt transport of a 
+The Enat Messenger System runs text-based mother in labor to a health facility. Selected Health 
+50 mHEALTH COMPENDIUM   │    VOLUME 2 
+ 
+ LOGISTICS 
+Development Army (HDA) volunteers were equipped  User related challenges: The limited computer 
+with mobile phones and would make a missed call to an literacy of health workers was a challenge. Some 
+HEW to alert her of the onset of labor. The HEW were unable to fix minor problems with the system. 
+would send an SMS message to the system and the In addition, some HEWs lost their mobile phones or 
+system sent a message to the operator/midwife at the did not return them when they left the area (i.e. for 
+health center.  further education, transfer). Other HEW failed to 
+visit mothers on time and as a result, confirmation 
+In total, 59 personnel including midwives, nurses, and IT/ messages were delayed. 
+data experts at 10 health centers, 124 HEWs at 62 
+health posts, and 64 HDA community volunteers  Other challenges: Poor mobile network coverage 
+received training. Each health center was provided with and electric power outages in some of the sites 
+a desktop computer with a modem, one mobile affected the functioning of the system. 
+apparatus and a post-paid SIM. Mobile phones and solar 
+chargers were given to HEWs and HDA volunteers, and 
+mobile airtime was refilled on a monthly basis. CONCLUSION 
+The Enat pilot demonstrated the applicability of mHealth 
+technology for addressing skilled delivery attendance. 
+EVALUATION AND RESULTS The increase in deliveries in health facilities as well as 
+The pilot has demonstrated improved communication the improved collection and tracking of data on 
+between health centers and health posts/communities as pregnant women supports the argument for scale up of 
+a result of the Enat Messenger System. This improved the system to other regions in Ethiopia. 
+link led to the timely identification of term pregnant 
+women and improved the frequency of visits by HEWs 
+to pregnant women before delivery. The increased GEOGRAPHIC COVERAGE 
+encounters between HEWS and pregnant women and 
+Ethiopia, Tigray and Oromia regions  
+their families allowed for greater opportunity to discuss 
+the need for institutional delivery or to discuss and 
+address potential barriers such as transportation, and IMPLEMENTATION PARTNERS 
+consequently institutional deliveries increased at each Clinton Health Access Initiative | Ethiopia Federal Minis-
+pilot site. Moreover, the system improved the storing try of Health | Addis Ababa University School of Infor-
+and tracking of data on pregnant women.  mation Science  
+FUNDER 
+LESSONS LEARNED Clinton Health Access Initiative  
+ System related challenges: In the beginning of 
+the pilot, there were minor interruptions to the CONTACT INFORMATION 
+system which were later fixed. These included the Clinton Health Access Initiative  
+inability to send messages in some sites,  Yigeremu Abebe Asemere, Ethiopia    
+transmission of only a first or second message (but Country Director  
+not both), and duplicate messages about the same Email: yasemere@clintonhealthaccess.org  
+mother. 
+Information was excerpted from:  
+“mobile Health: Technology to Increase Skilled Deliveries in Rural Communities in Ethiopia” Federal Ministry of Health  
+and Clinton Health Access Initiative. 2012. Web. 
+  MHEALTH COMPENDIUM  |  VOLUME 2 51 

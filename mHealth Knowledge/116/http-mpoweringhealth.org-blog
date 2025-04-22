@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog | mPowering | Frontline Health Workers</title>
+  <link rel="profile" href="http://gmpg.org/xfn/11">
+  <link rel="pingback" href="http://mpoweringhealth.org/xmlrpc.php">
+<!--[if lt IE 9]>
+<script src="http://mpoweringhealth.org/wp-content/themes/mpowering/assets/js/html5shiv.js"></script>
+<script src="http://mpoweringhealth.org/wp-content/themes/mpowering/assets/js/respond.min.js"></script>
+<![endif]-->       
+<link rel="shortcut icon" href="http://mpoweringhealth.org/wp-content/uploads/2015/06/favicon.png" ><link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="mPowering &raquo; Feed" href="http://mpoweringhealth.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="mPowering &raquo; Comments Feed" href="http://mpoweringhealth.org/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/mpoweringhealth.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.2.3"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='http://mpoweringhealth.org/wp-includes/css/dist/block-library/style.min.css?ver=5.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://mpoweringhealth.org/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-min-css'  href='http://mpoweringhealth.org/wp-content/themes/mpowering/assets/css/bootstrap.min.css?ver=5.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='prettyPhoto-css'  href='http://mpoweringhealth.org/wp-content/themes/mpowering/assets/css/prettyPhoto.css?ver=5.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='animate-css'  href='http://mpoweringhealth.org/wp-content/themes/mpowering/assets/css/animate.css?ver=5.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='fontawesome-css'  href='http://mpoweringhealth.org/wp-content/themes/mpowering/assets/css/font-awesome.min.css?ver=5.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='http://mpoweringhealth.org/wp-content/themes/mpowering/style.css?ver=5.2.3' type='text/css' media='all' />
+<style id='style-inline-css' type='text/css'>
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
+    /* Body Style */
+
+    body{
+    background: #eeeeee;color: #333333;font-family: 'PT Sans';size: 16px;}   
+
+ /* Heading Style */
+
+h1, h2, h3, h4, h5, h6{ 
+font-family: 'PT Sans';}
+
+
+
+/*Link Color*/
+
+a {
+color: #0c4260;}
+
+
+/*Link Hover Color*/
+
+a:hover {
+color: #f0495c;}  
+
+   /* Header Style */
+
+#header {
+background-color: #ffffff;}  
+
+
+
+/* Custom CSS */
+
+
+
+</style>
+<script type='text/javascript' src='http://mpoweringhealth.org/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='http://mpoweringhealth.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://mpoweringhealth.org/wp-content/themes/mpowering/assets/js/bootstrap.min.js?ver=5.2.3'></script>
+<script type='text/javascript' src='http://mpoweringhealth.org/wp-content/themes/mpowering/assets/js/jquery.prettyPhoto.js?ver=5.2.3'></script>
+<script type='text/javascript' src='http://mpoweringhealth.org/wp-content/themes/mpowering/assets/js/jquery.isotope.min.js?ver=5.2.3'></script>
+<script type='text/javascript' src='http://mpoweringhealth.org/wp-content/themes/mpowering/assets/js/main.js?ver=5.2.3'></script>
+<link rel='https://api.w.org/' href='http://mpoweringhealth.org/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://mpoweringhealth.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://mpoweringhealth.org/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.2.3" />
+</head><!--/head-->
+
+<body class="blog">
+      <div id="boxed">
+  
+  <header id="header" class="navbar navbar-inverse navbar-fixed-top" role="banner">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+                    
+        <a class="navbar-brand" href="http://mpoweringhealth.org/" >
+            <img src="http://mpoweringhealth.org/wp-content/uploads/2015/05/logo.png" alt="mPowering" />
+        </a>
+              </div>
+
+      <div class="hidden-xs">
+        <ul id="menu-main-menu" class="nav navbar-nav navbar-main"><li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-20"><a title="Home" href="http://mpoweringhealth.org/">Home</a></li>
+<li id="menu-item-19" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-19 dropdown"><a title="About" href="http://mpoweringhealth.org/about/">About <i class="icon-angle-down"></i></a>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-181" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-181"><a title="Our Work" href="http://mpoweringhealth.org/our-work/">Our Work</a></li>
+	<li id="menu-item-960" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-960"><a title="mPowering Leadership" href="http://mpoweringhealth.org/mpowering-leadership/">mPowering Leadership</a></li>
+	<li id="menu-item-431" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-431"><a title="Events" href="http://mpoweringhealth.org/events/">Events</a></li>
+</ul>
+</li>
+<li id="menu-item-145" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-145"><a title="Partners" href="http://mpoweringhealth.org/partners/">Partners</a></li>
+<li id="menu-item-18" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-9 current_page_item current_page_parent menu-item-18 active active"><a title="Blog" href="http://mpoweringhealth.org/blog/">Blog</a></li>
+<li id="menu-item-17" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-17 dropdown"><a title="Resources" href="http://mpoweringhealth.org/resources/">Resources <i class="icon-angle-down"></i></a>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-228" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-228"><a title="Reports and Documents" href="http://mpoweringhealth.org/resources/reports-and-documents/">Reports and Documents</a></li>
+	<li id="menu-item-227" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-227"><a title="Videos" href="http://mpoweringhealth.org/resources/videos/">Videos</a></li>
+	<li id="menu-item-214" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-214"><a title="Links" href="http://mpoweringhealth.org/resources/links/">Links</a></li>
+	<li id="menu-item-371" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-371"><a title="ORB Platform" href="http://health-orb.org">ORB Platform</a></li>
+	<li id="menu-item-831" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-831"><a title="Open Deliver" href="http://mpoweringhealth.org/resources/open-deliver/">Open Deliver</a></li>
+</ul>
+</li>
+<li id="menu-item-16" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16"><a title="Contact" href="http://mpoweringhealth.org/contact/">Contact</a></li>
+</ul>      </div>
+
+      <div id="mobile-menu" class="visible-xs">
+        <div class="collapse navbar-collapse">
+          <ul id="menu-main-menu-1" class="nav navbar-nav"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-20"><a title="Home" href="http://mpoweringhealth.org/">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-19"><a title="About" href="http://mpoweringhealth.org/about/">About</a>
+                <span class="menu-toggler" data-toggle="collapse" data-target=".collapse-19">
+                <i class="icon-angle-right"></i><i class="icon-angle-down"></i>
+                </span>
+<ul role="menu" class="collapse collapse-19 ">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-181"><a title="Our Work" href="http://mpoweringhealth.org/our-work/">Our Work</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-960"><a title="mPowering Leadership" href="http://mpoweringhealth.org/mpowering-leadership/">mPowering Leadership</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-431"><a title="Events" href="http://mpoweringhealth.org/events/">Events</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-145"><a title="Partners" href="http://mpoweringhealth.org/partners/">Partners</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-9 current_page_item current_page_parent menu-item-18 active active"><a title="Blog" href="http://mpoweringhealth.org/blog/">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-17"><a title="Resources" href="http://mpoweringhealth.org/resources/">Resources</a>
+                <span class="menu-toggler" data-toggle="collapse" data-target=".collapse-17">
+                <i class="icon-angle-right"></i><i class="icon-angle-down"></i>
+                </span>
+<ul role="menu" class="collapse collapse-17 ">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-228"><a title="Reports and Documents" href="http://mpoweringhealth.org/resources/reports-and-documents/">Reports and Documents</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-227"><a title="Videos" href="http://mpoweringhealth.org/resources/videos/">Videos</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-214"><a title="Links" href="http://mpoweringhealth.org/resources/links/">Links</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-371"><a title="ORB Platform" href="http://health-orb.org">ORB Platform</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-831"><a title="Open Deliver" href="http://mpoweringhealth.org/resources/open-deliver/">Open Deliver</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16"><a title="Contact" href="http://mpoweringhealth.org/contact/">Contact</a></li>
+</ul>        </div>
+      </div><!--/.visible-xs-->
+    </div>
+  </header><!--/#header-->
+
+
+    <section id="main">
+<img class="left-circle" alt="" src="http://mpoweringhealth.org/wp-content/themes/mpowering/images/left-circle.png">
+<img class="right-circle" alt="" src="http://mpoweringhealth.org/wp-content/themes/mpowering/images/right-circle.png">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div id="primary" class="content-area">
+            
+<div class="row">
+    <div id="content" class="site-content col-md-8" role="main">
+        
+                
+
+<article id="post-355" class="post-355 post type-post status-publish format-standard hentry category-uncategorized">
+    <header class="entry-header">
+
+                <h2 class="entry-title">
+            <div class="date-post">
+            <span class="day-post">27</span>
+            <span class="month-post">Mar</span>
+            </div>
+            <a href="http://mpoweringhealth.org/top-five-reads-and-resources-mpowering-frontline-health-workers-2/" rel="bookmark">Top Five Reads and Resources: mPowering Frontline Health Workers</a>
+                                </h2>
+        
+        
+    </header><!--/.entry-header -->
+
+        
+    <div class="entry-content" >
+    	<div class="entry-thumbnail">
+            	        	</div>
+        <p>Each month, mPowering partners compile our top five recent articles, videos, and resources related to mHealth, global health, and technology for development. This month, Carolyn Moore, Program Officer with mPowering Frontline Health Workers, shares her top five reads and resources: Online Book: Taking Stock: Why U.S. Investments in Global Health&hellip;        <a href="http://mpoweringhealth.org/top-five-reads-and-resources-mpowering-frontline-health-workers-2/" title="Top Five Reads and Resources: mPowering Frontline Health Workers">[more]</a>
+         </p>    </div>
+    <div style="clear:both;"></div>
+    
+    <footer>
+            </footer>
+
+</article><!--/#post-->
+
+
+
+
+        
+
+<article id="post-357" class="post-357 post type-post status-publish format-standard hentry category-uncategorized">
+    <header class="entry-header">
+
+                <h2 class="entry-title">
+            <div class="date-post">
+            <span class="day-post">23</span>
+            <span class="month-post">Mar</span>
+            </div>
+            <a href="http://mpoweringhealth.org/training-health-workers-for-ebola-response-and-community-support/" rel="bookmark">Training Health Workers for Ebola Response and Community Support</a>
+                                </h2>
+        
+        
+    </header><!--/.entry-header -->
+
+        
+    <div class="entry-content" >
+    	<div class="entry-thumbnail">
+            	        	</div>
+        <p>A team of organizations, led by mPowering Frontline Health Workers andIntraHealth International, are coming together to share tools and information on how to support health workers responding to and rebuilding from the Ebola crisis. Please join us in a three-part webinar series beginning April 1 Health workers in West Africa have&hellip;        <a href="http://mpoweringhealth.org/training-health-workers-for-ebola-response-and-community-support/" title="Training Health Workers for Ebola Response and Community Support">[more]</a>
+         </p>    </div>
+    <div style="clear:both;"></div>
+    
+    <footer>
+            </footer>
+
+</article><!--/#post-->
+
+
+
+
+        
+
+<article id="post-361" class="post-361 post type-post status-publish format-standard hentry category-uncategorized">
+    <header class="entry-header">
+
+                <h2 class="entry-title">
+            <div class="date-post">
+            <span class="day-post">02</span>
+            <span class="month-post">Mar</span>
+            </div>
+            <a href="http://mpoweringhealth.org/human-centered-design-in-practice/" rel="bookmark">Human-Centered Design in Practice</a>
+                                </h2>
+        
+        
+    </header><!--/.entry-header -->
+
+        
+    <div class="entry-content" >
+    	<div class="entry-thumbnail">
+            	        	</div>
+        <p>Human centered design, or design with the user, is the first of the nine Principles for Digital Development.  Designing with the user involves just that- engaging the people you hope will use the solution, and bringing their ideas to life in technology that meets their needs. On February 10, mPowering&hellip;        <a href="http://mpoweringhealth.org/human-centered-design-in-practice/" title="Human-Centered Design in Practice">[more]</a>
+         </p>    </div>
+    <div style="clear:both;"></div>
+    
+    <footer>
+            </footer>
+
+</article><!--/#post-->
+
+
+
+
+        
+
+<article id="post-359" class="post-359 post type-post status-publish format-standard hentry category-uncategorized">
+    <header class="entry-header">
+
+                <h2 class="entry-title">
+            <div class="date-post">
+            <span class="day-post">02</span>
+            <span class="month-post">Mar</span>
+            </div>
+            <a href="http://mpoweringhealth.org/top-five-reads-and-resources-frontline-health-workers-coalition/" rel="bookmark">Top Five Reads and Resources: Frontline Health Workers Coalition</a>
+                                </h2>
+        
+        
+    </header><!--/.entry-header -->
+
+        
+    <div class="entry-content" >
+    	<div class="entry-thumbnail">
+            	        	</div>
+        <p>Each month, mPowering partners compile our top five articles, videos, and resources related to mHealth, global health, and technology for development. This month, Deepanjali Jain, Global Health Corps Policy Fellow, IntraHealth International, shares her top five recommended resources: Cost of Scaling Up the Health Workforce in Liberia, Sierra Leone, and&hellip;        <a href="http://mpoweringhealth.org/top-five-reads-and-resources-frontline-health-workers-coalition/" title="Top Five Reads and Resources: Frontline Health Workers Coalition">[more]</a>
+         </p>    </div>
+    <div style="clear:both;"></div>
+    
+    <footer>
+            </footer>
+
+</article><!--/#post-->
+
+
+
+
+        
+
+<article id="post-363" class="post-363 post type-post status-publish format-standard hentry category-uncategorized">
+    <header class="entry-header">
+
+                <h2 class="entry-title">
+            <div class="date-post">
+            <span class="day-post">28</span>
+            <span class="month-post">Feb</span>
+            </div>
+            <a href="http://mpoweringhealth.org/january-top-reads-and-resources/" rel="bookmark">January Top Reads and Resources</a>
+                                </h2>
+        
+        
+    </header><!--/.entry-header -->
+
+        
+    <div class="entry-content" >
+    	<div class="entry-thumbnail">
+            	        	</div>
+        <p>Each month, mPowering partners will compile our ‘top five’ articles, videos, and resources related to mHealth, global health, and technology for development. This month, Clodagh McLoughlin, Global Health Research Officer at iheed, shares her top reads: Is the desire for Innovation substituting the need for Evidence? The second GETHealth Summit&hellip;        <a href="http://mpoweringhealth.org/january-top-reads-and-resources/" title="January Top Reads and Resources">[more]</a>
+         </p>    </div>
+    <div style="clear:both;"></div>
+    
+    <footer>
+            </footer>
+
+</article><!--/#post-->
+
+
+
+
+        
+        <ul class='pagination'>
+	<li><span aria-current='page' class='page-numbers current'>1</span></li>
+	<li><a class='page-numbers' href='http://mpoweringhealth.org/blog/page/2/'>2</a></li>
+	<li><a class="next page-numbers" href="http://mpoweringhealth.org/blog/page/2/">Next &raquo;</a>
+            </div><!-- #content -->
+    <div id="sidebar" class="col-md-4" role="complementary">
+        <div class="sidebar-inner">
+            <aside class="widget-area">
+
+    <p class="buble-title">Latest<br/>Posts</p>
+     <ul class="latest-blogs">
+    
+        <li>
+        <p class="date-post">
+          <span class="day-post">27</span>
+          <span class="month-post">Mar</span>
+        </p>
+        <a href="http://mpoweringhealth.org/top-five-reads-and-resources-mpowering-frontline-health-workers-2/">Top Five Reads and Resources: mPowering Frontline Health Workers</a></li>
+        <li>
+        <p class="date-post">
+          <span class="day-post">23</span>
+          <span class="month-post">Mar</span>
+        </p>
+        <a href="http://mpoweringhealth.org/training-health-workers-for-ebola-response-and-community-support/">Training Health Workers for Ebola Response and Community Support</a></li>
+        <li>
+        <p class="date-post">
+          <span class="day-post">02</span>
+          <span class="month-post">Mar</span>
+        </p>
+        <a href="http://mpoweringhealth.org/human-centered-design-in-practice/">Human-Centered Design in Practice</a></li>
+        <li>
+        <p class="date-post">
+          <span class="day-post">02</span>
+          <span class="month-post">Mar</span>
+        </p>
+        <a href="http://mpoweringhealth.org/top-five-reads-and-resources-frontline-health-workers-coalition/">Top Five Reads and Resources: Frontline Health Workers Coalition</a></li>
+        <li>
+        <p class="date-post">
+          <span class="day-post">28</span>
+          <span class="month-post">Feb</span>
+        </p>
+        <a href="http://mpoweringhealth.org/january-top-reads-and-resources/">January Top Reads and Resources</a></li>
+        <li>
+        <p class="date-post">
+          <span class="day-post">16</span>
+          <span class="month-post">Jan</span>
+        </p>
+        <a href="http://mpoweringhealth.org/connecting-health-workers-to-information-and-tools-what-does-it-take/">Connecting health workers to information and tools – what does it take?</a></li>
+        </ul>
+    <br>             </aside>
+        </div>
+    </div>
+</div>
+</div><!--/#primary-->
+</div><!--/.col-lg-12-->
+</div><!--/.row-->
+</div><!--/.container.-->
+</section><!--/#main-->
+
+      </div><!--/#boxed-->
+  
+    <section id="home-content" class="graystrong-box" style="border-top: 1px solid #033f62;padding: 15px 0;">
+    <div class="container">
+    <div class="row">
+    <div class="col-sm-12">
+	<!--	
+    <span class="copyright" style="margin-top: 15px;">© Copyright 2015 mPowering Frontline Health Workers. All rights reserved.</span>
+    -->
+	<span class="copyright" style="margin-top: 15px;">© Copyright 2019 mPowering Frontline Health Workers. All rights reserved.11 </span>	
+    </div>
+    </div>
+    </div>
+    </section>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-58593028-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"http:\/\/mpoweringhealth.org\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://mpoweringhealth.org/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.1.4'></script>
+<script type='text/javascript' src='http://mpoweringhealth.org/wp-includes/js/wp-embed.min.js?ver=5.2.3'></script>
+
+</body>
+</html>

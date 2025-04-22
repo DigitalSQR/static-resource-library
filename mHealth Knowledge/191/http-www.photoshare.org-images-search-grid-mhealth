@@ -1,0 +1,181 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://www.photoshare.org/sites/default/files/charon_favicon_0.jpg" type="image/jpeg" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<title>Image Search | Photoshare</title>
+<link type="text/css" rel="stylesheet" href="https://www.photoshare.org/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.photoshare.org/sites/default/files/css/css_xuhO8M4oCbhv42O9YEXFpk3r6MD30-DmHU-FszCocjQ.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.photoshare.org/sites/default/files/css/css_cafZQOGplgC82c6VYFDPOITzPK8gDA0wZHTX6OjiPEA.css" media="all" />
+<style type="text/css" media="all">
+<!--/*--><![CDATA[/*><!--*/
+#sliding-popup.sliding-popup-bottom,#sliding-popup.sliding-popup-bottom .eu-cookie-withdraw-banner,.eu-cookie-withdraw-tab{background:#0779bf;}#sliding-popup.sliding-popup-bottom.eu-cookie-withdraw-wrapper{background:transparent}#sliding-popup .popup-content #popup-text h1,#sliding-popup .popup-content #popup-text h2,#sliding-popup .popup-content #popup-text h3,#sliding-popup .popup-content #popup-text p,.eu-cookie-compliance-more-button,.eu-cookie-compliance-secondary-button,.eu-cookie-withdraw-tab{color:#fff !important;}.eu-cookie-withdraw-tab{border-color:#fff;}
+
+/*]]>*/-->
+</style>
+<link type="text/css" rel="stylesheet" href="https://www.photoshare.org/sites/default/files/css/css_kdzZJAIes99tJjlvo6fzvzDpK-KXTFFxHUPEQ1xsMlo.css" media="all" />
+<script type="text/javascript" src="https://www.photoshare.org/sites/default/files/js/js_qikmINIYTWe4jcTUn8cKiMr8bmSDiZB9LQqvceZ6wlM.js"></script>
+<script type="text/javascript" src="https://www.photoshare.org/sites/default/files/js/js_kJ12ULOuTImCGY2Q9hex5wfvziegiobWKF-GDysqbAs.js"></script>
+<script type="text/javascript" src="https://www.photoshare.org/sites/default/files/js/js_gPqjYq7fqdMzw8-29XWQIVoDSWTmZCGy9OqaHppNxuQ.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-4133466-5", {"cookieDomain":".photoshare.org"});ga("set", "anonymizeIp", true);ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.photoshare.org/sites/default/files/js/js_APzOqJeTNKlMksp0Mvx3LHFhJZhGZV42M2ArwENwKgk.js"></script>
+<script type="text/javascript" src="https://www.photoshare.org/sites/default/files/js/js_Roq5lGcUqcdESctCIQFZP7VLih-fdMK7NGc9f8yoRzU.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"jhups","theme_token":"3ITsq5vj9j6HcgjrdKEuS5kwqxDrg-TI-Edpwo4Aq6Y","js":{"0":1,"1":1,"sites\/all\/modules\/contrib\/eu_cookie_compliance\/js\/eu_cookie_compliance.js":1,"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/eu_cookie_compliance\/js\/jquery.cookie-1.4.1.min.js":1,"sites\/all\/modules\/contrib\/nice_menus\/js\/jquery.bgiframe.js":1,"sites\/all\/modules\/contrib\/nice_menus\/js\/jquery.hoverIntent.js":1,"sites\/all\/modules\/contrib\/nice_menus\/js\/superfish.js":1,"sites\/all\/modules\/contrib\/nice_menus\/js\/nice_menus.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"2":1,"sites\/all\/themes\/jhups\/js\/jhups_search_facets.js":1,"sites\/all\/themes\/jhups\/js\/disallow_dupe.js":1,"sites\/all\/themes\/jhups\/js\/jhups_history-of-use.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/contrib\/relation\/relation_entity_collector\/relation_entity_collector.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/custom\/photoshare_bpn\/css\/photoshare-bpn.css":1,"sites\/all\/modules\/contrib\/eu_cookie_compliance\/css\/eu_cookie_compliance.css":1,"sites\/all\/modules\/contrib\/nice_menus\/css\/nice_menus.css":1,"sites\/all\/modules\/contrib\/nice_menus\/css\/nice_menus_default.css":1,"sites\/all\/modules\/contrib\/addtoany\/addtoany.css":1,"0":1,"sites\/all\/themes\/jhups\/css\/reset.css":1,"sites\/all\/themes\/jhups\/css\/base.css":1,"sites\/all\/themes\/jhups\/css\/blocks.css":1,"sites\/all\/themes\/jhups\/css\/pages.css":1,"sites\/all\/themes\/jhups\/css\/utility.css":1,"sites\/all\/themes\/jhups\/css\/superfish.css":1,"sites\/all\/themes\/jhups\/css\/superfish-vertical.css":1,"sites\/all\/themes\/jhups\/css\/advanced-search.css":1}},"eu_cookie_compliance":{"popup_enabled":1,"popup_agreed_enabled":0,"popup_hide_agreed":0,"popup_clicking_confirmation":1,"popup_scrolling_confirmation":0,"popup_html_info":"\u003Cdiv\u003E\n  \u003Cdiv class =\u0022popup-content info\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Ch2\u003E\tWe use cookies on this site to enhance your user experience\u003C\/h2\u003E\n\u003Cp\u003EBy clicking any link on this page you are giving your consent for us to set cookies.\u003C\/p\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button\u0022\u003ENo, give me more info\u003C\/button\u003E\n          \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button eu-cookie-compliance-default-button\u0022\u003EOK, I agree\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","use_mobile_message":false,"mobile_popup_html_info":"\u003Cdiv\u003E\n  \u003Cdiv class =\u0022popup-content info\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n                    \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button\u0022\u003ENo, give me more info\u003C\/button\u003E\n          \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button eu-cookie-compliance-default-button\u0022\u003EOK, I agree\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n","mobile_breakpoint":"768","popup_html_agreed":"\u003Cdiv\u003E\n  \u003Cdiv class =\u0022popup-content agreed\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Ch2\u003E\tThank you for accepting cookies\u003C\/h2\u003E\n\u003Cp\u003EYou can now hide this message or find out more about cookies.\u003C\/p\u003E\n    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022hide-popup-button eu-cookie-compliance-hide-button\u0022\u003EHide\u003C\/button\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button-thank-you\u0022 \u003EMore info\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","popup_use_bare_css":false,"popup_height":"auto","popup_width":"100%","popup_delay":1000,"popup_link":"\/content\/privacy-policy","popup_link_new_window":1,"popup_position":null,"popup_language":"en","store_consent":false,"better_support_for_screen_readers":0,"reload_page":0,"domain":"","popup_eu_only_js":0,"cookie_lifetime":"100","cookie_session":false,"disagree_do_not_show_popup":0,"method":"default","whitelisted_cookies":"","withdraw_markup":"\u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-tab\u0022\u003EPrivacy settings\u003C\/button\u003E\n\u003Cdiv class=\u0022eu-cookie-withdraw-banner\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Cp\u003E\u0026lt;h2\u0026gt;We use cookies on this site to enhance your user experience\u0026lt;\/h2\u0026gt;\u0026lt;p\u0026gt;You have given your consent for us to set cookies.\u0026lt;\/p\u0026gt;\u003C\/p\u003E\n    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-button\u0022\u003EWithdraw consent\u003C\/button\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n","withdraw_enabled":false},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackDomainMode":"1"},"nice_menus_options":{"delay":800,"speed":"slow"},"urlIsAjaxTrusted":{"\/images\/search\/grid\/mhealth":true}});
+//--><!]]>
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54574871-1', 'auto', {'name': 'global'});
+  ga('global.require', 'displayfeatures');
+  ga('global.send', 'pageview');
+
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-images page-images-search page-images-search-grid page-images-search-grid-mhealth section-images">
+<div id="skip-link">
+<a href="#" class="element-invisible element-focusable">Jump to Navigation</a>
+</div>
+<div id="utility">
+<div class="container">
+</div>
+</div>
+<div id="header-wrapper">
+<div id="header"><div class="section clearfix">
+<a href="/" title="Home" rel="home" id="logo"><img src="https://www.photoshare.org/sites/all/themes/jhups/logo.png" alt="Home" /></a>
+<div id="navigation"><div class="section clearfix">
+<ul class="nice-menu nice-menu-down nice-menu-main-menu" id="nice-menu-main"><li class="menu-251 menuparent  menu-path-node-2 first odd  about"><a href="/about-photoshare" title="Thousands of international public health and development images. Free for nonprofit and educational use. Public health photo library." class="about">About</a><ul><li class="menu-1004 menu-path-node-210 first odd  how-to-use-photoshare"><a href="/how-use-photoshare" title="Free organization, storage, search, and web access for public health photography" class="how-to-use-photoshare">How to Use Photoshare</a></li>
+<li class="menu-1367 menu-path-node-47260  even  photoshare-orders"><a href="/photoshare-orders" title="Photoshare orders are processed continuously during office hours (M-F | 9am - 5pm EST). After checkout, most orders are processed within a couple of hours, although we do ask users to allow for 1 business day for order processing and fulfillment." class="photoshare-orders">Photoshare Orders</a></li>
+<li class="menu-1358 menu-path-node-46039  odd  faqs"><a href="/faqs" title="Frequently asked questions about Photoshare" class="faqs">FAQs</a></li>
+<li class="menu-1371 menu-path-node-47315  even  photoshare-staff"><a href="/photoshare-staff" class="photoshare-staff">Photoshare Staff</a></li>
+<li class="menu-1357 menu-path-node-46037  odd  search-photoshare"><a href="/search-photoshare" title="collection is browsable by category, with filtered searching for keywords, country, date, resolution, and orientation" class="search-photoshare">Search Photoshare</a></li>
+<li class="menu-1373 menu-path-node-182  even  photoshare-terms-of-use"><a href="/content/photoshare-terms-use" class="photoshare-terms-of-use">Photoshare Terms of Use</a></li>
+<li class="menu-1345 menu-path-node-45621  odd  calendars"><a href="/photoshare-calendars" title="Photoshare Calendars  -free downloads -  public health and development photography collection" class="calendars">Calendars</a></li>
+<li class="menu-2609 menu-path-node-117360  even last photographer-agreement-information"><a href="/photoshare-photographer-agreement-information" class="photographer-agreement-information">Photographer Agreement Information</a></li>
+</ul></li>
+<li class="menu-252 menuparent  menu-path-node-3  even  resources"><a href="/resources" title="photography’s role in communicating global public health and development interventions" class="resources">Resources</a><ul><li class="menu-275 menu-path-blog first odd  blog"><a href="/blog" class="blog">Blog</a></li>
+<li class="menu-1900 menu-path-photoshareorg-collections  even  collections"><a href="https://www.photoshare.org/collections" title="" class="collections">Collections</a></li>
+<li class="menu-285 menu-path-node-6  odd  development-photography-ethics"><a href="/resources/development-photography-ethics" class="development-photography-ethics">Development Photography Ethics</a></li>
+<li class="menu-287 menu-path-node-8  even  photo-tips"><a href="/photo-tips-public-health-and-international-development-photography" title="Communicating Your Mission Through Photography" class="photo-tips">Photo Tips</a></li>
+<li class="menu-288 menu-path-node-9  odd last other-photo-collections"><a href="/resources/other-photo-collections" class="other-photo-collections">Other Photo Collections</a></li>
+</ul></li>
+<li class="menu-1336 menuparent  menu-path-node-41973  odd last contests"><a href="/contests" title="Photoshare Contest Winners - Public health and Development Photography" class="contests">Contests</a><ul><li class="menu-2404 menu-path-node-112765 first odd  2018-photoshare-contest"><a href="/2018-photoshare-contest" class="2018-photoshare-contest">2018 Photoshare Contest</a></li>
+<li class="menu-1705 menu-path-node-45626  even  about-contests"><a href="/about-contests" class="about-contests">About Contests</a></li>
+<li class="menu-1706 menu-path-node-45643  odd  contest-winners"><a href="/contest-winners" class="contest-winners">Contest Winners</a></li>
+<li class="menu-1717 menu-path-node-48907  even last about-awards"><a href="/development-photography-award" title="" class="about-awards">About Awards</a></li>
+</ul></li>
+</ul>
+</div></div>
+<h2 class="element-invisible">Sub menu</h2><ul id="secondary-menu" class="links inline clearfix"><li class="menu-1024 first last"><a href="/user/login" title="">Log in</a></li>
+</ul><div id="block-block-38" class="block block-block first odd">
+<div class="content">
+<p><a class="photosharebutton" href="https://illustrations.photoshare.org">Illustrations</a></p>
+</div>
+</div>
+<ul id="cart-lightbox-menu" class="links inline clearfix"><li class="menu-679 first"><a href="/cart/my" title="">My Cart</a></li>
+<li class="menu-680"><a href="/lightbox/current" title="">Lightbox</a></li>
+<li class="menu-1003 last"><a href="/user/register?rcup=anonymous" title="">Upload Photos</a></li>
+</ul>
+<div class="region region-header">
+<div class="aas-basic-form"><div id="block-apachesolr-angularjs-search-aas-basic" class="block block-apachesolr-angularjs-search first odd">
+<div class="content">
+<form action="/images/search/grid/mhealth" method="post" id="apachesolr-angularjs-search-basic-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-search-terms">
+<label class="element-invisible" for="edit-search-terms">Search </label>
+<input title="Enter the terms you wish to search for." class="aas-basic-form--search-terms form-text" type="text" id="edit-search-terms" name="search_terms" value="" size="15" maxlength="128" />
+</div>
+<input type="hidden" name="form_build_id" value="form-KqnhibQZYlpVKGvFZBB9OY-3AIFN-IsSyV91DkkwSQc" />
+<input type="hidden" name="form_id" value="apachesolr_angularjs_search_basic_form" />
+<div class="form-actions form-wrapper" id="edit-actions"><input class="aas-basic-form--submit-button form-submit" type="submit" id="edit-submit" name="op" value="Search" /></div></div></form> </div>
+</div>
+</div><div id="block-menu-menu-advanced-search-menu" class="block block-menu last even">
+<div class="content">
+<ul class="menu"><li class="first leaf advanced-search"><a href="/advancedsearch" title="" class="advanced-search">Advanced Search</a></li>
+<li class="last leaf browse"><a href="/browse" title="Browse our full catalog by category" class="browse">Browse</a></li>
+</ul> </div>
+</div>
+</div>
+</div></div>
+</div>
+<div id="page-wrapper">
+<div id="page">
+<div id="main-wrapper"><div id="main" class="clearfix with-navigation">
+<div id="content" class="column"><div class="section">
+<div class="region region-highlighted">
+<div id="block-block-22" class="block block-block first last odd">
+<div class="content">
+<p><a href="http://images.hesperian.org/libraryhome.tlx" target="_blank"><img alt="" src="https://www.photoshare.org/sites/default/files/images/HI_banner.png" style="width: 1000px; height: 39px;" /></a></p>
+<p class="rteright">
+<a href="https://www.photoshare.org/blog/2014/06/16/photoshare-and-hesperian-images" target="_blank"><u>read more about this partnership</u></a></p>
+</div>
+</div>
+</div>
+<a id="main-content"></a>
+<h1 class="title" id="page-title">Image Search</h1>
+<div class="region region-content">
+<div id="block-system-main" class="block block-system first last odd">
+<div class="content">
+ERROR: This page should never be displayed. Contact your system administrator. </div>
+</div>
+</div>
+<div class="content-bottom-wrapper">
+</div>
+</div></div>
+</div></div>
+</div>
+</div>
+<div id="footer-wrapper">
+<div id="footer">
+<div class="region region-footer">
+<div id="block-block-4" class="block block-block first odd">
+<div class="content">
+<p>
+<a href="http://k4health.org"><img alt="" src="/jhu-photoshare/sites/default/files/footer-k4health-logo.gif" style="width: 125px; height: 23px;" /></a>&nbsp;&nbsp;</p>
+<p>
+&copy;2013,&nbsp;Johns&nbsp;Hopkins&nbsp;University.&nbsp;All&nbsp;rights&nbsp;reserved.</p>
+</div>
+</div>
+<div id="block-photoshare-custom-footer-menu-block" class="block block-photoshare-custom even">
+<div class="content">
+<ul id="footer-top-menu" class="footer-menu links inline clearfix"><li class="menu-771 first"><a href="/about-photoshare" title="">About Photoshare</a></li>
+<li class="menu-772"><a href="/resources" title="">Resources</a></li>
+<li class="menu-773"><a href="/blog" title="">Blog</a></li>
+<li class="menu-774"><a href="/user" title="">My Account</a></li>
+<li class="menu-782 last"><a href="/contact" title="">Contact Us</a></li>
+</ul><ul id="footer-bottom-menu" class="footer-menu links inline clearfix"><li class="menu-783 first"><a href="/content/photoshare-terms-use" title="">Terms of Use</a></li>
+<li class="menu-784"><a href="https://www.photoshare.org/content/photoshare-photographer-agreement?rcup=anonymous" title="">Photographer Agreement</a></li>
+<li class="menu-785"><a href="/content/privacy-policy" title="">Privacy Policy</a></li>
+<li class="menu-786 last"><a href="/content/disclaimer" title="">Disclaimer</a></li>
+</ul> </div>
+</div>
+<div id="block-block-5" class="block block-block last odd">
+<div class="content">
+<p><a href="https://www.jhsph.edu"><img alt="" src="/jhu-photoshare/sites/default/files/bloomberg.logo.small.horizontal.black copy.png" style="width: 180px; margin-left: 10px; margin-right: 10px; height: 82px;" /></a><a href="http://ccp.jhu.edu/" target="_blank"><img alt="" src="/sites/default/files/CCPLogo_NEW.png" style="width: 146px; height: 41px; margin-top: 18px; margin-bottom: 18px;" /></a>&nbsp; &nbsp; &nbsp;<a href="http://usaid.gov" target="_blank"><img alt="" src="/jhu-photoshare/sites/default/files/usaid_logo.png" style="width: 125px; margin: 18px 10px; height: 43px;" /></a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+function euCookieComplianceLoadScripts() {}
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var eu_cookie_compliance_cookie_name = "";
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.photoshare.org/sites/default/files/js/js_4MRGjqSerJEQxet46pdKTifSYprPwyhoaSNKNoRsFw4.js"></script>
+</body>
+</html>

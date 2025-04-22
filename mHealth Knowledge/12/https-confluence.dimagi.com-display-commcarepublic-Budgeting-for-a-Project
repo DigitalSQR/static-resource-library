@@ -1,0 +1,1703 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+		
+
+
+
+
+
+	    
+
+
+
+	
+            <title>Budgeting for a Project - CommCare Public - Dimagi Confluence</title>
+	
+        
+
+                        
+    
+                        
+    
+
+            <meta http-equiv="X-UA-Compatible" content="IE=EDGE,chrome=IE7">
+<meta charset="UTF-8">
+<meta id="confluence-context-path" name="confluence-context-path" content="">
+<meta id="confluence-base-url" name="confluence-base-url" content="https://confluence.dimagi.com">
+
+<meta id="atlassian-token" name="atlassian-token" content="16037a0e7bb920f809281a61e8465da2b5d006d9">
+
+
+<meta id="confluence-space-key" name="confluence-space-key" content="commcarepublic">
+<script type="text/javascript">
+        var contextPath = '';
+</script>
+
+    
+
+    <meta name="confluence-request-time" content="1568906000207">
+        
+    
+        
+            <meta name="ajs-is-space-admin" content=""> <meta name="ajs-has-space-config" content="">
+            <style>.ia-fixed-sidebar, .ia-splitter-left {width: 285px;}.theme-default .ia-splitter #main {margin-left: 285px;}.ia-fixed-sidebar {visibility: hidden;}</style>
+            <meta name="ajs-use-keyboard-shortcuts" content="true">
+            <meta name="ajs-discovered-plugin-features" content="$discoveredList">
+            <meta name="ajs-keyboardshortcut-hash" content="1d1c2e8611755e0356a874b208b39bd9">
+            
+
+
+
+
+
+<style>
+                            </style>
+
+<meta id="sv-space-config" name="sv-space-config" content="  sv-sc-isTargetSpace sv-sc-any-isTargetSpace-enableVersionManagement-enableTranslation-enableVariants-enablePermalinks sv-sc-any-isTargetSpace-enableVersionManagement-enableTranslation-enableVariants sv-sc-any " class="  sv-sc-isTargetSpace sv-sc-any-isTargetSpace-enableVersionManagement-enableTranslation-enableVariants-enablePermalinks sv-sc-any-isTargetSpace-enableVersionManagement-enableTranslation-enableVariants sv-sc-any "></meta>
+<script type="text/x-template" id="sv-scroll-page-context">
+        {"product":{"version":"3.3.2","pluginKey":"com.k15t.scroll.scroll-platform"},"products":{"com.k15t.scroll.scroll-translations":{"version":"3.3.2","pluginKey":"com.k15t.scroll.scroll-translations"},"com.k15t.scroll.scroll-platform":{"version":"3.3.2","pluginKey":"com.k15t.scroll.scroll-platform"}},"modules":{"Publishing":{"type":"Publishing","isActive":false,"hasValidLicense":false,"licenseValidationMessageAsHtml":"Product for 'Publishing' not installed.","licenseExpiryInfoAsHtml":"Product for 'Publishing' not installed.","isEnabledInSpace":false},"TranslationManagement":{"type":"TranslationManagement","isActive":true,"hasValidLicense":false,"licenseValidationMessageAsHtml":"Your evaluation license of Scroll Translations has expired &mdash; please use the 'Buy' button to <a href=\"http://www.k15t.com/software/scroll-versions\" target=\"_new\">purchase a new license</a> or <a href=\"http://www.k15t.com/resources/faqs/trial-faq#TrialFAQ-CanIextendmyfree-trial?\">extend your evaluation license</a> through the Atlassian Marketplace.","licenseExpiryInfoAsHtml":"You are using an evaluation license of Scroll Translations. The evaluation period ends on <u>Nov 19, 2014</u>. Do you like Scroll Translations? <a href=\"https://confluence.dimagi.com/plugins/servlet/upm?fragment=manage/com.k15t.scroll.scroll-translations\" target=\"_new\">Purchase a license</a> today.","isEnabledInSpace":false},"WorkflowManagement":{"type":"WorkflowManagement","isActive":false,"hasValidLicense":false,"licenseValidationMessageAsHtml":"Product for 'WorkflowManagement' not installed.","licenseExpiryInfoAsHtml":"Product for 'WorkflowManagement' not installed.","isEnabledInSpace":false,"isComalaPluginEnabled":false,"isComalaIntegrationPluginEnabled":false},"PermalinkSupport":{"type":"PermalinkSupport","isActive":false,"hasValidLicense":false,"licenseValidationMessageAsHtml":"Product for 'PermalinkSupport' not installed.","licenseExpiryInfoAsHtml":"Product for 'PermalinkSupport' not installed.","isEnabledInSpace":false},"TargetSpace":{"type":"TargetSpace","isActive":true,"hasValidLicense":true,"licenseValidationMessageAsHtml":"","licenseExpiryInfoAsHtml":"","isEnabledInSpace":true},"Seo":{"type":"Seo","isActive":false,"hasValidLicense":false,"licenseValidationMessageAsHtml":"Product for 'Seo' not installed.","licenseExpiryInfoAsHtml":"Product for 'Seo' not installed.","isEnabledInSpace":false},"VersionManagement":{"type":"VersionManagement","isActive":false,"hasValidLicense":false,"licenseValidationMessageAsHtml":"Product for 'VersionManagement' not installed.","licenseExpiryInfoAsHtml":"Product for 'VersionManagement' not installed.","isEnabledInSpace":false},"VariantManagement":{"type":"VariantManagement","isActive":false,"hasValidLicense":false,"licenseValidationMessageAsHtml":"Product for 'VariantManagement' not installed.","licenseExpiryInfoAsHtml":"Product for 'VariantManagement' not installed.","isEnabledInSpace":false}},"space":{"config":{"enableVersionManagement":false,"enableTranslation":false,"enableVariants":false,"enablePermalinks":false,"enableSeo":false,"isTargetSpace":true,"restrictEditInReaderView":false,"workflowType":"NONE","hasCorrectComalaSpaceSetup":false},"allVersions":[],"allVariants":[],"allRemoteSystems":[],"allLanguages":[{"key":"en","encodedKey":"en","displayName":"English","isOriginal":true}],"isScrollVersionsEnabled":false,"theme":{"selectedTheme":"com.refinedwiki.confluence.plugins.theme.original:RefinedWikiTheme50","isDerived":false,"isThemeCompatible":true,"pageTitleSelector":".RefinedWikiTheme50 #title-text","pageKeySelector":".RefinedWikiTheme50 #rw_page_title, #title-text","contentManagementToolbarSelector":"body:not(.rw_version_5) #rw_menu_bar_wrapper, body.rw_version_5 .rw_content","breadcrumbsSelector":".RefinedWikiTheme50 .rw_breadcrumbs_container ol:last-of-type, .RefinedWikiTheme50 #breadcrumb-section #breadcrumbs, .RefinedWikiTheme50 #rw_page_breadcrumbs, .RefinedWikiTheme50 .contenteditor #breadcrumbs, .RefinedWikiTheme50 #editor-precursor #breadcrumbs","breadcrumbsFilter":"> li:has(a[href*=\"collector\"]) ~ li, li.rw_more_breadcrumbs, li.rw_more_breadcrumbs ~ li, > li:has(a[href*=\"collector\"]) ~ li","breadcrumbsTypeFilter":"editor:space","pageTreeContainerSelector":".RefinedWikiTheme50 .rw_page_tree_container","pageTreeContainerTemplate":"Scroll.Versions.Templates.ThemeIntegration.RefinedWiki.refinedWikiOriginalThemeIntegration","pageTreeChildrenTemplate":"Scroll.Versions.ThemeIntegration.RefinedWiki.children","pageTreeChildrenContainerSelector":".sv-pt-children.rw_pagetree_list","pageTreeChildrenToggleClassesToToggle":"rw_icon_minus rw_icon_plus","customJavaScript":"Scroll.Versions.ThemeIntegration.RefinedWiki.postProcess","svContentFooterSelector":"after: .comment-panels","svContentHeaderSelector":"prepend: body:not(.rw_version_5) #rw_page_right, body.rw_version_5 .rw_content","svNavigationSelector":"prepend: #rw_left_column","svBylineSelector":"append: .page-metadata","panelIndicator":"layoutBoard"},"isRestrictEditInReaderView":false,"isDevMode":false,"isTargetSpace":true,"messages":[],"homePage":{"scrollPageTitle":"Home","scrollPageId":"0AB566150148FA90A0968CFE79C93FB8","pageId":1048679,"isHomePage":true,"isMasterPage":true,"isAvailable":true,"isFallbackChange":false,"isUnresolvedChange":false,"isUnversionedPage":true,"isKeepUnversioned":false,"isAddedInCurrentVersion":true,"targetVersion":{"id":"current","name":"Currently Published","archived":false,"color":"#999999","runtimeAccessible":true,"versionId":"current","releaseDateAsString":"","isArchived":false,"isEditableVersion":false},"isNonMatchingVersion":true,"isLastVersion":false,"childrenCount":14,"availableChildrenCount":14,"workflowState":"","workflowStateId":"","scrollPageKey":"","scrollPageKeyUrl":"","changeType":"","scrollBreadcrumbs":[]}},"editor":{},"user":{"workingVersion":{"id":"current","name":"Currently Published","archived":false,"color":"#999999","runtimeAccessible":true,"versionId":"current","releaseDateAsString":"","isArchived":false,"isEditableVersion":true},"hasEditRestrictionForVersion":true,"currentVariant":{"id":"all","name":"all","description":"","isPublic":false,"isDefault":false,"conditions":[]},"currentLanguage":{"key":"en","encodedKey":"en","displayName":"English","isOriginal":true},"permissions":{"View":true,"Contribute":false,"Review":false,"ManageContent":false,"AdministerSpace":false,"Translate":false},"settings":{"isShowTopLevelPages":false,"isShowUnavailablePages":true,"isHighlightIncludes":true,"isHighlightConditionalContent":true,"isShowArchivedVersions":false,"isDisplayPageInfoPanel":true,"isReadOnlyView":false,"isRememberTreeState":true}},"page":{"isAvailable":true,"isHomePage":false,"isUnresolvedChange":false,"isMasterPage":true,"availableChildrenCount":0,"changeType":"","isKeepUnversioned":false,"scrollBreadcrumbs":[{"type":"space","displayTitle":"CommCare Public","target":"/display/commcarepublic/Home","cssClass":""},{"type":"page","displayTitle":"Home","target":"/display/commcarepublic/Home","cssClass":"","scrollPageId":"0AB566150148FA90A0968CFE79C93FB8"},{"type":"page","displayTitle":"Project Planning and Implementation","target":"/display/commcarepublic/Project+Planning+and+Implementation","cssClass":"","scrollPageId":"0AB566150148FA90A20935917F3E54DB"},{"type":"page","displayTitle":"Implementation Plans","target":"/display/commcarepublic/Implementation+Plans","cssClass":"","scrollPageId":"0AB566150148FA90AAE76A305DF504CE"}],"pageId":14549044,"scrollPageKey":"","isFallbackChange":false,"isUnversionedPage":true,"targetVersion":{"id":"current","name":"Currently Published","archived":false,"color":"#999999","runtimeAccessible":true,"versionId":"current","releaseDateAsString":"","isArchived":false,"isEditableVersion":false},"isLastVersion":false,"scrollPageTitle":"Budgeting for a Project","isAddedInCurrentVersion":true,"workflowStateId":"","workflowState":"","scrollPageKeyUrl":"","isNonMatchingVersion":true,"scrollPageId":"0AB566150148FA90AAD00A783B2DB40D","childrenCount":0}}
+</script>
+<script>
+    (function() {
+        'use strict';
+        var pageContextElement = document.getElementById('sv-scroll-page-context');
+        if (pageContextElement) {
+            var scrollContext = JSON.parse(pageContextElement.textContent);
+            if (window.Scroll) {
+                if (window.Scroll.Versions) {
+                    window.Scroll.Versions.Context = scrollContext;
+                } else {
+                    window.Scroll.Versions = {Context: scrollContext};
+                }
+            } else {
+                window.Scroll = {Versions: {Context: scrollContext}};
+            }
+        }
+    })();
+</script>
+
+            <meta name="ajs-is-confluence-admin" content="false">
+            <meta name="ajs-connection-timeout" content="10000">
+            <meta name="gliffy-license-type" content="LicenseType&lt;COMMUNITY&gt;">
+<meta name="gliffy-license-quantity" content="2000">
+
+            <script type="text/x-template" title="gliffy-webpanel-footer">
+        <div class="gliffy-webpanel-footer"><span>This Confluence installation runs a Free Gliffy License - Evaluate the <a href="http://www.gliffy.com/products/confluence-plugin/">Gliffy Confluence Plugin</a> for your Wiki!</span></div>
+</script>
+
+
+            
+    
+    
+            <meta name="ajs-page-title" content="Budgeting for a Project">
+            <meta name="ajs-latest-published-page-title" content="Budgeting for a Project">
+            <meta name="ajs-space-name" content="CommCare Public">
+            <meta name="ajs-page-id" content="14549044">
+            <meta name="ajs-latest-page-id" content="14549044">
+            <meta name="ajs-content-type" content="page">
+            <meta name="ajs-parent-page-title" content="Implementation Plans">
+            <meta name="ajs-parent-page-id" content="5900972">
+            <meta name="ajs-space-key" content="commcarepublic">
+            <meta name="ajs-max-number-editors" content="12">
+            <meta name="ajs-macro-placeholder-timeout" content="5000">
+            <meta name="ajs-jira-metadata-count" content="0">
+            <meta name="ajs-from-page-title" content="">
+            <meta name="ajs-can-remove-page" content="false">
+            <meta name="ajs-can-remove-page-hierarchy" content="false">
+            <meta name="ajs-browse-page-tree-mode" content="view">
+            <meta name="ajs-shared-drafts" content="">
+            <meta name="ajs-context-path" content="">
+            <meta name="ajs-base-url" content="https://confluence.dimagi.com">
+            <meta name="ajs-version-number" content="6.13.4">
+            <meta name="ajs-build-number" content="7901">
+            <meta name="ajs-remote-user" content="">
+            <meta name="ajs-remote-user-key" content="">
+            <meta name="ajs-remote-user-has-licensed-access" content="false">
+            <meta name="ajs-remote-user-has-browse-users-permission" content="false">
+            <meta name="ajs-current-user-fullname" content="">
+            <meta name="ajs-current-user-avatar-url" content="">
+            <meta name="ajs-current-user-avatar-uri-reference" content="/images/icons/profilepics/anonymous.svg">
+            <meta name="ajs-static-resource-url-prefix" content="/s/en_GB/7901/0b59262db6a7cd3dbeee6d1b1416b77c01706b36/_">
+            <meta name="ajs-global-settings-attachment-max-size" content="20971520">
+            <meta name="ajs-user-locale" content="en_GB">
+            <meta name="ajs-enabled-dark-features" content="site-wide.shared-drafts,site-wide.synchrony,confluence.view.edit.transition,confluence-inline-comments-resolved,notification.plugin.api.enabled.com.atlassian.confluence.plugins.sharepage.api.ShareContentEvent,notification.plugin.api.enabled.com.atlassian.confluence.plugins.mentions.api.ConfluenceMentionEvent,frontend.editor.v4.compatibility,notification.plugin.api.enabled.com.atlassian.confluence.event.events.security.ForgotPasswordEvent,notification.plugin.api.enabled.com.atlassian.confluence.plugins.tasklist.event.SendTaskEmailEvent,file-annotations,confluence.efi.onboarding.rich.space.content,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.comment.CommentCreateEvent,notification.plugin.api.enabled.com.atlassian.confluence.plugins.requestaccess.events.AccessGrantedEvent,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.page.PageMoveEvent,notification.plugin.api.enabled.com.atlassian.confluence.event.events.follow.FollowEvent,notification.plugin.api.enabled.com.atlassian.confluence.plugins.inlinecomments.events.InlineCommentReplyEvent,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.blogpost.BlogPostCreateEvent,lucene.caching.filter,confluence.table.resizable,notification.batch,confluence-inline-comments-rich-editor,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.blogpost.BlogPostUpdateEvent,site-wide.synchrony.opt-in,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.page.async.PageCreatedEvent,mobile.supported.version,notification.plugin.api.enabled.com.atlassian.confluence.plugins.files.notifications.event.FileContentMentionUpdateEvent,notification.plugin.api.enabled.com.atlassian.confluence.plugins.hipchat.api.events.HipChatUserMapped,quick-reload-inline-comments-flags,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.blogpost.BlogPostMovedEvent,clc.quick.create,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.page.PageUpdateEvent,cql.search.screen,nps.survey.inline.dialog,confluence.efi.onboarding.new.templates,pdf-preview,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.page.async.PageMovedEvent,notification.plugin.api.enabled.com.atlassian.confluence.plugins.sharepage.api.ShareCustomEvent,previews.sharing,previews.versions,notification.plugin.api.enabled.com.atlassian.confluence.plugins.files.notifications.event.FileContentUpdateEvent,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.attachment.AttachmentBatchUploadCompletedEvent,collaborative-audit-log,notification.plugin.api.enabled.com.atlassian.confluence.efi.emails.events.OnboardingLessUsersEvent,notification.plugin.api.enabled.com.atlassian.confluence.plugins.files.notifications.event.FileContentRemoveEvent,confluence.wrap.macro,previews.conversion-service,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.comment.CommentUpdateEvent,editor.ajax.save,graphql,read.only.mode,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.page.async.PageEditedEvent,previews.trigger-all-file-types,notification.plugin.api.enabled.com.atlassian.confluence.plugins.inlinecomments.events.InlineCommentResolveEvent,notification.plugin.api.enabled.com.atlassian.confluence.event.events.like.LikeCreatedEvent,notification.plugin.api.enabled.com.atlassian.confluence.plugins.inlinecomments.events.InlineCommentCreateEvent,attachment.extracted.text.extractor,notification.plugin.api.enabled.com.atlassian.confluence.plugins.requestaccess.events.AccessRequestedEvent,previews.sharing.pushstate,file-annotations.likes,v2.content.name.searcher,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.page.PageCreateEvent,notification.plugin.api.enabled.com.atlassian.confluence.efi.emails.events.OnboardingNoSpaceCreatedEvent,notification.plugin.api.enabled.com.atlassian.confluence.plugins.sharepage.api.ShareDraftEvent,notification.plugin.api.enabled.com.atlassian.confluence.plugins.sharepage.api.ShareAttachmentEvent,confluence-inline-comments,confluence-inline-comments-dangling-comment">
+            <meta name="ajs-atl-token" content="16037a0e7bb920f809281a61e8465da2b5d006d9">
+            <meta name="ajs-confluence-flavour" content="VANILLA">
+            <meta name="ajs-user-date-pattern" content="dd MMM yyyy">
+            <meta name="ajs-access-mode" content="READ_WRITE">
+            <meta name="ajs-render-mode" content="READ_WRITE">
+            <meta name="ajs-date.format" content="MMM dd, yyyy">
+    
+    <link rel="shortcut icon" href="/s/en_GB/7901/0b59262db6a7cd3dbeee6d1b1416b77c01706b36/5/_/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/s/en_GB/7901/0b59262db6a7cd3dbeee6d1b1416b77c01706b36/5/_/favicon.ico">
+
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch/osd.action" title="Dimagi Confluence"/>
+
+    <script>
+window.WRM=window.WRM||{};window.WRM._unparsedData=window.WRM._unparsedData||{};window.WRM._unparsedErrors=window.WRM._unparsedErrors||{};
+WRM._unparsedData["com.atlassian.plugins.atlassian-plugins-webresource-plugin:context-path.context-path"]="\u0022\u0022";
+WRM._unparsedData["com.atlassian.confluence.plugins.confluence-hipchat-integration-plugin:discovery-javascript-data.link-active"]="{\u0022linkActive\u0022:false,\u0022conditionsMet\u0022:true,\u0022admin\u0022:false}";
+WRM._unparsedData["com.atlassian.confluence.plugins.confluence-feature-discovery-plugin:confluence-feature-discovery-plugin-resources.test-mode"]="false";
+WRM._unparsedData["com.atlassian.analytics.analytics-client:policy-update-init.policy-update-data-provider"]="false";
+WRM._unparsedData["com.atlassian.analytics.analytics-client:programmatic-analytics-init.programmatic-analytics-data-provider"]="false";
+WRM._unparsedData["com.atlassian.applinks.applinks-plugin:applinks-common-exported.applinks-help-paths"]="{\u0022entries\u0022:{\u0022applinks.docs.root\u0022:\u0022https://confluence.atlassian.com/display/APPLINKS-054/\u0022,\u0022applinks.docs.diagnostics.troubleshoot.sslunmatched\u0022:\u0022SSL+and+application+link+troubleshooting+guide\u0022,\u0022applinks.docs.diagnostics.troubleshoot.oauthsignatureinvalid\u0022:\u0022OAuth+troubleshooting+guide\u0022,\u0022applinks.docs.diagnostics.troubleshoot.oauthtimestamprefused\u0022:\u0022OAuth+troubleshooting+guide\u0022,\u0022applinks.docs.delete.entity.link\u0022:\u0022Create+links+between+projects\u0022,\u0022applinks.docs.adding.application.link\u0022:\u0022Link+Atlassian+applications+to+work+together\u0022,\u0022applinks.docs.administration.guide\u0022:\u0022Application+Links+Documentation\u0022,\u0022applinks.docs.oauth.security\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.troubleshoot.application.links\u0022:\u0022Troubleshoot+application+links\u0022,\u0022applinks.docs.diagnostics.troubleshoot.unknownerror\u0022:\u0022Network+and+connectivity+troubleshooting+guide\u0022,\u0022applinks.docs.configuring.auth.trusted.apps\u0022:\u0022Configuring+Trusted+Applications+authentication+for+an+application+link\u0022,\u0022applinks.docs.diagnostics.troubleshoot.authlevelunsupported\u0022:\u0022OAuth+troubleshooting+guide\u0022,\u0022applinks.docs.diagnostics.troubleshoot.ssluntrusted\u0022:\u0022SSL+and+application+link+troubleshooting+guide\u0022,\u0022applinks.docs.diagnostics.troubleshoot.unknownhost\u0022:\u0022Network+and+connectivity+troubleshooting+guide\u0022,\u0022applinks.docs.delete.application.link\u0022:\u0022Link+Atlassian+applications+to+work+together\u0022,\u0022applinks.docs.link.applications\u0022:\u0022Link+Atlassian+applications+to+work+together\u0022,\u0022applinks.docs.diagnostics.troubleshoot.oauthproblem\u0022:\u0022OAuth+troubleshooting+guide\u0022,\u0022applinks.docs.diagnostics.troubleshoot.migration\u0022:\u0022Update+application+links+to+use+OAuth\u0022,\u0022applinks.docs.relocate.application.link\u0022:\u0022Link+Atlassian+applications+to+work+together\u0022,\u0022applinks.docs.administering.entity.links\u0022:\u0022Create+links+between+projects\u0022,\u0022applinks.docs.upgrade.application.link\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.diagnostics.troubleshoot.connectionrefused\u0022:\u0022Network+and+connectivity+troubleshooting+guide\u0022,\u0022applinks.docs.configuring.auth.oauth\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.insufficient.remote.permission\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.configuring.application.link.auth\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.diagnostics\u0022:\u0022Application+links+diagnostics\u0022,\u0022applinks.docs.configured.authentication.types\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.adding.entity.link\u0022:\u0022Create+links+between+projects\u0022,\u0022applinks.docs.diagnostics.troubleshoot.unexpectedresponse\u0022:\u0022Network+and+connectivity+troubleshooting+guide\u0022,\u0022applinks.docs.configuring.auth.basic\u0022:\u0022Configuring+Basic+HTTP+Authentication+for+an+Application+Link\u0022,\u0022applinks.docs.diagnostics.troubleshoot.authlevelmismatch\u0022:\u0022OAuth+troubleshooting+guide\u0022}}";
+WRM._unparsedData["com.atlassian.applinks.applinks-plugin:applinks-common-exported.applinks-types"]="{\u0022crowd\u0022:\u0022Crowd\u0022,\u0022confluence\u0022:\u0022Confluence\u0022,\u0022fecru\u0022:\u0022FishEye / Crucible\u0022,\u0022stash\u0022:\u0022Stash\u0022,\u0022jira\u0022:\u0022Jira\u0022,\u0022refapp\u0022:\u0022Reference Application\u0022,\u0022bamboo\u0022:\u0022Bamboo\u0022,\u0022generic\u0022:\u0022Generic Application\u0022}";
+WRM._unparsedData["com.atlassian.applinks.applinks-plugin:applinks-common-exported.entity-types"]="{\u0022singular\u0022:{\u0022refapp.charlie\u0022:\u0022Charlie\u0022,\u0022fecru.project\u0022:\u0022Crucible Project\u0022,\u0022fecru.repository\u0022:\u0022FishEye Repository\u0022,\u0022stash.project\u0022:\u0022Stash Project\u0022,\u0022generic.entity\u0022:\u0022Generic Project\u0022,\u0022confluence.space\u0022:\u0022Confluence Space\u0022,\u0022bamboo.project\u0022:\u0022Bamboo Project\u0022,\u0022jira.project\u0022:\u0022Jira Project\u0022},\u0022plural\u0022:{\u0022refapp.charlie\u0022:\u0022Charlies\u0022,\u0022fecru.project\u0022:\u0022Crucible Projects\u0022,\u0022fecru.repository\u0022:\u0022FishEye Repositories\u0022,\u0022stash.project\u0022:\u0022Stash Projects\u0022,\u0022generic.entity\u0022:\u0022Generic Projects\u0022,\u0022confluence.space\u0022:\u0022Confluence Spaces\u0022,\u0022bamboo.project\u0022:\u0022Bamboo Projects\u0022,\u0022jira.project\u0022:\u0022Jira Projects\u0022}}";
+WRM._unparsedData["com.atlassian.applinks.applinks-plugin:applinks-common-exported.authentication-types"]="{\u0022com.atlassian.applinks.api.auth.types.BasicAuthenticationProvider\u0022:\u0022Basic Access\u0022,\u0022com.atlassian.applinks.api.auth.types.TrustedAppsAuthenticationProvider\u0022:\u0022Trusted Applications\u0022,\u0022com.atlassian.applinks.api.auth.types.CorsAuthenticationProvider\u0022:\u0022CORS\u0022,\u0022com.atlassian.applinks.api.auth.types.OAuthAuthenticationProvider\u0022:\u0022OAuth\u0022,\u0022com.atlassian.applinks.api.auth.types.TwoLeggedOAuthAuthenticationProvider\u0022:\u0022OAuth\u0022,\u0022com.atlassian.applinks.api.auth.types.TwoLeggedOAuthWithImpersonationAuthenticationProvider\u0022:\u0022OAuth\u0022}";
+WRM._unparsedData["com.atlassian.confluence.plugins.synchrony-interop:synchrony-status-banner-loader.synchrony-status"]="false";
+WRM._unparsedData["com.atlassian.confluence.plugins.confluence-license-banner:confluence-license-banner-resources.license-details"]="{\u0022daysBeforeLicenseExpiry\u0022:0,\u0022daysBeforeMaintenanceExpiry\u0022:0,\u0022showLicenseExpiryBanner\u0022:false,\u0022showMaintenanceExpiryBanner\u0022:false,\u0022renewUrl\u0022:null,\u0022salesEmail\u0022:null}";
+WRM._unparsedData["com.atlassian.whisper.atlassian-whisper-plugin:atlassian-whisper-bootstrap.WhisperData"]="{\u0022hasMessages\u0022:false,\u0022syncInit\u0022:false,\u0022baseUrl\u0022:\u0022https:\u005C/\u005C/confluence.dimagi.com\u0022}";
+if(window.WRM._dataArrived)window.WRM._dataArrived();</script>
+<link type="text/css" rel="stylesheet" href="/s/5fcd3f0c092636187a65b1c5314475fe-CDN/en_GB/7901/0b59262db6a7cd3dbeee6d1b1416b77c01706b36/ec85741cad785658e5d334cee8aab0ba/_/download/contextbatch/css/_super/batch.css" data-wrm-key="_super" data-wrm-batch-type="context" media="all">
+<!--[if lt IE 9]>
+<link type="text/css" rel="stylesheet" href="/s/5fcd3f0c092636187a65b1c5314475fe-CDN/en_GB/7901/0b59262db6a7cd3dbeee6d1b1416b77c01706b36/ec85741cad785658e5d334cee8aab0ba/_/download/contextbatch/css/_super/batch.css?conditionalComment=lt+IE+9" data-wrm-key="_super" data-wrm-batch-type="context" media="all">
+<![endif]-->
+<!--[if lte IE 9]>
+<link type="text/css" rel="stylesheet" href="/s/5fcd3f0c092636187a65b1c5314475fe-CDN/en_GB/7901/0b59262db6a7cd3dbeee6d1b1416b77c01706b36/ec85741cad785658e5d334cee8aab0ba/_/download/contextbatch/css/_super/batch.css?conditionalComment=lte+IE+9" data-wrm-key="_super" data-wrm-batch-type="context" media="all">
+<![endif]-->
+<link type="text/css" rel="stylesheet" href="/s/7fbf168ec7dbd1e797ed5dbd9ac0ceb1-CDN/en_GB/7901/0b59262db6a7cd3dbeee6d1b1416b77c01706b36/ef38b135d6f92c5550467a7bed52ae6f/_/download/contextbatch/css/page,viewcontent,atl.general,main,atl.comments,-_super/batch.css?confluence.table.resizable=true&amp;highlightactions=true&amp;hostenabled=true&amp;whisper-enabled=true" data-wrm-key="page,viewcontent,atl.general,main,atl.comments,-_super" data-wrm-batch-type="context" media="all">
+<!--[if lt IE 9]>
+<link type="text/css" rel="stylesheet" href="/s/7fbf168ec7dbd1e797ed5dbd9ac0ceb1-CDN/en_GB/7901/0b59262db6a7cd3dbeee6d1b1416b77c01706b36/ef38b135d6f92c5550467a7bed52ae6f/_/download/contextbatch/css/page,viewcontent,atl.general,main,atl.comments,-_super/batch.css?conditionalComment=lt+IE+9&amp;confluence.table.resizable=true&amp;highlightactions=true&amp;hostenabled=true&amp;whisper-enabled=true" data-wrm-key="page,viewcontent,atl.general,main,atl.comments,-_super" data-wrm-batch-type="context" media="all">
+<![endif]-->
+<link type="text/css" rel="stylesheet" href="/s/d41d8cd98f00b204e9800998ecf8427e-CDN/en_GB/7901/0b59262db6a7cd3dbeee6d1b1416b77c01706b36/5.1.4/_/download/batch/com.refinedwiki.confluence.plugins.theme.original:shared-batch/com.refinedwiki.confluence.plugins.theme.original:shared-batch.css" data-wrm-key="com.refinedwiki.confluence.plugins.theme.original:shared-batch" data-wrm-batch-type="resource" media="all">
+<link type="text/css" rel="stylesheet" href="/s/d41d8cd98f00b204e9800998ecf8427e-CDN/en_GB/7901/0b59262db6a7cd3dbeee6d1b1416b77c01706b36/5.1.4/_/download/batch/com.refinedwiki.confluence.plugins.theme.original:core-resources/com.refinedwiki.confluence.plugins.theme.original:core-resources.css" data-wrm-key="com.refinedwiki.confluence.plugins.theme.original:core-resources" data-wrm-batch-type="resource" media="all">
+<link type="text/css" rel="stylesheet" href="/s/d41d8cd98f00b204e9800998ecf8427e-CDN/en_GB/7901/0b59262db6a7cd3dbeee6d1b1416b77c01706b36/5.1.4/_/download/batch/com.refinedwiki.confluence.plugins.theme.original:core-resources/com.refinedwiki.confluence.plugins.theme.original:core-resources.css?content-type=text%2Fcss&amp;media=print" media="print" data-wrm-key="com.refinedwiki.confluence.plugins.theme.original:core-resources" data-wrm-batch-type="resource">
+<link type="text/css" rel="stylesheet" href="/s/d41d8cd98f00b204e9800998ecf8427e-CDN/en_GB/7901/0b59262db6a7cd3dbeee6d1b1416b77c01706b36/5.1.4/_/download/batch/com.refinedwiki.confluence.plugins.theme.original:legacy-batch/com.refinedwiki.confluence.plugins.theme.original:legacy-batch.css" data-wrm-key="com.refinedwiki.confluence.plugins.theme.original:legacy-batch" data-wrm-batch-type="resource" media="all">
+<link type="text/css" rel="stylesheet" href="/s/en_GB/7901/0b59262db6a7cd3dbeee6d1b1416b77c01706b36/5.1.4/_/download/resources/com.refinedwiki.confluence.plugins.theme.original:RefinedWikiTheme50/default-theme.css" media="all">
+<link type="text/css" rel="stylesheet" href="/s/en_GB/7901/0b59262db6a7cd3dbeee6d1b1416b77c01706b36/17/_/styles/theme-colors.css?completeModuleKey=com.refinedwiki.confluence.plugins.theme.original%3ARefinedWikiTheme50&amp;stylesheetName=color-scheme.css&amp;spaceKey=commcarepublic" media="all">
+<script type="text/javascript" src="/s/4cafd8bf0fe622203305d558c430d8ac-CDN/en_GB/7901/0b59262db6a7cd3dbeee6d1b1416b77c01706b36/ec85741cad785658e5d334cee8aab0ba/_/download/contextbatch/js/_super/batch.js?locale=en-GB" data-wrm-key="_super" data-wrm-batch-type="context"></script>
+<script type="text/javascript" src="/s/ab1749fe921815c2148ff3bfab948431-CDN/en_GB/7901/0b59262db6a7cd3dbeee6d1b1416b77c01706b36/ef38b135d6f92c5550467a7bed52ae6f/_/download/contextbatch/js/page,viewcontent,atl.general,main,atl.comments,-_super/batch.js?confluence.table.resizable=true&amp;highlightactions=true&amp;hostenabled=true&amp;locale=en-GB&amp;whisper-enabled=true" data-wrm-key="page,viewcontent,atl.general,main,atl.comments,-_super" data-wrm-batch-type="context"></script>
+<script type="text/javascript" src="/s/f74a31c1389bd48b29b225cd2658d72c-CDN/en_GB/7901/0b59262db6a7cd3dbeee6d1b1416b77c01706b36/5.1.4/_/download/batch/com.refinedwiki.confluence.plugins.theme.original:shared-batch/com.refinedwiki.confluence.plugins.theme.original:shared-batch.js?locale=en-GB" data-wrm-key="com.refinedwiki.confluence.plugins.theme.original:shared-batch" data-wrm-batch-type="resource"></script>
+<script type="text/javascript" src="/s/f74a31c1389bd48b29b225cd2658d72c-CDN/en_GB/7901/0b59262db6a7cd3dbeee6d1b1416b77c01706b36/5.1.4/_/download/batch/com.refinedwiki.confluence.plugins.theme.original:core-resources/com.refinedwiki.confluence.plugins.theme.original:core-resources.js?locale=en-GB" data-wrm-key="com.refinedwiki.confluence.plugins.theme.original:core-resources" data-wrm-batch-type="resource"></script>
+
+    
+
+        
+    
+
+        
+        <meta name="ajs-site-title" content="Dimagi Confluence" />
+            
+
+		
+
+
+
+
+
+
+
+
+<script>
+	
+			if (typeof RW === 'undefined') {
+    	var RW = {};
+	}
+	
+	
+    // Should not be used - but kept for third parties. Use RW.versionChecker instead.
+	RW.confluenceVersion = 6.134;
+    RW.versionChecker = {
+      comparedTo60: 1,
+      comparedTo510: 1,
+	  comparedTo59: 1,
+	  comparedTo58: 1,
+	  comparedTo57: 1
+	};
+
+		
+	
+		RW.isConfluenceAdministrator = false
+	
+				var contextPath = '';
+	
+					RW.scrollSearchActive = true;
+	
+            RW.blogPortalEnabled = true
+    
+		RW.userDashboardRedirection = true;
+	
+			
+		var originalTheme = RW;
+	
+		RW.cacheSettings = {};
+	RW.cacheSettings.params = {};
+	RW.cacheSettings.lastChange = {}
+
+	    
+    		RW.cacheSettings.params['footer'] = true;
+    	    		RW.cacheSettings.params['userdetails'] = true;
+    	    		RW.cacheSettings.params['globalmenu'] = true;
+    	    		RW.cacheSettings.params['usercategory'] = true;
+    	    		RW.cacheSettings.params['category'] = true;
+    	    		RW.cacheSettings.params['docache'] = true;
+    	            			RW.cacheSettings.lastChange['footer'] = 1568019888384;
+        			RW.cacheSettings.lastChange['userdetails'] = 1568019888384;
+        			RW.cacheSettings.lastChange['globalmenu'] = 1568019888384;
+        			RW.cacheSettings.lastChange['usercategory'] = 1568019888384;
+        			RW.cacheSettings.lastChange['category'] = 1568019888384;
+    	RW.activeCategoryKey = '';
+
+  	// Keyboard shortcuts add-on status
+	RW.shortcutsEnabled = function() {
+		return Confluence && Confluence.KeyboardShortcuts && Confluence.KeyboardShortcuts.enabled;
+	}
+
+	// Global Site logo, for theme previews.
+  	  	RW.siteLogoUrl = "/download/attachments/327761/atl.site.logo?version=2&amp;modificationDate=1370231432552&amp;api=v2";
+</script>
+
+
+
+	
+				
+	
+
+<!--[if !IE]><!-->
+ 	<style type="text/css">
+		.rw_toolbar_menu li .rw_toolbar_dropdown li a:hover
+		{
+			color: #172B4D;	
+			background: #d6680d;
+		}
+		
+		/* Scroll office fix */
+		#com-k15t-confluence-scroll-pdf-launcher:hover
+		{
+			color: #172B4D;	
+			background: #d6680d;
+		}
+	</style>
+<!--<![endif]-->
+
+		
+<!--[if IE 6]>
+	<link type="text/css" rel="stylesheet" href="/download/resources/com.refinedwiki.confluence.plugins.theme.original/styles/legacy/ie6-fix.css" media="all"/>
+<![endif]-->
+
+<!--[if IE 7]>
+	<link type="text/css" rel="stylesheet" href="/download/resources/com.refinedwiki.confluence.plugins.theme.original/styles/legacy/ie7-fix.css" media="all"/>
+<![endif]-->
+
+
+
+
+
+
+
+			
+		
+				<script type="text/javascript" src="/plugins/servlet/rw-resources/designs/publichelp/bundle/bundle.js" ></script>
+
+		
+				<link type="text/css" rel="stylesheet" href="/plugins/servlet/rw-resources/designs/publichelp/bundle/bundle_commcareblue.css" media="all"/>
+
+	
+
+			
+	
+
+			
+<style type="text/css">
+	/* Key navigation in popup */
+	li.rw_selected a { background: #fd9402 !important; border-color: #fd9402 !important; }
+	li.rw_selected * { color: #fff !important; }
+	li.rw_selected a span.rw_item_left { background: none !important; border-color:none !important;}
+	
+	/* Key navigation category menu */
+	#rw_category_menu ul li.rw_active.rw_selected a > span { border-color: ##fd9402; }
+
+	/* Confluence questions  */
+	.rw_navigation_module_questions ul li.rw_selected { background: #fd9402; }
+	.rw_category_dd_theme_dark #rw_category_dropdown_wrapper .rw_navigation_module_questions ul li.rw_selected { background: #fd9402; }
+
+	/* Key navigation for page tree */
+	.rw_pagetree_list li.rw_selected > div.rw_icon_content { background: #fd9402 !important; border-color: #fd9402 !important; }
+	.rw_pagetree_list li.rw_selected > div.rw_icon_content a { color:#fff !important;}
+	.rw_pagetree_list li.rw_selected a {background: none !important; border-color: none; color:#333 !important;}
+	
+	/* Key navigation for activity popup */
+	li.rw_selected div.rw_no_link { background: #fd9402 !important; border-color: #fd9402 !important; }
+	
+	/* Main Key Navigation */
+	.rw_keynavigation_row > div.rw_selected { background: #fd9402 !important; color:#fff !important;}
+	.rw_keynavigation_container > div.rw_keynavigation_empty_item { background: none;}
+	
+	/* Menu keynav exceptions */
+	#notifications-anchor.rw_selected {background: #fd9402 !important; color:#fff !important;}
+	
+	
+	
+
+	#rw_menu_bar #rw_create_button .aui-button,
+	#rw_inline_dialog_page_menu #rw_create_button .aui-button,
+    .rw_create_blogpost_button.aui-button
+	{
+	  background-image: -moz-linear-gradient(top, #f7780f, #dc6807);
+	  background-image: -ms-linear-gradient(top,  #f7780f, #dc6807);
+	  background-image: -webkit-linear-gradient(top,  #f7780f, #dc6807);
+	  background-image: -o-linear-gradient(top,  #f7780f, #dc6807);
+	  background-image: linear-gradient(top,  #f7780f, #dc6807);
+	  text-shadow: none;
+	  color: #ffffff;
+	}
+
+    #rw_menu_bar #rw_create_button .aui-button,
+    #rw_inline_dialog_page_menu #rw_create_button .aui-button,
+    .rw_create_blogpost_button.aui-button
+    {
+      border-color: #f7780f;
+    }
+    #rw_main #rw_create_button .aui-button:hover,
+    #rw_main #rw_create_button .aui-button:focus,
+    #rw_inline_dialog_page_menu #rw_create_button .aui-button:hover,
+    #rw_inline_dialog_page_menu #rw_create_button .aui-button:focus,
+    .rw_create_blogpost_button.aui-button:hover,
+    .rw_create_blogpost_button.aui-button:focus
+    {
+      background-image: -moz-linear-gradient(top, #ff9034, #e46d09);
+      background-image: -ms-linear-gradient(top, #ff9034, #e46d09);
+      background-image: -webkit-linear-gradient(top, #ff9034, #e46d09);
+      background-image: -o-linear-gradient(top, #ff9034, #e46d09);
+      background-image: linear-gradient(top, #ff9034, #e46d09);
+    }
+
+    .rw_create_blogpost_button.aui-button {
+	  border: 0;
+    }
+    .rw_create_blogpost_button.aui-button:hover {
+      color: #ffffff;
+	}
+
+	
+				
+	
+	
+    	        #com-atlassian-confluence #inline-dialog-notifications-miniview
+        {
+            position:fixed;
+            top: 57px !important;
+            right: 80px !important;
+			margin: 0px !important;
+        }
+        #com-atlassian-confluence #inline-dialog-notifications-miniview:after,
+        #com-atlassian-confluence #inline-dialog-notifications-miniview:before
+        {
+            border: medium solid transparent;
+            bottom: 100%;
+            content: " ";
+            height: 0;
+            pointer-events: none;
+            position: absolute;
+            width: 0;
+        }
+        #com-atlassian-confluence #inline-dialog-notifications-miniview:after
+        {
+            
+            border-color: rgba(237, 237, 237, 0) rgba(237, 237, 237, 0) rgba(237, 237, 237, 0) #fff;
+            border-width: 8px;  
+            top:22px;
+            right: -15px;   
+        }
+        #com-atlassian-confluence #inline-dialog-notifications-miniview:before
+        {
+            border-color: rgba(221, 221, 221, 0) rgba(221, 221, 221, 0) rgba(221, 221, 221, 0) #ddd;
+            border-width: 10px;  
+            top: 20px;
+            right: -19px;
+        }
+        #com-atlassian-confluence #inline-dialog-notifications-miniview #arrow-notifications-miniview
+        {
+            display:none;
+        }
+	
+
+</style>
+
+
+
+    <meta name="google-translate-customization" content="d9354165e3e7fb10-6d01fbf13bd8e397-g84e342d61385f413-13"></meta>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30025292-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<script>
+jQuery(document).ready(function() {
+    jQuery(".external-link").attr("target", "_blank");
+});
+</script>
+
+    
+                <link rel="canonical" href="https://confluence.dimagi.com/display/commcarepublic/Budgeting+for+a+Project">
+        <link rel="shortlink" href="https://confluence.dimagi.com/x/NADe">
+    <meta name="wikilink" content="[commcarepublic:Budgeting for a Project]">
+    <meta name="page-version" content="8">
+    <meta name="ajs-page-version" content="8">
+
+
+        
+
+    
+</head>
+
+<body      id="com-atlassian-confluence" class="RefinedWikiTheme50 rw_version_5  aui-layout aui-theme-default confluence_5   lighter-editor    rw_popup_design_default rw_category_dd_theme_dark   rw_legacy_theme">
+
+
+        
+            <div id='stp-licenseStatus-banner'></div>
+            <script>
+    var spaceConfigElement = document.getElementById('sv-space-config');
+    if (spaceConfigElement) {
+        var cssClasses = spaceConfigElement.getAttribute('content');
+        document.body.className += ' ' + cssClasses;
+    }
+</script>
+    <ul id="assistive-skip-links" class="assistive">
+    <li><a href="#rw_page_title">Skip to content</a></li>
+    <li><a href="#rw_page_breadcrumbs">Skip to breadcrumbs</a></li>
+    <li><a href="#rw_category_menu">Skip to header menu</a></li>
+    <li><a href="#navigation">Skip to action menu</a></li>
+    <li><a href="#rw_search_query">Skip to quick search</a></li>
+</ul>
+
+
+<div id="page">
+<div id="full-height-container">
+   
+      <div id="header" style="display:none;"></div>
+   
+   <div id="header-precursor">
+        <div class="cell">
+            
+                        </div>
+    </div>
+	
+						
+		
+				
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					<div 
+	id="rw_side_menu"
+
+			    		class="rw_theme_dark"
+		
+	
+	data-mode="responsive" 
+	>
+	<div id="rw_side_menu_handle" class="rw_handle"></div> 
+    <div id="rw_side_menu_container">
+		<ul>
+	                                				
+        
+        
+<li><a  id="login-link" href="/login.action?os_destination=%2Fdisplay%2Fcommcarepublic%2FBudgeting%2Bfor%2Ba%2BProject" class="  user-item login-link "      title="" >
+        Log in
+</a></li>
+                        				
+        			
+				
+	    <li><a id="help-menu-link" href="#" title="Help" class="rw_has_dd rw_tooltip" data-dd="help-menu-link-dd" data-tooltip="Help">
+      <span class="rw_item_icon aui-iconfont-help"></span>
+    </a>
+      <nav id="help-menu-link-dd" class="rw_side_menu_dd" data-owner="help-menu-link">
+		              <div class="rw_section">
+              <ul  id="help-menu-link-leading" class="section-leading first">
+				                          
+    
+        
+<li><a  id="confluence-help-link" href="https://docs.atlassian.com/confluence/docs-613/" class="   "      title="Visit the Confluence documentation home"  target="_blank"
+>
+        Online Help
+</a></li>
+                                            
+    
+            
+<li><a  id="keyboard-shortcuts-link" href="#" class="   "      title="View available keyboard shortcuts" >
+        Keyboard Shortcuts
+</a></li>
+                                            
+    
+        
+<li><a  id="feed-builder-link" href="/dashboard/configurerssfeed.action" class="   "      title="Create your custom RSS feed." >
+        Feed Builder
+</a></li>
+                                            
+    
+        
+<li><a  id="whats-new-menu-link" href="https://confluence.atlassian.com/display/DOC/Confluence+6.13+Release+Notes" class="   "      title="" >
+        What’s new
+</a></li>
+                                            
+    
+        
+<li><a  id="whats-new-menu-link" href="https://docs.atlassian.com/confluence/docs-613/help.whats.new.iframe.link" class="   "      title="" >
+        What’s new
+</a></li>
+                                            
+    
+            
+<li><a  id="gadget-directory-link" href="#" class="  user-item administration-link "      title="Browse gadgets provided by Confluence" >
+        Available Gadgets
+</a></li>
+                                            
+    
+        
+<li><a  id="confluence-about-link" href="/aboutconfluencepage.action" class="   "      title="Get more information about Confluence" >
+        About Confluence
+</a></li>
+                                  </ul>
+            </div>
+		        </nav>
+    </li>
+	
+	    </ul>
+		<ul>
+			<li>	
+				<a id="rw_search_popup_button" title="Search">
+        			<span class="rw_item_icon rw_iconfont_search"></span>
+        		</a>
+			</li>
+		</ul>	
+	
+    </div>
+    <div class="rw_done_cover"></div> 
+</div>
+		
+						
+				
+
+
+
+        
+
+
+
+		<div id="rw_wrapper" class="rw_menu_layout_v2   rw_has_side_menu   rw_content_menu_open rw_concealed_menu_layout">
+
+			<div id="rw_main">
+
+								
+											
+
+<div id="original_design_banner" class="rw_no_print rw_no_logo">
+	
+		
+			
+		
+		   	
+			
+			
+	
+		
+		
+</div> <!-- top -->
+
+		
+<div id="original_design_top" class="rw_no_print" >
+	
+	<div class="rw_box" id="original_top_content">	
+		
+					<div id="rw_search_container">
+		<div id="rw_search" class="rw_search">
+			
+						<form style="width:0px; height:0px; overflow:hidden; "><input type="text" name="hack" onfocus="this.blur()" /></form>
+			    
+			<form id="rw_search_form" class="rw_search_form" method="get" action="/dosearchsite.action">
+		   		<label for="rw_search_query" class="assistive">Quick Search</label>
+				<input class="rw_search_query" style="width: 150px;" id="rw_search_query" placeholder="Search" type="search" accessKey="search-pages-action.accesskey" autocomplete="off" name="queryString" size="25" />
+
+		   		<div style="clear:both;"></div>
+		        <div id="rw_search_result_container" class="rw_search_result_container rw_corners" style="display:none;">
+		        	
+		        </div>
+		
+		        <fieldset class="hidden parameters">
+		            <input type="hidden" id="quickNavEnabled" value="true" />
+		            		        </fieldset>
+		    </form>	
+	    </div>
+	</div>
+          <div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-30025292-1'}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+		
+			 	<div id="rw_breadcrumb">	
+			<table height="40px"><tr><td>
+					    <div id="rw_breadcrumbs_container"  class="rw_breadcrumbs_container">
+		          <ol id="rw_breadcrumbs" class="rw_hidden" >
+            <li class="rw_first">
+				<span>
+					<a href="/dashboard.action">
+													
+											</a>
+				</span>
+            </li>
+			            </ol>
+		
+					
+    
+    
+    <ol id="breadcrumbs">
+                                        
+                        
+        <li class="first" >
+                        
+                            <span class=""><a href="/collector/pages.action?key=commcarepublic">Pages</a></span>
+                                                                                                            <li id="ellipsis" title="Show all breadcrumbs"><span><strong>&#8230;</strong></span></li>
+                                                
+                        
+        <li class="hidden-crumb" >
+                        
+                            <span class=""><a href="/display/commcarepublic/Home">Home</a></span>
+                                                                                                    
+                        
+        <li class="hidden-crumb" >
+                        
+                            <span class=""><a href="/display/commcarepublic/Project+Planning+and+Implementation">Project Planning and Implementation</a></span>
+                                                                                    
+                        
+        <li>
+                        
+                            <span class=""><a href="/display/commcarepublic/Implementation+Plans">Implementation Plans</a></span>
+                                                                    </ol>
+
+
+		    </div>
+				</td></tr></table>
+		</div>
+          
+	</div>
+	
+			
+		
+	
+		<div id="rw_category_menu" 
+		class=" rw_version_2  "
+		>
+
+					<div id="rw_category_menu_scroll_container">
+					<ul class="rw_category_items">
+				               				<li id="rw_dashboard_link" class="rw_first">
+					<a
+						 title=" ( Type 'n' )" 												>
+													<span class="rw_item_left">
+																						
+
+
+							<span class="rw_item_name">
+																	
+															</span>
+
+				   									</span>
+							<span class="rw_item_right"></span>
+											</a>
+				</li>
+                           </ul>
+					</div><!-- # rw_category_menu_scroll_container -->
+			</div>		
+
+		<div id="rw_category_menu_parameters" style="display:none;"
+		 data-drop-down-content-size="medium"
+	  >
+	
+						<div id="rw_category_dd_disabled">false</div>
+		<div id="rw_category_dd_layout">multi_column</div>
+		<div id="rw_sub_category_collapsed">false</div>
+		<div id="rw_show_category_logo">false</div>
+		<div id="rw_exclude_archived_spaces">false</div>
+		<div id="rw_show_space_logo">false</div>
+		<div id="rw_show_space_icon">false</div>
+		<div id="rw_min_column_width">340</div>
+		<div id="rw_active_category_key"></div>
+		<div id="rw_is_dashboard"></div>
+		<div id="rw_manual_permissions">false</div>
+		<div id="rw_disable_category_dashboards">false</div>
+		<div id="rw_disable_subcategory_dashboards">true</div>
+			  	<div id="rw_dashboard_title"></div>
+	</div>
+
+	
+</div> <!-- original_design_top -->
+
+
+<div id="original_design_content">
+	<div>
+	<div style="clear:both;"></div>
+
+	
+			
+		
+			<div style="clear:both;"></div>
+
+
+																
+
+
+
+
+						
+		
+<div id="rw_menu_bar_wrapper" class=" rw_closeable  " >
+				<div id="rw_menu_bar_button" ></div>
+	
+			<div id="rw_menu_bar_icon" >
+
+			<div class="space-logo " data-key="commcarepublic" data-name="CommCare Public" data-entity-type="confluence.space">
+            <a><img class="logo space custom" src="/download/attachments/1048678/commcarepublic?version=2&amp;modificationDate=1371750918415&amp;api=v2" alt=""></a>
+        </div>
+		</div>
+		<div id="rw_menu_bar_content">
+	
+	<div id="rw_menu_bar" class="rw_corners" >
+
+								    <div id="rw_create_button" class="rw_create_button_container rw_correct_top">
+		<li class="aui-buttons">
+  	  </li>
+    </div>
+			
+
+				
+										
+				
+
+								
+				
+			
+
+
+
+<div id="rw_space_nav" class="rw_corners">
+
+    <div class="rw_item_content ">
+                <a
+            title="CommCare Public"
+                            href="/display/commcarepublic"
+                                >
+
+            CommCare Public
+                                                                </a>
+    </div>
+
+    
+            <div class="rw_item_actions" id="rw_space_menu_button" >
+            <span class="rw_icon rw_iconfont_top_menu"></span>
+        </div>
+                    
+	
+	
+	<div id="browse-space-menu" style="display:none;" >
+                    <ul  id="browse-space-menu-leading">
+		  		<h3 class="rw_section_title">Content</h3>
+                                    
+
+    
+
+    
+    		    
+    
+<li class="acs-nav-item wiki"><a  href="/collector/pages.action?key=commcarepublic"  class="wiki"   title="Pages">
+    
+        
+          <span class="rw_item_icon rw_iconfont_pages"></span>
+      <span class="rw_item_content">Pages</span>
+</a></li>
+                                    
+
+    
+
+    
+    		    
+    
+<li class="acs-nav-item blog"><a  href="/pages/viewrecentblogposts.action?key=commcarepublic"  class="blog"   title="Blog">
+    
+        
+          <span class="rw_item_icon rw_iconfont_feed"></span>
+      <span class="rw_item_content">Blog</span>
+</a></li>
+                
+								            </ul>
+		
+  		<ul>
+			<h3 class="rw_section_title">Space Tools</h3>
+
+								<li>
+
+		
+				
+				
+      <a title="Overview" href="/spaces/viewspacesummary.action?key=commcarepublic">
+		              <span class="rw_item_icon rw_iconfont_text"></span>
+		  
+        <span class="rw_item_content">
+		  			  Overview
+		  		</span>
+      </a>
+
+				    </li>
+		<li>
+
+		
+				
+				
+      <a title="Content Tools" href="/pages/reorderpages.action?key=commcarepublic">
+		              <span class="rw_item_icon rw_iconfont_tree"></span>
+		  
+        <span class="rw_item_content">
+		  			  Content Tools
+		  		</span>
+      </a>
+
+				    </li>
+		<li>
+
+		
+				
+				
+      <a title="Activity" href="/spaces/usage/report.action?key=commcarepublic">
+		              <span class="rw_item_icon rw_iconfont_dot"></span>
+		  
+        <span class="rw_item_content">
+		  			  Activity
+		  		</span>
+      </a>
+
+				    </li>
+					      	</ul>
+
+ 			</div>
+            </div>
+
+		
+
+	</div> <!-- #rw_menu_bar -->
+	</div>
+</div> <!-- #rw_menu_bar_wrapper -->
+			
+
+		    <div id="main" >
+
+								
+
+												
+		
+		        
+
+								
+					
+											
+
+    <div class="rw_content_section page view">
+
+
+              <div id="rw_splitter"><div id="rw_splitter_handle" class="rw_hidden"></div></div>
+    
+            <div id="rw_left_column" class="rw_custom_section rw_corners wiki-content rw_visibility_hidden">
+            
+
+						    
+    
+<div class="rw_page_tree_wrapper conf-macro output-block" data-hasbody="false" data-macro-name="rw-pagetree">
+    	<div class="rw_param_start_page_id" style="display:none;" data-value=""> </div>
+    <div class="rw_param_theme" style="display:none;" data-value="public"> </div>
+	<div class="rw_param_search" style="display:none;" data-value=""> </div>
+	<div class="rw_param_expand_collapse" style="display:none;" data-value="false"> </div>
+	<div class="rw_param_page_id" style="display:none;" data-value="14549044"> </div>
+	<div class="rw_param_space_key" style="display:none;" data-value="commcarepublic"> </div>
+	<div class="rw_param_space_admin" style="display:none;" data-value="false"> </div> 	<div class="rw_param_space_shortcuts" style="display:none;" data-value=""> </div>
+
+		
+  	<div style="display:none;" class="rw_pagetree rw_corners&#xa;&#x9;  &#x9;&#x9;  &#x9;&#x9;  &#x9;&#x9;rw_theme_public&#xa;&#x9;  &#x9;&#x9;  &#x9;">
+
+	    
+	  		  	
+		 		
+	  	        <div class="rw_page_tree_container"> </div>
+
+  	</div>
+
+	<div id="rw_sidebar_icon_quicklinks" class="rw_sidebar_icon rw_hidden" data-tooltip="Space shortcuts"><span class="rw_icon rw_iconfont_pages"> </span></div>
+	<div id="rw_sidebar_icon_pagetree" class="rw_sidebar_icon rw_hidden" data-tooltip="Pagetree"><span class="rw_icon rw_iconfont_tree"> </span></div>
+
+</div>
+<h3 id="BudgetingforaProject-PopularHelpContent"><strong>Popular Help Content</strong></h3>            <table class="grid conf-macro output-block" data-hasbody="false" data-macro-name="popular" id="popular-table">
+                        <tbody><tr>
+                <td>
+                
+                                                    <a href="/pages/viewpage.action?pageId=29559951">Adding a horizontal line to Excel charts (Target value)</a>
+                                    </td>
+
+                            </tr>
+                        <tr>
+                <td>
+                
+                                                    <a href="/display/commcarepublic/Icebreaker%2C+Energizer+and+Recap+Activities">Icebreaker, Energizer and Recap Activities</a>
+                                    </td>
+
+                            </tr>
+                        <tr>
+                <td>
+                
+                                                    <a href="/display/commcarepublic/Install+CommCare+for+Android+Smartphones">Install CommCare for Android Smartphones</a>
+                                    </td>
+
+                            </tr>
+                        <tr>
+                <td>
+                
+                                                    <a href="/display/commcarepublic/Home">Home</a>
+                                    </td>
+
+                            </tr>
+                        <tr>
+                <td>
+                
+                                                    <a href="/display/commcarepublic/Android+Phone+Screen+Projection+to+your+computer">Android Phone Screen Projection to your computer</a>
+                                    </td>
+
+                            </tr>
+                        <tr>
+                <td>
+                
+                                                    <a href="/display/commcarepublic/Common+Logic+and+Calculations">Common Logic and Calculations</a>
+                                    </td>
+
+                            </tr>
+                        <tr>
+                <td>
+                
+                                                    <a href="/display/commcarepublic/CommCare+Functions">CommCare Functions</a>
+                                    </td>
+
+                            </tr>
+                        <tr>
+                <td>
+                
+                                                    <a href="/display/commcarepublic/Tutorial%3A+Create+an+Excel+Dashboard">Tutorial: Create an Excel Dashboard</a>
+                                    </td>
+
+                            </tr>
+                        <tr>
+                <td>
+                
+                                                    <a href="/pages/viewpage.action?pageId=41485124">Maintenance and Downtime Announcements (Archived)</a>
+                                    </td>
+
+                            </tr>
+                        <tr>
+                <td>
+                
+                                                    <a href="/display/commcarepublic/Form+Builder">Form Builder</a>
+                                    </td>
+
+                            </tr>
+                    </tbody></table>
+    
+		
+        </div>
+        <script>
+          // We check for left column width already here to avoid flickering by changeing the width after render.
+
+          var width;
+          if(RW && RW.storage) {
+            width = RW.storage.getValue('leftcolumn.width');
+          }
+          if(!width) {
+            width = 250;
+          }
+          $('#rw_left_column').width(width);
+        </script>
+    
+    <div id="rw_main_column" class="rw_has_left_column">
+        <!--
+          #rw_page_right is @deprecated @since RWOT 3.1 the id of this tag will be
+          removed in future version of this theme. NOTE: The div-tag will remain
+          it's just the ID which will be removed.
+
+          id="rw_page_right"
+          id="blogpost_container"
+        -->
+        <div class="rw_content">
+            
+		<div class="rw_custom_section wiki-content"><p><span class="confluence-embedded-file-wrapper confluence-embedded-manual-size"><img class="confluence-embedded-image confluence-thumbnail" width="250" src="/download/thumbnails/1048679/Help%20Site%20Logo4.png?version=1&amp;modificationDate=1370226017898&amp;api=v2" data-image-src="/download/attachments/1048679/Help%20Site%20Logo4.png?version=1&amp;modificationDate=1370226017898&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="14417921" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="Help Site Logo4.png" data-base-url="https://confluence.dimagi.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="1048679" data-linked-resource-container-version="99"></span></p></div>
+	
+                            <div id="main-header" >
+  <div id="title-heading" class="pagetitle with-breadcrumbs">
+    <div id="rw_simple_menu">
+
+
+		<div class="rw_page_buttons">
+    <a id="rw_open_fullscreen" title="Open page in fullscreen ( Type 'F', shift + f )" class="aui-button aui-button-subtle" href="#">
+        <span>
+			<span class="rw_icon rw_iconfont_fullscreen"></span>
+		</span>
+    </a>
+    <a id="rw_close_fullscreen" style="display:none;" class="aui-button aui-button-subtle" title="Exit fullscreen mode ( Type 'esc' )">
+        <span>
+            <span class="rw_icon rw_iconfont_minimize"></span>
+        </span>
+    </a>
+</div>
+
+		
+
+
+		<button id="rw_simple_menu_button" class="aui-button aui-button-subtle" >
+		<span><span class="aui-icon aui-icon-small aui-iconfont-more"></span></span>
+	</button>
+	<div id="rw_simple_menu_content">
+
+      	<div class="rw_section">
+
+						
+    <div id="navigation" class="content-navigation view">
+                    <ul class="ajs-menu-bar">
+                                            
+        <li class="normal ajs-menu-item">
+        <a id="action-menu-link" class="action aui-dropdown2-trigger-arrowless aui-button aui-button-subtle ajs-menu-title aui-dropdown2-trigger" href="#" aria-haspopup="true" aria-owns="action-menu" data-container="#navigation">
+            <span>
+                                    <span class="aui-icon aui-icon-small aui-iconfont-more"></span>
+                                
+            </span>
+        </a>         <div id="action-menu" class="aui-dropdown2 aui-style-default" aria-hidden="true">
+                            <div class="aui-dropdown2-section">
+                    <ul  id="action-menu-primary"                         class="section-primary first">
+                                                    <li>
+
+    
+        
+                                            
+    
+    
+    <a  id="view-attachments-link" href="/pages/viewpageattachments.action?pageId=14549044" rel="nofollow" class="action-view-attachments"  accessKey="t"  title="View Attachments">
+                <span>
+                        A<u>t</u>tachments (2)
+        </span>    </a>
+</li>
+                                                <li>
+
+    
+        
+                                            
+    
+    
+    <a  id="action-view-history-link" href="/pages/viewpreviousversions.action?pageId=14549044" rel="nofollow" class="action-view-history"   title="">
+                <span>
+                        Page History
+        </span>    </a>
+</li>
+                                        </ul>
+                </div>
+                            <div class="aui-dropdown2-section">
+                    <ul  id="action-menu-secondary"                         class="section-secondary">
+                                                    <li>
+
+    
+        
+                                            
+    
+    
+    <a  id="view-page-info-link" href="/pages/viewinfo.action?pageId=14549044" rel="nofollow" class="action-view-info"   title="">
+                <span>
+                        Page Information
+        </span>    </a>
+</li>
+                                                <li>
+
+    
+            
+                                            
+    
+    
+    <a  id="view-resolved-comments" href="#" rel="nofollow" class=""   title="">
+                <span>
+                        Resolved comments
+        </span>    </a>
+</li>
+                                                <li>
+
+    
+        
+                                            
+    
+    
+    <a  id="view-in-hierarchy-link" href="/pages/listpages-dirview.action?key=commcarepublic&amp;openId=14549044#selectedPageInHierarchy" rel="nofollow" class=""   title="">
+                <span>
+                        View in Hierarchy
+        </span>    </a>
+</li>
+                                                <li>
+
+    
+        
+                                            
+    
+    
+    <a  id="action-view-source-link" href="/plugins/viewsource/viewpagesrc.action?pageId=14549044" rel="nofollow" class="action-view-source popup-link"   title="">
+                <span>
+                        View Source
+        </span>    </a>
+</li>
+                                                <li>
+
+    
+        
+                                            
+    
+    
+    <a  id="action-export-pdf-link" href="/spaces/flyingpdf/pdfpageexport.action?pageId=14549044" rel="nofollow" class=""   title="">
+                <span>
+                        Export to PDF
+        </span>    </a>
+</li>
+                                                <li>
+
+    
+        
+                                            
+    
+    
+    <a  id="action-export-word-link" href="/exportword?pageId=14549044" rel="nofollow" class="action-export-word"   title="">
+                <span>
+                        Export to Word
+        </span>    </a>
+</li>
+                                        </ul>
+                </div>
+                    </div>
+    </li>
+            </ul>
+    </div>
+
+
+		</div>
+
+		<div class="rw_section">
+			
+		<a href="#page-banner-end" class="assistive">Skip to end of banner</a>
+<div id="page-banner-start" class="assistive"></div>
+
+                    
+            <div id="page-metadata-banner"><ul class="banner"><li id="system-content-items" class="noprint"><a href="" title="Unrestricted" id="content-metadata-page-restrictions-hidden" class="hidden"></a><a href="/pages/viewpageattachments.action?pageId=14549044&amp;metadataLink=true" title="2 attachments" id="content-metadata-attachments" class="aui-icon aui-icon-small aui-iconfont-attachment"></a></li><li class="page-metadata-item noprinthas-button"  id="content-metadata-jira-wrapper"><a href="" title="" id="content-metadata-jira" class="aui-button aui-button-subtle content-metadata-jira tipsy-disabled hidden"><span>Jira links</span></a></li></ul></div>
+            
+
+<a href="#page-banner-start" class="assistive">Go to start of banner</a>
+<div id="page-banner-end" class="assistive"></div>
+	
+			
+        <a href="#page-metadata-end" class="assistive">Skip to end of metadata</a>
+<div id="page-metadata-start" class="assistive"></div>
+
+    <div class="page-metadata">
+        <ul>
+            <li class="page-metadata-modification-info">
+                
+        
+    
+        
+    
+        
+            
+            Created by <span class='author'>     <a href="    /display/~jwacksman@dimagi.com
+"
+                       class="url fn"
+                            >Jeremy Wacksman</a></span>, last modified by <span class='editor'>     <a href="    /display/~colaughlin
+"
+                       class="url fn"
+                            >Carrie O&#39;Laughlin</a></span> on <a class='last-modified' title='Show changes' href='/pages/diffpagesbyversion.action?pageId=14549044&amp;selectedPageVersions=7&amp;selectedPageVersions=8'>Mar 31, 2016</a>
+                </li>
+        </ul>
+    </div>
+
+
+<a href="#page-metadata-start" class="assistive">Go to start of metadata</a>
+<div id="page-metadata-end" class="assistive"></div>
+    
+		</div>
+
+		<div class="rw_section">
+			<h3>Breadcrumbs</h3>
+			<div id="breadcrumb-section">
+				
+    
+    
+    <ol id="breadcrumbs">
+                                        
+                        
+        <li class="first" >
+                        
+                            <span class=""><a href="/collector/pages.action?key=commcarepublic">Pages</a></span>
+                                                                                                            <li id="ellipsis" title="Show all breadcrumbs"><span><strong>&#8230;</strong></span></li>
+                                                
+                        
+        <li class="hidden-crumb" >
+                        
+                            <span class=""><a href="/display/commcarepublic/Home">Home</a></span>
+                                                                                                    
+                        
+        <li class="hidden-crumb" >
+                        
+                            <span class=""><a href="/display/commcarepublic/Project+Planning+and+Implementation">Project Planning and Implementation</a></span>
+                                                                                    
+                        
+        <li>
+                        
+                            <span class=""><a href="/display/commcarepublic/Implementation+Plans">Implementation Plans</a></span>
+                                                                    </ol>
+
+
+			</div>
+		</div>
+    </div>
+</div>
+    <h1 id="title-text" class="with-breadcrumbs">
+                                <a href="/display/commcarepublic/Budgeting+for+a+Project">Budgeting for a Project</a>
+                </h1>
+  </div>
+</div><!-- \#main-header -->
+            
+            
+    
+
+        
+
+
+
+
+            
+    <!-- this is page.vmd -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    
+    
+                    
+    
+
+	                    
+    
+	
+
+
+
+
+
+	
+
+		
+
+		
+
+
+
+
+
+
+
+
+							
+	
+
+
+
+
+
+
+<div id="action-messages">
+                        </div>
+
+
+
+            <script type="text/x-template" title="searchResultsGrid">
+    <table class="aui">
+        <thead>
+            <tr class="header">
+                <th class="search-result-title">Page Title</th>
+                <th class="search-result-space">Space</th>
+                <th class="search-result-date">Updated</th>
+            </tr>
+        </thead>
+    </table>
+</script>
+<script type="text/x-template" title="searchResultsGridCount">
+    <p class="search-result-count">{0}</p>
+</script>
+<script type="text/x-template" title="searchResultsGridRow">
+    <tr class="search-result">
+        <td class="search-result-title"><a href="{1}" class="content-type-{2}"><span>{0}</span></a></td>
+        <td class="search-result-space"><a class="space" href="/display/{4}/" title="{3}">{3}</a></td>
+        <td class="search-result-date"><span class="date" title="{6}">{5}</span></td>
+    </tr>
+</script>
+
+
+        
+                        
+    
+
+        
+
+            
+
+        	
+
+
+
+
+            <div class="page-metadata-wrapper">
+    
+    <a href="#page-metadata-end" class="assistive">Skip to end of metadata</a>
+<div id="page-metadata-start" class="assistive"></div>
+
+    <div class="page-metadata">
+        <ul>
+            <li class="page-metadata-modification-info">
+                
+        
+    
+        
+    
+        
+            
+            Created by <span class='author'>     <a href="    /display/~jwacksman@dimagi.com
+"
+                       class="url fn"
+                            >Jeremy Wacksman</a></span>, last modified by <span class='editor'>     <a href="    /display/~colaughlin
+"
+                       class="url fn"
+                            >Carrie O&#39;Laughlin</a></span> on <a class='last-modified' title='Show changes' href='/pages/diffpagesbyversion.action?pageId=14549044&amp;selectedPageVersions=7&amp;selectedPageVersions=8'>Mar 31, 2016</a>
+                </li>
+        </ul>
+    </div>
+
+
+<a href="#page-metadata-start" class="assistive">Go to start of metadata</a>
+<div id="page-metadata-end" class="assistive"></div>
+    </div>
+    
+
+
+
+
+
+
+<div style="clear:both;"></div>
+
+        	    
+  <div id="content" class="page view">
+		<article>
+		<div id="main-content" class="wiki-content">
+		                   
+        <p><strong><a href="/download/attachments/14549044/Dimagi%20-%20CommCare%20-%20TCO_v5-cp.xlsx?version=1&amp;modificationDate=1370536055234&amp;api=v2" data-linked-resource-id="15269950" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="Dimagi - CommCare - TCO_v5-cp.xlsx" data-nice-type="Excel Spreadsheet" data-linked-resource-content-type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" data-linked-resource-container-id="14549044" data-linked-resource-container-version="8">CommCare Total Cost of Ownership (TCO) Model</a> </strong></p><p><span style="color: rgb(24,23,21);">Budgeting is one of the most important considerations for any mobile project. Building a holistic picture of all the related costs associated with a mobile project takes time. To help organizations estimate the total cost of adopting CommCare (or other mobile technologies) for frontline programs, we have developed an easy-to-use budgeting tool called the</span><span> </span><strong><a class="external-link" href="http://sites.dimagi.com/totalcostownership" rel="nofollow" style="text-decoration: underline;">Total Cost of Ownership Model</a>. </strong></p><p>The TCO Model serves as a simple, transparent exercise for organizations interested in understanding the cost of maintaining a mobile solution. The tool <span style="color: rgb(24,23,21);">provides a model to budget the adoption and deployment of CommCare over five years, and is based on 10+ years of experience helping hundreds of partners determine their budgets.</span></p><p>The TCO Model helps organizations: <span> </span></p><ul><li><span>Estimate the total cost of adopting CommCare or other mobile technologies</span></li><li><span>Explore permutations and plan budgets accordingly</span></li><li><span>Help groups understand and/or identify the real cost drivers to maintaining a mobile system</span></li><li><span>Assess how these costs can be shared by governments, external donors, NGOs, or others </span><br/><span><br/></span></li></ul><div>For additional context, please reference <a class="external-link" href="http://www.dimagi.com/blog/learn-budget-mobile-project/" rel="nofollow">this blog post</a>. Or please feel free to <a class="external-link" href="http://www.dimagi.com/contact/" rel="nofollow">contact us</a><a class="external-link" href="http://www.dimagi.com/contact/" rel="nofollow"> </a>with any questions on the TCO Model or your proposed project. </div><div><strong><br/></strong></div><div><strong style="line-height: 1.42857;"><a class="external-link" href="https://www.commcarehq.org/pricing/" rel="nofollow">CommCare Pricing </a></strong></div><div>For questions on our pricing, please view our plans <a class="external-link" href="https://www.commcarehq.org/pricing/" rel="nofollow">here</a> or <a class="external-link" href="http://www.dimagi.com/contact/" rel="nofollow">contact us</a><a class="external-link" href="http://www.dimagi.com/collaborate/contact-us/" rel="nofollow" style="text-decoration: underline;"></a>. <span> </span></div>
+
+                
+        
+    
+		</div>
+	</article>
+</div>
+
+<div style="clear:both;"></div>
+
+
+<div style="clear:both;"></div>
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+         <rdf:Description
+    rdf:about="https://confluence.dimagi.com/display/commcarepublic/Budgeting+for+a+Project"
+    dc:identifier="https://confluence.dimagi.com/display/commcarepublic/Budgeting+for+a+Project"
+    dc:title="Budgeting for a Project"
+    trackback:ping="https://confluence.dimagi.com/rpc/trackback/14549044"/>
+</rdf:RDF>
+-->
+
+						    
+    
+
+
+
+<div id="labels-section" class="pageSection group">
+    <div class="labels-section-content content-column" entityid="14549044" entitytype="page">
+	<div class="labels-content">
+		
+    <ul class="label-list label-list-right ">
+            <li class="no-labels-message">
+            No labels
+        </li>
+            </ul>
+
+    </div>
+</div>
+</div>
+			
+<div style="clear:both;"></div>
+
+	    
+<div style="clear:both;"></div>
+
+	    
+
+
+
+
+            
+        
+
+
+
+
+
+
+
+
+                        
+    
+<div id="comments-section" class="pageSection group">
+        
+    
+
+
+
+</div>
+        
+
+
+
+
+
+
+
+
+
+    
+	
+
+    
+    
+    
+
+
+
+    
+
+
+
+
+    
+    
+
+    
+    
+    
+
+
+
+
+
+
+        
+
+
+
+
+        </div><!-- .rw_content -->
+    </div><!-- #rw_main_column -->
+    <div class="rw_clear"></div>
+</div><!-- #content -->
+										<script>
+						// Now we can show the sidebar..
+						$('#rw_left_column').removeClass('rw_visibility_hidden');
+						$('#rw_right_column').removeClass('rw_visibility_hidden');
+					</script>
+								
+		        <div style="clear:both;"></div>
+		    </div><!-- \#main -->
+	
+	
+		
+						
+	<div>
+</div> <!-- original_design_content -->
+	
+
+
+
+
+	<div
+		id="rw_footer_wrapper"
+		
+					class="rw_theme_light"
+				>
+    	<div id="rw_footer_container">
+			
+										<div id="rw_footer_columns_container" style="display:none;">
+    				<div id="rw_footer_columns">
+            			                			    							                				<div id="rw_footer_column_f604fee6-c87a-4d59-a346-e5159653bd72" class="rw_column rw_column_links">
+                    				<h3></h3>
+                    				<ul class="rw_content_list"></ul>
+                				</div>
+                			            			                			                				<div id="rw_footer_column_4ba7141a-6ea6-44d2-9280-c3aeafb5af00" class="rw_column rw_column_logo">
+									<a href="/homepage.action">
+										<img src="/s/en_GB/7901/0b59262db6a7cd3dbeee6d1b1416b77c01706b36/_/images/logo/confluence-logo.png" />
+									</a>
+                				</div>
+							            			                			    							                				<div id="rw_footer_column_c7d9c985-2e23-4d59-a10b-9970d060f02b" class="rw_column rw_column_links">
+                    				<h3></h3>
+                    				<ul class="rw_content_list"></ul>
+                				</div>
+                			            			        			</div>
+				</div>
+						
+							<div id="rw_footer_content">
+				  	
+<p>Powered by <a href="http://www.atlassian.com/software/confluence" class="external-link" rel="nofollow">Atlassian Confluence</a>, <a href="http://www.refinedwiki.com" class="external-link" rel="nofollow">a Confluence theme by RefinedWiki</a></p>
+				</div>
+			    	</div>
+	</div>
+
+						
+
+
+                                
+            	
+	    
+
+						<div class="rw_bg_shadow">
+    <div class="rw_shadow_container">
+        <div class="rw_shadow_left"></div>
+        <div class="rw_shadow_top"></div>
+        <div class="rw_shadow_right"></div>
+    </div>
+</div>
+
+			</div> <!-- rw_main -->
+
+						
+
+
+<div id='rw_popup_bg' style='display:none;'></div>
+
+			
+		</div><!-- rw_wrapper -->
+		
+	
+		
+		
+	
+			
+	
+	<!-- Start of Async HubSpot Analytics Code -->
+  <script type="text/javascript">
+    (function(d,s,i,r) {
+      if (d.getElementById(i)){return;}
+      var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
+      n.id=i;n.src='//js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/503070.js';
+      e.parentNode.insertBefore(n, e);
+    })(document,"script","hs-analytics",300000);
+  </script>
+<!-- End of Async HubSpot Analytics Code -->
+
+
+
+</div><!-- \#full-height-container -->
+</div><!-- \#page -->
+</body>
+</html>

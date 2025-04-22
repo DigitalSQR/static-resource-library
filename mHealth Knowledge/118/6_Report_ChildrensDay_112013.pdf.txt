@@ -1,0 +1,1013 @@
+Getting Healthier Around the World:
+Information and Communication Technologies  
+for Child Health and Development
+By Ada Kwan, mHealth Alliance, United Nations Foundation
+Commissioned by Sesame Workshop and the mHealth Alliance
+ for Universal Children’s Day, 20 November 2013
+Acknowledgements
+This paper would not have been possible without the generous support of Sesame  
+Workshop. My deepest appreciation extends to both Sesame Workshop and the mHealth 
+Alliance, hosted by the United Nations Foundation, for their vision and leadership  
+throughout the development of this paper and for supporting its release on Universal 
+Children’s Day. Their commitment to leveraging mobile technologies for early childhood 
+health and development around the world is commendable. In particular, many thanks  
+go to Charlotte Cole, Anita Stewart, Steven McDonald, Abigail Bucuvalas, Jennifer Rupnik, 
+Shezleen Vellani, Chloe Mead, and Jorge Baxter at Sesame Workshop and Chelsea Hedquist,  
+William Philbrick, and Patricia Mechael at the mHealth Alliance for making themselves 
+available for discussions, feedback, advice, and comments. For the great design of this 
+report, a warm thank you to Karla Henrick.
+For this year’s Universal Children’s Day, it is my utmost desire that the content of this  
+report will inform the strategic use and implementation of mobile and other information 
+and communication technologies for children — to inspire them, to encourage them,  
+and to create a new world of possibilities for them, in ways that will truly improve their 
+futures because these two organizations cared about their wellbeing today.
+Contents
+Executive Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+Abbreviations. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .4
+Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+Background on Early Child Health and Development . . . . . . . . . . . . . . 6
+Background on ICTs for Health: mHealth and eHealth . . . . . . . . . . . . . 7
+Applying mHealth and ICTs for Child Health and Development. . . . 12
+How to Develop a Global Mobile Platform for 
+Child Health and Development . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+Conclusions: Realizing the Potential . . . . . . . . . . . . . . . . . . . . . . . . . . . .20
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+Appendix A. Issues affecting child health and development:  
+Vaccination; Water, sanitation, and hygiene; Emergency education;  
+Nutrition; and Disease-specific Knowledge and Prevention. . . . . . . . . . . . . . . . .23
+Getting Healthier Around the World 1
+Executive Summary
+Objective. To celebrate Universal Children’s Day 2013, this report was commissioned by Sesame 
+Workshop to achieve two objectives: (1) to explore current and future opportunities in the use of 
+mobile phones and other relevant information and communications technologies (ICTs) for  
+improving the health and development of young children as investments for a better future, and  
+(2) to provide guidance and recommendations for partnerships, institutions or organizations 
+interested in contributing to this field.
+Background. This Universal Children’s Day is a reminder that every child deserves the opportunity  
+to survive, thrive and participate in society. However, nearly eight million children under the  
+age of five die every year from preventable or curable conditions, with about a third of these deaths 
+linked to poor or inadequate nutrition.1,2 Among those who survive, poor and inadequate nutrition,  
+in addition to a lack of stimulation during early childhood, prevent nearly 200 million children  
+from reaching their cognitive and socio-economic potential. With the number of mobile phone 
+subscriptions expected to surpass the world population of over 7 billion in 2014,3 the near ubiquity  
+of mobile technologies and other ICTs provides exciting new opportunities to deliver health and 
+educational interventions to children and their caretakers around the world. 
+Methods and Findings. A review of existing white and grey literature accrued from mHealth (the  
+use of mobile technologies for health) and related projects, particularly in the context of child  
+health and development (CHD), was conducted. Opportunities that strengthen interactions among 
+children, their caregivers and health systems were identified. Additionally, two approaches for 
+contributing to the field with mobile technologies are further discussed for partnerships, institutions 
+or organizations: (1) a participatory approach, and (2) an advocacy approach. Creating appropriate 
+and strategic partnerships will help realize the greatest impact from ICTs in CHD.
+2 Getting Healthier Around the World
+  Recommendations for turning mobile opportunities into  
+action and improved CHD outcomes include:
+ >> F ocus on high-impact, cost-effective health and educational interventions 
+ >> I ntegrate a complementary mobile messaging service for families and  
+other caregivers of young children on various health topics that will help  
+raise awareness of ways to be healthier and encourage healthier behaviors 
+ >> I nject inspiration into the daily lives of children through a packaged  
+global platform that contains efforts to address a variety of conditions that,  
+if improved, can result in better health and nutrition
+ >> P rovide a program where mothers or other family members and caretakers 
+can receive phone calls or messages informing or reminding them of the  
+importance of play interaction with their children
+ >> P romote education, especially for girls
+ >> E ducate families and promote mHealth and eHealth (electronic health)  
+services to help them increase trust in the health sector and help them  
+maneuver through existing health systems
+ >> D evelop mobile games and other forms of mobile learning that can  
+engage children and their families and offer a conduit for disseminating  
+health messages
+ >> E nable discussion or other forms of interaction to enhance civic engagement 
+on local and regional health policies related to mHealth
+ >> C ollaborate with mobile and health sectors to make large and positive  
+impacts that are scalable
+ >> A ppend existing health efforts, especially those aligned with global agendas 
+(e.g., the Millennium Development Goals or the United Nations’ Every Woman, 
+Every Child initiative)
+ >> W ork with mobile network companies and other partners to advocate for 
+inclusion of premade programs loaded onto SIM cards for mobile phone use
+To effectively and efficiently use appropriate ICTs, such as mobile technologies, for improving 
+conditions that hinder CHD, this report describes how vision, an action plan, and monitoring and 
+evaluation are critical. Additional aspects to consider for implementation are further discussed.
+Conclusions. With the variety of technologies available around the world today, strategic and 
+innovative efforts leveraging ICTs, particularly mobile technologies, can reap many gains in health, 
+which can then lead to remarkable cognitive and socioeconomic benefits. This report captures  
+how ICTs are being appropriately leveraged specifically for supporting health system efforts for child 
+health, strengthening tools for health workers who interact with children and their caretakers, and 
+encouraging healthier behaviors among children and others involved in their health and development.
+Getting Healthier Around the World 3
+Abbreviations
+AIDS Acquired Immune Deficiency Syndrome
+ASHA Accredited Social Health Activists
+BCC Behavior Change and Communication
+CBO Community Based Organization
+CDC Centers for Disease Control and Prevention
+CHD Child Health and Development
+CHW Community Health Workers
+ECD Early Childhood Development
+eHealth A pplication of information and communication 
+technologies to healthcare
+EMR Electronic Medical Records
+HIV Human Immunodeficiency Virus
+ICT Information and Communication Technologies
+IRD Interactive Research and Development
+ITU International Telecommunications Union
+IYCF Infant and Young Child Feeding
+LMIC Low- and Middle-Income Countries
+M&E Monitoring and Evaluation
+MAMA Mobile Alliance for Maternal Action
+MCH Maternal and Child Health
+mHealth Application of mobile technologies in health care
+MoTeCH Mobile Technology for Community Health
+RFID Radio-Frequency Identification
+SMS Short Message Service
+TBA Traditional Birth Attendants
+UNICEF United Nations Children’s Fund
+USAID  United States Agency for International 
+ Development
+WHO World Health Organization
+4 Getting Healthier Around the World
+We must do more to reach all children in  
+need, wherever they live, wherever they are 
+excluded and left behind. Some might ask  
+whether we can afford to do this, especially  
+at a time of austerity in national budgets and 
+reduced aid allocations. But if we overcome  
+the barriers that have kept these children  
+from the services that they need and that are 
+theirs by right, then millions more will grow  
+up healthy, attend school and live more  
+productive lives.
+Can we afford not to do this?
+             — Anthony Lake, Executive Director, UNICEF4
+Introduction
+Today, there are technological options with a larger reach than ever before in world history. In 2014, 
+the number of mobile phone subscriptions is expected to surpass the world population of over seven 
+billion,3  and currently, 90% of the world’s people have mobile network coverage. In fact, there are 
+more people with mobile phones than toilets in India, and mobile phone coverage is more accessible 
+than electricity in Africa.5, 6 These technological options — information and communication technolo-
+gies (ICTs), such as mobile devices, radio, tablets, and Internet — are increasingly becoming popular 
+tools for complementing, accelerating, and leapfrogging current progress in health and development 
+around the world. This translates into unprecedented opportunities to reach a tremendous number 
+of children for health and education.
+This report was commissioned to explore current and future opportunities in the use of mobile phones 
+and other ICTs for improving the health of young children, since better health is an investment for  
+a better future. The report also offers guidance to partnerships, institutions and organizations that are 
+interested in ICTs and their impact on critical health issues related to early child health and develop-
+ment (CHD), particularly in low- and middle-income countries (LMICs).
+Getting Healthier Around the World 5
+To achieve its objective, this report lays out the following:
+>> Background on child health in the context of early childhood development (ECD)a
+>> B ackground on ICTs for health: mHealth and eHealtha (where mHealth is defined as the applica-
+tion of mobile technology in health, and eHealth is defined as the application of information, 
+computer, or communication technology to some aspect of health or healthcare) 
+>> Guidance and recommendations for implementing mHealth and other ICTs for CHD
+Throughout this report, it will be evident that improving the health and development of children  
+will require the collaboration of the entire community. Thus, interventions ought to target children, 
+families, caregivers, and a variety of other individuals who play a role in the lives of children.  
+Additionally, better advocacy is needed to actualize the ICT possibilities in fully integrated and 
+proven CHD efforts and age-specific interventions that are known to be most effective in children’s 
+lives. The recommendations provided in this report identify ways ICTs (e.g., mobile phones) and 
+coordinated partnerships can both be leveraged to generate the most positive impacts.8 
+Background on Early Child  
+Health and Development
+Every child deserves the opportunity to survive, thrive, and participate in society. However, poverty, 
+poor health conditions, malnutrition, and inadequate stimulation at home prevent this from happen-
+ing for some children. Every year, nearly eight million children under the age of five die, primarily from 
+preventable or curable causesb — pneumonia, diarrhea, birth complications, and other conditions.1,2 
+For the children who survive, nearly 200 million children fail to reach their cognitive, motor, and 
+socio-emotional potential because of inadequate food and poor sanitation and hygiene, conditions 
+that lead to increased infections and stunting among children.1, 9, 10 Again, knowledge of effective  
+and low-cost ways to remedy these issues exist, but political and global commitment is needed for 
+mobilizing action on a large scale.9 
+In order to help improve the health of every child in every way, we must not only deliver effective 
+health strategies with higher quality and better coverage, but also look towards innovative ways for 
+children to be healthier while accounting for the consequences poor health can have on later 
+development. Only then will we have a chance to reduce mortality related to preventable causes and 
+to empower children, caregivers and family members to work together in creating conditions for 
+better child development.
+In CHD, a generous amount of evidence exists on how to create an effective response.11 c In fact, 30 
+developing countries have policies on early child development, and UNICEF is assisting governments 
+a  Other related terms include medical informatics, consumer health informatics, public health informatics, telemedicine, telehealth, and interactive health 
+communication. The World Health Organization (WHO) has described eHealth as a driving force for cost-effectiveness in healthcare, as well as an 
+opportunity to save patients’ time and money.7 
+b  Effective packages of MCH interventions along the continuum of care can be found in the report “Packages of Interventions for Family Planning, Safe 
+Abortion care, Maternal, Newborn and Child Health” at: http://www.who.int/maternal_child_adolescent/documents/fch_10_06/en/index.html
+c  See Catholic Relief Services’ report titled, “Programming for Impact: A review of the literature and lessons from the field on programming for vulnerable 
+children” available at: http://www.crsprogramquality.org/storage/pubs/hivaids/pgm_for_impact.pdf
+6 Getting Healthier Around the World
+in supporting parenting programs in 60 countries.11 The combination of family- and child-care- 
+center-based interventions is not only known to be more effective, but cheaper and more efficient  
+for delivery than each implemented independently.11 Delivery to communities and households  
+by frontline health workers, such as community health workers (CHWs), community health volun-
+teers, traditional birth attendants (TBAs), and in India, accredited social health activists (ASHAs),  
+can breach the access gap between the health system and households. A helpful framework  
+is CARE’s 5x5 model (Figure 1) which crosses five areas of intervention (food and nutrition, child 
+development, economic strengthening, health, and child rights/protection) with five levels of 
+intervention (individual child, caregiver/family, childcare settings, community, and national policy).12 
+CARE’s experience while addressing ECD 
+showed that intervention factors were so 
+integrated that focusing on one or two areas 
+of intervention was not sufficient to address 
+the varied, interdependent needs of young 
+children.12 
+Luckily, the recent and massive uptake  
+of ICTs around the world offers unprece-
+dented opportunities to account for these 
+complexities. For the first time, segments  
+of populations that could not be reached  
+by standard health services and educational 
+programs can now be reached by, for 
+example, mobile phones.
+But how exactly can ICTs better the health of 
+children so they can reach their cognitive and 
+socio-emotional potential? The next section 
+Figure 1. CARE’s 5x5 model (Source CARE, 2007).  goes into these strategies in more detail.
+This model demonstrates contextual issues that play an 
+integrated role in early child development. The model was 
+originally designed for ECD programs targeting orphans  
+and vulnerable children in resource-limited settings.
+Background on ICTs for Health:  
+mHealth and eHealth
+The conditions that hinder CHD around the world differ from context to context, and thus,  
+appropriate integration of ICTs in health interventions for children requires an understanding of  
+the major causes of death, morbidity, and issues affecting child survival within a given context 
+(Appendix A details vaccination; water, sanitation, and hygiene; emergency education; nutrition;  
+and disease-specific knowledge and prevention). For example, malaria accounts for a large  
+portion of deaths specifically in sub-Saharan Africa. HIV/AIDS also has a strong impact, such that  
+it causes more than half of child deaths in certain countries (e.g., Botswana and Zimbabwe).1  
+Taking into consideration the epidemiological profiles of different countries, child health programs
+Getting Healthier Around the World 7
+ can adopt a spectrum of activities that range from prevention to treatment (See Figure 2) while 
+leveraging different features of technology to augment information and communication channels. 
+For prevention interventions, timely delivery at specific ages can increase effectiveness. 
+Along the spectrum, ICTs can be appropriately integrated for different health issues in two ways:  
+(1) to expand coverage and improve the quality of existing, evidence-based CHD interventions,  
+and (2) to improve education and promote healthier behaviors among children and the people who 
+take care of them.
+ENCOURAGING 
+PROMOTING  INCREASING  
+CARETAKERS  
+THE PREVENTION  IMPROVING THE THE QUALITY OF 
+TO SEEK 
+OF ILLNESSES  RECOGNITION  HEALTH SERVICES 
+APPROPRIATE 
+IN HEALTHY OF A SICK CHILD PROVIDED TO  
+CARE WHEN  
+CHILDREN SICK CHILDREN
+A CHILD IS SICK
+Figure 2. Child health programs can be adopted along a spectrum of activities that range from prevention  
+to appropriate responses for when a child is sick.
+Then, the selection of an appropriate technology is necessary. Many nongovernmental organizations 
+(NGOs) and community-based organizations (CBOs) are implementing projects that leverage 
+mobile technologies, Internet, and other low-cost solutions, such as computers, printers, digital 
+electrocardiographs, digital cameras, and webcams,13 to deliver effective health strategies with 
+higher quality and better coverage. Additionally, several countries are even formally integrating ICTs 
+into national health policies. Kenya, Rwanda, Nigeria and Ethiopia have committed to implementing 
+national eHealth programs that target HIV care, primary health care and maternal and child health 
+(MCH).14, 15 Kenya has an electronic medical record (EMR) standardization protocol that guides any 
+eHealth and mHealth implementation in the country, addressing system security and minimum 
+functional requirements of such systems. This is augmenting not only the field of health by transform-
+ing nationwide information systems, point-of-care support tools for frontline health workers, and 
+ways individuals receive health services, but it is also strengthening old and creating new ways of 
+interacting among people every day. 
+In Table 1, eHealth and mHealth strategies are categorized in three ways: supporting health system 
+efforts for child health, strengthening tools for health workers who interact with children and  
+their caretakers, and encouraging healthier behaviors among children and others involved in their 
+health and development (e.g., the 5x5 model’s five levels of intervention). The table describes  
+the strategies within each approach and refers to examples of projects that implement some of the 
+strategies. Later on in the text other projects are described in more detail.
+8 Getting Healthier Around the World
+Table 1. ICT strategies for different health approaches:  
+supporting health system efforts for child health, strengthening  
+tools for health workers who interact with children and their  
+caretakers, and encouraging healthier behaviors among  
+children and others involved in their health and development.
+APPROACH STRATEGIES (Examples, Location)
+Supporting health > R eal-time or near-real-time monitoring with mobile phones linked to strong back-end 
+system efforts  systems (OpenMRS, Multiple Countries)
+for child health > D isease surveillance and outbreak notifications on mobile phones (TracPlus and TRACnet, 
+Rwanda15)
+> N ational reporting with electronic documents, USBs, and open-source health information 
+technology platforms (CAMERWA, Rwanda15)
+> Tracking for supply chains (SMS for Life, Kenya16)
+> E lectronic health records, particularly using open-source software17 (OpenMRS, Multiple 
+Countries18)
+> M obile-enabled devices to deliver information and collect data19 (UNICEF Innovations 
+Nutrition Surveillance, Malawi19)
+Strengthening tools > P oint-of-care standards and protocols on mobile phones and tablets20 (e-IMCI, Tanzania21)
+for health workers  > D ecision support tools on mobile phones and tablets (CommCare by D-Tree International 
+who interact with and Dimagi, Tanzania22)
+children and their > e Learning for health workers (ICT instruction for A2-level nurses to promote to A1 status, 
+caretakers Rwanda15)
+> Telehealth and multimedia messaging for diagnoses and remote consultations13
+> E mergency response calling, such as wireless options to link community-based health 
+workers to emergency services
+> F inancial incentives sent as mobile money to help improve health worker motivation  
+(e.g., pay-for-performance)
+Encouraging  > T ext messaging/hotlines/websites for health information (VillageReach, Malawi23; Text to 
+healthier behaviors Change, Multiple Countries24)
+among children  > T ext messaging for quizzes on health topics (SexInfo, USA24)
+and others involved  > T ext messaging or voice calls to change behaviors (WelTel, Kenya25)
+in their health  > T ext messaging or voice calls to improve care-seeking behaviors (Babycenter, USA; MAMA, 
+and development Multiple Countries26)
+> H otlines or other modes that allow dialogue exchange27 (PSI, Democratic Republic of the 
+Congo27)
+> T ext messaging or voice calls for information on community-based events related to health
+> V accination/treatment/appointment reminders through voice or text messages
+> E mergency calls28
+> D emand creation for services, such as financial incentives (e.g., conditional cash transfers)  
+or vouchers
+> S trengthening social networks on mobile platforms
+> U se of mobile in the financial sector to pay for health services (M-Pesa services in Kenya, 
+India, Tanzania, and other countries; Changamka Microhealth, Ltd, Kenya)
+Getting Healthier Around the World 9
+The ICT strategies presented in Table 1 are only some of many ways to categorize eHealth and 
+mHealth approaches in the context of CHD.d Although eHealth and mHealth strategies overlap within 
+these three categories and can often be complementary, mHealth offers more promising opportuni-
+ties for behavior change and communication (BCC), raising health awareness, enhancing preventive 
+care, and supporting wellbeing and overall wellness.29 Several projects currently implementing 
+strategies listed in Table 1 are described in more detail below.
+ >> Leveraging ICTs with celebrity engagement to promote health
+  The campaign against malaria run by the NGO Malaria No More has developed NightWatch,  
+a communication platform that transmits messages from local and international celebrities to 
+vulnerable populations where malaria is a health issue.30 NightWatch aims to improve the  
+return on investments on delivery of mosquito nets, diagnostic tests and malaria treatments  
+by sending out these messages to multiple media channels every night. The project started  
+on radio and TV spots in Senegal, Chad, Tanzania and Cameroon, but immediately expanded  
+to reach individuals through their mobile phones using SMS messages. Subsequent evaluation of 
+the SMS interventions showed a critical need for the mobile-phone-based program to be more 
+interactive and more engaging. The team has received funding to explore the use of prere-
+corded voice messages from celebrities to reach illiterate users, linking successful malaria 
+anthems to ringtones and call tones, having a presence on social media and incorporating 
+call-ins and SMS input into local radio programs.
+ >> Education and awareness spread by text messaging
+ I n Tanzania, the Wazazi Nipendeni (meaning “Love me, parents” in Kiswahili) Safe Motherhood 
+campaign began a multimedia effort for health services related to healthy pregnancy and  
+safe delivery, including early and complete antenatal care attendance, malaria prevention, 
+prevention of mother-to-child transmission of HIV (PMTCT), individual birth planning and safe 
+delivery.31 Individuals who wanted to opt-in to the service would text “mtoto” (the word for child 
+in Kiswahili) to a short code for free. This would help them register for messages, which  
+had all been developed and managed by the Ministry of Health and Social Welfare and Centers 
+for Disease Control and Prevention (CDC) Foundation’s mHealth Tanzania Public Private 
+Partnership. All messages are sent at specific times along the pregnancy or based on the child’s 
+age. Key channels used for this campaign include radio and TV spots, clinic posters, billboards 
+and other outdoor and promotional materials. However, messaging can be so successful in 
+generating demand for services that the health system may not be equipped to respond 
+properly to increases in demand. Such programs must ensure that there is coordination with  
+the health system.
+ S imilarly, in Ghana, the Grameen Foundation’s Mobile Technology for Community Health 
+(MoTeCH) project aims to improve services attended by pregnant parents with a mobile-based 
+application.32 Once a pregnant woman is registered into the MoTeCH system, which has regis-
+tered over 7000 pregnant women and children under five, she can receive information and 
+action text messages or prerecorded voice messages through the application ‘Mobile Midwife’. 
+Information texts provide her information relative to her stage of pregnancy, and the action texts 
+encourage her to attend appointments and receive shots. Both types of messaging can reduce 
+d  For an extensive review of how mHealth findings and barriers to adoption and gaps in knowledge, see Mechael et al. (2010), accessible at: http://www.
+mhealthalliance.org/images/content/publications/barriers_and_gaps.pdf.24 This report groups mHealth implementation in the following thematic areas: 
+treatment compliance, data collection and disease surveillance, health information systems and point-of-care support tools for health workers, disease 
+prevention and health promotion, and emergency medical response.
+10 Getting Healthier Around the World
+the risks surrounding labor and delivery into postnatal care.33 The messages continue into  
+the baby’s first year of life, and these messages focus on good childcare practices and vaccina-
+tion reminders. In 2013, the plan is to begin a new financing model where the urban areas  
+will subsidize the rural areas via a fee-for-service model. This will happen as a sub-component  
+of the larger MoTeCH business plan.
+ A nother mHealth project related to education and awareness is the Mobile Alliance for  
+Maternal Action (MAMA), with country programs in Bangladesh and South Africa, with plans for 
+an India program already underway.26  A partnership among the U.S. Agency for International 
+Development (USAID), Johnson & Johnson, the United Nations Foundation, the mHealth 
+Alliance and BabyCenter is designing ways to strengthen maternal and child health and nutrition 
+interventions by applying mobile technologies. Messages are sent at specific moments, such  
+as a woman’s gestational age and certain months after an infant has been born, to correspond 
+with critical health issues most relevant at specific times and ages.
+ > > Hotlines and mobile-phone-based messages with maternal and child health information
+ A s part of a larger health program, VillageReach in partnership with Baobab Health Trust,  
+PATH, and MoTeCH, has implemented a toll-free hotline in Malawi. When calling into the hotline, 
+individuals are able to receive health information on maternal and child health issues from 
+specially trained health workers. Additionally, callers can enroll themselves into the program  
+to receive tips and reminders as personalized voice or text messages sent to their mobile 
+phones, as well as options that link them to transportation services in the case of emergencies.
+ > > Vaccination text message reminders linked to conditional cash transfers
+ I nteractive Research and Development (IRD)-Pakistan is implementing a scale-up of an  
+mHealth vaccine registry with interactive alerts linked to radio-frequency identification (RFID) 
+tags on governmentally issued vaccination cards for infants.34 Text message reminders and 
+conditional cash transfers for mothers are additional facets of the program to motivate higher 
+rates of immunization.
+  >> Leveraging multimedia among community health workers
+ C ommCare is an open-sourced platform that has been deployed to support CHW activities, 
+initially for adherence to clinical protocols, in 10 countries.35 In India, a multimedia component 
+was added after health workers were observed to be more comfortable and effective with media 
+and video support delivered on mobile technologies in different contexts. CHWs were able to 
+discuss sensitive health topics with the aid of multimedia, and households were found to take 
+health messages more seriously. Benefits include improved interaction between CHWs and 
+clients and increased credibility for CHWs in their responsibilities. Implementation challenges 
+included finding a good illustrator and speakers, creating appropriate imagery and audio 
+messages, and finding the time needed to refine content. Additionally, multimedia was inappro-
+priate for crowded and noisy places or for use by multiple clients.
+  >> Games and other types of mobile learning 
+ I n India, mobile phone games developed by ZMQ Software Systems India Ltd contain education 
+and awareness messages on HIV/AIDS and tuberculosis. An assessment found that the youth who 
+played these games found them for the most part interesting and engaging, which were simultane-
+ously effective at improving awareness and knowledge of serious health issues in a fun way.36
+Getting Healthier Around the World 11
+In the near future, further development of cheaper, more rugged, and simple smartphones will 
+accelerate these opportunities and trends. The upcoming decade may witness more development 
+with tablets, mobile learning,37-39 mobile money,40, 41 wireless monitoring,42, 43 context-aware  
+platforms,44 applications and games on both non-smartphones and smartphones, and radio and 
+television program transmission to mobile handsets.45 At the same time technological advancement 
+will move quickly to enable faster wireless broadband through both new and existing technologies. 
+These will have the following implications for eHealth: more portable mobile connectivity, wireless 
+alternatives, more options for data and telecommunication services, additional options for Internet, 
+and smarter grids.
+Applying mHealth  
+and ICTs for Child Health  
+and Development
+Currently, there is a shift in health that moves away from acute care and towards prevention and more 
+holistic or integrated responses within a health system.46, 47 One of the effects of this shift is stronger 
+emphasis on behavior change and communication (BCC) and health that can be enabled through 
+more education, awareness, and encouraging healthier behaviors. There is an opportunity in this, as 
+well, for educational entertainment, defined as “the intentional placement of educational content  
+in entertainment messages”.48, 49 Even though health education and awareness is common, BCC often 
+does not make it onto health agendas as a technique formally implemented by the health system. 
+Although health workers require the use of specific health information, one health worker trainer 
+explains, “Just making information available to health workers by no means motivates them to use it. 
+They need to know why to use it, how to use it, why it’s personally relevant, and where to utilize it. 
+Only then will it be of any use to them.”50 This quote is applicable, not just to health workers, but in the 
+context of CHD.
+In the digital age, the dynamics of learning are becoming augmented by technology, and technology 
+is currently reshaping how health and educational interventions can be delivered to alter our 
+everyday behaviors and activities in a way that can make individuals feel better and healthier. This 
+does not mean coverage expansion and higher quality provision of existing, evidence-based child 
+health interventions should be emphasized any less. Rather, health interventions that encourage 
+wellbeing and the prevention of costly diseases should be increasingly considered, as rising owner-
+ship rates of televisions, radios, and now mobile technologies make these opportunities achievable.49
+Currently, solid evidence indicates that benefits of educational media can include improvements in 
+early cognitive skills, literacy, mathematics, health and safety knowledge, social development, 
+environmental awareness, and cultural awareness.8, 51 After a review of existing white and grey litera- 
+ture accrued from eHealth and mHealth projects, particularly in the context of CHD, two coordinated 
+approaches in applying mobile technology and other appropriate ICTs are suggested to those who 
+want to make an impact: (1) a participatory approach, and (2) an advocacy approach. Creating 
+appropriate and strategic partnerships will help realize the true potential for making the most impact.
+12 Getting Healthier Around the World
+THEORETICAL FRAMEWORK
+Participatory approach. While developing a global mHealth platform for ECD, partnerships, institu-
+tions and organizations should assess the following for implementation in different contexts: national 
+plans, governmental health and development priorities, disease conditions, status of the health 
+system, NGOs and CBOs implementing or capable of implementing eHealth and mHealth strategies, 
+and implications for eHealth. Then, these stakeholders can help orient families to mHealth and  
+to promote the efforts described above. Strategies that will have the most reach in LMICs — particu-
+larly those using mobile phones and radio, which is becoming increasingly accessible on mobile 
+phones — should be employed to inform women and children that health and educational campaigns 
+exist. In the case of radio, families and caretakers of children can be encouraged to call in to radio 
+broadcasts to discuss pertinent health topics further; however, mobile phones provide a platform for 
+more effective one-on-one dialogues across more people, including those who are not likely to call 
+in.52 Aside from call-ins, other participatory actions that utilize mobile phone features include: texting 
+in comments, voting in polls, and joining a subscription list. Simultaneously, it may be worthwhile for 
+these stakeholders to develop an online presence in social media, such as on Facebook, Twitter, and 
+LinkedIn. More non-profits are developing their profiles on these channels (e.g., in the United States, a 
+survey found 98% of non-profits are on Facebook, 72% on Twitter, and 44% on LinkedIne).
+Advocacy approach. Partnerships, institutions and organizations should also advocate for more 
+efforts that use ICTs for CHD to be introduced across the world. For example, appealing to interna-
+tional bodies and governments will not only strategically enhance coordination for better child 
+survival and health outcomes, but also may enhance the value other stakeholders, such as the private 
+sector, have to offer in the future of children around the world.
+APPLYING THE FRAMEWORK
+For the participatory approach, recommendations include using appropriate ICTs to:
+ > Raise awareness of health issues
+ >  Promote and encourage healthier behaviors 
+ > Enhance preventive care
+ > Support wellbeing and overall wellness
+ > B uild upon life skillsf, particularly those related to health, such as coping with being sick, 
+building interaction skills with caretakers and health workers
+ >  Address sadness and feelings of isolation, particularly among the poor and most vulnerable 
+children, such as those infected or affected by HIV/AIDS
+ >  Empower parents and other caregivers with hopeful messages and insights related to health, 
+sadness and feelings of isolation
+More specific recommendations include:
+  Create a Packaged Global Platform. Design and implement a meaningful global platform 
+package that contains efforts addressing a variety of conditions that, if improved, can result in 
+better health and nutrition for children. The conditions addressed should depend on the local 
+context and epidemiological profile, as well as take into consideration the gaps in service 
+coverage. To set a framework, partnerships, institutions and organizations can use a model 
+e  See http://www.impatientoptimists.org/en/Posts/2012/12/My-Top-10-Communications-Stories-in-Global-Health-and-Poverty-for-201
+f  Examples include communication, household management, self-care, relationships, work and study skills, coping with loss.
+Getting Healthier Around the World 13
+developed by Labrique et al. (2013) that sets interventions along the maternal-newborn-child 
+continuum of care.53, 54 The framework emphasizes specific health touch points, or parts along 
+the continuum of care where women and children interact with the health system, as effective 
+entry points for receiving effective health interventions. Additionally, segmenting the target 
+population into distinct subgroups can help address different needs that can be met with 
+different approaches in mHealth. Segmenting the target population is often based on age, 
+gender, urban/rural location, existing knowledge and attitudes, or different needs. Other 
+important elements to consider when developing a locally appropriate eHealth program 
+targeting vulnerable populations are literacy ratesg (particularly when considering a text 
+messaging program), sharing of mobile phones among household members, and confidentiality 
+and privacy issues. A situational analysis or formative research56 can quickly provide invaluable 
+insight into these matters (described later). For example, in a needs analysis on contextual 
+factors related to motivation and persuasion in accessing maternal health services in rural India, 
+ICTs were explored, and the study found that traditional practices and power dynamics affected 
+at village and household levels were the main barriers to change.57 These are valuable insights 
+that need to be considered in developing a larger intervention.
+  Develop a Mobile Messaging Service. Integrate a complementary mobile messaging service for 
+families on various health topics to help raise awareness of ways to be healthier. Mass communi-
+cation through voice or text messages has helped stimulate conversation about stigmatized 
+conditions, particularly HIV, when conversation wouldn’t have happened otherwise.h Addition-
+ally, videos on mobile phones help recall concrete actions as opposed to specific details; 
+whereas, text messages facilitate details when procedures can be laid out instruction-by-instruc-
+tion. An assessment of the context will help determine the appropriateness of having text 
+messages developed in local languages.
+ F ocus on Proven Cost-effective Health Interventions for Scalable Impact. Interventions such  
+as growth monitoring, oral rehydration therapy, breastfeeding counselingi to reduce the  
+transmission of HIV from mother to baby, increasing vaccination rates, proper nutrition within 
+the global strategy for infant and young child feeding (IYCF)j, female education, cognitive, 
+socio-emotional and motor stimulation, Vitamin A and Zinc and other micronutrient supplemen-
+tation and distribution, deworming, safe water, proper sanitation and hygiene behaviors such  
+as hand washing, vision and hearing screening, male involvement (in caregiving), traffic and road 
+safety, as well as malaria prevention with insecticide treated bed nets in relevant areas, are all 
+potential domains. Health benefits can also be gained by building upon life skills related to 
+health, such as coping with being sick or interaction skills with caretakers and health workers, 
+and improving and encouraging education including early education, especially among girls.
+  Engender Civic Engagement. Enable discussion or other forms of interaction to enhance civic 
+engagement on local and regional health policies with mHealth.
+g  For illiteracy, text messages or text on mobile phone screens may not be the best option for the end users of a mHealth project. However, there are 
+appropriate alternatives. In an assessment of an mHealth application in India, developers adapted the application to prompt health workers with voice  
+(for prompts) or pictorials (for screen navigation), rather than text.55 
+h  See Project Masulileke in South Africa on p. 22 of the Vital Wave Consulting report mHealth for Development: The opportunity of mobile technology  
+for healthcare in the developing world, accessible at: http://www.unfoundation.org/news-and-media/publications-and-speeches/mhealth-for- 
+development-1.html
+i  Exclusive breastfeeding is defined by the WHO as giving no other food or drink — not even water — except breast milk. This recommendation allows for 
+babies to receive oral rehydration salts, drops and syrups for vitamin, minerals, or medicine intake. WHO advises for infants to begin receiving 
+complementary foods at 6 months with breast milk, and usually this transition is a vulnerable period when infants become malnourished. For particular 
+ages, the Global Strategy for Infant and Young Child Feeding, which includes the specific recommendations for breastfeeding in the HIV context, can be 
+found here: http://www.who.int/nutrition/topics/exclusive_breastfeeding/en/
+j  Indicators constructed by the WHO for measuring IYCF can be found at: http://whqlibdoc.who.int/publications/2010/9789241599290_eng.pdf
+14 Getting Healthier Around the World
+  Build Partnerships. Collaborate with mobile and health sectors to make large and  
+positive impacts.
+ E xtend Existing Efforts. Append an mHealth component to existing health efforts, such as 
+after-school health education programs or complementary efforts being implemented by 
+governments and local NGOs or CBOs. An mHealth program could also be designed to link into 
+existing events unrelated to health.
+  Create Effective Messaging in Mobile Applications. Provide a program where mothers or other 
+family members and caretakers can receive phone calls or messages informing or reminding 
+them of the importance of play interaction with their children.
+ P romote Education with New Technologies. Promote eHealth and mHealth services to families 
+to help increase trust towards healthk and help them maneuver through existing health systems.l
+  Promote Girls’ Education. Education, especially for girls, is one of the indicators most linked to 
+poor health.
+ P artner with Mobile Providers. Work with mobile network companies and other partners to 
+advocate for inclusion of premade programs loaded onto SIM cards to be used in mobile phones 
+(e.g., in the mPesa menu).
+  Develop Engaging Content. There is a need for the creation of mobile games and other forms of 
+mobile learning that can engage children and their families while offering a conduit for dissemi-
+nating health messages.
+  Design Messaging for Vulnerable Groups. Provide messaging to meet specific needs of children 
+in vulnerable groups, such as orphans, children infected or affected by HIV/AIDS, or children 
+with long hospital stays (e.g., burn patients, patients with fractures, patients with chronic 
+illnesses like malnutrition or cancer), to allow continuous education and reduce lost education 
+time during long hospitalization periods, or children in refugee camps or emergency shelters  
+(to provide education services in situations where children lack regular access to school).
+How to Develop a Global  
+Mobile Platform for  
+Child Health and Development
+This section will focus on how to build a global mobile platform for CHD. Emphasis will be placed on 
+context, partnerships, sustainability, scalability, and monitoring and evaluation. A partnership 
+k   IIn the context of rural communities in India not finding ASHAs helpful, Ramachandran50 developed three videos delivered on mobile phones which ASHAs 
+could use during their visits to pregnant women at their households: (1) a series of testimonial videos where village personalities supported the work of 
+ASHAs, (2) persuasive videos with information in health handbooks, and (3) a video with dialogue that addressed myths and barriers that hindered ASHA 
+acceptance. Not only were the pregnant women more trusting of ASHAs, the videos improved the ability of ASHAs to deliver effective counseling while 
+increasing engagement with women and their families.
+l  See Salud Responde in Chile.58
+Getting Healthier Around the World 15
+between the International Telecommunications Union (ITU) and World Health Organization (WHO) 
+has produced a National eHealth strategy toolkit targeted primarily for governments and other 
+stakeholders. Although the original framework is meant to assist the development of a national 
+eHealth plan, the toolkit offers many valuable ideas that can be used to inform a multimedia platform 
+strategy for CHD. Such a plan needs to leverage ICTs and reflect country priorities, provide for 
+monitoring and implementation and manage associated risks.59  Figure 3 represents the framework 
+adapted for this context. The importance of aligning eHealth efforts with governmentalm or regionaln 
+policies cannot be emphasized enough, since this alignment has been a driving force in sustainably 
+diffusing eHealth innovations.61
+Figure 3. An adapted version of ITU-WHO’s Toolkit for developing a National eHealth Strategy  
+(image recreated and adapted from ITU, 2012).59
+PART 1  PART 2  PART 3 
+Creating a vision for integrating Designing an mHealth and eHealth mHealth and ICT 
+mHealth and ICT for child health ICT action plan monitoring and evaluation
+and development
+• Manage the process • Manage the process •  Define indicators for 
+• Engage with stakeholders • Engage with stakeholders monitoring and evaluation
+•  Understand the context of CHD •  Develop action points that • D efine baseline and target 
+priorities at the national level incorporate the appropriate measures
+• Establish the strategic content use of mHealth and other ICT • D efine suporting governance 
+• Learn from trends and experience • D evelop an integrated  and processes
+• Draft an initial vision action plan
+• Identify required components •  Determine high-level resource 
+•  Gather information on the  requirements
+eHealth environment • A pply funding constraints  
+• Assess opportunities and gaps to refine plan
+•  Refine vision and develop  • Define implementation phases
+recommendations
+To guide success when developing interventions leveraging ICTs for CHD, there are a few more 
+related aspects to further emphasize:
+ >>  Understand the context 
+Integrated solutions are better than a single solution. Understanding how a global platform 
+for improving health can fit into the context of national plans, governmental health  
+and development priorities, disease conditions, existing efforts of health systems, NGOs, or 
+CBOs, and cultural practices implications will prove absolutely crucial for determining 
+success, especially when trying to leverage technologies. To increase understanding of 
+national priorities in the field of health, a pre-implementation evaluation, which could involve 
+a situational analysis, can be conducted.
+   •  For example, over 40 countries have developed or received parliamentary approval for 
+ECD policies, and UNICEF has supported 53 countries to prepare their own standards 
+for what preschool children should know and be able to do.49
+ >>  Tailor ICT strategies to the end users and their health needs  
+Similar to understanding the context, understanding the children who will often be the end 
+m  South Africa eHealth Strategy can be found at: http://www.doh.gov.za/docs/stratdocs/2012/eHealth_Strategy_South_Africa_2012-2016.pdf 
+n  Refer to Jimenez Marroquin 60 for a systematic review and content analysis of national eHealth policies in Latin America and the Caribbean.
+16 Getting Healthier Around the World
+users of ECD-related mHealth programs is essential to the success of the mHealth programs. 
+Formative research can yield insight and information on end users that cannot be easily 
+elicited through other strategies and that can have an impact on the success of the project. 
+When designing the type of information to include, very important components to consider 
+are the end users, message content and the frequency of sending messages.
+   •  End users — In developing an mHealth program for ECD, the most obvious end users 
+and primary beneficiaries are children. Other potential end users could be those 
+mentioned in CARE’s 5x5 Model: the caregiver/family, childcare setting, the commu-
+nity, and national policy. For ECD, effective programs “provide direct learning experi-
+ences to children and families, are targeted toward younger and disadvantaged 
+children, are of longer duration, high quality, and high intensity, and are integrated with 
+family support, health, nutrition, or educational systems and services”.11 Target popula-
+tions for these programs include children or parents/caregivers. For children, programs 
+are often focused on growth monitoring, early childcare centers, or improved hygiene 
+or health services. Programs aimed at parents/caregivers focus on improving parenting 
+skills and resources through home visits, group sessions, or behavior change and 
+communication strategies. In the context of health, healthcare workers, both frontline 
+and facility-based, can be considered.
+   •  Message content and frequency — There is no algorithm that outputs the best message 
+content or the perfect number of messages to send, but procedural lessons can be 
+learned from existing mHealth interventions. For content, one place to start is MAMA, 
+which has released a database of adaptable messages based on WHO and UNICEF 
+guidelines.o Additionally, to design messages, rapid prototyping helps quickly test 
+assumptions and define what works and what doesn’t with regard to message content. 
+Determining an effective and appropriate number of messages to send must also 
+undergo a similar process that depends on the objective of the mHealth intervention 
+(e.g., to increase awareness, to reduce stigma, to increase healthier behaviors, etc.) and 
+is strongly dependent on the context. One method to determine the right frequency is 
+described in a study called “SMS to Test” conducted by Cell-Life in South Africa, which 
+found that motivational text messages increased HIV testing rates. 52
+ >> E ngage in appropriate partnerships  
+Leveraging high-impact, large-scale eHealth opportunities must start with strategic and 
+integrated action at national levels. Government involvement from the beginning is import-
+ant, and not just with Ministries of Health, as improving ECD has implications for other 
+ministries, such as the Ministry of Education and any ministry that deals with gender and 
+social welfare issues. Since the challenge will be to get all the relevant stakeholders around 
+the same table, the best strategy is to not start from scratch, but instead look to existing 
+projects that can benefit from the value each stakeholder can contribute to discussions and 
+implementation.
+	 	 	 •  Examples of existing, large-scale efforts in mHealth include a recent public-private 
+partnership in Nigeria related to Saving One Million Livesp and an effort in Bangladesh 
+o  Request for access to MAMA content for message development at: http://www.healthunbound.org/mama/adaptable-messages
+p  This public-private partnership is among the Nigerian Federal Ministry of Health, Saving One Million Lives Initiative, Intel, and the mHealth Alliance. This 
+initiative is an intensive scale up of access to essential primary health services. and commodities for women and children. See the press release: http://
+www.mhealthalliance.org/news/press-releases/54-new-public-private-initiative-leverages-mobile-technologies-to-save-one-million-lives-in-nigeria-
+Getting Healthier Around the World 17
+that aims to reach two million moms by 2015 called “Aponjon”.q, r Other examples of 
+national initiatives that reach children but do not have formal ICT components are the 
+National Rural Health Mission in India and Safe Motherhood in Malawi. 
+ >>  Keep sustainability and scalability in mind  
+Many projects disappear after receiving a few years of funding because clear business 
+models and plans have not been developed. There are two types of sustainability that are 
+necessary in successful projects using ICT for health — sustainability generated from the 
+audience (the project’s “end users”) and financial sustainability. For both, it is important to 
+involve the government from the beginning so that they are able to feel ownership for 
+eHealth efforts; however, partnerships with the private sector must also be emphasized. 
+Then, as Sarah Emerson of CDC Foundation mentions, it is crucial to create mutual benefit 
+and have realistic expectations.s 
+	 	 	 •  For sustainability generated from the audience, an eHealth initiative must truly meet 
+the needs of the people it attempts to benefit. To help monitor this, assessments 
+should be built into the initiative that can help gauge this. Also, translating many 
+lessons learned from failures and successes of other projects will be vital so as to  
+not reinvent the wheel. After Ramachandran designed audio-visual aids delivered 
+through the mobile phone, six important guiding lessons for developing persuasive 
+messages emerged:50
+    1.  Focus the message on action items, not on broad topics  
+of information
+    2.  Address local myths and barriers, and provide convincing  
+corrections and solutions respectively
+    3. C reate opportunities for structured, persuasive dialogue  
+between humans, keeping in mind that persuasion is a  
+largely social phenomenon in rural communities
+    4.  Include reminders about the positive rewards for changing  
+behavior, paying close attention to local values
+    5.  Capture the most persuasive local language and prosody  
+style, even if it is counterintuitive
+    6.  Do not assume reactions are honest — persuasion takes time
+	 	 	 •  For financial sustainability, if considering the development of an mHealth project, it will 
+be critical to engage with the business sector to develop a business case for partner-
+ship. Also for the initial years of implementation, leveraging donor funding is a good 
+option for both eHealth and mHealth initiativest; however, donor funding is often more 
+restrictive when attempting to scale a project for many reasons, the most obvious 
+reasons being the general 2-5 year funding length of awards and the tendency for 
+donors to fund projects in pilot stages. Other options in the medium and long terms 
+q  http://www.mhealthalliance.org/news/press-releases/56-bangladesh-launches-national-mobile-health-service-aponjon-to-reach-2-million-
+moms-by-2015
+r  This effort launched in Bangladesh by MAMA currently has 12,000 mothers, family members, and organizations – the majority of whom were registered 
+through community health workers. More information here: http://www.mhealthalliance.org/news/press-releases/56-bangladesh-launches-national-mo-
+bile-health-service-aponjon-to-reach-2-million-moms-by-2015
+s  For more, see http://healthmarketinnovations.org/blog/2012/dec/5/sustainable-financing-mhealth-what-it-and-how-do-we-achieve-it 
+t  One currently available opportunity can be found at: http://www.savinglivesatbirth.net/apply 
+18 Getting Healthier Around the World
+include governmental funding, mobile provider support,u or user-generated revenues. 
+For user-generated revenues, it is important to identify the “big opportunity” in the 
+market — and these may be able to support the success across a broader base of 
+consumers. For programs that utilize text messaging, even the successful ones are 
+difficult to fund as SMS costs increase. Negotiating with network providers is strongly 
+encouraged when sending or making higher volumes of messages or calls.
+ >>  Apply practical theory, incorporate a Monitoring & Evaluation (M&E)  
+component and generate evidence from rigorous evaluation 
+In a book on behavior change in mHealth, Mechael states that the hype surrounding mHealth 
+currently ought to be “tempered with research, methodical approaches, and the sharing of 
+real stories of success and failure”.29 Even though technology can catalyze efforts at a speed 
+much faster than research, rigorous evaluations on the impact of mHealth and other ICTs on 
+health outcomes and intervention efficiencies should be conducted, and all interventions 
+integrating ICTs must move the evidence space forward. Only with rigorous studies and 
+ongoing M&E is it possible to understand the actual progress an mHealth or ICT intervention 
+is making, or more importantly, not making. When adding an M&E or evaluation component 
+to a project, it is advised to obtain expertise from evaluation experts and keep in mind the 
+objective that, in the future, evaluation findings will drive forward the ability to obtain future 
+funding and campaign for stronger support from governments and the private sector.  
+MAMA, for example, possesses a strong global M&E framework .v, 26
+ >>  Ensure standards and interoperabilityw 
+Standards and interoperability can help a wider deployment of efforts, and in time reduce the 
+cost of devices through economies of scale. The development of international standards for a 
+multimedia framework leveraging mobile technologies or other ICTs is currently occurring 
+with major stakeholders.x  For a global platform, efforts must have a way to communicate 
+with each other across countries within a campaign and also with other systems that exist in 
+the environment. In other words, a space for this must exist where actors can interact with 
+each other and offer transferable solutions from their own experiences. For this to work, 
+standards must be set, and data across sources must be able to communicate. An example of 
+an interoperable system is that of the Millennium Villages Global Network, which was able to 
+support the communication of multiple project sites.62
+ >>  Spread the word 
+Families are the best sponsors for effective campaigns that target early child development; 
+however, previous mHealth projects have not realized their full potential because those  
+who could benefit most were not aware the program existed.
+u  For example, the project Switchboard teams up with large telecom providers to allow doctors in various African countries to call each other for free. 
+Telecom providers find value for this since the providers use the same network when making paid calls to family and friends.61
+v  Available for download at: http://www.mchip.net/node/1317 
+w  http://www.itu.int/en/ITU-T/techwatch/Pages/ehealth-standards.aspx
+x  http://www.itu.int/ITU-T/studygroups/com16/sg16-q28.html
+Getting Healthier Around the World 19
+Conclusions: Realizing the Potential
+  With the variety of technologies available around the world today,  
+strategic and innovative efforts leveraging ICTs, particularly mobile  
+technologies, can reap many gains in child health and survival,  
+which can then lead to remarkable cognitive and socioeconomic  
+gains for the future of children around the world. 
+ T his report has captured how ICTs are being appropriately leveraged 
+specifically for supporting health system efforts for child health,  
+strengthening tools for health workers who interact with children and  
+their caretakers, and encouraging healthier behaviors among children  
+and others involved in their health and development. With the  
+current shift towards encouraging behaviors that enable better health  
+and wellbeing, there is a space where technologies can play an even  
+larger role — in inspiring children to be healthier.
+20 Getting Healthier Around the World
+References
+1.  UNICEF. Levels & Trends in Child Mortality. Report 2011: Estimates developed by the UN Inter-agency Group for Child Mortality 
+Estimation: United Nations Children’s Fund; 2011.
+2. UNFPA, UNICEF, WHO, World Bank. Trends in maternal mortality: 1990-2010. Geneva: WHO; 2012.
+3.  International Telecommunications Union (ITU). ICT Facts and Figures: The World in 2013: International Communications  
+Union (ITU); 2013.
+4.  UNICEF. State of the World’s Children 2012: Children in an Urban World. New York, NY: UNICEF; 2012.
+5.  International Telecommunications Union (ITU). Measuring the Information Society 2012; 2012.
+6. Nolen S. Despite cellphone boom in India, toilet access still lags. The Globe and Mail,. 2012.
+7. World Health Organization. Strategy 2004-2007: eHealth for healthcare delivery. Geneva: World Health Organization; 2004.
+8.  Mares M-L, Pan Z. Effects of Sesame Street: A meta-analysis of children’s learning in 15 countries. Journal of Applied Developmental 
+Psychology. 2013; 34: 140-51.
+9.  Grantham-McGregor S, Cheung YB, Cueto S, Glewwe P, Richter L, Strupp B, et al. Developmental potential in the first 5 years for 
+children in developing countries. The Lancet. 2007; 369: 60-70.
+10.  Walker SP, Wachs TD, Grantham-McGregor S, Black MM, Nelson CA, Huffman SL, et al. Inequality in early childhood: risk and 
+protective factors for early child development. The Lancet. 2011; 378: 1325-38.
+11.  Engle PL, Black MM, Behrman JR, Cabral de Mello M, Gertler PJ, Kapiriri L, et al. Strategies to avoid the loss of developmental 
+potential in more than 200 million children in the developing world. The Lancet. 2007; 369: 229-42.
+12.  CARE, USAID, Hope for African Children Initiative. Promoting Early Childhood Development for OVC in Resource Constrained 
+Settings: The 5x5 Model; 2007.
+13.  Beatriz Alkmim M, Minelli Figuerira R, Soriano Marcolino M, Silva Cardoso C, Pena de Abreu M, Rodrigues Cunha L, et al. Improving 
+patient access to specialized health care: the Telehealth Network of Minas Gerais, Brazil. Bulletin of the World Health Organization. 
+2012; 90: 373-8.
+14. Gerber T, Olazabal V, Brown K, Pablos-Mendez A. An agenda for action on global e-health. Health Affairs. 2010; 29(2): 235-8.
+15. Frasier H, May MA, Wanchoo R. e-Health Rwanda Case Study; 2008.
+16.  Githinji S, Kigen S, Memusi D, Nyandigisi A, Mbithi AM, Wamari A, et al. Reducing Stock-Outs of Life Saving Malaria Commodities 
+Using Mobile Phone Text-Messaging: SMS for Life Study in Kenya. PLoS ONE. 2013; 8(1): e54066.
+17.  Routen T. Android/OpenMRS: Integrating EMRS and decision logic functionality within mobile applications for healthcare workers. 
+Med-e-Tel. Luxembourg: International Society for Telemedicine & eHealth; 2011.
+18.  Kalogriopoulos NA, Baran J, Nimunkar AJ, Webster JG. Electronic medical record systems for developing countries: Review. In: 
+Society EiMaB, editor. Annual International Conference in IEEE; 2009; Minneapolis, MN; 2009. p. 1730-3.
+19.  Blaschke S, Bokenkamp K, Cosmaciuc R, Denby M, Hailu B, Short R. Using mobile phones to improve child nutrition surveillance in 
+Malawi: UNICEF Malawi, UNICEF Innovations; 2009.
+20.  van Heerden A, Tomlinson M, Swartz L. Point of care in your pocket: a research agenda for the field of m-health. Bulletin of the World 
+Health Organization. 2012; 90: 393-4.
+21. DeRenzi B. e-IMCI: Improving pediatric health care in low-income countries. CHI; 2008; Florence, Italy; 2008.
+22.  Bogan M, van Esch J, Mhila G, DeRenzi B, Mushi C, Wakabi T, et al. Improving standards of care with mobile applications in Tanzania. 
+W3C workshop on the role of mobile technologies in fostering social and economic development in Africa; 2009; Maputo, 
+Mozambique; 2009.
+23.  mHealth Alliance, Vital Wave Consulting. Sustainable Financing for Mobile Health (mHealth): Options and opportunities for mHealth 
+financial models in low and middle-income countries: mHealth Alliance and Vital Wave Consulting; 2013.
+24.  Mechael P, Batavia H, Kaonga N, Searle S, Kwan A, Goldberger A, et al. Barriers and gaps affecting mHealth in low and middle income 
+countries: Policy white paper: The Earth Institute Columbia University and the mHealth Alliance; 2010.
+25.  Lester RT, Ritvo P, Mills EJ, Kariri A, Karanja S, Chung MH, et al. Effects of a mobile phone short message service on antiretroviral 
+treatment adherence in Kenya (WelTelKenya1): a randomised trial. Lancet. 2010; 376(9755): 1838-45.
+26.  Mobile Alliance for Maternal Action. Global monitoring and evaluation framework; 2012.
+27. PSI DR Congo, Toth C. Cell phone hotline spreads family planning information in DR Congo; 2008.
+28.  Yang C, Yang J, Luo X, Gong P. Use of mobile phones in an emergency reporting system for infectious disease surveillance after the 
+Sichuan Earthquake in China. Bulletin of the World Health Organization. 2009; 87: 619-23.
+29.  Mechael P. Conclusion. In: Donner J, Mechael P, editors. mHealth in Practice: Mobile technology for health promotion in the 
+developing world. London: Bloomsbury Academic; 2012.
+30. Bowen H. NightWatch 2.0: The Role of Mobile Phones in Malaria BCC. JMTM. 2012; 1(4S): 11-2.
+31.  The Johns Hopkins University. Wazazi Nipendeni Safe Motherhood Campaign. 2011  [cited 04/11/13]; Available from: http://www.
+jhuccp.org/resource_center/media/wazazi-nipendeni-safe-motherhood-campaign
+32.  Danis CM, Ellis JB, Kellogg WA, van Beijma H, Hoefman B, Daniels SD, et al. Mobile phones for health education in the developing 
+world: SMS as a user interface. In: ACM, editor. ACM DEV ‘10; 2010; London, United Kingdom; 2010.
+33.  Osborn J. MOTECH. In: Donner J, Mechael P, editors. mHealth in Practice: Mobile technology for health promotion in the developing 
+world. London: Bloomsbury Academic; 2012.
+34.  United Nations Foundation. The Innovation Working Group and the mHealth Alliance Announce Grantees to Improve Women’s and 
+Children’s Health Using Mobile Technology.  2012  [cited 28 April 2012]; Available from: http://www.mhealthalliance.org/news/
+innovation-working-group-and-mhealth-alliance-announce-grantees-improve-women%E2%80%99s-and-children%E2%80%99s-
+35.  van Beijma H, Hoefman B. Text to Change: Pioneers in using mobile phones as persuasive technology on health in Africa. In: Donner 
+J, Mechael P, editors. mHealth in Practice: Mobile technology for health promotion in the developing world. London: Bloomsbury 
+Academic; 2012.
+Getting Healthier Around the World 21
+36.  Khanna A, Singh A, Soni J, Quraishi H, Quraishi S. Edutainment Based Mobile Phone Games for Health Communication in India.  
+In: Kumar V, Svensson J, editors. Proceedings of M4D 2012; 2012; New Delhi, India; 2012.
+37.  Chib AI, Lwin MO, Lee Z, Ng VW, Wong PHP. Learning AIDS in Singapore: Examining the effectiveness of HIV/AIDS efficacy 
+messages for adolescents using ICTs. Knowledge Management & E-Learning: An International Journal. 2010; 2(2): 169-87.
+38.  Holzinger A, Nischelwitzer A, Meisenberger M. Mobile phones as a challenge for m-Learning: Examples for mobile interactive 
+learning objects (MILOs).  3rd International Conference on Pervasive Computing and Communications Workshops (PerCom 2005 
+Workshops); 2005; 2005.
+39.  SunStar Manilla. Text2Teach connects students to a more interactive learning environment. 2012.
+40. Jack W, Suri T. Mobile Money: The Economics of M-Pesa. Cambridge, MA: National Bureau of Economic Research; 2011.
+41.  Mondato LLC. Can mobile money enhance access to healthcare? 2013 [cited 1/25/2013]; Available from: http://mondato.com/en/
+articles/can-mobile-money-enhance-access-to-healthcare
+42.  Bielli E, Carminati F, La Capra S, Lina M, Brunelli C, Tamburini M. A wireless health outcomes monitoring system (WHOMS): 
+development and field testing with cancer patients using mobile phones. BMC Medical Informatics and Decision Making. 2004; 4(7).
+43.  Wang CS. Mobile and wireless technologies applying on sphygmonameter and pulsimeter for patients with pacemaker implementa-
+tion and other cardiovascular complications. J Biomedical Science and Engineering. 2010; 3: 47-51.
+44.  Broens T, Van Halteren A, Van Sinderen M, Wac K. Towards an application framework for context-aware m-health applications. 
+International Journal of Internet Protocol Technology. 2007; 2(2): 109-16.
+45. International Communications Union (ITU). World Telecommunication/ICT Development Report 2010. Geneva: ITU; 2010.
+46.  Beaglehole R, Epping-Jordan J, Patel V, Chopra M, Ebrahim S, Kidd M, et al. Improving the prevention and management of chronic 
+disease in low-income and middle-income countries: a priority for primary health care. The Lancet. 2008; 372(9642): 940-9.
+47. Jong-wook L. Global health improvement and WHO: shaping the future. The Lancet. 2003; 362(9401): 2083-8.
+48. Singhal A, Rogers EM. A Theoretical Agenda for Entertainment-Education. Communication Theory. 2002; 12(2): 117-35.
+49.  Engle PL, Fernald LCH, Alderman H, Behrman J, O’Gara C, Yousafzai A, et al. Strategies for reducing inequalities and improving 
+developmental outcomes for young children in low-income and middle-income countries. The Lancet. 2011; 378: 1339-53.
+50.  Ramachandran D. Mobile Persuasive Messages for Rural Maternal Health. In: Donner J, Mechael P, editors. mHealth in Practice: 
+Mobile technology for health promotion in the developing world. London: Bloomsbury Academic; 2012.
+51.  Borzekowski DLG, Henry HK. The impact of Jalan Sesama on the educational and healthy development of Indonesian preschool 
+children: An experimental study. International Journal of Behavioral Development. 2011; 35(2): 169-79.
+52.  Benjamin P. mHealth Hope or Hype. In: Donner J, Mechael P, editors. mHealth in Practice: Mobile technology for health promotion in 
+the developing world. London: Bloomsbury Academic; 2012.
+53.  World Health Organization. Packages of interventions for family planning, safe abortion care, maternal, newborn and child health. 
+Geneva, Switzerland: World Health Organization; 2010.
+54.  Labrique A, Vasudevan L, Kochi E, Fabricant R, Mehl G. mHealth innovations as health system strengthening tools: 12 common 
+applications and a visual framework. Global Health: Science and Practice. 2013.
+55.  Bhavsar M. Sana Mobile: Connecting big-city care to patients in remote villages. 2010 [cited July 3, 2012]; Available from: http://
+mobileactive.org/case-studies/sana-mobile
+56.  Mechael P, The Dodowa Health Research Center, For the Grameen Technology Foundation. MoTECH: mHealth Ethnography Report; 
+2009.
+57.  Ramachandran D, Canny J, Dutta Das P, Cutrell E. Mobile-izing health workers in rural India. CHI 2010: Medical Data; 2010; Atlanta, 
+GA; 2010.
+58.  Lange I. Tele-Self-Management Support for Type 2 Diabetes Care. In: Donner J, Mechael P, editors. mHealth in Practice: Mobile 
+technology for health promotion in the developing world. London: Bloomsbury Academic; 2012.
+59.  International Telecommunications Union (ITU), World Health Organization. National eHealth Strategy Toolkit. Geneva: World Health 
+Organization; 2012.
+60.  Jimenez Marroquin MC. eHealth Policy in Latin America and the Caribbean: A Systematic Review and Content Analysis of National 
+Policies: University of Toronto; 2011.
+61. Iluyemi A, Briggs J. Financing sustainable eHealth projects in Africa: What can we learn from situated mHealth cases? 2011.
+62.  Kanter AS, Negin J, Olayo B, Bukachi F, Johnson E, Sachs SE. Millennium Global Village-Net: Bringing together Millennium Villages 
+throughout sub-Saharan Africa. International Journal of Medical Informatics. 2009; 78(2009): 802-7.
+63.  Black RE, Morris SS, Bryce J. Where and why are 10 million children dying every year? The Lancet. 2003; 361: 2226-34.
+64.  Blanton E, Ombeki S, Otieno Oluoch G, Mwaki A, Wannemuehler K, Quick R. Evaluation of the Role of School Children in the 
+Promotion of Point-of-Use Water Treatment and Handwashing in Schools and Households—Nyanza Province, Western Kenya, 2007. 
+Am J Trop Med Hyg. 2010; 82(4): Am. J. Trop. Med. Hyg., 82(4), 2010, pp. 664–671.
+65.  Victora CG, Wagstaff A, Armstrong Schellenberg J, Gwatkin D, Claeson M, Habicht J-P. Applying an equity lens to child health and 
+mortality: more of the same is not enough. The Lancet. 2003; 362: 233-41.
+66.  Bryce J, Coitinho D, Darnton-Hill I, Pelletier D, Pinstrup-Andersen P, for the Maternal and Child Undernutrition Study Group. Maternal 
+and child undernutrition: effective action at national level. The Lancet. 2008: 65-81.
+67.  Walker SP, Wachs TD, Gardner JM, Lozoff B, Wasserman GA, Pollitt E, et al. Child development: risk factors for adverse outcomes in 
+developing countries. The Lancet. 2007; 369: 145-57.
+68.  Borzekowski DLG, Macha JE. The role of Kilimani Sesame in the healthy development of Tanzanian preschool children. Journal of 
+Applied Developmental Psychology. 2010; 31(2010): 298-305.
+22 Getting Healthier Around the World
+Appendix A. 
+  Issues affecting child health and development:  
+Vaccination; Water, sanitation, and hygiene;  
+Emergency education; Nutrition; and  
+Disease-specific Knowledge and Prevention.
+Vaccination About 20% of children in the world do not receive any type of immunization.  
+Additionally, tens of thousands of children suffer from severe or disabling illnesses that can also  
+be prevented by vaccines. The good news is that immunization coverage has never been higher  
+as over 100 million children are immunized per year for tuberculosis, polio, measles, diphtheria, 
+tetanus, pertussis, hepatitis B, Haemophilus influenzae type B vaccine, yellow fever, and more 
+recently, pneumococcal disease and rotavirus, which cause pneumonia and diarrhea, respectively. 
+Partners that generally work on immunization strategies include WHO, UNICEF, and the GAVI 
+Alliance. Parents and caretakers of children must be informed of the benefits from vaccinating  
+their children so that they bring their children according to vaccination schedules and recom-
+mendations (e.g. measles immunization as soon as possible after the age of 9 months; child  
+immunization even when he or she is sick).
+Water, Sanitation, and Hygiene Water, sanitation, and hygiene issues (e.g. taking in unsafe  
+water, inadequate water for proper hygiene, poor access to sanitation, and no access to toilet 
+facilities) contribute to approximately 1.5 million child deaths and around 88% cases of diarrhea.63 
+Chronic diarrhea also prevents proper absorption of essential nutrients, as well as life-saving 
+vaccines, that influence child development. Often, programs can include pit latrine construction, 
+Getting Healthier Around the World 23
+installed water stations, water treatment, safe water storage as households will store water in the 
+home making it vulnerable to contamination during transport and storage, and proper training or 
+behavior change strategies towards proper hygiene (e.g. keeping animals out of the kitchen, 
+handwashing, trimming nails, advice on correct disposal of human feces, digging pits to bury 
+garbage). Evidence exists that supports how improvements in water, sanitation, and hygiene can 
+reduce absentee rates among children.64
+Emergency Education For young children, some strategies can be implemented to mitigate  
+the compounding effects of natural disasters or complex emergencies to reduce suffering, disease,  
+and death. Natural disasters, as well as conflicts that emerge in some contexts can leave an area 
+more prone to disease outbreaks, food shortages, drought, violence, and displacement. Additionally, 
+children can be left emotionally affected. Emergency preparation is a difficult task, but it can  
+help recovery.
+In Indonesia, which has experienced ethnic violence and large-scale natural disasters in the past 
+decades, Jalan Sesama was found to improve early cognitive skills, literacy, mathematics, health and 
+safety knowledge, social development, and both environmental and cultural awareness among 
+children between 3-6 years of age.51 Emergency preparation can include ways to allow communica-
+tion to happen better among individuals who need help and those who can help, including interna-
+tional relief agencies and governments. For young children, there is a need to make sure they know 
+their full name and the plan of action in the event of any emergency. Supporting children with 
+helping them understand that it’s ok to feel sad or afraid during crises is also helpful.
+Nutrition An individual’s nutrition early in life dramatically influences economic and educational 
+prospects later on with spillover effects into future generations.65 A third of child deaths can be 
+attributed to under nutrition. This makes under nutrition the largest risk factor of any age group. 
+However, nutrition is often overlooked in national priorities, even in the 20 countries where 80% of 
+the world’s undernourished children live.66 Stunting, which is caused by poor nutrition and infection, 
+has a large influence on later child development, particularly later cognition, school progress, or 
+both. Of the 559 million children under 5 years of age in developing countries, 156 million are stunted 
+and 126 million live in absolute poverty. Grantham-McGregor et al. determined that the top ten 
+countries with the largest number of disadvantaged children (defined as children who are stunted 
+and non-stunted living in poverty with calculations to avoid double counting) in millions are: India  
+65, Nigeria 16, China 15, Bangladesh 10, Ethiopia 8, Indonesia 8, Pakistan 8, DRC 6, Uganda 5, and 
+Tanzania 4. With stunting and education data from 79 countries, Grantham-McGregor et al. found  
+for every 10% increase in stunting, the proportion of children reaching the final grade of primary 
+school dropped by 7.9%.9
+The benefits of nutrition begins in utero with maternal nutrients, and continues with breastfeeding 
+exclusively or at longer durations, which offers not only nutrients, but also improves motor  
+development, reduces infant mortality and is an opportunity for mother-child bonding.11, 67 Food 
+supplementation during the first 2-3 years of life has been shown to improve cognition at 3 years  
+of age and beyond. Other effective nutrition-related interventions such as Vitamin A, iron supple-
+mentation, and iodized salt provisions as routine preventive treatments are core interventions to 
+improve child survival. The prevalence of anemia among children under 4 years in developing 
+countries is estimated at 46-66%, where half is attributed to iron deficiency.67 Conclusive evidence 
+demonstrates that iron deficiency is related to lower motor scores, social problems, long-term  
+24 Getting Healthier Around the World
+IQ effects, and anxiety or depression; however, iron supplementation for prevention is effective 
+whereas iron therapy is inconclusive at reversing deficiency. For iodine deficiencies, salt iodization  
+is the most cost-effective way to deliver iodine and improve cognition on a large scale.11  Other 
+interventions include zinc in the management of diarrhea, treatment of severe acute malnutrition  
+in hospitals, behavior change communications to improve complementary feeding, and interven-
+tions to improve hygiene. Interventions can be directly delivered (e.g. delivery of micronutrients), 
+focused on behavior change (e.g. feeding practices), or supportive (e.g. conditional cash transfers) 
+and can be impacted heavily by governmental action in other sectors, such as poverty, trade,  
+and agriculture.66 
+There is an emphasis that interventions that do not have direct effects on reducing under nutrition  
+in mothers or young children, such as stand-alone growth monitoring (unless linked to adequate 
+nutrition counseling and referrals), preschool feeding programs targeting children over 24 months, 
+or school feeding programs targeting children over 5, should not divert nutrition resources (though 
+these may be effective for education — in this situation, these programs should be supported by 
+education sectors); however, those that have proven effectiveness should be implemented rapidly at 
+scale66 since the period from pregnancy to 24 months of age is a “crucial window of opportunity for 
+reducing under nutrition and its adverse effects”. Nutrition recommendations include packaging 
+interventions by delivery method and integrating them into existing maternal, neonatal, and child 
+health programs.
+Disease-specific Knowledge and Prevention 
+MALARIA Malaria has been associated with poor child development and effective strategies 
+include usage of insecticide-treated bed nets (ITNs) and artemisinin-based combination therapies.11 
+Use of the most effective prevention strategy for ITNs is at approximately 1%. UNICEF estimates that 
+if every African child slept under an ITN, approximately 500,000 child deaths could be prevented  
+each year. In 2002, the government of Malawi purchased ITNs in mass for a national scale up of  
+ITN distribution. Heavily subsidized nets were given to maternal and child health clinics, as well as 
+distributed through communities and available for purchase from the private sector. Health educa-
+tion for malaria generally includes informing pregnant women of medicine for preventing and 
+treating malaria and educating and training families on proper home malaria management. 
+HIV At the end of 2011, 3.4 million children were living with HIV, and more than two million are 
+infected under 15. Additionally, the impact of the disease further affects children who have lost one 
+or two parents from HIV. The number of children orphaned by AIDS in sub-Saharan Africa was 
+approximately 18 million in 2010. These children are more vulnerable to malnutrition and disease,  
+and they are likely to fall behind in school. Effective schooling, psychosocial support, and access  
+to health services can help improve these conditions. After being exposed to Kilimani Sesame for six 
+weeks, children in Tanzania knew more about malaria and HIV/AIDS than those who were not.68
+PNEUMONIA WHO and UNICEF recommend a three-pronged approach to address child 
+pneumonia that includes protection (exclusive breastfeeding and improved nutrition), prevention 
+efforts (including routine use of measles, DTP3, Hepatitis B and pneumococcal vaccines), and 
+treatment (appropriate antibiotics).
+Getting Healthier Around the World 25
+

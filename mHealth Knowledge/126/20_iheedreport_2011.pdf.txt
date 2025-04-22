@@ -1,0 +1,1417 @@
+mHealth Education: 
+Harnessing the Mobile Revolution to Bridge 
+the Health Education & Training Gap in 
+Developing Countries
+Report for mHealthEd 2011 at the Mobile Health Summit June 2011
+1
+2
+Contents
+Authorship and Acknowledgements        5 
+Executive Summary          6
+Introduction to Mobile Health Education and Its Potential     9
+The challenge: closing the healthcare worker gap in developing countries  9
+The opportunity: mobile technologies for healthcare and learning   12
+mHealth Education: definition and potential      15
+The First Wave of mHealth Education Initiatives: Overview and Case Studies  17
+Overview of early mHealthEd initiatives       17
+Impact of and financial models for mHealth Education initiatives    20
+Case Study – Millennium Villages Project: continuous education and refresher 
+learning for community health workers       22
+Case Study – TulaSalud: distance learning teleconferences for nurses in remote
+regions of Guatemala         24
+Case Study – AED-SATELLIFE: mobile health information system library for
+healthcare workers in South Africa        26
+Case Study – Health Education and Training in Africa (HEAT) programme
+pilot in Ethiopia          27
+Case Study – African Medical and Research Foundation (AMREF): distance
+learning for nursing registration in Kenya       28
+Beyond the First Wave: How to Maximize the Potential for mHealth Education  30
+Adopt a systematic approach        30
+Promote collaboration between actors and stakeholders     31
+Aim for scale          31
+List of mHealth Education Initiatives Studied       32 
+List of Interviews Conducted         37
+References           39
+3
+Report for mHealthEd 2011 at the Mobile Health Summit
+June 2011
+www.iheed.org
+4
+Authorship and 
+Acknowledgements
+The iheed Institute and Dalberg Global 
+Development Advisors have prepared this report 
+to set the stage for mHealthEd 2011 at GSMA 
+m-Health Alliance Mobile Health Summit, which is 
+the first dedicated conference on the emerging 
+phenomenon of mobile Health Education.
+The report has been authored by Dr. Paul Callan, 
+Robin Miller, Rumbidzai Sithole, Matt Daggett, 
+and Dr. Daniel Altman from Dalberg Global 
+Development Advisors, and David O’Byrne from 
+the iheed Institute. We are grateful to colleagues 
+at the iheed Institute, particularly Dr. Caroline 
+Forkin and Dr. Tom O’Callaghan, for their guidance 
+and feedback as we prepared this report. 
+We also wish to acknowledge the support of 
+Houghton Mifflin Harcourt’s Innovation and New 
+Ventures Group for the preparation of this report, 
+and in particular to thank Fiona O’Carroll, Ciara 
+Dowling and Paud O’Keeffe for their advice.
+Many individuals and organizations offered 
+their time to describe their work on mobile 
+applications for health education, and to 
+contribute perspectives for this report, and the 
+authors wish to thank them for their contributions.
+5
+Executive Summary
+ 
+Developing countries face an acute 
+shortage of skilled health care 
+workers, and consequently health 
+education and training, especially for 
+community health workers, needs to 
+be a top priority. 
+The High-Level Taskforce on Innovative 
+Financing estimates that, to achieve the 
+Millennium Development Goals for health, 
+developing countries need an additional 
+2.6 million to 3.5 million health workers, 
+who must be trained with limited budgets. 
+Quality training and continuing education 
+for community health workers is essential, as 
+it is linked to improved health outcomes. For 
+example, Save the Children estimates that 
+training and support to midwives to provide 
+a package of eight proven interventions 
+could prevent 38% of newborn deaths, thus 
+saving 1.3 million babies each year. A training 
+programme for community health workers in 
+Bangladesh reduced maternal mortality by 
+two-thirds, which would correspond 120,000 
+fewer maternal deaths per year if replicated 
+globally.
+ 
+Mobile technology can help.
+The developing world now has more than 
+3.8 billion active mobile devices. They 
+are transforming lives and accelerating 
+development through a wide range of 
+“mDevelopment” applications, including 
+dissemination of agricultural prices, mobile 
+banking, gathering data on disease 
+epidemics, among many others.
+“mHealth Education” or “mHealthEd” 
+is the name given to an emerging 
+new set of applications of mobile 
+devices to the training, testing, 
+support and supervision of health 
+care workers, as well as applications 
+that provide health information to 
+individuals. 
+The first wave of mHealthEd applications 
+for health workers – most introduced within 
+the last 4 years and some of which are 
+6
+presented in this report – include ones which approaches for training and for disseminating 
+enable workers to learn new treatment health information.
+procedures, test their knowledge after 
+training courses, take certification exams The full potential of mHealth 
+remotely, look up information in medical Education will require adoption 
+reference publications, and trade ideas on 
+crucial diagnostic and treatment decisions. of mHealthEd applications by 
+Current applications mainly target nurses governments as tools to enable 
+and community health workers, rather than cost-effective implementation of 
+doctors. They do not attempt to replace their national health strategies and 
+classroom-based training, but rather to healthcare workforce development 
+supplement it with mobile refresher quizzes, 
+quick access to reference materials, real- plans. 
+time feedback, and updates about new or 
+improved treatment procedures. The first wave of mHealthEd applications have come from pilot projects financed by 
+donors, NGOs and academic institutions; and 
+Early reports point to positive effects the next wave will benefit from interest from 
+from mHealthEd applications. content producers, mobile operators and 
+device manufacturers.
+It is too early to test for impacts on health 
+outcomes, but the first wave of projects Actors and stakeholders should 
+suggest that mHealthEd applications are 
+improving the provision of care and levels coordinate their efforts to develop, 
+of knowledge. Improved training can also test and deploy new mHealthEd 
+increase job satisfaction and reduce attrition applications. 
+rates for healthcare workers. The current 
+wave of applications for healthcare workers The actors must include governments, 
+mainly involve providing supplementary healthcare institutions, academia, content 
+support; later ones should tap the potential creators, mobile operators, device 
+for mobile applications to reduce costs by manufacturers, NGOs, philanthropists and 
+offering cheaper alternatives to traditional investors. 
+7
+Some of the priorities for coordination should be: 
+•	 Identifying training needs, especially for community health workers, as well as 
+public health information needs, than can be met with mHealthEd applications, 
+working from existing national health strategies and healthcare human resources 
+plans;
+•	 Developing content in a collaborative way, sharing best practices and perhaps 
+including a meta-library of existing content;
+•	 Continuing the development and testing of new applications, ideally based on 
+agreed standards and formats to facilitate easy sharing of content between 
+applications; and
+•	 Keeping abreast of new device developments and trends in device pricing, and 
+collaborating on joint specification and purchasing
+Different members of the coalition will, current healthcare workers and supporting 
+of course, have different roles to play: the training of perhaps 2.6 to 3.5 million new 
+governments must establish policies and workers. All actors should prioritize quick 
+decide on applications to roll-out at scale; deployment of promising innovations over 
+NGOs, content developers and mobile building extensive portfolios of pilot projects. 
+industry companies must develop the 
+applications; donors and investors must 
+provide the financing for testing and rolling- Only by thinking big, 
+out new ideas; mobile operators must 
+provide capacity and pricing plans which and acting urgently, 
+facilitate scaling up of mHealthEd initiatives. can mHealthEd make a 
+The goals for mHealth Education meaningful contribution to 
+must be ambitious, because the achieving the MDGs by the 
+challenge is so great, especially 2015 deadline.
+improving the training of over 2.1 million 
+= +
++ +
+8
+Introduction to Mobile It is generally acknowledged that community 
+health workers (CHWs, defined in Box 2), must 
+Health Education and Its be an essential part of healthcare human 
+Potential resources strategies for developing countries. Such workers can take on some duties 
+traditionally performed by doctors and nurses 
+The challenge: closing the healthcare at much lower cost; they require less training 
+worker gap in developing countries than professional healthcare workers; and 
+in many cases they also experience lower 
+One of the primary barriers to improving rates of attrition. A 2007 study by McKinsey 
+health outcomes, and overall development, estimated that, if sub-Saharan Africa 
+in developing nations, is the shortage of continues to rely on professional doctors and 
+trained healthcare workers. The Task Force on nurses, then closing the gap in healthcare 
+Innovative International Financing for Health human resources would require a total of 
+Box 1. The Millennium Development Goals. 4
+World leaders adopted the Millennium Development Goals (MDGs) in 2000 REDUCE 
+to align international efforts to reduce poverty and set ambitious targets to CHILD MORTALITY
+be achieved by 2015. The eight MDGs have 21 quantifiable targets that are 
+measured by 60 indicators.  All of the MDGs touch on issues of health, and 5
+three set specific goals for health outcomes, namely:
+Goal 4: Reduce by two-thirds the mortality rate among children under IMPROVE MATERNAL HEALTH
+five.
+Goal 5: Reduce maternal mortality by three-quarters, and achieve 6
+universal access to reproductive health.
+Goal 6: Halt and begin to reverse the spread of HIV/AIDS, malaria, 
+tuberculosis and other major diseases, and achieve universal access to COMBAT HIV/AIDS, MALARIA AND OTHER 
+DISEASES
+treatment for HIV/AIDS.
+Systems estimated in 2009 that between $33 billion in spending between 2007 and 
+2.6 and 3.5 million health workers would 2030, together with the addition of 300 new 
+be required to achieve the health-related medical schools (from 90 today) and 300 
+Millennium Development Goals (MDGs, new nursing schools (approximately doubling 
+described in Box 1), which would more than the number today)4. Using paraprofessionals 
+double the 2.1 million workers who were in – substitute medical doctors as well as 
+place in 20081. According to the WHO, some community health workers – offers a more 
+of the most affected countries in sub-Saharan realistic path to strengthening rapidly the 
+Africa would require an increase of as much healthcare workforces in low-income 
+as 140% to attain the health MDGs2. The countries.
+shortage of health personnel in developing 
+nations correlates with the overall burden of 
+disease3.
+1Taskforce on Innovative International Financing Systems, More Money for Health and More Health for the Money, March 2009, and 
+Working Group 1 Technical Report: Constraints to Scaling Up and Costs, 5 June 2009.
+2Kinfua, Yohannes et al. “The health worker shortage in Africa: are enough physicians and nurses being trained?” in Bulletin of the 
+World Health Organization 2009, 87:225-230.
+3World Health Organization. Working Together for Health: World Health Report 2006.
+4McKinsey and Company. Addressing Africa’s Health Workforce Crisis. 2007.
+9
+Box 2. Definition of community health worker and other types of healthcare 
+workers.
+Community health workers (CHWs) help individuals and groups in communities 
+to access basic healthcare, social services and health information. The term 
+covers workers who may have titles such as community health-education 
+worker, community health aide, family health worker, lady health visitor, health 
+extension worker, and community midwife. Training periods for CHWs are less 
+than for professionals, but are often not regulated and may range from just a 
+few days up to 1-2 years.
+Professional healthcare workers include:
+•	 Doctors or physicians, who are trained at medical school for 5 to 8 years, and 
+licensed or registered after a further one or two years of supervised practice.
+•	 Nurses, for whom registration usually requires a third-level degree or diploma; 
+there are considerable variations between and within countries, there may 
+be different certification levels each permitting a different degree autonomy 
+in treating patients.
+•	 Midwives, who are dedicated to the training and care of pregnant women, 
+new mothers and newborn children, and whose requirements for training 
+range greatly across countries, from unofficial trainings to bachelor’s 
+degrees.
+Paraprofessional healthcare workers include community health workers, as well 
+as substitute medical doctors or assistant medical officers, who have 2-3 years of 
+training and may provide many of the same services as physicians.
+According to the Taskforce on Innovative International Financing Systems, low-
+income countries have just over 2.1 million healthcare works, including nearly 0.5 
+million doctors, nearly 1.2 million nurses and midwives, about 350,000 community 
+health workers and about 135,000 lab, pharmacy and dental technicians.
+Expanding and improving training mortality, infant mortality, and the overall 
+programmes must be at the heart of burden of widespread disease. Save the 
+human resources development strategies Children estimates that training and support 
+for health systems in developing countries. to midwives to provide a package of eight 
+New approaches to training are needed proven interventions could prevent 38% 
+to increase the number of people who can of newborn deaths, or 1.3 million babies 
+be trained, to decrease the time required per year6. A WHO study found that training 
+for training, to decrease the cost per person community health workers in Bangladesh 
+trained and to improve the quality of training. reduced maternal mortality by two-thirds 
+For community health workers, whose training and still births by 40%, as illustrated in Exhibit 
+is limited, the quality and impact of the 17 – results which, if applied globally, could 
+training they do receive should be a priority. save the lives of 120,000 mothers and 96,000 
+babies per year.
+Evidence shows that improved training and 
+ongoing learning, especially of community Better training may also help to reduce 
+health workers, mean better diagnosis and attrition, especially among community 
+treatment and improved health outcomes5. health workers. Attrition depletes already 
+When healthcare workers are better trained, limited health workforces in developing 
+there are marked declines in maternal countries. It was estimated in 2004 that only 
+10
+50 of the 600 doctors trained in Zambia lack of ongoing training also contribute10. This 
+since independence were still practicing in is especially true for nurses and community 
+the country8. Attrition of community health health workers in remote locations, who are 
+workers has reached up to 70% per year in often isolated from medical colleagues in 
+some community-supported programmes in their day-to-day jobs. TulaSalud, a health 
+Ethiopia9. Turnover is costly due to the high service programme for indigenous regions of 
+investment put into identifying, selecting, Guatemala profiled later in this report, has 
+and training community health workers, and retained 95% of its 500 community health 
+it disrupts continuity in relationships with the workers, in part due to ongoing training and 
+community. While low pay is the largest driver interaction with them11.
+of attrition among healthcare workers, lack 
+of career development opportunities and 
+5Global Health Workforce Alliance. Scaling Up, Saving Lives: Task Force for Scaling Up Education and Training for
+Health Workers. 2008.
+6Rawe, Kathryn. Missing Midwives. Save the Children, 2011.
+7Extracted from WHO: Global Experience of Community Health Workers for Delivery of Health Related Millennium Development 
+Goals: A Systematic Review. Ronsmans C, Vanneste AM, Chakraborty J, Ginneken JV. “Decline in maternal mortality in Matlab, 
+Bangladesh: a cautionary tale” in Lancet 1997;350:1810-1814. Begum SF. “Role of TBAs in improving maternal and neonatal health in 
+Bangladesh: a long-term programme need” in High risk mothers and newborns, Ott Publishers, 1978. Fauveau V, Stewart K, Khan SA, 
+Chakraborty J. “Effect on mortality of community-based maternity- care programmeme in rural Bangladesh”in Lancet 1991;338:1183-
+1186.
+8Joint Learning Initiative. Human Resources for Health: Overcoming the Crisis. Harvard University Press, 2004.
+9Wittcoff, Alison, and Lauren Crigler. “Measuring Engagement of Community Health Workers to Improve Productivity, Retention and 
+Quality of Care”, USAID HCI Project, 2010. 
+10Medecins Sans Frontieres UK. “Retaining Health Workers: the Basics - News - MSF UK.” 24 May 2007. Web. <http://www.msf.org.uk/
+Retaining_health_workers_the_basics.news>.
+11TulaSalud. Organization website <http://www.tulasalud.org>.
+11
+4.8 76.9
+5 Maternal Still births 
+mortality per 1000 -40%
+per 1000 -69%
+IMPROVE MATERNAL 46.2
+HEALTH
+4 1.5
+REDUCE 
+CHILD MORTALITY
+Without training With training Without training With training
+Source: WHO Global Experience of Community Health Workers for Delivery of Health Related Millennium 
+Development Goals: A Systematic Review, Country Case Studies, and Recommendations for Integration into 
+National Health Systems , Begum 198733 Rural Districts (Bongra, Tongi & Dhaka) Bangladesh.pg61.
+Exhibit 1: Impact of a training programme for community health workers in 
+Bangladesh on maternal mortality and still births.
+The opportunity: mobile technologies now account for perhaps a third to a half of 
+for healthcare and learning all mobile handsets in Africa
+16. 
+	
+Mobile phones have achieved significant Across the developing world, mobile 
+penetration in developing nations over the devices are making a significant impact 
+past decade. At the end of 2010, the ITU on users, especially those most vulnerable 
+17
+estimates that there were 5.3 billion mobile and geographically hard to reach . The 
+cellular subscriptions worldwide, including 3.8 use of mobile devices is transforming the 
+billion in developing countries12. Access to lives of many low-income people and 
+a mobile network is now available to 90% of communities, by giving people access to 
+the world’s population, including 80% of the health information, correcting unbalanced 
+population living in rural areas13. The growth access to markets, eliminating the cost of 
+rate in mobile penetration was fastest in transportation to access services, and for 
+Sub-Saharan Africa, where it grew from less many other reasons
+18.
+than 2% to 32.6% between 2000 and 2008, 
+according to ITU statistics14. The numbers of The use of mobile devices to improve 
+mobile phones and devices with internet healthcare – dubbed “mHealth” – has 
+connectivity is increasing rapidly. (See Box 3 been one of the most prominent areas 
+for brief descriptions of different categories within the larger field of “mDevelopment”. 
+of mobile phones and devices.) There were As illustrated in Exhibit 2, mHealth includes 
+940 million subscriptions to 3G data services a breadth of initiatives ranging from 
+at the end of 201015. Estimates from experts treatment adherence to data collection 
+suggest that smartphone penetration across to supply chain management and health 
+Africa is still well below 10% of total ownership, financing. The biggest areas of activity are 
+but the number of “feature phones” with the provision of tools and support to health 
+internet connectivity is increasing and may workers, collection of public health data, and 
+12International Telecommunication Union. The World in 2010: ICT Facts and Figures. 2010.
+13Ibid.
+14International Telecommunication Union. Information Society Statistical Profiles 2009: Africa. 2009.
+12
+Box 3. Categorization of mobile phones and devices.
+Low-end phones or basic phones have only core functionalities including voice 
+calling, SMS messaging and USSD (Unstructured Supplementary Service Data protocol 
+which is used for adding airtime and can also be used for simple surveys, quizzes, and 
+so on). 
+Feature phones or internet-enabled phones are mobile phones or devices that, in 
+addition to voice, SMS and USSD, can access the internet for sending email, browsing 
+the web and so on (but usually without the same ease-of-use as smartphones due to 
+smaller screens, etc.).
+Smartphones provide voice, SMS, USSD and internet access, and have an 
+independent operating system (e.g., Symbian, Android, Apple) which can run built-in 
+applications for a wide variety of purposes (e.g., Web browsing, calendars, document 
+reading, among others).
+Tablet computers and e-Readers are handheld devices with large screens designed 
+for easily reading and working on long documents. They can be designed with 
+functionalities similar to smartphones (e.g., Apple’s iPad) or similar to traditional laptop 
+computers, and can be designed to access the internet over mobile networks.
+health information messaging and helpline recent report on mLearning: A Platform for 
+services.  There are many opportunities to Educational Opportunities at the Base of the 
+integrate multiple applications within a single Pyramid presented several case studies of 
+programme, using a single mobile device successful applications including provision of 
+for each health worker, including diagnostic materials for classroom use, the use of SMS for 
+support services, training, epidemiological adult literacy and foreign language lessons 
+surveying, patient record updating and delivered by voice and SMS.
+scheduling. At the intersection of mHealth and 
+mLearning is mHealth Education, which 
+Mobile technologies have also been applied holds the promise of contributing to solving 
+to support education, training and learning. the challenge of educating and training 
+Many mLearning applications have been healthcare workers.
+developed for smartphones: for example, it 
+is estimated that mLearning apps generated 
+$538 million in revenue in 2007 in the US, 
+and accounted for 15-17% of the apps 
+in the stores provided by China Mobile, 
+China Telecom and China Unicom to their 
+customers19. mLearning holds great potential 
+for supporting education and learning in 
+developing countries, and the GSMA’s 
+15International Telecommunication Union. The World in 2010: ICT Facts and Figures. 2010.
+16Estimates from experts made in interviews with Dalberg.
+17Boakye, Kojo, Nigel Scott, and Claire Smyth. Mobiles for Development. UNICEF, 2010.
+18World Bank ICT Division. The role of mobile phones in sustainable rural poverty reduction. 2008.
+19GSMA Development Fund. MLearning: A Platform for Educational Opportunities at the Base of the Pyramid. 2010.
+13
+Diagnostic Support and Data Collection
+•	 Remote diagnostic tools to help with disease 
+surveillance and treatment
+•	 Collection of data for disease tracking
+•	 Collection and storage of patient data
+•	 Note: Many diagnostic support and data 
+collection applications are combined
+Reminders on Treatment and Appointments
+•	 Text and voice messages to patients regarding 
+treatment (e.g., automated SMS reminders 
+to patients about taking medications) or 
+appointments
+Emergency Medical Response
+•	 SMS or call-in service to request ambulance 
+services
+Health / Medical Call Centres
+•	 Medical call centers to triage services and 
+treatment
+•	 Helplines to provide access to medical 
+information, advice, counseling and referral, 
+often using a tele-triage model
+Healthcare Supply Chain Management
+•	 Tracking of medical goods in supply chains using 
+mobile recording
+•	 Advocacy informed by supply chain information
+Healthcare Payments and Insurance
+•	 Smart-cards, vouchers, insurance and lending 
+for health services linked to mobile money 
+platforms or otherwise supported with mobile 
+phones
+Health Information and Promotion
+•	 SMS and voice messages to distribute health 
+information to subscribers (e.g., on HIV, maternal 
+& child healthcare, etc.)
+Training and Support for Healthcare Workers
+•	 Mobile device applications to train, test, support 
+and supervise healthcare workers
+Source: Dalberg research and analysis; World Bank Study on Mobile Applications for the Health Sector.
+Exhibit 2: Overview of mHealth applications.
+14
+mHealth Education: definition and 
+potential
+“mHealth Education” or “mHealthEd” is 
+the name given to an emerging new set of 
+applications of mobile devices to the training, 
+testing, support and supervision of health care 
+workers, as well as to the provision of health 
+information to individuals. It forms a subset of 
+mHealth (illustrated by the shaded sections in 
+Exhibit 2) and of mLearning. mHealth Education 
+tools can be used for both self-motivated 
+learning and employee training for everyone 
+from doctors to community-nominated 
+volunteers. mHealthEd content can ranges from 
+basic public health information to complex 
+medical texts; it can be static or it can be 
+dynamic as in, for example, testing applications. 
+mHealthEd applications be delivered through 
+a range of devices, from low-end phones to 
+smartphones to tablets or e-readers. Exhibit 3 
+presents a framework for thinking about the 
+range of possible needs, learners, content and 
+delivery devices for mHealth Education.
+This paper pays most attention to mHealth 
+Education for healthcare workers, although 
+it also provides an overview also of the many 
+applications being developed to deliver basic 
+health information to the general public or 
+specific target groups such as pregnant women, 
+mothers and youth. The paper does not cover 
+applications such as on-the-job tools to help 
+healthcare workers conduct diagnoses and 
+decide on treatments, or medical helplines 
+for individuals, which do have an educational 
+aspect to them, but which are primarily aimed at 
+directly improving healthcare service delivery.
+The potential scale and impact of mHealth 
+Education for healthcare workers can best be 
+appreciated by thinking about it in multiple 
+ways.
+First, mHealth Education applications could bring 
+benefits to all of the current healthcare workers 
+in developing countries, who number over 
+2.1 million in all, including nearly half a million 
+doctors, nearly 1.2 million nurses and midwives, 
+and about 350,000 community health workers20. 
+As noted earlier, there are clear linkages 
+between improved training of health workers 
+and health outcomes such as maternal and 
+child mortality. 
+15
+What NEED for 
+improvement in What type of Through what DEVICE 
+healthcare training Who is the CONTENT is being is the information 
+is being addressed? LEARNER? delivered? delivered?
+Availability of training: Medical Curriculum delivery Low end phone
+Classes are full or institutions professionals •	 Traditional certification, •	 Text and audio only
+lack capacity. •	Doctors  testing or textbook type •	Push, pull or interactive
+•	Nurses * learning
+Access to information: •	Midwives (trained)* •	Upgrading training Feature phone 
+Limited access to up-to-date •	CHWs (trained)* certification (access to web)
+information and training, •	 Text, documents, 
+causing knowledge to Health institution Learning support audio, graphics or 
+become dated over time. students •	Additional practice tests, video
+•	 Students / Trainees vocabulary, •	Push, pull or interactive
+Time efficiency: Lack 
+time to take formal training Professionals (other) Consultation/ support Smart phone
+courses or to travel from •	 Teachers •	Peer 2 peer sharing of •	Applications, text, 
+remote locations to learning •	HR employee information documents, audio, 
+institutions. graphics or video
+Community Treatment protocols •	Push, pull or interactive
+Cost reduction: Learning/ •	CHWs (untrained)* •	ART, TB, diabetes protocols
+training is too expensive, •	Midwives (untrained)* Mobile-enabled 
+either for  the individual or the •	 Traditional healers Reference materials/ devices (including 
+provider. resources computers, 
+Individuals •	 Encyclopedia type access e-readers)
+Quality improvement: •	Mothers / pregnant to a broad database of •	 Text, documents, 
+Potential to enhance learning women information audio, or video
+through additional learning •	Other adults •	Push, pull or interactive
+modules and/or on the job •	Youth Basic health information
+learning. •	Public health information/
+learning
+•	Maternal health support
+Source: Dalberg analysis; interviews with stakeholders
+Exhibit 3: Framework for the space of possible mHealth Education applications.
+Second, mHealth Education could investments in new training.
+accelerate the rate of training of new health 
+workers. As an example, AMREF’s distance Fourth, mHealth Education can reduce the 
+learning programme for nurses in Kenya, in training costs for healthcare workers incurred 
+which mobile phones play a part, has more by governments. WHO estimated in 2006 that 
+than quadrupled the number of registered the additional training costs to add required 
+nurses that Kenya can train each year. Thus, healthcare workers by 2015 would amount 
+mobile technologies – most likely applied as to an extra $136 million per year on average 
+part of larger reforms to training approaches for developing countries, or an increase of 
+– do have the potential to contribute to 11% over total health expenditures in 200421. 
+the more than doubling of the numbers of If one were to assume that even 2% of these 
+healthcare workers that is needed to meet costs would be replaced by mHealthEd 
+the MDGs. applications, and that the financial 
+benefits were shared equally between the 
+Third, mHealthEd applications could reduce government and the mHealthEd provider, 
+health worker attrition rates, especially then one could estimate savings of tens of 
+of community health workers. Even small millions of dollars per year for developing 
+reductions in the numbers leaving each year country governments and revenues of tens 
+would contribute significantly over time to of millions of dollars per year for mHealthEd 
+the total numbers of healthcare workers in providers.
+service and would increase the returns on 
+20Taskforce on Innovative International Financing Systems, More Money for Health and More Health for the Money, March 2009.
+21World Health Organization. Working Together for Health. World Health Report, 2006.
+16
+The First Wave of mHealth examples to discern clear patterns yet, and 
+certainly it is too early to reach any definitive 
+Education Initiatives: conclusions about where the “sweet spots” 
+Overview and Case Studies might be for mHealth Education, especially for healthcare workers. Nevertheless, it is 
+instructive to consider how the examples 
+to date fall within the framework shown in 
+Overview of early mHealthEd Exhibit 3.
+initiatives
+For healthcare workers, the needs most 
+From a search which revealed more than 100 commonly addressed by the current 
+mHealth and mLearning initiatives, we were mHealthEd applications are those for access 
+able to identify eleven mHealth Education to information (e.g., AED-SATELLIFE’s mobile 
+applications targeted at healthcare workers health information library), for availability 
+and at least twelve applications targeted of places in formal training institutions (e.g., 
+at providing information to members of AMREF’s distance learning programme to 
+the general public (although we expect become a registered nurse in Kenya), and 
+that there are applications, especially ones for enhancing quality of training and learning 
+targeted at individuals, that we did not through the provision of supplementary 
+Exhibit 4: Profile of mHealthEd initiatives studied by year of foundation.
+training (e.g., refresher training courses for 
+identify). Five of the initiatives for healthcare community health workers in the Millennium 
+workers are presented in the case studies Villages). Exhibit 5 presents the mHealth 
+which follow, and brief descriptions of all Education initiatives for healthcare workers 
+of the applications are provided in the on a chart which shows the target groups of 
+annexes. As illustrated in Exhibit 4, most of the learners and the types of content delivered 
+mHealthEd initiatives were started within the for each of those initiatives. The learners 
+last 4 years; this is very much the first wave of who are most commonly targeted are 
+pilot efforts in mHealthEd. frontline health care providers such as nurses, 
+community health workers and community 
+There are perhaps too few mHealthEd 
+17
+volunteers, rather than doctors. The content have delivered the content on smartphones, 
+of the mHealthEd applications typically and usually provided the devices to the 
+does not aim to replace core curricula for targeted workers. Some of the content 
+classroom trainings, but rather the most – streaming or downloading of training 
+popular content includes materials to support videos, video conferencing, connecting 
+training courses, quick updates about new or to other medical professionals via social 
+improved treatment procedures, and access networking media, and so on – may be 
+to medical reference materials. capable of delivery to feature phones as 
+well as smartphones. Some of the mHealthEd 
+For individuals, the need addressed is access applications for healthcare workers, and most 
+to information. As shown in Exhibit 6, most of those for individuals, use relatively simpler 
+applications provide information on sexual content – such as audio messages, audio 
+and reproductive health (including HIV/ conferences, text messages and reminders, 
+AIDS), on maternal and child health, and on and simple surveys – and are, or could be, 
+general health issues. delivered on regular phones via voice calls, 
+SMS or USSD.
+Most of the initiatives for healthcare workers 
+Doctors    
+(generalists and Moodle
+specialists)
+Assistant medical 
+officers / substitute 
+doctors
+AED-SATELLIFE 
+LEARNERS Nurses/ 
+AMREF mLearning
+Mobile Health 
+midwives* TulaSalud Information System 
+Mobile IMCI ENACQKT
+Community Health and FrontLine HealthLine
+and traditional Education SMS Learn Millennium Villages 
+health workers Training (HEAT) eMOCHA Health Worker Training
+Others
+(e.g., technicians)
+Curriculum Learning Treatment Reference 
+support protocols materials
+Source: Dalberg analysis
+Exhibit 5: Identified examples of mHealth Education services for health workers, 
+plotted to show the types of learners and the types of content delivered.
+18
+Google SMS 
+Health Tips Freedom HIV/AIDS
+Individuals Healthphone.org Project Masiluleke
+including target 
+LEARNERS groups such mDhil TexttoChange
+as pregnant 
+women, mothers, MTN Kick Out Young Africa Live MoTeCH Mobile Midwife
+youth Malaria
+m4RH Text4Baby
+Wellness World
+General health Sexual & Maternal & 
+reproductive child health
+health, incl. HIV/
+AIDS
+Source: Dalberg analysis CONTENT
+Exhibit 6: Selected examples of mHealth Education services for individuals, 
+grouped by the primary topic of the health information content.
+19
+Impact of and financial and disseminating information; however it is 
+hard to identify cost savings from the current 
+models for mHealth wave of applications because most involve 
+Education initiatives providing additional support and information to healthcare workers or individuals rather 
+With many applications only recently than replacing existing services.
+launched, and many operating only at 
+small scales, it is impossible at this stage to Philanthropic capital is financing the field 
+assess in any formal way the impact of the of mHealth Education today and models 
+current applications on health outcomes. for financial sustainability have yet to 
+This will be resolved over the next few emerge. As illustrated in Exhibit 7, the 
+years through randomized control trials majority of mHealth Education applications 
+currently being planned by Johns Hopkins, studied were financed by donors, often 
+Grameen Foundation and others. In the along with subsidies or CSR support from 
+meantime, anecdotal evidence suggests mobile operators, handset manufacturers 
+that mHealthEd applications are having or other companies. Looking forward, 
+multiple benefits. They are improving training it seems likely that the main source of 
+of healthcare workers, especially community- revenue for mHealthEd applications for 
+based workers – and there is ample evidence healthcare workers would come from sales 
+that improved training of health workers to governments and relevant educational 
+leads to improved care and better health institutions who want to offer the applications 
+outcomes. Applications for individuals are to the workers they employ or train. Some 
+increasing levels of knowledge about health applications may be able to partly or fully 
+issues among the targeted populations. finance themselves through fees (possibly 
+Mobile applications are clearly cheaper packaged with tuition and training fees), or 
+than alternative approaches to training even through advertising.
+Number of initiatives
+10
+For individuals
+9 For health workers
+8
+7
+6
+5
+4
+3
+2
+1
+0
+Donor Donor & Donor & Users Academia Donor & 
+Corporate Academia Government
+PAYER
+N = 23
+Source: Organizational websites; Dalberg interviews
+Exhibit 7: Sources of funding for mHealth Education initiatives studied.
+20
+Case Studies
+21
+Case Study – Millennium services. Despite the integral role they play 
+in MVP, they often receive little medical 
+Villages Project: continuous training, and their knowledge is rarely 
+education and refresher reinforced after training. 
+learning for community Telecommunications corporation Ericsson, 
+health workers together with mobile carriers Airtel Bharti (formerly Zain) and MTN, is working with MVP 
+to bring mobile communications and Internet 
+The Millennium Villages Project (MVP) is a access to the fourteen MVP sites in ten 
+community-led effort that aims to achieve African countries, in total reaching close to 
+the Millennium Development Goals in the half a million people. Ericsson is providing the 
+poorest, most remote places in  Sub-Saharan broadband communications infrastructure 
+Africa, and beyond, through an innovative to MVP, enabling communities to remotely 
+model. As part of the overall economic and connect with medical services, education, 
+social development plan, community health and social networks which otherwise might 
+workers, most of whom are members of the not be accessible. 
+local community, are responsible for 100-250 
+households each, conducting house visits, Ericsson, in conjunction with MVP, is also 
+using paper forms to report information, and developing locally relevant applications 
+providing routine and preventative health such as health worker training. One 
+22
+such programme is aimed at supporting modules that can be stored, particularly for 
+continuous education and refresher learning non-English versions. As content evolves, it will 
+for community health workers currently in need to be updated but this cannot be done 
+Dertu, Kenya; Mwandama, Malawi; Mbola, remotely, a challenge that will need to be 
+Tanzania; Ruhiira, Uganda; and Bonsaaso, addressed. The fact that not all phones have 
+Ghana. Content is adapted from the the Java technology required to download 
+community health worker training manual the modules could also limit the project’s 
+and converted into a file format that is reach.
+readable on a Java-enabled mobile phone. 
+The modules help to reinforce community 
+health worker learning in family planning, 
+reproductive health, care for newborns, 
+malnutrition, diarrhea, and infectious 
+diseases. Community health workers can 
+select their module of interest from a menu. 
+At the end of each module, the community 
+health workers can test their knowledge by 
+answering multiple choice questions and 
+getting immediate feedback on the answers. 
+There are also optional case studies that can 
+be used to test knowledge.
+While promoting a sustainable business 
+model and building the capacity of local 
+community communication, Ericsson also 
+aims to contribute to economic growth 
+by stimulating higher levels of education, 
+improved health services, and reduced 
+poverty. Ericsson has also included 
+environmental protection measures, using 
+renewable energy to run its network, which 
+reduces reliance on dirtier energy sources, 
+as well as reducing operating costs. The 
+Mobile Innovation Centre works closely with 
+local people to find out what is needed 
+and at what scale, increasing the centre’s 
+understanding of market dynamics among 
+the poor and across remote areas of Africa 
+around the specific technologies proven to 
+have positive social impact. 
+Initial indications show that community health 
+workers find the modules easy to access. 
+Community health workers report that having 
+a mobile reference point eliminates the need 
+to carry a heavy manual or constantly call a 
+nurse for support. Initial feedback also shows 
+that community health workers wanted more 
+quiz questions in their module-end evaluation. 
+One problem is the small storage capacity of 
+the phones, limiting the length and number of 
+23
+Case Study – TulaSalud: Nurses are now trained in rural health centres 
+using low-cost high-efficiency information 
+distance learning and communication technologies. The 
+teleconferences for nurses majority of these nursing students are themselves indigenous peoples from 
+in remote regions of remote rural communities, and they return 
+Guatemala to provide services near their homes. They speak the local languages and understand 
+the complexities of interaction between 
+More than 75% of indigenous people in traditional and Western medicine. Over time, 
+Guatemala live in poverty – a number the centres began to provide education, 
+which has not decreased despite significant training, and curative care to rural 
+increases in average incomes. Health communities on the margins of Guatemala’s 
+outcomes mirror the poverty indicators; health care system. 
+the highest maternal mortality rates are 
+found among the rural, poor, indigenous Since 2004, ENEC and TulaSalud have been 
+populations who often live in remote areas offering a community auxiliary training 
+with very limited access to healthcare. programme via distance education to 
+  indigenous students from seven departments 
+In 2003, the Guatemalan Ministry of Health of Guatemala. The students are linked for 
+and the National School of Nursing of distance training classes with their teacher 
+Cobán with the support of CIDA, and the at the nursing school through the internet 
+Tula Foundation began training culturally- provided by TulaSalud.
+appropriate healthcare workers to live, 
+study, and work with indigenous populations. 
+24
+Many of the nurses returned to their donors continue to fund the operational 
+communities and found they were asked costs of some of the training centres. To 
+to perform procedures far beyond their date, 500 new community auxiliary nurses 
+knowledge and skill levels. Those with cell have graduated from the programme, and 
+phones called their health centres or their more than 95% are working close to their 
+teachers. This sparked a new programme to home communities. ENEC is currently training 
+use TulaSalud’s community health workers, a new cohort of 450 students. The success 
+known as tele-facilitadores, to use mobile of this programme spawned a distance 
+phones to: (i) get help from doctors in education programme for certifying auxiliary 
+diagnosing and making decisions; (ii) receive nurses to become technical nurses; there are 
+calls from people in their communities currently 200 students enrolled in this 3-year 
+seeking care; (iii) organize logistics and programme. Christy Gombay from TulaSalud 
+transportation for emergencies; and (iv) refer said, “Some health centres have said that 
+patients to hospitals and follow up to ensure they are the best trained nurses they have 
+they received care. ever had because they are from those areas 
+and training by distance gives them the 
+TulaSalud is then also able to: (i) monitor practical and theoretical grounding.” 
+disease outbreaks in real time based on the 
+data aggregated from patient consultations The project is showing excellent results: 
+through EpiSurveyor, (ii) send text message community health workers have been 
+alerts and reminders to tele-facilitadores using instrumental in epidemiological surveying 
+FrontlineSMS, (iii) evaluate the productivity (for example providing training for H1N1 
+of tele-facilitadores working in the field, and early detection in 2009), community training 
+(iv) deliver remote health training via mobile- in health issues like nutrition and HIV/AIDS, 
+based audio conferencing. Christy Gombay and community-based health planning 
+from TulaSalud said, “Now everyone is talking for emergencies. Initial results have been 
+about technology. Get the right people into impressive in 2010: over 31,000 consultations 
+the right place and it will grow organically -- and more than 590 patients transferred 
+we picked students who wanted to have an to health centres, approximately 450 of 
+impact on their community.” which were high-risk pregnancies. In the 
+Department of Alta Verapaz, maternal 
+TulaSalud was initially funded by a grant mortality fell from 260 per 100,000 births in 
+from the Tula Foundation in Canada and 2006, the highest in the country, to 203 in 2010 
+from CIDA. Seeing the programme’s positive with no maternal deaths where the tele-
+results, the government started to fully facilitadores are working. 
+subsidize the fees of all teachers for these 
+auxiliary nurse students, and other local 
+25
+Case Study – AED-SATELLIFE: “The nurses were initially apprehensive at 
+the training, so we started with playing an 
+mobile health information electronic game on the phone. Only two 
+system library for healthcare weeks later they were already asking for specific and specialty guidelines that they 
+workers in South Africa needed.”
+The pilot programme was funded by the 
+Rochelle Gelandt is a registered nurse at the John M. Lloyd Foundation, Henry E. Niles 
+Livingstone Hospital Wellness Clinic in Port Foundation, and Qualcomm’s Wireless Reach 
+Elizabeth, South Africa. Due to a shortage of Initiative. Collaborating partners included the 
+doctors, the duty of providing health care to Eastern Cape Department of Health, MTN, 
+the poorest populations often falls to nurses Nelson Mandela Metropolitan University, and 
+like Gelandt. When complex cases come South Africa Partners. Once the project has 
+up, nurses need advice and information to been fully tested, AED-SATELLIFE says it would 
+decide on the appropriate response. But like to see the tool used in every hospital. 
+only 11% of South Africa’s population has “We want the hospitals to institutionalize 
+Internet access and only 1% has broadband, this and streamline the tool in the same 
+so healthcare workers, particularly in rural way they would support the purchase and 
+settings, often have no way to get online. maintenance of a microscope. There is a lot 
+Leela McCullough from AED- SATELLIFE said, of political will and support,” Berhane Gebru 
+“In a 2006 pilot project in South Africa that said. “The programme needs smartphones 
+tested the usefulness of HIV/AIDS information because of data storage needs, but with 
+on mobile devices, we found that doctors the negotiating power of the Department 
+had enough information but nurses were of Health, they can obtain them at a lower 
+hungry for it. Targeting clinical nurses in cost.”
+our 2009 project, it was clear that they 
+did not have access to most of the health According to an evaluation conducted by 
+information on the Eastern Cape Department the Nelson Mandela Metropolitan University, 
+of Health’s website.” They were thus unable 82% of nurses said they were more confident 
+look up references in real time for patient answering questions at the point of care, 
+evaluation, share information on complex and 89% indicated that their nursing practice 
+cases, and keep abreast of epidemics. was enhanced. Of the initial group of nurses, 
+68% had little or no computer training, but 
+AED-SATELLIFE designed and implemented 81% said they found it easy to find and read 
+the Mobile Health Information System content on the mobile device. The nurses 
+(MHIS) project to provide nurses at three also reported that the project generated 
+urban hospitals in Port Elizabeth with clinical a pattern of knowledge-seeking behavior 
+information on smartphones at the point and learning, with nurses increasing 
+of care. They created an electronic library communication with medical colleagues 
+of over 4,500 pages, including continuing both within South Africa and internationally 
+provider materials such as digitized South via email. All of the surveyed nurses said they 
+African medical treatment guidelines, will continue to use the Mobile Library and 
+protocols, diagnostic tools, drug formulas, tools after the pilot programme ends, and 
+and content from health journals. The 92% said they would be willing to buy their 
+MHIS Library was created using a software own mobile device to access the information
+tool called GUIDE which converts large 
+documents to an optimized format for “Since I was introduced to the device in 
+viewing on smartphones, and then loads into January 2009, I have been using it on a daily 
+the main memory of the phones and the basis – the device as well as the mobile library 
+micro-SD card for backup purposes. loaded on it,” said Gelandt. “I love that I 
+can access health information at the point 
+Through the MHIS, nurses can simply launch of care, as I do not always have the time to 
+the mobile library interface from an icon on go to the library. The device is loaded with so 
+the main screen of the smartphone. (The much relevant and interesting content that it 
+nurses were also trained to use email, SMS, is hard not to want to read more.”
+and search the Internet.) McCullough said, 
+26
+Case Study – Health “The uniqueness of HEAT and TESSA is that 
+they were developed in African countries 
+Education and Training in with the help of reviewers and the OU, versus 
+Africa (HEAT) programme being modeled on a Western curriculum,” said Long. The modules are freestanding materials 
+pilot in Ethiopia that can be integrated into existing training 
+programmes or used to create new ones, as 
+The HEAT in Africa programme aims to in Ethiopia. As open source material, they can 
+transform the way in which healthcare be taken and adapted to local needs and 
+education is delivered and in which health circumstances in other countries and regions. 
+workers are supported in communities across The access portal is easily downloaded so 
+Africa, and is currently considering ways to use the information can be printed in cases 
+mobile phones to accelerate the training of where Internet connectivity is unreliable or 
+these health workers. The pilot programme is unavailable. Since mobile coverage is poor 
+a partnership between the Ethiopian Federal in Ethiopia, the possibility of using discrete 
+Ministry of Health (FMOH), the Regional components of the training will be explored in 
+Bureaus, the UK’s Open University(OU), UNICEF, other countries.
+WHO and AMREF. As part of a national 
+programme formed at the request of the The HEAT programme in Ethiopia is being 
+Minister of Health, the programme is supporting funded through a UK£250,000 grant from 
+the FMOH’s aim to upgrade the skills of its the Ferguson Trust and a US$4 million grant 
+31,000 Health Extension Workers (HEWs) through from UNICEF, which cover the costs of the 
+“blended learning” in order to ensure that the pilot, curriculum development costs, student 
+programme can be delivered with consistent costs, tutor fees, and clinical equipment 
+quality nationwide with minimum disruption to and supplies. Once the Open University has 
+the delivery of village health services. “There is secured additional grant funding, it intends to 
+no disconnect between theory and practice. expand the programme to six more countries: 
+It’s all integrated because they do training Zambia, Tanzania, Rwanda, Ghana, Kenya 
+and work at the same time. HEWs used to be and Nigeria. Funding will go towards recruiting 
+trained at residential colleges, away from their staff to engage with governments, to adapt, 
+communities. There was significant variation update and translate material, and to support 
+in the content delivered by each of these programme planning, implementation and 
+colleges. Now the national curriculum has monitoring and evaluation.
+been standardized and most HEWs will be 
+studying in their communities, using the same The HEAT pilot was launched in the first quarter 
+high quality learning resources” said Lesley- of 2011 with 1,000 students, 100 distance 
+Anne Long, director of HEAT. learning tutors, and 100 practical skills tutors 
+from six regions of Ethiopia. There are plans 
+HEAT is modeled on the successful Teacher to add 3,000 students to the programme in 
+Education in Sub-Saharan Africa (TESSA) the second quarter of 2011, and thereafter to 
+initiative, a web portal with extensive audio register larger numbers of students until all of 
+and text materials covering the core areas the current 31,000 healthcare workers have 
+of primary education, and which is now been upgraded. Based on the success of 
+being accessed and used by nearly 400,000 TESSA, the HEAT programme is expected to 
+primary school teachers in 12 African increase the knowledge and skills of health 
+countries. Distance-learning resources to meet extension workers, help health supervisors to 
+enhanced occupational standards have been support distance education programmes, 
+developed by Ethiopian educators, supported and increase the number of experts able 
+by the Open University’s HEAT Programme to develop distance education learning 
+team. The materials are designed as open resources. Governments and other partners 
+educational resources and are freely available have already begun to show interest in 
+for anyone to access, adapt and use. adopting the programme as well as expanding 
+it to other health professionals.
+27
+Case Study – African Medical 
+The various components of learning were 
+and Research Foundation funded by Accenture (eLearning Nurse 
+(AMREF): distance learning Upgrading Programme) and the Flying Doctors Society of Africa and the Fresenius 
+for nursing registration in Foundation (AMREF Virtual Nursing School). 
+Kenya Students are required to pay the fees to the nursing institutions they are studying 
+with, and these amounts vary slightly per 
+Getting a place at one of the few nurse institution. Public institutions charge up to 
+training schools in Kenya is very difficult. Too $486 per module, while private and faith-
+many applicants vie for too few places. based organizations can charge up to $846 
+Consequently, most of Kenya’s 20,000 and $692 per module, respectively. Some 
+nurses (more than 85% in 2005) are trained employers such as Kenyatta National Hospital 
+only at certificate level and do not have a are now funding their employees. 
+Registered Nurse’s diploma. Classroom-based 
+training for the nursing diploma was limited; Between 2005 and March 2011, over 7000 
+only 100 of the 20,000 nurses could qualify students have enrolled in the eLearning 
+each year, leaving Kenya with 1 registered programme. In Kangundo Hospital, 
+nurse per 27,000 people. programme-trained nurses were reported to 
+be more motivated, knowledgeable, and 
+Anne Kamene, who was an enrolled nurse proactive. As the training programme built 
+at the Kangundo District Hospital in Kenya’s nurses’ general professional capacities (for 
+Eastern Province, said: “I tried twice but both example, by training them on computer use), 
+times I was not selected. Then in 2006, I saw they took on duties previously performed 
+an advertisement in the newspaper for a by doctors, which in turn helped doctors 
+diploma nursing course by eLearning.” focus on their own core responsibilities. The 
+work of administration was also lessened 
+AMREF, the Nursing Council of Kenya, Kenyan since the nurses need less supervision. Time 
+Ministry of Health, Accenture, and the Kenya savings are realized through fewer meetings 
+Medical Training Colleges teamed up to needed to explain procedures. The end result 
+develop a training programme that shifts the is an improvement in overall patient care. 
+emphasis from traditional classroom-based Whereas patients used to stay for up to a 
+teaching to “paper-based” distance learning month in the wards, the maximum stay is now 
+and eLearning. The partnership developed 14 days. The wards are less congested and 
+four computer-based training modules that doctors can concentrate on other patients. 
+are being delivered through more than 100 
+eLearning centres by 400 tutors and mentors Kamene said: “I [now] interact a lot with the 
+– reaching nurses in the most remote areas patients and give them more attention than I 
+of Kenya. Unlike traditional training, the used to. Even the doctors respect us. Before, 
+eLearning programme is flexible, enabling we were just there to follow instructions, but 
+students to learn anytime and anywhere, after seeing what we’re able to do, they 
+without the need to stop working while they listen to us and even consult us.”
+acquire new skills. 
+The Registrar of the Nursing Council of Kenya 
+The programme uses mobile phones to states, “We are proud of the programme, 
+provide students with academic reminders as nurse managers are reporting an 
+via text messaging, and for accessing improvement in the quality of nursing care. 
+telephone tutorials. AMREF is now testing With improved nursing care, we are confident 
+whether mobile phones can be used to of our contribution in steering our country 
+distribute selected eLearning materials to towards meeting the health-related MDGs.” 
+students via mobile phone using a Java The programme’s success in Kenya has also 
+application. led to interest in replicating it in other African 
+28
+countries. According to Dr. Peter Ngatia, already being replicated by the Ministries of 
+Director of Capacity Building for AMREF, “This Health in Uganda and Tanzania with support 
+programme is not only going to drastically from AMREF– and the impact on Africa’s 
+improve the health care of Kenya, it is health system will be enormous.”
+29
+Beyond the First Wave: How identify gaps between needs and the current 
+training and learning provided, and to pick 
+to Maximize the Potential for out the areas where there is both a gap and 
+mHealth Education a high likelihood that a mobile application could help. Likewise, new applications for 
+individuals should be targeted towards 
+Adopt a systematic approach identified critical knowledge gaps among affected populations.
+mHealth Education is only getting started, There is a wealth of content for health 
+but there is enough promise to merit a worker training and learning, but much work 
+more systematic approach to exploring needs to be done to make it suitable for 
+opportunities and developing solutions. mobile applications. Both the Millennium 
+This systematic approach should include Villages Project and FrontlineSMS noted the 
+work on needs identification, on content challenge of designing, managing, and 
+development, on standards and formats delivering content despite working from 
+for platforms, and on business models. Most preexisting community health manuals. 
+importantly, it needs to tie mHealthEd work to Given the similarities in topics about which 
+national health strategies, and especially to most healthcare workers need to learn, 
+plans for strengthening health systems and for there would be real value in a coordinated 
+developing healthcare human resources. approach to reviewing existing content, 
+validating its educational value, and 
+Initiatives to date have sought to address converting the most useful sets of materials 
+specific opportunities identified by particular into a shared meta-library with appropriate 
+organizations in particular contexts. It formats and multiple languages, so that new 
+could be useful to review existing national efforts don’t have to create new content. Of 
+healthcare human resource plans, and course, this baseline of pre-existing content 
+conduct further research on key training and would need to be refined for each country, 
+learning needs for different categories of to reflect the health priorities and country 
+healthcare workers in different countries, to context as directed by the government’s 
+health experts.
+30
+As with most technologies, there could be would, of course, have different roles to play. 
+real benefits to all from agreeing on common Governments have the responsibility in their 
+standards and formats for applications, countries to set national health strategies 
+content storage, and so on. Such standards and healthcare workforce development 
+and formats would facilitate the involvement plans, establish relevant policies to govern 
+of telecoms and education industry players, and support mHealthEd (including, for 
+who could engage with governments, NGOs example, facilitating the use of content 
+and funders to define and develop platforms. developed in other countries), and decide 
+on which mobile applications to roll-out at 
+Grants have financed the majority of scale. NGOs, content developers and mobile 
+mHealth Education applications to date, so industry companies need to collaborate to 
+there are not yet many proven models of develop applications, and also to evaluate 
+financial sustainability. A variety of paths to pilot efforts so that the most effective 
+sustainability may be possible. For mHealthEd models can be identified. Donors and 
+applications for healthcare workers, the investors are needed to provide financing 
+most likely is that government ministries or for testing and rolling-out new ideas. Mobile 
+health worker training institutions will be operators provide the capacity for voice, 
+willing to pay for mHealthEd applications text messaging and data, and can promote 
+that demonstrate the ability to enhance mHealth Education through subsidies or 
+quality significantly and/or reduce the time pricing plans which facilitate scaling up of 
+or cost to train a healthcare worker. Some mHealthEd initiatives.
+applications may be directed at students 
+interested in supporting their own learning Aim for scale
+and certification. Mobile operators or device 
+manufacturers may be willing to offer to The goals for mHealth Education must be 
+provide mHealth Education-related services ambitious. The challenges which mHealth 
+or devices for free to healthcare workers, or Education seeks to meet are great, in 
+to facilitate health information campaigns particular improving the training of 2.1 million 
+with free or low-cost rates, either as part of current healthcare workers and supporting 
+larger contracts with government or private the training of perhaps 2.6 to 3.5 million 
+healthcare institutions or as part of their new workers. And the 2015 deadline for 
+corporate social responsibility programmes. achieving the Millennium Development 
+Goals is only a few years away. The mantra 
+Promote collaboration between cited by Gustav Praekelt, whose foundation 
+actors and stakeholders developed the Young Africa Live portal, is 
+apt: “Don’t do it unless you can reach at 
+Real benefits could come from increasing least one million people”. Therefore, the focus 
+collaboration among the relevant actors should be on quick deployment of the most 
+in mHealth Education, to implement a promising innovations as part of national 
+systematic agenda along the lines of that health strategies and healthcare workforce 
+presented above, to design, develop, test development plans, on carefully selecting 
+and deploy new mHealthEd applications, any pilots based on their likelihood to be 
+and to share best practices and learnings scaled quickly, and not so much on building 
+with each other as the field develops. extensive portfolios of pilot programmes.
+The actors should include governments, 
+healthcare institutions, academia, content 
+creators, mobile operators, device 
+manufacturers, NGOs, philanthropists and 
+investors. Different members of the coalition 
+31
+List of mHealth Education Initiatives Studied
+Applications for healthcare workers
+Initiative Location Primary Partners Description
+African Medical and Kenya, Nursing Council of Kenya, AMREF is exploring the integration of 
+Research Foundation Uganda AMREF, Accenture, the mLearning into its existing eLearning 
+(AMREF): distance learning Kenya Medical Training curriculum which aims to accelerate 
+for  nurses Colleges, several private the training of nurses from certificate 
+and faith-based nursing to diploma level.  As a complement to 
+schools, Kenya Ministry of the Virtual University training, AMREF 
+Health has also developed a mobile website 
+for nurses to access information about 
+ART treatment protocols and is currently 
+piloting the use of mobile based peer-to-
+peer learning for nursing students.
+eMOCHA: electronic mo- Afghanistan, Johns Hopkins Center for In addition to data collection and com-
+bile open-source compre- Uganda, Clinical Global Health munication tools for health workers, the 
+hensive health application United States Education eMOCHA application provides multi-
+media courses and lectures (recorded 
+in MP4 format), followed by quizzes to 
+test users’ knowledge of the information. 
+Results are submitted to a central server 
+for further analysis on the impact of the 
+courses.
+ENACQKT: Enhancing Nurs- Barbados, University of Saskatchewan, ENACQKT nurses use PDAs in publicly 
+es Access for Care Quality Dominica, IDRC funded hospitals to improve care for 
+and Knowledge through Dominican patients with hypertension, diabetes, HIV 
+Technology Republic, St. and AIDS. Nurses use the PDA to access 
+Lucia, St. Kitts preloaded material including policy 
+and Nevis and procedure manuals, a medication 
+handbook, laboratory diagnostics, a 
+symptom-interpretation program, critical-
+thinking tools, and a medical calculator; 
+and they feed back data to a central 
+computer.
+FrontlineSMS: Learn Uganda Johns Hopkins Program for JHPIEGO, in partnership with Marie 
+International Education in Stopes International and Abt Associates, 
+Gynecology and Obstetrics uses FrontlineSMS, a free open source 
+(JHPIEGO), USAID-funded software, to support knowledge reten-
+SHOPS program, Abt As- tion for trained health workers. JHPIEGO 
+sociates, Marie Stopes is currently piloting the platform to 
+International prompt SMS based responses and quiz-
+zes on family planning modules after a 
+training in Uganda.
+32
+HealthLine Pakistan Carnegie Mellon Univer- The HealthLine project is an information 
+sity, Aga Khan Univer- access system for health workers, to help 
+sity Pakistan, Health and them fill gaps in their knowledge. Piloted 
+Nutrition Development in 2008, health workers can call a toll-free 
+Society (HANDS), Micro- number and learn about a variety of 
+soft Research through the topics through audio transmission in their 
+Digital Inclusion Initiative, native language.
+Siebel Scholars Foundation, 
+Pakistan-US Science and 
+Technology Cooperative 
+Program
+Health Education and Ethiopia Ethiopian Federal Ministry HEAT is a comprehensive online knowl-
+Training in Africa (HEAT) of Health, OU HEAT team, edge bank of learning resources that 
+Programme AMREF, Allan and Nesta can be freely accessed by anyone – 
+Ferguson Charitable Trust, individuals, organizations training com-
+UNICEF, WHO munity health workers and global health 
+institutions – and is currently exploring 
+the use of mLearning for distribution. 
+The materials are designed to be easily 
+downloaded for printing and distribution 
+particularly in regions where connectiv-
+ity is unreliable or not yet available. In 
+Ethiopia, HEAT delivers training for CHWs 
+across the country. 
+Millennium Villages Project Ghana, Ken- The Earth Institute at Co- The Millennium Villages Project is building 
+(MVP): continuous educa- ya, Uganda, lumbia University, Ericsson, on their existing mHealth initiatives (Child-
+tion for health workers Tanzania, Millennium Villages Project, Count+) to introduce applications that 
+Malawi Sony Ericsson create access to health manuals and 
+reinforce training on topics ranging from 
+family planning, reproductive health, 
+care for newborns, malnutrition, diarrhea 
+and infectious diseases. Questions are 
+linked to a central database where infor-
+mation can also be used for monitoring 
+and supervisory support. 
+AED-SATELLIFE: Mobile South Africa AED-SATELLIFE, Eastern AED-SATELLIFE designed a management 
+Health Information System Cape Health Department, health information system (MHIS) which 
+(MHIS) MTN, Nelson Mandela Uni- provides health workers with locally 
+versity, Qualcomm Wireless relevant, reliable and accurate clinical 
+Reach, Universal Service information at the point of care through 
+and Access Agency of smartphones pre-loaded with a library 
+South Africa (USAASA) of pertinent resources. The library of 
+information includes digitized medical 
+guidelines, protocols, diagnostic tools, 
+drug formularies and other actionable, 
+evidence-based clinical content drawn 
+from publicly available information 
+sources.
+33
+Mobile IMCI Peru DataDyne.org, Ministry of The Mobile IMCI programme sends text 
+Health in Peru, Pan Ameri- messages to nurses and community 
+can Health Organization health workers to reinforce key elements 
+(PAHO/OPS), Adventist of the IMCI curriculum. Using a series of 
+Development and Relief quizzes and follow-up tests, trainers can 
+Organization (ADRA), Zolt- determine if the reinforcement texts help 
+ner Consulting Group health professionals retain the informa-
+tion, with the expectation that better 
+informed care-givers will lead to better 
+health outcomes for children.
+Moodle Peru Institute of Tropical Medi- In a pilot study, smartphones were distrib-
+cine Alexander von Hum- uted to twenty physicians loaded with 
+boldt (IMTAvH) in Lima, Insti- a set of 3D learning scenarios simulating 
+tute of Tropical Medicine interactive clinical for a continuing medi-
+(ITM) in Antwerp, Ministry cal education program lasting three 
+of Health Peru, REACH months. A mobile educational platform 
+Initiative-Tibotec supporting learning events (Moodle) 
+tracked learning progress of participants, 
+who were assessed through multiple 
+choice mobile quizzes at the end of 
+each module. 
+TulaSalud Guatemala Ministry of Health, National TulaSalud is a Guatemalan NGO using 
+School of Nursing Coban, mLearning solutions to provide distance 
+Tula  Foundation, and the education and auxillary nurse training 
+Centre for Nursing Studies in Guatemala. TulaSalud’s goal is to 
+Canada support to Ministry of Health and the 
+National School of Nursing to improve 
+health services to the rural population, 
+using e-health and m-health. TulaSalud’s 
+programs allow students and teachers 
+to download videos onto mobile phones 
+and play back on various devices includ-
+ing televisions. Post-graduation, students 
+can continue to use the phones to 
+receive remote diagnostic and decision 
+support from urban physicians as well as 
+to conduct community learning sessions 
+with external experts. 
+34
+Applications for individuals
+Initiative Location Primary Partners Description
+General Health
+Google SMS – Health Tips Uganda Grameen Foundation, SMS based service that allows users to 
+AppLab Uganda, Google, access information on healthcare.
+MTN Uganda, Marie Stopes 
+Uganda, Straight Talk 
+Foundation
+Healthphone.org India Mother and Child Health Audio service to help communities and 
+and Education Trust health workers access information on 
+issues such as timing births, safe mother-
+hood and HIV. Information is in English 
+and 15 Indian languages.
+mDhil India mDhil Uses SMS and web to deliver interactive 
+healthcare information and daily health 
+tips on sex, fitness, diet, etc. through web 
+and mobile.
+MTN Kick Out Malaria South Africa MTN, Medical Research ‘Please Call Me’ SMS based quiz use 
+Council of South Africa, to educate the general public about 
+FIFA, Praekelt Foundation malaria.
+Wellness World India Handygo Technologies, Interactive Voice Response (IVR) and 
+Uninor, Indian Hospitals Short Messaging Service (SMS) platforms 
+including VidyaSagar to deliver daily information to Uninor sub-
+Institute of Mental Health & scribers on health-related issues.
+Neurosciences (VIMHANS), 
+GM Modi Hospital, Jaipur 
+Golden Hospital
+Sexual & reproductive health (incl. HIV/AIDS)
+Freedom HIV/AIDS India, Kenya ZMQ Systems, House of Cricket, soccer and other mobile games 
+Learning, Delhi State AIDS designed to create HIV/AIDS awareness.
+Control Society, Hivos, 
+Manufacturers Association 
+for Information Technology, 
+Mobile4Good, Reliance, 
+Times Foundation
+Project Masiluleke South Africa iTeach, Praekelt Founda- Uses ‘Please Call Me’ messages to 
+tion, Frog design, MTN provide referral to the National AIDS 
+South Africa, Pop!Tech, Helpline.
+Nokia Siemens Networks, 
+National Geographic 
+Society
+Text to Change Kenya, Text to Change, Zain, General HIV/AIDS quiz and workplace 
+Uganda AIDS Information Center in policy programme using SMS to create 
+Uganda HIV/AIDS and health awareness.
+Young Africa Live South Africa Praekelt Foundation, Voda- Mobile entertainment portal designed to 
+fone Live/Vodacom, Traffik, engage youth on topics of general and 
+Matchboxology, iTeach, sexual health.
+Cell-Life, Mindset
+35
+m4RH Kenya, Tan- Text to Change, Family Automated SMS based system that pro-
+zania Health International, Marie vides access to family planning informa-
+Stopes tion.
+Maternal & child health
+MoTeCH MobileMidwife Ghana Grameen Foundation, Java-based information service that 
+Grameen AppLab, Bill & delivers time-specific voice or text mes-
+Melinda Gates Founda- sages to pregnant mothers and their 
+tion, Columbia University's partners and families before and after 
+Mailman School of Public childbirth. MoTeCH also helps community 
+Health and the Ghana health workers to identify women and 
+Health Service newborns in their area in need of health-
+care services and automate the process 
+of tracking patients who have received 
+care.
+Text4Baby United States National Healthy Mothers, SMS based mobile information service 
+Healthy Babies Coalition designed to promote maternal and child 
+(HMHB), Voxiva, CTIA - The health. 
+Wireless Foundation and 
+WPP, Johnson & Johnson, 
+WellPoint, Pfizer, CareFirst, 
+BlueCross BlueShield, White 
+House Office of Science 
+and Technology Policy, US 
+Department of Health & 
+Human Services, US Depart-
+ment of Defense Military 
+Health System, BabyC-
+enter, Danya International, 
+Syniverse Technologies, 
+Keynote Systems, George 
+Washington University, MTV
+36
+List of Interviews Conducted
+Name Title/Responsibility Organization 
+Aker, Jenny Assistant Professor of Development Fletcher School, Tufts University Centre for 
+Economics & non-resident Fellow Global Development, 
+Centre for Global Development Fellow Project ABC, Niger
+Banks, Ken Founder Kiwanja.net & FrontlineSMS 
+BonTempo, James Learning Technology Advisor Johns Hopkins Program for International 
+Education in Gynaecology and Obstetrics 
+(JHPIEGO),  
+D'Elia, Nicola mApps and Innovation Manager GSMA Development Fund
+Das Gupta, Trina mWomen Programme Director GSMA Development Fund 
+Gebru, Berhane Director of Programmes AED-SATELLIFE
+Gombay, Christy Director TulaSalud 
+Hellström, Johan PhD student; Author of SIDA mLearning University of Stockholm
+Report 
+Jacobs, Rachel Consultant (former Director of Strategy Lead Growth and Innovation (Mc Graw Hill)
+and Planning ) 
+Kaonga, Nadi mHealth Programme Associate Millennium Villages, Earth Institute, Colum-
+bia University
+Keisling, Kelly Coordinator mHealth Working Group (formerly Johns 
+Hopkins) 
+Kelly, Tim Lead ICT Policy Specialist InfoDev 
+Ladd, Holly Vice President and Centre Director AED-SATELLIFE
+Long, Lesley-Anne Director of Health Education and Train- Open University 
+ing (HEAT) Programme
+Manzur, Omar Director Public Relations & Corporate Mobilink 
+Social Responsibility
+Mbindyo, Caroline eLearning Programme Manager Africa Medical Research and Foundation 
+(AMREF)
+McCullough, Leela Director of Information Services AED-SATELLIFE
+Mechael, Patricia Director of Strategic Application of Mo- Millennium Villages Project, Earth Institute, 
+bile Technology for Public Health and Columbia University
+Development
+Neethling, Marcha Head of Operations Praekelt Foundation 
+Qiang, Christine Lead Economist (ICT) World Bank 
+Riahi, Sep Digital Media at Sesame Workshop Sesame Street
+Smith, Clive Director of Global Operations mHealth Alliance 
+Trucano, Mike Senior ICT and Education Policy Special- InfoDev/World Bank
+ist
+van Beijma, Hajo Founder TexttoChange 
+Vanska, Riitta Senior Manager, Mobile and Learning Nokia 
+Solutions 
+Vedula, Indrani Project Manager Mobile and Immersive Learning for Literacy 
+in Emerging Economies (MILLEE )
+Voosloo, Steve Mobile Impact Evangelist mLab Southern Africa (former Shuttleworth 
+Foundation Fellow) 
+37
+Walji, Aliya Operations Manager (Former Technical Jacaranda Health 
+Programme Manager ) (Grameen Foundation )
+Warman, Ken Senior Programme Officer Bill and Melinda Gates Foundation 
+Wilson, Damian Public Affairs and Media Relations BBC World Services Trust (Janala)
+Manager
+Zeigler, Jessica Programme Coordinator Worldreader 
+38
+References
+Accenture and AMREF. Nursing ELearning in Kenya. Business in the Community. 
+Web <http://www.bitc.org.uk/global/millennium_development_goals/mdgs_case_studies/accenture_and_
+amref.html>.
+AED SATELLIFE and the Nelson Mandela Metropolitan University. Final evaluation study of the Mobile Health 
+Information System Project. 2011.
+Africa Medical Research and Foundation (AMREF), Training 20000 nurses in Kenya - AMREF. 
+Web <http://amref.org>.
+Article 13. CSR, Sustainability & Governance Consultants. 
+Web <http://www.article13.com/A13_ContentList.asp?strAction=GetPublication>.
+Article 13. “Ericsson - Telecommunications for Millennium Villages—Connectivity and CSR” in CSR Case Study 
+Series (Oct 2009). Print.
+Begum SF. “Role of TBAs in improving maternal and neonatal health in Bangladesh: a long-term programme 
+need” in High risk mothers and newborns. Ott Publishers, 1987.
+Bhavsar, Mohini. “Up Close and Personal with TulaSalud’s M-Health Work in Guatemala” on MobileActive.org. 
+Web <http://www.mobileactive.org/case-studies/close-and-personal-tulasaluds-m-health-work-guatemala>.
+Bhutta, Zulfiqar A., Zohra S. Lassi, George Pariyo, and Luis Huicho. Global experience of community health workers 
+for the delivery of health related Millennium Development Goals: A systematic review, country case studies, and 
+recommendations for integration into national health systems. WHO and Global Health Workforce Alliance, 2008.
+Business Leaders Initiative on Human Rights. The Millennium Development Goals and human rights: Companies 
+taking a rights-aware approach to development. 2010.
+Boakye, Kojo, Nigel Scott, and Claire Smyth. Mobiles for development. UNICEF, 2010.
+Dalberg and the World Bank. Study on Mobile Applications for the Health Sector. 2011.
+DiMagi. CommCare – Community health mobile platform. 
+Web <http://www.dimagi.com/commcare/>.
+DiMagi. “DiMagi CommCare” on MobileActive.org. 
+Web <http://www.mobileactive.org/tagging/dimagi>.
+Ericsson. Ericsson Monitoring and Evaluation Report.  2010. 
+Web <http://www.ericsson.com/res/thecompany/docs/corporate- responsibility/2010/MVP_M_&_E_Final_Report_
+August_31_2010.pdf>.
+Fauveau V, Stewart K, Khan SA, Chakraborty J. “Effect on mortality of community-based maternity- care 
+programme in rural Bangladesh” in Lancet 1991; 338:1183-1186.
+GSMA Development Fund. MLearning: A Platform for Educational Opportunities at the Base of the Pyramid. 2010.
+Heatwole, Anneryan. “GUIDE: Getting medical information into the hands of community health workers” on 
+MobileActive.org. 
+Web <http://www.mobileactive.org/case-studies/guide-getting-medical-information-hands-community-health-
+workers>.
+Hellström, Johan. “The Innovative Use of Mobile Applications in East Africa” in Sida Review 2010:12.
+iheed Institute. MHealthEd. Web <http://mhealthed.org/>.
+International Telecommunication Union. Information Society Statistical Profiles 2009: Africa. 2009.
+International Telecommunication Union. The World in 2010: ICT Facts and Figures. 2010.
+39
+International Telecommunication Union and the French Ministry of Foreign and European Affairs. 
+Innovative ways of appropriating mobile telephony in Africa. 2010.
+Kinfua, Yohannes et al. “The health worker shortage in Africa: are enough physicians and nurses being trained?” 
+in Bulletin of the World Health Organization 2009, 87:225-230.
+McKinsey and Company. Addressing Africa’s Health Workforce Crisis. 2007.
+Medecins Sans Frontieres UK. “Retaining Health Workers: the Basics - News - MSF UK.” 24 May 2007. 
+Web. <http://www.msf.org.uk/Retaining_health_workers_the_basics.news>.
+Open University. “OU in Africa teaching & education the HEAT (Health Education and Training) Project” on 
+Distance Learning Courses and Adult Education - The Open University. 
+Web <http://www.open.ac.uk/africa/HEAT_project.shtm>.
+OpenLearn LabSpace. Web <http://labspace.open.ac.uk/>.
+OpenLearn LabSpace. ”Case Study AMREF.” 
+Web <http://labspace.open.ac.uk/file.php/5730/Case_studies/Case_Study-AMREF_eLearning_for_Nurses_
+Upgrading.pdf>
+OpenLearn LabSpace. ”Case study HEAT.” 
+Web <http://labspace.open.ac.uk/file.php/5730/Case_studies/Case_Study-OU_HEAT.pdf>
+Puri, Jyotsna, et al.  “A study of connectivity in Millennium Villages in Africa” posted on MobileActive.org. 1 Dec 
+2010.
+Web <http://www.mobileactive.org/research/study-connectivity-millennium-villages-africa>.
+Qualcomm. “Wireless Reach South Africa case study.” 
+Web <http://www.qualcomm.com/documents/wireless-reach-south-africa-case-study>.
+Rawe, Kathryn. Missing Midwives. Save the Children, 2011.
+Ronsmans C, Vanneste AM, Chakraborty J, Ginneken JV. “Decline in maternal mortality in Matlab, Bangladesh: a 
+cautionary tale” in Lancet 1997; 350:1810-1814. 
+Shambora, Jessica. “Treating patients with a cell phone” on Business, Financial, Personal Finance News - 
+CNNMoney.com. 29 Dec 2008. 
+Web <http://money.cnn.com/2008/12/26/technology/mobile_health.fortune/>.
+Taskforce on International Innovative Financing for Health Systems. More Money for Health and More Health for 
+the Money. March 2009.
+Taskforce on International Innovative Financing for Health Systems. Working Group 1: Technical Report: 
+Constraints to Scaling Up and Costs. 15 June 2009.
+Tula Foundation. Organization website <http://www.tula.org>.
+TulaSalud. Organization website <http://www.tulasalud.org>.
+Wittcoff, Alison, and Lauren Crigler. Measuring Engagement of Community Health Workers to Improve 
+Productivity, Retention and Quality of Care. USAID HCI Project, 2010.
+World Bank ICT Division. The Role of Mobile Phones in Sustainable Rural Poverty Reduction. 2008.
+World Health Organization. Working Together for Health. World Health Report, 2006.
+World Health Organization, Global Health Workforce Alliance. Global Experience of Community Health Workers 
+for Delivery of Health Related Millennium Development Goals: A Systematic Review, Country Case Studies, and 
+Recommendations for Integration into National Health Systems. 2010.
+World Health Organization, Global Health Workforce Alliance. Scaling Up, Saving Lives: Task Force for Scaling Up 
+Education and Training for Health Workers. 2008.
+40
+In the Information Age, no child should suffer 
+due to a lack of access to health information.
+41
+www.iheed.org
+42
+43
+t +353 25 52200
+f +353 25 86885
+e info@iheed.org
+www.iheed.org
+iheed Institute, Cork, Ireland.
+44

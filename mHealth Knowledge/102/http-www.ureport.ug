@@ -1,0 +1,2031 @@
+<!doctype html>
+
+
+<head>
+  <meta charset='utf-8'>
+  <title>
+    
+      U-Report
+    
+    
+      &nbsp;
+    
+  </title>
+  <meta name='description' content=''>
+  <meta name='author' content=''>
+
+  
+  <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+  <!--[if lt IE 9]>
+    <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+  <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+
+  <!-- Place favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+  <link rel='icon' type='image/x-icon' href='/sitestatic/img/favicon.png'>
+
+  <style type='text/css'>
+    @font-face {
+      font-family: UreportHeadlineFont;
+      
+        src: url('/sitestatic/fonts/Montserrat-Bold.ttf');
+      
+    }
+    
+    @font-face {
+      font-family: UreportTextFont;
+      
+        src: url('/sitestatic/fonts/RobotoSlab-Regular.ttf');
+      
+    }
+    
+    @font-face {
+      font-family: UreportSmallTextFont;
+      
+        src: url('/sitestatic/fonts/DroidSerif.ttf');
+      
+    }
+  </style>
+  
+    
+      <link rel="stylesheet" href="/sitestatic/CACHE/css/output.cfc65948b2af.css" type="text/css" />
+    
+  
+  
+    <style type='text/css'>
+      .primary-color,
+      .dropdown-menu > li > a.primary-color,
+      a.primary-color {
+        color: #FF8200;
+        border-color: #FF8200;
+      }
+      
+      .secondary-color,
+      .dropdown-menu > li > a.secondary-color,
+      a.secondary-color {
+        color: ;
+      }
+      
+      .public-nav .public-nav-ul li.level1.active ul li a:hover,
+      .public-nav .public-nav-ul li.level1.open ul li a:hover,
+      .level1 > .dropdown-menu > li > a:hover,
+      .level1 > .dropdown-menu > li > a:focus {
+        background-color: #FF8200;
+        background-image: none;
+      }
+      
+      .primary-bg-color {
+        background-color: #FF8200;
+      }
+      
+      .secondary-bg-color {
+        background-color: ;
+      }
+      
+      .primary-border-color {
+        border-color: #FF8200 !important;
+      }
+      
+      .secondary-border-color {
+        border-color:  !important;
+      }
+      
+      .pattern-bg {
+        
+          
+            background: #bc9980;
+          
+        
+      }
+      
+      .banner {
+        
+          
+            background-image: url(/sitestatic/img/default_banner_bg.png);
+          
+        
+      
+        
+      
+      }
+      
+      
+        .poll-category-1 .category-bar {
+          background-color: #FFD100;
+        }
+      
+        .poll-category-1 .category-percent {
+          color: #FFD100;
+        }
+      
+      
+        .poll-category-2 .category-bar {
+          background-color: #1F49BF;
+        }
+      
+        .poll-category-2 .category-percent {
+          color: #1F49BF;
+        }
+      
+      
+        .poll-category-3 .category-bar {
+          background-color: #FFD100;
+        }
+      
+        .poll-category-3 .category-percent {
+          color: #FFD100;
+        }
+      
+      
+        .poll-category-4 .category-bar {
+          background-color: #1F49BF;
+        }
+      
+        .poll-category-4 .category-percent {
+          color: #1F49BF;
+        }
+      
+      
+        .poll-category-5 .category-bar {
+          background-color: #FFD100;
+        }
+      
+        .poll-category-5 .category-percent {
+          color: #FFD100;
+        }
+      
+      
+        .poll-category-6 .category-bar {
+          background-color: #1F49BF;
+        }
+      
+        .poll-category-6 .category-percent {
+          color: #1F49BF;
+        }
+      
+      
+      
+      .hide-global-org {
+        
+      }
+    </style>
+  
+  
+  
+  
+  
+  
+
+
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+  <style type='text/css'>
+    .banner-bg {
+        
+      }
+    
+    
+    .content {
+      background-color: rgba(255, 255, 255, 0.7);
+      font-family: UreportTextFont;
+      font-size: 14pt;
+    }
+    
+    div.jqcloud {
+      background-color: #fff;
+      font-family: UreportHeadlineFont;
+    }
+    
+    div.jqcloud span.w10 {
+      background-color: rgba(255, 130, 0, 1);
+      color: #fff;
+    
+    }
+    
+    div.jqcloud span.w9 {
+      background-color: rgba(255, 130, 0, 0.9);
+      color: #fff;
+    }
+    
+    div.jqcloud span.w8 {
+      background-color: rgba(255, 130, 0, 0.8);
+      color: #fff;
+    }
+    
+    div.jqcloud span.w7 {
+      background-color: rgba(255, 130, 0, 0.7);
+      color: #fff;
+    }
+    
+    div.jqcloud span.w6 {
+      background-color: rgba(255, 130, 0, 0.6);
+      color: #fff;
+    }
+    
+    div.jqcloud span.w5 {
+      background-color: rgba(255, 130, 0, 0.5);
+      color: #FF8200;
+    }
+    
+    div.jqcloud span.w4 {
+      background-color: rgba(255, 130, 0, 0.4);
+      color: #FF8200;
+    }
+    
+    div.jqcloud span.w3 {
+      background-color: rgba(255, 130, 0, 0.3);
+      color: #FF8200;
+    }
+    
+    div.jqcloud span.w2 {
+      background-color: rgba(255, 130, 0, 0.2);
+      color: #FF8200;
+    }
+    
+    div.jqcloud span.w1 {
+      background-color: rgba(255, 130, 0, 0.1);
+      color: #FF8200;
+    }
+  </style>
+
+  <style type='text/css'>
+     .fb-messengermessageus {
+       line-height: 16px;
+       margin-bottom: 5px;
+     }
+    
+     .poll-map {
+       height: 300px;
+       width: 100%;
+     }
+    
+     .admin-name {
+       font-size: 18px;
+       margin-top: 10px;
+       margin-bottom: 5px;
+       font-family: UreportHeadlineFont;
+     }
+    
+     .leaflet-container {
+       background: #fff;
+     }
+    
+     .leaflet-container .legend {
+       line-height: 13px;
+       color: #555;
+       font-size:10px;
+     }
+    
+     .leaflet-container .legend i {
+       width: 13px;
+       height: 13px;
+       float: left;
+       margin-right: 8px;
+       opacity: 0.7;
+     }
+    
+     .leaflet-container .info {
+       color: #000;
+     }
+    
+     .top-border {
+       border-top: 1px solid #000;
+       margin-top: 5px;
+     }
+    
+     .info-count {
+       font-size: 18px;
+       padding-right: 10px;
+       line-height: 100%;
+     }
+    
+     .info-tiny {
+       font-size: 9px;
+       padding-right: 10px;
+       line-height: 80%;
+     }
+    
+     .info-percentage {
+       font-size: 22px;
+       line-height: 100%;
+     }
+    
+     .top-color {
+       color: rgb(0,104,55);
+     }
+    
+     .other-color {
+       color: rgb(165,0,38);
+     }
+    
+     .leaflet-container .info {
+       margin-top: 5px;
+       margin-left: 5px;
+     }
+    
+    .hero-container {
+       
+       
+         background-image:url('https://dl-ureport.s3.amazonaws.com/cache/90/93/90936c84bee69bb9636dcac3d52481f6.jpg');
+       
+       
+     }
+    
+    .hero-small-background {
+       
+       
+         background-image:url('https://dl-ureport.s3.amazonaws.com/cache/38/bd/38bd866b60b6dff64bd77f509e22feb7.jpg');
+       
+       
+     }
+  </style>
+
+
+  
+</head>
+<body class='pattern-bg'>
+  <div id='fb-root'></div>
+  
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '1069755359751320',
+          autoLogAppEvents: true,
+          xfbml      : true,
+          version    : 'v3.2'
+        });
+      };
+    </script>
+
+    <div class="fb-customerchat"
+      page_id="366396850138755"
+      logged_in_greeting="Hi! Welcome to U-Report, chat to register and start speaking out today!"
+      logged_out_greeting="Hi! Welcome to U-Report, chat to register and start speaking out today!">
+    </div>
+
+  
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
+    fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+
+  
+    
+  
+  
+    
+      <header role='banner' class='ureport-header-navbar ureport-public-navbar navbar navbar-static-top' id='ureport-public-navbar'>
+        <div class='container'>
+          <div class='navbar-header'>
+            <a href='/' class='navbar-brand' id='brand'>
+              
+                
+                <img src='https://dl-ureport.s3.amazonaws.com/cache/88/31/88311494c016c9bd1fe528d1f441a75a.png' alt='Uganda' class='logo'>
+                
+
+              
+            </a>
+          </div>
+          
+            <nav role='navigation' class='collapse navbar-collapse navbar-right public-nav' id='ureport-public-navbar-collapse'>
+              <ul class='nav navbar-nav public-nav-ul'>
+                
+                
+                <li class=' level1'>
+                  <a href='/about/' class='primary-color'>
+                    About
+
+                  </a>
+                </li>
+                <li class=' level1'>
+                  <a href='/polls/' class='primary-color'>
+                    Polls
+
+                  </a>
+                </li>
+                <li class=' level1'>
+                  <a href='/stories/' class='primary-color'>
+                    Stories
+
+                  </a>
+                </li>
+                <li class=' level1'>
+                  <a href='/ureporters/' class='primary-color'>
+                    U-Reporters
+
+                  </a>
+                </li>
+                
+                <li class=' level1'>
+                  <a href='/join/' class='primary-color'>
+                    Join & Engage
+
+                  </a>
+                </li>
+
+              </ul>
+            </nav>
+          
+        </div>
+      </header>
+    
+  
+  <div class='jumbotron' id='hero'>
+    
+  
+    
+      <div class='hero-container'>
+        <div style='height: auto;' class='hero-dark-container'>
+          <div class='container'>
+            <div class='hero-small-background'></div>
+            <div class='row'>
+              <div class='col-sm-7'>
+                <div class='hero-dark-content'>
+                  <div class='hero-title hero-top-title primary-bg-color'>
+                    CURRENT POLL
+                  </div>
+                  <div class='hero-description'>
+                    Online Bullying / Cyber bullying 2019
+
+                  </div>
+                  <div class='hero-facebook-message-us-button'>
+                    
+                      <div class="fb-messengermessageus" messenger_app_id="1069755359751320" page_id="366396850138755" color="blue" size="large" ></div>
+
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class='hero-stats-container'>
+          <div class='container'>
+            <div class='row'>
+              <div class='col-sm-offset-7 col-sm-5'>
+                <div class=' index-current-poll-stats card card-padding'>
+                  <div class='hr-header primary-color'>
+                    RESPONSE RATE
+                  </div>
+                  <div class='stats'>
+                    4%
+                    <span class='stats-small'>
+                      (4,981
+                      Responded out of
+                      126,897)
+
+                    </span>
+                  </div>
+                  
+                    
+                      <div class='hr-header primary-color'>
+                        RESPONDER'S RATE BY LOCATION
+                      </div>
+                      <div class='stats'>
+                        <table class='regions'>
+                          <tr>
+                            <td colspan='5' class='region-key'>
+                              Most responded
+
+                            </td>
+                          </tr>
+                          <tr style='postion: relative'>
+                            
+                              <td class='region-bar-cell'>
+                                <div class=' region-bar-container'>
+                                  <div class='region-percentage'>
+                                    7%
+
+                                  </div>
+                                  
+                                  <div style='height:7%;' class='region-bar primary-bg-color'></div>
+                                </div>
+                              </td>
+                            
+                              <td class='region-bar-cell'>
+                                <div class=' region-bar-container'>
+                                  <div class='region-percentage'>
+                                    8%
+
+                                  </div>
+                                  
+                                  <div style='height:8%;' class='region-bar primary-bg-color'></div>
+                                </div>
+                              </td>
+                            
+                              <td class='region-bar-cell'>
+                                <div class=' region-bar-container'>
+                                  <div class='region-percentage'>
+                                    8%
+
+                                  </div>
+                                  
+                                  <div style='height:8%;' class='region-bar primary-bg-color'></div>
+                                </div>
+                              </td>
+                            
+                              <td class='region-bar-cell'>
+                                <div class=' region-bar-container'>
+                                  <div class='region-percentage'>
+                                    7%
+
+                                  </div>
+                                  
+                                    <div style='height:7%;' class='region-bar-light'></div>
+                                  
+                                  <div style='height:7%;' class='region-bar primary-bg-color'></div>
+                                </div>
+                              </td>
+                            
+                              <td class='region-bar-cell'>
+                                <div class='last-region region-bar-container'>
+                                  <div class='region-percentage'>
+                                    7%
+
+                                  </div>
+                                  
+                                    <div style='height:7%;' class='region-bar-light'></div>
+                                  
+                                  <div style='height:7%;' class='region-bar primary-bg-color'></div>
+                                </div>
+                              </td>
+                            
+                          </tr>
+                          <tr>
+                            
+                              <td class=' region-name'>
+                                Kampala
+
+                              </td>
+                            
+                              <td class=' region-name'>
+                                Wakiso
+
+                              </td>
+                            
+                              <td class=' region-name'>
+                                Jinja
+
+                              </td>
+                            
+                              <td class=' region-name'>
+                                Mukono
+
+                              </td>
+                            
+                              <td class='last-region region-name'>
+                                Iganga
+
+                              </td>
+                            
+                          </tr>
+                          <tr>
+                            
+                              <td class=' region-registered'>
+                                <div>
+                                  
+                                  836 of 10,640
+                                  
+
+
+                                </div>
+                              </td>
+                            
+                              <td class=' region-registered'>
+                                <div>
+                                  
+                                  644 of 7,949
+                                  
+
+
+                                </div>
+                              </td>
+                            
+                              <td class=' region-registered'>
+                                <div>
+                                  
+                                  226 of 2,723
+                                  
+
+
+                                </div>
+                              </td>
+                            
+                              <td class=' region-registered'>
+                                <div>
+                                  
+                                  181 of 2,335
+                                  
+
+
+                                </div>
+                              </td>
+                            
+                              <td class='last-region region-registered'>
+                                <div>
+                                  
+                                  135 of 1,867
+                                  
+
+
+                                </div>
+                              </td>
+                            
+                          </tr>
+                        </table>
+                      </div>
+                    
+                  
+                  
+                    <div class='hr-header primary-color'>
+                      TRENDING WORDS
+                    </div>
+                    <div class='stats'>
+                      18, abundant, achild, actions, adnansamuelz
+
+                    </div>
+                  
+                  
+                    
+                      <div class='hr-header primary-color'>
+                        FEATURED RESPONSES
+                      </div>
+                      <div class='stats'>
+                        <div data-ride='carousel' class='carousel slide' id='current-poll-featured-response-carousel'>
+                          <ol class='carousel-indicators'>
+                            
+                              <li data-target='#current-poll-featured-response-carousel' data-slide-to='1' class='active'></li>
+                            
+                              <li data-target='#current-poll-featured-response-carousel' data-slide-to='2' class=''></li>
+                            
+                              <li data-target='#current-poll-featured-response-carousel' data-slide-to='3' class=''></li>
+                            
+                          </ol>
+                          <div class='carousel-inner'>
+                            
+                              <div class='active item'>
+                                Through practicing talks to young people in schools about cyber bullying By setting up social platform connected with police, through which victims can report culprits
+
+                              </div>
+                            
+                              <div class=' item'>
+                                There are very many factors in which dat act can be stopped but to site out the primary one is to teach parents how to rise children with good morals for better generation that what I think
+
+                              </div>
+                            
+                              <div class=' item'>
+                                I suggest dat the internet companies should come up with a device dat detects any one who abuses or bullies some one online then design a way of tracking dat person or block the person permanently
+
+                              </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    
+                  
+                </div>
+                <a href='/poll/3622/' class='hero-link primary-bg-color'>
+                  View full results
+                  &#8594;
+
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+  
+  
+    
+  
+
+
+  
+
+
+  </div>
+  
+    
+      <div class='banner'>
+        JOIN U-REPORT BY TEXTING THE WORD &quot;JOIN&quot; TO 8500!  YOUR VOICE MATTERS!
+
+      </div>
+    
+  
+  <div class='container'>
+    
+      <div class='content'>
+        
+          
+        
+        
+
+        
+
+        
+  
+    <div class='section'>
+      <h1 class='level-1-title'>
+        U-REPORTERS IN
+        UGANDA
+      </h1>
+      <div class='level-1-title-description secondary-color'></div>
+      <div class='card card-padding'>
+        <div class='row'>
+          <div class='col-md-4'>
+            <div class='hr-header primary-color'>
+              TOTAL # OF U-REPORTERS
+            </div>
+            <div class='reporters-count'>
+              
+                397,905
+              
+            </div>
+            
+              <div class='hr-header primary-color'>
+                4 MOST ACTIVE REGIONS
+              </div>
+              <div class='most-active-regions'>
+                Kampala, Arua, Wakiso, Gulu
+
+              </div>
+            
+          </div>
+          
+          
+            <div class='col-md-4'>
+              <div class='hr-header primary-color'>
+                RATE BY GENDER
+              </div>
+              <div class='gender-stats'>
+                <table class='gender'>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <div class='icon-gender primary-color'>
+                          <div class='glyph icon-Icon-02'></div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class='primary-border-color percentage-gender' id='male-percentage'>
+                          <span>66%</span>
+                        </div>
+                        <div class='summary-gender' id='male-summary'>
+                          133,077
+
+                        </div>
+                      </td>
+                      <td class='female-gender'>
+                        <div class='icon-gender primary-color'>
+                          <div class='glyph icon-Icon-01'></div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class='primary-border-color percentage-gender' id='female-percentage'>
+                          <span>34%</span>
+                        </div>
+                        <div class='summary-gender' id='female-summary'>
+                          68,694
+
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class='col-md-4'>
+              <div class='hr-header primary-color'>
+                RATE BY AGE
+              </div>
+              <div class='age-stats' id='age-chart'></div>
+            </div>
+          
+        </div>
+      </div>
+    </div>
+  
+  <hr class='aaa'>
+  <div class='section'>
+    <h1 class='level-1-title'>
+      WHAT U-REPORTERS ARE SAYING
+    </h1>
+    <div class='level-1-title-description secondary-color'></div>
+    
+      <div id='brick-container'>
+        
+          <div data-priority='4' class='brick hide-on-small video-brick size11'>
+            <div class='brick-inner'>
+              <div class='brick-title primary-bg-color'>
+                FEATURED VIDEO
+              </div>
+              <div style='padding: 0px; width: 100%; height:325px; bottom:40px;' class='brick-content'>
+                <iframe width='100%' height='100%' src='//www.youtube.com/embed/hLmPPVw-8DA&amp;feature=em-upload_owner?rel=0&autohide=1&showinfo=0' frameborder='0'></iframe>
+              </div>
+              <a href='https://www.youtube.com/watch?v=hLmPPVw-8DA&amp;feature=em-upload_owner' class='brick-link'>
+                Watch more videos
+                &#8594;
+
+              </a>
+            </div>
+          </div>
+        
+          <div data-priority='3' class='brick hide-on-small video-brick size11'>
+            <div class='brick-inner'>
+              <div class='brick-title primary-bg-color'>
+                FEATURED VIDEO
+              </div>
+              <div style='padding: 0px; width: 100%; height:325px; bottom:40px;' class='brick-content'>
+                <iframe width='100%' height='100%' src='//www.youtube.com/embed/Zhfh70NAsLI?rel=0&autohide=1&showinfo=0' frameborder='0'></iframe>
+              </div>
+              <a href='https://www.youtube.com/watch?v=Zhfh70NAsLI' class='brick-link'>
+                Watch more videos
+                &#8594;
+
+              </a>
+            </div>
+          </div>
+        
+          <div data-priority='2' class='brick hide-on-small video-brick size11'>
+            <div class='brick-inner'>
+              <div class='brick-title primary-bg-color'>
+                FEATURED VIDEO
+              </div>
+              <div style='padding: 0px; width: 100%; height:325px; bottom:40px;' class='brick-content'>
+                <iframe width='100%' height='100%' src='//www.youtube.com/embed/UnYQzjbUum8?rel=0&autohide=1&showinfo=0' frameborder='0'></iframe>
+              </div>
+              <a href='https://www.youtube.com/watch?v=UnYQzjbUum8' class='brick-link'>
+                Watch more videos
+                &#8594;
+
+              </a>
+            </div>
+          </div>
+        
+          <div data-priority='3' class='brick hide-on-small video-brick size11'>
+            <div class='brick-inner'>
+              <div class='brick-title primary-bg-color'>
+                FEATURED VIDEO
+              </div>
+              <div style='padding: 0px; width: 100%; height:325px; bottom:40px;' class='brick-content'>
+                <iframe width='100%' height='100%' src='//www.youtube.com/embed/BIEuQcW3Oj0?rel=0&autohide=1&showinfo=0' frameborder='0'></iframe>
+              </div>
+              <a href='https://www.youtube.com/watch?v=BIEuQcW3Oj0' class='brick-link'>
+                Watch more videos
+                &#8594;
+
+              </a>
+            </div>
+          </div>
+        
+          <div data-priority='2' class='brick hide-on-small video-brick size11'>
+            <div class='brick-inner'>
+              <div class='brick-title primary-bg-color'>
+                FEATURED VIDEO
+              </div>
+              <div style='padding: 0px; width: 100%; height:325px; bottom:40px;' class='brick-content'>
+                <iframe width='100%' height='100%' src='//www.youtube.com/embed/nrJBqQqYVdQ?rel=0&autohide=1&showinfo=0' frameborder='0'></iframe>
+              </div>
+              <a href='https://www.youtube.com/watch?v=nrJBqQqYVdQ' class='brick-link'>
+                Watch more videos
+                &#8594;
+
+              </a>
+            </div>
+          </div>
+        
+        
+
+        
+
+        
+        <div data-priority='3' class='brick hide-on-small facebook-brick size12'>
+          <div class='brick-inner'>
+            <div class='brick-title facebook-bg-color'>
+              FACEBOOK
+            </div>
+            <div class='brick-content'>
+              <div style='padding: 40px 0px 10px 0px; max-width:98%; overflow:hidden;' class='brick-align'>
+                <div data-href='https://www.facebook.com/UReportUganda/' data-width='315' data-height='630' data-colorscheme='light' data-show-faces='false' data-header='false' data-stream='true' data-show-border='false' class='fb-like-box'></div>
+              </div>
+            </div>
+          </div>
+          <a href='https://www.facebook.com/UReportUganda/' class='facebook-bg-color brick-link'>
+            View more stories on Facebook
+            &#8594;
+          </a>
+        </div>
+        
+
+        
+
+        
+        <div data-priority='3' class='brick hide-on-small twitter-brick size12'>
+          <div class='brick-inner'>
+            <div class='brick-title twitter-bg-color'>
+              TWITTER
+
+            </div>
+            <div class='brick-content'>
+              <div style='padding: 50px 10px;' class='brick-align'>
+                <a href='https://twitter.com/UReportUganda' data-show-count='true' data-lang='en' class='twitter-follow-button'></a>
+                <a href='https://twitter.com/UReportUganda' width='340px' height='600px' data-chrome='noheader nofooter' data-link-color='#4aaad4' class='twitter-timeline'></a>
+              </div>
+            </div>
+            <a href='https://twitter.com/UReportUganda' class='brick-link'>
+              Read more tweets on Twitter
+              &#8594;
+            </a>
+          </div>
+        </div>
+        
+
+        
+        <div data-priority='4' class='brick hide-on-small news-brick size12'>
+          <div class='brick-inner'>
+            <div class='brick-title primary-bg-color'>
+              NEWS FEED
+            </div>
+            <div class='brick-content'>
+              <div class='brick-align news-list-align'>
+                <div class='brick-news-list'></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+        
+          <div data-priority='4' class='brick story-brick size11'>
+            <div class='brick-inner'>
+              <div class='brick-title primary-bg-color float-left'>
+                STORY
+              </div>
+              <div style='bottom:0;' class='brick-content'>
+                <div class='brick-short-story-image'>
+                  
+                    
+                    <img width="100%" height="100%" src="https://dl-ureport.s3.amazonaws.com/cache/e0/d8/e0d8021fe2b192de56a9f50fe22ab640.jpg" />
+                    
+                  
+                </div>
+              </div>
+              <div class='brick-short-story-title'>
+                U-Reporters fostering positive change on FGM
+              </div>
+              <div class='brick-short-story-date'>
+                June 6, 2016
+              </div>
+              <a href='/story/281/' class='brick-link'>
+                Read full story
+                &#8594;
+
+              </a>
+            </div>
+          </div>
+        
+          <div data-priority='4' class='brick story-brick size11'>
+            <div class='brick-inner'>
+              <div class='brick-title primary-bg-color float-left'>
+                STORY
+              </div>
+              <div style='bottom:0;' class='brick-content'>
+                <div class='brick-short-story-image'>
+                  
+                    <img height='100%' src='/sitestatic/img/missing_image_placeholder.jpg'>
+
+                  
+                </div>
+              </div>
+              <div class='brick-short-story-title'>
+                U-Report gave me the skills to create my own business!
+              </div>
+              <div class='brick-short-story-date'>
+                March 14, 2016
+              </div>
+              <a href='/story/234/' class='brick-link'>
+                Read full story
+                &#8594;
+
+              </a>
+            </div>
+          </div>
+        
+          <div data-priority='4' class='brick story-brick size11'>
+            <div class='brick-inner'>
+              <div class='brick-title primary-bg-color float-left'>
+                STORY
+              </div>
+              <div style='bottom:0;' class='brick-content'>
+                <div class='brick-short-story-image'>
+                  
+                    <img height='100%' src='/sitestatic/img/missing_image_placeholder.jpg'>
+
+                  
+                </div>
+              </div>
+              <div class='brick-short-story-title'>
+                U-Report changed my life, and women and children in my community! Here&#39;s how: 
+              </div>
+              <div class='brick-short-story-date'>
+                March 8, 2016
+              </div>
+              <a href='/story/231/' class='brick-link'>
+                Read full story
+                &#8594;
+
+              </a>
+            </div>
+          </div>
+        
+          <div data-priority='4' class='brick story-brick size11'>
+            <div class='brick-inner'>
+              <div class='brick-title primary-bg-color float-left'>
+                STORY
+              </div>
+              <div style='bottom:0;' class='brick-content'>
+                <div class='brick-short-story-image'>
+                  
+                    <img height='100%' src='/sitestatic/img/missing_image_placeholder.jpg'>
+
+                  
+                </div>
+              </div>
+              <div class='brick-short-story-title'>
+                U-Report changing how people express and view themselves!
+              </div>
+              <div class='brick-short-story-date'>
+                March 8, 2016
+              </div>
+              <a href='/story/230/' class='brick-link'>
+                Read full story
+                &#8594;
+
+              </a>
+            </div>
+          </div>
+        
+          <div data-priority='3' class='brick story-brick size11'>
+            <div class='brick-inner'>
+              <div class='brick-title primary-bg-color float-left'>
+                STORY
+              </div>
+              <div style='bottom:0;' class='brick-content'>
+                <div class='brick-short-story-image'>
+                  
+                    <img height='100%' src='/sitestatic/img/missing_image_placeholder.jpg'>
+
+                  
+                </div>
+              </div>
+              <div class='brick-short-story-title'>
+                U-Reporter Testimony 4: Pastor Kintu George William 
+              </div>
+              <div class='brick-short-story-date'>
+                Feb. 9, 2016
+              </div>
+              <a href='/story/215/' class='brick-link'>
+                Read full story
+                &#8594;
+
+              </a>
+            </div>
+          </div>
+        
+          <div data-priority='3' class='brick story-brick size11'>
+            <div class='brick-inner'>
+              <div class='brick-title primary-bg-color float-left'>
+                STORY
+              </div>
+              <div style='bottom:0;' class='brick-content'>
+                <div class='brick-short-story-image'>
+                  
+                    
+                    <img width="100%" height="100%" src="https://dl-ureport.s3.amazonaws.com/cache/4f/85/4f854ae22ca8550b2017ac85695e04f3.jpg" />
+                    
+                  
+                </div>
+              </div>
+              <div class='brick-short-story-title'>
+                U-Report and U-Bridge
+              </div>
+              <div class='brick-short-story-date'>
+                Jan. 6, 2016
+              </div>
+              <a href='/story/191/' class='brick-link'>
+                Read full story
+                &#8594;
+
+              </a>
+            </div>
+          </div>
+        
+          <div data-priority='3' class='brick story-brick size11'>
+            <div class='brick-inner'>
+              <div class='brick-title primary-bg-color float-left'>
+                STORY
+              </div>
+              <div style='bottom:0;' class='brick-content'>
+                <div class='brick-short-story-image'>
+                  
+                    <img height='100%' src='/sitestatic/img/missing_image_placeholder.jpg'>
+
+                  
+                </div>
+              </div>
+              <div class='brick-short-story-title'>
+                U-Reporter Profile; Leila Nassanga
+              </div>
+              <div class='brick-short-story-date'>
+                Jan. 6, 2016
+              </div>
+              <a href='/story/184/' class='brick-link'>
+                Read full story
+                &#8594;
+
+              </a>
+            </div>
+          </div>
+        
+          <div data-priority='3' class='brick story-brick size11'>
+            <div class='brick-inner'>
+              <div class='brick-title primary-bg-color float-left'>
+                STORY
+              </div>
+              <div style='bottom:0;' class='brick-content'>
+                <div class='brick-short-story-image'>
+                  
+                    
+                    <img width="100%" height="100%" src="https://dl-ureport.s3.amazonaws.com/cache/a2/1f/a21fb4cea173a823ae8011ec379b0f57.jpg" />
+                    
+                  
+                </div>
+              </div>
+              <div class='brick-short-story-title'>
+                U-Report &amp; TMCG replies to thousands with immunization and other health questions 
+              </div>
+              <div class='brick-short-story-date'>
+                Nov. 11, 2015
+              </div>
+              <a href='/story/163/' class='brick-link'>
+                Read full story
+                &#8594;
+
+              </a>
+            </div>
+          </div>
+        
+        
+          <div data-priority='4' class='brick hide-on-small poll-brick size21'>
+            <div class='brick-inner'>
+              <div class='brick-title primary-bg-color'>
+                CHILD HEALTH
+
+              </div>
+              <div class='brick-block-half-width'>
+                <div class='brick-block-vcenter-container'>
+                  <div class='brick-block-vcenter-content'>
+                    <div class='brick-poll-title'>
+                      Dear U-Reporter, have you heard any Radio program on Malaria this Month? Reply A. Yes OR B. No
+                    </div>
+                    <div class='brick-poll-response-percentage'>
+                      0%
+                      Response Rate
+                      | Sept. 9, 2019
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class='brick-block-half-width'>
+                
+                  <div class='brick-poll-details half-border primary-bg-color'>
+                    
+                      <div class='brick-poll-featured-response primary-color'>
+                        1. Sleeping under anti mosquito treated nets. 2. Testing 4 malaria before taking malaria drugs.
+                      </div>
+                    
+                      <div class='brick-poll-featured-response primary-color'>
+                        U don&#39;t need to take any malaria treatment without testing blood first by a trained medical personnel.
+                      </div>
+                    
+                      <div class='brick-poll-featured-response primary-color'>
+                        Prevention Is better than cure so I decided 2 take some of the measures 2 prevent it as they were taught
+                      </div>
+                    
+                  </div>
+                
+              </div>
+              <a href='/poll/3653/' class='brick-link'>
+                View full results
+                &#8594;
+              </a>
+            </div>
+          </div>
+        
+          <div data-priority='3' class='brick hide-on-small poll-brick size21'>
+            <div class='brick-inner'>
+              <div class='brick-title primary-bg-color'>
+                EDUCATION
+
+              </div>
+              <div class='brick-block-half-width'>
+                <div class='brick-block-vcenter-container'>
+                  <div class='brick-block-vcenter-content'>
+                    <div class='brick-poll-title'>
+                      Dear Teacher MoES-TIET has developed a Teacher Incentive Framework &amp; Teacher Education Policy. Will you share with us ideas for implementation? Reply YES or NO
+                    </div>
+                    <div class='brick-poll-response-percentage'>
+                      29%
+                      Response Rate
+                      | Aug. 6, 2019
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class='brick-block-half-width'>
+                
+                  <div class='brick-poll-details half-border primary-bg-color'>
+                    
+                      <div class='brick-poll-featured-response primary-color'>
+                        GIVE LAND FOR TEACHERS TO DIG IN ORDER TO GET FOOD FROM THEIR GARDEN TO SUPPLEMENT THEIR SALARY
+                      </div>
+                    
+                      <div class='brick-poll-featured-response primary-color'>
+                        &quot;Support my personal and professional development&quot;
+                      </div>
+                    
+                      <div class='brick-poll-featured-response primary-color'>
+                        What motivates you as a teacher? &quot;When I see my students excelling in my subjects and making it in life&quot;
+                      </div>
+                    
+                  </div>
+                
+              </div>
+              <a href='/poll/3557/' class='brick-link'>
+                View full results
+                &#8594;
+              </a>
+            </div>
+          </div>
+        
+          <div data-priority='2' class='brick hide-on-small poll-brick size21'>
+            <div class='brick-inner'>
+              <div class='brick-title primary-bg-color'>
+                CHILD HEALTH
+
+              </div>
+              <div class='brick-block-half-width'>
+                <div class='brick-block-vcenter-container'>
+                  <div class='brick-block-vcenter-content'>
+                    <div class='brick-poll-title'>
+                      Hi, thank u 4 yo effort to keep Uganda Ebola free! Plz tell us, how useful was the information we sent u about Ebola? A.Very useful B.Partly useful C.Not useful
+                    </div>
+                    <div class='brick-poll-response-percentage'>
+                      6%
+                      Response Rate
+                      | March 12, 2019
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class='brick-block-half-width'>
+                
+                  <div class='brick-poll-details half-border primary-bg-color'>
+                    
+                      <div class='brick-poll-featured-response primary-color'>
+                        U PEOPLE HAVE TO DESIGN THE WAY OF MAKING THE INFORMATION TO REACH THE LOCAL COMMUNITY WHO CAN NOT GET THE INFORMATION THROUGH PHONES, RADIOS ,TELVISION AND NEWSPAPERS
+                      </div>
+                    
+                      <div class='brick-poll-featured-response primary-color'>
+                        Improve Ebola information sent out by ...&#39;Making it a routine sensitization through radio programs, introduce it in schools, mobilize the leaders at grassroots&#39;
+                      </div>
+                    
+                      <div class='brick-poll-featured-response primary-color'>
+                        U did a great job for sure, but then now here in Ntoroko, people who had went 4 work somewhere are instead coming back due to the SMS sent 2 them abt the disease. Thanx 4 da work you do
+                      </div>
+                    
+                  </div>
+                
+              </div>
+              <a href='/poll/3299/' class='brick-link'>
+                View full results
+                &#8594;
+              </a>
+            </div>
+          </div>
+        
+      </div>
+    
+  </div>
+
+
+      </div>
+    
+  </div>
+  
+    <div class='global-footer footer-container'>
+      <div class='container'>
+        <footer>
+          <div class='row'>
+            <div class='col-sm-9'>
+              <div class='welcome-flags-global'>
+  
+    
+      <a href='//argentina.ureport.in/' class='flag'>
+        
+          <img src='/sitestatic/img/flags/flag_ar.png'>
+        
+      </a>
+    
+      <a href='//bangladesh.ureport.in/' class='flag'>
+        
+          <img src='/sitestatic/img/flags/flag_bd.png'>
+        
+      </a>
+    
+      <a href='//belize.ureport.in/' class='flag'>
+        
+          <img src='/sitestatic/img/flags/flag_bz.png'>
+        
+      </a>
+    
+      <a href='//bolivia.ureport.in/' class='flag'>
+        
+          <img src='/sitestatic/img/flags/flag_bo.png'>
+        
+      </a>
+    
+      <a href='//bih.ureport.in/' class='flag'>
+        
+          <img src='/sitestatic/img/flags/flag_bs.png'>
+        
+      </a>
+    
+      <a href='//ureportbrasil.org.br/' class='flag'>
+        
+          <img src='/sitestatic/img/flags/flag_br.png'>
+        
+      </a>
+    
+      <a href='https://burkinafaso.ureport.in' class='flag'>
+        
+          <img src='https://dl-ureport.s3.amazonaws.com/images/U-Report_Burkina_Faso_Landing_Page_Icon.png'>
+        
+      </a>
+    
+      <a href='https://burundi.ureport.in' class='flag'>
+        
+          <img src='https://dl-ureport.s3.amazonaws.com/images/flag_bi.png'>
+        
+      </a>
+    
+      <a href='https://cameroon.ureport.in' class='flag'>
+        
+          <img src='https://dl-ureport.s3.amazonaws.com/images/flag_cm.png'>
+        
+      </a>
+    
+      <a href='https://centrafrique.ureport.in' class='flag'>
+        
+          <img src='https://dl-ureport.s3.amazonaws.com/images/flag_cf.png'>
+        
+      </a>
+    
+      <a href='https://chile.ureport.in' class='flag'>
+        
+          <img src='https://dl-ureport.s3.amazonaws.com/images/U-Report_Chile_Landing_Page_Icon_2.png'>
+        
+      </a>
+    
+      <a href='https://cotedivoire.ureport.in' class='flag'>
+        
+          <img src='https://dl-ureport.s3.amazonaws.com/images/U-Report_Cote_dIvoire_Landing_Page_Icon.png'>
+        
+      </a>
+    
+      <a href='//ecuador.ureport.in/' class='flag'>
+        
+          <img src='/sitestatic/img/flags/flag_ec.png'>
+        
+      </a>
+    
+      <a href='//elsalvador.ureport.in/' class='flag'>
+        
+          <img src='/sitestatic/img/flags/flag_sv.png'>
+        
+      </a>
+    
+      <a href='https://eswatini.ureport.in' class='flag'>
+        
+          <img src='https://dl-ureport.s3.amazonaws.com/images/Eswatini_Web_Deployment-01.png'>
+        
+      </a>
+    
+      <a href='//france.ureport.in' class='flag'>
+        
+          <img src='/sitestatic/img/flags/flag_fr.png'>
+        
+      </a>
+    
+      <a href='https://gambia.ureport.in' class='flag'>
+        
+          <img src='https://dl-ureport.s3.amazonaws.com/images/U-Report_Gambia_Landing_Page_Icon.png'>
+        
+      </a>
+    
+      <a href='https://ghana.ureport.in' class='flag'>
+        
+          <img src='https://dl-ureport.s3.amazonaws.com/images/Ghana_Web_Deployment-01.png'>
+        
+      </a>
+    
+      <a href='//guatemala.ureport.in/' class='flag'>
+        
+          <img src='/sitestatic/img/flags/flag_gt.png'>
+        
+      </a>
+    
+      <a href='https://guinea.ureport.in' class='flag'>
+        
+          <img src='https://dl-ureport.s3.amazonaws.com/images/U-Report_Guinea_Landing_Page_Icon.png'>
+        
+      </a>
+    
+      <a href='https://haiti.ureport.in' class='flag'>
+        
+          <img src='https://dl-ureport.s3.amazonaws.com/images/Haiti_Web_Deployment-01.png'>
+        
+      </a>
+    
+      <a href='//honduras.ureport.in' class='flag'>
+        
+          <img src='/sitestatic/img/flags/flag_hn.png'>
+        
+      </a>
+    
+      <a href='//india.ureport.in' class='flag'>
+        
+          <img src='/sitestatic/img/flags/flag_in.png'>
+        
+      </a>
+    
+      <a href='https://indonesia.ureport.in' class='flag'>
+        
+          <img src='https://dl-ureport.s3.amazonaws.com/images/U-Report_Indonesia_Landing_Page_Icon.png'>
+        
+      </a>
+    
+      <a href='//iraq.ureport.in' class='flag'>
+        
+          <img src='/sitestatic/img/flags/flag_iq.png'>
+        
+      </a>
+    
+      <a href='//ireland.ureport.in' class='flag'>
+        
+          <img src='/sitestatic/img/flags/flag_ir.png'>
+        
+      </a>
+    
+      <a href='//jamaica.ureport.in/' class='flag'>
+        
+          <img src='/sitestatic/img/flags/flag_jm.png'>
+        
+      </a>
+    
+      <a href='https://kiribati.ureport.in' class='flag'>
+        
+          <img src='https://dl-ureport.s3.amazonaws.com/images/Kiribati_Web_Deployment-01.png'>
+        
+      </a>
+    
+      <a href='https://liberia.ureport.in' class='flag'>
+        
+          <img src='https://dl-ureport.s3.amazonaws.com/images/flag_lr.png'>
+        
+      </a>
+    
+      <a href='http://ureport.mw' class='flag'>
+        
+          <img src='https://dl-ureport.s3.amazonaws.com/images/Malawi_Web_Deployment-01.png'>
+        
+      </a>
+    
+      <a href='https://malaysia.ureport.in' class='flag'>
+        
+          <img src='https://dl-ureport.s3.amazonaws.com/images/Malaysia_Web_Deployment-01.png'>
+        
+      </a>
+    
+      <a href='https://mali.ureport.in' class='flag'>
+        
+          <img src='https://dl-ureport.s3.amazonaws.com/images/flag_ml.png'>
+        
+      </a>
+    
+      <a href='https://mexico.ureport.in' class='flag'>
+        
+          <img src='https://dl-ureport.s3.amazonaws.com/images/U-Report_Mexico_Landing_Page_Icon.png'>
+        
+      </a>
+    
+      <a href='//moldova.ureport.in' class='flag'>
+        
+          <img src='/sitestatic/img/flags/flag_md.png'>
+        
+      </a>
+    
+      <a href='http://mozambique.ureport.in' class='flag'>
+        
+          <img src='https://dl-ureport.s3.amazonaws.com/images/U-Report_Mozambique_Landing_Page_Icon.png'>
+        
+      </a>
+    
+      <a href='https://myanmar.ureport.in' class='flag'>
+        
+          <img src='https://dl-ureport.s3.amazonaws.com/images/U-Report_Myanmar_Landing_Page_Icon.png'>
+        
+      </a>
+    
+      <a href='//newzealand.ureport.in/' class='flag'>
+        
+          <img src='/sitestatic/img/flags/flag_nz.png'>
+        
+      </a>
+    
+      <a href='https://nigeria.ureport.in' class='flag'>
+        
+          <img src='https://dl-ureport.s3.amazonaws.com/images/flag_ng.png'>
+        
+      </a>
+    
+      <a href='https://onthemove.ureport.in' class='flag'>
+        
+          <img src='https://dl-ureport.s3.amazonaws.com/images/U-Report_On_The_Move_Landing_Page_Icon.png'>
+        
+      </a>
+    
+      <a href='http://ureport.pk' class='flag'>
+        
+          <img src='https://dl-ureport.s3.amazonaws.com/images/U-Report_Pakistan_Landing_Page_Icon.png'>
+        
+      </a>
+    
+      <a href='https://philippines.ureport.in' class='flag'>
+        
+          <img src='https://dl-ureport.s3.amazonaws.com/images/Philippines_Web_Deployment-01.png'>
+        
+      </a>
+    
+      <a href='https://png.ureport.in' class='flag'>
+        
+          <img src='https://dl-ureport.s3.amazonaws.com/images/U-Report_Papua_New_Guinea_Landing_Page_Icon_1_PNG.png'>
+        
+      </a>
+    
+      <a href='//romania.ureport.in/' class='flag'>
+        
+          <img src='/sitestatic/img/flags/flag_ro.png'>
+        
+      </a>
+    
+      <a href='https://sa.ureport.in' class='flag'>
+        
+          <img src='https://dl-ureport.s3.amazonaws.com/images/U-Report_South_Africa_Landing_Page_Icon.png'>
+        
+      </a>
+    
+      <a href='https://senegal.ureport.in' class='flag'>
+        
+          <img src='https://dl-ureport.s3.amazonaws.com/images/U-Report_Senegal_Landing_Page_Icon.png'>
+        
+      </a>
+    
+      <a href='//serbia.ureport.in/' class='flag'>
+        
+          <img src='/sitestatic/img/flags/flag_sr.png'>
+        
+      </a>
+    
+      <a href='https://sierraleone.ureport.in' class='flag'>
+        
+          <img src='https://dl-ureport.s3.amazonaws.com/images/flag_sl.png'>
+        
+      </a>
+    
+      <a href='//syria.ureport.in' class='flag'>
+        
+          <img src='/sitestatic/img/flags/flag_sy.png'>
+        
+      </a>
+    
+      <a href='https://tanzania.ureport.in' class='flag'>
+        
+          <img src='https://dl-ureport.s3.amazonaws.com/images/Tanzania_Web_Deployment-01_flag1.png'>
+        
+      </a>
+    
+      <a href='https://tchad.ureport.in' class='flag'>
+        
+          <img src='https://dl-ureport.s3.amazonaws.com/images/Chad_flag.png'>
+        
+      </a>
+    
+      <a href='//thailand.ureport.in' class='flag'>
+        
+          <img src='/sitestatic/img/flags/flag_th.png'>
+        
+      </a>
+    
+      <a href='//tt.ureport.in/' class='flag'>
+        
+          <img src='/sitestatic/img/flags/flag_tt.png'>
+        
+      </a>
+    
+      <a href='https://tunisie.ureport.in' class='flag'>
+        
+          <img src='https://dl-ureport.s3.amazonaws.com/images/U-Report_Tunisia_Landing_Page_Icon.png'>
+        
+      </a>
+    
+      <a href='http://ureport.ug' class='flag'>
+        
+          <img src='https://dl-ureport.s3.amazonaws.com/images/U-Report_Uganda_Landing_Page_Icon.png'>
+        
+      </a>
+    
+      <a href='https://ukraine.ureport.in' class='flag'>
+        
+          <img src='https://dl-ureport.s3.amazonaws.com/images/U-Report_Ukraine_Landing_Page_Icon.png'>
+        
+      </a>
+    
+      <a href='//uzbekistan.ureport.in' class='flag'>
+        
+          <img src='/sitestatic/img/flags/flag_uz.png'>
+        
+      </a>
+    
+      <a href='https://vietnam.ureport.in' class='flag'>
+        
+          <img src='https://dl-ureport.s3.amazonaws.com/images/Vietnam_Web_Deployment-01.png'>
+        
+      </a>
+    
+      <a href='//westernbalkans.ureport.in' class='flag'>
+        
+          <img src='/sitestatic/img/flags/flag_wb.png'>
+        
+      </a>
+    
+      <a href='//www.zambiaureport.com/home/' class='flag'>
+        
+          <img src='/sitestatic/img/flags/flag_zm.png'>
+        
+      </a>
+    
+      <a href='https://zimbabwe.ureport.in' class='flag'>
+        
+          <img src='https://dl-ureport.s3.amazonaws.com/images/flag_zw.png'>
+        
+      </a>
+    
+  
+</div>
+
+
+            </div>
+            <div class='col-sm-3'>
+              <div class='follow-us'>
+                
+                  <div class='follow-us-text'>
+                    FOLLOW US ON
+                  </div>
+                  
+                    <a href='https://www.facebook.com/UReportUganda/'>
+                      <img src='/sitestatic/img/facebook_footer_icon.png' class='footer-social'>
+
+                    </a>
+                  
+                  
+                  
+                    <a href='https://twitter.com/UReportUganda'>
+                      <img src='/sitestatic/img/twitter_footer_icon.png' class='footer-social'>
+
+                    </a>
+                  
+                  
+                    <a href='https://www.youtube.com/channel/UC68m96DzuG-_YlifFumv09w'>
+                      <img src='/sitestatic/img/youtube_footer_icon.png' class='footer-social'>
+
+                    </a>
+                  
+                
+              </div>
+              <div class='footer-global-ureport-logo'>
+                <img src='/sitestatic/img/footer.png' class='footer-logo'>
+
+              </div>
+            </div>
+          </div>
+          
+        </footer>
+      </div>
+    </div>
+    <script type="text/javascript" src="/jsi18n/"></script>
+
+  
+  <!-- JavaScript at the bottom for fast page loading, conditional based on whether we are serving locally -->
+  <script>
+    if (window.location.hostname == "localhost"){
+    document.write(unescape('%3Cscript src="/sitestatic/js/libs/jquery.1.11.1.min.js"%3E%3C/script%3E'));
+    } else {
+    document.write(unescape('%3Cscript src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"%3E%3C/script%3E'));
+    }
+
+  </script>
+  
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-23521720-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+
+  
+  <script type="text/javascript" src="/sitestatic/js/jquery.pjax.js"></script>
+
+  <script type="text/javascript" src="/sitestatic/CACHE/js/output.83d53b9f434b.js"></script>
+
+  <script type="text/javascript" src="/sitestatic/js/scripts.js"></script>
+  <script type="text/javascript" src="/sitestatic/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="/sitestatic/js/lightbox.min.js"></script>
+  <script type="text/javascript" src="/sitestatic/js/gradientfactory.js"></script>
+
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+  
+  
+
+  
+  
+  
+  <script src="/sitestatic//js/leaflet.js"></script>
+  
+
+
+  
+    <script src="/sitestatic/js/highcharts.js"></script>
+    <script src="/sitestatic/js/isotope.pkgd.min.js"></script>
+    <script type="text/javascript" src="/sitestatic/CACHE/js/output.f87c73eda565.js"></script>
+    <script type='text/javascript'>
+      
+       var newsPage = 1;
+       function loadNews(page) {
+         $.ajax({url:'/news/?page=' + page, dataType:'json'}).done(function(data){
+            for (i=0; i<data.news.length; i++) {
+              newsItem = data.news[i];
+      
+              html = '<div class="news-item">';
+              html += '<div class="news-item-title primary-color">';
+              html += newsItem.title;
+              html += '<div class="news-item-date pull-right">';
+              html += newsItem.created_on;
+              html += '</div></div><div class="news-item-description">';
+              html += newsItem.description;
+              html += '</div><div class="news-item-link">';
+              html += '<a href="';
+              html += newsItem.link;
+              html += '">' + "Read this story" + ' &#8594;';
+              html += '</a></div></div><hr class="aaa">';
+      
+              $(".brick-news-list").append(html);
+      
+         }
+         newsPage += 1;
+       });
+       }
+      
+       $(document).ready(function() {
+         loadNews(newsPage);
+       });
+      
+       jQuery(
+         function($) {
+           $('.brick-news-list').bind('scroll', function() {
+             if($(this).scrollTop() + $(this).innerHeight()>=$(this)[0].scrollHeight){
+               loadNews(newsPage);
+             }
+          })
+        }
+      );
+      
+      
+       $(function(){
+         $(".brick-poll-chart").each(function(){
+           var question = $(this).attr("data-question");
+      
+           $.ajax({url:'/pollquestion/' + question + '/results/', dataType: "json"}).done(function(result){
+      
+             if(!result){
+               return;
+             }
+             var results = result[0];
+             var categories = [];
+             var data = [];
+      
+             var total = 0;
+             for (i=0; i<results.categories.length; i++){
+               category = results.categories[i];
+               total += category.count;
+             }
+      
+             var percentage_lookup = {};
+      
+             for (i=0; i<results.categories.length; i++){
+               category = results.categories[i];
+               label = category.label.trim().toUpperCase();
+               categories.push(label);
+      
+               percentage = (category.count == 0) ? 0 : category.count * 100 / total;
+               percentage_lookup[label] = Math.round(percentage);
+      
+               if (parseInt(percentage_lookup[label])) {
+                 data.push({ name:label,  y: percentage });
+               }
+             }
+      
+             $('#graph-' + question).highcharts({
+               chart: {
+                 plotBackgroundColor: null,
+                 plotBorderWidth: null,
+                 plotShadow: false
+               },
+               colors: ['#FFD100', '#1F49BF', '#FFD100', '#1F49BF', '#FFD100', '#1F49BF'],
+               credits: {
+                 enabled: false
+               },
+               title: {
+                 text: null
+               },
+               tooltip: {
+                 pointFormat: '<b>{point.percentage:.1f}%</b>',
+                 style: {
+                   fontFamily: "UreportHeadlineFont",
+                   direction: "ltr",
+                 }
+               },
+               plotOptions: {
+                 pie: {
+                   allowPointSelect: true,
+                   cursor: 'pointer',
+                   size: 200,
+                   dataLabels: {
+                     enabled: false,
+                     format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                     style: {
+                         color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black',
+                         fontFamily: "UreportHeadlineFont"
+                     }
+                   }
+                 }
+               },
+               series: [{
+                 type: 'pie',
+                 data: data
+               }]
+             });
+           });
+         });
+       });
+      
+       
+      
+       function layoutBricks(){
+         var containerWidth = $('#brick-container').width();
+         var gutter = 15;
+         var columnWidth = (containerWidth >= 1000) ? 320 : 285;
+      
+         $('#brick-container').isotope({
+           itemSelector: '.brick',
+           getSortData: {
+             priority: '[data-priority] parseInt'
+           },
+           sortBy: 'priority',
+           sortAscending: false,
+           masonry: {
+            columnWidth: columnWidth,
+            gutter: gutter
+           }
+         });
+       }
+      
+       $(function() {
+         layoutBricks();
+      
+         $(window).on('debouncedresize', function(){
+           layoutBricks();
+         });
+       });
+      
+      
+       $(function(){
+         $("#age-chart").each(function(){
+      
+            var data = [{"name": "0-14", "y": 0}, {"name": "15-19", "y": 3}, {"name": "20-24", "y": 29}, {"name": "25-30", "y": 41}, {"name": "31-34", "y": 12}, {"name": "35+", "y": 14}];
+      
+            
+      
+            var categories = [];
+      
+            for (i=0; i<data.length; i++) {
+              categories.push(data[i].name)
+            }
+      
+            $('#age-chart').highcharts({
+              chart: {
+                type: 'column',
+                spacing: [ 3, 5, 3, 5]
+              },
+              credits: {
+                enabled: false
+              },
+              legend: {
+                enabled: false
+              },
+              title: {
+                  text: null
+              },
+              subtitle: {
+                  text: null
+              },
+              xAxis: {
+                categories: categories,
+                labels : {
+                    rotation: 0,
+                    style: {
+                      fontSize: 10,
+                      fontFamily: "UreportSmallTextFont"
+                  }
+                },
+                minorTickLength: 0,
+                tickLength: 0
+              },
+              yAxis: {
+                min: 0,
+                labels: {
+                  enabled: false
+                },
+                gridLineWidth: 0,
+                title: {
+                  text: null
+                }
+              },
+              tooltip: {
+                enabled: false
+              },
+              plotOptions: {
+                  column: {
+                      color: '#FF8200',
+                      pointPadding: 0.2,
+                      pointWidth: 30,
+                      borderWidth: 0,
+                      dataLabels:  {
+                        enabled: true,
+                        style: {
+                          fontFamily: "UreportHeadlineFont"
+                        },
+                        verticalAlign:"bottom",
+                        format: '<b>{point.y:.0f}%</b>'
+                      }
+                  }
+              },
+              series: [ {name: 'Age' , data: data } ]
+            });
+          });
+        });
+    </script>
+    
+    
+      <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    
+  
+
+  
+
+</body>

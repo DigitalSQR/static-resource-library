@@ -1,0 +1,747 @@
+White Paper Series on mHealth and Aging
+CREDIT: UN/HERWIG
+mHEALTH TRANSFERRING THE BURDEN OF 
+CAREGIVERS TO MOBILE TECHNOLOGIES
+ADA KWAN
+mHealth Alliance, UN Foundation
+October 2013
+ACKNOWLEDGEMENTS
+This white paper would not have been possible without the vision and support of Pfizer, Inc., and the 
+mHealth Alliance at the United Nations Foundation, as well as the insights from and conversations 
+with individuals working in the fields of aging and mHealth. Many thanks to those who shared and 
+contributed their thoughts, experience, passions, and time during the interview process for this white 
+paper including: Sombit Mishra of QMedic, Stephen Johnston of Fordcastle LLC, Rajiv Mehta of 
+Bhageera Consulting, Alice Borrelli and Dana Womack of Intel Corporation, Bethany Brown and Paul 
+Ong of HelpAge International, Isabella Aboderin of the Oxford Institute of Aging, and Bill Walsh at 
+AARP. I am indebted to Chelsea Solmo at the mHealth Alliance for her help in the interview process, 
+as well as my other colleagues at the mHealth Alliance - Chelsea Hedquist, Avrille Hanzel, and Shariq 
+Khoja – who provided support, coordination, and detailed feedback throughout the development of 
+the paper. 
+Lastly, my utmost respect and appreciation goes to Chris Gray and his colleagues at Pfizer, Inc., Patty 
+Mechael and the mHealth Alliance, and all the members of the mHealth Aging Working Group for 
+identifying the strong potential in mobile technologies to support those providing care to the world’s 
+aging population. With their continual commitment and support for this under-recognized topic, we 
+have taken a strong step towards prioritizing caregivers and their growing responsibilities. 
+Ada Kwan, mHealth Alliance, United Nations Foundation
+2
+In 2000, the number of people over 
+the age of 65 was just over 500 
+million, and this number is expected 
+to triple by the year 2050.
+CREDIT: UN/PARK
+ABSTRACT 
+THIS WHITE PAPER, WHICH HAS EVOLVED environments, such as those often seen in LMICs. 
+FROM PRIOR RESEARCH1, IS ONE PART mHealth solutions can support family members in 
+OF A THREE-PART SERIES DEVOTED TO their roles as informal caregivers to the elderly and can 
+EXPLORING THE USE OF MOBILE AND provide support to formal caregivers, such as health 
+WIRELESS TECHNOLOGIES IN HEALTH care professionals or professional caregivers. This paper 
+(MHEALTH) and the opportunities for impacting and defines the variety of caregivers for the rapidly growing 
+advancing healthy aging in low- and middle-income older global population and details the role mobile 
+countries (LMICs). This specific paper focuses on the technologies currently play and could potentially play 
+use of mHealth for caregivers of aging individuals. to support the various types of caregivers in LMICs, 
+while being mindful of anecdotal mHealth examples 
+In 2000, the number of people over the age of 65 was from high-income countries. For caregivers and care 
+just over 500 million, and this number is expected to recipients, mHealth solutions can be developed to fill 
+triple by the year 2050(2). These figures reflect many social, functional, and instrumental task needs(3). Finally, 
+achievements in public health, such as vaccination, a call to action is made to bring together stakeholders 
+disease control, and access to safe drinking water from a variety of sectors to achieve the full potential of 
+and basic sanitation. However, the growing size of mHealth as a tool for caregivers around the world.
+an older world population foreshadows significant 
+challenges. As individuals age and develop age-
+related health conditions, these growing numbers 
+will place considerable stress on the families, social 
+networks, and health systems that provide caregiving 
+support. Such stress can have costly consequences. 
+Fortunately, mHealth offers unique solutions that can 
+not only complement existing health care delivery 
+systems but can also be implemented in resource-poor 
+3
+The number of mobile 
+phone subscriptions 
+globally is set to equal 
+and even surpass the 
+world population of 
+seven billion in 2014.
+CREDIT: UN/HERWIG
+INTRODUCTION 
+THE BURDEN OF CAREGIVING FOR OLDER populations, especially as health conditions of the elderly 
+PEOPLE IS QUICKLY INCREASING AROUND combine with poverty(5). In low- and middle-income 
+THE WORLD. The number of people over the age of countries (LMICs), where the majority of the growth of 
+601 is expected to grow from 810 million in 2012 to over elderly populations is expected to occur,4 the situation 
+a billion in less than 10 years, with the figure expected is more straining(2,8). Demographic transitions in LMICs 
+to reach 2 billion by 2050(5). These figures reflect many are requiring countries to take on the additional burden 
+achievements in public health, such as vaccination, of responding to chronic conditions while maintaining 
+disease control, and access to safe drinking water and improving effective responses to existing health 
+and basic sanitation. However, the rapidly expanding threats such as malnutrition and infectious diseases(9).
+and aging population will place considerable stress on 
+families, social networks, and health systems and can As the number of mobile phone subscriptions globally 
+have costly consequences if action is not taken now 2,3. is set to equal and even surpass the world population 
+of seven billion in 2014(10,11), there is massive potential 
+Globally, the burden placed on caregivers will grow as for mobile and wireless technology to support healthier 
+the world population ages and confronts age-related aging and to reduce the strain being put on caregivers 
+health conditions, such as chronic diseases (e.g., around the world. The two objectives of this white 
+cardiovascular diseases, cancer, and diabetes) – the paper are to (1) define the needs of caregivers for the 
+major causes of death around the world – as well as rapidly growing older adult populations in LMICs, and 
+declining cognitive acuity and mental health(7). Current (2) to understand the role mobile technologies have in 
+dynamics between informal and formal caregiving and supporting the various types of caregivers in LMICs, 
+existing health systems demonstrate that there is a while being mindful of anecdotal mHealth examples 
+lack of preparedness to respond effectively to aging from high-income countries (HICs).
+1  The World Health Organization accepts 65 years to define the term ‘elderly’ or ‘older person’ in the majority of developed countries; however, the age of 60 is often 
+considered in low- and middle-income countries(4).
+2  In the future, there will be a reduction of support base for older adults and an increase in their dependency on social support and health care services(4).
+3  Although estimates of caregiving are difficult to achieve, a study focusing on the United States alone placed the economic value of informal caregiving at 18% of national 
+healthcare spending(6).
+4  The United Nations Population Fund (UNFPA) predicts that by 2050, the population aged 60 years or older will reach 10% in Africa, 24% in Asia, 24% in Oceania, 25% in 
+4 Latin America and the Caribbean, 27% in North America, and 24% in Europe(5).
+BACKGROUND
+AS HEALTHY INDIVIDUALS AGE, THEY CAN members, spouses, other elderly individuals) or 
+DEVELOP EARLY OR STABLE CHRONIC formal (e.g., health care professionals or caregivers at 
+CONDITIONS, WHICH CAN LATER BECOME institutional care centers)(13). In HICs, formalized care 
+SERIOUS AND CAN LIMIT DAILY ACTIVITIES(12). options often exist, such as home care, nursing homes, 
+Further advancement of chronic conditions can have and residential care for individuals at advanced stages 
+fatal outcomes. Advancing illnesses require older adults of illnesses(14). These care options are not as easily 
+to rely less on self-care and more on the attention available, if at all, in LMICs, nor can institutionalization 
+and services offered by different types of caregivers meet the growing needs of a globally aging population.
+(see Figure 1). Caregivers can be informal (e.g., family 
+Healthy persons and Persons with Persons with serious, Persons who are 
+those with reversible manageable, early, progressive conditions hospice-eligible Figure 1. 
+illness or stable chronic that limit daily A visualization of the evolution 
+conditions activities
+of advanced illness among 
+individuals (adapted from Coal-
+ition to Transform Advanced 
+Care’s Call to Action on Trans-
+ADVANCED ILLNESS forming Advanced Illness 
+Care12) with the changing 
+roles of different types of 
+caregivers who may be involved 
+in an individual’s life during 
+INFORMAL CAREGIVERS aging. 
+SELF FORMAL CAREGIVERS
+Informal caregivers are the primary type of caregivers to make trade offs between caregiving and other life 
+for older adults. These are usually family members who priorities, such as work and time with other family 
+are primarily women, such as a daughter or daughter-in- members. This scenario is further complicated as 
+law, but can also be members of extended families(14,15). family structures are spread geographically, with older 
+These caregivers are often motivated by virtue of their adults living in rural areas and young adults migrating to 
+binding duties and the sense of honor in supporting urban areas for employment. This urban migration may 
+older kin – reciprocity and self-interest5, respectively(15). improve financial support, but it also removes social 
+For example, a saying in Ghana goes, “If your parents support structures for elderly care, especially when the 
+look after you when you are growing your teeth, you older generations are responsible for caring for younger 
+must also look after them when they are losing their generations.
+teeth”(15). Limited resources, rising costs of living, and 
+escalating medical needs force caregivers in LMICs 
+5  Children feel less obligated to give care if they feel as though their parents “failed” them.(15) 5
+Informal caregivers are often the only or main caregivers, are described further below, but it is important to note 
+but they seldom have the proper health training or skills that the needs for different kinds of support can change 
+to properly and completely care for older adults with over time depending on the stage of the caregiver’s 
+age-related health conditions, such as chronic diseases. journey(22) (see Appendix A).
+Chronic diseases, in particular, develop slowly with 
+unclear symptoms, so early detection when prevention Emotional support: Informal caregivers often report 
+or cures are still possible is often difficult to achieve(16). feelings of guilt, resentment, and hostility when they 
+Thus, formal caregivers often enter the equation when make personal sacrifices to provide care to older 
+an older adults’ condition or health episode triggers or adults(23). These feelings can be quite overwhelming for 
+warrants special care. Formal caregivers are trained the caregiver. Strategies for balancing and alleviating 
+and have the skills to respond to the health needs of this stress include obtaining information (e.g., 
+older adults but lack extremely useful information to information on home-based care or information on any 
+make decisions considering the individual or family conditions affecting the care recipient), skill building, 
+dynamics(17). The link between informal and formal getting psychosocial support, and accessing additional 
+caregivers is complicated in LMICs where health resources that can help in balancing tasks.
+systems can be fragmented and getting appropriate 
+health services to older adults in a timely manner can Financial duties: Caregivers often have financial 
+be financially and geographically challenging. duties for the elderly they care for. In some countries, 
+because of rural-to-urban migration for work, working-
+The global caregiving burden is exacerbated by class adults, who sometimes also play the role of 
+insufficient resources and support for caregivers of informal caregivers, send remittances from urban 
+older adults, as well as by a lack of adequate facilities centers to the rural areas where the elderly reside(24). 
+with medical, psychiatric, and rehabilitative services(18). However, sending remittances can be challenging for 
+Around the world, elderly care is rarely considered a these caregivers as banks and having bank accounts 
+priority, which further complicates the challenge of are not common in some places.
+mobilizing resources for appropriate services targeted 
+at aging populations and their caregivers. In hard-to- Instrumental task support: Caregivers have to manage 
+reach locations and rural areas, for example, outreach a multitude of tasks that play an instrumental part in 
+services that go to households and communities tend daily activities, such as running errands, shopping 
+to focus on reducing maternal and child morbidity and for food, providing personal care, taking care of the 
+mortality and do not have explicit efforts tailored for house and household, and filling in when assistance 
+the older segment of the population. At the policy level, is needed(13,25). Caregivers often require a great deal 
+many LMICs lack comprehensive national policies of support, as they are not only providing care, but 
+for elderly populations(9). A study that analyzed over also attempting to balance caregiving with other life 
+6,000 projects backed by the United Nations in 2010- activities that require time and energy. This is reflected 
+2011 found that only 61 (1%) targeted older adults or in existing caregiving research in developed countries, 
+individuals with disabilities(19). In 20 countries, there which often evaluates caregiver burden, depression, 
+were no projects that targeted older adults(19). subjective wellbeing, perceived caregiver satisfaction, 
+ability, and knowledge(21). For formal caregivers, 
+Reducing the burden of caregiving around the world instrumental tasks are those related to providing 
+involves identifying how caregivers can be supported health or social support services, such as disease 
+in their responsibilities. Emotions, financial duties, and management, treatment support for older adults taking 
+instrumental tasks are three specific areas that can medications, or patient monitoring, particularly in the 
+create burdens for caregivers, and identifying ways to case of chronic diseases. Appendix B lists tasks that 
+support caregivers in these areas can help reduce the often belong to general caregivers(20).
+burden of caregiving on an individual level(20,21). These 
+6
+For the emotional, 
+financial, and 
+instrumental support 
+needs of informal 
+caregivers, mobile 
+options are plentiful...
+CREDIT: TÉLÉCOMS SANS FRONTIÈRS
+EXISTING SOLUTIONS: mHealth in Caregiver Support
+FOR CAREGIVING, MOBILE TECHNOLOGIES informal caregiving and aging-linked health system 
+OFFER NEW OPPORTUNITIES TO DELIVER inefficiencies, such as late diagnoses, access to 
+EXISTING SOLUTIONS, BUT THE VERY medications, hospital readmissions, and excessively 
+PRESSING CHALLENGE HINGES ON MAK- long hospital stays. 
+ING CAREGIVING OVER A DISTANCE EASIER. 
+By addressing this challenge, individuals would be able For the emotional, financial, and instrumental support 
+to live where they choose and maintain a supportive needs of informal caregivers, mobile options are 
+ecosystem wherever they happen to be. It is expected plentiful, as the field is in the midst of understanding 
+that over time the increasingly interconnected world and applying what can be useful: 
+will rely even more heavily on technologies to support 
+healthy aging. For emotional support, mobile solutions that assist 
+caregivers in obtaining psychosocial support include 
+The current field of mHealth for caregiving is being voice calls, text messaging, and other multimedia 
+created in and for developed countries, but it has yet communication (e.g., video communication). Mobile 
+to gain full momentum in LMICs. Currently, mHealth games aimed at assisting caregivers in improving 
+caregiving solutions focus on improving the quality of physical rehabilitation of the elderly, social networking, 
+life for informal caregivers and providing monitoring and mobile access to networks could help fill the needs 
+tools for formal caregivers. Most of these efforts of caregivers. Mobile and wireless technologies can 
+are concentrated in high-income countries, which support caregiver networks so caregivers can exchange 
+can be linked to the lack of prioritizing both aging with each other psychosocial support and information, 
+and caregiving support in LMICs. In general, certain such as how to balance tasks and look for additional 
+caregiving burdens can be addressed by meaningfully resources.
+designed technology, which will be detailed in this 
+section. If leveraged appropriately, mobile strategies For their financial duties, the ability to send money 
+can offset massive and increasing costs related to with mobile phones offers caregivers an easy way 
+7
+to support the elderly they care for. In particular, The context for caregiving varies based on individual 
+mobile money options in LMICs, such as G-Cash in preferences, severity of health issues, availability of 
+the Philippines or mPesa, first launched in Kenya and family members, and economic and social resources(14), 
+now available in other countries, allow for money which makes it particularly valuable to use mobile tools 
+or credit transfers to happen without bank account that are tailored to individuals and take into account 
+requirements(26). This is helpful since family members their contexts. Below are examples of existing mHealth 
+in LMICs often do not live near one another and their initiatives for informal and formal caregivers. Since very 
+health systems are not fully equipped to support or few examples of mobile strategies for caregivers have 
+respond to age-related conditions(5). been applied in the LMIC context, examples are drawn 
+from developed countries.
+For instrumental task support, mHealth solutions 
+that ease the demands, eliminate or reduce the risks, mHEALTH FOR INFORMAL CAREGIVERS
+and lower the costs of caregiving can reduce the actual Unfrazzle, United States – an iPhone application that 
+toll absorbed by caregivers(20). mHealth solutions and helps users remember, keep track of, and coordinate 
+services linked to mobiles can allow older adults to care activities while considering a caregiver’s larger 
+maintain their independence not only by delivering spectrum of other life responsibilities(29).
+ways to better self-manage daily activities but also by 
+offering opportunities for caregivers to help encourage QMedic, United States – a wearable, fashionable, 
+healthier behavior in older adults(14). Education and and wireless platform that passively monitors physical 
+support programs delivered to mobile technologies activity and sleep in older adults and provides clinical 
+have also been identified as ways that can help support support available through a call center accessible 
+the instrumental tasks of caregivers. More specifically 24 hours a day, 7 days a week(30). The platform also 
+for instrumental task support among formal caregivers, notifies caregivers when individuals have fallen and can 
+mHealth allows health care professionals to monitor send real-time alerts to family members in the case of 
+blood pressure, blood glucose levels in patients with any abnormal behaviors or emergencies. 
+diabetes, heart rates, and other vitals, such as respiratory 
+rates, from afar to better manage disease conditions, as mHEALTH FOR FORMAL CAREGIVERS
+well as monitor symptoms and how patients perceive Parental Health’s MISTY (Medical Information 
+their quality of life(27,28). As specialized care becomes Systems To You) Daily Activities Feature, United 
+necessary, mobile technologies allow formal caregivers States – a remote patient monitoring product, MISTY 
+to remotely interact and observe higher level issues, has nine features, one of which is designed to allow 
+such as drug adherence and treatment compliance and home health agencies and other formal caregivers, 
+acute or emergency care referrals. in addition to family members, to monitor the daily 
+7  Voice over IP, or Voice over Internet Protocol, are technologies that allow for communication to happen over the Internet
+8
+activities of the elderly(31). In addition to being able mobile phone content, which was then transformed 
+to share with caregivers their activities, such as their into educational and social media delivered on mobile 
+meals and moods, the elderly can access clinical phones.
+assistance through a video call center.
+Due to the diversity of caregivers and the range 
+Medication reminder and feedback system, of relationships that exist between caregivers and 
+Thailand – a platform that leverages Voice over IP7, recipients, there is no panacea approach on how to apply 
+text messaging, and web services. This system sends mHealth to caregiving. However, existing categories 
+out reminders and enables feedback interactions for caregiver interventions, described by Sorenson et 
+among older adults in Thailand and their health care al. (2002) help identify areas of caregiving that have 
+professionals(32). not yet capitalized on the opportunities offered through 
+mHealth(21). These interventions can be delivered to 
+Procura Clinical Solution at PatientPoint, United individuals, in group settings, and sometimes mixed 
+States – a remote monitoring platform that helps individual-group(21,36). In Table 1 below, Sorenson et al.’s 
+professional caregivers coordinate workflow and categories are used to frame both existing and potential 
+manage adults with complex disease conditions. With mobile strategies for caregiving.
+the platform, clinicians are able to update patient files 
+and use case management and decision support tools 
+to improve the quality of care received by older adults(33).
+Electronic Dispenser by Helsinki City Health Care, 
+Finland – an electronic medication monitoring system 
+that sends a voice call reminder to customers who 
+have not taken their medication(34). If the medication 
+is not removed from the pill dispenser, even after 
+the reminder, an alarm is sent to the individual, and a 
+message is sent to a nurse’s mobile phone.
+Community 2.0, South Africa – an ICT project in 
+South Africa that aims to lower barriers that exist from 
+lack of information and poor education to identified 
+communities that experience stress(35). The project 
+reported success in having caregivers develop their own 
+9
+APPROACH APPROACH DEFINITION(21) mHEALTH POTENTIAL
+“Structured programs geared towards Information and messages delivered to handsets on training, 
+providing information about the care education, and support in self care or caregiving (e.g. on 
+receiver’s disease process and about geriatrics or specific chronic diseases)(37)
+resources and services and training 
+caregivers to respond effectively to mHealth strategies that educate caregivers on what actions 
+disease-related problems, such as they can participate in to reduce the consequences of late 
+memory and behavior problems in diagnosis, medication-related issues, hospital readmissions, 
+dementia patients or depression and and institutionalized care
+anger in cancer patients. These are mHealth treatment support for caregivers that can inform 
+usually delivered through lectures, and support them in making sure older adults take their 
+group discussions, and written medications, understand the frequency, and where they can 
+materials by a trained leader”(21). obtain medication
+“Often led by professionals or peers, Platforms and services that bring together caregivers 
+unstructured support groups focused to improve the efficiency of caregiving workflow across 
+on building rapport among participants caregiver types
+and creating a space in which to 
+discuss problems, successes, and Creating social awareness through mobile platforms, such 
+feelings related to caregiving. Support as raising awareness within communities about aging, 
+groups assist participants in recognizing age-related conditions, and how youth can successfully age 
+that others have similar problems, while healthier in terms of physical and mental health
+offering space to exchange ideas and Applications or services that provide psychosocial support, 
+generate strategies for coping”(21). improve mental health, or emphasize networks(38) or advice 
+or support hotlines that can connect caregivers with other 
+caregivers
+“Provides at-home or site supervision, Mobile applications and wireless options that help manage 
+assists with daily living activities, or the daily activities of caregivers and check-in on older adults 
+offers skilled nursing care that can from a distance
+add flexibility into the schedules of 
+caregivers. Often, these interventions Ways to interact with older adults in their homes, as well 
+offer ways to engage with the care as health providers and community-based health workers 
+recipient from home or stimulating since care is often fragmented, as well as ways to connect to 
+(37)
+programs toward the client’s needs”(21). additional caregiving resources  
+Improving training in medical education for formal caregivers 
+to be able to better identify, respond, and treat clients with 
+age-related conditions
+Monitoring individuals with chronic conditions, which 
+can include linked systems for detecting and preventing 
+any complications or instances that could have severe 
+repercussions. Outside of general activities, the advent of 
+body sensors allows vital signs, such as respiratory rates, 
+blood pressure, sleep activity, and blood glucose levels, to be 
+monitored. 
+10
+Psycho-educational 
+Respite / adult day care Supportive interventions interventions
+APPROACH APPROACH DEFINITION(21) mHEALTH POTENTIAL
+“Supports a therapeutic relationship Any aggregator that delivers services to older adults at their 
+between caregivers and trained homes (to support personal care) with a cognitive-behavioral 
+professionals and are often approach
+approached with cognitive-behavioral 
+approaches to self monitoring, mHealth networks that provide caregivers with preventive 
+challenging negative thoughts, helping support or medical assistance as formal linkages to existing 
+caregivers develop problem-solving health systems or health care professionals who are able to 
+abilities for time management, respond to a potential increase in demand for relevant age-
+overload, and emotional reactions; related services
+and helping caregivers reengage Electronic medical dispensers that monitor when individuals 
+in pleasant activities and positive take or do not take their medications. If an individual hasn’t 
+experiences”(21). taken his medication (as detected by the pill container not 
+being opened at the correct time), programmed reminders 
+can be sent to the individual or informal and formal 
+caregivers to help support compliance.
+“Memory clinics for older adults mHealth that supports caregivers in encouraging older 
+with dementia and activity therapy adults to effectively use and interact with components of 
+programs that improve affect and existing health systems
+everyday competence”(21).
+Mobile components that complement existing care 
+services to make visits to memory clinics or activity therapy 
+programs more seamless
+A combination of the interventions Any aggregator that delivers services to older adults at their 
+above homes (to support personal care)
+Services that support community-based health workers in 
+offering screening or early diagnosis in the community or 
+home
+Traditional telehealth and telemedicine technologies 
+– Center for Technology and Aging describes this as 
+technologies that were built for certain purposes with 
+expensive and highly specific hardware
+ 
+ 
+TABLE 1. The table contains caregiver interventions categories as described by Sorenson et al. (2002) that help 
+identify areasof caregiving that have not yet capitalized on the opportunities and potential offered through mHealth(21). 
+The categories are used to frame the spectrum of existing and potential mHealth strategies for caregiving.
+11
+Interventions 
+Multi-component interventions to improve care receiver Psychotherapy
+competence
+Turning the discussion and devoting 
+fiscal space towards aging will 
+require strong political will and 
+continued efforts demonstrating 
+the urgency of this matter to 
+individuals, families, and societies.
+CURRENT BARRIERS TO Lack of donor interest Wearing identifiable Need to design the 
+ADOPTION Low literacy and  Need to customize and fiscal space for aging Invasion of privacy technology that labels technology for the  numeracy in LMICs mHealth content populations and their 
+people as “old” end user
+caregivers
+THE RESEARCH FOR THIS PAPER HELPED 
+IDENTIFY GAPS IN KNOWLEDGE AND An increasing number of mHealth interventions, Some mHealth applications Care recipients do not like A study on mobile technology In LMICs, mobile strategies 
+PRACTICE, AS WELL AS BARRIERS TO older people are using mobile in general, need to be allow for wireless carrying items that visibly factors that influence the are not commonly developed 
+ADOPTION, FOR APPLYING mHEALTH TO technologies around the world; customized to suit the monitoring of older adults. display that something is adoption and use among for aging, which can be related 
+FACILITATE CARE-GIVING. These gaps and however, in certain LMIC contexts, user needs, particularly Consequently, developers wrong(41). For example, older adults concluded that to the current lack of donor 
+barriers need to be taken into consideration when low rates of literacy and numeracy taking into account must create mobile carrying assistive the end user and the device interest and fiscal space for 
+developing and evolving mHealth solutions in order affect how messages should be language and cultural solutions that give users technologies that draw must match, or as the study aging and for addressing 
+to reach mHealth’s full potential towards assisting delivered to end users. Illiteracy is barriers. mHealth control over their own attention, such as items with describes, “a user must be demographic transitions, in 
+also a crucial issue, as it is a known solutions must be privacy. If privacy concerns blinking lights or devices capable to handle the physical general. For example, in Africa, 
+caregivers. The most predominant barriers identified 
+risk factor for developing dementia developed with cultural are not addressed, this that make strange sounds, device as well as to understand health programs in many 
+have been listed in the table.
+and hinders the use of text sensitivity, and in areas can hinder the rate of can make care recipients and remember how the device countries focus on maternal and 
+messaging to prevent or manage where many languages technology adoption. feel uncomfortable(34). If the and the services work”(34). child health and HIV/AIDS, with 
+age-related conditions(4,39). Video, are spoken, mHealth Options should be available technology is visible (e.g., However, the variety of much lower investment in aging 
+which provides a more personal efforts must be available for caregivers and care in the case of wearable caregivers and their varying populations or chronic diseases. 
+experience than text messaging or in (or designed to enable recipients to easily control sensors), care recipients needs makes designing a Turning the discussion and 
+Caregivers’ voice calls, may be a better option translation into) relevant the type and amount of appreciate devices that give “one size fits all” solution devoting fiscal space towards 
+Needs for improving behavior change, languages to ensure information that is shared a dignified look and feel. complex(34). Feedback from aging will require strong political 
+compliance, and satisfaction(3). widespread use and with others. QMedic suggests that users do will and continued efforts 
+adoption(40). not want to manage devices – demonstrating the urgency 
+they want to put them on and of this matter to individuals, 
+Older forget about them(41). families, and societies(42).
+Adults’ 
+Needs
+12
+CREDIT: MARC KELLEY
+Lack of donor interest 
+Wearing identifiable Need to design the 
+Low literacy and  Need to customize and fiscal space for aging 
+Invasion of privacy technology that labels technology for the  
+numeracy in LMICs mHealth content populations and their 
+people as “old” end user
+caregivers
+An increasing number of mHealth interventions, Some mHealth applications Care recipients do not like A study on mobile technology In LMICs, mobile strategies 
+older people are using mobile in general, need to be allow for wireless carrying items that visibly factors that influence the are not commonly developed 
+technologies around the world; customized to suit the monitoring of older adults. display that something is adoption and use among for aging, which can be related 
+however, in certain LMIC contexts, user needs, particularly Consequently, developers wrong(41). For example, older adults concluded that to the current lack of donor 
+low rates of literacy and numeracy taking into account must create mobile carrying assistive the end user and the device interest and fiscal space for 
+affect how messages should be language and cultural solutions that give users technologies that draw must match, or as the study aging and for addressing 
+delivered to end users. Illiteracy is barriers. mHealth control over their own attention, such as items with describes, “a user must be demographic transitions, in 
+also a crucial issue, as it is a known solutions must be privacy. If privacy concerns blinking lights or devices capable to handle the physical general. For example, in Africa, 
+risk factor for developing dementia developed with cultural are not addressed, this that make strange sounds, device as well as to understand health programs in many 
+and hinders the use of text sensitivity, and in areas can hinder the rate of can make care recipients and remember how the device countries focus on maternal and 
+messaging to prevent or manage where many languages technology adoption. feel uncomfortable(34). If the and the services work”(34). child health and HIV/AIDS, with 
+age-related conditions(4,39). Video, are spoken, mHealth Options should be available technology is visible (e.g., However, the variety of much lower investment in aging 
+which provides a more personal efforts must be available for caregivers and care in the case of wearable caregivers and their varying populations or chronic diseases. 
+experience than text messaging or in (or designed to enable recipients to easily control sensors), care recipients needs makes designing a Turning the discussion and 
+voice calls, may be a better option translation into) relevant the type and amount of appreciate devices that give “one size fits all” solution devoting fiscal space towards 
+for improving behavior change, languages to ensure information that is shared a dignified look and feel. complex(34). Feedback from aging will require strong political 
+compliance, and satisfaction(3). widespread use and with others. QMedic suggests that users do will and continued efforts 
+adoption(40). not want to manage devices – demonstrating the urgency 
+they want to put them on and of this matter to individuals, 
+forget about them(41). families, and societies(42).
+13
+The use of mHealth for 
+caregivers of older adults is 
+at an early stage; however, 
+the potential impact of 
+mHealth is being considered. 
+REALIZING THE mHEALTH Design mHealth caregiving 
+POTENTIAL FOR CAREGIVING Work to identify effective Draw insights from solutions for those who Emphasize the importance Adapt already-existing solutions for caregivers of  relevant caregiving need them the most, such of women in their roles as 
+caregiving tools for mobile
+elderly in LMICs strategies as caregivers of the elderly caregivers
+THE USE OF mHEALTH FOR CAREGIVERS OF OLDER with cognitive impairment
+ADULTS IS AT AN EARLY STAGE; HOWEVER, THE 
+POTENTIAL IMPACT OF mHEALTH IS BEING CONSIDERED. Issues related to caregiving for older Relevant caregiving issues Though the evidence mHealth solutions can be Changing social dynamics 
+The following items related to knowledge and practice have been identified adults in some LMICs are discussed in include: preventing health for mHealth solutions better tailored to alleviate the such as declining fertility 
+to strategically move the field towards realizing the full mHealth potential research, often in parallel with dialogue problems (e.g., hygienic in caregiving is responsibilities of caregivers rates, later marriage, women 
+for caregivers: about how urbanization of populations practices, preventing malaria, small(44), it is possible for individuals with cognitive entering and remaining in the 
+reduces the number of available preventing infections); that some findings impairment. For example, work force, as well as changing 
+caregivers to care for the older adults managing symptoms (e.g., from assistive many applications have been family structures around the 
+living in rural areas. However, these managing weight loss, diarrhea, technology9 (AT) developed for family and formal world will have consequences 
+findings rarely can be generalized. controlling pain); treatment and aging could be caregivers of individuals with on caregiving options(13,47). In 
+When developing a solution, there and other support related transferred(14,45). AT dementia, but these applications resource-limited settings around 
+must be an assessment of local needs to HIV/AIDS (e.g., adhering has been shown to frequently do not correspond the world, women who are 
+so efforts can have concrete aims and to antiretroviral treatment, accommodate some with needs(46). One strategy to informal caregivers generally 
+objectives. Examples of what should grieving after the loss of a of the needs of older better design solutions for those make tradeoffs in favor of raising 
+be assessed include specific dynamics loved one, preparing for death). adults either by itself suffering from dementia, for their own children, which can 
+of informal caregivers in LMICs, such For these issues, materials or in combination with example, is to involve individuals affect how much care older 
+as the nature and causes of declining have already been developed formal and informal with dementia in the decision adults receive(15). Emphasizing 
+family support for older adults(14). to support caregivers in their care. making process. This strategy the importance of women in 
+Another component to consider is how responsibilities; however, can also help empower and their roles as caregivers can help 
+to design mHealth tools so that they access can be increased if increase the autonomy of care reduce the individual burden that 
+capture and communicate aspects of these materials can be adapted recipients and has been shown is taken on by these women.
+care needs so formal caregivers can and simplified for mobile to improve quality of life(46).
+more readily understand the history of phones in a fashion similar to 
+aging individuals and create tailored what has been done for the 
+care plans. Integrated Management of 
+8  An electronic version of IMCI called e-IMCI was developed for health workers in Tanzania and was found to Childhood Illnesses (IMCI) 
+improved adherence to protocols and reduced training time(43). approach for child health.8 
+9  Assistive technology is the “use of portable devices, such as canes or wheelchairs, and of home modifica-
+tions, such as grab bars or ramps”(14).
+14
+CREDIT: MARC KELLEY
+Design mHealth caregiving 
+Work to identify effective Draw insights from solutions for those who Emphasize the importance 
+Adapt already-existing 
+solutions for caregivers of  relevant caregiving need them the most, such of women in their roles as 15
+caregiving tools for mobile
+elderly in LMICs strategies as caregivers of the elderly caregivers
+with cognitive impairment
+Issues related to caregiving for older Relevant caregiving issues Though the evidence mHealth solutions can be Changing social dynamics 
+adults in some LMICs are discussed in include: preventing health for mHealth solutions better tailored to alleviate the such as declining fertility 
+research, often in parallel with dialogue problems (e.g., hygienic in caregiving is responsibilities of caregivers rates, later marriage, women 
+about how urbanization of populations practices, preventing malaria, small(44), it is possible for individuals with cognitive entering and remaining in the 
+reduces the number of available preventing infections); that some findings impairment. For example, work force, as well as changing 
+caregivers to care for the older adults managing symptoms (e.g., from assistive many applications have been family structures around the 
+living in rural areas. However, these managing weight loss, diarrhea, technology9 (AT) developed for family and formal world will have consequences 
+findings rarely can be generalized. controlling pain); treatment and aging could be caregivers of individuals with on caregiving options(13,47). In 
+When developing a solution, there and other support related transferred(14,45). AT dementia, but these applications resource-limited settings around 
+must be an assessment of local needs to HIV/AIDS (e.g., adhering has been shown to frequently do not correspond the world, women who are 
+so efforts can have concrete aims and to antiretroviral treatment, accommodate some with needs(46). One strategy to informal caregivers generally 
+objectives. Examples of what should grieving after the loss of a of the needs of older better design solutions for those make tradeoffs in favor of raising 
+be assessed include specific dynamics loved one, preparing for death). adults either by itself suffering from dementia, for their own children, which can 
+of informal caregivers in LMICs, such For these issues, materials or in combination with example, is to involve individuals affect how much care older 
+as the nature and causes of declining have already been developed formal and informal with dementia in the decision adults receive(15). Emphasizing 
+family support for older adults(14). to support caregivers in their care. making process. This strategy the importance of women in 
+Another component to consider is how responsibilities; however, can also help empower and their roles as caregivers can help 
+to design mHealth tools so that they access can be increased if increase the autonomy of care reduce the individual burden that 
+capture and communicate aspects of these materials can be adapted recipients and has been shown is taken on by these women.
+care needs so formal caregivers can and simplified for mobile to improve quality of life(46).
+more readily understand the history of phones in a fashion similar to 
+aging individuals and create tailored what has been done for the 
+care plans. Integrated Management of 
+Childhood Illnesses (IMCI) 
+approach for child health.8 
+15
+CREDIT: UN/HERWIG
+CALL TO ACTION: Health Care Mobile Phone and Caregivers Developers Organizations Researchers Governments Donors
+REALIZING THE mHEALTH Professionals Network Operators
+POTENTIAL Voice your Create mobile solutions Help support the Think of Continue developing Support aging legislation Participate in this Be active in needs and the for caregivers that can link of mHealth meaningful and the evidence base and policy as long- growing need by developing 
+community’s be seamlessly integrated strategies for contextual ways around mHealth for range planning will be joining in partnerships appropriate fiscal 
+THE SOONER APPROPRIATE ACTION IS needs in terms into their daily lives with caregivers to caregivers can be healthy aging, starting critical in order to avoid that support the space for policies 
+TAKEN, THE SOONER THE BURDEN OF of caregiving. options to connect to professional assisted in their with existing mHealth or reduce what can aging population. and programs. 
+CAREGIVERS CAN BE REDUCED, WHICH further clinical or social health advice, responsibilities. solutions. Find ways to be a heavy economic Develop handsets, Earmark funding for 
+CAN ENHANCE THE QUALITY OF LIVES support as needed. formal care Assure that communicate successes, toll. Enhance financial products, and projects that aim to 
+AROUND THE WORLD. Thus, a call to action For solutions that send support, and uniform standards shortcomings, and other and insurance systems networks with older improve quality of 
+is warranted. All stakeholders involved in this call messages or monitoring health systems. for devices to lessons learned from to provide support for adults in mind. life and access to 
+to action must share responsibility in placing more information from care help treat chronic implementation so caregivers in the larger care for older adults, 
+practical emphasis on prevention, early diagnosis, and recipients to caregivers, diseases are future efforts can learn context of aging. Invest the ecosystem 
+treatment of age-related diseases so that the effects of developers must design adopted (see from experience and in improving quality of life of caregivers that 
+these diseases can be less debilitating on older adults with the needs of the Continua Health the field can evolve. and universal access to participate in their 
+(i)
+and their caregivers. caregiver in mind and Alliance ). Eventually, research will care services that address lives, and individuals 
+make sure that solutions Implement cost- need to address the chronic diseases affecting with chronic 
+allow end users to effective home- costs of implementation the older segments of the conditions.
+Partnerships between stakeholders should focus on receive useful signals, and community- and whether mHealth population. Develop or 
+enabling factors, such as value, usability, affordability, instead of a constant based mHealth solutions improve amend existing policies 
+accessibility, and technical support(48). Identifying stream of information strategies of care. efficiencies and health to remove barriers that 
+partners and collaborating with them to contextualize where distinguishing outcomes, which will help prevent integration of 
+data that can feedback into the design of mobile what is important and investment and policy mHealth solutions into the 
+solutions will be paramount in creating better solutions. what is less important decisions. mainstream healthcare 
+can become difficult or delivery system.
+not useful.
+10 Continua Health Alliance connects over 200 companies around the world to 
+establish interoperable health solutions.
+16
+Partnerships between stakeholders 
+should focus on enabling factors, 
+such as value, usability, affordability, 
+accessibility, and technical support.
+Health Care Mobile Phone and 
+Caregivers Developers Organizations Researchers Governments Donors
+Professionals Network Operators
+Voice your Create mobile solutions Help support the Think of Continue developing Support aging legislation Participate in this Be active in 
+needs and the for caregivers that can link of mHealth meaningful and the evidence base and policy as long- growing need by developing 
+community’s be seamlessly integrated strategies for contextual ways around mHealth for range planning will be joining in partnerships appropriate fiscal 
+needs in terms into their daily lives with caregivers to caregivers can be healthy aging, starting critical in order to avoid that support the space for policies 
+of caregiving. options to connect to professional assisted in their with existing mHealth or reduce what can aging population. and programs. 
+further clinical or social health advice, responsibilities. solutions. Find ways to be a heavy economic Develop handsets, Earmark funding for 
+support as needed. formal care Assure that communicate successes, toll. Enhance financial products, and projects that aim to 
+For solutions that send support, and uniform standards shortcomings, and other and insurance systems networks with older improve quality of 
+messages or monitoring health systems. for devices to lessons learned from to provide support for adults in mind. life and access to 
+information from care help treat chronic implementation so caregivers in the larger care for older adults, 
+recipients to caregivers, diseases are future efforts can learn context of aging. Invest the ecosystem 
+developers must design adopted (see from experience and in improving quality of life of caregivers that 
+with the needs of the Continua Health the field can evolve. and universal access to participate in their 
+caregiver in mind and Alliance(i)). Eventually, research will care services that address lives, and individuals 
+make sure that solutions Implement cost- need to address the chronic diseases affecting with chronic 
+allow end users to effective home- costs of implementation the older segments of the conditions.
+receive useful signals, and community- and whether mHealth population. Develop or 
+instead of a constant based mHealth solutions improve amend existing policies 
+stream of information strategies of care. efficiencies and health to remove barriers that 
+where distinguishing outcomes, which will help prevent integration of 
+what is important and investment and policy mHealth solutions into the 
+what is less important decisions. mainstream healthcare 
+can become difficult or delivery system.
+not useful.
+17
+CONCLUSION
+This paper has defined the variety of caregivers for the rapidly growing older global population and has 
+detailed the role mobile technologies currently play and could potentially play to support the various 
+types of these caregivers in LMICs, while also being mindful of anecdotal mHealth examples from 
+HICs. For the informal and formal caregivers taking care of the aging population around the world, 
+mHealth solutions can be developed to fill social, functional, and instrumental task needs(3). However, 
+for mobile and wireless technologies to truly make a positive impact, the solutions must meet the 
+needs of the people who use it. Both formal and informal caregivers for older adults have many 
+needs, and there is a place for mHealth to alleviate some of the burden of their responsibilities. A 
+strategic effort for leveraging mHealth to reach its full potential requires action from a range of actors 
+across many sectors. Caregivers, developers, health care professionals, organizations, researchers, 
+governments, mobile phone and network operators, and donors are called to action, and through this 
+action mHealth can have a large and positive impact on caregiving for the world’s aging population.
+18
+REFERENCES
+1. Kwan A. Using mobile technologies for healthier aging: 10. International Communications Union (ITU). ICT Facts and 
+mHealth Alliance and Pfizer; 2012. Figures: The World in 2013: International Communications 
+Union (ITU); 2013.
+2. National Institute on Aging National Institutes of Health 
+U.S. Department of Health and Human Services, World 11. International Communications Union (ITU). ITU releases 
+Health Organization. Global Health and Aging; 2011. latest global technology development figures. 2013 [cited 
+July 12, 2013]; Available from: 
+3. Donnelly M, Nugent C, McClean S, Scotney B, Mason https://http://www.itu.int/net/pressoffice/press_releases 
+S, Passmore P, et al. A Mobile Multimedia Technology to /2013/05.aspx
+Aid Those with Alzheimer’s Disease. Mobile and Ubiquitous 
+Multimedia. 2010: 42-51. 12. Coalition to Transform Advanced Care. Call to Action: 
+Transforming Advanced Illness Care; 2012.
+4. Noroozian M. The elderly population in Iran: An ever 
+growing concern in the health system. Iran J Psychiatry 13. Brody EM. “Women in the middle” and family help to 
+Behav Sci. 2012; 6(2): 1-6. older people. The Gerontologist. 1981; 21(5): 471.
+5. United Nations Population Fund, HelpAge International. 14. Agree EM, Glaser K. Demography of Informal Caregiving. 
+Ageing in the Twenty-First Century: A Celebration and A International handbook of population aging. Netherlands: 
+Challenge. New York and London: UNFPA and HelpAge Springer; 2009. p. 647-68.
+International; 2012.
+15. Aboderin I. Decline in Material Family Support for Older 
+6. Arno PS, Levine C, Memmott MM. The economic value People in Urban Ghana, Africa: Understanding Processes and 
+of informal caregiving. Health Affairs. 1999; 18(2): 182-8. Causes of Change. Journal of Gerontology. 2004; 59B(3): 
+S128-S37.
+7. Yach D, Hawkes C, Gould L, Hofman KJ. The global 
+burden of chronic diseases: Overcoming impediments to 16. Agarwal S, Tong Lau C. Remote health monitoring 
+prevention and control. Special Communication. 2004; using mobile phones and web services. Telemedicine and 
+291(21): 2616-22. e-Health. 2010; 16(5): 603-7.
+8. Population Division of the Department of Economic 17. Hermanns M, Mastel-Smith B. Caregiving: A qualitative 
+and Social Affairs of the United Nations Secretariat. World concept analysis. The Qualitative Report. 2012; 17(75): 1-18.
+Population Prospects: The 2010 Revision; 2010.
+18. Parkash J, Younis MZ, Ward W. Healthcare for the 
+9. Gresh A, Maharaj P. Policy and Programme Responses. Ageing Populations of Countries of Middle East and North 
+In: Maharaj P, editor. Aging and Health in Africa, International Africa. Ageing Int. 2012.
+Perspectives on Aging. New York: Springer Science Business 
+Media; 2013. 19. HelpAge International. Aid failing older people. Ageing & 
+Development. 2012; (31): 1-6.
+19
+REFERENCES (continued)
+20. Clark NM, Rakowski W. Family Caregivers of Older 29. Unfrazzle. Unfrazzle: The Caregiver’s Assistant. 2013 
+Adults: Improving Helping Skills. The Gerontologist. 1983; [cited 07/10/2013]; Available from: 
+23(6): 637. http://www.unfrazzledcare.com
+21. Sorenson S, Pinquart M, Duberstein P. How effective 30. QMedic. QMedic keeps your loved one connected, 
+are interventions with caregivers? An updated meta-analysis. healthy, and safe in the home. 2013 [cited 07/10/2013]; 
+The Gerontologist. 2002; 42(3): 356-72. Available from: http://www.qmedichealth.com
+22. CareGiving. The Caregiving Years: An Introduction. 2013 31. Parental Health. MISTY Product Overview. 2013 [cited 
+[cited July 25, 2013]; Available from: July 25, 2013]; Available from: 
+http://www.caregiving.com/the-caregiving-years/ http://www.parentalhealth.com/MISTY-Product-Overview
+23. Ghosh A, Ratan S, Lindeman D, Steinmetz V. THE 32. Ronglong S, Sookplang C, Arpnikanondt C, Vanijja V. 
+NEW ERA OF CONNECTED AGING: A Framework for Design of a Medication Reminder and Feedback System 
+Understanding Technologies that Support Older Adults in for Thai Elders. International Conference on Computer & 
+Aging in Place: Center for Technology and Aging; 2013. Information Science (ICCIS); 2012; 2012. p. 44-9.
+24. EveryChild, HelpAge International. Family first: 33. Procura Solutions. US Clinical Solution. 2013 [cited July 
+Prioritising support to kinship carers, especially older carers. 24, 2013]; Available from:
+London: EveryChild and HelpAge International; 2012. http://goprocura.com/solutions/us/us-clinical-solution
+25. Pearlin LI, Mullan JT, Semple SJ, Skaff MM. Caregiving 34. Mallenius S, Rossi M, Tuunainen VK. Factors affecting 
+and the Stress Process: An Overview of Concepts and Their the adoption and use of mobile devices and services by 
+Measures. The Gerontologist. 1990; 30(5): 583-94. elderly people – results from a pilot study. 6th Annual Global 
+Mobility Roundtable; 2007; 2007.
+26. Comninos A, Esselaar S, Ndiwalana A, Stork C. Towards 
+evidence-based ICT policy and regulation: M-banking the 35. de la Harpe R, van Zyl I. Community 2.0: a collaborative 
+Unbanked: IDRC CRDI and Acacia; 2008. university-community network to inform and educate 
+caregivers in home-based healthcare in South Africa. In: 
+27. Wang CS. Mobile and wireless technologies applying on IEEE, editor. Pervasive Computing and Applications (ICPCA) 
+sphygmonameter and pulsimeter for patients with pacemaker 6th International Conference; 2011; 2011. p. 57-66.
+implementation and other cardiovascular complications. J 
+Biomedical Science and Engineering. 2010; 3: 47-51. 36. Knight BG, Lutzky SM, Macofsky-Urban F. A 
+metanalytic review of interventions for caregiver distress: 
+28. Blake H. Mobile phone technology in chronic disease Recommendations for future research. The Gerontologist. 
+management. Nursing Standard. 2008; 23(12): 43-6. 1993; 33: 240-8.
+20
+37. Fernandes R, Osarch S, Bell CL, Flynn BW, Nguyen 46. Span M, Spits C, Groen-van de Ven L, Jukema J, Hettinga 
+LV, Abad MJ, et al. Aging and Caregiving in the Republic of M, Cremers A, et al. Developing eHealth Technology for 
+Palau. J Cross Cult Gerontol. 2013. People With Dementia: Towards a Supportive Decision Tool 
+Facilitating Shared Decision-Making in Dementia. In: IARIA, 
+38. Dias A, Dewey ME, D’Souza J, Dhume R, Motghare DD, editor. eTELEMED 2013: The Fifth International Conference 
+Shaji KS, et al. The Effectiveness of a Home Care Program on eHealth, Telemedicine, and Social Medicine; 2013; 2013.
+for Supporting Caregivers of Persons with Dementia in 
+Developing Countries: A Randomised Controlled Trial from 47. HelpAge International. Ageing in Africa. 2012.
+Goa, India. PLOS ONE. 2008; 3(6): e2333.
+48. Lee YS. Older adults’ user experiences with mobile 
+39. Kalaria RN, Maestre GE, Arizaga R, Friedland RP, Galasko phones: Identification of user clusters and user requirements. 
+D, Hall K, et al. Alzheimer’s disease and vascular dementia Blacksburg, Virgina: Virginia Polytechnic Institute and State 
+in developing countries: prevalence, management, and risk University; 2007.
+factors. The Lancet Neurology. 2008; 7(9): 812-26.
+49. Comfort Keepers. The six stages of a caregiver’s journey. 
+40. iHeed Institute. Preparing the next generation of 2013 [cited July 24, 2013]; Available from:
+community health workers: The power of technology for http://comfortkeepers.com/information-center/news-and-
+training. Cork, Ireland: iheed institute; 2012. highlights/six-stages-caregivers-journey
+41. Mishra S. Interview on QMedic. 2013.
+42. Aboderin I, Beard J. Ageing and health in sub-Saharan 
+Africa. 2013.
+43. Modi. Mobile Health Technology in Developing 
+Countries: The Case of Tanzania. Pepperdine Policy Review. 
+2013; 6(5).
+44. Blaschke CM, Freddolin PP, Mullen EE. Ageing and 
+Technology: A Review of Research Literature. British Journal 
+of Social WOrk. 2009; 39: 641-56.
+45. McCreadie C, Tinker A. The acceptability of assistive 
+technology to older people. Ageing and Society. 2005; 25(1): 
+91-110.
+21
+APPENDIX A: Stages of an informal caregiver’s journey(22,49).
+STAGE 1
+The Expectant Caregiver - When a caregiver expects to help an aging relative and may have time to 
+prepare for the upcoming caregiver responsibilities. The caregiver can set up care processes or speak with 
+necessary health care professionals
+STAGE 2
+The Freshman Caregiver – When a caregiver takes on the initial caregiving responsibilities, such as 
+instrumental tasks, to help an aging relative
+STAGE 3 
+The Entrenched Caregiver – When a caregiver has already adjusted to caregiving responsibilities and may 
+feel mentally and physically exhausted
+STAGE 4 
+The Pragmatic Caregiver – When a caregiver continues with caregiving responsibilities but begins to insert 
+effective strategies that relieves the caregiving burden
+STAGE 5 
+The Transitioning Caregiver – When the role of the caregiver is nearing an end because he or she can no 
+longer provide the necessary care or because the care recipient’s time is coming to an end
+STAGE 6
+The Godspeed Caregiver – When an individual is no longer a caregiver, but can become a caregiving 
+advocate from his or her experience
+22
+APPENDIX B: Caregiver tasks as detailed by  
+Clark and Rakowski (1983)(20).
+CAREGIVER TASKS
+Tasks associated with the caregiver role as a provider of direct assistance
+1. Be available when (or if) needed. 8. “Run interference” for care-receiver in social and   
+2. Supervise prescribed treatment and general    community settings.
+ recommendations. 9. “Normalize” care-receiver’s routine, within bounds of the  
+3. Evaluate options for treatment and/or services.  impairment(s).
+4. Monitor course of the condition and evaluate   10. Supervise/directly manage care-receiver’s resources.
+ significance of changes. 11. Cope with upsetting behavior of the care-receiver.
+5. Evaluate strengths/resources of the care-receiver. 12. Maintain adequate communication with the care-receiver.
+6. Anticipate needs for future assistance and services. 13. Perform basic ADL for the care-receiver.
+7. Provide structure for care-receiver’s daily activities. 14. Satisfy need for creativity/originality to offset tedious routines.
+Personal tasks faced by family caregivers
+1. Compensate for emotional drain from constant responsibility. 11. Work through changes in the lifelong relationship   
+2. Compensate for or recover personal time.  between caregiver and care-receiver.
+3. Gain knowledge about the disease/condition. 12. Find a locus of blame for the condition/disease.
+4. Avoid severe drain on physical strength/health. 13. Assume financial costs (actual and potential).
+5. Resolve guilt over “negative feelings” toward care-receiver. 14. Confront the possibility of institutionalization.
+6. Resolve disappointment or feelings of guilt over one’s  15. Compensate for or avoid loss/reduction of physical and  
+ performance.  emotional intimacy.
+7. Make up for or avoid loss/restrictions on future plans and  16. Separate feelings regarding condition from feelings  
+ perspective.  toward the care-receiver.
+8. Readjust personal routines. 17. Resolve uncertainty about one’s skills as a caregiver.
+9. Compensate for disruption of sleep. 18. Release tensions/feelings toward the care-receiver.
+10. Emotionally accept the likelihood of a progressive   19. Adjust to/cope with an uncertain future.
+ downward course.
+Familial and societal tasks of the caregiver role
+FAMILIAL 7. Give appropriate consideration to care-receiver’s opinions  
+1. Designate other “responsible caregiver(s)”.  and preferences.
+2. Maintain family communication and exchange of   8. Consider as a family the need for institutionalization.
+ information.
+3. Balance the giving of assistance with responsibilities to  SOCIETAL
+ other family members. 1. Interact with medical, health, and social service professionals.
+4. Cope with the loss/restriction of family future planning. 2. Maintain knowledge of the service system and options.
+5. Manage feelings toward other family members who do  3. Act as advocate or third-party negotiator for the care-receiver.
+ not regularly help. 4. Maintain knowledge of reimbursement mechanisms.
+6. Maintain the family as effective decision-making group  
+ over a long period of time.
+23
+

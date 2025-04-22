@@ -1,0 +1,1180 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+MOBILE MONEY FOR HEALTH  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+November 2013 
+This publication was produced for review by the United States Agency for International Development.  
+It was prepared by the Health Finance and Governance Project. 
+ 
+ 
+The Health Finance and Governance Project  
+USAID’s Health Finance and Governance (HFG) project will help to improve health in developing countries by 
+expanding people’s access to health care. Led by Abt Associates, the project team will work with partner countries 
+to increase their domestic resources for health, manage those precious resources more effectively, and make wise 
+purchasing decisions. As a result, this five-year, $209 million global project will increase the use of both primary 
+and priority health services, including HIV/AIDS, tuberculosis, malaria, and reproductive health services. Designed 
+to fundamentally strengthen health systems, HFG will support countries as they navigate the economic transitions 
+needed to achieve universal health care.  
+November 2013 
+Cooperative Agreement No:  AID-OAA-A-12-00080 
+Submitted to:  Scott Stewart, AOR 
+Office of Health Systems 
+Bureau for Global Health 
+United States Agency for International Development 
+And 
+Ishrat Z Husain 
+Senior Health Adviser, Africa Bureau 
+United States Agency for International Development 
+ 
+ 
+ 
+ 
+ 
+Recommended Citation: Haas, Sherri, Marilyn Heymann, Pamela Riley, and Abeba Taddese. 2013. Mobile 
+Money for Health. Bethesda, MD: Health Finance and Governance Project, Abt Associates Inc. 
+ 
+Abt Associates Inc. | 4550 Montgomery Avenue, Suite 800 North | Bethesda, 
+Maryland 20814 
+T: 301.347.5000 | F: 301.652.3916 | www.abtassociates.com 
+ 
+ 
+Broad Branch Associates | Development Alternatives Inc. (DAI) | Futures Institute  
+| Johns Hopkins Bloomberg School of Public Health (JHSPH) | Results for Development Institute (R4D)  
+| RTI International | Training Resources Group, Inc. (TRG)  
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+MOBILE MONEY FOR HEALTH 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+DISCLAIMER 
+The author’s views expressed in this publication do not necessarily reflect the views of the United States Agency 
+for International Development (USAID) or the United States government. 
+ iii  
+ 
+CONTENTS 
+Contents .............................................................................................................. v 
+Abbreviations and Acronyms .......................................................................... vi 
+1. Executive Summary ................................................................................. 1 
+2. Background ............................................................................................... 3 
+3. Mobile Money in Context ........................................................................ 4 
+3.1 Mobile Phone Prevalence .................................................................................................. 4 
+3.2 Mobile Money Overview ................................................................................................... 4 
+4. Mobile Money and Health: Potential Benefits and Challenges ........... 7 
+4.1 Mobile Money at the Client Level ................................................................................... 8 
+4.2 Mobile Money at the Provider Level .............................................................................. 9 
+4.3 Mobile Money at the Program Level .............................................................................. 9 
+4.4 Challenges in Mobile Money Use for Health ............................................................. 10 
+5. Mobile Money Relevance to mHealth .................................................. 13 
+5.1 Subsidizing Information Services with Financial Transaction Revenues.............. 13 
+5.2 Attracting New Corporate Sector Partners .............................................................. 14 
+5.3 Sharing Agent Networks ................................................................................................. 14 
+6. Conclusions.............................................................................................. 16 
+References ......................................................................................................... 17 
+Appendix A. Case Studies ............................................................................... 19 
+Case Study 1: MicroEnsure ............................................................................. 22 
+Case Study 2: D-tree International ................................................................ 25 
+Case Study 3: Marie Stopes International .................................................... 28 
+Appendix B. Additional Resources ................................................................ 31 
+ 
+List of Figures  
+Figure 3.1 A Typical Cash-In and Cash-Out Agent Network .................................................... 5 
+Figure 3.2 GSMA Map of Mobile Money Deployment in Africa ................................................ 6 
+Figure 4.1 Financial Flows in a Health System ................................................................................ 8 
+v 
+ 
+ABBREVIATIONS AND ACRONYMS 
+2G second generation 
+ANC antenatal care 
+CCT conditional cash transfers 
+CGAP World Bank’s Consultative Group to Assist the Poor 
+CHW community health workers 
+GSMA Groupe Spéciale Mobile Association (mobile operators) 
+HFG USAID Global Health Financing and Governance Project 
+ILO International Labour Organization 
+IT information technology 
+mHealth mobile phone–based health interventions 
+MSK Marie Stopes Kenya 
+MSM Marie Stopes Madagascar 
+MMU Mobile Money for the Unbanked 
+NHIF National Hospital Insurance Fund 
+NGO nongovernmental organization 
+SIM subscriber identity module 
+SMS short message service or text messages  
+TB tuberculosis 
+TBA traditional birth attendant 
+USAID United States Agency for International Development 
+USSD unstructured supplementary service data 
+UTM Union Technique de la Mutualité Malienne 
+ZISSP Zambia Integrated Systems Strengthening Program 
+vi 
+ 
+1. EXECUTIVE SUMMARY 
+Mobile money enables funds to be deposited, transferred, and withdrawn electronically through mobile 
+phone accounts.  
+Fueled by the success of Kenya’s M-Pesa mobile payment platform, mobile money is a rapidly growing 
+alternative to cash in developing countries. Whereas mobile money services have been launched in more 
+than 70 countries with the majority of current deployments in sub-Saharan Africa, most have not yet 
+reached significant scale. The United States Agency for International Development (USAID) is 
+committed to accelerating adoption and uptake of mobile money based on its potential to increase 
+financial inclusion, root out corruption, and provide economic benefits to communities. The USAID 
+Global Health Finance and Governance (HFG) Project seeks to promote the use of mobile money 
+specifically to strengthen health systems.  
+Mobile money provides unique opportunities in the health sector. It can be integrated into existing 
+activities—replacing cash flows—to improve efficiency, accountability, and transparency in financial 
+transactions. It also opens up potential to improve scalability of subsidy and incentive schemes and to 
+expand access to financial services such as credit and savings.  
+This paper reviews current use cases and potential applications of mobile money in health, including (a) 
+bulk payments for salaries and per diems, (b) conditional cash transfer and pay-for-performance 
+schemes, (c) collection of health insurance premiums, and (d) management of voucher schemes, with the 
+overall objective of bringing attention to the benefits and challenges of using mobile money in the health 
+sector. The three detailed case studies included in appendix A represent some of the most documented 
+examples of mobile money and health. Although the mobile money industry is continuing to grow 
+rapidly, use cases in the health sector are limited. This small but promising collection of use cases is 
+expected to expand as evidence that supports the potential benefits of mobile money in the health 
+sector continues to grow.  
+Health programs are exploring uses of mobile money at three levels. At the client level, mobile money 
+platforms are used to save and pay for services and to receive remittances to cover high out-of-pocket 
+health costs. In Kenya, mobile money is commonly referred to as “emergency money”—funds provided 
+by family or friends to obtain immediate medical treatment. Changamka is a health-savings platform in 
+Kenya that allows users to earmark funds for specific services such as maternity care, thus increasing 
+payment options to encourage antenatal care (ANC) and institutional deliveries.  
+At the provider level, electronic-payment platforms can save providers the time and expense needed 
+to travel to cities to cash paychecks, and they can be used to facilitate timely payment of performance-
+based incentives. D-tree International increased safe deliveries in Tanzania through a mobile phone–
+based program that empowers traditional birth attendants (TBAs) to refer women with obstetric 
+emergencies for delivery in health care facilities. Payments received through mobile money encourage 
+future referrals and compensate the TBAs for lost income that they would have earned attending home 
+births.  
+At the program management level, mobile money can improve operations by reducing the risks and 
+costs of distributing cash payments for per diems at trainings. To improve management of its voucher 
+scheme, Marie Stopes Madagascar automated its claims settlement process using mobile money to 
+reimburse providers. The change resulted in increasing provider willingness to participate in the voucher 
+scheme because using mobile money reduced delays in reimbursement.  
+ 1  
+Mobile money is increasingly being integrated into broader mobile phone–based health interventions 
+(mHealth) that offer new opportunities for sustaining mHealth applications, which remain largely 
+dependent on donor funding. Integrating mobile money and mHealth programs may be a way to 
+generate new sources of revenue and to attract additional financing partners. In one innovative 
+partnership, Tanzania mobile operator Tigo and microinsurance provider MicroEnsure teamed up to 
+provide a mobile phone–based insurance product. Tigo provided free insurance premiums to its high-use 
+network customers, thereby generating significant demand for the insurance products. Mobile financial 
+products for health provide strong incentives for mobile network operators to use their vast marketing 
+resources to promote service uptake because by doing so, they build customer loyalty and generate 
+network use.  
+Just as mobile money applications can provide benefits to the health sector, the health sector can serve 
+as a catalyst for mobile money by generating the demand necessary to sustain and to develop mobile 
+money platforms. For example, health programs can also serve as “anchor clients” that provide 
+guaranteed users who allow the mobile operator to expand the reach of its platform and to increase 
+agent locations. As mobile money ecosystems continue to develop, opportunities provided to the health 
+sector can also be expected to grow, but more research on applications is needed to better understand 
+the potential mobile money brings to the health sector. 
+  
+2 
+ 
+2. BACKGROUND 
+Mobile phones are one of the fastest-spreading technological innovations with an unprecedented rate of 
+adoption. Between 2000 and 2010, mobile phone subscriptions in low- and middle-income countries 
+increased by more than 1,500 percent, from 4 to 72 subscriptions per 100 inhabitants (World Bank 
+2012). As access to mobile phones expands in developing markets, money transfer systems based on 
+mobile phone technology (mobile money) are being leveraged to tackle development challenges across 
+many different sectors, including agriculture, education, health, and finance. 
+The USAID-funded Global Health Finance and Governance (HFG) Project is working with partner 
+countries to increase domestic resources for health, to strengthen governance capacity, and to improve 
+public health management. Designed to fundamentally strengthen health systems, the core objective of 
+the HFG project is to improve health outcomes by expanding access to priority health services. Through 
+HFG, USAID is supporting cross-cutting activities to strengthen health systems including promotion of 
+mobile money to improve the efficiency, security, and transparency of financial transactions in the health 
+sector. HFG’s mobile money team is facilitating sharing of knowledge, best practices, and lessons learned 
+in implementing mobile money solutions. The team collaborates frequently with mobile money partners, 
+including USAID’s Mobile Solutions team, and with implementing partners, including the Better than 
+Cash Alliance, country-level implementers, and program managers.  
+Commissioned by USAID’s Africa Bureau, the aim of this paper is to introduce mobile money’s potential 
+in the health sector and to highlight innovations, trends, and opportunities for public health 
+professionals, implementers, and partners. To gather information about promising applications, HFG 
+conducted desk research and interviews with more than 30 stakeholders active in this area, including the 
+World Bank Consultative Group to Assist the Poor (CGAP), International Labour Organization (ILO), 
+Microinsurance Innovation Facility, the mHealth Alliance, NetHope, Groupe Spéciale Mobile Association 
+(GSMA), the Bill and Melinda Gates Foundation, the Rockefeller Foundation, consultants, mobile 
+operators, mobile money platform providers, and health programs using or contemplating using mobile 
+money.  
+A key learning from these interviews is that while there is tremendous momentum around mobile 
+money, little focus has been given to date on the intersection of mobile money and health systems. 
+Mobile money is gaining recognition as a potential vehicle for improving access to services, but it 
+remains largely under-utilized in the health sector. Throughout the paper, reference is made to three of 
+the most documented mobile money use cases in the health sector: Marie Stopes’s voucher 
+management system, MicroEnsure’s mobile insurance products, and D-tree’s incentives for health 
+workers. In addition to these case studies (see appendix A), a number of organizations are in the early 
+phases of planning health-related mobile money applications. This paper highlights mobile money’s 
+potential in the health sector, drawing on both actual use cases and likely applications based on 
+observed uses in other sectors. This paper sets the stage to invite discussion about use of mobile money 
+applications in the health sector as well as to invite contributions to the growing collection of case 
+studies. More in-depth reports will follow over the life of the HFG project as new evidence of mobile 
+money’s effect on health is generated.  
+The paper is presented in five sections. Section 1 is an executive summary. Section 2, or background, 
+summarizes the paper’s objectives. Section 3 defines mobile money and briefly provides background 
+context for its use both broadly and in the health sector. Section 4 illustrates potential benefits and 
+challenges of using mobile money in the health sector. Section 5 explores synergies between mHealth 
+and mobile money. The final section draws early conclusions about the use of mobile money in health 
+while pointing to the need for additional evidence to assess benefits to the health sector. 
+3 
+3. MOBILE MONEY IN CONTEXT 
+3.1 Mobile Phone Prevalence 
+In 2012, there were more than 3.2 billion mobile phone subscribers worldwide. There were over 6.7 
+billion mobile connections, which includes the multiple devices or subscriber identity module (SIM) 
+cards, owned by many (Kearney and GSMA 2013). Five billion of the connections are standard second-
+generation (2G) technology, providing voice, messaging, and low-bandwidth data connections. In the 
+Africa and Asia Pacific regions, mobile connections are predominately prepaid with 96 percent and 82 
+percent, respectively, functioning on pay-as-you-go rather than on contract connections. Prepaid 
+business models allow individuals who may not have bank accounts or other documentation necessary 
+for entering a contract to nevertheless have access to mobile phones. 
+Access to mobile phones has spread both economically, or down into the market—within the reach of 
+many poor households—and geographically—available in rural areas where landlines and even electricity 
+may not exist. This spread in access to mobile phones has unlocked opportunities to reach underserved 
+populations by expanding access to services, including healthcare and financial services.  
+3.2 Mobile Money Overview 
+Mobile money systems vary across countries and 
+between service providers (see box 3.1). The most Box 3.1 Mobile Money Defined  
+common model establishes a network of agents—points “Mobile money” consists of financial 
+at which users can convert between cash and e-money transactions that are conducted using a 
+(see figure 3.1). Agents recruited as mobile money mobile phone, where value is stored 
+vendors often have other roles in the community, such virtually (e-money) in an account associated 
+as retail shop owners and airtime kiosk operators. E- with a SIM card. Individuals can deposit cash 
+money stored on a customer’s mobile account can be onto a mobile account, make transactions 
+transferred by text messages to other users who, in turn, between accounts, and withdraw funds as 
+cash. Mobile money transactions are 
+can store the funds in their accounts, transfer them, or 
+compatible with basic phones and do not 
+cash out at an agent. Although the amount of money require Internet access. 
+allowed in an account varies across systems, mobile 
+money systems tend to be designed for smaller and more 
+frequent transactions.  
+  
+4 
+ 
+Figure 3.1 A Typical Cash-In and Cash-Out Agent Network 
+Source: Authors 
+ 
+The most common types of mobile money transaction are person-to-person transactions. Kenya’s M-
+Pesa mobile money platform achieved wide success with its “Send Money Home” marketing campaign, 
+which was directed at income earners in urban areas with rural family members. As mobile money 
+ecosystems grow, additional functions are often added. Other transaction types include consumer-to-
+business (e.g., paying a utility bill), business-to-business (e.g., settling supply costs), and government-to-
+consumer (e.g., social welfare payments). Health sector applications can be found in each of these 
+categories. 
+As mobile phone–based financial systems develop, some grow from simple individual transactions to 
+include more sophisticated finance and banking components. Mobile network operators have driven the 
+growth of mobile money, including the first money transfer system—the widely popular M-Pesa 
+program—which registered two-thirds of Kenya’s adult population within five years of its 2007 launch 
+(Buku and Meredith 2013). Mobile payment systems may also be led by banks or operated by third 
+parties, with regulatory bodies in some countries requiring bank involvement to varying degrees. Bank-
+led or bank-partnered mobile money systems may allow for connection to an individual’s bank account, 
+adding function to both the bank and e-money accounts. Third-party platforms, such as bKash in 
+Bangladesh, offer payment services on all mobile networks, helping widespread adoption of mobile 
+money and lowering barriers to its use.  
+Safaricom’s enormous success with M-Pesa in Kenya led the way for the launch of mobile money 
+systems in numerous countries around the world. By October 2013, the GSMA Mobile Money for the 
+Unbanked Deployment Tracker reported more than 200 live mobile money services and more than 100 
+planned deployments in developing countries around the world. Sub-Saharan Africa alone accounts for 
+53 percent of all live mobile money services, which are available in 36 of the 47 countries in the region 
+(GSMA 2013). (See figure 3.2) 
+  
+5 
+Figure 3.2 GSMA Map of Mobile Money Deployment in Africa 
+ 
+Source: GSMA: Mobile for Development Intelligence. 
+ 
+Mobile money services have been launched in more than 70 countries, with the majority of the current 
+deployments in sub-Saharan Africa. In 2012, mobile money outlets outnumbered bank branches in at 
+least 28 countries and in 40 countries that had at least two mobile money services. Although a 
+substantial number of mobile money systems are in operation, the majority of the systems have not yet 
+scaled to a level of Kenya’s M-Pesa payment systems. In Kenya, a supportive regulatory environment, 
+dominant mobile network operator, targeted marketing campaigns, extensive agent network, high levels 
+of financial literacy, and a high demand for domestic transfer services are among the factors that have 
+contributed to the rapid expansion of M-Pesa. Countries that have tried to emulate Kenya’s payment 
+system, but with less successful results, are now developing strategies to address country-specific 
+factors. As the number, location, and size of mobile money systems continue to grow, so too will the 
+opportunities for utilizing this new approach in the health sector.  
+6 
+ 
+4. MOBILE MONEY AND HEALTH: 
+POTENTIAL BENEFITS AND CHALLENGES  
+Mobile money provides unique opportunities in the health sector. It can be used to replace cash flows, 
+thus bringing efficiency to health programs by enhancing data, operations, and program management. 
+Successful use of mobile money can increase opportunities 
+for financial support, can scale up programs, and can pave 
+Box 4.1 Illustrative Uses of  
+the way for developing more complex programs that 
+otherwise would not have been feasible. Box 4.1 lists a few Mobile Money for Health 
+examples of how mobile money is used in the health sector. 
+ Facilitates person-to-person transfers at 
+Those examples are not necessarily specific to the health scale, such as conditional cash transfer 
+sector, but point more broadly to the efficiency, security, programs for dispersed populations to 
+and transparency that mobile payment solutions can bring. increase use of service 
+Health systems in developing countries rely on large  Enables collection of funds from hard-
+volumes of cash transactions. This reliance on cash for to-reach locations, such as routine 
+financial transactions contributes to inefficiencies, enables small payments for health insurance 
+leakage, and carries security risks. On the patient side, premiums 
+cash is often the means of payment for services at health  Increases safety of health workforce by 
+facilities, for drugs at pharmacies, for health service reducing need for cash transactions at 
+vouchers and insurance premiums where available, and for clinics 
+the transport to treatment. On the provider side, cash is  Allows for targeted and timely 
+prevalent in transactions ranging from stock purchase, to assistance in emergencies, such as taxi 
+allowances, and to voucher reimbursement. At the payments in the event of obstructed 
+program and country levels, cash may be used for births  
+training per diems, among other applications. Thus, there 
+ Protects against catastrophic financial 
+are numerous points within the health sector at which setbacks by offering enabling earmarked 
+mobile money can replace cash and enhance accountability, savings for health emergencies  
+improve operational efficiency, and lower transaction costs, 
+ Provides permanent real-time records 
+as demonstrated in Box 4.1.  
+for bulk payments such as per diems or 
+Mobile money use in the health sector is still an emerging salaries 
+practice. Although increasing, the number of applications 
+and pilot programs is still limited in size and scope. This 
+paper highlights mobile money’s potential in the health sector, drawing both on actual use cases and on 
+likely applications that are based on observed uses in other sectors. The three detailed case studies 
+presented in appendix A showcase the first wave of mobile money and health innovators, thereby 
+highlighting challenges and successes and drawing lessons for others who are exploring mobile money in 
+health to consider.  
+  
+7 
+Figure 4.1 Financial Flows in a Health System 
+ 
+Source: authors 
+ 
+4.1 Mobile Money at the Client Level 
+Mobile money may increase access to health care in two ways. First, it can lower financial barriers by 
+increasing access to funds at crucial times. High out-of-pocket health costs are a significant barrier to 
+accessing health services in many countries. Safe and reliable financial services can play an important role 
+in improving access to savings and credit and facilitating the transfer of remittances and emergency 
+funds. In this way, the use of mobile money can lead to better financial management and, potentially, 
+improved access to care. For example, when funds are needed for urgent care, individuals with access to 
+mobile money can quickly receive transfers from remote friends and family. In Kenya, it is common to 
+hear of mobile money referred to as “emergency money”—funds provided by family or friends to obtain 
+immediate medical treatment (Haas and Nagarajan 2011). Providing conditional or direct aid through 
+mobile money enables more accountable and secure transactions without the security risks of cash.  
+Second, mobile money can expand access to financial services such as insurance by facilitating premium 
+collection and claims payments through mobile account–based enrollment in the insurance scheme. 
+Mobile money payment platforms reduce transaction costs when compared to the prohibitive expense 
+of face-to-face cash payments for routine premium collection. Mobile-enabled insurance services 
+facilitate outreach and education, automate transactions processing, and expand access to insurance 
+products for hard-to-reach populations. 
+New partnership models such as the one between mobile network provider Tigo and MicroEnsure, a 
+non-governmental organization (NGO) that provides mass-market insurance products, have opened the 
+way for design of an innovative microinsurance product that is being delivered on a large scale to Tigo 
+clients in Tanzania and Ghana (Case Study 1 in appendix A). Claims are paid via a mobile money service, 
+and the insurance premiums are deducted from the customer’s airtime balance.  In effect, the airtime 
+balance acts as an account that can be transformed back into funds to pay the premium.  This method 
+has enabled the service providers to secure premium payments even when users may not have sufficient 
+funds in their accounts, thereby expanding the reach of insurance by leveraging consumer investments in 
+airtime.  
+8 
+ 
+4.2 Mobile Money at the Provider Level 
+Inefficient mechanisms for disbursing salary payments, training fees, and financial incentives are 
+particularly problematic for health workers in remote and hard-to-reach areas, and affect the motivation 
+and performance of the workforce. Payments through mobile phones can save health workers the time 
+and expense of traveling to nearby cities to find bank branches or payment centers to access their funds. 
+Mobile money can be used to automatically pay salaries as well as to pay for additional incentives (rent, 
+utilities, transportation) for rural health workers. This method of payment can decrease the 
+administrative burden of cash payment as well as travel and security costs. It can also provide increased 
+benefits for health workers as mobile payments may allow faster and more frequent distribution of 
+funds.  
+Pay-for-performance schemes and financial incentives to improve health worker motivation, 
+performance, and retention are widely used in health programs, but often face operational challenges. 
+Mobile money services offer employers the ability to make payments to health workers that are timely 
+and that can be audited. 
+D-tree International, a U.S.-based NGO, develops clinical decision-support tools on mobile devices to 
+improve the quality of health care (Case Study 2 in appendix A). D-tree has integrated mobile money 
+into its program to improve maternal and child health by increasing safe deliveries in Tanzania. In 
+Zanzibar, women often deliver at home with the assistance of a traditional birth assistant (TBA). D-tree 
+is training TBAs to screen women for high-risk conditions and obstetric emergencies using a mobile-
+enabled guide. TBAs refer and accompany mothers with high-risk complications to health facilities for 
+delivery, and they provide at-home post-partum care. The attendant receives payment from D-tree via 
+mobile money to encourage future referrals and as compensation for lost income that would have been 
+earned attending home births. The mobile money channel is also used to fund emergency transport for 
+the women to health facilities. D-tree has seen health facility deliveries increase from 30 to 70 percent 
+among program beneficiaries.  
+4.3 Mobile Money at the Program Level 
+Mobile money improves transparency in cash systems and 
+Box 4.2 Tools to Assess Cost 
+can reduce both actual as well as the appearance of financial 
+Savings in Mobile Money 
+impropriety. It also enables financial transactions to be 
+Applications 
+independently verified and tracked and often lowers 
+administrative burdens. Replacing cash transactions with NetHope, under a USAID cooperative 
+electronic payments reduces the likelihood of leakage by agreement, has developed several tools 
+to assess costs of mobile money 
+decreasing the number of hands through which money 
+applications at 
+passes. Use of mobile money for payment of workshop per 
+http://solutionscenter.nethope.org/progra
+diems and incidental expenses removes the financial logistics ms/payment-innovation. The tools include 
+burden and any security risks that large volumes of cash may a survey tool for organizations to map 
+bring to the trainers. It also minimizes the number of hands current use of cash and electronic 
+through which cash is passed. In Tanzania, the NGO titled payment methods in their program 
+Pathfinder International transitioned from using cash operations. A costing tool provides a 
+payments in its programs to using mobile money at a national reference guide for comparing costs 
+level after a successful pilot program. Pathfinder Tanzania has (financial and nonfinancial) of using cash 
+since brought mobile payments to program scale, and more and electronic payments.   
+than 20,000 transactions have been sent to program  
+recipients, including community health workers, supervisors, 
+9 
+and even local government counterparts. USAID is supporting the development of tools for program 
+managers to evaluate the financial and nonfinancial costs of using both cash and mobile payments in their 
+programs (see box 4.2).  
+Electronic payment systems can also enable scalable innovations that would not otherwise be possible. 
+Marie Stopes Madagascar (MSM, Case Study 3 in appendix A) integrated mobile money into its claims 
+management system when it launched a new reproductive health voucher program in 2010. Service 
+providers use text messaging to submit a unique voucher code with their claim, and receive payment 
+from MSM via the clinic’s choice of mobile money service providers (one of three major systems 
+operating in the country). Using mobile phones to collect details of voucher redemption and to provide 
+reimbursement to clinics has increased program efficiency. Service providers are reimbursed within a 
+few days, rather than weeks or months. Overall, program management has been improved by data that 
+are available immediately through the system. MSM anticipates a more general transition from paper-
+based systems to an electronic system for client receipt of voucher, client redemption, and provider 
+reimbursement. 
+Mobile money may also provide program efficiencies and scalability in conditional cash transfer (CCT) 
+programs. CCTs can be an effective means of increasing the use of health services and improving health 
+outcomes (Cueto 2009).  Pathfinder and government partners in Nigeria are exploring the use of mobile 
+money as a channel to distribute CCTs to pregnant women to encourage antenatal care (ANC) and 
+institutional delivery (Marion McNabb interview Sept. 2013).  
+4.4 Challenges in Mobile Money Use for Health  
+Mobile money services face a number of barriers to growth in many countries.  The ability of health 
+programs to use mobile money successfully will depend on how widespread mobile money is in a 
+particular setting. Health applications in and of themselves will not ensure rapid penetration of the 
+market, but health programs may play a role in addressing those challenges. Most important, health 
+institutions using mobile money can serve as an anchor client with a trusted role in society that can 
+vouch for the benefits of a new financial medium. A few of these challenges and the role that the health 
+sector can play in addressing them are highlighted here. In addition, key lessons are shown in box 4.3.  
+ Users may not understand how to use mobile money or its potential benefits. Health 
+programs can work with the mobile operators to encourage mutually beneficial client education. 
+Program staff members may resist the transition to using unfamiliar services to access their hard-
+earned money. Trust and operational knowledge are needed, as well as support to handle questions 
+and issues as they arise.  
+ Network of mobile money agents—the cash-in and cash-out points—may not be 
+extensive enough or available in the areas in which a program would like to work. 
+Additionally, available agent locations may not all belong to the same mobile money platform. 
+Programs should stay open to working with more than one operator. Mobile operators are looking 
+for growth in their systems, and, to the extent that the health sector can provide a reliable client in 
+an area, additional agent locations may be put in place. Frontline health workers may also play a role 
+in cross-training as mobile money agents, potentially providing an incentive for them to work in 
+remote areas.  
+ Fragmented mobile money systems may make it difficult to transfer money from one 
+payment platform to another. Lack of interoperability between platforms can limit value of the 
+service and increase transaction fees. For example, having parallel agent networks can duplicate 
+operating costs. Such issues must be addressed at the policy level, along with other mobile money 
+regulations that balance the need for consumer protection with services that are easy to use. Health 
+10 
+ 
+sector institutions and donors can advocate for policies to promote economic transactions, 
+especially in rural areas without access to banking resources.  
+ Transaction fees charged by mobile network operators can serve as a barrier to mobile 
+money use. Fees charged for mobile money transactions vary by operator and often by the size of 
+the transactions. Moreover, systems that do work together may charge higher transaction fees for 
+transfers made to other mobile money platforms. Health programs may choose to cover the costs 
+of transaction fees for recipients and to help educate clients about fees that may be charged. 
+Box 4.3 Key Lessons Learned in Implementing Mobile Money for Health 
+Strong Partnerships—D-tree’s experience in Tanzania (see Case Study 2 in appendix A) reinforces the 
+importance of strong partnerships between program stakeholders. In collaboration with Zantel—the mobile 
+money partner—D-tree delivered training on mobile money to traditional birth attendants. The organizations 
+collaborated with the health facilities and communities to encourage local ownership and buy-in to the 
+program. D-tree chose its mobile partners by their availability and location of agents to serve as cash-out 
+points, by their negotiation of transaction fees, and by their comprehensiveness and how easy it was to use 
+their back-end systems to support program needs.  
+Plan for Adjustments during Rollout—Originally, Marie Stopes Madagascar (MSM) intended to work with 
+only one mobile operating partner to implement its reproductive health voucher program (see Case Study 3 in 
+appendix A). However, because of the location of mobile money agents and their service providers, MSM 
+found it necessary to work with all mobile network operators in Madagascar to ensure that accessible cash-out 
+options were in place for their health service providers. Whereas getting the system up and running smoothly 
+was a challenge at the onset, Marie Stopes International is now actively looking to build on the success of the 
+voucher program and exploring the possibility of using mobile money to replace cash flows in its other 
+programs. 
+ 
+ 
+ 
+ 
+11 
+ 
+5. MOBILE MONEY RELEVANCE TO MHEALTH 
+The use of mobile money in health programs is emerging as a subset of the broader category of mobile 
+phone–based health interventions (mHealth) applications. Integration of mobile payment platforms can 
+provide new revenue opportunities and potential partnerships to sustain mHealth interventions. 
+mHealth covers a broad range of applications using mobile technologies to improve health outcomes 
+(Labrique et al. 2013). Categories of mHealth include the following: 
+ Direct consumer services to improve access to health care, such as appointment reminders, 
+awareness messages, personalized health information, behavior change communications, help lines, 
+medication alerts, and resource databases  
+ Healthcare provider tools to improve quality of care, such as point-of-care decision support, remote 
+consultation and supervision, peer support groups, case management software, job aids, and other 
+training resources 
+ Program management applications, including registries and vital events tracking, electronic medical 
+records, disease surveillance, data collection and analysis, and supply tracking systems to improve 
+decision-making  
+Sustaining and scaling those applications has been a challenge, and most interventions remain dependent 
+on donor funding (mHealth Alliance, 2013). The integration of mobile payments into other mobile 
+financial services provides the potential to address the barriers to sustainable business models. Mobile 
+money may help sustain mHealth interventions through a number of pathways including bundling 
+services, engaging new partners, and sharing registration costs. 
+5.1 Subsidizing Information Services with Financial Transaction 
+Revenues  
+One barrier to mHealth sustainability is the challenge of monetizing digital information, even in 
+developed countries. In a recent study of more than a dozen commercial enterprises in Africa using 
+mobile technology to serve the poor, only Kenya’s M-Pesa mobile money service was found to be 
+profitable (Cooper 2013). The authors note that it is rarely possible to recoup the full cost of selling 
+information and that business models are needed to combine intangible services such as health advice 
+(which is difficult to sell) with more concrete and immediate inputs (that people are willing to pay for). 
+By packaging health information services with mobile financial services such as credit or insurance, the 
+financial transactions for which consumers may be willing to pay can help to subsidize service provided 
+through mHealth applications.  
+Kenya’s Changamka (www.Changamka.co.ke) service offers various mobile savings accounts earmarked 
+for outpatient and maternity care including health facility–based delivery. Subscribers use the accounts 
+to plan, save, and pay for health care through private earmarked mobile accounts with secure ability to 
+track deposits and payouts. Subscriber benefits include discounted prices and predictable service fees at 
+participating providers, and providers benefit from more reliable settlement of accounts. Those and 
+similar mobile savings accounts provide an opportunity to leverage communications channels that 
+confirm transactions and health account balances to send health content as well.  Service providers such 
+as Changamka would financially benefit from subsidizing health advisory content to the degree that such 
+services increase the motivation of subscribers to save through the mobile financial platform. Bundling 
+13 
+financial and information services would provide substantial economies of scale in formative research, 
+marketing, registration, and billing.  
+In addition, acceptability of modest user fees for health information may be greater if combined with 
+mobile savings accounts. Consumers who regularly store, transmit, and withdraw funds on their phones 
+may be more likely to use their accounts for telemedicine services, mobile health games, or other 
+premium mHealth applications. Mobile financial services may also facilitate the collection of mobile 
+numbers from beneficiaries to target for health information services.  
+5.2 Attracting New Corporate Sector Partners  
+Because mobile money has the potential to accelerate commercial activity generally, it is more likely to 
+attract private sector investment. This is demonstrated by the rapid growth in mobile money services 
+throughout sub-Saharan Africa. Mobile operators charge small transaction fees for transmitting and 
+withdrawing funds from mobile money accounts. Because mobile money services provide higher 
+likelihood of profitability than health information services, mobile operators are more likely to subsidize 
+health information services that increase the use of mobile money. Using the mobile savings account as 
+an example, a mobile money provider would have the incentive to bundle appointment reminders or 
+medication adherence messages to stimulate regular savings and use of the mobile money account. This 
+motivation is different from mobile operator discounts for mHealth airtime under corporate social 
+responsibility programs because mobile money use affects their bottom line.  
+The MicroEnsure–Tigo partnership (see appendix A) illustrates this dynamic. As discussed earlier, 
+MicroEnsure introduced a mobile-based health insurance product through which subscribers registered 
+on their phones. They paid their premiums and received their claims through mobile money accounts. 
+Tigo provided free insurance premiums to its high-use network customers, thus generating significant 
+demand for the insurance products. Those rewards provided mutual benefits to the operator: the 
+rewards built customer loyalty among the most valued customers and generated additional network use 
+by adding the mobile insurance transactions, thus covering the costs of the free subsidies. Similar 
+motivations do not exist for mHealth information services, which may be offered free to users and 
+subsidized by donors, government, or corporate philanthropy. Mobile financial products for health 
+provide strong incentives for operators to use their vast marketing resources to promote service 
+uptake.  
+5.3 Sharing Agent Networks  
+Community health workers (CHW) play a critical role in the delivery of health services. They are 
+trusted members of the community, often serving as the first point of contact within the health care 
+system. Whereas CHW functions are diverse and depend on country settings, typical duties often 
+include (a) education and awareness building; (b) detection and referral of complicated health cases; and 
+(c) data collection for client registration, case management, and disease surveillance.  
+Similarly, mobile money agents are also a type of frontline worker—the face of mobile network 
+operators—serving as the first point of contact for financial transactions among the poor and unbanked 
+populations. In the agents’ roles as primary cash-in and cash-out points, they develop a clear 
+understanding of customer preferences, are called upon for financial advice, and must become trusted 
+members of the community. A major barrier to mobile money uptake is the lack of a well-trained agent 
+network to serve and address the financial needs of the community, with the greatest effects felt in 
+remote areas. One way to address this challenge is to explore synergies between CHWs and mobile 
+money agents, thereby leveraging the trust they have built in communities as frontline workers. Training 
+14 
+ 
+CHWs to serve as “last mile” mobile money agents in hard-to-reach areas could extend the reach of 
+both health services and mobile money. 
+In addition to a shortage of mobile money agents, rural areas also face critical shortages of health 
+workers. Burdened with high case loads and inadequate training, CHWs may resist mobile data 
+collection tools because the tools are perceived as increasing their workload for minimum reward. By 
+expanding their role to include mobile money transactions, CHWs gain potential to earn revenue as a 
+mobile money agent and can receive immediate financial incentives for surveillance and data collection 
+responsibilities. Use cases have not surfaced yet, but several health programs are considering pilots. The 
+additional revenue potential could be used to incentivize health workers to take up posts in remote 
+areas. CHWs who are trained as mobile money agents would be well positioned to educate clients 
+about the benefits of expanded access to financial services, including paying for emergency 
+transportation to health services or enrolling in insurance. Some health programs are beginning to 
+explore the challenges and benefits of this approach, which has potential to improve financial and health 
+access among the hard-to-reach populations.  
+  
+15 
+ 
+6. CONCLUSIONS 
+Mobile money is a rapidly growing alternative to cash transactions in developing countries. Health 
+systems and mobile money are well positioned for mutual benefit. 
+Moreover, mobile money in health is a growing subset of mHealth applications. It provides new 
+opportunities for revenue and potential partners to sustain and expand mHealth interventions. The 
+health sector can serve as a catalyst for mobile money, thus generating demand necessary to sustain and 
+to develop mobile money platforms. Health programs can also serve as anchor clients—guaranteed 
+users that allow the mobile operator to expand the reach of its platform and increase agent locations. 
+The three detailed case studies included in this paper illustrate just a few of the current health-sector 
+uses of mobile money. As mobile money ecosystems continue to develop, opportunities provided to the 
+health sector can also be expected to grow, but more research is needed to better understand the 
+potential that mobile money brings to the health sector. 
+Research conducted to date on the use of mobile money has focused primarily on how it is used by the 
+poor and on the potential economic development and financial inclusion benefits. As mobile money 
+becomes more widely adopted in the health sector, research is needed to evaluate mobile money 
+benefits for health. Strong evidence and in-depth documentation of experiences will increase awareness 
+of the value of mobile payment systems to the health sector, will reduce start-up hurdles, and will open 
+the door for more partnerships and greater innovation.  
+Specifically, additional evidence is needed to assess the following: 
+ The extent to which mobile money use increases uptake of health services, expands access to 
+services for the poor, increases provider productivity, and improves health program financial 
+management 
+ Cost savings, operational efficiencies, or reduced leakage that are realized through adoption of 
+mobile money in health programs (see box 4.2) for a description of a few tools that have been 
+developed to address questions around cost savings) 
+Finally, although mobile money use in the health sector is still an emerging practice and evidence 
+demonstrating benefits to the health sector is limited, innovative applications, including the ones 
+reviewed in this paper, are helping to showcase mobile money’s potential as a vehicle for improving 
+access, quality, and affordability of health services for the poor. 
+16 
+ 
+REFERENCES 
+Buku, Mercy, and Michael W. Meredith. 2013. “Safaricom and M-PESA in Kenya: Financial Inclusion and 
+Financial Integrity,” Washington Journal of Law, Technology and Arts 8 (3): 375–401. 
+Cooper, Ansulie, and Michael Kubzansky. 2013. m-Enabled Inclusive Business Models: Applications for 
+Health. Bethesda, MD: SHOPS Project, Abt Associates. 
+Cueto, Santiago. 2009. “Conditional Cash-Transfer Programmes in Developing Countries,” The Lancet 
+374 (9706): 1952–953. doi:10.1016/S0140-6736(09)61640-8.  
+GSMA (Groupe Spéciale Mobile Association). 2013. “Initial Findings of 2013 Mobile Money Adoption 
+Survey.” http://www.gsma.com/newsroom/gsma-releases-initial. 
+Haas, Sherri, and Geetha Nagarajan. 2011. “M-PESA and Access to Health in Kenya.” Report, Financial 
+Services Assessment, Iris Center, University of Maryland, College Park. 
+http://www.fsassessment.umd.edu/publications/mpesa-health-kenya.html. 
+Kearney, A.T., and GSMA (Groupe Spéciale Mobile Association). 2013. The Mobile Economy 2013. 
+London: A. T. Kearney and GSMA. http://www.gsma.com/mobileeconomy/. 
+Labrique, Alain, Lavanya Vasudevan, Erica Kochi, Robert Fabricant, and Garrett Mehl. 2013. “mHealth 
+Innovations as Health System Strengthening Tools: 12 Common Applications and a Visual 
+Framework,” Global Health: Science and Practice. doi: 10.9745/GHSP-D-13-00031.  
+mHealth Alliance. 2013. Sustainable Financing for Mobile Health (mHealth): Options and opportunities 
+for mHealth financial models in low and middle-income countries  
+NetHope Payment Innovations Tools. Retrieved October 2013, from 
+utm_source=HFG+Mobile+Money&utm_campaign=40612ff310-
+MM4H_Newsletter9_26_2013&utm_medium=email&utm_term=0_3c2e0c237a-40612ff310-
+82703209.  
+Pénicaud, Claire. 2013. State of the Industry—Results from the 2012 Global Money Adoption Survey. 
+London: GSMA. http://www.gsma.com/mobilefordevelopment/state-of-the-industry-2012.  
+World Bank. 2012. Information and Communications for Development 2012: Maximizing Mobile. 
+Washington, DC: World Bank. doi: 10.1596/978-0-8213-8991-1. 
+  
+17 
+ 
+APPENDIX A. CASE STUDIES 
+Through a desk review and over 30 interviews with key experts and stakeholders implementing mobile money 
+solutions in health programs, the Health Finance and Governance (HFG) Mobile Money activity has identified 13 
+active mobile money applications in the health sector, described in the table below. The HFG Mobile 
+Money Activity is documenting best practices and innovations to build the evidence base on this topic. The three 
+case studies included in this Annex are pioneers in mobile money and health and represent some of the most 
+documented interventions that have rapidly achieved scale.   The HFG Mobile Money Activity will continue to build 
+on this collection of case studies as more is learned about other health programs that are using mobile money 
+The HFG mobile money team has identified 10 additional programs that are currently in the conceptual or pilot 
+phase of developing mobile money payment applications in the health sector. This demonstrates that mobile 
+money use in the health sector is new and emerging, and it is gaining recognition as a potential vehicle for 
+improving access to services.  
+Table A.1: Identified Use Cases of Mobile Money in Health 
+BayadLoad (Philippines) 
+In July 2013, the Philippines launched a Government to Person (G2P) e-payment program, BayadLoad, that 
+allows users to pay for government social benefits, including the national social security system and the national 
+health insurance scheme, PhilHealth. BayadLoad facilitates subscriptions and contribution collection for more 
+than 10 million people in the informal sector and who are likely to be unbanked. BayadLoad partners with three 
+telecom companies – Smart, Talk-‘N Text, and SunCellular – and allows users to send payments free of charge. 
+BayadLoad has been launched within two government agencies (housing and health) and is in its early stages of 
+implementation.  
+ http://www.cgap.org/blog/innovation-person-government-payments-philippines 
+CCBRT Fistula program/Freedom from fistula (Tanzania and Kenya) 
+Freedom from fistula (FFF) works with several of Kenya’s largest tertiary hospitals to delivery free fistula 
+treatment. Through its work, FFF identified that transport costs present a financial access barrier that often 
+delays or prevents women from seeking care, thereby placing women at risk and complicating fistula care. In 
+order to improve timely access to care, FFF partnered with M-Pesa to send patients money for emergency 
+transport. From July 2009 – November 2010, FFF sent more than $2,300 via mobile payments for transport 
+costs for the 230 women for whom they paid for fistula care.  
+http://www.fistulacare.org/pages/pdf/technical-briefs/mobile_phone_brief_updated4.5.2011.pdf 
+Changamka (Kenya) 
+A lack of a safe, cost-effective way of saving money over times makes it difficult for the poor to accumulate 
+funds for health expenses, even for expected medical costs such as maternity and delivery care. Changamka 
+Microhealth Limited in Kenya offers clients who may not have access to traditional banking platforms, a 
+convenient mobile phone-based savings account to save money for outpatient or maternal health services. 
+Payments for health services are made electronically using pre-determined price-contracted packages. 
+Customers can add cash value to their savings accounts in small amounts over time and can transfer funds by 
+phone to family and friends, thereby allowing customers to set aside funds incrementally for sickness or 
+maternity care.  
+http://changamka.co.ke/ 
+19 
+ 
+D-tree International (Tanzania)  
+D-tree International is a non-profit organization committed to improving the quality of healthcare with the use 
+of innovative technology. D-tree established a program in Zanzibar, Tanzania to help frontline community health 
+workers provide high quality maternal health care and adequately refer women with high-risk conditions and 
+obstetric emergencies to health facilities. D-tree uses mobile money to pay traditional birth attendants (TBAs) 
+payments to incentivize timely and appropriate referrals. D-tree also uses mobile money payments to send 
+payments to TBAs to cover costs for emergency transport.   
+http://www.d-tree.org/ 
+Linda Jamii (Kenya) 
+In 2013, Linda Jamii was launched in Kenya to provide an affordable health insurance option. It provides 
+comprehensive coverage for inpatient and outpatient services, as well as some dental and optical services. 
+Benefits coverage includes a hospitalization income replacement benefit as well as funeral costs, should a 
+beneficiary pass away. Linda Jamii was developed as a partnership between Britam, Safaricom, and Population 
+Services International. Those organizations partnered with Changamka and M-Pesa to create a mobile-based 
+platform for clients to register and make incremental payments toward the annual premium (K Sh12, 000 per 
+family).  
+http://www.lindajamii.co.ke/ 
+Marie Stopes Madagascar (Madagascar) 
+In 2010, Marie Stopes Madagascar (MSM) launched a voucher program with support from USAID to subsidize 
+care for family planning services, with a particular focus on reaching poor women in areas in remote and hard-
+to-reach areas. The program aims to help Madagascar reach its national target to increase access to 
+reproductive health services and the use of contraceptives among women – particularly among the poor – by 
+reducing financial access barrier to care. MSM partners with the three largest mobile phone operators in 
+Madagascar - Telma, Orange, and Airtel- to offer mobile payment solutions for voucher claims reimbursements, 
+which enables sending timely payments to health providers in hard-to-reach rural and urban areas of 
+Madagascar.  
+http://www.mariestopes.mg/ 
+MicroEnsure (Tanzania) 
+MicroEnsure is a social business that designs and delivers high-impact insurance products to provide financial 
+risk-protection for poor and underserved populations.  In October 2012, MicroEnsure and its partners, Tigo, 
+Bima and Golden Crescent, piloted a health insurance product, “Pona na Tigo Bima” (Get Well with Tigo 
+Insurance), which offers life insurance and cash for inpatient hospital care at a defined network of private and 
+public hospitals. The product offers six tiers of life and hospitalization coverage based on the premium level 
+(between $0.45-$6.00), which are paid via three monthly installments, deducted from the customer’s airtime 
+balance. Clients receive hospital cash via Tigo’s mobile money service, “Tigo Cash.” Initially launched in Dar es 
+Salaam, within the first year, tens of thousands of memberships were sold and the company expanded to other 
+regions in Tanzania, making it the fastest-growing health insurance product in East Africa over the past year.  
+http://www.microensure.com/ 
+  
+20 
+ 
+Mutuelles (Mali)  
+In 2011, the Union Technique de la Mutualité Malienne (UTM) approached Orange, a leading telecom provider 
+in Mali, to develop a mobile money solution for Mutuelle members to submit premium contributions via mobile 
+phone. Over the course of one year, they UTM and Orange established a partnership and designed a pilot for 
+Mutuelle members to pay incremental premium contributions. A key feature of this partnership is that Orange 
+trained UTM staff to serve as agents to enroll their beneficiaries into Orange’s mobile money program and 
+established a server where UTM staff can directly register their members for their mobile money transfer 
+system and to facilitate data transfer between programs. This program is in early phases of implementation.  
+ 
+For more information, please contact Cheickna Toure (cheickna.toure@yahoo.fr ) 
+National Health Insurance Fund (Kenya) 
+The National Hospital Insurance Fund (NHIF) is the primary provider of health insurance in Kenya with a 
+mandate to enable all Kenyans to access quality and affordable health services. With the aim of increasing 
+coverage to informal populations, the NHIF forged a partnership with Safaricom and uses the M-Pesa program 
+to collect premium collections via mobile phones.  
+http://www.nhif.or.ke/healthinsurance/ 
+Pathfinder International (Tanzania) 
+Pathfinder International is a global NGO that delivers reproductive, maternal and child health care services in 
+more than 100 countries. Pathfinder currently uses the M-Pesa platform to pay community health workers using 
+mobile money in eight regions of Tanzania. Within 18 months of the launch of mobile money, Pathfinder had 
+phased out all cash payments to its community health workers and had made more than 1.8 million mobile 
+payment transactions.  
+http://www.pathfinder.org/our-work/where-we-work/tanzania/ 
+Sheikhpura’s District Health Society (India)  
+The National Rural Health Mission of India pays performance based incentives to India’s community health 
+workers in rural communities via mobile money. The program was piloted in January 2011 in the Shiekpura 
+district of Bihar State, India, led by the Norway India Partnership Initiative (NIPI), in partnership with the 
+Sheikpura District Health Society, the State Bank of India based in Patna, and Eko Financial Services–a 
+branchless-banking social enterprise in India.   
+http://microsave.net/sites/default/files/Eko_Asha_Review.pdf 
+Stop TB partnership (Pakistan) 
+In partnership with the Stop TB Partnership and Interactive Research and Development, the Indus hospital in 
+India developed a mobile-money incentive scheme for data on directly-observed treatment for tuberculosis 
+(TB). The program provides cash incentives to community members, patients, and doctors for referring 
+suspected cases of TB for testing and for supporting patient adherence to treatment.  
+http://whqlibdoc.who.int/publications/2012/9789241564465_eng.pdf  
+Zambia Integrated Systems Strengthening Program (Zambia) 
+The USAID-funded Zambia Integrated Systems Strengthening Program (ZISSP) works with Zambia’s National 
+Malaria Control Center and hires hundreds of spray operators to treat homes in rural and poor urban areas. To 
+improve operations and reduce the risk of large cash transactions, in 2012 ZISSP piloted mobile money 
+payments to cover salaries, allowances, per diem payments, and other expenses for spray operators and project 
+staff. ZISSP pays spray operators their salary and per diems on a weekly basis through Mobile Payment Solution 
+Ltd., a Zambian company specializing in financial transactions, in partnership with Airtel, a mobile phone 
+operator. The MPS system allows for SMS based mobile payments to be sent to recipient mobile phones.   
+http://www.akrosresearch.com/AboutUs/Projects/ZISSP.html 
+21 
+ 
+CASE STUDY 1: MICROENSURE 
+Background 
+MicroEnsure is a social business that designs and delivers 
+high-impact insurance products to provide financial risk- Type of program:  mobile phone-based 
+protection for poor and underserved populations.  As of claims payments    
+June 2013, the company covered more than 4.5 million Date launched: 2001 
+clients across 13 countries in Africa and Asia, oftentimes 
+Stage: scale up 
+partnering with private and not-for-profit sectors to 
+deliver insurance products to mass-market consumers.  Size: N/A 
+In May 2010, MicroEnsure partnered with Tigo, a mobile Countries: Kenya, Tanzania, Ghana 
+network provider, to develop a life insurance product Key partners (in Tanzania):  Tigo, Bima, 
+(that MicroEnsure named, “Family Care”) for the Golden Crescent 
+network’s subscribers in Ghana (see box A.1.1). The 
+partnership quickly expanded to Tanzania and Senegal, 
+reaching one million lives insured within 14 months of the formal launch in January 2011. MicroEnsure’s 
+efforts to build awareness about the value of insurance among its rapidly expanding client network 
+helped to create ambassadors life insurance, thereby setting the stage for health insurance. Following the 
+rapid success of the Family Care Insurance Plan, Tigo Tanzania asked MicroEnsure to design a micro-
+insurance health product for its subscribers. In October 2012, MicroEnsure and its partners, Tigo, Bima 
+and Golden Crescent, piloted a health insurance product, “Pona na Tigo Bima” (Get Well with Tigo 
+Insurance), which offers life insurance and cash for inpatient hospital care at a defined network of private 
+and public hospitals.  
+The product offers six tiers of life and hospitalization 
+coverage based on the premium level (between Box A.1.1 MicroEnsure–Tigo Partnership 
+US$0.45 and US$6.00), which are paid via three MicroEnsure designed the insurance product and 
+monthly installments that are deducted from the the processes to manage and deliver it to 
+customer’s airtime balance. Clients receive hospital consumers. On a day-to-day basis, they perform 
+cash via Tigo’s mobile money service, “Tigo Cash.” overall administration and oversight for the 
+Initially launched in Dar es Salaam, within the first year, insurance product, including claims processing and 
+tens of thousands of memberships were sold and the customer service.  
+product was expanded to other regions in Tanzania, Tigo distributes the product and manages the 
+making it the fastest-growing health insurance product technology side of delivering the insurance product 
+in East Africa over the past year.  to clients. Tigo works with Bima, a Swedish 
+company that provides the technical platform for 
+Mobile Money 
+enrollment and that trains and manages the network 
+MicroEnsure uses mobile money transfers for claims of sales agents. Tigo also partners with Golden 
+payments. With Tigo Cash, they can pay claims to Crescent, a local licensed insurer that underwrites 
+subscribers within minutes of claims submission and the product.  
+anywhere in Tanzania. By switching from paper to 
+mobile claims payments, MicroEnsure reduced claims processing time from 11.0 to 3.2 days (a number 
+that is expected to be further reduced over time). Claimants were surprisingly willing to register for 
+mobile money payments and expressed interest in learning about the details of the payment process, 
+and the timely and reliable nature of the payment has built client trust in both mobile payments and 
+MicroEnsure’s health product.  
+22 
+ 
+Lessons Learned 
+ Establish strategic partnerships. An essential part of establishing a successful partnership 
+between MicroEnsure and Tigo was to clearly define the role and responsibilities of each partner. 
+This clarity ensured that all parties agreed from the outset and benefited from the partnership 
+arrangement. 
+ Training sales agents about health product and mobile money. MicroEnsure and its 
+partners use a network of sales agents to educate consumers about the “Pona na Tigo Bima” 
+program. MicroEnsure provides one-day training to all sales agents that covers both the insurance 
+and mobile payment components of the program. MicroEnsure conducted agent trainings for the 
+first two years of the program; today, Bima trains and manages the agent network using a variety of 
+approaches to deploy agents, including placing agents in Tigo shops and working with call centers.  
+ Design payment mechanisms for users. Although MicroEnsure explored the possibility of using 
+mobile phone payments for premium payments, mobile money utilization in Tanzania is still too 
+infrequent to secure regular premiums. The company opted to use automated premium deductions 
+(via airtime) to make premium contributions as convenient as possible for clients. Tigo clients are 
+willing to pay for health insurance, but they face difficulties in paying standalone payments on a 
+monthly basis – just as other mass-market consumers do. By bundling health insurance in a package 
+of Tigo services and automatically deducting premiums, MicroEnsure established a convenient 
+payment mechanism for its clients that ensure regular and timely contributions for premiums.   
+Challenges 
+ Low utilization rates for mobile money.  Whereas MicroEnsure is interested in expanding its 
+use of mobile money to other areas (e.g. premium payments), low utilization rates for mobile money 
+in Tanzania limit opportunities for mobile payments. Mobile money potential continues to increase 
+as familiarity grows across Tanzania, and more widely across the continent.  
+ Education of clients about health insurance. MicroEnsure and its partners intended to launch a 
+product that was easy to understand and operate, such as its life insurance products; however, 
+health insurance has proven to be more challenging product for clients to understand than life 
+insurance products. The company is continuing to address this challenge in its product development, 
+messaging and underwriting work. 
+Looking Forward 
+MicroEnsure has established itself as a clear leader in the rapidly-growing field of mobile insurance, 
+including health. Over the next few months, MicroEnsure plans to launch new products to extend 
+financial protection and deliver high-quality insurance coverage using mobile money payments to new 
+markets. MicroEnsure aims to continue to build consumer trust both in insurance and in the use of 
+mobile money as it extends the reach of its products to new populations.  
+Sources 
+ Interview with Peter Gross - Regional Director, Africa, MicroEnsure UK Ltd 
+(peter.gross@microensure.com ; +254 786 499 100 )  
+ http://www.microensure.com/ 
+ http://www.tigo.com.gh/tigo-cash/tigo-cash-3-easy-steps 
+H Mobile Money Activity, please write to Marty Makinen:  
+ 
+ 
+23 
+ 
+For information about MicroEnsure: 
+Web: www.microensure.com 
+Email: info@microensure.com 
+Twitter: @microensure 
+Facebook: www.facebook.com/microensure 
+24 
+ 
+CASE STUDY 2: D-TREE INTERNATIONAL 
+Background 
+D-tree International is a non-profit organization 
+committed to improving the quality of Use of mobile money: payment of incentives to TBAS 
+healthcare with the use of innovative and emergency transport costs for pregnant and post- 
+technology. D-tree established a program in partum women 
+Zanzibar, Tanzania to help frontline community Date launched: November 2011  
+health workers provide high quality maternal 
+Scale: scale-up 
+health care and adequately refer women with 
+high-risk conditions and obstetric emergencies Size: 208 TBAs, expected 350-400 by end of 2014 
+to health facilities. The program currently has Country:  Tanzania 
+208 trained traditional birth attendants (TBAs) 
+Area of the country: Zanzibar 
+and community health workers (CHWs) who 
+serve a network of 4,500 women who have Funding: The Bill and Melinda Gates Foundation Grand 
+enrolled in the program.   Challenges Round 1 and Round 2 
+TBAs in Zanzibar are typically paid to assist Key partners:  The Bill and Melinda Gates Foundation, 
+deliveries. It is therefore a financial disincentive Zantel, Etisalat  
+for TBAs to refer their patients to health 
+facilities, since this represents a loss of income.  
+Mobile Money 
+In November 2011, D-tree was awarded a grant through Grand Challenges Round 1 and launched a 
+program in Zanzibar that offers mobile-enabled clinical guides to TBAs to help them treat women and 
+identify women who should be referred to health facilities. D-tree also forged a partnership with Zantel, 
+the largest mobile phone operator in Zanzibar, and Etisalat to incorporate an SMS-mobile money 
+payment system into the program. Phase II started with a Round II grant in late 2012.  
+The mobile money payment system used by D-tree incentivizes timely and appropriate referrals. TBAs 
+conduct home visits, screen each pregnant woman for risk factors and danger signs, identify need for 
+referrals and accompany the woman to the health facility, and provide follow-up care for both mother 
+and baby after delivery. D-tree uses mobile money so the TBAs are able to make prompt payment for 
+transport for the woman to deliver in a health facility or in case of any complications for both mother 
+and baby that require medical attention. Transfers are made from the TBAs’ mobile money accounts to 
+the drivers’ accounts at pre-negotiated rates to the appropriate facility, costing and average of 
+US$30USD per referral. After the TBA’s last follow-up visit to the family, D-tree pays each TBA US$6 
+per facility delivery through mobile money as well.   
+As of October 2013, more than 1,720 financial transactions had been sent to TBAs to pay incentives. 
+For emergency transport, the program performed 781 transfers from D-tree to TBAs for transport, 
+while TBAs made more than 3,000 payments to drivers for transport to health facilities. The use of 
+mobile money in the D-tree enables rapid referrals and contributes to increased rates of institutional 
+deliveries among program beneficiaries, and reduced administrative costs and improved accountability 
+and oversight for program administration.    
+ 
+25 
+ 
+ 
+Lessons Learned 
+ Establish strong partnerships with local actors. D-tree invested in building relationships with 
+the Ministry of Health, district health officials, and local health institutions to ensure buy-in and local 
+ownership of the program. D-tree worked with local health facilities and district staff to identify and 
+establish a network of car owners to provide emergency transport services for the program at fair 
+rates. D-tree also met with village leaders to sensitize them about the project and the importance of 
+facility delivery for the women in their community. 
+ Provide adequate training and follow up for mobile money. D-tree provides a 
+comprehensive training not only on the decision support application, but on the use of mobile 
+money. The initial training covers basic functions of mobile money (e.g. typing letters into phones, 
+remembering passwords, conducting transactions, and checking balances). In the subsequent 
+months, D-tree follows up with newly trained TBAs and monitors their use of mobile payments to 
+ensure that they have a strong understanding of the mobile payment system. This training and 
+oversight process is essential to ensure that the TBAs have a strong enough understanding of how 
+to transfer mobile money transfer so they can complete mobile-based payment while managing 
+complicated emergencies.  
+ Offer a cash payment option for community health workers. There is a strong “cash 
+culture” in Tanzania, and some TBAs initially took time to become accustomed to using mobile 
+money instead of cash. However, in the 2 years since the initial project launched, D-tree has seen 
+this issue disappear and the drivers and TBAs have been very comfortable using mobile money.   
+ Building an agent network. D-tree uses Zantel’s agent network, which is spread across the 
+country, to allow drivers to cash their money out. When working with an agent network, it is 
+important for the program to verify that all the listed agent locations are fully operational to ensure 
+that the coverage of the agent network meets the programs’ needs. This is particularly important in 
+rural areas, where there tend to be fewer agents, and so it is important to work with the mobile 
+provider to ensure they can bring pay points where you need them. 
+Challenges 
+ Integrating mobile payments with existing information technology (IT) systems. D-tree 
+initially had to manually reconcile its payments to TBAs using combined information from the 
+network provider on D-tree’s corporate mobile money account and the referral forms from the 
+phone application that showed what the TBAs should spend on each referral. This was a challenging 
+and tedious administrative task because D-tree could only see payments sent to TBAs–not from 
+TBAs to drivers. In 2013, D-tree established a web-based platform that synthesizes payment 
+information in one place, thus providing a running balance for each TBA through an automated 
+system, but with the added ability to manually edit payments if needed. It also flags duplicates, 
+incorrect payments, and low balances so that D-tree can better control the flow of money and track 
+the referral activity for each TBA.  
+ Measuring impact specifically of mobile money. The benefits and impacts of mobile money 
+are difficult to quantify and to isolate from other program effects. In the case of D-tree, this difficulty 
+is partly because mobile money consists of a bundled package of services.   The costs of not using 
+mobile money, however, would be very significant and would include costs for staff time, vehicle 
+rental, and fuel to arrange visits to complete payment in-person for 1,000 transactions a month (at 
+current scale) or 1,800 transactions a month (at the full expected scale). There is also a security risk 
+associated with cash-payments that is eliminated with the use of mobile money. 
+ 
+26 
+ 
+ 
+Looking Forward 
+D-tree is successfully scaling up the use of mobile money as it expands its program. Currently, 208 TBAs 
+are enrolled in the program, as well as 32 Community Health Workers using the same application, and 
+this project will scale up to 350-400 users by the end of 2014. Because of the success of using mobile 
+money in Tanzania, D-tree is seeking other opportunities to phase out cash in its programs and 
+eliminate financial barriers to healthcare.   
+Sources 
+  http://www.globalgiving.org/projects/safedelivery/  
+ Interview with Steve Ollis, Chief Operating Officer, D-tree International. October 2013. 
+(+1.410.443.3916, sollis@d-tree.org ) 
+ 
+For information about D-tree International:  
+Web: http://www.D-tree.org/ 
+Email: info@D-tree.org 
+Telephone: +1 617 432 6322 
+ 
+ 
+ 
+27 
+ 
+CASE STUDY 3: MARIE STOPES INTERNATIONAL 
+Program Overview  
+Marie Stopes International (MSI) is a non-profit organization 
+that is one of the leading providers of reproductive health Use of mobile money: voucher claims 
+services in the world. In 2010, Marie Stopes Madagascar management 
+(MSM) launched a voucher program to subsidize care for Date launched: 2010 
+family planning services, with a particular focus on reaching 
+Scale: Fully operational 
+poor women in remote and hard-to-reach areas. The 
+program aims to help Madagascar reach its national target to Size: provider network of 150 facilities 
+increase access to reproductive health services and use of of which 118 are accredited to voucher 
+contraceptives among women –particularly among the poor – program 
+by reducing financial access barriers to care. MSM offers Areas of the country: 12 regions of 
+reproductive health vouchers to prospective clients through Madagascar 
+community-based delivery channels for about $US.10USD. 
+Key partners:  Mobile operators 
+Each voucher has a unique code and can be redeemed at one 
+(Telma, Orange, and Airtel)  
+of 118 different health facilities in 12 regions of Madagascar, in 
+exchange for reproductive and contraceptive health care 
+services.  
+The number of vouchers sold in the MSM program has increased at an impressive rate; more than 
+37,000 vouchers have been sold since the start of the program, and this number continues to grow. The 
+high number of vouchers sold represents increased access to family planning services for poor women in 
+Madagascar, which is the main objective of the MSM voucher program.  
+Mobile Money 
+MSM integrated a mobile money system in an effort to improve the efficiency of voucher management to 
+reduce barriers to accessing family planning (FP) and further increase availability of voluntary FP across 
+Madagascar, as well as reducing inefficiencies and risks associated with reimbursing providers with cash 
+payments in both urban and hard-to-reach rural areas of Madagascar. Support for developing a mobile 
+money platform for MSM’s voucher reimbursement scheme initially came from USAID as part of the 
+Strengthening Health Outcomes through the Private Sector project, followed by funding from 
+Strengthening International Family Planning Organizations. 
+MSM partners with the three largest mobile phone operators in Madagascar —Telma, Orange, and 
+Airtel—all of which have SMS-based money transfer systems and a network of mobile money agents in 
+kiosks across the country.  Health facilities register to receive and send payments with the mobile phone 
+operator of their choice. They can then receive cash payments through their phones, and “cash out” at 
+local kiosks the mobile network provider’s agent network.  When a client comes to the social franchise 
+with a voucher, the provider counsels the client on a range of voluntary FP methods. If the client 
+chooses to take up a method, they are provided with the method of their choice free of charge and the 
+provider then sends in the voucher code to MSI where MSI validates it and sends a reimbursement back 
+to the provider via SMS. To submit claims, the providers send a unique voucher code with each claim by 
+text message and receive the reimbursement by mobile phone payment.  
+From a programmatic perspective, MSM has experienced improved financial and administrative efficiency 
+due to the availability of real-time data on service provision and redemption through the mobile money 
+28 
+ 
+program, ultimately making more resources available for other activities. The use of mobile money in 
+this program also provides access to current data on service provision (number and type of service), 
+which has been very helpful for overall program management.  Mobile money has also contributed to 
+improved service delivery among providers. Service providers are reimbursed within a few days, instead 
+of weeks or months, and their satisfaction with rapid and direct claims reimbursements has increased 
+their motivation to comply with quality checklists around counseling and service provision in order to 
+increase their client base.  
+Lessons Learned 
+ Invest in program start-up. Some key challenges faced by MSM with its use of mobile money 
+came when setting up the payment system, fixing “bugs,” and ensuring that the SMS-based payment 
+system was fully functioning. MSM invested time in the initial startup phase of the project and scaled 
+up the use of mobile money slowly and systematically in order to address operational and technical 
+issues as they arose.  
+ Working with donors:  There was strong donor support for the mobile money component, to 
+improve the operations of the MSM program which ensured voluntary and informed choice for a 
+broad range of FP methods and appropriate care to meet reproductive health needs.  
+ Ensuring timely payments to obtain buy-in from users: The MSM accredited social franchise 
+network providers were already familiar with FP voucher reimbursements, so the integration of 
+mobile money only changed the payment system for the program. Providers were familiar with 
+mobile money transactions and were very eager to work with MSM to develop a mobile money 
+payment system for voucher reimbursements. Once developed and tested, the mobile money 
+system was fairly easy to explain to providers, there was enthusiasm around the efficiency and quick 
+turnaround of reimbursements for services provided. The mobile money system was accepted and 
+advocated for wider use very quickly.  While the providers initially took a bit of time to send the 
+voucher codes for reimbursement via SMS, MSI Madagascar consistently reimbursed the provider 
+within 7 days and once accepted, transaction efficiency improved. MSI Madagascar receives claims 
+for reimbursement via their centralized server and a voucher manager cross checks the claims 
+before issuing an electronic reimbursement.  
+ Ensuring convenience for users. MSM had initially planned to work with the biggest supplier of 
+mobile money in Madagascar, Telma, but quickly realized that they needed to work with all three 
+mobile network operators to ensure that health service providers could rapidly access their 
+payments at locations nearer to them. MSM engaged local network providers at the inception of the 
+program to understand their needs and develop an SMS reimbursement system that would be useful 
+for providers. A challenge around working with multiple network providers was the variation in the 
+rate of SMS transfers and varying network coverage across the 12 regions MSI works in. In an effort 
+to reduce financial barriers and expand access to FP regardless of network provider or financial 
+ability, MSI deliberately chose to collaborate with multiple providers to increase access to FP across 
+network. 
+Challenges 
+ Streamlining provider payments: MSM reimburses every provider for each voucher claimed, 
+which leads to a high volume of transactions. MSM is working with mobile operators to identify 
+solutions for reducing the overall number of transactions to providers while still reimbursing 
+voucher claims in a timely manner. This is particularly challenging given that there are currently 118 
+providers across the country that have different network coverage. 
+ 
+ 
+29 
+ 
+Looking Forward 
+MSI is currently exploring opportunities to expand the use of mobile money payments in its programs in 
+other countries to replace cash flows. In some places, uptake of mobile money payment systems is 
+happening organically; program staff at Marie Stopes Kenya (MSK) began using mobile money transfers 
+to rapidly transfer money using M-Pesa to send cash advances to cover medical costs and payments for 
+last minute travel costs. MSK is now integrating a mobile payment system to pay community health 
+workers and youth peer educators monthly stipends and to cover costs for trainings and other 
+activities.  
+Sources:  
+ Interview in July 2013 with Judy Gold, formerly Marie Stopes International.  
+ Interview in July and October 2013 with Lalaina Razafinirinasoa, Projects, Evidence and Innovations 
+Director, Marie Stopes Madagascar (+261 (0) 20 22 403 04; lalaina.razafinirinasoa@mariestopes.mg)  
+For information about Marie Stopes International 
+Web: http://www.mariestopes.org 
+ 
+30 
+ 
+APPENDIX B. ADDITIONAL RESOURCES 
+Readers can find additional information on mobile money and financial inclusion for the poor at the 
+following:  
+ USAID Mobile Solutions: http://www.usaid.gov/mobile-solutions 
+ Better than Cash Alliance: http://betterthancash.org/  
+ The Bill & Melinda Gates Foundation Financial Services for the Poor: 
+http://www.gatesfoundation.org/What-We-Do/Global-Development/Financial-Services-for-the-Poor 
+ Consultative Group to Assist the Poor (CGAP): http://www.cgap.org/  
+ Bankable Frontier Associates (BFA): http://bankablefrontier.com/ 
+ GSMA Mobile Money for the Unbanked: 
+http://www.gsma.com/mobilefordevelopment/programmes/mobile-money-for-the-unbanked/  
+ Alliance for Financial Inclusion: http://www.afi-global.org/  
+ NetHope Payment Innovations: http://solutionscenter.nethope.org/programs/payment-innovation  
+ 
+ 
+31 
+ 
+ 
+ 
+ 
+ 
+ 
+32 
+ 

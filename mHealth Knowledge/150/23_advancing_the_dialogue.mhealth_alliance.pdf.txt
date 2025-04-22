@@ -1,0 +1,809 @@
+AdvAncing the diAlogue 
+on Mobile FinAnce And 
+Mobile heAlth:
+country cAse studies
+Lead Author, Menekse Gencer, mPay Connect 
+Co-Author, Jody Ranck
+March 2012 
+mHealth
+AcknowledgeMents
+This white paper would not have been possible without the input of the many mHealth and MFS 
+practitioners and experts around the world. 
+We would like to thank the following professionals for their contributions to the case studies: 
+Paul Mugambi, Samuel Agutu, Peter Gross, Gunnar Camner, John Owens, Mark Smith, Judy 
+Gold, and Malcolm Vernon. 
+In addition, we would like to thank the efforts of the individuals who contributed greatly to the 
+research, writing, and review of this white paper, including Jody Ranck, Mark Smith, Margaret 
+Schoening, Sushmita Meka, and Patricia Mechael.
+Founding Partners:
+tAble oF contents
+Acronyms and Abbreviations     2
+Introduction     3
+Summary     4
+Context     6
+Use Cases for Mobile Financial Services in mHealth     7
+Country Case Studies   9
+Ghana: Reinventing the business model and value chain of life insurance   10
+Drivers in Ghana   11
+Haiti: Driving efficiencies in operations to decrease costs and achieve greater distribution   12
+Drivers in Haiti   13
+The Philippines: Leveraging mobile financial services for a variety of mHealth initiatives,  14
+including supply chain settlement, conditional cash transfers, and co-payments for hospitals
+Drivers in the Philippines   15
+Kenya: Enabling payments and alternative financing of healthcare through mPesa   16
+Drivers in Kenya   17
+Key Challenges   19
+Future Trends   19
+A Look Ahead: Mobile Finance and Universal Health Coverage   21
+Tables and Figures   22
+Interviews   23
+Appendix   24
+advancing the dialogue on mobile finance and mobile health: country case studies
+AcronyMs And AbbreviAtions
+eHealth Healthcare practice that is supported by electronic processes and communication, such 
+as electronic health records and health information systems. Mobile health, or mHealth 
+(see  below), also falls under this umbrella.
+MDGs Millennium Development Goals, a list of eight international development goals that all 193 
+United Nations member states and at least 23 international organizations have agreed to 
+achieve by the year 2015. These goals include:
+1. Eradicate extreme poverty and hunger
+2. Achieve universal primary education
+3. Promote gender equality and empower women
+4. Reduce child mortality rates
+5. Improve maternal health
+6. Combat HIV/AIDS, malaria, and other diseases
+7. Ensure environmental sustainability
+8. Develop a global partnership for development
+MFS, Mobile financial services or mobile money. The use of the mobile phone to access a 
+mFinance, money account which can offer financial services such as payments, savings, credit, and 
+or mobile insurance.
+money
+mHealth Mobile health. mHealth is loosely defined in this paper as the use of information and 
+communication technology to provide better access to health services for practitioners 
+and patients.
+MNO Mobile network operator. The private or public entities that cover mobile network ser-
+vices.
+SMS Short Message Service. A text messaging service component of phone, web, or mobile 
+communication systems, using standardized communications protocols that allow the 
+exchange of short text messages between fixed line or mobile phone devices.
+UHC Universal healthcare coverage. A term referring to organized health care systems built 
+around the principle of universal coverage for all members of society, combining mecha-
+nisms for health financing and service provision.
+2
+3
+introduction
+It has been nearly one year since the first report, “Amplifying the Impact: Examining the 
+Intersection of Mobile Health and Mobile Finance,” was published for the mHealth Alli-
+ance and The World Economic Forum. 1 In that report the intersection points between 
+mHealth and Mobile Financial Services (MFS) were identified and early initiatives in this 
+space were highlighted. Since then, there has been tremendous momentum in the use of 
+MFS, also known as mobile money, for mHealth services. Both MFS and mHealth proj-
+ects continue to grow in popularity globally as donors and practitioners take advantage 
+of the near ubiquity of cell phones to extend the reach of public health initiatives and ac-
+cess to health services. 
+In the coming years the global health community will turn more attention to the issue of 
+universal health coverage, and new micro-savings and micro-insurance products are 
+likely to enter developing country markets, often facilitated through the use of mobile 
+money. The case studies of emerging business models presented in this paper could act 
+as a launching point for a community of practice and global discussion on new business 
+models in mHealth/MFS and the contribution they can make to enhance access to health 
+systems and extend the reach of insurance to the poor. 
+The objectives of this second report are to:
+1. Identify the newest MFS and mHealth intersection use cases that have been, or 
+will be, implemented in the near term that could provide significant value to health 
+system strengthening including those associated with the Millennium Development 
+Goals (MDGs) of reducing child mortality rates and improving maternal health; 
+2. Highlight the characteristics of key markets that have the foundational prerequi-
+sites in place to reap the benefits of leveraging MFS for facilitating universal health 
+coverage and enhanced access to health care; and
+3. Identify key challenges faced and future trends that will reduce existing barriers 
+for future implementations.
+This paper aims to provide further guidance and spur implementation initiatives in emerg-
+ing markets by health service providers, non-governmental organizations (NGOs), mobile 
+money operators, and government health policy workers that seek to enhance health 
+systems for the poor through the use of MFS.
+1 World Economic Forum, mHealth Alliance (2011). Amplifying the Impact: Examining the Intersection of Mobile Health and 
+Mobile Finance
+3
+advancing the dialogue on mobile finance and mobile health: country case studies
+suMMAry
+As mobile network operators (MNOs) continue to try to reduce churn of customers, increas-
+ing switching costs by launching mHealth and MFS becomes increasingly critical. It is, there-
+fore, little surprise that these MNOs are working with health providers and governments to 
+integrate mobile money into health service programs. 
+What makes some markets more attractive to leverage MFS for healthcare than others? At 
+the crux of every initiative is a large need that drives the effort. 
+In the case of Ghana, the private sector is seeking to meet the pent up consumer demand 
+for life insurance, spurred by government education around insurance, by exploring new 
+business models between insurers and mobile operators to bring mobile micro-life insur-
+ance to market. 
+In Haiti, the devastating earthquake spurred new initiative funds to jumpstart MFS systems in 
+the private sector. Mobile operators with the advantage of creating new systems from scratch 
+rose to the challenge to set up a financial infrastructure quickly, while also supporting the 
+expanding cholera epidemic and other critical healthcare issues of the country. They have 
+been working with health providers to drive efficiencies around registration and distribution 
+of the products and services across both sectors by leveraging resources across sectors. 
+In markets where there is already significant MFS penetration and usage, such as Kenya and 
+the Philippines, the mature MFS systems are being used to support better business models, 
+higher quality of care, or increased access to health services. These initiatives have taken 
+root in a variety of areas - from supporting government initiated health programs, as is the 
+case in the Philippines, to providing alternative financial tools for those left out of public insur-
+ance, as seen in Kenya. In other markets such as Ghana and Haiti, MFS are less mature. As 
+these systems evolve, there are opportunities to incorporate extremely innovative business 
+models and operations.
+4
+Dimensions that drive mHealth and mFinance efforts
+Figure 1: Dimensions that Drive mHealth and mFinance Efforts
+ 
+Whether driven by government policy or private sector efforts in mature or emerging MFS 
+markets, a few characteristics prevail in all examples. First, there was a significant health 
+concern that needed to be met. This paper outlines that in Kenya, it is the need for savings 
+for maternal health; in Haiti, it was the need for basic health services after the earthquake 
+destroyed many systems; in Ghana, there is a need for life insurance, due to the high cost of 
+funerals; and in the Philippines, it is a range of health needs that MFS facilitates, from mem-
+bership dues to co-payments. Second, MFS had already launched in the markets – it was 
+well established in Kenya and the Philippines, and more recent in Haiti and Ghana. And third, 
+either the business model, the quality of the services, or the accessibility of critical healthcare 
+services was suboptimal without the use of MFS. In the Philippines, the business model for 
+remote payments is improved by the use of MFS. In Kenya, micro-savings via MFS allows for 
+improved quality of care. In Haiti, combining MFS with healthcare allows for broader distribu-
+tion of health supplies such as chlorine tablets to sanitize water supply and avoid cholera.
+As opportunities to improve health services for the poor are considered, the emerging case 
+studies illustrated can offer important insights into some future direction. By setting up the 
+right mHealth and MFS eco-systems and technology systems, health practitioners will be 
+better positioned to realize the objective to improve health outcomes for the poor.
+5
+advancing the dialogue on mobile finance and mobile health: country case studies
+conteXt
+Of the three billion people who live on less than the equivalent of $2 per day, one billion have 
+no access to the healthcare system. 2 These same people in the poorest economic strata live 
+without basic infrastructure including water, roads, electricity, education, and financial ser-
+vices. Additionally, nearly four billion (those earning between $1.25 and $4 a day) in emerging 
+markets lack access to risk protection through insurance that could be provided via public-
+private partnerships (PPPs). 3 Health insurance and payment mechanisms via mobiles is a 
+major unmet need that the intersection of mHealth and MFS, if done properly, could help 
+remedy in the next decade and help achieve new efficiencies and savings for health care 
+systems.
+Yet, in the midst of so little infrastructure, leapfrog innovations to serve the poor abound. 
+From remote mobile diagnostics to mobile clinics that travel to patients, mHealth initiatives 
+are increasing access to health services. Mobile technology is enabling those “off the grid” 
+to reap the benefits of modern health services. However, despite such progress, healthcare 
+financing mechanisms remains one of the biggest challenges to improving health outcomes 
+for the poor. 4
+Efficient healthcare financing mechanisms play an important role in producing better health 
+outcomes by: 1) Improving the quality of care and performance of health workers via effective 
+payment mechanisms and incentive programs; 2) Providing a social safety net and access to 
+care that enables payment for services; 3) Improving efficiencies in human resource systems 
+by streamlining management, procurement and payment systems that can eliminate waste; 
+and 4) Improving the viability of business models in healthcare by creating more robust eco-
+systems of payors for services. In the coming years it will become more evident that mHealth 
+and eHealth services and business models are critical variables in the efforts to provide uni-
+versal health coverage, or UHC, and should be considered part of the underlying business 
+model for universal coverage.
+MFS, the “off the grid” equivalent of banking, is a critical link to solving these issues for the 
+poor. MFS enables financial services and payments accessible by mobile phone to an elec-
+tronic money account that can be offered by the customer’s MNO. In this paradigm, mobile 
+operators act as the banks for the poor. Instead of relying on ATMs and bank branches, 
+customers deposit and withdraw cash from their local mobile money agents. Of the 630 mo-
+bile network operators in the world, approximately 124 mobile money implementations have 
+taken place and 92 more are underway. 5 These systems serve the 1.7 billion people who 
+lack access to banks, but have mobile phones. 6 These are the people also being targeted 
+for mHealth services in emerging markets.
+2 Shah, A. (2011). Health Issues, http://www.globalissues.org/issue/587/health-issues
+3 Swiss Re (2010). Micro-insurance-Risk Protection for 4 Billion People. Sigma,  
+http:// media.swissre.com/documents/sigma6_2010_en.pdf 
+4 World Health Organization (2005). Strategy on Health Care Financing for Countries of the Western Pacific and South-East 
+Asia Regions (2006–2010) 
+5 GSMA Mobile Money Tracker, http://www.wirelessintelligence.com/mobile-money
+6
+use cAses For Mobile FinAnciAl 
+services in MheAlth
+MFS can benefit mHealth efforts along the entire continuum of care at the patient level, pro-
+vider level, and administrative level. At the patient level, MFS enables patients to utilize new 
+financial instruments such as micro-savings, micro-insurance, and micro-credit to smooth out 
+cash flow issues or to receive remote money transfers from family members to pay for health 
+services. These services also enable patients to pay for transportation and healthcare services 
+using mobile money accounts. At the provider level, mobile money payments enable faster 
+settlement of remote payments along supply chains for health products and services, as well 
+as to settle vouchers for providers of health services. On the administrative level, mobile money 
+enables payments to unbanked health workers, per diem payments, and expense reimburse-
+ments that are often paid in cash. It also enables electronic disbursements of performance-
+based funding and conditional cash transfer programs, such as those being used throughout 
+the world to encourage facility-based deliveries for pregnant women, as seen in Figure 2. 
+Example: Using MFS for Maternal Continuum of Care
+Figure 2: Using mobile financial services for maternal continuum of care
+6 CGAP, GSMA, and McKinsey analysis using data from Demirgüç-Kunt, Beck, and Honohan (2009). “To arrive at these 
+conclusions, we conducted a forecasting exercise based on relatively conservative assumptions. We assumed that for each 
+country, only one mobile money service would win greater than 10% uptake by users. Further, we assumed relatively modest 
+usage by consumers and stable prices. The number of mobile money implementations is based on a comprehensive survey 
+of MNOs and vendor.” CGAP Brief: Window on the Unbanked: Mobile Money in the Philippines.  
+7
+http://www.cgap.org/gm/document-1.9.41163/BR_Mobile_Money_Philippines.pdf 
+advancing the dialogue on mobile finance and mobile health: country case studies
+Benefits of using MFS include development of more sustainable business models (through 
+efficiencies and cost savings over conventional methods), higher quality of care, and greater 
+access to care, as seen in Figure 3. In terms of business models, MFS can increase revenue 
+sources by subsidizing patient fees through new value chain participants; lower costs by 
+sharing operational costs that are shared between MFS and healthcare and by reducing 
+costs of cash management and fraud; and enable settlement of remote payments for remote 
+diagnostics and other remote health services.
+It can increase the quality of care by motivating providers and patients with faster settlement 
+of vouchers, salaries, supply chain payments, performance-based funding, and conditional 
+cash transfers. It can also enable providers to spend less time on management of cash and 
+more time on delivery of healthcare services. 
+MFS can improve access to care by enabling alternative financial tools for patients including 
+savings, insurance, and credit that can improve their ability to afford services. It also provides 
+alternative funding to providers, such as credit for retailers whose low cash flows would 
+otherwise prevent them from purchasing needed pharmaceutical inventory. Finally, it can 
+motivate new providers to participate in the system due to faster settlement of funds to pay 
+for their services. 
+Given these benefits and considering innovation in terms of national or regional ecosystems 
+of stakeholders for mHealth and eHealth services, MFS stakeholders should be at the table 
+to help drive innovation and build a more sustainable ecosystem for mHealth and eHealth 
+products and services. 
+Mobile Financial Services Enhance Health Services in  
+Three Major Categories
+Figure 3: Mobile financial services enhance health services in three major categories
+It is important to note that there are also risks at this intersection as well. The recent rash of 
+political and financial crises in the microfinancial sector, due to the relative lack of regulatory 
+oversight combined with more profit-oriented models, have undermined the financial sustain-
+8
+ability of both poor households and microfinancial institutions.7, 8 These lessons will need to 
+be learned in the health sector given the relative immaturity of mHealth policy frameworks 
+which will need to be extended to include frameworks for managing MFS systems in a man-
+ner that both protects citizens and enables innovation to take place. In health there are also 
+fears that controversies regarding micro-financial institutions may result in decreased trust in 
+micro-insurance providers because in some countries micro-insurance is a new concept and 
+people often do not grasp the fact that they may pay premiums and not receive a benefit until 
+something untoward happens. These fears could possibly depress demand in some mar-
+kets. One of the risks of electronic systems is that “bad things can happen faster” if adequate 
+security, privacy and overall regulatory frameworks are not in place, so caution is an essential 
+component to advancing the use of these systems.
+cAse studies
+Within the past year, mHealth has taken great strides forward in leveraging the benefits that 
+MFS offer. While there are numerous examples that could be highlighted, this paper will focus 
+on a few key initiatives taking place in Ghana, Haiti, the Philippines, and Kenya. The diagram 
+below illustrates examples of these case studies and a few others within the maternal con-
+tinuum of care.
+Example: Using MFS for Maternal Continuum of Care
+Figure 4: Using mobile financial services for maternal continuum of care with examples of deployments
+7 Banderjee, A. (2011). Assessing the Current Crisis in Microfinance and Avoiding the Next. World Bank blog,  
+https://blogs.worldbank.org/files/allaboutfinance/Microfinance.pdf
+8 Arun, Thankom (2005). Regulating for Development: The Case of Microfinance. The Quarterly Review of Economics and 9
+Finance, Vol. 45, Issues 2-3, p. 346-357
+advancing the dialogue on mobile finance and mobile health: country case studies
+Ghana: Reinventing the business model and value chain of life  
+insurance 
+One of the main drivers of poverty and consequent poor health outcomes is the exposure 
+to catastrophic risks that low-income households face in markets where insurance is not 
+commonplace. Microfinance institutions learned that sudden death and the costs of burials 
+threatened financial viability of their programs and began engaging with the micro-insurance 
+sector in the late-1990s, particularly in areas where HIV rates were exceedingly high. 9 The 
+challenges for the insurance industry in emerging markets are to build a culture that is accept-
+ing of insurance and to create products that speak to the livelihoods of the poor while also 
+sustaining business models appropriate for these contexts. Mobiles offer a way to address 
+some of these challenges. Ghana provides an interesting case study in light of these issues.
+In Ghana a broker between reinsurers and mobile network operators known as Microensure 
+partnered with two mobile operators, MTN and Tigo (Millicom) to provide their customers 
+with life insurance. While both mobile operators utilize MFS for claims disbursements, the two 
+mobile operators have tried different models for premiums payments. 
+In one model, MTN enabled customers to pay for their premiums through MTN’s MFS. In an 
+alternative model, Tigo has launched a unique and innovative business model that subsidizes 
+premium payments through an airtime loyalty program. To drive loyalty and higher airtime 
+minute usage, once a customer buys a threshold of airtime minutes, Tigo offers them “free” 
+life insurance. In essence, Tigo subsidizes the premiums for the life insurance, but overcomes 
+these costs with higher airtime revenues and reduced customer churn. To the customer, it 
+appears as though he or she was rewarded for airtime usage with “free” life insurance. This 
+system appears to be gaining significant traction with Tigo customers.
+Ghana Tigo Model:  Life Insurance as Airtime Rewards Benefits
+Figure 5: Ghana Tigo model: life insurance as airtime rewards benefits
+9 USAID (n.d.). Microfinance and HIV/AIDS NOTE #3: Microinsurance for Markets Affected by HIV/AIDS.  
+http://www.banyanglobal.com/pdf/Microfinance_and_HIVAIDS_NOTE_3_Microinsurance_for_Markets_Affected_by_HIVAIDS.pdf
+10
+Often times, when new players enter an industry, there is concern that the overall revenues of 
+each player will diminish due to a new entrant in the value chain. Interestingly, in this example, 
+the increase in players in the value chain (entry of the mobile operator) actually benefits the 
+industry by creating a new business model to drive consumer adoption and increase the 
+overall market.
+Drivers in Ghana
+Although Ghana does have active MFS deployments, they are not as prolific as those in 
+Kenya or the Philippines. What has driven Ghana’s innovations in this space are government 
+policies and consumer demand. The Ghanaian government has an extremely pro-health 
+policy. Ghanaians receive considerable education by the government around the benefits of 
+insurance, spurring consumer demand for insurance products. Since Ghanaians are offered 
+public health insurance, with this initiative the private sector targeted life insurance – an area 
+that was not addressed by the government. Finally, and perhaps most importantly, there is a 
+very high need for life insurance in Ghana since it is the most expensive market in the world 
+for funerals as a percentage of per capita GDP. 10
+Ghana:  infrastructure, education, and need drive mobile  
+micro-life insurance
+                   
+Figure 6: Ghana: infrastructure, education, and need drive mobile micro-life insurance
+10 MicroEnsure (n.d.). M-Insurance Goes Live in Ghana. MicroEnsure website, http://www.microensure.com/news.asp?id=123
+11
+advancing the dialogue on mobile finance and mobile health: country case studies
+For Ghana, the (1) critical need around the cost of funeral services, (2) lack of public insurance 
+for life insurance, and (3) consumer demand for insurance spurred by pro-health government 
+education around these services drove mobile network operators and insurance companies 
+to seek to develop innovative business models to bring micro-life insurance to the poor. Ef-
+forts like this, in most other contexts, will likely require substantial marketing and awareness 
+campaigns around the benefits of insurance. In many markets the demand for insurance 
+products is low because most users will notice the premium payments for insurance prod-
+ucts, but may not see a benefit on an annual basis. In some contexts this can result in low 
+re-enrollment rates. Nevertheless, public-private partnerships for micro-insurance have great 
+potential to mitigate catastrophic risks for low-income households. In countries where there is 
+no government-run health insurance plan, health insurance may have more immediate effects 
+where the benefits are more proximal for users in terms of access to care and lower out-of-
+pocket expenses for routine and emergency care. 
+Haiti: Driving efficiencies in operations to decrease costs and 
+achieve greater distribution
+In addition to utilizing the electronic money itself, mHealth can benefit by leveraging common 
+business operations shared with MFS programs. Using the same resources, operations, and 
+networks to reach the same customer reduces the cost of serving the poor considerably. For 
+example, the same healthcare workers that serve the poor can act as agents to register them 
+for mobile money accounts. Similarly, mobile money agents can sell and distribute health 
+products to the poor.
+Leveraging business operations of two industries  
+who serve the same customer base
+Figure 7: Leveraging business operations of two industries who serve the same customer base
+12
+In Haiti, these types of efficiencies are now being explored. Mobile network providers are 
+working with NGOs and healthcare providers to drive down costs of operations across MFS 
+and mHealth value chains. By leveraging the MFS agent network, NGOs will be able to dis-
+tribute critical health products such as chlorine tablets to sanitize water supplies to combat 
+the spread of cholera across Haiti. In the future, midwives and other healthcare workers visit-
+ing patients may be able to play the role of mobile money agents by registering patients for 
+mobile money accounts and accepting and disbursing cash. These same operations could 
+be appropriated for micro-insurance and micro-savings accounts used for health services 
+and potentially extend the reach of insurance products to ”base of the pyramid” markets by 
+driving more efficient business models for insurance products.
+Drivers in Haiti
+In the case of Haiti, a catastrophic event led to (1) epidemic outbreaks that had to be ad-
+dressed immediately, as well as (2) the need to create a new financial infrastructure. Grants to 
+the private sector to solve the MFS issue led the mobile network operators to seek adjacent 
+services such as mHealth for additional revenue opportunities and to reduce operational 
+costs across vertical industries to sustain their business models. Because these systems are 
+relatively new, architecture developers are more aware of the potential intersections between 
+MFS and mHealth and build their systems accordingly. 
+Following the devastating earthquake in January 2010, the Gates Foundation and USAID 
+launched a $10 million incentive fund/competition to jumpstart financial services by mobile 
+phone in Haiti to expedite the delivery of cash assistance to victims of the country’s devas-
+tating earthquake by humanitarian agencies. The challenge would financially reward the first 
+MNO to launch MFS (first-to-market and second-to-market awards) and a scale up award 
+(first 100,000 transactions and tiers thereafter). In a dual-MNO market with high degree of 
+rivalry, this competition was a great ignition to the market. The two mobile network operators 
+Voila and Digicel launched their mobile money programs shortly after the competition was 
+launched. The infrastructure for new MFS was planted. 
+While Haiti has had health concerns previously, after the earthquake, health issues reached 
+new proportions with the cholera epidemics. 11 The need to reach the poor efficiently, cost ef-
+fectively, and quickly to decrease further mortality rates has been critical. This case study of 
+Haiti, ironically, reveals the opportunities for innovation that can appear when existing systems 
+have been virtually destroyed. The urgent need around health services following the earth-
+quake, combined with the large incentive challenge fund to the private sector, spurred mobile 
+operators to seek more efficient methods to reach the poor. These methods included sharing 
+the operational infrastructures of both mHealth and MFS around registration and distribution.
+The analysis of the drivers of change at the intersection of mHealth and MFS are demon-
+strating the facilitative role of donors in laying the conditions for a robust ecosystem of MFS 
+interventions, entrepreneurial approaches to mHealth business model development from the 
+outset, and collaboration with the government.
+11 WHO (2011). Haiti Cholera Outbreak. WHO website, http://www.cdc.gov/haiticholera/
+13
+advancing the dialogue on mobile finance and mobile health: country case studies
+With the push toward universal coverage in the coming years, it can be expected that the 
+mHealth and MFS intersection will increasingly need to be thought about as an essential 
+building block of the business model for universal coverage. As this domain begins to ex-
+pand and the evidence base for successful ventures grows in a manner that can demon-
+strate substantial efficiencies and cost-savings to the system, health planners will need to 
+have a much stronger understanding of the financial systems in place to leverage this op-
+portunity in an optimal manner. The cases of Kenya and the Philippines that follow further 
+illustrate this point.
+Haiti: Private sector + Grants + Urgent healthcare needs drive MNOs 
+to find efficiencies for sustainable model
+          
+ 
+ 
+  
+Figure 8: Haiti: Private sector, grants, urgent healthcare needs drive MNOs to find  
+efficiencies for sustainable model
+The Philippines: Leveraging MFS for a variety of mHealth initiatives, 
+including supply chain settlement, conditional cash transfers, and 
+co-payments for hospitals
+The Philippines offers an important window into the potential opportunities at the intersec-
+tion between MFS and mHealth due to the existence of a mature mobile money eco-system, 
+universal coverage, and a Ministry of Health that has embraced mHealth as part of the 
+overall effort to strengthen health systems. In the Philippines, mobile money is being used 
+in a variety of ways for mHealth including membership dues and payment for stock orders 
+in reproductive healthcare services using Smart Padala, conditional cash transfers utilizing 
+GCash, and enabling co-payments for hospital services utilizing SmartMoney. 12, 13
+14
+In the case of business-to-business payments, Population Services Philipinas Inc. (PSPI), part 
+of Marie Stopes International, uses mobile money within its BlueStar social franchise program. 
+Members of the social franchise, who are private midwives providing services under the Blue-
+Star brand, make payments to PSPI for stock orders that they have received, such as contra-
+ceptive supplies, and for membership dues which they pay weekly and annually.
+In the case of voucher settlement for maternal and reproductive health, Marie Stopes, Inter-
+national launched a mobile-enabled voucher system with mobile money settlement for the 
+providers to decrease settlement time for provider payment from weeks and months to days 
+in Madagascar. Improving the efficiencies in health provider payment delivery time may also 
+prove to be a driver for improving quality of care in some cases. In addition, by using elec-
+tronic systems, the new voucher/mobile money program would reduce cash management 
+and disbursement costs that represent a substantial portion of the overhead cost of the 
+overall program. Finally, by decreasing speed of payment, the system intended to increase 
+worker loyalty and reduce churn of the providers. 
+Of the 282 members, 100 use this MFS option for such payments. The Smart Padala mobile 
+money system enables members to go to a ministore and use a store’s account to transfer 
+money to PSPIs account for a cost of 10 pesos per 500 pesos transferred. The members 
+that use the MFS are generally those in the Mindanao region who do not live near bank 
+branches of the two banks from which PSPI accepts payments. Thus, MFS enables PSPI to 
+expand its reach and/or coverage of the social franchise network into areas where banking 
+services are not easily available and to receive regular payments from these members.
+Drivers in the Philippines
+The Philippines is the country in which the first significant adoption of MFS systems began 
+nearly one decade ago. Spurred by a strong mobile texting culture, a significantly high un-
+banked population, and a need to enable remote payments in a country that spans over 
+7,000 islands, 9.5 million Filipinos now use one of two mobile money systems, SmartMoney 
+and GCash, each offered by the two mobile operators Smart Telecom and Globe Telecom’s 
+subsidiary GXI. 
+In addition to the strong MFS infrastructure set up by the private sector MNOs, mHealth 
+programs have received significant support by the Government of the Philippines. With a 
+strong focus on reaching the MDGs, the government has, for example, instituted the FOUR-
+mula One for Health (see Figure 1) to reduce maternal and neonatal mortality by leveraging 
+enhanced management infrastructure and financial services.
+12 Agabin, M.H. (5 May 2011). Conditional Cash Transfer, Rural Banks, and Mobile Money Transfer: Observations and Reflec-
+tions. Department of Social Welfare and Development’s (DSWD) Pantawid Pamilyang Pilipino Program (4Ps) launched a 
+5-year program of the Philippine Government to provide conditional cash grants for the poorest families in identified munici-
+palities as financial aid for the family’s health and for children’s education. Microenterprise Access to Banking Services,  
+http://www.rbapmabs.org/blog/2011/05/conditional-cash-transfer-rural-banks-and-mobile-money-transfer-observations-and-reflections/
+13 Reyes, A. L. (19 January 2011). Smart, Globe see surge in mobile money payments. The Philippine Star. Smart’s affiliate 
+company includes the largest hospital chain in the Philippines (which includes Makati Medical Center). It is expected that 
+mobile payments will be a key enabler and enhancer of business for Smart’s affiliate companies.  
+http://www.philstar.com/Article.aspx?articleId=649312
+15
+advancing the dialogue on mobile finance and mobile health: country case studies
+The need to reduce maternal and neonatal mortality rates, the government’s pro-health 
+policies and support of the MDGs, and the significant and mature MFS infrastructure in the 
+Philippines are characteristics that have made the Philippines particularly attractive for lever-
+aging mobile finance for mHealth programs.
+Philippines: Pervasive use of mobile finance for health spurred by  
+mobile money adoption and pro-health government policies
+Figure 9: the Philippines: Pervasive use of Mobile Finance for Health spurred by Mobile Money 
+Adoption and Pro-health Government Policies
+Kenya: Enabling payments and alternative financing of healthcare 
+through mPesa
+Through mPesa, a mobile-phone based money transfer service for Safaricom, Kenya pro-
+vides an additional view into the potential of programs that combine mHealth with MFS. 
+Given the success of mPesa and strong governmental support for future universal health 
+coverage, as well as a large number of mHealth programs, Kenya, like the Philippines, sees 
+MFS are being used in a number of capacities for mHealth including:
+•	 At the patient level, patients are using mPesa to pay their medical bills, medical services 
+at dispensaries and hospitals, and travel to medical facilities. They also use mPesa for 
+payment micro-insurance premiums and to deposit into micro-savings through providers 
+such as Changamka 14 
+•	 At the provider level, the Safaricom Doctor’s Network is taking mPesa payments for re-
+mote medical diagnostics provided to patients 15
+14 Interview with Paul Mugami, Safaricom
+15 Jidenma, N. (8 May 2011). Kenya’s telecoms giants roll out e-health services. The Next Web blog, http://thenextweb.com/
+africa/2011/05/08/kenyas-telecoms-giants-roll-out-e-health-services/
+16
+•	 At the administrative level, mPesa is being used for government disbursement of funds 
+to the counties and remote dispensaries; for payment of casual staff in remote hospi-
+tals; and for conditional cash transfers to mothers to motivate them to have their infants 
+inoculated and for other health services 14
+Changamka was one of the first organizations to develop the mHealth and MFS connection 
+via their micro-savings program for maternal health. Working on the assumption that it is not 
+a lack of income that inhibits access to care, but rather lack of mechanisms for generating 
+savings, Changamka’s initial service was a Smart Card based micro-savings initiative tar-
+geting maternal health. Clients could add funds in small increments to the card via a GPRS 
+terminal or mobile phone. The initial card was pre-loaded with KSh 500 which could cover 
+an initial examination, lab test and treatment for one condition. A basic insurance plan was 
+offered for approximately $50 that covered antenatal care, delivery and postnatal care. The 
+$50 insurance package is considered fairly expensive by Kenyan standards, so the underly-
+ing business model was dependent on corporate sponsors in order to be acceptable to a 
+greater number of women and couples. 
+While nearly 10,000 clients were using Changamka by June 2011, there were numerous 
+challenges for scalability and sustainability of the business model due to the costs of Smart 
+Cards, costs of GPRS terminals and lack of venture capital. 16 A new mobile-based business 
+model that connects to the government-sponsored health insurance plan is currently being 
+developed that could address some of the shortcomings of the initial business model. The 
+new model would deploy m-vouchers coupled with health education messages via SMS. 
+The m-voucher would cover costs of delivering a baby in a health care facility and a pre-
+payment vehicle that facilitates cost-sharing of about 10 percent of delivery costs. The move 
+from a paper voucher to the m-voucher can reduce administrative costs of the voucher 
+program by approximately 15 to 27 percent. 
+In addition to the financial benefit, there is a health education component that involves out-
+reach to community health workers on the availability of m-vouchers (to create demand), 
+a “dial-a-doctor” aspect of the Changamka platform that enables appointment reminders, 
+savings and health tips, and pregnancy related information to be sent to the expectant 
+mother. A peer-to-peer component is also being developed that enables women to share 
+information on childbirth and pregnancy with one another in a manner that can promote 
+greater transparency around health facility status, health worker availability and general 
+quality of care. Changamka also utilizes radio campaigns to raise awareness of the program 
+and its benefits. 17
+Drivers in Kenya
+Kenya launched the most adopted and ubiquitous domestic mobile money system in the 
+world. From launch in 2007 until 3.5 years later, mPesa adoption had grown to 15 million 
+users, representing 80 percent of the adult population. 18 Despite this new and significant 
+16 Changamka Microhealth Limited. Center for Health Market Innovations,  
+http://healthmarketinnovations.org/program/changamka-microhealth-limited
+17 Interview with Samuel Agutu, Changamka (last three paragraphs)
+18 Johnson, C., & Jaisinghani, P. (17 January 2012). Can Mobile Money Transform a Country? USAID Impact blog,  
+http://blog.usaid.gov/2012/01/can-mobile-money-transform-a-country/ 17
+advancing the dialogue on mobile finance and mobile health: country case studies
+financial access and the government’s commitment toward future Universal Healthcare Cov-
+erage (UHC) coverage, over 11 million Kenyans working in the informal sector today are without 
+insurance and lack adequate funds to pay for healthcare access. In fact, 56 percent of expect-
+ant mothers give birth at home often times due to lack of funds to pay for healthcare. 19 As a 
+result, maternal and neonatal mortality rates are high. 
+Because the vast majority of Kenyans actively use the mPesa system, and many are cur-
+rently without insurance, there is a critical need to leverage mPesa to support alternative fi-
+nancing mechanisms such as micro-savings, micro-insurance, and micro-credit to increase 
+healthcare access which has spurred current initiatives in mHealth and MFS. 
+Looking ahead, the innovative private sector MFS initiatives in healthcare may offer important 
+case studies from which the government can draw insight. Leveraging the ubiquity of mPesa 
+and combining it with the government’s future intentions toward universal health coverage, 
+Kenya could provide a very interesting example regarding how MFS and the underlying 
+business model for universal coverage may evolve in the coming years. The Kenyan govern-
+ment’s plan to extend health insurance (National Hospital Insurance Fund) to the informal 
+sector will likely include some form of pre-payment scheme where MFS schemes could play 
+a significant role. 20
+Like in the Philippines, where the government has taken an active policy to drive health pro-
+grams that support MDGs using MFS for conditional cash transfers and voucher settlement 
+for reproductive and maternal healthcare, in Kenya there was already strong mobile money 
+penetration in the market.  Maternal and neonatal mortality rates have been high due to the 
+inaccessibility of healthcare in general in Kenya, which can be mediated, in part, through 
+insurance. 21  In addition, the majority of Kenyans actively use the mPesa system, Safaricom 
+has worked with health providers to develop alternative financing mechanisms for the poor 
+who are currently left out of public insurance.
+Kenya: Strong mobile money adoption and private sector, maternal  
+mortality rates, and lagging government policies
+               
+Figure 10: Kenya: Strong mobile money adoption and private sector, maternal  
+18 mortality rates, and lagging government policies
+key chAllenges
+These case studies and other initiatives to leverage MFS for mHealth and other health initia-
+tives are not without their challenges. As pioneers in the industry, those implementing cross-
+sector initiatives have encountered a number of challenges which include:
+•	 Exclusivity of partnerships with mobile money providers leads to constraints in mar-
+ket coverage;
+•	 Difficulties around scaling services that require significant amounts of detailed cus-
+tomer information;
+•	 Risks associated with trying to implement cross-sector initiatives in markets with low 
+mobile money adoption;
+•	 Difficulties in implementing ID management systems in markets where phones are 
+shared among family members;
+•	 Prohibitive setup costs for implementation due to a lack of open APIs by the mobile 
+money providers; and
+•	 Prohibitive setup costs due to the need to integrate with multiple mobile money pro-
+viders in markets where the services are fragmented. 
+Future trends
+As is the case with most innovative industries, many of the challenges faced today will 
+diminish over time. Specifically, a number of notable trends will continue in the next few 
+years which will decrease the hurdles and increase the rate of implementations of MFS for 
+mHealth and other parts of the health sector. These include: (1) increase in the global adop-
+tion rates of MFS; and (2) reduction of the costs and complexities around integrating MFS 
+with mHealth and broader health systems with standards defined. 
+19 Anyangu-Amu, S. (15 August 2010). Kenya: Medical Smart Card Extended to Maternal Care. Inter Press Service,  
+http://www.ipsnews.net/2010/08/kenya-medical-smart-card-extended-to-maternal-care/
+20 Mathauer, I., Schmidt, J-O. & Wenyaa, M. (2008). Extending social health insurance to the informal sector in Kenya: An  
+assessment of factors affecting demand. International Journal Health Planning and Management; 23: 51-68  
+doi: 10.1002/hpm.914 pmid: 18050152
+19
+advancing the dialogue on mobile finance and mobile health: country case studies
+Future Trends in Mobile Financial Services   
+             
+Figure 11: Future trends in mobile financial services
+With respect to costs, there are several trends that will positively impact the market including: 
+1. Open Application Programming Interfaces (APIs) by the mobile network operators for 
+faster integration by mHealth providers; 
+2. Interoperability hubs for mHealth service providers seeking a “one stop shop” for integra-
+tion with all mobile money systems in a given domestic market; 
+3. Global service providers that provide cross-border disbursement of funds;
+4. Business pricing for MFS to better fit supply chain requirements; and 
+5. Streamlined operations and standards for easy plug-and-play around identity manage-
+ment, registration, and distribution of health and MFS. 
+20
+A look AheAd: Mobile FinAnce 
+And universAl heAlth coverAge
+The final area to address is the market for micro-insurance and the movement toward UHC 
+that is accelerating in the global health arena in the next several years. Approaches to health 
+financing for UHC have typically included micro-insurance, community health funds, mu-
+tual health organizations, and other types of insurance products that enable informal sector 
+workers to insure against catastrophic risks. Some of these programs have been linked to 
+existing micro-financial institutions that recognized the need to move beyond micro-credit-
+only solutions. 
+One of the challenges to micro-insurance schemes has been the small risk pools and over-
+exposure to catastrophic risks. Re-insurance can help to address this problem, but better 
+use of technologies, such as mobiles and new partnerships to drive better data collection 
+that can be utilized for the under-writing of insurance products could help the field address 
+some of the critical bottlenecks at the moment. Most micro-insurance transactions are still 
+conducted via paper rather than electronic or digital formats. 21 In some cases smart cards 
+are being utilized, but they can contribute significantly to the costs of insurance operations 
+compared to better integrated mobile solutions.  
+Perhaps the biggest constraint for community financing and micro-insurance programs is 
+the lack of quality data from the healthcare and financial systems for the re-insurance or un-
+derwriting of insurance products. New partnerships between the two sectors that can both 
+improve overall information systems and contribute to the business requirements gathering 
+of enterprise architecture could play a role in opening up new business models, but there are 
+currently few efforts moving in this direction, at least in the backend technology development 
+arena. 
+The confidence in the information systems, even in the more technologically sophisticated 
+markets such as India, Thailand, the Philippines, and Malaysia is a major barrier to the in-
+tegration of mHealth and MFS tools for micro-insurance. 22 This speaks to the current state 
+of mHealth interventions, in general, where the bulk of the emphasis has been on front-end 
+applications to the relative neglect of the back-end enterprise architecture infrastructure. The 
+result is that the data flows from both sectors are not being leveraged to the extent required 
+to truly take advantage of the technology innovation that is currently available. It may serve 
+the community of health practitioners involved with universal health coverage to begin to play 
+a catalytic role in bringing together the MFS and eHealth sectors as well as NGOs, govern-
+ments, and insurers around the current state of data systems in order to create collaborative 
+roadmaps for future innovation on this front.
+21 Gerelle, E. & Berende, M. (2008). Technology for Microinsurance Scoping Study. Microinsurance. Paper No. 2, Microinsur-
+ance Innovation Facility, International Labor Organization
+22 Interview with David Lubinski, PATH
+21
+advancing the dialogue on mobile finance and mobile health: country case studies
+tAbles And Figures
+Figure 1  Dimensions that Drive mHealth and mFinance Efforts     5
+Figure 2  Using MFS for Maternal Continuum of Care      7
+Figure 3  Mobile Financial Services Enhance Health Services in Three Major Categories  8
+Figure 4  Using MFS for Maternal Continuum of Care with Examples of Deployments   9
+Figure 5  Ghana Tigo Model: Life Insurance as Airtime Rewards Benefits    10
+Figure 6  Ghana: infrastructure, education, and need drive mobile micro-life insurance  11
+Figure 7  Leveraging business operations of two industries who serve the same customer base 12
+Figure 8  Haiti: Private Sector, Grants, and Urgent Healthcare Needs Drive MNOs to find  
+  Efficiencies for Sustainable Model       14
+Figure 9  The Philippines: Pervasive use of Mobile Finance for Health spurred by Mobile  
+  Money Adoption and Pro-health Government Policies     16
+Figure 10 Kenya: Strong Mobile Money Adoption and Private Sector, Maternal Mortality  
+  Rates, and Lagging Government Policies       18
+Figure 11 Future Trends in Mobile Financial Services      20
+Table 1  Comparing Four Mobile Financial Services Markets     24
+22
+interviews
+Paul Mugambi  Senior Manager – Digital Inclusion Safaricom
+Samuel Agutu  CEO     Changamka
+Peter Gross  CEO     MicroEnsure
+Gunnar Camner  Head of Product for Tigo Cash  Millicom International/Tigo
+John Owens  Chief of Party    MABS Philippines
+Mark Smith  CEO     Univicity
+Judy Gold  Innovation Analyst   Marie Stopes International
+Malcolm Vernon  Director, Market Development EMEA, Nokia
+   Nokia Financial Services
+Special thank you to the following reviewers and contributors of research to 
+this report
+Mark Smith
+Jody Ranck
+Margaret Schoening
+Sushmita Meka
+Patricia Mechael
+23
+advancing the dialogue on mobile finance and mobile health: country case studies
+APPendiX
+Table 1: comparing Four Mobile Financial Services Markets
+Mobile Money Comparisons of Kenya, Ghana, The Philippines, and Haiti
+Source: GSMA Mobile Money Tracker
+Global Summary: 
+630 MNOs
+119 live deployments of mobile money
+96 planned deployments of mobile money
+Region     Country Mobile  Bank  MNOs  Year        Number Mobile 
+   Penetration Penetration  deployed  Deployed      of Users Money Services
+Africa     Ghana  66.82  16  Tigo (Millicom) 2010  
+       MTN  2009   Airtime Top Up
+            Bill Payment
+            M-Insurance
+       Airtel  2010   Airtime Top Up
+       (Bharti Airtel)
+            Bank Transfer
+            Bill Payment
+            Domestic Money 
+            Transfer
+            Merchant Payment
+       Txtnpay  2009   Airtime Top Up
+            Bill Payment
+            Domestic Money 
+            Transfer
+Africa     Kenya  56.39  10  Airtel (Bharti Airtel) 2009   Airtime Top Up
+            Bank Transfer
+            Bill Payment
+            Corporate Cash  
+            Collection
+            Domestic Money 
+            Transfer
+            International Money 
+            Transfer
+            Loan Repayment
+            Manage Bank Account
+            Merchant Payment
+       Safaricom 2007             15,000,000 Airtime Top Up
+24
+Region     Country Mobile  Bank  MNOs  Year        Number Mobile 
+   Penetration Penetration  deployed  Deployed      of Users Money Services
+            Bill Payment
+            Domestic Money  
+            Transfer
+            G2P
+            International Money 
+            Transfer
+            Linked MFI, SACCO, 
+            Bank Account
+            Merchant Payment
+            MFI Loan Repayment
+            M-Insurance
+            Salary Disbursement
+       Yu      Airtime Top Up
+       (Essar Telecom)
+            Domestic Money  
+            Transfer
+       Orange  2010   Airtime Top Up 
+       (Telkom Kenya)
+            Bank Account  
+            Management
+            Bank Transfer
+            Bill Payment
+            Domestic Money  
+            Transfer
+            Loan Repayment
+            Manage Bank Account
+            Merchant Payment
+            Salary Disbursement
+       Tangaza  2010   Airtime Top Up
+Americas Haiti 10.79  15  Voila (Comcel) 2011  
+       Digical  2010  
+25
+advancing the dialogue on mobile finance and mobile health: country case studies
+Region     Country Mobile  Bank  MNOs  Year        Number Mobile 
+   Penetration Penetration  deployed  Deployed      of Users Money Services
+Asia     Philippines 66.51  26  Globe Telecom 2004       1,000,000 Airtime Top Up
+Pacific
+            Domestic Money  
+            Transfer
+            International Money  
+            Transfer
+            Merchant Payment
+            MFI Loan Repayment
+            M-Insurance
+            Salary Disbursement
+            Text-a-Deposit
+            Text-a-Withdrawal
+       Smart (PLDT) 2003       8,500,000 Airtime Top Up
+            Bill Payment
+            Domestic Money  
+            Transfer
+            International Money  
+            Transfer
+            Linked MFI, SACCO,  
+            Bank Account
+            Loan Repayment
+            Merchant Payment
+            MFI Loan Disbursement
+            MFI Loan Repayment
+26
+27
+The mHealth Alliance champions the use of mobile technologies to improve 
+health throughout the world. Working with diverse partners to integrate mHealth 
+into multiple sectors, the Alliance serves as a convener for the mHealth com-
+munity to overcome common challenges by sharing tools, knowledge, experi-
+ence, and lessons learned. The mHealth Alliance advocates for more and better 
+quality research and evaluation to advance the evidence base;  seeks to build 
+capacity among health and industry decision-makers, managers, and practi-
+tioners; promotes sustainable business models; and supports systems integra-
+tion by advocating for standardization and interoperability of mHealth platforms.  
+The mHealth Alliance also hosts HUB (www.healthunbound.org), a global online 
+community for resource sharing and collaborative solution generation.
+ 
+Hosted by the United Nations Foundation, and founded by the Rockefeller Foundation, Vodafone Foundation, 
+and UN Foundation, the Alliance now also includes HP, the GSM Association, and Norad among its founding 
+partners. For more information, visit www.mhealthalliance.org.
+Become a member of a coalition of like-minded organizations with an interest in improving 
+health outcomes through mobile technologies. Apply for mHealth Alliance membership at 
+www.mhealthalliance.org/membership.
+ 
+1800 Massachusetts Avenue, NW,
+Suite 400
+Washington, D.C. 20036
+202.887.9040 (phone)
+202.887.9021 (fax)
+info@mhealthalliance.org
+Our thanks goes to lead author, Menekse Gencer, of mPay Connect. You can learn more 
+about mPay Connect at http://mpayconnect.com.

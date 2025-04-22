@@ -1,0 +1,1363 @@
+
+
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="no">
+<head>
+  <script src="/Scripts/jquery-3.3.1.min.js"></script>
+  <!-- Google Tag Manager -->
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push(
+        { 'gtm.start': new Date().getTime(), event: 'gtm.js' }
+      );
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-K58JVC');
+  </script>
+  <!-- End Google Tag Manager -->
+  <!-- Google reCAPTCHA -->
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <!-- Google reCAPTCHA -->
+
+  <title>Hva er eRegistre? - FHI</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="/static/templates/build/css/main.css?v=rPneFBPcklVdfPWXS3YTd_5Nl0vHbhzgpw8c6A5cQmM1" rel="stylesheet"/>
+
+
+  <!--[if lte IE 9]>
+    <link rel="stylesheet" type="text/css" href="/static/templates/build/css/ie9.css"/>
+  <![endif]-->
+  <!--[if lte IE 8]>
+    <link rel="stylesheet" type="text/css" href="/static/templates/build/css/ie8.css"/>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <![endif]-->
+
+  <style>
+    .hide {
+      display: none;
+    }
+
+    .Form__Element {
+      margin-bottom: 1.5em;
+    }
+  </style>
+
+    <!-- Google stuff -->
+    <script>
+      window.ga = window.ga || function() { (ga.q = ga.q || []).push(arguments) };
+      ga.l = +new Date;
+      ga('create', 'UA-1567793-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <script async src='https://www.google-analytics.com/analytics.js'></script>
+    <script type="application/ld+json">
+      {
+      "@context" : "http://schema.org",
+      "@type" : "WebSite",
+      "name" : "FHI.no",
+      "alternateName" : "Folkehelseinstituttet",
+      "url" : "http://www.fhi.no"
+      }
+    </script>
+    <!-- automate the tagging for download tracking-->
+    <script type="text/javascript">
+      if (typeof jQuery != 'undefined') {
+        jQuery(document).ready(function ($) {
+          var filetypes = /\.(zip|exe|pdf|doc*|xls*|ppt*|mp3)$/i;
+          var baseHref = '';
+          if (jQuery('base').attr('href') != undefined)
+            baseHref = jQuery('base').attr('href');
+          jQuery('a').each(function () {
+            var href = jQuery(this).attr('href');
+            if (href && (href.match(/^https?\:/i)) && (!href.match(document.domain))) {
+              jQuery(this).click(function () {
+                var extLink = href.replace(/^https?\:\/\//i, '');
+                _gaq.push(['_trackEvent', 'External', 'Click', extLink]);
+                if (jQuery(this).attr('target') != undefined && jQuery(this).attr('target').toLowerCase() != '_blank') {
+                  setTimeout(function () { location.href = href; }, 200);
+                  return false;
+                }
+              });
+            } else if (href && href.match(/^mailto\:/i)) {
+              jQuery(this).click(function () {
+                var mailLink = href.replace(/^mailto\:/i, '');
+                _gaq.push(['_trackEvent', 'Email', 'Click', mailLink]);
+              });
+            } else if (href && href.match(filetypes)) {
+              jQuery(this).click(function () {
+                var extension = (/[.]/.exec(href)) ? /[^.]+$/.exec(href) : undefined;
+                var filePath = href;
+                _gaq.push(['_trackEvent', 'Download', 'Click-' + extension, filePath]);
+                if (jQuery(this).attr('target') != undefined && jQuery(this).attr('target').toLowerCase() != '_blank') {
+                  setTimeout(function () { location.href = baseHref + href; }, 200);
+                  return false;
+                }
+              });
+            }
+          });
+        });
+      }
+    </script>
+    <!-- End Google Stuff -->
+
+  
+    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+
+    <meta property="og:title" content="Hva er eRegistre?" />
+    <meta property="og:description" content="Et eRegister er et organisert system for &#229; innhente, administrere, analysere, og viktigst, bruke informasjon om helse til m&#248;dre, nyf&#248;dte og barn for &#229; forbedre deres helse."/>
+    <meta property="og:site_name" content="Folkehelseinstituttet"/>
+    <meta property="og:url" content="http://www.fhi.no/kk/internasjonalt/eregistries/about-eregistries2/what-are-eregistries/" />
+    <meta property="og:image" content="http://www.fhi.no/globalassets/bilder/usortert-gml-colourbox/eregistries-computer-wide.jpg?preset=mainbodywidth"/>
+    <meta property="fb:admins" content="598201156" />
+    <meta name="description" content="Et eRegister er et organisert system for &#229; innhente, administrere, analysere, og viktigst, bruke informasjon om helse til m&#248;dre, nyf&#248;dte og barn for &#229; forbedre deres helse." />
+    <meta name="pageID" content="16977" />
+    
+
+
+
+  <link rel="alternate" hreflang="no" href="http://www.fhi.no/kk/internasjonalt/eregistries/about-eregistries2/what-are-eregistries/" />
+<link rel="alternate" hreflang="en" href="http://www.fhi.no/en/qk/international/eregistries/about-eregistries2/eregistries2/" />
+
+
+  
+</head>
+<body class="has-dark-background is-sub-page">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K58JVC"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+
+
+<a class="skip-to-content" href="#main">Hopp til innhold</a>
+
+
+
+<header class="fhi-header">
+
+    <div class="fhi-container fhi-header__top">
+        <a class="fhi-header__logo" href="/">
+            <img class="logo-default" alt="Folkehelseinstituttet " title="Folkehelseinstituttet" src="/Static/templates/build/gfx/logo_lang.svg">
+            <img class="logo-inverted" alt="Folkehelseinstituttet " title="Folkehelseinstituttet" src="/Static/templates/build/gfx/Logo_ny_kort_hvit.svg">
+            <!--[if lte IE 8]>
+    <img class=logo-default" alt="Folkehelseinstituttet " title="Folkehelseinstituttet" src="~/Static/templates/build/gfx/logo.png">
+    <img class=logo-inverted" alt="Folkehelseinstituttet " title="Folkehelseinstituttet" src="~/Static/templates/build/gfx/logo_white.png">
+    <![endif]-->
+        </a>
+        <div class="shopping-cart-alert">
+            <p class="shopping-cart-status">Valgte elementer er lagt i handlekurven</p>
+            <a href="/sys/handlekurv/">G&#229; til handlekurv <span class="icon-arrow-right"></span></a>
+            <button class="button close-shopping-cart-alert">
+                Lukk
+            </button>
+        </div>
+
+        <div class="fhi-header__search">
+
+
+
+
+<form action="/sys/sok/#" method="get">
+    
+    <div role="search" class="fhi-search__inner">
+        <label class="fhi-visually-hidden is-hidden" for=global-search-header>S&#248;k etter:</label>
+        <input name="term"
+               id=global-search-header
+               data-autocomplete-url="/autosuggest/Prefix"
+               data-autocomplete-enabled="true"
+               placeholder=""
+               value=""
+               type="text"
+               class="fhi-input fhi-input--search">
+        <button type="submit" class="fhi-button fhi-button--search">
+            <span class="icon-magnifier--black fhi-icon--medium fhi-icon--xlarge@LG " alt="S&#248;k" title="S&#248;k"></span>
+            <span class="fhi-visually-hidden">Søk</span>
+        </button>
+    </div>
+</form>
+        </div>
+        <button class="fhi-hamburger" id="toggle-menu" aria-hidden="true">
+            <span class="icon-hamburger fhi-icon--xxlarge"></span>
+            <span class="fhi-visually-hidden">Meny</span>
+        </button>
+    </div>
+    <nav class="fhi-header__nav">
+      
+
+<div class="fhi-mega-menu" id="main-nav" role="navigation">
+    <div class="fhi-container fhi-container--not-relative fhi-padding-none">
+        <ul class="fhi-mega-menu__list">
+                <li class="is-top-level" aria-expanded=false aria-haspopup=true>
+                    <button class="fhi-mega-menu__button ">
+                        <span>Smittevern &amp; Vaksine</span>
+                        <span class="fhi-icon icon-plus-nav fhi-icon--medium fhi-hidden--desktop" aria-hidden="true"></span>
+                    </button>
+
+                    <div class="fhi-mega-menu__sub ">
+                        <div class="fhi-container">
+                            <button class="fhi-button fhi-button--grey fhi-button--round fhi-hidden--mobile fhi-align-self-start fhi-m-top-M fhi-menu-close" type="button">
+                                <span>Lukk</span>
+                                <span class="fhi-icon icon-x fhi-icon--small"></span>
+                            </button>
+                            <ul class="fhi-mega-menu__sub-list">
+
+                                            <li class="fhi-mega-menu__list-item"><a href="/sv/antibiotikaresistens/">Antibiotikaresistens</a></li>
+                                            <li class="fhi-mega-menu__list-item"><a href="/sv/asylsokeres-helse/">Asyls&#248;keres helse</a></li>
+                                            <li class="fhi-mega-menu__list-item fhi-mega-menu__list-item--expandable" aria-expanded=false>
+                                                <a href="#">
+                                                    <span>Forebygging av infeksjoner i helsetjenesten</span>
+                                                    <span class="fhi-icon icon-plus-nav fhi-icon--medium" aria-hidden="true"></span>
+                                                </a>
+                                                <div class="fhi-mega-menu__sub-inner">
+                                                    <ul>
+
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/sv/forebygging-i-helsetjenesten/handhygiene/">H&#229;ndhygiene i helsetjenesten</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/sv/forebygging-i-helsetjenesten/smittevern-i-institusjoner/">Smittevern i helsetjenesten</a>
+                                                            </li>
+                                                    </ul>
+                                                </div>
+
+                                            </li>
+                                            <li class="fhi-mega-menu__list-item fhi-mega-menu__list-item--expandable" aria-expanded=false>
+                                                <a href="#">
+                                                    <span>Influensa</span>
+                                                    <span class="fhi-icon icon-plus-nav fhi-icon--medium" aria-hidden="true"></span>
+                                                </a>
+                                                <div class="fhi-mega-menu__sub-inner">
+                                                    <ul>
+
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/sv/influensa/sesonginfluensa/">Sesonginfluensa</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/sv/influensa/influensaovervaking/">Influensaoverv&#229;king</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/sv/influensa/influensavaksine/">Influensavaksine</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/sv/influensa/fugleinfluensa/">Fugleinfluensa</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/sv/influensa/influensapandemier/">Influensapandemier og beredskap</a>
+                                                            </li>
+                                                    </ul>
+                                                </div>
+
+                                            </li>
+                                            <li class="fhi-mega-menu__list-item"><a href="/sv/laboratorie-analyser/">Laboratorieanalyser</a></li>
+                                            <li class="fhi-mega-menu__list-item"><a href="/sv/melding-og-varsling/">Melding og varsling om smittsom sykdom</a></li>
+                                            <li class="fhi-mega-menu__list-item"><a href="/sv/reiserad/">Reiser&#229;d</a></li>
+                                            <li class="fhi-mega-menu__list-item"><a href="/sv/barnehage/">Smittevern i barnehage og skole</a></li>
+                                            <li class="fhi-mega-menu__list-item fhi-mega-menu__list-item--expandable" aria-expanded=false>
+                                                <a href="#">
+                                                    <span>Smittsomme sykdommer og forebygging</span>
+                                                    <span class="fhi-icon icon-plus-nav fhi-icon--medium" aria-hidden="true"></span>
+                                                </a>
+                                                <div class="fhi-mega-menu__sub-inner">
+                                                    <ul>
+
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/sv/smittsomme-sykdommer/ebola/">Ebola</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/sv/smittsomme-sykdommer/hepatitt/">Hepatitt</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/sv/smittsomme-sykdommer/seksualitet-og-helse/">Hiv og seksuelt overf&#248;rbare sykdommer</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/sv/smittsomme-sykdommer/legionella/">Legionella</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/sv/smittsomme-sykdommer/mers/">MERS - Coronavirussykdom</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/sv/smittsomme-sykdommer/smitte-fra-mat-vann-dyr/">Smitte fra mat, vann og dyr</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/sv/smittsomme-sykdommer/hjernehinnebetennelse/">Smittsom hjernehinnebetennelse</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/sv/smittsomme-sykdommer/kontakt-tema/">Smittevernvakt for helsepersonell</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/sv/smittsomme-sykdommer/sykdommer/">Smittsomme sykdommer A-&#197;</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/sv/smittsomme-sykdommer/tuberkulose/">Tuberkulose</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/sv/smittsomme-sykdommer/zika/">Zika</a>
+                                                            </li>
+                                                    </ul>
+                                                </div>
+
+                                            </li>
+                                            <li class="fhi-mega-menu__list-item"><a href="/sv/utbrudd/">Utbrudd - varsling og oppklaring</a></li>
+                                            <li class="fhi-mega-menu__list-item fhi-mega-menu__list-item--expandable" aria-expanded=false>
+                                                <a href="#">
+                                                    <span>Vaksiner og vaksinasjon</span>
+                                                    <span class="fhi-icon icon-plus-nav fhi-icon--medium" aria-hidden="true"></span>
+                                                </a>
+                                                <div class="fhi-mega-menu__sub-inner">
+                                                    <ul>
+
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/sv/vaksine/barnevaksinasjonsprogrammet/">Barnevaksinasjonsprogrammet</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/sv/vaksine/bivirkninger/">Bivirkninger av vaksine</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/sv/vaksine/mine-vaksiner/">Dine vaksiner</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/sv/vaksine/hpv/">HPV-vaksine til unge kvinner</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/sv/influensa/influensavaksine/">Influensavaksine</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/sv/vaksine/innforing-av-nye-vaksiner/">Innf&#248;ring av nye vaksiner</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/sv/vaksine/reisevaksiner/">Reisevaksiner</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/hn/helseregistre-og-registre/sysvak/" target="_top">SYSVAK</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/nettpub/vaksinasjonsveilederen-for-helsepersonell/" target="_top">Vaksinasjonsveilederen</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/sv/vaksine/bestilling/">Vaksinebestilling</a>
+                                                            </li>
+                                                    </ul>
+                                                </div>
+
+                                            </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="is-top-level" aria-expanded=false aria-haspopup=true>
+                    <button class="fhi-mega-menu__button ">
+                        <span>Psykisk &amp; Fysisk helse</span>
+                        <span class="fhi-icon icon-plus-nav fhi-icon--medium fhi-hidden--desktop" aria-hidden="true"></span>
+                    </button>
+
+                    <div class="fhi-mega-menu__sub ">
+                        <div class="fhi-container">
+                            <button class="fhi-button fhi-button--grey fhi-button--round fhi-hidden--mobile fhi-align-self-start fhi-m-top-M fhi-menu-close" type="button">
+                                <span>Lukk</span>
+                                <span class="fhi-icon icon-x fhi-icon--small"></span>
+                            </button>
+                            <ul class="fhi-mega-menu__sub-list">
+
+                                            <li class="fhi-mega-menu__list-item fhi-mega-menu__list-item--expandable" aria-expanded=false>
+                                                <a href="#">
+                                                    <span>Folkesykdommer</span>
+                                                    <span class="fhi-icon icon-plus-nav fhi-icon--medium" aria-hidden="true"></span>
+                                                </a>
+                                                <div class="fhi-mega-menu__sub-inner">
+                                                    <ul>
+
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/fp/folkesykdommer/astma-og-allergi/">Astma og allergi</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/fp/folkesykdommer/beinskjorhet/">Beinskj&#248;rhet og brudd</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/fp/folkesykdommer/demens/">Demens</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/fp/folkesykdommer/diabetes/">Diabetes</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/fp/folkesykdommer/hjertekar/">Hjerte- og karsykdommer</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/fp/folkesykdommer/kreft/">Kreft</a>
+                                                            </li>
+                                                    </ul>
+                                                </div>
+
+                                            </li>
+                                            <li class="fhi-mega-menu__list-item"><a href="/fp/oppvekst-helsefremmende-tiltak/">Oppvekst og helsefremmende tiltak</a></li>
+                                            <li class="fhi-mega-menu__list-item"><a href="/fp/overvekt/">Overvekt og fedme</a></li>
+                                            <li class="fhi-mega-menu__list-item fhi-mega-menu__list-item--expandable" aria-expanded=false>
+                                                <a href="#">
+                                                    <span>Psykisk helse</span>
+                                                    <span class="fhi-icon icon-plus-nav fhi-icon--medium" aria-hidden="true"></span>
+                                                </a>
+                                                <div class="fhi-mega-menu__sub-inner">
+                                                    <ul>
+
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/fp/psykiskhelse/livskvalitet-og-trivsel/">Livskvalitet og trivsel</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/fp/psykiskhelse/psykisk-helse-barn-unge/">Psykisk helse hos barn og unge</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/fp/psykiskhelse/psykiskelidelser/">Psykiske plager og lidelser</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/fp/psykiskhelse/selvmord/">Selvmord og selvmordsforebygging</a>
+                                                            </li>
+                                                    </ul>
+                                                </div>
+
+                                            </li>
+                                            <li class="fhi-mega-menu__list-item"><a href="/fp/smerte/">Smerte</a></li>
+                                            <li class="fhi-mega-menu__list-item"><a href="/fp/gravide-og-fodende-kvinners-helse/">Svangerskap og f&#248;dsel</a></li>
+                                            <li class="fhi-mega-menu__list-item"><a href="/fp/sovn/">S&#248;vn og s&#248;vnvansker</a></li>
+                                            <li class="fhi-mega-menu__list-item"><a href="/fp/tannhelse/">Tannhelse</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="is-top-level" aria-expanded=false aria-haspopup=true>
+                    <button class="fhi-mega-menu__button ">
+                        <span>Milj&#248; &amp; Levevaner</span>
+                        <span class="fhi-icon icon-plus-nav fhi-icon--medium fhi-hidden--desktop" aria-hidden="true"></span>
+                    </button>
+
+                    <div class="fhi-mega-menu__sub ">
+                        <div class="fhi-container">
+                            <button class="fhi-button fhi-button--grey fhi-button--round fhi-hidden--mobile fhi-align-self-start fhi-m-top-M fhi-menu-close" type="button">
+                                <span>Lukk</span>
+                                <span class="fhi-icon icon-x fhi-icon--small"></span>
+                            </button>
+                            <ul class="fhi-mega-menu__sub-list">
+
+                                            <li class="fhi-mega-menu__list-item"><a href="/ml/alkohol/">Alkohol</a></li>
+                                            <li class="fhi-mega-menu__list-item"><a href="/ml/avfall-og-soppel/">Avfall og s&#248;ppel</a></li>
+                                            <li class="fhi-mega-menu__list-item"><a href="/ml/badevann/">Badevann</a></li>
+                                            <li class="fhi-mega-menu__list-item"><a href="/ml/drikkevann/">Drikkevann</a></li>
+                                            <li class="fhi-mega-menu__list-item"><a href="/ml/aktivitet/">Fysisk aktivitet</a></li>
+                                            <li class="fhi-mega-menu__list-item"><a href="/ml/giftinformasjon/">Giftinformasjonen</a></li>
+                                            <li class="fhi-mega-menu__list-item"><a href="/ml/kosmetikk/">Kosmetikkbivirkninger</a></li>
+                                            <li class="fhi-mega-menu__list-item"><a href="/ml/kosthold/">Kosthold og ern&#230;ring</a></li>
+                                            <li class="fhi-mega-menu__list-item fhi-mega-menu__list-item--expandable" aria-expanded=false>
+                                                <a href="#">
+                                                    <span>Milj&#248; og helse</span>
+                                                    <span class="fhi-icon icon-plus-nav fhi-icon--medium" aria-hidden="true"></span>
+                                                </a>
+                                                <div class="fhi-mega-menu__sub-inner">
+                                                    <ul>
+
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/ml/miljo/inneklima/">Inneklima</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/ml/miljo/luftforurensninger/">Luftkvalitet og luftforurensning</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/ml/miljo/miljogifter/">Milj&#248;gifter og kjemikalier</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/ml/miljo/straling/">Str&#229;ling</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/ml/miljo/stoy/">St&#248;y</a>
+                                                            </li>
+                                                    </ul>
+                                                </div>
+
+                                            </li>
+                                            <li class="fhi-mega-menu__list-item"><a href="/ml/rusmidler-og-avhengighet/">Rusmidler, doping og avhengighet</a></li>
+                                            <li class="fhi-mega-menu__list-item"><a href="/ml/royking/">R&#248;yk og snus</a></li>
+                                            <li class="fhi-mega-menu__list-item fhi-mega-menu__list-item--expandable" aria-expanded=false>
+                                                <a href="#">
+                                                    <span>Skadedyr - insekter, gnagere og andre</span>
+                                                    <span class="fhi-icon icon-plus-nav fhi-icon--medium" aria-hidden="true"></span>
+                                                </a>
+                                                <div class="fhi-mega-menu__sub-inner">
+                                                    <ul>
+
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/ml/skadedyr/lus/">Lus</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/ml/skadedyr/flatt/">Fl&#229;tt og fl&#229;ttb&#229;rne sykdommer</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/ml/skadedyr/skadedyr/">Skadedyr</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/ml/skadedyr/kurs/">Kurs for skadedyrbekjempere og tilsynsmyndighet</a>
+                                                            </li>
+                                                    </ul>
+                                                </div>
+
+                                            </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="is-top-level" aria-expanded=false aria-haspopup=true>
+                    <button class="fhi-mega-menu__button ">
+                        <span>Helse i Norge</span>
+                        <span class="fhi-icon icon-plus-nav fhi-icon--medium fhi-hidden--desktop" aria-hidden="true"></span>
+                    </button>
+
+                    <div class="fhi-mega-menu__sub ">
+                        <div class="fhi-container">
+                            <button class="fhi-button fhi-button--grey fhi-button--round fhi-hidden--mobile fhi-align-self-start fhi-m-top-M fhi-menu-close" type="button">
+                                <span>Lukk</span>
+                                <span class="fhi-icon icon-x fhi-icon--small"></span>
+                            </button>
+                            <ul class="fhi-mega-menu__sub-list">
+
+                                            <li class="fhi-mega-menu__list-item"><a href="/hn/dod/">D&#248;ds&#229;rsaker og levealder</a></li>
+                                            <li class="fhi-mega-menu__list-item"><a href="/hn/eldre/">Eldres helse</a></li>
+                                            <li class="fhi-mega-menu__list-item"><a href="/hn/helse/">Folkehelseprofiler for kommunene</a></li>
+                                            <li class="fhi-mega-menu__list-item"><a href="/nettpub/hin/" target="_top">Folkehelserapporten</a></li>
+                                            <li class="fhi-mega-menu__list-item fhi-mega-menu__list-item--expandable" aria-expanded=false>
+                                                <a href="#">
+                                                    <span>Helseregistre og andre registre</span>
+                                                    <span class="fhi-icon icon-plus-nav fhi-icon--medium" aria-hidden="true"></span>
+                                                </a>
+                                                <div class="fhi-mega-menu__sub-inner">
+                                                    <ul>
+
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/hn/helseregistre-og-registre/abortregisteret/">Abortregisteret</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/hn/helseregistre-og-registre/biobankregisteret/">Biobankregisteret</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/hn/helseregistre-og-registre/dodsarsaksregisteret/">D&#248;ds&#229;rsaksregisteret</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/hn/helseregistre-og-registre/hjertekar/">Hjerte- og karregisteret</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/hn/helseregistre-og-registre/mfr/">Medisinsk f&#248;dselsregister</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/hn/helseregistre-og-registre/msis/">Meldingssystem for smittsomme sykdommer (MSIS)</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/hn/helseregistre-og-registre/sysvak/">Nasjonalt vaksinasjonsregister SYSVAK</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/hn/helseregistre-og-registre/nois/">Norsk overv&#229;kingssystem for antibiotikabruk og helsetjenesteassosierte infeksjoner (NOIS)</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/hn/helseregistre-og-registre/norm/">Norsk overv&#229;kingssystem for antibiotikaresistens hos mikrober (NORM)</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/hn/helseregistre-og-registre/ravn/">Register for virusresistens (RAVN)</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/hn/helseregistre-og-registre/reseptregisteret/">Reseptregisteret</a>
+                                                            </li>
+                                                    </ul>
+                                                </div>
+
+                                            </li>
+                                            <li class="fhi-mega-menu__list-item"><a href="/hn/legemiddelbruk/">Legemiddelbruk</a></li>
+                                            <li class="fhi-mega-menu__list-item"><a href="/hn/migrasjonshelse/">Migrasjonshelse</a></li>
+                                            <li class="fhi-mega-menu__list-item"><a href="/hn/skader/">Skader og ulykker</a></li>
+                                            <li class="fhi-mega-menu__list-item"><a href="/hn/ulikhet/">Sosial ulikhet i helse</a></li>
+                                            <li class="fhi-mega-menu__list-item fhi-mega-menu__list-item--expandable" aria-expanded=false>
+                                                <a href="#">
+                                                    <span>Statistikk</span>
+                                                    <span class="fhi-icon icon-plus-nav fhi-icon--medium" aria-hidden="true"></span>
+                                                </a>
+                                                <div class="fhi-mega-menu__sub-inner">
+                                                    <ul>
+
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/hn/statistikk/statistikkalenderen/">Statistikkalender og statistikkbanker</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/hn/statistikk/sykdomspulsen/">Sykdomspulsen</a>
+                                                            </li>
+                                                    </ul>
+                                                </div>
+
+                                            </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="is-top-level" aria-expanded=false aria-haspopup=true>
+                    <button class="fhi-mega-menu__button ">
+                        <span>Kvalitet &amp; Kunnskap</span>
+                        <span class="fhi-icon icon-plus-nav fhi-icon--medium fhi-hidden--desktop" aria-hidden="true"></span>
+                    </button>
+
+                    <div class="fhi-mega-menu__sub ">
+                        <div class="fhi-container">
+                            <button class="fhi-button fhi-button--grey fhi-button--round fhi-hidden--mobile fhi-align-self-start fhi-m-top-M fhi-menu-close" type="button">
+                                <span>Lukk</span>
+                                <span class="fhi-icon icon-x fhi-icon--small"></span>
+                            </button>
+                            <ul class="fhi-mega-menu__sub-list">
+
+                                            <li class="fhi-mega-menu__list-item"><a href="/kk/brukererfaringer/">Brukererfaringer i helse- og omsorgstjenesten</a></li>
+                                            <li class="fhi-mega-menu__list-item"><a href="/kk/forbedringsarbeid/">Forbedringsarbeid i helsetjenesten</a></li>
+                                            <li class="fhi-mega-menu__list-item"><a href="/kk/helsebiblioteket/">Helsebiblioteket.no</a></li>
+                                            <li class="fhi-mega-menu__list-item"><a href="/kk/helsesystemanalyser/">Helsesystemanalyser</a></li>
+                                            <li class="fhi-mega-menu__list-item" style="display: none;">
+                                                <a href="#" class="active">
+                                                    <span>Internasjonalt arbeid</span>
+                                                </a>
+                                            </li>
+                                            <li class="fhi-mega-menu__list-item fhi-mega-menu__list-item--expandable" aria-expanded=false>
+                                                <a href="#">
+                                                    <span>Internasjonalt arbeid</span>
+                                                    <span class="fhi-icon icon-plus-nav fhi-icon--medium" aria-hidden="true"></span>
+                                                </a>
+                                                <div class="fhi-mega-menu__sub-inner">
+                                                    <ul>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/kk/internasjonalt/eregistries/">Internasjonale helseregisterprosjekter (eRegistries)</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/kk/internasjonalt/global-helse/">WHO, EU, bilateralt samarbeid</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/kk/internasjonalt/global-helseberedskap/">Global helseberedskap</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/kk/internasjonalt/eos/">E&#216;S-programmene om folkehelse</a>
+                                                            </li>
+                                                    </ul>
+                                                </div>
+
+                                            </li>
+                                            <li class="fhi-mega-menu__list-item"><a href="/kk/kvalitetsmalinger/">Kvalitetsm&#229;linger av helsetjenester</a></li>
+                                            <li class="fhi-mega-menu__list-item"><a href="/kk/metodevurdering/">Metodevurdering</a></li>
+                                            <li class="fhi-mega-menu__list-item"><a href="/kk/oppsummert-forskning-for-helsetjenesten/">Oppsummert forskning</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="is-top-level" aria-expanded=false aria-haspopup=true>
+                    <button class="fhi-mega-menu__button ">
+                        <span>Forskning &amp; Datatilgang</span>
+                        <span class="fhi-icon icon-plus-nav fhi-icon--medium fhi-hidden--desktop" aria-hidden="true"></span>
+                    </button>
+
+                    <div class="fhi-mega-menu__sub ">
+                        <div class="fhi-container">
+                            <button class="fhi-button fhi-button--grey fhi-button--round fhi-hidden--mobile fhi-align-self-start fhi-m-top-M fhi-menu-close" type="button">
+                                <span>Lukk</span>
+                                <span class="fhi-icon icon-x fhi-icon--small"></span>
+                            </button>
+                            <ul class="fhi-mega-menu__sub-list">
+
+                                            <li class="fhi-mega-menu__list-item"><a href="/div/bibliotek/">Biblioteket</a></li>
+                                            <li class="fhi-mega-menu__list-item"><a href="/div/biobank/">Biobanktjenester</a></li>
+                                            <li class="fhi-mega-menu__list-item"><a href="/div/datatilgang/">Datatilgang</a></li>
+                                            <li class="fhi-mega-menu__list-item fhi-mega-menu__list-item--expandable" aria-expanded=false>
+                                                <a href="#">
+                                                    <span>Forskningssentre</span>
+                                                    <span class="fhi-icon icon-plus-nav fhi-icon--medium" aria-hidden="true"></span>
+                                                </a>
+                                                <div class="fhi-mega-menu__sub-inner">
+                                                    <ul>
+
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/div/forskningssentre/senter-sykdomsbyrde/">Senter for sykdomsbyrde</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/div/forskningssentre/senter-for-evaluering-av-folkehelsetiltak/">Senter for evaluering av folkehelsetiltak</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/div/forskningssentre/amr/">Senter for antimikrobiell resistens &#160;(AMR)</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/div/forskningssentre/senter-informerte/">Senter for informerte helsebeslutninger</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/div/forskningssentre/senter-for-fruktbarhet-og-helse/">Senter for fruktbarhet og helse</a>
+                                                            </li>
+                                                    </ul>
+                                                </div>
+
+                                            </li>
+                                            <li class="fhi-mega-menu__list-item fhi-mega-menu__list-item--expandable" aria-expanded=false>
+                                                <a href="#">
+                                                    <span>Helseunders&#248;kelser</span>
+                                                    <span class="fhi-icon icon-plus-nav fhi-icon--medium" aria-hidden="true"></span>
+                                                </a>
+                                                <div class="fhi-mega-menu__sub-inner">
+                                                    <ul>
+
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/studier/moba/" target="_top">Den norske mor, far og barn-unders&#248;kelsen (MoBa)</a>
+                                                            </li>
+                                                            <li class="fhi-mega-menu__list-item">
+                                                                <a href="/div/helseundersokelser/tvilling/">Nasjonalt tvillingregister</a>
+                                                            </li>
+                                                    </ul>
+                                                </div>
+
+                                            </li>
+                                            <li class="fhi-mega-menu__list-item"><a href="/kk/oppsummert-forskning-for-helsetjenesten/" target="_top">Oppsummert forskning</a></li>
+                                            <li class="fhi-mega-menu__list-item"><a href="/div/personvern/">Personvern og helsedata</a></li>
+                                            <li class="fhi-mega-menu__list-item"><a href="/prosjekter/" target="_top">Prosjekter A-&#197;</a></li>
+                                            <li class="fhi-mega-menu__list-item"><a href="/studier/" target="_top">Studier A-&#197;</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="is-top-level" aria-expanded=false aria-haspopup=true>
+                    <button class="fhi-mega-menu__button ">
+                        <span>Om FHI</span>
+                        <span class="fhi-icon icon-plus-nav fhi-icon--medium fhi-hidden--desktop" aria-hidden="true"></span>
+                    </button>
+
+                    <div class="fhi-mega-menu__sub ">
+                        <div class="fhi-container">
+                            <button class="fhi-button fhi-button--grey fhi-button--round fhi-hidden--mobile fhi-align-self-start fhi-m-top-M fhi-menu-close" type="button">
+                                <span>Lukk</span>
+                                <span class="fhi-icon icon-x fhi-icon--small"></span>
+                            </button>
+                            <ul class="fhi-mega-menu__sub-list">
+
+                                            <li class="fhi-mega-menu__list-item"><a href="/om/fhi/">Om Folkehelseinstituttet</a></li>
+                                            <li class="fhi-mega-menu__list-item"><a href="/om/organisasjon/">Omr&#229;der og avdelingar</a></li>
+                                            <li class="fhi-mega-menu__list-item"><a href="/om/kurs-og-konferanser---oversikt/">Kurs og arrangementer</a></li>
+                                            <li class="fhi-mega-menu__list-item"><a href="/om/rapporter/">Rapporter og informasjonsmateriell</a></li>
+                                            <li class="fhi-mega-menu__list-item"><a href="/om/nettpublikasjoner/">Veiledere og h&#229;ndb&#248;ker</a></li>
+                                            <li class="fhi-mega-menu__list-item"><a href="/om/om-nettstedet/">Om nettstedet</a></li>
+                                            <li class="fhi-mega-menu__list-item"><a href="/om/for-pressen/">For pressen</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+        </ul>
+    </div>
+</div>
+
+
+
+        <button name="mobile menu" aria-label="Mobile menu" class="fhi-visually-hidden" id="toggle-menu-sr" aria-expanded="false" aria-haspopup="true" aria-controls="main-nav">
+            <span class="icon-hamburger"></span>
+        </button>
+    </nav>
+    <nav class="fhi-header__sub-nav">
+<div class="fhi-container" id=top-links role=navigation>
+    <ul class="fhi-header__sub-nav-list">
+                <li>
+                    <a href="/sys/innhold-a-til-a/" tabindex="3">Innhold A til &#197;</a>
+                </li>
+                <li>
+                    <a href="/om/fhi/apningstider-ansattoversikt-adresser-til-folkehelseinstituttet/" tabindex="4">Kontakt oss</a>
+                </li>
+
+        <li>
+
+                    <img alt="Norsk nettsted" title="Norsk nettsted" src="/Static/images/nor.svg" style="width: 18px; display: inline-block; top: -2px; position: relative; padding-right: 3px;" />
+                    <span lang="en"><a href="/en/" tabindex="5">English website</a></span>
+        </li>
+    </ul>
+</div>
+</nav>
+</header>
+
+
+
+
+        <div class="fhi-overlay"></div>
+        <main id="main" tabindex="-1">
+            
+
+<div class="fhi-container fhi-hidden--mobile is-discreet-entry">
+    <div class="fhi-row">
+        <div class="fhi-col fhi-p-bottom-none">
+            <div role="navigation" aria-label="Du er her:" class="fhi-breadcrumb" id="breadcrumbs-menu">
+                <span class="fhi-icon icon-arrow-long-right-orange fhi-icon--large fhi-m-right-XS"></span>
+                <a href="/">FHI</a>
+                <span class="fhi-icon icon-arrow-small-right-orange fhi-icon--small fhi-m-right-XS fhi-m-left-XS"></span>
+                        <span>Kvalitet &amp; Kunnskap</span>
+                        <span class="fhi-icon icon-arrow-small-right-orange fhi-icon--small fhi-m-right-XS fhi-m-left-XS"></span>
+                        <span>Internasjonalt arbeid</span>
+                        <span class="fhi-icon icon-arrow-small-right-orange fhi-icon--small fhi-m-right-XS fhi-m-left-XS"></span>
+                        <a href="/kk/internasjonalt/eregistries/">Internasjonale helseregisterprosjekter (eRegistries)</a>
+                        <span class="fhi-icon icon-arrow-small-right-orange fhi-icon--small fhi-m-right-XS fhi-m-left-XS"></span>
+                Hva er eRegistre?            </div>
+        </div>
+    </div>
+</div>
+<script type="application/ld+json">
+    {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement":
+    [
+    {"@type": "ListItem",
+        "position": 1,
+        "item": {
+        "@id": "",
+        "name": "Kvalitet &amp; Kunnskap" }
+    }
+    
+        ,
+    {"@type": "ListItem",
+        "position": 2,
+        "item": {
+        "@id": "/kk/internasjonalt/",
+        "name": "Internasjonalt arbeid" }
+    }
+    
+        ,
+    {"@type": "ListItem",
+        "position": 3,
+        "item": {
+        "@id": "/kk/internasjonalt/eregistries/",
+        "name": "Internasjonale helseregisterprosjekter (eRegistries)" }
+    }
+    
+        ,
+        {"@type": "ListItem",
+        "position": 4,
+        "item": {
+        "@id": "/kk/internasjonalt/eregistries/about-eregistries2/what-are-eregistries/",
+        "name": "Hva er eRegistre?" }
+    }
+    
+
+    ]
+    }
+</script>
+
+
+            
+
+<article>
+    <div class="fhi-container fhi-m-top-M fhi-m-top-none@LG  ">
+      <div class="fhi-row article-header">
+  <div class="fhi-col fhi-col-8@LG fhi-m-bottom-M">
+      <div class="fhi-m-bottom-M-plus fhi-align-items-start fhi-align-direction-column">
+        <p class="fhi-tag">Artikkel</p>
+      </div>
+    <h1 class="fhi-heading1 fhi-m-bottom-M-plus">
+      Hva er eRegistre?
+    </h1>
+
+
+    
+<p class="fhi-date">
+            <span>
+                Publisert
+            </span>
+                 <time itemprop="datePublished" content="2016-06-23" datetime="2016-06-23">
+                     23.06.2016
+                 </time>
+</p>
+
+  </div>
+
+  <div class="fhi-col fhi-col-4@LG">
+
+
+        <figure class="figure fhi-image-container fhi-align-items-start fhi-image-custom-height fhi-print--hidden">
+            <img src="/globalassets/bilder/usortert-gml-colourbox/eregistries-computer-wide.jpg?preset=mainbodywidth" alt="eregistries computer wide.jpg" />
+        </figure>
+  </div>
+</div>
+<hr />
+      
+
+<div class="fhi-row fhi-align-column-centered-x">
+  <div class="fhi-col-9@LG">
+          <p class="fhi-ingress fhi-ingress--big fhi-p-top-S fhi-p-bottom-S fhi-m-bottom-none">
+        Et eRegister er et organisert system for &#229; innhente, administrere, analysere, og viktigst, bruke informasjon om helse til m&#248;dre, nyf&#248;dte og barn for &#229; forbedre deres helse.
+      </p>
+  </div>
+  <div class="fhi-col fhi-col-offset-1@LG fhi-col-2@LG">
+        <div class="in-english stats-list" lang="en">
+            <p>
+                    <a href="/link/aa98d740ee524f538d34116082423e9d.aspx?epslanguage=en">
+                        <span class="fhi-icon icon-arrow-long-right-orange fhi-icon--large fhi-m-right-XS"></span>
+                        Read article in English
+                    </a>
+            </p>
+        </div>
+
+
+
+      
+
+<aside class="article-share">
+    <ul class="simple-list">
+
+            <li class="fhi-m-bottom-S">
+                <a href="#" onclick="window.print(); return false;" class=icon-button>
+                    <span class="icon-print"></span>
+                    <span class=text>Skriv ut</span>
+                </a>
+            </li>
+            <li class="fhi-m-bottom-S">
+                <a href="mailto:?subject=Hva%20er%20eRegistre%3F&amp;body=http%3a%2f%2fwww.fhi.no%2fkk%2finternasjonalt%2feregistries%2fabout-eregistries2%2fwhat-are-eregistries%2f" class=icon-button>
+                    <span class="icon-mail"></span>
+                    <span class=text>Del p&#229; e-post</span>
+                </a>
+            </li>
+            </ul>
+</aside>
+  </div>
+</div>
+<hr class="fhi-m-bottom-S-plus" />
+
+
+      <div class="fhi-row fhi-align-direction-column-reverse--mobile">
+        <div class="fhi-col fhi-col-3@LG sticky fhi-print--hidden">
+
+            
+            
+
+    <div class="fhi-m-bottom-S-plus">
+        <h2 class="fhi-heading6 fhi-m-bottom-M">Har du funnet en feil?</h2>
+        <ul class="fhi-list-with-arrow">
+            <li>
+                <a href="/sys/meld-fra-om-feil/?pagename=Hva er eRegistre?" class="fhi-link-hover">Send en melding </a>
+            </li>
+        </ul>
+        <div class="fhi-m-bottom-S-plus">
+            <!-- <span class="fhi-icon icon-arrow-long-right-orange fhi-icon--large fhi-m-right-XS"></span> -->
+        </div>
+    </div>
+        </div>
+
+        <div class="fhi-col fhi-col-6@LG fhi-m-left-M@LG">
+            
+
+<div class="textual-block"  >
+<p>eRegistre er strategisk designet for å forenkle databruk – gjennom nøyaktig og lett tilgjengelig klinisk beslutningsstøtte til helsepersonell, tilpassede meldinger til gravide, samt automatisert analyse og rapportering til helsemyndigheter. Disse innebygde funksjonalitetene sikrer effektiv bruk av informasjon til alle som trenger det.</p>
+<p>&nbsp;</p>
+<p>Det tverrfaglige teamet bak eRegistre er en del av Folkehelseinstituttet, og inkluderer eksperter innen helseforskning på mor-barn-helse, implementering, teknologi, medisin, og folkehelse.&nbsp;</p></div>
+
+
+
+
+            <div class="fhi-container">
+                
+            </div>
+
+            <aside>
+                <h2 class="fhi-visually-hidden">Metadata</h2>
+
+
+                <div id="feedback-container" style="display: block;">
+<form action="/kk/internasjonalt/eregistries/about-eregistries2/what-are-eregistries/SendFeedback" data-parsley-validate="" id="feedbackForm" method="post"><input name="__RequestVerificationToken" type="hidden" value="6VekZTtV42Elo0ydsPNzbuKN_12NC3Gsi4Dk24qSDNyI8ADNCdnNfx3IeT7f5JQKSpdyHGYdVqWkqglx6CQ5SU-z99q7pc3lnLYi7wiAzX01" /><input id="ContactForm_PositiveFeedback" name="ContactForm.PositiveFeedback" type="hidden" value="" />                        <h3>Fant du det du lette etter?</h3>
+                        <div class="answer-group fhi-m-bottom-L">
+                            <button class="callBtn"  onclick="positive.call(this); return false;">
+                                <span>Ja</span>
+                            </button>
+                            <button class="callBtn" onclick="negative.call(this);return false;">
+                                <span>Nei</span>
+                            </button>
+                        </div>
+                        <div id="feedback_text" style="display: none;" class="fhi-m-bottom-L">
+                            <div class="control-group">
+                                <p>NB! Ikke skriv inn personopplysninger.<br/>Vi svarer ikke p&#229; disse tilbakemeldingene, men bruker dem til &#229; forbedre v&#229;re nettsider. Har du sp&#248;rsm&#229;l til oss bruk nettredaksjon@fhi.no</p>
+                                <textarea cols="20" id="contactFormMessage" name="ContactForm.Message" placeholder="NB! Ikke skriv inn personopplysninger" rows="2">
+</textarea>
+                            </div>
+                            <div class="fhi-hidden">
+                                <label for="ContactForm_Answer">Ikke fyll ut dette feltet</label>
+                                <input id="answer" name="ContactForm.Answer" type="text" value="" />
+                            </div>
+                        </div>
+                      <input id="submitFormButton" name="submitInput" data-callback="onFeedbackSubmit" onclick="sendingfeedback.call(this);" type="submit" class="g-recaptcha callBtnSubmit" data-sitekey="6Lf9enQUAAAAAAhegsH0NOvFYODQgehVOH3VubOB" value="Send tilbakemelding" style="display: none;">
+</form>                </div>
+
+                <script type="text/javascript">
+                    function positive() {
+                        document.getElementById("ContactForm_PositiveFeedback").setAttribute('value', 'true');
+                        document.getElementById("feedbackForm").submit();
+                        if (window.location.href.indexOf(".no/en/") > -1) {
+                            alert("Thanks for your feedback! \nBest regards, Norwegian Institute of Public Health");
+                        } else {
+                            alert("Takk for tilbakemelding.\nHilsen Folkehelseinstituttet");
+                        }
+                    };
+                    function negative() {
+                        document.getElementById('feedback_text').style.display = "block";
+                        document.getElementById('submitFormButton').style.display = "block";
+                    };
+                    function sendingfeedback() {
+                        document.getElementById('feedback-container').style.display = "none";
+                    };
+                    function onFeedbackSubmit(token) {
+                        document.getElementById("feedbackForm").submit();
+                    };
+                </script>
+                <div class="fhi-m-bottom-L">
+                        <div class="about">
+        <hr class="fhi-m-top-L fhi-m-bottom-L">
+        <h2 class="fhi-heading6 fhi-m-bottom-M">Handler om</h2>
+
+        <ul class="keywords-list">
+                <li>
+                    <a href="/kk/internasjonalt/global-helse/">WHO, EU, bilateralt samarbeid</a>
+                </li>
+                <li>
+                    <a href="/kk/internasjonalt/eregistries/">Internasjonale helseregisterprosjekter (eRegistries)</a>
+                </li>
+        </ul>
+    </div>
+
+                </div>
+            </aside>
+        </div>
+
+      </div>
+    </div>
+</article>
+
+    <div class="more-about-container">
+        <div class="fhi-container">
+            <h2>Flere artikler</h2>
+            <ul class="fhi-row">
+                    <li class="fhi-col-3@LG content-block">
+                        
+
+
+
+    <a href="/kk/internasjonalt/global-helse/samarbeid-innen-eu-og-who2/norge-og-fhi-er-vertskap-for-cepi/" class="fhi-link--block">
+
+            <div class="fhi-block no-color">
+                    <div class="fhi-block__image">
+                            <figure class="figure">
+                                
+
+        <figure class="figure ">
+            <img src="/globalassets/bilder/instituttet/fhi_mt6_2019-1.jpg?preset=onethirdwidth" alt="FHI_MT6_2019.jpg" />
+        </figure>
+
+                            </figure>
+                    </div>
+                <div class="fhi-block__text fhi-p-bottom-M fhi-p-top-S fhi-p-left-XS fhi-p-right-XS fhi-p-top-M@LG fhi-p-left-M-plus@LG fhi-p-right-M-plus@LG">
+                    <div class="fhi-align-row-centered-y fhi-m-bottom-M-plus">
+                                                
+<p class="fhi-date">
+                <span class="">
+                    Oppdatert
+                </span>
+                <time itemprop="dateModified" content="2019-03-19" datetime="2019-03-19">
+                    19.03.2019
+                </time>
+</p>
+                    </div>
+                    <h3 class="fhi-heading5 fhi-m-left-XS fhi-m-bottom-S-plus fhi-m-bottom-M@LG">
+                        Norge og FHI er vertskap for CEPI
+                    </h3>
+                    <p class="fhi-p-left-XS fhi-p-right-XS fhi-ingress-text">
+                        Folkehelseinstituttet huser den globale koalisjonen for forebygging av epidemier og pandemier, CEPI. Organisasjonen er uavhengig FHI, og har ogs&#229; avdelinger i London og Dehli.
+                    </p>
+                </div>
+            </div>
+    </a>
+
+                    </li>
+                    <li class="fhi-col-3@LG content-block">
+                        
+
+
+
+    <a href="/kk/internasjonalt/global-helse/land/malawi-kunnskap-skal-bremse-auken-i-trafikkskadar/" class="fhi-link--block">
+
+            <div class="fhi-block no-color">
+                    <div class="fhi-block__image">
+                            <figure class="figure">
+                                
+
+        <figure class="figure ">
+            <img src="/globalassets/bilder/global-helse/trafikkulykke_700.jpg?preset=onethirdwidth" alt="bilvrak i vegkanten" title="Illustrasjonsfoto. Colourbox" />
+        </figure>
+
+                            </figure>
+                    </div>
+                <div class="fhi-block__text fhi-p-bottom-M fhi-p-top-S fhi-p-left-XS fhi-p-right-XS fhi-p-top-M@LG fhi-p-left-M-plus@LG fhi-p-right-M-plus@LG">
+                    <div class="fhi-align-row-centered-y fhi-m-bottom-M-plus">
+                                                
+<p class="fhi-date">
+                <span class="">
+                    Publisert
+                </span>
+                    <time itemprop="datePublished" content="2017-10-06" datetime="2017-10-06">
+                        06.10.2017
+                    </time>
+</p>
+                    </div>
+                    <h3 class="fhi-heading5 fhi-m-left-XS fhi-m-bottom-S-plus fhi-m-bottom-M@LG">
+                        Malawi: Kunnskap skal bremse auken i trafikkskadar
+                    </h3>
+                    <p class="fhi-p-left-XS fhi-p-right-XS fhi-ingress-text">
+                        Mens talet p&#229; trafikkskadde og trafikkdrepne g&#229;r ned i rike land, aukar talet mykje i fattige land. Malawi skal f&#229; norsk hjelp til &#229; betre kunnskapen om trafikkskadar og tilh&#248;va rundt ulykkene.
+                    </p>
+                </div>
+            </div>
+    </a>
+
+                    </li>
+                    <li class="fhi-col-3@LG content-block">
+                        
+
+
+
+    <a href="/kk/internasjonalt/global-helse/samarbeid-innen-eu-og-who2/eu-samarbeid/" class="fhi-link--block">
+
+            <div class="fhi-block no-color">
+                    <div class="fhi-block__image">
+                            <figure class="figure">
+                                
+
+        <figure class="figure ">
+            <img src="/globalassets/bilder/usortert-gml-colourbox/efsa-logo.jpg?preset=onethirdwidth" alt="EFSA logo. used with permission of EFSA" title="EFSA logo. used with permission of EFSA" />
+        </figure>
+
+                            </figure>
+                    </div>
+                <div class="fhi-block__text fhi-p-bottom-M fhi-p-top-S fhi-p-left-XS fhi-p-right-XS fhi-p-top-M@LG fhi-p-left-M-plus@LG fhi-p-right-M-plus@LG">
+                    <div class="fhi-align-row-centered-y fhi-m-bottom-M-plus">
+                                                
+<p class="fhi-date">
+                <span class="">
+                    Oppdatert
+                </span>
+                <time itemprop="dateModified" content="2017-09-26" datetime="2017-09-26">
+                    26.09.2017
+                </time>
+</p>
+                    </div>
+                    <h3 class="fhi-heading5 fhi-m-left-XS fhi-m-bottom-S-plus fhi-m-bottom-M@LG">
+                        Samarbeid med EU-byr&#229;er
+                    </h3>
+                    <p class="fhi-p-left-XS fhi-p-right-XS fhi-ingress-text">
+                        Siden starten av E&#216;S-avtalen har Norge deltatt i EUs programmer og byr&#229;er.
+                    </p>
+                </div>
+            </div>
+    </a>
+
+                    </li>
+                    <li class="fhi-col-3@LG content-block">
+                        
+
+
+
+    <a href="/kk/internasjonalt/global-helseberedskap/global-helseberedskap2/global-helse-ved-fhi/" class="fhi-link--block">
+
+            <div class="fhi-block no-color">
+                    <div class="fhi-block__image">
+                            <figure class="figure">
+                                
+
+        <figure class="figure ">
+            <img src="/globalassets/bilder/global-helse/colourbox-global-health.jpg?preset=onethirdwidth" alt="colourbox global health.jpg" />
+        </figure>
+
+                            </figure>
+                    </div>
+                <div class="fhi-block__text fhi-p-bottom-M fhi-p-top-S fhi-p-left-XS fhi-p-right-XS fhi-p-top-M@LG fhi-p-left-M-plus@LG fhi-p-right-M-plus@LG">
+                    <div class="fhi-align-row-centered-y fhi-m-bottom-M-plus">
+                                                
+<p class="fhi-date">
+                <span class="">
+                    Publisert
+                </span>
+                    <time itemprop="datePublished" content="2016-06-22" datetime="2016-06-22">
+                        22.06.2016
+                    </time>
+</p>
+                    </div>
+                    <h3 class="fhi-heading5 fhi-m-left-XS fhi-m-bottom-S-plus fhi-m-bottom-M@LG">
+                        Global helse ved FHI
+                    </h3>
+                    <p class="fhi-p-left-XS fhi-p-right-XS fhi-ingress-text">
+                        Folkehelseinstituttet er engasjert i global helse, og har etablert forskningssamarbeid og prosjekter med en rekke ulike internasjonale partnere.
+                    </p>
+                </div>
+            </div>
+    </a>
+
+                    </li>
+            </ul>
+        </div>
+    </div>
+
+
+        </main>
+
+
+
+<footer class="main-footer">
+    <div class="fhi-container">
+        <div class="fhi-row">
+            <div class="fhi-col is-primary">
+
+                <h2>Adresse/kontakt</h2>
+
+                <p><strong>Folkehelseinstituttet<br /></strong>Postboks 222 Skøyen<br />0213 Oslo</p>
+<p>Postboks 973 Sentrum<br />5808 Bergen</p>
+<p>Sentralbord: <a href="#">21 07 70 00</a>&nbsp;<br />Folkehelseinstituttet@fhi.no&nbsp;<br /> Org nr: 983 744 516<br /><br /><a title="Beredskapstelefoner" href="/om/fhi/obs-beredskapstelefoner-ved-folkehe/">Beredskapstelefoner</a></p>
+            </div>
+
+            <div class="fhi-col is-secondary">
+                    <h2>Aktuelt</h2>
+                    <ul class="simple-list">
+                            <li>
+                                <a href="/om/kurs-og-konferanser---oversikt/">Kurs og arrangementer</a>
+                            </li>
+                            <li>
+                                <a href="/hn/statistikk/statistikkalenderen/">Statistikkalender og statistikkbanker</a>
+                            </li>
+                            <li>
+                                <a href="/om/fhi/sok-jobb-hos-folkehelseinstituttet/">S&#248;k jobb hos Folkehelseinstituttet</a>
+                            </li>
+                            <li>
+                                <a href="/om/organisasjon/">Omr&#229;der og avdelingar</a>
+                            </li>
+                            <li>
+                                <a href="/om/for-pressen/">For pressen</a>
+                            </li>
+                    </ul>
+            </div>
+
+            <div class="fhi-col is-secondary">
+                    <h2>Alle v&#229;re</h2>
+                    <ul class="simple-list">
+                            <li>
+                                <a href="/oversikter/studier/">Studier</a>
+                            </li>
+                            <li>
+                                <a href="/oversikter/prosjekter/">Prosjekter</a>
+                            </li>
+                            <li>
+                                <a href="/om/nettpublikasjoner/">Veiledere og h&#229;ndb&#248;ker</a>
+                            </li>
+                            <li>
+                                <a href="/hn/statistikk/">Statistikk</a>
+                            </li>
+                            <li>
+                                <a href="/oversikter/helseregistre/">Helseregistre og andre registre</a>
+                            </li>
+                            <li>
+                                <a href="/oversikter/helseundersokelser/">Helseunders&#248;kelser</a>
+                            </li>
+                            <li>
+                                <a href="/om/rapporter/">Rapporter og informasjonsmateriell</a>
+                            </li>
+                    </ul>
+            </div>
+
+            <div class="fhi-col is-tertiary">
+                    <h2>Hold deg oppdatert</h2>
+                <ul class = "simple-list">
+                        <li>
+                            <a href = "https://www.facebook.com/folkehelseinstituttet.no/" target = "_blank" rel="noopener"><span class = "icon-facebook-white" alt="Facebook" title="Facebook"></span> <span>Folkehelseinstituttet</span></a>
+                        </li>
+                                            <li>
+                            <a href = "https://www.facebook.com/helsekunnskap/" target = "_blank" rel="noopener"><span class = "icon-facebook-white" alt="Facebook" title="Facebook"></span> <span>Kunnskap for helsetjenesten</span></a>
+                        </li>
+                                            <li>
+                            <a href = "https://www.facebook.com/minoritetshelse/" target = "_blank" rel="noopener"><span class = "icon-facebook-white" alt="Facebook" title="Facebook"></span> <span>Migrasjonshelse</span></a>
+                        </li>
+                                            <li>
+                            <a href = "https://twitter.com/Folkehelseinst" target = "_blank" rel="noopener"><span class = "icon-twitter-white" alt="Twitter" title="Twitter"></span> <span>Folkehelseinstituttet</span></a>
+                        </li>
+                                            <li>
+                            <a href = "https://www.instagram.com/folkehelseinstituttet/" target = "_blank" rel="noopener"><span class = "icon-instagram" alt="Instagram" title="Instagram"></span> <span>Folkehelseinstituttet</span></a>
+                        </li>
+                                            <li>
+                            <a href = "https://www.instagram.com/folkehelse_ung/" target = "_blank" rel="noopener"><span class = "icon-instagram" alt="Instagram" title="Instagram"></span> <span>Folkehelse Ung</span></a>
+                        </li>
+                                            <li>
+                            <a href = "https://www.youtube.com/c/folkehelseinstituttet" target = "_blank" rel="noopener"><span class = "icon-youtube" alt="Youtube" title="Youtube"></span> <span>Folkehelseinstituttet</span></a>
+                        </li>
+                                            <li>
+                            <a href = "https://www.fhi.no/rss/nyheter/" target = "_blank" rel="noopener"><span class = "icon-rss" alt="Rss" title="Rss"></span> <span>RSS</span></a>
+                        </li>
+                                            <li>
+                            <a href = "https://www.fhi.no/sys/nyhetsvarsler/" target = "_blank" rel="noopener"><span class = "icon-mail-white" alt="Mail" title="Mail"></span> <span>Nyhetsvarsel</span></a>
+                        </li>
+                </ul>
+            </div>
+
+            <div class="scroll-to-top">
+                <a href ="#main">
+                    <span class="circle big icon-arrow-long-up is-white"></span>
+                    <span class="fhi-visually-hidden">Gå til toppen</span>
+                </a>
+            </div>
+        </div>
+
+        <hr class="ruler is-tight is-inverted">
+    </div>
+    <div class="fhi-container">
+        <div class="stripe">
+                <img class="logo-inverted" alt="Folkehelseinstituttet" title="Folkehelseinstituttet" src="/Static/templates/build/gfx/logo_lang.svg">
+
+                <ul class="inline-list">
+                        <li>
+                            <a href="/om/om-nettstedet/">Om nettstedet</a>
+                        </li>
+                        <li>
+                            <a href="/sys/innhold-a-til-a/">Innhold A til &#197;</a>
+                        </li>
+                        <li>
+                            <a href="/historisk-arkiv/">Historisk arkiv</a>
+                        </li>
+                </ul>
+
+            <div class="page-type">
+
+                1.0.0.0 - FHI-PRD-WEB02 - Artikkel
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+  <script
+  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+  crossorigin="anonymous"></script>
+
+<script src="/bundles/scripts?v=4vkxM1KpN0y1oJOGTUVXLmUnG6JjPLAIBPr4UKFGLyo1"></script>
+
+
+<script src="/bundles/fhi?v=a_dAVWQuZqhKaYm8DKivaUpEajSOW_ddJm5A3nkngTs1"></script>
+
+
+<script type="text/javascript" src="https://dl.episerver.net/13.2.2/epi-util/find.js"></script>
+<script type="text/javascript">
+if(FindApi){var api = new FindApi();api.setApplicationUrl('/');api.setServiceApiBaseUrl('/find_v2/');api.processEventFromCurrentUri();api.bindWindowEvents();api.bindAClickEvent();api.sendBufferedEvents();}
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/what-input/5.1.3/what-input.js"></script>
+<script>
+  objectFitImages();
+</script>
+</body>
+</html>

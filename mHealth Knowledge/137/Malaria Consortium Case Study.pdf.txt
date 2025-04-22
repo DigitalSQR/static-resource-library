@@ -1,0 +1,137 @@
+CASE STUDY
+HEALTH
+Malaria Consortium 
+inSCALE: iCCM for 
+Improving Child Health
+In collaboration with the London School 
+of Hygiene and Tropical Medicine 
+and University College of London, 
+the inSCALE project aims to increase 
+coverage of appropriate treatment for 
+sick children in Mozambique.
+PROJECT OVERVIEW 
+The inSCALE project seeks to demon-
+strate that government-led Integrated At a Glance
+Community Case Management 
+(iCCM) can improve healthcare ser-
+vices and expand coverage in Implemented: Mozambique, 2013-2015
+Mozambique, a country where only Sectors: Child health, pneumonia, malaria, iCCM
+52% of the population has health-
+care coverage.  The project adopted Features: Active data management, decision & 
+CommCare and CommConnect to diagnostic support, respiratory rate counter, motivational 
+strengthen communication between messages (for CHWs & Supervisors), case management, 
+community health workers (CHWs) and 
+health facility supervisors, and with multimedia, custom reporting
+heavy involvement of the Ministry of Number of users: 179
+Health, inSCALE has the potential to 
+expand into other areas of the health 
+system, with the goal of improved 
+diagnosis, treatment, and monitoring 
+of disease throughout Mozambique.
+BACKGROUND mobile health (mHealth) system 
+Around the world over six million with Dimagi in 2013 to enhance children under the age of five the country’s iCCM program,
+lose their lives each year to diseases and boost CHW performance lev-
+that are preventable and treatable. els, morale, and job satisfaction. 
+These deaths occur primarily in poor The five year project was first imple-
+rural settings, particularly in sub-Saha- mented in 2009 and includes an 
+ran Africa, often as a result of strained 18-month randomized control 
+health systems and limited access trial (RCT) in Inhambane Province, 
+to simple, affordable interventions. Mozambique. The RCT’s aim is to 
+One approach to improving these study the effects of mHealth applica-
+systems is integrated Community tions on CHW motivation, including MOZAMBIQUE
+Case Management (iCCM), a strat- analyzing data to better understand 
+egy that extends case manage- the accuracy of CHWs’ patient diag-
+ment of childhood illness beyond nosis and prescribed treatment.
+health facilities and into communi- The project is Mozambique’s larg-
+ties [WHO, 2013]. Through the iCCM est Android deployment to date 
+model, community health workers and an opportunity to explore 
+(CHWs) are trained to diagnose, treat, the potential impact of mHealth 
+and refer children with key child- on a national system of childcare.
+hood illnesses, including diarrhea, 
+pneumonia, and malaria, and have THE TWO MOBILE APPLICATIONS
+demonstrated potential to reduce Malaria Consortium’s mHealth system 
+childhood mortality by 60 percent. consists of two mobile applications. The system currently centers upon a 
+In Mozambique, a national network primary application for CHWs, with 
+of 1,950 CHWs (locally referred to a complementary application devel-Both applications:
+as Agentes Polivalentes Elementares oped for supervisors. There is also  
+- or APEs) provide iCCM services an Active Data Management (ADM) • Integrate CommCare 
+to the country’s four million chil- component to help district level (mobile app for CHWs) 
+dren. However, the program’s supervisors analyze child health and CommConnect (SMS 
+effectiveness can been negatively data collected by CHWs, by pro-based-system). 
+impacted by low CHW motiva- viding timely report outs. Malaria • Were designed with input & 
+tion, limited availability and usage Consortium’s system also utilizes feedback from Ministry of Health 
+of health information, and limited custom reporting features, a web-officials and CHWs to ensure 
+support and supervision of CHWs. based reporting dashboard, and they remain consistent with pre- monthly SMS motivational messages 
+existing protocols. 
+MHEALTH FOR IMPROVED ICCM provided through CommConnect • Work offline and save data on to  better support both CHWs and 
+To address these challenges, the phone until there is a net- health facility level supervisors.
+Malaria Consortium developed a work connection. 
+Feature Spotlight
+Respiratory Rate Counter
+In order to diagnose symptoms of pneumonia, CHWs are trained to 
+determine a patient’s respiratory rate during patient visits. This is often 
+one of the most challenging tasks for CHWs and can result in improper 
+diagnoses. 
+To address this challenge, a respiratory timer  has been integrated into 
+inSCALE’s CommCare application. The timer enables CHWs to tap the 
+phone screen each time a patient breathes, and automatically produces 
+a respiratory rate for the patient at the end of the minute, improving 
+CHWs’ ability to diagnose symptoms of pneumonia.
+ 
+The CHW application is designed of designing this project, includ-
+to better support 132 CHWs dur- ing in application and custom report 
+ing patient visits based on pre-exist- design, n iteration, training, and 
+ing paper-based job aids. The appli- deployment. All user feedback was 
+cation is based on diagnostic and sought via interviews and in observ-
+treatment protocols from the Ministry ing CHWs during patient visits at dif-
+of Health for diarrhea, pneumonia, ferent points of the iteration process. 
+malaria, and malnutrition, including 
+an immunization plan for children TRAINING OF TRAINERS
+under  five. It also acts as a support The project also used a “Training of 
+tool for CHWs to diagnose, treat and Trainer” approach, to prepare staff 
+refer children with these diseases, as for the training of provincial health 
+well as prompt CHWs with a check- workers at different levels in the 
+list of danger signs exhibited by preg- province, increasing project owner-
+nant women, newborns, and children ship and sustainability. These train-
+for appropriate referral and follow-up. ers ultimately trained a total of 
+132 CHWs and 47 supervisors for 
+The supervisory application is the final implementation phase. 
+used by 47 health facility-level super- In addition to training CHWs and super-
+visors, and is designed to facili- visors on how to use the CommCare 
+tate better supervision and provide applications, project staff were aware 
+supervisors with heightened data. that most CHWs were unaccustomed 
+The application enables supervisors to using Android phones. Dimagi 
+to score CHWs’ performance dur- and Malaria Consortium held extra 
+ing monthly visits, and track CHWs’ trainings and introductory sessions 
+progress overtime. It was designed on Android phones, and used an 
+with reporting indicators from exist- AppBlocker to lock down unnecessary 
+ing monthly reports at the Ministry features of the phone. As a result of 
+of Health, and utilizes the national these trainings, CHWs demonstrated 
+rubric for comprehensive case man- the necessary technical literacy lev-
+agement. The application also incor- els needed to use the application. 
+porates Active Data Managemetn 
+capabilities from CommCare so that The trial represented Mozambique’s 
+supervisors can analyze and act upon largest Android deployment to 
+child health collected by CHWs and date, and as such the team dis-
+follow targeted follow-up action steps covered new insights in the 
+for their district’s network of CHWs. transition from J2ME phones.
+CHW-FOCUSED DESIGN For more information and lessons 
+User-centered design was a key learnt from the project implemen-
+element of this mHealth system. tation, please visit: http www.malar-
+Ministry of Health staff and CHWs iaconsortium.org/inscale/pages/
+were heavily involved in every step innovations/mobile-technology.
+CommCare, CommConnect 2014
+commcarehq.org
+Photos © Dimagi 2014; Malaria Consortium 
+2014,  Mozambique
+Malaria Consortium inSCALE
+www.malariaconsortium.org/inscale
+Dimagi, Inc.
+585 Massachusetts Ave
+Suite 3
+Cambridge, MA 02139
+t +1 617.649.2214
+f +1 617.274.8393
+Dimagi delivers open source and innovative 
+technology to underserved communities 
+around the world

@@ -1,0 +1,1733 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <link rel="stylesheet" href="https://www.safaricom.co.ke/templates/safaricommain/css/main.min.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.safaricom.co.ke/images/icons/new/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.safaricom.co.ke/images/icons/new/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.safaricom.co.ke/images/icons/new/favicon-16x16.png">
+    <link rel="manifest" href="https://www.safaricom.co.ke/manifest.json">
+    <link rel="mask-icon" href="https://www.safaricom.co.ke/safari-pinned-tab.svg" color="#009a3e">
+    <meta name="theme-color" content="#009a3e">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!--<script type="text/javascript" src="/home/addtohomescreen.js"></script>-->
+
+    
+
+
+    <script>
+        //addToHomescreen();
+    </script>
+    <script defer type="text/javascript" src="https://www.safaricom.co.ke/templates/safaricommain/js/lib/modernizr.custom.js"></script>
+    <script type="text/javascript" src="https://www.safaricom.co.ke/templates/safaricommain/js/lib/jquery.js"></script>
+        
+    
+            <title>M-PESA - Mobile Money Transfer Service, KCB M-PESA Account, KCB Mobile Banking, KCB Mobile Loan - Safaricom</title>
+        <meta name="Keywords" content="m-pesa service, safaricom m-pesa, mobile money transfer service, safaricom."/>
+        <meta name="Description" content="M-Pesa is a mobile money transfer service, with Safaricom M-pesa service anyone can send money in all over Kenya and with KCB M-PESA account you can avail instant loans up to Kshs.1M."/>
+        
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" href="/templates/safaricommain/css/ie.min.css">
+    <![endif]-->
+
+    <script type="text/javascript">
+        var BASE_URL = "https://www.safaricom.co.ke/";
+        var MENU_ID = "138";
+    </script>
+
+        <link rel="shortcut icon" href="https://www.safaricom.co.ke/templates/safaricommain/images/green.png"/>
+
+    <script type="application/javascript">
+        
+    // (function(w,d,t,r,u){w[u]=w[u]||[];w[u].push({'projectId':'10000','properties':{'pixelId':'10033620'}});var s=d.createElement(t);s.src=r;s.async=true;s.onload=s.onreadystatechange=function(){var y,rs=this.readyState,c=w[u];if(rs&&rs!="complete"&&rs!="loaded"){return}try{y=YAHOO.ywa.I13N.fireBeacon;w[u]=[];w[u].push=function(p){y([p])};y(c)}catch(e){}};var scr=d.getElementsByTagName(t)[0],par=scr.parentNode;par.insertBefore(s,scr)})(window,document,"script","https://s.yimg.com/wi/ytc.js","dotq");
+    </script>
+    
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(), event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-5VKTP5');
+    </script>
+    <!-- End Google Tag Manager -->
+	
+	<!-- Start of App Insights-->
+	
+	<script type="text/javascript">
+  // var appInsights=window.appInsights||function(a){
+  //   function b(a){c[a]=function(){var b=arguments;c.queue.push(function(){c[a].apply(c,b)})}}var c={config:a},d=document,e=window;setTimeout(function(){var b=d.createElement("script");b.src=a.url||"https://az416426.vo.msecnd.net/scripts/a/ai.0.js",d.getElementsByTagName("script")[0].parentNode.appendChild(b)});try{c.cookie=d.cookie}catch(a){}c.queue=[];for(var f=["Event","Exception","Metric","PageView","Trace","Dependency"];f.length;)b("track"+f.pop());if(b("setAuthenticatedUserContext"),b("clearAuthenticatedUserContext"),b("startTrackEvent"),b("stopTrackEvent"),b("startTrackPage"),b("stopTrackPage"),b("flush"),!a.disableExceptionTracking){f="onerror",b("_"+f);var g=e[f];e[f]=function(a,b,d,e,h){var i=g&&g(a,b,d,e,h);return!0!==i&&c["_"+f](a,b,d,e,h),i}}return c
+  //   }({
+  //       instrumentationKey:"311a050f-72eb-40aa-8b18-74ad2fe89b26"
+  //   });
+    
+  // window.appInsights=appInsights,appInsights.queue&&0===appInsights.queue.length&&appInsights.trackPageView();
+</script>
+<!-- End of App Insights-->
+
+
+<!--# End of myStocks IR JS code -->
+
+
+</head>
+
+
+
+<body class="m-pesa  ">
+
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5VKTP5"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!--[if lte IE 8]>
+  <div class="ie-notification">
+      <div class="row">
+          <p>Our system is designed to use the most up-to-date modern web standards please <a href="https://www.google.com/chrome/browser/desktop/" target="_blank">Download</a> the latest browser <a href="https://www.google.com/chrome/browser/desktop/" target="_blank">here</a></p>
+      </div>
+  </div>
+<![endif]-->
+
+  <div class="s-modal hide-item s-bd module js-wlc-modal  ">
+    <div class="modal-container">
+        <div class="row">
+            <div class="content">
+                <div class="modal-content">
+                    <div class="modal-content__box m-c-v js-window-height">
+                        <div class="centered">
+                            <div class="centered-inner">
+                                <div
+                                    class="modal-content__content wlc-content-modal js-bd-content animated fadeInUp">
+                                    <div class="modal-close">
+                                      <span class="s-bd-close js-bd-close">
+                                        <i class="icon close-icon"></i>
+                                      </span>
+                                    </div>
+                                    <div class="modal-video">
+                                      <div class="modal-iframe">
+                                          <iframe id="welcome-video" width="560" height="200"
+                                                  src="https://www.youtube.com/embed/ZGGgeX4Xc9M?autoplay=0&rel=0&showinfo=0&controls=0"
+                                                  frameborder="0" allowfullscreen></iframe>
+                                      </div>
+                                    </div>
+                                    <div class="modal-txt text-center txt-wlc intro-wlc">
+                                        <h2>Welcome to our <span>fresh new</span> website</h2>
+                                        <p>Get information on all our products and services for free</p>
+                                        <div class="intro-cta cta-new cta-wlc">
+                                            <a id="experience-site" class="btn btn-g-f intro-btn" title="Experience"
+                                               href="javascript:void(0);">Experience</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="mp-pusher" id="mp-pusher">
+
+    
+        <header id="header-module" class="module header-menu">
+            <div class="module__content">
+                		<div class="moduletable">
+						
+<div class="header-menu__top">
+    <div class="row">
+        <div class="row">
+            <div class="large-7 columns">
+                <div class="header-menu__list list-main float-left">
+                    <ul>
+                                                    <li>
+                                <a class="personal active"                                      href="https://www.safaricom.co.ke/personal" title="Personal"
+                                >Personal</a>
+
+                            </li>
+
+                                                    <li>
+                                <a class="business"                                      href="https://www.safaricom.co.ke/business" title="Business"
+                                >Business</a>
+
+                            </li>
+
+                                                    <li>
+                                <a class="shop"    target="_blank"                                    href="https://www.masoko.com/safaricom" title="Shop"
+                                >Shop</a>
+
+                            </li>
+
+                                                    <li>
+                                <a class="about us"                                      href="https://www.safaricom.co.ke/about" title="About Us"
+                                >About Us</a>
+
+                            </li>
+
+                                                    <li>
+                                <a class="investor relations"                                      href="https://www.safaricom.co.ke/investor-relation" title="Investor Relations"
+                                >Investor Relations</a>
+
+                            </li>
+
+                                                    <li>
+                                <a class="faqs"                                      href="https://www.safaricom.co.ke/faqs" title="faqs"
+                                >faqs</a>
+
+                            </li>
+
+                                                                    </ul>
+                </div>
+            </div>
+            <div class="large-5 columns">
+                <div class="header-menu__list">
+                    <div class="header-menu__items">
+                        <ul class="float-right">
+                                                        <li>
+                                        <a  rel="noreferrer" rel="noopener"  target="_blank"  href="https://selfcare.safaricom.co.ke/FrontEnd/Home.action" title="Selfcare"  target="_blank" >
+                            <span>Selfcare</span>                              </a>
+                            </li>
+                                                        <li>
+                                        <a  rel="noreferrer" rel="noopener"  target="_blank"  href="https://www.safaricom.co.ke/blog" title="Blog"  target="_blank" >
+                            <span>Blog</span>                              </a>
+                            </li>
+                                                        <li>
+                                        <a  href="about" title="Our Impact" >
+                            <span>Our Impact</span>                              </a>
+                            </li>
+                                                        <li>
+                                        <a  rel="noreferrer" rel="noopener"  target="_blank"  href="https://www.safaricom.co.ke/dealers/login.php" title="Dealer Login"  target="_blank" >
+                            <span>Dealer Login</span>                              </a>
+                            </li>
+                                                        <li>
+                                        <a  rel="noreferrer" rel="noopener"  target="_blank"  href="https://www.safaricom.co.ke/careers/" title="Careers"  target="_blank" >
+                            <span>Careers</span>                              </a>
+                            </li>
+                                                        <li>
+                                        <a  href="customer-service-centres" title="Service Centres" >
+                            <span>Service Centres</span>                             </a>
+                            </li>
+                                                    </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+		</div>
+	
+                		<div class="moduletable">
+						<div class="header-menu__bottom">
+    <div class="row">
+        <div class="row">
+            <div class="large-7 columns">
+                <div class="header-menu__Container">
+                    <div class="row">
+                        <div class="row">
+                            <div class="large-3 columns">
+                                <div class="header-menu__logo">
+                                    <a href="https://www.safaricom.co.ke/">
+                                        <span class="site-logo-all">
+                                            <img src="https://www.safaricom.co.ke/templates/safaricommain/images/icons/safaricom_logo_04-16-2019.png" alt="Safaricom Logo">
+                                        </span>
+                                        <span class="site-logo-bussiness">
+                                            <img src="https://www.safaricom.co.ke/templates/safaricommain/images/icons/safaricom_business_logo_04-16-2019.png" alt="Safaricom Business Logo">
+                                        </span>
+                                        <span class="site-logo-shop">
+                                            <img src="https://www.safaricom.co.ke/templates/safaricommain/images/icons/safaricom_shop_logo.png" alt="Safaricom Shop Logo">
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="large-9 columns">
+                                <div class="header-menu__nav">
+                                    <div class="nav-conatiner">
+                                        <nav class="nav-bottom">
+                                            <ul id="main-navigation">
+
+                                                                                                    <li class="active-nav" ><a
+                                                            href="javascript:void(0)">Plans</a>
+                                                        <ul>
+
+                                                                                                                                <li><a href="#">Getting started</a>
+                                                                        <ul>
+                                                                            <div class="row">
+                                                                                <div class="row">
+                                                                                    <div class="large-3 columns">
+                                                                                        <div
+                                                                                            class="main-nav--subenu submenu-moule">
+                                                                                                                                                                                                <li>
+                                                                                                        <a  id="menu_item_111"  href="/personal/plans/getting-started/sim-registration">SIM Registration</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_112"  href="/personal/plans/getting-started/choosing-your-plan">Choosing Your Plan</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_113"  href="/personal/plans/getting-started/roaming-abroad">Roaming Abroad</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_647"  href="/personal/plans/getting-started/data-roaming-share-when-there">Data Roaming - Share When There</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_152"  href="/personal/plans/getting-started/voicemail">Voicemail</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_603"  href="/personal/plans/getting-started/international-calling-bundles">International calling Bundles</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_610"  href="/personal/plans/getting-started/okoa-jahazi">Okoa Jahazi</a>
+                                                                                                    </li>
+                                                                                                                                                                                                                                                                                    </div>
+                                                                                    </div>
+                                                                                    <div class="large-5 columns">
+                                                                                        <div
+                                                                                            class="main-nav--subenu submenu-moule">
+                                                                                            <h3>Getting started</h3>
+                                                                                            <p>Get to know what we have to offer on the widest cellular coverage in Kenya, from fast reliable internet to guaranteed services</p>
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                                                                                                            <div class="large-4 columns">
+                                                                                            <div
+                                                                                                class="menuImag marginTop">
+                                                                                                <img
+                                                                                                    src="https://www.safaricom.co.ke//images/getting-started.jpg">
+                                                                                            </div>
+                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                            </div>
+                                                                        </ul>
+                                                                    </li>
+                                                                                                                                    <li><a href="#">PrePay</a>
+                                                                        <ul>
+                                                                            <div class="row">
+                                                                                <div class="row">
+                                                                                    <div class="large-3 columns">
+                                                                                        <div
+                                                                                            class="main-nav--subenu submenu-moule">
+                                                                                                                                                                                                <li>
+                                                                                                        <a  id="menu_item_162"  href="/personal/plans/prepay/uwezo-tariff">Uwezo Tariff</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_164"  href="/personal/plans/prepay/advantage-plus-prepay">Advantage Plus PrePay</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_165"  href="/personal/plans/prepay/using-your-prepay-line">Using your PrePay line</a>
+                                                                                                    </li>
+                                                                                                                                                                                                                                                                                    </div>
+                                                                                    </div>
+                                                                                    <div class="large-5 columns">
+                                                                                        <div
+                                                                                            class="main-nav--subenu submenu-moule">
+                                                                                            <h3>PrePay</h3>
+                                                                                            <p>Call, text, surf the Internet, transfer money, stay informed and entertained using your Safaricom line</p>
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                                                                                                            <div class="large-4 columns">
+                                                                                            <div
+                                                                                                class="menuImag marginTop">
+                                                                                                <img
+                                                                                                    src="https://www.safaricom.co.ke//images/prepay.jpg">
+                                                                                            </div>
+                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                            </div>
+                                                                        </ul>
+                                                                    </li>
+                                                                                                                                    <li><a href="#">PostPay</a>
+                                                                        <ul>
+                                                                            <div class="row">
+                                                                                <div class="row">
+                                                                                    <div class="large-3 columns">
+                                                                                        <div
+                                                                                            class="main-nav--subenu submenu-moule">
+                                                                                                                                                                                                <li>
+                                                                                                        <a  id="menu_item_364"  href="/personal/plans/postpay/join-postpay">Join PostPay</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_169"  href="/personal/plans/postpay/advantage-plus-postpay">Advantage Plus PostPay</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_170"  href="/personal/plans/postpay/postpay-calls-sms-rates">Calls & SMS Rates</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_172"  href="/personal/plans/postpay/using-your-postpay-line">Using your PostPay line</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_173"  href="/personal/plans/postpay/roaming-on-postpay">Roaming on PostPay</a>
+                                                                                                    </li>
+                                                                                                                                                                                                                                                                                    </div>
+                                                                                    </div>
+                                                                                    <div class="large-5 columns">
+                                                                                        <div
+                                                                                            class="main-nav--subenu submenu-moule">
+                                                                                            <h3>PostPay</h3>
+                                                                                            <p>Continue communicating without the concern of disrupted conversations due to insufficient credit, plus get access to exclusive new services</p>
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                                                                                                            <div class="large-4 columns">
+                                                                                            <div
+                                                                                                class="menuImag marginTop">
+                                                                                                <img
+                                                                                                    src="https://www.safaricom.co.ke//images/postpay.jpg">
+                                                                                            </div>
+                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                            </div>
+                                                                        </ul>
+                                                                    </li>
+                                                                                                                                    <li><a href="#">FLEX</a>
+                                                                        <ul>
+                                                                            <div class="row">
+                                                                                <div class="row">
+                                                                                    <div class="large-3 columns">
+                                                                                        <div
+                                                                                            class="main-nav--subenu submenu-moule">
+                                                                                                                                                                                                <li>
+                                                                                                        <a  id="menu_item_592"  href="/personal/plans/flex/flex">FLEX</a>
+                                                                                                    </li>
+                                                                                                                                                                                                                                                                                    </div>
+                                                                                    </div>
+                                                                                    <div class="large-5 columns">
+                                                                                        <div
+                                                                                            class="main-nav--subenu submenu-moule">
+                                                                                            <h3>FLEX</h3>
+                                                                                            <p>Get more value from your airtime with the flexible bundle to call, browse or text.</p>
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                                                                                                            <div class="large-4 columns">
+                                                                                            <div
+                                                                                                class="menuImag marginTop">
+                                                                                                <img
+                                                                                                    src="https://www.safaricom.co.ke//images/flex.jpg">
+                                                                                            </div>
+                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                            </div>
+                                                                        </ul>
+                                                                    </li>
+                                                                                                                                    <li><a href="#">Safaricom Platinum</a>
+                                                                        <ul>
+                                                                            <div class="row">
+                                                                                <div class="row">
+                                                                                    <div class="large-3 columns">
+                                                                                        <div
+                                                                                            class="main-nav--subenu submenu-moule">
+                                                                                                                                                                                                <li>
+                                                                                                        <a  id="menu_item_732"  href="/personal/plans/safaricom-platinum/safaricom-platinum">Safaricom Platinum</a>
+                                                                                                    </li>
+                                                                                                                                                                                                                                                                                    </div>
+                                                                                    </div>
+                                                                                    <div class="large-5 columns">
+                                                                                        <div
+                                                                                            class="main-nav--subenu submenu-moule">
+                                                                                            <h3>Safaricom Platinum</h3>
+                                                                                            <p>Join Safaricom Platinum and experience a world of privilege.</p>
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                                                                                                            <div class="large-4 columns">
+                                                                                            <div
+                                                                                                class="menuImag marginTop">
+                                                                                                <img
+                                                                                                    src="https://www.safaricom.co.ke//images/platinum.png">
+                                                                                            </div>
+                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                            </div>
+                                                                        </ul>
+                                                                    </li>
+                                                                                                                                    <li><a href="#">VoLTE</a>
+                                                                        <ul>
+                                                                            <div class="row">
+                                                                                <div class="row">
+                                                                                    <div class="large-3 columns">
+                                                                                        <div
+                                                                                            class="main-nav--subenu submenu-moule">
+                                                                                                                                                                                                <li>
+                                                                                                        <a  id="menu_item_802"  href="/volte">VoLTE</a>
+                                                                                                    </li>
+                                                                                                                                                                                                                                                                                    </div>
+                                                                                    </div>
+                                                                                    <div class="large-5 columns">
+                                                                                        <div
+                                                                                            class="main-nav--subenu submenu-moule">
+                                                                                            <h3>VoLTE</h3>
+                                                                                            <p>Experience high quality sound over voice and video calls across the 4G network</p>
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                                                                                                            <div class="large-4 columns">
+                                                                                            <div
+                                                                                                class="menuImag marginTop">
+                                                                                                <img
+                                                                                                    src="https://www.safaricom.co.ke//images/volt.jpg">
+                                                                                            </div>
+                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                            </div>
+                                                                        </ul>
+                                                                    </li>
+                                                                
+                                                            
+                                                        </ul>
+                                                    </li>
+
+
+                                                                                                    <li class="active-nav" ><a
+                                                            href="javascript:void(0)">Internet</a>
+                                                        <ul>
+
+                                                                                                                                <li><a href="#">Getting Connected</a>
+                                                                        <ul>
+                                                                            <div class="row">
+                                                                                <div class="row">
+                                                                                    <div class="large-3 columns">
+                                                                                        <div
+                                                                                            class="main-nav--subenu submenu-moule">
+                                                                                                                                                                                                <li>
+                                                                                                        <a  id="menu_item_176"  href="/personal/internet/getting-connected/setting-up">Setting Up</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_179"  href="/personal/internet/getting-connected/choosing-your-bundle">Choosing Your Bundle</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_180"  href="/personal/internet/getting-connected/buying-data-bundles">Buying Data Bundles</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_774"  href="/home/">Safaricom Home</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_624"  href="/personal/internet/getting-connected/4g-plus">4G+</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_651"  href="/personal/internet/getting-connected/kenyas-strongest-data-network">Kenya’s Strongest Data network</a>
+                                                                                                    </li>
+                                                                                                                                                                                                                                                                                    </div>
+                                                                                    </div>
+                                                                                    <div class="large-5 columns">
+                                                                                        <div
+                                                                                            class="main-nav--subenu submenu-moule">
+                                                                                            <h3>Getting Connected</h3>
+                                                                                            <p>Welcome to an exciting experience exploring the World Wide Web and all it has to offer anywhere you are</p>
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                                                                                                            <div class="large-4 columns">
+                                                                                            <div
+                                                                                                class="menuImag marginTop">
+                                                                                                <img
+                                                                                                    src="https://www.safaricom.co.ke//images/getting-connected.jpg">
+                                                                                            </div>
+                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                            </div>
+                                                                        </ul>
+                                                                    </li>
+                                                                                                                                    <li><a href="#">Explore With Safaricom</a>
+                                                                        <ul>
+                                                                            <div class="row">
+                                                                                <div class="row">
+                                                                                    <div class="large-3 columns">
+                                                                                        <div
+                                                                                            class="main-nav--subenu submenu-moule">
+                                                                                                                                                                                                <li>
+                                                                                                        <a  id="menu_item_742"  href="/personal/internet/explore-with-safaricom/my-data-story">My Data Story</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_609"  href="/personal/internet/explore-with-safaricom/swift-squad">Swift Squad</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_182"  href="/personal/internet/explore-with-safaricom/games">Games</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_184"  href="/personal/internet/explore-with-safaricom/my-market">My Market</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_185"  href="/personal/internet/explore-with-safaricom/sambaza-internet">Sambaza Internet</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_187"  href="/personal/internet/explore-with-safaricom/my-safaricom-app">My Safaricom App</a>
+                                                                                                    </li>
+                                                                                                                                                                                                                                                                                    </div>
+                                                                                    </div>
+                                                                                    <div class="large-5 columns">
+                                                                                        <div
+                                                                                            class="main-nav--subenu submenu-moule">
+                                                                                            <h3>Explore With Safaricom</h3>
+                                                                                            <p>Explore, discover and interact online with the fastest internet in Kenya</p>
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                                                                                                            <div class="large-4 columns">
+                                                                                            <div
+                                                                                                class="menuImag marginTop">
+                                                                                                <img
+                                                                                                    src="https://www.safaricom.co.ke//images/Explore-with-safaricom.jpg">
+                                                                                            </div>
+                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                            </div>
+                                                                        </ul>
+                                                                    </li>
+                                                                
+                                                            
+                                                        </ul>
+                                                    </li>
+
+
+                                                                                                    <li class="active-nav" class="break_here"><a
+                                                            href="javascript:void(0)">M-PESA</a>
+                                                        <ul>
+
+                                                                                                                                <li><a href="#">Getting Started</a>
+                                                                        <ul>
+                                                                            <div class="row">
+                                                                                <div class="row">
+                                                                                    <div class="large-3 columns">
+                                                                                        <div
+                                                                                            class="main-nav--subenu submenu-moule">
+                                                                                                                                                                                                <li>
+                                                                                                        <a  id="menu_item_140"  href="/personal/m-pesa/getting-started/register-for-m-pesa">Register for M-PESA</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_141"  href="/personal/m-pesa/getting-started/m-pesa-rates">M-PESA Rates</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_142"  href="/personal/m-pesa/getting-started/using-m-pesa">Using M-PESA</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_143"  href="/personal/m-pesa/getting-started/m-pesa-tips">M-PESA Tips</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_144"  href="/personal/m-pesa/getting-started/experience-m-pesa">Experience M-PESA</a>
+                                                                                                    </li>
+                                                                                                                                                                                                                                                                                    </div>
+                                                                                    </div>
+                                                                                    <div class="large-5 columns">
+                                                                                        <div
+                                                                                            class="main-nav--subenu submenu-moule">
+                                                                                            <h3>Getting Started</h3>
+                                                                                            <p>Your wallet just went digital! Send, receive money, pay bills and transact easily, safely and conveniently</p>
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                                                                                                            <div class="large-4 columns">
+                                                                                            <div
+                                                                                                class="menuImag marginTop">
+                                                                                                <img
+                                                                                                    src="https://www.safaricom.co.ke//images/getting-started.jpg">
+                                                                                            </div>
+                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                            </div>
+                                                                        </ul>
+                                                                    </li>
+                                                                                                                                    <li><a href="#">Lipa Na M-PESA</a>
+                                                                        <ul>
+                                                                            <div class="row">
+                                                                                <div class="row">
+                                                                                    <div class="large-3 columns">
+                                                                                        <div
+                                                                                            class="main-nav--subenu submenu-moule">
+                                                                                                                                                                                                <li>
+                                                                                                        <a  id="menu_item_484"  href="/personal/m-pesa/lipa-na-m-pesa/what-is-lipa-na-m-pesa">What is Lipa Na M-PESA</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_783"  href="/personal/m-pesa/lipa-na-m-pesa/lipa-na-m-pesa-short-term-paybill">Lipa Na M-PESA Short Term Paybill</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_784"  href="/personal/m-pesa/lipa-na-m-pesa/lipa-na-m-pesa-bulk-payments">Lipa Na M-PESA Bulk Payments</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_146"  href="/personal/m-pesa/lipa-na-m-pesa/paybill">PayBill</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_148"  href="/personal/m-pesa/lipa-na-m-pesa/m-pesa-services">Other Lipa Na M-PESA Services</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_620"  href="/personal/m-pesa/lipa-na-m-pesa/m-pesa-1tap">M-PESA 1Tap</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_641"  href="/personal/m-pesa/lipa-na-m-pesa/m-pesa-web-system">M-PESA Web System</a>
+                                                                                                    </li>
+                                                                                                                                                                                                                                                                                    </div>
+                                                                                    </div>
+                                                                                    <div class="large-5 columns">
+                                                                                        <div
+                                                                                            class="main-nav--subenu submenu-moule">
+                                                                                            <h3>Lipa Na M-PESA</h3>
+                                                                                            <p>Be part of the future of mobile money transactions in Kenya and the world over through M-PESA’s payments platform</p>
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                                                                                                            <div class="large-4 columns">
+                                                                                            <div
+                                                                                                class="menuImag marginTop">
+                                                                                                <img
+                                                                                                    src="https://www.safaricom.co.ke//images/lipa-na-mpesa.jpg">
+                                                                                            </div>
+                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                            </div>
+                                                                        </ul>
+                                                                    </li>
+                                                                                                                                    <li><a href="#">M-PESA Legal</a>
+                                                                        <ul>
+                                                                            <div class="row">
+                                                                                <div class="row">
+                                                                                    <div class="large-3 columns">
+                                                                                        <div
+                                                                                            class="main-nav--subenu submenu-moule">
+                                                                                                                                                                                                <li>
+                                                                                                        <a  id="menu_item_150"  href="/personal/m-pesa/m-pesa-legal/m-pesa-next-of-kin-claim">M-PESA Next of Kin Claim</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_485"  href="/images/Downloads/Personal/M-PESA/deed_of_amendment_to_declaration_of_trust_-_mpesa_account_holders.pdf">Deed of Amendment</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_486"  href="/mpesa_timeline/timeline.html">M-PESA Timeline</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_487"  href="/images/Downloads/Terms_and_Conditions/M-PESA_Trust_Deed_23.02.2007.pdf">Trust Deed</a>
+                                                                                                    </li>
+                                                                                                                                                                                                                                                                                    </div>
+                                                                                    </div>
+                                                                                    <div class="large-5 columns">
+                                                                                        <div
+                                                                                            class="main-nav--subenu submenu-moule">
+                                                                                            <h3>M-PESA Legal</h3>
+                                                                                            <p>Browse M-PESA statistics and other legal information of our transformative money transfer innovation</p>
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                                                                                                            <div class="large-4 columns">
+                                                                                            <div
+                                                                                                class="menuImag marginTop">
+                                                                                                <img
+                                                                                                    src="https://www.safaricom.co.ke//images/mpesa-legal.jpg">
+                                                                                            </div>
+                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                            </div>
+                                                                        </ul>
+                                                                    </li>
+                                                                                                                                    <li><a href="#">Do More With M-PESA</a>
+                                                                        <ul>
+                                                                            <div class="row">
+                                                                                <div class="row">
+                                                                                    <div class="large-3 columns">
+                                                                                        <div
+                                                                                            class="main-nav--subenu submenu-moule">
+                                                                                                                                                                                                <li>
+                                                                                                        <a  id="menu_item_608"  href="/personal/m-pesa/do-more-with-m-pesa/loans-and-savings">M-Shwari & KCB M-PESA</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_775"  href="/personal/m-pesa/do-more-with-m-pesa/m-pesa-global">M-PESA Global</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_780"  href="/personal/m-pesa/do-more-with-m-pesa/aliexpress-m-pesa">AliExpress M-PESA</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_158"  href="/personal/m-pesa/do-more-with-m-pesa/m-pesa-and-your-bank">M-PESA and Your Bank</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_588"  href="/personal/m-pesa/do-more-with-m-pesa/okoa-stima">Okoa Stima</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_644"  href="/personal/m-pesa/do-more-with-m-pesa/madaraka-express-ticket">Madaraka Express Ticket</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_605"  href="/personal/m-pesa/do-more-with-m-pesa/the-m-shwari-52-week-challenge">The M-Shwari 52 Week Challenge</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_160"  href="/personal/m-pesa/do-more-with-m-pesa/m-pesa-api">M-PESA API</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_607"  href="/personal/m-pesa/do-more-with-m-pesa/manage-your-m-pesa">Manage Your M-PESA</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_733"  href="/personal/m-pesa/do-more-with-m-pesa/m-pesa-tu">M-PESA Tu</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_809"  href="/personal/m-pesa/do-more-with-m-pesa/fuliza">Fuliza</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_816"  href="/personal/m-pesa/do-more-with-m-pesa/book-bus-tickets">Book Bus Tickets</a>
+                                                                                                    </li>
+                                                                                                                                                                                                                                                                                    </div>
+                                                                                    </div>
+                                                                                    <div class="large-5 columns">
+                                                                                        <div
+                                                                                            class="main-nav--subenu submenu-moule">
+                                                                                            <h3>Do More With M-PESA</h3>
+                                                                                            <p>Open up a whole new world for you to manage your finances by transforming your phone into your personal wallet</p>
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                                                                                                            <div class="large-4 columns">
+                                                                                            <div
+                                                                                                class="menuImag marginTop">
+                                                                                                <img
+                                                                                                    src="https://www.safaricom.co.ke//images/do-more-with-m-pesa.jpg">
+                                                                                            </div>
+                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                            </div>
+                                                                        </ul>
+                                                                    </li>
+                                                                
+                                                            
+                                                        </ul>
+                                                    </li>
+
+
+                                                                                                    <li class="active-nav" ><a
+                                                            href="javascript:void(0)">Get More</a>
+                                                        <ul>
+
+                                                                                                                                <li><a href="#">Bonga Points</a>
+                                                                        <ul>
+                                                                            <div class="row">
+                                                                                <div class="row">
+                                                                                    <div class="large-3 columns">
+                                                                                        <div
+                                                                                            class="main-nav--subenu submenu-moule">
+                                                                                                                                                                                                <li>
+                                                                                                        <a  id="menu_item_203"  href="/personal/get-more/bonga-points/bonga-points">Bonga Points</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_206"  href="/personal/get-more/bonga-points/bonga-pin">My Bonga PIN</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_208"  href="/personal/get-more/bonga-points/redeem-bonga-points">Redeem Bonga Points </a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_209"  href="/personal/get-more/bonga-points/sambaza-bonga-points">Sambaza Bonga Points</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_377"  href="/personal/get-more/bonga-points/bonga-popote">Bonga Popote</a>
+                                                                                                    </li>
+                                                                                                                                                                                                                                                                                    </div>
+                                                                                    </div>
+                                                                                    <div class="large-5 columns">
+                                                                                        <div
+                                                                                            class="main-nav--subenu submenu-moule">
+                                                                                            <h3>Bonga Points</h3>
+                                                                                            <p>Get rewarded with fabulous offers for using your Safaricom line</p>
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                                                                                                            <div class="large-4 columns">
+                                                                                            <div
+                                                                                                class="menuImag marginTop">
+                                                                                                <img
+                                                                                                    src="https://www.safaricom.co.ke//images/bonga-points.jpg">
+                                                                                            </div>
+                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                            </div>
+                                                                        </ul>
+                                                                    </li>
+                                                                                                                                    <li><a href="#">Information Services</a>
+                                                                        <ul>
+                                                                            <div class="row">
+                                                                                <div class="row">
+                                                                                    <div class="large-3 columns">
+                                                                                        <div
+                                                                                            class="main-nav--subenu submenu-moule">
+                                                                                                                                                                                                <li>
+                                                                                                        <a  id="menu_item_220"  href="/personal/get-more/information-services/191-directory">191 Directory</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_222"  href="/personal/get-more/information-services/get-updates-with-411">Get Updates With 411</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_223"  href="/personal/get-more/information-services/security-911">Security 911</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_224"  href="/personal/get-more/information-services/jichanue-self-service-tips">Jichanue Self-Service Tips</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_225"  href="/personal/get-more/information-services/prs-providers">PRS Providers</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_604"  href="/personal/get-more/information-services/ussd">USSD</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_650"  href="/personal/get-more/information-services/premium-rate-services">Premium Rate Services</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_776"  href="/personal/get-more/information-services/jitambulishe">Jitambulishe</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_823"  href="/personal/get-more/information-services/zuri">Zuri</a>
+                                                                                                    </li>
+                                                                                                                                                                                                                                                                                    </div>
+                                                                                    </div>
+                                                                                    <div class="large-5 columns">
+                                                                                        <div
+                                                                                            class="main-nav--subenu submenu-moule">
+                                                                                            <h3>Information Services</h3>
+                                                                                            <p>Get accurate and up to date information and timely assistance when you need it easily through your phone</p>
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                                                                                                            <div class="large-4 columns">
+                                                                                            <div
+                                                                                                class="menuImag marginTop">
+                                                                                                <img
+                                                                                                    src="https://www.safaricom.co.ke//images/information-serivce.jpg">
+                                                                                            </div>
+                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                            </div>
+                                                                        </ul>
+                                                                    </li>
+                                                                                                                                    <li><a href="#">Entertainment</a>
+                                                                        <ul>
+                                                                            <div class="row">
+                                                                                <div class="row">
+                                                                                    <div class="large-3 columns">
+                                                                                        <div
+                                                                                            class="main-nav--subenu submenu-moule">
+                                                                                                                                                                                                <li>
+                                                                                                        <a  id="menu_item_227"  href="/personal/get-more/entertainment/skiza">Skiza Tunes</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_228"  href="/personal/get-more/entertainment/the-big-box">Safaricom Digital Tv And Internet Box</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_837"  href="/personal/get-more/entertainment/safaricom-beatz">Safaricom Beatz</a>
+                                                                                                    </li>
+                                                                                                                                                                                                                                                                                    </div>
+                                                                                    </div>
+                                                                                    <div class="large-5 columns">
+                                                                                        <div
+                                                                                            class="main-nav--subenu submenu-moule">
+                                                                                            <h3>Entertainment</h3>
+                                                                                            <p>Step up and stand out by customising your phone and giving it your personal touch</p>
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                                                                                                            <div class="large-4 columns">
+                                                                                            <div
+                                                                                                class="menuImag marginTop">
+                                                                                                <img
+                                                                                                    src="https://www.safaricom.co.ke//images/entertainment.jpg">
+                                                                                            </div>
+                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                            </div>
+                                                                        </ul>
+                                                                    </li>
+                                                                                                                                    <li><a href="#">Promotions</a>
+                                                                        <ul>
+                                                                            <div class="row">
+                                                                                <div class="row">
+                                                                                    <div class="large-3 columns">
+                                                                                        <div
+                                                                                            class="main-nav--subenu submenu-moule">
+                                                                                                                                                                                                <li>
+                                                                                                        <a  id="menu_item_788"  href="/personal/get-more/promotions/tunukiwa-kredo-dabo-dabo">Tunukiwa Kredo Dabo Dabo</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_830"  href="/personal/get-more/promotions/beba-sasa-lipa-pole-pole">Beba Sasa Lipa Pole Pole</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_865"  href="/personal/get-more/promotions/stori-ibambe">Stori Ibambe</a>
+                                                                                                    </li>
+                                                                                                                                                                                                                                                                                    </div>
+                                                                                    </div>
+                                                                                    <div class="large-5 columns">
+                                                                                        <div
+                                                                                            class="main-nav--subenu submenu-moule">
+                                                                                            <h3>Promotions</h3>
+                                                                                            <p>Find out all our ongoing promotions and see how you can be part of them</p>
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                                                                                                            <div class="large-4 columns">
+                                                                                            <div
+                                                                                                class="menuImag marginTop">
+                                                                                                <img
+                                                                                                    src="https://www.safaricom.co.ke//images/menu-banner-promotions.jpg">
+                                                                                            </div>
+                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                            </div>
+                                                                        </ul>
+                                                                    </li>
+                                                                                                                                    <li><a href="#">Smart Tools</a>
+                                                                        <ul>
+                                                                            <div class="row">
+                                                                                <div class="row">
+                                                                                    <div class="large-3 columns">
+                                                                                        <div
+                                                                                            class="main-nav--subenu submenu-moule">
+                                                                                                                                                                                                <li>
+                                                                                                        <a  id="menu_item_580"  href="/personal/get-more/smart-tools/m-pesa-tools">M-PESA Tools</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_581"  href="/personal/get-more/smart-tools/internet-tools">Internet Tools</a>
+                                                                                                    </li>
+                                                                                                                                                                                                    <li>
+                                                                                                        <a  id="menu_item_582"  href="/personal/get-more/smart-tools/other-tools">Other Tools</a>
+                                                                                                    </li>
+                                                                                                                                                                                                                                                                                    </div>
+                                                                                    </div>
+                                                                                    <div class="large-5 columns">
+                                                                                        <div
+                                                                                            class="main-nav--subenu submenu-moule">
+                                                                                            <h3>Smart Tools</h3>
+                                                                                            <p>Get the information you require in just a few easy steps</p>
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                                                                                                            <div class="large-4 columns">
+                                                                                            <div
+                                                                                                class="menuImag marginTop">
+                                                                                                <img
+                                                                                                    src="https://www.safaricom.co.ke//images/menu-banner-smarttools.jpg">
+                                                                                            </div>
+                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                            </div>
+                                                                        </ul>
+                                                                    </li>
+                                                                                                                                    <li><a href="#">Reverse Call</a>
+                                                                        <ul>
+                                                                            <div class="row">
+                                                                                <div class="row">
+                                                                                    <div class="large-3 columns">
+                                                                                        <div
+                                                                                            class="main-nav--subenu submenu-moule">
+                                                                                                                                                                                                <li>
+                                                                                                        <a  id="menu_item_851"  href="/personal/get-more/reverse-call/reverse-call">Reverse Call</a>
+                                                                                                    </li>
+                                                                                                                                                                                                                                                                                    </div>
+                                                                                    </div>
+                                                                                    <div class="large-5 columns">
+                                                                                        <div
+                                                                                            class="main-nav--subenu submenu-moule">
+                                                                                            <h3>Reverse Call</h3>
+                                                                                            <p></p>
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                                                                                                    </div>
+                                                                            </div>
+                                                                        </ul>
+                                                                    </li>
+                                                                
+                                                            
+                                                        </ul>
+                                                    </li>
+
+
+                                                                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+                            <div class="large-5 columns">
+                    <div class="header-menu_right float-right">
+
+                                                <div class="site-search float-left">
+                            <div id="cse-search-form" class="site-search__container"><gcse:searchbox-only></gcse:searchbox-only></div>
+                        </div>
+                                                    <div class="utility-menu float-left">
+                            <div class="utility-menu__chat inline-block js-menu-chat">
+    							<span>
+    								<span class="chat-text">
+    									<span class="chat-text__icon"></span>
+                                        <span class="chat-text__arrow js-arrow"></span>
+    								</span>
+    							</span>
+                            </div>
+                            <div class="utility-menu__switch inline-block">
+    							<span class="switch-content">
+    								<span class="switch-content__text block" title="Switch view">switch view</span>
+    								<span class="switch-content__font">
+    									<span class="switch-font small-font">
+    										<a id="small_font" title="Font size small" href="javascript:void(0);"><span>A-</span></a>
+    									</span>
+    									<span class="switch-font medium-font">
+    										<a id="medium_font" title="Font size large" href="javascript:void(0);"><span>A+</span></a>
+    									</span>
+    									<span class="switch-font">
+    										<a class="switch-color has-switch-color" title="switch to contrast black" href="javascript:void(0);"><span>A</span></a>
+    									</span>
+    								</span>
+    							</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                    </div>
+    </div>
+</div>
+		</div>
+	
+            </div>
+        </header>
+
+    
+
+    		<div class="moduletable">
+						
+<div class="utility-widget module js-utility-widget">
+    <div class="content">
+        <div class="row">
+            <div class="row">
+                <div class="utility-widget__content">
+                    <div class="utility-widget__close">
+                        <div class="utility-widget__icon">
+                            <span class="iconic-close js-widget-close"></span>
+                        </div>
+                    </div>
+                    <div class="large-3 columns">
+                        <div class="utility-widget__title">
+                            <div class="content">
+                                <h4><span class="text-render">Need Support?</span></h4>
+                                <p>We are here for you</p>
+                                <div id="welcome-newsite" class="d-cta">
+                                    <a class="btn btn-g-f" href="javascript:void(0);">Discover</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="large-9 columns">
+                        <div class="row">
+                            <div class="utility-widget__meta">
+                                <div class="utility-widget__list">
+                                    <div class="large-4 columns">
+                                        <div class="list-content">
+                                            <ul>
+                                                <li> <a  id="left-chat" class="live-chat-icon"  href="" onclick="window.open ('https://selfcare.safaricom.co.ke/system/templates/chat/safaricom/chat.html?entryPointId=1002&templateName=safaricom&languageCode=en&countryCode=US&ver=v11&authenticated=false','myChatWindow', 'menubar=0,resizable=1,width=350,height=250');return false ;"><span> </span>Live Chat</a></li>
+                                                 <!-- <li><a class="live-chat-icon" target="_blank" href="https://www.messenger.com/t/SafaricomZuri">Find a Shop</a></li> -->
+                                                <li><a class="shop-find-icon" href="/find-our-shops">Find a Shop</a></li>
+                                                <li><a rel="noreferrer" rel="noopener" target="_blank" class="iconic-faq" href="/faqs">FAQs</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="large-4 columns">
+                                        <div class="list-content">
+                                            <ul>
+                                                <li><a rel="noreferrer" rel="noopener" target="_blank" class="iconic-fb" href="https://www.facebook.com/SafaricomPLC">Facebook</a></li>
+                                                <li><a rel="noreferrer" rel="noopener" target="_blank" class="iconic-tw" href="https://twitter.com/SafaricomPLC">Twitter</a></li>
+                                                <li><a rel="noreferrer" rel="noopener" target="_blank" class="iconic-gplus" href="https://plus.google.com/+safaricom">Google+</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="large-4 columns">
+                                        <div class="list-content">
+                                            <ul>
+                                                <li><a rel="noreferrer" rel="noopener" target="_blank" class="iconic-ig" href="https://instagram.com/safaricomltd">Instagram</a></li>
+                                                <li><a rel="noreferrer" rel="noopener" target="_blank" class="iconic-youtube" href="https://www.youtube.com/user/SafaricomOfficial">YouTube</a></li>
+                                                <li><a rel="noreferrer" rel="noopener" target="_blank" class="iconic-blog" href="https://www.safaricom.co.ke/blog/">Blog</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+		</div>
+	
+    <main id="content-page" class="content">
+        <div class="row">
+            <div class="row">
+                <div class="containter main-container">
+                    		<div class="moduletable">
+						<div class="large-12 columns">
+    <div class="bread-crumb">
+    
+                         <a href="https://www.safaricom.co.ke/personal">   <span>Personal</span></a>
+                <span class="divider">/</span>
+                
+
+
+            
+            <span>M-PESA</span>
+
+                </div>
+</div>
+    
+
+       
+
+		</div>
+	
+                    <section id="mpesa-module" class="module js-mpesa">
+                        <div class="module__content">
+                            <div class="large-12 columns">
+                                <h1 class="module__title">M-PESA</h1>
+                            </div>
+                            <ul class="pane-list">
+
+                                                                        <li class="pane-list__item large-3 columns">
+                                            <div class="pane pane-block">
+                                                <div class="pane__image pane__image--small">
+                                                    <div class="responsive-image">
+                                                                                                                    <a 
+                                                                    href="/personal/m-pesa/getting-started">
+
+                                                                                                                                <img src="//images/getting-started.jpg" class="image-replace"
+                                                                     alt="">
+                                                            </a>
+
+                                                                                                            </div>
+                                                </div>
+                                                <div class="pane__content">
+                                                    <h2 class="pane__title">
+                                                        <a class="pane__link" href="/personal/m-pesa/getting-started">
+                                                            <span>Getting Started</span>
+                                                        </a>
+                                                    </h2>
+                                                    <div class="pane-link__items">
+                                                        <ul class="pane-items">
+
+                                                                                                                            <li><a title=""
+
+                                                                
+                                                                        href="/personal/m-pesa/getting-started/register-for-m-pesa">
+
+                                                                    
+                                                                    Register for M-PESA</a>
+                                                                </li>
+                                                                                                                            <li><a title=""
+
+                                                                
+                                                                        href="/personal/m-pesa/getting-started/m-pesa-rates">
+
+                                                                    
+                                                                    M-PESA Rates</a>
+                                                                </li>
+                                                                                                                            <li><a title=""
+
+                                                                
+                                                                        href="/personal/m-pesa/getting-started/using-m-pesa">
+
+                                                                    
+                                                                    Using M-PESA</a>
+                                                                </li>
+                                                                                                                            <li><a title=""
+
+                                                                
+                                                                        href="/personal/m-pesa/getting-started/m-pesa-tips">
+
+                                                                    
+                                                                    M-PESA Tips</a>
+                                                                </li>
+                                                                                                                            <li><a title=""
+
+                                                                
+                                                                        href="/personal/m-pesa/getting-started/experience-m-pesa">
+
+                                                                    
+                                                                    Experience M-PESA</a>
+                                                                </li>
+                                                            
+                                                        </ul>
+                                                    </div>
+                                                    <!-- <div class="pane__items-all">
+                                                         <a href="javascript:void(0);">See More »</a>
+                                                     </div>-->
+                                                </div>
+                                            </div>
+                                        </li>
+                                                                                                            <li class="pane-list__item large-3 columns">
+                                            <div class="pane pane-block">
+                                                <div class="pane__image pane__image--small">
+                                                    <div class="responsive-image">
+                                                                                                                    <a 
+                                                                    href="/personal/m-pesa/lipa-na-m-pesa">
+
+                                                                                                                                <img src="//images/lipa-na-mpesa.jpg" class="image-replace"
+                                                                     alt="">
+                                                            </a>
+
+                                                                                                            </div>
+                                                </div>
+                                                <div class="pane__content">
+                                                    <h2 class="pane__title">
+                                                        <a class="pane__link" href="/personal/m-pesa/lipa-na-m-pesa">
+                                                            <span>Lipa Na M-PESA</span>
+                                                        </a>
+                                                    </h2>
+                                                    <div class="pane-link__items">
+                                                        <ul class="pane-items">
+
+                                                                                                                            <li><a title=""
+
+                                                                
+                                                                        href="/personal/m-pesa/lipa-na-m-pesa/what-is-lipa-na-m-pesa">
+
+                                                                    
+                                                                    What is Lipa Na M-PESA</a>
+                                                                </li>
+                                                                                                                            <li><a title=""
+
+                                                                
+                                                                        href="/personal/m-pesa/lipa-na-m-pesa/lipa-na-m-pesa-short-term-paybill">
+
+                                                                    
+                                                                    Lipa Na M-PESA Short Term Paybill</a>
+                                                                </li>
+                                                                                                                            <li><a title=""
+
+                                                                
+                                                                        href="/personal/m-pesa/lipa-na-m-pesa/lipa-na-m-pesa-bulk-payments">
+
+                                                                    
+                                                                    Lipa Na M-PESA Bulk Payments</a>
+                                                                </li>
+                                                                                                                            <li><a title=""
+
+                                                                
+                                                                        href="/personal/m-pesa/lipa-na-m-pesa/paybill">
+
+                                                                    
+                                                                    PayBill</a>
+                                                                </li>
+                                                                                                                            <li><a title=""
+
+                                                                
+                                                                        href="/personal/m-pesa/lipa-na-m-pesa/m-pesa-services">
+
+                                                                    
+                                                                    Other Lipa Na M-PESA Services</a>
+                                                                </li>
+                                                                                                                            <li><a title=""
+
+                                                                
+                                                                        href="/personal/m-pesa/lipa-na-m-pesa/m-pesa-1tap">
+
+                                                                    
+                                                                    M-PESA 1Tap</a>
+                                                                </li>
+                                                                                                                            <li><a title=""
+
+                                                                
+                                                                        href="/personal/m-pesa/lipa-na-m-pesa/m-pesa-web-system">
+
+                                                                    
+                                                                    M-PESA Web System</a>
+                                                                </li>
+                                                            
+                                                        </ul>
+                                                    </div>
+                                                    <!-- <div class="pane__items-all">
+                                                         <a href="javascript:void(0);">See More »</a>
+                                                     </div>-->
+                                                </div>
+                                            </div>
+                                        </li>
+                                                                                                            <li class="pane-list__item large-3 columns">
+                                            <div class="pane pane-block">
+                                                <div class="pane__image pane__image--small">
+                                                    <div class="responsive-image">
+                                                                                                                    <a 
+                                                                    href="/personal/m-pesa/m-pesa-legal">
+
+                                                                                                                                <img src="//images/mpesa-legal.jpg" class="image-replace"
+                                                                     alt="">
+                                                            </a>
+
+                                                                                                            </div>
+                                                </div>
+                                                <div class="pane__content">
+                                                    <h2 class="pane__title">
+                                                        <a class="pane__link" href="/personal/m-pesa/m-pesa-legal">
+                                                            <span>M-PESA Legal</span>
+                                                        </a>
+                                                    </h2>
+                                                    <div class="pane-link__items">
+                                                        <ul class="pane-items">
+
+                                                                                                                            <li><a title=""
+
+                                                                
+                                                                        href="/personal/m-pesa/m-pesa-legal/m-pesa-next-of-kin-claim">
+
+                                                                    
+                                                                    M-PESA Next of Kin Claim</a>
+                                                                </li>
+                                                                                                                            <li><a title=""
+
+                                                                
+                                                                        href="/images/Downloads/Personal/M-PESA/deed_of_amendment_to_declaration_of_trust_-_mpesa_account_holders.pdf">
+
+                                                                    
+                                                                    Deed of Amendment</a>
+                                                                </li>
+                                                                                                                            <li><a title=""
+
+                                                                
+                                                                        href="/mpesa_timeline/timeline.html">
+
+                                                                    
+                                                                    M-PESA Timeline</a>
+                                                                </li>
+                                                                                                                            <li><a title=""
+
+                                                                
+                                                                        href="/images/Downloads/Terms_and_Conditions/M-PESA_Trust_Deed_23.02.2007.pdf">
+
+                                                                    
+                                                                    Trust Deed</a>
+                                                                </li>
+                                                            
+                                                        </ul>
+                                                    </div>
+                                                    <!-- <div class="pane__items-all">
+                                                         <a href="javascript:void(0);">See More »</a>
+                                                     </div>-->
+                                                </div>
+                                            </div>
+                                        </li>
+                                                                                                            <li class="pane-list__item large-3 columns">
+                                            <div class="pane pane-block">
+                                                <div class="pane__image pane__image--small">
+                                                    <div class="responsive-image">
+                                                                                                                    <a 
+                                                                    href="/personal/m-pesa/do-more-with-m-pesa">
+
+                                                                                                                                <img src="//images/do-more-with-m-pesa.jpg" class="image-replace"
+                                                                     alt="">
+                                                            </a>
+
+                                                                                                            </div>
+                                                </div>
+                                                <div class="pane__content">
+                                                    <h2 class="pane__title">
+                                                        <a class="pane__link" href="/personal/m-pesa/do-more-with-m-pesa">
+                                                            <span>Do More With M-PESA</span>
+                                                        </a>
+                                                    </h2>
+                                                    <div class="pane-link__items">
+                                                        <ul class="pane-items">
+
+                                                                                                                            <li><a title=""
+
+                                                                
+                                                                        href="/personal/m-pesa/do-more-with-m-pesa/loans-and-savings">
+
+                                                                    
+                                                                    M-Shwari & KCB M-PESA</a>
+                                                                </li>
+                                                                                                                            <li><a title=""
+
+                                                                
+                                                                        href="/personal/m-pesa/do-more-with-m-pesa/m-pesa-global">
+
+                                                                    
+                                                                    M-PESA Global</a>
+                                                                </li>
+                                                                                                                            <li><a title=""
+
+                                                                
+                                                                        href="/personal/m-pesa/do-more-with-m-pesa/aliexpress-m-pesa">
+
+                                                                    
+                                                                    AliExpress M-PESA</a>
+                                                                </li>
+                                                                                                                            <li><a title=""
+
+                                                                
+                                                                        href="/personal/m-pesa/do-more-with-m-pesa/m-pesa-and-your-bank">
+
+                                                                    
+                                                                    M-PESA and Your Bank</a>
+                                                                </li>
+                                                                                                                            <li><a title=""
+
+                                                                
+                                                                        href="/personal/m-pesa/do-more-with-m-pesa/okoa-stima">
+
+                                                                    
+                                                                    Okoa Stima</a>
+                                                                </li>
+                                                                                                                            <li><a title=""
+
+                                                                
+                                                                        href="/personal/m-pesa/do-more-with-m-pesa/madaraka-express-ticket">
+
+                                                                    
+                                                                    Madaraka Express Ticket</a>
+                                                                </li>
+                                                                                                                            <li><a title=""
+
+                                                                
+                                                                        href="/personal/m-pesa/do-more-with-m-pesa/the-m-shwari-52-week-challenge">
+
+                                                                    
+                                                                    The M-Shwari 52 Week Challenge</a>
+                                                                </li>
+                                                                                                                            <li><a title=""
+
+                                                                
+                                                                        href="/personal/m-pesa/do-more-with-m-pesa/m-pesa-api">
+
+                                                                    
+                                                                    M-PESA API</a>
+                                                                </li>
+                                                                                                                            <li><a title=""
+
+                                                                
+                                                                        href="/personal/m-pesa/do-more-with-m-pesa/manage-your-m-pesa">
+
+                                                                    
+                                                                    Manage Your M-PESA</a>
+                                                                </li>
+                                                                                                                            <li><a title=""
+
+                                                                
+                                                                        href="/personal/m-pesa/do-more-with-m-pesa/m-pesa-tu">
+
+                                                                    
+                                                                    M-PESA Tu</a>
+                                                                </li>
+                                                                                                                            <li><a title=""
+
+                                                                
+                                                                        href="/personal/m-pesa/do-more-with-m-pesa/fuliza">
+
+                                                                    
+                                                                    Fuliza</a>
+                                                                </li>
+                                                                                                                            <li><a title=""
+
+                                                                
+                                                                        href="/personal/m-pesa/do-more-with-m-pesa/book-bus-tickets">
+
+                                                                    
+                                                                    Book Bus Tickets</a>
+                                                                </li>
+                                                            
+                                                        </ul>
+                                                    </div>
+                                                    <!-- <div class="pane__items-all">
+                                                         <a href="javascript:void(0);">See More »</a>
+                                                     </div>-->
+                                                </div>
+                                            </div>
+                                        </li>
+                                                                                                </ul>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+    		<div class="moduletable">
+						<div id="footer-page" class="module saf-footer">
+    <div class="module-stock stock--hightlight float-left">
+        <div class="row">
+            <div class="row">
+                <div class="large-10 columns">
+                    <div class="stock-content">
+                        <p class="float-left">Safaricom (SCOM)</p>
+                        <div class="stock-content__numbers float-left">
+    							<span class="stock-close stock-grid">
+    								<span class="close-number stock-numbers ">
+    									<span class="text-render">Close:</span>     								</span>
+    								<span class="close-percentage stock-numbers "></span>
+    							</span>
+    							<span class="stock-high stock-grid">
+    								<span class="high-number stock-numbers">
+    									<span class="text-render">HIGH:</span> KES     								</span>
+    							</span>
+    							<span class="stock-low stock-grid">
+    								<span class="low-number stock-numbers">
+    									<span class="text-render">LOW:</span> KES     									</span>
+    							</span>
+    							<span class="stock-shares stock-grid">
+    								<span class="share-number stock-numbers">
+    									<span class="text-render">SHARES TRADED:</span>     								</span>
+    							</span>
+                                <span class="stock-shares stock-grid">
+                                    <span class="share-number stock-numbers">
+                                        <span class="text-render">TIME:</span>                                     </span>
+                                </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="large-2 columns">
+                    <div class="stock-content">
+                        <div class="stock-investor">
+                            <div class="stock-investor__link">
+                                <a href="https://www.safaricom.co.ke/investor-relation">
+                                    <span>Investor Relations »</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="content-footer saf-footer-nav saf-footer-grey float-left">
+        <div class="row">
+            <div class="row">
+
+                                                                                                                                                                
+                <div class="large-2 columns">
+                    <div class="saf-footer-links">
+                        <h3>Personal</h3>
+                        <ul>
+                                                <li><a href="/personal/plans/">Plans</a></li>
+                                                <li><a href="/personal/plans/prepay">PrePay</a></li>
+                                                <li><a href="/personal/internet/getting-connected/don-t-wait-do-things-safaricom-4g">Safaricom 4G</a></li>
+                                                <li><a href="/personal/m-pesa/getting-started/m-pesa-rates">M-PESA Rates</a></li>
+                                            </ul>
+                    </div>
+                </div>
+
+                                                                                                                                                                                    
+                <div class="large-2 columns">
+                    <div class="saf-footer-links">
+                        <h3>Business</h3>
+                        <ul>
+                                                <li><a href="/business/sme/">SME</a></li>
+                                                <li><a href="/business/corporate/">Corporate</a></li>
+                                                <li><a href="/business/government/ecitizen/ecitizen">eCitizen</a></li>
+                                                <li><a href="/business/corporate/m-pesa-payment-services/lipa-na-m-pesa-paybill">M-PESA Payment Services</a></li>
+                                            </ul>
+                    </div>
+                </div>
+
+                                                                                                                                                                                    
+                <div class="large-2 columns">
+                    <div class="saf-footer-links">
+                        <h3>About Us</h3>
+                        <ul>
+                                                <li><a href="/about/about-safaricom/who-we-are/senior-management">Our Leadership</a></li>
+                                                <li><a href="/about/about-safaricom/career/why-safaricom">Careers</a></li>
+                                                <li><a href="/safaricom-service-charter">Customer Service Charter</a></li>
+                                                <li><a href="/about/transforming-lives/the-foundations/safaricom-foundation">Safaricom Foundation</a></li>
+                                            </ul>
+                    </div>
+                </div>
+
+                                                                                                                                                                                    
+                <div class="large-2 columns">
+                    <div class="saf-footer-links">
+                        <h3>Investor Relations</h3>
+                        <ul>
+                                                <li><a href="/investor-relation/stocks/analysts/analyst-coverage">Analysts Coverage</a></li>
+                                                <li><a href="/investor-relation/financials/reports/investor-calendar">Investor Calendar</a></li>
+                                                <li><a href="//investor-relation/stocks/share-price/share-price-performance">Share Price Performance</a></li>
+                                                <li><a href="/investor-relation/financials/reports/annual-reports">Annual Reports</a></li>
+                                            </ul>
+                    </div>
+                </div>
+
+                                                                                                                                                                                    
+                <div class="large-2 columns">
+                    <div class="saf-footer-links">
+                        <h3>FAQs</h3>
+                        <ul>
+                                                <li><a href="/index.php/faqs/faq/44">Roaming Abroad</a></li>
+                                                <li><a href="/index.php/faqs/faq/286">Buying Data Bundles</a></li>
+                                                <li><a href="/index.php/faqs/faq/273">M-Shwari</a></li>
+                                                <li><a href="/index.php/faqs/faq/237">Safaricom Guarantee</a></li>
+                                            </ul>
+                    </div>
+                </div>
+
+                                    
+                <div class="large-2 columns">
+                    <div class="saf-footer-links">
+                        <ul>
+                            <li><a href="/about/media-center/publications/terms-and-conditions">Terms & Conditions</a></li>
+							<li><a href="/images/Downloads/Terms_and_Conditions/C1_Safaricom_Data_Privacy_Statement.pdf">Data Privacy Statement </a></li>
+                            <li><a href="https://twitter.com/SafaricomPLC" target="_blank">Follow Us On Twitter </a></li>
+                            <li><a href="https://www.facebook.com/SafaricomPLC/" target="_blank">Follow Us On Facebook</a></li>
+                            <!-- <li>
+                                <div class="fb-like" data-href="https://www.facebook.com/SafaricomLtd" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+                            </li> -->
+
+
+
+                            <!-- Place this tag where you want the widget to render. -->
+
+                            <!--  <button class="back-top">Back to top</button> -->
+                        </ul>
+                    </div>
+
+                    <div class="footer-page__chatback float-right">
+                        <div class="content">
+                            <div class="chat-module">
+                                <a title="Live chat" href="#" onclick="window.open ('https://selfcare.safaricom.co.ke/system/templates/chat/safaricom/chat.html?entryPointId=1002&templateName=safaricom&languageCode=en&countryCode=US&ver=v11&authenticated=false','myChatWindow', 'menubar=0,resizable=1,width=350,height=250');return false ;">
+                                    <span class="chat-icon"></span>
+                                    <div class="chat-text">Chat</div>
+                                </a>
+                            </div>
+                            <div class="back-top">
+                                <a class="animated" title="Back to top" href="javascript:void(0);"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+		</div>
+	
+    
+<script defer type="text/javascript" src="/templates/safaricommain/js/lib/jquery.flexslider-min.js"></script>
+<script defer type="text/javascript" src="/templates/safaricommain/js/lib/jquery.sticky-kit.min.js"></script>
+<script defer type="text/javascript" src="/templates/safaricommain/js/lib/jquery.matchHeight.js"></script>
+<script defer type="text/javascript" src="/templates/safaricommain/js/lib/jquery-ui.js"></script>
+<script defer type="text/javascript" src="/templates/safaricommain/js/safmain.js"></script>
+<script defer type="text/javascript"  src="/templates/safaricommain/js/saffunctions.js"></script>
+<script defer type="text/javascript"  src="/templates/safaricommain/js/footer.min.js"></script>
+<!-- <script defer type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+<script src="//assets.adobedtm.com/launch-ENf98b75ba4eef4d3790853c0a7f9e8c44-development.min.js" async defer></script>
+<noscript> <img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=460833&fmt=gif" /> </noscript> -->
+
+    
+
+
+
+</div>
+</body>
+</html>
+
+
+
+
+

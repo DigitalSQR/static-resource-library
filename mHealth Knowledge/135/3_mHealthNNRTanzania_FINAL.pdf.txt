@@ -1,0 +1,711 @@
+mHEALTH AND 
+NEONATAL RESUSCITATION
+Opportunities to Increase Adoption and Utilization of Neonatal 
+Resuscitation Equipment, Using Mobile Health in Tanzania
+Hima Batavia
+March 2014
+Prepared for the United Nations Commission 
+on Life-Saving Commodities Neonatal  
+Resuscitation Technical Reference Team
+Acknowledgements
+We would like to thank the United Nations Commission for Life Saving Commodities for Women 
+and Children for their support in advancing the use of mobile technology to improve the adoption 
+and utilization of neonatal resuscitation equipment to prevent perinatal deaths from complications 
+of birth asphyxia. 
+This work would not have been possible without the generous contributions and insights from 
+key government, public health, and telecommunication stakeholders in Tanzania, including: Janita 
+Ferentinos, CDC Foundation; Asia Kassim Hussein, UNICEF; Dunstan Bishanga, Erica Thomas, and 
+Gaudiosa Tibaijuka, JHPIEGO; Christopher Awinia, PRAXIS Research; Dr. Mohammed Makame, 
+PATH; Lucy Fulgence Silas, D-Tree International; Waziri Nyoni, John Hopkins University Center for 
+Communication Programs; Roland Van de Ven and Chrispine Kimario, Elizabeth Glaser Pediatric 
+AIDS Foundation; Marasi Mwencha, John Snow International; Colin Spurway, BBC Media Action; 
+Mustafa Kudrati and Benjamin Mrema, Pathfinder International; Dr. Mwendwa Mwenesi, Tanzania 
+Ministry of Health and Social Welfare; Dr. Augustine Massawe, Muhimbili University of Health and 
+Allied Sciences; and Woinde Shisael, TIGO. 
+Lastly, we would like to thank Nicolette Davis for her research support, and the mHealth Alliance 
+for their strategic guidance and oversight in leading this analysis, specifically, Dr. Patricia Mechael, 
+Madhu Deshmukh, William Philbrick, and Avrille Hanzel. 
+We hope this report serves as a starting point for using mobile technology to advance existing gov-
+ernment and partner efforts in reducing deaths from complications of birth asphyxia in Tanzania, 
+and giving more newborns a chance at life.
+The report was designed by Eighty2degrees, LLC. 
+ 
+PHOTO CREDITS: 
+David Isaak: 29; Kiwanja: page 13, 21; Josh Nesbit: page 18, 22; Chelsea Solmo: cover, 8, 10, 12, 15, 16, mHEALTH AND 
+23, 25, 26, 30, 32, 33, and DataDyne: page 9, 11, 14, 17, 24. NEONATAL RESUSCITATION
+Opportunities to Increase Adoption and Utilization of 
+Neonatal Resuscitation Equipment, Using Mobile Health  
+in Tanzania
+Hima Batavia
+March 2014
+Executive Summary
+The United Nations Life Saving Commodities Commission (UNCoLSC) for Women and Children Given the nature of birth asphyxia, and neonatal resuscitation, mHealth solutions during labor were 
+was established in 2012 to support increased adoption and utilization of 13 commodities that have found to be inappropriate. However, significant opportunities to collaborate and leverage existing 
+the potential to prevent a significant number of maternal, newborn and child deaths. As part of mHealth efforts that focus on antenatal and post-natal care were identified. This includes:
+these efforts, the UNCoLSC has recognized the potential for mobile technology to support its goal, 
+given the high penetration and utilization of mobile phones in low- and middle-income countries  A  Caregiver Messaging: Preparing caregivers of pregnant women, such as husbands, mothers 
+(LMICs). The mHealth Alliance, in collaboration with the UNCoLSC, has undertaken select research and mothers-in-law, through existing SMS health education programs, to recognize key risk 
+projects to explore the potential of mobile technology to improve the adoption and utilization of signs of birth asphyxia and to demand action from providers through existing SMS health 
+the 13 commodities. education programs
+Neonatal resuscitation equipment, used to prevent deaths from complications related to birth  B  Provider Refresher Training: Using mobile technology to send reminder and/or refresher 
+asphyxia, is one of these commodities. In 2013, a global review of opportunities for mHealth to sup- training content to providers on neonatal resuscitation techniques and protocols 
+port neonatal resuscitation was conducted. Following this review, Tanzania was selected as a focus 
+country for deeper analysis.  C  Intelligent Referrals: Utilizing existing mHealth clinical decision support tools for CHWs to 
+help them recognize risk signs and factors that would predispose a pregnant woman to deliver 
+In February 2014, a literature review and country visit was led by Hima Batavia and Nicolette Davis to a newborn with birth asphyxia, in order to initiate more “intelligent referrals,” that trigger 
+understand: the scope of birth asphyxia in Tanzania; the current adoption and utilization of neonatal providers at facilities to adequately prepare 
+resuscitation equipment; government priorities and key stakeholders supporting the prevention 
+of deaths from complications related to birth asphyxia; and opportunities for mHealth to improve  D  Supply Chain Management: Leveraging existing mHealth reporting tools to track the 
+identified gaps and barriers in the system. availability and performance of neonatal resuscitation equipment, in addition to the status 
+of order fulfillment 
+The research found significant government support for improving the adoption and utilization of 
+neonatal resuscitation equipment, specifically through the national rollout of the Helping Babies  E  Patient and Death Registration: Drawing from efforts utilizing mobile technology for birth 
+Breathe (HBB) program. As of January 2014, the HBB program has achieved one-third of its goal of registration, including reports of whether a newborn required neonatal resuscitation or died 
+training 14,000 health providers across regional hospitals, district hospitals, facilities and faith based from a lack of neonatal resuscitation, in order to better understand and respond to the utili-
+organizations, in 18 of the 30 regions in the country. This roll-out has been made possible by donor zation of neonatal resuscitation equipment more critically
+support from the Children’s Investment Fund Foundation (CIFF) and implementation support from 
+non-governmental organizations (NGOs), including JHPIEGO and UNICEF. As a next step, the UNCoLSC should initiate efforts to collaborate with the mHealth coordinator at 
+the MOHSW, and leading non-profit organizations in Tanzania, to ensure the interests of increasing 
+Further, the review found an active and collaborative environment for utilizing mobile technology access to neonatal resuscitation equipment are integrated into existing mHealth programs. 
+to strengthen Tanzania’s public health system. The government has appointed an mHealth coordi-
+nator at the national level who leads a community of practice that invites international non-profit 
+organizations to meet quarterly to present ideas for new mHealth solutions, share experiences and 
+identify opportunities to collaborate. This forum contributes to reducing a duplication of efforts and 
+maximizing impact. 
+Acronyms and Abbreviations Table of Contents
+AMBU Artificial mask and breathing unit Acknowledgements ............................................................................................................................................................. 2
+CHW Community Health Worker Executive Summary .............................................................................................................................................................4 
+EmOC Emergency Obstetric Care Acronyms and Abbreviations ..........................................................................................................................................6
+mHealth Mobile health
+HBB  Helping Babies Breathe 1 Context ...................................................................................................................... 9
+HIV Human immunodeficiency virus
+IMCI Integrated Management of Childhood Illness 2 Methodology ............................................................................................................11
+IVR Interactive voice response 
+JSI John Snow International 3 Background .............................................................................................................13
+LMIC Low and middle income countries 
+MDG Millennium Development Goal 
+4 Current Situation of Enabling Environment .....................................................16MNCH  Maternal, Newborn, and Child Health
+MOHSW  Ministry of Health and Social Welfare (Tanzania) Policy Environment ........................................................................................................................................ 16
+NGO Non-governmental organization Service Delivery ............................................................................................................................................... 19
+PMTCT Prevention of Mother to Child Transmission Product Portfolio ............................................................................................................................................ 20
+SADC  Southern African Development Community Supply Chain Management ........................................................................................................................ 20
+SMS Short messaging service Telecom Environment .....................................................................................................................................21
+TCRA  Tanzanian Communications Regulatory Authority
+UNCoLSC United Nations Life Saving Commodities Commission for Women and Children 5 mHealth Opportunities ........................................................................................24
+UNICEF  United Nations Children’s Fund mHealth in Tanzania .......................................................................................................................................24
+mHealth for Neonatal Resuscitation........................................................................................................27
+6 Conclusions .............................................................................................................33
+Appendix A. Interview Guide ....................................................................................................................................... 34
+Appendix B. Stakeholder List  ...................................................................................................................................... 36
+References .............................................................................................................................................................................37
+9
+1
+The United Nations Commission for Life Saving Context
+Commodities for Women and Children (UNCoLSC) 
+was established in 2012 to increase access to life-saving medicines and health 
+supplies for vulnerable populations in low- and middle-income countries (LMICs). 
+A selection of 13 commodities were identified and analyzed to understand the 
+gaps and barriers preventing widespread adoption and utilization. 
+This analysis revealed an opportunity to leverage the ubiquity and utility of 
+mobile technology in LMICs to support increased access to the 13 commodities, 
+by improving patient knowledge, provider skills, care coordination, and supply 
+chain management, among other applications. 
+The mHealth Alliance has since undertaken a series of research efforts to identify 
+opportunities for mobile technology to support the goals of the UNCoLSC. In 
+December 2013, a global review of opportunities for mobile health (mHealth) 
+to support the adoption and utilization of neonatal resuscitation equipment, to 
+prevent deaths from birth asphyxia, was conducted (1). Based on initial findings 
+of this review, Tanzania was selected as a focus country for a deeper analysis 
+on the current landscape for neonatal resuscitation equipment. 
+In February 2014, a literature review and field visit to Tanzania was conducted 
+by Hima Batavia and Nicolette Davis to understand: the scope of birth asphyxia 
+THE OPPORTUNITY EXISTS in Tanzania; the current adoption and utilization of neonatal resuscitation equipment; government priorities and key stakeholders supporting the 
+TO LEVERAGE THE UBIQUITY prevention of deaths from complications related to birth asphyxia; and opportunities for mHealth to improve identified gaps and barriers in the system. 
+AND UTILITY OF MOBILE This report outlines the findings from the research and aims to serve as a 
+TECHNOLOGY TO IMPROVE foundation for informing the development of a country strategy.
+POPULATION HEALTH.
+11
+2
+To understand the current landscape of neonatal Methodology
+resuscitation equipment in Tanzania and the barriers 
+to adoption and utilization, a literature review, combined with semi-structured 
+interviews with key stakeholders, was conducted in February 2014. 
+The literature review included an analysis of peer-reviewed articles and grey 
+literature published between 2009 and 2013. The analysis of peer-reviewed 
+literature focused on birth asphyxia, neonatal resuscitation and mHealth 
+in Tanzania, and it was conducted using two key databases: PubMed and 
+Google Scholar. Established search terms for the literature review included 
+“neonatal resuscitation in Tanzania,” “newborn resuscitation in Tanzania,” 
+“birth asphyxia in Tanzania,” “neonatal resuscitation devices in Tanzania,” 
+“neonatal resuscitation training in Tanzania,” “mobile health in Tanzania,” 
+“mHealth in Tanzania,” “mHealth and neonatal resuscitation in Tanzania,” and 
+“mHealth and maternal health in Tanzania”. Grey literature, including mHealth 
+case studies in Tanzania and program descriptions, were reviewed from the 
+following knowledge management portals: Mobile Development Intelligence, 
+mHealth Working Group, Center for Market Innovations, and Health Unbound. 
+Overall, 23 articles were identified and 16 were selected for further analysis.
+A METHOD WAS DEVELOPED Interviews with stakeholders were conducted using a snowball methodology. 
+Overall, 18 stakeholders from 14 organizations in the governmental, public and 
+TO UNDERSTAND NEONATAL private sectors were interviewed. The interview guide and list of stakeholders can be found in the Appendix.
+RESUSCITATION EQUIPMENT IN This report is both a synthesis and analysis of the findings from the literature 
+TANZANIA AND THE BARRIERS review and stakeholder interviews.
+TO ITS ADOPTION AND 
+UTILIZATION.
+12 mHEALTH AND NEONATAL RESUSCITATION 13
+3
+Over the last two decades, Tanzania has made signifi- Background
+cant strides in reducing its child mortality rate. However, 
+in contrast, its newborn mortality rate has remained almost constant over the 
+same period of time. Nearly 30% of all child deaths under the age of five are 
+attributed to newborn deaths (2), hindering efforts made to achieve Millennium 
+Development Goal (MDG) 4 by 2015.
+Additionally, the causes of neonatal deaths in Tanzania have not changed over 
+the past decade, with the highest risks occurring within the first 24 hours of 
+birth. Neonatal infections (approximately 30%), preterm births (approximately 
+30%) (3), and complications related to birth asphyxia (between 27-30%) (4) still 
+account for the top three causes of neonatal deaths.
+Complications related to birth asphyxia and the failure to initiate spontaneous 
+respirations account for approximately 15,000 neonatal deaths annually in 
+Tanzania (5). Several interwoven reasons explain these sobering statistics, includ-
+ing: birth asphyxiation not historically being a national priority; an insufficient 
+number of skilled providers due to localized training and poor provider target-
+ing; and a lack of available equipment to initiate resuscitation (6). Further, weak 
+systems for qualifying and capturing the causes of perinatal deaths, combined 
+BIRTH ASPHYXIA AND FAILURE with fears of job termination, indicate that the number of asphyxia-related 
+deaths may be higher (7). For instance, the definition of “birth asphyxia” is often 
+TO INITIATE SPONTANEOUS mired by the use of the Apgar score, which is the method used to identify birth asphyxia, but is oftentimes reported to be inaccurate (8). Additionally, low rates 
+RESPIRATIONS ACCOUNT FOR of skilled birth attendants, coupled with high rates of home delivery, make new-born deaths and causes of death difficult to register (9). Since many neonatal 
+APPROX. 15,000 NEONATAL deaths are not reported or are misclassified as fresh stillbirths, it is difficult to draw a true estimation of birth asphyxiation-related deaths (10). 
+DEATHS ANNUALLY IN As a result, reducing birth-asphyxiation-related deaths requires a multi-faceted 
+approach that includes enabling and encouraging facility-based deliveries, 
+TANZANIA. the presence of skilled providers, the availability of appropriate equipment, 
+14 mHEALTH AND NEONATAL RESUSCITATION METHODOLOGY 15
+as well as the ability to register and The results of this program led the 
+document deaths with ease. Studies government of Tanzania to support 
+have shown that resuscitation is one of a national rollout of HBB, which is 
+the most cost-effective interventions to currently underway in the country and 
+reduce neonatal mortality (11). is the flagship program for addressing 
+asphyxiation-related deaths (13). 
+In 2009, the Tanzanian Ministry of Health 
+piloted the Helping Babies Breathe Further, over the years, surveys have 
+(HBB) program, which is an evidence- been conducted to assess the availabil-
+based curriculum to teach neonatal ity of appropriate neonatal resuscitation 
+resuscitation techniques in resource- equipment (14) in hospitals and health 
+limited areas. The program places a centers across Tanzania. Studies taken 
+strong emphasis on the “Golden Minute” place between 2007 and 2010 have 
+following birth to restore spontaneous found high rates of available neona- MOBILE TELEPHONY HAS 
+respirations, combined with a one-day tal resuscitation equipment at district 
+program that utilizes simulation-based hospitals (90-100%) (15, 16, 17), whereas 
+training to teach health providers health centers and dispensaries were BECOME THE FASTEST 
+essential skills (12). The program was found to have lower rates of availabil-
+implemented in eight hospitals between ity (57-69%) (18). In a six-district study GROWING MEDIA TECHNOLOGY 
+September 2009 and March 2012, and conducted in 2009, drugs used for 
+it resulted in a statistically significant resuscitation, such as adrenaline, were IN TANZANIA. APPROX.  
+reduction in neonatal deaths, rates of available but not administered due to 
+fresh stillbirths and use of facemask a lack of trained personnel (19). 90% OF HOUSEHOLDS HAVE 
+ventilation, in addition to an increase 
+in the use of stimulation and suctioning. ACCESS TO A MOBILE PHONE.
+16 CURRENT SITUATION OF ENABLING ENVIRONMENT 17
+4
+Current 
+Situation 
+of Enabling hospitals due to a lack of space, funding conducting 40 master trainings at prom-
+Environment and prioritization. To rectify this gap inent hospitals in the country
+ (26). As of 
+In order to identify both feasible and high impact and ease implementation, the MOHSW January 2014, the HBB program has 
+mHealth opportunities in Tanzania, it is crucial to assess prioritized newborn health in the district achieved one-third of its goal of training 
+1) the current status of the environment that is critical to enabling a reduction in health plan and outlined intentions to 14,000 health providers across regional 
+asphyxiation-related deaths and 2) the usage of mobile technology to improve offer district hospitals lacking neonatal hospitals, district hospitals, facilities 
+the adoption and utilization of preventative medical equipment. This section units the opportunity to consult with and faith based organizations, in 18 of 
+outlines the key components of the enabling environment, including policy, those that already had such units. the 30 regions in the country. This has 
+service delivery, product, supply chain management and telecommunications. been made possible by donor support 
+Finally, the MOHSW also identified from the Children’s Investment Fund 
+the poor condition of newborn health Foundation (CIFF) and implementation 
+Policy Environment data as a barrier to reducing neonatal support from non-governmental orga-
+mortality. The MOHSW reported that a nizations (NGOs), including JHPIEGO 
+National Strategy weak recording system, lack of trained and UNICEF. These organizations are 
+personnel, and unrecorded deaths leading the trainings, in addition to 
+In April 2008, the Ministry of Health and Social Welfare (MOHSW) in Tanzania, during home deliveries were all key managing procurement and distribution 
+launched the National Road Map Strategic Plan To Accelerate Reduction of contributing factors to the poor state of neonatal resuscitation equipment. 
+Maternal, Newborn and Child Deaths in Tanzania (20), which is known as “one of newborn health data. To strengthen They also conduct follow-up visits 4-6 
+plan” amongst partners. The seven-year plan calls for a system-wide approach the quantity and quality of newborn weeks after training to check skill levels 
+to improving newborn health, including in-service training on essential new- health data, the MOHSW laid plans to and assess the readiness of a facility 
+born care, availability of neonatal resuscitation equipment at all dispensaries, review and audit facility registers more to fully adopt the capacity to deliver 
+facilities and hospitals, and a neonatal essential equipment and supplies list (21). frequently and institute verbal autop- neonatal resuscitation care (27). 
+sies at the community level (24). 
+At the time of the plan’s launch, the MOHSW reported a total lack of basic In spite of this large-scale effort, a 
+essential newborn care with resuscitation equipment, like Artificial Manual Helping Babies Breathe Program 2010 study aimed at determining the 
+Breathing Unit (AMBU) bags and oxygen, at primary and secondary facilities effect of the HBB training program on 
+in the country. As a result, the stated goal was to equip all labor wards in the Following the situational analysis, the the skills and management strategies 
+country with facilities to care for neonates by 2015 (22). MOHSW reinforced birth asphyxia as of trained providers found that seven 
+a priority area for reducing neonatal months after the program, performance 
+In 2009, the MOHSW conducted a situational analysis of newborn health in mortality and committed to launching improved when tested under a simu-
+the country. This analysis identified poor procurement processes and a lack the HBB program nationally to train lated setting, but did not translate to 
+of health care personnel trained in newborn care and resuscitation as the key and teach newborn resuscitation to delivery room management. The aver-
+causes of limited adoption and utilization of neonatal resuscitation equipment(23). healthcare providers (25). The program age time it took a provider to initiate 
+Further, the MOHSW recognized a deficiency of neonatal units within district launched in September 2009 as a pilot, facemask ventilation from birth actually 
+18 mHEALTH AND NEONATAL RESUSCITATION CURRENT SITUATION OF ENABLING ENVIRONMENT 19
+the COP is currently in the process of Maternal and child health aids and tradi-
+harmonizing strategies and efforts to tional birth attendants have historically 
+release a unified document. Establishing supported pregnant women in antena-
+an mHealth technical working group to tal and post-natal care and coordinating 
+drive the implementation of the strategy referrals to facilities during delivery. 
+will follow. A key goal of the mHealth However, these groups are now largely 
+strategy and guidelines will be to man- being phased out of the government 
+date that the mHealth coordinator vet health system and being replaced with 
+all new programs as part of the approval higher cadres (34). Further, Community 
+process. Currently, many mHealth pro- Health Workers (CHWs), who also 
+grams are still being solely approved support in taking a patient’s medical 
+by relevant disease departments in the history, antenatal care, and post-natal 
+MOHSW, leading to multiple programs care, are not considered government 
+being implemented and phones being employees, but rather volunteers, who 
+distributed at a single facility (30). in some cases receive salaries from 
+NGO programs. The government has 
+increased in the period after HBB train- established to improve coordination recently requested that NGOs hire 
+ing. The authors of the study point to and knowledge sharing amongst global Service Delivery and train CHWs who have completed 
+limited resources, high staff turnover, health partners leading mHealth pro- a secondary education, to ease the pro-
+varying staff educational backgrounds, grams, and the MOHSW has adopted an According to the national standard cess of eventually absorbing the CHWs 
+and limited ongoing training and local mHealth disease surveillance program guidelines, nursing officers and nurse into the government system (35). While 
+mentoring as reasons for the decline in from the CDC Foundation. midwives are responsible for identify- these cadres are not directly involved in 
+performance (28). ing and initiating basic resuscitation addressing birth asphyxiation, they may 
+The mHealth COP meets quarterly and (suctioning, provision of supplementary have a role in identifying women at-risk 
+This finding suggests that, while the provides a venue for existing and new oxygen) in the case of birth asphyxia of delivering an asphyxiated newborn 
+national rollout of the HBB program partners to present mHealth program during delivery, while doctors are due to predisposing factors, and then 
+is a significant achievement, consis- ideas to enable collaboration and reduce responsible for performing advanced sending appropriate information to 
+tent monitoring, refresher training, and duplication of efforts. Further, partners neonatal resuscitation (such as insertion referral facilities during delivery. 
+retraining for new staff may be required have an opportunity to share results on of an endotracheal tube) (31). However, 
+to realize the desired results. mHealth programs in operation, as well in practice, especially in rural areas Training health cadres on neonatal 
+as experiences with technologies and where there is a dearth of qualified resuscitation techniques remains a key 
+Mobile Health Strategy technology providers (29). personnel, clinical officers and medi- intervention to improve the adoption 
+cal attendants may also be involved in and utilization of preventative equip-
+In 2011, the MOHSW appointed Dr. Last year, the COP developed a national delivery (32). Nevertheless, data from the ment. A 2008 study found that 60% 
+Mwendwa Mwenesi as the national mHealth strategy to more systemati- HBB program, which is implemented as of nurse midwives had between 0 to 5 
+mHealth coordinator, signaling that the cally guide the country’s activities and a “train-the-trainer” model (33), shows years of neonatal care training and only 
+approach of using mobile technology processes for introducing new mHealth that to date nurses and nurse midwives 19% had training on the guidelines for 
+to strengthen its public health system programs in Tanzania. However, in par- are the most common cadres trained neonatal care (36). 
+is a significant priority for Tanzania. allel, a national eHealth strategy was on the protocol. 
+Since then, a national mHealth strat- released, which sits under a separate 
+egy has been developed, an mHealth government department. With the belief 
+community of practice (COP) has been that mHealth is a subset of eHealth, 
+20 mHEALTH AND NEONATAL RESUSCITATION CURRENT SITUATION OF ENABLING ENVIRONMENT 21
+Product Portfolio Supply Chain 
+Management
+As part of the HBB program, all facilities 
+trained on the protocol receive neonatal JHPIEGO worked with Tanzania’s 
+resuscitation equipment, which is being Medical Supply Department (MSD) to The current challenge with the supply collected and restricted access to the 
+procured and distributed by JHPIEGO facilitate procurement of the Laerdal chain system in Tanzania is the discrep- data collected, reducing the ability of 
+and funded by CIFF. products by sharing specifications to ancy between orders and fulfillment. organizations to mobilize and respond 
+sensitize the team on neonatal resus- Zonal warehouses often fulfill orders to stock-outs (41).
+The equipment that is procured is citation equipment and outlining size based on what is available, rather than 
+developed and manufactured by requirements. Though the country typ- what is requested by a facility. Typically, 
+Laerdal, a global medical supplies ically operates on a “pull” system from a record of this discrepancy is not kept, Telecom Environment
+company. Depending on the type facilities for ordering and distributing and consequently impacts future projec-
+of facility, a precise quantity of sili- medical commodities, JHPIEGO is cur- tions of health commodities, which are While radio was historically the most 
+cone resuscitators and masks in size rently “pushing” neonatal resuscitation based on fulfillment numbers rather than effective communication tool in 
+0 and 1, penguin suction devices, and equipment to health facilities to lubri- request numbers. This limitation can Tanzania, as recently as 2005, mobile 
+NeoNatalie kits for simulated training cate the system and generate demand. significantly jeopardize the consistent telephony has become the most visible 
+are distributed. For instance, dispen- availability of a health commodity (39). and fastest growing media technology 
+saries receive 2 silicone resuscitators On a recent supportive supervision in the country. As of September 2013, 
+and 2 masks of each size, 3 penguin visit to 16 facilities, JHPIEGO found that Stock-outs of medical commodities there were 26,855,735 mobile phone 
+suction devices and 1 NeoNatalie kit, orders of penguin suction devices were still remain a significant challenge in subscribers in the country, a penetration 
+whereas district hospitals receive 6 not being fulfilled due to a historical stock Tanzania, and many program efforts rate of approximately 60% (42, 43). While 
+silicone resuscitators and 3 masks in of the previously used foot operated to generate demand for health services formal research has not been conducted 
+each size, 20 penguin suction devices product, which research has shown is and products are constantly confronted to survey the percent of health providers 
+and 3 NeoNatalie kits (37). considered to be less effective (38). This by this barrier to progress. According in Tanzania that own a mobile phone, the 
+indicates that the supply chain system to the Consumer Forum on Medicines perception amongst stakeholders is that 
+still requires further strengthening to and Diagnostics (COFMED), a civil soci- between 80-90% of health providers 
+ensure a consistent and reliable supply ety organization under the Southern own a basic handset (44, 45, 46). Further, 
+of neonatal resuscitation equipment. Africa Regional Program on Access to while mobile penetration is 60%, approx-
+Medicines (SARPAM), effective planning imately 90% of households have access 
+versus availability is the key problem. In to a mobile phone through family and 
+NEONATAL RESUSCITATION EQUIPMENT general, central warehouses have nearly community members (47).
+six months of buffer stock for essential 
+medicines, but delays in ordering, dis- Tanzania registers the highest average 
+tribution and inaccurate data to inform number of text messages sent per 
+forecasting exercises limit efficient allo- month per subscriber in East Africa. 
+cation of the stock (40). In 2012, almost 5 billion text messages 
+were sent and received, and between 
+The impact of current efforts to manage April and June 2013, the average user 
+stock-outs has been limited to report- sent 237 text messages. In general, the 
+ing the scope of the problem, rather average user spends approximately 
+FIGURE 1. Neonatal resuscitation equipment manufactured by Laerdal and distributed to dispensaries, than action and response. This is due to 25,000 ksh a month on mobile phone 
+facilities and district hospitals in Tanzania as part of the Helping Babies Breathe program. delays in relaying and processing data minutes and text messages. 
+22 mHEALTH AND NEONATAL RESUSCITATION
+The use of mobile data and Internet is However, according to stakeholders, 
+still nascent in the country. As of 2010, network coverage in rural areas and 
+there were approximately 2.21 million health facilities can still be a significant 
+mobile Internet users, a penetration rate challenge when implementing mHealth 
+of about 5%, and as of December 2012, programs reliant on GPRS or broad-
+smartphone penetration was approxi- band connectivity (52, 53, 54, 55). 
+mately 13% (48). While the TCRA reports 
+that the number of all Internet users is In fact, the Tanzanian government, in 
+increasing at approximately 24% per year, collaboration with the World Bank, 
+it currently does not track penetration in recently announced a large subsidy to 
+its quarterly reporting activities  (49). improve network infrastructure in rural 
+areas, and awarded Vodacom, Zantel, 
+The leading mobile service providers Airtel and Tigo tenders to facilitate 
+in the country include Vodacom (36%), development (56).
+Airtel (32%), Tigo (24%), Zantel (7%) 
+and Benson (1%) (50). All telecommunica- Both Tigo and Vodacom are especially 
+tion providers offer discounts for calls active in the mHealth sector, working 
+or text messages between members with NGO partners through their MOBILE PHONES OFFER 
+to improve user loyalty. Users often foundations and CSR departments to 
+receive discount offers that give them support programs and participating in 
+the opportunity to buy larger amounts the mHealth COP (57). AN UNPRECEDENTED 
+of credit, calls or text messages at a 
+lower price. OPPORTUNITY TO ADDRESS 
+As a result of high penetration, avail- INFORMATION ASYMMETRIES 
+ability of mobile devices and knowledge 
+about the use of the devices, Tanzania AND GAPS IN CONNECTIVITY 
+was identified as fertile ground for 
+mHealth solutions in a 2012 survey (51). WITHIN A HEALTH SYSTEM.
+24 mHEALTH OPPORTUNITIES 25
+5
+mHealth workers are often initially resistant in Tanzania. “Healthy Pregnancy, Healthy to mHealth solutions due to a per- Baby” is working in collaboration with 
+Opportunities ception that it will require additional the MOHSW and other key partners, work. However, programs have found including: the Elizabeth Glaser Pediatric 
+that CHWs eventually find that using AIDS Foundation (EGPAF) on Prevention 
+mHealth solutions makes their life eas- of Mother to Child Transmission (PMTCT) 
+mHealth in Tanzania ier, especially when it involves monthly of HIV; PATH on immunization messag-
+reporting requirements. ing; and the John Hopkins University 
+There is significant mHealth activity across Tanzania, largely being led by Center for Communication Programs 
+international NGO partners, in collaboration with the MOHSW. The majority Further, there is strong indication of (JHUCCP) on its Safe Motherhood 
+of mHealth solutions focus on patient education, CHW support tools, supply collaboration amongst partners to cre- Campaign. Partners provide support 
+chain management and disease surveillance that support goals related to ate more integrated and comprehensive to the program by developing content 
+maternal and child health or reproductive health. While CHW support tools mHealth solutions. For instance, D-Tree and training CHWs to recommend the 
+are still largely in pilot stages, patient education, supply chain management International and Pathfinder have cre- program to pregnant women and enroll 
+and disease surveillance solutions have achieved regional and national scale. ated an mHealth tool that supports them (61). Currently, telecommunication 
+This discrepancy may be a function of technology choice. Patient education, CHWs to assist patients in making companies, such as Airtel, are support-
+supply chain management and disease surveillance tools are largely utilizing family planning decisions. The tool has ing “Healthy Pregnancy, Healthy Baby” 
+SMS and USSD on basic mobile phones, whereas CHW support tools are being been integrated with Pathfinder’s family by zero-rating SMS messages that are 
+built as applications on android smartphones or java-based phones that are planning stock management system, sent to pregnant women or caregivers. 
+purchased by organizations for the programs. Few mHealth solutions were so that CHWs can “intelligently refer” However, the CDC Foundation is also 
+found to be using interactive voice response (IVR) technology, which may patients to facilities with the desired exploring sustainable business models, 
+be due to the cost of development, which was said to be higher than SMS product in stock. including using the service to generate 
+and USSD (58). demand for other related services. 
+Another example is the CDC Found- 
+Though CHW support tools remain small-scale, programs focusing on spe- ation’s mHealth Public-Private-Partner- No evaluations have been conducted 
+cific districts and facilities are significantly advancing the skillset of its target ship, which has established an SMS on the program to date, but JHUCCP 
+CHWs on topics including family planning, home-based HIV care and MNCH. patient education program called is planning to evaluate the behavior 
+Organizations are spending between USD $80-200 on handsets, depending “Healthy Pregnancy, Healthy Baby”, change impact of women enrolled in 
+on the complexity of the application and need for memory and processing or “Wazazi Nipendeni”, on the Text to the program, as well as evaluate the 
+power. Many organizations believe that purchasing mobile phones is a worthy Change platform that NGO partners are difference between self-enrolling and 
+capital investment for improving monitoring and evaluation activities, akin to now using for their specific health focus being enrolled by a CHW. Early results 
+buying facilities a laptop or computer, and critical to improving the perfor- areas. Launched in 2012, the program have shown that literacy is still a chal-
+mance and accountability of CHWs. Training a CHW on a mobile support tool has amassed nearly 400,000 (60) sub- lenge among pregnant women, which 
+has found to take approximately two days, accompanied by approximately scribers and aims to be the most trusted limits the impact of SMS and leaves 
+two additional weeks to gain comfort in a demo mode (59). Community health short code for reliable health information registration into the program highly 
+26 mHEALTH AND NEONATAL RESUSCITATION mHEALTH OPPORTUNITIES 27
+mHealth for Neonatal Programs that have performed rigorous 
+Resuscitation content assessments have determined 
+that messaging on birth asphyxia and 
+Given the nature of complications from neonatal resuscitation may not be 
+birth asphyxia and the need to utilize appropriate for two reasons: a) it is a 
+neonatal resuscitation equipment in the provider driven skillset that has to be 
+“golden minute” after birth, the use of managed at a facility and b) during the 
+mobile phones during service delivery “golden minute” pregnant women, who 
+is not appropriate. Instead, mHealth are just recovering from labor, may not 
+solutions to support the adoption and be best positioned to give advice or 
+utilization of neonatal resuscitation demand action from providers. 
+equipment are more appropriate prior 
+to and after delivery. However, there may be an opportunity 
+to target other caregivers – a husband, 
+There are limited existing mHealth mother or mother-in-law. The key behav-
+solutions in Tanzania that support ior that pregnant women and caregivers 
+neonatal resuscitation equipment, and in Tanzania look for immediately fol-
+reliant on television and radio mass Pathfinder International, have gone nurse, nurse midwives and doctors lowing delivery is whether the newborn 
+media campaigns. As a result, the completely cashless, adopting mobile are seldom targeted. However, there baby is crying. If a newborn baby is not 
+program is now considering adding money across the organization and are many opportunities to extend crying, it could be an indication of birth 
+an Interactive Voice Response (IVR) into its programs. existing mHealth program efforts asphyxia and the need for resuscitation. 
+component to complement the SMS or leverage existing technology and If given the necessary key messages 
+messages. In addition, there appears However, despite significant progress, implementation lessons. prior to delivery, this could be a trigger 
+to be a demand for an mHealth ques- mHealth solutions still suffer from point for caregivers, who may be in a 
+tion and answer (Q&A) service. When common challenges including patchy Six key mHealth opportunities have better position to demand action if they 
+JHUCCP launched the SMS program network coverage, limited electricity for been identified to support the adop- are present. 
+under the Safe Motherhood Campaign, charging mobile phones, maintaining tion and use of neonatal resuscitation 
+it received nearly 2 million questions and servicing mobile phones purchased equipment and should be considered in The “Healthy Pregnancy, Healthy 
+to the shortcode, which was not set for a program, and a lack of evidence Tanzania: caregiver education, provider Baby” program by CDC Foundation 
+up to answer the questions. The CDC on the impact and cost-effectiveness refresher training, intelligent referrals, and the “Safe Motherhood Campaign” 
+Foundation is now considering launch- of mobile solutions to support scale-up supply chain management, patient reg- by JHUCCP both include a registration 
+ing an USSD-based application to meet and longevity. SMS-based patient edu- istration and death registration. process in their programs. Users send 
+this demand. cation programs that rely on funding an SMS to a short code and are then 
+are often challenged by the inability Caregiver Education prompted with five questions, one of 
+Given the high penetration rate of to predict accurate demand. When which includes classifying himself/her-
+mobile money in Tanzania, mHealth JHUCCP launched a family planning Current mHealth patient education pro- self as either a: birth supporter, partner 
+solutions are being integrated with SMS program with FHI360, nearly grams largely target pregnant women of pregnant women, pregnant woman 
+this functionality to deploy incentive 620,000 individuals enrolled, which with the overarching goal of delivering or general information seeker. This may 
+payments for CHWs and pregnant was much more than the program bud- at a facility, as 54% of deliveries are still present an opportunity to send custom-
+women, as well as to transfer payment get could support. home-based. As a result, no programs ized messages on birth asphyxia and 
+to taxi drivers for referral transpor- currently include messaging on birth neonatal resuscitation to birth support-
+tation. Some organizations, like asphyxia and neonatal resuscitation. ers and partners of pregnant women. 
+28 mHEALTH AND NEONATAL RESUSCITATION mHEALTH OPPORTUNITIES 29
+Provider Refresher Training training sessions. This could be com-
+Training healthcare providers, spe- plemented with an IVR system to add 
+cifically nurses, nurse midwives and audio to the experience, field clarifica-
+doctors, on the HBB protocol is a key tion questions by providers, and track 
+part of the national strategy to address the number of providers engaging in 
+mortality from birth asphyxia. However, refreshing his/her knowledge. 
+Dr. Augustine Massawe of Muhimbili 
+University of Health and Allied Sciences EGPAF and D-Tree International both 
+noted that when skills are not frequently have mHealth solutions focused on pro-
+used, they often go stale. Further, turn- vider training. EGPAF is in the early transportation. JHPIEGO’s program, were more likely to deliver babies with 
+over of nurses and nurse midwives is stages of translating PMTCT paper MAISHA, which launched in 2008, birth asphyxia. Further, febrile illness 
+high within facilities and across facil- manuals to mobile phones, which and introduced the mHealth solution during pregnancy, including confirmed 
+ities. As a result, refresher training is will be complemented by pictures to eMNCH in 2010, has found an increase and suspected cases of malaria, ante-
+critical to maximize the long-term value remind health providers of key prac- in the rates of risk factor detection partum hospitalization, antepartum 
+of the HBB program. Currently, the tices. D-Tree International has also been and facility deliveries. Similarly, the or intrapartum anemia, antepartum 
+HBB program does include follow-up leading research and implementation “mHealth for Safer Deliveries” program, hemorrhage and severe preeclamp-
+components, but these are often not of electronic protocols of Integrated launched in 2010, found that facility sia/eclampsia were all significantly 
+carried out due to insufficient funds, Management of Childhood Illness deliveries had increased from 30% to associated with birth asphyxia (63). 
+transportation challenges and time (IMCI) which has been found to improve 72% (62) by mid-2013. Pathfinder is in Dr. Augustine Massawe of Muhimbili 
+constraints. Unfortunately, there are clinician adherence from 60% to 84%. the early stages of its program, with University of Health and Allied Sciences 
+no mHealth initiatives that support plans to launch the first phase in April in Dar es Salaam also believes that fac-
+provider refresher training in the HBB Intelligent Referrals 2014. The program will also include tors including preterm labor, previous 
+program at this time. In the past, the training for CHWs on standard MNCH neonatal death or still birth, multiple 
+American Medical Association has dis- One of the largest challenges facing the curriculum, in addition to emergency pregnancies, disproportionate size of 
+tributed CDs on neonatal resuscitation health system in rural areas of Tanzania system and obstetric care for facility fetus, diabetic mother, anemia and HIV 
+as a refresher-training tool for hospi- are effective referrals. This includes providers, which will include modules could also contribute to increasing the 
+tals in Tanzania, an approach that was relaying accurate information on the on birth asphyxia and neonatal resusci- risk of birth asphyxia. 
+found to be useful. nature of the referral, and available tation techniques. All of its emergency 
+transportation to execute the referral. protocols require approval from the Identifying these risk factors during 
+There is an opportunity to include a As a result, a number of organizations Association of Gynecologists and antenatal care using mobile technology 
+mobile component in the HBB training are focusing on this problem, includ- Obstetricians of Tanzania. could prompt more intelligent referrals 
+program to support provider follow-up. ing JHPIEGO and the Etislat/Zantel during delivery, encouraging providers 
+This could range from simple solutions, program called “mHealth for Safer In each of these programs, there at facilities and hospitals to prepare 
+such as sending SMS messages remind- Deliveries”, in collaboration with D-Tree is an opportunity to link risk factor neonatal resuscitation equipment and 
+ing providers to practice the protocol or International and Pathfinder. screening of pregnant women with trigger their memory of the protocol. 
+share the knowledge with a colleague, the risk of delivering a newborn with 
+to more advanced solutions, such as The solutions generally combine a birth asphyxia. Research has shown Supply Chain Management 
+distributing memory cards with pre- screening protocol to assess the risk that there are predisposing antenatal 
+loaded videos on neonatal resuscitation of complications for pregnant women, and intrapartum risk factors for birth The prevention of mortality from 
+techniques. Currently, providers receive triggers to initiate emergency refer- asphyxia. A study in Uganda found that birth asphyxia is predicated on the 
+a small paper-based booklet in English rals and systems to deploy payment women who did not attend antenatal availability and utilization of neonatal 
+or Swahili with pictures during HBB to preselected drivers at fixed rates for care or attended fewer than four visits resuscitation equipment. Therefore, 
+30 mHEALTH AND NEONATAL RESUSCITATION mHEALTH OPPORTUNITIES 31
+While the program has not yet figured No existing mHealth solutions that 
+out how medical equipment will be focus on utilization of neonatal resus-
+tracked and reported, it will be working citation equipment through patient 
+through the design over the next few and death registration were found. 
+months. Organizations have suggested However, there is an opportunity to 
+that JSI should consider tracking the learn from the birth registration system 
+following three key indicators in the implemented by UNICEF in collabo-
+new system: a) what is the availability ration with the Regulation Insolvency 
+of equipment? b) does the equipment Trusteeship Agency (RITA) in Tanzania, 
+work? c) have orders been fulfilled? with support from the Corporate Social 
+These organizations have also recom- Responsibility department of Tigo, a 
+mended that the UNCoLSC consider leading telecommunication company. 
+tracking the availability and utilization by September 2014. The ILS system, making the reporting data openly In Tanzania, less than 20% of newborns 
+of neonatal resuscitation at health facil- which launched in November 2010, was available, to encourage action and are registered at birth and less than 10% 
+ities is critical to achieving this goal. designed to complement the existing accountability, in the case of stock-outs. have a birth certificate. The challenge 
+ordering and reporting system, specifi- has been that families are required to 
+Currently, MSD manages the pro- cally to prevent stock-outs and provide Patient and Death Registration travel to the district level to complete 
+curement, storage and distribution a national snapshot of stock across the registration. The program, implemented 
+of 800 commodities across sexu- country. Every month, the health facil- Similar to tracking the availability of by UNICEF, aims to bring the birth reg-
+ally transmitted infection medicines, ity or store facility charge is required neonatal resuscitation equipment, mon- istration process to the community 
+essential medicines, malaria, family to send an SMS with a count of stock itoring the utilization of this equipment level, by using SMS to send relevant 
+planning, ARV/HIV, lab/diagnostics, on hand of each of the commodities is critical in assessing the impact of information to the national database. 
+immunization and tuberculosis for in the system. Facilities also receive training efforts and addressing gaps The first phase, launched in 2013 in one 
+5,000 facilities in the country. This SMS reminders to submit paper-based in service delivery. region, registered 150,000 children in 
+process is managed by the Electronic orders during their ordering period to just five months. Tigo developed the 
+Logistics Management Information the zonal level to initiate fulfillment. Currently, facilities keep registers to application and built it into SIM cards, 
+System (eLMIS), and complemented Currently, the system has contributed to track the nature of deliveries, but do which were then distributed to health 
+by a mobile reporting system called improving reporting rates from 50% to not list equipment used or not used. facilities or village offices on a basic 
+the Integrated Logistics System (ILS), 75%, driving 100% adherence of  facil- Though registration of perinatal deaths handset for use. The program plans to 
+which is implemented by John Snow ities ordering only during its assigned is institutionalized with a register that introduce the mHealth solution to two 
+International (JSI) and was developed time period, and enabling 75% visibility includes a column for “cause of death,” additional regions in 2014. 
+by the software firm Dimagi. Presently, into the current stock medical com- the register is both mired by poor main-
+neither eLMIS nor ILS support or track modities in facilities across the country. tenance and limited by inaccurately This program illustrates that a basic 
+neonatal resuscitation equipment (64). JSI reports that stakeholders are begin- determining the cause of a perina- SMS program with strong integration 
+ning to trust ILS as a source of credible tal death. The perception amongst into national systems can contribute 
+However, JSI is currently in discussions data, but support is still required to stakeholders is that the process and to better understanding of population 
+with the UNCoLSC to add the 13 essen- instill change management training at requirements for a maternal death demographics. 
+tial commodities, including neonatal the regional level on effectively utilizing audit, which takes between 8-10 hours 
+resuscitation equipment, to its sys- and responding to data being collected. post-labor, has weakened the efforts 
+tem for rollout across 5,000 facilities of perinatal and neonatal death audits. 
+33
+6
+Deaths from complications of birth asphyxia due to Conclusion
+weak availability, adoption and utilization of neonatal 
+resuscitation equipment can be prevented through targeted interventions 
+that strengthen existing health systems. The penetration and adoption of 
+mobile phones offers an unprecedented opportunity to address information 
+asymmetries and gaps in connectivity between caregivers, patients, providers 
+and institutions within a health system. 
+The nature of birth asphyxia calls for interventions that integrate and com-
+plement the continuum of care for pregnant women, supporting efforts 
+especially during antenatal care. Our research revealed an opportunity for 
+the UNCoLSC to leverage existing promising efforts in Tanzania to improve 
+maternal, newborn and child health using mobile technology. This includes 
+equipping caregivers with the information to trigger action from providers 
+based on key danger signs, supporting providers with options to refresh training 
+on neonatal resuscitation protocols, identifying women at risk of birth asphyxia 
+during antenatal care and initiating more informed and intelligent referrals 
+to providers at facilities and hospitals, and using mobile phones to track the 
+availability, condition, and utilization of neonatal resuscitation equipment to 
+monitor where knowledge and skill gaps may persist. 
+WEAK AVAILABILITY, The MOHSW in Tanzania is an enthusiastic supporter of mHealth solutions 
+to improve health outcomes related to MDG 4. It has not only appointed an 
+ADOPTION AND UTILIZATION mHealth coordinator at the national level to oversee country activities, but 
+also established a community of practice across international organizations 
+OF NEONATAL RESUSCITATION to collaborate, share knowledge, and drive scale of high impact solutions. 
+EQUIPMENT CAN BE PREVENTED As a next step, engaging the principal secretary at the MOHSW, the mHealth coordinator, and institutions involved in mHealth implementations will be 
+THROUGH INTERVENTIONS critical to establishing a Tanzania program that leverages existing efforts and aligns with national programs and objectives. In this way, the potential 
+THAT STRENGTHEN EXISTING to use mHealth to increase adoption and utilization of neonatal resuscitation equipment can be advanced.
+HEALTH SYSTEMS.
+34 mHEALTH AND NEONATAL RESUSCITATION APPENDIX 35
+Appendix A Appendix A 
+Interview guide (continued)
+1. Problem  H. According to the HBB report, there is high availability of bag and mask resuscitators in PHCs 
+ A. What is the scope of the problem of birth asphyxiation in Tanzania? in Tanzania? What factors have led to this outcome?
+ B. Geographic concentration of the problem?  I. How is NNR equipment tracked across the supply chain – from entry into country / manufacturer 
+ C. Profile of most marginalized / underserved women? to utilization at the facility level? Up to what level does data exist? Where does it break down?
+ J. What initiatives currently exist to track NNR equipment / health outcomes from birth 
+2. Policy Environment asphyxiation cases? 
+ A. Is birth asphyxiation and NNR equipment considered a priority at the government level? 
+ B. What guidelines / strategic plans is birth asphyxiation and NNR equipment part of? 5. Telecom environment 
+ C. What Ministry supports programs focused on birth asphyxiation and NNR equipment?  A. What is the mobile phone penetration in Tanzania? 
+ D. Is there are coordinating body / technical working group focused on birth asphyxiation and  B. Urban/rural split? 
+NNR equipment?  C. Basic phone / smartphone penetration? Barriers impacting the latter? 
+ E. Is NNR equipment included on the Essential Medicines List? Any other recommended  D. Schemes supporting mobile phone ownership by health providers? 
+commodities lists? 
+6. Patient Knowledge 
+3. Healthcare Delivery and Provider Training  A. What campaigns and initiatives exist to improve patient knowledge of pregnancy related 
+ A. According the national standard guidelines, which cadre of health professionals are responsible risks such as birth asphyxiation? 
+for managing complications from birth asphyxiation?  B. What is the current behavior of rural/urban pregnant women with regards to antenatal care, 
+ B. What is the training program for this health cadre? and delivery? 
+ C. What is the current status of training for this health cadre?  C. What initiatives/schemes exist to improve current health practices around maternal health?
+ D. Provider knowledge of birth asphyxiation management? Gaps and barriers to improving  D. What has worked / not worked? 
+knowledge and practice levels?
+ E. How does birth asphyxiation feature in the training program? 7. Mobile Health
+ F. What tools are provided to the health cadre to learn, and support the management of birth  A. What are three high-impact opportunities to improve accessibility and utilization of NNR 
+asphyxiation? equipment with the support of mobile phones and connectivity? 
+ G. Are any mobile or wireless technologies used to support provider training?  B. What mHealth programs supporting NNR equipment or RMNCH more broadly in Tanzania 
+ H. How are births and deaths at birth registered in Tanzania? What initiatives exist to support has the potential for national scale? 
+this goal?  C. Do any mHealth programs exist in Tanzania that support for birth asphyxiation and NNR 
+equipment could be added on it?
+4. Product / Supply Chain Management  
+ A. What types of NNR equipment are available in Tanzania? (brands, companies, cost, shelf-life, 
+replacement rate, maintenance) 
+ B. What organizations procure NNR equipment? 
+ C. What is the forecasting process for NNR equipment?  
+ D. What is the procurement cycle for NNR equipment?
+ E. Who are the major donors of NNR equipment in Tanzania?
+ F. What is the shortage or surplus of NNR equipment in the country?
+ G. What bottlenecks are there in the procurement process impacting the accessibility of NNR 
+equipment?
+36 mHEALTH AND NEONATAL RESUSCITATION REFERENCES 37
+Appendix B References
+Stakeholder List
+Janita Ferentinos, CDC Foundation 1. Agravat, N. (2013). Mhealth and neonatal resuscitation: a review of interventions, approaches and applications. 
+Asia Kassim Hussein, UNICEF [report] Washington: mHealth Alliance.
+Dunstan Bishanga, JHPIEGO 2. Mrisho, M. (2008). Neonatal survival in rural Tanzania: Home deliveries, neonatal mortality and subsequent 
+help and health seeking behaviour for the newborn by mothers in rural Tanzania (Doctoral dissertation, 
+Erica Thomas, JHPIEGO
+University of Basel).
+Gaudiosa Tibaijuka, JHPIEGO
+3. Ersdal, H. L., Mduma, E., Svensen, E., & Perlman, J. (2012). Birth asphyxia: a major cause of early neonatal 
+Christopher Awinia, PRAXIS Research mortality in a Tanzanian rural hospital. Pediatrics,129(5), e1238-e1243.
+Dr. Mohammed Makame, PATH
+4. Msemo, G., Massawe, A., Donan Mmbando, D., Rusibamayila, N., Manji, K., Kidanto, H. L., Mwizamuholya, D., 
+Lucy Fulgence Silas, D-Tree International Ringia, P., Ersdal, H. L. & Perlman, J. (2013). Newborn mortality and fresh stillbirth rates in tanzania after 
+Waziri Nyoni, John Hopkins University Center for Communication Programs helping babies breathe training. Pediatrics, 131 (2), doi:10.1542/peds.2012-1795 [Accessed: 15 Feb 2014].
+Roland Van de Ven, Elizabeth Glaser Pediatric AIDS Foundation 5. Perlman, Jeffrey. “Helping Babies Breathe outcomes study in Tanzania.” American Academy of Pediatrics. 
+Chrispine Kimario, Elizabeth Glaser Pediatric AIDS Foundation Web. 19 Feb. 2014.<http://www2.aap.org/nrp/docs/Fri%20209%201120%20Perlman%20GlobalTalk2Final.pdf>.
+Marasi Mwencha, John Snow International 6. Msemo, G., Massawe, A., Donan Mmbando, D., Rusibamayila, N., Manji, K., Kidanto, H. L., Mwizamuholya, D., 
+Colin Spurway, BBC Media Action Ringia, P., Ersdal, H. L. & Perlman, J. (2013). Newborn mortality and fresh stillbirth rates in tanzania after 
+helping babies breathe training. Pediatrics, 131 (2), doi:10.1542/peds.2012-1795 [Accessed: 15 Feb 2014].
+Mustafa Kudrati, Pathfinder International 
+7. Hussein, A. K. (2014). Interview on birth asphyxia and neonatal resuscitation in tanzania. Interviewed by Hima 
+Benjamin Mrema, Pathfinder International 
+Batavia [in person] UNICEF Dar es Salaam Office, February 17, 2014.
+Dr. Mwendwa Mwenesi, Ministry of Health and Social Welfare, Tanzania 
+8. Perlman, Jeffrey. “Helping Babies Breathe outcomes study in Tanzania.” American Academy of Pediatrics. 
+Dr. Augustine Massawe, Muhimbili University of Health and Allied Sciences Web. 19 Feb. 2014.  
+Woinde Shisael, TIGO <http://www2.aap.org/nrp/docs/Fri%20209%201120%20Perlman%20GlobalTalk2Final.pdf>.
+9. NBS [Tanzania] and ORC Macro, Tanzania Demographic and Health Survey 2004-2005 - Key Findings. 
+National Bureau of Statistics, Dar es Salaam and ORC Macro, Calverton, MD.
+10. Perlman, Jeffrey. “Helping Babies Breathe outcomes study in Tanzania.” American Academy of Pediatrics. 
+Web. 19 Feb. 2014. <http://www2.aap.org/nrp/docs/Fri%20209%201120%20Perlman%20GlobalTalk2Final.
+pdf>.
+11. Source: Neonatal Survival 2 Darmstadt, G. Bhutta, ZA, Cousens, S, Taghreed, A, Walker, N, de Bernis, L, 
+Evidence-Based, Low-cost interventions: How many newborn babies can we save?  
+www.the lancet.com published on line 3 March 2005 http:// image. The lancet.com/extras/05 art 17 web
+12. “About Helping Babies Breathe.” Helping Babies Breathe. Web. 17 Feb. 2014.  
+<http://www.helpingbabiesbreathe.org/about.html>.
+13.  Msemo, G., Massawe, A., Donan Mmbando, D., Rusibamayila, N., Manji, K., Kidanto, H. L., Mwizamuholya, 
+D., Ringia, P., Ersdal, H. L. & Perlman, J. (2013). Newborn mortality and fresh stillbirth rates in tanzania after 
+helping babies breathe training. Pediatrics, 131 (2), doi:10.1542/peds.2012-1795 [Accessed: 15 Feb 2014].
+14. Appropriate neonatal resuscitation equipment refers to infant sized artificial manual breathing unit (AMBU)-
+bags, masks and suction devices. 
+15. Manji, K. Situation analysis of newborn health in Tanzania: Current situation, existing plans and strategic next 
+steps for newborn health. Dar es Salaam: Ministry of Health and Social Welfare, Save the Children; 2009
+16. Manji, K. Situation analysis of newborn health in Tanzania: Current situation, existing plans and strategic next 
+steps for newborn health. Dar es Salaam: Ministry of Health and Social Welfare, Save the Children; 2009
+17. Plotkin, M., Tibaijuka, G., Makene, C. L., & Currie, S. Quality of Care for Prevention and Management of Common 
+Maternal and Newborn Complications. 
+18. Plotkin, M., Tibaijuka, G., Makene, C. L., & Currie, S. Quality of Care for Prevention and Management of Common 
+Maternal and Newborn Complications.
+38 mHEALTH AND NEONATAL RESUSCITATION REFERENCES 39
+19. Manji, K. Situation analysis of newborn health in Tanzania: Current situation, existing plans and strategic next 41. Kudrati, M. (2014). Opportunities for mhealth to improve neonatal resuscitation in tanzania. Interviewed by 
+steps for newborn health. Dar es Salaam: Ministry of Health and Social Welfare, Save the Children; 2009 Hima Batavia [in person] Pathfinder International Dar es Salaam office, February 20, 2014.
+20. United Republic of Tanzania Ministry of Health and Social Welfare. (2008). The national road map strategic 42. Quarterly Telecom Statistics. (2013). [report] Tanzania Communications Regulatory Authority.
+plan to accelerate reduction of maternal, newborn and child deaths in tanzania. [report] Dar es Salaam.
+43. National Bureau of Statistics, National Statistical Office of Tanzania. (2014). [online] Retrieved from: 
+21. United Republic of Tanzania Ministry of Health and Social Welfare. (2008). The national road map strategic http://www.nbs.go.tz/ [Accessed: 16 Feb 2014].
+plan to accelerate reduction of maternal, newborn and child deaths in tanzania. [report] Dar es Salaam.
+44. Ferentinos, J. (2014). Opportunities for mhealth to improve neonatal resuscitation in tanzania. Interviewed by 
+22. United Republic of Tanzania Ministry of Health and Social Welfare. (2008). The national road map strategic Hima Batavia [in person] Seacliff Hotel, Dar es Salaam, February 17, 2014.
+plan to accelerate reduction of maternal, newborn and child deaths in tanzania. [report] Dar es Salaam.
+45. Mwenesi, M. (2014). Opportunities for mhealth to improve neonatal resuscitation in tanzania. Interviewed by 
+23. Manji, K. Situation analysis of newborn health in Tanzania: Current situation, existing plans and strategic next Hima Batavia [in person] Ministry of Health and Social Welfare office in Dar es Salaam, February 21, 2014.
+steps for newborn health. Dar es Salaam: Ministry of Health and Social Welfare, Save the Children; 2009
+46.  Mwencha, M. (2014). Using mhealth for supply chain management. Interviewed by Hima Batavia [in person] 
+24. Manji, K. Situation analysis of newborn health in Tanzania: Current situation, existing plans and strategic next John Snow International (JSI) Dar es Salaam Office, February 21, 2014.
+steps for newborn health. Dar es Salaam: Ministry of Health and Social Welfare, Save the Children; 2009
+47. Ferentinos, J. (2014). Opportunities for mhealth to improve neonatal resuscitation in tanzania. Interviewed by 
+25. Perlman, Jeffrey. “Helping Babies Breathe outcomes study in Tanzania.” American Academy of Pediatrics. Hima Batavia [in person] Seacliff Hotel, Dar es Salaam, February 17, 2014.
+Web. 19 Feb. 2014.  
+48. Bizcommunity. “Africa finding its own solutions using mobile tech.” Marketing & media trends. 25 Jan. 2013. 
+<http://www2.aap.org/nrp/docs/Fri%20209%201120%20Perlman%20GlobalTalk2Final.pdf>.
+Web. 24 Feb. 2014. <http://www.bizcommunity.com/Article/196/424/88287.html>.
+26. Msemo, Georgina. “Implementation of the Helping Babies Breathe program in Tanzania comprehensive final 
+49. Quarterly Telecom Statistics. (2013). [report] Tanzania Communications Regulatory Authority.
+report.” Helping Babies Breathe. Web. 17 Feb. 2014.  
+<http://www.helpingbabiesbreathe.org/docs/AAP%20Final%20Report%20docx.pdf>. 50. Quarterly Telecom Statistics. (2013). [report] Tanzania Communications Regulatory Authority.
+27. Thomas, E. (2014). Helping babies breathe program in tanzania. Interviewed by Hima Batavia [in person] 51. “Mobile phone use in Tanzania.” Text to Change. Web. 12 Feb. 2014.  
+JHPIEGO Dar es Salaam Offices, February 18, 2014. <http://www.texttochange.org/sites/default/files/newsfiles/TTC%20Brochure%20Tanzania.pdf>.
+28. Ersdal, H. L., Vossius, C., Bayo, E., Mduma, E., Perlman, J., Lippert, A., &Søreide, E. (2013). A one-day 52. Awinia, C. (2014). Opportunities for mhealth to improve neonatal resuscitation in tanzania. Interviewed by 
+“Helping Babies Breathe” course improves simulated performance but not clinical management of neonates. Hima Batavia [in person] PRAXIS Research Dar es Salaam office, February 18, 2014.
+Resuscitation,84(10), 1422-1427. 53. Nyoni, W. (2014). Opportunities for mhealth to improve neonatal resuscitation in tanzania. Interviewed by 
+29. The COP coordinates its efforts using an online Google Group called “Tanzania-mHealth” Hima Batavia [in person] John Hopkins University Center for Communication Programs Dar es Salaam Office, 
+February 19, 2014.
+30. Silas, L. F. (2014). Opportunities to use mhealth for neonatal resuscitation equipment in tanzania. Interviewed 
+by Hima Batavia [in person] D-Tree International Dar es Salaam Office, February 19, 2014. 54. Mwenesi, M. (2014). Opportunities for mhealth to improve neonatal resuscitation in tanzania. Interviewed by 
+Hima Batavia [in person] Ministry of Health and Social Welfare office in Dar es Salaam, February 21, 2014.
+31. Manji, K. Situation analysis of newborn health in Tanzania: Current situation, existing plans and strategic next 
+steps for newborn health. Dar es Salaam: Ministry of Health and Social Welfare, Save the Children; 2009 55. Van De Ven, R. (2014). Opportunities for mhealth to improve neonatal resuscitation in tanzania. Interviewed by 
+Hima Batavia [in person] Elizabeth Glaser Pediatric AIDS Foundation Dar es Salaam Office, February 19, 2014.
+32. Massawe, A. (2014). Birth asphyxia in tanzania and opportunities for mhealth to improve neonatal 
+resuscitation. Interviewed by Hima Batavia [in person] Muhimbili University of Health and Allied Sciences, 56. The Guardian Reporter. “Govt pushes ICT use into rural areas.” IPP Media. Web. 24 Feb. 2014.  
+February 20, 2014. <http://www.ippmedia.com/frontend/?l=64092>.
+33. A train-the-trainer model enables more experienced health professionals at the national and regional levels to 57. Mwenesi, M. (2014). Opportunities for mhealth to improve neonatal resuscitation in tanzania. Interviewed by 
+teach less-experienced health professionals at the district and facility levels on a new health practice or product. Hima Batavia [in person] Ministry of Health and Social Welfare office in Dar es Salaam, February 21, 2014.
+34. Hussein, A. K. (2014). Interview on birth asphyxia and neonatal resuscitation in tanzania. Interviewed by Hima 58. Shisael, W. (2014). Opportunities for mhealth to improve neonatal resuscitation in tanzania. Interviewed by 
+Batavia [in person] UNICEF Dar es Salaam Office, February 17, 2014. Hima Batavia [in person] TIGO offices in Dar es Salaam, February 21, 2014.
+35. Silas, L. F. (2014). Opportunities to use mhealth for neonatal resuscitation equipment in tanzania. Interviewed 59. Silas, L. F. (2014). Opportunities to use mhealth for neonatal resuscitation equipment in tanzania. Interviewed 
+by Hima Batavia [in person] D-Tree International Dar es Salaam Office, February 19, 2014. by Hima Batavia [in person] D-Tree International Dar es Salaam Office, February 19, 2014.
+36. Nyamtema, A. S., Urassa, D. P., Massawe, S., Lindmark, G., & Van Roosmalen, J. (2008). Staffing needs for 60. Approximately 10-13% of pregnant women in Tanzania. However, though the program is targeted to pregnant 
+quality perinatal care in Tanzania.African journal of reproductive health, 12(3). women, anyone can register 
+37. Thomas, E. (2014). Helping babies breathe program in tanzania. Interviewed by Hima Batavia [in person] 61. Josette. “Scaled nationwide mHealth campaign for pregnant women in Tanzania.” Text to Change. Web. 19 Feb. 
+JHPIEGO Dar es Salaam Offices, February 18, 2014. 2014. <http://www.texttochange.org/news/scaled-nationwide-mhealth-campaign-pregnant-women-tanzania>.
+38. Thomas, E. (2014). Helping babies breathe program in tanzania. Interviewed by Hima Batavia [in person] 62. Riley, Pamela. “Mobile money for health.” mHealth Working Group. 28 May 2013. Web. 18 Feb. 2014.  
+JHPIEGO Dar es Salaam Offices, February 18, 2014. <http://www.mhealthworkinggroup.org/sites/mhealthwg.org/files/mobile_money_master.pptx>.
+39. Kudrati, M. (2014). Opportunities for mhealth to improve neonatal resuscitation in tanzania. Interviewed by 63. Kaye, D. (2004). Antenatal and intrapartum risk factors for birth asphyxia among emergency obstetric 
+Hima Batavia [in person] Pathfinder International Dar es Salaam office, February 20, 2014. referrals in Mulago Hospital, Kampala, Uganda.East African medical journal, 80(3), 140-143.
+40. Awinia, C. (2014). Opportunities for mhealth to improve neonatal resuscitation in tanzania. Interviewed by 64. Mwencha, M. (2014). Using mhealth for supply chain management. Interviewed by Hima Batavia [in person] 
+Hima Batavia [in person] PRAXIS Research Dar es Salaam office, February 18, 2014. John Snow International (JSI) Dar es Salaam Office, February 21, 2014.
+1750 Pennsylvania Avenue, NW 
+Suite 300
+Washington, D.C. 20006
+202.887.9040 (phone)
+202.887.9021 (fax)
+www.mhealthalliance.org

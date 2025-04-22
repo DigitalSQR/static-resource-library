@@ -1,0 +1,1870 @@
+PRINCIPLES for
+Digital Development
+FROM PRINCIPLE TO PRACTICE:  
+Implementing the Principles  
+for Digital Development
+Perspectives and Recommendations from the 
+Practitioner Community
+BY ADELE WAUGAMAN
+ACKNOWLEDGMENTS      
+This report reflects insights from a year-long community discussion of the Principles of Digital 
+Development, during which over 500 individuals representing more than 100 organizations took part. 
+Nine deep dive discussions generated community input on each Principle in detail. In addition to these 
+nine Working Group meetings, presentations and side sessions about the Principles were organized at 
+a variety of development industry events, including the CRS ICT4D conference, M&E Tech, and the 
+mHealth Summit. Together, these events spanned cities including Accra, Baltimore, Helsinki, London, 
+Nairobi, New York, San Francisco, and Washington.
+This discussion paper was funded and managed by the U.S. Agency for International Development’s 
+Global Development Lab, written by Adele Waugaman, and edited by Michael Dawson of FHI 360. 
+The report editorial team includes: Mark Cardwell, John O’Bryan, and Merrick Schaefer at USAID; 
+and Michael Dawson, Troy Etulain, and Wayan Vota at FHI 360. Report graphics were provided by the 
+Design Lab at FHI 360. FHI 360 Program Assistants Patrick Malone and Jonathan Kourgialis provided 
+project support. 
+The author and report editorial team expresses its deep gratitude to all participants in the yearlong 
+community discussion period, and to the organizations that have endorsed the Principles for Digital 
+Development. The logos of endorsing organizations can be found on the following page. 
+About The Principles for Digital Development Working Group
+The Principles for Digital Development Working Group comprises individuals active and interested in 
+the use of best practice in global development. To join the Working Group, visit goo.gl/wcsPJF.
+Suggested Citation 
+Waugaman, Adele. From Principle to Practice: Implementing the Principles for Digital Development. 
+Washington, DC: The Principles for Digital Development Working Group, January 2016. 
+This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+PRINCIPLES for
+Digital Development
+FROM PRINCIPLE TO PRACTICE:  
+Implementing the Principles  
+for Digital Development
+Perspectives and Recommendations from the 
+Practitioner Community
+by Adele Waugaman
+This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+Endorsing Organizations
+The following organizations have endorsed the Principles for Digital Development. Learn more about how to become an 
+endorsing organization at www.digitalprinciples.org/endorse.
+Abt Associates National Democratic Institute (NDI)
+Awaaz.De Ona
+Bill and Melinda Gates Foundation OpenLMIS
+Build Up OpenMRS
+Catholic Relief Services (CRS) OpenWise
+Charlie Goldsmith Associates Palladium
+Code Innovation PATH
+Creative Associates International (CAI) Pathfinder International
+Democracy International Reboot
+Digital Campus RTI International
+Digital Green SlashRoots Foundation
+Dimagi Souktel
+FHI 360 Swedish International Development Cooperation  
+Grameen Foundation      Agency (SIDA)
+HealthEnabled The Swedish Program for ICT in Developing  
+Human Network International (HNI)      Regions (SPIDER)
+InSTEDD SurveyCTO
+International Foundation for Electoral Systems (IFES) TechChange
+International Rescue Committee (IRC) United Nations Children’s Fund (UNICEF)
+Internews United Nations Development Programme (UNDP)
+IntraHealth International United Nations Global Pulse
+IREX United Nations Office for the Coordination of  
+IST Uganda      Humanitarian Affairs (OCHA)
+John Snow, Inc. (JSI) United States Agency for International Development 
+LINGOs (USAID)
+Medic Mobile VillageReach
+Mercy Corps VOTO Mobile
+mPower Social Enterprises Ltd. World Food Programme (WFP)
+mPowering Frontline Health Workers World Health Organization (WHO)
+
+Table of Contents
+Foreword 2
+Executive Summary 3
+I. Introduction 4
+Principles Origin 6
+Building a Community 6
+Report Goal & Audience 10
+Report Methodology 10
+Join the Discussion 11
+II. The Principles in Focus 12
+Principle 1: Design with the User 15
+Principle 2: Understand the Ecosystem 20
+Principle 3: Design for Scale 24
+Principle 4: Build for Sustainability 28
+Principle 5: Be Data Driven 33
+Principle 6: Use Open Standards, Open Source,   
+     Open Data, and Open Innovation 38
+Principle 7: Reuse and Improve 44
+Principle 8: Address Privacy and Security 48
+Principle 9: Be Collaborative 53
+III. Moving from Principle to Practice 58
+Why Moving from Principle to Practice is Difficult?  60
+Tensions Between Principles 60
+Structural Challenges 61
+Recommendations for All Actors  61
+Recommendations for Donors/Multilaterals 62
+Recommendations for Implementers 64
+Vision for the Future 66 
+Foreword
+Development is changing. One major reason why: technology is changing not just how we do business, but the 
+model for development itself.
+In developing countries and communities, digital technologies like the mobile phone are increasingly in the 
+hands of  people who stand to benefit from them the most. This can mean increased access to services, like 
+market price information for rural farmers, financial services for the previously unbanked, and maternal 
+health messaging for pregnant women who live beyond the reach of  doctors or even health clinics. 
+While the potential is clear, the success of  the thousands of  projects that have sprung up using technology 
+to close access gaps is less so. Pilots have failed to move into scalable and sustainable programs. Solutions 
+too often reinvent the wheel rather than building on robust platforms, infrastructure, and shared services. 
+Applications and services designed thousands of  miles from their use environment failed to meet user needs. 
+The creation of  duplicative tools and systems has made data difficult to access and use for decision-making.
+This is an inefficient use of  scarce resources. We must do better, both to fulfill our own mandates and, critically, 
+to deliver to the best of  our ability for the people we serve.  
+Traditional organizations, especially those with large bureaucratic structures, must now play catch-up. We 
+need to reform our policies and practices to enable the most strategic investments in digitally supported 
+development work, and to strengthen our capacity to implement against this new vision.
+The Principles for Digital Development can help inform and guide this process. This report is the culmination 
+of  rich and detailed discussions about these Principles by more than 500 individuals representing over  
+100 organizations working in international development. It captures their experiences, insights, questions, 
+and recommendations to inform a landscape of  where we are in our understanding of  this guidance, and how 
+we can chart a path forward.
+This report is an important new tool for the development executive seeking to navigate this period of  
+transition, and for others seeking to increase the success of  digital development. We welcome your comments 
+at www.digitalprinciples.org/community. 
+Ann Mei Chang
+Executive Director, U.S. Global Development Lab
+USAID
+2  |  FROM PRINCIPLE TO PRACTICE: Implementing the Principles for Digital Development
+Executive Summary
+For over a decade the international development community has been exploring how the use of  digital 
+technologies, including tools like the mobile phone, can extend the reach of  development. At the same time, 
+development organizations have grappled with how to use these technologies to make their own work more 
+participatory, sustainable, and effective. 
+The results have been mixed. Some projects have succeeded, enabling improved and sustained access to 
+information and services that previously were out of  reach for marginalized populations. Other projects have 
+failed, often due to preventable reasons, resulting in hundreds, if  not thousands of  projects being unable to scale. 
+In the late 2000s, several donors and multilateral organizations began talking about failure in using digital 
+tools to support development. Soon, sets of  principles, lessons, and best practices started emerging, beginning 
+with the UNICEF Innovation Principles in 2009. One year later, a group of  mHealth implementers and donors 
+independently developed a different set of  principles known as the Greentree Principles. The Principles for 
+Digital Development (Principles) were created through the integration and refinement of  these two previous 
+sets of  principles. 
+Since June 2014, members of  the international development community have convened through a dozen 
+meetings to discuss the Principles in detail. This report is the synthesis of  those and other events at which the 
+community talked about what it means to put the Principles into practice. It identifies common barriers to the 
+Principles’ successful implementation and suggests resources to help overcome these barriers. It also includes 
+the following recommendations: 
+Recommendations for All Development Actors
+!   Have an institutional vision and strategy supporting the integration of  digital development best practice.
+!   Ensure implementation of  the strategy is adequately staffed and resourced, and supported by enabling 
+policies and processes.
+!   Commit to integrating best practice into business processes.
+Recommendations for Donor and Multilateral Organizations
+!   Complement internal digital development strategies with an external strategy that lays out a vision for 
+development implementers, and aligns with that of  other global development donors.
+!   Build the digital development commons.
+!   Adapt procurement processes to enable integration of  best practice.
+!   Adapt other policies and processes to enable integration of  best practice into business processes.
+Recommendations for Development Implementers
+!   Align internal digital development strategies with those of  the wider global development community.
+!   Contribute to the digital development commons.
+!   Adapt business processes to enable operationalization of  best practice.
+ 
+|  3 
+4  |  FROM PRINCIPLE TO PRACTICE: Implementing the Principles for Digital Development
+I
+Introduction
+|  5 
+INTRODUCTION
+Principles Origin 
+For over a decade, the international development community has explored how the use of  modern digital tools like the 
+mobile phone, can extend the reach of  development. At the same time, development organizations have grappled with 
+how to use these technologies to make their own work more participatory, sustainable, and effective. 
+The development community has seen some great successes, in which digitally supported programs enabled access to 
+information and services that previously were beyond reach for marginalized and vulnerable populations. But it also 
+has seen its share of  failure, often times for predictable and preventable reasons. This failure has resulted in hundreds, 
+if  not thousands, of  projects that were unable to move beyond pilot stage. 
+Starting in the late 2000s, several large donors and multilateral organizations began talking about failure in the use 
+of  technology in development. Soon, sets of  principles, lessons, and best practices began emerging, beginning with 
+the UNICEF Innovation Principles in 2009. A year later, a group of  40 mHealth implementers and donors met and 
+independently developed a different set of  guidance known as the Greentree Principles. These two sets of  principles were 
+organized and worded differently, but encompassed similar ideas. Other sets of  similar principles soon followed, some 
+focused at the national level like the UK’s Government Design Services Digital Principles, and others related to internal, 
+institutional procurement processes, such as the World Bank’s Open Development Principles.
+Yet project failures continued. 
+“We need to take discussion of best practice to the next level, where more people are more knowledgeable about how digital technologies 
+can benefit the work we are doing, and what the potential risks are. The Principles for Digital Development are a framework for 
+considering both the possibilities and the challenges that digital development can present.” 
+~ Jens Karberg, Swedish International Development Cooperation Agency (SIDA) 
+“Why are we continuing to fail for known reasons, rather 
+WHAT ARE THE PRINCIPLES FOR  than failing because we’re trying something new?” In 
+DIGITAL DEVELOPMENT? 2012, a group of  international development donors and 
+multilateral organizations investing in digitally-supported 
+development projects gathered at the Greentree Estate 
+in New York to address this question. Their intent was to 
+The Principles are: synthesize existing guidance in order to create a common 
+vision about how to institutionalize lessons learned in the 
+◃   nine high-level concepts that should be considered, use of  digital technologies to support development. The 
+ideally before funding, designing, or implementing Principles for Digital Development are the outcome of  these 
+any technology supported development work discussions. 
+◃   guidance, not edict, that is designed to be updated 
+over time as the technology and development Building a Community
+landscapes change 
+Yet donor consensus alone wasn’t enough. To change the 
+◃   intended to support well-informed decision- way digital development is done, other audiences needed 
+making about technology-supported  to be brought to the table. 
+development work
+As an initial step in widening the discussion, the 
+donor and multilateral organizations endorsing the 
+6  |  FROM PRINCIPLE TO PRACTICE: Implementing the Principles for Digital Development
+“We wanted to take the Principles and road test them with a wider community of practitioners and implementers. We wanted to grow 
+ownership of these concepts, and rearticulate them with the voice, perspective, and experience of the development community.” 
+~ Merrick Schaefer, USAID
+Principles launched the Principles for Digital Development Working Group in June 2014. The Working Group includes 
+donor representatives and practitioners from many development organizations—including both non-profits and 
+consultancies undertaking digital development projects funded by large donor organizations. 
+The goal of  this initial phase of  broader community discussion was to enable the Principles to be interpreted and 
+articulated in more detail by some of  the organizations who stood to gain the most from a discussion of  what it would 
+mean to change the way digital development is done. 
+Participants in the yearlong community consultation period were largely the change agents (e.g., people with practical 
+experience or expertise in digital development) within organizations, although occasionally senior leadership and other 
+program staff  joined the conversation as well. 
+The Working Group met nine times to discuss each of  the Principles individually through in-person deep dive events 
+that, in most cases, also engaged remote participants online through video or teleconference. These sessions were hosted 
+by Abt Associates, Catholic Relief  Services, Creative Associates International, Dalberg Global Development Advisors, 
+IDEO.org, FHI 360, Internews, John Snow Inc. , Mercy Corps, the National Democratic Institute, Palladium (formerly 
+Futures Group), and UN Global Pulse. 
+Together, these discussions marked the beginning of  a shared understanding of  what the Principles mean in practice, 
+including how to identify and overcome barriers to their successful operationalization. A two-page synthesis of  the 
+community-led articulation of  what each Principle means in practice can be found in the Principles for Digital Development 
+Community Insights booklet available at www.digitalprinciples.org/insights. 
+The Principles also were discussed at a number of  development forums including the CRS ICT4D conference, M&E 
+Tech, and the Global Health Forum at the mHealth Summit. All together, these events spanned cities including Accra, 
+Baltimore, Chicago, Helsinki, London, Nairobi, New Delhi, New York, and San Francisco.
+In addition to these discussions, the Working Group strategized about ways to move from Principle to practice by 
+institutionalizing lessons learned from digital development successes and failures. With a few notable exceptions, 
+however, the overwhelming majority of  participants in these discussions were not senior executives with broad  
+policy-making and budgetary authority within their organizations. 
+To raise awareness of  the Principles at executive levels of  these organizations, and to promote senior-level buy-in 
+to the ideas that the Principles represent, USAID launched an endorsement campaign for the Principles for Digital 
+Development in May 2015. Endorsing organizations are asked to provide a written statement with senior-level signature 
+on the statement:
+“As an endorser of the Principles for Digital Development, we will seek to embody the concepts the Principles represent in our ethos, our 
+work culture, and in the policies and processes guiding our international development activities.”
+|  7 
+INTRODUCTION
+For the first two years, the only further requirement 
+TRANSLATING PRINCIPLES INTO  would be a self-assessment process focused on 
+gathering contributions of  case studies that can help 
+PRACTICE: UNICEF’S STORY to further clarify challenges and tensions associated 
+with implementing the Principles, while also adding 
+to a growing repository of  best practices for use 
+UNICEF is a co-author and endorser of the Principles for Digital by the wider community. More information about 
+Development. They are also one of the first organizations to endorsement and the self-assessment process is 
+develop their own set of principles designed to learn from digital available at www.digitalprinciples.org/endorse.
+development successes and failures.
+In 2009, UNICEF created its Innovation Principles to operationalize Moving from Principle to Practice
+digital development best practices. The process was led by UNICEF’s 
+Innovation Unit, an interdisciplinary team of individuals around the The challenge, as with any lessons learned effort, is to 
+world tasked with identifying, prototyping, and scaling technologies break the status quo around the way things are being 
+and practices that strengthen UNICEF’s work for children. done. As Ben Ramalingam noted in his 2013 book Aid 
+on the Edge of  Chaos:
+“Whenever our unit is asked to review a proposal, provide technical 
+assistance, or explore a new partnership, we always share these “… [W]ays of thinking and hard-lessons learned are seldom 
+Principles as guidance,” said Erica Kochi, co-lead of the UNICEF prominent among the multitude of propositions bouncing around 
+Innovation Unit. the shiny recycling depot of aid reforms. Among the visions that 
+are regularly set out by the highest echelons of foreign aid, there 
+UNICEF also crafts and publishes case studies that demonstrate the is not nearly enough reflection on the way we think and act. The 
+Principles at work —including through an internal newsletter and on focus has been on technical fixes instead of behavioral changes, 
+their external blog: http://www.unicefstories.org. The unit also hosts 
+and bolt-ons instead of changed business models[…].” 1
+“Fail Faires” designed to share lessons learned from what did and did 
+not work. Find the Principles for Digital Development promoted on 
+the UNICEF website here: http://www.unicefstories.org/principles/. Reform Processes
+Today, the ideas behind UNICEF’s Innovation Principles have been Recognizing that significant change could not happen 
+folded into the Principles for Digital Development. in the absence of  institutional change, a number of  
+donors and multilateral organizations involved in 
+drafting the Principles have embarked on internal 
+reform processes.
+UNICEF, one of  the first organizations to develop its own guiding principles based on learning from digital development 
+failures, took steps to publicize and socialize these principles across its massive, 190 country global footprint. 
+USAID, another co-author and early proponent of  the Principles, has identified two separate reform processes that it is 
+seeking to leverage to increase awareness of  and adherence to the ideas embodied in the Principles. 
+Policy Reform at USAID
+At USAID, the U.S. Global Development Lab is engaged in two internal reform processes that offer opportunities 
+to weave Principles guidance into enforceable USAID policy. Should these efforts be successful, they will help code 
+Principles guidance into the DNA of  the agency’s operations by making USAID programming more responsive to  
+real-time data, and by guiding USAID procurements toward entities whose operations reflect the Principles. 
+1. Ramalingam, Ben. Aid on the Edge of Chaos. Oxford Press, 2013, p. 15.
+8  |  FROM PRINCIPLE TO PRACTICE: Implementing the Principles for Digital Development
+WHAT IT IS Program cycle reform: USAID’s Bureau of Policy, Planning and Learning (PPL) is undertaking 
+an agency-wide reform process in revising ADS 200-203 and strengthening the Program Cycle. 
+These revisions intend to better support planning and implementation in the field, and allow for 
+more adaptive and iterative operations through more flexible and sustainable programming. The U.S. 
+Global Development Lab’s Development Informatics team is working closely with PPL to incorporate 
+capacities that would enable greater program flexibility and adaptation based on real-time data.
+WHAT IT This reform process seeks to institutionalize the guidance in Principle #5: Be Data Driven by establishing 
+WOULD DO policies and processes to close the gap between monitoring and evaluation cycles that can take months 
+or even years to complete, and the availability of real-time data that can be used to inform program-
+ming at the time when data is needed for decision-making. 
+WHAT IT IS Procurement reform: USAID is exploring novel approaches to procurement that allow for more 
+iterative and adaptive planning and operations. The U.S. Global Development Lab is also working with 
+USAID Operating Units and Missions to help them better understand the variety of contracting 
+options already available that allow for more flexibility and emphasize co-creation.
+WHAT IT This reform process seeks to provide the guidance necessary to ensure that USAID funds are directed 
+WOULD DO to projects, programs, and entities whose operations follow established best practice, such as that 
+reflected in the Principles for Digital Development. 
+ 
+Other government donors are taking concrete steps to put the Principles into practice. The UK’s Department 
+for International Development (DFID), for example, announced2 in late 2015 that in all new procurements, 
+partners and suppliers will be required to demonstrate how they plan to adhere to relevant Principles. 
+Building Organizational Capacity
+International donor organizations are taking other steps as well. Both the Swedish International Development 
+Cooperation Agency (SIDA) and USAID have conducted internal trainings on the Principles to build digital 
+development capacity among staff  operating across a wide variety of  sectors, countries, and technical areas of  
+expertise. SIDA also has created a digital development practitioner network that enables its staff to share experiences 
+and insights across a breadth of  sectors, including human rights and democracy building. USAID, through its 
+U.S. Global Development Lab, has held four digital development trainings: two 
+in Accra, Ghana, that reached staff across the West Africa region, one in Delhi, `
+ORGANIZATIONAL GUIDE TO ICT4D
+India, and one in Washington, D.C. , that together reached over 100 staff. Leveraging Technology for International Development
+Similarly, a number of  development organizations have taken steps to  
+institutionalize lessons learned in digital development. 
+Recognizing that building organizational capacity in digital development is 
+essential to operationalizing best practice, in 2015 Catholic Relief  Services 
+(CRS) published the Organizational Guide to ICT4D: Leveraging Technology for 
+2. See blog post by Frances Sibbet, “Putting digital principles into practice in our aid programmes,” https://dfid.blog.gov.uk/2015/11/10/putting-digital-principles-in-
+to-practice-in-our-aid-programmes/ Last accessed November 24, 2015.
+|  9 
+INTRODUCTION
+International Development. The guide reflects CRS’ own ICT4D strategy, which was first assembled in 2008 to build 
+capacity for technology and programming in the field. The guide shows how digitally supported approaches to 
+development can add value, and provides practical guidance around implementation. 
+Development Alternatives Incorporated (DAI) also took steps to build the knowledge and capacity of  its staff  to implement 
+best practice. In 2015 DAI ran a six-month training course based on the Principles for Digital Development, which a total 
+of  55 staff  completed through monthly half-day training sessions that included both in-person and remote participants. 
+Participants were provided with reading assignments, workshop and activity sessions to game out specific scenarios, and 
+office hours for staff  who had follow up questions. DAI subsequently condensed the course for delivery as part of  the 
+USAID-funded Cambodia Development Innovations Project to provide continued training on incorporating the Principles 
+into project work plans in Cambodia. “As a result of  the training, proposal and project teams are more aware of  what they 
+know and what they don’t [know]. They are able to understand the importance of  thoughtful incorporation of  digital tools 
+into program design and delivery,” said Krista Baptista, head of  the ICT Services Team at DAI.
+Report Goal & Audience 
+This report is the culmination of  the initial phase of  community discussion and activities around the Principles. The 
+primary audiences for this report are development managers—individuals who can influence policy-making and 
+budgetary authorities within organizations whose primary mission is to further international development, whether 
+as a non-profit, corporation, foundation or social enterprise. For the development manager, the report provides a 
+record of  a year of  community discussion of  the Principles for Digital Development, distilled into tips regarding their 
+implementation, including how to overcome common obstacles. 
+Through three main sections the report is designed to: 
+Introduction !   Close the feedback loop by capturing highlights from the year of  discussions and sharing   
+  them publicly, both for the groups that have already engaged and for audiences who have   
+  yet to come to the table
+Principles in Focus !   Provide a community-led definition of  what each Principle means in practice, including   
+  case studies that illustrate by example
+ !   Surface common barriers to implementation and, where possible, tie them to concrete  
+  recommendations
+Conclusion !   Identify common themes across these recommendations and note areas that need further   
+  investigation, analysis, reflection, and action
+Report Methodology 
+This report draws from over a year of  discussion including Principles for Digital Development  
+Working Group members and others who participated in events at which the Principles were discussed. It also draws 
+from one-on-one discussions with over a dozen individuals who expressed interest in sharing more detailed insights 
+to inform this report. A three-week public comment period between October 28 and November 13, 2015 enabled broad, 
+public input from those who have participated in this discussion to date, as well as from new audiences. 
+10  |  FROM PRINCIPLE TO PRACTICE: Implementing the Principles for Digital Development
+Building ICT4D Organizational Capacity: Catholic Relief Services’ Strategy
+In 2008, CRS identified the need to integrate the use of As technology becomes increasingly interwoven in CRS’s work, she 
+technology into its programming in the field, and created the first says the organization is seeing cost efficiencies through automation, 
+iteration of its digital development organizational strategy. an increase in data quality through the reduction of human error, 
+an increased speed with which data is available for decision-making, 
+Carol Bothwell, director of the Technology Innovation for and, increasingly, tangible improvements for local communities. 
+Development at CRS, said the organization began this work by She notes that CRS’s program has a growing focus on sustainable 
+building a knowledge exchange mechanism to share experience business models, including hybrid funding strategies that involve 
+and learning across a cross-functional community of practice. This local governments and businesses.
+includes an internal community website and weekly meetings, 
+as well as annual ICT4D conferences open to the development CRS’s implementation of technology in its field programs was 
+community at large—all of which continue today. not without challenges. Carol notes that over the course of the 
+program’s development, CRS gradually learned the importance of:
+Next, CRS began building a portfolio of solutions with the goal of 
+being able to sustain solutions over time and move them to scale. To !   Community in encouraging the use of technology in 
+do so they conducted an audit of what tools were already in use in development through the sharing of successes and challenges; 
+the field, and examined characteristics that enabled scale. They used !   Comparing the full life cycle costs and benefits of  
+innovation grants to expand the portfolio and formed partnerships digitally enabled approaches to development with more 
+with technology companies to reduce solution costs. This internal traditional approaches; 
+project portfolio is available as a reference tool to CRS country !   Using a structured approach to planning that provides adequate 
+offices looking for tested tools. time for design, prototyping, and field trials of solutions before 
+full-scale implementation; 
+Third, CRS defined a process for implementing technology solutions !   Planning up front for long-term user support and maintenance 
+built on best practices from the IT industry and began capturing of technology solutions; 
+outcomes of digital development programming as it moves through !   Ensuring adequate time to build users’ digital literacy without 
+implementation in an effort to refine that practice. “A lot of other underestimating their ability to learn; 
+international NGOs don’t have documented processes around !   Balancing local needs with investments that lead to sustainability 
+managing digital development programming, and don’t do trainings and scale by selecting and integrating technologies that can be 
+around the learning these programs produce. They don’t have the easily adapted and extended to meet unique needs; 
+follow up to see what is working and what’s not,” she said. !   Formally managing behavior changes that are required for 
+successful use, adaptation, and reuse of solutions over time 
+Finally, the digital program at CRS provides an internal advisory within each stakeholder group; and 
+service to help translate this learning into organizational practice  !   Measuring results of technology use and communicating those 
+in the field. The advisory service helps field project managers plan results to encourage relevant adoption of digitally enabled 
+for the use of ICT in their programs, and supports the enforcement approaches to support CRS’s development programs.
+of best practice in implementation. The advisory service also  
+enables the sharing back of knowledge and experience to a global Read the guide at http://goo.gl/yzsTsX. 
+team from the field projects. “This helps transfer information about 
+what has worked, and helps keep our project portfolio up to date,” 
+Carol noted.
+Join the Discussion
+Interested parties are encouraged to join the ongoing discussion around the Principles for Digital Development:
+Join the Working Group Sign up to receive email updates and event invitations by joining the Principles  
+ Working Group at https://goo.gl/wcsPJF.
+Join the discussion online Follow the discussion on Twitter using #digitalprinciples.
+|  11 
+INTRODUCTION
+12  |  FROM PRINCIPLE TO PRACTICE: Implementing the Principles for Digital Development
+II
+Principles  
+in Focus
+|  13 
+PRINCIPLE  1: Design with the User
+“The Principles are pivotally different from the way development currently is being done. They are effectively building the rationale for 
+a paradigm shift. They have the potential to transform development by democratizing it and making it more transparent.”   
+~ Elie Calhoun, Code Innovation
+The Principles for Digital Development are the result of  a concerted and consultative effort to learn from success and 
+failure in digital development, but they are not perfect. The Principles do not, for example, solve all existing challenges 
+to the fair, effective, sustainable, and secure use of  technology in development projects. Neither do they answer difficult 
+questions that arise from tensions between individual Principles, such as how to balance the move toward open data 
+with the protection of  individual privacy and security. They also are written in high-level language, which can lead to 
+varying interpretations of  what each Principle means.
+For these and other reasons, the Principles are not designed to serve as a checklist. Indeed it would be difficult, if  not 
+impossible, to implement all Principles simultaneously. Instead, the Principles are designed to serve as a heuristic 
+approach to considering how lessons learned from digital development successes and failures can be translated into 
+everyday practice. In this light, this report is structured to help implementers and decision-makers grapple with how to 
+assess trade-offs between the Principles and where to apply limited resources.
+This section of  the report is devoted to exploring each Principle in detail, including a closer look at what each Principle 
+means, what common barriers practitioners have faced in putting the Principles in practice, and recommendations for 
+overcoming these obstacles. 
+For each Principle, the section includes an exploration of:
+ 
+Definition How is this Principle currently defined? 
+Why It’s Needed What shortcoming in digital development does this Principle address?
+Community What insights and advice did practitioners share based on their experience in putting 
+Discussion  this Principle into practice? What were common barriers to implementation and what  
+ recommendations did the community surface to overcome these barriers?
+Resources What reference tools are available for further information?
+There’s still a view that technology will solve anything. But there’s a growing understanding that technology also comes 
+with real challenges and ethical quandaries.” 
+~ Ella Duncan, Search for Common Ground
+14  |  FROM PRINCIPLE TO PRACTICE: Implementing the Principles for Digital Development
+PRINCIPLE  1
+Design with  
+the User
+◃   Develop context appropriate solutions informed by user needs.
+◃   Include all user groups in planning, development, implementation and assessment.
+◃   Develop projects in an incremental and iterative manner.
+◃   Design solutions that learn from and enhance existing workflows and plan for  
+organizational adaptation.
+◃   Ensure solutions are sensitive to, and useful for, the most marginalized populations: 
+women, children, those with disabilities, and those affected by conflict and disaster.
+|  15 
+PRINCIPLE  1: Design with the User
+“Trying to implement solutions into communities—an outside-in approach—is the wrong way to do this. We need an inside-out 
+approach, or just support for homegrown, home run solutions.” 
+~ TMS Ruge, founder, Hive Colab
+Why It’s Needed
+Too often in the field of  international development digital tools are created, or digitally supported projects and systems 
+are designed, without sufficient input from the stakeholders whose engagement and ownership are critical to long-
+term success. This is true of  many development interventions, whether or not they involve a digital component; but 
+digitally–supported projects may surface the impacts of  this flaw in more readily visible ways. Projects designed 
+without sufficient user engagement can fail due to simple usability issues as opposed to flawed project or system design. 
+Principle #1: Design with the User, provides recommendations to avoid this common pitfall.
+Community Discussion
+Users should be central to the design process of  digital development interventions, solutions, technologies, and 
+programs—throughout the yearlong discussion period there was strong consensus on this point. Yet discussion of  this 
+principle was not without friction. 
+A number of  participants disagreed with the framing of  this Principle, pointing to the inherent bias that the designer 
+is not the user. This speaks, they argued, to an underlying assumption that international development funders and 
+practitioners (still) see themselves as the primary source of  ideas and implementation. 
+Part of  the contention arose from the question of  who the “user” is. Is it the field staff  of  international NGOs? Or 
+the pregnant woman in a rural area that field staff  are working to support? How you see things depend on where you 
+sit—indeed, this is the very premise that underlies the intent of  this Principle: ensure program objectives and system 
+specifications are defined with users’ perspectives in mind, whether the design is in building something new, or reusing 
+and improving existing tools.
+Insights Advice
+Encouraging early, direct, and sustained collaboration with the target user community 
+increases the local relevance, utility, and sustainability of products and services. } Be “user centered”
+Understanding whether and how people access digital technologies is critical to  
+designing appropriate systems and tools. Whenever possible, design for the tools  } Meet users where they are
+people already have in hand.
+Prototyping, by testing early and often with the user community, can gather feedback 
+well before products are put into a formal design process. } Prototype and iterate
+16  |  FROM PRINCIPLE TO PRACTICE: Implementing the Principles for Digital Development
+Recommended Case Study
+Designing with end users as participants is not a ‘once and done’ task, but an ongoing opportunity with each design iteration. 
+Community-based Antenatal Care and Immunization Coordination is a partnership among the non-profit tech company Medic 
+Mobile, the Kenyan Ministry of  Health and the NGO Kilifi Kids. In this initiative, the design team at Medic Mobile involved nurses 
+and community health workers (CHWs) in designing and testing an evolving toolkit of  technologies and supported workflows.  
+Read more here: http://goo.gl/8XYSmX
+Insights Advice
+Creating user personas that represent the needs and desires of major stakeholder 
+groups can facilitate a clearer understanding of the impact of potential design  } Create user “personas” 
+choices on user groups.
+Keeping user needs, environment, and preferences at the center of project and  
+product design will improve outcomes. } Consider context
+Engaging all stakeholders helps to ensure eventual products, services, and business 
+processes are responsive and appropriate for user preferences, environments,  } Engage related stakeholders
+and behaviors.
+Sketching out visual representations of complex systems can be an effective means  
+of conveying unfinished concepts, particularly when collaborating with low literacy  } Put it on paper
+user communities.
+Using role-playing, particularly when direct engagement with users is not feasible,  
+can reveal new insights and achieve mutual understanding in working with target  } Use role-playing
+users and communities.
+“A subsequent stage of Principles activities might look at how to apply the Principles at various stages of implementation: pilot, scale, and 
+institutionalization. The data, informatics, and systems requirements at each stage are different, and require different levels of capacity.”   
+~ Jon Payne, Open Concept Lab
+Recommended Case Study
+The Guatemalan Ministry of  Education partnered with USAID in 2011 to develop System Intelligence tools designed as  
+ user-oriented, easy-to-use platforms that permit immediate access to statistics and indicators. The result was an information 
+system to support all stakeholders needs, from central to local level. Based on user-needs, it brings all the answers needed for 
+planning and informed-decision making. Read more here: http://goo.gl/wghf0a
+|  17 
+PRINCIPLE  1: Design with the User
+“The assumption that’s ingrained in this Principle is that the designer is not the user. Already, this creates a power dynamic, and 
+continues the conventional development assumption that development professionals are going in and solving other people’s problems.”  
+~ Samir Doshi, USAID
+Overcoming Obstacles: Barriers & Recommendations
+Observation Barrier Recommendation
+Practitioners cited a reluctance on the part of development organizations to incorporate a 
+comprehensive user-centered design process due to cost constraints.
+Donors do not usually 
+fund user-centered Funders can consider different funding models that provide funding and time for design with 
+design processes and/or by users. Implementers can demonstrate in responses to RFPs/RFAs how design with  
+or by users can increase sustainability.
+For development organizations, tight time windows in project bidding and planning processes  
+can make a user-centered design process difficult for large development organizations. 
+Project processes leave 
+insufficient time Funders can consider alternative models for the existing RFP process, such as including a  
+planning grants phase or using innovation challenge grants. 
+Implementers can design in phases with deliberate learning windows, and explore internal and 
+external knowledge sharing models to draw on comparative advantage.
+Too often digital development interventions are designed without sufficient input from the  
+user community.
+Current design efforts 
+predominantly focus  Funders can prioritize proposals that demonstrate sound strategies to design with or by  
+on design for rather the user community. Implementers can use proposals as an opportunity to showcase good  
+than with the user design principles.
+International development funding flows and processes create a structure that assumes 
+development organizations are the primary program, project, and/or product designers. 
+International  
+development funding Funders can increase investments in national/local partners, and otherwise direct funding and 
+flows prioritize design investments in international partners toward building national and local capacity. Implementers 
+with over design by  can design programming to understand existing processes and capacity, and build supportive 
+the user programs accordingly. 
+18  |  FROM PRINCIPLE TO PRACTICE: Implementing the Principles for Digital Development
+“It’s not that [local] solutions are lacking; we need a way to catalyze what’s already there.”    
+~ TMS Ruge, founder, Hive Colab
+TIP  |  See the Awaaz.de case study at http://goo.gl/bmoT0F for an example of  how one organization segmented and 
+designed with user groups.
+There is no central repository of information about organizations, individuals, and tools currently 
+working on digital development efforts at the regional or country level. 
+It is difficult to source 
+information about existing Test the value proposition for a wiki-style repository that tracks data about digital development, 
+partners, innovations,  including related people, processes, and tools.
+and innovators
+Designing for the user today may not meet tomorrow’s users’ needs. Take, for example, an end user 
+in a government ministry. As digitally supported programs advance, data may be available faster, 
+more frequently, in greater detail, and higher quality, requiring a change in management process. 
+User preferences, 
+context, and needs 
+change as projects or Consider how to track and adapt to changing user needs as a program evolves. Trade-offs between 
+programs evolve Principles may look different, for example, a year after at a project or program’s inception point.
+Significant variation exists within user groups, as well as between different user groups.
+User groups are diverse Pay careful attention to variation within and between user groups, considering variables such as 
+incentives and capacity.
+TIP  |  Existing resources that aggregate information about civic technology movements and ICT and innovation 
+hubs include: www.AfriLabs.com;  www.CodeForAll.org;  www.GlobalInnovationExchange.com
+RESOURCES
+The following are a sampling of  resources to support implementation of  Human Centered Design, a toolkit created by IDEO.org, provides an 
+Principle #1: Design with the User on the www.digitalprinciples.org website. overview of  the principles of  human-centered design, developed 
+in the private sector and adapted here for development actors. 
+Design Research for Media Development, a reference guide by  Read the toolkit at https://goo.gl/NikBco. 
+Reboot and Internews designed for media development  
+practitioners with broad applicability for anyone interested in Development Impact & You: Practical Tools to Trigger & Support 
+design research. Read the guide at http://goo.gl/nPkFD5. Social Impact, by Nesta, is an overview of  tools that a 
+survey of  development practitioners found most useful 
+to innovation and international development. Read the 
+overview of  tools at http://goo.gl/F7FnJu. 
+|  19 
+PRINCIPLE  1: Design with the User
+PRINCIPLE  2
+Understand 
+the Ecosystem
+◃   Participate in networks and communities of like-minded practitioners.
+◃   Align to existing technological, legal, and regulatory policies.
+20  |  FROM PRINCIPLE TO PRACTICE: Implementing the Principles for Digital Development
+Why It’s Needed
+To increase the relevance and sustainability of  technology-supported international development and reduce 
+duplication of  effort, Principle #2: Understand the Ecosystem provides recommendations about how to ensure projects and 
+programs are built, managed, and owned with consideration given to the local ecosystem.
+ 
+Community Discussion
+How you apply this Principle depends on how you interpret the meaning of  “ecosystem.” While the definition offers 
+some guidance—consider the practitioner community, and technology, legal, and regulatory environments—Working 
+Group members felt there was room for clarification.
+ 
+It was noted, for example, that while some use the term “ecosystem” to refer just to agents, (such as individuals, 
+institutions, or communities); others use it to refer to agents, and the broader systems in which they act, (such as the 
+surrounding legal, technical and political environment, and the process by which information is collected, curated, 
+analyzed, shared, and used.) 
+ 
+The complexity embodied in this Principle—understand a fluid, multi-faceted, and ever-changing environment—may 
+exemplify some of  the most difficult challenges in putting the Principles into practice.
+Recommended Case Study
+How do you keep a list of  medical facilities and services current and available to a population of  over 49 million? You digitize it. 
+The Tanzanian Government MeLSAT directory is the country’s first online laboratory directory. Read more here: http://goo.gl/QLC4e1
+Insights Advice
+Assess what solutions, processes, and systems already in use in the ecosystem  
+can be adapted and reused. } Avoid duplication
+Building tools and processes that enable sharing of information back into the  
+national/local ecosystem is critical—yet too often feedback is limited to internal  Build project data-to-
+monitoring and evaluation processes and reports back to donors. } ecosystem feedback loops
+Considering drivers of the ecosystem, including resources, incentives, and  
+effective business models, are critical to understanding what value stakeholders  Consider ecosystem 
+may derive today and in the future. } drivers
+Understand various models that can lead to sustainable technology solutions. } Understand models  for sustainability
+|  21 
+PRINCIPLE  2: Understand the Ecosystem
+Insights Advice
+Understanding the regulatory environment (including policies, laws, and other 
+rules that may impact how tech-supported development projects are owned and 
+can operate); the political environment (including how changes in political parties 
+could change personnel, structure, and/or mandates of government ministries); and Understand  
+the technical environment (including standards, platforms and tools, to maximize } ecosystem rules  
+interoperability and encourage reuse and/or adaptation of existing tools as relevant)  
+are all critical to well-functioning and sustainable digital development programs.
+Equally importantly, understanding and engaging networks of trust and influence in  } Understand ecosystem the ecosystem can provide key connections and distribution mechanisms for impact. relationships 
+“It’s not so much ‘aligning to’ an ecosystem, as it is understanding how an ecosystem works, and how to adjust accordingly.”   
+~ Anonymous 
+Overcoming Obstacles: Barriers & Recommendations
+Observation Barrier Recommendation
+Aligning to existing policies, or otherwise mapping an intervention too closely to an ecosystem 
+may reproduce or even amplify existing power dynamics, in some cases further disempowering 
+or even creating risk to vulnerable groups.
+Ecosystems are  
+not ‘neutral’ Understand and adjust to how an ecosystem may create marginalization or vulnerability for 
+certain populations; conduct assessments to understand privacy and security risks in these 
+environments; understand how these environment may support or inhibit scale; and support 
+improved policies as needed.
+Fully understanding ecosystem rules, such as the legal, technical, and political environment, 
+would be hard on its own. Doing these things and understanding ecosystem relationships, 
+which requires detailed first-hand knowledge, is even harder.  
+Getting a 
+comprehensive and 
+current understanding The default, both for funders and implementers, should be to partner with or directly support  
+of ecosystems is hard local organizations that can be best placed to have this knowledge, and the ability to assess  
+potential benefits and risks.
+22  |  FROM PRINCIPLE TO PRACTICE: Implementing the Principles for Digital Development
+Agents (individuals, communities, institutions) are not a black box—they are the product of varied 
+and sometimes conflicting incentives, and respond accordingly. Consider how incentives may 
+facilitate or hinder the use and adaptation/reuse of existing solutions. 
+Ecosystems are made 
+up of actors who 
+respond to incentives Borrow the concept of “power mapping” used in the advocacy space to create a network map that identifies decision-makers, as well as potential brokers or blockers. Consider strengths and weaknesses 
+in systems, such as by examining the “5 R’s”: roles, resources, relationships, rules, and results.
+TIP  |  See page 8 of  the USAID report, Local Systems: A Framework for Supporting Sustained Development for detail on the 
+‘5 R’s’ approach
+Development in Complex Adaptive Systems3
+Development economist Owen Barder writes that today there is a growing recognition that development should be 
+seen not as fueled by any single ingredient, but rather by a diverse ecosystem of  factors. Development, he says, is the 
+emergent process of  complex adaptive systems including political, economic, legal, and financial institutions and 
+systems, and how they work together to increase quality of  life.
+ 
+Barder calls the embrace of  both innovation and selection, a process he calls “creative destruction,” to harness complexity 
+in the service of  development, and the creation of  feedback loops that promote adaptation suitable to the environment. 
+The importance of  feedback mechanisms, he notes, is well documented and understood elsewhere, but it is only recently 
+that theoreticians and economists have applied the study of  these systems in the context of  global development.
+3. Adapted from Waugaman, Adele. Using Technology for Social Good: An Exploration of Best Practice in the Use of Information and Communication Technologies (ICTs) for 
+Development. Nashville, TN: United Methodist Communications, 2014, p.3. For further information, see Owen Barder’s “Development & complexity” lecture on the Center 
+for Global Development’s website: http://www.cgdev.org/doc/CGDPresentations/complexity/player.html.
+RESOURCES
+The following are an example of  reference tools to support implementation  The Busan Partnership document outlines best practices for 
+of  Principle #2: Understand the Existing Ecosystem available online at  fostering more effective cooperation between development 
+http://digitalprinciples.org/understand-the-existing-ecosystem/ practitioners and the communities they support. Read the 
+document at http://goo.gl/PIwQJ3.
+Local Systems: A Framework for Supporting Sustained Development, 
+describes USAID’s overarching approach to sustainable The CSIS Project on Prosperity and Development brought together 
+development, sharing USAID’s field experiences, best practices, policymakers, development implementers, and international 
+and evolving systems thinking approaches. Read the Framework practitioners to foster a more holistic understanding of  aid 
+at http://goo.gl/66YFA2. effectiveness under the new USAID Forward agenda, and 
+documented their findings in this report. Read the report at  
+http://goo.gl/4Fxc3j.
+|  23 
+PRINCIPLE  2: Understand the Ecosystem
+PRINCIPLE  3
+Design  
+for Scale
+◃   Design for scale from the start, and assess and mitigate dependencies that  
+might limit ability to scale.
+◃   Employ a “systems” approach to design, considering implications of design  
+beyond an immediate project.
+◃   Be replicable and customizable in other countries and contexts.
+◃   Demonstrate impact before scaling a solution.
+◃   Analyze all technology choices through the lens of national and regional scale.
+◃   Factor in partnerships from the beginning and start early negotiations.
+24  |  FROM PRINCIPLE TO PRACTICE: Implementing the Principles for Digital Development
+“In recent years we’ve seen an evolution in the [mHealth] ecosystem. We started in a phase of discordant proliferation, which led to a 
+lot of people to question whether [pilots] were all just hype or if there was truly a pathway to scale. After a period of greater scrutiny 
+and willingness to share, we are now entering a phase of greater integration and scale.”
+~ Alain Labrique, Johns Hopkins University
+Why It’s Needed
+Too often international development projects fail to move beyond the pilot stage, or to reach anticipated scale, due to 
+design flaws that limit the ability to scale. In some cases, scale is not a necessary criterion for success. In others, careful 
+consideration of  the necessary inputs can help projects reach their full potential. Principle #3: Design for Scale provides 
+considerations for how to design a project for maximum impact.
+ 
+Community Discussion
+Scale is often held out as the holy grail of  digital development programming: the moment at which you know your 
+project or program has succeeded. Yet is scale always necessary for success? And how do you know when your project 
+has reached scale?
+Many projects claim to have “scaled,” but what scale means in each context may look different. Some define it on a 
+horizontal axis, as in the breadth of  counties, countries, or users reached. Others argued that we need a more nuanced 
+definition of  scale along a vertical access, as in the depth to which organizations such as a partner government ministry 
+change workflows and processes as a result of  the project or program.
+Discussion of  scale led to consensus on a number of  insights and some practical advice that can help lead to a well-
+informed definition and consideration of  scale.
+Recommended Case Study
+In July 2012, the Local Partners Excel in Comprehensive HIV & AIDS Service Delivery (LEAD) project introduced the use of  
+International Quality Short Message Software (IQSMS) to support facilities in routine reporting and sharing HIV commodity 
+information, with a design that allowed for rapid scale up of  the system. This project demonstrates the use of  mobile technology 
+to improve distribution and availability of  HIV commodities in remote health facilities in Tanzania. Read more here: 
+http://goo.gl/BynX9m
+Insights Advice
+Scale, it was noted, is very difficult to achieve: if you don’t design effectively 
+for it at the start. Achieving scale in digital development is not unlike building a Consider scale at  
+product’s market share, and requires a significant investment in design and planning, } the outset
+particularly in early stages of project or product development.
+|  25 
+PRINCIPLE  3: Design for Scale
+“We consider a digital health intervention is at scale when the information system product is institutionalized, and the practices of the 
+people using it and the policies of the institutions using it support continued usage after the catalytic funding ends.”  
+~ Kate Wilson, PATH 
+Insights Advice
+In designing for scale, identify a theory of change and key indicators to measure and 
+evaluate progress. In some cases, the theory of change may point to enabling access 
+to more information that will change workflow processes in a large institution, or lead Consider scale in both 
+to improved livelihoods for individuals. Consider this more nuanced definition of scale } breadth and depth
+in addition to more traditional “breadth” of scale used to capture the quantity of 
+people or places reached.
+Regardless of how you measure it, it is critical to build for scale in the context of the 
+people, policies, and processes in which the project or program is being implemented. In 
+addition to addressing what building for scale means for your organization, understand } Define scale in context 
+what scale will mean for partners, end users, and all other parties in the value chain.
+Identify what kinds and level of resource and capacity are needed among all parties in 
+the value chain to effectively maintain a project or program operating at scale. This should 
+include consideration of human and financial resources, as well as technical, political, Consider resources  
+and institutional capacity. Additionally, as projects and programs scale vertically within } and capacity
+systems, what needs to be done to build capacity to maintain scale over time?  
+In addition to these tangible inputs to scale, members of the community argued that 
+intangible aspects, such as trust and incentives, play a critical role in enabling and 
+maintaining scale. It is an obvious but perhaps underappreciated point: something Consider incentives  
+is most likely to move to scale if it is trusted and accepted, adds value, and is } and trust
+convenient and intuitive to users. 
+Digital programs often have very large up-front costs, which then lessen per 
+individual as the program moves to scale. Large telecommunications companies } Consider how to  
+already have scale, and can significantly defray costs if leveraged effectively. defray costs
+Finally, the elephant in the room in discussions about scale is almost always the 
+question of who pays. While there is no one-size-fits-all approach, community 
+members agreed that early and careful consideration of financial models that support } Consider the  
+sustainability are critical, and that public-private partnerships can play an important business model
+role in this regard.
+If the guidance is to design for scale, but also to demonstrate impact before scaling, doesn’t this create contradictory incentives for 
+development groups?” 
+~ Anonymous
+26  |  FROM PRINCIPLE TO PRACTICE: Implementing the Principles for Digital Development
+Overcoming Obstacles: Barriers & Recommendations
+Observation Barrier Recommendation
+The designers and implementers of digital development programs are rarely those with the 
+capacity or political will to scale them, leading to a disconnect between pilot and scale.
+Designers and implementers 
+frequently don’t have  Involve stakeholders critical to long-term ownership early, ideally in the design stage (see Principle 1).
+the ability or capacity to 
+drive scale 
+There is an active tension between innovation or learning from failure, and moving toward scale.
+Balancing innovation, Identify user groups (see recommendation from Principle 1) and do regular testing and prototyping 
+customization, and with representatives of these groups to ensure a program or project remains relevant and 
+scale requires tradeoffs appropriate as it moves to scale. 
+Many development projects fail to adequately consider the role of scale in their project’s long-
+term viability.
+Determining the role of 
+scale in sustainability re- Development organizations should use available resources to carefully consider the role of scale in 
+quires careful consideration their project’s long-term viability. Should donors require this?
+Many orgs still rely on in-person site visit training, which results in a bottleneck for scale. 
+In-person trainings are Projects and products should be designed to be a simple and intuitive as possible. Where trainings 
+still a bottleneck are required more distance-based options should be explored. 
+RESOURCES
+The following are examples of  resources to support implementation of  Principle #3: The Journey to Scale: Moving Together Past Digital Health Pilots, written 
+Design for Scale available online at http://digitalprinciples.org/design-for-scale/. by PATH, discusses the transformational potential of  digital 
+tools for health, and how organizations and implementers can 
+The mHealth Assessment and Planning for Scale (MAPS) achieve scale in digital health interventions. Read the paper at 
+Toolkit is designed to serve as a comprehensive self-assessment http://goo.gl/ZSTUPz.
+and planning guide to improve the capacity of  mobile health 
+(mHealth) projects to achieve scale and sustainability. The Designing Systems at Scale, published by IDEO, describes the 
+toolkit allows users to assess where projects stand in relation five principles of  systems at scale, emphasizing several key 
+to six activity areas influencing scale: finances, groundwork, monitoring & principles of  digital development, including putting the user 
+evaluation, partnerships, operations, and technology. The toolkit is designed first, and integrating feedback loops to help a system help itself. 
+to be used throughout a project’s trajectory, guiding projects through an Read the guide at http://goo.gl/xUYBWZ.
+iterative process of  thorough assessment, careful planning, and targeted 
+improvements. Read the toolkit at http://goo.gl/HKZ7Eq. 
+|  27 
+PRINCIPLE  3: Design for Scale
+PRINCIPLE  4
+Build for  
+Sustainability
+◃   Plan for sustainability from the start, including planning for long-term financial  
+health e.g., assessing total cost of ownership.
+◃   Utilize and invest in local communities and developers by default and help catalyze  
+their growth.
+◃   Engage with local governments to ensure integration into national strategy and  
+identify high-level government advocates.
+28  |  FROM PRINCIPLE TO PRACTICE: Implementing the Principles for Digital Development
+Why It’s Needed
+Too often international development projects fail to factor in the physical, human, and financial resources that will  
+be necessary for long-term sustainability. Principle #4: Build for Sustainability outlines considerations that can support a 
+digital development solution or system’s longevity for the intended duration.
+ 
+Community Discussion
+Sustainability should be one of  the most important goals of  digital development interventions, but too often it is 
+inadequately considered. This may be due in part to the nature of  funding cycles, which provide incentives for donor 
+organizations to ensure projects and programs are implemented up until the funds are spent. After this time, projects 
+often wither away, in many cases ripping away any benefit end users may have derived.
+Some have argued that this is dangerous, and indeed may undermine the very market forces that could otherwise 
+intervene to meet development needs. In a 2011 blog post entitled “The Subtle Condescension of  ICT4D,” Ushahidi  
+co-founder Erik Hersman wrote:
+ 
+“[T]he funds and work put into this space by the NGOs are creating a false floor in the economy. They’re undermining the community  
+of tech entrepreneurs who could be building the same products and services and charging for it, just like we’d expect any company in  
+the West to do if there was a valuable service worth paying for. If it’s a service that should be supplied by the government, then they’re 
+short-circuiting those responsibilities and subsidizing actions that subvert the public offices away from their duty.”
+ 
+This opinion may not be universally shared, but it clearly points to an important and open question in international 
+development: Where does development stop and where does enterprise begin?
+ 
+Considering this question opens a series of  related questions: Where are there areas of  overlap between development 
+and enterprise, and what models should digital development practitioners consider in building for sustainability?  
+What kinds of  technology solutions are most likely to demonstrate and transition to commercial viability? What ethical  
+considerations should be borne in mind as projects move from development projects to business enterprises? Should 
+some projects never move to private ownership?
+“It’s unrealistic for donors to expect or assume that development organizations are going to design sustainable programs 
+when donor funding only covers specific targets during a limited time frame.”   
+~ Anonymous
+Insights Advice
+Identify what ongoing funding types are necessary as a project evolves, such as: seed 
+funding, as for a pilot project which results in a system that pays for itself after initial 
+implementation (such as through cost savings); gap funding, as to bridge to scale } Think through the  
+after which it pays for itself; or ongoing funding from an economic buyer that derives business model
+continuing value from the solution.
+|  29 
+PRINCIPLE  4: Build for Sustainability
+“In developing your own technology solution, you can make a lot of rapid prototypes and quick gains, but people who have a less 
+technical background often fail to realize that’s just the tip of the iceberg. Your investment is going to increase substantially if you want 
+to sustain [the solution]. And if you don’t [do the necessary maintenance and upgrades], you can trap yourself with legacy software 
+that becomes difficult or impossible to use.” 
+~ Luke Disney, NorthStar Alliance 
+Insights Advice
+Ensure incentives are aligned by testing and confirming the value proposition for all 
+stakeholders in the ecosystem: public, non-profit, private sector, delivery agents, Check the value 
+households, and individuals. } proposition
+Keep it simple: the simpler the value chain, the more likely the success. } Keep it simple
+Understand and prepare for what long-term financial investments—like system 
+maintenance and support, capacity building, and monitoring and evaluation—are } Anticipate  
+necessary and can help achieve sustainability of operations. long-term costs
+Engage external actors, potentially including the government, the private sector, civil 
+society, and others that have an interest in the communities the project or product is } Partner, partner, partner
+designed to serve.
+Assess existing systems for gaps as well as areas of duplication. Work with national 
+stakeholders and others to identify a national and/or regional strategy to determine Assess tensions and gaps 
+how existing systems should align. } in existing systems
+Identify and adjust to what essential non-monetary resources, such as trust and buy-in, Identify non-monetary 
+are necessary to achieve sustainability of ownership after an initial pilot or seed phase. } investments
+“The real constraint (to sustainability) is the timeline: both planning for and responding to requests for proposals, and the short, five-
+year project cycles. Creating holistic approaches to complex problems in development doesn’t happen in five years, that’s not how it 
+works. When responses to calls for proposals or applications require responses in three weeks, how is there time to really assemble and 
+think through how multisectoral and integrated approaches could strengthen a response?” 
+~ Anonymous
+30  |  FROM PRINCIPLE TO PRACTICE: Implementing the Principles for Digital Development
+Overcoming Obstacles: Barriers & Recommendations
+Observation Barrier
+Recommendation
+Practitioners expressed concern that line items that are critical for project sustainability are 
+compared less favorably to flashier innovations when it comes to securing development dollars.
+Sustainability line 
+items can be a hard sell Donors should prioritize consideration and planning for sustainability in awarding of funds. In 
+proposals, development organizations can proactively frame necessary investments by focusing  
+on how they can lead to more sustainable outcomes.
+Both open source and proprietary tools can come with high costs for continued software 
+maintenance and upgrades that can pose challenges to sustainability.
+Understand  
+long-term costs Know your costs by anticipating upfront and long-term investments required.
+Understanding incentives is also important to developing a business model that will lead to 
+sustainability of a technology solution.
+Understand incentives
+Consider the role of incentives in designing a long-term business model, and who is likely to pay 
+for a technology solution over time.
+“Often times what makes a project shock absorbent is a help desk or server guy in the Ministry of Health. But nobody wants to put 
+this in their proposals because they fear losing the bid to a competitor with a “shiny object” more likely to attract donors. This is a real 
+problem as this lack of practical, but conceptually mundane components kills good projects.” 
+~ Anonymous
+Project Mwana: Using Mobile Technology to Increase Infant HIV Diagnosis
+Early intervention with antiretroviral therapy (ART) is critical to reducing morbidity and mortality among HIV-infected 
+patients. But this is only possible with early and accurate diagnosis.
+Project Mwana, an initiative implemented by the Zambian Ministry of  Health, with support from a variety of  national 
+and international partners, used mobile technology to reduce the turnaround time between sample collection, 
+laboratory testing, and patient caregiver notification by 50%. 
+|  31 
+PRINCIPLE  4: Build for Sustainability
+TIP  |  Consider technical working groups. The largest challenges facing Project Mwana’s implementation centered 
+around project ownership and partner coordination. A technical working group led by the Zambian Ministry of  
+Health was used to regularly convene partners, and to ensure there was one common plan and common monitoring 
+and evaluation framework that was agreed to and reviewed on a regular basis.
+Sustainability was built into the program design in several ways:
+!   The program was built with government ownership from the beginning, and engaged a diverse consortium of  
+partners that could enable scale.
+!   The program was built using RapidSMS, a license-free, open-source programming framework that allows developers 
+to build their own SMS-based applications, and supported by local developers. 
+!   Project partners customized applications for data collection, logistics coordination and communications operations, 
+creating an interoperable system that leveraged each organization’s incentives and comparative advantage.
+!   The messaging interface was streamlined to be as simple as possible, and the fee per text was negotiated to keep the 
+costs as low as possible. 
+!   The system made use of  existing technologies by enabled staff  to use their personal phones.
+!   Monitoring and evaluation was used to track outcomes and make program adjustments as needed. 
+!   Government and partner organizations remained engaged throughout, enabling program institutionalization.
+RESOURCES
+The following are a sampling of  resources to support implementation  Inveneo’s ICT Sustainability Primer aims to present lessons  
+of  Principle #4: Build for Sustainability available online at  learned from a wealth of  experiences providing ICT solutions  
+http://digitalprinciples.org/build-for-sustainability/ in resource constrained communities. Read the primer at  
+http://goo.gl/dCFx1d.
+Sustainable Financing for Mobile Health (mHealth): Options and 
+opportunities for mHealth financial models in low and middle income The Planning an information systems project toolkit, written  
+countries, published by the mHealth Alliance and written  by WHO and PATH, provides resources for public health 
+by Vital Wave Consulting, provides an overview of  business managers to support the implementation of  ICT tools and 
+models that can enable sustainability. Read the report at  solutions in health information systems. Read the toolkit at 
+http://goo.gl/ikZMaB. http://goo.gl/RWYR0Q.
+32  |  FROM PRINCIPLE TO PRACTICE: Implementing the Principles for Digital Development
+PRINCIPLE  5
+Be Data  
+Driven
+◃   Design projects so that impact can be measured at discrete milestones with a focus  
+on outcomes rather than outputs.
+◃   Evaluate innovative solutions and areas where there are gaps in data and evidence.
+◃   Use real-time information to monitor and inform management decisions at all levels.
+◃   When possible, leverage data as a by-product of user actions and transactions  
+for assessments.
+|  33 
+PRINCIPLE  5: Be Data Driven
+Why It’s Needed
+Too often, international development projects fail to fully leverage data to support project planning and decision-
+making. The consequences of  not sufficiently making data-driven decisions are not well understood, but can include 
+diluted impact and unintended outcomes. Principle #5: Be Data Driven provides tips to identify the sources of, and 
+incorporate data into, project design and decision-making.
+Community Discussion
+Data is in many ways the DNA of  development projects—a fundamental building block that informs how interventions 
+are designed, implemented, and evaluated. Technology has opened up many new data sources, moving us from a 
+paradigm where data was costly, rare, infrequent, and poor quality, to one where it can be cheap, abundant, and available 
+in real-time or near real-time. Yet many gaps still exist in our collective ability to access and use data, and many open 
+questions remain about data ownership, use and reuse, and minimum standards of  data privacy and security. 
+Some of  these issues are addressed in the 2015 report A World That Counts, prepared by the Secretary-General’s 
+Independent Expert Advisory Group on a Data Revolution for Sustainable Development. Increasingly, data is 
+recognized as critical to enabling progress toward the reframed Sustainable Development Goals.
+Over the year of  discussions about the Principles for Digital Development, there was clear consensus on one point: 
+Improvements in our ability to harness the growing volume and velocity of  data that accompany increasing digitization of  
+development projects offer some of  the greatest promise for the future. Yet much work remains to reap the full rewards.
+Recommended Case Study
+Data Giraffe, an open-source platform designed by International Research and Exchange board to help manage its Bibliomist 
+(Ukraine) and Biblionet (Romania) library modernization programs, was designed specifically to catalyze data driven practices for 
+all actors in the Ukraine and Romania projects. Everyone was getting the data they needed when they wanted, and didn’t need to 
+think about it. That’s when things went wrong. Read more here: http://goo.gl/LVEmbU
+Insights Advice
+Draw from a variety of data sources, including traditional collection modalities  Benefit from the 
+(e.g., via surveys or enumerators), “big data” (e.g., by-products of digital user  increasing diversity of data 
+actions and transactions), and “open data” (e.g., public data, such as that provided  } sources and triangulate 
+by a government.) data sources 
+Use both traditional data analysis methodologies, such as evidence-based studies  Use both evidence-
+that are peer reviewed and published, as well as agile data analysis methodologies that } based and real-time data 
+make use of data collected a month, a day, or even an hour ago. methodologies
+34  |  FROM PRINCIPLE TO PRACTICE: Implementing the Principles for Digital Development
+Insights Advice
+Real-time (or near real-time) data is creating the opportunity to make course  
+corrections while projects are underway, as opposed to waiting for M&E conducted  
+at the close of a project to inform future projects. Use data to strengthen service } Create data  
+delivery, both in the short and long term, by creating a feedback loop between data, feedback loops
+analysis, decision-making, and action. 
+Ask where there are vulnerabilities of information collection, sharing, and 
+communication within the intended users and/or target audience of the project, and Institutionalize the use 
+with the technology being used to gather, analyze, and house the data. As discussed of risk assessments 
+in Principle #8: Address Privacy & Security, it is critical that organizations have } around data collection, 
+documented processes for doing risk assessments on a project-by-project basis, as  transmission, and use
+well as for obtaining informed consent to use the data that they collect.
+Use standards wherever possible to facilitate data analysis and sharing, and coordinate 
+to create bottom-up informal standards where they don’t exist. } Use data standards
+Leverage and contribute to existing data repositories whenever appropriate to grow  Contribute to  
+the data commons. } open data
+Carefully consider taxonomy, as how data is categorized will influence how it is 
+interpreted and used. } Consider data taxonomy
+Data mapping, the step before data analytics, involves identifying all possible 
+structured and unstructured data elements and then finding ways to link different  } Use data mapping when data sets to achieve analytical objectives. Data mapping can identify a need to  data collection involves 
+institute common data fields for all institutions to ensure collected data is useful  multiple institutions and/
+rather than overwhelming. or large volumes of data.
+REFERENCE  |  For examples of  organizations and projects creating data feedback loops see the World Bank report 
+Closing the Feedback Loop: Can Technology Bridge the Accountability Gap?  
+|  35 
+PRINCIPLE  5: Be Data Driven
+“The goal is to have better [outcomes], not just better data. Often the data [are] numbers that somebody made up because that’s what they 
+thought we wanted. We need to be aware of this and not just push for more data. We need to ask: are we measuring the right things?”  
+~ Marc Mitchell, D-tree International
+Overcoming Obstacles: Barriers & Recommendations
+Observation Barrier Recommendation
+There is tremendous variation in the availability, quality, and capacity to use data across 
+development actors and projects.
+Data access and 
+quality varies Consider the implications of various constraints, from a “data gap,” in which data is simply 
+unavailable, to a “usability gap,” in which limitations restrict the utility of available data due to 
+a lack of resource or capacity.
+Data collection must be paired with the human and institutional capacity to enable data-
+driven decision-making.
+Capacity for data-driven  
+decision-making varies Assess capacity and resources around three stages of the data to action continuum: data 
+collection, knowledge creation, and analysis for decision-making.
+Demonstrating measurable positive impact, particularly at scale, requires time, resources, 
+capacity, and guiding policies/processes—in some cases requiring change management among 
+key drivers/partners.
+Being data driven 
+at scale is resource 
+intensive Know what financial resources, staffing, and institutional capacity are needed in your 
+organization and among counterpart organizations to effectively use high volume/velocity  
+data at scale. Donors can support the inclusion of these costs as an important supporting line 
+item in proposals. 
+When is greater scientific rigor (e.g., control groups or RCTs) required, and when will real-time 
+data suffice?
+Evidence and real-time 
+data are not equal Consider how to weigh different kinds of data in decision-making, including an understanding of when data timeliness may supersede the need for more scientifically rigorous data. 
+36  |  FROM PRINCIPLE TO PRACTICE: Implementing the Principles for Digital Development
+Data reporting and analysis both can be resource intensive tasks, particularly when tied to 
+decision-making.
+Data reporting  
+and analysis can  With careful consideration for how digital data collection, analysis, and reporting works in 
+be burdensome paper-based environments, digitization can reduce the data reporting and analysis burden, and 
+lead to interventions that have greater impact. Sometimes the process of digitization offers 
+an opportunity to streamline indicators, recognizing that fewer indicators can lead to higher 
+reporting, and a greater likelihood that data will be acted upon.
+“Capturing data alone won’t drive improvements. You also need a data manager within the Ministry of Health (or elsewhere) who will 
+use this data to drive change. It can’t be assumed this will happen.” 
+~ Anonymous
+Audit Requirements and Adaptive Programming Goals
+One of  the challenges articulated by development practitioners funded by USAID is the inherent tension between the 
+desire for data-driven, adaptive programming and requirements by the USAID Inspector General.
+ 
+“When the USAID Inspector General comes in to review projects, they look at the original RFP or RFA. They look at the originally 
+defined objectives and goals, and that is how they’re going to judge the performance of the project. When there’s a lot of evolution 
+and change in the project activities, regardless of the source—it could be from country mission, an implementing partner, a country 
+government, or some combination of the three—from the Inspector General’s perspective that can be a source of criticism of the project.” 
+-  Anonymous
+ 
+USAID has taken note of  this conflict and is seeking to reform its procurement process that governs the conditions 
+and regulations according to which it allocates funds. This reform seeks to relieve the tension between the guidance to 
+pursue data-driven adaptive programming and auditing that requires strict adherence to a program as it was originally 
+envisioned before programming began.
+RESOURCES
+The following are a sampling of  resources to support implementation of  Big Data for Development: A Primer by UN Global Pulse  
+Principle #5: Be Data Driven available online at http://digitalprinciples.org/ unpacks the current state of  big data for development  
+be-data-driven/ and provides insights towards overcoming the analytical 
+challenges faced by organizations hoping to use this  
+A World That Counts, a 2015 report prepared by the Secretary- information to achieve development outcomes. Read the  
+General’s Independent Expert Advisory Group on a Data primer at http://goo.gl/QlPYmK.
+Revolution for Sustainable Development, promotes a more 
+inclusive ICT for development ecosystem that embraces Using Mobile Data for Development, funded by the Bill and Melinda 
+cooperation, coordination, common standards and principles, Gates Foundation, explores a conceptual framework of  big data—
+and using better data collection methods to improve decision-making. Read what it is, how we can use it, and what it means for development 
+the report at http://goo.gl/fTROns. more broadly. Read the report at http://goo.gl/rYOKcu.
+|  37 
+PRINCIPLE  5: Be Data Driven
+PRINCIPLE  6
+Use Open Standards, 
+Open Data, Open 
+Source, and Open  
+Innovation
+◃   Adopt and expand existing open standards.
+◃   Open data and functionalities and expose them in documented APIs (Application  
+Programming Interfaces) where use by a larger community is possible.
+◃   Invest in software as a public good.
+◃   Develop software to be open source by default with the code made available in public 
+repositories and supported through developer communities.
+38  |  FROM PRINCIPLE TO PRACTICE: Implementing the Principles for Digital Development
+Why It’s Needed
+Too often in international development, scarce public resources are spent investing in code, tools, and innovations 
+that are either locked away behind expensive licenses, and/or are invested in the creation of  unique, sector-specific 
+solutions. Principle #6: Use Open Data, Open Standards, Open Source, and Open Innovation, provides a framework to consider an 
+“open” approach to digital development.
+Community Discussion
+One set of  obstacles to the sustainability of  digital development programs emerges from the use of  competing and non-
+interoperable systems, which fragment a clear picture of  data about development outcomes and needs. Another relates 
+to the lack of  visibility into the data generated about and by these programs. A third set of  obstacles emerges from the 
+design and implementation of  programs by practitioners who lack sufficient familiarity with or long-term investment 
+in the communities where solutions are used. Principle #6: Use Open Data, Open Standards, Open Source, and Open Innovation is 
+designed to address these obstacles by underscoring the importance of  “open” approaches to digital development.
+ 
+This Principle may be the most contentious of  the series. Open data can catalyze business growth, citizen engagement 
+and foster government accountability, but some data sets also have serious privacy and security implications. The 
+decision about whether to pursue open source or proprietary software solutions also can be controversial—each  
+entails trade-offs. As with the other Principles, this Principle offers guidance for consideration, rather than a checklist 
+of  must-do items.
+Insights Advice
+The free flow of ideas that permeate institutional boundaries, such as through open  
+collaboration via working groups, meet-ups, and code sprints, can help advance development } Embrace “open”  
+outcomes beyond what would be possible with individual actors working alone. collaboration
+The use of open standards, or standards that are publicly available, can increase  
+the impact of development programs by allowing different systems to share data as } Use open standards
+appropriate, increasing accessibility and utility while lowering costs. 
+Investments in open approaches, including open data, open standards, and open source 
+software, can be seen as an investment in the public good by growing a base of  } Invest in the public good
+royalty-free code, data, ideas, and tools that can benefit the wider community. 
+If use of open source code is determined to be a suitable option, ensure there is alignment 
+with your project’s long-term goals, as well as clarity on the technical specifications } Understand technical 
+required to guide open source code adaptation. requirements
+|  39 
+PRINCIPLE  6: Use Open Standard, Open Source, Open Data, and Open Innovation
+Insights Advice
+Look at what’s available, in both proprietary and open source systems, and compare 
+their life cycle costs. Include in this analysis what would be required to support the  
+solution over the long term, whether that’s a technology provider who provides those Understand what’s  
+support services, a well established open source software community, or in-house  } available for (re)use, and 
+staff. When considering the latter, think about your organization’s capacity to manage life cycle costs
+development efforts, as well the impacts on any planned ownership transitions.
+Creating, participating in, and supporting “open” approaches that seek ideas and  Ensure open  
+engagement from a wide group of actors, including user communities, can produce } collaborations involve  
+some of the most relevant ideas and solutions. user communities
+Open data can support entrepreneurial growth, thereby helping to improve service  Opening data can  
+delivery and economic growth. Publishing datasets of government activities can  } support growth, engage-
+increase engagement and accountability. ment, and accountability
+“It is helpful to focus on the issues underlying the choice of a particular proprietary or open source solution, such as life cycle cost, 
+availability of a robust support model, level of system interoperability, ease of ownership transition, ease of replacement and the effect 
+on the local economy. Decisions should take full life cycle cost considerations, as well as support and maintenance implications, into 
+account and consider impacts on local businesses and livelihoods.” 
+~ Carol Bothwell, CRS
+Overcoming Obstacles: Barriers & Recommendations
+Observation Barrier Recommendation
+Open Innovation
+Many organizations do not support the capacity or knowledge development of its staff to 
+collaborate openly.
+Lack of organizational 
+support for open Contribute to building a culture of being “open” by encouraging training and knowledge 
+approaches development about how to leverage open resources within your organization.
+40  |  FROM PRINCIPLE TO PRACTICE: Implementing the Principles for Digital Development
+Many organizations do not provide incentives for staff to consider or pursue open approaches.
+Lack of incentives For managers, consider how to provide incentives and rewards for employees or teams that 
+within organizations for contribute to and benefit from open innovation.
+open approaches
+Competition between organizations can create disincentives for open approaches.
+Lack of incentives Development organizations can use collaborative approaches to competitive advantage when 
+between organizations responding to proposals and applications.
+for open approaches
+Open Standards
+Major actors in the value chain should be bought in to the use of open standards to support 
+long-term project viability.
+Need for buy-in  
+from major actors in Align incentives among all stakeholders through use cases that provide evidence of broad utility  
+value chain of data collected and shared. Include producers and consumers of data to raise awareness of 
+mutual interests.
+Use of open standards typically requires a community behind the standards.
+Need for community When using open standards, consider the effort that is required to support long-term maintenance 
+supporting open  versus the risk of vendor lock-in. 
+standards use
+Open Source
+Costs associated with open source include deployment, training, and maintenance that can 
+add up quickly. Costs also can include paying developers to adapt and maintain the code base, 
+maintaining the hosting environment, and supporting ongoing community engagement.
+Open source is often 
+conflated with “free” 
+when it can entail/ Know long-term costs, and make an informed decision about whether to use open source  
+require investment considering factors such as cost, community, standards, stakeholder ownership and buy-in.
+|  41 
+PRINCIPLE  6: Use Open Standard, Open Source, Open Data, and Open Innovation
+Just because a project is labeled “open source” does not mean there is an established communi-
+ty behind it.
+Open source is typically 
+only as strong as the Consider the community required to support the use of open source software. This includes the 
+community around it. staff within your organization managing projects built on the code, the developer community, and 
+other external stakeholders.
+How open source is used can either create risks to or help ensure privacy and security.
+Using open source can Address privacy and security by choosing open source software with a community large enough 
+increase privacy and to ensure these risks are mitigated. Create interoperability layers to specify what information is 
+security risks public, private, or highly controlled, and regulate access to each layer.
+If the project supports the national government, is there sufficient government buy-in to 
+transition and sustain the project over time?
+Even with costs and 
+community covered, Consider stakeholder buy-in and ownership.
+the use of open source 
+requires buy-in from all 
+actors in value chain
+Open Data
+While personally identifiable information should be stripped out of publicly-shared data,  
+the possibility of individual re-identification remains.
+Opening data can 
+create risks to privacy Protect individuals’ privacy and data security by using layers of access between public  
+and security (non-sensitive) and private (sensitive) data.
+Government and other national stakeholders—particularly civil society—must be bought in to 
+derive full value from open data.
+The act of opening  
+data alone will not Engage with counterparts in the national government to understand and contribute to emerging 
+automatically convey open data strategies, and to support a culture of data collection and use. An “if you build it, they 
+benefit will come” approach will not work.
+42  |  FROM PRINCIPLE TO PRACTICE: Implementing the Principles for Digital Development
+When data is shared openly, terms of use and reuse should be made clear.
+Conditions around  Use an open license to qualify how the data can be used, such as following the guidance available 
+data use and reuse at www.opendatacommons.org/guide.
+should be explicit
+RESOURCES
+The following are examples of  resources to support implementation of  The Open Knowledge Foundation’s Open Data Guide 
+Principle #6: Use Open Standards, Open Data, Open Source, and Open Innovation explores pathways through which organizations can 
+available online at http://digitalprinciples.org/use-open-standards-open- enable transparency and open data throughout their activities. Access the 
+data-open-source-and-open-innovation/. guide at http://goo.gl/FPsOzS.
+Open Source and the Creative Commons: A Primer for Humanitarian GODAN’s How can we improve agriculture, food and nutrition with 
+Aid and International Development by Code Innovation helps open data presents 14 case studies that explore examples of  open 
+humanitarian aid and international development workers data projects and their impact in the agriculture and nutrition 
+understand these concepts and provides guidance on using sectors. Read the paper at http://goo.gl/eoiO8z.
+them. Read the primer at http://goo.gl/gvC7J9.
+|  43 
+PRINCIPLE  6: Use Open Standard, Open Source, Open Data, and Open Innovation
+PRINCIPLE  7
+Reuse  
+and Improve
+◃   Use, modify and extend existing tools, platforms, and frameworks when possible.
+◃   Develop in modular ways favoring approaches that are interoperable over those  
+that are monolithic by design.
+44  |  FROM PRINCIPLE TO PRACTICE: Implementing the Principles for Digital Development
+We’ve seen a long phase of pilots that have failed to reach scale. This was driven in part by the investment mechanisms that have 
+emphasized innovation—these have served as an encouragement to reinvent. Instead, we should invest in what’s already out there that 
+works, focus on refinement and re-use, and tackle the toughest challenges of scaling, implementation, and institutionalization.” 
+~ Garrett Mehl, WHO 
+Why It Is Needed
+As the use of  information and communications technologies in international development has matured, so too has the 
+foundation of  methods, standards, software, platforms, and other tools. Despite this rich base of  technologies available 
+for use, too often scarce development resources are spent building new tools when instead existing resources could be 
+adapted and improved. Principle #7: Reuse and Improve suggests how to avoid reinventing the wheel.
+ 
+Community Discussion
+‘Reuse’ implies taking the time to assess what resources are currently available and whether these tools could be reused 
+without modification; ‘improvement’ suggests doing these things and then adapting existing tools to specific program 
+or project needs—ideally sharing improved code back to the community.
+Over the course of  discussion, there was little debate around the importance of  reuse and improvement to the future 
+of  digital development. Not only was this seen as an efficient use of  scarce resources, it was noted that a lack of  reuse 
+diverts resources away from the further development of  existing tools.
+There was largely consensus that building on existing platforms provides pathways to scale that would otherwise be 
+closed, assures development projects are in sync with national strategies, and allows limited resources to be focused on 
+bolstering specific interventions instead of  building core functionality from scratch.
+Recommended Case Study
+The Elections DemTool and DKAN data warehouse tool were used to systematically collect, analyze & communicate election 
+day processes and outcomes. Since its first deployment in Nigeria in 2011, the Elections DemTool has undergone significant 
+improvements and been reused 
+“People generally assume the problem is wasted money or recreating work, but far more damaging is that no single system ever  
+develops to the point that it becomes very useful.” 
+~ Jeff Wishnie, Mercy Corps
+|  45 
+PRINCIPLE  7: Reuse and Improve
+Insights Advice
+Too often innovation is equated with a “shiny, new object”— something that will  Reuse and improvement  
+catch donor and media attention—rather than simply the most efficient use of scarce can be a form  
+resources, which may include new uses of existing technologies. } of innovation 
+Reuse and improvement need not be limited to tools, but can also extend to include Reuse and improve  
+frameworks, processes, and policies. } policies and processes
+Reuse and improvement can contribute to sustainability by improving the quality of Build policies and processes 
+available open approaches and tools. Building for sustainability encourages integration  } that incentivize and support 
+with national strategies. reuse and improvement
+Improvement, which entails adapting existing code and, ideally, sharing it back to  
+the community, requires a greater investment of time and resource than reuse alone. Know what resources  
+Reuse often requires an upfront investment that pays for itself over time by reducing } are required to reuse  
+investments that would be made to build new systems. and improve 
+“Few innovation program managers know how to find open source code that they could start with or incorporate. We don’t have any 
+community space or portal or interface or guidance to help people reuse and improve.”
+~ Nathaniel Calhoun, Code Innovation
+Overcoming Obstacles: Barriers & Recommendations
+Observation Barrier Recommendation
+Practitioners noted that some organizations have an immune system-like rejection of open 
+digital development tools.
+Mistrust of existing, 
+open source tools Work to shift organizational culture and mindset for open approaches and tools.
+There is no central database of existing tools that is easily searchable by functionality, use 
+purpose, and user reviews.
+It’s hard to know what 
+tools are available Tools like Kopernik’s Impact Tracker, which profiles only a handful of tools it judges to be most 
+useful, or NetHope’s Solutions Center, provide windows into what such a repository might  
+look like.
+46  |  FROM PRINCIPLE TO PRACTICE: Implementing the Principles for Digital Development
+Some organizations have been reluctant to adapt and reuse open source tools because they  
+lack the in-house expertise.
+Insufficient in-house 
+expertise Grow technical (software) staff capacity to provide necessary support. 
+Practitioners reported that organizations feel they are less likely to seem innovative to donors  
+if they reuse existing tools, approaches, or policies.
+Lack of incentives to 
+reuse existing policies In responding to RFPs/RFAs, intentionally indicate where reuse and/or improvement is 
+or approaches incorporated, and highlight how this can contribute to sustainability.
+Practitioners noted that it can be difficult to secure donor dollars for improvements to existing 
+tools or processes.
+Difficulty in  
+securing funding  In proposals, articulate a clear value proposition for desired improvements and how they will  
+for improvements lead to improved outcomes.
+Some practitioners reported organizations expressing concern that reuse of a tool required 
+making branding compromises or concessions. 
+Reuse can lead  
+to brand dilution Understand tradeoffs. In internal decision-making about whether to reuse, understand the  
+value of any time and money saved, and any greater impact that reuse can enable. 
+Existing tools, whether open source or commercial, may convey privacy and security risks.
+Reuse may convey  It is critical to perform data privacy and security risk assessments in any context, including  
+privacy & security risks in the reuse of existing tools. 
+RESOURCES
+The following are examples of  resources to support implementation of  The Organizational Guide to ICT4D describes  
+Principle #7: Reuse and Improve available online at http://digitalprinciples.org/ approaches that can be taken to build organizational 
+reuse-and-improve/. capacity in digital development. Read the guide at  
+http://goo.gl/yzsTsX.
+Kopernik’s Impact Tracker Catalogue serves as a 
+repository for international development organizations 
+to access affordable digital tools to improve their M&E, 
+communication, and impact. Read the catalogue at  
+http://goo.gl/mhd8YJ.
+|  47 
+PRINCIPLE  7: Reuse and Improve
+PRINCIPLE  8
+Address Privacy 
+and Security
+◃   Assess and mitigate risks to the security of users and their data.
+◃   Consider the context and needs for privacy of personally identifiable information when 
+designing solutions and mitigate accordingly.
+◃   Ensure equity and fairness in co-creation, and protect the best interests of the end-users.
+48  |  FROM PRINCIPLE TO PRACTICE: Implementing the Principles for Digital Development
+“Unless we react quickly, there’s going to be a data scandal. Someone’s database with lots of sensitive information is going to get 
+exposed. [Development organizations] have tons of this data, [...] consultants have it, [and it’s stored on] laptops. This is very intimate, 
+private information. We are adamant that our personal information is protected, but everybody has rights to these protections, not just 
+us. So the question becomes how do we equip organizations with the policies, practices, and standards that enable these protections, 
+particularly when moving from analog to digital tools.”  
+~ Maliha Khan, independent consultant
+Why It’s Needed
+Information is power, as the old adage goes, and this is certainly true in the context of  technology-enabled global 
+development interventions. How information is collected, stored, analyzed, shared, and used has serious implications for 
+both the populations about whom data are being transmitted, and the organizations transmitting the data. Yet as the 
+digital development field evolved, privacy and security were often not considered sufficiently, if  at all.
+As the field of  digital development matures—including through independent projects getting pulled together into 
+larger systems, and digital programs progressing from housing hundreds to thousands of  records—the international 
+development field needs to more conscientiously address these concerns. Principle 8: Address Privacy and Security provides 
+a framework for considering how to protect user privacy and the security of  data, devices, and tools.
+Community Discussion
+In many respects, Principle 8: Address Privacy and Security is the most important for the ethical implementation of  digital 
+development projects. By generating data about individuals’ identities, behaviors, activities, and locations, technology 
+opens the door for unintended and unanticipated outcomes that can lead to significant risks, particularly for the most 
+vulnerable populations. 
+Beyond keeping personal information private, and data that is collected secure, addressing privacy and security is about 
+respect for and protection of  the individual producers of  data, and preserving their fundamental human rights.
+The integration of  digital tools into international development is requiring new principles, policies, and practices with 
+regard to data privacy and protection. This is particularly true in an era of  big data. While it may require significant 
+investment, when implemented, privacy and security solutions benefit human rights, development goals, development 
+organizations, and partners by protecting their interests and increasing trust.
+Insights Advice
+Conduct a security/risk assessment of your organization’s data collection, sharing,  
+and use practices, and understand how particular technologies create risk within  } Understand organizational  
+those practices. practice risks 
+|  49 
+PRINCIPLE  8: Address Privacy and Security
+“Consider that any information shared through unencrypted SMS may be intercepted by the telecom or other parties, such as 
+government agencies, and any information shared via shortcode may be accessible by third party aggregators and marketing companies.”    
+~ Peter Micek, Access Now
+Insights Advice
+Conduct an assessment of the risks to your organization’s data in each operating  } Understand  environment; there is no one-size-fits-all risk assessment. environmental risks
+Understand risk to individuals in each operating environment with a focus on data of 
+value to actors in that environment, bearing in mind political, ethnic, class, tensions, } Understand risks  
+and how risks may change over time. to individuals
+Engage individuals whose data is being gathered, end users of technologies, and other } Develop an inclusive parties as relevant, to develop an inclusive understanding of risk. understanding of risk
+Develop privacy and security policies that govern use of technologies as part of  
+development practices, using existing industry standards as a guide } Have a privacy policy
+Be upfront and provide a current record of who you have shared your data with,  
+who has requested your data, and who within your organization is available for further } Be transparent
+information about data use.
+Always get informed consent in collecting data, which means communicating to data 
+producers how their data will be used, who will have access to it, for what period of  } Obtain informed consent
+time, and how that access can be rescinded.
+Designate resources to 
+Designate funding and capacity to support regular reviews to ensure security/risk keep risk assessments,  
+assessments and privacy/security policies and processes are kept up to date. } privacy policies, and  
+upgrades current
+Understand how the 
+Know the privacy/security capabilities and data use policies of all technologies used in  privacy policies of digital 
+a project, including cloud-provided software services. } tools align with your 
+organization’s policies
+“Remember that technical security measures are only as strong as the human users of the technology. Design security that is usable in 
+the contexts where the technology is used.”     
+~ Clayton Sims, Dimagi
+50  |  FROM PRINCIPLE TO PRACTICE: Implementing the Principles for Digital Development
+“There’s often confusion between consent, understanding, and choice. They’re not the same thing. People can be overwhelmed by 
+information. Even where people understand, sometimes consent is not choice unless there are meaningful alternatives.”    
+~ Kathy Joe, ESOMAR
+Insights Advice
+Define control and use of data considering the principle of minimization, which says 
+data processors should collect only essential data, keep data for the minimum possible  Apply the principle of data 
+time, and destroy the data when they are no longer needed. Be mindful that other } minimization
+players’ incentives may not align with the principle of data minimization.
+Understand how partners’ 
+Know the privacy/security capabilities and data use policies of all partners in a project. } privacy policies align with  
+your own
+“Our collective bias is on data minimization. But data is worth billions of dollars of market capitalization. Let’s own that. It’s naive to 
+think groups will minimize. If that’s the case, how do we manage, define, control, and use data, particularly if we’re going to have a 
+meaningful conversation with the private sector.”     
+~ William Hoffman, World Economic Forum 
+Overcoming Obstacles: Barriers & Recommendations
+Observation Barrier Recommendation
+There is a fragmented international regulatory landscape with regard to data privacy  
+and data protection, data collection, and data re-use, with patchy accountability and 
+enforcement cooperation.
+Fragmented regulatory 
+landscape
+Invest in understanding and improving the regulatory landscape through policy reform  
+and technical working groups.
+Practitioners argued that in some cases the benefits of using data outweigh risks, even in 
+situations where risks may be high and not fully understood. 
+Unclear risk/benefit 
+ratio parameters Engage user communities in weighing risks versus benefits, providing a full understanding of 
+what potential risks entail.
+|  51 
+PRINCIPLE  8: Address Privacy and Security
+When organizations do secure consent to use individual’s data, often it is done in the absence of 
+an articulation of potential risks, and without meaningful alternatives. 
+Difficult to  
+establish user control Secure “informed consent” by giving individuals whose data are being collected both an 
+and consent understanding of how data will be used, and a choice by providing them meaningful alternatives.
+Recognize that there is still a gap between available technologies and best practice, such as the 
+lack of standards and methodologies for the use of anonymized data.
+Difficult to allocate 
+responsibility in a  Ensure sufficient technical staff are available to understand and help mitigate against privacy 
+complex ecosystem and security risks.
+Consider privacy and security in the transfer of data, particularly across international borders,  
+as well as in the outsourcing and subcontracting of data.
+Organizations using 
+or sharing data have Know all the touchpoints and organizations that will handle data apart from your own, and 
+divergent incentives understand their policies and incentives.
+and/or privacy and 
+security policies
+RESOURCES
+The following are a sampling of  resources to support implementation  The OECD Privacy Framework explores how advances in 
+of  Principle #8: Address Privacy and Security available online at  technology have exposed flaws in traditional privacy protocols, 
+http://digitalprinciples.org/address-privacy-security/. and proposes new standards by which to protect the privacy  
+of  the individual in the digital age. Read the framework at  
+Patient Privacy in a Mobile World: A Framework to Address Privacy http://goo.gl/2b7zsi.
+Law Issues in Mobile Health, a 2013 report produced by Baker 
+& McKenzie, Merck, the mHealth Alliance, and TrustLaw Humanitarianism in the Age of Cyber-Warfare, a 2014 policy paper 
+Connect, examines privacy issues and security policies related by the UN Office for the Coordination of  Humanitarian Affairs 
+to the use of  mobile technologies to deliver health information (UN OCHA) explores how new technologies can both improve 
+and services in a variety of  contexts around the world. The section “Working humanitarian response and pose challenges for protecting the 
+Toward an mHealth Privacy Framework” takes a closer look at guiding privacy of  individuals on the ground. It urges the adoption of  
+principles such as notice and choice (consent) and data minimization. Read the better guidelines for more responsible and ethical use of  digital tools. Read the 
+report at http://goo.gl/jUn2MA. paper at http://goo.gl/xZh5di.
+52  |  FROM PRINCIPLE TO PRACTICE: Implementing the Principles for Digital Development
+PRINCIPLE  9
+Be  
+Collaborative
+◃   Engage diverse expertise across disciplines and industries at all stages.
+◃   Work across sector silos to create coordinated and more holistic approaches.
+◃   Document work, results, processes, and best practices and share them widely.
+◃   Publish materials under a Creative Commons license by default, with strong  
+rationale if another licensing approach is taken.
+|  53 
+PRINCIPLE  9: Be Collaborative
+Why It’s Needed
+The saying: “If  you want to go fast, go alone. If  you want to go far, go together” is attributed to an African proverb, but 
+could easily be a mantra for technology-enabled development projects. Principle #9: Be Collaborative suggests strategies 
+for leveraging and contributing to a broader commons of  resource, action, and knowledge to extend the impact of  
+development interventions.
+Community Discussion
+Collaboration is at the heart of  international development intention: to provide support that enable communities 
+to meet basic needs, and to develop sustainably. Yet the design of  international development architecture, which is 
+organized by sector, itself  can inhibit collaboration between projects and entities that operate in independent sectors.
+In the United States, for example, congressionally allocated funding is assigned earmarks that constrain how money can 
+be spent, such as by sector. This becomes a major determinant of  USG-funded development program design. Moreover, 
+competition, such as between development practitioners for grants, is common practice.
+How do we reconcile the principle of  being collaborative against these structural realities of  how the sector operates? 
+More well-tested tools and strategies are needed to supplement the high-level guidance and anecdotes that are the most 
+common sources of  good practice on collaboration in digital development.
+Recommended Case Study
+By formalizing the accreditation process of  nursing and medical schools, the “Institutions de Sciences Infirmières et Médicales 
+(ISIM)” website helps to improve medical health education in Haiti. Knowing that school information and exam statistics change 
+frequently (if  not yearly), the Reconnaissance website was built with a relational database structure that allows information to 
+be changed easily and displayed dynamically. New users, schools, and self-evaluation questions can be added as needed, with 
+database storage being the only limitation. Read more here: http://goo.gl/Co98Lq
+Insights Advice
+Digital development should be designed and implemented in partnership with the  } Collaborate with  communities it is designed to serve end users
+Collaboration can take a variety of forms, from defaulting to open standards, data,  Collaborate through 
+and platforms, to engaging in partnerships within a sector or across sectors. } partnerships and open 
+approaches
+Join networks of likeminded partners to build relationships, and to contribute to and 
+benefit from public knowledge commons. } Join practitioner networks
+54  |  FROM PRINCIPLE TO PRACTICE: Implementing the Principles for Digital Development
+TIP  |  Use of  Creative Commons licensing to indicate how content and tools your organization adapts or creates can 
+be used and reused.
+Insights Advice
+Track and share work processes with a view toward enabling long-term project  Record key project  
+ownership by local or other stakeholders. } management decisions
+Understand and address blockages within your organization that may hinder  Understand organizational 
+collaboration. } impediments to collaboration
+Participate in existing 
+Invest in the organizational structure, communications protocol, time, and staff  organizational mechanisms 
+training that enable effective collaboration. } supporting collaboration, and invest new ones as 
+needed 
+TIP  |  At the individual level, join the Principles for Digital Development Working Group at https://goo.gl/pFJZtD; 
+at an organizational level, endorse the Principles: www.digitalprinciples.org/endorse.
+Overcoming Obstacles: Barriers & Recommendations
+Observation Barrier Recommendation
+Among donor and host governments and development practitioner organizations, few have 
+dedicated offices, staff, or policies focused on integration.
+There’s a need for staff 
+with experience and Invest in organizational and staff capacity to collaborate.
+skills that can support 
+collaboration
+|  55 
+PRINCIPLE  9: Be Collaborative
+Collaboration requires identifying and overcoming a variety of potential barriers, including 
+conflicting financial incentives, organizational constraints, and ingrained practice.
+Many organizations  
+are incentivized not  Assess and address what incentives your organization faces that may hinder collaboration, and 
+to collaborate think about how to reframe potential misaligned incentives as opportunities.
+Collaboration may require detailed strategic planning to cleanse work products of institutional 
+identifiers and create other systems and incentives to make collaboration palatable.
+Sharing sensitive data 
+to tackle public health Consider rewarding the sharing of highly sensitive data by sharing with contributors the results 
+and safety issues can be of data analytics (versus the complete gathered data sets) and preventing fear of backlash by 
+particularly tricky using trusted neutral third parties to manage the data sets and run data analytics.
+Collaboration requires time and trust, two valuable commodities that are difficult to build  
+into programs with short funding cycles.
+Collaboration requires 
+upfront and continuous Articulate the business case for why collaboration adds value, and write that into your  
+investment project’s DNA.
+Discussants expressed concern that collaboration can essentially mean their organization’s 
+loss of control of implementation when funding audits will still hold them accountable for the 
+Collaboration can  quality of outcomes.
+mean a loss of  
+authority and/or  Consider and address how lines of accountability may change in collaboration, ideally in the 
+risks for accountability proposal phase.
+Actors join partnerships for a variety of reasons. If mapped, usually this shows a Venn diagram 
+with a central area of overlapping interests, surrounded by other goals and objectives that are 
+unique to each actor.
+Understand incentives 
+of all actors involved in 
+partnerships Early on in partnerships, identify the common incentives of each stakeholder, remembering that 
+each actor likely has its own unique set of incentives, and that all actors are driven by both market 
+forces and social incentives.
+REFERENCE  |  For examples of  organizations and projects creating data feedback loops see the World Bank report 
+Closing the Feedback Loop: Can Technology Bridge the Accountability Gap?   
+56  |  FROM PRINCIPLE TO PRACTICE: Implementing the Principles for Digital Development
+Constructing a Holistic Approach to Development: One Implementer’s Take
+“Where does responsibility lie for addressing development holistically? Ask communities and they’ll speak from a 
+holistic perspective,” says Merywen Wigley, Project Director at FHI 360. But the way the international development 
+system is designed can make building and delivering holistic solutions difficult, she says.
+“From the top, Congress says we have designated funding for a designated purpose, and [these funding flows] begin 
+shaping RFPs and RFAs in a siloed way. We need to change the conversation to respond to the complexity and the 
+reality of  people’s lives. This requires a paradigm shift at the global level. It requires changing the global development 
+architecture, and how development is delivered and evaluated as well.”
+This task would be daunting for any one organization, but she believes individual actions taken collectively as a 
+movement could catalyze change.
+“Implementing partners need to look for opportunities to say, ‘Hey, the RFP didn’t call for this, but we know that the 
+evidence is there to amplify impact, so we’re going to put this [integrated approach] into our proposal.’ 
+“People need to talk more to each other. We tend to run in circles of  those with similar technical expertise, and this 
+develops collective blind spots. Within organizations there needs to be an effort to see how what one group is working 
+on can be amplified by what another group is working on.” 
+To address the challenge of  constructing more holistic approaches to development, FHI 360 is taking steps both 
+internally, and in concert with other organizations.
+Internally, FHI 360 is building a cadre of  specialists from across the organization to serve as “integrators,” who may 
+be called upon to provide technical assistance to support integrated approaches on proposals and projects as merited. 
+Externally, FHI 360 is a founding member of  the Locus Initiative, a consortium of  NGOs dedicated to advancing more 
+holistic approaches to development.
+4. See DevEx article “Five things to know about the next generation development professional,” https://www.devex.com/news/5-things-to-know-about-the-next- 
+generation-development-professional-86399 Last accessed October 18, 2015.
+RESOURCES
+The following are examples of  resources to support implementation of  Devex Impact is a global initiative launched in 2013 by Devex 
+Principle #9: Be Collaborative. A selection of  reference tools are available online and USAID that aims to develop a cooperative ecosystem to 
+at http://digitalprinciples.org/be-collaborative/. help organizations and individuals involved in leveraging 
+business solutions for development access reliable 
+Global Multi-Stakeholder Partnerships: Scaling up public private resources to improve impact. Visit https://goo.gl/OMrwEn 
+collective impact for the SDGs, a background paper published in for more information.
+2015 by Peter Hazelwood of  the World Resources Institute, 
+examines how multi-stakeholder partnerships can serve as a The Doing Development Differently Manifesto, a written contract 
+tool for the development community to achieve the Sustainable published in 2014 with over 400 signatories from 60 countries, 
+Development Goals. Read the paper at http://goo.gl/ERdiSZ. aims to promote more inclusive, user-centric, and holistic global 
+development. Read the manifesto at http://goo.gl/6uieCT.
+|  57 
+PRINCIPLE  9: Be Collaborative
+58  |  FROM PRINCIPLE TO PRACTICE: Implementing the Principles for Digital Development
+III
+Recommendations  
+for Moving from  
+Principle to Practice
+|  59 
+RECOMMENDATIONS
+The Principles were written using high-level conceptual language in order to be straightforward and easy to understand. But the reality is that putting the Principles into practice can be complicated. Why? And what  should be done to make it easier to operationalize the lessons learned from past successes and failures in  
+digital development?
+ 
+This final section of  the report looks beyond tips and insights related to implementing each individual Principle to begin 
+answering these questions. It examines some of  the structural reasons why implementing the Principles can be difficult. 
+It also offers recommendations to address these structural barriers. Some of  these recommendations are moonshots: 
+ambitious targets that would be difficult to implement, but that may hold some of  the greatest potential for significantly 
+increasing the institutionalization of  lessons learned. Others are more easily accessible, and could be implemented with 
+relative ease. All recommendations are grouped thematically at a high level, and supported by tactical bullets.
+ 
+Why Is Putting the Principles into Practice Difficult?
+Digital development programs operate in complex environments, and use technology that is constantly changing and 
+continuously creating new demands in the way it is applied. The Principles attempt to create guidance to navigate this 
+non-linear and constantly evolving landscape.
+ 
+Putting the Principles into practice requires an investment of  time, attention, information, and technical expertise. Yet 
+even with these investments, challenges remain. These challenges include tensions between individual Principles, and 
+systemic challenges that face the global development sector more broadly.
+Tensions Between the Principles
+As this report has acknowledged, implementing all of  the Principles simultaneously and with equal effect would be 
+difficult if  not impossible. It is for this reason that the Principles are proposed as guidance for consideration rather  
+than a checklist to be followed.
+ 
+Why? In addition to the complexity in the variety of  ways that these high level guiding concepts play out in 
+implementation, there are instances in which the guidance embedded in individual Principles conflicts. In most  
+cases, considering how the Principles operate in conjunction with one another reveals synergies that can deepen  
+an informed digital development. But this is not true in all cases. The Principles can and do require attention to  
+trade-offs, such as considering how to open development data (Principle #6) while protecting a data producer’s  
+privacy and security (Principle #8).
+ 
+Tensions between the Principles were the subject of  one Principles Working Group discussion. That discussion 
+is documented in a blog post “Synergies and Tensions in the Principles for Digital Development” available on the 
+Principles website.
+60  |  FROM PRINCIPLE TO PRACTICE: Implementing the Principles for Digital Development
+Structural Challenges
+In addition, many of  the challenges facing the implementation of  best practice in digital development are the same 
+challenges that face the global development sector more broadly. These include:
+!   Constraints that originate from the international development architecture as it is currently designed, as seen in the 
+organization of  activities into sector-specific silos, and the relatively short nature of  funding cycles relative to the 
+entrenched nature of  the challenges that development funding seeks to address.
+!   The complexity and nonlinear nature of  the contexts in which international development projects and programs 
+operate, where the increased frequency of  natural disasters, for example, may threaten decades of  work focused on 
+improving health, sanitation, and economic livelihoods.
+!   The continued challenge of  integrating local partners into development projects in a way that enables relevance, 
+accountability, local ownership, and sustainability of  projects over the long term.
+!   The prevalence of  other constraints, such as misaligned incentives, a lack of  political will, and inertia around  
+entrenched practices.
+ 
+In some cases these challenges may be more noticeable, or felt more acutely, in the context of  digital development 
+programs, which enable data to be seen more readily. Development data that is locked into sector-specific digital 
+data management tools, for example, hinder the ability of  decision-makers to get a clear, comprehensive picture of  
+development needs more readily than data that are collected on paper and can take weeks if  not months to process.
+ 
+Recommendations for Moving from Principle to Practice
+What can be done to overcome these challenges? Over the course of  the yearlong community discussion of  the 
+Principles, a number of  recommendations for systems-level change emerged. As mentioned above, some of  these 
+recommendations are aspirational while others are more easily accessible.
+ 
+Recommendations for All Development Actors
+Digital development must be recognized as its own discipline that requires professionalization and institutionalization. 
+This is true in the global development sector and elsewhere, such as in academia where a growing number of  colleges 
+and universities offer courses that touch on aspects of  the application of  digital to development goals, yet few offer 
+specialized degrees in this area of  study.
+ 
+Like gender, climate, and other newer cross cutting disciplines, in the global development sector digital development 
+capacity must be both supported from the bottom up, and regulated from the top down. This requires increased 
+awareness, education, and training to enable bottom-up capacity, and new strategies, policies, tools, and processes to 
+enable effective top-down governance. The following recommendations address how to build this capacity.
+ 
+|  61 
+RECOMMENDATIONS
+Have an institutional vision and strategy supporting the integration of digital development best practice.
+!   All development sector actors must have an institutional vision and strategy for digital development that is  
+adequately resourced, and enabled by supporting policies and processes.
+!   Senior leadership should endorse the Principles, and articulate how digital strategies are integral to achieving  
+development outcomes in the context of  their organization’s work.
+ 
+!   This endorsement should be supported by an implementation or institutionalization strategy to put the Principles 
+into practice, with milestones identified to measure progress and guide reform as needed.
+ 
+Ensure implementation of the strategy is adequately staffed and resourced, and supported by enabling  
+policies and processes.
+!   Organizations should assess policies and processes to support adherence to this strategy.
+!   Where existing policies and procedures inhibit the integration of  best practice, organizations should set  
+reforms in motion.
+!   Organizations should assess organizational staff  and technical capacity to implement this strategy across  
+sectors, and at various stages of  implementation.
+Commit to integrating best practice into business processes.
+!   Organizations should treat digital development as a crosscutting and foundational discipline, using it to improve 
+development outcomes across sectors and to improve development program delivery by (1) integrating digital 
+development strategies early, and (2) tying digital development data to adaptive programming.
+!   Organizations should integrate best practice by building staff  capacity across sectors and geographies, and 
+operational units, making this best practice sector and business-process specific.
+!   Build capacity through trainings on the Principles, and supporting knowledge exchange among staff, such as  
+through peer working groups or other vehicles for staff  to share questions, lessons, and experience.
+!   Organizations should monitor and measure success in implementation of  the strategy, building in opportunities  
+to reward success and learn from failure, with corresponding incentives.
+In addition to these recommendations for all development actors, the community discussion period also surfaced  
+recommendations for specific audiences.
+ 
+Recommendations for Donor and Multilateral Organizations
+ As the selectors of  which organizations, programs, and activities are funded, and how they are funded, donor and  
+multilateral organizations have a special responsibility to ensure the integration of  best practice in digital development.
+ 
+62  |  FROM PRINCIPLE TO PRACTICE: Implementing the Principles for Digital Development
+Complement internal digital development strategies with an external strategy that lays out a vision for  
+development implementers, and aligns with that of other global development donors.
+ 
+While donor and multilateral organizations must ensure that they have a coherent vision and strategy for digital  
+development that supports their internal operations, they also must have a vision and strategy for the external  
+digital development activities funded through a variety of  partners, from NGOs and their sub-grantees to national  
+and regional government partners.
+!   This external strategy should align with that of  other donor and multilateral organization stakeholders to ensure 
+maximum coherency among projects and activities.
+!   Additionally, this external strategy should set out a vision for development implementers, such as by requiring 
+that technology solutions are addressed at the outset in implementer proposals, and requiring that technology 
+subcontractors participate in work planning once contracts have been awarded.
+Build the digital development commons.
+Invest in inter-donor coordination around digital development, such as technical working groups, to ensure coherent 
+policies and actions.
+!   Invest in infrastructure that enables greater collaboration such as technologies and systems that work across  
+development sectors, leverage standards, and have flexible program designs.
+!    Invest in digital development knowledge-sharing systems, tools, and processes that can be accessed by a variety  
+of  development partners.
+!   Create funding models that build and sustain the digital development commons so that access to information and 
+tools is sustainable over the long-term.
+!   Assess digital development solutions to understand those that are commonly used, where they required continued 
+investments, and where gaps remain.
+ 
+Adapt procurement processes to enable integration of best practice.
+Donor and multilateral organizations must acknowledge that the global development sector, as it is currently designed, 
+creates counter-incentives to implementation of  many of  the Principles.
+!   To overcome these structural constraints, integrate explicit guidance to adhere to relevant Principles in requests  
+for proposals and other development funding application processes. In the reviewing proposals, award technical 
+points to program designs that factor in the Principles.
+ 
+!   Use funding mechanisms that enable more collaborative and participatory processes (and reduce parallel  
+investments) such as co-design among local and global development partners, and mechanisms that enable  
+co-funding among donors of  various component parts of  a digital development solution or implementation.
+ 
+|  63 
+RECOMMENDATIONS
+!   Model case studies of  what works to move these examples from the exception to the norm. This modeling should 
+include use of  internal policies and processes, as well as outcomes of  external, funded activities.
+ 
+Create review boards for spending on digital development to provide input, feedback, and guidance on digital  
+development strategy and spending.
+!   Require an assessment of  the ecosystem prior to funding to enable reflection of  what is already in place. Incorporate 
+these insights into RFPs and other funding opportunities.
+!   Ensure that funded efforts build on national systems, reuse existing tools, and align with emergent local standards 
+whenever possible.
+ 
+Adapt accountability language to encourage partnership, particularly with national organizations, to ensure that  
+existing requirements do not inhibit transition to in-country partners.
+!   Forecast the transition of  digital development systems and build requirements into RFPs. Ensure funding and 
+planning for the development of  ICT systems supports the transfer of  these systems to subsequent donor-funded 
+development implementers and/or to a national stakeholder.
+ 
+!   Find ways to reward grantees whose work embodies digital development best practice, such as the use of  points in 
+funding proposals for the appropriate reuse of  existing systems and tools.
+ 
+Adapt other policies and processes to enable integration of best practice into business processes.
+Adapt program planning and evaluation mechanisms to enable responsiveness to digital data insights.
+!   Adapt auditing structures and mechanisms to enable adaptation based on lessons learned while programs are  
+underway, as well as permissions for grantees to do the same.
+!   Analyze funding timelines to assess what development outcomes are feasible in short funding cycles, and where 
+digital tools and systems are involved, what transition and business planning is required to sustain them beyond 
+individual grant cycles.
+!   Integrate the Principles into existing capacity building efforts across sectors, geographies, and operational units.
+ 
+Recommendations for Development Implementers
+Development practitioners who lead the implementation of  digital development solutions and programs also have a 
+unique responsibility and role to play in the operationalization of  digital development best practice. Development im-
+plementers—such as the large development NGOs, social enterprise grantees, and businesses that are grantees of   
+development donors, and their subcontractors—should use the following recommendations to professionalize and 
+institutionalize their engagement in digital development.
+ 
+64  |  FROM PRINCIPLE TO PRACTICE: Implementing the Principles for Digital Development
+Align internal digital development strategies with those of the wider global development community.
+ 
+While development implementers must ensure that they have a coherent vision and strategy for digital development 
+that supports their internal operations, they also must ensure coherence or alignment with the broader digital 
+development community, including national and regional government partners, donor and multilateral organizations, 
+NGOs,their sub-grantees, and the end users of  digital development information and services.
+!   This internal strategy also should govern program and activity design, as well as how subcontractors are  
+engaged and how they implement their activities to ensure maximum coherency across development implementer 
+initiatives, and alongside contractor projects and activities.
+!   Additionally, this internal strategy should require the direct engagement of, and consultation with, end users  
+of  digital development information and services in all phases of  implementation, including planning, design,  
+implementation, and evaluation.
+Contribute to the digital development commons.
+Participate in implementer coordination around digital development, such as through technical working groups,  
+to ensure coherent policies and actions.
+!   Use and contribute to infrastructure that enables greater collaboration such as systems that work across  
+development sectors, leverage standards, and have flexible program designs.
+!   Use and contribute to digital development knowledge-sharing systems, tools, and processes that can be accessed  
+by a variety of  development partners.
+!   Assess digital development solutions relevant to your organization’s work to understand those that are commonly 
+used, where they required continued investments, and where gaps remain.
+ 
+Adapt business processes to enable operationalization of best practice.
+Operationalization of  the Principles requires that implementers commit to going beyond current global development 
+requirements.
+!   Leverage the Principles to demonstrate in funding proposals how operationalization of  the Principles can result in 
+improved development outcomes, where possible pointing to evidence from related programs and activities.
+ 
+!   Propose programs that enable more collaborative and participatory implementation processes, including co-design 
+with national stakeholders, or collaboration with implementers working on a complementary aspect of  a digital 
+development challenge or solution.
+!   Integrate a digital strategist at program start-up and/or during work planning to asses tools, techniques, and  
+partnerships that support digital development objectives, and consider trade-offs such as subcontracting for  
+technical expertise and vendor lock-in.
+ 
+|  65 
+RECOMMENDATIONS
+!   Contribute case studies of  what works to move these examples from the exception to the norm. This modeling  
+should include use of  internal policies and processes, as well as development outcomes.
+Adapt operating processes to encourage partnership with national stakeholders. Where donor requirements inhibit 
+this collaboration, advocate for appropriate donor reform.
+Forecast the transition of  digital development systems and build requirements into funding proposals to ensure  
+that funding and planning for the development of  ICT systems supports the transfer of  systems to subsequent  
+donor-funded development implementers and/or to a national stakeholder.
+ 
+!   Adapt program monitoring & evaluation mechanisms to enable incorporation of  digital data-driven decision  
+making into traditional monitoring and evaluation approaches.
+!   Integrate the Principles into existing capacity building efforts across sectors, geographies, and operational units.
+ 
+66  |  FROM PRINCIPLE TO PRACTICE: Implementing the Principles for Digital Development
+Vision for the Future
+Maybe a starting point for the Principles would be to say: what do we want the future of ICT4D to be? What do we want that future to 
+look like in 10 or 20 years? We need to paint that picture, and then bring it back to today and ask: What do we need to do to get there?”  
+~ Ken Banks, founder, kiwanja.net
+The Principles, for better or for worse, are designed around the system we currently have rather than the one we could 
+or should have to best optimize for the future. A subsequent phase of  activities could undertake a visioning exercise to 
+imagine a future unbound by the constraints of  the current international development system. How might gaps and 
+opportunities developed through this approach be different from the Principles we have today?
+To imagine this future, additional audiences should be brought to the table. Specifically, the conversation should be 
+expanded to include more executive leadership of  development-focused organizations, and, critically, more voices at 
+all levels from the countries and communities in which development programs operate. Among the latter group, this 
+should include representatives of  government ministries and extension workers; national and local NGOs; the national 
+staff  of  international NGOs; related national private sector players, and the consumers of  digital programming 
+information and services themselves.
+To translate interest and intent into action, more resources are needed to empower practitioners to integrate the 
+Principles into their work in a meaningful way. A subsequent phase of  Principles activities should engage the digital 
+development community (including donors and multilateral organizations, implementers, and the end users of  digital 
+development services) in the prioritization and development of  these resources. Suggestions of  needed resources that 
+surfaced during the first iteration of  community discussion included: 
+ 
+!   User-contributed information repositories on a variety of  topics, from local ecosystems to available tools.
+!   Decision-support tools, such as checklists, that can help navigate tradeoffs between Principles.
+!   Guiding policies and frameworks, such as those addressing privacy and security and mitigating risks in digital development.
+!   Additional case studies that show by example how the Principles have been put into practice, along with  
+associated learning.
+!   The documentation of  processes and planning for implementing digitally supported projects, and to refine these 
+over time.
+!   Further resources and recommendations to guide Principles implementation at various stages of  scale of  digital 
+development solutions and programs.
+The future of  digital development is open for crafting. The year of  community discussions surfaced many insights and 
+recommendations, but marks just the beginning of  a broader and continuing conversation. This ongoing consultative 
+process is an essential opportunity to ensure that existing and new lessons in digital development are continuously 
+integrated into practice, and to make the most of  the opportunity to advance lives and livelihoods everywhere 
+development programs operate.
+|  67 
+RECOMMENDATIONS
+
+
+PRINCIPLES for
+Digital Development
+ www.digitalprinciples.org 
+#digitalprinciples

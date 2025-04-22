@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="iem7"  lang="en" dir="ltr"><![endif]-->
+<!--[if lte IE 6]><html class="lt-ie9 lt-ie8 lt-ie7"  lang="en" dir="ltr"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]><html class="lt-ie9 lt-ie8"  lang="en" dir="ltr"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9"  lang="en" dir="ltr"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><!--><html  lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"><!--<![endif]-->
+
+<head>
+  <!--[if IE]><![endif]-->
+<meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+  <title>NOMAD | Mobile Acquisition of Data</title>
+
+      <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width">
+    <!--[if IEMobile]><meta http-equiv="cleartype" content="on"><![endif]-->
+
+  <link type="text/css" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,700,600,300italic" media="all" />
+<link type="text/css" rel="stylesheet" href="https://humanitarian-nomad.org/sites/default/files/advagg_css/css__9cWqptSUNYq5YedfIwh33VxtugFVWjDdEsblT8GhLKI__quUjyhSfbEukHj8a0hYvzm9VTmPALmSZvA0xfM_Oxzo__Q_rrqefePWez7b4-8C14D1x2I13NvvwGGAxc7gYKTbQ.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://humanitarian-nomad.org/sites/default/files/advagg_css/css__XKedmOmP1W0CMl7vFeOfR65izHONUXJz7xCz6sK1T3Y__HuBTCUkaUey6NcnfeCWWhGjT60ABxO4PMlqUbCtkuDg__Q_rrqefePWez7b4-8C14D1x2I13NvvwGGAxc7gYKTbQ.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://humanitarian-nomad.org/sites/default/files/advagg_css/css___YtRvfwsZ1flyO9UUNk5akSSUM-k7IriCypxnVVB2Aw__SMwiDXRdIK4wFwBUA5gAY3xmP08k6fm4QtopNx9YKcY__Q_rrqefePWez7b4-8C14D1x2I13NvvwGGAxc7gYKTbQ.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://humanitarian-nomad.org/sites/default/files/advagg_css/css__BM8RO-6wdUbYFzKJQ_gSDRxoUCg-80IE6MeMmLq0Moc__44REg1yfkvCQBqurFWPxfg785pHtodSqWQQWDgxQAws__Q_rrqefePWez7b4-8C14D1x2I13NvvwGGAxc7gYKTbQ.css" media="all" />
+  <script src="https://humanitarian-nomad.org/sites/default/files/advagg_js/js__q4ZluDEr7yHOp8TDo4l-cypOrRNOvxyaxrSrBudwQ2E__LOGJbIpGkynalCSfcR1h34ImWYBGTa_dPChPTpArKqg__Q_rrqefePWez7b4-8C14D1x2I13NvvwGGAxc7gYKTbQ.js"></script>
+<script src="https://humanitarian-nomad.org/sites/default/files/advagg_js/js__jY3-3CF_aW2-zV7M-ZJG0aboHTCHOpI0LqsoubNNRFI__99YPIZYo_kwTatNTd5S2n_N4Ldq1nknP1-auCB1cxmk__Q_rrqefePWez7b4-8C14D1x2I13NvvwGGAxc7gYKTbQ.js"></script>
+<script>;jQuery.extend(Drupal.settings,{'basePath':'\/','pathPrefix':'','ajaxPageState':{'theme':'nomad','theme_token':'UMchVdOEWzKezv66-32vw1CXE6N-CzaMx-L7lmpiqDc','jquery_version':'1.10','css':{'\/\/maxcdn.bootstrapcdn.com\/font-awesome\/4.5.0\/css\/font-awesome.min.css':1,'https:\/\/fonts.googleapis.com\/css?family=Open+Sans:300,700,600,300italic':1,'modules\/system\/system.base.css':1,'modules\/system\/system.menus.css':1,'modules\/system\/system.messages.css':1,'modules\/system\/system.theme.css':1,'sites\/all\/modules\/calendar\/css\/calendar_multiday.css':1,'modules\/comment\/comment.css':1,'sites\/all\/modules\/date\/date_api\/date.css':1,'sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css':1,'modules\/field\/theme\/field.css':1,'sites\/all\/modules\/field_hidden\/field_hidden.css':1,'modules\/node\/node.css':1,'modules\/search\/search.css':1,'modules\/user\/user.css':1,'sites\/all\/modules\/views\/css\/views.css':1,'sites\/all\/modules\/ctools\/css\/ctools.css':1,'sites\/all\/modules\/panels\/css\/panels.css':1,'sites\/all\/modules\/webform\/css\/webform.css':1,'sites\/all\/modules\/panels_extra_layouts\/plugins\/layouts\/bryant_flipped\/bryant-flipped.css':1,'sites\/all\/modules\/responsive_dropdown_menus\/theme\/responsive-dropdown-menus.css':1,'sites\/default\/themes\/nomad\/system.menus.css':1,'sites\/default\/themes\/nomad\/system.messages.css':1,'sites\/default\/themes\/nomad\/system.theme.css':1,'sites\/default\/themes\/nomad\/css\/styles.css':1},'js':{'misc\/jquery-extend-3.4.0.js':1,'sites\/all\/modules\/jquery_update\/replace\/ui\/external\/jquery.cookie.js':1,'sites\/all\/modules\/jquery_update\/replace\/misc\/jquery.form.min.js':1,'sites\/all\/modules\/jquery_update\/js\/jquery_update.js':1,'sites\/all\/modules\/webform_steps\/webform_steps.js':1,'misc\/progress.js':1,'sites\/all\/modules\/webform\/js\/webform.js':1,'sites\/all\/modules\/responsive_dropdown_menus\/theme\/responsive-dropdown-menus.js':1,'sites\/default\/themes\/nomad\/js\/custom.js':1,'sites\/all\/modules\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js':1,'misc\/jquery.once.js':1,'misc\/drupal.js':1,'misc\/ajax.js':1}},'webform':{'conditionals':{'webform-client-form-19':{'ruleGroups':{'rgid_0':{'andor':null,'actions':{'aid_0':{'target':'webform-component--operating-systems','invert':0,'action':'show','argument':''}},'rules':{'rid_0':{'source_type':'component','source':'webform-component--procured-mobile-devices','value':'Yes','callback':'conditionalOperatorStringEqual'}}}},'sourceMap':{'webform-component--procured-mobile-devices':{'rgid_0':'rgid_0'}},'values':[]}}},'ajax':{'edit-next':{'callback':'webform_ajax_callback','wrapper':'webform-ajax-wrapper-19','progress':{'message':'','type':'throbber'},'event':'click','url':'\/system\/ajax','submit':{'_triggering_element_name':'op','_triggering_element_value':'Next \u00bb'}},'edit-webform-step-button-1-19':{'callback':'webform_ajax_callback','wrapper':'webform-ajax-wrapper-19','progress':{'message':'','type':'throbber'},'event':'click','url':'\/system\/ajax','submit':{'_triggering_element_name':'step-btn','_triggering_element_value':'Q1'}},'edit-webform-step-button-2-19':{'callback':'webform_ajax_callback','wrapper':'webform-ajax-wrapper-19','progress':{'message':'','type':'throbber'},'event':'click','url':'\/system\/ajax','submit':{'_triggering_element_name':'step-btn','_triggering_element_value':'Q2'}},'edit-webform-step-button-3-19':{'callback':'webform_ajax_callback','wrapper':'webform-ajax-wrapper-19','progress':{'message':'','type':'throbber'},'event':'click','url':'\/system\/ajax','submit':{'_triggering_element_name':'step-btn','_triggering_element_value':'Q3'}},'edit-webform-step-button-4-19':{'callback':'webform_ajax_callback','wrapper':'webform-ajax-wrapper-19','progress':{'message':'','type':'throbber'},'event':'click','url':'\/system\/ajax','submit':{'_triggering_element_name':'step-btn','_triggering_element_value':'Q4'}},'edit-webform-step-button-5-19':{'callback':'webform_ajax_callback','wrapper':'webform-ajax-wrapper-19','progress':{'message':'','type':'throbber'},'event':'click','url':'\/system\/ajax','submit':{'_triggering_element_name':'step-btn','_triggering_element_value':'Q5'}},'edit-webform-step-button-6-19':{'callback':'webform_ajax_callback','wrapper':'webform-ajax-wrapper-19','progress':{'message':'','type':'throbber'},'event':'click','url':'\/system\/ajax','submit':{'_triggering_element_name':'step-btn','_triggering_element_value':'Q6'}},'edit-webform-step-button-7-19':{'callback':'webform_ajax_callback','wrapper':'webform-ajax-wrapper-19','progress':{'message':'','type':'throbber'},'event':'click','url':'\/system\/ajax','submit':{'_triggering_element_name':'step-btn','_triggering_element_value':'Q7'}},'edit-webform-step-button-8-19':{'callback':'webform_ajax_callback','wrapper':'webform-ajax-wrapper-19','progress':{'message':'','type':'throbber'},'event':'click','url':'\/system\/ajax','submit':{'_triggering_element_name':'step-btn','_triggering_element_value':'Q8'}},'edit-webform-step-button-9-19':{'callback':'webform_ajax_callback','wrapper':'webform-ajax-wrapper-19','progress':{'message':'','type':'throbber'},'event':'click','url':'\/system\/ajax','submit':{'_triggering_element_name':'step-btn','_triggering_element_value':'Q9'}},'edit-webform-step-button-10-19':{'callback':'webform_ajax_callback','wrapper':'webform-ajax-wrapper-19','progress':{'message':'','type':'throbber'},'event':'click','url':'\/system\/ajax','submit':{'_triggering_element_name':'step-btn','_triggering_element_value':'Q10'}},'edit-webform-step-button-11-19':{'callback':'webform_ajax_callback','wrapper':'webform-ajax-wrapper-19','progress':{'message':'','type':'throbber'},'event':'click','url':'\/system\/ajax','submit':{'_triggering_element_name':'step-btn','_triggering_element_value':'Q11'}},'edit-webform-step-button-12-19':{'callback':'webform_ajax_callback','wrapper':'webform-ajax-wrapper-19','progress':{'message':'','type':'throbber'},'event':'click','url':'\/system\/ajax','submit':{'_triggering_element_name':'step-btn','_triggering_element_value':'Q12'}},'edit-webform-step-button-13-19':{'callback':'webform_ajax_callback','wrapper':'webform-ajax-wrapper-19','progress':{'message':'','type':'throbber'},'event':'click','url':'\/system\/ajax','submit':{'_triggering_element_name':'step-btn','_triggering_element_value':'Q13'}},'edit-webform-step-button-14-19':{'callback':'webform_ajax_callback','wrapper':'webform-ajax-wrapper-19','progress':{'message':'','type':'throbber'},'event':'click','url':'\/system\/ajax','submit':{'_triggering_element_name':'step-btn','_triggering_element_value':'Q14'}},'edit-webform-step-button-15-19':{'callback':'webform_ajax_callback','wrapper':'webform-ajax-wrapper-19','progress':{'message':'','type':'throbber'},'event':'click','url':'\/system\/ajax','submit':{'_triggering_element_name':'step-btn','_triggering_element_value':'Preview'}},'edit-webform-ajax-next-19':{'callback':'webform_ajax_callback','wrapper':'webform-ajax-wrapper-19','progress':{'message':'','type':'throbber'},'event':'click','url':'\/system\/ajax','submit':{'_triggering_element_name':'op','_triggering_element_value':'Next \u00bb'}}},'urlIsAjaxTrusted':{'\/system\/ajax':!0,'\/find-right-mobile-solution':!0},'responsive_dropdown_menus':{'accountmenu':'Account menu','devel':'Development','main-menu':'Main menu','management':'Management','navigation':'Navigation','user-menu':'User menu'}});</script>
+      <!--[if lt IE 9]>
+    <script src="/sites/all/themes/zen/js/html5-respond.js"></script>
+    <![endif]-->
+  </head>
+<body class="html not-front not-logged-in no-sidebars page-online-selection-tool section-online-selection-tool page-panels" >
+      <p id="skip-link">
+      <a href="#main-menu" class="element-invisible element-focusable">Jump to navigation</a>
+    </p>
+      
+<div id="page">
+
+  <header class="header" id="header" role="banner">
+	<div class="header-inner container">
+	
+	
+          <nav class="header__secondary-menu" id="secondary-menu" role="navigation">
+        <h2 class="element-invisible">User menu</h2><ul class="links inline clearfix"><li class="menu-535 first"><a href="/user/login" title=""><i class="fa fa-sign-in"></i> Login / Register</a></li>
+<li class="menu-1036"><a href="https://humanitarian-nomad.slack.com/messages" title=""><i class="fa fa-comments"></i> Community</a></li>
+<li class="menu-530 last"><a href="/contact" title=""><i class="fa fa-envelope-o"></i> Contact</a></li>
+</ul>      </nav>
+    
+	
+      <div class="header__region region region-header">
+    <div id="block-block-2" class="block block-block first odd">
+
+      
+  <div><a href="/"><img alt="" src="/sites/default/files/logo-white.png" style="height: 76px;" /></a></div>
+
+</div>
+<div id="block-multiblock-1" class="block block-multiblock main-menu last even">
+
+      
+  <ul class="menu"><li class="menu__item is-leaf is-active-trail first leaf active-trail"><a href="/online-selection-tool" title="" class="menu__link is-active-trail active-trail active">Find Your MDC</a></li>
+<li class="menu__item is-leaf leaf"><a href="/why-mdc" class="menu__link">Why MDC?</a></li>
+<li class="menu__item is-expanded expanded"><span title="" class="menu__link nolink">Services</span><ul class="menu"><li class="menu__item is-leaf first leaf"><a href="/case-study" class="menu__link">Case Study</a></li>
+<li class="menu__item is-leaf leaf"><a href="/components" class="menu__link">Components</a></li>
+<li class="menu__item is-leaf leaf"><a href="/faq" title="" class="menu__link">FAQ</a></li>
+<li class="menu__item is-leaf last leaf"><a href="/mdc-research" class="menu__link">MDC Research</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded"><a href="/workshops" title="" class="menu__link">Workshops</a><ul class="menu"><li class="menu__item is-leaf first leaf"><a href="/amman-2016-nomad-workshop" class="menu__link">Amman 2016</a></li>
+<li class="menu__item is-leaf leaf"><a href="/paris-2013-nomad-workshop" class="menu__link">Paris 2013</a></li>
+<li class="menu__item is-leaf leaf"><a href="/geneva-2012-nomad-workshop" class="menu__link">Geneva 2012</a></li>
+<li class="menu__item is-leaf last leaf"><a href="/geneva-2011-nomad-workshop" class="menu__link">Geneva 2011</a></li>
+</ul></li>
+<li class="menu__item is-leaf last leaf"><a href="/about-nomad" title="" class="menu__link">About</a></li>
+</ul>
+</div>
+  </div>
+	</div>
+		
+  </header>
+
+  <div id="main">
+	<div id="navigation">
+
+	    <div class="region region-navigation">    <div id="block-responsive-dropdown-menus-main-menu" class="block block-responsive-dropdown-menus first last odd">        <ul id="main-menu" class="main-menu responsive-menu links"><li id="menu-item-1028" class="menu-item active-trail active menu-item-primary first"><a href="/online-selection-tool" title="" class="active">Find Your MDC</a></li><li id="menu-item-602" class="menu-item menu-item-primary"><a href="/why-mdc">Why MDC?</a></li><li id="menu-item-537" class="menu-item menu-parent menu-item-primary"><span title="" class="nolink">Services</span><ul class="sub-menu tier-two"><li id="menu-item-621" class="menu-item menu-item-secondary first"><a href="/case-study">Case Study</a></li><li id="menu-item-622" class="menu-item menu-item-secondary"><a href="/components">Components</a></li><li id="menu-item-1075" class="menu-item menu-item-secondary"><a href="/faq" title="">FAQ</a></li><li id="menu-item-623" class="menu-item menu-item-secondary last"><a href="/mdc-research">MDC Research</a></li></ul></li><li id="menu-item-625" class="menu-item menu-parent menu-item-primary"><a href="/workshops" title="">Workshops</a><ul class="sub-menu tier-two"><li id="menu-item-902" class="menu-item menu-item-secondary first"><a href="/amman-2016-nomad-workshop">Amman 2016</a></li><li id="menu-item-903" class="menu-item menu-item-secondary"><a href="/paris-2013-nomad-workshop">Paris 2013</a></li><li id="menu-item-904" class="menu-item menu-item-secondary"><a href="/geneva-2012-nomad-workshop">Geneva 2012</a></li><li id="menu-item-905" class="menu-item menu-item-secondary last"><a href="/geneva-2011-nomad-workshop">Geneva 2011</a></li></ul></li><li id="menu-item-603" class="menu-item menu-item-primary last"><a href="/about-nomad" title="">About</a></li></ul></div>  </div>
+	</div>
+
+	<div class="container">
+
+
+
+
+		<div id="content" class="column" role="main">
+		  		  <nav class="breadcrumb"><a href="/">Home</a> » <span >Online Selection Tool</span></nav>		  <a id="main-content"></a>
+		  		  		  		  		  		  		  		  
+
+
+<div class="panel-pane pane-custom pane-1"  >
+  
+      
+  
+  <p>The NOMAD project links aid organizations with the latest information management tools to more easily collect, analyse and manage data. NOMAD has developed an Online Selection Assistant to connect your organization or project with one of 50 mobile data collection solutions.</p>
+
+  
+  </div>
+<div class="panel-pane pane-panels-mini pane-online-selection-tool"  >
+  
+      
+  
+  
+<div class="panel-pane pane-node ost-wrapper"  >
+  
+        <div class="pane-title">
+      
+<div class="pane-title-text"><span class="highlighted"> Find the right mobile solution</span></div>
+    </div>
+    
+  
+  
+<div  about="/find-right-mobile-solution" typeof="sioc:Item foaf:Document" class="ds-1col node node-webform node-teaser view-mode-teaser  clearfix">
+
+  
+  <div id="webform-ajax-wrapper-19"><form class="webform-client-form webform-client-form-19" enctype="multipart/form-data" action="/find-right-mobile-solution" method="post" id="webform-client-form-19" accept-charset="UTF-8"><div><div class="webform-progressbar">
+      <div class="webform-progressbar-outer">
+      <div class="webform-progressbar-inner" style="width: 0%">&nbsp;</div>
+              <span class="webform-progressbar-page current" style="left: 0%">
+          <span class="webform-progressbar-page-number">1</span>
+                  </span>
+              <span class="webform-progressbar-page" style="left: 7.14%">
+          <span class="webform-progressbar-page-number">2</span>
+                  </span>
+              <span class="webform-progressbar-page" style="left: 14.29%">
+          <span class="webform-progressbar-page-number">3</span>
+                  </span>
+              <span class="webform-progressbar-page" style="left: 21.43%">
+          <span class="webform-progressbar-page-number">4</span>
+                  </span>
+              <span class="webform-progressbar-page" style="left: 28.57%">
+          <span class="webform-progressbar-page-number">5</span>
+                  </span>
+              <span class="webform-progressbar-page" style="left: 35.71%">
+          <span class="webform-progressbar-page-number">6</span>
+                  </span>
+              <span class="webform-progressbar-page" style="left: 42.86%">
+          <span class="webform-progressbar-page-number">7</span>
+                  </span>
+              <span class="webform-progressbar-page" style="left: 50%">
+          <span class="webform-progressbar-page-number">8</span>
+                  </span>
+              <span class="webform-progressbar-page" style="left: 57.14%">
+          <span class="webform-progressbar-page-number">9</span>
+                  </span>
+              <span class="webform-progressbar-page" style="left: 64.29%">
+          <span class="webform-progressbar-page-number">10</span>
+                  </span>
+              <span class="webform-progressbar-page" style="left: 71.43%">
+          <span class="webform-progressbar-page-number">11</span>
+                  </span>
+              <span class="webform-progressbar-page" style="left: 78.57%">
+          <span class="webform-progressbar-page-number">12</span>
+                  </span>
+              <span class="webform-progressbar-page" style="left: 85.71%">
+          <span class="webform-progressbar-page-number">13</span>
+                  </span>
+              <span class="webform-progressbar-page" style="left: 92.86%">
+          <span class="webform-progressbar-page-number">14</span>
+                  </span>
+              <span class="webform-progressbar-page" style="left: 100%">
+          <span class="webform-progressbar-page-number">15</span>
+                  </span>
+          </div>
+  
+
+  
+  </div>
+<div  class="form-item webform-component webform-component-radios webform-component--procured-mobile-devices">
+  <label for="edit-submitted-procured-mobile-devices">Have you already procured mobile devices (e.g mobile phones, GPS equipment) that you will use to collect data? <span class="form-required" title="This field is required.">*</span></label>
+ <div id="edit-submitted-procured-mobile-devices" class="form-radios"><div class="form-item form-type-radio form-item-submitted-procured-mobile-devices">
+ <input required="required" type="radio" id="edit-submitted-procured-mobile-devices-1" name="submitted[procured_mobile_devices]" value="Yes" class="form-radio" />  <label class="option" for="edit-submitted-procured-mobile-devices-1">Yes </label>
+
+</div>
+<div class="form-item form-type-radio form-item-submitted-procured-mobile-devices">
+ <input required="required" type="radio" id="edit-submitted-procured-mobile-devices-2" name="submitted[procured_mobile_devices]" value="No" class="form-radio" />  <label class="option" for="edit-submitted-procured-mobile-devices-2">No </label>
+
+</div>
+</div>
+</div>
+<div  class="form-item webform-component webform-component-checkboxes webform-component--operating-systems">
+  <label for="edit-submitted-operating-systems">Select the operating system(s) <span class="form-required" title="This field is required.">*</span></label>
+ <div id="edit-submitted-operating-systems" class="form-checkboxes"><div class="form-item form-type-checkbox form-item-submitted-operating-systems-Windows-Phone">
+ <input type="checkbox" id="edit-submitted-operating-systems-1" name="submitted[operating_systems][Windows Phone]" value="Windows Phone" class="form-checkbox" />  <label class="option" for="edit-submitted-operating-systems-1">Windows Phone </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-submitted-operating-systems-Android">
+ <input type="checkbox" id="edit-submitted-operating-systems-2" name="submitted[operating_systems][Android]" value="Android" class="form-checkbox" />  <label class="option" for="edit-submitted-operating-systems-2">Android </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-submitted-operating-systems-iOS">
+ <input type="checkbox" id="edit-submitted-operating-systems-3" name="submitted[operating_systems][iOS]" value="iOS" class="form-checkbox" />  <label class="option" for="edit-submitted-operating-systems-3">iOS </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-submitted-operating-systems-Symbian/Nokia-X/Java-Enabled-phone">
+ <input type="checkbox" id="edit-submitted-operating-systems-4" name="submitted[operating_systems][Symbian/Nokia X/Java Enabled phone]" value="Symbian/Nokia X/Java Enabled phone" class="form-checkbox" />  <label class="option" for="edit-submitted-operating-systems-4">Symbian/Nokia X/Java Enabled phone </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-submitted-operating-systems-Blackberry">
+ <input type="checkbox" id="edit-submitted-operating-systems-5" name="submitted[operating_systems][Blackberry]" value="Blackberry" class="form-checkbox" />  <label class="option" for="edit-submitted-operating-systems-5">Blackberry </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-submitted-operating-systems-webOS">
+ <input type="checkbox" id="edit-submitted-operating-systems-6" name="submitted[operating_systems][webOS]" value="webOS" class="form-checkbox" />  <label class="option" for="edit-submitted-operating-systems-6">webOS </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-submitted-operating-systems-Amazon-Kindle">
+ <input type="checkbox" id="edit-submitted-operating-systems-7" name="submitted[operating_systems][Amazon Kindle]" value="Amazon Kindle" class="form-checkbox" />  <label class="option" for="edit-submitted-operating-systems-7">Amazon Kindle </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-submitted-operating-systems-HTML5-Browsers">
+ <input type="checkbox" id="edit-submitted-operating-systems-8" name="submitted[operating_systems][HTML5 Browsers]" value="HTML5 Browsers" class="form-checkbox" />  <label class="option" for="edit-submitted-operating-systems-8">HTML5 Browsers </label>
+
+</div>
+<div class="form-item form-type-checkbox form-item-submitted-operating-systems-Windows-CE">
+ <input type="checkbox" id="edit-submitted-operating-systems-9" name="submitted[operating_systems][Windows CE]" value="Windows CE" class="form-checkbox" />  <label class="option" for="edit-submitted-operating-systems-9">Windows CE </label>
+
+</div>
+</div>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="15" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-y014ZPs18XCpSTmBMhZiwLEduYVV6ROZuQumbDWghxY" />
+<input type="hidden" name="form_id" value="webform_client_form_19" />
+<input type="hidden" name="mymodule_solutions_count" value="50" />
+<input type="hidden" name="mymodule_solutions_names" value="Acquee, ActivityInfo, Akvo Flow, Awaaz.De Surveys, COMMANDmobile®, CommCare, CommTrack, CSPro, CyberTracker, DevInfo, do Forms, droidSURVEY, Enketo Smart Paper, EpiCollect, FrontlineSMS, Fulcrum, GeoPoll, Humanitarian Data Toolkit, iFormBuilder™, imogene, iSURVEY, KoBoToolbox, Last Mile Mobile Solution, Magpi, Majella Insight, mFieldwork, Mobenzi Researcher, mWater Surveyor, my test solution, Nokia Data Gathering system, Oasis Mobile, Open Data Kit, openXdata, Pendragon, Poimapper, PSI Mobile - Fusion, RapidSMS, RDMS, Smap, SoukTel, SurveyCTO, Telerivet, Text to Change, TextIt, TRAXILO, ViewWorld, VirtualCohort, VOTO Mobile, Voxiva, Wepi" />
+<input type="hidden" name="webform_ajax_wrapper_id" value="webform-ajax-wrapper-19" />
+<div class="webform-steps-buttons element-invisible form-wrapper" id="edit-step-buttons"><input class="element-invisible form-submit" type="submit" id="edit-next" name="op" value="Next »" /><input class="step-button form-submit form-button-disabled" disabled="disabled" type="submit" id="edit-webform-step-button-1-19" name="step-btn" value="Q1" /><input class="step-button form-submit" type="submit" id="edit-webform-step-button-2-19" name="step-btn" value="Q2" /><input class="step-button form-submit form-button-disabled" disabled="disabled" type="submit" id="edit-webform-step-button-3-19" name="step-btn" value="Q3" /><input class="step-button form-submit form-button-disabled" disabled="disabled" type="submit" id="edit-webform-step-button-4-19" name="step-btn" value="Q4" /><input class="step-button form-submit form-button-disabled" disabled="disabled" type="submit" id="edit-webform-step-button-5-19" name="step-btn" value="Q5" /><input class="step-button form-submit form-button-disabled" disabled="disabled" type="submit" id="edit-webform-step-button-6-19" name="step-btn" value="Q6" /><input class="step-button form-submit form-button-disabled" disabled="disabled" type="submit" id="edit-webform-step-button-7-19" name="step-btn" value="Q7" /><input class="step-button form-submit form-button-disabled" disabled="disabled" type="submit" id="edit-webform-step-button-8-19" name="step-btn" value="Q8" /><input class="step-button form-submit form-button-disabled" disabled="disabled" type="submit" id="edit-webform-step-button-9-19" name="step-btn" value="Q9" /><input class="step-button form-submit form-button-disabled" disabled="disabled" type="submit" id="edit-webform-step-button-10-19" name="step-btn" value="Q10" /><input class="step-button form-submit form-button-disabled" disabled="disabled" type="submit" id="edit-webform-step-button-11-19" name="step-btn" value="Q11" /><input class="step-button form-submit form-button-disabled" disabled="disabled" type="submit" id="edit-webform-step-button-12-19" name="step-btn" value="Q12" /><input class="step-button form-submit form-button-disabled" disabled="disabled" type="submit" id="edit-webform-step-button-13-19" name="step-btn" value="Q13" /><input class="step-button form-submit form-button-disabled" disabled="disabled" type="submit" id="edit-webform-step-button-14-19" name="step-btn" value="Q14" /><input class="step-button form-submit form-button-disabled" disabled="disabled" type="submit" id="edit-webform-step-button-15-19" name="step-btn" value="Preview" /></div><div class="form-actions"><input class="webform-next button-primary form-submit" type="submit" id="edit-webform-ajax-next-19" name="op" value="Next »" /></div></div></form></div></div>
+
+
+
+  
+  </div>
+
+<div class="panel-pane pane-custom pane-2"  id="ost-wrapper-solutions-count" >
+  
+      
+  
+  <span id="mobile-solutions-found"></span> mobile solutions found
+  
+  </div>
+
+<div class="panel-pane pane-custom pane-3"  id="ost-wrapper-solutions-names" >
+  
+      
+  
+  <span id="mobile-solutions-names"></span>
+  
+  </div>
+
+
+  
+  </div>
+		  		</div>
+
+		
+			</div>
+
+  </div>
+
+  
+</div>
+
+  <div class="region region-bottom">
+    <div id="block-panels-mini-footer" class="block block-panels-mini container first last odd">
+
+      
+  
+<div class="panel-display bryant-flipped clearfix " id="mini-panel-footer">
+
+  <div class="bryant-flipped-container bryant-flipped-content-container clearfix">
+    <div class="bryant-flipped-content bryant-flipped-content-region panel-panel">
+      <div class="bryant-flipped-content-inner bryant-flipped-content-region-inner panel-panel-inner">
+        <div class="panel-pane pane-custom pane-4"  id="mini-panel-footer-row-1" >
+  
+      
+  
+  <p>2016 NOMAD Humanitarian Operations Mobile Acquisition of Data</p>
+
+  
+  </div>
+      </div>
+    </div>
+    <div class="bryant-flipped-sidebar bryant-flipped-content-region panel-panel">
+      <div class="bryant-flipped-sidebar-inner bryant-flipped-content-region-inner panel-panel-inner">
+        <div class="panel-pane pane-custom pane-5"  id="mini-panel-footer-row-2" >
+  
+      
+  
+  <p><a href="https://www.facebook.com/HumanitarianNOMADproject"><i class="fa fa-facebook"></i></a> <a href="https://twitter.com/humNOMAD"><i class="fa fa-twitter"></i></a> </p>
+
+
+  
+  </div>
+      </div>
+    </div>
+  </div>
+
+</div><!-- /.bryant-flipped -->
+
+</div>
+  </div>
+  <script src="https://humanitarian-nomad.org/sites/default/files/advagg_js/js__qvxhs9hiTVr_USTpngJWnfdQEU8sbxmerZ1FBORD7ks__c_vdLVdm2dhTjV0-cjXbrVvnpDDp5m6xnNff8tSZ1fg__Q_rrqefePWez7b4-8C14D1x2I13NvvwGGAxc7gYKTbQ.js"></script>
+<script src="https://humanitarian-nomad.org/sites/default/files/advagg_js/js__otS_m2W1t58QNz0Dt94XD3n1Zw04AvOv0iRMdh1ncYA__ETmLGU69pr7kERwG5VooZAsqJ1PSrQ2V80NAWIGXagQ__Q_rrqefePWez7b4-8C14D1x2I13NvvwGGAxc7gYKTbQ.js"></script>
+<script src="https://humanitarian-nomad.org/sites/default/files/advagg_js/js__WojiLW7qrcgPbWQ9BOsWcGK7A_3GmgMoo50GXr5XyQc__ofWCpsQNzIKzGEnqb6lIm1W_nmm1HOG4IQHR_CPXx44__Q_rrqefePWez7b4-8C14D1x2I13NvvwGGAxc7gYKTbQ.js"></script>
+<script src="https://humanitarian-nomad.org/sites/default/files/advagg_js/js__jQfup80bMORaBbQiryVJmZZ32ozr3tYRcLLrC8cZ1ps__EuEfWxMPmTfsMurEml526CjtHy6pTGUZpjXPUsuUNbc__Q_rrqefePWez7b4-8C14D1x2I13NvvwGGAxc7gYKTbQ.js"></script>
+<script src="https://humanitarian-nomad.org/sites/default/files/advagg_js/js___VpNy9Du5FZPcWZfDqgApN7XOHRPRpwoJc4fl5YFDeg__N6GDBOd9bXd-7JXoRXulXN_9ol0rput1Ux6lPrCqH80__Q_rrqefePWez7b4-8C14D1x2I13NvvwGGAxc7gYKTbQ.js"></script>
+</body>
+</html>

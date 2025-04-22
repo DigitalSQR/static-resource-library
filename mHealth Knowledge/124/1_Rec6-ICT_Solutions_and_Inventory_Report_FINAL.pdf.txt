@@ -1,0 +1,1034 @@
+ 
+ 
+ 
+ 
+ 
+ 
+Inventory of Information and Communication 
+Technology Solutions for Supply Chains 
+ 
+ 
+Prepared for the United Nations Commission on Life-saving Commodities for 
+Women and Children 
+ 
+Ada Kwan 
+April 2014 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Acknowledgements 
+ 
+For the many individuals who provided their expertise and feedback on this inventory of 
+information and communication technologies for supply chains of essential commodities, the 
+mHealth Alliance is extremely grateful. We would first and foremost like to thank the variety of 
+stakeholders from the community who generously gave their time to this work, including Cathy 
+Mwangi from the CDC Foundation mHealth Kenya; Pavel Mtango from the Clinton Health 
+Access Initiative; Tania Holt from McKinsey & Company; Eduardo Jezierski from InSTEDD; 
+Beth Yeager and Kyle Duarte from Management Sciences for Health; Anup Akkihal and Arun 
+Ramanujapuram from Logistimo India Private Limited; Craig Drown from Sustainable 
+Solutions; Sarah Jackson, Erin Larsen-Cooper, Ron Pankiewicz and Emily Bancroft from 
+VillageReach; Suzy Sacher and Joy Kamunyori from John Snow, Inc.; and Jennifer Bergeson-
+Lockwood from USAID. We would also like to thank the key members of the mHealth Alliance 
+who made this work possible, including Dr. Patricia Mechael, Ada Kwan, William Philbrick, 
+Jonathan Payne, Avrille Hanzel, Chelsea Solmo, and Vasu Anandan. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+This report was created for the United Nations Commission on Life-saving Commodities for 
+Women and Children under Recommendation 6 on Supply and Awareness that states that by 
+2015, all Every Woman, Every Child countries have improved the supply of life-saving 
+commodities and build on ICT best practices for making these improvements (United Nations 
+Foundation, 2013). 
+  
+ 1 
+Introduction 
+ 
+For the United Nations Commission on Life-saving Commodities for Women and Children 
+(hereafter referred to as “the Commission”), the ability of countries to predict, forecast, and 
+manage the 13 essential commodities along their supply chains is critical to the success of saving 
+the lives of the millions of women and children who die every year from preventable deaths. 
+Additionally, optimizing in-country supply chains to reduce losses related to overstocking, 
+waste, expiration dates, damaged commodities, and inefficiencies can protect program 
+investments and strengthen health systems to better deliver health services to the women and 
+children who need them the most.  
+ 
+For areas around the world once inaccessible to health services, two recent trends provide new 
+ways to rethink how supply chain capabilities, such as tracking and monitoring, can be 
+improved.. First, there is a large variety of information and communication technologies (ICT) 
+which are now available to support commodity management and improve the speed and visibility 
+of data. Second, access to mobile and wireless connectivity is increasing globally. With these 
+two trends reshaping the possibilities for improved management of health commodities, supply 
+chain managers are shifting away from paper-based supply chain management systems and 
+exploring appropriate-technology solutions to meet supply chain data management needs.   
+ 
+The details included in this report serve to complement the inventory spreadsheet, which 
+contains a catalog of ICT solutions for supply chains. The objective of the inventory is to assist 
+countries in selecting a supply chain tool by reviewing the ways in which existing ICT solutions 
+have been already implemented in different countries. The following sections describe how to 
+use the inventory, resources on how to select an ICT tool or product, and ways forward.  
+Using the Inventory 
+ 
+The inventory lists ICT tools/products that were identified through a scoping exercise, which 
+included a review of grey and white literature, interviews with individuals at institutions 
+involved in developing and implementing ICT tools/products for supply chain management, and 
+existing databases of tools/products.a Each column within the inventory is described below. It is 
+important to mention that 27 other tools/products were identified but were not catalogued in the 
+inventory because of lack of comprehensive information for the categories below.b Additionally, 
+some of the same tools/products are implemented in different countries in different ways and 
+under different local names, which is shown in the inventory. 
+ Overall Purpose – For which domain in the supply chain is this tool/product relevant?  
+Supply chain domains have been identified (See “Recommendation 6, Outcome 1: Good 
+Practice in Supply Chain Management, Challenges and Barriers along the In-country 
+Supply Chain” document). Figure 1 shows the different domains: regulatory policies and 
+                                                        
+a These databases included: USAID | DELIVER PROJECT’s Supply Chain Software Inventory (USAID | DELIVER PROJECT, 
+Task Order 4, 2008); VillageReach and Dimagi, Inc.’s Lessons Learned: ICTs for Supply Chain Management in Low-Resource 
+Settings (VillageReach & Dimagi, 2013); and WHO/AMDS’s PSM Toolbox (WHO AIDS Medicines and Diagnostics Service 
+(AMDS), 2014).  
+b These 27 ICT tools/products are listed at the bottom of the inventory. 
+ 2 
+procedures, quantification – forecasting and supply planning, procurement, warehousing 
+and inventory management, distribution, service delivery and utilization, and supply 
+chain monitoring. In the inventory, other related supply chain domains are also listed if 
+applicable for a certain tool/product. 
+ 
+ 
+Figure 1. Domains of the supply chain identified for Recommendation 6, Outcome 1 
+ 
+Quantification 
+Regulatory Warehousing Service 
+- Forecasting Supply Chain 
+Policies & Procurement & Inventory Distribution Delivery & 
+& Supply Monitoring
+Procedures Management Utilization
+Planning
+ 
+ 
+ 
+ Tool/Product – What is the name of the tool/product? 
+ Developer/Implementer/Vendor – What organization(s) is/are responsible for the 
+tool/product? 
+ Implementation Description of Tool/Product – What does the tool/product do and how 
+does it work? 
+ Country of Implementation – Where has this tool/product been implemented? 
+ Language – In what language is this tool/product delivered? 
+ Open Source/Open Access/Proprietary – Is the tool/product open source, open access, or 
+proprietary? 
+ Commodities Tracked – What type of commodities are tracked by the tool/product in the 
+country mentioned? 
+ Technology – What technology (software application, hardware, operating system) does 
+it use?   
+ Online versus Offline – Is this an online or offline tool? 
+ License Cost (USD) – How much does the license cost in US dollars? 
+ Contact Person – Who is the contact person? 
+For further inquiries on each tool/product, a contact person or email is provided. 
+ 
+Resources on how to select an ICT tool/product 
+Identifying needs within different contexts and finding the appropriate solution 
+ 
+Selecting an ICT tool or product requires identifying context-specific needs. Lessons learned 
+from other programs that have leveraged ICT as a platform for managing supply chains suggest 
+that implementers must first identify all end users of the system (VillageReach & Dimagi, 2013). 
+With all the different types of end users in mind, implementers must decide on what is desired 
+ 3 
+from the system in terms of data quality, the number of data points of interest, how frequently 
+data must be entered, initial and ongoing training sessions, and data collection issues.  The 
+implementers must also think through these aspects in the context of existing and/or paper-based 
+information and communication channels along the supply chain. Additional resources for 
+deciding how to apply ICT for supply chain management include: 
+ 
+ ICTs for Supply Chain Management in Low-Resource Settings by Village Reach and 
+Dimagi, Inc. (VillageReach & Dimagi, 2013). 
+http://villagereach.org/vrsite/wp-content/uploads/2013/07/Lessons-Learned-ICT-for-
+Supply-Chain-2013-2.pdf 
+ Getting Products to People: The JSI Framework for Integrated Supply Chain 
+Management in Public Health by John Snow, Inc. (John Snow Inc., 2012). 
+http://www.jsi.com/JSIInternet/Inc/Common/_download_pub.cfm?id=11907&lid=3 
+ Integrating ODK Scan into the Community Health Worker Supply Chain in Mozambique 
+by Nicola Dell et al. from the Proceedings of the Sixth International Conference on ICT 
+and Development (Dell et al., 2013).  
+http://dl.acm.org/citation.cfm?id=2516611 
+ The Framework for OpenLMIS White Paper by VillageReach (The Rockefeller 
+Foundation & VillageReach, 2012). 
+http://villagereach.org/vrsite/wp-content/uploads/2012/03/02292012.Framework-for-
+OpenLMIS-Whitepaper.pdf 
+ Computerizing Logistics Management Information Systems: A Program Manager’s 
+Guide by the USAID | DELIVER PROJECT (USAID | DELIVER PROJECT Task Order 
+4, 2012). 
+http://deliver.jsi.com/dlvr_content/resources/allpubs/guidelines/GuidImplCLMIS.pdf 
+ 
+Ways Forward 
+ 
+The success of using ICTs for supply chain management relies on the effectiveness of the 
+procedures and processes that support the supply chains for essential commodities. Similarly, the 
+integration of ICTs can exacerbate existing gaps in the supply of commodities. To provide a 
+framework for this, John Snow, Inc. (JSI) has described the common evolution with three 
+sequential phases towards achieving an integrated public health supply chain (John Snow Inc., 
+2012):  
+ Ad hoc phase – describes countries that have no formal procedures for the operation of a 
+supply chain 
+ Organized phase – describes countries that have implemented standardized supply chains 
+that run on basic and established roles and procedures 
+ Integrated phase – describes countries that have supply chains running with involved 
+people, functions, levels, and entities that collaborate and trust each other 
+ 
+ 4 
+Often before arriving at the integrated phase, countries will have several independent systems of 
+varying complexities in place. This approach without overlap can be redundant and inefficient, 
+since different systems are likely to capture similar information. Effective strategies to move 
+parallel systems towards integrated systems include encouraging collaboration and cooperation 
+amongst the various implementing partners. As was done in Ethiopia, recognizing the need and 
+establishing ways for integration can occur in workshops followed by the creation of data 
+protocols (Hawkins, Gebre-Mariam, & Lassooy, 2009). In their report, JSI further describes how 
+to move from the ad hoc phase to the organized phase, as well as move from the organized phase 
+to the integrated phase (John Snow Inc., 2012). 
+ Moving from ad hoc to organized –  
+o Assess current system using process mapping, network optimization, and costing 
+analysis 
+o Undertake technology assessments to improve information for decision making 
+o Employ system design process for all logistics functions and products using 
+segmentation analysis 
+o Roll out system, including logistics training and dissemination of job descriptions, 
+standard operating procedures, and supervision guidelines 
+o Perform regular quantification of commodities 
+ Moving from organized to integrated –  
+o Create a logistics management unit and establish central level technical groups 
+and committees 
+o Professionalize supply chain managers 
+o Optimize performance with analysis and design tools 
+o Introduce flexible schedules and sources 
+o Strengthen automated processes for data aggregation, analysis, and sharing 
+o Generate and publish routine logistics reports 
+o Develop performance-based management plans with indicators and incentives 
+ 
+VillageReach and Dimagi, Inc. have developed a set of recommendations for migrating supply 
+chain management programs from paper-based to ICT enhanced systems. Two such 
+considerations are to establish core functionalities ahead of scale-up and consider the 
+sophistication (or breadth of applicability) of the tool (VillageReach & Dimagi, 2013). Extra 
+efforts related to initial supervision, training, capacity building, and feedback loops are needed to 
+coordinate the workflow changes.  
+ 
+ 
+ 
+ 
+ 
+  
+ 5 
+References  
+Dell, N., Crawford, J., Breit, N., Chaluco, T., Coelho, A., McCord, J., & Borriello, G. (2013). 
+Integrating ODK Scan into the community health worker supply chain in Mozambique. 
+ICTD ’13 Proceedings of the Sixth International Conference on Information and 
+Communication Technologies and Development, 1, 228–237. 
+Hawkins, S., Gebre-Mariam, T., & Lassooy, E. (2009). RPM+/SPS and SCMS in Ethiopia: An 
+evaluation. Washington, DC. 
+USAID | DELIVER PROJECT, Task Order 4. (2008). Inventory of Supply Chain Software. 
+Retrieved February 24, 2014, from 
+http://deliver.jsi.com/dhome/whatwedo/supplychainsys/scsysinnovations/scsysmis/scsysmis
+softwaresurvey 
+John Snow Inc. (2012). Getting products to people: The JSI framework for integrated supply 
+chain management in public health. Arlington, VA. 
+The Rockefeller Foundation, & VillageReach. (2012). The Framework for OpenLMIS White 
+Paper. Seattle, WA. Retrieved from http://villagereach.org/vrsite/wp-
+content/uploads/2012/03/02292012.Framework-for-OpenLMIS-Whitepaper.pdf 
+United Nations Foundation. (2013). Every Woman, Every Child: Recommendations to Increase 
+Access and Use. Retrieved February 24, 2014, from 
+http://www.everywomaneverychild.org/resources/un-commission-on-life-saving-
+commodities/recommendations 
+VillageReach, & Dimagi, I. (2013). ICTs for Supply Chain Management in Low-Resource 
+Settings. 
+WHO AIDS Medicines and Diagnostics Service (AMDS). (2014). PSM (Procurement & Supply 
+Management) Toolbox. 
+ 
+ 
+ 6 
+INVENTORY OF INFORMATION AND COMMUNICATION TECHNOLOGY (ICT) SOLUTIONS FOR SUPPLY CHAINS *
+Prepared for the United Nations Commission on Life-saving Commodities for Women and Children
+Recommendation 6 (supply and awareness), Outcome 1 (Good practices in supply chain management), Activity 3 (ICT solutions for supply chain)
+OVERALL PURPOSE
+________________________________________________ DEVELOPER/
+For which domain of the supply chain is this tool/product relevant? IMPLEMENTER/ LANGUAGE COMMODITIES TRACKED TECHNOLOGY
+Regulatory Policies & Procedures TOOL/PRODUCT   COUNTRY OF IMPLEMENTATION  OPEN SOURCE / PROPRIETARY ONLINE VS. OFFLINE LICENSE COST  CONTACT PERSON  
+VENDOR IMPLEMENTATION DESCRIPTION OF TOOL/PRODUCT                                                                                       _  _  _  _  _  _  _  _  _  _  _  __      __________________________           _ ___________________          
+Quantification - Forecasting & Supply Planning _________________    __________________________              __________________________             __________________      _  _ _____________ ________________       
+________________           _____________________________________________________                                                                              I n  w   h  a t  l a  n g uage is What types of commodities are What technology (software 
+Procurement What is the name of the Where has this tool/product been Is the tool/product open source or Is this an online or offline How much does the Who is the contact 
+What organization(s) is/are What does the tool/product do and how does it work? this tool/product tracked by the tool/product in the application, hardware, operating 
+Warehousing & Inventory Management tool/product? implemented? (i.e. which countries) proprietary? tool?  license cost (USD)? person?  
+responsible for the delivered? country mentioned? system) does it use?
+Distribution
+tool/product?
+Service Delivery & Utilization
+Supply Chain Monitoring
+- AccessRH is a reproductive health procurement and information service that 
+improves access to quality, affordable sexual and reproductive health commodities 
+and reduces delivery times for governments of low- and middle-income countries 
+and NGO partners.
+Reproductive Health Supplies - It offers up-to-date information on contraceptive shipments through a unique 
+Quantification (Forecasting & Supply Planning) Reproductive health, female condoms, 
+Coalition (Concept), UNFPA website. Multiple countries  (over 140) English Open source Online portal Online Free accessrh@unfpa.org
+Procurement AccessRH implants, emergency contraceptives
+(Implementer) - Support is provided by UNFPA headquarters and by the program developers, and 
+data storage is available in-country.
+- The website for AccessRH is: http://www.myaccessrh.org/. Additional information 
+can be found at: http://www.rhsupplies.org/working-groups/systems-
+strengthening/accessrh.html
+Westchase Consultants - AutoDRV collects logistics data at SDP level on a laptop during deliveries and then Reproductive Health, condoms, 
+Windows / Visual Basic with a MS 
+Inventory Management AutoDRV (Developer for the USAID | autosyncs the data at the central level with Top Up software. Zimbabwe English Proprietary contraceptives, PMTCT, HIV rapid test Offline Free askdeliver@jsi.comSQL compact database
+DELIVER PROJECT (JSI)) - Data storage is in-country and support is provided by Westchase Consultants. kits, malaria, TB, essential medicines
+Multiple:
+- Channel is software that displays instant stock balances and information on 
+English
+Warehousing & Inventory Management impending stockouts. It acts as a computerized quantitative health supplies Family planning, equipment, 
+Multiple countries: French Joseph Abraham
+Distribution Channel UNFPA (Developer) management tool for warehouses and service delivery points, and it can also be Proprietary reproductive health, maternal health, Software Offline FreeTanzania, UNFPA country offices Portuguese jabraham@unfpa.org
+Service Delivery & Utilization used for forecasting and procurement planning. child health
+Russian
+- Data need to be backed up on a daily basis.
+Spanish
+- CKS Unisolv Software is a product and medical scheme data capturing software 
+developed in AcuCobol and run on SCO Unix, Linux, Windows or Novell operating 
+systems.
+- The software is interoperable with the medical aid scheme system as well as with 
+CKS Unisolv CKS Gautengsuppliers for order processing with local support provided by CKS Namibia and data All pharmaceuticals and related medical 
+Inventory Management ComputerKit Systems Namibia (not known) Proprietary Linux, UNIX, Windows and Novell Offline with online capability (not known) Head Office Tel.:
+Software storage available in-country. and personal care products +27 11 695 5300
+- The software is low maintenance, offline with online capabilities, and cannot be 
+customized.
+- The website for CKS Unisolv Software is: http://www.cks.co.za/pharmacy/index-
+1.html
+- CommTrack is an open-source product designed to strengthen logistics 
+management through the use of mobile technology by supporting health workers and 
+other mobile agents who manage commodities in low-resource settings. Users are 
+allowed to submit and receive supply chain data through multiple mechanisms, 
+including (1) SMS, (2) feature-rich mobile applications on basic Java-enabled 
+phones, Android smartphones or tablets, and (3) a web interface. 
+- CommTrack is integrated seamlessly with Dimagi’s suite of industry-leading tools CommTrack website is built on 
+Multiple:
+Dimagi (Developer), Benefit for empowering the mobile workforce. Python/Django, PostgreSQL, Mobile application tool with 
+English
+Warehousing & Inventory Management Corporation (Developer), - All data are collected on a secure, web-based server where it is protected, backed CouchDB, and Apache. offline capabilities. The 
+Multiple countries: French
+Service Delivery & Utilization NGOs (Implementer), up, and immediately made accessible to supervisors and program managers Family planning, malaria, HIV, and CommTrack mobile application website is online; however, 
+CommTrack Ghana, India, Malawi, Senegal, Tanzania, (Can be made Open source Free commtrack@dimagi.comDistribution Governments (Implementer), through automated, pre-canned reporting and data exports. essential medicines runs Java on Android and J2ME the mobile application 
+Zambia available in many 
+Quantification (Forecasting & Supply Planning) and Public-private - New deployments can quickly get started by opening an account on the server, on Java-enabled feature phones. remains fully functional even 
+other languages as 
+partnerships (Implementer) registering new users, and customizing the system for their commodities, reporting CommTrack can also run over when completely offline.
+needed)
+needs, and business requirements. Recurrent costs vary dramatically based on SMS using any mobile phone.
+users, program, scale, and workflow.
+- CommTrack has been deployed at scale in multiple countries, for example, to 
+support the Informed Push Model for family planning commodities in Senegal. It has 
+been or will soon be deployed in India, Senegal, Zambia, Mozambique, Tanzania, 
+and Nepal.
+- The website for CommTrack is http://www.commtrack.org
+- Designed for use at the central warehouse level, the Channel software program 
+requires minimal data to help UNFPA Country Offices assess their reproductive 
+health commodity requirements, stock positions, and identify shortfalls.
+Multiple:
+Country - CCM provides a mechanism to readily transmit each country's data to UNFPA Female condoms, implants, emergency Joseph AbrahamEnglish
+headquarters from country offices to use in generating global-level reports for the contraceptives, magnesium sulfate, Customized MS Visual Basic jabraham@unfpa.org
+Quantification (Forecasting & Supply Planning) Commodity UNFPA Multiple countries French Proprietary Offline Freepurpose of planning, advocacy and resource mobilization. oxytocin, amoxicillin, reproductive, application
+Russian
+Manager (CCM) - Inputs include stock levels in the warehouse and AMC, demographic, and CPR maternal, and child health ccm@unfpa.org
+Spanish
+data. Outputs include forecasting reports based on consumption and demographics.
+- A minimum of one-hour training is necessary.
+- cStock is an SMS- and web-based mobile system 
+(http://cstock.jsi.com/accounts/login/?next=/malawi/r/hsas/) used to resupply, 
+monitor and manage community-level essential medicines as part of the Supply 
+Chains for Community Case Management (CCM) Project that addresses pneumonia 
+and other childhood diseases. Amos Misomali
+Dimagi, Inc. 
+- cStock automatically calculates resupply quantities and provides available data amisomali@jsimw.com
+Procurement (Order Management) (Developer/Vendor) for JSI RapidSMS, Python/Django 
+which help supply management, particularly by reducing the burden on staff who Essential medicines (for pneumonia and 
+Inventory Management cStock R&T (Provider of expertise Malawi English Open source framework, MySQL on Linux. Online Freeneed to organize supplies ahead of Health Surveillance Assistant (HSA) visits. other common childhood diseases) Boniface Chimphanga
+Distribution and requirements for Mobile phones
+- It quickly identifies and responds to low stock levels and stockouts at the health bchimphanga@jshimw.co
+development)
+center or HSA level and develops comprehensive quantification and supply plans m
+based on current stock levels and calculations of consumption levels for CCM and 
+other community-level products from the HSA level.
+- The user manual is available at: 
+https://confluence.dimagi.com/display/CSTOC/User+Manual+for+cStock
+- CTC Pharmacy Module is a tool that stores and analyses data from clinics on 
+antiretroviral and opportunistic infection drug dispensing and stock management.
+- Inputs for the system include: physical inventories; ledger entries including receipts 
+of drugs and losses (damaged, expired, transferred to satellite facility, transferred to 
+other unrelated facility, lost); details of batches received; information from dispensing 
+register;  information required for the report and request forms. Monthly reports from 
+non-ordering satellite facilities can be entered.
+- Outputs provided by the system include: reconciliation between inventories and 
+Tanzania Ministry of Health 
+dispensing and ledger records; reminders on un-reconciled inventories; reminders 
+CTC Pharmacy Elaine Baker, University & Social Welfare, National on un-used batches with upcoming expiry dates; tools to perform calculations and Antiretroviral and opportunistic infection 
+Warehousing & Inventory Management Computing Center (UCC), Dar Tanzania English (not known) Microsoft Access 2000 or above Offline with online capability Free AIDS Program
+Module produce official report and request forms for ordering drugs; tool for matching drugses Salaam http://www.nacp.go.tz/nacp
+requests with deliveries; reports on trends in use of specific drugs over time; tools to 
+_contact.php
+link to the NACP CTC2 database to perform matching between patient medical 
+records and dispensing records; analysis of dispensing records.
+- Reports can be exported to Microsoft Excel or unsecured Access files to allow 
+manual analysis.
+- The CTC Pharmacy Module can be downloaded at: 
+http://www.nacp.go.tz/nacp_ctc.php
+- The CTC Pharmacy Module Operating Manual can be found at: 
+http://www.nacp.go.tz/databases/Pharmv3p2/Manual_Pharmacy_module_V3p2.pdf
+- DHIS 2 is a tool for collection, validation, analysis, and presentation of aggregate 
+statistical data, tailored (but not limited) to integrated health information 
+management activities. DHIS 2 is a generic tool rather than a pre-configured 
+database application with an open metadata model and a flexible user interface that 
+University of Oslo (Developer 
+allows the user to design the contents of a specific information system without the English
+and Coordinator of Open-
+need for programming. French
+Source Development); 
+Warehousing & Inventory Management - DHIS 2 is mainly used as integrated HMIS, full-country rollouts ranging from Portuguese Varies by country: All commodities, Online and online with 
+University of Oslo, National Multiple countries (over 30) Open source DHIS 2 is written in Java Free post@dhis2.org
+Quantification (Forecasting) DHIS2 US$500,000 if supporting Ministry of Health with data collection, processing, and use Russian tracer drugs, essential medicines support for poor connectivity
+Ministries of Health or 
+at district, subnational, and national levels with data collection taking place at facility Spanish
+equivalent national agencies 
+level. (Such a setup would need a dedicated HMIS team of 5 individuals at national Tajik
+(Implementer)
+level; 2 per subnational, 1 per district entity).
+- DHIS 2 and upwards is a modular web-based software package built with free and 
+open-source Java frameworks.
+- The website for DHIS 2 is http://www.dhis2.org
+- EWS (similar to ILSGateway) is a mobile health alert and reporting system for 
+health facility levels that is designed to provide visibility into the supply chain for 
+USAID | DELIVER PROJECT 
+Inventory Management Early Warning health commodities. Mobile phones, PostgreSQL, (JSI), Focus Regions Health 
+- Facilities send in their stock information for tracer products every week, and this Ghana English Open source HIV/AIDS, malaria, family planning RapidSMS, Python/Django Online Free askdeliver@jsi.com
+Supply Chain Monitoring System (EWS) Project (JSI R&T), Dimagi, information is displayed on a web-based dashboard for managers and decision framework on Linux 
+Inc.
+makers at the regional and central levels.
+- Maintenance is carried out by Dimagi on an ad-hoc basis.
+- HCMIS Warehouse allows warehouse managers to track inventory, calculate 
+HCMIS quantities for reorders, manage expired stock, capture customer demand for Quantification (Forecasting & Supply Planning) USAID | DELIVER PROJECT Essential medicines, chemicals, 
+fulfilment and forecasting, print stock vouchers and more. Ethiopia English Proprietary Windows Offline with online updates Free askdeliver@jsi.com
+Warehousing & Inventory Management Warehouse (JSI) supplies and equipment- Warehouse staff are normally fully trained, and they are able to operate the system 
+on their own.
+Health - HCTS is a data aggregation and reporting system, and it supports quantification, Gashaw Shiferaw
+distribution, project monitoring, and generation of reports for decision making for 
+Quantification (Forecasting & Supply Planning) Commodity Online with desktop (MIS Manager/HCTS health commodities in Ethiopia.
+Procurement MDF Ethiopia English Proprietary Various commodities Software application available for Free Coordinator, SCMS 
+Tracking - Support is provided by MDF from the USA.Warehousing & Inventory Management disconnected sites Ethiopia)
+- A brochure of the system can be found at: 
+System (HCTS) gshiferaw@et.pfscm.orghttp://scms.pfscm.org/scms/docs/papers/HACTS_brochure.pdf
+USAID | DELIVER PROJECT 
+(JSI); Health District of San - ILMOVIL offers a way for health posts to send weekly SMS messages containing 
+Marcos; Logistics Unit and essential logistics data for 12 products related to family planning, immunizations, Online system for incoming 
+Inventory Management Family Planning, nutrition, and other essential medicines. Family planning, immunizations, Mobile phones and Microsoft data with offline components US$5000/year (cost for 
+ILMOVIL Guatemala Spanish askdeliver@jsi.comSupply Chain Monitoring Immunizations and Nutrition - Incoming data are loaded into an Excel dashboard that then outputs standard Proprietary (Magpi's code) nutrition, essential medicines Excel where data are downloaded the Magpi Pro account)
+Programs of the Ministry of supply chain indicators. Early warning of malaria outbreaks can be occur using to Excel
+Health of Guatemala statistical tools technology.
+(MSPAS) (Implementer)
+- ILSGateway (similar to Early Warning System) is a mobile health alert and 
+reporting system for district and health facility levels that is designed to support and 
+strengthen the ILS by expanding the accessibility to and visibility of logistics data and 
+improving the use of logistics data for supply chain decision making.
+- Survey conducted among 29 ILSGateway users had the following findings: 93% felt 
+that it improved their diligence in conducting a stock count on time; 93% indicated 
+they were more likely to submit their report and requisition forms to the district on 
+Dimagi, Inc. (Developer) for Mobile phones, PostgreSQL, 
+Inventory Management time as a result of the alerts provided by the gateway; 45% of facilities indicated an Family planning, malaria, essential 
+Supply Chain Monitoring ILSGateway the USAID | DELIVER Tanzania English Open source RapidSMS, Python/Django Online Free askdeliver@jsi.comincrease in tracer product availability through use; and 88% of 17 district medicines
+PROJECT (JSI) framework on Linux
+respondents said the tool has increased management attention of a list of 20 
+reproductive health commodities.
+- The tool is an integrated logistics system with interoperable features intended for 
+future development.
+- Dimagi provides remote support from Cambridge, Mass., USA on an ad-hoc basis, 
+and data storage is cloud-hosted.
+- The website associated with this product is: http://www.ilsgateway.com/
+- Integrated Patient Management System is an interoperable drug management and 
+dispensing information system used by district hospitals with a networking 
+infrastructure that supports a centralized database with in-country data storage.
+Integrated - Issues surfaced from the system regarding human resource capacity, 
+implementation (e.g. bandwidth issues when connecting to the Government Data 
+Patient Network) and privacy and data security features (i.e. patient data confidentiality, Family planning, HIV/AIDS, malaria, 
+Inventory Management (South African vendor) Botswana (not known) Proprietary Windows Offline (not known) (not known)
+Management authenticity of system-generated prescriptions, and electronic data interchange tuberculosis commodities
+across different hospitals without manual forms and electronic signature), but the 
+System government through the Ministry of Communication Science and Technology is 
+developing a legal framework to provide guidance on use and applicability of 
+electronic data.
+- Maintenance is centrally managed.
+Introduction to 
+Regulatory Policies & Procedures Procurement - The Introduction to Procurement and Supply Management for Pharmaceuticals is 
+Quantification (Forecasting & Supply Planning) an 8-hour online course. It was developed to help participants acquire the basics on 
+and Supply HIV/AIDS, vaccines, malaria, Procurement procurement and supply management, learn more about health products, and 
+UNDP (Developer) Multiple countries English (not known) reproductive health, tuberculosis Online portal Online Free volker.welter@undp.org
+Warehousing & Inventory Management Management for improve management skills related to procurement and quality assurance commodities
+Distribution processes.
+Service Delivery & Utilization Pharmaceutical - The website for this online course is: http://www.sifylivewire.com/undp/
+s
+- IMAT is a tool made for evaluation (and does not replace the need for operational 
+monitoring in a warehouse) that comes as a computerized spreadsheet in Excel and 
+includes instructions, a data collection form, analysis guidelines, recommendations, 
+and a graphical display of the indicator results. The tool is useful for calculating a 
+baseline for inventory management and conducting follow-up evaluations in 
+warehouses.
+Inventory - IMAT guides the user through a process of collecting data on the physical and 
+theoretical stock balance and duration of stockouts for a set of up to 25 frequently Laboratory, reproductive health, 
+Management Multiple:CPM/ Management Sciences used products. supplements, HIV/AIDS, malaria, 
+Inventory Management Haiti English (not known) MS Excel workbook, 200 KB Offline Free cpm@msh.org
+Assessment for Health (Developer) - IMAT calculates indicators, analyzes the results and identifies strategies for tuberculosis commodities and French
+improving recordkeeping and stock management practices. medicines
+Tool (IMAT) - The tool was implemented at a functioning warehouse that required a user-friendly 
+instrument designed to collect and calculate indicators of effective inventory 
+management
+- Training is not required, but training can be provided by MSH for a cost.
+- The websites including the English and French versions of IMAT are: 
+http://erc.msh.org/newpages/english/toolkit/imat_eng.xls and 
+http://erc.msh.org/toolkit/toolkitfiles/file/IMAT_Fr.xls"
+- Inventory Management System tracks daily inventory transactions and then 
+Inventory generates handover forms, issue reports, stockbook reports and inventory reports Family planning, vaccines, acute 
+Procurement (Order Management) (which can be exported as Microsoft Word documents or Excel file formats) for respiratory illness, nutrition, malaria Windows/.NET Framework and 
+(local vendor) Nepal (not known) Proprietary Online (not known) (not known)
+Warehousing & Inventory Management Management central level and district and regional warehouses. leprosy, tuberculosis commodities and MS SQL Server
+System - Support is provided by the local vendor, Logistics Management Division (LMD), and essential drugs
+the USAID | DELIVER PROJECT. Data storage is available in-country.
+- The Inventory Tracking Tool is used for when a tool is needed to help initiate the 
+process of managing antiretroviral drugs and supplies, or a supply chain program in 
+general, but cannot support a full operation.
+- It has quick set up and is fast to learn with easy customization to work in other 
+diseases.
+- The tool comes equipped with various reports to support management decisions.
+- Inputs include an inventory of HIV/AIDS medicines and supplies, list of all sites that 
+Inventory receive supplies, funding agencies / donor information and a listing of ART Laboratory, medicines, reproductive Regulatory Policies & Procedures Management Sciences for 
+regimens. Outputs include a wide variety of reports based on the information entered (not known) English (not known) health products, supplements, HIV/AIDS MS Access application, 8 MB Online Free cpmsoftware@msh.org
+Warehousing & Inventory Management Tracking Tool Health (Developer) into the tool, such as inventory received, issues to sites, issues to site organized by commodities
+funding organization, stock on hand, etc.
+- Minimum requirements are: Pentium-based processor, 256 MB RAM, 500MB hard 
+disk space.
+- Five days of training is generally needed (costs need to be discussed with MSH), 
+which includes time for data conversion, training, and go-live support. Discussions 
+with MSH staff are required prior to planning implementation. Time requirements 
+may be adjusted based on the situation at each site.
+- Commodity tracking suite of applications accessible through mobile phones that 
+allows monitoring, ordering, tracking, and evaluation of medicines for health facilities 
+and programs in the country that are supported by the Ministries of Medical Services 
+KEMSA Head Office 
+Fintech Kenya (Developer) in and Public Health
+Quantification (Forecasting & Inventory Management) Nairobi
+coordination with KEMSA and - The system is interoperable with the LMIS and provides information for decision USSD, a basic GSM technology Offline with online 
+Procurement KEMSA eMobile Kenya English Proprietary Essential medicines (not known) Mobile GSM: 0726 618 CDC Foundation Kenya makers at the health facility level and other stakeholders that works on any GSM device capabilities
+Warehousing & Inventory Management 520/1/784/785, 0733 
+(Implementers) - The KEMSA eMobile website is: 
+606600
+http://kemsa.co.ke/index.php?option=com_content&view=article&id=66&Itemid=153 
+and the user guide is available at: http://kemsa.co.ke/pdfs/KEMSA%20e-
+%20Mobile%20User%20Guide.pdf
+- Kujua Analytics is an interoperable platform for better data visualization, which is 
+designed to help partners track operational progress and program impact and 
+managers to produce aggregate repots for easy analysis and decision making.
+- It automatically pulls complex data for stock monitoring (and logistics monitoring for 
+two non-supply-chain-related activities) from KujuaLite and creates visualizations 
+that include a myriad of charts, graphs and maps.
+- The platform can run on laptops, netbooks, tablets, smartphones, and uses new Stock monitoring (and logistics Apache’s CouchDB software, and Online (and paper Marc Abbyad,
+Quantification (Forecasting & Supply Planning)
+Kujua Analytics Medic Mobile (Developer) database technology. Multiple countries English Open Source monitoring for two non-supply-chain- runs locally on Windows, Mac OS information can be (not known) Product ManagerWarehousing & Inventory Management
+- Support is provided by Medic Mobile, and so far the only issue that required related activities) or Linux machines uploaded) marc@medicmobile.org
+additional support was related to the need to change the drugs in the program. 
+- The only issue arising with maintenance occurred when additional support was 
+needed when drugs needed to be changed in the system.
+- The website for Kujua Analytics is: http://medicmobile.org/tools/kujua-analytics/
+- Additional remarks about the tool can be found at: 
+http://medicmobile.org/2013/06/25/announcing-kujua/
+INVENTORY OF INFORMATION AND COMMUNICATION TECHNOLOGY (ICT) SOLUTIONS FOR SUPPLY CHAINS *
+Prepared for the United Nations Commission on Life-saving Commodities for Women and Children
+Recommendation 6 (supply and awareness), Outcome 1 (Good practices in supply chain management), Activity 3 (ICT solutions for supply chain)
+OVERALL PURPOSE
+________________________________________________ DEVELOPER/
+For which domain of the supply chain is this tool/product relevant? IMPLEMENTER/ LANGUAGE COMMODITIES TRACKED TECHNOLOGY
+Regulatory Policies & Procedures TOOL/PRODUCT   COUNTRY OF IMPLEMENTATION  OPEN SOURCE / PROPRIETARY ONLINE VS. OFFLINE LICENSE COST  CONTACT PERSON  
+VENDOR IMPLEMENTATION DESCRIPTION OF TOOL/PRODUCT                                                                                       _  _  _  _  _  _  _  _  _  _  _  __      __________________________           _ ___________________          
+Quantification - Forecasting & Supply Planning _________________    __________________________              __________________________             __________________      _  _ _____________ ________________       
+________________           _____________________________________________________                                                                              I n  w   h  a t  l a  n g uage is What types of commodities are What technology (software 
+Procurement What is the name of the Where has this tool/product been Is the tool/product open source or Is this an online or offline How much does the Who is the contact 
+What organization(s) is/are What does the tool/product do and how does it work? this tool/product tracked by the tool/product in the application, hardware, operating 
+Warehousing & Inventory Management tool/product? implemented? (i.e. which countries) proprietary? tool?  license cost (USD)? person?  
+responsible for the delivered? country mentioned? system) does it use?
+Distribution
+tool/product?
+Service Delivery & Utilization
+Supply Chain Monitoring
+- Kujua Lite is an open-source web application that allows managers to send and 
+receive messages or forms through SMS or Mukuvu SIM applications, which allows it 
+to have a variety of data input options from low-end feature phones to web forms on 
+smartphones or direct data entry within the application.
+- Aggregate reports can be produced for easy analysis and decision making.
+- Kujua Lite is currently being optimized for three priority use cases (disease 
+surveillance, stock monitoring and service monitoring), but can be applied to a wide 
+range of communication and data collection activities.
+- It is built on Apache's CouchDB software with no data storage limitations and runs 
+locally on Windows, MacOS or Linux machines, including laptops, netbooks, tablets Stock Monitoring (and logistics Apache’s CouchDB software, and Online (and paper Marc Abbyad,
+Quantification (Forecasting & Supply Planning)
+Kujua Lite Medic Mobile (Developer) or smartphones, and uses new database technology to provide scalability, flexibility, Multiple countries English Open source monitoring for two non-supply-chain- runs locally on Windows, Mac OS information can be (not known) Product ManagerWarehousing & Inventory Management
+and interoperability. related activities) or Linux machines uploaded) marc@medicmobile.org
+- It can effectively act as an information and communication hub for any health facility 
+and contains a number of different deployment options based on the connectivity of 
+the local context, ranging from a completely distributed, local installation (requiring 
+no Internet connection to receive the data from reporting units) to a fully hosted, web-
+based version that can be accessed anywhere in the world.
+- Support is provided by Medic Mobile. The website for Kujua Lite is: 
+http://medicmobile.org/tools/kujua-lite/
+- Additional remarks about the tool can be found at: 
+http://medicmobile.org/2013/06/25/announcing-kujua/
+- LAPTOP (SCM training) serves as an information clearinghouse on professional 
+development opportunities for health commodity managers in developing countries.
+- It includes courses that focus on the development of practical skills that have the 
+LAPTOP (SCM potential to result in more professional management of public sector supply chains Information, education and RHSC, People that Deliver 
+Regulatory Policies & Procedures and thus in improved product availability across the country. These materials include Multiple countries Multiple (not known) communication; behavior change and Online portal Online (not known) ssacher@jsi.com
+training) (Developers) classroom-based courses and workshops, self-directed distance learning programs communication
+and degree programs.
+- The website for LAPTOP (SCM training) is: http://www.rhsupplies.org/resources-
+tools/laptop.html
+- A hosted web service for supply chain management, Logistimo allows anyone with 
+a mobile device - agnostic to hardware profiles to network contexts - to optimally 
+participate in the supply channel.
+Multiple:
+- Other functionalities of the service include inventory tracking, order management, 
+Creole
+credit management, vehicle tracking, workforce behavior monitoring, workflow 
+English US$3 per month per 
+handling, demand forecasting, replenishment optimization, quality monitoring, Essential medicines, emergency drugs, 
+Quantification (Forecasting & Supply Planning) French facility or US$36 per 
+network expansion, routing and scheduling. surgical tools, diagnostics, vaccines, Java/Google App Engine, Amazon 
+Warehousing & Inventory Management Multiple countries: Hindi year per facility. (Can Arun Ramanujapuram
+Logistimo Logistimo (Developer/Vendor) - There is a 5-10 day deployment cycle which includes surveys and process Proprietary family planning and reproductive health web services/Heroku Postgres, OnlineDistribution Haiti, DR Congo, India, South Sudan Spanish be discounted at scale arun@logistimo.com
+modelling, data cleaning and conversion, configuration, user acceptance testing, commodities, cold chain equipment, and HTML5, Android, J2ME
+Service Delivery & Utilization (and can be and can also offer 
+documentation of SOPs and user manuals, training of trainers, and deployment. It laboratory samples
+customized for any pricing per transaction)
+can be cheaper than open-source options.
+language as 
+- 24/7 call and email support and continued monitoring of logistics are provided by 
+needed)
+Logistimo. Logistimo also handles all web hosting (CPU runtime, data storage, 
+transmission channels and SMS gateways).
+- The website for Logistimo is: http://logistimo.com
+- MACS WMS is software used at the central warehouse level for warehouse 
+management issues, such as inventory, ordering, issuing, receiving, putting away, Multiple countries:
+Online with offline 
+Warehousing & Inventory Management MACS WMS MACS Software (Developer) dispatch and finances. Cote D'Ivoire, Guyana, Mozambique, Uganda, English Proprietary Various commodities Windows (not known) (not known)capabilities
+- The software is interoperable with Sage and data storage is available in-country. Zambia
+- Support is provided by the MACS team through an online portal.
+- Easy-to-install and easy-to-use software, MIL gives necessary information to 
+manage stock and resupply and to get consumption data at final destination levels. 
+Implementation costs are determined from country to country.
+- MIL manages pharmaceutical products with the possibility to trace expiry date and 
+batch numbers.
+- It produces reports on stock level, consumption data and packing lists.
+- Missionpharma sends an email concerning each delivery to users who can then 
+download the data for each delivery into the database. This process updates the 
+Laboratory, Medicines, Reproductive 
+Quantification (Forecasting & Supply Planning) Missionpharma inventory. Multiple:
+Missionpharma health products, Supplements; Bo Birk
+Inventory Management Inventory Lite - The data sent by email includes the following information: (a) unique serial number (not known) English (not known) Software Online (not known)(Developer/Vendor) HIV/AIDS, Malaria, Reproductive health, bb@missionpharma.com
+Service Delivery & Utilization per cartons, (b) weight and volume of each carton, (c) list of products per carton, (d) French
+(M.I.L) TBquantity per product, (e) pharmaceutical form, (f) number of tablets / capsules / 
+ampoules per packing unit, (g) batch number of each product, (h) expiry date per 
+product batch, (i) special storage condition per product, (j) item code number.
+- Output data include: (a) stock control, (b) stock level, (c) re-supply date, (d) 
+reporting on consumption, (e) pick and pack sheets, (f) proof of delivery.
+- Minimum system requirements are: Windows XP, Pentium III 500Mhz, AMDAthlon 
+or equivalent. 128MB RAM.
+- One day of training on the software is required.
+- mSupply is a fully functional pharmaceutical supply chain management tool that 
+helps  manage supply chains from the tender process through warehouse 
+management to dispensing or distribution at even small aid posts and health 
+Multiple countries:
+centres. Approximately 
+East Timor, Ghana, Gambia, India, Kiribati, 
+Quantification (Forecasting & Supply Planning) - Deployment has several options: full server-client on a network, stand-alone on a English US$2350 per 
+Nauru, Nepal, Nigeria, Solomon Islands, 
+Procurement single computer, or cloud-based over the internet. mSupply also comes in a mobile French Contraceptives, lab supplies, malaria, Windows XP/Vista/7/8 or Mac OS. concurrent user (one-
+Sustainable Solutions South Sudan, Sudan, Tanzania, Tonga, 
+Warehousing & Inventory Management mSupply version for use on tablets or smartphones in small stores or aid posts. (Can be set up to Proprietary HIV/AIDS, and other pharmaceutical and Mobile version will run on iOS, Online and offline options off cost). Prices are info@msupply.org.nz(Developer/Implementer) Tuvalu, United States, Vanuatu, Zambia.
+Distribution - Sustainable Solutions provides all support and maintenance, and typically, use in almost any non-pharmaceutical commodities Android, Windows Phone available here: 
+A complete list can befound at:
+Service Delivery & Utilization customers vary in the level of support they need. Remote support is available by language) http://msupply.org.nz/pr
+http://docs.msupply.org.nz/about:who_uses_it
+telephone, Skype, email and remote access. Sustainable Solutions maintains icing/
+customers' installations using remote access software but can also arrange site 
+visits for both support and maintenance if required.
+- The website for mSupply is: http://msupply.org.nz/
+mTRAC - - mTRAC allows health workers to send government reports and other data related 
+to mapping facility stocks (such as for essential medicines) by SMS. (Currently, 
+Monitoring facilities spend US$2 per month to run mTRAC).
+Essential - It uses RapidSMS to deliver information transparently and offers accountability Regulatory Policies & Procedures UNICEF, FIND Diagnostics, 
+mechanisms for the drugs so that unnecessary stockouts can be avoided. One of the 
+Warehousing & Inventory Management Medicine Uganda Ministry of Health Uganda English Open Source ACT (anti-malarial drug) RapidSMS Offline with online capability Free (not known)accountability features is an anonymous hotline where individuals are able to report 
+Distribution (Implementers)
+Supply Using problems or detail their experiences.
+- The Ministry of Health receives real-time information on medicine stocks, and 
+Mobile Phones 
+district health offices are able to successfully lobby the National Medical Stores for 
+and RapidSMS resupply based on their ability to present reliable and timely data.
+- NSSD is a database system that aggregates SDP and central-level data for 
+reporting family planning, malaria, and essential medicine information to the Ministry 
+of Health headquarters.
+National Stock USAID | DELIVER PROJECT - The system is interoperable with references from a repository from Supply Chain 
+Family planning, malaria, essential 
+Inventory Management Status Database (JSI), Ministry of Health Manager. Malawi English Proprietary Windows / MS Access Offline Free askdeliver@jsi.commedicines
+(Implementers) - Support is provided by JSI's technical support team based in Washington, DC 
+(NSSD)
+through electronic communication and data storage is available in-country. 
+Maintenance is conducted monthly by the Ministry of Health and USAID | DELIVER 
+Project.
+- Openboxes is a supply chain management system for commodities in health 
+facilities where purchasing can be initiated, stock movement can be tracked, 
+discrepancies between international and domestic shipments can be recorded, 
+Multiple: Dependent on Eclipse IDE for 
+Quantification (Forecasting & Supply Planning) inventory in multiple locations can be tracked, cycle counts and inventory 
+English Java EE Developers, Java 1.6, 
+Warehousing & Inventory Management adjustments can be made, stock history can be viewed, clinicians can do requisition Multiple countries: Online with offline Openboxes
+Openboxes OpenMRS, Partners in Health French Open source (not known) Grails 1.3.7, MySQL 5.5+, Tomcat FreeDistribution stock from point-of-use locations, consumption and forecasting reports can be fun, Haiti, Rwanda capabilities info@openboxes.com
+Spanish 6 or 7 (optional for dev 
+Service Delivery & Utilization dashboards can be configured.
+and others environment)
+- Automatic database migration via Liquibase and multiple database synchronization 
+using SymmetricDS if Internet is unstable.
+- The website for Openboxes is: http://www.openboxes.com
+- OpenEMR offers patient and pharmacy management support for all commodities at 
+OpenEMR support:
+the district hospital and health center levels.
+http://open-
+- The system is not currently interoperable. Online with offline 
+Quantification (Forecasting & Supply Planning) OpenEMR - Rwanda Multiple Customizable Various commodities SQL Free emr.org/wiki/index.php/Op- Support is provided by the local office in Rwanda, and data storage is available in- capabilities
+enEMR_Professional_Sup
+country. Maintenance is conducted by locally trained staff.
+port
+- The OpenEMR website is: http://open-emr.org/
+- OpenLMIS is a highly scalable, web-enabled logistics management information 
+system that supports (1) requisition-based and informed-pull-based replenishment, 
+(2) multiple supply points or warehouses, (3) multiple programs with products 
+segmented by program or shared across programs, (4) the ability to organize health 
+centres into different groups which can operate on different reorder cyles with 
+different approval processes, and (5) the ability to have individual facilities function 
+both as a health service provider as well as a supply depot for other facilities. 
+OpenLMIS also provides access to: (1) accurate, timely, and routine consumption 
+data, including stockouts, (2) real-time logistics management capabilities covering 
+point of origin to point of consumption, and (3) data exports for demand forecasting, Reliable web server running askdeliver@jsi.com
+Multiple:
+capacity planning, and modeling based on consumption. the Java Enterprise Platform 
+Bengali
+- eLMIS captures information from all electronic systems like SMS for Life, ISL (such as Apache Tomcat) eLMIS:
+English
+OpenLMIS community, USAID Gateway (JSI), CTC Pharma Database, as well as electronic process approvals and A relational database such Pavel Mtanga 
+French
+OpenLMIS: | DELIVER PROJECT (JSI), "smart" requisitioning processes. OpenLMIS is built on the Java as Postgres or MySQL (NACP/Ministry of Health)Inventory Management Portuguese
+Tanzania MoHSW, - Implementations of OpenLMIS: "eLMIS" in Zambia occurred through a country-led Multiple countries: Enterprise Platform using the Clients need a computer paveldfm@gmail.com
+Distribution eLMIS and Spanish Open source Various commodities FreeVillageReach, PATH, collaborative requirements development process. In Tanzania, their "eLMIS" Mozambique, Tanzania, Zambia Spring framework and Angular JS. with a web browser. 
+Service Delivery & Utilization Swahili
+SELV ThoughtWorks Inc., Zambia implementation of OpenLMIS (which followed and reused experience from Zambia) Reports are built in Jasper. Supported browser are SELV:(Additional 
+MoH and MSL has proven to be an effective and sustainable electronic logistics management Firefox version 18 or higher, Sarah Jackson
+languages can be 
+information system. It ensures that adequate quality and quantities of health Internet Explorer version 10 (VillageReach)
+added via a 
+commodities (vaccines, medicines and diagnostic supplies) are always available at or higher, and Chrome sarah.jackson@villagereac
+configuration file)
+the point of service to meet patient demand. version 26 or higher h.org
+- OpenLMIS: SELV is a version of OpenLMIS configured to support an informed push 
+vaccination delivery system for four provinces in Mozamibque. SELV provides 
+delivery personnel with information on how much vaccine they need to pack for their 
+trip and how much to deliver to each facility, then supports collection of data from 
+each facility visit including initial stock levels, quantity delivered, cold chain 
+information, and immunization coverage data. SELV is integrated with Tableau for 
+extensive reporting. A tablet-based version of SELV, which can be used by delivery 
+drivers while in the field, has also been trialed and will be refined in a future version.
+- Developed and supported by a community-led, open standards, open-source 
+- ORION@MSH is a pharmaceutical management system that has multiple levels of 
+security and can hold information for site procurement, sales, tendering, inventory, 
+warehousing, and accounting (including client, stock, supplier, medicine / supply 
+information, etc.) at district, regional, or central hospitals or warehouse / CMS levels 
+that manage procurement, inventory and distribution.
+- A huge variety of reports can be generated from the system and exported as Excel 
+files across multiple users for multiple-site data aggregation.
+- The base software uses pharmaceutical management best practices, as well as 
+industry best practices and standards.
+Multiple countries: Laboratory, medicines, products, 
+Management Sciences for - Orion incorporates tested procedures for ensuring effective management of 
+Procurement Caribbean (St. Lucia, St. Kitts and Nevis, St. Multiple: supplements, consumables such as HIV ORACLE-based computer US$9,000 per site 
+Health (Developer), Supply pharmaceuticals and medical supplies, particularly in resource-limited settings.
+Warehousing & Inventory Management ORION@MSH Vincent and the Grenadines, Dominica and English Proprietary test kits and essential medicines for program Online (obtained through cpmsoftware@msh.orgChain Management System - The system is complex and involves both hardware and software. Training is 
+Distribution Grenada), Côte d'Ivoire, Ghana, Haiti, Nigeria, French HIV/AIDS, malaria, reproductive health, Windows MSH)
+(SCMS) Project required, lasts 10-12 weeks, and includes a pre-installation information gathering 
+Tanzania, Zambia tuberculosis
+trip, installation, and training on the system.
+- The software was piloted at the Pharmaceutical Procurement Service of the 
+Organisation of Eastern Caribbean States in 2004.
+- Minimum system requirements include: Windows 2000 Server OS, 1GB Pentium IV 
+Processor, 40GB hard drive, 1GB RAM, CD-ROM drive, Internet connection (high 
+speed preferred)
+- Support can be provided by the project management office in Washington, DC
+- The system can be accessed through the Management Sciences for Health 
+website
+- PASIGLIM is an automated LMIS at the central and district warehouse, regional and 
+district hospital, and health facility levels.
+- The system is interoperable with a quantification module for inventory management 
+and control.
+- Support is provided by the central office to district and regional levels by email, 
+Inventory Management Family planning, HIV/AIDS, essential 
+Ministry of Health, UNFPA telephone calls, and visits. The USAID | DELIVER PROJECT also helped improve 
+Procurement (Order Management) PASIGLIM Nicaragua Spanish Proprietary medicines, malaria, tuberculosis and Windows / MS Access Online Free (not known)and European Community communication by providing mobile Internet USBs, which were used to submit 
+Quantification - Forecasting & Supply Planning HIV test kits
+information and improve communications when there were problems with the 
+software.
+- Maintenance is conducted on a monthly basis by commodity managers at each 
+level (hospital, district, and regional or SILAIS).
+- Data storage is available in-country.
+- PipeLine is a desktop software tool that helps program managers plan optimal 
+procurement and delivery schedules for any type of health commodity, and monitors 
+orders throughout the supply chain with databases created specific to each country 
+context.
+- PipeLine is able to generate reports (extremely useful for resource mobilization or 
+presentation of information to stakeholders), estimate future product needs, and 
+perform as a program planner for policymakers, product supplies and donors.
+- Software also enables preparation of logistics-based forecasts, shipment planning, 
+calculation of procurement quantities and estimation of the value of shipments (but 
+PipeLine does not include information on expiration dates or batch numbers for any product).
+- In Honduras, PipeLine plans optimal procurement and delivery schedules for health Multiple:
+(PipeLine 5.1, commodities and monitors orders throughout the supply chain and is monitored at PipeLine 5.1
+Multiple countries: Laboratory, malaria, medicines, family 
+Quantification (Forecasting & Supply Planning) most recent the central level through the National AIDS Program & National Family Planning EnglishCôte d'Ivoire, Ethiopia, Guyana, Haiti, planning and reproductive health 
+Procurement USAID | DELIVER PROJECT Program. Support is provided by the SCMS Project and data storage is available in- French
+version; Honduras, Liberia, Madagascar, Malawi, Proprietary products, supplements, HIV/AIDS, Windows / MS Access Offline Free askdeliver@jsi.comInventory Management (JSI) country at the National AIDS Program and National Family Planning Program office. Portuguese
+Nepal, Nigeria, Rwanda, Uganda, Zimbabwe, fluconazole, PMTCT, diagnostics, 
+Distribution PipeLine 5.0, -In Madagascar, PipeLine stores logistics data (consumption, stock, stockout Spanish
+Tanzania, Zambia condoms, contraceptives, tuberculosis
+2010 version; periods, etc.) and offers procurement planning options. Support is provided by the PipeLine 4.0
+USAID | DELIVER PROJECT field office and data storage is available in-country at Arabic
+PipeLine 4.0) the Ministry of Health's Family Planning Department and at PSI's Madagascar 
+headquarters.
+- PipeLine also supports procurement and order management of all commodities in 
+Rwanda; procurement planning and pipeline monitoring in Uganda and Zimbabwe; 
+and tracks procured shipments and delivery schedules of commodities, forecasting, 
+and quantification from central warehouses in Nepal.
+- Version 5.0 (updated from 4.0) offers new fields in the software and users are able 
+to describe and display details of shipments and consumption of health commodities 
+for any type of product in generated reports.
+- Version 5.1 is provided in three additional languages, resolves issues experienced 
+Kabir Ahmed 
+Quantification (Forecasting & Supply Planning) Quantification - Quantification Techniques assists countries in strengthening their forecasting and kahmed@unfpa.orgPrioritized essential life-saving maternal Microsoft Word
+Inventory Management UNFPA quantification capacities and distribution to increase access to prioritized essential (Currently being finalized) English (not known) (not known) (not known)
+health commodities Microsoft Excel
+Distribution techniques life-saving maternal health commodities. Sukanta Sarker 
+sarker@unfpa.org
+- Quantimed provides forecasting and cost estimations by facilitating calculation of 
+pharmaceutical needs (e.g. Volume of medicine and medical supply items and 
+costs) for general health services or specific health programs at central, regional, 
+and district levels.
+- Users may employ one or more quantification methods - past consumption, 
+morbidity (including scaling up patterns), and proxy consumption - in response to 
+expertise and available data. The tool is designed to improve the accuracy of order 
+planning and budgeting by providing a systematic approach to organizing and 
+analyzing data.
+- Quantimed facilitates the calculation of commodity needs using either a single 
+method or a combination of any of the three primary quantification methods: past 
+consumption, morbidity patterns, and proxy consumption. 
+Multple countries:
+- The program also includes an option for scaling up morbidity-based estimates, CPM Software
+Management Sciences for Angola, Botswana, Burma, Cameroon, Côte Essential medicines, HIV/AIDS, malaria, 
+which is useful for growing programs. Depending on the availability of data, cpmsoftware@msh.org
+Health (Developer); Ministries d'Ivoire, DR Congo, Ethiopia, Guyana, Haiti, English reproductive health, tuberculosis, 
+Quantimed can be applied at a single health facility, a national disease-specific 
+Quantification (Forecasting & Supply Planning) Quantimed of Health, several NGOs and Kenya, Lesotho, Malawi, Mozambique, (French in Open access opportunistic infection medicines, STI Microsoft Windows, MS Access Offline Freeprogram, or a group of geographic or administrative areas. Alternate contact:
+US government Nigeria, Rwanda, South Africa, Swaziland, progress) treatment, Expanded Programs for 
+- Its practical utilities are evident in the areas of order planning, training, and supply Kyle Duarte
+(Implementers) Tanzania, Uganda, Vietnam, Zambia, Immunizations
+management, and the program allows the measurement of economic consequences kduarte@msh.org
+Zimbabwe.
+of purchase and medicine-use patterns. For the policy maker, Quantimed shows the 
+budgetary consequences of both individual medication purchases and those by 
+therapeutic class. Quantimed can also directly relate medicines to priority health 
+problems and disease patterns through the analysis of standard and usual 
+treatments.
+- Approximately four days of training are needed for the Quantimed tool, general 
+quantification issues, as well as quantification issues specifically related to HIV/AIDS 
+treatment, MNCH, or other specific areas if applicable. 
+- A national quantification exercise requires approximately 10 working days of time 
+by a consultant and a local counterpart who possess the required skills: competency 
+in data entry, a clinical background (or access to clinical advice), and an 
+understanding of both procurement and quantification practices.
+INVENTORY OF INFORMATION AND COMMUNICATION TECHNOLOGY (ICT) SOLUTIONS FOR SUPPLY CHAINS *
+Prepared for the United Nations Commission on Life-saving Commodities for Women and Children
+Recommendation 6 (supply and awareness), Outcome 1 (Good practices in supply chain management), Activity 3 (ICT solutions for supply chain)
+OVERALL PURPOSE
+________________________________________________ DEVELOPER/
+For which domain of the supply chain is this tool/product relevant? IMPLEMENTER/ LANGUAGE COMMODITIES TRACKED TECHNOLOGY
+Regulatory Policies & Procedures TOOL/PRODUCT   COUNTRY OF IMPLEMENTATION  OPEN SOURCE / PROPRIETARY ONLINE VS. OFFLINE LICENSE COST  CONTACT PERSON  
+VENDOR IMPLEMENTATION DESCRIPTION OF TOOL/PRODUCT                                                                                       _  _  _  _  _  _  _  _  _  _  _  __      __________________________           _ ___________________          
+Quantification - Forecasting & Supply Planning _________________    __________________________              __________________________             __________________      _  _ _____________ ________________       
+________________           _____________________________________________________                                                                              I n  w   h  a t  l a  n g uage is What types of commodities are What technology (software 
+Procurement What is the name of the Where has this tool/product been Is the tool/product open source or Is this an online or offline How much does the Who is the contact 
+What organization(s) is/are What does the tool/product do and how does it work? this tool/product tracked by the tool/product in the application, hardware, operating 
+Warehousing & Inventory Management tool/product? implemented? (i.e. which countries) proprietary? tool?  license cost (USD)? person?  
+responsible for the delivered? country mentioned? system) does it use?
+Distribution
+tool/product?
+Service Delivery & Utilization
+Supply Chain Monitoring
+Technical questions, 
+reporting issues with the 
+- RH Interchange is a free, web-based tool that coordinates orders and shipment of 
+data:
+contraceptives through the Internet. Female condoms, implants, emergency 
+Quantification (Forecasting & Supply Planning) RHSC, managed by UNFPA rhi-admin@unfpa.org 
+RH Interchange - Information available on the website is up-to-date and represents data from Multiple countries English Open access contraceptives, reproductive health Online portal Online FreeProcurement as part of AccessRH
+shipments worth over US$1 billion across 140+ countries. products
+Requests for support with 
+- The website for RH Interchange is: http://rhi.rhsupplies.org.
+RHI reports: 
+rhi-supply@unfpa.org
+- Sage is software that manages inventory and can interface with MACS Warehouse 
+Management Software. Support is provided by the SAGE Group team, and data 
+storage is in-country (Cote D'Ivoire, Liberia, Uganda).
+Sage, Sage - Sage BusinessVision manages stock status and controls sales figures for 
+Essential medicines, HIV/AIDS, malaria, 
+Quantification (Forecasting & Supply Planning) BusinessVision, commodities managed by PSI at the central level (PSI Madagascar headquarters). Multiple Countries: tuberculosis, drugs and medical Online with offline sage@pinnacle-
+Procurement (Order Management) Sage Group Data storage is available in-country at PSI headquarters (Malawi). Cote D'Ivoire, Liberia, Malawi, Nigeria, Multiple Proprietary Windows with a SQL server (not known)
+Sage L500, consumables, and in some countries all capabilities online.comWarehousing & Inventory Management - Sage L500 is a software that facilitates medical supplies and distribution at the Rwanda, Uganda, Madagascar
+commodities
+Sage Pastel central level with financial systems integrated. Support is provided by New Age 
+based in Mauritius and data storage is in-country (Rwanda).
+- Sage Pastel is used for billing, inventory and accounts payable. Support is provided 
+by a consultant, and data storage is in-country (Nigeria).
+SICIAP 
+- SICIAP updates hospital interventions in real-time, records consumption data from 
+Inventory Management (Automated Centro de Información y SDPs, automatically calculates resupply quantities and reports over-supply 
+Procurement (Order Management)
+Control and Recursos para el Desarrollo quantities for redistribution. Paraguay Spanish Proprietary Family planning, HIV/AIDS Software Online (not known) (not known)Quantification (Forecasting & Supply Planning)
+(CIRD)* - The system interfaces with SICIAP-MEP.
+Dispensing Information - Support is provided by UMBRAL, and data storage is in-country.
+System)
+- SICIAP-MEP is a forecasting module for SICIAP that uses the consumption data to 
+Centro de Información y extrapolate for underreporting and stockouts. It calculates funds needed and 
+Quantification (Forecasting & Supply Planning)
+SICIAP-MEP Recursos para el Desarrollo recommends rationing based on ABC and VEN analyses to maximize funds. Paraguay Spanish Proprietary Family planning, HIV/AIDS Software Online (not known) (not known)
+(CIRD)* - The system interfaces with SICIAP.
+- Support is provided by UMBRAL, and data storage is in-country
+- SIGMED is an integrated drug supply chain management system that offers 
+transparency for medical stores and warehouses, and has resulted in improvements 
+in higher client satisfaction for health care services.
+- Data exchange between central and regional stores once a day through FTP, 
+email.
+- SIGMED can be linked with financial packages like ACCPAC and FoCaMed (ARV 
+forecasting tool).
+- Distribution and sales is based on FEFO (first expired/first out) principle that batch 
+management and expiry data management are key features of stock management
+- Inputs include (a) commodity-related inputs, such as medicines (essential drug 
+list), medical supplies, laboratory reagents, dental products (b) suppliers, (c) 
+Quantification (Forecasting & Supply Planning) Laboratory, medicines, reproductive 
+customers, (d) transaction-related information, such as tenders, purchase orders, Multiple countries:
+Distribution SIGMED medICT English Proprietary health products, supplements, SQL-based database software (not known) €5,000 per site info@medict.nlreceipts, sales, etc. Outputs include: (a) transaction reports, (b) stock positions at Mali, Malawi
+Warehousing & Inventory Management HIV/AIDS, malaria, tuberculosis
+central or regional level) and (c) management information reports.
+- Implementation costs are approximately €30,000 - 50,000. After one year, annual 
+maintenance costs are usually 20% of license costs.
+- Minimum system requirements include: A Windows 2000 Server OS, SQL server, 
+1GB Pentium IV processor, 40GB hard drive, 1GB RAM, CD-ROM drive, network 
+connection, visual basic front end; Crystal Reports Report generator.
+- Implementation time lasts 9-14 weeks, which involves (a) defining customization 
+requirements (1 week), (b) customization (4-8 weeks), (c) installation of SIGMED 
+(server, clients), (d) migration of historical data (1 week), (e) testing and training of 
+key users (1 week), and (f) training of end users (2-3 weeks). Interface with 
+financial/accounting system is an option (3-4 weeks).
+- SMS for Life uses mobile phones, SMS messages, and an electronic mapping 
+Tanzania Ministry of Health 
+technology that allows all health facilities to provide weekly comprehensive stock 
+and Social Welfare, Novartis, 
+counts to each district management team. Data captured from the messages was 
+Medicines for Malaria Jim Barrington
+Warehousing & Inventory Management available through a secure website requiring login information, which could be Offline tool with online 
+Venture, Swiss Agency for Tanzania English Open source Malaria treatment Mobile phones (not known) SMS for Life Program 
+Service Delivery & Utilization SMS for Life accessed through the Internet. components (dashboard)
+Development, Vodacom, PSI Director
+- The SMS for Life Tanzania Pilot Project Report can be found at: 
+Tanzania, Vodafone, IBM, 
+http://www.rbm.who.int/docs/SMSsummaryReport.pdf
+RBM Parnership Secretariat
+- Supply Chain Manager monitors comprehensive logistics and operations data to 
+provides information from central, district, regional, and facility levels for decision 
+making at the country level. This is not a system for warehouse management and 
+does not capture information on expiry dates, but can be linked to inventory control 
+software for significant enhancements.
+- Inputs include facility reports with information on initial stock levels, receipts, issues 
+and adjustments for all products during each reporting period.
+- Outputs include data on national stock status, consumption trends, current stock 
+volumes and stock volume necessary for upcoming resupply period.
+Quantification (Forecasting & Supply Planning) - Processes requisition and orders and tracks levels of commodities at SDPs
+Procurement - The system interfaces with MACS WMS through .csv files, and data storage is in- Laboratory, medicines, reproductive 
+Warehousing & Inventory Management Supply Chain Multiple countries:USAID | DELIVER PROJECT country at the Logistics Management Unit. health products, supplements, Windows / MS Access
+Liberia, Madagascar, Malawi, Rwanda, English Proprietary Offline Free askdeliver@jsi.com
+Distribution Manager (JSI) - The system can only be used when each facility receives products from one HIV/AIDS, essential medicines, malaria, SQL serverUganda, Zambia
+Service Delivery & Utilization supplying facility. All facilities must report completely and on the same schedule. tuberculosis
+- Minimum requirements include: Pentium II class or higher, CPU PC with Microsoft 
+Windows 95/98/-NT/2000 100 MB of hard disk space, 32 MB RAM Super VGA 
+monitor (600 x 800) and PPM laser printer.
+- First line of support is provided by the Medical Stores Limited (MSL) IT helpdesk or 
+data officers. Software-related issues and bugs are escalated to JSI Zambia and 
+Washington, DC developers, and hardware issues are handled by MSL IT staff. 
+- Five days are required for training on country-adapted software. Approximately 20 
+days would be needed to facilitate software implementation. Technical assistance 
+can be very costly during customization and roll out.
+- Maintenance is conducted by a database administrator at least once a month.
+- Top Up captures SDP logistics data and provides informational reports on logistics 
+Westchase Consultants to partners. Condoms, contraceptives, PMTCT, HIV 
+Order Management Top Up (Developer) for the USAID | - Top Up is used to generate data for forecasting and can interface with AutoDRV. Zimbabwe English Proprietary rapid test kits, malaria, TB, essential Windows Server 2008 Offline Free askdeliver@jsi.com
+DELIVER PROJECT (JSI) - Support is provided by Westchase Consultants, and data storage is in-country. medicines
+Maintenance is conducted by Westchase Consultants only when there's a problem.
+- Warehouse Management System provides inventory control for contraceptives at 
+Procurement Warehouse 
+Costa Oriental Logistics & the central warehouse level. Windows/Visual Basic, MS SQL paraguay@costaoriental.c
+Warehousing & Inventory Management Management Paraguay (not known) Proprietary Contraceptives Online (not known)Distribution - Support is provided by USAID | DELIVER PROJECT, and data storage is in-country Server and Crystal Reports om
+Distribution
+System - Maintenance is conducted by in-house experts.
+* Other ICT tools/products were identified but did not have enough information for inclusion into the inventory:
+ChileCompra (Government of Chile, Chile); Customer Resource Manager (CRM) (Supply Chain Management System Project, Côte d'Ivoire, Haiti, Nigeria, Zambia); Descartes Data Integrity Services (Descartes); DHIS 1.4 (Health Information Systems Programme, Zambia); Electronic Dispensing Tool (MSH, Haiti); End-Use Verification (JSI); Epicor 9 (Tanzania); Facility Register System (InSTEDD, Rwanda, Tanzania); InfoMaker (Sybase, Inc., South Africa); Inventory 
+Management Software (Yellow Digital PVT, Ltd, Nepal); LAMIS (Axios Group, Nigeria); LHPMIP LMIS (SCMS Project, Nigeria); LMIS (local vendors, Nepal, Pakistan); LMIS Manager (Tawanda Chifamba, local consultant, Burkina Faso); MEDSAS (local vendor, South Africa);  Napier (Napier Healthcare, Rwanda) ; Nootro Depot (South Africa); PDSX (Vuna Healthcare Logistics, South Sudan); ProQ (USAID | DELIVER PROJECT, Zambia); RxSolution (MSH); SALMI (Sistema de 
+Administracion Logistica para Medicamentos o Insumos, Bolivia); SANTIA (Santia); SmartCare (CDC, Zambia); SMS for Life (Ghana, Kenya); SNUS - Sistema Nacional Unico de Suministros or National Unified Commodity System (Botswana); SQL server-based software (Social Marketing Company with help of a local vendor, Bolivia); Supply Chain Information Portal (SCIP) (Bangladesh Government Ministry of Health and Family Welfare, Bangladesh); and Web-based LMIS 
+(local vendor, Nicaragua).

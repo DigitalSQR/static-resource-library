@@ -1,0 +1,1911 @@
+Unique Health Identifier Assessment Tool Kit
+Unique health identifiers help improve quality and continuum of care, strengthen surveillance of 
+communicable diseases, eradicate diseases, and optimize provider and payer transactions in health financing 
+schemes. They are important enablers for achieving Universal Health Coverage. Through this tool kit,  
+governments and experts will learn how to assess the existing legal, policy, and institutional framework; 
+information and communication technology infrastructure;  and current use of identifiers relevant for the 
+health sector, to inform policy decisions on advancing unique identification in the health sector.
+About the Asian Development Bank
+ADB’s vision is an Asia and Pacific region free of poverty. Its mission is to help its developing member 
+countries reduce poverty and improve the quality of life of their people. Despite the region’s many successes, 
+it remains home to a large share of the world’s poor. ADB is committed to reducing poverty through inclusive 
+economic growth, environmentally sustainable growth, and regional integration.
+Based in Manila, ADB is owned by 67 members, including 48 from the region. Its main instruments for 
+helping its developing member countries are policy dialogue, loans, equity investments, guarantees, grants, 
+and technical assistance.
+UNIQUE HEALTH 
+IDENTIFIER ASSESSMENT 
+TOOL KIT
+MAY 2018
+ASIAN DEVELOPMENT BANK
+6 ADB Avenue, Mandaluyong City
+1550 Metro Manila, Philippines ASIAN DEVELOPMENT BANK
+www.adb.org
+UNIQUE HEALTH 
+IDENTIFIER ASSESSMENT 
+TOOL KIT
+MAY 2018
+ASIAN DEVELOPMENT BANK i
+ Creative Commons Attribution 3.0 IGO license (CC BY 3.0 IGO)
+© 2018 Asian Development Bank
+6 ADB Avenue, Mandaluyong City, 1550 Metro Manila, Philippines
+Tel +63 2 632 4444; Fax +63 2 636 2444
+www.adb.org
+Some rights reserved. Published in 2018. 
+ISBN 978-92-9261-164-4 (print), 978-92-9261-165-1 (electronic)
+Publication Stock No. TIM168320-2
+DOI: http://dx.doi.org/10.22617/TIM168320-2
+The views expressed in this publication are those of the authors and do not necessarily reflect the views and policies 
+of the Asian Development Bank (ADB) or its Board of Governors or the governments they represent. 
+ADB does not guarantee the accuracy of the data included in this publication and accepts no responsibility for any 
+consequence of their use. The mention of specific companies or products of manufacturers does not imply that they 
+are endorsed or recommended by ADB in preference to others of a similar nature that are not mentioned.
+By making any designation of or reference to a particular territory or geographic area, or by using the term “country” 
+in this document, ADB does not intend to make any judgments as to the legal or other status of any territory or area.
+This work is available under the Creative Commons Attribution 3.0 IGO license (CC BY 3.0 IGO)  
+https://creativecommons.org/licenses/by/3.0/igo/. By using the content of this publication, you agree to be bound 
+by the terms of this license. For attribution, translations, adaptations, and permissions, please read the provisions 
+and terms of use at https://www.adb.org/terms-use#openaccess.
+This CC license does not apply to non-ADB copyright materials in this publication. If the material is attributed 
+to another source, please contact the copyright owner or publisher of that source for permission to reproduce it.  
+ADB cannot be held liable for any claims that arise as a result of your use of the material.
+Please contact pubsmarketing@adb.org if you have questions or comments with respect to content, or if you wish 
+to obtain copyright permission for your intended use that does not fall within these terms, or for permission to use 
+the ADB logo.
+Notes: 
+In this publication, “$” refers to United States dollars. 
+Corrigenda to ADB publications may be found at http://www.adb.org/publications/corrigenda.
+Printed on recycled paper
+CONTENTS
+ACKNOWLEDGMENTS iv
+ABBREVIATIONS v
+INTRODuCTION 1
+MODuLE 1: LEGAL, INSTITuTIONAL, AND pOLITICAL fRAMEWORK 14
+Module 1.1. Legal and Policy Framework 15
+Module 1.2. Stakeholder Mapping 19
+Module 1.2.1. Institutional Capacity Assessment 22
+Module 1.A. Donor Support Mapping - Optional 25
+MODuLE 2: ICT INfRASTRuCTuRE 27
+Module 2.1. General ICT Usage for Identification 28
+MODuLE 3: HEALTH SECTOR AND HEALTH-RELATED REGISTRIES  
+AND IDENTIfIERS 30
+Module 3.1. Overview of Health Sector Registries and Identifiers 31
+Module 3.1.1. Patient Registries in Health Facilities and Health Programs 33
+Module 3.1.2. Membership Databases and Identifiers for Health Insurance  
+and Other Social Protection Schemes 38
+Module 3.1.3. Immunization Registries 43
+Module 3.2. Overview of Health-Related Registries 47
+Module 3.A. Quick Review of Existing Identifiers  
+(Identification Numbers) throughout the Country - Optional 57
+REfERENCES 58
+iii
+ACKNOWLEDGMENTS
+The development of the Unique Health Identifier Assessment Tool Kit was led by the consultant 
+Michael Stahl and Asian Development Bank staff Kirthi Ramesh and Susann Roth. The document 
+was developed in close consultation with Lori Thorell (UNICEF) who provided support and input 
+to developing this tool kit. The team is also grateful to Mia Harbitz for the valuable comments she 
+provided. We thank all contributors for making this document practical and useful.
+iv
+ABBREVIATIONS
+CRVS - civil registration and vital statistics
+HIV - human immunodeficiency virus
+ICT - information and communication technology
+SDG - Sustainable Development Goal
+WHO - World Health Organization 
+v
+
+INTRODuCTION
+DO YOu
+WANT TO
+uNDERSTAND
+how identifiers relevant for the 
+health sector are currently being 
+used in your country?
+THIS Using a modular series of easy-to-use questionnaires, this tool kit can help you:
+TOOL KIT •	 get an overview of the current use of identifiers important for the health sector, 
+IS fOR •	 find opportunities to link existing patient identifiers, •	 understand the existing legal framework and institutional setting for identification, and
+•	 map the current stakeholders using identifiers relevant 
+YOu. for health.
+1
+Unique Health Identifier Assessment Tool Kit
+WHY
+uNIQuE HEALTH 
+IDENTIfIERS MATTER
+Unique health identifiers are important for improving 
+quality and continuum of care, strengthening surveillance of 
+communicable diseases, eradicating diseases, and optimizing 
+provider and payer transactions in health financing schemes.
+When they can be uniquely identified, wherever and 
+whenever they interact with different health service providers, 
+patients have a better chance to experience continuity of 
+care. Unique patient identification helps the health system 
+to deliver better care, because the patients’ unique health 
+identifier can help attribute medical records across different 
+providers to an individual subject of care. For health insurers, 
+unique health identifiers can facilitate smoother payment 
+systems, leading to faster claims reimbursements. 
+A unique identifier—usually a numeric or alphanumeric 
+sequence ideally linked with biometric information—is 
+necessary because other personal attributes to identify an 
+individual such as name, date of birth, and gender can lead 
+to duplications. Furthermore, these are often captured in 
+different ways by different health care providers. Unique 
+health identifiers, captured, for example, in a health client 
+registry, are an important component of the overall enterprise 
+architecture and can support strengthening information 
+exchange.1
+1  A health client registry is the central repository to which every player in 
+the health sector should be able to connect. It stores a unique personal 
+health identifier for every person who receives a health care service in a 
+country. It contains patient demographics, e.g., name, date of birth, gender, 
+and address. A health client registry can include individuals who are not 
+eligible for inclusion in a citizen ID registry such as landed immigrants and 
+refugees.
+2
+Introduction
+Proper health identity management also supports broader 
+aims: once every service user can be properly identified, it 
+becomes easier to achieve universal health coverage and 
+measure progress toward the targets of the Sustainable 
+Development Goal for health (SDG 3). 
+Malaria elimination is a prime example of the crucial role that 
+unique health identifiers play in health care. To eliminate 
+malaria, every malaria case must be rapidly diagnosed, treated, 
+tracked, and investigated. This requires integrated registration 
+systems and unique identifiers as well as interconnectivity 
+and back-office capacity to handle  secure and trustworthy 
+identification systems that protect privacy and prevent 
+unauthorized access to health information. 
+A more detailed discussion of the arguments for unique 
+identifiers can be found in the Asian Development Bank 
+policy brief: On The Road To Universal Health Coverage: Every 
+Person Matters: Unique Identifiers for Every Citizen Are Key to an 
+Effective and Equitable Health System.2
+2 ADB. 2016. On The Road to Universal Health Coverage: Every Person 
+Matters. ADB Briefs No. 56. Manila. https://www.adb.org/sites/default/files/
+publication/183512/uhc-every-person-matters.pdf.
+3
+Unique Health Identifier Assessment Tool Kit
+The Asian Development Bank 
+unique Health Identifier 
+Assessment Tool Kit
+The Asian Development Bank (ADB) conducted a With a clear picture of the current landscape, it 
+mapping of patient identification methods used in becomes possible to move toward linking and 
+Cambodia, the Lao People’s Democratic Republic, harmonizing fragmented identifiers and patient 
+and Myanmar. It revealed the complexity and records through a unique health identifier. By doing 
+fragmentation of identifiers used in the health so, both delivery and administration of health care 
+sector. Health care organizations, integrated delivery can be streamlined, quality of care improved, and 
+systems, insurance companies, public programs, administrative costs reduced. 
+clinics, hospitals, physicians, and pharmacies often The tool kit complements other identity 
+use their own patient identifiers, while the delivery management tool kits as it specifically focuses on 
+and administration of health care frequently crosses the health sector. The Digital Identity Toolkit: A 
+organizational boundaries. Guide for Stakeholders in Africa focuses mainly on 
+foundational identity systems and is not specific to 
+It became clear that a tool kit for health any sector.3 Recently, the World Bank has published 
+policymakers and implementers would be of value guidelines for ID4D (Identity for Development) 
+to better understand the situation before technical diagnostics to evaluate a current and/or planned 
+solutions could be designed and a road map identity ecosystem.4 The Inter-Agency Social 
+developed to introduce unique health identifiers Protection Assessments Partnership has further 
+with the objective of improving service delivery. developed a tool that allows assessing identification 
+In particular, managers of programs tackling single systems for social protection.5 Furthermore, the 
+diseases, such as malaria, tuberculosis, and HIV, World Health Organization (WHO) has developed 
+expressed an urgent need to shift from aggregated a rapid assessment of national civil registration and 
+patient data to individual patient records, which vital statistics systems.6
+enable disease tracking in vulnerable populations, 
+who often have no national ID.
+3 World Bank Group. 2014. Digital Identity Toolkit : A Guide for Stakeholders in Africa. Washington, D.C.: World Bank. 
+4 World Bank. 2018. Guidelines for ID4D Diagnostics. Washington, D.C.: World Bank. 
+5 Inter Agency Social Assessments Partnership. 2016. Identification Systems for Social Protection. Washington, D.C.: World Bank.
+6 WHO. 2010. Rapid assessment of national civil registration and vital statistics systems. Geneva: WHO. 
+4
+Introduction
+figure 1: paving the Way Toward a unique Health Identifier
+Complexity and fragmentation of identifiers
+TOOL KIT
+Policymakers and implementers 
+better understand the situation 
+Move toward linking and harmonizing identifiers and 
+patient records through a unique health identifier
+Source: Authors.
+5
+Unique Health Identifier Assessment Tool Kit
+HOW THE TOOL KIT WORKS
+The tool kit is a compilation of questionnaires that can be selected according to a country’s requirements. 
+The questionnaires are not exhaustive but provide comprehensive guidance. The tool kit has a number of 
+unique features.
+1) THE TOOL KIT fOLLOWS A DRAWER AppROACH
+The questionnaires in this mapping tool are divided 3. available health and health sector-related 
+into three broad sections (Figure 2): registration and identification systems. 
+1. legal, institutional, and political framework Within each of these three sections are several 
+for identification, especially data privacy and questionnaires that can be applied in a flexible manner 
+confidentiality; depending on the interviewer’s interests and focus, and 
+2. information and communication technology  the expertise of the respondent to be interviewed. Each 
+(ICT) infrastructure to support health and health of these questionnaires can be applied individually or 
+sector-related registration and identification in combination. It is recommended to apply the main 
+systems;7 questionnaires at a minimum (Figure 3).
+figure 2: Drawer Approach
+Health sector and 
+health-related registries 
+and identifiers
+3.A
+ICT infrastructure 3.2
+3.1.
+3
+.1.23
+3.1.
+1
+.1 .1
+Legal, institutional, and 2 3
+political framework
+1.A
+.2.11
+1.2
+1.1
+ICT = information and communication technology.
+ICT = information and communication technology.
+Source: Authors.
+7 Registries here refer to those that capture information about an individual and particular individuals seeking or potentially seeking 
+health care services. Other registries in the health sector such as facility registries and health worker registries are not covered here.
+6
+Introduction
+figure 3: Structure of the Tool Kit
+Legal, Institutional, ICT Health Sector and 
+and Political Infrastructure Health-Related Registries 
+Framework and Identifiers
+1.1 2.1. 3.1 3.2. 
+Legal and Policy General ICT Overview of Health Overview of Health 
+Framework Usage for Sector Registries and Sector-Related 
+Identification Identifiers Registries and Identifiers
+1.2 3.1.1. 
+Stakeholder Patient Registries in 
+Mapping Health Facilities and 
+Health Programs
+1.2.1 3.1.2. 
+Institutional Membership 
+Capacity Databases and 
+Assessment Identifiers 
+1.A. 3.1.3. 3.A. 
+Donor Support Immunization Quick Review of 
+Mapping Registries Existing Identifiers 
+- Optional - Optional
+ICT = information and communication technology.
+Main For Detail on a For Detail on Particular 
+Questionnaires Particular Institution Registry and/or Identifier Optional
+The blue folders are the The dark green folder is a The light green folders are The orange folders are 
+main questionnaires questionnaire that allows questionnaires that allow optional questionnaires. 
+recommended as a assessing the institutional assessing a particular registry They can help map relevant 
+minimum to assess the capacity of a particular and identifier in more detail. donor support and perform a 
+situation in a country when institution. It can be duplicated This approach accounts for the quick scan of available 
+considering introducing a as often as necessary to be multiplicity of registries and identification numbers within 
+unique health identifier. applied to the dierent identifiers that typically exist and beyond the health 
+institutions identified in the within the health sector: These sector. 
+stakeholder mapping. questionnaires can be 
+duplicated as often as necessary 
+to be applied to the dierent 
+registries and/or identifiers.
+Source: Authors.
+The tool kit can help users understand
+•	 the existing legal framework for identification,
+•	 stakeholders using different health and health sector-related registries and identifiers,
+•	 digital technology usage for identification and registration,
+•	 the multitude of existing health and health sector-related registries and identifiers, and
+•	 whether centralized databases exist and whether patients are covered nationwide.
+7
+Unique Health Identifier Assessment Tool Kit
+2) THE TOOL KIT COVERS HEALTH SECTOR  
+AND HEALTH SECTOR-RELATED REGISTRIES  
+AND IDENTIfIERS 
+Within the health sector, different providers The tool kit considers both identification and 
+and health system implementers may be using a registration systems within and beyond the health sector, 
+variety of registries and record systems containing to understand the entire landscape of currently available 
+identifiers that are not necessarily unique. These registries and identifiers that could potentially be used 
+may include patient identifiers at particular for health purposes or linked with a planned unique 
+facilities or network of facilities; identifiers for health identifier.
+a particular disease program or membership 
+identification numbers of health insurance Where applicable the questionnaires are therefore 
+schemes. Membership identification of other social divided into three broad sections:
+protection schemes are also included here.
+•	 health-specific
+At the same time there are several registration and •	 health-related
+identification systems outside the health sector •	 crosscutting
+that contribute to establishing a person’s identity 
+such as birth registries and national identification 
+systems. These may also directly or indirectly 
+support citizens to receive health care services. 
+h Health-specific Health sector registries and identifiers include:
+•	 patient registries and identifiers (e.g., of particular health 
+program; at a health facility or cluster of facilities; or for single 
+disease programs, e.g., HIV, malaria, or tuberculosis) 
+•	 membership identification numbers for health insurance 
+schemes and other social protection schemes
+hr Health-related Health sector-related registries and identifiers include:•	 national ID numbers
+•	 civil registration and vital statistics (CRVS) system
+c Crosscutting Crosscutting issues•	 understanding the extent of cross-matching between identifiers
+•	 covers topics that concern health sector and health sector-
+related registries and identifiers
+8
+Introduction
+3) THE TOOL KIT IS fOR VARIOuS uSERS  
+AND INTERVIEW pARTNERS
+The tool can be used by
+Government stakeholders Experts who have a System architects who Program managers in 
+who want to get an sound background in want to get an overview international 
+overview of existing identification in the and guidance for organizations providing 
+identifiers relevant for the health sector. developing digital technical support in the 
+health sector in their solutions to improve health sector.
+country. interoperability in the 
+health sector.
+Recommended interview partners
+The drawer approach allows different questionnaires (or selected questions) to be used for 
+different respondents depending on their areas of expertise. Recommended respondents include 
+staff in the 
+•	 Ministry of Health, Department of Planning/ Department of Information and Communication 
+Technology; 
+•	 relevant ministry for the implementation of the CRVS system;
+•	 relevant ministry or agency for the implementation of the national ID system (citizen ID);
+•	 national hospitals;
+•	 referral, provincial, and district hospitals;
+•	 rural health centers;
+•	 vertical disease program implementers (e.g., HIV, malaria, and tuberculosis); 
+•	 public health insurance funds (member registration division and information technology  
+division); 
+•	 formal sector health insurers, community-based social health insurers, and health insurers for 
+the poor, and for civil servants;
+•	 pension funds and accident insurance funds;
+•	 project managers of national and international development organizations; and/or
+•	 immunization programs.
+9
+Unique Health Identifier Assessment Tool Kit
+HOW TO
+ORGANIZE MEETINGS 
+WITH RESpONDENTS
+Timely arrangement of interviews is a key Interviewers can fill out the questionnaires 
+success factor. The meeting request letter as far as possible by screening relevant 
+should highlight the purpose of a status literature, calling relevant respondents, 
+quo analysis rather than propose specific or sending the selected questionnaires 
+software solutions. Government officials to development partners (e.g., send 
+could seek support from consultants stakeholder mapping to map institutions) 
+who have experience with identification before the interview.
+mechanisms in the health sector. 
+Experience shows that using Module 1.2 Providing respondents with the 
+(Stakeholder mapping) and Module 3.1. questionnaire in advance (e.g., by email) 
+(Overview of health sector registries and can help to establish trust because it 
+identifiers) is a good starting point for the reassures the respondents of the purpose 
+tool kit user, particularly in countries with a of the interview, and allays fears that the 
+highly fragmented health sector. Knowing motive is to elicit sensitive data or sell a 
+which stakeholders are involved in which particular product or software.
+area of identifying a person will make it 
+easier to select the right questionnaire 
+during the interviews.
+10
+Introduction
+Experience shows that using Module 1.2 
+(Stakeholder Mapping) is a good starting 
+point for the tool kit user, particularly 
+in countries with a highly fragmented 
+health sector. 
+During stakeholder visits, program The assessment results should be 
+managers should be available to explain presented in a stakeholder consultation 
+the strategic approach of their particular workshop. It will generate more innovative 
+work area. People who also know the ideas, can reveal political constraints, 
+business processes, as well as ICT staff and help identify possible areas for 
+who can explain the technical background collaboration.
+of their databases and data structure (e.g., 
+data format, online availability, ID number 
+algorithms) should also be easily available. 
+During interviews, it is helpful to clarify 
+terms before asking further questions. Key
+terms have been explained in footnotes.
+The tool kit should preferably not be used 
+in a multistakeholder meeting. Experience 
+shows that some persons are less likely to 
+share relevant information if people from 
+other institutions are in the room.
+11
+Unique Health Identifier Assessment Tool Kit
+puTTING IT
+ALL TOGETHER
+A report discussing and explaining results conditions existing in the country to introduce unique 
+from the analysis and overall assessment health identifiers can be discussed along the areas 
+should be produced. The report may include a suggested in Figure 4. The conclusion could discuss 
+summary and discussion of existing registries gaps identified, and recommendations on how to  
+and identifiers relevant for health. Other address these.8
+figure 4: Assessing Existing Conditions to Introduce a unique Health Identifier
+Moving toward electronic records 
+ICT (eGovernance), availability of 
+Infrastructure networks and power backup, skills
+Legal Availability of Suitable 
+Framework Databases as Entry Point
+Privacy protection, regulations Population coverage, data security and 
+for data exchange accuracy, financial sustainability, ability 
+to link, easy to administer
+Birth and 
+Death Institutional 
+Registration Setting
+Continuous, permanent, Clear responsibilities, 
+compulsory and universal capacities, cross-sectoral and 
+CRVS cross-agency coordination 
+Conditions
+CRVS = civil registration and vital statistics, ICT = information and communication technology.
+Source: Authors.
+8 A set of shared principles endorsed by several organizations can further serve as a basis to assess existing or planned identifica-
+tion systems. World Bank Group and Center for Global Development. 2017.  Principles on Identification for Sustainable Development: 
+Toward the Digital Age.
+12
+Introduction
+As the tool kit aims to capture the status quo of existing As conditions for 
+identifiers and available registries in a particular country, 
+the results of the questionnaire and the analysis should introducing a unique health 
+inform the discussion between relevant government 
+stakeholders about gaps, policy options, and identifier will differ from 
+recommendations, as well as next steps to introduce country to country, the 
+identifiers for health purposes. choice of the technical 
+As conditions for introducing a unique health identifier 
+will differ from country to country, the choice of the design as well as the 
+technical design as well as the prioritization of next prioritization of next steps 
+steps will likewise vary. While some countries may be 
+advanced in terms of their legal framework, they may will likewise vary. 
+not have sufficient ICT infrastructure in place. Other 
+countries may have a comprehensive and robust 
+population database in place that may serve as an 
+entry point to build a patient registry, but may lack a 
+robust legal framework. This tool kit will help determine 
+existing conditions and help to identify opportunities 
+and gaps, which in turn can inform next steps for each 
+country, considering their current capacities. 
+The next steps will also have to be informed by the 
+technical design the country chooses to introduce a 
+unique health identifier. Some countries may choose 
+to establish a completely new system for patient 
+identification while others may choose to build on 
+existing registries and identifiers. Where a robust and 
+inclusive national identification system is in place, 
+countries may opt to use this foundational ID for the 
+health sector. Other countries may prefer to establish 
+a separate unique health identifier used solely for the 
+health sector.9, 10 It is beyond the scope of this tool kit 
+to discuss different policy options for a unique health 
+identifier. There is no blueprint in establishing a unique 
+health identifier. 
+9 World Bank. 2018. The Role of Digital Identification for Healthcare: The Emerging Use Cases. Washington, D.C.: World Bank. 
+10 UNAIDS. 2014. Considerations and Guidance for Countries adopting National Health Identifiers. Geneva: UNAIDS.
+13
+MODuLE 1
+LEGAL, INSTITuTIONAL, 
+AND pOLITICAL 1.A1.2.1
+1.2
+1.1
+fRAMEWORK
+This part of the tool kit aims to retrieve information on the legal, institutional, and political framework. These 
+frameworks are important conditions to build robust, secure, and well-functioning unique identification in 
+the health sector. The institutional setting contributes to well-managed and coordinated implementation 
+of a unique health identifier for health purposes. Laws and regulations on data privacy and protection that 
+regulate how state institutions may use data are required and need to be adapted to the age of electronic 
+storage and ICT usage. They are important conditions to protect individuals from inappropriate privacy 
+intrusion, data misuse, and discriminatory practices. Institutional checks and balances are important 
+accountability and monitoring mechanisms of institutions involved in unique identification. 
+1 Legal, instiftuigtuiornea 5l:,  aLnegda pl,o Ilnitsictiatlu ftriaomnaelw, aonrkd political framework 
+1.1
+Legal and Policy Module 1.1. assesses the existing legal and policy framework for 
+Framework unique identification that supports access to health care services. 
+It includes questions on the legal framework on data privacy.
+1.2 Module 1.2. is a stakeholder mapping that aims to map institutions 
+Stakeholder involved in registration and identification. It further analyzes 
+Mapping coordination mechanisms between these dierent institutions. 
+1.2.1 Institutional capacity of individual institutions
+Institutional identified in Module 1.2 can be assessed in Module 1.2.1. 
+Capacity 
+Assessment
+1.A. Optional Module 1.A. maps donors active in supporting 
+Donor Support identification in the health and health-related sectors. 
+Mapping 
+- Optional
+Source: Authors.
+14
+Module 1: Legal, Institutional, and Political Framework
+Module 1.1. Legal and policy framework
+Module 1.1. assesses the existing legal and policy framework for registration and identification that support 
+access to health care services. It includes questions on the legal framework on data privacy. 
+Laws and regulations on data privacy and protection are important conditions to protect individuals from 
+inappropriate privacy intrusion, data misuse, and discriminatory practices.
+h Health-specific Latest In Law Enforced Version/ 
+Patient Registration in Health Facilities No Progress Passed Nationwide Date
+Is there national legislation that makes the electronic 
+registration of patients mandatory in public health facilities?    
+Is there national legislation that makes the electronic 
+registration of patients mandatory in private health facilities?    
+Which department within which ministry leads the 
+implementation of the legal framework of patient registration 
+in health facilities?
+List available legislations for patient registration:
+Latest 
+In Law Enforced Version/ 
+Vertical Disease Program Registration No Progress Passed Nationwide Date
+Is there national legislation that specifies the registration of 
+patients within vertical disease programs?    
+Which department within which ministry leads the 
+implementation of the legal framework of vertical disease 
+programs?
+List available legislations for vertical disease programs
+Latest 
+In Law Enforced Version/ 
+Social Health Protection Enrollment No Progress Passed Nationwide Date
+Is there a national regulation available that specifies the 
+member registration of public health protection agencies (e.g.,    
+social health insurance funds)?
+Is there a regulation for the private insurance sector?    
+Which department within which ministry leads the 
+implementation of the legal framework of social health 
+protection programs?
+List available legislation for social health protection programs.
+15
+1.1
+Unique Health Identifier Assessment Tool Kit
+hr Health-related Latest In Law Enforced Version/ 
+Birth Registration No Progress Passed Nationwide Date
+Is there national legislation that makes it mandatory for  
+families to register newborns?    
+Are there decrees and/or laws that regulate reporting births?    
+Please list who is legally required to report births by order  
+of obligation
+Which department within which ministry leads the  
+implementation of the legal framework of newborn registration?
+List available legislation for birth registration
+Latest 
+In Law Enforced Version/ 
+Civil Registration and Vital Statistics No Progress Passed Nationwide Date
+Is there national legislation that makes the registration of  
+vital (births and deaths) and civil events (marriage, divorce,     
+adoption) mandatory?
+Does the country have regulations that oblige all medical  
+care facilities to report all vital events to the vital statistics     
+system within a given time? 
+Which department within which ministry leads the  
+implementation of the legal framework of civil registration  
+and vital statistics?
+List available legislation for civil registration and vital statistics
+Latest 
+In Law Enforced Version/ 
+National Identification System No Progress Passed Nationwide Date
+Is there national legislation that makes the registration of 
+citizens via a national ID system mandatory?    
+Is there a policy and/or regulation that makes it necessary 
+to present the national ID card for any health services (incl.    
+access to health insurance programs)?
+If yes, please list for which health services and/or programs:
+Which department within which ministry leads the 
+implementation of the legal framework of national ID cards?
+List available legislation for national ID card
+16
+1.1
+Module 1: Legal, Institutional, and Political Framework
+c Crosscutting Latest 
+In Law Enforced Version/ 
+Health Data Exchange No Progress Passed Nationwide Date
+Is there a legal framework for regulating data exchange within 
+the health sector?    
+Is there a digital health strategy (eHealth) in place?    
+Are there regulations available on what electronic data must 
+be shared with institutions outside the health sector (e.g., for    
+monitoring, evaluation, and statistics)?
+List available legislation
+Are there eHealth standards, based on health policies in place?
+Who is in charge of defining standards for identification and 
+identifiers in the health sector?
+Have standards been developed for health identifiers in the  Yes  No
+country?
+Latest 
+In Law Enforced Version/ 
+Personal Data Protection No Progress Passed Nationwide Date
+Is there national legislation on privacy or protection of 
+personal data (collection, storage, access, security)?    
+Is there any legal framework available that regulates the access 
+to personal data, stored at national institutions?    
+Is there specific national legislation on privacy/data protection 
+available for health-related data?    
+Is there a supervisory body within government that monitors  
+compliance with privacy and data protection rules?  Yes  No
+Are the penalties for violation of the privacy rules clearly 
+established and appropriate?  Yes  No
+Does the legal framework allow for grievance redress for 
+individuals who claim their privacy was violated?  Yes  No
+Which ministry leads the implementation of the legal 
+framework of personal data protection?
+List available legislations
+Latest 
+In Law Enforced Version/ 
+Government Digital Strategy No Progress Passed Nationwide Date
+Is there a digital (ICT)/eGovernment strategy in place?    
+If yes, which ministry leads the implementation of the digital 
+(ICT)/ eGovernment strategy?
+Is there a specific legal framework for eGovernment available?    
+Which department within which ministry leads the 
+implementation of the legal framework of eGovernment?
+17
+1.1
+Unique Health Identifier Assessment Tool Kit
+Latest 
+In Law Enforced Version/ 
+Anti-Discrimination Law No Progress Passed Nationwide Date
+Is there a legal framework to protect against discrimination 
+based on race, ethnicity, religion, sex, sexual orientation,     
+gender identity, political affiliation, or any other? 
+Other
+Please describe other information relevant to the legal framework 
+18
+1.1
+Module 1: Legal, Institutional, and Political Framework
+1.2
+Module 1.2. Stakeholder Mapping
+Module 1.2. maps institutions involved in registration and identification. It further maps coordination 
+mechanisms between different institutions. 
+This section of the tool kit can be valuable for anyone who wants to get an overview of actors important in 
+health and health sector-related registration and identification systems.
+The institutional capacity of individual institutions can be assessed in Module 1.2.1. Donors supporting 
+activities with regard to health and health sector-related registration and identification systems can be 
+mapped in the optional Module 1.A.
+h Health-specific
+Please list institutions (e.g., hospitals, health centers, vertical disease programs, insurance agencies etc.) involved in 
+the administration of registries for the following areas:
+PATIENT REGISTRIES
+Available Registries Other Status  Number of 
+Name of Institution and/or Identifiers Government Autonomous (e. g., private) Branch Offices
+Institution 1 :
+ 
+Institution 2 :
+ 
+Institution 3 :
+ 
+Institution 4 : 
+ 
+SOCIAL HEALTH INSURANCE
+Target group  
+(e.g., formal sector 
+workers, informal 
+sector, poor, civil Other Status  Number of 
+Name of Institution servants etc.) Government Autonomous (e. g., private) Branch Offices
+Institution 1 :
+ 
+Institution 2 :
+ 
+Institution 3 :
+ 
+Institution 4 :
+ 
+19
+1.2
+Unique Health Identifier Assessment Tool Kit
+VERTICAL DISEASE PROGRAM REGISTRIES
+Available Registries Other Status  Number of 
+Name of Institution and/or Identifiers Government Autonomous (e. g., private) Branch Offices
+Institution 1 :
+ 
+Institution 2 :
+ 
+Institution 3 :
+ 
+Institution 4 : 
+ 
+hr Health-related
+Please list institutions involved in the administration of registries for the following area:
+CRVS SySTEM/NATIONAL ID SySTEM/POPULATION REGISTRy
+Government Autonomous 
+Available Registries  (e.g., (e.g., national Other Status Number of 
+Name of Institution and/or Identifiers Ministry) ID Institution) (e.g., private) Branch Offices
+Institution 1 :
+ 
+Institution 2 :
+ 
+Institution 3 :
+ 
+Institution 4 : 
+ 
+c Crosscutting
+COORDINATION BETwEEN ACTORS
+Steering Committee
+Is there a coordinating body or steering committee involving different line ministries, government  Yes  No
+agencies, and nongovernment stakeholders that focuses on improving coordination of 
+identification-related activities across various sectors and national programs?
+Please list members
+How often does the body or committee meet?
+If available, please attach terms of reference
+20
+1.2
+Module 1: Legal, Institutional, and Political Framework
+OUTREACH/COMMUNICATION
+National Strategy   
+Is there a national strategy for communication and awareness for the following identification and/or registration 
+systems in place?
+Customized 
+to Specific 
+Periodic Permanent Process Groups
+a. National identification system   
+b. P atient registration in health 
+facilities   
+c. Birth certificates and/or registration   
+d. Immunization   
+e.  Social health protection 
+registration   
+f. V ertical disease management 
+programs (HIV, malaria,   
+tuberculosis)
+g. Other, please specify 
+  
+  
+21
+1.2
+Unique Health Identifier Assessment Tool Kit
+1.2.1
+Module 1.2.1. Institutional Capacity Assessment
+This module assesses an individual institution’s capacity identified in module 1.2. It can be applied to a 
+ministry, a department, a health facility, or any other actor identified as important for health and health 
+sector-related registration and identification systems. For countries considering introducing a unique health 
+identifier, it also allows assessing the capacity of a particular institution to implement the scheme. 
+General
+Name of the institution and/or department: 
+What is the mandate of the institution and/or department?
+Does the institution work with any development partners? Please list
+Administration
+Is the institution centralized or decentralized? 
+Which functions are decentralized? 
+Please list the registries and/or identifiers the institution administers, the responsible department or division and since 
+when they have been administering the registry and/or identifier.
+ Responsible Department/Division year
+Registry and/or Identifier 1:
+  
+Registry and/or Identifier 2:
+  
+Registry and/or Identifier 3
+  
+Human Resources
+Is there an organizational chart?    Yes  No
+If yes, please attach.
+22
+Module 1: Legal, Institutional, and Political Framework
+How many employees are responsible for administering the registry and/or identifier? 
+Regular training is offered with regard to:
+ Membership registration or enrollment processes
+ Customer service
+ Complaint management
+ Data privacy and security
+Are there capacity development plans available for identification-related activities, data privacy, and security?
+Does this ministry, department, or agency have adequate technical expertise to manage an electronic system which 
+allows clear member identification (e.g., member enrollment, updates of member information)? 
+ Yes  No
+If no, which functions, or group of activities lack the required technical expertise?
+What kinds of training are needed to administer or manage these activities?
+Are there any guidelines that regulate usage of or access to the database? Please list.
+Are roles for data managers, data stewards and/or security officers clearly defined and employed?  
+ Yes  No
+23
+1.2.1
+Unique Health Identifier Assessment Tool Kit
+Financial Capacity
+What is the annual budget of the ministry, department, agency, or program? 
+What is the annual budget to run the registry? 
+Does the ministry, department, or agency allocate revenue within its annual budget for training activities?
+ Yes  No
+If yes, please list the activities that receive funding.
+Does the ministry, department, or agency require external funding for training activities? 
+ Yes  No
+If yes, please state the specific activities which require funding.
+Information and Communication Technology
+Does this ministry, department, or agency have adequate technical infrastructure (hardware, software, network) to 
+administer or manage registration and/or identity management?
+ Yes  No
+If no, which areas need support?
+24
+1.2.1
+Module 1: Legal, Institutional, and Political Framework
+1.A
+Module 1.A. Donor Support Mapping – Optional
+The optional Module 1.A. maps donors supporting activities in health sector and health sector-related 
+registration and identification systems.  
+h Health-specific
+Name the national and/or international donors that support National International
+Patient registration in health facilities  
+Donor 1:  
+Donor 2:  
+Donor 3:  
+Donor 4:  
+Social health protection registry  
+Donor 1:  
+Donor 2:  
+Donor 3:  
+Donor 4:  
+Vertical disease program registry  
+Donor 1:  
+Donor 2:  
+Donor 3:  
+Donor 4:  
+hr Health-related
+Name the national and/or international donors that support National International
+National strategy for citizen identification  
+Donor 1:  
+Donor 2:  
+Donor 3:  
+Donor 4:  
+25
+1.A
+Unique Health Identifier Assessment Tool Kit
+National ID system development and/or implementation  
+Donor 1:  
+Donor 2:  
+Donor 3:  
+Donor 4:  
+CRVS system development  
+Donor 1:  
+Donor 2:  
+Donor 3:  
+Donor 4:  
+Birth certificates  
+Donor 1:  
+Donor 2:  
+Donor 3:  
+Donor 4:  
+c Crosscutting
+Name the national and/or international donors that support National International
+Data exchange within the health sector  
+Donor 1:  
+Donor 2:  
+Donor 3:  
+Donor 4:  
+Personal data protection  
+Donor 1:  
+Donor 2:  
+Donor 3:  
+Donor 4:  
+eGovernment  
+Donor 1:  
+Donor 2:  
+Donor 3:  
+Donor 4:  
+26
+1.A
+MODuLE 2
+ICT INfRASTRuCTuRE
+2.1
+This chapter provides an overview on the general usage of ICT and maps to which extent ICT has been 
+introduced for different health and health sector-related registration and identification systems. 
+2 ICTf iIgnufrrea s6t:r uIncftourrme ation and Communication Technology Infrastructure 
+2.1
+General ICT Module 2.1. maps the available network structure in the country. 
+usage for More details on available ICT infrastructure relevant for particular 
+identification identification systems will be assessed in chapter 3.
+Source: Authors.
+27
+Unique Health Identifier Assessment Tool Kit
+2.1
+Module 2.1. General ICT usage for Identification
+Module 2.1. provides an overview on the general usage of ICT and maps to which extent ICT has been 
+introduced for different health and health sector-related registration and identification systems. It further 
+maps the available network structure in the country.
+Details on available ICT infrastructure relevant for particular identification systems will be assessed in 
+chapter 3.
+h Health-specific
+Completely Partially No/Not 
+Level of Implementation (80%-100%) (< 80%) Planned Planned
+To what extent has ICT in your country been introduced for the administration of
+Patient registration in health facilities    
+Social health protection registration    
+Vertical disease program registration    
+Immunization registration    
+Not 
+Administrative Level Central Level Regional Local Introduced
+If ICT has been introduced, at which administrative level?
+Patient registration in health facilities    
+Social health protection registration    
+Vertical disease program registration    
+Immunization registration    
+hr Health-related
+Completely Partially  No/Not 
+Level of Implementation (80%-100%) (< 80%) Planned Planned
+To what extent has ICT in your country been introduced for the administration of
+National ID system    
+CRVS system    
+Birth registration    
+Family registration    
+Poor household registration    
+28
+Module 2: ICT Infrastructure
+Not 
+Administrative Level Central Level Regional Local Introduced
+If ICT has been introduced, at which administrative level?
+National ID system    
+CRVS system    
+Birth registration    
+Family registration    
+Poor household registration    
+c Crosscutting
+Network Structure Very good Good Acceptable Poor
+How would you rate the availability of the 3G network 
+across the country?    
+How would you rate the availability of intranets within 
+government organizations?    
+How would you rate the availability of intranets within 
+hospital networks?    
+How would you rate the power backup in your country 
+(no electricity cuts)?    
+How would you assess the data recovery handling in 
+case of a natural disaster (risk of data loss)?    
+Does the approach to managing confidential or sensitive 
+information conform with ISO 27001?    
+29
+2.1
+MODuLE 3 3.A3.2 3.1.3 .1.23
+3.1.
+1
+3.1
+HEALTH SECTOR AND 
+HEALTH-RELATED  
+REGISTRIES AND IDENTIfIERS
+This part collects information about the administrative, operational, and technological aspects of different 
+registration and identification systems in the health and health-related sectors.
+3 Identfifiigcautrioen 7 n:u Hmebaelrtsh a nSde pcatotire natn rdeg Histeraielsth-Related Registries and Identifiers
+3.1 Module 3.1. gives an overview of health sector registries and identifiers. 
+Overview of health Information about the administration and technical details of dierent 
+sector registries 
+and identifiers registries and identifiers in the health sector can be assessed in the attached modules (3.1.1.-3.1.3.). 
+3.1.1. 
+Patient registries Module 3.1.1. covers patient registries and identifiers for health 
+in health facilities programs, health facilities, as well as vertical disease programs. 
+and health programs
+3.1.2. 
+Membership Module 3.1.2. covers registries and identifiers for various health 
+databases and insurance and other social protection schemes. 
+identifiers 
+3.1.3. 
+Immunization Module 3.1.3. assesses immunization registries. 
+registries 
+3.2. Module 3.2. covers registration and identification systems beyond
+Overview of health- the health sector including national identification and CRVS.
+related registries 
+and identifiers
+3.A. 
+Quick review of Optional module 3.A. allows for a quick scan of the dierent 
+existing identifiers identifiers.
+- optional
+Source: Authors.
+30
+Module 3: Health Sector and Health-Related Registries and Identifiers
+3.1 Module 3.1. Overview of Health Sector  
+Registries and Identifiers
+Module 3.1. gives an overview of health sector registries and identifiers. Information about the administration 
+and technical details of different registries and identifiers in the health sector can be assessed in the 
+attached modules (3.1.1.-3.1.3.). Module 3.1.1. covers patient registries and identifiers for health programs, 
+health facilities, as well as vertical disease programs. Module 3.1.2. covers registries and identifiers for various 
+health insurance and other social protection schemes. Module 3.1.3. assesses immunization registries. 
+h Health-specific
+Patient Registries yes No
+Does a unified electronic centralized patient registry exist?  
+If no, how would you best describe the existing registries in the country (multiple answers possible)?
+ Each facility or hospital has their own registry. Registries are not interconnected.
+ Each facility or hospital has their own registry. Registries are interconnected.
+ Several health programs (e.g. malaria program, immunization registry) have their own registry
+If applicable, please list health programs and/or departments that use their own registries, e.g., maternal and family 
+health (except vertical disease programs, which will be covered below): 
+Are patient identifiers issued in the country?  
+If yes, how could you best describe the patient identification situation in the country (multiple answers possible)?
+ There is a unique patient identifier
+ Different health programs have different identifiers
+ Different health facility or hospital have their own identifier 
+ Clusters of health facility or hospital have a common identifier
+If applicable, please list health programs that use their own identifiers (except vertical disease programs):  
+Vertical Disease Program Registries yes No
+Is there a unified registry for people living with HIV available?  
+Is there a unified registry for malaria patients available?  
+Is there a unified registry for tuberculosis patients available?  
+31
+3.1
+Unique Health Identifier Assessment Tool Kit
+Immunization Registry yes No
+Is there a unified registry for immunization available?  
+Social Health Protection Registries yes No
+Are there registries for social health protection available?  
+If yes, how would you best describe the situation in your country?
+ A unified social security number exists
+ A unified health insurance number exists
+ D ifferent health insurance schemes use their own member identifier
+Please list the health insurance schemes in the country by group
+Civil servants
+Formal sector
+Informal sector (nonpoor)
+Informal sector (poor)
+Other groups
+32
+3.1
+Module 3: Health Sector and Health-Related Registries and Identifiers
+3.1.1 Module 3.1.1. patient Registries in Health  
+facilities and Health programs
+This module assesses a particular patient registry and identifiers either at a particular health facility, a cluster 
+of facilities, or for a particular health program (e.g., maternal, newborn, and child health). The questionnaire 
+can be repeated for each facility, cluster, or health program selected to be assessed. It does not cover 
+registration of members for insurance schemes. For the insurance schemes, please refer to Module 3.1.2. 
+h Health-specific
+General
+Applicable to (pick one)  Health facility       Health program 
+ Cluster of facilities       Vertical disease program
+Disease program, if applicable:  HIV  Malaria  Tuberculosis
+Name of health program, if applicable: 
+Administration
+Which institution/s is/are responsible for the administration of this registry? 
+At which level is data stored? Personalized data Aggregate data No data
+National   
+Provincial   
+District   
+Commune or municipal   
+How many health facilities does this registry cover? 
+Is the database interoperable or linked with other registries?    Yes                              No
+If yes, please list: 
+Who can access this 
+database? All data Some data Please specify
+a. Medical staff:  
+b. Administrative staff:  
+c. Patients:  
+d. Others, please specify:
+ 
+ 
+33
+3.1.1
+Unique Health Identifier Assessment Tool Kit
+Registration 
+What percentage of the entire population does the 
+registry cover?  <40%  40%-80%  >80%
+Who is covered?  C itizens   Citizens and   Citizens, residents, and  
+only residents others, please specify:
+Where or how is patient registration carried out?  At    Through   Other, please specify
+     health  health 
+     facilities worker 
+community/ 
+household 
+visits
+yes No Please specify 
+Are there adequate numbers of registration points to 
+cover the whole country?  
+Do patient registrars have adequate equipment to 
+carry out their functions (e.g., forms, telephones, 
+photocopiers, computers, tablets)?  
+Who carries out the registration (e.g., government 
+official, contractor, nurse, doctor, community health 
+worker)?
+Have they received training to carry out their functions?  
+What documents are required to register?
+ No documents
+ National ID card
+ Health insurance ID card (if member)
+ Birth certificate
+ Family book
+ Civil servant ID card
+ Worker ID card
+ Other, please specify
+What general information is captured in the registry? yes No Mandatory
+a. Name   
+b. Date of birth   
+c. Sex   
+d. Address   
+e. Information on family members   
+f. Citizenship   
+g. Patient ID number   
+34
+3.1.1
+Module 3: Health Sector and Health-Related Registries and Identifiers
+yes No Mandatory
+h. National ID number   
+i. Passport number   
+j. Health insurance ID number   
+k. Birth certificate number   
+l. Family book ID number   
+m. Driving license ID number   
+n. Other, please specify
+  
+  
+Paper- Electronic 
+ICT Based Only Electronic Mixed Planned
+At which level is electronic registration of patients available?
+National    
+Provincial    
+District    
+Other, please specify    
+Is software in use for operational procedures?  Yes  No
+If yes, which software programs are in use at health facilities or programs and what are the core functions?
+Core Functions: Name of software solution(s)
+ Patient registration
+ Creation of ID numbers
+ Patient card issuance
+ Biometric data capture 
+ Transaction with health insurance funds
+ Establishment of medical records
+ Transactions to or from other health programs
+ Billing
+ Statistics
+Biometrics yes No Mandatory
+What biometric information is captured in the registry? 
+a. None   
+b. Digital facial image   
+c. Fingerprints   
+d. Iris   
+e. Other, please specify    
+  
+  
+Are readers for authentication purposes are available in  
+all locations? 35
+3.1.1
+Unique Health Identifier Assessment Tool Kit
+ID Number yes No
+Does the registry issue its own identifier (identification number)?  
+Is there a central assigning authority for the patient ID number in place?  
+If yes, please name: 
+Is a new identifier request initiated by an authorized local person  
+(e.g., by patient, a clinician, or an administrator)?
+How many patient ID numbers were issued last year?
+How many patient ID numbers have been issued to date  
+(cumulative figure)?
+What happens with an ID number in case of decease of a registered 
+person/ID holder? 
+Does the identifier consist of alphanumeric characters that do not 
+represent any aspect of the identity of an individual person (e.g., date  
+of birth, place of residence)?
+Does the identifier contain any information about the health facility or 
+program (e.g., location, year started)?  
+Does the number allow cross-referencing to other numbers 
+(e.g., National ID number)?  
+Can the number be merged to consolidate multiple identifiers that 
+belong to the same individual?  
+Can the number be split to assign new identifiers to two or more 
+individuals who have been assigned a single identifier in error?  
+Can the number be linked to health records in both manual and 
+automated environments?  
+Is the identifier deployable in a variety of technologies, such as 
+scanners and barcode readers?  
+Can clinical data be linked retroactively to a unique identifier 
+(in cases where medical data got collected before the implementation of  
+an ID number)?
+ID Card
+What kind of ID card is issued?
+ None
+ Paper
+ Plastic
+ Barcode
+ Magnetic strip
+ Smart card
+If Smartcard: 
+ Is there a chip on the card?  Yes  No
+ What other information is stored on the card?
+ Are biometrics stored on the card?  Yes  No
+36
+3.1.1
+Module 3: Health Sector and Health-Related Registries and Identifiers
+What external security features are on the card?
+ Holograms
+ Microprinting
+ UV printing
+ Other, please specify
+Will the card be replaced if it is lost?
+ Yes, with a fee
+ Yes, without fee
+ No
+What are the production costs associated to issuing the patient ID document?
+1. 
+2. 
+3. 
+4. 
+How long does it take to issue a patient ID document from the time of registration (number of days)?
+Are there specific population groups that encounter obstacles to obtaining a patient ID document?
+ Indigenous people
+ Migrants and/or nomadic people
+ Poor people
+ Women
+ Persons living with HIV
+ Other, please specify
+37
+3.1.1
+Unique Health Identifier Assessment Tool Kit
+3.1.2 Module 3.1.2. Membership Databases and 
+Identifiers for Health Insurance and Other  
+Social protection Schemes
+This module collects specific information on registries and identifiers for members of health insurance and 
+other social protection schemes. One questionnaire for each insurance scheme is recommended.
+General
+Which group is this health insurance or social protection scheme for?
+  Civil servants
+  Formal sector  
+  Informal sector (nonpoor)
+  Informal sector (poor)
+  Other groups
+Name of the insurance or social protection scheme:
+Administration
+Name of the health insurance or social protection scheme implementing agency: 
+Does the agency have a decentralized structure?  Yes  No
+If yes, at which level is member data stored? All data Aggregate data No data
+National   
+Provincial   
+District   
+Commune or municipal   
+Is the database linked to other registries?  Yes  No
+If yes, please list: 
+Who can access this database? All data Some data Please specify
+a. H ealth insurance  
+scheme staff  
+b. A dministrative staff at  
+health facility  
+c. Members  
+d. Others, please specify
+ 
+ 
+38
+3.1.2
+Module 3: Health Sector and Health-Related Registries and Identifiers
+Enrollment
+At what age can a person become a member?
+What percentage of the entire population does 
+the database cover?  <40%  40%–80%  >80%
+Who is covered?  Citizens only  Citizens and  Citizens, residents 
+residents and others, please 
+specify:
+Where or how is enrollment carried out?  At health facilities  Through health  Other, please 
+(e.g., hospital staff) insurance staff specify
+yes No Please specify
+Are the adequate enrollment points to cover the  
+whole country?
+Have personnel carrying out enrollment  
+received training to perform their functions?
+What documents are required for enrollment?
+ No documents
+ National ID card
+ Birth certificate
+ Family book
+ Civil servant ID card
+ Worker ID card
+ Work permit
+ ID poor card
+ Other, please specify 
+What general information is captured in the health 
+insurance membership database? yes No Mandatory
+a. Name   
+b. Date of birth   
+c. Sex   
+d. Address   
+e. Information on family members   
+f. Patient ID number   
+g. National ID number   
+h. Passport number   
+i. Health insurance ID number   
+39
+3.1.2
+Unique Health Identifier Assessment Tool Kit
+yes No Mandatory
+j. Birth certificate ID number   
+k. Family book ID number   
+l. Driving license ID number   
+m. Other, please specify
+  
+  
+Information and Communication Technology yes No
+Is software in use for operational procedures?   
+If yes, which software programs are in use and what are the 
+core functions?
+Core Functions Name of software program
+ Membership registration
+ Creation of ID numbers
+ Membership card issuance
+ Biometric data capture 
+ Transactions with health facilities
+ Contribution collection
+ Provider reimbursement
+ Transactions to or from other health programs
+ Billing
+ Statistics
+Biometrics yes No Mandatory
+What biometric information is captured in the 
+membership database? 
+a. None   
+b. Digital facial image   
+c. Fingerprints   
+d. Iris   
+e. Other, please specify
+  
+  
+Are readers for authentication purposes available in all  
+locations?
+ID Number yes No
+Does the registry issue its own identifier (health insurance or social protection  
+ID number)? 
+40
+3.1.2
+Module 3: Health Sector and Health-Related Registries and Identifiers
+If yes, please answer the questions below. 
+Is there a central assigning authority for the member ID number in place?  
+If yes, please name: 
+How many ID numbers were issued last year?
+How many ID numbers have been issued to date (cumulative figure)?
+What happens with an ID number in case of decease of a registered member?
+Does the identifier consist of alphanumeric characters that do not represent 
+any aspect of the identity of an individual person (e.g., date of birth, place of  
+residence)?
+Does the number allow crossreferencing to other numbers? (e.g., National ID 
+number)  
+Can the number be merged to consolidate multiple identifiers that belong to 
+the same individual?  
+Can the number be split to assign new identifiers to two or more individuals 
+who have been assigned a single identifier in error?  
+Can the number be linked to patient registration systems in hospitals or health 
+centers?  
+ID Card
+What kind of ID card is issued?
+ None
+ Paper
+ Plastic
+ Barcode
+ Magnetic strip
+ Smart card
+If Smartcard:
+ Is there a chip on the card?  Yes  No
+ Are biometrics stored on the card?  Yes  No
+What external security features are on the card?
+ Holograms
+ Microprinting
+ UV printing
+ Other, please specify
+41
+3.1.2
+Unique Health Identifier Assessment Tool Kit
+What are the production costs associated with issuing the membership ID document?
+1. 
+2. 
+3. 
+4. 
+5. 
+What are the costs for the patient for getting a membership ID document?
+Is the health insurance ID card commonly used for any of the following purposes?
+ Obtaining public health services
+ Obtaining private services
+ Enrolling in other social insurance programs
+ Qualifying for cash transfers, food, or other safety 
+net programs
+ Other, please specify 
+ 
+42
+3.1.2
+Module 3: Health Sector and Health-Related Registries and Identifiers
+3.1.3
+Module 3.1.3. Immunization Registries 
+This module assesses a particular immunization registry either at a particular health facility, a cluster of 
+facilities, or for a particular health program. The questionnaire can be repeated as often as necessary for 
+each facility, cluster, or health program.
+General
+Applicable to  Health facility/ies  Health program
+Name of health program, if applicable: 
+Disease program, if applicable:  HIV  Malaria  TB
+Administration
+Which institution/s is/are responsible for the  
+administration of this registry?
+At which level is data stored? Personalized data Aggregate data No data
+National   
+Provincial   
+District   
+Commune or municipal   
+In how many facilities are immunization records recorded? 
+Is the database linked to other registries?  Yes  No
+If yes, please list: 
+Who can access this registry? All Data Some Data Please specify
+a. Medical staff:  
+b. Administrative staff:  
+c. Patients:  
+d. Others, please specify:
+ 
+ 
+43
+3.1.3
+Unique Health Identifier Assessment Tool Kit
+Registration 
+What percentage of the entire population does the registry  < 40%  40%- >80%
+cover? 80%
+Who is covered?  C itizens only  C itizens  C itizens, residents 
+and and others, please 
+residents specify:
+Where or how is immunization registration carried out?  at health    t hrough   Other, please 
+     facilities health worker specify
+community/ 
+household 
+visits
+yes No Please specify:
+Are there adequate numbers of immunization points to cover 
+the whole country?  
+Do patient registrars have adequate equipment to carry 
+out their functions (for example, forms, telephones,  
+photocopiers, computers, tablets)?
+Who carries out the registration (e.g., government official, 
+contractor, nurse, doctor, community health worker)?
+Have they received training to carry out their functions?  
+What documents are required to register?
+ No documents
+ National ID card
+ Health insurance ID card (if member)
+ Birth certificate
+ Family book
+ Other, please specify
+Which of the following information is captured in the registry? yes No Mandatory
+a. Name   
+b. Date of birth   
+c. Sex   
+d. Address   
+e. Information on family members   
+f. Citizenship   
+g. Patient ID number   
+44
+3.1.3
+Module 3: Health Sector and Health-Related Registries and Identifiers
+yes No Mandatory
+h. National ID number   
+j. Health insurance ID number   
+k. Birth certificate ID number   
+l. Family book ID number   
+n. Other, please specify
+  
+  
+ICT Paper- Electronic Mixed Electronic Based Only Planned
+At which level is electronic registration 
+of immunization records available?
+National    
+Provincial    
+District    
+Commune or municipal    
+Is software in use for operational procedures?  Yes  No
+If yes, which software programs are in use at health facilities or programs and what are the core functions?
+Core Functions: Name of software program(s)
+ Patient registration
+ Creation of ID numbers
+ Immunization card issuance
+ Biometric data capture 
+  Transactions with health insurance funds
+ Creation of medical records
+ Transactions to/from other health programs
+ Billing
+ Biometrics yes No Mandatory
+What biometric information is captured in the registry?
+a. None   
+b. Digital facial image   
+c. Fingerprints   
+d. Iris   
+e. Other, please specify 
+  
+  
+Are readers for authentication purposes are available in all  
+locations?
+45
+3.1.3
+Unique Health Identifier Assessment Tool Kit
+ID Number yes No
+Does the immunization registry issue its own identifier (identification number)?  
+Is there a central assigning authority for the ID number in place?  
+If yes, please name:
+Is a new identifier request initiated by an authorized local person? (e.g., by patient, 
+a clinician, or an administrator)  
+How many ID numbers were issued last year?
+How many ID numbers have been issued to date 
+(cumulative figure)?
+ID card or immunization card
+What kind of ID card is issued?
+ None
+ Paper
+ Plastic
+ Barcode
+ Magnetic strip
+ Smart card
+What are the production costs associated with the issuing the immunization ID document?
+1. 
+2. 
+3. 
+4. 
+What are the costs for the patient for getting a membership ID document?
+1. 
+2. 
+3. 
+4. 
+How long does it take to issue an immunization ID document from the time of registration  
+(number of days)?
+Are there specific population groups that encounter obstacles to obtaining a patient  
+ID document?
+ Indigenous people
+  Migrants and/or nomadic people
+ Poor people
+ Women
+ Persons living with HIV
+  Other, please specify 
+46
+3.1.3
+Module 3: Health Sector and Health-Related Registries and Identifiers
+3.2 Module 3.2. Overview of Health-Related  
+Registries
+This section gives an overview of all registries and identifiers related to the health sector. The section covers 
+national identification systems, birth registration and certificates, and the CRVS system. 
+hr Health-related
+NATIONAL ID SySTEM yes No
+Is a national ID number or card available?  
+Administration yes No
+Which institution is in charge of national identifiers?
+Is there a separate database for national identifiers?   
+Does the institution have a decentralized structure?   
+At which level is data stored? Personalized data Aggregate data No data
+National   
+Province   
+District   
+Commune or municipal   
+Is the database linked to other registries?  Yes  No
+If yes, please list:
+Who can access this database? All Data Some Data Please specify
+a. Only staff of the institution  
+b. O nly selected staff of the  
+institution
+c. A ll officials across government  
+agencies
+d. O ther agencies, accredited by  
+the government (e.g., semi-
+autonomous bodies, health 
+insurance agencies)
+e. Others, please specify
+ 
+ 
+47
+3.2
+Unique Health Identifier Assessment Tool Kit
+Registration
+What percentage of the entire population does the national 
+ID database cover?  <40%  40%-80%  >80%
+Is the national ID number intended to cover  
+ All residents
+ All citizens
+ All adult citizens
+ Other, please specify 
+At what age can a person obtain an ID number?
+Where or how is registration or application  A utomatically issued at  R egistration   Other, please 
+carried out? birth after receiving the at municipal specify
+birth certificate offices 
+yes No Please specify:
+Are there adequate numbers of registration points to cover  
+the whole country?
+Do offices issuing national ID numbers have adequate  
+equipment to carry out their functions (e.g., forms, 
+telephones, photocopiers, and computers)?
+Have officials received training to carry out their functions?  
+What documents are required to register?
+ No documents
+ Birth registration document                                                                                              
+ Birth certificate                                                                                                                
+ Community/village chief verification                                                                                
+ Verification of other individuals                                                                                       
+ Other, please specify
+What information is captured in the national ID database?
+ Name
+ Date of birth
+ Sex
+ Address
+ Ethnicity
+ Religion
+ Political affiliation
+48
+3.2
+Module 3: Health Sector and Health-Related Registries and Identifiers
+ Information on parents or other family members
+ Other, please specify 
+Is a photo captured at the time of registration?  Yes  No
+ICT
+Is the ID database digitized or stored electronically?  Yes  No
+At which level is electronic  Paper- Electronic 
+registration available? Based Only Electronic Mixed Planned
+National    
+Provincial    
+District    
+Commune or municipal    
+Is software in use for operational procedures?  Yes  No
+If yes, which programs are in use and what are the core functions?
+Core Functions: Name of software solution(s)
+ Registration
+ Creation of ID numbers
+ National ID card issuance
+ Biometric data capture 
+ T ransactions with 
+government agencies
+Biometrics
+What biometric information is captured during registration?
+ None
+ Digital facial image
+ Fingerprints
+ Iris
+ Other, please specify 
+Are biometrics stored on a central server?  Yes  No
+If yes, please list who has access to the biometrics database  
+(e. g., government departments or agencies, private institutions)?
+49
+3.2
+Unique Health Identifier Assessment Tool Kit
+What biometric capturing devices are in use?  Central  Not 
+(e.g., fingerprint readers) Level Regional Local Introduced
+1.    
+2.    
+3.    
+4.    
+5.    
+6.    
+7.    
+ID Number
+How long is the national ID number valid?  Lifelong  Change   Other, please specify
+     after card  
+     expiry
+Is there a central assigning authority for the national ID number in place?  Yes  No
+If yes, please name: 
+How many ID numbers were issued last year?
+How many ID numbers have been issued to date (cumulative figure)?
+What happens with an ID number in case of death of a registered person?
+yes No
+Does the identifier consist of alphanumeric characters that do not represent any  
+aspect of the identity of an individual person (e.g., date of birth, place of residence)?
+Does the number allow cross-referencing to other numbers? (e.g., passport number)  
+Can the number be merged to consolidate multiple identifiers that belong to the  
+same individual?
+Can the number be split to assign new identifiers to two or more individuals who have  
+been assigned a single identifier in error?
+National ID Card
+What kind of ID card is issued?
+ None
+ Paper
+ Plastic
+ Barcode
+ Magnetic strip
+ Smart card
+50
+3.2
+Module 3: Health Sector and Health-Related Registries and Identifiers
+If Smartcard, is there a chip on the card?  Yes  No
+If yes: 
+What is the capacity of the chip?
+What information does the chip hold?
+What information is used for authentication?
+What information is stored on the card and 
+who has access to it?
+What external security features are on the card?
+ Holograms
+ Microprinting
+ UV printing
+ Other, please specify 
+What information is not printed on the ID card but 
+What information is printed on the face of the card? machine readable?
+ ID number  ID number
+ Name  Name
+ Address  Address
+ Age  Age
+ Sex  Sex
+ Ethnicity  Ethnicity
+ Political affiliation  Political affiliation
+ Religion  Religion
+ Other, please specify  Other, please specify 
+At what age can a person obtain an ID card?
+What is the validity of the national ID card? How often must the card be replaced?
+ Never
+ Less than every 3 years
+ Less than every 5 years
+ Less than every 10 years
+What are the costs for a person for getting a national ID card?
+51
+3.2
+Unique Health Identifier Assessment Tool Kit
+Does a person need to pay for replacement of a lost card?  Yes  No
+Is the national ID number or card commonly used for any of the following purposes?
+ Obtaining public health services
+ Obtaining private services
+ Enrolling in social insurance programs
+ Qualifying for cash transfers, food or other safety net programs
+ Other, please specify 
+CRVS SySTEM
+Administration
+Which institution is responsible for administering the civil registry?
+Does the institution have a decentralized structure?  Yes  No
+ Personalized Aggregate 
+At which level is data stored? Data Data No Data
+National   
+Provincial   
+District   
+Commune or municipal   
+How are birth and death records transmitted from local and regional offices to a central storage in the capital city?
+Which institution is responsible for administering vital statistics? 
+Can the vital statistics system generate both national and subnational statistics on births 
+and deaths each year?  Yes  No
+Is the civil registry database linked to other registries in the health  Yes  No
+sector? 
+If yes, please list
+Has a CRVS rapid assessment been carried out?  Yes  No
+Birth registration
+What percentage of the entire population does the civil 
+registry cover?  <40%  40%-80% >80%
+If separate, what percentage of the entire population does 
+the birth registry cover?  <40%  40%-80% >80%
+According to the most recent evaluation, how complete  
+52 (in percentage) is birth registration in your country?
+3.2
+Module 3: Health Sector and Health-Related Registries and Identifiers
+Who is responsible to register a birth?
+Who is responsible to notify a birth (e.g., parents, doctors, 
+nurse)?
+Where/how is birth registration carried out?  at health   through   Other, please 
+     facilities      health worker  specify
+     community/  
+     household  
+     visits
+yes  No Please specify:
+Does the institution responsible for birth registration have adequate 
+equipment to carry out their function (e.g., forms, telephones,  
+photocopiers, and computers)?
+Have they received training to carry out their functions?  
+Within how many days must a birth be registered?
+Is birth registration free of cost?  
+Is late registration possible?  
+If yes, describe the process. 
+Is there a fine for late registration?  
+Who pays the fine?
+Are there any outreach activities at communities to register births or 
+encourage birth registration?  Please describe
+What documents are required to register a birth?
+ No documents
+ Father’s national ID card
+ Mother’s national ID card
+ Family book
+ Mother’s birth certificate
+ Father’s birth certificate
+ Parent's marriage certificate
+ Other, please specify  
+Which of the following information is captured for birth registration yes No Mandatory
+a. Name   
+b. Date of birth   
+c. Sex   
+d. Address   
+e. Citizenship   
+f. Information on family members   
+g. Father’s name   
+53
+3.2
+Unique Health Identifier Assessment Tool Kit
+h. Mother’s name   
+i. Mother’s date of birth   
+j. Father’s date of birth   
+k. Mother’s national ID number   
+l. Father’s national ID number   
+m. Family book ID number   
+n. Other, please specify     
+  
+  
+How are birth registries linked to the health sector?
+ They are not linked to the health sector.
+  Birth registrations are regularly reported to the ministry of health.
+ Birth registration is regularly communicated to public health insurance institutions.
+What is the estimated percentage of births that take place in medical facilities (i.e., institutional births)? 
+Do medical facilities automatically notify civil registration offices or local authorities  of births? Please specify.
+Are there specific population groups not/inadequately covered in CRVS?
+ Indigenous people
+  Migrants and/or nomadic people
+  Poor people
+  Women
+Death Registration
+According to the most recent evaluation, how complete (in percentage) is death 
+registration in your country?
+How are death registries linked to the health sector?
+ They are not linked to the health sector
+ Death registrations are regularly reported to the ministry of health.
+ Death registration is regularly communicated to public health insurance 
+institutions
+What is the estimated percentage of deaths that take place in medical facilities (i.e., institutional deaths not births)?
+Do medical facilities automatically notify civil registration offices or local authorities of deaths in facilities?  
+Please specify.
+54
+3.2
+Module 3: Health Sector and Health-Related Registries and Identifiers
+yes No
+Does the country use the standard international form of medical certificate of 
+cause of death for reporting?  
+Do doctors receive training for certifying the cause of death?  
+Other Vital Events
+Which other vital events are recorded in the civil registry?
+ Marriage
+ Divorce
+ Other, please specify 
+  
+ICT
+At which level are civil registration data digitized, stored Paper- Electronic 
+electronically? Based Only Electronic Mixed Planned
+National    
+Provincial    
+District    
+Commune or municipal    
+ID Number yes No
+Is a civil registration number issued (which is different from the national ID number)?  
+Is a birth registration number issued (which is different from the national ID number)?  
+Is a birth certificate number issued (which is different from the national ID number)?  
+Birth Certificate
+Are there costs for a person associated to getting a birth certificate?  Yes  No
+If yes, how much does a birth certificate cost?
+Describe the process from the time of birth to the issuance of a birth certificate, including how long it takes  
+(number of days)? 
+Are there specific population groups that encounter obstacles to obtaining a birth certificate?
+ Indigenous people
+55
+3.2
+Unique Health Identifier Assessment Tool Kit
+ Migrants and/or nomadic people
+ Poor people
+ Women
+ Other, please specify  
+Is the birth certificate commonly used for any of the following purposes?
+ Obtaining public health services
+ Obtaining private health services
+ Enrolling in social insurance programs
+ Qualifying for cash transfers, food, or other safety net programs
+ Other, please specify  
+56
+3.2
+Module 3: Health Sector and Health-Related Registries and Identifiers
+3..A Module 3.A. Quick Review of Existing  
+Identifiers (Identification Numbers) 
+throughout the Country - Optional
+What identifiers (ID numbers) exist throughout the country? Use separate lines if more than one identifier 
+exists (e.g., ID numbers for migrants, temporary cards)
+Identifier Number of digits Example Unique No.
+Citizen identification
+National ID number 
+Passport (adult) 
+Passport (child) 
+Birth certificate number
+Social Protection
+Health Insurance ID number 
+Pension ID number 
+Other Social Protection ID 
+numbers
+Patient Identification–Health/ Vertical Disease Programs (HIV/TB/Malaria)
+Immunization ID number: 
+Other: 
+57
+3.A
+REfERENCES
+ADB. 2016. On the road to universal health coverage: Every person matters. Manila: ADB. https://www.
+adb.org/sites/default/files/publication/183512/uhc-every-person-matters.pdf.
+Inter Agency Social Protection Assessments Partnership. 2016. Identification Systems for Social 
+Protection. Washington, D.C.: World Bank. http://ispatools.org/wp-content/uploads/2017/05/ID-
+tool.pdf.
+Thai Health Information Standards Development Center (THIS)/Health Systems Research 
+Institute (HSRI). 2013. Review of National Civil Registration and Vital Statistics Systems: A case study 
+of Thailand. Nonthaburi: THIS. http://www.this.or.th/files/77.pdf.
+UNAIDS. 2014. Consideration and Guidance for Countries Adopting National Health Identifiers. 
+Geneva:  UNAIDS/PEPFAR. http://www.unaids.org/sites/default/files/media_asset/JC2640_
+nationalhealthidentifiers_en.pdf.
+WHO. 2010. Rapid assessment of national civil registration and vital statistics systems. Geneva: WHO. 
+http://apps.who.int/iris/bitstream/10665/70470/1/WHO_IER_HSI_STM_2010.1_eng.pdf.
+World Bank. 2017. Principles on Identification for Sustainable Development: Toward the Digital Age. 
+Washington, D.C.: World Bank. http://documents.worldbank.org/curated/en/213581486378184357/
+pdf/112614-REVISED-English-ID4D-IdentificationPrinciples.pdf.
+———. 2018a. Guidelines for ID4D Diagnostics. Washington, D.C.: World Bank. http://pubdocs.
+worldbank.org/en/370121518449921710/GuidelinesID4DDiagnostic-030618.pdf.
+———. 2018b. The Role of Digital Identification for Healthcare: The Emerging Use Cases. Washington, 
+D.C.: World Bank. http://pubdocs.worldbank.org/en/595741519657604541/DigitalIdentification-
+HealthcareReportFinal.pdf.
+58
+Unique Health Identifier Assessment Tool Kit
+Unique health identifiers help improve quality and continuum of care, strengthen surveillance of 
+communicable diseases, eradicate diseases, and optimize provider and payer transactions in health financing 
+schemes. They are important enablers for achieving Universal Health Coverage. Through this tool kit,  
+governments and experts will learn how to assess the existing legal, policy, and institutional framework; 
+information and communication technology infrastructure;  and current use of identifiers relevant for the 
+health sector, to inform policy decisions on advancing unique identification in the health sector.
+About the Asian Development Bank
+ADB’s vision is an Asia and Pacific region free of poverty. Its mission is to help its developing member 
+countries reduce poverty and improve the quality of life of their people. Despite the region’s many successes, 
+it remains home to a large share of the world’s poor. ADB is committed to reducing poverty through inclusive 
+economic growth, environmentally sustainable growth, and regional integration.
+Based in Manila, ADB is owned by 67 members, including 48 from the region. Its main instruments for 
+helping its developing member countries are policy dialogue, loans, equity investments, guarantees, grants, 
+and technical assistance.
+UNIQUE HEALTH 
+IDENTIFIER ASSESSMENT 
+TOOL KIT
+MAY 2018
+ASIAN DEVELOPMENT BANK
+6 ADB Avenue, Mandaluyong City
+1550 Metro Manila, Philippines ASIAN DEVELOPMENT BANK
+www.adb.org

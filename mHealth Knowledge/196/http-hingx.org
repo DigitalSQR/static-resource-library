@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+	<!-- Basic
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>HingX</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="HingX">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="https://hingx.org/Modules/ITG.TeamFusion/Styles/Landing/base.css">
+    <link rel="stylesheet" href="https://hingx.org/Modules/ITG.TeamFusion/Styles/Landing/skeleton.css">
+    <link rel="stylesheet" href="https://hingx.org/Modules/ITG.TeamFusion/Styles/Landing/flexslider.css">
+    <link rel="stylesheet" href="https://hingx.org/Modules/ITG.TeamFusion/Styles/Landing/magnific-popup.css">
+    <link rel="stylesheet" href="https://hingx.org/Modules/ITG.TeamFusion/Styles/Landing/nara.css">
+    <link rel="stylesheet" href="https://hingx.org/Modules/ITG.TeamFusion/Styles/Landing/layout.css">
+    <link rel="stylesheet" href="https://hingx.org/Modules/ITG.TeamFusion/Styles/Landing/animate.css">
+
+	<!-- Fonts
+  ================================================== -->
+    <link href='https://hingx.org/Modules/ITG.TeamFusion/Styles/Landing/fonts/OpenSans/OpenSans.css' rel='stylesheet' type='text/css'>
+    <link href='https://hingx.org/Modules/ITG.TeamFusion/Styles/Landing/fonts/StrokeGap/StrokeGap.css' rel='stylesheet' type='text/css'>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<style type="text/css">
+	#team .member .icon {
+		font-size: 4em;
+	}
+	.quotes .title {
+		color: white;
+	}
+	.quotes button {
+		color: white;
+		border: 1px solid white;
+	}
+	.quotes {
+		margin-top: 100px;
+	}
+	</style>
+
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-33935967-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+</head>
+<body>
+
+	<!-- wrapper -->
+	<div class="wrapper">
+
+		<!-- header -->
+		<header>
+
+			<!-- container -->
+			<div class="container clearfix">
+
+				<div class="one-third column">
+
+					<!-- logo -->
+					<div class="logo"></div>
+					<div class="menu"></div>
+					<!-- logo -->
+
+				</div>
+
+				<div class="two-thirds column">
+
+					<!-- navigation -->
+					<nav class="navigation">
+						<ul>
+							<li data-url="about" data-type="in">About</li>
+							<li data-url="services" data-type="in">Features</li>
+                            <!-- li data-url="/Pricing" data-type="out">Pricing</li-->
+							<li data-url="/Dashboard" data-type="out">Start using HingX</li>
+						</ul>
+					</nav>
+					<!-- navigation -->
+
+				</div>
+
+			</div>
+
+		</header>
+		<!-- header -->
+
+
+		<!-- section -->
+		<section class="home fullscreen" id="home">
+
+			<div class="fullscreen">
+
+				<div class="image fullscreen"></div>
+
+				<div class="overlay fullscreen">
+
+					<div class="content fullscreen">
+
+						<!-- container -->
+						<div class="container vertical-center">
+
+							<div class="title" style="text-transform: none; font-variant: small-caps;">HingX</div>
+							<div class="subtitle">Knowledge Collaboration Platform<br />for Global Health ICT Community</div>
+							
+						</div> 
+						<!-- container -->
+
+						<div class="scroll">Scroll</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</section>
+		<!-- section -->
+
+
+		<!-- section -->
+		<section class="about" id="about">
+
+			<div class="offset">
+
+				<!-- container -->
+				<div class="container">
+
+					<div class="story sixteen columns">
+
+						<div class="title">Social Collaboration that Makes a Difference</div>
+
+						<p class="text center">HingX connects People, Knowledge and Experiences facilitating local capacity building and increasing the adoption success rate of Health ICT initiatives around the world.</p>
+                        
+                        <p class="text center">
+                        	<a href="http://www.youtube.com/watch?v=qxot0Q8Ca10" target="_blank">Watch a one-minute video</a>
+                        </p>
+                        
+						<div class="devider"></div>
+
+					</div>
+
+
+					
+				</div> 
+				<!-- container -->
+
+			</div>
+
+		</section>
+		<!-- section -->
+
+
+		<!-- section -->
+		<section class="team" id="team">
+
+			<div class="offset">
+
+				<!-- container -->
+				<div class="container">
+
+					<div class="sixteen columns">
+
+						<div class="title" style="margin-bottom: 0;">HingX Provides a Single Point of Control</div>
+                        
+                        <div class="text center" style="color: #666666; margin: 40px 0;">Members of your team represent different organizations, countries and communities and already have many productivity tools they use on a daily basis. With HingX, you will be able to share information and organize activities in one secure, structured and easily accessible environment. HingX allows every member of your community to contribute to your initiative, and securely collaborate with internal and external team members on any device, anywhere.</div>
+
+					</div>
+					
+				</div> 
+				<!-- container -->
+
+				<!-- container -->
+				<div class="container">
+
+					<div class="member one-third column">
+
+						<span class="icon icon-Book"></span>
+
+						<div class="title">Knowledge Library</div>
+
+					</div>
+
+					<div class="member one-third column">
+
+						<span class="icon icon-MessageLeft"></span>
+
+						<div class="title">Community Collaboration</div>
+					
+					</div>
+
+					<div class="member one-third column">
+
+						<span class="icon icon-Users"></span>
+
+						<div class="title">Team Coordination</div>
+					
+					</div>
+					
+				</div> 
+				<!-- container -->
+
+				<!-- container -->
+				<div class="container" style="display: none;">
+
+					<div class="sixteen columns">
+
+						<div class="devider"></div>
+
+					</div>
+					
+				</div> 
+				<!-- container -->
+
+			</div>
+
+		</section>
+		<!-- section -->
+
+
+		<!-- section -->
+		<section class="quotes" id="quotes">
+
+			<div class="offset">
+
+				<div class="overlay">
+
+					<!-- container -->
+					<div class="container">
+
+						<div class="sixteen columns">
+
+							<div class="title">Interested in your own<br/>KnowledgePoint<br />SaaS solution based on HingX?</div>
+
+                            <button id="start-trial-button" class="contact" data-url="/Pricing" data-type="out">Options and Pricing</button>
+
+						</div>
+
+					</div>
+					<!-- container -->
+
+				</div>
+
+			</div>
+
+		</section>
+		<!-- section -->
+
+		<!-- section -->
+		<section class="services" id="services">
+
+			<div class="offset">
+
+				<!-- container -->
+				<div class="container">
+
+					<div class="sixteen columns">
+
+						<div class="title">HingX Delivers</div>
+
+					</div>
+					
+				</div> 
+				<!-- container -->
+
+				<!-- container -->
+				<div class="container">
+
+					<div class="filter sixteen columns">
+
+						<ul>
+							<li><span class="icon icon-FileBox"></span></li>
+							<li><span class="icon icon-MessageRight"></span></li>
+							<li><span class="icon icon-Agenda"></span></li>
+							<li><span class="icon icon-ClosedLock"></span></li>
+							<li><span class="icon icon-Tools"></span></li>
+						</ul>
+
+					</div>
+
+					<div class="grid sixteen columns">
+
+						<ul class="slides">
+
+							<li class="service">
+
+								<div class="title">Knowledge Library</div>
+
+								<p class="text">HingX transforms the way you find, create and share Health ICT knowledge. 
+Comprehensive HingX registry, with user defined taxonomy and built-in repository, provides an ecosystem for information to evolve into actionable knowledge.</p>
+<p class="text">With HingX registry you can enhance your content and make it easily searchable by defining and extending metadata to information registered in HingX.</p>
+<p class="text">There is no need to migrate all of your documents into HingX, have it accessible to your community by simply pointing to any external repository or website. Also you have an option to store your information in a secure HingX repository with comprehensive change management capabilities.</p>
+<p class="text">Sharing the knowledge with your team, your community or the word is always just a click way. </p>
+
+							</li>
+
+							<li class="service">
+
+								<div class="title">Community Collaboration</div>
+
+								<p class="text">Effective collaboration is essential to boost community engagement and improve adoption rate. HingX provides you with one central, secure place to facilitate internal and external collaboration along with direct access to all relevant materials, people and activities.</p>
+<p class="text">People are at the center of any activity and with HingX you can create your team by inviting global experts best suited to contribute to your success. You can also take advantage of system suggestions for project participants auto-matched by HingX based on their expertise. To encourage active participation, HingX provides member performance ranking and skills endorsement features.</p>
+<p class="text">HingX provides multiple ways for effective communication within your community. From discussion forums, chat rooms to private and group messages - you have everything you need to stay in touch.</p>
+<p class="text">Minimize email overload with HingX flexible notifications system that will only alert you on what is relevant to you and according to your preferences.</p>
+
+							</li>
+
+							<li class="service">
+
+								<div class="title">Activity Management</div>
+
+								<p class="text">Perfect for coordination of community activities, HingX tasks allow you to track due dates and assign responsibility to individuals or groups. It’s quick and easy to manage dependencies, track progress and attach files to the tasks.</p>
+<p class="text">Stay organized with Gantt charts and aggregated view of all tasks assigned to you across all of your projects.</p>
+<p class="text">With HingX calendar, you can easily set up events and schedule team meetings. You can invite any external participants, attach files and keep collaborative online minutes. Receive event invitations in your email in-box, and automatically see it on your own calendar (Outlook, Google, etc.)</p>
+
+							</li>
+
+							<li class="service">
+
+								<div class="title">Security and Access Control</div>
+
+								<p class="text">Managing who can see, modify or add content is critically important for establishing a secure collaborative environment.  HingX provides a wide range of access control options for each component managed by the system.</p>
+<p class="text">With HingX role management, you can make sure that members of your community have appropriate access to all relevant information and can perform necessary operations.</p>
+<p class="text">Owners of information can protect their data by setting gradual access control for both: the actual content and its metadata description.</p>
+<p class="text">With HingX group management, you can optimize the process of securing information by configuring the default visibility for new resources.</p>
+
+							</li>
+
+							<li class="service">
+
+								<div class="title">Workspace Customization</div>
+
+								<p class="text">Improve operational efficiency, increase visibility of your work and promote knowledge dissemination with fully customizable HingX workspace, where all powerful knowledge management and collaboration features will appear as an essential part of your ecosystem.</p>
+<p class="text">Protect investment into your brand by seamlessly integrating HingX platform into your existing website or have our talented team of web developers create a complete web solution for you.</p>
+<p class="text">With a full range of customizations for managing data, including syndication of content from external sources, your team will always have one place to access all important information.</p>
+<p class="text"><a href="#">See options and pricing</a></p>
+
+							</li>
+
+						</ul>
+
+					</div>
+
+				</div>
+				<!-- container -->
+
+			</div>
+
+		</section>
+		<!-- section -->
+
+
+		<!-- footer -->
+		<footer>
+
+			<div class="offset">
+
+				<!-- container -->
+				<div class="container">
+
+					<div class="sixteen columns" style="margin-bottom: 40px;">
+                        <button class="start-using-hingx" style="color: white; border: 1px solid white;" data-url="/Dashboard" data-type="out">Start using HingX</button>
+					</div>
+					
+				</div> 
+				<!-- container -->
+
+				<!-- container -->
+				<div class="container">
+
+					<div class="sixteen columns">
+						<div class="top">To The Top</div>
+					</div>
+					
+				</div> 
+				<!-- container -->
+
+				<!-- container -->
+				<div class="container">
+
+					<div class="sixteen columns">
+						<h6 class="copyright">Copyright © 2012-2015 HingX</h6>
+					</div>
+					
+				</div> 
+				<!-- container -->
+
+			</div>
+
+		</footer>
+		<!-- footer -->
+
+	</div>
+	<!-- wrapper -->
+
+
+	<div class="loader"></div>
+
+	<!-- javascript -->
+    <script src="https://hingx.org/Modules/ITG.TeamFusion/Scripts/Landing/jquery-1.11.0.min.js" type="text/javascript"></script>
+    <script src="https://hingx.org/Modules/ITG.TeamFusion/Scripts/Landing/jquery-ui-1.10.4.min.js" type="text/javascript"></script>
+    <script src="https://hingx.org/Modules/ITG.TeamFusion/Scripts/Landing/jquery.parallax-1.1.3.js" type="text/javascript"></script>
+    <script src="https://hingx.org/Modules/ITG.TeamFusion/Scripts/Landing/jquery.flexslider-min.js" type="text/javascript"></script>
+    <script src="https://hingx.org/Modules/ITG.TeamFusion/Scripts/Landing/magnific-popup.0.9.9.js" type="text/javascript"></script>
+    <script src="https://hingx.org/Modules/ITG.TeamFusion/Scripts/Landing/modernizr.js"></script>
+    <script src="https://hingx.org/Modules/ITG.TeamFusion/Scripts/Landing/waypoints.js" type="text/javascript"></script>
+    <script src="https://hingx.org/Modules/ITG.TeamFusion/Scripts/Landing/nara-dev.js" type="text/javascript"></script>
+	<!-- javascript -->
+
+</body>
+</html>

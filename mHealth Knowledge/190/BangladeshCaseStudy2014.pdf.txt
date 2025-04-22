@@ -1,0 +1,1034 @@
+Lessons Learned 
+on the Way to 
+500,000 Subscribers
+Acknowledgments
+On behalf of the entire MAMA family, we want to thank the DNet team and the community 
+of stakeholders they have engaged to make MAMA Bangladesh an international model 
+of success. MAMA Bangladesh launched before the broader MAMA program and was the 
+inspiration that sparked the MAMA work on the global level. Thanks to the vision our 
+founding partners — USAID, Johnson & Johnson, United Nations Foundation, mHealth 
+Alliance and BabyCenter — we have been able to turn the ideas, lessons and success of 
+Bangladesh into a global movement that currently reaches more than 1.2 million women and 
+their families. As this work expands globally, we continue to look to the MAMA Bangladesh 
+team as a leader in sharing lessons learned and best practices which guide us all in creating 
+mobile messaging services for scale, impact and sustainability.
+Through the leadership of the DNet team, an innovative group of social entrepreneurs, 
+MAMA Bangladesh is putting the power of health into the hands of more than 500,000 
+women and families. Thank you.
+IN-COUNTRY PARTNERS IN BANGLADESH: 
+PARTNERS THAT CONTRIBUTED TO THE APONJON PILOT INITIATIVE: 
+BANGLADESH PARTNERS:
+MAMA GLOBAL PARTNERS: 
+Table of Contents
+Glossary  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  2
+Executive Summary  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  3
+1 . The Context  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  4
+2 . M AMA and Aponjon Service Overview  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  6
+3 . Formative Research  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  8
+Key findings with regard to female phone ownership,  
+technical literacy and inclusion of family members   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  8
+4 . Content Development  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  10
+Message content identification   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  10
+Message design and production  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  10
+Quality assurance   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  11
+Subsequent adaptations   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 12
+5 . Customer Acquisition   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  13
+CAs and outreach partners  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  13
+Issues with CAs and decision to use BPs   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 15
+Self-registration   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 16
+Media campaigns   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 16
+6 . N GO, Public and Private Partnerships   .  .  .  .  .  .  .  .  .  .  .  .  .  .  18
+Public   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 19
+Corporate   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  20
+Mobile Network Operators   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 21
+Tech platforms and counseling Line  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  22
+7 . Business Model   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  23
+Subscriber fees  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  23
+Advertisement revenue in IVR: a new channel   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  26
+8 . Performance Monitoring Plan  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  27
+Dashboard and monitoring project outputs   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  27
+Measuring change in knowledge, attitudes, behaviors and practices   .  .  .  .  .  .  .  27
+External evaluation by icddr,b   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  29
+Conclusion   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  31
+Endnotes   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  32
+Glossary
+BP Brand Promoter
+BRAC Bangladesh Rural Advancement Committee
+BTRC Bangladesh Telecommunications Regulatory Commission 
+CA Community Agent
+DHS Demographic and Health Survey
+Dnet A  Bangladeshi social enterprise that promotes access to information and knowledge through innovations. 
+Dnet is implementing the MAMA initiative in Bangladesh under the brand name “Aponjon .”
+Gatekeepers K ey family members of enrolled women that include husbands, mothers, mothers-in-law, fathers-in-law or 
+other family members, who may influence decisions around pregnancy and child health or use of mobile 
+phones.
+icddr,b International Centre for Diarrheal Disease Research, Bangladesh
+IVR  Interactive Voice Response, a mobile phone technology allowing for voice- or touchtone-based interaction 
+with an audio menu.
+KABP Knowledge, attitudes, behaviors and practices
+M&E Monitoring and Evaluation
+MAMA Mobile Alliance for Maternal Action
+MaMoni  Integrated safe motherhood and family welfare, newborn care and family planning project, funded by 
+USAID and implemented by Save the Children Bangladesh.
+MDG Millennium Development Goal
+MCC Multimedia Content and Communication Limited, a subsidiary of Dnet
+MCHIP  Maternal and Child Health Integrated Program, a flagship program of USAID’s Global Health Bureau and 
+the primary USAID funding mechanism of MAMA Bangladesh.
+MNCH Maternal, Newborn and Child Health
+MNO Mobile Network Operator 
+MOHFW Ministry of Health and Family Welfare
+NGO Non-Governmental Organization
+NHSDP  (USAID’s) NGO Health Services Delivery Project, implemented by Pathfinder International. Operates 328 
+primary health care clinics and 8,000 satellite clinics nation-wide.
+PMP Performance Monitoring Plan
+SES Socio-economic status
+Shortcodes S pecial telephone numbers – significantly shorter than full telephone numbers – that can be used to 
+address SMS and MMS messages from certain service providers’ mobile phones or fixed phones.
+SMC  Social Marketing Company, a nonprofit established by the Government of Bangladesh, Population Services 
+International and USAID.
+SMS  Short Message Service, a mobile phone technology that allows text messages to be sent to and received by 
+subscribers
+SSD Tech  Systems Solutions and Development Technologies, a software development company in Bangladesh
+Taka Currency of Bangladesh
+UISC Union Information Service Center under the Government of Bangladesh
+USAID United States Agency for International Development
+2
+Executive Summary
+This document explores the programmatic processes, successes and lessons learned by 
+the Mobile Alliance for Maternal Action (MAMA) program in Bangladesh, known locally 
+as Aponjon, meaning “the dear one” in Bangla. MAMA is an innovative public-private 
+partnership that engages a global community to deliver vital health information to new and 
+expectant mothers and their families through the use of mobile technology.
+Bangladesh has made large strides with regards to improving maternal, newborn and child 
+health (MNCH) outcomes, but in order to continue to progress in these areas and achieve 
+the Millennium Development Goals 4 and 5, it is essential that Bangladesh leverage existing 
+and new methods and tools to reach the women and families that need them the most. 
+Of every 100 people in Bangladesh, just 55 have access to sanitation facilities, but 64 have 
+mobile subscriptions.1 This suggests that Bangladesh could both benefit from and support a 
+mobile health program for MNCH.
+In order to fully harness the potential of mobile technology to achieve scale, sustainability 
+and impact, the Aponjon team tackles challenges related to female literacy and phone 
+ownership, and diverse preferences from urban and rural populations. The Aponjon team has 
+developed a highly complex technical platform, conducted robust formative research, and 
+developed a strategic business plan for long term sustainability.
+After a year of pilot testing, Aponjon was launched nationally in December 2012 by 
+Bangladeshi social enterprise Dnet, in partnership with the Government of Bangladesh 
+Ministry of Health and Family Welfare (MOHFW). Dnet has brokered partnerships with 
+five mobile network operators, three large corporate partners and six outreach partners with 
+community agents (CAs) in all 64 districts in Bangladesh. As of mid May 2014, Aponjon was 
+reaching more than 500,000 mothers and families.
+3
+ 1. The Context 
+In Bangladesh, of every The Government of Bangladesh has demonstrated significant interest to improve MNCH 
+100 people, just 55 have through investing resources and making commitments with support from a number of 
+access to sanitation partners. Maternal mortality in Bangladesh has declined at an average of about 3.3 percent 
+services while 64 have per year, compared with the average annual rate of reduction of 3.0 percent required for 
+mobile subscriptions. achieving MDG 5 in 2015. As such, Bangladesh appears to be on track to reduce the maternal 
+This confluence of mortality ratio by three quarters from 1990 levels.2 
+factors — high mobile 
+penetration and a need As Figure 1 demonstrates, Bangladesh is also on track to meet MDG 4: reducing the under-
+to improve MNCH five mortality rate by two-thirds from 1990 levels. Bangladesh’s neonatal mortality decline 
+outcomes — signifies that in the last decade is double the regional and global averages. Figure 2 illustrates the progress 
+a MAMA program is a that Bangladesh has made in MNCH, and its trajectory towards meeting the MDGs.
+good fit for Bangladesh.
+Although Bangladesh has made large strides with regards to improving MNCH outcomes, it 
+must continue to steadily decrease mortality to achieve the 2015 MDG targets. It is essential 
+that Bangladesh leverage existing and new methods and tools to reach the women and 
+families that need it the most. 
+Across the developing world, approximately 40% of people subscribe to mobile services.5 
+In some countries, more people have access to a mobile phone than to a toilet, electricity, 
+or even clean water. In Bangladesh, of every 100 people, just 55 have access to sanitation 
+services while 64 have mobile subscriptions.6 This confluence of factors — high mobile 
+penetration and a need to improve MNCH outcomes — signifies that a MAMA program is a 
+good fit for Bangladesh.
+While the number of mobile subscriptions in the developing world has skyrocketed, 
+women have not proportionately benefitted. The GSMA Development Fund discovered, for 
+example, that “a woman is 23% less likely to own a mobile phone than a man if she lives in 
+Africa, 24% if she lives in the Middle East, and 37% if she lives in South Asia.”7 As such, Dnet 
+hypothesized before Aponjon’s pilot phase that very few women would possess their own 
+phones to receive the messages. Another potential barrier to reaching women over mobile 
+phones is illiteracy—in Bangladesh, female literacy is around 50% and is significantly lower 
+in rural areas (47%) than in urban areas (62%).8  To determine how best to reach women with 
+varying literacy levels and phone ownership, as well as to understand a variety of other 
+related factors, Dnet carried out extensive formative research. 
+4
+FIGURE 1. 
+High-mortality countries with greatest percentage declines  
+in under-five mortality rate from 1990-20123 
+BANGLADESH 72%
+NEPAL 71%
+MALAWI 71%
+LIBERIA 70%
+TANZANIA 68%
+ETHIOPIA 67%
+TIMOR-LESTE 67%
+BHUTAN 66%
+BOLIVIA 66%
+NIGER 65%
+ERITREA 65%
+RWANDA 64%
+MADAGASCAR 63%
+UGANDA 61%
+MOZAMBIQUE 61%
+0% 10% 20% 30% 40% 50% 60% 70% 80%
+DECLINE IN UNDER-FIVE MORTALITY, BY PERCENT
+FIGURE 2. 
+Maternal and Child Health in Bangladesh4 
+MATERNAL MORTALITY RATIO, 
+600 PER 100,000 LIVE BIRTHS 
+574
+500
+400
+322
+300 UNDER 5 MORTALITY, 
+PER 1,000 LIVE BIRTHS
+200 194
+143 143 144
+100 95
+71 51 48
+0
+1990 1995 2000 2005 2010 2015 MDG
+TARGET
+MATERNAL MORTALITY AND UNDER-FIVE MORTALITY IN BANGLADESH, 1990-2015
+5
+ 2.  MAMA and Aponjon  
+Service Overview
+Information is delivered The Mobile Alliance for Maternal Action (MAMA) — founded by the U.S. Agency for 
+twice weekly in one of two International Development, Johnson & Johnson, United Nations Foundation, mHealth 
+forms: SMS or 60-second Alliance and BabyCenter — is an innovative public-private partnership that engages a global 
+voice messages. The community to deliver vital health information to new and expectant mothers and their 
+voice messages are a mix families through the use of mobile technology. MAMA directly supports country programs 
+of “mini-skit” messages, in Bangladesh and South Africa, with India scheduled to launch in 2014. These programs 
+with local actors playing support more than 750,000 women and families through their pregnancies and the first 
+the roles of a doctor, three years of parenting.
+pregnant woman, mother 
+and mother-in-law; and The MAMA Bangladesh program is called Aponjon (meaning ‘the close/dear one’ in 
+direct messages. Bangla). After a year of pilot testing, Aponjon was launched nationally in December 2012 by 
+Bangladeshi social enterprise, Dnet, in partnership with the Government of Bangladesh 
+MOHFW. Dnet has also brokered partnerships with six outreach organizations, five 
+mobile network operators, and three large corporate partners. In the 15 months since 
+launch, it has grown to serve 500,000 mothers and families and trained over 3,000 CAs and 
+brand promoters (BPs) who assist subscribers to sign up for the service. Currently, 88% of 
+customers are registered by assistance through the call center, CAs, or BPs, while just 12% 
+self-register. Self-registration is completed by sending SMS keywords to the shortcode 16227 
+or through dialing 16227 and following the IVR menu to self-register. 
+6
+Information is delivered twice weekly in one of two forms: SMS, or 60-second voice 
+messages. The voice messages are a mix of “mini-skit” messages, with local actors playing 
+the roles of a doctor, pregnant woman, mother and mother-in-law; and direct messages. In 
+the dramatic format, characters enact scenarios in an entertaining and educational way. 
+Dialogues range from the doctor explaining the importance of iron-rich food, to reminding 
+the pregnant character that it is time for her medical checkup. Messages around medical 
+emergencies and warning signs are in the direct, straightforward format. Dnet also created 
+a unique service specifically for husbands and other household members, which reinforces 
+messages provided to the mother and encourages family involvement in healthy decision-
+making around pregnancy, birth and infant care. This service adds one additional message 
+per week, increasing the total from two to three messages weekly. In addition, Dnet offers 
+a counseling line to subscribers which serves as a direct channel to communicate with a 
+doctor about health problems. To offer this service, the Dnet collaborates with Synesis IT, an 
+IT firm that serves as the call center service provider.
+During registration, subscribers are asked to provide the date of their last menstrual period, 
+their estimated delivery date or their baby’s birth date. This information is used to time the 
+messages so that they are delivered to correspond with the user’s pregnancy stage or baby’s 
+age, reflecting her particular experience at that time. The user is also able to select a preferred 
+time of day for message delivery so that the message is received when it is most convenient. 
+Dnet generates multiple streams of revenue through low user fees, advertisements, 
+corporate partnerships and a ‘Sponsor-a-Ma’ campaign in the stores of Bangladesh’s largest 
+retailer. Aponjon costs 2 taka (about $0.025 USD) per message, but the service is provided 
+free-of-charge to the poorest 20% of subscribers. Upon registering subscribers, the Aponjon 
+team collects socioeconomic status information which determines whether or not they 
+qualify for the service free-of-charge.
+7
+ 3.  Formative Research
+The formative research Dnet carried out extensive formative research before launching the service nationally. The 
+was conducted to formative research included 1,403 subscribers from five Divisions, including 349 pregnant 
+gain knowledge in the women (25%), 575 mothers of children under age one (41%), and 479 other household 
+following broad subject decision-makers (e.g. husbands, mothers-in-law) (34%). The formative research period lasted 
+areas: gender and mobile from September 1, 2011- May 31, 2012.
+phone ownership; 
+effective strategies for The formative research was conducted to gain knowledge in the following broad subject 
+enrollment and promoting areas: gender and mobile phone ownership; effective strategies for enrollment and 
+user awareness; promoting user awareness; acceptable cost models; user satisfaction of the content and 
+acceptable cost models; tech platform; influence of content on MNCH-related health seeking behaviors; and the 
+user satisfaction of the involvement of family members in the service. The primary mechanisms included a pre-
+content and tech platform; test focus group, registration forms, deregistration data, payment status data, structured 
+influence of content on interviews, field observations and phone surveys.
+MNCH-related health 
+seeking behaviors; and The Johns Hopkins School of Public Health (JHSPH) mHealth Initiative produced a research 
+the involvement of family report that examines and analyzes Dnet’s formative research. JHSPH’s report explores 
+members in the service. programmatic decision-making and implementation science— making Dnet’s formative 
+research a useful tool for the greater mHealth ecosystem. Findings from JHSPH’s Formative 
+Research Report are included and cited throughout this document. 
+Key findings about female phone ownership,  
+technical literacy and inclusion of family members
+The formative research revealed that female phone ownership was much higher than 
+expected—just over half of the women who subscribed to the Aponjon service reported using 
+their own phones to subscribe to and receive the messages. Of those who did not use their own 
+phones, 35% used a family member’s phone and 6% used their neighbor’s phone. Keeping this in 
+mind, Dnet worked closely with the CAs to choose the best timeslot of the day for a woman to 
+receive the message based on when she would have direct access to a mobile phone. The lack of 
+exclusive access to mobile phones was found to be a challenge to the service in a variety of ways: 
+a series of in-depth interviews revealed that women who could listen to or read the messages on 
+their own did better in terms of retaining the information provided through the service, versus 
+those who had the content of the messages repeated to them through a third party. 
+The team also learned that women who have received little or no schooling tend to be basic 
+users of mobile phones—they know how to receive or discontinue a call by pressing the “send” 
+or “end” button on the phone, but lack further technical literacy. As such, Dnet developed an 
+option to send voice messages through a “message push” service where users receive a voice 
+message through an incoming call and only have to press the receive button to listen to the 
+message. During the in-depth interviews users expressed high levels of satisfaction with this 
+option. Women surveyed also approved of the ability to select a time to listen to the message 
+because it allowed them to listen when they were less busy and/or in the mood to do so. 
+This had implications for the technology platform. Due to the demand from women to 
+receive messages at different times of the day, it was important that the tech platform could 
+effectively manage traffic. Aponjon’s technology partner, SSD-Tech, worked to ensure that at 
+a certain time of day the platform did not fail to deliver messages to certain clients due to 
+8
+volume overload. They worked to predict the volume and make necessary preparations to 
+accommodate varying message flows.
+Dnet also learned that it is important to involve other family members in the program, The formative research 
+e.g. the woman’s husband, mother-in- law, or other relatives, to ensure that the mother is confirmed that inclusion 
+supported. Surprisingly, almost 60% of these “gatekeepers” reported that they do not own of other household 
+the mobile phone they use for the service and the majority (73%) reported that they were decision-makers resulted 
+not heads of their households.9 While no data was collected to disaggregate gatekeepers in better household 
+by gender or age, these findings suggest that many “gatekeepers” are mothers-in-law practices in terms of 
+(Bangladesh has a patrilineal kinship system). nutrition, antenatal visits, 
+preparation for delivery 
+The formative research confirmed that inclusion of other household decision-makers and other types of care 
+resulted in better household practices in terms of nutrition, antenatal visits, preparation for important for a pregnant 
+delivery and other types of care important for a pregnant woman and newborn. Moreover, woman and newborn. 
+willingness to pay for the service was higher when men were included rather than when Moreover, willingness to 
+women paid for the service alone. In the pilot, slightly more than half (53%) of other pay for the service was 
+household members received the messages along with the target women. During the pilot, higher when men were 
+separate messages were provided to these family members, but in a generalized form. Dnet included rather than 
+decided after the pilot to personalize the messages for each type of family member based on when women paid for the 
+the large amount of interest they showed in participating in the service. service alone. 
+9
+ 4. Content Development
+Dnet decided to offer The development of message content for Aponjon was completed by an in-house Dnet 
+the service in the form content team with assistance from Multimedia Content and Communication Limited 
+of voice messages using (MCC), a subsidiary of Dnet. MCC Ltd employed a four-step process to develop the 
+interactive voice response messages, which included: message content development; message design; development of 
+(IVR) in addition to voice and text; and quality assurance.
+SMS in order to reach 
+subscribers with low Message content identification
+literacy levels. Dnet found 
+that 78% of subscribers Message content identification consisted of ethnographic research, a review of national 
+who registered through guidelines and international literature on MNCH, and an expert review by a panel of 
+CAs chose the voice Bangladeshi physicians, researchers and communications professionals. Input and expertise 
+message option. from this panel helped to ensure content comprehensiveness. 
+As part of the process, research was conducted to assess women’s awareness of the 
+Bangladeshi government’s separate circulated MNCH messages. Of those surveyed, 63%  
+said they had heard of them and 77% said that they needed more advice/information 
+in addition to what was contained in these government circulated messages. As such, 
+the Aponjon team decided that its messages should both reinforce and complement the 
+government circulated messages.
+Message design and production
+The ethnographic research consisted of a needs assessment survey of 300 women (with 
+at least one child) and 300 family members. This research was used to gain insight into 
+mothers’ preferences around message delivery, and their ability to understand the content 
+based on different tones and formats. 
+Important findings from this part of the needs assessment included: 63% of survey 
+respondents preferred to have the messages repeated; women first realized they were 
+pregnant around 6-7 weeks; the majority (64%) of respondents reported that they preferred 
+to receive medical advice from a female doctor; and the majority wished to receive messages 
+until the child’s first birthday. As such, the Dnet decided that messages would be sent twice 
+weekly, have the option to be repeated, begin at the sixth week of pregnancy, use the voice of 
+a female doctor and continue until the child’s first birthday.
+Dnet carried out language research to determine which language(s) to use in the text 
+messages. One of the large challenges for SMS was that most (92%) of the basic feature 
+phones did not support Unicode-based Bangla. Conveniently, the majority of survey 
+respondents said their preferred language was Banglish (Bangla written in English 
+characters). In addition, survey respondents were in favor (88%) of customary English words 
+being displayed in English instead of Bangla synonyms. As such, Dnet opted to use Bangla 
+with English characters for SMS messages.
+Dnet decided to offer the service in the form of voice messages using interactive voice 
+response (IVR) in addition to SMS in order to reach subscribers with low literacy levels. 
+Dnet found that 78% of subscribers who registered through CAs chose the voice message 
+option, while subscribers in urban locations and with a higher level of education chose text 
+10
+messages. Dnet conducted audio format research to determine the appropriate format, tone From the formative 
+and character for the messages. Subscribers were asked to listen to the messages in three research, the trust of the 
+different formats and decide which they favored most. Around 82% reported that a lady messages was found to 
+doctor was the most trustworthy source of information. The voice message consisting of a be very high among the 
+dramatic role play with a female doctor, Daktar Apa (“a lady doctor”), was preferred most and subscribers — on a Likert 
+was hence chosen as the primary voice message format. scale of 1-5, most of the 
+subscribers rated their 
+After the needs assessment was conducted, feedback from BabyCenter was obtained and trust of the content as 
+incorporated into the messages. Finally, the messages were officially approved by the 5 (28%), or 4 (63%). In 
+Information, Education and Communication (IEC) committee of the Ministry of Health and addition, over 90% of 
+Family Welfare. the respondents felt that 
+Aponjon messages were 
+In addition, the formative research and content surveys in Chittagong and Sylhet revealed meeting their needs for 
+that the content was difficult for people to understand, specifically older subscribers. As information during and 
+such, Dnet decided to carry out a short ethnographic survey in mid-2013 to identify the after pregnancy.
+specific dialects most commonly spoken by people in these regions. Dnet then translated and 
+recorded the MAMA messages in these local dialects and plans to deploy them in mid-2014.
+Quality assurance
+Quality assurance consisted of user testing in a focus group, structured interviews and 
+surveys during the pilot period and after national level launch. This research was conducted 
+to assess the acceptability of the messages among potential subscribers. 
+From the formative research, the trust of the messages was found to be very high among the 
+subscribers — on a Likert scale of 1-5, most of the subscribers rated their trust of the content 
+as 5 (28%), or 4 (63%). In addition, over 90% of the respondents felt that Aponjon messages 
+were meeting their needs for information during and after pregnancy.
+11
+Subsequent adaptations
+The Aponjon team continues to adapt the messages to meet the demands and needs of 
+subscribers, changes in MNCH care, and best practices in mHealth. For example, Dnet 
+initially had just one set of messages for household members but upon realizing the 
+diversity of this group developed three different message sets: one for the husband, one for 
+the mother-in-law, and one for an “other” category that is intended for a generic household 
+member. The content is more or less the same, but the messages are more personalized – the 
+name of the person being addressed (father, mother-in-law, etc.) is different, as is the way the 
+pregnant woman or new mom is addressed (your wife, your daughter-in-law). 
+Most of the subsequent adaptations have been to cater the content and format of the messages 
+to urban and rural contexts. Urban subscribers reported that much of the content in the 
+messages wasn’t relevant to them, such as the content around health workers and clinics. 
+Dnet developed a set of messages specific to urban settings, which includes content around 
+hospitals, obstetricians, car seats, maternity leave, diapers, etc. 
+Additionally, in the first needs assessment survey, rural people said they wanted a “drama”-
+style voice message, while urban people wanted a more straight-forward format. However, 
+feedback from rural subscribers revealed that in contrast to the findings in the first needs 
+assessment survey, they preferred to receive the most important messages/ information in 
+a more straightforward format. Rural subscribers also articulated that they wanted more 
+repetition of significant content (e.g. information on why a vaccine is important, various 
+reminders on when to go to the clinic for the vaccine), but urban subscribers expressed the 
+desire for message content to be repeated less. This feedback from both groups informed the 
+fourth version of the messages. 
+12
+Customer Acquisition 5. 
+Dnet’s outreach approach includes both assisted registration through local CAs, and self- As of February 2014, 
+registration via SMS, IVR or a call center. there were approximately 
+3,000 CAs working 
+CAs and outreach partners across 44 districts in 
+all seven administrative 
+Aponjon receives assistance from CAs from outreach partner organizations who make divisions. 
+door-to-door visits in rural, remote and often isolated regions of the country. These CAs 
+have gained the trust of their communities by providing advice and access to services and The formative research 
+information. As such, CAs serve as a gateway to reach and inspire women and their family revealed that 78% of 
+members to enroll in the service. As of February 2014, there were approximately 3,000 CAs subscribers were enrolled 
+working across 44 districts in all seven administrative divisions. in Aponjon through CAs.
+In these districts, CAs assist women with enrollment in the service by filling out a registration 
+form. The registration form covers information on socio-economic status, education, date of 
+last menstrual period or the baby’s birth date, a valid mobile phone number of the woman and/
+or valid mobile phone number(s) of her husband/ family members (if they wish to subscribe to 
+the service), choice of the channel of message delivery (IVR/SMS), and the time to receive the 
+IVR messages. If a woman chooses to opt in a family member to be included in the service, she 
+makes a decision as to whether both messages (two for her and one for the family member) 
+should be pushed to the same mobile phone or to two different mobile phones. Completed 
+forms are sent to the Dnet office to be entered into the registration database managed jointly 
+by the Dnet technology team and SSD-Tech, Dnet’s primary technical partner.
+The Dnet team determined that continuous communication with the CAs was essential to 
+ensure high-quality registration data and adequate subscription numbers. From September 
+2012 to October 2013, Dnet organized and conducted over 100 batches of training. Dnet also 
+provides the CAs with a notebook manual in Bangla as a short and simple guide. In addition 
+to attending a one-day training session, CAs are expected to answer questions about the 
+service, respond to any issues with service delivery, and inform Dnet of any changes in 
+subscriber status or deregistration requests. Finally, they are expected to observe and report 
+back to Dnet about any changes in subscribers’ health behaviors as a result of the program. 
+The formative research revealed that 78% of subscribers were enrolled in Aponjon through 
+CAs. As CAs serve people in lower-income settings, 51% of subscribers were from the ultra-
+poor category, 25% of subscribers were from the poor category, and 16% came from the lower 
+middle income category. Only 5% of subscribers registered by CAs were from the middle 
+class, and 3% were from the upper middle class or above.10 
+Dnet forged strategic partnerships with six outreach organizations (NGOs and social 
+enterprises) to utilize their field level health workers, referred to as CAs. In addition to the 
+CAs, there are standalone agents (SAs) who belong to the Smiling Sun Clinics of the NGO 
+Service Delivery Project (NHSDP), Blue Star Clinics of Smiling Sun Clinic (SMC) and the 
+Union Information Service Center under the Government of Bangladesh. 
+Dnet’s outreach and training team provides different types of incentives to CAs, SAs and 
+other key stakeholders who are directly involved in field level registration. CAs are given 
+cash incentives in the form of 10 to 15 taka per registration. In addition, they are eligible to 
+13
+receive personal rewards upon successful registration of a certain number of clients (50 
+clients, 100 clients, 500 clients etc.) in the form of a gift such as a branded mug or t-shirt. 
+BRAC (Bangladesh Rural Advancement Committee) is an NGO that works to alleviate poverty 
+and empower the poor. BRAC has a large field level presence for primary health care in rural 
+Bangladesh. BRAC’s CAs, called “Shasthyo Kormis”, assist with rural enrollment in 14 districts. 
+In addition to collaborating with BRAC to reach rural women, Dnet operates Infolady, 
+an entrepreneurship program that focuses on poverty alleviation through improved 
+access to information and knowledge as well as empowerment of rural women and the 
+poor. An Infolady is a trained, rural woman who delivers a variety of Information and 
+Communication Technology (ICT)-based and essential services door-to-door in rural 
+communities. Infoladies offer information and communication services related to health, 
+education and farming, among others. They also provide contraceptives and sanitary 
+napkins to the rural women, who generally do not visit shops to purchase these products 
+for social and cultural reasons. Many Infoladies have gained the trust and acceptance of 
+thousands of rural women. Since 2011, Infoladies have included Aponjon in their service 
+portfolio for rural women and earn extra income in the form of a registration incentive. 
+The Maternal and Child Health Integrated Program (MCHIP) is the USAID Bureau for Global 
+Health’s flagship MNCH program, which focuses on reducing maternal, neonatal and child 
+mortality and accelerating progress towards achieving Millennium Development Goals 4 and 
+5. In 2009, MCHIP received an associate award to build on the work of Save the Children and 
+USAID’s project called ACCESS in the Sylhet and Habiganj divisions in Bangladesh. MCHIP’s 
+project, entitled “MaMoni – Integrated Safe Motherhood, Newborn Care and Family Planning 
+Project,” supports Aponjon in the Habiganj district of Sylhet. In addition, USAID’s NGO Health 
+Services Delivery Project (NHSHP) assigned 1,297 of their health workers and SAs to work as 
+Aponjon CAs across 37 districts of all seven divisions in the country. 
+FIGURE 6. 
+Outreach Partners and CAs by Division, as of February 2014 11
+Outreach Partner Number of CAs with Division
+Aponjon
+NHSDP and Smiling 1297 37 districts across all 7 divisions of Chittagong, 
+Sun Clinics Khulna, Rajshahi, Dhaka, Barisal, Sylhet, Rangpur
+BRAC 1221 14 districts across the 6 divisions of Khulna, Barisal, 
+Dhaka, Chittagong, Rangpur, Rajshahi
+Infolady (run by Dnet) 52 5 districts across 5 divisions in Dhaka, Sylhet, 
+Chittagong, Rangpur and Rajshahi
+UISC 15 Brahmanbaria District in Chittagong
+MaMoni 40  Habiganj district in Sylhet
+SMC 245 24 districts across the 6 divisions of Barisal, 
+Chittagong, Dhaka, Rangpur, Sylhet, Rajshahi
+14
+SMC is a nonprofit established by the Government of Bangladesh, Population Services As of December 2013, 
+International and USAID. SMC is a major contributor to the Bangladesh national family three hundred BPs had 
+planning program, providing contraceptives to more than one third of all users in the subscribed 80,000 
+country. It pioneered the large scale use of life saving oral rehydration salts (ORS) in the people to Aponjon.
+country and operates one of the largest private sector ORS manufacturing facilities in the 
+world. SMC runs Blue Star Clinics, which provide health care to people in different areas of 
+the country. 
+Finally, UISC CAs provided support to Aponjon towards the end of the formative research 
+phase. Today, these CAs are operational only in the Brahmanbaria district in Chittagong. 
+Aponjon has 15 SAs working through 15 UISCs. UISCs are entrepreneurial initiatives run by 
+the Access to Information Office of the government.
+Issues with CAs and decision to use BPs
+Dnet has encountered a few challenges working with CAs. One of the principal problems is 
+that CAs work under specific outreach partner organizations and have other responsibilities 
+and products to sell or promote. CAs are paid by Aponjon’s outreach partner organizations, 
+and therefore are not held financially accountable for the part they play in the Aponjon 
+registration process. As such, many CAs have been found to be inactive in promoting and 
+registering subscribers for the Aponjon service — an assessment in 2013 revealed that of 
+nearly 3,000 CAs, only 700 were active in registering subscribers to Aponjon. 
+To address these challenges, Dnet decided to focus increasing the productivity of active CAs 
+by providing refresher training. The refresher training included a Dnet produced video of an 
+exemplary CA who provides subscribers with accurate and complete information regarding 
+the service. The video reduced costs for the Dnet outreach team as they were required to 
+travel less for training.
+In addition, Dnet decided to introduce brand promoters (BPs) to increase subscription to the 
+service overall, but also to reach urban women and their families as most CAs are deployed 
+to rural and semi-urban areas. BPs are trained professionals whose sole job is to register 
+people to Aponjon. BPs are employed by commercial agencies and local NGOs across the 
+country. BPs work in hospitals, clinics and doctors’ offices to inform potential subscribers 
+about Aponjon and help them register. BPs are deployed in eight districts: Dhaka, Chittagong, 
+Rangpur, Rajshahi, Khulna, Barishal, Sylhet and Mymensing. BPs also promote Aponjon by 
+distributing leaflets, stickers and other materials.
+Dnet found there is a higher one-time hiring and training cost associated with BPs, but little 
+to no maintenance as there are no additional incentives to pay. In addition, BPs have a higher 
+education level than CAs which helps with issues around filling out the registration forms. 
+In addition, because BPs have a designated quota related to their payment, accountability is 
+high. Furthermore, Dnet has put into place check points and continuous monitoring of BPs 
+to avoid false registrations. As of December 2013, almost three hundred BPs have subscribed 
+almost 80,000 people to Aponjon and have been much more efficient than the CAs. However, 
+BPs work primarily in urban areas where subscribers also tend to be better educated and 
+perhaps more able to pay, which may impact their significantly higher registration numbers.
+15
+FIGURE 4. 
+Average number of registrations per individual CA and BP
+350
+CA (AVG REG) BP (AVG REG)
+301
+300
+250
+212
+200 195
+160 167
+150
+114
+100 85
+62
+50
+15 17 16 20 17 18 18 22
+0
+APR. 2013 MAY 2013 JUN. 2013 JUL. 2013 AUG. 2013 SEPT. 2013 OCT. 2013 NOV. 2013
+Self-registration is Self-registration
+completed by sending 
+SMS keywords to the Self-registration is completed by sending SMS keywords to the shortcode 16227 or through 
+shortcode 16227 or dialing 16227 and following the IVR menu to self-register. Currently 12% of the clients are 
+through dialing 16227 and self-registered while the remaining 88% are registered with assistance through the call 
+following the IVR menu center, CAs or BPs. The majority of self-registering subscribers are from the middle class. 
+to self-register. Currently Some of these subscribers learned about the service from popular campaigns organized 
+12% of the clients are during the pilot. Popular campaign enrollment strategies included leaflets, loudspeaker 
+self-registered while broadcasting, posters, arrangements with local hospitals and community meetings. These 
+the remaining 88% are popular campaigns were launched in just a few select urban areas, and as a result only 2% of 
+registered with assistance women and 5% of other household decision-makers recalled these campaigns.
+through the call center, 
+CAs or BPs. The majority Media campaigns
+of self-registering 
+subscribers are from the From October to December 2013 Dnet produced two television commercials, two radio 
+middle class. commercials, two billboards and press advertisement designs. These media campaigns 
+served to announce the launch of Aponjon, raise awareness of its benefits, promote the 
+shortcode 16227, build brand awareness, and establish the visual identity of the brand.
+The television commercials consisted of two versions — one focused on pregnant women 
+and one on new mothers. They aired on four channels, including Bangladesh Television 
+(BTV), a state-owned broadcaster that reaches 80% of the population. The commercials also 
+aired on the highly viewed television cable and satellite channel, ATN Bangla, as well as on 
+Bangla Vision and My TV. As such, it is estimated that the television advertisements reached 
+around five million viewers. 
+Aponjon’s television commercials broke out of the conventional public health communication 
+approach by creating a more humorous and accessible advertisement. Dnet deemed 
+this approach a success due to an increase in the number of calls to the call center and 
+16
+registrations. The media campaign lasted only fifteen days and resulted in a significant 
+increase in the number of new subscribers — 5,919 expecting or new mothers, and 5,270 
+family members. The large number of new family subscribers can be attributed to the fact 
+that the television commercials highlighted that the messages are for husbands and family 
+members as well as pregnant women and new mothers.
+In addition to television commercials, Dnet released two Aponjon radio commercials (one for 
+pregnant women and one for new mothers) that aired on a major FM station, Radio Today, 
+with radio jockeys endorsing the Aponjon service on air. It is estimated that around 200,000 
+people listened to the commercials and radio jockeys. Dnet also extended its Aponjon media 
+campaign to the newspaper, and released thematic press ads in the major dailies in the 
+country for nine days. Around two million people had the opportunity to see the adverts. The 
+primary focus of these ads was the shortcode. 
+Dnet also developed eight billboards and placed them in four major cities — Dhaka, 
+Chittagong, Khulna and Sylhet. The billboards were placed in strategic locations in areas 
+with the highest level of traffic. In addition, Dnet implemented a below-the-line campaign 
+through local NGOs. This campaign consisted of decoration of three-wheeler rickshaws 
+and vans with Aponjon-themed plates, the distribution of 1,000 posters in five districts, and a 
+branded MicroBus for Aponjon field level training and visits. Aponjon’s media campaign also 
+extended to social media and its website. The social media and online campaign included 
+promotion of the Aponjon website through online ads, a Facebook photo and video contest, 
+and a mass email. The social media and online campaign generated more than 10,000 likes 
+and reached almost 1,000,000 people through the Facebook page in nine months.
+Despite relative success, Dnet decided that in the future it would not carry out another large 
+media campaign because it is extremely costly and BP channels are more cost effective. 
+One further TV commercial has been produced and aired. This commercial adopted a more 
+somber tone intended to draw people’s attention to the seriousness of health risks for 
+children in Bangladesh. 
+Local fairs are also leveraged as an opportunity to market the Aponjon service. These fairs, 
+held by Aponjon’s outreach partners (local NGOs), offer free medical services and feature 
+performances by local folk singers and other performers. The Aponjon team distributes flyers 
+and other collateral to attendees. In addition, the MoHFW in Bangladesh permits Dnet to 
+advertise Aponjon at any government health clinic.
+17
+ 6. N GO, Public and Private 
+Partnerships
+Mobile health project Mobile health project implementation is done best through a consortium of partners. Aponjon’s 
+implementation is done consortium includes organizations with technical and content expertise, access to clinical 
+best through a consortium services and health workers, and experience in monitoring and evaluation among others. 
+of partners. Aponjon’s Aponjon has robust partnerships with outreach organizations (as previously discussed), 
+consortium includes the public and private sectors, and fi ve different telecommunication companies. Aponjon’s 
+organizations with technology partnerships will be discussed in a subsequent section of this document.
+technical and content 
+expertise, access to Figure 5 illustrates the variety of partners Aponjon has secured on various levels. At the global 
+clinical services and health level, Aponjon’s partners are MAMA’s partners: Johnson & Johnson, USAID, United Nations 
+workers, and experience in Foundation, the mHealth Alliance and BabyCenter. Johnson & Johnson and USAID provide 
+monitoring and evaluation direct fi nancial support, BabyCenter provides content support, while the mHealth Alliance 
+among others. and the UN Foundation provide technical and programmatic support. At the country level, 
+the Aponjon team builds upon existing USAID and Government of Bangladesh maternal child 
+Dnet serves as the MAMA health and family programs, and is implemented through MCHIP. MCHIP provides technical 
+Secretariat in Bangladesh, support to the MAMA global partnership in its evaluation framework, as well as management 
+and oversees service and technical support to Dnet. MCHIP has awarded a sub-agreement to Dnet to fund specifi c 
+design and deployment. service elements of MAMA in Bangladesh under the brand name Aponjon. Dnet serves as the 
+MAMA Secretariat in Bangladesh, and oversees service design and deployment.
+FIGURE 5. 
+Aponjon Partnerships by Type
+NGOs Government
+For Profit
+18
+Public The Bangladeshi 
+government has been 
+The Bangladeshi government has been involved with Aponjon since the pilot phase. The involved with Aponjon 
+MoHFW is the official government partner of Aponjon. The Ministry takes ownership of the since the pilot phase. 
+initiative through an Advisory Board consisting of representatives from all relevant agencies The MoHFW is the 
+of the government. In addition, The Access to Information Program II (A2I-II) hosted by official government 
+the Prime Minister’s Office spearheads the process of mainstreaming e-service delivery partner of Aponjon. 
+mechanisms within government agencies and as such facilitates coordination among 
+various government agencies for the Aponjon initiative.
+Aponjon’s partnership with the Bangladeshi government helps to coordinate efforts with 
+related public health awareness campaigns run by the government. In addition, the 
+MoHFW validated Aponjon’s messages for accurateness and alignment with national 
+health policies. Government health officials and experts on the Aponjon Technical 
+Committee on Content work to ensure the Aponjon messages align with new health 
+policies, initiatives and information. The partnership with the government also provides 
+Aponjon with the opportunity to form new partnerships with national and international 
+entities at forums and events. 
+Another important public sector contribution comes from the Bangladesh 
+Telecommunications Regulatory Commission (BTRC). BTRC is the regulatory body 
+for telecommunication and value-added services through mobile networks. As such, 
+BTRC coordinates with all telecommunications operators on Aponjon’s behalf and helped 
+secure approvals for differential charging for national scale operations. In addition to 
+providing technical assistance, BTRC aided Dnet in initiating technical integration with 
+Teletalk, Bangladesh’s state-run mobile network operator. BTRC also approved the Aponjon 
+Counseling line, a new Aponjon service which allows active subscribers to call a hotline 
+number to talk to a doctor. BTRC has the authority to assign and manage the shortcodes, and 
+has provided Dnet with access to and help managing its shortcodes.
+19
+Aponjon’s partners in the Corporate 
+private sector, Beximco 
+Pharmaceuticals, Lal Teer Aponjon’s partners in the private sector, Beximco Pharmaceuticals, Lal Teer Seed and 
+Seed and Rahimafrooz Rahimafrooz Superstores, bring diverse expertise to the table and promote Aponjon through 
+Superstores, bring diverse their various channels. Beximco Pharmaceuticals Limited (BPL) is a leading manufacturer 
+expertise to the table and of pharmaceuticals and active pharmaceutical ingredients in Bangladesh. BPL is a corporate 
+promote Aponjon through founding partner of Aponjon and provides financial support and promotes Aponjon’s services 
+their various channels. through its country-wide network of doctors. 
+Currently, Aponjon has Lal Teer Seed is the largest biotechnology and seed production company in Bangladesh. Lal 
+completed integration Teer has given in-kind support to Aponjon for below-the-line activities to make the initiative 
+with five major operators successful. For example, they have promoted the Aponjon service in their leaflets, calendars, 
+with a combined market posters, banners, and signboards which reach the doorsteps of farmers in the most remote 
+coverage of 98.8%, and areas of Bangladesh. Moreover, Lal Teer has promoted Aponjon to the families of farmers 
+Dnet is in talks with the through dramas shown in different districts. 
+sixth, Teletalk.
+Rahimafrooz Superstores Limited (RSL) has a retail supermarket chain in Bangladesh 
+called Agora, which sells Aponjon’s Sponsor-a-Ma package. The Sponsor-a-Ma package 
+consists of a gift (e.g. a teddybear) that is purchased in store, coupled with a donation to 
+provide the Aponjon service to a mother for a total of 89 weeks, from her sixth week of 
+pregnancy through her baby’s first year. Sponsor-a-Ma benefits the 30% of mothers living 
+below the poverty line who otherwise would not be able to afford Aponjon. Rahimafrooz has 
+coordinated with Agora chain stores to set up a display stall where people can learn more 
+about this Sponsor-a-Ma package and Aponjon service. 
+FIGURE 7. 
+Telecommunications Operators in Bangladesh
+Mobile Network Operators Approximate Subscribers (millions)
+Grameen Phone Ltd. (GP) 47
+Banglalink Digital Communications Limited 28
+Robi Axiata Limited (Robi) 25
+Airtel Bangladesh Limited (Airtel) 8
+Pacific Bangladesh Telecom Limited (Citycell) 1
+Teletalk Bangladesh Ltd. (Teletalk) 3
+Source: BTRC 2013
+20
+Mobile Network Operators
+One of the main challenges that Aponjon faced during its pilot was to get all the mobile 
+network operators (MNOs) under one umbrella. Grameenphone (GP) was the only operator 
+partnered with Dnet at the time of the pilot. As such, areas like Chittagong – which had low 
+GP coverage – had a much lower number of Aponjon subscribers during the pilot. Before 
+the national launch four telecom operators (Grameenphone, Robi, Banglalink, Airtel) were 
+integrated into the Aponjon service. Negotiation and technological integration with each 
+telecom operator was a lengthy and complicated process and each integration was approved 
+by the BTRC. Working with MNOs was also complicated by the fact that Aponjon offers 
+differential charging, but doesn’t charge customers directly. Instead the telecoms charge 
+subscribers and then share part of this revenue with Dnet. 
+Currently, Aponjon has completed integration with five major operators with a combined 
+market coverage of 98.8%, and Dnet is in talks with the sixth, Teletalk.
+21
+Tech platforms and counseling line
+Dnet is currently partnered with SSD-Tech, an IT organization, for its technical platform. SSD-
+Tech hosts servers that contain subscriber information, and maintains the system connection 
+with the telecom operators which is the interface that channels the messages through the 
+service. SSD-Tech handles multiple variations in the modes of delivery (IVR/SMS, push/
+pull, multiple time slots, inclusion/exclusion of family members, free/paid subscriber mode, 
+expecting/new mother mode, stage-based message delivery based on last menstrual period/
+child’s birth date, etc). Handling all of these modes of delivery (around 40 variations in total) 
+requires highly complex technical designs and bandwidth. The large number of delivery 
+types also means that there are many potential bugs and technical glitches. As such, Dnet has 
+around-the-clock monitoring for these issues. The platform is also required to facilitate “MT 
+charging” whereby the client is charged as and when they receive messages.12
+Dnet also collaborates with Synesis IT, an IT firm that serves as the call center service 
+provider. Synesis IT developed a customer relationship management system to cater to the 
+Aponjon service as well as a separate system for the counseling line. In addition, Synesis IT 
+developed a ticketing system linked to the call center that generates “problem tickets” based 
+on calls that communicate issues with the Dnet team. Dnet also has an in-house technology 
+team that has developed solutions to facilitate the service and its monitoring. These include 
+Android applications to be used by BPs to register clients, a project monitoring and reporting 
+system (PMRS), a blogging tool, and many others.
+During field surveys and the formative research, subscribers said that they would like Aponjon 
+to offer a direct channel with which to communicate with a doctor about health problems. After 
+three months of testing, a counseling line service was added to Aponjon’s existing services in 
+April 2013. During the testing phase, female doctors experienced in gynecology, obstetrics and 
+pediatrics were trained to deliver of health information over the counseling line. The service is 
+available to active subscribers only. By dialing the 16227 shortcode, subscribers can speak to an 
+Aponjon doctor about health concerns. In June 2013, 223 new mothers, 405 expecting mothers, 
+and 496 family members called the Aponjon counseling line and talked to doctors. Dnet is aware 
+of the limitations of providing medical advice to clients by doctors over the telephone and as a 
+result, a large number of referrals to nearby hospitals are made through the service.
+22
+Business Model 7. 
+Aponjon is poised to become the first financially sustainable health information service Aponjon is poised 
+utilizing mobile phones to improve health outcomes at national scale in a developing to become the first 
+country. Dnet uses innovative financing models, leveraging corporate social responsibility financially sustainable 
+(CSR) funding at local and global levels and subsidizing the service for the poorest health information service 
+subscribers by charging a small user fee to the slightly more well-off subscribers. Dnet also utilizing mobile phones to 
+uses advertising and sponsorship donations. improve health outcomes 
+at national scale in a 
+As Figure 8 illustrates, Aponjon is financed primarily though support from development developing country.
+agencies (88%) , namely USAID. The next largest portion of Aponjon’s funding comes from 
+local CSR (7%), followed by the Sponsor-a-Ma campaign (4%). Together, user fees and fees 
+charged to companies interested in using the messaging for advertising make up slightly 
+less than 1% of Aponjon’s funding. 
+Dnet is working to restructure funding for Aponjon to ensure long-term sustainability. Their 
+ideal model would derive more funding from user fees (40%) and rely on development 
+agencies for just 20% of funding. In addition, Dnet aims for local CSR, advertising and the 
+Sponsor-a-Ma campaign to contribute much more to its financing in the future.
+Subscriber fees
+During the pilot phase Dnet established three tiers of service charges depending on the 
+subscribers’ socioeconomic status – free for the ultra-poor, discounted price (1 taka or 1 US 
+cent per message) for the poor, and paid service (2 taka or 2.5 US cents per message) for 
+subscribers with a slightly higher socioeconomic status. A subscriber was determined to be 
+eligible to receive the service for free, at a discounted price or for full price by an algorithm 
+FIGURE 8. FIGURE 9. 
+Current Funding Structure Future Funding Structure
+USER FEES AND SPONSER-A-MA DEVELOPMENT ADVERTISING
+ADVERTISING (1%) 4% AGENCIESLOCAL CSR
+7%
+10%
+20%
+LOCAL 15%
+CSR 40%
+88% 10%
+DEVELOPMENT USER FEES
+AGENCIES SPONSER-A-MA
+23
+FIGURE 10. 
+Formative research payment tiers 13
+Payment status (amount includes tax) Percent and number of subscribers assigned
+Full pay (2.3 taka*) 57%
+Discounted pay (1 taka) 26%
+Free status 17%
+*including tax
+24
+FIGURE 11. 
+Formative research registration data on willingness to pay among pregnant 
+women and new mothers 13
+Pregnant women and new mothers New mothers
+Willing to pay any amount for 7% 8%
+the service
+Willing to a pay a small amount 76% 66%
+Not willing to pay 9% 13%
+Missing 7% 13% 
+using demographic information. Over half of the formative research respondents were One of the lessons learned 
+qualified to pay for the service (57%), while just 17% were eligible to receive the service for free. by Dnet in this regard is 
+that transparency during 
+According to the formative research, out of 300 subscribers registered through BRAC, the enrollment process is 
+44% had incomplete SES data. Incomplete data can be attributed to a number of factors, paramount to obtaining 
+including failure on the part of CAs to disclose pricing information during registration trust of subscribers in the 
+and low literacy levels of CAs impeding their ability to correctly fill out the registration program.
+forms. Dnet has since implemented a variety of changes to ensure that the forms have more 
+complete SES data- including the refresher training of CAs, and hiring of BPs.
+Willingness to pay was assessed at two points during formative research — at registration 
+and during phone surveys post registration. At registration, 349 pregnant women and 
+575 new mothers were surveyed. A very small portion of these pregnant women and new 
+mothers reported being willing to pay “any amount” for the service, while the majority said 
+they were willing to pay “a very small amount.” 
+The second round of research conducted via phone survey did not disaggregate respondents 
+by payment tier and instead assumed that they were all paying full price for the service. 
+Therefore the analysis of this data must also assume that all respondents were paying the 
+full rate. Almost half (45%) of female subscribers paying to receive IVR said the service 
+should cost less than one taka per message, and about one-third (31%) said it should cost 
+between one and five taka per message.14 
+Of the husbands and family members paying to receive IVR messages, 42% reported that 
+they think Aponjon should charge two taka per minute, while almost half (46%) said it should 
+charge between two taka per minute or higher. It is interesting to note that just 11% of female 
+subscribers pay for the service themselves, while almost 90% of gatekeepers paid for the service 
+themselves. As such, subscribers that directly paid for the service were willing to pay more for 
+it, while subscribers who depended on others to pay for the service were less willing to pay for 
+it. Currently, Dnet strives to provide Aponjon free service to the poorest 20% of subscribers.15
+The formative research conducted on willingness to pay revealed a number of issues regarding 
+outreach partners and CAs. Outreach partners and CAs varied widely in their explanation of 
+25
+FIGURE 12. 
+Phone survey data on willingness to pay 16
+How much should the service Pregnant women  Household 
+charge per minute on IVR? and new mothers decision makers
+<1 taka 45% 19%
+1 taka 26% 32%
+2 taka or higher 31% 46%
+the cost of the service to clients and even enrolled subscribers that were not aware that they 
+were being enrolled in the service. Dnet learned during site visits that some CAs did not visit 
+community members before enrolling them in the service but instead used data collected at 
+outreach offices to fill out or partially fill out registration forms to enroll subscribers. This not 
+only affected data quality but raised ethical issues. As such, one of the lessons learned by Dnet 
+in this regard is that transparency during the enrollment process is paramount to obtaining 
+trust of subscribers in the program. If subscribers are unaware or under-informed of the costs 
+this may result in dissatisfaction and distrust of the program and of CAs. Dnet has remedied 
+this situation by focusing on CA training, hiring BPs and through continuous and strategic 
+monitoring. In addition, Aponjon’s sign-up sheets now feature a checkbox for subscribers to tick 
+that says they understand the pricing and all other conditions of the service specifically. 
+Advertisement revenue in IVR: a new channel
+Aponjon currently generates limited revenue from advertisements in voice messages. 
+Findings from content surveys suggested that the subscribers were willing to receive 
+product advertisements along with the service. The benefits to commercial organizations of 
+advertising in the IVR messages include: reaching their target audience, directly accessing 
+a new customer base (reaching customers who were not otherwise accessible), gaining 
+insights through access to Aponjon’s rich user database, increasing customer loyalty and 
+fulfilling CSR requirements. Aponjon currently advertises for SMC’s product Monimix, a 
+government-endorsed micronutrient for children older than six months.
+26
+Performance Monitoring Plan 8. 
+To monitor the implementation and effects of Aponjon, a series of systems and activities were The Dnet team has 
+instituted, which are documented in Aponjon’s performance monitoring plan (PMP). The adopted a unique 
+PMP provides the framework for generating timely, relevant information for managers for approach to measuring 
+evidence-based management decision-making. It outlines approaches for tracking progress KABP outcomes by 
+towards programmatic goals and targets, and details methodologies for measuring change instituting three layers of 
+in MNCH-related knowledge, attitudes and practices. The PMP includes mechanisms that research methodologies.  
+highlight potential problem areas, and establishes a reporting feedback system for all levels of Two methodologies are 
+the program. carried-out periodically 
+by in-house Dnet 
+The PMP breaks down programmatic goals into specifi c output and outcome indicators. researchers, and the 
+Output indicators relate to process-type activities associated with program implementation third is a robust external 
+and related outputs. The outcome indicators rely on periodic surveying methodologies to evaluation which is being 
+measure preventive and care-seeking knowledge, attitudes, and practices of subscribers. conducted by icddr,b.
+Dashboard and monitoring project outputs
+For the output related data, the Dnet team uses an online dashboard that provides 
+graphical presentations of system generated data in real time. To support progress review, 
+troubleshooting, and other management tasks, two main types of indicators are currently 
+displayed via the dashboard: status and performance. Status level indicators track the type 
+of subscriptions and whether they are current or cumulative. Performance indicators track 
+the subscription rates by type of user, type of registration (assisted or self-registration) and 
+within geographical areas of Bangladesh. Figure 13 below provides an examples of graphs on 
+the Aponjon program dashboard.
+ 
+FIGURE 13. 
+Examples of graphs on the Aponjon program dashboard
+Measuring change in knowledge, attitudes, behaviors and practices
+The PMP’s outcome indicators relate to specifi c knowledge, attitude, behavior, and practice 
+(KABP) changes that Dnet expects to effect through the Aponjon service. The Dnet team 
+has adopted a unique approach to measuring KABP outcomes by instituting three layers of 
+27
+The first three phone research methodologies. Two methodologies are carried-out periodically by in-house Dnet 
+surveys found Aponjon researchers, and the third is a robust external evaluation which is being conducted by icddr,b. 
+subscribers to be twice 
+as likely to have attended The first, most frequent and lowest cost methodology is a quarterly phone survey carried-
+four or more antenatal out by call center agents to subscribers. The phone survey questionnaire is relatively 
+care visits, 16% more likely quick, only lasting about 10 to 15 minutes to administer. Participants are asked a series of 
+to have had a facility- questions that test their knowledge on certain topics, explore the source of knowledge when 
+based birth, and 19% more demonstrated and follows-up with questions regarding household practices adopted and 
+likely to have exclusively facility-based services attended during their pregnancy and after birth. The phone surveys 
+breastfed than the national have small samples, due to low participation rates, with initially 60 respondents per round in 
+BDHS average. 2013, but now include 120 respondents per round. 
+The first three periodic phone surveys carried-out between 2012 and 2013 revealed 
+significantly higher percentages of Aponjon subscribers reporting adoption of healthy 
+behaviors as compared with national averages captured in the 2011 Bangladesh 
+Demographics and Health Survey (BDHS). There is no baseline data of KABP levels prior to 
+the service and since the BDHS is recent and covers many MNCH-related practices relevant 
+to Aponjon, program managers found the BDHS to be a cost-effective comparator for the 
+phone survey findings. 
+As the table below reflects, the first three phone surveys found Aponjon subscribers to be 
+twice as likely to have attended four or more antenatal care visits, 16% more likely to have 
+had a facility-based birth, and 19% more likely to have exclusively breastfed than the national 
+BDHS average. 
+The phone surveys also revealed over 97% of respondents said they have already 
+recommended Aponjon to others. When asked about how well they trusted the messages, 
+respondents revealed high levels of trust — on a Likert scale of 1 to 5, with 5 being the 
+highest, 94% said they would rate it as either 4 or 5.
+The phone survey findings are validated by findings from a more robust annual household 
+survey, called the Sample Survey. The Sample Survey covers the same KABP questions as the 
+phone surveys, plus additional questions for more breadth and depth of understanding on 
+the effects of the service on subscribers. The Sample Survey questionnaire takes between 
+30 – 45 minutes, thus the household survey approach is more appropriate for that length 
+FIGURE 14. 
+Aponjon Subscribers vs. 2011 BDHS Results
+Aponjon Subscribers 2011 BDHS Results
+(N = 180)
+Attended 4+ ANC visits 66% 32%
+Had a facility-based birth 45% 29%
+Exclusively breastfed 82% 64%
+28
+than a phone survey would be. The Sample Survey is also used to explore additional topics The phone surveys also 
+pertinent to program managers, such as changes in phone ownership. The first Sample revealed more than 
+Survey was conducted in 2013 with 476 respondents and the 2014 survey is planned to have 97% of respondents 
+1470 respondents. Results of the first Sample Survey are expected to be released in mid-2014. said they have already 
+recommended Aponjon 
+External evaluation by icddr,b to others.
+An independent impact evaluation of the Aponjon program is being conducted by 
+icddr,b through USAID’s Translating Research into Action (TRAction) project. The icddr,b 
+(International Centre for Diarrheal Disease Research, Bangladesh) is an international health 
+research organization in Dhaka, known for developing Oral Rehydration Solution in the 
+1970s. The Aponjon evaluation employs both qualitative and quantitative research methods in 
+four different geographical areas of Bangladesh, with diverse contextual characteristics. 
+29
+Specifically, the evaluation has been designed to answer the following research questions:
+1. D oes the Aponjon program have a positive impact on a mother’s antenatal and postnatal 
+care practices? 
+2.  For those women who adhere to the Aponjon recommendations, do they have a positive 
+impact on their health, and the health of their child?
+3.  What aspects of the messaging are most effective in prompting women who are enrolled 
+to take action?
+Due to the complexities of community-based healthcare delivery in Bangladesh, the kind 
+of facility-based research carried-out in other countries would not be appropriate here. Dr. 
+Elahi, the Principal Investigator, and his team of researchers have designed an extensive 
+evaluation study where the quantitative component includes a household survey with a 
+subscriber/treatment group and a control group to understand if the Aponjon subscribers 
+have a statistically significant higher propensity for specific behaviors and practices 
+promoted through the service than the control group.
+The qualitative phase of the study was completed in 2013, and explored the facilitating 
+factors and barriers in relation to accessibility, acceptability, affordability and utility of 
+the Aponjon intervention. Findings from the qualitative research were used to guide the 
+development of quantitative data collection tools.
+The quantitative component is still underway, with the household level data collection 
+expected to commence in mid-2014. To examine the effects of Aponjon on outcome KABP 
+indicators retrospective observational study with propensity score matching (PSM) is 
+being utilized. In each study area, a sample of study population from subscribers of Aponjon 
+(treatment group) and non-subscribers (control group) will be selected. Data will be collected 
+in two phases. In phase I, a sample (treatment and control) of the study population (520 in 
+each group) will be selected based-on selection criteria (for each within 6 months and 7-12 
+month post-partum). In this phase, background information of the sample population will 
+also be collected and analyzed for PSM. In phase II, all the best-matched selected subjects 
+will be interviewed using the structured questionnaire for their accessibility, engagement to 
+Aponjon intervention including the information for process and outcome indications. To get 
+the required sample (i.e. 1040 in total) it is estimated that about 54,000 households will have 
+to be visited. 
+This study also seeks to address the current gap in empirical evidence globally of the effects 
+of MNCH mobile messaging programs by exploring the accessibility, acceptability and 
+effectiveness of the Aponjon intervention by end-users. Icddr,b intends to share the results of 
+this seminal research nationally and internationally.
+30
+C onclusion
+In the year and a half since its official launch, Aponjon has reached half a million mothers In the year and a half 
+and their families with vital health information through mobile technology, and strives to since its official launch, 
+reach three million in three years. This tremendous accomplishment is due to the hard work, Aponjon has reached 
+dedication, talent and innovative thinking of the consortium of partners at the country and half a million mothers 
+global level that make up Aponjon and MAMA. and their families with 
+vital health information 
+Dnet has overcome challenges related to low female literacy, low female phone ownership through mobile 
+and diverse preferences from urban and rural populations by leveraging a highly complex technology, and strives 
+technical platform and conducting robust formative research. Dnet is working towards to reach three million in 
+achieving long-term sustainability of Aponjon by developing and executing a strategic three years. 
+business plan. Aponjon is on its way to achieving scale and impact via the exceptional work 
+of Dnet, strong partnerships with the highly involved government of Bangladesh, five 
+mobile network operators, three corporations, and six outreach partners. 
+From reaching culturally diverse populations in Chittagong and Sylhet by recording local 
+dialects, to increasing efforts to provide the service free of charge to the poorest subscribers 
+by targeting remote areas, to working to extend the messages through early childhood, 
+Aponjon is committed to serving women and families in Bangladesh who most need access 
+to vital health information.
+31
+  Endnotes
+1  World Bank, “Data: Mobile cellular subscriptions (per 100 people),” 2012, Apr. 2014, 
+<http://data.worldbank.org/indicator/IT.CEL.SETS.P2>
+2  USAID, AUSAID, UNFPA, icddr,b and NIPORT, “Bangladesh Maternal Mortality and 
+Health Care Survey 2010,” MEASURE Evaluation, Dec. 2012.
+3 U NICEF, “Child Info: Monitoring the Situation of Children and Women” 2013, Apr. 2014, 
+<http://www.childinfo.org/mortality_underfive.php>
+4 W HO, “Cause-specific morality and morbidity: Maternal mortality ratio by country,” 
+Global Health Observatory Data Repository, 2013; Bangladesh Maternal Mortality 
+Survey (BMMS) 2001, 2010; Bangladesh DHS 2011.
+5  GSMA, “Scaling Mobile for Development: A strategic opportunity for operators with a 
+presence in emerging markets” 2013, Apr. 2014. 
+6 W orld Bank, “Improved sanitation facilities (% of population with access),” 2012, Apr. 
+2014, <http://data.worldbank.org/indicator/SH.STA.ACSN> 
+7 G SMA, “Women & Mobile: A Global Opportunity: A study on the mobile phone gender 
+gap in low and middle-income countries” GSMA Development Fund, 2013.
+8 W orld Bank Data, “Literacy rate, adult female (% of females ages 15 and above),”2012, Apr. 
+2014, <http://data.worldbank.org/indicator/SE.ADT.LITR.FE.ZS>
+9 D net and Johns Hopkins University Global mHealth Initiative, ‘MAMA ‘Aponjon’ 
+Formative Research Report’  December 2013.
+10  Ibid.
+11  Ibid.
+12 T he two different options to charge for mobile messages are mobile originated (MO) and 
+mobile terminated (MT). People are generally are only charged for messages or calls they 
+initiate, so many operators only have the ability for MO charging. Aponjon pushes voice 
+messages to users’ phones, which means that they are MT messages, but (some) users are 
+still required to pay for them. Because some of the operators can’t do MT charging they’ve 
+set up a subscription process where people are billed weekly instead of per message.
+13 D net and Johns Hopkins University Global mHealth Initiative, ‘MAMA ‘Aponjon’ 
+Formative Research Report’  December 2013.
+14  Ibid.
+15 I bid.
+16  Ibid.
+32
+
+Visit MAMA’s website to learn more  
+about our impact and initiatives: 
+www.mobilemamaalliance.org
+For inquires about working with our  
+partnership, contact: 
+MAMA Global 
+tel: 202.887.9040 
+email: info@mobilemamaalliance.org
+Media inquiries, contact: 
+Stephanie Bowen 
+tel: 202.864.5157 
+email: sbowen@mobilemamaalliance.org
+

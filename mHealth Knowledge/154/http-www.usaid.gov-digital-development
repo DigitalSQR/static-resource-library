@@ -1,0 +1,634 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<!--[if IEMobile 7]><html class="iem7" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"><![endif]-->
+<!--[if lte IE 6]><html class="lt-ie9 lt-ie8 lt-ie7" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]><html class="lt-ie9 lt-ie8" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><!--><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"><!--<![endif]-->
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://www.usaid.gov/sites/all/themes/usaid/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+<meta name="description" content="USAID’s Center for Digital Development promotes a path to self-reliance and resiliency by supporting the development of an inclusive digital economy and the adoption of digital tools and data-driven approaches that improve development effectiveness." />
+<meta name="rating" content="general" />
+<meta name="referrer" content="origin-when-cross-origin" />
+<meta property="og:type" content="government" />
+<meta property="og:url" content="https://www.usaid.gov/digital-development" />
+<meta property="og:title" content="Technology | U.S. Global Development Lab | U.S. Agency for International Development" />
+<meta property="og:description" content="USAID’s Center for Digital Development promotes a path to self-reliance and resiliency by supporting the development of an inclusive digital economy and the adoption of digital tools and data-driven approaches that improve development effectiveness." />
+<meta property="og:image" content="https://www.usaid.gov/sites/default/files/styles/732_width/public/000_Hkg7980460_0.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:creator" content="@usaid" />
+<meta name="twitter:creator:id" content="36683668" />
+<meta name="twitter:url" content="https://www.usaid.gov/digital-development" />
+<meta name="twitter:title" content="Technology | U.S. Global Development Lab | U.S. Agency for" />
+<meta name="twitter:description" content="USAID’s Center for Digital Development promotes a path to self-reliance and resiliency by supporting the development of an inclusive digital economy and the adoption of digital tools and data-driven" />
+<meta name="twitter:image" content="https://www.usaid.gov/sites/default/files/styles/732_width/public/000_Hkg7980460_0.jpg" />
+<meta name="dcterms.date" content="2019-05-21T14:50:28Z" />
+  <title>Technology | U.S. Global Development Lab | U.S. Agency for International Development</title>
+
+  <link type="text/css" rel="stylesheet" href="https://www.usaid.gov/sites/default/files/css/css_kShW4RPmRstZ3SpIC-ZvVGNFVAi0WEMuCnI0ZkYIaFw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.usaid.gov/sites/default/files/css/css_l2Gz-qRZXD8y6CuDETYHxP4zmmHcD5xD4IUeiAanTCQ.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.usaid.gov/sites/default/files/css/css_KM2IV1LS-b3K1b1NCO5i3k2T-XVC9avWpbL8nF0Qvjw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700,300italic,400italic" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.usaid.gov/sites/default/files/css/css_nLBTyI6QlMcWwI3NypyGX6phF1f7NyQT4GNGG-k7Kp8.css" media="print" />
+<link type="text/css" rel="stylesheet" href="https://www.usaid.gov/sites/default/files/css/css_47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.usaid.gov/sites/default/files/css/css_SpmL8dk19G0sCH72uaU9FRDRBmwuQSpgd342INKsgi8.css" media="all" />
+
+<!--[if (lt IE 9)&(!IEMobile)]>
+<link type="text/css" rel="stylesheet" href="https://www.usaid.gov/sites/default/files/css/css_uaLz5UTUcM6FD6BNs1AVfxauxo_DbGwgFyhtuclsvwQ.css" media="all" />
+<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<link type="text/css" rel="stylesheet" href="https://www.usaid.gov/sites/default/files/css/css_7NZZCzuT1j5oW2MUYUPgZ4JwruFbwYU5Mu-1TImNM8I.css" media="all" />
+<!--<![endif]-->
+
+<!--[if IE 6]>
+<link type="text/css" rel="stylesheet" href="https://www.usaid.gov/sites/all/themes/usaid/css/ie-6.css?pwwq0j" media="all" />
+<![endif]-->
+
+<!--[if lte IE 7]>
+<link type="text/css" rel="stylesheet" href="https://www.usaid.gov/sites/all/themes/usaid/css/ie-lte-7.css?pwwq0j" media="all" />
+<![endif]-->
+
+<!--[if lte IE 8]>
+<link type="text/css" rel="stylesheet" href="https://www.usaid.gov/sites/all/themes/usaid/css/ie-lte-8.css?pwwq0j" media="all" />
+<![endif]-->
+  <link rel="apple-touch-icon" href="/sites/all/themes/usaid/touchIcon.png"/>
+  <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet" type="text/css"/>
+  <script type="text/javascript" src="https://www.usaid.gov/sites/default/files/js/js_De0Szha8CawgC0HEQbE_Z33whtKt5QoX_3skg6YVXm8.js"></script>
+<script type="text/javascript" src="https://www.usaid.gov/sites/default/files/js/js_NpX2cwCeepkWZZ194B6-ViyVBHleaYLOx5R9EWBOMRU.js"></script>
+<script type="text/javascript" src="https://www.usaid.gov/sites/default/files/js/js_krBjG8H8EPdsg1HK14sI-UWSQTXS1qgeL6yOiCiaCV0.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-58d16bb895617ac7"></script>
+<script type="text/javascript" src="https://www.usaid.gov/sites/default/files/js/js_GwwerWIx1o8C5Vu_0YTYldTOIDLmmxrm8UBDCZkZSB0.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-30663658-1", {"cookieDomain":"scms.usaid.gov"});ga("set", "anonymizeIp", true);ga("set", "page", location.pathname + location.search + location.hash);ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.usaid.gov/sites/default/files/js/js_0E_b_qKwrbT3jXB9QRk_L8KhC-ALSNAx_LM6XC4pKf4.js"></script>
+<script type="text/javascript" src="https://www.usaid.gov/sites/default/files/js/js_meDomBEy82aWXpUVuohOCqoX7y2SY1EL4mcRvK0f97E.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"usaid","theme_token":"G8UlL4rnvvPxmTLpm4QM2nuWOzxQcZqUPBztxlJtQBE","js":{"sites\/all\/modules\/contrib-hacked\/extlink_extra\/extlink_extra.js":1,"0":1,"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox_inline.js":1,"sites\/all\/modules\/custom\/usaid_photo_video_gallery\/usaid_photo_video_gallery.js":1,"\/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-58d16bb895617ac7":1,"sites\/all\/modules\/contrib\/flickr\/flickr_colorbox.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"1":1,"sites\/all\/themes\/usaid\/js\/usaid.js":1,"sites\/all\/themes\/usaid\/js\/accessibility.js":1,"sites\/all\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/omega\/omega\/js\/jquery.formalize.js":1,"sites\/all\/themes\/omega\/omega\/js\/omega-mediaqueries.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/aggregator\/aggregator.css":1,"sites\/all\/modules\/contrib\/calendar\/css\/calendar_multiday.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/ws\/fusion_search\/theme\/fusion_search.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/ws\/opendata_catalog\/theme\/opendata_catalog.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/flickr\/flickr.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/custom\/usaid_countries\/usaid_countries.css":1,"sites\/all\/modules\/custom\/usaid_fact_sheets\/usaid_fact_sheets.css":1,"sites\/all\/modules\/custom\/usaid_photo_video_gallery\/usaid_photo_video_gallery.css":1,"sites\/all\/modules\/contrib\/node_embed\/plugins\/node_embed\/node_embed.css":1,"https:\/\/fonts.googleapis.com\/css?family=Source+Sans+Pro:400,300,700,300italic,400italic":1,"sites\/all\/themes\/usaid\/css\/usaid-alpha-default.css":1,"sites\/all\/themes\/usaid\/css\/usaid-alpha-default-normal.css":1,"sites\/all\/themes\/usaid\/css\/print.css":1,"sites\/all\/themes\/usaid\/ds_2col.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-reset.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-mobile.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-alpha.css":1,"sites\/all\/themes\/omega\/omega\/css\/formalize.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-branding.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-forms.css":1,"sites\/all\/themes\/usaid\/css\/global.css":1,"ie::normal::sites\/all\/themes\/usaid\/css\/usaid-alpha-default.css":1,"ie::normal::sites\/all\/themes\/usaid\/css\/usaid-alpha-default-normal.css":1,"ie::normal::sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-24.css":1,"narrow::sites\/all\/themes\/usaid\/css\/usaid-alpha-default.css":1,"narrow::sites\/all\/themes\/usaid\/css\/usaid-alpha-default-narrow.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/narrow\/alpha-default-narrow-24.css":1,"normal::sites\/all\/themes\/usaid\/css\/usaid-alpha-default.css":1,"normal::sites\/all\/themes\/usaid\/css\/usaid-alpha-default-normal.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-24.css":1,"sites\/all\/themes\/usaid\/css\/ie-6.css":1,"sites\/all\/themes\/usaid\/css\/ie-lte-7.css":1,"sites\/all\/themes\/usaid\/css\/ie-lte-8.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"field_group":{"div":"full"},"better_exposed_filters":{"views":{"carousels":{"displays":{"block_4":{"filters":[]}}},"home_page_video_block":{"displays":{"block_3":{"filters":[]}}}}},"extlink":{"extTarget":0,"extClass":"ext","extLabel":"(link is external)","extImgClass":0,"extSubdomains":1,"extExclude":"(\\.gov\\\/)|(addthis\\.com\\\/)","extInclude":"","extCssExclude":".flickr-colorbox, .ombext","extCssExplicit":"","extAlert":0,"extAlertText":{"value":"\u003Ch2\u003EYou are leaving the official [site:name] public website\u003C\/h2\u003E\r\n\u003Cp\u003EYou are being directed to a non-government, third-party website:\u003C\/p\u003E\r\n\u003Cp\u003E\u003Cstrong\u003E[extlink:external-url]\u003C\/strong\u003E\u003C\/p\u003E\r\n\u003Cp\u003EThis link is provided for your convenience. Please note that this third-party website is not controlled by [site:name] or subject to our privacy policy.\u003C\/p\u003E\r\n\u003Cp\u003EThank you for visiting our site. We hope your visit was informative and enjoyable.\u003C\/p\u003E\r\n\r\n\u003Cdiv class=\u0022extlink-extra-actions\u0022\u003E\r\n    \u003Cdiv class=\u0022extlink-extra-back-action\u0022\u003E\u003Ca title=\u0022Cancel\u0022 href=\u0022[extlink:back-url]\u0022\u003ECancel\u003C\/a\u003E\u003C\/div\u003E\r\n    \u003Cdiv class=\u0022extlink-extra-go-action\u0022\u003E\u003Ca class=\u0022ext-override\u0022 title=\u0022Go to link\u0022 href=\u0022[extlink:external-url]\u0022\u003EGo to link\u003C\/a\u003E\u003C\/div\u003E\r\n\u003C\/div\u003E\r\n\u003Cbr\/\u003E\u003Cbr\/\u003E\r\n[extlink:timer]","format":"php_code"},"mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"extlink_extra":{"extlink_alert_type":"page","extlink_alert_timer":"5","extlink_alert_url":"\/now-leaving","extlink_cache_fix":1,"extlink_exclude_warning":"","extlink_508_fix":0,"extlink_508_text":" [external link]","extlink_url_override":0,"extlink_url_params":{"external_url":null,"back_url":null}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":1,"trackDomainMode":1,"trackUrlFragments":1},"urlIsAjaxTrusted":{"\/digital-development":true},"omega":{"layouts":{"primary":"normal","order":["narrow","normal"],"queries":{"narrow":"all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)","normal":"all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)"}}}});
+//--><!]]>
+</script>
+  
+    <script async type="text/javascript" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=USAID" id="_fed_an_ua_tag"></script>
+  
+</head>
+
+<body  class="html not-front not-logged-in page-node page-node- page-node-320826 node-type-page i18n-en context-digital-development one-sidebar sidebar-first">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+  <div class="region region-page-top" id="region-page-top">
+  <div class="region-inner region-page-top-inner">
+      </div>
+</div>
+  <div class="page clearfix" id="page">
+      <div id="section-header" class="section section-header">
+  <div id="zone-menu-wrapper" class="zone-wrapper zone-menu-wrapper clearfix">  <div id="zone-menu" class="zone zone-menu clearfix container-24">
+    <div class="grid-6 region region-branding alpha" id="region-branding">
+  <div class="region-inner region-branding-inner">
+    <div class="branding-data clearfix">
+            <div class="logo-img">
+        <a href="/" rel="home" title="U.S. Agency for International Development"><img src="https://www.usaid.gov/sites/all/themes/usaid/logo.png" alt="U.S. Agency for International Development" id="logo" /></a>      </div>
+                        <div class="site-name-slogan element-invisible">
+                        <h2 class="site-title"><a href="/" title="Home">U.S. Agency for International Development</a></h2>
+                              </div>
+          </div>
+      </div>
+</div><div class="grid-12 region region-menu" id="region-menu">
+  <div class="region-inner region-menu-inner">
+        
+<div class="wrapper-menu-block">
+<div class="block block-menu-block block-2 block-menu-block-2 odd block-without-title" id="block-menu-block-2">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="menu-block-wrapper menu-block-2 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu menu-top"><li class="first expanded menu-mlid-1128"><a href="/who-we-are">Who We Are</a><ul class="menu"><li class="mobile_nav"><a class="btn_back" href="#" alt="back">back</a><a alt="Who We Are" href="/who-we-are">Who We Are</a></li><li class="first leaf menu-mlid-63726"><a href="/who-we-are" title="">Who We Are</a></li>
+<li class="leaf menu-mlid-33036"><a href="/who-we-are/mission-vision-values">Mission, Vision and Values</a></li>
+<li class="leaf has-children menu-mlid-1557"><a href="/who-we-are/organization">Organization</a></li>
+<li class="leaf menu-mlid-1519"><a href="/who-we-are/usaid-history">USAID History</a></li>
+<li class="leaf has-children menu-mlid-1527"><a href="/who-we-are/agency-policy">Operational Policy (ADS)</a></li>
+<li class="leaf menu-mlid-2604"><a href="/results-and-data/progress-data/transparency">Transparency</a></li>
+<li class="leaf menu-mlid-2448"><a href="/who-we-are/resource-portal" title="">Resource Portal</a></li>
+<li class="last leaf has-children menu-mlid-72616"><a href="/selfreliance">The Journey to Self-Reliance</a></li>
+</ul></li>
+<li class="expanded active-trail menu-mlid-1141"><a href="/what-we-do" class="active-trail">What We Do</a><ul class="menu"><li class="mobile_nav"><a class="btn_back" href="#" alt="back">back</a><a alt="What We Do" href="/what-we-do">What We Do</a></li><li class="first leaf menu-mlid-31186"><a href="/what-we-do" title="">What We Do</a></li>
+<li class="leaf has-children menu-mlid-1149"><a href="/what-we-do/agriculture-and-food-security">Agriculture and Food Security</a></li>
+<li class="leaf has-children menu-mlid-1152"><a href="/democracy">Democracy, Human Rights and Governance</a></li>
+<li class="leaf has-children menu-mlid-1146"><a href="/what-we-do/economic-growth-and-trade">Economic Growth and Trade</a></li>
+<li class="leaf has-children menu-mlid-1148"><a href="/education" title="Education is critical to broad-based economic growth and poverty reduction. Individual earnings increase by 10 percent for each year of school completed.  Education has a multiplier effect, contributing to greater outcomes in other areas such as health and democracy and governance.">Education</a></li>
+<li class="leaf has-children menu-mlid-1147"><a href="/what-we-do/environment-and-global-climate-change">Environment and Global Climate Change</a></li>
+<li class="leaf has-children menu-mlid-1151"><a href="/what-we-do/gender-equality-and-womens-empowerment">Gender Equality and Women&#039;s Empowerment</a></li>
+<li class="leaf has-children menu-mlid-76316"><a href="/global-health">Global Health</a></li>
+<li class="leaf has-children menu-mlid-74721"><a href="/what-we-do/transformation-at-usaid" title="">Transformation at USAID</a></li>
+<li class="leaf has-children menu-mlid-1150"><a href="/what-we-do/water-and-sanitation">Water and Sanitation</a></li>
+<li class="leaf has-children menu-mlid-1153"><a href="/what-we-do/working-crises-and-conflict">Working in Crises and Conflict</a></li>
+<li class="last leaf has-children active-trail menu-mlid-1154"><a href="/GlobalDevLab/about" class="active-trail">U.S. Global Development Lab</a></li>
+</ul></li>
+<li class="expanded menu-mlid-1142"><a href="/where-we-work" title="Through our assistance programs, USAID plays an active and critical role in the promotion of U.S. foreign policy interests.">Where We Work</a><ul class="menu"><li class="mobile_nav"><a class="btn_back" href="#" alt="back">back</a><a alt="Where We Work" href="/where-we-work">Where We Work</a></li><li class="first leaf menu-mlid-31191"><a href="/where-we-work" title="">Where We Work</a></li>
+<li class="leaf menu-mlid-2220"><a href="https://stories.usaid.gov/usaidmap/" title="">Interactive Map</a></li>
+<li class="leaf has-children menu-mlid-5346"><a href="/where-we-work/afghanistan-and-pakistan">Afghanistan and Pakistan</a></li>
+<li class="leaf has-children menu-mlid-1156"><a href="/where-we-work/africa" title="USAID in Africa">Africa</a></li>
+<li class="leaf has-children menu-mlid-1157"><a href="/where-we-work/asia">Asia</a></li>
+<li class="leaf has-children menu-mlid-1159"><a href="/where-we-work/europe-and-eurasia">Europe and Eurasia</a></li>
+<li class="leaf has-children menu-mlid-1160"><a href="/where-we-work/latin-american-and-caribbean">Latin America and the Caribbean</a></li>
+<li class="leaf has-children menu-mlid-1158"><a href="/where-we-work/middle-east">Middle East</a></li>
+<li class="last leaf menu-mlid-30331"><a href="/mission-directory" title="">Mission Directory</a></li>
+</ul></li>
+<li class="expanded menu-mlid-1143"><a href="/reports-and-data" title="USAID is a business-focused development agency focused on results.">Reports and Data</a><ul class="menu"><li class="mobile_nav"><a class="btn_back" href="#" alt="back">back</a><a alt="Reports and Data" href="/reports-and-data">Reports and Data</a></li><li class="first leaf has-children menu-mlid-31196"><a href="/reports-and-data" title="">Reports and Data</a></li>
+<li class="leaf menu-mlid-11066"><a href="https://results.usaid.gov" title="">Dollars to Results</a></li>
+<li class="leaf menu-mlid-80031"><a href="/reports-and-data/fisma-quarterly-reporting-update">FISMA Quarterly Reporting Update</a></li>
+<li class="leaf has-children menu-mlid-3614"><a href="/results-and-data/data-resources">Data Resources</a></li>
+<li class="leaf has-children menu-mlid-5341"><a href="/evaluation">Evaluation</a></li>
+<li class="leaf has-children menu-mlid-1502"><a href="/results-and-data/planning">Strategy and Planning</a></li>
+<li class="leaf has-children menu-mlid-1501"><a href="/cj">Budget and Spending</a></li>
+<li class="leaf has-children menu-mlid-2616"><a href="/results-and-data/performance-reporting">Performance &amp; Financial Reporting</a></li>
+<li class="last leaf menu-mlid-75111"><a href="/results-and-data/progress-data/agency-financial-report/fy-2018">FY 2018 Agency Financial Report</a></li>
+</ul></li>
+<li class="expanded menu-mlid-1144"><a href="/news-information" title="The latest updates from the U.S. Agency for International Development">News and Information</a><ul class="menu"><li class="mobile_nav"><a class="btn_back" href="#" alt="back">back</a><a alt="News and Information" href="/news-information">News and Information</a></li><li class="first leaf menu-mlid-31201"><a href="/news-information" title="">News and Information</a></li>
+<li class="leaf menu-mlid-1211"><a href="/news-information/press-releases" title="">Press Releases</a></li>
+<li class="leaf menu-mlid-1213"><a href="/news-information/congressional-testimony" title="">Congressional Testimony</a></li>
+<li class="leaf menu-mlid-1212"><a href="/news-information/speeches-testimony" title="">Speeches</a></li>
+<li class="leaf has-children menu-mlid-25661"><a href="/news-information/photo-gallery" title="">Photo Gallery</a></li>
+<li class="leaf menu-mlid-1556"><a href="https://blog.usaid.gov" title="">The Impact Blog</a></li>
+<li class="leaf menu-mlid-2114"><a href="/news-information/fact-sheets" title="">Fact Sheets</a></li>
+<li class="leaf has-children menu-mlid-25666"><a href="/news-information/videos" title="">Videos</a></li>
+<li class="leaf menu-mlid-73946"><a href="/usaid-leads">USAID Leads</a></li>
+<li class="leaf has-children menu-mlid-14836"><a href="/news-information/events" title="">Events</a></li>
+<li class="leaf menu-mlid-6261"><a href="/news-information/newsletter">Newsletter</a></li>
+<li class="leaf menu-mlid-34091"><a href="/results-data/success-stories" title="">Success Stories</a></li>
+<li class="leaf menu-mlid-49986"><a href="https://stories.usaid.gov" title="Stories and videos">Storytelling Hub</a></li>
+<li class="leaf has-children menu-mlid-3610"><a href="/news-information/frontlines" title="">FrontLines Magazine</a></li>
+<li class="leaf has-children menu-mlid-3509"><a href="/branding">Branding</a></li>
+<li class="leaf menu-mlid-76246"><a href="/news-information/message-manual">Message Manual</a></li>
+<li class="last leaf has-children menu-mlid-2356"><a href="/stayconnected">Stay Connected</a></li>
+</ul></li>
+<li class="last expanded menu-mlid-31206"><a href="/work-usaid" title="">Work With USAID</a><ul class="menu"><li class="mobile_nav"><a class="btn_back" href="#" alt="back">back</a><a alt="Work With USAID" href="/work-usaid">Work With USAID</a></li><li class="first leaf has-children menu-mlid-43386"><a href="/business-forecast">Business Forecast</a></li>
+<li class="leaf menu-mlid-80701"><a href="/work-usaid" title="">Work With USAID</a></li>
+<li class="leaf menu-mlid-21361"><a href="/work-usaid/partnership-opportunities/search-for-opportunities" title="">Available Funding Opportunities</a></li>
+<li class="leaf has-children menu-mlid-77311"><a href="/npi">New Partnerships Initiative</a></li>
+<li class="leaf has-children menu-mlid-47371"><a href="/work-usaid/how-to-work-with-usaid">How to Work with USAID</a></li>
+<li class="leaf menu-mlid-74946"><a href="/work-usaid/private-sector-engagement">Private Sector Engagement</a></li>
+<li class="leaf has-children menu-mlid-47391"><a href="/work-usaid/resources-for-partners">Resources for Partners</a></li>
+<li class="leaf has-children menu-mlid-21331"><a href="/work-usaid/get-grant-or-contract/opportunities-funding" title="">Opportunities for Funding: Grant &amp; Partnership Programs</a></li>
+<li class="leaf has-children menu-mlid-72681"><a href="/PreventingSexualMisconduct">Preventing Sexual Misconduct</a></li>
+<li class="leaf has-children menu-mlid-20061"><a href="/partnership-opportunities/build-partnership-us">Build a Partnership With Us</a></li>
+<li class="leaf has-children menu-mlid-20066"><a href="/partnership-opportunities/bring-us-your-ideas">Bring us Your Ideas</a></li>
+<li class="leaf has-children menu-mlid-4446"><a href="/work-usaid/take-action">Get Involved</a></li>
+<li class="last leaf has-children menu-mlid-5651"><a href="/careers">Careers</a></li>
+</ul></li>
+</ul></div>
+    </div>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+<div class="grid-6 region region-search omega" id="region-search">
+  <div class="region-inner region-search-inner">
+    
+<div class="wrapper-fusion-search">
+<div class="block block-fusion-search block-default block-fusion-search-default odd block-without-title" id="block-fusion-search-default">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <form class="fusion-search-block-form" action="/digital-development" method="post" id="fusion-search-block-form-default" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search Fusion</h2>
+    <div class="form-item form-type-textfield form-item-search-terms">
+  <label class="element-invisible" for="edit-search-terms">Enter the terms you wish to search for. </label>
+ <input type="text" id="edit-search-terms" name="search_terms" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<input type="hidden" name="form_build_id" value="form-WB1SFTjH3k2-S6b6Fv-otKbW6gDJHBru2IMTX951HUs" />
+<input type="hidden" name="form_id" value="fusion_search_block_form_default" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div></div>
+</div></form>    </div>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+  </div>
+</div>  <div id="mobile-menu-trigger"><a href="javascript:;"><span class="offscreen">Open/Close Menu</span></a></div>
+</div>  
+      <div id="section-content" class="section section-content">
+  <div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix">  <div id="zone-content" class="zone zone-content clearfix container-24">
+          <div id="breadcrumb" class="grid-24"><div class="breadcrumb"><a href="/">Home</a> » <a href="/what-we-do">What We Do</a> » <a href="/GlobalDevLab/about">U.S. Global Development Lab</a> » Technology</div></div>
+            <div class="grid-6 region region-sidebar-first alpha" id="region-sidebar-first">
+  <div class="region-inner region-sidebar-first-inner">
+    
+<div class="wrapper-menu-block">
+<div class="block block-menu-block block-3 block-menu-block-3 odd block-without-title" id="block-menu-block-3">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="menu-block-wrapper menu-block-3 menu-name-main-menu parent-mlid-0 menu-level-2">
+  <ul class="menu"><li class="first leaf menu-mlid-31186"><a href="/what-we-do" title="">What We Do</a></li>
+<li class="collapsed menu-mlid-1149"><a href="/what-we-do/agriculture-and-food-security">Agriculture and Food Security</a></li>
+<li class="collapsed menu-mlid-1152"><a href="/democracy">Democracy, Human Rights and Governance</a></li>
+<li class="collapsed menu-mlid-1146"><a href="/what-we-do/economic-growth-and-trade">Economic Growth and Trade</a></li>
+<li class="collapsed menu-mlid-1148"><a href="/education" title="Education is critical to broad-based economic growth and poverty reduction. Individual earnings increase by 10 percent for each year of school completed.  Education has a multiplier effect, contributing to greater outcomes in other areas such as health and democracy and governance.">Education</a></li>
+<li class="collapsed menu-mlid-1147"><a href="/what-we-do/environment-and-global-climate-change">Environment and Global Climate Change</a></li>
+<li class="collapsed menu-mlid-1151"><a href="/what-we-do/gender-equality-and-womens-empowerment">Gender Equality and Women&#039;s Empowerment</a></li>
+<li class="collapsed menu-mlid-76316"><a href="/global-health">Global Health</a></li>
+<li class="expanded menu-mlid-74721"><a href="/what-we-do/transformation-at-usaid" title="">Transformation at USAID</a><ul class="menu"><li class="first leaf menu-mlid-74811"><a href="/what-we-do/transformation-at-usaid/transforming-programs">Transforming USAID’s Programs</a></li>
+<li class="leaf menu-mlid-74806"><a href="/what-we-do/transformation-at-usaid/transforming-processes">Transforming USAID&#039;s Processes</a></li>
+<li class="leaf menu-mlid-74816"><a href="/what-we-do/transformation-at-usaid/transforming-structure">Transforming USAID&#039;s Structure</a></li>
+<li class="last leaf menu-mlid-74821"><a href="/what-we-do/transformation-at-usaid/transforming-workforce">Transforming USAID’s Workforce</a></li>
+</ul></li>
+<li class="collapsed menu-mlid-1150"><a href="/what-we-do/water-and-sanitation">Water and Sanitation</a></li>
+<li class="collapsed menu-mlid-1153"><a href="/what-we-do/working-crises-and-conflict">Working in Crises and Conflict</a></li>
+<li class="last expanded active-trail menu-mlid-1154"><a href="/GlobalDevLab/about" class="active-trail">U.S. Global Development Lab</a><ul class="menu"><li class="first collapsed menu-mlid-57481"><a href="/GlobalDevLab/about/science">Science</a></li>
+<li class="expanded active-trail active menu-mlid-77371"><a href="/digital-development" class="active-trail active">Technology</a><ul class="menu"><li class="first leaf menu-mlid-58751"><a href="/digital-development/digital-inclusion" title="About the Lab&#039;s Digital Inclusion Team">Digital Inclusion</a></li>
+<li class="leaf menu-mlid-68656"><a href="/digitalag">Digital Tools for Agriculture</a></li>
+<li class="leaf menu-mlid-80556"><a href="/usaid-digital-strategy">USAID&#039;s Digital Strategy</a></li>
+<li class="leaf menu-mlid-58741"><a href="/digital-development/digital-finance" title="About the Lab&#039;s Digital Finance team">Digital Finance</a></li>
+<li class="leaf menu-mlid-58676"><a href="/digital-development/advanced-geographic-and-data-analysis">Advanced Geographic and Data Analysis</a></li>
+<li class="leaf menu-mlid-58756"><a href="/digital-development/development-informatics">Development Informatics</a></li>
+<li class="leaf menu-mlid-38056"><a href="/digital-development/partners" title="Digital Development Partners">Our Partners</a></li>
+<li class="leaf menu-mlid-69776"><a href="/digital-development/strategy-research">Strategy and Research</a></li>
+<li class="last collapsed menu-mlid-68816"><a href="/digital-development/digis" title="About the Digital Development Awards">Digital Development Awards</a></li>
+</ul></li>
+<li class="collapsed menu-mlid-57876"><a href="/GlobalDevLab/about/innovation">Innovation</a></li>
+<li class="collapsed menu-mlid-40626"><a href="/GlobalDevLab/global-partnerships">Partnership</a></li>
+<li class="collapsed menu-mlid-57886"><a href="/GlobalDevLab/about/cross-cutting-activities">Cross-Cutting Activities</a></li>
+<li class="last leaf menu-mlid-34451"><a href="/GlobalDevLab/partner">Work with the Lab</a></li>
+</ul></li>
+</ul></div>
+    </div>
+  </div>
+</div>
+</div>
+<div id="mobile-sub-nav-trigger"><a href="javascript:;" showText="Show Navigation" hideText="Hide Navigation" ></a></div>  </div>
+</div><div class="grid-18 region region-main-content  alpha omega " id="region-main-content">
+  <div class="region-inner region-main-content-inner">
+    <div class="grid-18 region region-title region-title-page  alpha omega " id="region-title">
+  <div class="region-inner region-title-inner">
+    <a id="main-content"></a>
+                <h1 class="title" id="page-title">Technology</h1>
+                          </div>
+</div>
+<div class="grid-18 region region-content  alpha " id="region-content">
+  <div class="region-inner region-content-inner">
+        
+<div class="wrapper-system">
+<div class="block block-system block-main block-system-main odd block-without-title" id="block-system-main">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div about="/digital-development" typeof="foaf:Document" class="node node-page node-published node-not-promoted node-not-sticky author-19 even clearfix node-full" id="node-page-320826">
+        <span property="dc:title" content="Technology" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>    
+  
+  <div class="content clearfix">
+    <div id="node-page-full-group-image" class=" group_image field-group-div"><div class="field field-name-field-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img typeof="foaf:Image" src="https://www.usaid.gov/sites/default/files/styles/732_width/public/000_Hkg7980460_0_1.jpg?itok=0WJlCIE4" alt="Afghan women sit in a class and study using mobile phones in Kabul. Jawad Jalali/AFP " title="Afghan women sit in a class and study using mobile phones in Kabul. " /></div></div></div><div class="field field-name-field-image-caption field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">Afghan women sit in a class and study using mobile phones in Kabul. </div></div></div><div class="field field-name-field-image-credit field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">Jawad Jalali/AFP </div></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p dir="ltr">Digital technologies have transformed the ways in which we interact with businesses, governments, and each other. While much of the world has access to a basic mobile phone, the full potential for digital technologies has not yet been realized. Right now, approximately four billion people in developing countries still do not have access to the internet, including a staggering 93 percent of households in the least developed countries. And women are, on average, 14 percent less likely to own mobile phones than their male counterparts. This ongoing digital divide decreases stability, reduces resiliency, and prohibits countries from achieving their full potential on their journey to self-reliance.</p>
+<p dir="ltr">As part of USAID’s U.S. Global Development Lab, the Center for Digital Development (CDD) works to address gaps in digital access, affordability, and advance the use of technology and advanced data analysis in development. Taking a multi-pronged approach, CDD leverages the resources of USAID, its implementing partners, and other actors in three main ways:</p>
+<ul><li>Catalyzing Inclusing Digital Economies
+<ul><li>Leveraging multi-stakeholder alliances, CDD supports the enabling environment that serves as a foundation for inclusive digital infrastructure and services.</li>
+</ul></li>
+<li>Building Agency Capacity
+<ul><li>Through a suite of technical trainings, a series of toolkits and guidance documents, and growing network of Mission-based specialists, CDD cultivates a strong community of practice around Digital Development at USAID.</li>
+</ul></li>
+<li>Accelerating USAID Programming
+<ul><li>CDD works to foster market-led innovation and integrate digital technology, advanced data and geographic analysis, and align digital development best practices into the strategic planning and design of enterprise-driven programs across the Agency and with partners.</li>
+</ul></li>
+</ul><h2><span>Learn more About our Teams and Work</span></h2>
+<div class="token-img-right" style="float:right;">
+<div about="/digital-development/2017-DigitalDownload" typeof="sioc:Item foaf:Document" class="node node-document node-published node-not-promoted node-not-sticky author-3066 odd clearfix node-full" id="node-document-277306">
+<div class="document-links">
+<p><a href="https://www.usaid.gov/sites/default/files/documents/15396/2017-Digital-Download.pdf" target="_blank"><img src="https://www.usaid.gov/sites/default/files/DigitalDownload-tmb_0.PNG" alt="2017 Digital Download" title="2017 Digital Download" width="214" /></a></p>
+<p><a href="https://www.usaid.gov/sites/default/files/documents/15396/2017-Digital-Download.pdf" target="_blank">2017 Digital Download</a> <span class="doctype"><img class="file-icon" alt="file icon" title="application/pdf" src="/sites/all/themes/usaid/images/document_icons/icon-pdf.png" />(pdf - 13 MB)</span></p>
+</div>
+</div>
+</div>
+<ul dir="ltr"><li><a href="https://www.usaid.gov/digital-development/digital-inclusion">Digital Inclusion</a></li>
+<li><a href="https://www.usaid.gov/digital-development/digital-finance">Digital Finance</a></li>
+<li><a href="https://www.usaid.gov/digital-development/development-informatics">Development Informatics</a></li>
+<li><a href="https://www.usaid.gov/digital-development/advanced-geographic-and-data-analysis">GeoCenter</a></li>
+<li><a href="https://www.usaid.gov/digitalag">Digital Agriculture</a></li>
+<li><a href="https://www.usaid.gov/digital-development/strategy-research">Strategy and Research</a></li>
+</ul><hr /><p dir="ltr">Connect With Us: @USAID__Digital | <a href="https://usaid.us3.list-manage.com/subscribe?u=4902a6a814c3364e9e5185919&amp;id=9b7cbdddc2">CDD Newsletter Sign Up</a> | <a href="mailto:digitaldevelopment@usaid.gov">digitaldevelopment@usaid.gov</a></p>
+<p> </p>
+</div></div></div>  </div>
+  
+  <div class="clearfix">
+          <div class="links node-links clearfix"></div>
+    
+      </div>
+</div>
+    </div>
+  </div>
+</div>
+</div>
+<p class="last-updated"> Last updated: May 21, 2019</p>
+<div class="wrapper-addthis-basic">
+<div class="block block-addthis-basic block-addthis-block block-addthis-basic-addthis-block odd" id="block-addthis-basic-addthis-block">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Share This Page</h2>
+            
+    <div class="content clearfix">
+      <div class="addthis_inline_share_toolbox"></div>    </div>
+  </div>
+</div>
+</div>
+      </div>
+</div>
+  </div>
+</div>  </div>
+</div><div id="zone-postscript-wrapper" class="zone-wrapper zone-postscript-wrapper clearfix">  <div id="zone-postscript" class="zone zone-postscript clearfix container-24">
+    <div class="grid-12 prefix-6 region region-postscript-first" id="region-postscript-first">
+  <div class="region-inner region-postscript-first-inner">
+      </div>
+</div>
+  </div>
+</div></div>  
+      <div id="section-footer" class="section section-footer">
+  <div id="zone-floating-footer-wrapper" class="zone-wrapper zone-floating-footer-wrapper clearfix">  <div id="zone-floating-footer" class="zone zone-floating-footer clearfix container-24">
+    <div class="grid-24 region region-floating-footer-first" id="region-floating-footer-first">
+  <div class="region-inner region-floating-footer-first-inner">
+    
+<div class="wrapper-block">
+<div class="block block-block block-3 block-block-3 odd block-without-title" id="block-block-3">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div id="floatfootleft">
+  <div class="floatfootitem join">
+    <a href="/work-usaid/careers">
+      <h2>Join</h2>
+      <p>Find out about career opportunities at USAID</p>
+    </a>
+  </div>
+  <div class="floatfootitem act">
+    <a href="/work-usaid/take-action">
+      <h2>Act</h2>
+      <p>Learn how you can get involved and lend a hand.</p>
+    </a>
+  </div>
+  <div class="floatfootitem partner">
+    <a href="/partner-with-us">
+      <h2>Partner</h2>
+      <p>Find business and funding opportunities.</p>
+    </a>
+  </div>
+  <div class="floatfootitem comment">
+    <a href="/contact-us">
+      <h2>Comment</h2>
+      <p>Make a general inquiry or suggest an improvement.</p>
+    </a>
+  </div>
+  <div class="floatfootitem connect">
+    <h2>Connect</h2>
+    <div class="floatfootsocial">
+      <div class="facebook">
+        <a href="https://www.facebook.com/USAID" title="Facebook">
+          Facebook
+          <b></b>
+       </a>
+        
+      </div>
+      <div class="twitter">
+        <a href="https://twitter.com/#!/usaid" title="Twitter">
+          Twitter
+          <b></b>
+       </a>
+      </div>
+      <div class="rss">
+        <a href="/stayconnected" title="RSS">
+          RSS
+          <b></b>
+       </a>        
+      </div>
+      <div class="linkedin">
+        <a href="https://www.linkedin.com/company/usaid" title="LinkedIn">
+          LinkedIn
+          <b></b>
+        </a>
+      </div>
+      <div class="youtube">
+        <a href="https://www.youtube.com/usaidvideo" title="YouTube">
+           YouTube
+          <b></b>
+        </a>
+      </div>
+      <div class="stayconnected">
+        <a href="/stayconnected" title="Stay Connected">
+           Stay Connected
+          <b></b>
+        </a>
+      </div>
+    </div>
+  </div>
+ </div>    </div>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+  </div>
+</div><div id="zone-footer-wrapper" class="zone-wrapper zone-footer-wrapper clearfix">  <div id="zone-footer" class="zone zone-footer clearfix container-24">
+    <div class="grid-6 region region-footer-first" id="region-footer-first">
+  <div class="region-inner region-footer-first-inner">
+    
+<div class="wrapper-menu-block">
+<div class="block block-menu-block block-9 block-menu-block-9 odd block-without-title" id="block-menu-block-9">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="menu-block-wrapper menu-block-9 menu-name-menu-utility-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-60561"><a href="/contact-us">Contact Us</a></li>
+<li class="leaf has-children menu-mlid-1263"><a href="/compliance">Compliance</a></li>
+<li class="leaf has-children menu-mlid-1270"><a href="/forms">Forms</a></li>
+<li class="leaf has-children menu-mlid-1264"><a href="/privacy-policy">Privacy Policy</a></li>
+<li class="leaf has-children menu-mlid-1265"><a href="/egov">EGOV</a></li>
+<li class="leaf menu-mlid-1267"><a href="/no-fear-act">No Fear Act</a></li>
+<li class="leaf menu-mlid-7431"><a href="/accessibility">Accessibility</a></li>
+<li class="leaf has-children menu-mlid-1269"><a href="/open">Open Government</a></li>
+<li class="leaf has-children menu-mlid-56316"><a href="/foia-requests">FOIA</a></li>
+<li class="leaf menu-mlid-3206"><a href="https://oig.usaid.gov" title="">Inspector General</a></li>
+<li class="leaf menu-mlid-63691"><a href="https://www.usa.gov/" title="">usa.gov</a></li>
+<li class="last leaf menu-mlid-69486"><a href="https://2012-2017.usaid.gov" title="Archived USAID.gov content from 2012-2017">Archive</a></li>
+</ul></div>
+    </div>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+<div class="grid-18 region region-footer-second" id="region-footer-second">
+  <div class="region-inner region-footer-second-inner">
+    
+<div class="wrapper-menu-block">
+<div class="block block-menu-block block-4 block-menu-block-4 odd block-without-title" id="block-menu-block-4">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="menu-block-wrapper menu-block-4 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu menu-top"><li class="first expanded menu-mlid-1128"><a href="/who-we-are">Who We Are</a><ul class="menu"><li class="first leaf menu-mlid-63726"><a href="/who-we-are" title="">Who We Are</a></li>
+<li class="leaf menu-mlid-33036"><a href="/who-we-are/mission-vision-values">Mission, Vision and Values</a></li>
+<li class="leaf has-children menu-mlid-1557"><a href="/who-we-are/organization">Organization</a></li>
+<li class="leaf menu-mlid-1519"><a href="/who-we-are/usaid-history">USAID History</a></li>
+<li class="leaf has-children menu-mlid-1527"><a href="/who-we-are/agency-policy">Operational Policy (ADS)</a></li>
+<li class="leaf menu-mlid-2604"><a href="/results-and-data/progress-data/transparency">Transparency</a></li>
+<li class="leaf menu-mlid-2448"><a href="/who-we-are/resource-portal" title="">Resource Portal</a></li>
+<li class="last leaf has-children menu-mlid-72616"><a href="/selfreliance">The Journey to Self-Reliance</a></li>
+</ul></li>
+<li class="expanded active-trail menu-mlid-1141"><a href="/what-we-do" class="active-trail">What We Do</a><ul class="menu"><li class="first leaf menu-mlid-31186"><a href="/what-we-do" title="">What We Do</a></li>
+<li class="leaf has-children menu-mlid-1149"><a href="/what-we-do/agriculture-and-food-security">Agriculture and Food Security</a></li>
+<li class="leaf has-children menu-mlid-1152"><a href="/democracy">Democracy, Human Rights and Governance</a></li>
+<li class="leaf has-children menu-mlid-1146"><a href="/what-we-do/economic-growth-and-trade">Economic Growth and Trade</a></li>
+<li class="leaf has-children menu-mlid-1148"><a href="/education" title="Education is critical to broad-based economic growth and poverty reduction. Individual earnings increase by 10 percent for each year of school completed.  Education has a multiplier effect, contributing to greater outcomes in other areas such as health and democracy and governance.">Education</a></li>
+<li class="leaf has-children menu-mlid-1147"><a href="/what-we-do/environment-and-global-climate-change">Environment and Global Climate Change</a></li>
+<li class="leaf has-children menu-mlid-1151"><a href="/what-we-do/gender-equality-and-womens-empowerment">Gender Equality and Women&#039;s Empowerment</a></li>
+<li class="leaf has-children menu-mlid-76316"><a href="/global-health">Global Health</a></li>
+<li class="leaf has-children menu-mlid-74721"><a href="/what-we-do/transformation-at-usaid" title="">Transformation at USAID</a></li>
+<li class="leaf has-children menu-mlid-1150"><a href="/what-we-do/water-and-sanitation">Water and Sanitation</a></li>
+<li class="leaf has-children menu-mlid-1153"><a href="/what-we-do/working-crises-and-conflict">Working in Crises and Conflict</a></li>
+<li class="last leaf has-children active-trail menu-mlid-1154"><a href="/GlobalDevLab/about" class="active-trail">U.S. Global Development Lab</a></li>
+</ul></li>
+<li class="expanded menu-mlid-1142"><a href="/where-we-work" title="Through our assistance programs, USAID plays an active and critical role in the promotion of U.S. foreign policy interests.">Where We Work</a><ul class="menu"><li class="first leaf menu-mlid-31191"><a href="/where-we-work" title="">Where We Work</a></li>
+<li class="leaf menu-mlid-2220"><a href="https://stories.usaid.gov/usaidmap/" title="">Interactive Map</a></li>
+<li class="leaf has-children menu-mlid-5346"><a href="/where-we-work/afghanistan-and-pakistan">Afghanistan and Pakistan</a></li>
+<li class="leaf has-children menu-mlid-1156"><a href="/where-we-work/africa" title="USAID in Africa">Africa</a></li>
+<li class="leaf has-children menu-mlid-1157"><a href="/where-we-work/asia">Asia</a></li>
+<li class="leaf has-children menu-mlid-1159"><a href="/where-we-work/europe-and-eurasia">Europe and Eurasia</a></li>
+<li class="leaf has-children menu-mlid-1160"><a href="/where-we-work/latin-american-and-caribbean">Latin America and the Caribbean</a></li>
+<li class="leaf has-children menu-mlid-1158"><a href="/where-we-work/middle-east">Middle East</a></li>
+<li class="last leaf menu-mlid-30331"><a href="/mission-directory" title="">Mission Directory</a></li>
+</ul></li>
+<li class="expanded menu-mlid-1143"><a href="/reports-and-data" title="USAID is a business-focused development agency focused on results.">Reports and Data</a><ul class="menu"><li class="first leaf has-children menu-mlid-31196"><a href="/reports-and-data" title="">Reports and Data</a></li>
+<li class="leaf menu-mlid-11066"><a href="https://results.usaid.gov" title="">Dollars to Results</a></li>
+<li class="leaf menu-mlid-80031"><a href="/reports-and-data/fisma-quarterly-reporting-update">FISMA Quarterly Reporting Update</a></li>
+<li class="leaf has-children menu-mlid-3614"><a href="/results-and-data/data-resources">Data Resources</a></li>
+<li class="leaf has-children menu-mlid-5341"><a href="/evaluation">Evaluation</a></li>
+<li class="leaf has-children menu-mlid-1502"><a href="/results-and-data/planning">Strategy and Planning</a></li>
+<li class="leaf has-children menu-mlid-1501"><a href="/cj">Budget and Spending</a></li>
+<li class="leaf has-children menu-mlid-2616"><a href="/results-and-data/performance-reporting">Performance &amp; Financial Reporting</a></li>
+<li class="last leaf menu-mlid-75111"><a href="/results-and-data/progress-data/agency-financial-report/fy-2018">FY 2018 Agency Financial Report</a></li>
+</ul></li>
+<li class="expanded menu-mlid-1144"><a href="/news-information" title="The latest updates from the U.S. Agency for International Development">News and Information</a><ul class="menu"><li class="first leaf menu-mlid-31201"><a href="/news-information" title="">News and Information</a></li>
+<li class="leaf menu-mlid-1211"><a href="/news-information/press-releases" title="">Press Releases</a></li>
+<li class="leaf menu-mlid-1213"><a href="/news-information/congressional-testimony" title="">Congressional Testimony</a></li>
+<li class="leaf menu-mlid-1212"><a href="/news-information/speeches-testimony" title="">Speeches</a></li>
+<li class="leaf has-children menu-mlid-25661"><a href="/news-information/photo-gallery" title="">Photo Gallery</a></li>
+<li class="leaf menu-mlid-1556"><a href="https://blog.usaid.gov" title="">The Impact Blog</a></li>
+<li class="leaf menu-mlid-2114"><a href="/news-information/fact-sheets" title="">Fact Sheets</a></li>
+<li class="leaf has-children menu-mlid-25666"><a href="/news-information/videos" title="">Videos</a></li>
+<li class="leaf menu-mlid-73946"><a href="/usaid-leads">USAID Leads</a></li>
+<li class="leaf has-children menu-mlid-14836"><a href="/news-information/events" title="">Events</a></li>
+<li class="leaf menu-mlid-6261"><a href="/news-information/newsletter">Newsletter</a></li>
+<li class="leaf menu-mlid-34091"><a href="/results-data/success-stories" title="">Success Stories</a></li>
+<li class="leaf menu-mlid-49986"><a href="https://stories.usaid.gov" title="Stories and videos">Storytelling Hub</a></li>
+<li class="leaf has-children menu-mlid-3610"><a href="/news-information/frontlines" title="">FrontLines Magazine</a></li>
+<li class="leaf has-children menu-mlid-3509"><a href="/branding">Branding</a></li>
+<li class="leaf menu-mlid-76246"><a href="/news-information/message-manual">Message Manual</a></li>
+<li class="last leaf has-children menu-mlid-2356"><a href="/stayconnected">Stay Connected</a></li>
+</ul></li>
+<li class="last expanded menu-mlid-31206"><a href="/work-usaid" title="">Work With USAID</a><ul class="menu"><li class="first leaf has-children menu-mlid-43386"><a href="/business-forecast">Business Forecast</a></li>
+<li class="leaf menu-mlid-80701"><a href="/work-usaid" title="">Work With USAID</a></li>
+<li class="leaf menu-mlid-21361"><a href="/work-usaid/partnership-opportunities/search-for-opportunities" title="">Available Funding Opportunities</a></li>
+<li class="leaf has-children menu-mlid-77311"><a href="/npi">New Partnerships Initiative</a></li>
+<li class="leaf has-children menu-mlid-47371"><a href="/work-usaid/how-to-work-with-usaid">How to Work with USAID</a></li>
+<li class="leaf menu-mlid-74946"><a href="/work-usaid/private-sector-engagement">Private Sector Engagement</a></li>
+<li class="leaf has-children menu-mlid-47391"><a href="/work-usaid/resources-for-partners">Resources for Partners</a></li>
+<li class="leaf has-children menu-mlid-21331"><a href="/work-usaid/get-grant-or-contract/opportunities-funding" title="">Opportunities for Funding: Grant &amp; Partnership Programs</a></li>
+<li class="leaf has-children menu-mlid-72681"><a href="/PreventingSexualMisconduct">Preventing Sexual Misconduct</a></li>
+<li class="leaf has-children menu-mlid-20061"><a href="/partnership-opportunities/build-partnership-us">Build a Partnership With Us</a></li>
+<li class="leaf has-children menu-mlid-20066"><a href="/partnership-opportunities/bring-us-your-ideas">Bring us Your Ideas</a></li>
+<li class="leaf has-children menu-mlid-4446"><a href="/work-usaid/take-action">Get Involved</a></li>
+<li class="last leaf has-children menu-mlid-5651"><a href="/careers">Careers</a></li>
+</ul></li>
+</ul></div>
+    </div>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+  </div>
+</div></div>  </div>
+  <div class="region region-page-bottom" id="region-page-bottom">
+  <div class="region-inner region-page-bottom-inner">
+      </div>
+</div>
+<script type="text/javascript" src="https://www.usaid.gov/sites/default/files/js/js_pIpuhvtnpMxfZE6VxtQRDGP-LBDRePjVfD4YZR5xZfI.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var addthis_config = addthis_config||{};addthis_config.data_track_addressbar = false;addthis_config.data_track_clickback = false;
+//--><!]]>
+</script>
+</body>
+</html>

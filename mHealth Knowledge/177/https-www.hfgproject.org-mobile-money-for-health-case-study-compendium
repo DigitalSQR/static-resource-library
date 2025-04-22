@@ -1,0 +1,539 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+<!-- Added to prevent Cross Frame Scripting -->
+<SCRIPT LANGUAGE=javascript>if(top.frames.length!=0)
+top.location=self.document.location;</SCRIPT>
+<!-- End cross frame scripting prevention script -->
+
+<meta charset="UTF-8"/>
+
+<title>Mobile Money for Health Case Study Compendium | HFG</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="stylesheet" type="text/css" href="https://www.hfgproject.org/wp-content/themes/hfg/style.css?cache_bust=95" media="screen"/>
+<link rel="pingback" href="https://www.hfgproject.org/xmlrpc.php"/>
+
+<!--NM Added to prevent caching, per recommendations of USAID security scan, 8/2014-->
+
+<meta http-equiv="Cache-control" content="no-store">
+<meta http-equiv="Cache-control" content="no-cache">
+<meta http-equiv="Pragma" content="no-cache">
+
+<!--End NM added meta tags-->
+
+
+<link rel='dns-prefetch' href='//s.w.org'/>
+<link rel="alternate" type="application/rss+xml" title="HFG &raquo; Feed" href="https://www.hfgproject.org/feed/"/>
+<link rel="alternate" type="application/rss+xml" title="HFG &raquo; Comments Feed" href="https://www.hfgproject.org/comments/feed/"/>
+		<script type="text/javascript">window._wpemojiSettings={"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.hfgproject.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.2.3"}};!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);</script>
+		<style type="text/css">img.wp-smiley,img.emoji{display:inline!important;border:none!important;box-shadow:none!important;height:1em!important;width:1em!important;margin:0 .07em!important;vertical-align:-.1em!important;background:none!important;padding:0!important}</style>
+	<link rel='stylesheet' id='woo-layout-css' href='https://www.hfgproject.org/wp-content/themes/whitelight/css/layout.css?ver=5.2.3' type='text/css' media='all'/>
+<link rel='stylesheet' id='wp-block-library-css' href='https://www.hfgproject.org/wp-includes/css/dist/block-library/style.min.css?ver=5.2.3' type='text/css' media='all'/>
+<link rel='stylesheet' id='dedo-css-css' href='https://www.hfgproject.org/wp-content/plugins/delightful-downloads/assets/css/delightful-downloads.min.css?ver=1.6.6' type='text/css' media='all'/>
+<link rel='stylesheet' id='image-hover-effects-css-css' href='https://www.hfgproject.org/wp-content/plugins/mega-addons-for-visual-composer/css/ihover.css?ver=5.2.3' type='text/css' media='all'/>
+<link rel='stylesheet' id='style-css-css' href='https://www.hfgproject.org/wp-content/plugins/mega-addons-for-visual-composer/css/style.css?ver=5.2.3' type='text/css' media='all'/>
+<link rel='stylesheet' id='font-awesome-latest-css' href='https://www.hfgproject.org/wp-content/plugins/mega-addons-for-visual-composer/css/font-awesome/css/font-awesome.css?ver=5.2.3' type='text/css' media='all'/>
+<link rel='stylesheet' id='woodojo_tabs-css' href='https://www.hfgproject.org/wp-content/plugins/woodojo/bundled/woodojo-tabs/assets/css/style.css?ver=5.2.3' type='text/css' media='all'/>
+<link rel='stylesheet' id='mediaelement-css' href='https://www.hfgproject.org/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.6-78496d1' type='text/css' media='all'/>
+<link rel='stylesheet' id='wp-mediaelement-css' href='https://www.hfgproject.org/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=5.2.3' type='text/css' media='all'/>
+<link rel='stylesheet' id='views-pagination-style-css' href='https://www.hfgproject.org/wp-content/plugins/wp-views/embedded/res/css/wpv-pagination.css?ver=2.5.2' type='text/css' media='all'/>
+<style id='views-pagination-style-inline-css' type='text/css'>.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default>span.wpv-sort-list,.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default .wpv-sort-list-item{border-color:#cdcdcd}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default .wpv-sort-list-item a{color:#444;background-color:#fff}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default a:hover,.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default a:focus{color:#000;background-color:#eee}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default .wpv-sort-list-item.wpv-sort-list-current a{color:#000;background-color:#eee}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-grey>span.wpv-sort-list,.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-grey .wpv-sort-list-item{border-color:#cdcdcd}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-grey .wpv-sort-list-item a{color:#444;background-color:#eee}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-grey a:hover,.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-grey a:focus{color:#000;background-color:#e5e5e5}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-grey .wpv-sort-list-item.wpv-sort-list-current a{color:#000;background-color:#e5e5e5}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-blue>span.wpv-sort-list,.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-blue .wpv-sort-list-item{border-color:#09c}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-blue .wpv-sort-list-item a{color:#444;background-color:#cbddeb}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-blue a:hover,.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-blue a:focus{color:#000;background-color:#95bedd}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-blue .wpv-sort-list-item.wpv-sort-list-current a{color:#000;background-color:#95bedd}</style>
+<script type='text/javascript' src='https://www.hfgproject.org/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://www.hfgproject.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://www.hfgproject.org/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://www.hfgproject.org/wp-content/plugins/mega-addons-for-visual-composer/js/script.js?ver=5.2.3'></script>
+<script type='text/javascript' src='https://www.hfgproject.org/wp-content/themes/hfg/wp-advanced-search/js/scripts.js?ver=1'></script>
+<script type='text/javascript'>//<![CDATA[
+var WPAS_Ajax={"ajaxurl":"https:\/\/www.hfgproject.org\/wp-admin\/admin-ajax.php"};
+//]]></script>
+<script type='text/javascript' src='https://www.hfgproject.org/wp-admin/admin-ajax.php?ver=1'></script>
+<script type='text/javascript' src='https://www.hfgproject.org/wp-content/themes/whitelight/includes/js/third-party.js?ver=5.2.3'></script>
+<script type='text/javascript' src='https://www.hfgproject.org/wp-content/themes/whitelight/includes/js/general.js?ver=5.2.3'></script>
+<script type='text/javascript' src='https://www.hfgproject.org/wp-content/plugins/woodojo/bundled/woodojo-tabs/assets/js/functions.js?ver=1.0.0'></script>
+<script type='text/javascript'>var mejsL10n={"language":"en","strings":{"mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen-off":"Turn off Fullscreen","mejs.fullscreen-on":"Go Fullscreen","mejs.download-video":"Download Video","mejs.fullscreen":"Fullscreen","mejs.time-jump-forward":["Jump forward 1 second","Jump forward %1 seconds"],"mejs.loop":"Toggle Loop","mejs.play":"Play","mejs.pause":"Pause","mejs.close":"Close","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.","mejs.time-skip-back":["Skip back 1 second","Skip back %1 seconds"],"mejs.captions-subtitles":"Captions\/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.mute-toggle":"Mute Toggle","mejs.volume-help-text":"Use Up\/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.ad-skip":"Skip ad","mejs.ad-skip-info":["Skip in 1 second","Skip in %1 seconds"],"mejs.source-chooser":"Source Chooser","mejs.stop":"Stop","mejs.speed-rate":"Speed Rate","mejs.live-broadcast":"Live Broadcast","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};</script>
+<script type='text/javascript' src='https://www.hfgproject.org/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.6-78496d1'></script>
+<script type='text/javascript' src='https://www.hfgproject.org/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=5.2.3'></script>
+<script type='text/javascript'>//<![CDATA[
+var _wpmejsSettings={"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive"};
+//]]></script>
+<script type='text/javascript' src='https://www.hfgproject.org/wp-content/plugins/google-analyticator/external-tracking.min.js?ver=6.5.4'></script>
+<link rel='https://api.w.org/' href='https://www.hfgproject.org/wp-json/'/>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.hfgproject.org/xmlrpc.php?rsd"/>
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.hfgproject.org/wp-includes/wlwmanifest.xml"/> 
+<link rel='prev' title='Asia Public Policy Forum 2015: &#8220;The Financing and Delivery of Public Health Services in Asia”' href='https://www.hfgproject.org/asia-public-policy-forum-2015-the-financing-and-delivery-of-public-health-services-in-asia/'/>
+<link rel='next' title='Accelerating Uptake of HIV Care and Treatment in Côte d´Ivoire: A Pre-service Training Approach' href='https://www.hfgproject.org/accelerating-uptake-of-hiv-care-and-treatment-in-cote-divoire-a-pre-service-training-approach/'/>
+<meta name="generator" content="WordPress 5.2.3"/>
+<link rel="canonical" href="https://www.hfgproject.org/mobile-money-for-health-case-study-compendium/"/>
+<link rel='shortlink' href='https://www.hfgproject.org/?p=12121'/>
+<link rel="alternate" type="application/json+oembed" href="https://www.hfgproject.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.hfgproject.org%2Fmobile-money-for-health-case-study-compendium%2F"/>
+<link rel="alternate" type="text/xml+oembed" href="https://www.hfgproject.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.hfgproject.org%2Fmobile-money-for-health-case-study-compendium%2F&#038;format=xml"/>
+
+<!-- Theme version -->
+<meta name="generator" content="HFG Public Site "/>
+<meta name="generator" content="Whitelight 1.5.13"/>
+<meta name="generator" content="WooFramework 6.2.7"/>
+
+<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<!--  Mobile viewport scale | Disable user zooming as the layout is optimised -->
+<meta content="initial-scale=1.0" name="viewport"/>
+
+<!-- Google Analytics Tracking by Google Analyticator 6.5.4: http://www.videousermanuals.com/google-analyticator/ -->
+<script type="text/javascript">var analyticsFileTypes=[''];var analyticsSnippet='enabled';var analyticsEventTracking='enabled';</script>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-45355034-1']);_gaq.push(['_addDevId','i9k95']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+
+<!-- Google Webfonts -->
+<link href="https://fonts.googleapis.com/css?family=Signika%3A300%2Cregular%2C600%2C700" rel="stylesheet" type="text/css"/>
+
+<!-- Alt Stylesheet -->
+<link href="https://www.hfgproject.org/wp-content/themes/whitelight/styles/default.css" rel="stylesheet" type="text/css"/>
+<!-- Options Panel Custom CSS -->
+<style type="text/css">div#twitter-widget-1{height:459px}</style>
+
+
+<!-- Woo Shortcodes CSS -->
+<link href="https://www.hfgproject.org/wp-content/themes/whitelight/functions/css/shortcodes.css" rel="stylesheet" type="text/css"/>
+
+<!-- Custom Stylesheet -->
+<link href="https://www.hfgproject.org/wp-content/themes/whitelight/custom.css" rel="stylesheet" type="text/css"/>
+
+<!-- Custom Stylesheet In Child Theme -->
+<link href="https://www.hfgproject.org/wp-content/themes/hfg/custom.css" rel="stylesheet" type="text/css"/>
+<!--[if IE 8]>
+    <link rel="stylesheet" type="text/css" href="https://www.hfgproject.org/wp-content/themes/hfg/all-ie-only.css" />
+<![endif]-->
+
+<!--[if !IE]><!-->
+    <link rel="stylesheet" type="text/css" href="https://www.hfgproject.org/wp-content/themes/hfg/media-queries.css?cache_bust=95"/>
+<!--<![endif]-->
+
+<link rel="stylesheet" type="text/css" href="//ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/css/jquery.dataTables.css"/>
+
+</head>
+
+<body class="post-template-default single single-post postid-12121 single-format-standard chrome alt-style-default layout-left-content">
+
+
+
+<div id="wrapper">
+
+    <header id="header">
+        <div class="col-full">
+        
+            <div class="top-wrapper">
+                <!-- USAID Logo -->
+                <div class="col-m-6 col-l-6">
+                    
+
+                                                                        <a target="_blank" href="http://www.usaid.gov" class="usaid-logo col-l-9 mobile-hide" title="The Health Finance and Governance Project">
+                                <script pagespeed_no_defer="">//<![CDATA[
+(function(){var g=this,h=function(b,d){var a=b.split("."),c=g;a[0]in c||!c.execScript||c.execScript("var "+a[0]);for(var e;a.length&&(e=a.shift());)a.length||void 0===d?c[e]?c=c[e]:c=c[e]={}:c[e]=d};var l=function(b){var d=b.length;if(0<d){for(var a=Array(d),c=0;c<d;c++)a[c]=b[c];return a}return[]};var m=function(b){var d=window;if(d.addEventListener)d.addEventListener("load",b,!1);else if(d.attachEvent)d.attachEvent("onload",b);else{var a=d.onload;d.onload=function(){b.call(this);a&&a.call(this)}}};var n,p=function(b,d,a,c,e){this.f=b;this.h=d;this.i=a;this.c=e;this.e={height:window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight,width:window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth};this.g=c;this.b={};this.a=[];this.d={}},q=function(b,d){var a,c,e=d.getAttribute("pagespeed_url_hash");if(a=e&&!(e in b.d))if(0>=d.offsetWidth&&0>=d.offsetHeight)a=!1;else{c=d.getBoundingClientRect();var f=document.body;a=c.top+("pageYOffset"in window?window.pageYOffset:(document.documentElement||f.parentNode||f).scrollTop);c=c.left+("pageXOffset"in window?window.pageXOffset:(document.documentElement||f.parentNode||f).scrollLeft);f=a.toString()+","+c;b.b.hasOwnProperty(f)?a=!1:(b.b[f]=!0,a=a<=b.e.height&&c<=b.e.width)}a&&(b.a.push(e),b.d[e]=!0)};p.prototype.checkImageForCriticality=function(b){b.getBoundingClientRect&&q(this,b)};h("pagespeed.CriticalImages.checkImageForCriticality",function(b){n.checkImageForCriticality(b)});h("pagespeed.CriticalImages.checkCriticalImages",function(){r(n)});var r=function(b){b.b={};for(var d=["IMG","INPUT"],a=[],c=0;c<d.length;++c)a=a.concat(l(document.getElementsByTagName(d[c])));if(0!=a.length&&a[0].getBoundingClientRect){for(c=0;d=a[c];++c)q(b,d);a="oh="+b.i;b.c&&(a+="&n="+b.c);if(d=0!=b.a.length)for(a+="&ci="+encodeURIComponent(b.a[0]),c=1;c<b.a.length;++c){var e=","+encodeURIComponent(b.a[c]);131072>=a.length+e.length&&(a+=e)}b.g&&(e="&rd="+encodeURIComponent(JSON.stringify(s())),131072>=a.length+e.length&&(a+=e),d=!0);t=a;if(d){c=b.f;b=b.h;var f;if(window.XMLHttpRequest)f=new XMLHttpRequest;else if(window.ActiveXObject)try{f=new ActiveXObject("Msxml2.XMLHTTP")}catch(k){try{f=new ActiveXObject("Microsoft.XMLHTTP")}catch(u){}}f&&(f.open("POST",c+(-1==c.indexOf("?")?"?":"&")+"url="+encodeURIComponent(b)),f.setRequestHeader("Content-Type","application/x-www-form-urlencoded"),f.send(a))}}},s=function(){var b={},d=document.getElementsByTagName("IMG");if(0==d.length)return{};var a=d[0];if(!("naturalWidth"in a&&"naturalHeight"in a))return{};for(var c=0;a=d[c];++c){var e=a.getAttribute("pagespeed_url_hash");e&&(!(e in b)&&0<a.width&&0<a.height&&0<a.naturalWidth&&0<a.naturalHeight||e in b&&a.width>=b[e].k&&a.height>=b[e].j)&&(b[e]={rw:a.width,rh:a.height,ow:a.naturalWidth,oh:a.naturalHeight})}return b},t="";h("pagespeed.CriticalImages.getBeaconData",function(){return t});h("pagespeed.CriticalImages.Run",function(b,d,a,c,e,f){var k=new p(b,d,a,e,f);n=k;c&&m(function(){window.setTimeout(function(){r(k)},0)})});})();pagespeed.CriticalImages.Run('/mod_pagespeed_beacon','https://www.hfgproject.org/mobile-money-for-health-case-study-compendium/','YddRYU7ik1',true,false,'av6X1j1dy0U');
+//]]></script><img src="/wp-content/uploads/2016/05/Horizontal_RGB_294.png" alt="HFG" pagespeed_url_hash="3912506277" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/>
+                            </a>
+                                            
+                                    </div>
+
+                <!-- Top Menu Text -->
+                <hgroup class=" col-l-3">
+                    <h1 class="site-title"><a href="https://www.hfgproject.org/">HFG</a></h1>
+                    <h2 class="site-description">The Health Finance and Governance Project</h2>
+                    <div class="mobile-only" id="mobile-menu-hint">Menu</div>
+                    <div class="col-s-5 col-l-12">
+                        <h3 class="nav-toggle"><a href="#navigation">Navigation</a></h3>
+
+                        <nav id="navigation" role="navigation">
+
+                            <!-- Desktop navigation -->
+                            <div class="mobile-hide">
+                                                            </div>
+
+                            <!-- Mobile navigation-->
+                            <div class="mobile-show">
+
+                                <ul id="top-menu" class="nav fl"><li id="menu-item-202" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-202"><a href="https://www.hfgproject.org/about-hfg/">About HFG</a></li>
+<li id="menu-item-34" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-34"><a href="https://www.hfgproject.org/what-we-do/">What We Do</a>
+<ul class="sub-menu">
+	<li id="menu-item-35" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35"><a href="https://www.hfgproject.org/what-we-do/health-financing/">Health Financing</a></li>
+	<li id="menu-item-87" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-87"><a href="https://www.hfgproject.org/what-we-do/health-governance/">Health Governance</a></li>
+	<li id="menu-item-205" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-205"><a href="https://www.hfgproject.org/what-we-do/public-health-management/">Public Health Management</a></li>
+	<li id="menu-item-1144" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1144"><a href="https://www.hfgproject.org/what-we-do/evidence-and-measurement/">Evidence &#038; Measurement</a></li>
+</ul>
+</li>
+<li id="menu-item-46" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-46"><a href="https://www.hfgproject.org/where-we-work/">Where We Work</a>
+<ul class="sub-menu">
+	<li id="menu-item-213" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-213"><a href="https://www.hfgproject.org/where-we-work/africa/">Africa</a></li>
+	<li id="menu-item-214" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-214"><a href="https://www.hfgproject.org/where-we-work/asia/">Asia</a></li>
+	<li id="menu-item-217" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-217"><a href="https://www.hfgproject.org/where-we-work/europe-and-eurasia/">Europe and Eurasia</a></li>
+	<li id="menu-item-216" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-216"><a href="https://www.hfgproject.org/where-we-work/latin-america-and-the-caribbean/">Latin America and the Caribbean</a></li>
+</ul>
+</li>
+<li id="menu-item-15221" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15221"><a href="https://www.hfgproject.org/news-and-successes/">News and Successes</a></li>
+<li id="menu-item-41" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41"><a href="https://www.hfgproject.org/resources/">Resources</a></li>
+</ul>                            </div>
+                        </nav><!-- /#navigation -->
+
+                    </div>
+                </hgroup>
+
+                <!-- Top Logo -->
+                <div class="hfg-logo mobile-hide col-l-3 pull-right">
+
+                    <a href="https://www.hfgproject.org/"><img src="https://www.hfgproject.org/wp-content/uploads/2016/10/Final-HFG-Logo.png" pagespeed_url_hash="3193704337" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                </div>
+
+                <!--Mobile logos -->
+                <div class="col-l-4">
+                    <div class="hfg-logo col-l-3 mobile-show">
+                        <a href="http://www.usaid.gov"><img src="https://www.hfgproject.org/wp-content/themes/hfg/images/USAID_logo_seal.png" width="80px" pagespeed_url_hash="2905587176" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                    </div>
+                    <div class="hfg-logo col-l-7 mobile-show">
+                        <a href="https://www.hfgproject.org/"><img src="https://www.hfgproject.org/wp-content/themes/hfg/images/Final-HFG-Logo.png" width="200px" style="margin-top:6px" pagespeed_url_hash="1297967996" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                    </div>
+                </div>
+
+                <div style="clear:both; z-index: 9999;"></div>
+               
+               <!-- Search and Translate -->
+                <div class="col-l-12">
+
+                    <div id="search-translate-container">
+                        <!-- Search Box -->
+                        <div class="search-wrapper pull-right">
+                            
+                                                            <div class="search_main fix">
+                                    <form method="get" class="searchform" action="https://www.hfgproject.org/">
+
+                                        <input type="text" class="field s" name="s" value="Search…" onfocus="if ( this.value == 'Search…' ) { this.value = ''; }" onblur="if ( this.value == '' ) { this.value = 'Search…'; }"/>
+
+                                        <input type="image" src="https://www.hfgproject.org/wp-content/themes/hfg/images/ico-search.png" class="search-submit" name="submit" alt="Submit"/>
+
+                                        <input type="hidden" name="post_type" value="all"/>
+                                    </form>
+                                    <div class="search-link">
+                                        <a href="/advanced-search/">Advanced Search</a>
+                                    </div>
+                                </div><!--/.search_main-->
+                                                    </div><!-- /.search-wrapper -->     
+
+                        <!-- Translate Box fullwidth -->
+                        <div class="pull-right">
+                            <div id="google_translate_element"></div>
+                            <script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:'en',includedLanguages:'en,es,fr,pt',layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},'google_translate_element');}</script>
+                            <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                        </div>
+                    </div>
+
+                    <!-- Socical Media Icons-->
+                    <div id="social" class="desktop-hide">
+                        <a href="https://twitter.com/hfgproject" target="_blank"><i class="icon-twitter"></i></a>
+                        <a href="https://www.facebook.com/hfgproject.org?ref=hl" target="_blank"><i class="icon-facebook"></i></a>
+
+                        <div class="tablet-only" id="tablet-menu-instructions-wrapper">
+                            <div id="tablet-menu-instructions">
+                                When viewing on a desktop, maximize for optimized view.
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div><!-- /.top-wrapper -->
+
+        <div style="clear:both; z-index: 9999;"></div>
+
+
+        </div><!-- /.col-full -->
+
+                    <div id="wrapper-top" class="mobile-hide">
+                <div id="top">
+                <div class="top-inner"></div>
+                    <nav style="position: absolute; left: 16px; padding-left: 0px;" class="col-full" role="navigation">
+                        <ul id="top-nav" class="nav fl"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-202"><a href="https://www.hfgproject.org/about-hfg/">About HFG</a><span class="nav-spacer"></span></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-34"><a href="https://www.hfgproject.org/what-we-do/">What We Do</a><span class="nav-spacer"></span>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35"><a href="https://www.hfgproject.org/what-we-do/health-financing/">Health Financing</a><span class="nav-spacer"></span></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-87"><a href="https://www.hfgproject.org/what-we-do/health-governance/">Health Governance</a><span class="nav-spacer"></span></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-205"><a href="https://www.hfgproject.org/what-we-do/public-health-management/">Public Health Management</a><span class="nav-spacer"></span></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1144"><a href="https://www.hfgproject.org/what-we-do/evidence-and-measurement/">Evidence &#038; Measurement</a><span class="nav-spacer"></span></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-46"><a href="https://www.hfgproject.org/where-we-work/">Where We Work</a><span class="nav-spacer"></span>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-213"><a href="https://www.hfgproject.org/where-we-work/africa/">Africa</a><span class="nav-spacer"></span></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-214"><a href="https://www.hfgproject.org/where-we-work/asia/">Asia</a><span class="nav-spacer"></span></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-217"><a href="https://www.hfgproject.org/where-we-work/europe-and-eurasia/">Europe and Eurasia</a><span class="nav-spacer"></span></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-216"><a href="https://www.hfgproject.org/where-we-work/latin-america-and-the-caribbean/">Latin America and the Caribbean</a><span class="nav-spacer"></span></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15221"><a href="https://www.hfgproject.org/news-and-successes/">News and Successes</a><span class="nav-spacer"></span></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41"><a href="https://www.hfgproject.org/resources/">Resources</a><span class="nav-spacer"></span></li>
+</ul>                    </nav>
+                    <div id="social">
+                        <a href="https://twitter.com/hfgproject" target="_blank"><i class="icon-twitter"></i></a>
+                        <a href="https://www.facebook.com/hfgproject.org?ref=hl" target="_blank"><i class="icon-facebook"></i></a>
+                    </div>
+                </div><!-- /#top -->
+                </div>
+        
+    </header><!-- /#header -->
+
+    
+
+       
+    <div id="content">
+    	
+    	<div class="col-full">
+    		
+    						<section id="breadcrumbs">
+					<div class="breadcrumb breadcrumbs woo-breadcrumbs"><div class="breadcrumb-trail"><span class="trail-before"><span class="breadcrumb-title">You are here:</span></span><a href="https://www.hfgproject.org" title="HFG" rel="home" class="trail-begin">Home</a><span class="sep">&rsaquo;</span><a href="resources/">Resources</a> <span class="sep">&rsaquo;</span>Mobile Money for Health Case Study Compendium</div></div>				</section><!--/#breadcrumbs -->
+			    		
+			<section id="main" class="col-left">
+			           
+	        				<article class="fix post-12121 post type-post status-publish format-standard hentry category-digital-finance category-publications category-uhc category-where-we-work tag-case-study tag-health-financing tag-mobile-money">
+	
+						                	                
+	               
+	                
+	                <div class="post-body">
+	
+	                	<header>
+	                	
+		            	    <h1>Mobile Money for Health Case Study Compendium</h1>
+							<p class="post-category">Categories: <a href="https://www.hfgproject.org/category/publications/digital-finance/" title="View all posts in Digital Finance">Digital Finance</a>, <a href="https://www.hfgproject.org/category/publications/" title="View all posts in Publications">Publications</a>, <a href="https://www.hfgproject.org/category/publications/uhc/" title="View all posts in Universal Health Coverage">Universal Health Coverage</a>, <a href="https://www.hfgproject.org/category/where-we-work/" title="View all posts in Where We Work">Where We Work</a></p>
+	                	</header>
+	                	
+	                	<section class="entry fix">
+	                		<p><strong>Resource Type:</strong> Case Studies<br/>
+<strong>Authors:</strong> Health Finance and Governance (HFG)<br/>
+<strong>Published:</strong> 10/31/2015</p>
+<p><strong>Resource Description:</strong></p>
+<p><a href="https://www.hfgproject.org/wp-content/uploads/2015/10/HFG-Mobile-Money-Compendium_October-2015.pdf"><img class="alignright wp-image-12123" src="https://www.hfgproject.org/wp-content/uploads/2015/11/mm-compendium-cover.jpg" alt="Cover: Mobile Money for Health Case Study Compendium" width="286" height="369" srcset="https://www.hfgproject.org/wp-content/uploads/2015/11/mm-compendium-cover.jpg 677w, https://www.hfgproject.org/wp-content/uploads/2015/11/mm-compendium-cover-233x300.jpg 233w" sizes="(max-width: 286px) 100vw, 286px" pagespeed_url_hash="2720914925" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/></a>Globally, 2.5 billion people are “unbanked,” lacking access to formal financial services. As a result, roughly one third of the world’s population is forced to rely on cash transactions or informal financial systems, which can often be unsafe, inconvenient, and expensive. Among the unbanked, however, a billion have access to a mobile phone, and mobile-based financial services are quickly closing the financial access gap.</p>
+<p>Recognizing the potential of mobile-based financial services, the United States Agency for International Development (USAID) is committed to accelerating the adoption and uptake of mobile money based on its potential to increase financial inclusion, root out corruption, and provide economic benefits to communities. To support these goals, the USAID Health Finance and Governance (HFG) Project seeks to promote the use of mobile money in health programs, both as catalyst for uptake in communities and to strengthen health systems.</p>
+<p>Despite the recent proliferation of mobile phone usage and uptake of mobile money in developing markets, use in the health sector remains limited and, often, has not been brought to scale. This compendium seeks to expand the knowledge base on mobile money in the health sector by drawing out trends from existing programs and examining what’s worked, what hasn’t, and why, while documenting recommendations and insights from past and current practitioners for future adaptation.</p>
+<p>The 14 mobile money programs profiled in this compendium span a range of countries, health topics, and application types, from health insurance schemes promoting universal health coverage, to lottery voucher payments encouraging parents to vaccinate their children against polio and other diseases.</p>
+<a href="https://www.hfgproject.org/?download=12122" title="Download" rel="nofollow" class="ddownload-button button-blue id-12122 ext-pdf">Download</a>
+<p>&nbsp;</p>
+<div class="shortcode-twitter-follow">
+<a href="https://twitter.com/@HFGProject" class="twitter-follow-button" data-button="blue" data-lang="en" data-show-screen-name="true" data-size="medium">Follow @HFGProject</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div><!--/.shortcode-twitter-follow-->
+
+
+													</section>
+											
+						<p class="tags">Tags: <a href="https://www.hfgproject.org/tag/case-study/" rel="tag">Case Study</a>, <a href="https://www.hfgproject.org/tag/health-financing/" rel="tag">Health Financing</a>, <a href="https://www.hfgproject.org/tag/mobile-money/" rel="tag">Mobile Money</a></p>					
+					</div>
+	                                
+	            </article><!-- .post -->
+	
+						
+							
+
+	              
+	        
+			</section><!-- #main -->
+	
+	        	
+<aside id="sidebar" class="col-right">
+
+	    <div class="primary">
+		<div id="nav_menu-9" class="widget widget_nav_menu"><div class="menu-resources-side-menu-container"><ul id="menu-resources-side-menu" class="menu"><li id="menu-item-116" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-116"><a href="https://www.hfgproject.org/resources/publications/">Briefs &#038; Reports</a></li>
+<li id="menu-item-24248" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-24248"><a href="https://www.hfgproject.org/category/journal-publications/">Journal Publications</a></li>
+<li id="menu-item-114" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-114"><a href="https://www.hfgproject.org/resources/tools/">Guides, Manuals &#038; Tools</a></li>
+<li id="menu-item-23973" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23973"><a href="https://www.hfgproject.org/hfg-advances/">HFG Advances Series</a></li>
+<li id="menu-item-23974" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-23974"><a href="https://www.hfgproject.org/hfg-country-final-reports/">Country Reports</a></li>
+<li id="menu-item-23978" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-23978"><a href="https://www.hfgproject.org/podcast-2/">Podcasts</a></li>
+<li id="menu-item-23979" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23979"><a href="https://www.youtube.com/channel/UC-ZnXN5YZJxRcD4ooBsk7qA/videos">Videos</a></li>
+<li id="menu-item-115" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-115"><a href="https://www.hfgproject.org/resources/presentations/">Presentations</a></li>
+<li id="menu-item-15672" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15672"><a href="https://www.hfgproject.org/resources/newsletters/">Newsletters</a></li>
+<li id="menu-item-24332" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-24332"><a href="https://www.hfgproject.org/annual-reports/">Annual Reports</a></li>
+<li id="menu-item-9864" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9864"><a href="https://www.hfgproject.org/resources/related-links/">Other HSS Resources</a></li>
+</ul></div></div>		           
+	</div>        
+	   
+
+	
+	
+		<div class="recent-pubs-group">
+            <h3>Related Resources</h3>
+        </div>
+        <div class="recent-pubs-group related-resources-page">
+            <ul class="recent-pubs-list"> 
+
+                                        <li class="recent-pubs-item">                                                          
+                            <article class="post-26258 post type-post status-publish format-standard hentry category-publications category-uhc tag-hossain-zillur-rahman tag-mohammad-abdul-wazed">
+                                <h5>
+                                    <a href="https://www.hfgproject.org/targeting-the-poor-for-universal-health-coverage-program-inclusion-exploring-a-more-effective-pro-poor-targeting-strategy/" target="_blank">
+	                                    	                                    Targeting the Poor for Universal Health Coverage Program Inclusion: Exploring a More Effective Pro-poor, Targeting Strategy                                    </a><br> 
+                                    <span class="entry-date">October 19, 2018</span>
+                                </h5>
+                            </article> <!-- /.post -->
+                        </li>
+                                            <li class="recent-pubs-item">                                                          
+                            <article class="post-25985 post type-post status-publish format-standard hentry category-health-finance category-publications category-uhc tag-botswana tag-tihomir-strizrep">
+                                <h5>
+                                    <a href="https://www.hfgproject.org/strategic-purchasing-of-health-care-services-in-botswana/" target="_blank">
+	                                    	                                    Strategic Purchasing of Health Care Services in Botswana                                    </a><br> 
+                                    <span class="entry-date">September 28, 2018</span>
+                                </h5>
+                            </article> <!-- /.post -->
+                        </li>
+                                            <li class="recent-pubs-item">                                                          
+                            <article class="post-25915 post type-post status-publish format-standard hentry category-publications category-uhc category-where-we-work tag-bangladesh tag-mursaleena-islam tag-tanver-hossain">
+                                <h5>
+                                    <a href="https://www.hfgproject.org/engaging-the-media-and-journalists-to-progress-the-universal-health-coverage-agenda-in-bangladesh-2016-2018/" target="_blank">
+	                                    	                                    Engaging the Media and Journalists to Progress the Universal Health Coverage Agenda in Bangladesh, 2016-2018                                    </a><br> 
+                                    <span class="entry-date">September 28, 2018</span>
+                                </h5>
+                            </article> <!-- /.post -->
+                        </li>
+                                </ul>
+      	</div>
+
+	
+
+	
+</aside><!-- /#sidebar -->
+        
+        </div>
+
+    </div><!-- #content -->
+		
+
+
+<!-- T1: 4-->
+	<section id="footer-widgets" class="col-4 fix mobile-hide">
+		<div class="col-full">
+												<div class="block footer-widget-1">
+			        	<div id="nav_menu-2" class="widget widget_nav_menu"><div class="menu-footer-nav-0-container"><ul id="menu-footer-nav-0" class="menu"><li id="menu-item-2318" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2318"><a href="https://www.hfgproject.org/about-hfg/">About HFG</a></li>
+</ul></div></div><div id="nav_menu-3" class="widget widget_nav_menu"><div class="menu-footer-nav-1-container"><ul id="menu-footer-nav-1" class="menu"><li id="menu-item-229" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-229"><a href="https://www.hfgproject.org/what-we-do/">What We Do</a></li>
+<li id="menu-item-228" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-228"><a href="https://www.hfgproject.org/what-we-do/health-financing/">Health Financing</a></li>
+<li id="menu-item-225" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-225"><a href="https://www.hfgproject.org/what-we-do/health-governance/">Health Governance</a></li>
+<li id="menu-item-226" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-226"><a href="https://www.hfgproject.org/what-we-do/public-health-management/">Public Health Management</a></li>
+<li id="menu-item-1241" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1241"><a href="https://www.hfgproject.org/what-we-do/evidence-and-measurement/">Evidence &#038; Measurement</a></li>
+</ul></div></div><div id="nav_menu-4" class="widget widget_nav_menu"><div class="menu-footer-nav-2-container"><ul id="menu-footer-nav-2" class="menu"><li id="menu-item-240" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-240"><a href="https://www.hfgproject.org/where-we-work/">Where We Work</a></li>
+<li id="menu-item-239" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-239"><a href="https://www.hfgproject.org/where-we-work/africa/">Africa</a></li>
+<li id="menu-item-238" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-238"><a href="https://www.hfgproject.org/where-we-work/asia/">Asia</a></li>
+<li id="menu-item-235" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-235"><a href="https://www.hfgproject.org/where-we-work/europe-and-eurasia/">Europe and Eurasia</a></li>
+<li id="menu-item-236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-236"><a href="https://www.hfgproject.org/where-we-work/latin-america-and-the-caribbean/">Latin America and the Caribbean</a></li>
+</ul></div></div><div id="nav_menu-5" class="widget widget_nav_menu"><div class="menu-footer-nav-3-container"><ul id="menu-footer-nav-3" class="menu"><li id="menu-item-242" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-242"><a href="https://www.hfgproject.org/news-and-information/">News &#038; Successes</a></li>
+</ul></div></div><div id="nav_menu-6" class="widget widget_nav_menu"><div class="menu-footer-nav-4-container"><ul id="menu-footer-nav-4" class="menu"><li id="menu-item-248" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-248"><a href="https://www.hfgproject.org/resources/">Resources</a></li>
+<li id="menu-item-10907" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10907"><a href="https://www.hfgproject.org/resources/publications/">Briefs &#038; Reports</a></li>
+<li id="menu-item-24364" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-24364"><a href="https://www.hfgproject.org/category/journal-publications/">Journal Publications</a></li>
+<li id="menu-item-245" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-245"><a href="https://www.hfgproject.org/resources/tools/">Guides, Manuals &#038; Tools</a></li>
+<li id="menu-item-24365" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24365"><a href="https://www.hfgproject.org/hfg-advances/">HFG Advances Series</a></li>
+<li id="menu-item-24366" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-24366"><a href="https://www.hfgproject.org/hfg-country-final-reports/">Country Reports</a></li>
+<li id="menu-item-24367" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-24367"><a href="https://www.hfgproject.org/podcast-2/">Podcasts</a></li>
+</ul></div></div><div id="nav_menu-33" class="widget widget_nav_menu"><div class="menu-footer-nav-5-container"><ul id="menu-footer-nav-5" class="menu"><li id="menu-item-24435" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24435"><a href="https://www.youtube.com/channel/UC-ZnXN5YZJxRcD4ooBsk7qA/videos">Videos</a></li>
+<li id="menu-item-24436" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24436"><a href="https://www.hfgproject.org/resources/presentations/">Presentations</a></li>
+<li id="menu-item-24437" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24437"><a href="https://www.hfgproject.org/resources/newsletters/">Newsletters</a></li>
+<li id="menu-item-24438" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-24438"><a href="https://www.hfgproject.org/annual-reports/">Annual Reports</a></li>
+<li id="menu-item-24439" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24439"><a href="https://www.hfgproject.org/resources/related-links/">HSS Resources</a></li>
+</ul></div></div><div id="text-5" class="widget widget_text">			<div class="textwidget"><a href="https://twitter.com/HFGProject" target="_blank" rel="noopener noreferrer"><img src="/wp-content/themes/hfg/images/twitter-icon.jpg" height="21" width="21" pagespeed_url_hash="435026261" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+
+<a href="https://www.facebook.com/hfgproject.org?ref=hl" style="padding-top:5px;"><img src="/wp-content/themes/hfg/images/facebook-icon.jpg" height="21" width="21" pagespeed_url_hash="1899187308" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a></div>
+		</div>					</div>
+		        																										</div>
+	</section><!-- /#footer-widgets  -->
+
+
+<footer id="footer">
+	<div class="col-full">
+		<div id="copyright" class="col-left">
+			<a href="http://www.abtassociates.com/" target="_blank"><img src="/wp-content/themes/hfg/images/abt_footer_logo.png" width="103" height="94" pagespeed_url_hash="3604370571" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>		</div>
+
+		<div id="credit" class="col-right">
+			Abt Associates is a mission-driven, global leader in research and program implementation in the fields of health, social and environmental policy, and international development. Known for its rigorous approach to solving complex challenges, Abt Associates is regularly ranked as one of the top 20 global research firms and one of the top 40 international development innovators. The company has multiple offices in the U.S. and program offices in more than 40 countries.
+<br/><br/>
+2015 © Abt Associates
+		</div>
+	</div>
+</footer><!-- /#footer  -->
+
+</div><!-- /#wrapper -->
+
+<p id="back-top">
+	<a href="#top"><span></span>Back to Top</a>
+</p>
+
+<script type="text/html" id="tmpl-wp-playlist-current-item">
+	<# if ( data.image ) { #>
+	<img src="{{ data.thumb.src }}" alt="" />
+	<# } #>
+	<div class="wp-playlist-caption">
+		<span class="wp-playlist-item-meta wp-playlist-item-title">
+		&#8220;{{ data.title }}&#8221;		</span>
+		<# if ( data.meta.album ) { #><span class="wp-playlist-item-meta wp-playlist-item-album">{{ data.meta.album }}</span><# } #>
+		<# if ( data.meta.artist ) { #><span class="wp-playlist-item-meta wp-playlist-item-artist">{{ data.meta.artist }}</span><# } #>
+	</div>
+</script>
+<script type="text/html" id="tmpl-wp-playlist-item">
+	<div class="wp-playlist-item">
+		<a class="wp-playlist-caption" href="{{ data.src }}">
+			{{ data.index ? ( data.index + '. ' ) : '' }}
+			<# if ( data.caption ) { #>
+				{{ data.caption }}
+			<# } else { #>
+				<span class="wp-playlist-item-title">
+				&#8220;{{{ data.title }}}&#8221;				</span>
+				<# if ( data.artists && data.meta.artist ) { #>
+				<span class="wp-playlist-item-artist"> &mdash; {{ data.meta.artist }}</span>
+				<# } #>
+			<# } #>
+		</a>
+		<# if ( data.meta.length_formatted ) { #>
+		<div class="wp-playlist-item-length">{{ data.meta.length_formatted }}</div>
+		<# } #>
+	</div>
+</script>
+	
+<div id="views-extra-css-ie7" style="display:none;" aria-hidden="true">
+<!--[if IE 7]><style>
+.wpv-pagination { *zoom: 1; }
+</style><![endif]-->
+</div>
+
+<script type="text/javascript">jQuery(document).ready(function($){var extra_css=$("#views-extra-css")?$("#views-extra-css").text():null;if(extra_css){$('head').append('<style style="text/css" media="screen">'+extra_css+'</style>');$("#views-extra-css").remove();}
+$('head').append($("#views-extra-css-ie7").html());$("#views-extra-css-ie7").remove();});</script>
+<!--[if lt IE 9]>
+<script src="https://www.hfgproject.org/wp-content/themes/whitelight/includes/js/respond-IE.js"></script>
+<![endif]-->
+<script type='text/javascript' src='https://www.hfgproject.org/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});</script>
+<script type='text/javascript' src='https://www.hfgproject.org/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=5.2.3'></script>
+<script type='text/javascript' src='https://www.hfgproject.org/wp-includes/js/underscore.min.js?ver=1.8.3'></script>
+<script type='text/javascript'>//<![CDATA[
+var _wpUtilSettings={"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
+//]]></script>
+<script type='text/javascript' src='https://www.hfgproject.org/wp-includes/js/wp-util.min.js?ver=5.2.3'></script>
+<script type='text/javascript' src='https://www.hfgproject.org/wp-includes/js/backbone.min.js?ver=1.2.3'></script>
+<script type='text/javascript' src='https://www.hfgproject.org/wp-includes/js/mediaelement/wp-playlist.min.js?ver=5.2.3'></script>
+<script type='text/javascript'>//<![CDATA[
+var wpv_pagination_local={"front_ajaxurl":"https:\/\/www.hfgproject.org\/wp-admin\/admin-ajax.php","calendar_image":"https:\/\/www.hfgproject.org\/wp-content\/plugins\/wp-views\/embedded\/res\/img\/calendar.gif","calendar_text":"Select date","datepicker_min_date":null,"datepicker_max_date":null,"resize_debounce_tolerance":"100","datepicker_style_url":"https:\/\/www.hfgproject.org\/wp-content\/plugins\/types\/vendor\/toolset\/toolset-common\/toolset-forms\/css\/wpt-jquery-ui\/jquery-ui-1.11.4.custom.css"};
+//]]></script>
+<script type='text/javascript' src='https://www.hfgproject.org/wp-content/plugins/wp-views/embedded/res/js/wpv-pagination-embedded.js?ver=2.5.2'></script>
+<script type='text/javascript' src='https://www.hfgproject.org/wp-includes/js/wp-embed.min.js?ver=5.2.3'></script>
+        <script type="text/javascript">//<![CDATA[
+jQuery(document).ready(function($){$("ul.nav-menu").not(":has(li)").hide().closest('div').hide();});
+//]]></script>
+<script src="https://www.hfgproject.org/wp-content/themes/hfg/custom_js/jquery.dataTables.min.js"></script>
+
+<script>setInterval(function(){jQuery('#analysisToolbar').remove();},3000);jQuery(document).ready(function($){jQuery('.nav-toggle').click(function(){jQuery('#navigation > .mobile-show').toggle('fast',function(){if($(this).is(':hidden')){$('#navigation').hide();}else{$('#navigation').show();}});});$("#back-top").hide();$(function(){$(window).scroll(function(){if($(this).scrollTop()>100){$('#back-top').fadeIn();}else{$('#back-top').fadeOut();}});$('#back-top a').click(function(){$('body,html').animate({scrollTop:0},800);return false;});$(".sortable").dataTable({"iDisplayLength":25,"aLengthMenu":[[10,25,50,-1],[10,25,50,"All"]],"sPaginationType":"full_numbers","bStateSave":true});});});</script>
+
+</body>
+</html>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Object Caching 116/551 objects using disk
+Page Caching using disk: enhanced (SSL caching disabled) 
+Content Delivery Network via N/A
+Minified using disk
+Database Caching 26/94 queries in 0.046 seconds using disk
+
+Served from: www.hfgproject.org @ 2019-09-19 11:44:06 by W3 Total Cache
+-->

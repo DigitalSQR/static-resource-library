@@ -1,0 +1,208 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" class="no-js">
+<head>
+    <title>Knowledge Gateway - Login</title>
+    <meta charset=utf-8>
+    <meta name="version" content="4.0.20190918.00a42871" />
+    <meta name="copyright" content="copyright (c) 2010 WA Research SA" />
+    <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgo=">
+                <link rel="alternate" type="application/rss+xml" href="/$root/rss" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<!--[if ! lte IE 5]>
+<!--><link rel="stylesheet" href="/assets/20190918081810.00a42871/public.efe2ae20883dbca098e8f50dc7029d2f4b21e35c.css" data-min-file="public" media="screen,projection">
+<link rel="stylesheet" href="/assets/css/print.css" media="print">
+<!--<![endif]-->
+<!--[if lt IE 9]>
+<script src="/assets/external/html5shiv.min.js"></script>
+<![endif]-->
+
+
+
+</head>
+<!--[if lt IE 7 ]><body class="ie6"><![endif]-->
+<!--[if IE 7 ]><body class="ie7"><![endif]-->
+<!--[if IE 8 ]><body class="ie8"><![endif]-->
+<!--[if IE 9 ]><body class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><body><!--<![endif]-->
+<input type="hidden" name="ViewContext" value="{"pageCount": 0, "pageCountRight": 0, "totalItems": 0, "totalItemsRight": 0, "pageSize": 15, "pageSizeRight": 25, "currentPage": 1, "currentPageRight": 1}" />
+
+<nav class="primary group">
+    <div class="inner">
+        <h1 class="site-title">
+            Knowledge Gateway
+        </h1>
+    <div class="clear"></div>
+    </div>
+</nav>
+
+<!--
+<div class="public secondary group">
+    <div class="inner">
+        <ul class="group">
+            
+        </ul>
+    </div>
+</div>
+-->
+
+
+<div class="public-content group">
+            <div class="hero-banner">
+            <img src="/hero/06e2df34ece6e3ae34f37af1b68a7893df3fe47d" />
+                    </div>
+            <div class="group">
+            <div class="column-action">
+    <div id="login">
+        <form method="post" action="/$root/login" class="form">
+            <fieldset>
+                                <h3>Already a member of this community?</h3>
+                <div class="horizontal_rule"><hr /></div>
+                                <ul>
+                    <li>
+                        <div class="input_container">
+                            <input type="text" id="email" name="email" value="" class="text" placeholder="Email" />
+                        </div>
+                    </li>
+                    <li>
+                        <div class="input_container">
+                            <input type="password" id="password" name="password" value="" class="text" placeholder="Password" />
+                        </div>
+                    </li>
+                    <li>
+                        <a href="/$root/new_password" class="forgotten">Set new password</a>
+                        <div class="remember-me"><input type="checkbox" id="remember" name="rememberme" value="true" /><input type="hidden" id="rememberH" name="rememberme" value="false" /> <label for="remember">Remember me</label></div>
+                    </li>
+                    <li>
+                        <button type="submit" name="login">Login</button>
+                    </li>
+                </ul>
+                                <input type="hidden" name="ReturnUrl" value="/$root" />
+                            </fieldset>
+        </form>
+            </div><!-- /login -->
+</div><!-- /column-action -->
+
+<div class="column-info">
+    <h1>The Knowledge Gateway</h1>
+
+<p>Virtual collaboration and networking for health and development</p>
+
+<p>The Knowledge Gateway platform reaches more than 300,000 health and development professionals in all countries of the 
+world.</p>
+
+<h2>Communities</h2>
+
+<p><a href="/directory">Join existing communities of practice</a> and Knowledge Networks or create your own.</p>
+
+<h2>Networks</h2>
+
+<p>Share and exchange experiences, best practices, and lessons learned.</p>
+
+<h2>Discussions</h2>
+
+<p>Participate in virtual discussion forums. Find out how to convene your own discussion.</p>
+
+<h2>Collaboration</h2>
+
+<p>A tool for virtual collaboration with colleagues around the world. Review documents, share files</p>
+
+</div><!-- /column-info -->
+
+
+        </div>
+</div>
+
+<script src="/assets/external/modernizr-1.6.min.js" type="text/javascript"></script>
+<script src="/assets/external/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script>
+jQuery(function(){
+
+    var fixPlaceholders = (function(){
+        var native = 'placeholder' in document.createElement('input');
+        var ignoreBlur = false;
+
+        var setType = function(input, type){
+            input = $(input);
+
+            if (input.attr('type') == type) return;
+
+            var replacement = $('<input type="'+type+'" />'),
+                attrs = ['id', 'name', 'class', 'placeholder', 'data-password'],
+                focused = input[0] == document.activeElement;
+
+            for (var i=0; i<attrs.length; i++){
+                replacement.attr(attrs[i], input.attr(attrs[i]));
+            }
+
+            replacement.val(input.val());
+
+            ignoreBlur = true;
+            input.replaceWith(replacement);
+            ignoreBlur = false;
+
+            if (focused){
+                setTimeout(function(){
+                    replacement.focus();
+                }, 1);
+            }
+        };
+
+        return function(){
+            if (native) return;
+
+            $('input[type=password][placeholder]').attr('data-password', true).each(function(){
+                if (document.activeElement != this && this.value == '') setType(this, 'text');
+            });
+
+            setTimeout(function(){
+                $('input[placeholder], textarea')
+                    .each(function(){
+                        if (document.activeElement == this) return;
+                        if (jQuery.trim(this.value) === '') this.value = $(this).attr('placeholder') || '';
+                    })
+                    .on('focus', $(this), function(){
+                        if (this.value == $(this).attr('placeholder')) this.value = '';
+                        if ($(this).attr('data-password')) setType(this, 'password');
+                    })
+                    .on('blur', $(this), function(){
+                        if (ignoreBlur) return;
+                        if (jQuery.trim(this.value) === ''){
+                            this.value = $(this).attr('placeholder') || '';
+                            if ($(this).attr('data-password')) setType(this, 'text');
+                        }
+                    });
+            }, 1);
+        }
+    })();
+
+    fixPlaceholders();
+
+    
+    });
+    </script>
+<script type="text/javascript" src="/assets/external/livevalidation-1.4.min.js"></script>
+<script>
+$(function() {
+    $('.expanding')
+        .focus(function(){
+            $(this).addClass('not-empty');
+        })
+        .blur(function(){
+            if (this.value == $(this).attr('placeholder') || jQuery.trim(this.value) === '') $(this).removeClass('not-empty');
+        });
+
+    if ($('#regemail').length) {
+        new LiveValidation('regemail', { 'onlyOnBlur': true }).add(Validate.Presence).add(Validate.Email);
+        new LiveValidation('regreason', { 'onlyOnBlur': true }).add(Validate.Presence);
+    }
+});
+</script>
+
+<footer class="footer group">
+    <div class="inner">
+        <p>Use of this site is subject to terms of service. By continuing past this page you agree to abide by these terms. | <a href="/$root/terms">Terms of Engagement</a></p>
+    </div>
+</footer><!-- /footer -->
+</body>
+</html>

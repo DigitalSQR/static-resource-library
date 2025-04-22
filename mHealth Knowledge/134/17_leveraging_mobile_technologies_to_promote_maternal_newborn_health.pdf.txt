@@ -1,0 +1,1107 @@
+Leveraging MobiLe 
+TechnoLogies To ProMoTe
+MaTernaL & newborn heaLTh:
+The CurrenT LandsCape & OppOrTuniTies fOr 
+advanCemenT in LOw-resOurCe seTTings
+The CenTer fOr innOvaTiOn & TeChnOLOgy in pubLiC heaLTh  
+pubLiC heaLTh insTiTuTe | OakLand, CaLifOrnia
+
+TabLe of conTenTs
+aCknOwLedgemenTs …………………………………………………………………………………………… 4
+eXeCuTive summary …………………………………………………………………………………………… 5
+inTrOduCTiOn …………………………………………………………………………………………………… 7 
+maTernaL and newbOrn heaLTh framewOrks ………………………………………………………… 9
+mObiLe heaLTh in maTernaL and newbOrn heaLTh ………………………………………………… 13
+stimulating demand among pregnant women and new mothers ................................................. 14
+strengthening human resource Capacity ........................................................................................19
+Transforming health system Capacity................................................................................................22
+OppOrTuniTies fOr mheaLTh in maTernaL and newbOrn heaLTh ...........................................26
+advanCing mObiLe heaLTh in maTernaL and newbOrn heaLTh ................................................ 27
+Technology, design, and implementation ..........................................................................................29
+scaling and sustaining ........................................................................................................................30
+public policy ..........................................................................................................................................30
+COnCLusiOn ............................................................................................................................................32
+referenCes ............................................................................................................................................34
+3
+TOC  Leveraging MobiLe TechnoLogies in MaTernaL and newborn heaLTh
+Acknowledgements
+The authors would like to extend the deepest appreciation and regards to the many resources who 
+have helped inform the preparation and writing of this report. many thanks go to neal Lesh (dimagi), 
+eric blantz (inveneo), brendan smith (vital wave Consulting, inc.), pamela riley (abt associates), erin 
+sines (macarthur foundation), sandhya rao (usaid, Office of health, infectious diseases and nutrition 
+at usaid), James bon Tempo (Jhpiego), Catharine Taylor (paTh), kiersten israel-ballard (paTh), anton 
+Luchitsky (paTh), peggy d’adamo (usaid, Office of population and reproductive health), rose reis 
+and Trevor Lewis (Center for health market innovations), heather vahdat and kelly L’engle (fhi 360), 
+patricia mechael (mhealth alliance, un foundation), Jaspal sandhu (gobee group), kelly kiesling 
+(The mhealth working group), stan kachnowski (mailman school of public health at Columbia 
+university), katherine de Tolly (Cell-Life), Trina dasgupta (gsma), Craig friedrichs (gsma), kyla reid 
+(gsma), alice newton (government digital service), mojca Cargo (gsma), Toni eliasz (world bank), 
+Jody ranck (Consultant at intrahealth international), kate Cummings (ushahidi), rafael anta (inter-
+american development bank), bas hoefman (Text to Change), richard bartlett (international partnership 
+for innovative healthcare delivery), michael syson (ateneo de manila university in philippines), Juan 
+rodriguez (voxiva), patricia J. garcia (universidad peruana Cayetano heredia in peru), walter Curioso 
+(universidad peruana Cayetano heredia in peru), and rodrigo saucedo martínez (instituto Carlos slim de 
+la salud of mexico). we have drawn heavily from the practices, experiences, and contributions of these 
+individuals and their organizations to characterize the scale and scope of mhealth activity in maternal 
+and newborn health. This report would not have been possible without their sharing best practices, 
+recommendations, and learned lessons in relation to mhealth intervention design, implementation, and 
+evaluation, and the potential opportunities and levers for successfully advancing mhealth interventions at 
+scale and on a sustained basis. Our many thanks also go to ada kwan, Cathryn meurn, Jennifer potts, 
+francis gonzales, and madhura bhat for their help and support in the production of this report.
+most importantly, we would like to express our appreciation to the mhealth alliance, hosted by the 
+un foundation. without their leadership, support, and its commitment to advancing the role of mobile 
+technology in global health and investment in supporting mhealth practices in maternal and newborn 
+health, this report would not have been possible. it is our utmost desire that the product of our efforts 
+will go forward to inform the strategic use and implementation of mhealth to improve access to care 
+for pregnant women, mothers, and newborns so that reductions in maternal and newborn mortality – 
+achievable with existing technologies of today – can happen without further delay.
+4
+Acknowledgements  Leveraging MobiLe TechnoLogies in MaTernaL and newborn heaLTh
+executive summAry
+every year, approximately 350,000 women die worldwide as a direct result of pregnancy and childbirth, 
+and for each woman who dies, approximately 20 others suffer from pregnancy-related consequences.1 
+additionally, three million babies die every year before they are a month old, and a similar number are 
+stillborn.2, 3 when stillbirths are included, about half of all 7.5 million deaths in children under age five occur 
+before the end of the neonatal period, or the first 28 days of life, and without a reduction in the number of 
+neonatal deaths, a dent cannot be made in under-five mortality rates.4 with over six billion mobile phone 
+subscriptions spread across a world population of over seven billion, mobile technologies are rapidly 
+penetrating even the most remote corners of the world.5 for women and newborns in many low- and 
+middle-income countries (LmiCs), the rapid expansion of mobile technology infrastructure presents an 
+unprecedented opportunity to increase access to health care and save lives that are lost from preventable 
+and avoidable conditions.
+objective
+The objective of this report is twofold: 
+(1) to describe the current state of mhealth intervention design, implementation, and evaluation that can be 
+leveraged to improve maternal and newborn health globally and 
+(2) to identify ways to strategically advance mhealth in maternal and newborn care, as well as strategies for 
+scaling up interventions.
+methodology
+This report prioritized information from 13 LmiCs in asia, Latin america, and africa: bangladesh, india, the 
+philippines, brazil, mexico, peru, ghana, kenya, Liberia, the republic of south africa, rwanda, Tanzania, 
+and uganda. a total of 70 projects related to maternal and newborn health (mnh) and 160 projects in other 
+health areas were identified. key informant interviews were conducted with experts in health, technology, 
+and public policy, as well as those involved in the development and implementation of mhealth programs 
+worldwide. additionally, this report was informed by a review of published information and by contacting 
+sponsoring organizations.
+Findings
+in mnh, combining mobile technologies with existing health system resources offers significant potential 
+to provide women and newborns with adequate and appropriate care through interventions that stimulate 
+demand for available services, promote improved access, and lead to efficiencies in care delivery and 
+management practices. as with other application areas of mhealth, mnh interventions face significant 
+barriers at technical, social, and economic levels.
+conclusions
+The ability to conduct rigorous evaluation and provide evidence of demonstrable impact is the crucial catalyst 
+that will advance policy and investment in the field and lead to the successful scaling and sustainability of 
+mhealth interventions. as evidence accrues, policy makers will be able to push forward supportive national 
+policy for information and communications technologies in health care, which will promote an enabling 
+environment where the potential of mhealth can best be realized.
+5
+executive summAry Leveraging MobiLe TechnoLogies in MaTernaL and newborn heaLTh
+To achieve The Mdgs and To 
+MainTain beTTer Mnh beyond 
+2015, we MusT criTicaLLy 
+exaMine new ways of using 
+exisTing resources
+introduction to deliver these already proven interventions  
+every year, approximately 350,000 women at scale to reach the mothers and newborns  
+die worldwide as a direct result of pregnancy who need them most.
+and childbirth, and for each woman who dies, 
+approximately 20 others suffer from pregnancy- a closer look at global maternal and newborn 
+related consequences.1 additionally, three million mortality trends shows that half of maternal deaths 
+babies die every year before they are a month old, occur in sub-saharan africa and a third occur in 
+and a similar number are stillborn.2, 3 when stillbirths south asia with india contributing to 22 percent of 
+are included, about half of all 7.5 million deaths deaths with similar patterns existing for neonatal 
+in children under age five occur before the end of mortality.1,7 Challenges in getting effective solutions 
+the neonatal period, or the first 28 days of life, and to mothers and newborns who are most at-risk can 
+without a reduction in the number of neonatal deaths, be overcome by delivering proven interventions with 
+a dent cannot be made in under-five mortality rates.4 better coverage and quality particularly in africa and 
+south asia. factors that hinder adequate health 
+although the majority of these deaths and care from reaching the women and newborns 
+debilitating illnesses and injuries are preventable who are most at risk include distance to resources, 
+and avoidable (see Figure 1), reducing the under- severe shortages of trained health professionals, 
+five mortality rate and the maternal mortality ratio and lack of investment in public health. To achieve 
+has seen slow progress.6 placed on the global the mdgs and to maintain better mnh beyond 
+agenda as millennium development goals (mdgs) 2015, we must critically examine new ways of using 
+4 and 5, respectively, the global health community existing resources in regions where improvements 
+has determined whAt is effective at reducing the need to be made.
+number of deaths, and now must focus on how 
+DEATHS OF CHILDREN UNDER FIVE MATERNAL DEATHS
+Embolism 1%
+Diarrhoea 14% Preterm 12% Sepsis 8% Haemorrhage 35%
+Pneumonia 14% Asphyxia 9% Abortion 9%
+Sepsis 5% Other direct 11%
+Other 
+Other neonatal 5%
+infections 9%
+Pneumonia, Indirect 18%
+neonatal 4%
+Malaria 8%
+Congenital 3%
+Non-communicable 
+diseases 4% AIDS 2% Tetanus 1% Hypertension 18%
+Injury 3% Pertussis 2% Diarrhoea, 
+neonatal 1%
+Meningitis 2%
+Measles 1%
+CHILDREN 59% NEWBORNS 41%
+Figure 1. Causes of deaths in children under five years of age and maternal deaths (source: global Campaign for the health  
+millennium development goals, 2011).
+7
+introduction Leveraging MobiLe TechnoLogies in MaTernaL and newborn heaLTh
+with over six billion mobile phone subscriptions facilities with point-of-care decision support tools to 
+spread across a world population of over seven maintain existing standards and augment existing 
+billion, mobile technologies are rapidly penetrating protocols that have been proven to be effective in 
+even the most remote corners of the world.5 for case management. 
+women and newborns in many low- and middle-
+income countries (LmiCs), the rapid expansion at this time, mhealth applications in the mnh 
+of mobile technology infrastructure presents an field are in the formative stage, and existing 
+unprecedented opportunity to increase access to evidence for effectiveness and impact is new, but 
+health care and save lives, but how exactly can we rapidly evolving. This report aims (1) to describe 
+leverage the power of mobile technology to save the current state of mhealth intervention design, 
+the lives of women and newborns? implementation, and evaluation that can be 
+leveraged to improve mnh globally, and (2) to 
+Through mobile health (mhealth), or the use of identify ways to strategically advance and scale 
+wireless information and communication devices up mhealth in maternal and newborn care so 
+(e.g. mobile phones and smartphones) and mobile that opportunities afforded by mobile phones and 
+phone networks for health, not only can frontline networks can reach their full potential. This report 
+health workers carry tools loaded with protocols, will first provide frameworks currently used in the 
+but captured data can also flow through a health field of mnh, which will help provide a structure 
+system in real-time and deliver critical information to for general mhealth strategies and those that 
+support women’s and providers’ needs in a timely have been particularly implemented to improve 
+and efficient manner. additionally, combining mobile mnh outcomes. detail is then provided on how 
+technologies with existing health system resources mhealth can stimulate demand for services among 
+offers opportunities in stimulating demand for pregnant women and new mothers, strengthen 
+available services and expanding access to effective human resource capacity, and transform health 
+and already existing programs through growing system capacity. The report then summarizes 
+mobile phone networks, both of which can lead the opportunities that mhealth can leverage to 
+to higher levels of efficiency in service delivery, reduce mortality rates, as well as suggestions for 
+supervision, and management practices. strategically advancing the space.
+To build from the accrued knowledge of global mnh, 
+in particular, for mnh, mhealth can support and a quick review of existing frameworks will help 
+strengthen existing efforts along the continuum of facilitate the integration of mhealth. This section will 
+care, as well as offer innovative solutions, such as describe two frameworks used in the field of mnh: 
+providing women with mnh-related information the maternal-newborn continuum of care and the 
+services by phone, in addition to providing Three delays model.
+community-based health workers and health 
+8
+introduction  Leveraging MobiLe TechnoLogies in MaTernaL and newborn heaLTh
+mAternAl And newborn  in reality, along the continuum of care, significant 
+heAlth FrAmeworks variation persists in the levels of coverage, and 
+first, the maternal-newborn continuum of care because mhealth can provide solutions to improve 
+ranges from pre-pregnancy and extends into access and extend reach of health efforts, it will be 
+pregnancy, labor and delivery, and postpartum or important to acknowledge these relations when 
+postnatal care, and it naturally includes child health; selecting and integrating appropriate strategies.
+however, this report will focus primarily on the Figure 3 highlights the status in 2010 of coverage 
+mnh section of the continuum. The purpose of the estimates of evidence-based interventions related 
+continuum of care is to map the specific moments to maternal, newborn, and child health in 68 mdg 
+along the continuum where proven interventions countdown countries.8 The high rate of maternal 
+ought to be delivered (see Figure 2). an analysis and newborn mortality in many low-resource 
+of ‘coverage gap’ measures, which represents the settings also reflects inequities in access to medical 
+percentage of a target population not receiving services because of the geographic and economic 
+critical services, indicated that the greatest imbalances that exist between rural and urban 
+inequities in services fall into the categories of populations and the rich and poor. poor women 
+maternal and newborn care and family planning. and their infants living in rural areas have a higher 
+risk of poor pregnancy outcomes as a result of 
+barriers to accessing timely and adequate care 
+and limited preventive measures and treatments. 
+for example, only one in three rural women in 
+developing countries receive the recommended 
+care during pregnancy.b
+Pre- PregnAncy delivery PostPArtum PostnAtAl
+PregnAncy
+Family  Family  skilled emergency Postpartum/post natal 
+Facility Planning Planning attendance obstetric care for mother and 
+at birth care baby and imnci
+Pmtct
+community Family  health education skilled attendance at birth Postpartum/post natal care for mother and 
+Planning during pregnancy baby, identifying/referring newborn illness
+birth planning
+Figure 2. maternal-newborn continuum of care (source: mhealth alliancea , Credit: uniCef)
+a. maternal-newborn mhealth initiative. retrieved on march 25, 2012 previously available on the web page:  
+mhealthalliance.org/content/maternal-newborn-mhealth-initiative-mmii
+b. 2015 millennium development goals: retrieved on march 25, 2012 from: http://www.un.org/millenniumgoals/
+9
+meternAl And newborn heAlth FrAmeworks  Leveraging MobiLe TechnoLogies in MaTernaL and newborn heaLTh
+60
+50
+46
+43
+41
+40
+30 29 29
+26
+22
+20
+10
+1
+0
+Community
+International Maternity Specific Midwives IMCI treatment of New ORS Costed
+Code of protection in notification authorised adapted pneumonia formula implementation
+Marketing accordance of maternal to administer to cover and zinc for plan(s) for
+of Breastmilk with ILO deaths core set of neonates management maternal,
+Substitutes Convention lifesaving aged 0–1 of diarrhoea newborn, and
+enacted 183 interventions weeks child health
+available
+Figure 3. Coverage estimates from 2010 for evidence-based policies related to maternal, newborn, and child health 
+in 68 countdown countries. iLO=international Labour Organisation; imCi=integrated management of 
+Childhood illness; Ors=oral rehydration solution. (source: bhutta et al., 2010).
+Median coverage for 68 priority countries*
+90
+80
+70
+Mortality risk 
+for children
+60
+50
+40
+30 Mortality 
+risk for 
+20 mothers
+10
+0
+ANC coverage Institutional Delivery** Postnatal Care Breastfeeding DPT3 Vaccination
+*Data compiled for 68 priority countries for the 2010 Countdown Report Sources: Coverage data; Countdown to 2011, decade report (2010). Data for mortality distribution 
+** Births occuring in the health facilities based on 1) for mothers; LI, XF, IJOG, 1996; for children; DHS survey data where available for 51 
+selected countries.
+Figure 4. mortality risk for mothers and Children along the Continuum of Care 
+ (source: global Campaign for the health millennium development goals, 2011). 
+10
+Number of Countdown countries adopting policy
+meternAl And newborn heAlth FrAmeworks  Leveraging MobiLe TechnoLogies in MaTernaL and newborn heaLTh
+FACTORS AFFECTING PHASES OF DELAY
+UTILIZATION AND OUTCOME
+Socioeconomic/Cultural Factors Phase I: Deciding to
+Seek Care
+Accessibility of Facilities Phase II: Identifying and 
+Reaching Medical Facility
+Phase III: Receiving Adequate
+Quality of Care
+and Appropriate Treatment
+Figure 5. Three delays model for maternal mortality (source: Thaddeus and maine, 1994).9 
+notably, the onset of labor marks the beginning of the need to have effective emergency responses. 
+another high-risk period that continues through the One model that frames the challenges of improving 
+immediate 48 hours after birth. Figure 4 highlights maternal mortality is the Three delays model, 
+the mortality risk for mothers and children along the which proposes that pregnancy-related mortality is 
+continuum of care. expanding access to prenatal overwhelmingly due to delays in the decision to seek 
+care, family planning resources, proper nutrition care, access to the appropriate level of care, and 
+options, and postnatal care is important; however, receipt of the appropriate treatment and professional 
+around the onset of labor, 150,000 maternal deaths, care upon arrival at the health facility (see Figure 5). 
+1.6 million neonatal deaths, and 1.2 million stillbirths The maternal-newborn continuum of care provides 
+occur each year.c almost all of the deaths occurring a general overview of what health systems can do 
+during this high-risk period take place in LmiCs. in to assure that appropriate services are available 
+sub-saharan africa and south asia, which together to mothers and newborns, but when designing 
+accounted for 87 percent of global maternal deaths effective interventions, it is equally important to keep 
+in 2008, less than half the women deliver in hospitals. in mind factors on the population side that may 
+Optimizing birth outcomes in these countries requires prevent the usage of services, regardless of whether 
+strengthening human resource and health system they are delivered with high quality or not. in this 
+capacities during this acute high-risk period, and report, ways mhealth can be integrated to reduce 
+encouraging women to deliver in well-equipped and these delays are described using this framework.
+staffed institutional care settings, while addressing 
+c. saving Lives at birth: a grand Challenge for development (http://www.savinglivesatbirth.net)
+11
+meternAl And newborn heAlth FrAmeworks  Leveraging MobiLe TechnoLogies in MaTernaL and newborn heaLTh
+expanding MobiLe phone 
+peneTraTion and neTwork 
+coverage can reMove 
+TradiTionaL geographic 
+and econoMic barriers  
+To heaLTh care
+mobile heAlth in mAternAl  or health status reports; requests for self-reported 
+And newborn heAlth data, encouragement or motivation to sustain 
+The rise in mhealth solutions to improve health a positive behavior (and the reverse, to reduce 
+outcomes is largely attributable to the ubiquity of a negative one); and education and information 
+mobile phones as well as the convenience, user resources to improve self-efficacy. a systematic 
+friendliness, and relatively low cost of mhealth review of the literature on behavior change and 
+applications. expanding mobile phone penetration clinical outcomes from disease management 
+and network coverage can remove traditional and prevention services delivered through text 
+geographic and economic barriers to health care, messaging found significant results in eight of nine 
+particularly in emergency situations that can be studies that support text messaging as a tool for 
+life threatening, as is often the case for mnh. To behavior change.11 however, this review, much like 
+provide the context to discuss the existing and the other published evidence to date, reflects small-
+potential role of mhealth in mnh, a review of scale projects in high-income countries, and thus 
+mhealth across 13 LmiCs was conducted. Lessons limits their relevance to many LmiC settings.
+learned were drawn not only in mnh but from all 
+mhealth efforts. Figure 6 provides an overview of mhealth services 
+for mnh in LmiCs organized by three categories 
+mhealth is fairly new with a rapidly developing reflecting responses to each of the delays in the 
+evidence base that suggests encouraging progress. Three delays model: stimulating demand among 
+in general, mhealth interventions fall primarily pregnant women and mothers, strengthening 
+into two categories: (1) those directed toward human resource capacity, and transforming health 
+improving the provision of health services where the system capacity. These three categories are further 
+predominant focus is at the health system level, and explored in more detail below.
+(2) those directed toward the recipients of health 
+services where client-focused services can involve 
+sending health information or reminders to improve 
+treatment compliance or attend appointments.10 
+in the former, target applications make use of 
+mobile phone features for real-time or actionable 
+information for data collection, surveillance, supply 
+chain management, and point-of-care support 
+applications. in the latter, client-focused services 
+emphasize the promotion or reinforcement 
+of positive health behaviors and the use of 
+recommended health services, and mobile finance 
+services that facilitate savings toward the cost of 
+recommended health products and services. 
+with regard to the type of mobile phone features 
+utilized, recent evaluations of mhealth programs 
+indicate a potential to broadly support patient self-
+management through text-message-based cues, 
+reminders, and prompts to schedule or confirm 
+an appointment; notifications for laboratory results 
+13
+mobile heAlth in mAternAl And newborn heAlth  Leveraging MobiLe TechnoLogies in MaTernaL and newborn heaLTh
+• Information services that increase awareness of health issues and available resources
+Stimulating demand • Patient communication services that connect women to peer networks or local expert resources
+among pregnant • Patient-support services for the management of health issues impacting health outcomes
+women and mothers
+• Financial services that remove barriers to access and utilization of available care services
+• Services that support patient tracking and management at the community level
+• Services that support risk screening, referral and rmote consultation
+• Services that provide the point-of-care decision support to improve compliance with 
+recommended care guidelines
+Strengthening human
+resource capacity • Services that strengthen or improve human resource management processes
+• Services that equip community-based health worker cadres with mobile tools and extending the 
+physical space of health facility coverage into the households and community
+• Services that transform the submission of monitoring and evaluation indicator reports from 
+paper-based to electronic or mobile-based, which can then enhance not only monitoring, 
+Transforming health surveillance, and detection, but also accountability
+system capacity • Services that improve governance, supply chain, and clinical process efficiencies
+figure 6. mhealth services in mnh.
+stimulAting demAnd Among increase women’s awareness of mnh issues and 
+PregnAnt women And new promote behavior change in their utilization of 
+mothers related care services; directly connect women to 
+reasons that may delay a woman’s decision to expert resources such as skilled birth attendants 
+seek care are many and the result of a confluence at health clinics; provide complementary patient 
+of factors. These include a lack of knowledge support services for the prevention and treatment of 
+about health services and complications during health issues contributing to maternal and newborn 
+pregnancy and how these complications are mortality; and/or offer mobile financial services 
+managed, as well as geographic, economic, and which either remove financial barriers to care or 
+socio-cultural barriers. in certain societies, the lower directly encourage women to save toward delivery 
+status of women is a barrier to their ability to make and post-natal care. 
+independent decisions regarding their own care. 
+Other barriers include the lack of financial resources because pregnant women can also be reached 
+to pay for hospital services and to purchase through extended caretakers in their communities, 
+medications; beliefs and practices surrounding mhealth interventions in this category also target 
+childbirth and delivery, nutrition, and education; and family members of pregnant women, such as 
+a lack of trust in health systems. a spouse or mother, or influential community 
+members. Targeting these individuals can facilitate 
+mhealth solutions that have been designed to the knowledge transfer of appropriate care, as 
+influence a woman’s decision to seek care can well as encourage expectant mothers to seek 
+address the problem from several perspectives. services. mhealth can also create peer networks of 
+table 1 summarizes mhealth strategies for pregnant women or partner first-time mothers with 
+supporting pregnant women and encouraging them experienced mothers for support. 
+to seek medical care. in this regard, strategies 
+have been standalone or integrated and aim to: 
+14
+mobile heAlth in mAternAl And newborn heAlth  Leveraging MobiLe TechnoLogies in MaTernaL and newborn heaLTh
+table 1. mhealth interventions and strategies to stimulate the demand for mnh services among pregnant women d
+mheAlth  ProgrAm strAtegy
+intervention main affiliated Organizations
+information babysms south africa – subscription-based services that require 
+services that world of avatar,  participants to provide their expected delivery date (or date 
+increase women’s mTn south africa of infant’s birth) to time content delivery for optimal impact on 
+awareness of users’ health knowledge and behaviors. 
+health issues and 
+encourage women sms Appointment  philippines – standalone services that send appointment 
+to use available reminder system reminders to women who have registered at local health centers 
+health resources university of philippines 2-3 days in advance of a scheduled follow-up appointment. 
+medical informatics unit
+mcheck india – Targeted services that assist women and family 
+world health Organization members in the identification of crucial risk factors in mothers 
+psp/CpO and newborns during the immediate week-long, high-risk 
+period following delivery and in seeking appropriate care. 
+interactive maternal  mexico – interactive mapping services that mash up health 
+health mapping tool system and geographic information system data to provide 
+esaC project;  detailed information about the quality and types of maternal 
+phi research group,  health services offered in local locations.
+university of Toronto; pahO
+mobile Alliance for bangladesh, india, south africa – for no charge to expecting 
+maternal Action (mAmA) and new mothers, mama offers health information in the form 
+usaid, Johnson & Johnson, of text messages adapted to different contexts. messages are 
+babycenter developed with the help of babyCenter, which has reached 
+25 million pregnant women and new mothers in 20 countries 
+around the world. Locally adapted messages will be available 
+on an online library for other projects to encourage sharing 
+learned lessons.
+d. for a more comprehensive list of mhealth interventions and strategies, visit the database on the health unbound website http://www.healthunbound.org/
+15
+stimulAting demAnd Among PregnAnt women And new mothers  Leveraging MobiLe TechnoLogies in MaTernaL and newborn heaLTh
+mheAlth  ProgrAm strAtegy
+intervention main affiliated Organizations
+patient wired mothers Tanzania – services that strengthen communication between 
+communication university of Copenhagen; pregnant women and primary health care units through 
+services that ministry of health and social use of mobile phones to ask questions and seek advice in 
+directly connect welfare, Zanzibar, Tanzania; cases of acute or non-acute problems and potentially avoid 
+women to peer health sector programme unnecessary visits. 
+networks or support Zanzibar;  
+expert resources danida health sector 
+in the community programme support
+such as skilled 
+birth attendants Project kopano south africa – services that allow hiv-positive mothers to 
+The shm foundation, yale communicate directly with each other via sms about issues 
+school of medicine, university affecting their lives during their pregnancy.
+of pretoria
+mmitra india – services delivered to elected, trained, trusted female 
+uCsf bixby Center, armaan leaders from villages’ local consultation groups to ensure that 
+the few eligible women without phones also have access to 
+the educational messages on preventive and emergency care. 
+complementary mobile for reproductive Tanzania, kenya – reproductive health services that use text-
+patient-support health (m4rh) based messages to deliver evidence-based information on 
+services fhi 360, usaid, prOgress family planning methods. services are designed to target both 
+addressing the men and women with information on family planning. 
+management of 
+health issues cellphones4hiv south africa – programs to prevent the mother-to-child 
+that contribute Cell-Life, vodacom, transmission of hiv/aids that use text messaging to 
+to maternal and usaid, pepfar, The raith send educational messages and reminders for scheduled 
+newborn mortality foundation, Johns hopkins appointments, testing and treatment. 
+health and education south 
+africa, right to Care
+Mobile financial changamka kenya – services that enable women to save money over 
+services that Changamka microhealth Ltd. an extended period of time to gain access to primary health 
+remove financial care services by facilitating payment at the point of care using 
+barriers to care by a medical smart card combined with mobile money transfer 
+allowing women service systems.
+to save toward 
+delivery and post- m-money For women  kenya – services that combine mobile financial services, 
+natal care with Fistula educational information, and the provision of free treatment in 
+fistula Care, freedom from order to cover transport costs for women and facilitate their 
+fistula foundation, usaid, access to fistula repair services. 
+vodafone group
+16
+mobile heAlth in mAternAl And newborn heAlth  Leveraging MobiLe TechnoLogies in MaTernaL and newborn heaLTh
+MheaLTh can aLso creaTe 
+peer neTworks of pregnanT 
+woMen or parTner 
+firsT-TiMe MoThers wiTh 
+experienced MoThers for 
+supporT
+mhealth services targeting new and expectant treatment for those who need it. mothers receive 
+mothers involve a broad range of private and the messages free of charge and the project bears 
+public partnerships in the planning for promotion the cost of approximately us$1.50 per mother 
+and outreach, content and format, and pricing to send messages. The intervention is still being 
+of mhealth services with the shared goal of evaluated as to whether they return for test results. 
+increasing a woman’s awareness of health issues exit interviews indicated that participants received 
+and encouraging her to use health services. These a strong psychological benefit from participation. 
+include the use of the government health workforce a similar program among hiv-positive mothers is 
+(sms advice for pregnant women in bangladesh); currently conducting an rCT to evaluate the mental 
+facility-based posters, palm cards, and flyers health benefit from the use of mobile phones to 
+(mobile for reproductive health in kenya and complement standard treatment programs and the 
+Tanzania); and more traditional uses of national role of peer mentors who provide participants with 
+media campaigns (wazazi nipendeni in Tanzania). mental health support in managing their conditions 
+(project masihambisane in south africa).
+Preliminary evidence indicates:
+•	 improved compliance in scheduled follow-up in low-resource settings, a financial hurdle 
+appointments (sms appointment reminder often confronts proper and adequate health 
+system in philippines) service delivery. This is now being addressed by 
+•	 higher rates of service utilization (mobile transaction-based mobile financial services, which 
+ehealth safe motherhood project in philippines) are particularly valuable for individuals who do not 
+•	 higher levels of trust (mobile for reproductive have bank accounts. mobile technology solutions 
+health in kenya and Tanzania) that allow users to save money for future payment 
+•	 improved user satisfaction with services for goods and services have proven particularly 
+(CycleTel in india) effective among expectant mothers as a sustainable 
+•	 higher rates of delivery in the presence of financing mechanism. for example, participants 
+skilled birth attendants in the intervention arm can save for their antenatal, delivery, and postnatal 
+than the skilled birth attendant rate at delivery in services at participating health facilities. in kenya, 
+Tanzania was 43 percent in 2004-20057 (wired Changamka has distributed more than 10,000 smart 
+mothers in Tanzania) cards to low-income pregnant women through 
+health facilities. The service is being deployed more 
+results indicate the potential benefit of these broadly through other health facilities nationwide. 
+measures in preventing loss of mothers to follow- One example of success is the m-money for women 
+up (Cellphones4hiv in south africa). a randomized with fistula program, which has noted a sharp 
+controlled trial (rCT) in south africa assessed the increase in caseload following the launch of a broad-
+effectiveness of reminding hiv-positive mothers based outreach and promotion campaign that offers 
+to keep appointments, bring their infants for hiv women a free hotline, transportation, and treatment 
+testing, and if needed, treatment. in the trial of service. The program transfers money via m-pesa 
+738 mothers, more than 90% of the 323 who to those who cannot afford transport to a fistula unit. 
+received messages brought infants for testing, during the six months prior to the campaign, the 
+compared with 78% of those who didn’t receive average caseload of fistula patients at one facility 
+messages. The service comprises a ten-week called the Jamaa mission hospital (Jmh) was 15 per 
+intervention that provides educational information month. in the month following the campaign, Jmh 
+and reminders to keep scheduled appointments saw an increase in the demand for services as it 
+and bring infants for hiv testing and also further supported a patient caseload of 40 fistula patients.
+18
+mobile heAlth in mAternAl And newborn heAlth  Leveraging MobiLe TechnoLogies in MaTernaL and newborn heaLTh
+strengthening humAn resource facilitate the ability of frontline health workers to 
+cAPAcity transmit data and receive expert feedback on urgent 
+delays in accessing the appropriate level of care care cases; (2) direct communication with different 
+are primarily due to shortages of qualified health levels of the health system, such as in the case 
+professionals, most often in difficult-to-reach of emergency transportation of pregnant women 
+rural and remote areas. The labor shortage is with complications; and (3) tools offering improved 
+compounded by (1) the lack of transportation, efficiencies in remote diagnosis, treatment, and case 
+particularly important in emergency situations management of patients across the maternal and 
+involving complications during a pregnancy, and newborn continuum of care. These efforts often 
+(2) the lack of systems that could support the direct information and data from the community 
+ability of community health workers to monitor and level to health facilities and from the district level to 
+track at-risk patients and to refer those in need to the ministry of health. such existing programs have 
+specialized care in a timely manner. demonstrated their feasibility; however, success in 
+scaling up to the national level requires the strategic 
+as found in table 2, mhealth programs strengthen alignment of the intervention with the prioritization 
+human resource capacity in three main ways: of mnh on national health agendas, in addition to 
+(1) point-of-care decision support solutions that strong public-private partnerships.
+table 2. mhealth interventions and strategies to strengthen human resource capacity for healthe
+mheAlth ProgrAms strAtegy
+intervention main affiliated Organizations
+services that AshA (Accredited social india – services that provide registration forms, checklists, 
+support patient health Activist) Project care protocols, and educational materials to support 
+tracking and CommCare community health workers in tracking pregnancies during 
+management at home visits, supporting maternal, neonatal and early child 
+the community health, and providing referrals for at-risk individuals.
+level
+mobile technology ghana – services that integrate community-based electronic 
+for community health records of care with the delivery of sms or pre-recorded voice 
+(motech) educational messages to pregnant women and their families 
+grameen foundation, to remind women and newborns that they are due for or are 
+Columbia university’s mailman non-adherent with scheduled care.
+school of public health, 
+ghana health service
+childcount+ ghana, kenya, rwanda, Tanzania, uganda – services that 
+millennium villages project allow community health extension workers to use text-
+based messages to register new births, monitor community 
+health events in pregnant women, receive feedback on 
+recommended treatment, and track and manage their care.
+e. for a more comprehensive list of mhealth interventions and strategies, visit the database on the health unbound website http://www.healthunbound.org/
+19
+strengthening humAn resource cAPAcity Leveraging MobiLe TechnoLogies in MaTernaL and newborn heaLTh
+mheAlth ProgrAms strAtegy
+intervention main affiliated Organizations
+services that sajida bandhu bangladesh – services that support the ability of clinicians 
+support risk sajida foundation, aCCess in central facilities to monitor data that has been collected 
+screening, referral, health international and transmitted by phone during home visits and to provide 
+and remote medical advice in real-time.
+consultation
+mi bebé mexico – mobile health monitoring services that allow health 
+instituto Carlos slim, professional and community health workers to continuously 
+Qualcomm and remotely monitor women with high-risk pregnancies to 
+provide early warning of abnormalities and to connect women 
+to specialized clinics in a timely manner.
+using cell Phones for Tanzania – district-level referral services for emergency 
+obstetric emergencies obstetric care for pregnant women that connect health 
+ifakara health institute, workers in peripheral facilities with senior medical staff 
+maternal health Task force at district headquarters for immediate consultation and 
+emergency clinical support.
+services that e-imci (integrated Tanzania – services that provide electronic protocols on 
+provide electronic management of  mobile devices to guide health workers step-by-step through 
+versions of care childhood illness) the assessment, classification and treatment of a condition to 
+protocols for d-Tree international, dimagi improve their adherence to standard care protocols as well as 
+community health to ensure favorable patient outcomes.
+workers and 
+facility-based mobiles for Quality uganda – education and training services that use text 
+staff improvement messages to deliver daily instructions, tips, and quizzes to 
+marie stopes international, health workers that reinforce clinical content learned during 
+usaid training and adherence to standards and guidelines.
+clinical Patient kenya – services that employ portable devices with 
+Administration kit embedded workflow processes that guide skilled 
+(cliniPAk) professionals or less skilled health workers through primary 
+vecna Cares Charitable Trust, care and specialized clinical protocols and that support 
+Click health improved data capture, longitudinal patient care and reporting, 
+and patient outreach.
+services that capacity Project kenya – services that support effective communication 
+strengthen intrahealth international, with health workers deployed to remote areas to improve 
+or improve usaid monitoring and supervision, and produce time and cost 
+human resource efficiencies in reporting administrative data and in responding 
+management to personnel concerns.
+processes
+20
+strengthening humAn resource cAPAcity  Leveraging MobiLe TechnoLogies in MaTernaL and newborn heaLTh
+in particular for frontline health workers, mhealth on health workers. in rural areas where paper-based 
+can not only improve mnh care delivery but data collection and submission to district-level 
+also increase work motivation, autonomy, and reporting systems requires hand delivery, traditional 
+supervision in a number of ways. To improve techniques are being streamlined by electronic 
+delivery, mobile phones offer options to better opportunities of transmission, effectively resulting 
+collect routine patient data during home and in both money and time savings. furthermore, 
+clinic visits; screen for risk factors during data collected on mobile phones can be directed 
+pregnancy; transmit any data for remote review for immediate feedback by experts to frontline 
+and interpretation by clinicians, which allows health workers on follow-up actions, such as 
+remote monitoring of high-risk pregnancies; and diagnosis, referrals, or treatment. additionally, 
+deliver protocol-driven care and treatment. mobile- administrators have the ability to track health 
+mediated solutions can facilitate postnatal home indicators at the community level, monitor health 
+visits in the period immediately following discharge worker performance, provide learning resources 
+from a facility, as well as provide critical linkages and to community- or facility-based health workers to 
+referrals to further remote monitoring or consultation. reinforce previous training or prioritize community-
+level actions and resource allocation. additionally, 
+with regard to increasing work motivation, well-equipped health facilities and on-time payment 
+autonomy, and supervision of health workers, of salaries or per diems are as important to the 
+mhealth solutions facilitate workloads and workforce morale as are financial incentives that 
+automate challenging aspects of the duties placed reward performance. 
+21
+strengthening humAn resource cAPAcity  Leveraging MobiLe TechnoLogies in MaTernaL and newborn heaLTh
+trAnsForming heAlth  coverage of effective services at the household 
+system cAPAcity and community levels, places where delays can 
+The third category of mhealth efforts is aimed be reduced. additionally, services that turn existing 
+at making improvements in inadequate levels of systems for monitoring and evaluation reporting 
+resources and poor infrastructure that limit health from paper-based into electronic or mobile-based 
+system capacity and performance for delivering cannot only speed up monitoring, surveillance, and 
+mnh services. aforementioned examples in detection from weeks or months to real-time, but 
+the previous section regarding how mhealth can also enhance accountability for health system 
+strengthens human resource capacity are strengthening. since these have been described 
+applicable here as well. for example, services that earlier, this section will detail existing mhealth efforts 
+equip community-based health worker cadres that can improve the governance and introduce 
+with mobile tools can extend the physical space supply chain and clinical process efficiencies, as 
+of health facilities, which can then augment shown in table 3.
+22
+trAnsForming heAlth system cAPAcity   Leveraging MobiLe TechnoLogies in MaTernaL and newborn heaLTh
+table 3. mhealth programs and strategies that strengthen health system capacity.f
+mheAlth ProgrAms And strAtegies
+intervention
+supply chain •	 sms for life (ministry of health and social welfare national malaria Control programme, 
+Management novartis, medicine for malaria venture, swiss agency for development, vodacom, psi 
+Tanzania, vodafone, ibm, roll back malaria partnership secretariat; Tanzania) employs 
+mobile phone, short message service, and electronic mapping technologies to accurately 
+track and support review of reported weekly stock levels of artemisinin combination therapy 
+and quinine injectables. This information helps eliminate stock-outs and improves access to 
+essential medicines by allowing district-level medical officers to allocate malaria treatments 
+to where they are most needed, as well as coordinate emergency deliveries to health 
+facilities if necessary. results of a pilot in three districts of rural Tanzania, involving 128 
+health facilities and covering a population of 1.2 million, reported a decline in the stock-out 
+rate from 26 percent of health facilities to 0.8 percent over a 21-week period. following a 
+request from the Tanzanian ministry of health, sms for Life has been extended to all 5,099 
+health facilities in Tanzania. The program is a partnership with novartis, vodafone solutions 
+and the roll back malaria initiative. 
+•	 mtrac (uganda ministry of health, uniCef, find; Uganda) employs text-based 
+messaging to track disease outbreaks and medication supplies. Community health 
+workers at district health centers submit weekly data reports that are sent to district-
+level and national stakeholders who follow up on the outcomes; this creates a clear line 
+of performance accountability. The initial pilot reported a response rate of approximately 
+90 percent from the 170 health facilities in two districts of uganda. The program was 
+transferred from the initial pilot partners find (foundation for innovative new diagnostics) 
+and the millennium villages project to the ugandan government in 2011, which is now in 
+the process of rolling out the program nationwide through 5,000 health facilities and 8,000 
+community-based drug dispensaries. a key factor contributing to its success was the 
+incorporation of sustainability and scalability factors into the initial design and development. 
+clinical diagnostic •	 sms Printers to Accelerate return of test results for early infant 
+results reporting diagnosis of hiv/Aids, smArt, (Clinton health access initiative, federal ministry of 
+health of nigeria; Nigeria) employs sms-driven printers that connect referral laboratories 
+to community clinics via global service for mobile Communications (gsm) mobile networks 
+and a simple database application to reduce the turnaround time in laboratories returning 
+results of critical blood tests for hiv-exposed infants to clinics. The only consumable required 
+is the thermal print paper. a pilot in nigeria that reduced the turnaround time from 33 to 14 
+days led to plans for the national scale-up of the project. The government is committing 
+financial resources to the expansion of the service. future plans for expansion include 
+automating and analyzing results and adding tests for other conditions to the system. The 
+estimated cost for the printers is between $300 and $500 depending on suppliers.
+f. for a more comprehensive list of mhealth programs and strategies, visit the database on the health unbound website http://www.healthunbound.org/
+23
+trAnsForming heAlth system cAPAcity   Leveraging MobiLe TechnoLogies in MaTernaL and newborn heaLTh 
+mheAlth ProgrAms And strAtegies
+intervention
+e-governance •	 e-mAmtA (health and family welfare department, government of gujarat; national rural 
+health system; India) consists of an online registration system combined with a call center 
+to track pregnant women, infants, and children attending government-run health centers in 
+the state of gujarat to improve the reliability and accuracy of state-reported data related to 
+maternal and child health services and outcomes. The program ensures receipt of proper 
+medical services and vaccinations, and supports the identification of every pregnant mother 
+who visits a government health facility, and monitoring from conception through 42 days 
+after delivery. The call center officials frequently call the pregnant mother to ensure that 
+she is receiving proper medical attention. Children are monitored for a period of five years 
+to ensure receipt of immunizations. The indian government has adopted the system for 
+replication in other states.
+•	 mubuzima (rwanda ministry of health, phones for health, usaid; Rwanda) is a system 
+using interactive voice response through cell phones to enable community health workers 
+to provide in real time monthly data related to community health indicators, such as the 
+number of women who delivered at home or in a health facility in a given month, case 
+management of sick children, and nutritional and vaccination status. These data are 
+immediately processed, and health actors at all levels of the health system can access data 
+updates and plan appropriate interventions aimed at reducing maternal and child mortality 
+and reaching other health policy goals. The data are also used to supervise community 
+health workers and to provide small incentive payments based on their performance. The 
+ministry of health was able to negotiate deep discounts, which reduced the costs of airtime 
+by 82 percent, for sms and voice messaging with the mobile phone operators. in the future, 
+it is envisioned that the system will provide decision support directly to community health 
+workers to enhance the delivery of maternal and child health services. mubuzima has been 
+developed in collaboration with the ministry of health and supported by the phones for 
+health, a public-private partnership. 
+professional •	 mdnetwork (vodafone, mTn; Ghana and Liberia) is a free mobile phone network for 
+knowledge professional doctor-to-doctor communications as a result of a partnership between mdnet, 
+networks now switchboard, and the local telecom operator, vodafone. The service addresses a need 
+to share best practices and provide physicians in rural areas with expert knowledge through 
+peer-to-peer knowledge transfer. The launch of the service in ghana in 2008 created the 
+first countrywide mobile doctor network in africa. The program has allowed the ghana 
+medical association to easily send bulk text messages to all physicians in ghana, improving 
+countrywide emergency response capabilities and communication. since its inception, 
+more than 1,900 physicians in ghana have registered for the mdnet program and have 
+logged more than three million calls. in ghana, mdnet has generated nearly $1,300,000 in 
+revenue for the local telecom operator vodafone since 2008. The service was also launched 
+in Liberia in august 2008 and has networked 100 percent of physicians working in Liberia, 
+and is being introduced in Tanzania.
+24
+trAnsForming heAlth system cAPAcity   Leveraging MobiLe TechnoLogies in MaTernaL and newborn heaLTh
+LiTeracy and inequiTies 
+in woMen’s access To 
+MobiLe phones reMain 
+key issues in The design 
+and iMpLeMenTaTion of 
+mheaLTh services
+oPPortunities For mheAlth in lessons that have emerged across mhealth 
+mAternAl And newborn heAlth interventions in mnh and that highlight what 
+The opportunities offered through mobile has been learned by the global community are 
+technologies in addressing unmet needs and in described below.
+removing traditional geographic and economic •	 technology design should address user 
+barriers to care are great. existing mhealth needs. for example, when compared to text 
+interventions focus primarily on acute, life- messages, voice-based solutions are often more 
+threatening situations;12 however, mhealth can effective in optimizing the reach and impact of 
+yield a larger impact on mnh outcomes in LmiCs mhealth services particularly in an environment 
+if further leveraged at multiple points along the where illiteracy levels are high. additionally, it is 
+continuum of care, such as when addressing family important to contextualize content of the information 
+planning or the period between labor and the being transmitted, while taking into consideration 
+immediate 49 hours after giving birth.d local cultures when designing interventions.
+•	 solutions should leverage available 
+with this focus on the continuum of care, mhealth resources to maximize impact. mobile 
+opportunities for mnh include approaches that technology solutions should be consistent with 
+address family planning and increase contraceptive local technology and health policy environments 
+prevalence, incentivize women to attend centers to have optimal impact on augmenting established 
+providing skilled care during and after childbirth. care practices. This improves the likelihood that 
+Other mhealth interventions with potential include mhealth solutions will better contribute to health 
+remote monitoring of high-risk pregnant women priorities and complement existing practices while 
+with wireless fetal monitors and empowering minimizing the potential for disruption. in the future, 
+frontline health workers with case management it is probable that advances achieved through 
+and clinical decision support tools to provide mhealth interventions will drive developments in 
+integrated, evidence-based care management. in public policy and health practices.
+LmiCs, mobile technology can help meet mdg 
+targets by supporting the delivery of complementary •	 technology is one element of the whole 
+patient-support information-based services. These solution. in addition to the technology itself, 
+could include information services that support the social factors, market-based incentives, and 
+prevention of mother-to-child transmission of hiv/ regulatory frameworks must be considered. 
+aids services, along with other services related incorporating these will ultimately influence 
+to communicable diseases, such as tuberculosis successful user interaction with technology, the 
+and malaria, known to contribute to maternal and benefits to be derived, the rate of adoption and 
+newborn mortality. diffusion, and the degree of impact on health 
+outcomes. failure to achieve adequate attention 
+even though mhealth projects identified in this in the planning phase may lead to mobile 
+brief are currently in the design and test phase solutions falling short of their potential.
+or early stages of implementation and have not •	 open solutions minimize the technical 
+been in operation long enough to be evaluated and economic risks in design. Open-source 
+for impact on health outcomes, there are many software solutions, standardized user and system 
+lessons learned that should be considered when requirements, and the sharing of resources based 
+integrating a mobile-mediated project. The on experiences with technology can facilitate 
+ saving Lives at birth: a grand Challenge for development (http://www.savinglivesatbirth.net)
+26
+oPPortunities For mheAlth in mAternAl And newborn heAlth Leveraging MobiLe TechnoLogies in MaTernaL and newborn heaLTh
+greater interoperability among information systems. and approaches that can work at scale and 
+They can also support the development of cost- how to translate success into reproducible but 
+effective and low-risk approaches to design and context-specific strategies. because of this, key 
+development, and increase the prospect for local recommendations for building a sustainable and 
+ownership, adaptation, and management in the scalable mhealth program are comprised of a 
+implementation of mhealth solutions. combination of policies, strategies, and guidelines 
+•	 strong partnerships across sectors breed that align health system needs and priorities with 
+success for sustaining development efforts. technology’s capabilities and user preferences. in 
+partnerships that engage a broad range of particular, the recognition of mobile technology’s 
+stakeholders across the health system and other potential to improve mnh, along with solid evidence 
+sectors are more likely to ensure successful of mhealth’s broader impacts on health, is critical 
+outcomes and the incorporation of a rigorous for advancing policy and investment in the field. 
+evaluation framework. for a more conducive increased investment and supportive policy are not 
+policy environment and to assure that projects likely until the evidence base is strengthened and 
+are consistent with health system priorities and strategies for successfully sustaining interventions at 
+resources, involving the government is particularly scale are outlined.
+important. success also depends on the 
+development of in-country program capacity in The programs of recent recipients of catalytic 
+technology development, project management, funding grants from the mhealth alliance highlight 
+and monitoring and evaluation. the various approaches to scale up. for example, 
+the smarT program has proposed the design 
+and deployment of a centralized computing 
+AdvAncing mobile heAlth in infrastructure that will help expedite sharing and 
+mAternAl And newborn heAlth follow up of laboratory test results, in addition 
+advancing mhealth in the mnh context requires to real-time tracking of program data. dimagi is 
+addressing challenges related not only to tailoring currently planning to accelerate, scale up, and 
+the technology to human, social, and cultural amplify the impact of its CommCare-asha case 
+factors, but also to market mechanisms and management mobile-mediated solution that enrolls, 
+regulatory and legal policy frameworks that can supports, and tracks the clients and activities 
+ultimately determine the successful user interaction of community health workers. The grameen 
+with the technology, the benefits perceived, the foundation has indicated that it will introduce a fee-
+rate of market adoption and diffusion across the for-service model for its moTeCh project in urban 
+population, as well as the degree of impact on areas, which will subsidize services for the poor 
+health outcomes that can be realized. living in rural areas.
+Currently, the mhealth global landscape contains 
+a large number of pilot projects that report largely 
+favorable and positive outcomes on usability but fail 
+to offer comprehensive project assessment reports 
+that provide definitive evidence of the impact on 
+health outcomes. furthermore, there is a lack 
+of evidence regarding the kinds of interventions 
+ saving Lives at birth: a grand Challenge for development (http://www.savinglivesatbirth.net)
+27
+AdvAncing mobile heAlth in mAternAl And newborn heAlth Leveraging MobiLe TechnoLogies in MaTernaL and newborn heaLTh
+coMbining MobiLe 
+TechnoLogies wiTh 
+exisTing heaLTh sysTeM 
+resources offers 
+significanT poTenTiaL 
+To provide woMen and 
+newborns wiTh adequaTe 
+and appropriaTe care
+technology, design,  each “siloed” application lacks the standardization 
+And imPlementAtion and integration to support interoperability and 
+The first category of advancing mhealth in information sharing along the continuum of care. 
+mnh emphasizes the technology, design, and mhealth should also be designed and implemented 
+implementation of programs. in many LmiCs, the in a way that it can begin to move beyond the 
+majority of mhealth applications rely on basic vertical orientation and single-solution focus 
+wireless, cellular telephony as a technically efficient adopted by many interventions to date. focus 
+and culturally responsive means to support the should shift toward integration solutions within 
+supply and demand sides of health services. broader health system and technological contexts. 
+however, the penetration of mobile broadband intervention examples would include the prevention 
+still remains low and outside the economic and of malaria to reduce mortality in pregnant women in 
+technological reach of many. developing countries, as well as health promotion 
+and disease prevention in the management of 
+basic text and voice functionality and real-time chronic conditions that play a role in maternal health 
+communication capacity of mobile devices offer outcomes in higher income countries. in programs 
+the broadest range of potential benefits in many that integrate mhealth solutions with other mobile 
+countries. Literacy and inequities in women’s initiatives in other sectors, such as banking and 
+access to mobile phones remain key issues in the agriculture, the value of services can be enhanced  
+design and implementation of mhealth services, if services were bundled for the end users. This 
+and for the former, voice-based messages or could aid in scaling up services or programs.
+interactive response are the better alternatives to 
+communicate information to end users who may The current evidence reflects user preferences 
+be illiterate. innovation also needs to be seen and less on work efficiency, cost-effectiveness, 
+as an iterative, non-linear process and the more systems-level impact, and clinical outcomes. in 
+successful interventions are likely to be those that order to develop this evidence base, rCTs on 
+can remain flexible and adaptable to the quickly- mhealth programs are necessary, as well as 
+evolving nature of technology. finally, mhealth the development of more agile research study 
+interventions need to be designed as an extension designs and methodologies. These need to be 
+and augmentation of existing information and tailored toward the rapidly evolving technology 
+communication technology capabilities to produce and overcome the delays inherent in the gold 
+the greatest systemic benefits. standard rCT. The development of methods to 
+analyze streaming, tagged, complex, and layered 
+when designing mhealth for mnh, it is important data generated from mhealth interventions will 
+to avoid interventions that have too narrow a focus be necessary. donors should also transfer the 
+and are not designed in the context of a larger responsibility for evaluation from program managers 
+health system and as part of an ehealth information to independent evaluation specialists.
+system. a consequence of the detached, 
+standalone nature of mhealth interventions is 
+that many have been evaluated only as single 
+deployments rather than as parts of integrated, 
+comprehensive systems of broader ehealth 
+deployment. The fragmented nature of mhealth 
+interventions is seen as a major rate-limiting step 
+in the advancement and scaling of the field since 
+29
+technology, design, And imPlementAtion  Leveraging MobiLe TechnoLogies in MaTernaL and newborn heaLTh
+scAling And sustAining health systems seamlessly. This will align health 
+with regard to the particular barriers to scale and information systems and other technology-based 
+sustainability and gaps in knowledge encountered initiatives to maximize effectiveness. The scale-up 
+by mhealth programs, there is accruing of mhealth within national health agendas should 
+evidence, but there is also emerging evidence on also be broadly supported across all relevant 
+characteristics that have helped some mhealth government ministries and agencies, as well as by 
+programs become successful. Capitalizing on what all departments within the ministry of health.13 
+others have learned from implementation to date 
+and building from this rapidly developing field will be Public Policy
+crucial in realizing the full potential of mhealth. government leadership and national ehealth policies 
+can offer a solid foundation for mhealth deployment, 
+factors that have been critical in extending a particularly in creating and supporting ehealth 
+project’s lifetime past the duration of a pilot project architectures and standards for data interoperability, 
+include planning for long-term sustainability through as well as standardizing measures that are used 
+business models during the design phase, strong in evaluation techniques for assessing mhealth 
+strategic partnerships, a clear understanding impact. national governments can also be influential 
+of each stakeholder’s role and incentive for by building in-country technology planning and 
+participation, and the ability to conduct rigorous management capacities to support the introduction 
+evaluation to provide evidence of demonstrable of technology into health services at scale, and 
+impact on health outcomes. monitoring and through promoting initiatives that remove barriers to 
+evaluation requires the development of more agile women’s use of mobile technology, particularly their 
+research study designs and methodologies that ability to afford phones and pay for services.
+recognize the rapidly evolving technology. 
+as key stakeholders, governments play a critical 
+although most programs are provided at minimal role in the integration and advancement of 
+or no cost to the user, bringing a program to mhealth in mnh. with public-private partnerships, 
+national scale on a sustained basis in low-resource government involvement can provide critical support 
+settings will require innovative financing models, to programs, ensure the strategic alignment of 
+and governments will have a critical role to play as mhealth solutions with health system priorities, 
+key stakeholders. The financing models will need and balance risk and benefits for all stakeholders. 
+to remove barriers to use, particularly affordability The policy infrastructure to support investment 
+of mobile phones for women and the cost of and create a market environment conducive to 
+services. The programs will also need to engage the broad-scale adoption of mhealth into mnh 
+private partners to ensure basic operational costs services remains presently underdeveloped.14 One 
+are covered. approaches to engagement that are component of mhealth which can be catalyzed by 
+under consideration include bundling mhealth with governments is encouraging rigorous evaluation of 
+other “mservices,” placement of product marketing mobile interventions. 
+in messages, direct sponsorship, and tiered user 
+pricing, such as the mobiles for health initiative in The scale and scope of mhealth activity is unevenly 
+bangladesh. meanwhile, governmental support distributed and represented across LmiCs, making 
+can strengthen the potential of mhealth through meaningful comparison difficult. The fact that 
+public health policy and development of standards countries as diverse as rwanda and bangladesh 
+and architectures that guide the creation of ehealth lead in mhealth activity while Liberia and brazil 
+frameworks for mhealth systems to interact with lag behind cannot be explained on the basis of 
+30
+scAling And sustAining  Leveraging MobiLe TechnoLogies in MaTernaL and newborn heaLTh
+health, development, and technology indicators technologies would enhance efficiency and reduce 
+alone. differences can emerge for any number of cost. for now, mhealth only provides limited 
+reasons, but government leadership and national evidence balanced by optimism about the potential 
+ehealth policies play key roles in explaining for broader impact. evaluation will need to be 
+differences among countries. governments incorporated into the project management life cycle 
+need to become more involved in building in- to better ensure quality and address the need for 
+country technology planning and management evidence of efficiencies and effectiveness. until that 
+capacity. as access to health data on a systems evidence base gets stronger it is not likely that policy 
+level improves policymakers’ ability to use it for or investment in the field will change dramatically.
+program management, planning and evaluation 
+to drive improvements in women and child health, The shortage of funding to reduce maternal and 
+governments may become more aware of the neonatal mortality is a significant challenge. The 
+strategic importance of mhealth in national health world health Organization estimates that it will 
+systems planning. a multi-sectoral response to the take an additional $10 billion annually to ensure 
+design of systems-level solutions is likely to produce universal coverage of maternal, neonatal, and child 
+sustainable health benefits, particularly in light of the health interventions to achieve mdgs 4 and 5,16 
+impact of low socio-economic status on access to and that the lack of leadership and political will to 
+health care. implement proven interventions at the country level 
+is seen as a major impediment to success. despite 
+projects of the world health Organization’s global donors’ interest in mobile technology’s potential, 
+Observatory for ehealth reflect a groundswell of they remain cautious about increasing funding 
+activity in mhealth, the dominant form being small- for mhealth projects, and their skepticism and 
+scale pilot projects that address single issues in fatigue will persist until more rigorous evaluation, 
+information sharing and access.15 Limited, larger evidence of impact, and demonstration of scalable 
+mhealth implementations tend to be supported and sustainable models emerge. as a result, many 
+by broad public-private partnerships. while it is developing countries will maintain a significant gap 
+anticipated that large-scale and complex mhealth between minimum requirements and resources 
+programs will become more common as the field available unless alternative financing mechanisms 
+matures, strategies and policies that integrate are identified. recommendations include using 
+ehealth and mhealth interoperability into health proceeds from the sale of portions of the mobile 
+services are being advocated. standards and spectrum or taxes generated through mobile 
+interoperable technologies, ideally using open services. similar initiatives that have already been 
+architectures, are critical. an international framework proven in other areas of global health, such as the 
+for evaluation, including meaningful and measurable international solidarity Levy on airline tickets for hiv/
+indicators, would help data collection. The use aids, have raised billions of dollars to date.17
+of standardized information and communication 
+31
+Public Policy Leveraging MobiLe TechnoLogies in MaTernaL and newborn heaLTh
+TechnoLogies To Make This 
+happen exisT Today, Making 
+The vision of advancing 
+progress in MaTernaL 
+and neonaTaL heaLTh 
+indicaTors in The near 
+fuTure highLy achievabLe.
+conclusion Leveraging MobiLe TechnoLogies in MaTernaL and newborn heaLTh
+conclusion technology offers, while solid evidence of the broader 
+impact of mhealth on improving maternal and 
+in mnh, combining mobile technologies with 
+neonatal health outcomes is eagerly awaited to serve 
+existing health system resources offers significant 
+as a catalyst in advancing policy and investment in 
+potential to provide women and newborns with 
+the field. The ability to conduct rigorous evaluation 
+adequate and appropriate care through interventions 
+and provide evidence of demonstrable impact is 
+that (1) stimulate demand for available services, 
+the crucial catalyst that will advance policy and 
+(2) strengthen human resource capacity, and (3) 
+investment in the field and lead to the successful 
+transform health system capacity. These can then 
+scaling and sustaining of mhealth interventions. 
+lead to greater efficiencies in care delivery and 
+management practices as described throughout 
+as addressed in this report, the lack of supportive 
+this report. in summary, interventions that are able 
+national policy for information and communications 
+to stimulate demand for available services include 
+technologies in health care can at times impede the 
+using mobile phone features to increase awareness 
+alignment of health system needs and priorities with 
+of health issues and to offer patient-support 
+technology capabilities. This underscores the urgency 
+services, as well as incentives that can remove 
+for policymakers to advance policy frameworks 
+financial-related barriers for either out-of-pocket 
+appropriately and promote an environment that 
+expenses or transportation costs, which if reduced 
+uses mobile technology for optimal impact on mnh 
+can increase both service access and utilization, 
+outcomes. governments can play a critical role 
+respectively. for strengthening the capacity of human 
+through the formulation of public health policy and by 
+resources, there are new opportunities being offered 
+developing standards and architectures that guide 
+from growing mobile telephony, such as patient 
+the development of ehealth frameworks for mhealth 
+tracking and management, as well as point-of-care 
+systems to interact with health systems seamlessly. 
+decision support applications that make it easier for 
+by doing so, the technical elements of mhealth 
+community-based health workers to follow existing 
+projects will be in alignment with egovernment, 
+guidelines. Lastly, from the examples provided, we 
+health information systems, and other initiatives that 
+have seen the ability of mobile phones to transform 
+seek to leverage information technology to improve 
+health system capacity in ways that can lead to more 
+the public’s well being and health.
+efficient delivery of care and management practices, 
+particularly efforts that focus on tracking and 
+mapping of diseases and drug stock levels through mobile devices and networks hold strong potential to 
+mobile networks, as well as mobile-phone-based accelerate progress toward maternal and neonatal 
+monitoring and evaluation systems or education and health outcomes worldwide, accelerating progress 
+training services for health workers. also, because toward mdgs 4 and 5. although strategic efforts 
+maternal and neonatal death events are hard to and investments are necessary to deploy mhealth 
+estimate and monitoring quality varies tremendously, solutions properly to facilitate lessons learned from 
+mobile phones can fill the gaps in incomplete and pilots to national scale, there are measurable gains 
+unknown data, which can in turn be used to inform that stand to be made in the coverage and quality 
+the selection of appropriate interventions to reduce of interventions already proven to be effective. The 
+maternal and newborn mortality in different contexts. catalytic impact of these investments will likely 
+translate into clear survival benefits for mothers 
+and newborns at risk of dying from preventable 
+from such examples provided in this report, we have 
+and curable diseases each year. in addition to 
+shown preliminary results that are promising for the 
+reducing the delays that prevent timely access 
+field of mnh; however, if mhealth efforts continue 
+and utilization of needed services for mothers and 
+to be integrated, they must be appropriately tailored 
+newborns, strategic integration of mhealth at the 
+to the country contexts and their epidemiological 
+most appropriate delivery points along the maternal-
+profiles, health system capabilities, and opportunities 
+newborn continuum of care will strengthen health 
+for strengthening existing technical, social, and 
+systems and the capacity of frontline health workers 
+economic barriers to mnh interventions. additionally, 
+who deliver life-saving interventions in the most 
+as more and more evidence accrues, which it will 
+remote, hard-to-reach populations globally. The 
+quickly, it will become ever more important to learn 
+knowledge, systems, and technologies to make this 
+rapidly from existing projects and put forth higher 
+happen exist today, making the vision of advancing 
+quality evidence so that the full potential of mobile 
+progress in maternal and neonatal health indicators 
+technologies can be reached in the field of mnh. 
+in the near future highly achievable.
+for now, existing mhealth efforts are supported by 
+the recognition of the larger potential that mobile 
+33
+concLusion  Leveraging MobiLe TechnoLogies in MaTernaL and newborn heaLTh
+reFerences 
+1. uniCef. state of the world’s Children 2009: maternal and newborn health. new york, ny: uniCef; 2009.
+2. uniCef. Levels & Trends in Child mortality. report 2011: estimates developed by the un inter-agency 
+group for Child mortality estimation: united nations Children’s fund; 2011.
+3. Lawn Je, Cousens s, Zupan J, for the Lancet neonatal survival steering Team. 4 million neonatal deaths: 
+when? where? why? The Lancet. 2005; 365: 891-900.
+4. global Campaign for the health millennium development goals. innovating for every woman, every child. 
+Oslo, norway: ministry of foreign affairs; 2011.
+5. international Communications union (iTu). The world in 2011: iCT facts and figures; 2011.
+6. united nations. The millennium development goals report 2011. new york: united nations; 2011.
+7. world health Organization, uniCef. Countdown to 2015 decade report (2000-2010): Taking stock of 
+maternal, newborn and child survival. geneva, switzerland: world health Organization; 2010.
+8. bhutta Za, Chopra m, axelson h, berman p, boerma T, bryce J, et al. Countdown to 2015 decade report 
+(2000–10): taking stock of maternal, newborn, and child survival. The Lancet. 2010; 375: 2032-44.
+9. Thaddeus s, maine d. Too far to walk: maternal mortality in context. social science & medicine. 1994; 
+38(8): 1091-110.
+10.mehl g, world health Organization. using mobile technologies to improve family planning, maternal health 
+and newborn services in the developing world. shOps and mhealth alliance hold Online Conference. 
+Online; 2010.
+11.Cole-Lewis h, kershaw T. Text messaging as a tool for behavior change in disease prevention and 
+management. epidemiol rev. 2010; 32: 56-69.
+12.noordam aC, kuepper bm, stekelenburg J, milen a. improvement of maternal health services through 
+the use of mobile phones. Tropical medicine and international health. 2011; 16(5): 622-6.
+13.Lemaire J. scaling up mobile health: elements necessary for the successful scale up of mhealth in 
+developing countries: advanced development for africa; 2011.
+14.Tamrat T, kachnowski s. special delivery: an analysis of mhealth in maternal and newborn health 
+programs and their outcomes around the world. matern Child health J. 2011.
+15.world health Organization. mhealth: new horizons for health through mobile technologies. geneva, 
+switzerland: world health Organization,; 2011.
+16.bill and melinda gates foundation. maternal, newborn, and Child health fact sheet. 2012 [cited July 20, 
+2012]; available from: http://www.gatesfoundation.org/maternalnewbornandchildhealth/pages/default.aspx
+17.Taskforce on innovative international financing for health systems. more money for health, and more 
+health for the money: final report. geneva, switzerland: international health partnership; 2009.
+34
+reFerences  Leveraging MobiLe TechnoLogies in MaTernaL and newborn heaLTh
+
+The mHealth Alliance champions the use of mobile technologies to improve health throughout the world. Working with diverse partners to  
+integrate mHealth into multiple sectors, the Allinace serves as a convener for the mHealth community. The mHealth Alliance also hosts Health 
+Unbound (HUB), a global online community for resource sharing and collaborative solution generation. For more information, visit mHealthAlliance.org.

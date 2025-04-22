@@ -1,0 +1,2988 @@
+
+<!DOCTYPE html> 
+<html lang="en-US" class="static detail-team-fusion-content contents"> 
+<head> 
+    <meta charset="utf-8" />
+    <title>AeHIN - Digital Health Terminology Guide (English-Khmer)</title> 
+    <link href="/Modules/ITG.TeamFusion/Styles/ThemeOverrides.css" rel="stylesheet" type="text/css" />
+<link href="/Modules/ITG.TeamFusion/Styles/Common.css" rel="stylesheet" type="text/css" />
+<link href="/Themes/Metro-AeHIN/styles/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<link href="/Themes/Metro-AeHIN/Styles/site.css" rel="stylesheet" type="text/css" />
+<link href="/Modules/ITG.TeamFusion/Styles/UserMenu.css" rel="stylesheet" type="text/css" />
+<link href="/Modules/ITG.TeamFusion/Styles/bootstrap-growl.css" rel="stylesheet" type="text/css" />
+<link href="/Modules/ITG.TeamFusion/Styles/bootstrap-modal-bs3patch.css" rel="stylesheet" type="text/css" />
+<link href="/Modules/ITG.TeamFusion/Styles/bootstrap-modal.css" rel="stylesheet" type="text/css" />
+<link href="/Modules/ITG.TeamFusion/Styles/zoombox.css" rel="stylesheet" type="text/css" />
+<link href="/Modules/ITG.TeamFusion/Styles/Asset.Visuals.css" rel="stylesheet" type="text/css" />
+<link href="/Modules/ITG.TeamFusion/Styles/Asset.Attachments.EditMode.css" rel="stylesheet" type="text/css" />
+<link href="/Modules/Orchard.jQuery/Styles/jquery-ui-1.9.2.custom.css" rel="stylesheet" type="text/css" />
+<link href="/Modules/ITG.TeamFusion/Styles/jquery.fileupload-ui.css" rel="stylesheet" type="text/css" />
+<link href="/Modules/ITG.TeamFusion/Styles/jquery.validate.css" rel="stylesheet" type="text/css" />
+<link href="/Modules/ITG.TeamFusion/Styles/Asset.SeeAlso.css" rel="stylesheet" type="text/css" />
+<link href="/Modules/ITG.TeamFusion/Styles/AssetDetails.css" rel="stylesheet" type="text/css" />
+<script src="/Modules/Orchard.jQuery/scripts/jquery-1.11.1.min.js" type="text/javascript"></script>
+<!--[if lt IE 9]>
+<script src="/Modules/Contrib.Widgets/scripts/html5.js" type="text/javascript"></script>
+<![endif]-->
+<meta content="Orchard" name="generator" />
+<meta content="Digital Health Terminology Guide (English-Khmer)" name="og:title" />
+<meta content="" name="og:description" />
+
+    <script>(function(d){d.className="dyn"+d.className.substring(6,d.className.length);})(document.documentElement);</script> 
+</head> 
+<body>
+	<!-- BindTuning head elements-->
+
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-33935967-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+
+<div class="page-container">
+	
+	<script type="text/javascript">
+		//if (typeof jQuery == 'undefined') {document.write('<script type="text/javascript" src="/Themes/MetroX/js/jquery.min.js"><' + '/script>');}
+		var style_mobile_path = '/Themes/Metro-AeHIN/styles/css/'; // path for mobile nav css files, ORX-specific
+	</script>
+	<script type="text/javascript">
+		$('head').append('<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">');
+	</script>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="/Themes/MetroX/js/html5shiv.js"></script>
+      <script src="/Themes/MetroX/js/respond.min.js"></script>
+    <![endif]-->
+	<script type="text/javascript" src="/Themes/MetroX/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        
+        $.fn.bstooltip = $.fn.tooltip;
+    </script>
+<script type="text/javascript" src="/Themes/MetroX/js/BindMENU.js"></script>
+<script type="text/javascript" src="/Themes/MetroX/js/fix-responsive-WP8.js"></script>
+
+
+	<!--Apply class to body with browser version-->
+	<script type="text/javascript">
+		var nVer = navigator.appVersion; var nAgt = navigator.userAgent; var bN = navigator.appName; var fullV = "" + parseFloat(navigator.appVersion); var majorV = parseInt(navigator.appVersion, 10); var nameOffset, verOffset, ix; if ((verOffset = nAgt.indexOf("Opera")) !== -1) { bN = "Opera"; fullV = nAgt.substring(verOffset + 6); if ((verOffset = nAgt.indexOf("Version")) !== -1) { fullV = nAgt.substring(verOffset + 8) } } else { if ((verOffset = nAgt.indexOf("MSIE")) !== -1) { bN = "IE"; fullV = nAgt.substring(verOffset + 5) } else { if ((verOffset = nAgt.indexOf("Chrome")) !== -1) { bN = "Chrome"; fullV = nAgt.substring(verOffset + 7) } else { if ((verOffset = nAgt.indexOf("Safari")) !== -1) { bN = "Safari"; fullV = nAgt.substring(verOffset + 7); if ((verOffset = nAgt.indexOf("Version")) !== -1) { fullV = nAgt.substring(verOffset + 8) } } else { if ((verOffset = nAgt.indexOf("Firefox")) !== -1) { bN = "Firefox"; fullV = nAgt.substring(verOffset + 8) } else { if ((nameOffset = nAgt.lastIndexOf(" ") + 1) < (verOffset = nAgt.lastIndexOf("/"))) { bN = nAgt.substring(nameOffset, verOffset); fullV = nAgt.substring(verOffset + 1); if (bN.toLowerCase() == bN.toUpperCase()) { bN = navigator.appName } } } } } } } if ((ix = fullV.indexOf(";")) !== -1) { fullV = fullV.substring(0, ix) } if ((ix = fullV.indexOf(" ")) !== -1) { fullV = fullV.substring(0, ix) } majorV = parseInt("" + fullV, 10); if (isNaN(majorV)) { fullV = "" + parseFloat(navigator.appVersion); majorV = parseInt(navigator.appVersion, 10) } 
+		document.getElementsByTagName("body")[0].className += " " +  bN + " " +  bN + majorV + " cmsORX cmsORX1 BT-pk";
+	</script>
+<!--[if lte IE 7]>
+<link rel="stylesheet" href="/Themes/MetroX/Styles/css/ie7.css" type="text/css"/>
+<![endif]-->
+
+	<header>
+<div class="zone zone-nav-aux">
+
+
+
+
+<style type="text/css">
+    #Logo {
+        height: 88px;
+        width: 148px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .user-menu .avatar-container {
+        display: inline-block;
+        position: relative;
+        height: 16px;
+        width: 48px;
+    }
+    .user-menu .avatar {
+        width: 42px;
+        height: 42px;
+        background-repeat: no-repeat;
+        background-size: 135%;
+        background-position: center;
+        border-radius: 200px;
+        display: inline-block;
+        margin-bottom: 0;
+        margin-right: 0;
+        position: absolute;
+        top: -11px;
+    }
+
+    #MainMenu .menu-subtitle {
+        font-family: "Open Sans"; 
+        font-size: 2.0em; 
+        margin-bottom: 0.25em; 
+        margin-top: 0.6em; 
+        font-weight: bold;
+        text-align: left;
+        color: white;
+    }
+    #MainMenu .menu-subtitle small {
+        font-size: 0.6em;
+    }
+@media (min-width:752px) {
+    #MainMenu .menu-subtitle {
+        /*margin-left: 148px;*/ 
+        text-align: right;
+    }
+}
+@media (max-width:991px) {
+    #UserBookmarks div.css-treeview a[disabled],
+    #UserBookmarks div.css-treeview a[disabled]:hover {
+        color: #ddd;
+    }
+}
+</style>
+
+<div id="MainMenu">
+
+    <nav role="navigation" class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button data-target="#MenuH" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a class="navbar-brand" href="/" style="margin: 0px; padding: 0px;">
+                    <div id="Logo"
+                         style="background-image: url('/Themes/Metro-AeHIN/Content/Images/AeHIN-logo.png');">
+                    </div>
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div id="MenuH" class="navbar-collapse collapse" style="height: 1px;">
+                <div class="menu-subtitle">
+                    Asia eHealth Information Network
+                    <br />
+                    <small><em>Better use of ICTs for better health</em></small>
+                </div>
+                <ul class="nav navbar-nav menu">
+    <li class="dropdown">
+        <a href="/About" class="dropdown-toggle" data-toggle="dropdown">
+            About
+                <span class="caret"></span>
+        </a>
+            <ul class="dropdown-menu" role="menu">
+    <li >
+        <a href="/Project/Details/2265"  >
+            Interoperability Project
+        </a>
+    </li>
+    <li >
+        <a href="/news"  >
+            News Updates
+        </a>
+    </li>
+            </ul>
+    </li>
+    <li >
+        <a href="/ITG.TeamFusion.Custom.AeHIN/Home/AehinHour"  >
+            AeHIN Hour
+        </a>
+    </li>
+    <li >
+        <a href="/ITG.TeamFusion.Custom.AeHIN/Home/AehinMeetings"  >
+            Meetings
+        </a>
+    </li>
+    <li class="dropdown">
+        <a href="/ITG.TeamFusion.Custom.AeHIN/Home/AehinScholarships" class="dropdown-toggle" data-toggle="dropdown">
+            Scholarships
+                <span class="caret"></span>
+        </a>
+            <ul class="dropdown-menu" role="menu">
+    <li >
+        <a href="/ITG.TeamFusion.Custom.AeHIN/Home/AehinScholarshipSelection"  >
+            General Selection
+        </a>
+    </li>
+            </ul>
+    </li>
+    <li class="dropdown">
+        <a href="/Discover" class="dropdown-toggle" data-toggle="dropdown">
+            Contribute
+                <span class="caret"></span>
+        </a>
+            <ul class="dropdown-menu" role="menu">
+    <li >
+        <a href="/Discover"  >
+            Browse Resources
+        </a>
+    </li>
+    <li >
+        <a href="/Share/New"  >
+            New Resource
+        </a>
+    </li>
+    <li >
+        <a href="/Discover/Projects"  >
+            Browse Projects
+        </a>
+    </li>
+    <li >
+        <a href="/Project/New"  >
+            New Project
+        </a>
+    </li>
+            </ul>
+    </li>
+    <li class="dropdown">
+        <a href="/Discover/People" class="dropdown-toggle" data-toggle="dropdown">
+            Members
+                <span class="caret"></span>
+        </a>
+            <ul class="dropdown-menu" role="menu">
+    <li >
+        <a href="/Discover/People"  >
+            Browse Members
+        </a>
+    </li>
+    <li >
+        <a href="/Discuss"  >
+            Discussions
+        </a>
+    </li>
+            </ul>
+    </li>
+                    
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li id="PageTranslate">
+                        <a class="user-menu dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)">
+                            <i class="fa fa-language"></i>
+                            <span class="hidden-lg hidden-md hidden-sm">
+                                Translate
+                                <span class="caret"></span>
+                            </span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu" style="padding: 28px;">
+                            <li><div id="google_translate_element"></div></li>
+                        </ul>
+                    </li>
+                        <li>
+                            <a href="/Users/Account/LogOn?ReturnUrl=%2FShare%2FDetails%2F3819">
+                                <i class="fa fa-user"></i>
+                                Login or Register
+                            </a>
+                        </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+</div>
+
+<div id="ChangeCurrentGroupDialog" class="modal fade" tabindex="-1" role="dialog" style="display: none;" aria-hidden="true">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">
+            <span aria-hidden="true">&times;</span>
+            <span class="sr-only">Close</span>
+        </button>
+        <h4 class="modal-title">Change the current group</h4>
+    </div>
+
+    <div class="modal-body">
+        <select id="ChangeCurrentGroupList" size="10" class="form-control"></select>
+    </div>
+
+    <div class="modal-footer">
+        <button id="ChangeCurrentGroupSet" type="button" class="btn btn-primary btn-sm" data-dismiss="modal">Set</button>
+        <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">Cancel</button>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({ pageLanguage: 'en', multilanguagePage: true, gaTrack: true, gaId: 'UA-33935967-1' }, 'google_translate_element');
+    }
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script type="text/javascript">
+    function setCurrentGroup(newGroupId) {
+        $.ajax({
+            url: '/ITG.TeamFusion/Account/SetCurrentGroup',
+            type: 'POST',
+            data: addAntiForgeryToken({ groupId: newGroupId }),
+            success: function (d) {
+                if (d.Success) {
+                    $('#CurrentGroupName').text(d.GroupName);
+                    $.growl({ message: 'Your current group is "' + d.GroupName + '"', icon: 'fa fa-info-circle' });
+                }
+                else {
+                    $.growl({ message: 'The operation was not completed due to the following condition: ' + d.Message, icon: 'fa fa-warning' }, { type: 'danger' });
+                }
+            },
+        });
+    }
+    $(function () {
+        $('head').append('<meta name="google-translate-customization" content="e2277b06960b4272-2eb6999fb2b1a098-gdd12d87f933dec1d-9">');
+        $('#PageTranslate ul.dropdown-menu').click(function (e) {
+            e.cancelBubble = true;
+            if (e.stopPropagation) {
+                e.stopPropagation();
+            }
+        });
+
+        $('#MainMenu li.dropdown').on('mouseenter', function () {
+            if (viewportIs('md') || viewportIs('lg')) {
+                if (!$(this).find('ul.dropdown-menu').is(':visible')) {
+                    $(this).find('a.dropdown-toggle').dropdown('toggle');
+                }
+            }
+        });
+        $('#MainMenu li.dropdown').on('mouseleave', function () {
+            if (viewportIs('md') || viewportIs('lg')) {
+                if ($(this).find('ul.dropdown-menu').is(':visible')) {
+                    $(this).find('a.dropdown-toggle').dropdown('toggle');
+                }
+            }
+        });
+        $('#MainMenu a.dropdown-toggle').on('click', function () {
+            if (viewportIs('md') || viewportIs('lg')) {
+                var href = $(this).attr('href');
+                if (href != '#' && href.indexOf('javascript:') < 0) {
+                    window.location.assign(href);
+                }
+            }
+        });
+
+        var checkboxLabelIdentifier = 0;
+
+        $('.css-treeview').on('click', 'a', function (e) {
+            if ($(this).attr('disabled') != undefined) {
+                e.preventDefault();
+            }
+        });
+
+        function addTreeElements(root, data) {
+            $.each(data, function (index, element) {
+                var $li = $('<li>');
+                $li.addClass(element.addClass);
+                if (element.children != null && element.children.length > 0) {
+                    var checkboxId = 'checkbox-' + checkboxLabelIdentifier++;
+                    var $checkbox = $('<input type="checkbox" id="' + checkboxId + '">');
+                    $li.append($checkbox);
+                    var $label = $('<label for="' + checkboxId + '">');
+                    $li.append($label);
+                }
+                $li.append($('<span class="tree-node-icon">'));
+                var $a = $('<a>');
+                $a.text(element.title);
+                if (typeof element.folderId == 'undefined' || !element.folderId) {
+                    $a.attr('href', 'javascript:void(0)');
+                    $a.attr('disabled', 'disabled');
+                }
+                else {
+                    $a.attr('href', '/Discover?folderId=' + element.folderId);
+                }
+                $li.append($a);
+                if (element.children != null && element.children.length > 0) {
+                    var $ul = $('<ul>');
+                    addTreeElements($ul, element.children);
+                    $li.append($ul);
+                }
+                root.append($li);
+            });
+        }
+
+        $('#UserBookmarks').on('show.bs.dropdown', function (e) {
+            var $this = $(this);
+            if ($this.hasClass('data-loaded')) {
+                return;
+            }
+
+            var $toggle = $(e.relatedTarget);
+            var $that = $this.find('ul.dropdown-menu');
+
+            $.ajax({
+                url: '/ITG.TeamFusion/Bookmarks/GetChildrenFolders?parent=0',
+                type: 'GET',
+                success: function (d) {
+                    if (d != null && d.length > 0) {
+                        var $div = $('<div class="css-treeview">');
+                        var $ul = $('<ul>');
+                        addTreeElements($ul, d);
+                        $div.append($ul);
+                        $that.append($div);
+                        $this.addClass('data-loaded');
+
+                        $that.click(function (e) {
+                            e.cancelBubble = true;
+                            if (e.stopPropagation) {
+                                e.stopPropagation();
+                            }
+                        });
+                    }
+                    else if (typeof d.Success != 'undefined' && !d.Success) {
+                        $.growl({ message: 'The operation was not completed due to the following condition: ' + d.Message, icon: 'fa fa-warning' }, { type: 'danger' });
+                    }
+                    else {
+                        $.growl({ message: 'General failure', icon: 'fa fa-warning' }, { type: 'danger' });
+                    }
+                },
+                error: function () {
+                    $.growl({ message: 'The operation was not completed due to an unexpected server response.', icon: 'fa fa-warning' }, { type: 'danger' });
+                },
+                complete: function () {
+                    $that
+                        .find('.operation-pending')
+                        .parent()
+                        .remove();
+                }
+            });
+        });
+
+        $('#ChangeCurrentGroupSet').click(function () {
+            setCurrentGroup($('#ChangeCurrentGroupList').val());
+        });
+
+        $('#ChangeCurrentGroupDialog').on('show', function (e) {
+            $('#ChangeCurrentGroupList').empty();
+
+            $.ajax({
+                url: '/ITG.TeamFusion/Account/GetMemberGroups',
+                type: 'GET',
+                success: function (d) {
+                    if (d.Success) {
+                        $.each(d.Groups, function (index, element) {
+                            var $option = $('<option>');
+                            $option.val(element.Id);
+                            $option.text(element.Name);
+                            if (element.IsCurrent)
+                                $option.prop('selected', 'selected');
+                            $('#ChangeCurrentGroupList').append($option);
+                        });
+                    }
+                    else {
+                        $.growl({ message: 'The operation was not completed due to the following condition: ' + d.Message, icon: 'fa fa-warning' }, { type: 'danger' });
+                    }
+                },
+                error: function () {
+                    $.growl({ message: 'The operation was not completed due to an unexpected server response.', icon: 'fa fa-warning' }, { type: 'danger' });
+                },
+                complete: function () {
+                }
+            });
+        });
+    });
+</script>
+
+<article class="widget-nav-aux widget-team-fusion-user-menu widget">
+	<div>
+		
+	</div>
+</article>
+</div>
+        <div id="MenuV-Placeholder" style="display: none;"><div class="zone zone-navigation">
+<article class="widget-navigation widget-menu-widget widget">
+	<div>
+		
+<nav>
+    <ul class="menu menu-side-menu-1">
+        
+        
+    </ul>
+</nav>
+	</div>
+</article>
+
+<article class="widget-navigation widget-menu-widget widget">
+	<div>
+		
+<nav>
+    <ul class="menu menu-main-menu">
+        
+        
+<li class="dropdown first"><a href="/About">About</a>
+                <ul>
+                    
+<li><a href="/Project/Details/2265">Interoperability Project</a>
+</li>
+<li><a href="/news">News Updates</a>
+</li>
+                </ul>
+</li>
+<li><a href="/ITG.TeamFusion.Custom.AeHIN/Home/AehinHour">AeHIN Hour</a>
+</li>
+<li><a href="/ITG.TeamFusion.Custom.AeHIN/Home/AehinMeetings">Meetings</a>
+</li>
+<li class="dropdown"><a href="/ITG.TeamFusion.Custom.AeHIN/Home/AehinScholarships">Scholarships</a>
+                <ul>
+                    
+<li><a href="/ITG.TeamFusion.Custom.AeHIN/Home/AehinScholarshipSelection">General Selection</a>
+</li>
+                </ul>
+</li>
+<li class="dropdown"><a href="/Discover">Contribute</a>
+                <ul>
+                    
+<li><a href="/Discover">Browse Resources</a>
+</li>
+<li><a href="/Share/New">New Resource</a>
+</li>
+<li><a href="/Discover/Projects">Browse Projects</a>
+</li>
+<li><a href="/Project/New">New Project</a>
+</li>
+                </ul>
+</li>
+<li class="dropdown last"><a href="/Discover/People">Members</a>
+                <ul>
+                    
+<li><a href="/Discover/People">Browse Members</a>
+</li>
+<li><a href="/Discuss">Discussions</a>
+</li>
+                </ul>
+</li>
+    </ul>
+</nav>
+	</div>
+</article>
+</div></div>
+
+		<div class="BannerZone"><div id="Header"><div class="zone zone-header">
+<article class="widget-header widget-team-fusion-asset-bookmark-dialogs widget">
+	<div>
+		
+	</div>
+</article>
+</div></div></div>
+	</header>
+
+
+	<div class="container">
+        <div id="ContentArea">
+            <div class="row">
+            </div>
+            <div class="row" style="position: relative;">
+                <div class="col-md-3 col-lg-2" style="z-index: 3;">
+                    <div id="MenuV-container" class="menu-collapsed">
+                        <div id="MenuV-expander">
+                            <i class="fa fa-ellipsis-h"></i>
+                        </div>
+                        <div id="MenuV">
+                            <script type="text/javascript">$("#MenuV").html($("nav ul[class^='menu-side-menu-'],nav ul[class*=' menu-side-menu-']").parent().parent().detach().html());</script>
+                        </div>
+                    </div>
+                    <script type="text/javascript">
+                        $('#MenuV-expander').click(function () {
+                            if ($('#MenuV-container').is('.menu-collapsed')) {
+                                $('#MenuV-container').removeClass('menu-collapsed');
+                            }
+                            else {
+                                $('#MenuV-container').addClass('menu-collapsed');
+                            }
+                        });
+                        if ($('#MenuV > *').length == 1 && $('#MenuV > script').length == 1) {
+                            $('#MenuV-expander').hide();
+                        }
+                    </script>
+                    <div class="LeftZone">
+                    </div>
+                </div>
+                <div class="col-md-9 col-lg-10">
+                    <div class="row">
+                                            </div>
+                    <div class="row">
+
+
+                    </div>
+                    <div class="row">
+
+
+                    </div>
+                    <div class="row">
+<div class="col-md-12" id="Content"><div class="zone zone-content">
+<article class="team-fusion-content content-item">
+    <header>
+        
+
+<link href="/cassette.axd/stylesheet/b46a3185565f1f6665b89d17dc5877a5531f5280/Modules/ITG.TeamFusion/Bundles/Common" type="text/css" rel="stylesheet"/>
+<link href="/cassette.axd/stylesheet/acaff3c730e43d2c95bcbcfc383ee7d958435051/Modules/ITG.TeamFusion/Bundles/Asset.Attachments" type="text/css" rel="stylesheet"/>
+
+
+<script id="CommentsWidget-CommentsWidgetBodyTemplate" type="text/html"><span data-bind="attr: {'data-comments-key': commentsKey()}" class="comments">
+  <div data-bind="visible: isExpanded" style="background-color: #f1f1f1; margin-top: 10px; padding: 0 20px 1px;">
+    <div data-bind="visible: canWrite" class="comments-newCommentForm">
+      <table>
+        <tr>
+          <td data-bind="validationOptions: { insertMessages: false }"  style="width: 100%;">
+            <textarea data-bind="value: newComment, valueUpdate: 'keyup', enterkey: addComment, autosize: newComment" placeholder="Leave a comment..."></textarea>
+          </td>
+          <td>
+            <div data-bind="click: addComment" class="btn btn-primary btn-sm comments-newCommentButton">Send</div>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div data-bind="visible: !isLoading()" style="margin-top: 15px;">
+      <div data-bind="foreach: comments">
+        <div class="comments-commentCard">
+          <a data-bind="attr: { href: portalContext.urls.getProfileUrl(userID())}" class="hidden-xs" style="float: left !important;">
+            <img data-bind="attr: {src: portalContext.urls.getAvatarUrl(userID()) }" class="comments-avatar"></img>
+          </a>
+          <a data-bind="text: userName, attr: { href: portalContext.urls.getProfileUrl(userID()) }"></a>
+          <span data-bind="text: localDateTime(createdOn(), { relativeFormat: true })" class="comments-createdOn"></span>
+          <a href="javascript:void(0)" data-bind="click: $component.removeComment, visible: isOwn()" style="vertical-align: top;" class="btn btn-default btn-xs comments-deleteButton">
+            <i class="fa fa-remove"></i>
+          </a>
+          <likes-widget params="{ objectType: 'Comment', objectID: id(), rateSum: likeRateSum(), isLiked: isLiked()}"></likes-widget>
+          <div data-bind="html: message" class="comments-message"></div>
+        </div>
+      </div>
+    </div>
+    <button data-bind="visible: firstCommentsLoaded() && !allCommentsLoaded(), disable: isLoading(), click: loadComments" type="button" class="btn btn-default btn-sm btn-block" style="margin-top: 40px;">More comments</button>
+    <button data-bind="visible: allCommentsLoaded() && canWrite() && comments().length > 7, click: showNewCommentForm" type="button" class="btn btn-primary btn-sm">Write new comment...</button>
+  </div>
+  <img data-bind="visible: isLoading() && isExpanded(), attr: { src: portalContext.urls.getLoaderIconUrl() }" class="comments-progressIcon"></img>
+</span></script>
+<script id="CommentsWidget-CommentsWidgetTemplate" type="text/html"><span data-bind="attr: {'data-comments-key': commentsKey()}, style: {'margin-left': marginLeft()}" class="comments">
+  <a href="javascript:void(0);" data-bind="click: toggleExpand, css: btnClass()" class="btn btn-default" style="vertical-align: top;">
+    <i data-bind="text: '&nbsp;' + count(), css: { 'comments-expandButton-expanded': isExpanded()}" class="fa fa-comment-o comments-expandButton"></i>
+  </a>
+  <likes-widget params="{ objectType: $component.params.objectType, objectID: $component.params.objectID, objectUID: $component.params.objectUID, 
+                objectSID: $component.params.objectSID, rateSum: $component.params.likeRateSum, isLiked: $component.params.isLiked, 
+                btnClass: $component.params.btnClass}"></likes-widget>
+  <!--<div data-bind="visible: isExpanded()" style="background-color: #f1f1f1; margin-top: 10px; padding: 0 20px 1px;">
+    <div data-bind="visible: canWrite()" class="comments-newCommentForm">
+      <table>
+        <tr>
+          <td data-bind="validationOptions: { insertMessages: false }"  style="width: 100%;">
+            <textarea data-bind="value: newComment, valueUpdate: 'keyup', enterkey: addComment, autosize: newComment" placeholder="Leave a comment..."></textarea>
+          </td>
+          <td>
+            <div data-bind="click: addComment" class="btn btn-primary btn-sm comments-newCommentButton">Send</div>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div data-bind="visible: !isLoading()" style="margin-top: 15px;">
+      <div data-bind="foreach: comments">
+        <div class="comments-commentCard">
+          <a data-bind="attr: { href: portalContext.urls.getProfileUrl(userID())}" class="pull-left hidden-xs">
+            <img data-bind="attr: {src: portalContext.urls.getAvatarUrl(userID()) }" class="comments-avatar"></img>
+          </a>
+          <a data-bind="text: userName, attr: { href: portalContext.urls.getProfileUrl(userID()) }"></a>
+          <span data-bind="text: localDateTime(createdOn(), { relativeFormat: true })" class="comments-createdOn"></span>
+          <a href="javascript:void(0)" data-bind="click: $component.removeComment, visible: isOwn()" style="vertical-align: top;" class="btn btn-default btn-xs comments-deleteButton">
+            <i class="fa fa-remove"></i>
+          </a>
+          <likes-widget params="{ objectType: 'Comment', objectID: id(), rateSum: likeRateSum(), isLiked: isLiked()}"></likes-widget>
+          <div data-bind="text: message" class="comments-message"></div>
+        </div>
+      </div>
+    </div>
+    <button data-bind="visible: firstCommentsLoaded() && !allCommentsLoaded(), disable: isLoading(), click: loadComments" type="button" class="btn btn-default btn-sm btn-block" style="margin-top: 40px;">More comments</button>
+    <button data-bind="visible: allCommentsLoaded() && canWrite() && comments().length > 7, click: showNewCommentForm" type="button" class="btn btn-primary btn-sm">Write new comment...</button>
+  </div>
+  <img data-bind="visible: isLoading() && isExpanded(), attr: { src: portalContext.urls.getLoaderIconUrl() }" class="comments-progressIcon"></img>-->
+</span></script>
+<script id="LikesWidget-LikesWidgetTemplate" type="text/html"><span data-bind="attr: {'data-likes-key': likesKey()}" class="likes">
+  <a data-bind="click: toggleLike, css: btnClass() + ' ' + (!canWrite() ? 'likes-icon-disabled' : '')" href="javascript:void(0);" class="btn btn-default" style="vertical-align: top;">
+    <i data-bind="css: { 'likes-icon-disabled': !canWrite()}" class="fa fa-thumbs-o-up likes-icon"></i>
+    <span data-bind="visible: isLiked()">You liked this</span>
+  </a>
+  <a href="javascript: void(0);" data-bind="click: showLikes, css: btnClass()" class="likes-count btn btn-default" style="vertical-align: top;">
+    <span data-bind="text: rateSum()"></span>
+    likes
+  </a>
+
+  <div class="modal fade likes-dialog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Likes</h4>
+        </div>
+        <div class="modal-body">
+          <img data-bind="visible: isLoading(), attr: { src: portalContext.urls.getLoaderIconUrl() }" class="likes-progressIcon"></img>
+          <div data-bind="visible: !isLoading(), foreach: likes" class="likes-dialogItems">
+            <div class="likes-dialogItem">
+              <div>
+                <a data-bind="attr: { href: portalContext.urls.getProfileUrl(userID())}">
+                  <img data-bind="attr: {src: portalContext.urls.getAvatarUrl(userID()) }" class="likes-dialogAvatar"></img>
+                </a>
+                <a data-bind="text: userName, attr: { href: portalContext.urls.getProfileUrl(userID()) }"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+  </div>
+
+</span></script>
+<script id="ShareButton-ShareButtonTemplate" type="text/html"><div class="btn-group">
+    <button class="btn btn-default dropdown-toggle btn-sm" type="button" data-toggle="dropdown">
+        Share
+    </button>
+    <ul class="dropdown-menu share-buttons" role="menu">
+      <li>
+        <a data-bind="attr: {href: emailUrl}" title="Email" rel="nofollow">
+          <img data-bind="attr: { src: iconsUrl + 'Email.png' }"></img>
+        </a>
+      </li>
+      <!-- ko if: $root.twitterUrl -->
+      <li>
+        <a data-bind="attr: {href: twitterUrl}" target="_blank" title="Tweet" rel="nofollow">
+          <img data-bind="attr: { src: iconsUrl + 'Twitter.png' }"></img>
+        </a>
+      </li>
+      <!-- /ko --><!-- if: twitterUrl -->
+      <!-- ko if: $root.linkedInUrl -->
+      <li>
+        <a data-bind="attr: {href: linkedInUrl}" target="_blank" title="Share on LinkedIn" rel="nofollow">
+          <img data-bind="attr: { src: iconsUrl + 'LinkedIn.png' }"></img>
+        </a>
+      </li>
+      <!-- /ko --><!-- if: linkedInUrl -->
+      <li>
+        <a data-bind="attr: {href: facebookUrl}" target="_blank" rel="nofollow">
+          <img data-bind="attr: { src: iconsUrl + 'Facebook.png' }"></img>
+        </a>
+      </li>
+      <li>
+        <a data-bind="attr: {href: googlePlusUrl}" target="_blank" title="Share on Google+" rel="nofollow">
+          <img data-bind="attr: { src: iconsUrl + 'GooglePlus.png' }"></img>
+        </a>
+      </li>
+      <li>
+        <a data-bind="attr: {href: pocketUrl}" target="_blank" title="Add to Pocket" rel="nofollow">
+          <img data-bind="attr: { src: iconsUrl + 'Pocket.png' }"></img>
+        </a>
+      </li>
+      <li>
+        <a data-bind="attr: {href: redditUrl}" target="_blank" title="Submit to Reddit" rel="nofollow">
+          <img data-bind="attr: { src: iconsUrl + 'Reddit.png' }"></img>
+        </a>
+      </li>
+    </ul>
+</div></script>
+<script id="Templates-BuiltInFolderSelectionTemplate" type="text/html"><div class="modal fade" id="selectFolderDialog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Select folder</h4>
+        </div>
+        <form class="selectFolderDialogForm">
+            <div class="modal-body">
+              <div class="tree">
+                
+              </div>
+            </div>
+            <div class="modal-footer">
+              <div class="pull-left">
+                <span>Selected folder:</span>
+                <strong><span class="folderSelector-selectedFolderName">none</span></strong>
+              </div>
+              <button type="button" class="btn btn-primary selectFolderDialogOk">Ok</button>
+              <button type="button" class="btn btn-default selectFolderDialogCancel" data-dismiss="modal">Cancel</button>
+              <div>
+                <label id="-error" class="error" for="" style="margin-top:5px; display:none;"></label>
+              </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script type="text/html" id="builtInFoldersListTemplate">
+  <ul>
+    <% _.forEach(_.sortBy(_.where(folders, { ParentClientID: parentClientID, NestingLevel: nestingLevel }), 'Name'), function(folder, index){ %>
+    <li>
+      <a href="javascript:void(0);" data-folderClientID="<%= folder.ClientID %>">
+        <%= folder.Name %>
+      </a>
+      <%= templateFn({
+        parentClientID: folder.ClientID,
+        folders: folders,
+        templateFn: templateFn,
+        nestingLevel: nestingLevel + 1
+        }) %>
+      </li>
+    <% }); %>
+  </ul>
+</script></script>
+<script id="Templates-BuiltInFoldersTemplate" type="text/html"><div class="builtInStorageFolders-filterRegion" style="display: none;"></div>
+<div class="files builtInStorageFolders">    
+  <div class="builtInStorageFolders-foldersContainer">
+      <div class="parentFolder pull-left" style="padding-left: 15px; padding-right: 15px; display: none;">
+          <% if (folderPath.length) { %>
+              <a href="javascript:void(0);" data-folder-client-id="<%= parentClientID %>" class="openFolder">
+                <i class="fa fa-arrow-up"></i>
+              </a>
+          <% } %>
+      </div>
+      <% if (folderPath.length > 0) { %>
+        <div class="folderBreadcrumbs well well-sm">
+          <a href="javascript:void(0);" class="openFolder">
+            <i class="fa fa-home"></i>
+          </a>
+          <% _.forEach(folderPath, function(folder, index){ %>
+              <% if (index == folderPath.length-1) { %>
+                  <i class="fa fa-angle-right"></i> <span data-folder-client-id="<%= folder.ClientID %>"><%= _.escape(folder.Name) %></span>
+              <% } else { %>
+                  <i class="fa fa-angle-right"></i> <a href="javascript:void(0);" data-folder-client-id="<%= folder.ClientID %>" class="openFolder"><%= _.escape(folder.Name) %></a>
+              <% } %>
+          <% }); %>
+        </div>
+      <% } %>
+      <% _.forEach(folders, function(folder, index){ %>
+      <div class="media template-download ffade" data-name="<%= _.escape(folder.name) %>" style="display: block;">
+        <a class="pull-left hidden-xs openFolder" data-folder-client-id="<%= folder.ClientID %>" title="<%= _.escape(folder.name) %>" rel="nofollow" style="cursor: pointer;">
+          <img class="media-object" src="<%= iconFolder %>/Folder.png"))" width="96" height="96">            
+          </a>
+          <div class="media-body">
+              <h4 class="media-heading">
+                  <a href="javascript:void(0);" class="openFolder" data-folder-client-id="<%= folder.ClientID %>" title="<%= _.escape(folder.Name) %>" rel="nofollow"
+                    attachment-name="<%= _.escape(folder.Name) %>"
+                      attachment-date="<%= new Date(folder.ModifiedDate).getTime() %>"
+                      attachment-visibility="<%= folder.Visibility%>"
+                      attachment-type="folder"
+                      attachment-size="0">
+                      <%= _.escape(folder.Name) %>
+                    </a>
+              </h4>
+              <div>
+                  <p class="pull-left">
+                      Contents updated <%= _.template.formatDate(folder.ModifiedDate) %><% if (folder.IsVisibilityToggleVisible) {%>, <% } %>
+                  </p>
+                  <% if (folder.IsVisibilityToggleVisible) {%>
+                  <p class="pull-left visibilityDescription"><%= folder.Visibility ? 'Private' : 'Restricted' %></p>
+                  <% } %>
+              </div>
+              <p>
+                  <a class="btn btn-primary btn-sm openFolder" href="javascript:void(0);" title="Open folder" data-folder-client-id="<%= folder.ClientID %>">Open</a>
+                  <a class="btn btn-default btn-sm deleteFolder" href="javascript:void(0);" data-folder-client-id="<%= folder.ClientID %>" title="Delete">Delete</a>
+                  <% if (folder.IsVisibilityToggleVisible) {%>
+                    <a class="btn btn-default btn-sm toggleVisibility" href="javascript:void(0);" title="<%= folder.Visibility ? 'Make Restricted' : 'Make Private' %>" data-folder-client-id="<%= folder.ClientID %>">
+                      <%= folder.Visibility ? 'Make Restricted' : 'Make Private' %>
+                    </a>
+                  <% } %>
+                  <a class="btn btn-default btn-sm renameFolder" href="javascript:void(0);" data-folder-client-id="<%= folder.ClientID %>" title="Rename">Rename</a>
+                  <% if (canMove) {%>
+                    <a class="btn btn-default btn-sm moveFolder" href="javascript:void(0);" data-folder-client-id="<%= folder.ClientID %>" title="Move">Move</a>
+                  <% } %>
+              </p>
+          </div>
+      </div>
+      <% }); %>
+      </div>
+</div></script>
+<script id="Templates-GeneralSettingsTemplate" type="text/html">  <div class="parentFolder pull-left" style="padding-left: 15px; padding-right: 15px;">
+      <% if (folderPath.length) { %>
+      <a href="javascript:void(0);">
+          <i class="fa fa-arrow-up"></i>
+      </a>
+      <% } %>
+  </div>
+  <div class="folderBreadcrumb">
+      <% if (folderPath.length > 0) { %>
+          <a href="javascript:void(0);" data-pathindex="-1">Root</a>
+      <% } %>                            
+      <% _.forEach(folderPath, function(pathPart, index){ %>
+          <% if (index == folderPath.length-1) { %>
+              / <span data-pathindex="<%= index %>"><%= pathPart %></span>
+          <% } else { %>
+              / <a href="javascript:void(0);" data-pathindex="<%= index %>"><%= pathPart %></a>
+          <% } %>                            
+      <% }); %>
+  </div>
+  <div>
+      <% for(var storageItem in storageItems) { %>
+      <div class="col-sm-6 media template-download ffade <% if (storageItems[storageItem].storageItemType == 'Folder') { %> storageFolder<%}%>" style="margin-top: 15px;" data-name="<%= storageItems[storageItem].name %>" style="display: block;">
+                               
+              <% if (storageItems[storageItem].storageItemType == 'Folder') { %>
+                  <a class="pull-left hidden-xs" href="javascript:void(0);" title="<%= storageItems[storageItem].name %>" rel="nofollow" target="_blank">
+                      <img class="media-object" src="<%= iconFolder %>/Folder.png"))" width="48" height="48">
+                  </a>
+              <% } else { %>
+          <span class="pull-left hidden-xs">
+              <img class="media-object" src="<%= iconFolder %><%= _.template.formatFileIcon(storageItems[storageItem].name) %>" width="48" height="48">
+          </span>
+              <% } %>
+                                
+          <div class="media-body">
+              <div>
+                  <% if (storageItems[storageItem].storageItemType == 'Folder') { %>
+                  <a href="javascript:void(0);" title="<%= storageItems[storageItem].Name %>" rel="nofollow" target="_blank">
+                      <%= storageItems[storageItem].name %>
+                  </a>
+                  <% } else { %>
+                  <span>
+                      <%= storageItems[storageItem].name %>
+                  </span>
+                  <% } %>
+              </div>
+              <small><%= storageItems[storageItem].modifiedBy %>,  <%= _.template.formatDate(storageItems[storageItem].modifiedDate) %>, <%= _.template.formatFileSize(storageItems[storageItem].size) %></small>
+          </div>
+      </div>
+      <% } %>
+  </div>
+  <% if (!storageItems.length) { %>
+      <div style="margin: 15px;" class="well">
+          This folder is empty
+      </div>
+  <%}%>
+</script>
+<script id="Templates-GeneralStorageTemplate" type="text/html"><div class="files">
+    <div class="parentFolder pull-left" style="padding-left: 15px; padding-right: 15px;">
+        <% if (folderPath.length) { %>
+            <a href="javascript:void(0);">
+                <i class="fa fa-arrow-up"></i>
+            </a>
+        <% } %>
+    </div>
+    <div class="folderBreadcrumb">
+        <% if (folderPath.length > 0) { %>
+            <a href="javascript:void(0);" data-pathindex="-1">Root</a>
+        <% } %>
+        <% _.forEach(folderPath, function(pathPart, index){ %>
+            <% if (index == folderPath.length-1) { %>
+                / <span data-pathindex="<%= index %>"><%= pathPart %></span>
+            <% } else { %>
+                / <a href="javascript:void(0);" data-pathindex="<%= index %>"><%= pathPart %></a>
+            <% } %>
+        <% }); %>
+    </div>
+    <% for (var storageItem in storageItems) { %>
+    <div class="media template-download ffade <% if (storageItems[storageItem].storageItemType == 'Folder') { %> storageFolder<%}%>" data-name="<%= storageItems[storageItem].name %>" style="display: block;">
+        <a class="pull-left hidden-xs" href="<%= storageItems[storageItem].url %>" title="<%= storageItems[storageItem].name %>" rel="nofollow" target="_blank">
+            <% if (storageItems[storageItem].storageItemType == 'Folder') { %>
+            <img class="media-object" src="<%= iconFolder %>/Folder.png"))" width="96" height="96">
+            <% } else { %>
+            <img class="media-object" src="<%= iconFolder %><%= _.template.formatFileIcon(storageItems[storageItem].name) %>" width="96" height="96">
+            <% } %>
+        </a>
+        <div class="media-body">
+            <h4 class="media-heading">
+                <a href="<%= storageItems[storageItem].url %>" title="<%= storageItems[storageItem].name %>" rel="nofollow" 
+                    attachment-name="<%= storageItems[storageItem].name %>" 
+                    attachment-size="<%= storageItems[storageItem].size %>" 
+                    attachment-type="<%= _.template.formatFileIcon(storageItems[storageItem].name) %>"
+                    attachment-date="<%= new Date(storageItems[storageItem].modifiedDate).getTime() %>"
+                    target="_blank">
+                    <%= storageItems[storageItem].name %>
+                </a>
+            </h4>
+            <p><%= storageItems[storageItem].modifiedBy %>,  <%= _.template.formatDate(storageItems[storageItem].modifiedDate) %>, <%= _.template.formatFileSize(storageItems[storageItem].size) %></p>
+            <p>
+                <a class="btn btn-primary btn-sm" href="<%= storageItems[storageItem].url %>" title="Open file" target="_blank">Open</a>
+            </p>
+        </div>
+    </div>
+    <% } %>
+    <% if (!storageItems.length) { %>
+        <div style="margin: 15px;" class="well">
+            This folder is empty
+        </div>
+    <%}%>
+</div>
+</script>
+<script id="Templates-StorageFilterTemplate" type="text/html"><div data-bind="visible: filteredStorageGroups().length, foreach: filteredStorageGroups">
+  <div data-bind="foreach: parentFolders" class="well well-sm">    
+    <i class="fa fa-angle-right"></i>
+    <a data-bind="highlightedText: { text: Name, css: 'storageHighlight', highlight: $root.filterText }, click: $root.openFolder" href="javascript:void(0);"></a>    
+  </div>
+    <div data-bind="foreach: storageItems">      
+    <div class="media template-download ffade" style="display: block;">
+      <a data-bind="attr: { href: url }" class="pull-left hidden-xs openFolder" rel="nofollow" style="cursor: pointer;" target="_blank">
+        <img data-bind="attr: {src: thumbnailUrl }" class="media-object" width="96" height="96"></img>
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading">
+          <a data-bind="highlightedText: { text: name, css: 'storageHighlight', highlight: $root.filterText }, attr: { href: url }" href="url" rel="nofollow" target="_blank">
+          </a>
+        </h4>        
+        <div data-bind="visible: itemType=='file'">
+          <p class="pull-left">
+            Updated <span data-bind="text: modifiedDate, format: 'date'"></span>,
+            <span data-bind="text: isPublic()?'Restricted': 'Private'"></span>,
+            <span data-bind="text: size, format: 'size'"></span>
+          </p>
+          <div>
+          <p style="float: left;">
+            <a data-bind="attr: { href: url }" class="btn btn-primary btn-sm" title="Open file" target="_blank">Open</a>            
+            <!-- ko: if canEdit -->            
+              <a data-bind="click: $root.delete" class="btn btn-default btn-sm delete" href="javascript:void(0);" title="Delete">Delete</a>
+              <a data-bind="click: $root.showHistory" class="btn btn-default btn-sm" href="javascript:void(0);" title="View History">View History</a>
+              <a data-bind="click: $root.toggleVisibility, visible: isPublic()" class="btn btn-default btn-sm" href="javascript:void(0);" title="Make Private">Make Private</a>
+              <a data-bind="click: $root.toggleVisibility, visible: !isPublic()" class="btn btn-default btn-sm" href="javascript:void(0);" title="Make Restricted">Make Restricted</a>            
+              <a data-bind="click: $root.copy, visible: fileType == 'subversion'" class="btn btn-default btn-sm" href="javascript:void(0);" title="Create a copy of the document" >Copy</a>
+              <a data-bind="click: $root.move" class="btn btn-default btn-sm" href="javascript:void(0);" title="Move the document to another folder">Move</a>
+              <a data-bind="click: $root.share, visible: fileType == 'subversion'" class="btn btn-default btn-sm" href="javascript:void(0);" title="Share this Resource">Share</a>            
+              <a data-bind="click: $root.describeAsResource" class="btn btn-default btn-sm" href="javascript:void(0);" title="Describe as a Resource">Describe as a Resource</a>              
+            <!-- /ko -->
+          </p>
+          <div style="margin-left: 5px; float: left;">
+            <comments-widget params="{ objectType: portalContext.objectType.assetAttachment, objectID: id, count: commentCount, likeRateSum: likeRateSum, isLiked: isLiked, btnClass: 'btn-sm', marginLeft: '0' }"></comments-widget>
+          </div>
+          </div>
+        </div>        
+      </div>
+    </div>
+      <div>
+        <comments-widget-body params="{ objectType: portalContext.objectType.assetAttachment, objectID: id, count: commentCount, likeRateSum: likeRateSum, isLiked: isLiked, btnClass: 'btn-sm', marginLeft: '0' }"></comments-widget-body>
+      </div>
+  </div>
+</div>
+<div data-bind="visible: !filteredStorageGroups().length">
+  No entries found.
+</div></script>
+
+
+<script src="/cassette.axd/script/10efcfcff72f232071a6c34f11573fc8738a0f13/Modules/ITG.TeamFusion/Bundles/Common" type="text/javascript"></script>
+<script src="/cassette.axd/script/8588a4295329623d4edf8b6f7236b1b18ad33ffd/Modules/ITG.TeamFusion/Bundles/Asset.Attachments" type="text/javascript"></script>
+
+
+
+<input name="__RequestVerificationToken" type="hidden" value="G-Hc13R2-MIgcrEk5BGkahc8g63v6Pw-Z7iwrdE0SWsX_NfpuoVs5QY5vb9A9j2vBVU_yd1PwnBFE6gYpdcN1GZ80u5BRQC9fp57_54sXXM1" />
+
+
+<div id="screen-actions-auth-dialog" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="screen-actions-auth-title" aria-hidden="true">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="screen-actions-auth-title">Authentication Required</h4>
+    </div>
+    <div class="modal-body">
+        <p>
+            This action requires you to log in.
+            If you currently don't have an account, consider registering - it is free.
+        </p>
+        <p>
+            Would you like to continue to the log in page?
+        </p>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-primary btn-sm" id="screen-actions-auth-login">Log In</button>
+        <button type="button" class="btn btn-default btn-sm" id="screen-actions-auth-register">Register</button>
+        <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">Cancel</button>
+    </div>
+</div>
+
+<script type="text/javascript">
+    if (window.portalContext) {
+        window.portalContext.init({
+            currentUserID: '',
+            currentUserName: '',
+            enableShareButtons: true,
+            productNameAbbr: 'AeHIN',
+            urls: {
+                rootUrl: 'https://aehin.hingx.org',
+                urlTemplate: '/ITG.TeamFusion/%7BcontrollerName%7D/%7BactionName%7D',
+                uploaderUrl: '/ITG.TeamFusion/Uploader/%7BactionName%7D',
+                userServiceUrl: '/ITG.TeamFusion/User/%7BactionName%7D',
+                commentServiceUrl: '/ITG.TeamFusion/Comment/%7BactionName%7D',
+                likeServiceUrl: '/ITG.TeamFusion/Like/%7BactionName%7D',
+                taskServiceUrl: '/ITG.TeamFusion/Tasks/%7BactionName%7D',
+                autoRefresherServiceUrl: '/ITG.TeamFusion/AutoRefresher/%7BactionName%7D',
+                customerServiceUrl: '/Customers/%7BactionName%7D',
+                discussionServiceUrl: '/ITG.TeamFusion/Discussions/%7BactionName%7D',
+                suggestTagsUrl: '/ITG.TeamFusion/Tasks/SuggestTags',
+                fileIconUrl: '/Modules/ITG.TeamFusion/Content/images/ArtifactTypes/{iconName}',
+                loaderIconUrl: '/Modules/ITG.TeamFusion/Content/Images/ajax-loader.gif',
+                imageUrl: '/Modules/ITG.TeamFusion/Content/Images/{imageName}',
+                avatarUrl: '/ITG.TeamFusion/User/ProfilePicture?permanent=True&userId=%7BuserID%7D',
+                profileUrl: '/ITG.TeamFusion/User/ViewProfile?permanent=True&userId=%7BuserID%7D',
+                privateMessageUrl: '/ITG.TeamFusion/PrivateMessages?toUserId=%7BuserID%7D',
+                discussionForumUrl: '/Discuss/Detail?forum=%7BforumName%7D',
+                discussionNewTopicUrl: '/Topics/Add?forum=%7BforumName%7D',
+                disussionTopicUrl: '/Topics/Detail?id=%7BtopicID%7D',
+                discussionPostViewUrl: '/Topics/Detail?id=%7BtopicID%7D#msg{postID}',
+                discussionPostReplyUrl: '/ITG.TeamFusion/Messages/Add/%7BtopicID%7D?replyTo={postID}',
+                assetUrl: '/Project/Details?projectId=%7BassetID%7D',
+                resourceUrl: '/Share/Details/{assetID}',
+                fileToResourceUrl: '/ITG.TeamFusion/AssetAttachments/NewAsTemplate?assetId=%7BassetID%7D&describeAttachment={fileName}&folderID={folderID}',
+                assetAttachmentUrl: '/Share/Attachment/%7BassetID%7D?fileName=%7BfileName%7D&folderID=%7BfolderID%7D',
+                visualUrl: '/Share/AssetVisuals/%7BassetID%7D?visualId=%7BvisualID%7D',
+                attachmentsEditUrl: '/ITG.TeamFusion/Tasks/EditTaskAttachments?projectId=%7BassetID%7D&taskID=%7BtaskID%7D',
+                customerAccountUrl: '/Customers/Account',
+            }
+        });
+    }
+
+    function ScreenActionAuthenticationRequired(action) {
+        $.cookie('tf-action', action);
+        $('#screen-actions-auth-dialog').modal('show');
+        return false;
+    }
+
+    function addAntiForgeryToken(data, stringMode) {
+        var antiForgeryToken = getAntiForgeryToken();
+        if (!stringMode) {
+            if (!data)
+                data = {};
+            data.__RequestVerificationToken = antiForgeryToken;
+        } else {
+            if (data)
+                data += '&';
+            data += '__RequestVerificationToken=' + antiForgeryToken;
+        }
+        return data;
+    }
+
+    function getAntiForgeryToken() {
+        return $('input[name=__RequestVerificationToken]').val();
+    }
+
+    $(function () {
+        $('#screen-actions-auth-dialog').on('hide', function (e) {
+            $.removeCookie('tf-action');
+        });
+        $('#screen-actions-auth-login').click(function () {
+            window.location.href ='/Users/Account/LogOn?ReturnUrl=LOGIN-URL'
+                .replace(/LOGIN-URL/, encodeURIComponent(window.location.href));
+        });
+        $('#screen-actions-auth-register').click(function () {
+            window.location.href = '/Users/Account/Register?ReturnUrl=LOGIN-URL'
+                .replace(/LOGIN-URL/, encodeURIComponent(window.location.href));
+        });
+
+        $('#MenuV').on('click', 'a', function (event) {
+            var link = $(event.currentTarget).attr('href');
+            if (link && link.length > 0 && link[0] == '#') {
+                $(document).trigger('navMenuClicked', link);
+                $.scrollTo(link, 300);
+                return false;
+            }
+            return true;
+        });
+    });
+</script>
+
+    </header>
+        <p class="enumeration-field enumeration-field-artifact-type">
+        <span class="name">Artifact Type:</span>
+        <span class="value">Resource</span>
+    </p>
+
+</article>
+<article class="widget-content widget-team-fusion-asset-summary widget">
+	<div>
+		
+
+
+<style type="text/css">
+    .asset-thumbnail-image {
+        max-height: 200px;
+    }
+    .asset-thumbnail-image.no-thumbnail {
+        opacity: 0.6;
+    }
+    .asset-thumbnail-image {
+        display: block;
+        height: 211px;
+        overflow: hidden;
+        width: 259px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .dropdown-menu.share-buttons {
+        min-width: inherit;
+    }
+    hr {
+        margin-bottom: 31px;
+        margin-top: 121px;
+    }
+</style>
+<a id="summary" name="summary" style="position: absolute;">&nbsp;</a>
+<script type="text/javascript">
+    $(function () {
+        var item = $('<li>');
+        item.append(
+            $('<a>')
+                .text('Summary')
+                .attr('href', '#summary')
+            );
+        $("nav ul[class^='menu-side-menu-'],nav ul[class*=' menu-side-menu-']")
+            .append(item);
+        if ($("nav ul[class^='menu-side-menu-'],nav ul[class*=' menu-side-menu-']").children().length == 1) {
+            item.addClass('active');
+        }
+    });
+</script><div class="jumbotron" id="asset-summary">
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-sm-3 hidden-xs">
+                <h1>
+                    <span class="asset-thumbnail-image img-responsive "
+                         style="background-image: url(/Share/AssetVisuals/3819?visualId=766&amp;thumbnail=True)"></span>
+                </h1>
+            </div>
+
+            <div class="col-sm-9 col-xs-12 panel-content">
+                    <h1>
+                        Digital Health Terminology Guide (English-Khmer)
+                            <br />
+                            <small>
+                                Report
+                            </small>
+                    </h1>
+
+
+                <p>
+                    <div class="btn-toolbar" role="toolbar">
+                        <div class="btn-group">
+
+                                <button class="btn btn-primary" type="button" id="open-asset-button">
+                                        Files
+                                </button>
+                                <script type="text/javascript">
+                                    $(function () {
+                                        $('#open-asset-button').click(function () {
+                                                $.scrollTo('#asset-attachments', 300);
+                                            return false;
+                                        });
+                                    });
+                                </script>
+                        </div>
+                        <div class="btn-group">
+                            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+                                Share
+                            </button>
+                            <ul class="dropdown-menu share-buttons" role="menu">
+
+                                <li><a href="mailto:?subject=%5BAeHIN%5D%20Digital%20Health%20Terminology%20Guide%20%28English-Khmer%29&body=Check%20out%20Digital%20Health%20Terminology%20Guide%20%28English-Khmer%29%20at%20https%3A%2F%2Faehin.hingx.org%2FShare%2FDetails%2F3819" title="Email" rel="nofollow"><img src="/Modules/ITG.TeamFusion/Content/Images/ShareIcons/Email.png"></a></li>
+                                <li><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Faehin.hingx.org%2FShare%2FDetails%2F3819&text=Check%20out%20Digital%20Health%20Terminology%20Guide%20%28English-Khmer%29&related=HingXOfficial%3AFor%20platform%20info" target="_blank" title="Tweet" rel="nofollow"><img src="/Modules/ITG.TeamFusion/Content/Images/ShareIcons/Twitter.png"></a></li>
+                                <li><a href="http://www.linkedin.com/shareArticle?url=https%3A%2F%2Faehin.hingx.org%2FShare%2FDetails%2F3819&title=Digital%20Health%20Terminology%20Guide%20%28English-Khmer%29&summary=Check%20out%20Digital%20Health%20Terminology%20Guide%20%28English-Khmer%29&source=HingX.org" target="_blank" title="Share on LinkedIn" rel="nofollow"><img src="/Modules/ITG.TeamFusion/Content/Images/ShareIcons/LinkedIn.png"></a></li>
+                                <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Faehin.hingx.org%2FShare%2FDetails%2F3819" target="_blank" rel="nofollow"><img src="/Modules/ITG.TeamFusion/Content/Images/ShareIcons/Facebook.png"></a></li>
+                                <li><a href="https://plus.google.com/share?url=https%3A%2F%2Faehin.hingx.org%2FShare%2FDetails%2F3819" target="_blank" title="Share on Google+" rel="nofollow"><img src="/Modules/ITG.TeamFusion/Content/Images/ShareIcons/GooglePlus.png"></a></li>
+                                <li><a href="https://getpocket.com/save?url=https%3A%2F%2Faehin.hingx.org%2FShare%2FDetails%2F3819&title=Digital%20Health%20Terminology%20Guide%20%28English-Khmer%29" target="_blank" title="Add to Pocket" rel="nofollow"><img src="/Modules/ITG.TeamFusion/Content/Images/ShareIcons/Pocket.png"></a></li>
+                                <li><a href="http://www.reddit.com/submit?url=https%3A%2F%2Faehin.hingx.org%2FShare%2FDetails%2F3819&title=Digital%20Health%20Terminology%20Guide%20%28English-Khmer%29" target="_blank" title="Submit to Reddit" rel="nofollow"><img src="/Modules/ITG.TeamFusion/Content/Images/ShareIcons/Reddit.png"></a></li>
+                            </ul>
+                        </div>
+                        <div class="btn-group">
+                            <button class="btn btn-default" type="button" id="follow-asset-button" following="no">
+                                Follow
+                            </button>
+                            <script type="text/javascript">
+                                function Follow() {
+                                    $.get(
+                                        '/ITG.TeamFusion/AssetCommunityFeedback/UserLikeIt',
+                                        { assetId: 3819, feedbackType: 'Follow' },
+                                        function (data) {
+                                            $('#follow-asset-button')
+                                                .text('Following')
+                                                .attr('following', 'yes')
+                                                .removeClass('btn-default')
+                                                .addClass('btn-success');
+                                        });
+                                }
+
+                                function Unfollow() {
+                                    $.get(
+                                        '/ITG.TeamFusion/AssetCommunityFeedback/UserDoesNotLikeIt',
+                                        { assetId: 3819, feedbackType: 'Follow' },
+                                        function (data) {
+                                            $('#follow-asset-button')
+                                                .text('Follow')
+                                                .attr('following', 'no')
+                                                .removeClass('btn-success')
+                                                .addClass('btn-default');
+                                        });
+                                }
+
+                                function ToggleFollow() {
+                                    if ($('#follow-asset-button').attr('following') == 'yes') {
+                                        Unfollow();
+                                    }
+                                    else {
+                                        Follow();
+                                    }
+                                }
+
+                                $(function () {
+                                    if ($.cookie('tf-action') == 'follow') {
+                                        $.removeCookie('tf-action');
+                                        Follow();
+                                    }
+
+                                    $('#follow-asset-button').click(function() {
+                                        ScreenActionAuthenticationRequired('follow');
+                                    });
+                                });
+                            </script>
+                        </div>
+                        <div class="btn-group">
+                                <button class="btn btn-default" type="button" onclick="ScreenActionAuthenticationRequired('add-bookmark 3819')">Bookmark</button>
+                        </div>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                <i class="fa fa-ellipsis-h"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="/Share/Edit?assetId=3819">Edit Details</a></li>
+                                <li>
+                                        <a href="javascript:void(0)" onclick="ScreenActionAuthenticationRequired('link-to-project 3819')">Link to Project</a>
+                                </li>
+                                                                <li><a href="/Share/NewAsTemplate?assetId=3819">Use as a Template</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </p>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div id="link-to-projects-dialog" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="link-to-projects-title" aria-hidden="true">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="link-to-projects-title">Link this Resource to a Project</h4>
+    </div>
+    <div class="modal-body">
+        <div style="width:100%;height:420px;position:relative;" data-bind="visible:isDataLoading()">
+            <div class="loading" style="position:absolute;left:50%;top:50%; margin-top: -32px; margin-left: -16px;"><img src="/Modules/ITG.TeamFusion/Content/images/ajax-loader.gif" /></div>
+        </div>
+        <div style="width: 100%;height:420px; padding: 5px;display:none;" data-bind="visible: !isDataLoading() && !isError()">
+            <!-- ko with: data -->
+            <!-- ko if: projects().length -->
+            <p>
+                Click the project title below:
+            </p>
+            <ul style="height:353px; overflow-x: hidden; " class="list-group">
+                <!-- ko foreach: projects -->
+                <li class="list-group-item">
+                    <a href="javascript:void(0);" data-bind="text: title, click: $root.link.bind($data, id())"></a>
+                </li>
+                <!-- /ko -->
+            </ul>
+            <!-- /ko -->
+            <!-- ko if: !projects().length -->
+            <div style="text-align: center;position:relative;top:40%;">
+                <i class="fa fa-info-circle"></i>
+                You are not participating on any project.
+            </div>
+            <!-- /ko -->
+            <!-- /ko -->
+        </div>
+        <div style="width: 100%;height:420px;padding: 5px;display:none;color:red;" data-bind="visible: isError">
+            <div style="text-align: center; position: relative; top: 40%;" data-bind="text: errorText"></div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    function LinkToProjects() {
+        var self = this;
+        self.data = ko.observable(null);
+        self.isDataLoading = ko.observable(false);
+        self.isError = ko.observable(false);
+        self.errorText = ko.observable();
+        self.resourceId = ko.observable(null);
+
+        self.showList = function (resourceId) {
+            self.resourceId(resourceId);
+            self.data(null);
+            self.isError(false);
+            self.isDataLoading(true);
+            $('#link-to-projects-dialog').modal('show');
+            $.ajax('/Share/LinkToProjects', {
+                type: 'GET',
+                data: {
+                    resourceId: resourceId
+                },
+                success: function (data) {
+                    if (data) {
+                        self.data(ko.mapping.fromJS(data));
+                        self.data().projects.sort(function(l, r) { return l.title() > r.title() ? 1 : -1; });
+                    } else {
+                        self.errorText('The specified resource ID is invalid!');
+                        self.isError(true);
+                    }
+                    self.isDataLoading(false);
+                },
+                error: function () {
+                    self.isDataLoading(false);
+                    self.errorText('An error occurred while loading projects. Please, try again later.');
+                    self.isError(true);
+                }
+            });
+        }
+
+        self.link = function (projectId) {
+            $('#link-to-projects-dialog').modal('hide');
+            $.ajax('/Share/LinkToProjects', {
+                type: 'POST',
+                data: addAntiForgeryToken({
+                    resourceId: self.resourceId(),
+                    projectId: projectId
+                }),
+                success: function (data) {
+                    if (data.Success) {
+                        $.growl({ message: data.Message, icon: 'fa fa-info-circle' });
+                    } else {
+                        $.growl({ message: 'The operation was not completed due to the following condition: ' + data.Message, icon: 'fa fa-warning' }, { type: 'danger' });
+                    }
+                }
+            });
+        };
+    };
+    var linkToProjects = null;
+
+    $(function () {
+        $.post('/Share/ResourceViewed', addAntiForgeryToken({ assetId: 3819 }));
+
+        linkToProjects = new LinkToProjects();
+        ko.applyBindings(linkToProjects, $('#link-to-projects-dialog').get(0));
+
+        if (typeof String.prototype.startsWith != 'function') {
+            String.prototype.startsWith = function (str) {
+                return this.slice(0, str.length) == str;
+            };
+        }
+        var cookieAction = $.cookie('tf-action');
+        if (cookieAction && cookieAction.startsWith('link-to-project')) {
+            $.removeCookie('tf-action');
+            var assetId = parseInt(cookieAction.substring('link-to-project'.length));
+            linkToProjects.showList(assetId);
+        }
+
+        UpdateLastViewCookie(false, 3819);
+    });
+</script>
+
+	</div>
+</article>
+
+<article class="widget-content widget-team-fusion-asset-visuals widget">
+	<div>
+		
+
+
+<a id="pictures" name="pictures" style="position: absolute;">&nbsp;</a>
+<script type="text/javascript">
+    $(function () {
+        var item = $('<li>');
+        item.append(
+            $('<a>')
+                .text('Pictures')
+                .attr('href', '#pictures')
+            );
+        $("nav ul[class^='menu-side-menu-'],nav ul[class*=' menu-side-menu-']")
+            .append(item);
+        if ($("nav ul[class^='menu-side-menu-'],nav ul[class*=' menu-side-menu-']").children().length == 1) {
+            item.addClass('active');
+        }
+    });
+</script><div id="asset-visuals" class="item-slider" style="overflow:hidden;">
+    <hr />
+    
+    <div id="asset-visuals-header-buttons" class="navbar-right" style="vertical-align: middle; margin-top: -10px;float:right;"></div>    
+        <div class="prev-page clearfix">
+            <button type="button" id="asset-visuals-prev" class="btn btn-default" style="display:none;"><i class="fa fa-chevron-left"></i></button>
+        </div>
+        <div class="next-page clearfix">
+            <button type="button" id="asset-visuals-next" class="btn btn-default" style="display:none;"><i class="fa fa-chevron-right"></i></button>
+        </div>
+    <div class="panel-content slider" id="asset-visuals-slider" on-shown-once="javascript:initVisuals()">
+        <form id="fileupload-visuals" action="/Share/AssetVisuals/3819?editId=ecd0f4f5-71fe-4f74-8257-83762252da85" method="post" enctype="multipart/form-data">
+            <input name="__RequestVerificationToken" type="hidden" value="nt4OPUTykvau_avT3subgAzoLv6msmjAySxdGR4yMOu87ZAuXYGGMa2A3FWqxHt-1fyUepRZDZsw1MbFLcBtVesPZdzp5D1CkQSfRCY7MNg1" />
+            <ul class="files">
+
+
+                    <li class="sliderItem " data-visual-id="768">
+                        <a href="/Share/AssetVisuals/3819?visualId=768&amp;_=image.png" class="zoombox zgallery1" title="Digital Health Terminology Guide_Vietnamese.png">
+                            <img alt="Digital Health Terminology Guide_Vietnamese.png" class="img-thumbnail" style=""
+                                 src="/Share/AssetVisuals/3819?visualId=768&amp;thumbnail=True" />
+                        </a>
+                    </li>
+                    <li class="sliderItem " data-visual-id="767">
+                        <a href="/Share/AssetVisuals/3819?visualId=767&amp;_=image.png" class="zoombox zgallery1" title="Digital Health Terminology Guide_Khmer.png">
+                            <img alt="Digital Health Terminology Guide_Khmer.png" class="img-thumbnail" style=""
+                                 src="/Share/AssetVisuals/3819?visualId=767&amp;thumbnail=True" />
+                        </a>
+                    </li>
+                    <li class="sliderItem " data-visual-id="766">
+                        <a href="/Share/AssetVisuals/3819?visualId=766&amp;_=image.png" class="zoombox zgallery1" title="Digital Health Terminology Guide_English.png">
+                            <img alt="Digital Health Terminology Guide_English.png" class="img-thumbnail" style=""
+                                 src="/Share/AssetVisuals/3819?visualId=766&amp;thumbnail=True" />
+                        </a>
+                    </li>
+            </ul>
+        </form>
+    </div>
+</div>
+<script type="text/javascript">
+    
+    function initItemSlider() {
+        $('#asset-visuals .panel-content .uploadVisual').detach().prependTo('#asset-visuals .files');
+        $('#asset-visuals-slider').itemSlider({
+            'prevPageSelector': '#asset-visuals-prev',
+            'nextPageSelector': '#asset-visuals-next',
+            items: '.sliderItem'
+        });
+    }
+
+    window.onload = function () {
+        if ($('#asset-visuals-slider').parents('article.widget-content').is(':visible')) {
+            initItemSlider();
+        }
+    };
+    
+    function initZoombox() {
+        var _zoomBox = $('a.zoombox').zoombox({
+            theme: 'lightbox',        //available themes : zoombox,lightbox, prettyphoto, darkprettyphoto, simple
+            opacity: 0.8,              // Black overlay opacity
+            duration: 600,              // Animation duration
+            animation: true,             // Do we have to animate the box ?
+            width: 600,              // Default width
+            height: 400,              // Default height
+            gallery: true,             // Allow gallery thumb view
+            autoplay: false                // Autoplay for video
+        });
+    }
+
+    function refreshZoomBox() {
+            
+        $('#asset-visuals-slider').itemSlider('destroy');
+        initItemSlider();
+        
+
+        $('#asset-visuals-slider-modal a.zoombox').remove();
+        $.zoombox.clear();
+        $('#asset-visuals .panel-content .uploadVisual').detach().prependTo('#asset-visuals .files');
+        initZoombox();
+    }
+
+    function initVisuals() {
+            initItemSlider();
+        initZoombox();
+    }
+
+    $(function () {
+        //if ($('#asset-visuals-slider').parents('article.widget-content').is(':visible'))
+        {
+            initZoombox();
+        }
+    });
+
+    $(function () {
+
+        $(document).on('click', '.visualDeleteButton', function (ev) {
+            var visualID = $(ev.currentTarget).data('visual-id');
+            confirmModal("Confirm Deletion", "<p>This picture will be permanently deleted.</p><p>Would you like to continue?</p>", function () {
+                return $.ajax(
+                  {
+                      type: 'DELETE',
+                      dataType: 'json',
+                      contentType: 'application/json; charset=utf-8',
+                      url: '/Share/AssetVisuals/3819',
+                      data: JSON.stringify(addAntiForgeryToken({
+                          assetID: '3819',
+                          visualID: visualID
+                      }))
+                  }
+                  , null, null, 'json')
+                    .always(function (data) {
+                        if (data.responseText == 'OK') {
+                            $('#asset-visuals .sliderItem[data-visual-id=' + visualID + ']').remove();
+                            $('#asset-visuals .panel-content .uploadVisual').detach().prependTo('#asset-visuals .files');
+
+                            refreshZoomBox();
+                        }
+                        else {
+                            $.growl({ message: 'Error occured, please try again later.', icon: 'fa fa-warning' }, { type: 'danger' });
+                        }
+                    });
+            });
+        });
+
+        $(document).on('click', '.visualMakeDefaultButton', function (ev) {
+            var visualID = $(ev.currentTarget).data('visual-id');
+            $('#asset-visuals .sliderItem.defaultVisual').removeClass('defaultVisual');
+            $('#asset-visuals .sliderItem[data-visual-id=' + visualID + ']').addClass('defaultVisual');
+            return $.ajax(
+              {
+                  type: 'POST',
+                  dataType: 'json',
+                  contentType: 'application/json; charset=utf-8',
+                  url: '/ITG.TeamFusion/AssetVisuals/UpdateAssetVisual',
+                  data: JSON.stringify(addAntiForgeryToken({
+                      assetID: '3819',
+                      visualID: visualID,
+                      isDefault: true
+                  }))
+              }
+              , null, null, 'json')
+                .fail(function (data) {
+                    $.growl({ message: data.responseJSON.Message, icon: 'fa fa-warning' }, { type: 'danger' });
+                });
+        })
+    });
+</script>
+<style type="text/css">
+    .add-files-link input{
+        display: block;
+    }
+        
+        #asset-visuals .slider { overflow:hidden; position:relative;max-height: 210px; }
+        
+</style>
+
+	</div>
+</article>
+
+<article class="widget-content widget-team-fusion-asset-attachments widget">
+	<div>
+		
+
+
+<a id="files" name="files" style="position: absolute;">&nbsp;</a>
+<script type="text/javascript">
+    $(function () {
+        var item = $('<li>');
+        item.append(
+            $('<a>')
+                .text('Files')
+                .attr('href', '#files')
+            );
+        $("nav ul[class^='menu-side-menu-'],nav ul[class*=' menu-side-menu-']")
+            .append(item);
+        if ($("nav ul[class^='menu-side-menu-'],nav ul[class*=' menu-side-menu-']").children().length == 1) {
+            item.addClass('active');
+        }
+    });
+</script>    <div id="asset-attachments" class="portlet expandable-section no-column-narrow">
+        <div id="attachments-menu-overlay"></div>
+        <form id="fileupload-docs" action="/Share/Attachment/3819?editId=ecd0f4f5-71fe-4f74-8257-83762252da85" method="post" enctype="multipart/form-data">
+            <input name="__RequestVerificationToken" type="hidden" value="n1olY6SlLHQvmlINk7sQ3s_ShSSWj_ZZTwCxGAX2FLK3GQVbOPR3aPDaNlB2szLyBGg9lX51u0lnD0s4YA5AjbijAecw8413G4gGT1qDJBs1" />
+            <hr />
+            <div id="header-buttons" class="navbar-right" style="vertical-align: middle; display: none; margin-top: -10px;">
+                    <div class="builtInStorageFolders-filter pull-right" style="padding: 2px 0px 0px 5px;">
+                        <input class="builtInStorageFolders-filterInput" type="text" placeholder="Filter by name..."></input>
+                    </div>                
+                                    <div class="btn-group" id="sort-button-container" style="display: inline-block;">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" id="sort-button">
+                            <span class="cur-sort">Sort By</span>
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu pull-right">
+                            <li><a href="javascript:void(0);" id="sort-name-asc" onclick=" sort(event) ">Name A-Z</a></li>
+                            <li><a href="javascript:void(0);" id="sort-name-desc" onclick=" sort(event) ">Name Z-A</a></li>
+                            <li><a href="javascript:void(0);" id="sort-size-asc" onclick=" sort(event) ">Size</a></li>
+                            <li><a href="javascript:void(0);" id="sort-date-asc" onclick=" sort(event) ">Modification Date</a></li>
+                            <li><a href="javascript:void(0);" id="sort-type-asc" onclick=" sort(event) ">Type</a></li>
+                            <li><a href="javascript:void(0);" id="sort-visibility-asc" onclick=" sort(event) ">Visibility</a></li>
+                        </ul>
+                    </div>
+                            </div>
+
+<h3>Files and Attachments</h3>
+
+            <div class="panel-content">
+                <input type="hidden" id="default-attachment-visibility" name="default-attachment-visibility"
+                       value="0" />
+
+                <div id="fileupload-docs-initial-loading"><img src="/Modules/ITG.TeamFusion/Content/images/ajax-loader.gif" /></div>
+
+                <div id="fileupload-docs-table-container" style="margin-top: 20px;">
+                    
+                    <div class="input-group" data-toggle="buttons" id="storageSelection" style="margin-bottom: 20px;">
+                    </div>                    
+                    <div id="builtInFolders" class="files-or-folders-container">
+                        <div class="loading" style="display: table; margin: 0 auto;"><img src="/Modules/ITG.TeamFusion/Content/images/ajax-loader.gif" /></div>
+                    </div>
+                    <div class="googleDriveSection storageSection">
+                        <iframe src="" width="100%" height="300" frameborder="0"></iframe>
+                    </div>
+                    <div class="generalStorageSection storageSection clearfix">
+                        <div class="loading" style="display: table; margin: 0 auto;"><img src="/Modules/ITG.TeamFusion/Content/images/ajax-loader.gif" /></div>
+                    </div>
+
+                    <div class="modal fade" id="generalSettingsDialog" tabindex="-1" role="dialog" aria-labelledby="generalSettingsDialogLabel" aria-hidden="true">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title">Select a folder to associate with the project</h4>
+                            </div>
+                            <form class="generalSettingsForm">
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="generalSettingsDialogFolders">
+                                            <div class="loading" style="display: table; margin: 0 auto;"><img src="/Modules/ITG.TeamFusion/Content/images/ajax-loader.gif" /></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary generalSettingsSelectButton">Select</button>
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    
+                    <div class="files files-or-folders-container" id="files-container" data-toggle="modal-gallery" data-target="#modal-gallery">
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <script id="template-upload-docs" type="text/x-tmpl">
+            {% for (var i=0, file; file=o.files[i]; i++) { %}
+            <div class="media template-upload ffade">
+                <a class="pull-left hidden-xs" href="javascript:void(0);">
+                    <img class="media-object" src="" alt="" width="96" height="96">
+                </a>
+                <div class="media-body">
+                    <h4 class="media-heading">{%=file.name%}</h4>
+                    {% if (o.files.valid && !i && !file.error) { %}
+                    <div class="progress progress-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div class="bar" style="width:0%;"></div></div>
+                    {% } %}
+                    <p>
+                        {% if (!o.options.autoUpload) { %}
+                        <span class="start">
+                            <button type="button" class="btn btn-primary">
+                                <i class="icon-upload icon-white"></i>
+                                <span>Start</span>
+                            </button>
+                        </span>
+                        {% } %}
+                        {% if (!i) { %}
+                        <span class="cancel">
+                            <button type="button" class="btn btn-primary btn-sm">Cancel</button>
+                        </span>
+                        {% } %}
+                    </p>
+                    {% if (file.error) { %}
+                    <p class="error"><b>Error:</b> {%=file.error%}</p>
+                    {% } %}
+                </div>
+            </div>
+            {% } %}
+        </script>
+
+        <!-- The template to display files available for download -->
+        <script id="template-download-docs" type="text/x-tmpl">
+            {% for (var i=0, file; file=o.files[i]; i++) { %}
+            <div class="media template-download ffade">
+                {% if (file.error) { %}
+                <a class="pull-left hidden-xs" href="javascript:void(0);">
+                    <img class="media-object" src="" alt="" width="96" height="96">
+                </a>
+                <div class="media-body">
+                    <h4 class="media-heading">{%=file.name%}</h4>
+                    <p>{%=o.formatFileSize(file.size)%}</p>
+                    <p class="error"><b>Error:</b> {%=file.error%}</p>
+                </div>
+                {% } else { %}
+                <a class="pull-left hidden-xs" href="{%=file.url%}" title="{%=file.name%}" rel="nofollow" target="_blank">
+                    <img class="media-object" src="{%=file.thumbnail_url%}" width="96" height="96" />
+                </a>
+                <div class="media-body">
+                    <h4 class="media-heading">
+                        <a href="{%=file.url%}" title="{%=file.name%}"
+                           attachment-name="{%=file.name%}"
+                           attachment-folder-client-id="{%=file.folder_client_id%}"
+                           attachment-folder-id="{%=file.folder_id%}"
+                           attachment-id="{%=file.attachment_id%}"
+                           attachment-size="{%=file.size%}"
+                           attachment-date="{%= file.milliseconds_since_modified ? file.milliseconds_since_modified : Number.MAX_VALUE %}"
+                           attachment-type="{%=file.thumbnail_url%}"
+                           attachment-visibility="{%=file.security.toString()%}"
+                           rel="nofollow" target="_blank">{%=file.name%}</a>
+                    </h4>
+                    <p>{%=file.time_since_modified ? 'Updated ' + file.time_since_modified + ', ':''%}<span class="attachment-visibility">{% if (file.security == 0 || file.security == -1) { %}Restricted{% } else { %}Private{% } %}</span>, {%=o.formatFileSize(file.size)%}</p>
+                    <p>
+                        {% if (file.error) { %}
+                        <button type="button" class="btn btn-primary btn-sm"
+                                data-type="{%=file.delete_type%}"
+                                data-url="{%=file.delete_url%}"
+                                title="Delete the attachment">
+                            Delete
+                        </button>
+                        {% } else { %}
+                        <a class="btn btn-primary btn-sm" href="{%=file.url%}" title="Open file" target="_blank">Open</a>
+                                                    
+                                {% if (file.type == 0) { %}
+                                    <a class="btn btn-default btn-sm attachment-shareButton" data-attachment-id="{%=file.id%}" href="javascript:void(0);" title="Share this Resource" onclick="return shareAttachment('https://aehin.hingx.org/ProjectStorage/DownloadAttachment?attachmentID=%7BattachmentID%7D', '{%=file.id%}')">Share</a>
+                                {% } %}
+                            
+                            <a class="btn btn-default btn-sm attachment-describeAsResourceButton" data-attachment-id="{%=file.id%}" href="/ITG.TeamFusion/AssetAttachments/NewAsTemplate?assetId={%=file.project_id%}&describeAttachment={%=file.name%}&folderID={%=file.folder_id%}" title="Describe as a Resource">Describe as a Resource</a>
+                        {% } %}
+                        <comments-widget params="{ objectType: portalContext.objectType.assetAttachment, objectID: {%=file.id%}, count: {%=file.comment_count%}, likeRateSum: {%=file.like_rate_sum%}, isLiked: {%=file.like_is_liked%}, btnClass: 'btn-sm', marginLeft: '0' }"></comments-widget>
+                    </p>
+                    <p class="error"></p>
+                </div>
+                <comments-widget-body params="{ objectType: portalContext.objectType.assetAttachment, objectID: {%=file.id%}, count: {%=file.comment_count%}, likeRateSum: {%=file.like_rate_sum%}, isLiked: {%=file.like_is_liked%}, btnClass: 'btn-sm', marginLeft: '0' }"></comments-widget-body>
+                {% } %}                
+            </div>            
+            {% } %}
+        </script>
+    </div>
+    <div class="modal fade history-modal" tabindex="-1" role="dialog" aria-labelledby="history-header" aria-hidden="true">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+            <h4 class="modal-title" id="history-header">Revision History</h4>
+        </div>
+        <div class="modal-body">
+            <div class="loading" style="display: table; margin: 0 auto;"><img src="/Modules/ITG.TeamFusion/Content/images/ajax-loader.gif" /></div>
+            <div class="history-text"></div>
+        </div>
+    </div>
+    <div class="modal fade newdoc-modal" tabindex="-1" role="dialog" aria-labelledby="newdoc-header" aria-hidden="true" data-focus-on="input:first">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+            <h4 class="modal-title" id="newdoc-header">Create new Collaborative Document</h4>
+        </div>
+        <div class="modal-body newdoc-body">
+            <input id="fileupload-docs-document-title" name="fileupload-docs-document-title" type="text" placeholder="Enter New Collaborative Document Title">
+            <div id="fileupload-docs-document-error"></div>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-primary btn-sm" onclick="createNewDocument()">Create</button>
+            <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">Cancel</button>
+        </div>
+    </div>
+    <div style="display: none;" id="googleDriveDialog">
+        <form class="form-inline googleDriveDialogForm" role="form" id="googleDriveForm">
+            <div class="form-group">
+                <input class="form-control googleDriveUrlInput" placeholder="Enter Google Drive folder URL">
+                <button type="button" class="btn btn-primary btn-sm googleDriveDialogOk">Ok</button>
+                <button type="button" class="btn btn-default btn-sm googleDriveDialogCancel">Cancel</button>
+                <hr />
+                <small>
+                    To use Google Drive shared folder in this project you need to:
+                    <ul>
+                        <li>Log in to your <a href="https://drive.google.com" target="_blank">Google Drive account</a>.</li>
+                        <li>Right mouse click on a folder and select `Share...` in the context menu.</li>
+                        <li>Copy link to the field above.</li>
+                    </ul>
+                </small>
+            </div>
+        </form>
+    </div>
+    <div class="modal fade" id="newFolderDialog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Folder name</h4>
+            </div>
+            <form class="newFolderDialogForm">
+                <div class="modal-body">
+                    <input class="form-control newFolderDialogInput" placeholder="New folder name" style="width:100%;">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary newFolderDialogOk">Ok</button>
+                    <button type="button" class="btn btn-default newFolderDialogCancel" data-dismiss="modal">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="modal fade" id="shareAttachmentDialog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Share attachment</h4>
+            </div>
+            <form>
+                <div class="modal-body">
+                    <div>
+                        You can use the link below to share the resource to other users. <br />Please be sure the resource is Public or users are team members of this project.
+                    </div>
+                    <input class="form-control shareAttachmentDialogInput" readonly="readonly" style="cursor: default; width:100%;">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id="builtInFolderSelectionTemplate"></div>
+    <style type="text/css">
+        #storageSelection .popover {
+            max-width: 100%;
+        }
+        #generalSettingsDialog{
+            width: 750px;
+        } 
+        #shareAttachmentDialog{
+            width: 650px;
+        }
+        #shareAttachmentDialog .modal-body>div {
+            margin: 0px 15px 15px 15px;
+        }
+    </style>
+    <script type="text/javascript">
+    var allFolders = [] || [];
+    function GetAssetAttachmentFolders(projectID) {
+        if (!projectID)
+            return allFolders
+        else
+            return _.where(allFolders, { AssetFk: projectID });
+    }
+    function SetAssetAttachmentFolders(projectID, folders) {
+        allFolders = _.filter(allFolders, function(folder){ return folder.AssetFk != projectID; })
+        _.each(folders, function(folder){
+            allFolders.push(folder);
+        });
+    }
+
+    var _initialFileuploadDocsURL = $('#fileupload-docs').attr('action');
+    $('#fileupload-docs').attr(
+        'action',
+        _initialFileuploadDocsURL + '&defaultVisibility=' + $('#default-attachment-visibility').val());
+
+    function folderSelector(callback, attachmentName) {
+        var that = storageSelector.builtInStorage;
+        that.folderSelector.show(that.folders,
+            {
+                validationFn: function(selectedFolder){
+                    if (storageSelector.builtInStorage.getFile(attachmentName, selectedFolder.ClientID))
+                        return 'A file with the same name already exists in the selected folder';
+                }
+            });
+        $(that.folderSelector).off('folderSelected');
+        $(that.folderSelector).on('folderSelected', _.bind(function (ev, newParentFolder) {
+            callback(newParentFolder);
+        }, that));
+    }
+
+    function shareAttachment(urlTemplate, attachmentID){
+        var url = urlTemplate.replace('%7BattachmentID%7D', attachmentID);
+        $('.shareAttachmentDialogInput').val(url);
+        $('#shareAttachmentDialog').modal('show');
+        $('.shareAttachmentDialogInput').select();
+        setTimeout(function(){
+            $('.shareAttachmentDialogInput').focus();
+        }, 1000);
+    }
+
+    function copyAttachment(attachmentName, type, folderID) {
+        folderSelector(function (targetFolder) {
+            $.ajax('/ITG.TeamFusion/AssetAttachments/CopyAttachment', {
+                type: 'POST',
+                dataType: 'json',
+                data: addAntiForgeryToken({
+                    assetId: window.projectID,
+                    fileName: attachmentName,
+                    folderID: folderID,
+                    targetFolderID: targetFolder.Id
+                }),
+                success: function (d) {
+                    if (d.Success) {
+                        storageSelector.builtInStorage.loadAttachments();
+                    }
+                    else {
+                        $.growl({ message: 'The operation was not completed. ' + d.Message, icon: 'fa fa-warning' }, { type: 'danger' });
+                    }
+                }
+            });
+        }, attachmentName);
+    }
+
+    function moveAttachment(attachmentName, type, folderID) {
+        folderSelector(function (targetFolder) {
+            $.ajax('/ITG.TeamFusion/AssetAttachments/MoveAttachment', {
+                type: 'POST',
+                dataType: 'json',
+                data: addAntiForgeryToken({
+                    assetId: window.projectID,
+                    fileName: attachmentName,
+                    folderID: folderID,
+                    targetFolderID: targetFolder.Id
+                }),
+                success: function (d) {
+                    if (d.Success) {
+                        storageSelector.builtInStorage.loadAttachments();
+                    }
+                    else {
+                        $.growl({ message: 'The operation was not completed. ' + d.Message, icon: 'fa fa-warning' }, { type: 'danger' });
+                    }
+                }
+            });
+        }, attachmentName);
+    }
+
+    function showAttachmentHistory(attachmentName, type, folderID, assetID) {
+        if (type == 0) {
+            $('.history-modal .loading').css({ 'display': 'table' });
+            $('.history-modal .history-text').text('');
+            $('.history-modal').modal('show');
+            $.ajax('/ITG.TeamFusion/AssetAttachments/AttachmentHistory', {
+                type: 'POST',
+                dataType: 'json',
+                data: addAntiForgeryToken({
+                    folderID: folderID,
+                    assetId: assetID || window.projectID,
+                    attachmentName: attachmentName,
+                    folderID: folderID
+                }),
+                success: function (result) {
+                    $('.history-modal .loading').css({ 'display': 'none' });
+                    if (result.history != null && result.history.length > 0) {
+                        $('.history-modal .history-text').html(result.history);
+                    } else {
+                        $('.history-modal .history-text').html('<p>No history is available for this file</p>');
+                    }
+                },
+                error: function (qXHR, textStatus, errorThrown) {
+                    $('.history-modal .loading').css({ 'display': 'none' });
+                    $('.history-modal .history-text').html('<p class="error">' + textStatus + '</p><p class="error">' + errorThrown + '</p></p>');
+                }
+            });
+        } else {
+            var url =
+                '/ITG.TeamFusion/AssetAttachments/AttachmentHistory?assetId=' + window.projectID + '&folderID=' + folderID + '&attachmentName=' + escape(attachmentName);
+            window.open(url, '_blank');
+        }
+
+        return false;
+    }
+
+    function showCreateNewDocument() {
+        $('#fileupload-docs-document-title').removeAttr('required');
+        $('#fileupload-docs-document-error').hide();
+        $('#fileupload-docs-document-title').val('');
+        $('.newdoc-modal').modal('show');
+        return false;
+    }
+
+    // is called when user presses 'Create' in 'Create New Document' modal dlg
+    function createNewDocument() {
+        $('#fileupload-docs-document-error').hide();
+
+        var newDocumentTitle = $('#fileupload-docs-document-title').val();
+        newDocumentTitle = $.trim(newDocumentTitle);
+        if (newDocumentTitle.length == 0) {
+            $('#fileupload-docs-document-title').attr('required', 'required');
+        } else {
+            $('#fileupload-docs-document-title').removeAttr('required');
+            $.ajax({
+                url: '/ITG.TeamFusion/AssetAttachments/NewDocument' + '?assetId=' + window.projectID,
+                data: addAntiForgeryToken({
+                    newDocumentTitle: newDocumentTitle,
+                    visibility: $('#default-attachment-visibility').val(),
+                    folderID: storageSelector.builtInStorage.getCurrentFolderID()
+                }),
+                type: 'POST',
+                success: function (d) {
+                    if (d.Success) {
+                        $('.newdoc-modal').modal('hide');
+                        storageSelector.loadAttachments();
+                        window.open(d.DocumentURL, '_blank');
+                    } else {
+                        $('#fileupload-docs-document-title').attr('required', 'required');
+                        $('#fileupload-docs-document-error').text(d.Message).show();
+                    }
+                }
+            });
+        }
+        return false;
+    }
+
+    function saveSort(sort) {
+        $.cookie('attachments-sort', sort);
+        updateSortButton(sort);
+    }
+
+    function loadSort() {
+        var sort = $.cookie('attachments-sort') || 'sort-name-asc';
+        if (sort) {
+            $('#asset-attachments a#' + sort).trigger('click');
+        }
+    }
+
+    function updateSortButton(sort) {
+        if (sort) {
+            $('#asset-attachments #sort-button .cur-sort').text($('#asset-attachments #' + sort).text());
+        }
+    }
+
+    // onclick handler
+    function sort(event) {
+        var attr = null;
+        var order = null;
+        var isNum = false;
+        switch (event.target.id) {
+            case 'sort-name-asc':
+                attr = 'attachment-name';
+                order = 'asc';
+                break;
+            case 'sort-name-desc':
+                attr = 'attachment-name';
+                order = 'desc';
+                break;
+            case 'sort-size-asc':
+                attr = 'attachment-size';
+                isNum = true;
+                order = 'asc';
+                break;
+            case 'sort-date-asc':
+                attr = 'attachment-date';
+                isNum = true;
+                order = 'asc';
+                break;
+            case 'sort-type-asc':
+                attr = 'attachment-type';
+                order = 'asc';
+                break;
+            case 'sort-visibility-asc':
+                attr = 'attachment-visibility';
+                isNum = true;
+                order = 'asc';
+                break;
+        }
+
+        $('.files').jSort({
+            sort_by: 'div.media-body a',
+            item: 'div.media',
+            order: order,
+            sort_by_attr: true,
+            attr_name: attr,
+            is_num: isNum
+        });
+        saveSort(event.target.id);
+        return false;
+    }
+
+    function toggleVisibility(event) {
+        var $el = $(event.target).parent().parent().find('[attachment-id]');
+            
+            var securityUrl = $(event.target).attr('security-url');        
+            if (securityUrl) {
+                var item = $(event.target).parents('div.template-download');
+                var newAttachmentVisiblity = parseInt(item.find('a[attachment-visibility]').attr('attachment-visibility'));
+                newAttachmentVisiblity ^= 1;
+
+                $.ajax(securityUrl, {
+                    type: 'POST',
+                    data: addAntiForgeryToken({ visibility: newAttachmentVisiblity }),
+                    success: function (d) {
+                        var perror = item.find('p.error');
+
+                        if (d.Success) {
+                            var svisible = item.find('span.attachment-visibility');
+                            perror.html('');
+                            svisible.text(d.Visibility ? 'Private' : 'Restricted');
+                            $(event.target).text(d.Visibility ? 'Make Restricted' : 'Make Private');
+                            item.find('a[attachment-visibility]').attr('attachment-visibility', d.Visibility);
+                        } else {
+                            perror.html('<b>Error:</b> ' + d.Message);
+                        }
+                    }
+                });
+            }
+        
+        storageSelector.builtInStorage.fileChanged({
+            name: $el.attr('attachment-name'),
+            folder_id: $el.attr('attachment-folder-id'),
+            folder_client_id: $el.attr('attachment-folder-client-id'),
+            security: newAttachmentVisiblity
+        });
+    }
+
+    $(function () {
+        
+        if (typeof window.tmpl != 'undefined' && typeof window.tmpl.cache != 'undefined')
+            window.tmpl.cache = {};
+
+        $('#fileupload-docs').fileupload({
+            limitConcurrentUploads: 3,
+            uploadTemplateId: 'template-upload-docs',
+            downloadTemplateId: 'template-download-docs',
+            dropZone: $('#fileupload-docs'),
+            autoUpload: true,
+            send: function (e, data) {
+                for (var index = 0; index < data.files.length; index++) {
+                    $('#fileupload-docs a[attachment-name]').filter(function () {
+                        return $(this).attr('attachment-name') == data.files[index].name;
+                    }).parents('div.template-download').remove();
+                }
+                return true;
+            },
+            
+            destroy: function (e, data) {
+                var item = data.context;
+                var that = $(this).data('fileupload');
+                if (data.url) {
+                    confirmModal("Confirm Deletion", "<p>This will permanently delete the file from the repository.</p><p>Would you like to continue?</p>",
+                        function () {
+                            $.ajax(data)
+                                .success(function (d) {
+                                    $('#fileupload-docs').trigger('fileDeleted', data);
+                                    if (d.Success) {
+                                        that._adjustMaxNumberOfFiles(1);
+                                        item.fadeOut(function () {
+                                            item.remove();
+                                        });
+                                    } else {
+                                        item.find('p.error')
+                                            .html('<b>Error:</b> ' + d.Message);
+                                    }
+                                });
+                        });
+                } else {
+                    item.fadeOut(function () {
+                        item.remove();
+                    });
+                }
+            },
+            
+        });
+
+        $('#fileupload-docs').data('fileupload')._formatFileSize = function (bytes) {
+            if (typeof bytes !== 'number') {
+                return '';
+            }
+            if (bytes >= 1073741824) {
+                return (bytes / 1073741824).toFixed(0) + ' GB';
+            }
+            if (bytes >= 1048576) {
+                return (bytes / 1048576).toFixed(0) + ' MB';
+            }
+            if (bytes >= 1024) {
+                return (bytes / 1024).toFixed(0) + ' KB';
+            }
+            return bytes + ' B';
+        };
+
+        $('#fileupload-docs').delegate(
+            'a.delete',
+            'click',
+            {
+                fileupload: $('#fileupload-docs').data('fileupload')
+            },
+            function () {
+                if ($(this).hasClass('attachment-deleteButton'))
+                    return $('#fileupload-docs').data('fileupload')._deleteHandler.apply(this, arguments);
+            });
+    });
+</script>    
+ <script type="text/javascript">
+         
+    window.projectID = 3819;
+    $('#fileupload-docs')[0].action = UpdateQueryString('assetID', window.projectID, $('#fileupload-docs')[0].action);
+    $(function () {
+        showStorageSelector(3819, {"StorageType":"BuiltIn","GoogleDriveShareUrl":null,"GoogleGroupUrl":null,"GoogleCalendarUrl":null,"OneDriveUrl":null,"OneDriveUserFk":null,"Id":1359});
+    });
+    
+    function showStorageSelector(projectID, projectDetail){
+        window.storageSelector = _.isUndefined(window.storageSelector) ? new StorageSelector() : window.storageSelector;
+        storageSelector.projectDetail = projectDetail;
+        storageSelector.init({
+            general:{
+                projectID: projectID,
+                urls:{
+                    authorization: '/ProjectStorage/Authorization?storageType=20',
+                    getStorageItems: '/ProjectStorage/GetStorageItems?storageType=20',
+                    checkToken: '/ProjectStorage/CheckToken?storageType=20',
+                    iconFolder: '/Modules/ITG.TeamFusion/Content/images/ArtifactTypes/',
+                    loadingImage: '/Modules/ITG.TeamFusion/Content/images/ajax-loader.gif'
+                }
+            },
+            builtIn:{
+                urls:{
+                    iconFolder: '/Modules/ITG.TeamFusion/Content/images/ArtifactTypes/',
+                    attachmentFoldersController: '/ITG.TeamFusion/AssetAttachmentFolders/ActionName?assetID=%7BassetID%7D'.replace('%7BassetID%7D', projectID)
+                },
+                editMode: 'inline'
+            }
+        });
+        storageSelector.show();
+    };
+
+    function UpdateQueryString(key, value, url) {
+        if (!url) url = window.location.href;
+        var re = new RegExp("([?&])" + key + "=.*?(&|#|$)(.*)", "gi"),
+            hash;
+
+        if (re.test(url)) {
+            if (typeof value !== 'undefined' && value !== null)
+                return url.replace(re, '$1' + key + "=" + value + '$2$3');
+            else {
+                hash = url.split('#');
+                url = hash[0].replace(re, '$1$3').replace(/(&|\?)$/, '');
+                if (typeof hash[1] !== 'undefined' && hash[1] !== null)
+                    url += '#' + hash[1];
+                return url;
+            }
+        }
+        else {
+            if (typeof value !== 'undefined' && value !== null) {
+                var separator = url.indexOf('?') !== -1 ? '&' : '?';
+                hash = url.split('#');
+                url = hash[0] + separator + key + '=' + value;
+                if (typeof hash[1] !== 'undefined' && hash[1] !== null)
+                    url += '#' + hash[1];
+                return url;
+            }
+            else
+                return url;
+        }
+    }
+</script>
+
+
+
+	</div>
+</article>
+
+<article class="widget-content widget-team-fusion-asset-description widget">
+	<div>
+		
+
+
+
+	</div>
+</article>
+
+<article class="widget-content widget-team-fusion-asset-forum-discussions widget">
+	<div>
+		
+<a id="discussions" name="discussions" style="position: absolute;">&nbsp;</a>
+<script type="text/javascript">
+    $(function () {
+        var item = $('<li>');
+        item.append(
+            $('<a>')
+                .text('Discussions')
+                .attr('href', '#discussions')
+            );
+        $("nav ul[class^='menu-side-menu-'],nav ul[class*=' menu-side-menu-']")
+            .append(item);
+        if ($("nav ul[class^='menu-side-menu-'],nav ul[class*=' menu-side-menu-']").children().length == 1) {
+            item.addClass('active');
+        }
+    });
+</script>
+
+<div id="asset-discussions">
+    <hr />
+    <h3>Recent Discussions About this Resource</h3>
+    <br />
+    <comments-widget-body params="{ objectType: portalContext.objectType.resource, objectID: 3819, isOpened: true }"></comments-widget-body>
+</div>
+<script>
+    $(function () {
+        ko.applyBindings({}, $('#asset-discussions')[0]);
+    });    
+</script>
+	</div>
+</article>
+
+<article class="widget-content widget-team-fusion-asset-metadata widget">
+	<div>
+		
+
+
+<style type="text/css">
+    dl.dl-horizontal.dt-left-justified dt {
+        text-align: left;
+    }
+</style>
+
+<hr />
+
+<a id="additional_information" name="additional_information" style="position: absolute;">&nbsp;</a>
+<script type="text/javascript">
+    $(function () {
+        var item = $('<li>');
+        item.append(
+            $('<a>')
+                .text('Additional Information')
+                .attr('href', '#additional_information')
+            );
+        $("nav ul[class^='menu-side-menu-'],nav ul[class*=' menu-side-menu-']")
+            .append(item);
+        if ($("nav ul[class^='menu-side-menu-'],nav ul[class*=' menu-side-menu-']").children().length == 1) {
+            item.addClass('active');
+        }
+    });
+</script>
+
+<h3>Additional Information</h3>
+
+<dl class="dl-horizontal dt-left-justified">
+    <dt title="Popularity">Popularity</dt>
+    <dd>683 views, 675 downloads</dd>
+    <dt title="Visibility">Visibility</dt>
+    <dd>Unrestricted</dd>
+    <dt title="Permalink">Permalink</dt>
+    <dd>
+            <a href="/3819" rel="nofollow">/3819</a>
+
+    </dd>
+                    <dd>&nbsp;</dd>
+                    <dt title="Type">Type</dt>
+                    <dd>Report </dd>
+                    <dt title="Tag">Tag</dt>
+                    <dd>AeHIN</dd>
+
+    <dd>&nbsp;</dd>
+    <dt title="Created by">Created by</dt>
+    <dd>
+        
+    <div class="btn-group">
+        <button type="button" class="btn btn-xs btn-info dropdown-toggle" data-toggle="dropdown">
+            <i class="fa fa-user"></i>
+                 Charisse Orjalo
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+            <li><a href="/ITG.TeamFusion/User/ViewProfile?userId=24019c5b-6e03-42ef-87e8-b17dcf6372d6">View Profile</a></li>
+                <li><a href="/ITG.TeamFusion/PrivateMessages?toUserId=24019c5b-6e03-42ef-87e8-b17dcf6372d6&amp;aboutAssetId=3819">Private Message</a></li>
+        </ul>
+    </div>
+
+        
+
+<span id="ZFCC1F7751DAA4DF4B691FC8CF8EDFF00">
+        3/22/2018
+    <script type="text/javascript">
+        $(function () {
+            $('#ZFCC1F7751DAA4DF4B691FC8CF8EDFF00').text(localDateTime('2018-03-22T22:30:36.0000000', {
+                hideTime: true,
+                relativeFormat: true
+            }));
+        });
+    </script>
+</span>
+ 
+        on behalf of
+
+<a href="/ITG.TeamFusion/Group/ViewProfile?groupId=26">Asia eHealth Information Network (AeHIN)</a>
+    </dd>
+    <dt title="Last modified by">Last modified by</dt>
+    <dd>
+        
+    <div class="btn-group">
+        <button type="button" class="btn btn-xs btn-info dropdown-toggle" data-toggle="dropdown">
+            <i class="fa fa-user"></i>
+                 Charisse Orjalo
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+            <li><a href="/ITG.TeamFusion/User/ViewProfile?userId=24019c5b-6e03-42ef-87e8-b17dcf6372d6">View Profile</a></li>
+                <li><a href="/ITG.TeamFusion/PrivateMessages?toUserId=24019c5b-6e03-42ef-87e8-b17dcf6372d6&amp;aboutAssetId=3819">Private Message</a></li>
+        </ul>
+    </div>
+
+        
+
+<span id="ZCEAFAF4D06574A718B882ED75ECE212B">
+        5/28/2018
+    <script type="text/javascript">
+        $(function () {
+            $('#ZCEAFAF4D06574A718B882ED75ECE212B').text(localDateTime('2018-05-29T01:43:09.0000000', {
+                hideTime: true,
+                relativeFormat: true
+            }));
+        });
+    </script>
+</span>
+
+        on behalf of
+
+<a href="/ITG.TeamFusion/Group/ViewProfile?groupId=26">Asia eHealth Information Network (AeHIN)</a>
+    </dd>
+</dl>
+
+	</div>
+</article>
+
+<article class="widget-content widget-team-fusion-asset-related-projects widget">
+	<div>
+		
+
+
+	</div>
+</article>
+
+<article class="widget-content widget-team-fusion-asset-relationships widget">
+	<div>
+		
+
+
+	</div>
+</article>
+
+<article class="widget-content widget-team-fusion-asset-see-also widget">
+	<div>
+		
+
+
+<a id="see_also" name="see_also" style="position: absolute;">&nbsp;</a>
+<script type="text/javascript">
+    $(function () {
+        var item = $('<li>');
+        item.append(
+            $('<a>')
+                .text('See Also')
+                .attr('href', '#see_also')
+            );
+        $("nav ul[class^='menu-side-menu-'],nav ul[class*=' menu-side-menu-']")
+            .append(item);
+        if ($("nav ul[class^='menu-side-menu-'],nav ul[class*=' menu-side-menu-']").children().length == 1) {
+            item.addClass('active');
+        }
+    });
+</script>    <div id="asset-see-also" class="item-slider">
+        <hr/>
+        <h3>See Also <small>People who viewed this Resource also looked at ...</small></h3>
+        
+        <div id="asset-see-also-header-buttons" style="float: right;margin-top:-10px;" class="toolbar-actions"></div>
+        <div class="prev-page clearfix">
+            <button type="button" id="asset-see-also-prev" class="btn btn-default" style="display:none;"><i class="fa fa-chevron-left"></i></button>
+        </div>
+        <div class="next-page clearfix">
+            <button type="button" id="asset-see-also-next" class="btn btn-default" style="display:none;"><i class="fa fa-chevron-right"></i></button>
+        </div>
+
+        <div class="panel-content slider" id="asset-see-also-slider">
+            <ul>
+                    <li>
+                        
+
+
+
+<div class="thumbnail asset-item resource" asset-id="3857">
+    <a class="resource-thumbnail-container" href="/Share/Details/3857">
+
+        <div class="resource-thumbnail no-thumbnail ">
+            <span class="image" style="background-image: url(/Modules/ITG.TeamFusion/Content/images/no-resource-icon.png);">&nbsp;</span>
+            <div class="file-types">
+                        <img class="collage-image-1-of-1" src="/Modules/ITG.TeamFusion/Content/Images/ArtifactTypes/PDF.png" />
+            </div>
+        </div>
+    </a>
+    <div class="caption">
+        <a href="/Share/Details/3857" class="asset-title" title="AeHIN Hour on Understanding your Digital Health Programs: Deploying the Digital Health Atlas">
+            <h4 class="asset-header" id="idfdd53355-67e7-41ce-b553-d81192d9a4c4">AeHIN Hour on Understanding your Digital Health Programs: Deploying the Digital Health Atlas</h4>
+        </a>
+
+            <p class="asset-type-container">
+                <i class="fa fa-cube"></i>
+                <span class="asset-type" title="Report ">
+                    Report 
+                </span>
+            </p>
+    </div>
+</div>
+    <script type="text/javascript">
+        $(function () {
+            $('#idfdd53355-67e7-41ce-b553-d81192d9a4c4').each(function (index, element) {
+                var elementHtml = $(element).html();
+                try {
+                    $clamp(element, { clamp: 2.1, useNativeClamp: false }); // 2.1 for IE to make it work properly (bug in clamp.js)
+                }
+                catch (e) {
+                    console.log(e);
+                    $(element).html(elementHtml);
+                }
+
+                var lineHeight = $(element).css('line-height');
+                $(element).css({'min-height': (parseInt(lineHeight) + 2) * 2 + 'px'});
+            });
+        });
+    </script>
+
+
+                    </li>
+                    <li>
+                        
+
+
+
+<div class="thumbnail asset-item resource" asset-id="3850">
+    <a class="resource-thumbnail-container" href="/Share/Details/3850">
+
+        <div class="resource-thumbnail  ">
+            <span class="image" style="background-image: url(/Share/AssetVisuals/3850?visualId=781&amp;thumbnail=True);">&nbsp;</span>
+            <div class="file-types">
+                        <img class="collage-image-1-of-1" src="/Modules/ITG.TeamFusion/Content/Images/ArtifactTypes/PDF.png" />
+            </div>
+        </div>
+    </a>
+    <div class="caption">
+        <a href="/Share/Details/3850" class="asset-title" title="AeHIN Hour on PRINCE2 - Project Management Methodology -  an Overview">
+            <h4 class="asset-header" id="id22957bc3-b649-42e7-97d6-2460f64ac807">AeHIN Hour on PRINCE2 - Project Management Methodology -  an Overview</h4>
+        </a>
+
+            <p class="asset-type-container">
+                <i class="fa fa-cube"></i>
+                <span class="asset-type" title="Report ">
+                    Report 
+                </span>
+            </p>
+    </div>
+</div>
+    <script type="text/javascript">
+        $(function () {
+            $('#id22957bc3-b649-42e7-97d6-2460f64ac807').each(function (index, element) {
+                var elementHtml = $(element).html();
+                try {
+                    $clamp(element, { clamp: 2.1, useNativeClamp: false }); // 2.1 for IE to make it work properly (bug in clamp.js)
+                }
+                catch (e) {
+                    console.log(e);
+                    $(element).html(elementHtml);
+                }
+
+                var lineHeight = $(element).css('line-height');
+                $(element).css({'min-height': (parseInt(lineHeight) + 2) * 2 + 'px'});
+            });
+        });
+    </script>
+
+
+                    </li>
+                    <li>
+                        
+
+
+
+<div class="thumbnail asset-item resource" asset-id="3854">
+    <a class="resource-thumbnail-container" href="/Share/Details/3854">
+
+        <div class="resource-thumbnail no-thumbnail ">
+            <span class="image" style="background-image: url(/Modules/ITG.TeamFusion/Content/images/no-resource-icon.png);">&nbsp;</span>
+            <div class="file-types">
+                        <img class="collage-image-1-of-1" src="/Modules/ITG.TeamFusion/Content/Images/ArtifactTypes/PDF.png" />
+            </div>
+        </div>
+    </a>
+    <div class="caption">
+        <a href="/Share/Details/3854" class="asset-title" title="AeHIN Hour on Enterprise Architecture: Updates from the ITU and the AeHIN REACH">
+            <h4 class="asset-header" id="id636260f8-15c1-4e50-8607-24d2043b77ac">AeHIN Hour on Enterprise Architecture: Updates from the ITU and the AeHIN REACH</h4>
+        </a>
+
+            <p class="asset-type-container">
+                <i class="fa fa-cube"></i>
+                <span class="asset-type" title="Report ">
+                    Report 
+                </span>
+            </p>
+    </div>
+</div>
+    <script type="text/javascript">
+        $(function () {
+            $('#id636260f8-15c1-4e50-8607-24d2043b77ac').each(function (index, element) {
+                var elementHtml = $(element).html();
+                try {
+                    $clamp(element, { clamp: 2.1, useNativeClamp: false }); // 2.1 for IE to make it work properly (bug in clamp.js)
+                }
+                catch (e) {
+                    console.log(e);
+                    $(element).html(elementHtml);
+                }
+
+                var lineHeight = $(element).css('line-height');
+                $(element).css({'min-height': (parseInt(lineHeight) + 2) * 2 + 'px'});
+            });
+        });
+    </script>
+
+
+                    </li>
+                    <li>
+                        
+
+
+
+<div class="thumbnail asset-item resource" asset-id="3851">
+    <a class="resource-thumbnail-container" href="/Share/Details/3851">
+
+        <div class="resource-thumbnail  ">
+            <span class="image" style="background-image: url(/Share/AssetVisuals/3851?visualId=782&amp;thumbnail=True);">&nbsp;</span>
+            <div class="file-types">
+                        <img class="collage-image-1-of-1" src="/Modules/ITG.TeamFusion/Content/Images/ArtifactTypes/PDF.png" />
+            </div>
+        </div>
+    </a>
+    <div class="caption">
+        <a href="/Share/Details/3851" class="asset-title" title="AeHIN Hour on Health data standards and health insurance information systems: Thailand Experience">
+            <h4 class="asset-header" id="id8a739624-c31b-4793-ac3d-c913591e2013">AeHIN Hour on Health data standards and health insurance information systems: Thailand Experience</h4>
+        </a>
+
+            <p class="asset-type-container">
+                <i class="fa fa-cube"></i>
+                <span class="asset-type" title="Report ">
+                    Report 
+                </span>
+            </p>
+    </div>
+</div>
+    <script type="text/javascript">
+        $(function () {
+            $('#id8a739624-c31b-4793-ac3d-c913591e2013').each(function (index, element) {
+                var elementHtml = $(element).html();
+                try {
+                    $clamp(element, { clamp: 2.1, useNativeClamp: false }); // 2.1 for IE to make it work properly (bug in clamp.js)
+                }
+                catch (e) {
+                    console.log(e);
+                    $(element).html(elementHtml);
+                }
+
+                var lineHeight = $(element).css('line-height');
+                $(element).css({'min-height': (parseInt(lineHeight) + 2) * 2 + 'px'});
+            });
+        });
+    </script>
+
+
+                    </li>
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(function() {
+            $('#asset-see-also-slider').itemSlider({
+                'prevPageSelector': '#asset-see-also-prev',
+                'nextPageSelector': '#asset-see-also-next',
+                'toolbarSelector': '#asset-see-also-header-buttons',
+                'modalTitle': 'See Also',
+            });
+        });
+    </script>
+
+	</div>
+</article>
+
+<article class="widget-content widget-team-fusion-asset-last-view widget">
+	<div>
+		
+	</div>
+</article>
+</div></div>                    </div>
+                    <div class="row">
+
+
+                    </div>
+                    <div class="row">
+                                            </div>
+                    <div class="row">
+
+
+
+                    </div>
+                    <div class="row">
+                    </div>
+                    <div class="row">
+                                                                    </div>
+                </div>
+            </div>
+            <div id="Breadcrumb"></div>
+        </div>
+	</div>
+
+
+
+	<footer>
+		<div class="container">
+			<div id="FooterContentArea">
+				<div class="row">
+					<div class="col-md-3"></div>
+					<div class="col-md-3"></div>
+					<div class="col-md-3"></div>
+					<div class="col-md-3"></div>
+				</div>
+				<div class="row">
+					<div class="col-md-12"></div>
+				</div>
+			</div>
+	        <div id="Footer">
+                <div class="row">
+                    <div id="Copyright" class="col-md-6"><span class="Copyright">&copy; 2012-2019 AeHIN. All rights reserved.</span></div>
+                    <span id="Sitemap"></span>
+                    <span id="Privacy"></span>
+                    <span id="Terms"></span>
+                    <div class="col-md-6"><div id="FooterRight"><div class="zone zone-footer">
+<article class="widget-footer widget-custom-form-widget widget">
+	<div>
+		
+
+<form action="/Orchard.CustomForms/Item/Create/59" method="post"><div class="edit-item">
+    <div class="edit-item-primary">
+            <div class="edit-item-content">
+                    <style type="text/css">
+        .widget-custom-form-widget fieldset {
+
+    margin-bottom: 10px;
+
+}
+
+.widget-custom-form-widget fieldset label {
+
+    display: none;
+
+}
+    </style>
+
+<fieldset>
+    <label for="ContactForm_YourName_Value"  class="required" >Your Name</label>
+    <input type="text" id="ContactForm_YourName_Value" name="ContactForm.YourName.Value" value="" required="required"  placeholder="Your name" class="form-control"  maxlength="128" />
+    
+</fieldset>
+
+<fieldset>
+    <label for="ContactForm_YourEmail_Value"  class="required" >Your Email</label>
+    <input type="email" id="ContactForm_YourEmail_Value" name="ContactForm.YourEmail.Value" value="" required="required"  placeholder="Your e-mail (name@domain.com)" class="form-control"  maxlength="128" />
+    
+</fieldset>
+<fieldset>
+    <label for="ContactForm_Message_Text"  class="required" >Message</label>
+<textarea cols="80" id="ContactForm_Message_Text" name="ContactForm.Message.Text" required="required" rows="10">
+</textarea>    </fieldset>
+
+            </div>
+    </div>
+    <div class="edit-item-secondary group">
+                    <div class="edit-item-sidebar group">
+                
+            </div>
+    </div>
+</div>
+
+<input id="returnUrl" name="returnUrl" type="hidden" value="/Share/Details/3819" />    <fieldset class="submit-button">
+        <button type="submit" name="submit.Save" value="submit.Save">Submit</button>
+    </fieldset>
+<input name="__RequestVerificationToken" type="hidden" value="z_5fytS_nWCJs0I5AMmxZg5n4ZD0L5pNlJtSbfRYUdgUx3mQZ7gtNAArhg1fb7XfttNl_D3Frv55NMWehVi4J7Z_U6JtxCI4e3cPt5g_NRc1" /></form>
+	</div>
+</article>
+</div></div></div>
+                </div>
+	        </div>    
+		</div>
+	</footer>
+    
+	<script type="text/javascript">
+		(function ($) {
+			$(document).ready(function () {
+				//Tooltips
+				$('*[data-toggle=tooltip]').tooltip();
+
+				//Popovers
+				$('*[data-toggle=popover]').popover({
+					trigger: 'hover'
+				});
+				
+				//WideCarousel
+				if(typeof g_disableCheckoutInEditMode != 'undefined' && !g_disableCheckoutInEditMode) {
+					$('.MoveToSliderZone').appendTo('.BannerZone');
+				}
+
+				var offset = 120;
+				var duration = 500;
+
+				$(window).scroll(function () {
+				    if ($(this).scrollTop() > offset) {
+				        $('.back-to-top').fadeIn(duration);
+				    } else {
+				        $('.back-to-top').fadeOut(duration);
+				    }
+				});
+
+				$('.back-to-top').click(function (event) {
+				    event.preventDefault();
+				    $('html, body').animate({ scrollTop: 0 }, duration);
+				    return false;
+				})
+			});
+		})(jQuery);
+	</script>
+	<script type="text/javascript" >
+        $(function () {
+            function updateMenuVWidth() {
+                $('#MenuV').width($('#MenuV-container').width());
+            }
+            function updateMenuVTop() {
+                var newTop = 0;
+                if ($('#MenuV').parent().offset().top > $(window).scrollTop()) {
+                    newTop = $('#MenuV').parent().offset().top - $(window).scrollTop();
+                }
+                if ($(window).scrollTop() + $('#MenuV').height() + 20 > $('footer').offset().top) {
+                    $('#MenuV').offset().top = $('footer').offset().top - $('#MenuV').height() - 10;
+                    $('#MenuV').css('top', -1 * ($('#MenuV').height() + 10 - ($('footer').offset().top - $(window).scrollTop())));
+                }
+                else {
+                    $('#MenuV').css('top', Math.max(newTop, 10));
+                }
+            }
+
+            $(document).on('updateMenuVTop', function () {
+                updateMenuVTop();
+            });
+
+            //$("#MenuH .menu").BindMENU({ MenuStyle: "DefaultMenu", Orientation: "Horizontal" });
+            if ($("#MenuV .menu").length > 0) {
+                $("#MenuV .menu").BindMENU({ MenuStyle: "DefaultMenu", Orientation: "Vertical" });
+                $("#MenuV .menu").addClass('nav');
+                $('body').scrollspy({ target: '#MenuV nav' });
+                updateMenuVWidth();
+                $(window).resize(function () {
+                    updateMenuVWidth();
+                });
+                updateMenuVTop();
+                $(window).scroll(function () {
+                    updateMenuVTop();
+                });
+            }
+        });
+	</script>
+
+</div>
+
+<div class="back-to-top" title="Back to top">
+    <i class="fa fa-chevron-circle-up"></i>
+</div>
+<script src="/Modules/ITG.TeamFusion/scripts/jquery.scrollTo.min.js" type="text/javascript"></script>
+<script src="/Modules/Orchard.jQuery/scripts/jquery.ui.core.min.js" type="text/javascript"></script>
+<script src="/Modules/Orchard.jQuery/scripts/jquery.ui.datepicker.min.js" type="text/javascript"></script>
+<script src="/Modules/ITG.TeamFusion/scripts/purl.js" type="text/javascript"></script>
+<script src="/Modules/ITG.TeamFusion/scripts/jquery.cookie.js" type="text/javascript"></script>
+<script src="/Modules/ITG.TeamFusion/scripts/jquery.autosize.min.js" type="text/javascript"></script>
+<script src="/Modules/ITG.TeamFusion/scripts/bootstrap-growl.min.js" type="text/javascript"></script>
+<script src="/Modules/ITG.TeamFusion/scripts/bootstrap-modalmanager.js" type="text/javascript"></script>
+<script src="/Modules/ITG.TeamFusion/scripts/bootstrap-modal.js" type="text/javascript"></script>
+<script src="/Modules/ITG.TeamFusion/scripts/custom/modal-dialogs.js" type="text/javascript"></script>
+<script src="/Modules/ITG.TeamFusion/scripts/custom/viewport-size.js" type="text/javascript"></script>
+<script src="/Modules/ITG.TeamFusion/scripts/knockout-3.3.0.js" type="text/javascript"></script>
+<script src="/Modules/ITG.TeamFusion/scripts/knockout.mapping.js" type="text/javascript"></script>
+<script src="/Modules/ITG.TeamFusion/scripts/knockout-switch-case.min.js" type="text/javascript"></script>
+<script src="/Modules/ITG.TeamFusion/scripts/custom/lastview-widget.js" type="text/javascript"></script>
+<script src="/Modules/ITG.TeamFusion/scripts/zoombox.js" type="text/javascript"></script>
+<script src="/Modules/ITG.TeamFusion/scripts/custom/item-slider.js" type="text/javascript"></script>
+<script src="/Modules/ITG.TeamFusion/scripts/tmpl.min.js" type="text/javascript"></script>
+<script src="/Modules/Orchard.jQuery/scripts/jquery-ui.min.js" type="text/javascript"></script>
+<script src="/Modules/ITG.TeamFusion/scripts/jquery.fileupload.js" type="text/javascript"></script>
+<script src="/Modules/ITG.TeamFusion/scripts/jquery.fileupload-fp.js" type="text/javascript"></script>
+<script src="/Modules/ITG.TeamFusion/scripts/jquery.fileupload-ui.js" type="text/javascript"></script>
+<script src="/Modules/ITG.TeamFusion/scripts/jquery.fileupload-jui.js" type="text/javascript"></script>
+<script src="/Modules/ITG.TeamFusion/scripts/moment.min.js" type="text/javascript"></script>
+<script src="/Modules/ITG.TeamFusion/scripts/jquery.jsort.0.4.min.js" type="text/javascript"></script>
+<script src="/Modules/ITG.TeamFusion/scripts/validate/jquery.validate.min.js" type="text/javascript"></script>
+<script src="/Modules/ITG.TeamFusion/scripts/underscore.min.js" type="text/javascript"></script>
+<script src="/Modules/ITG.TeamFusion/scripts/custom/date-helper.js" type="text/javascript"></script>
+<script src="/Modules/ITG.TeamFusion/scripts/custom/knockout-extensions.js" type="text/javascript"></script>
+<script src="/Modules/ITG.TeamFusion/scripts/knockout.validation.js" type="text/javascript"></script>
+<script src="/Modules/ITG.TeamFusion/scripts/clamp.min.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            $(function () {
+
+    $('#ContactForm_YourName_Value').closest('.edit-item-content').prepend('<h3>Contact Us</h3>');
+    $('textarea#ContactForm_Message_Text').attr('placeholder', 'Message').addClass('form-control');
+
+});
+        </script>
+
+
+</body>
+</html>

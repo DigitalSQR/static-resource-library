@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html style="height: 100%;" lang="en"> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+	<meta charset="utf-8">
+	<meta name="author" content="JLN">
+	<meta name="google-translate-customization" content="bb9f04a984b42cdb-a5d86ccfafcf661e-g786d288d684558e9-7" />
+
+	<title>Using Data Analytics to Monitor Health Provider Payment Systems | Joint Learning Network</title>
+<meta name='keywords' content='Data Analytics, Provider Payment Mechanisms, Toolkits and Guides,' />
+<meta name='description' content='' />
+<link rel='canonical' href='http://www.jointlearningnetwork.org/resources/data-analytics-for-monitoring-provider-payment-toolkit' />
+	
+	
+	<link rel="stylesheet" href="/assets/css/public.css" type="text/css" media="screen" charset="utf-8">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+ 
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,300italic,300,100italic,100,700italic,900,900italic">
+	<!--<link rel="stylesheet" href="/assets/css/public.css" type="text/css" media="screen" charset="utf-8">-->
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+	
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,300italic,300,100italic,100,700italic,900,900italic">
+
+	
+</head>
+
+<body class="bases  resources"> 
+<div class="top-strip">
+  <div class="wrap">
+     <div class="l" style="float:left;">
+      <div id="google_translate_element"></div>
+    </div> 
+    <div class="right-strip">
+      <div class="top-social">
+        <div class="share-social">
+          <a href="http://twitter.com/JLN4UHC" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> 
+          <a href="https://www.facebook.com/jointlearningnetwork" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a> 
+          <a href="https://www.linkedin.com/groups/4924058" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a> 
+          
+          <a href="https://www.flickr.com/photos/jointlearning/" target="_blank"><i class="fa fa-flickr" aria-hidden="true"></i></a>
+          <a href="https://vimeo.com/jointlearningnetwork" target="_blank"><i class="fa fa-vimeo" aria-hidden="true"></i></a> </div>
+        <a class="mobile-share-toggle" href="javascript:void(0)"><i class="fa fa-share-alt" aria-hidden="true"></i></a> 
+        <a class="search-toggle" href="javascript:void(0)"><i class="fa fa-search" aria-hidden="true"></i></a>
+        </ul>
+      </div>
+     
+    <form method="post" action="http://www.jointlearningnetwork.org/"  >
+<div class='hiddenFields'>
+<input type="hidden" name="ACT" value="86" />
+<input type="hidden" name="RES" value="" />
+<input type="hidden" name="meta" value="f2nD26c2liz6RqqdZBIpYH64rkTRhMe+OzsXVqwyAJcNo3IcjHtgHRBrKy8etItig2ksoW/yZ1K8nkzkIzPfbASP9tlnneBBTQ1ulJi9qBzdb2Ef5OqKMCP1BHMw+LS0QRuYHHB813o9l2W5/SSesiWtpuyDqebt7ImgyogqnTHIsY4sqGkYBHSKxPOZZWLT2dnO8fo3UulzPR2X0JDkrsM+iQ8nEUUSYNnOqhit9gWVY/EN7vzcoy4Aj9Nq5j43sPu4D7BdB6lrzI3n2sauh8Nc2UkbEM/ldHi0EFsqhOCImk7RkIeiAFQCh7sWVp1iCy9Pcn4ck+fdUV2aoRRw/S2L921VZ/GofVXzRcyDJGMmRDQFPDWGIt7bj/j6hw2kRroEaYy0ayVpMgy1YogzFsPzFMw8eaJYj0mANlB6SugRhwrBzAoBOsV3C4ZihvcFbAUGXeh1AKQxhEuntz3ll6lmQa7AcgFziD+bFRzNN8s=" />
+<input type="hidden" name="site_id" value="1" />
+<input type="hidden" name="csrf_token" value="5391030ae17e8eba01dbb3e624295c05cba9bb73" />
+</div>
+
+
+      <div class="search-field">
+        <input type="text" name="keywords" placeholder="Enter your keyword.." />
+        <button class="submit-form" type="submit" name="submit"><span><i class="fa fa-search" aria-hidden="true"></i></span></button>
+    </div>
+    </form>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<header id="header">
+    <div class="wrap">
+        <h1><a href="http://www.jointlearningnetwork.org/">Joint Learning Network</a></h1>
+        <nav class="menu">
+            <ul><li><a href="/">Home</a></li><li><a href="/what-we-do">What We Do</a></li><li><a href="/about-our-team">Our Team</a></li><li><a href="/countries">Members</a></li><li><a href="/news">Latest News</a></li><li><a href="/resources">Resources</a></li><li><a href="/events">Events</a></li></ul>
+        </nav>
+        
+	        <nav class="join">
+	            <ul>
+	                <li class="button "><a href="/login">Member Portal</a></li>
+	            </ul>
+	        </nav>
+        
+    </div>
+    <div class="menu-toggle"></div>
+</header>
+
+
+
+
+	
+	
+	
+
+
+
+
+    <main role="main">
+        <div class="wrap">
+
+            <header>
+                <aside class="meta">
+                    <span class="icon-downloads"><strong>2277</strong> downloads</span>
+                    <span class="icon-facebook" data-url="http://www.jointlearningnetwork.org/resources/data-analytics-for-monitoring-provider-payment-toolkit" data-title="Using Data Analytics to Monitor Health Provider Payment Systems"><strong><count id="facebook-count" data-entry_id="4521" data-track_views="two" data-url="http://www.jointlearningnetwork.org/resources/data-analytics-for-monitoring-provider-payment-toolkit">0</count></strong> shares</span>
+                    <span class="icon-twitter" data-url="http://www.jointlearningnetwork.org/resources/data-analytics-for-monitoring-provider-payment-toolkit" data-title="Using Data Analytics to Monitor Health Provider Payment Systems"><strong><count id="twitter-count" data-entry_id="4521" data-track_views="three" data-url="http://www.jointlearningnetwork.org/resources/data-analytics-for-monitoring-provider-payment-toolkit">0</count></strong> tweets</span>
+                    
+                </aside>
+                <h1>Using Data Analytics to Monitor Health Provider Payment Systems</h1>
+                <a class="back" href="http://www.jointlearningnetwork.org/resources"></a>
+            </header>
+
+            <div class="row cols3 md-nocols">
+                <div class="main span2">
+                    
+                    <article class="article">
+                        <div class="content">
+                        <div>A carefully developed provider payment system&nbsp;can be a powerful instrument for making progress toward universal health coverage. Effectively monitoring this system is an integral part of the process.&nbsp; Countries can draw on the collective experience presented in this&nbsp;toolkit to create an effective provider payment monitoring system that generates information on an ongoing basis about whether objectives are being met or unintended consequences are emerging.<br />
+&nbsp;<br />
+Six of the tools within the toolkit have been developed such that they can be modified to fit the country&rsquo;s specific context.&nbsp; Links to download these tools are found below:<br />
+&nbsp;</div>
+
+<div>Tool # &nbsp;&ndash;&nbsp;<a href="http://www.jointlearningnetwork.org/uploads/files/resources/TOOL_1_List_of_Common_Objectives_and_Potential_Unintended_Consequences_of_Provider_Payment_Methods_(1).docx"><span style="font-size: 16px;">List of Common Objectives and Potential Unintended Consequences&nbsp;</span>of Provider Payment Methods</a><br />
+Tool #2 &ndash; <a href="http://www.jointlearningnetwork.org/resources/download/get_file/ZW50cnlfaWQ6NTAyNHxmaWVsZF9uYW1lOnJlc291cmNlX2ZpbGV8dHlwZTpmaWxl">Menu of Indicators</a><br />
+Tool #3 &ndash; <a href="http://www.jointlearningnetwork.org/resources/download/get_file/ZW50cnlfaWQ6NTAyNXxmaWVsZF9uYW1lOnJlc291cmNlX2ZpbGV8dHlwZTpmaWxl">Indicator Scoring Template</a><br />
+Tool #4 &ndash; <a href="http://www.jointlearningnetwork.org/resources/download/get_file/ZW50cnlfaWQ6NTAyNnxmaWVsZF9uYW1lOnJlc291cmNlX2ZpbGV8dHlwZTpmaWxl">Indicator Definition Template</a><br />
+Tool #5 &ndash;&nbsp;<a href="http://www.openhdd.org/index.html">Open Health Data Dictionary&nbsp;</a></div>
+
+<div><span style="font-size: 16px;">Tool #6 &ndash; </span><a href="http://www.jointlearningnetwork.org/resources/download/get_file/ZW50cnlfaWQ6NTAyN3xmaWVsZF9uYW1lOnJlc291cmNlX2ZpbGV8dHlwZTpmaWxl" style="font-size: 16px; background-color: rgb(255, 255, 255);">Indicator Mapping Template</a></div>
+
+<div>Tool #7&nbsp;&ndash;&nbsp;&nbsp;<a href="http://www.jointlearningnetwork.org/uploads/files/resources/TOOL_7_Data_Quality_Checklist.docx">Data Quality Checkist</a></div>
+
+<div>Tool #8 &ndash; <a href="http://www.jointlearningnetwork.org/resources/download/get_file/ZW50cnlfaWQ6NTAyOHxmaWVsZF9uYW1lOnJlc291cmNlX2ZpbGV8dHlwZTpmaWxl">Reporting Requirements Template</a><br />
+Tool #9 &ndash; <a href="http://www.jointlearningnetwork.org/resources/download/get_file/ZW50cnlfaWQ6NTAyOXxmaWVsZF9uYW1lOnJlc291cmNlX2ZpbGV8dHlwZTpmaWxl">Indicator Summary Template</a></div>
+
+<div>Tool #10&nbsp;&ndash;&nbsp;<a href="http://www.jointlearningnetwork.org/uploads/files/resources/TOOL_10_Sample_Provider_Payment_Monitoring_Report_Outline.docx">Sample Provider Payment Monitoring Report Outline</a></div>
+                        </div>
+                    </article>
+                    
+                    <div class="buttons main">
+                        <a href="/resources/download/get_file/ZW50cnlfaWQ6NDUyMXxmaWVsZF9uYW1lOnJlc291cmNlX2ZpbGV8dHlwZTpmaWxl" target="_blank" class="button">Download the Full Toolkit Here.</a>
+                    </div>
+                    
+                </div>
+                
+                <div class="rail">
+    
+    <div class="form-subscribe">
+
+        <h3 style="margin-bottom:0px;">Subscribe to our Newsletter</h3>
+        <a href="javascript:window.open('http://visitor.r20.constantcontact.com/d.jsp?llr=wq5uzprab&amp;p=oi&amp;m=1118295456278&amp;sit=ghjephajb&amp;f=79f5442e-68d1-4e92-bce0-df2547563309','cc','width=560,height=600');">
+            <button type="submit" style="top:-29px">Submit</button>
+        </a>
+
+    </div>
+
+    <h2 class="title">Trending Topics</h2>
+    
+        <div class="articles row md-cols2 sd-nocols">
+        
+        <div>
+            <div class="image">
+            <a href="http://www.jointlearningnetwork.org/news/a-new-toolkit-for-medical-audit-practitioners-ensuring-quality-across-healt">
+            
+            	<img src="http://www.jointlearningnetwork.org/uploads/images/news/Med-Audits-Collab-Small.png" width="364" alt="Thumbnail" />
+            
+                        
+            </a></div>
+            <div class="inner">
+                <h3><a href="http://www.jointlearningnetwork.org/news/a-new-toolkit-for-medical-audit-practitioners-ensuring-quality-across-healt">A New Toolkit for Medical Audit Practitioners: Ensuring Quality Across Health Systems</a></h3>
+                
+
+                <p>Medical audit systems are crucial to improving the quality of patient care</p>
+            </div>
+        </div>
+        
+    </div>
+        <div class="articles row md-cols2 sd-nocols">
+        
+        <div>
+            <div class="image">
+            <a href="http://www.jointlearningnetwork.org/news/a-new-monitoring-toolkit-empowers-countries-to-track-provider-payment-syste">
+            
+            	<img src="/images/made/uploads/images/news/Screenshot_2017-04-20_19.25.09_364_180_c1.png" width="364" height="180" alt="" />
+            
+                        
+            </a></div>
+            <div class="inner">
+                <h3><a href="http://www.jointlearningnetwork.org/news/a-new-monitoring-toolkit-empowers-countries-to-track-provider-payment-syste">A New Monitoring Toolkit Empowers Countries to Track Provider Payment Systems</a></h3>
+                
+
+                <p>Achieving universal health coverage&mdash;ensuring access to basic health services for</p>
+            </div>
+        </div>
+        
+    </div>
+    
+    
+</div>
+            </div>
+        
+        </div>
+    </main>
+        
+
+<section class="subscribe-bar">
+  <div class="wrap">
+    <div class="member-left">
+    <a href="http://www.jointlearningnetwork.org/resources" style="text-decoration:none"><h1><span>Browse UHC Resources</span> </h1></a>
+    </div>
+    <div class="subscribe-form">
+      <!--<h3>Subscribe to Joint Learning Network News!</h3>-->
+      <a href="javascript:window.open('http://visitor.r20.constantcontact.com/d.jsp?llr=wq5uzprab&amp;p=oi&amp;m=1118295456278&amp;sit=ghjephajb&amp;f=79f5442e-68d1-4e92-bce0-df2547563309','cc','width=560,height=600');">Subscribe to our Newsletter </a> </div>
+  </div>
+</section>
+
+<footer id="footer">
+  <div class="wrap">
+  <div class="l nav">
+    <ul>
+        <li><a href="/what-we-do">What We Do</a></li>
+        <li><a href="/about-our-team">About Our Team</a></li>
+        <li><a href="/news">Latest News</a></li>
+        <li><a href="/resources">Resources</a></li>
+        <li><a href="/events">Our Events</a></li>
+        <li><a href="/contact">Contact Us</a></li>
+    </ul>
+</div>
+<div class="r social">
+    <ul>
+
+       
+		 <li class="icon-twitter"><a href="https://twitter.com/JLN4UHC" target="_blank"></a></li>
+		
+        		
+        <li class="icon-facebook"><a href="https://www.facebook.com/jointlearningnetwork" target="_blank"></a></li>
+		
+        		
+		 <li class="icon-linkedin"><a href="https://www.linkedin.com/groups/4924058" target="_blank"></a></li>
+		
+        		
+        <li class="icon-flickr"><a href="https://www.flickr.com/photos/jointlearning/" target="_blank"></a></li>
+		
+        		
+        <li class="icon-vimeo"><a href="https://vimeo.com/jointlearningnetwork" target="_blank"></a></li>
+
+    </ul>                    
+</div>
+<div class="l logo"><a href="/"></a></div>
+
+ 
+ 
+    <div class="faux-row">
+      <div class="r copy">&copy; 2019 All Rights Reserved. | <a href="/news/terms-of-use">Terms of Use</a> | <a href="/news/privacy-policy">Privacy Policy</a></div>
+    </div>
+  </div>
+</footer>
+
+
+<script src="/assets/js/jquery-1.11.2.min.js"></script>
+<script src="/assets/js/jquery-migrate-1.2.1.js"></script>
+<script src="/assets/js/jquery.infinitescroll.min.js"></script>
+<script src="/assets/js/jquery.showLoading.js"></script>
+<script src="/assets/js/jquery.dotdotdot.min.js"></script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script type="text/javascript">
+function googleTranslateElementInit()
+{
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+</script>
+
+
+
+
+    <script src="http://www.jointlearningnetwork.org/assets/js/public.js"></script>
+<script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-8479985-4', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+
+ 
+  
+  <script>
+    $(document).ready(function() {$(".search-toggle").click(function(){$(".search-field").slideToggle();});
+		
+		$(".submit-form").click(function(){$(".search-field").slideToggle();});
+        
+		$(".mobile-share-toggle").click(function(){$(".share-social").slideToggle();});
+		
+    });
+  </script>
+
+  
+  
+  
+  
+<div id="goog-gt-tt" class="skiptranslate" dir="ltr">
+  <div style="padding: 8px;">
+    <div>
+      <div class="logo"><img src="index_files/translate_24dp.png" alt="Google Translate" width="20" height="20"></div>
+    </div>
+  </div>
+  <div class="top" style="padding: 8px; float: left; width: 100%;">
+    <h1 class="title gray">Original text</h1>
+  </div>
+  <div class="middle" style="padding: 8px;">
+    <div class="original-text"></div>
+  </div>
+  <div class="bottom" style="padding: 8px;">
+    <div class="activity-links"><span class="activity-link">Contribute a better translation</span><span class="activity-link"></span></div>
+    <div class="started-activity-container">
+      <hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;">
+      <div class="activity-root"></div>
+    </div>
+  </div>
+  <div class="status-message" style="display: none;"></div>
+</div>
+<div class="goog-te-spinner-pos">
+  <div class="goog-te-spinner-animation"><svg xmlns="http://www.w3.org/2000/svg" class="goog-te-spinner" width="96px" height="96px" viewBox="0 0 66 66">
+    <circle class="goog-te-spinner-path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle>
+    </svg></div>
+</div>
+<iframe class="goog-te-menu-frame skiptranslate" title="Language Translate Widget" style="visibility: visible; box-sizing: content-box; width: 1004px; height: 285px; display: none;" frameborder="0"></iframe>
+</body>
+</html>

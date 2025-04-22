@@ -1,0 +1,1023 @@
+Lessons Learned
+https://mail-attachment.googleusercontent.com/attachment/u/0/?ui=2&ik=9db0fcaf48&view=att&th=13ea057f
+0b3cd871&attid=0.1&disp=inline&safe=1&zw&saduie=AG9B_P-Fm6m3liZhAVS8PUPU-m-S&sadet=1368815-
+174815&sads=CnJMwfINTugV56VzZyVruj7vk_8
+February 2013
+ICTs for Supply Chain 
+Management in Low-Resource Settings 
+Acknowledgments
+This report was developed with generous support from the Bill and Melinda Gates Foundation. The primary authors of this 
+guide – Rowena Luk and and Emily Bancroft – would like to acknowledge the numerous people involved in different aspects 
+of the drafting, review and revision of this document, including Mike Frost, Sean Blaschke, Nnenna Okoye, Gillian Javetski, 
+Kate Waldman, and Leah Hasselback. The authors would also like to acknowledge all the staff members at the Ministry 
+of Health and affiliated services in Ghana, Tanzania, Malawi, Uganda and Mozambique, as well as John Snow Inc., WHO, 
+UNICEF Uganda and those who participated in the implementation of the case studies described herein. The expertise and 
+lessons learned that resulted from these experiences provide the basis for the content of this report.
+Table of Contents 
+Glossary.........................................................................................................................................................................................................2
+Introduction.................................................................................................................................................................................................3
+Technology Design....................................................................................................................................................................................4
+ SMS vs GPRS: Should Data Transmission be via SMS or GPRS?.................................................................................4
+ Choosing A Mobile Platform.............................................................................................................................................. ...6
+Program Design..........................................................................................................................................................................................8
+ Focus on Core Workflows to Start .................................................................................................................................... ...8
+ Reinforcing Human Feedback, Especially At The Last Mile........................................................................................9
+ Coordinating New Technology with Changes in Workflow.......................................................................................10
+ Dashboards Are Not Enough............................................................................................................................................... 11
+ Targeting the End User...........................................................................................................................................................12
+Training and Support..............................................................................................................................................................................14
+ Planning Training.................................................................................................................................................................... 14
+ Supporting Continuous Training....................................................................................................................................... 15
+ Effectively Leveraging Existing Support Structures and Expertise........................................................................ 16
+Scale-Up........................................................................................................................................................................................................17
+ Programs and Practice........................................................................................................................................................... 17
+ Iterating Quickly vs Building for Scale..............................................................................................................................17
+Case Studies................................................................................................................................................................................................19
+ Ghana: The Early Warning System          19
+ Malawi: cStock             21
+ Mozambique: vrMIS            23
+ Mozambique: ODK Scan            25
+ Tanzania: ILSGateway            27
+ Uganda: mTrac             29
+Appendix A: Technology Overview................................................................................................................................................... 32
+Glossary
+ACT  Artemisinin-Based Combination Therapy 
+CCM   Community Case Management
+CHW   Community Health Worker 
+DHIO  District Health Information Officer
+EWS  The Early Warning System
+FP  Family Planning
+FRHP  Focus Region Health Project
+GHS  Ghana Health Services
+GSM  Global System for Mobile Communications
+HSA  Health Surveillance Assistant (Community Health Worker in Malawi)
+ICT  Information and Communication Technology
+ICT4SC  Information and Communication Technology for Supply Chain 
+LMIS  Logistics Management Information System
+MOH  Ministry of Health
+MOHSW     Ministry of Health and Social Welfare (in Tanzania)
+NGO  Non-Government Organization
+ODK  Open Data Kit
+RDT     Rapid Diagnostic Test
+SIM Card Subscriber Identity Module Card
+SC4CCM  Supply Chain for Community Case Management
+TOT  Training of Trainers
+USAID  United States Agency for International Development
+02
+INTRODUCTION
+Introduction   
+This report is intended to be a useful reference for NGOs or governments seeking to improve 
+the management and visibility of logistics data through the use of open-source information and 
+communication technology (ICT). This report summarizes our experiences working on a variety of 
+open-source ICTs for supply chains (ICT4SC) in low-resource settings from light mobile applications 
+to simple information systems. It also includes a focus on cross-cutting lessons learned that may be 
+relevant to future applications of similar technology. These lessons are divided into the following four 
+categories: technology design, program design, training and support, and scale-up.
+The lessons featured in this document are based on the implementation of six projects. All six projects 
+have different purposes, and were designed on a variety of technology platforms for numerous 
+partners. 
+These projects include:
+	 •The	Early	Warning	System	for	preventing	stock-outs	of	essential	medicines	(Ghana)
+	 •The	Integrated	Logistics	System	(ILS)	Gateway,	a	mobile	extension	of	the	paper-based	ILS		 	
+ (Tanzania)
+	 •cStock,	a	mobile	system	to	resupply,	monitor,	and	manage	community-level	essential			 	
+ medicines, part of the Supply Chains for Community Case Management project to address   
+ pneumonia and other common childhood diseases (Malawi) 
+	 •mTrac,	which	monitors	essential	medicine	supply	using	mobile	phones	and	RapidSMS	(Uganda)	
+	 •The	ODK	Scan	Study	for	the	Agentes	Polivalentes	Elementares	(APEs)	Program	to	track		 	
+ consumption data for malaria and family planning commodities (Mozambique)
+	 •vrMIS,	the	provincial-level	information	system	supporting	the	Dedicated	Logistics	System	for			
+ vaccine distribution (Mozambique)
+A short description of each project and more information about the platforms are included at the end 
+of this document. This report has been prepared by Dimagi and VillageReach for the Bill & Melinda 
+Gates Foundation. The lessons learned are based on Dimagi and VillageReach’s collective experiences 
+supporting and implementing ICT4SC projects, and the views expressed herein are not intended to 
+reflect the views of other key partner organizations that supported the projects featured in this report. 
+Home Visit:  © Dimagi 2011, Uganda
+TECHNOLOGY DESIGN
+Technology Design  
+The lack of data available to support supply chain decision-making in many countries has led to an 
+increased emphasis on using mobile technologies to capture service delivery level data on medicine 
+usage and availability.  Despite the proliferation of mobile projects in this space, some project managers 
+of new ICT4SC projects may struggle to understand the long-term trade-offs associated with early 
+decision-making around technology platforms and data transmission methods.  The following sections 
+summarize these major decisions faced by project teams during the technology design phase of an 
+ICT4SC project.
+SMS VS GPRS: SHOULD DATA TRANSMISSION BE VIA SMS OR GPRS? 
+One of the main technology design decisions ICT4SC initiatives face is whether to transmit data via 
+Short Message Service (SMS) or General Packet Radio Service (GPRS). SMS is a tool built into any modern 
+cell phone, which allows its users to send short messages—typically between 70 and 160 characters—
+over the voice network. GPRS is a mobile data service that allows certain phones to send and receive 
+information using the Internet protocol (IP), the same messaging technology, which powers the World 
+Wide Web. While an SMS-based system has no specific phone requirements, a system that relies on GPRS 
+data transmission requires Java-enabled handsets that are capable of supporting mobile applications. 
+Both options have tradeoffs in terms of cost, ease of use, and coordination and management.
+SMS is the lowest common denominator for data transmission and this makes it very attractive to 
+projects with limited budgets or large user bases. Because SMS capability is a standard built-in 
+feature of all GSM phones (phones supported by SIM cards), a project that relies on data transmission 
+via SMS does not require implementers to invest in project-dedicated handsets for end-users. This 
+reduces up-front costs for new project implementation. In addition, using existing phones bypasses 
+the significant coordination that is required to ensure appropriate use, maintenance, and security 
+of project-specific phones. Another advantage to an SMS-based system is that it relies on a well-
+recognized communication medium that can run directly on off-the-shelf, unmodified phones. This 
+decreases training costs if the information being transmitted by users is simple. An SMS-based system 
+typically also provides a lower barrier to entry for projects without the technical capacity to install 
+and troubleshoot a mobile application, which would be required for more complex data collection on 
+Java-enabled phones. Overall, an SMS-based system’s minimal set-up costs and low training barriers 
+may be suitable for projects collecting a small amount of information from a large user group. 
+But SMS also has significant limitations that some projects overlook during the planning phases. The 
+free-form nature of SMS text messages can lead to significant user input error and poor data quality for 
+those projects that collect specific data points from users or rely on coded data to trigger an action or 
+a response.  SMS messages are limited to a small number of characters and this restricts the robustness 
+of the data that can be collected and puts more responsibility on the users to use the abbreviations 
+or codes to transmit data.  For example, in logistics projects using SMS, we have found that tracking 
+stock levels of 20 commodities is the maximum that can be handled in a single SMS. Entering that 
+many products in SMS is a challenge for users who have to remember two-letter product codes to 
+allow for the tracking of this quantity of commodities. SMS-based systems for national programs 
+04
+typically also require negotiating a toll-free shortcode and this can mean an arduous, long-term, and 
+expensive negotiation process spanning months, or even years, if the SMS aggregator industry is not 
+well evolved. Finally, while the transaction cost of individual SMS is small, as systems go to scale this 
+cost adds up quickly and needs to be weighed against the anticipated benefit.  
+Using GPRS has significant advantages for certain types of projects. Data transmission via GPRS enjoys 
+lower transmission costs than an SMS-based system and hence reduces significant operational costs 
+as projects scale.  While SMS is a ‘best-effort’ transmission medium that frequently results in delayed 
+or dropped messages, GPRS provides guaranteed delivery using the Transmission Control Protocol/
+Internet Protocol (TCP/IP). The use of GPRS-enabled handsets can also allow for richer and better 
+quality data by supporting multi-step data validation and the ability to track a higher number of 
+commodities than with SMS.  Users can also save data on their phone when GPRS networks are not 
+available and then transmit saved data later, something that is not possible with SMS. 
+The main drawback of choosing GPRS as a communication medium is that it typically requires installing 
+a software application on the phone.  This can be anything from a browser or email client to a custom 
+software application. In the case of custom software applications, it is quite common to supply phones 
+to end-users instead of relying on users’ personal handsets, in order to ensure a consistent, functional 
+tool for the entire user base. The phones themselves are more expensive and would likely need to 
+be purchased for the project in order to support the appropriate application. This results in greater 
+effort and technical support for installation and troubleshooting than for an SMS-based solution.  In 
+addition to these upfront costs, expenses around maintenance, loss, replacement and recovery of 
+phone sets can also be especially high in projects dealing with significant staff turnover.
+GPRS-enabled handsets can provide for a more user-friendly experience in allowing project 
+coordinators to incorporate pictures or audio to support low-literate users. Using an application 
+allows end-users to bypass the need to follow the strict syntax of an SMS and can make data entry 
+highly user-friendly. Mobile applications also help secure data by allowing for data encryption before 
+transmission and then decryption on receipt. There are also fewer limitations on how much data can 
+be transmitted over GPRS-based systems. In use cases involving frequent messaging, such as on a 
+daily basis, the upfront cost of a GPRS-enabled phone can be offset by savings in data expenditures in 
+as little as a few months. A more extensive analysis of tradeoffs within each system are discussed in, 
+“Mobile Technology for Community Health in Ghana,” a report published by the Grameen Foundation. 
+Many of the projects featured in the case studies below chose to use SMS to reduce the initial 
+startup costs, technical support needs, and implementation challenges around phone management. 
+However, this decision also limited the complexity of the data the systems could manage and limited 
+the ability to store data while offline or when the network connectivity was poor. This choice was 
+appropriate given the small amount of data that required mobile collection, but as each system scales 
+and additional reporting requirements are added, all the projects will need to explore the option of 
+transitioning to a more robust GPRS-based system. 
+Lesson Learned
+SMS-based systems are less expensive to initially deploy and easier to maintain, especially across a 
+large number of users.  SMS systems also require minimal training particularly when users are already 
+familiar with the technology. However, compared to GPRS systems, they are limited in the amount and 
+quality of data that can be transmitted. While GPRS systems typically require a greater investment in 
+mobile phone hardware and support, the transaction cost of SMS systems are higher as systems scale 
+and increase in complexity. 
+CHOOSING A MOBILE PLATFORM 
+The most common kinds of mobile phones can be divided into three broad categories: basic non-
+Java-enabled phones, feature phones, and smartphones.  The phone type will lead to different choices 
+in the selection of mobile platforms and developer environment. Each project will need to look at its 
+technical requirements, budget availability, and user-base to determine the appropriate platform for 
+the project. As discussed in the previous section on data transmission, a project that requires GPRS 
+data transmission must use a Java-enabled feature phone or smartphone.  But, there are still many 
+mobile platform choices for projects that require GPRS capability, and many implementers find these 
+choices difficult to understand and navigate. 
+The price of a basic phone drops every year and in many countries is now within the purchasing power 
+of user groups at lower income brackets. The decision to use a system that revolves around phones 
+that users already have means the intervention will need to rely on SMS or voice calls. Voice calls allow 
+for rich communication.  An example of a voice feature useful in the supply chain sector is closed user 
+group calling by which members of a group can make free calls to one another.  This can be used for 
+a variety of tasks including real-time reporting of stock levels or ordering of new supplies. In most 
+countries, however, voice calls are many orders of magnitude more expensive than sending an SMS, 
+which has limited their use in formal ICT4SC projects. 
+One option that addresses the data limitations found with SMS-only systems is the feature phone: a 
+phone capable of accessing Internet service and basic multimedia. A project using feature phones has 
+the potential to create a rich user experience. Feature phones are commonly employed in applications 
+involving complex interactions; for example, to facilitate a workflow which requires monitoring and 
+tracking a significant number of commodities across a number of facilities, to provide decision-support 
+to mobile workers, or to generate graphs based on collected data accessible by phone.
+Smartphones typically allow for the best user experience. Smartphones have the most sophisticated 
+interfaces and advanced features of the three options and include additional features like GPS, barcoding, 
+touch-screen interfaces, and improved memory and performance capabilities. Smartphones provide 
+the ability to browse the web and communicate via email and text.  In addition, most smartphone 
+platforms have a group of developers developing custom applications for that platform, and these 
+applications can often be used as the basis for the features and functionality needed by an ICT4SC 
+projects. For example, the Open Data Kit (ODK) suite of tools for the Android platform can be easily 
+customized to collect and analyze the data needed for a logistics project. The drawback, of course, 
+is that smartphones represent the largest upfront investment due to the high cost of handsets. 
+Additionally, installation and maintenance of new features, bug fixes and broken handsets may require 
+technology expertise not locally available. Finally, while many users are familiar with feature phones, 
+a smartphones may also require additional training for even basic features (such as how to make a 
+phone call).
+06
+The following table summarizes respective advantages and challenges of all these three mobile 
+platforms.
+Lesson Learned
+Projects using SMS-based systems have demonstrated considerable success and scale, even with users 
+who had to rely on personal phones and used widely varying phone models. For GPRS-based systems, 
+feature phones are appealing due to the lower hardware costs, unless there is a specific feature or 
+performance constraint that necessitates the use of smartphones. In order to minimize training and 
+maintenance costs, we have found it very helpful to choose a consistent mobile phone platform across 
+users or groups of users, ideally one in line with existing policy and already familiar to end-users. 
+PROGRAM DESIGN
+Program Design  
+In designing systems for ICT4SC projects, it can be difficult to identify which core requirements a 
+system must minimally meet to work at optimal efficiency. What features are end-users most likely to 
+use? How will the introduction of new technology impact the current workflow? To answer these and 
+related questions to user experience often requires an understanding of end-user motives and how 
+closely the ideal diverges from the actual workflow. 
+FOCUS ON CORE WORKFLOWS TO START 
+In designing the functionality for a new ICT4SC project, we have found there is a temptation to try 
+to anticipate a variety of different needs and meet them all from the outset. This inclination to “over-
+design” often arises as a result of a desire to respond to all current and future needs.  In the projects 
+highlighted in this report, over-designing in the early stages often led to spending time and budget 
+on features that were not critical to the actual impact of the solution for end-users and stakeholders. 
+Starting with the core workflows and uses first, testing them, and then building from there may have 
+led to a better end product and less wasted development time.  At the same time, it is critical that 
+solutions are designed for appropriate scale and allow for the addition of new functionality to avoid 
+expensive rebuilds in the future.  But many projects, as described in the examples below, try to build all 
+functionality upfront before the solution is tested with users in the actual implementation environment. 
+A comprehensive solution will almost always require several iterations in response to frequent field-
+testing, and project managers must set this expectation with end-users and stakeholders early in the 
+process. 
+A common theme emerged as we reviewed the lessons learned from the projects highlighted in this 
+document.  A lot of design work invested up-front typically led to a system where a small set of core 
+functionality was used extensively while the majority of more complex features ended up not being 
+used regularly. For example, in cStock, the basic ordering workflow is used extensively. Significant 
+design work initially went into specifying additional SMS workflows for tasks like giving stock from 
+one health surveillance assistant (HSA) to another, or receiving stock from a source outside of the 
+regular supplier, such as the private market. These features have rarely been used in implementation, 
+and those users who were trained to use them would likely need retraining at this point to implement 
+those features. Similarly, in ILSGateway, the team spent a lot of time in the early stages of the project 
+to support integration with Google documents and scanners in order to digitize paper records. 
+This ended up being more involved than was practical – and also required better connectivity and 
+resources than were available – and so these features have not been implemented. In Version 3 of 
+vrMIS in Mozambique, the database was designed to allow for future uses that never materialized.  As 
+a result, Version 4 actually removed some of those features and simplified the underlying database to 
+remove unused features and functionality in order to make technical support and future additions of 
+new features easier. 
+Yet in some cases, cursory initial design efforts might also lead to missing functionality. This was 
+partially the case for the Malawi cStock project, where the initial specifications during the design phase 
+underestimated the potential utility of performance reports. After nine months of implementation, the 
+08
+team had to step back and spent considerable time planning how the data could be analyzed and 
+presented in performance and supervision reports. Because these data were not available at a credible 
+level of accuracy initially, the designers had trouble understanding how the data could be translated 
+into usable reports for monitoring and decision-making. It was only after field-testing that the data 
+were available to design quality performance reports. 
+Lesson Learned 
+Going forward we would recommend that programs focus on implementing core functionality first 
+and then scaling functionality and sophistication over time.  This will help to get to prototyping and 
+field-testing quickly which helps to identify what aspects of the planned intervention will have the 
+most value. This approach saves time and energy on developing functionality that may not ultimately 
+be used or adopted by the end-users. At the same time, certain components – such as the future scale 
+of the system, the ease with which new functionality should be added, and the long-term vision for 
+the application – must be considered upfront in order to ensure that the solution will meet long-term 
+needs. 
+REINFORCING HUMAN FEEDBACK, ESPECIALLY AT THE LAST MILE
+A lot of emphasis has been placed on the use of mobile technology to get access to better data, faster. 
+At the same time, the best data can be gathered by integrating the technology with existing workflows 
+so that the feedback loops and incentives are aligned to ensure the system is used. We have found that 
+technology solutions that provide regular feedback to users are more likely to be used over time.  
+In the cStock Malawi pilot, where HSAs used SMS reporting to order medicines from the nearest health 
+center, there have been very high reporting rates and adoption levels. HSAs in the study were broken 
+into two groups: one group received enhanced supervision on a regular schedule in the form of regular 
+SMS reminders throughout the month; while the other group had a more flexible resupply schedule 
+so that they could order supplies whenever they went to the health center and were only reminded 
+to report if they had not reported in the last 28 days. The system demonstrated that the first group, 
+which enjoyed enhanced management, regular reporting, and more feedback throughout the month 
+demonstrated much higher reporting rates than the second.
+For the Early Warning System, users indicated they would like to receive direct feedback from the 
+district or regional medical stores in response to their continuous reporting.  Many users requested 
+that the SMS reports sent should also trigger a new order. For the ILSGateway system, users did not 
+receive direct feedback from the medical store or from their district supervisors in response to their 
+reports.  This infrequent feedback may account for the comparatively lower reporting rates for the 
+ILSGateway project than for a project like cStock where the submission of an SMS report triggered a 
+response and a resupply from the receiving health center. 
+Providing the right feedback to the right people includes making sure that teams and supervisors 
+have all the information they need to support one another. In Ghana, responsibilities were divided up 
+within larger facilities so that different staff members were responsible for submitting data on different 
+commodities.  Nurses reported on family planning commodities, laboratory staff on rapid diagnostic 
+kits (RDTs), and pharmacists or supply officers on the remaining commodities. The initial version of the 
+software notified a supervisor if no SMS stock reports were submitted during a given reporting period, 
+but no feedback was given to the direct supervisor for incomplete reporting. The rate of incomplete 
+reporting skyrocketed over the course of the pilot to over 75% as no feedback was provided to users 
+for submitting or not submitting a report. Once this trend was recognized, the system was updated 
+to provide incomplete reporting feedback to everyone registered for SMS at the relevant facility. The 
+incomplete reporting rate dropped, by up to 60% in some districts, as a result of this change.
+Lesson Learned
+When designing a system, a failure mode analysis can be a useful exercise to ensure that the system 
+sends the right information to the people who are responsible for taking action. A failure mode 
+analysis, a common exercise in software development, is a process that prompts managers to analyze 
+ways in which a system could malfunction by listing possible system failures and devising a detection 
+strategy for each possible failure. For example, in designing a basic SMS stock reporting system, one 
+might list out each of the actors involved anywhere in the system and the set of responsibilities they 
+are expected to fulfill. Then, for each responsibility, list out what indicators would demonstrate a failure 
+in that responsibility and what strategies should then be used to mitigate that failure. The technology 
+should be designed in such a way that reported data transmission triggers a communication or action 
+that directly affects the reporting party within a reasonable timeframe. This kind of feedback reinforces 
+the value of reporting and ultimately leads to data of higher quality.
+COORDINATING NEW TECHNOLOGY WITH CHANGES IN WORKFLOW
+Technology can be a means of process improvement, but introducing new processes and new 
+technology simultaneously increases the amount of time and support needed for adoption of the 
+technology.  In planning the implementation of new technology, implementers should consider the 
+optimal timing for introducing new systems.
+With vrMIS in Mozambique, the information system was supporting a new logistics process, which was a 
+change from the system that had previously been used to distribute vaccines. In order to ensure strong 
+data quality, the team first worked on the paper forms with the logistics staff collecting the data to 
+ensure that it was easy to use in the field.  From there, the screens and workflow in vrMIS was designed 
+to mirror the paper forms with which the staff had become familiar.  This made the introduction of 
+vrMIS easier because the introduction was done in stages. In the first stage, the field staff used only 
+the paper forms to collect the data which helped them get used to filling out the correct data.  In the 
+second stage, the field staff started entering the data from the paper forms into the computer with 
+offline data entry screens that mirrored the flow and data fields of the paper form.  In the third stage, 
+mobile data collection was added using ODK Collect, but the screens in ODK Collect still followed the 
+exact flow of the paper forms.
+There are times when rapid change is better and there can be benefits to making bold changes all 
+at once to improve processes. Implementers just need to be realistic about the time it will take for 
+the end-users to learn both a new process and a new technology at the same time and ensure that 
+appropriate support is available to make both successful. 
+There are also times when introducing a technology into an existing process highlights gaps in 
+knowledge of the underlying process being automated.  This was a case with ILSGateway, where the 
+team realized during the training portion of the pilot that many of the health workers attending the 
+10
+training had never received basic training on the paper-based logistics system itself. For this reason, 
+a conscious decision was made to merge training for ILSGateway with general logistics refresher 
+workshops. Synchronizing the training modules on both ILSGateway as well as the existing paper-
+based logistics system allowed implementers to capitalize upon a coordinated approach to process 
+change and also save on training costs. 
+Lesson Learned 
+Introducing a new technology can be done as part of an existing logistics system or it can happen as 
+part of a broader redesign of logistics processes. Whatever the approach, it is valuable to consider the 
+technology aspect independently of changes in other processes and weigh the benefits of introducing 
+one first or introducing both side-by-side – particularly since both will likely require considerable effort 
+to implement. 
+While integrating directly with existing workflows will likely require the least amount of training and 
+process change, it is also important not to automate inefficient processes. Introducing technology 
+is a chance to introduce process improvement, as long as appropriate time and support is available 
+to support these process and technology improvements. In addition, we recommend ICT4SC project 
+managers cultivate an awareness of how the introduction of new technology often results in the 
+disruption of work for end-users.  Implementers should carefully consider if the technology adds 
+additional work for users and, if so, communicate the benefits clearly to the user.  
+DASHBOARDS ARE NOT ENOUGH
+Many projects are built around the assumption that increasing data accessibility will naturally lead to 
+end-users reviewing and acting upon the data. We have found that even a visually-engaging dashboard 
+with actionable data does not sufficiently guarantee use of the data. While well-designed interfaces 
+are important, an evaluation of our collective experience demonstrates that central dashboards are 
+not enough to prompt end-users to view and use data in their work.  
+Data analysis, although critically important, is often the last item field staff have time for when they are 
+solving ongoing crises and reacting to pressing priorities. Instead of depending on users viewing the 
+data on their own – regardless of how nicely displayed data are – we have found that SMS or e-mail 
+alerts are an important ’push’ mechanism that can effectively engage end-users with small subsets 
+of actionable data. For example, one of the features that ILSGateway users appreciated was that SMS 
+message served to provide information to district managers on facilities that had not yet reported. 
+This was actionable data and something that the district managers could easily follow-up on without 
+having to visit the website. In adding an SMS alert feature, it is important though not to send too many 
+alerts as an overwhelming amount of SMS alerts may desensitize users. This was initially the case for 
+the Malawi cStock project, in which district alerts were originally sent each time a health surveillance 
+assistant encountered a problem. The numbers of alerts sent to the districts were eventually reduced 
+to two messages a week by aggregating multiple troubleshooting instances into just a few weekly 
+emails.
+In many cases, particularly for high-level administrators, reports also need to be directly emailed to 
+key stakeholders or printed and brought to users in hard copy. Both ILSGateway and vrMIS has taken 
+this approach, emailing the monthly data to key stakeholders who would find the data valuable but 
+do not often take the time to access the dashboard online. Building in feedback mechanisms into 
+the web-based interface, can also serve as effective prompts for managers to log in. For example, 
+cStock’s group messaging feature, which fosters free-form communication, enabled central managers 
+to send congratulatory messages to districts with high reporting rates and successfully triggered more 
+frequent visits to the dashboard by district-level personnel. 
+Even with SMS and email alerts and reports built into the system, none of this is a replacement for 
+effectively engaging and integrating with the human processes around supervision and feedback. 
+Sufficient training must be given to new technologies and supervision must be conducted to ensure 
+adoption, feedback, and evolution of the systems. Collecting feedback after the system has been 
+implemented is also particularly important because it incorporates users’ suggestions following their 
+first-hand experience with the new interface. Finally, efficient human processes and practices are 
+necessary to realize the full benefit of these solutions.     
+Lesson Learned 
+SMS and email alerts can be an effective way to ‘push’ data to users who might not be used to using such 
+systems or might be more attuned to a reactive model of addressing supply chain failures, rather than 
+preventing them. However, none of these electronic tools are a replacement for human monitoring, 
+encouragement, and feedback around technology adoption and the integration of the usage of such 
+systems into human workflows.
+IDENTIFYING THE END-USER
+This report has so far addressed several assumptions on program design and technology design that 
+generally hold long-term implications for supporting open-source ICTs for logistics projects in low-
+resource settings. A related question that needs to be considered carefully prior to implementation 
+and continuously through the training phase, is deceptively straightforward:  “Who is the end-
+user?” Selecting the appropriate end-user for a logistics technology carries benefits, challenges and 
+implications. 
+Logistics and supply chain affect all actors of a health system, from community members to community 
+health workers, facility staff, supervisors, administrators, and government officials. Deciding whom to 
+target in this hierarchy is usually determined by looking at where these data are created and who 
+creates them. In most cases this is the health worker at the service delivery point.  One factor that is 
+often overlooked is the time and effort it takes to train the clinical health worker or even community 
+health worker at the service delivery point as the end-user of a technology solution. The training, 
+support, and maintenance of a system increase, as the user base grows larger.  Thus, selecting a large 
+group of clinical health workers to report data may or may not be the best use of time.  Although 
+there are several advocates who believe data needs to come from the person who created that data, 
+the trade-offs of acquiring data sets from this level and the impact on other aspects of health service 
+delivery should be weighed. 
+In Uganda, the UReport system, which is a supplementary service to mTrac, designates community 
+members as the end-users. Community members are asked to provide validation of facility-reported 
+data on service and stock availability. This perspective is vitally important, since health services are 
+ultimately responsible to the community and it is this project’s mandate to raise the voice of the 
+12
+community and accountability towards them. At the same time, low levels of education, lack of 
+resources, and lack of dedicated time to use the system require that surveys be short and simple: 
+surveys are typically limited to a single multiple-choice question per reporting period.
+cStock targets community health workers at the farthest reaches of the health system. Stock level 
+reporting and visibility here is typically a greater problem than at other levels of the health system, so 
+the promise of mobile technology to improve visibility is particularly appealing. These CHWs maintain 
+their own stock and report on it. The challenge with this approach lies with the steep learning curve 
+sophisticated mobile technology represents for many low-end-users and the large number of end-
+users that need to be supported.  The costs associated with training, retraining and ongoing support 
+necessary to troubleshoot issues with a large group of low-end users often represents significant 
+portion of the initiative’s budget. 
+One alternative approach to minimize training and increase data quality and reporting is to target 
+a small number of focal people who are responsible for data collection. These focal people might 
+be responsible for supervising or surveying sets of facilities or CHWs and can collect data as part of 
+their routine duties. Both vrMIS and the ODKScan implementation in Mozambique have taken this 
+approach, as VillageReach’s experience has been that centralizing data collection responsibility into a 
+smaller group of trained personnel can greatly improve data quality, decrease costs associated with 
+training, and still provide the necessary results in terms of increasing timely access to data or making 
+data more visible at all levels of the system. Training can be accomplished very quickly and support 
+streamlined with a small set of dedicated users. More sophisticated tools can be used when working 
+with a smaller user base, while still keeping costs down. This approach can be particularly effective 
+if such a supervisory or supportive role exists and can be leveraged within the pre-existing logistics 
+workflow. One drawback is that it places an intermediary layer between health service providers and 
+logistics management, a layer that can reduce data quality or cause delays in the event that that focal 
+person is unavailable or poorly trained. The opportunity for failure - or success - is concentrated in that 
+critical focal person. 
+Lesson Learned 
+There are many successful projects that have taken different approaches to identifying the end-user. 
+The successes of various case studies validate that both approaches can be valuable and ought to be 
+considered based on project needs. Given the unique aspects of each project, we foremost recommend 
+that implementers identify all the potential users within a system and consider the tradeoffs in regards 
+to the quality of data, ongoing training, support requirement and data collections issues that come 
+along with selecting a high or low-level personnel as the target end-user.
+© JSI, Mike Frost  2004, Mozambique
+TRAINING AND SUPPORT
+Training and Support  
+PLANNING TRAINING
+Determining who to train, how to train them, 
+and what to cover in the training is critical to 
+implementation.  Many ICT4SC projects start 
+with a single training plan and then quickly 
+learn that a diversified approach is needed.  In 
+the Early Warning System (EWS) in Ghana, the 
+trainings initially focused almost exclusively 
+on how to use the SMS system, with a short 
+refresher on the logistics process within the 
+Ghana Health Service (GHS) at the outset 
+of training. It quickly became evident that 
+very few attendees had received previous 
+logistics training and many seemed surprised 
+that logistics was within their realm of 
+responsibilities due to a high turnover rate among health staff. In subsequent trainings, the agenda 
+was revised to focus more heavily on revisiting and reinforcing regular logistics practice; this occurred 
+all before the SMS component was added. This approach resulted in much better assessments by 
+participants of the workshops and improved practice and retention beyond training. 
+Similarly, a targeted training program was developed on the ILSGateway SMS system geared towards 
+logistics staff and supervisors in a compressed timeframe During the initial pilot trainings, it quickly 
+became apparent that staff attending the trainings were unfamiliar with the paper logistics system.  In 
+response, JSI and the Ministry of Health and Social Welfare quickly amended the training program to 
+be more comprehensive and cover the logistics system as well as the ILSGateway system.  This was a 
+much more significant investment, but it was also more efficient to do both trainings at the same time 
+since staff would be traveling and taking time to attend.  
+Determining who should attend training is also important. The trainings for the EWS deployment in 
+Ghana initially included everyone involved in any aspect of logistics management: the family planning 
+nurse, lab technician, pharmacist, supply officer, and one or two other staff members. After the first 
+set of trainings, the number of invitees was reduced significantly since only one or two people were 
+ultimately responsible for reporting. The agenda for the training was also changed to indicate where 
+supervisors and facility in-charges would get value, and what sections only required attendance by 
+staff responsible for reporting. These changes did not have any negative impact on uptake or reporting 
+rates, and it reduced training costs significantly.  
+For any program at scale, training is likely to happen over a long period of time and will have to be 
+repeated.  Determining who can be responsible for ongoing training and how to fit this into currently 
+established roles is critical to rolling programs at scale.  Ongoing support is also needed, so the closer 
+trainers are to the users, the more they can help with additional refreshers or ongoing training after 
+14
+Training Session © Dimagi  2007,  Zambia
+initial deployment. For ILSGateway, which will eventually serve all of Tanzania’s 5,500 facilities, training 
+all health facilities will happen over more than a year.  A regional training-of-trainers (ToT) model was 
+designed to reach this large number of users over time. 
+In addition, finding facilitators with the correct level of technical skills to support users can also be a 
+challenge. In Ghana, trainings were initially run by a combination of GHS and program staff. Afterwards, 
+a training-of-trainers was organized to train administrators at various levels. Those trainers would 
+then be expected to assist and eventually lead the facilitation of future trainings. In practice, however, 
+administrators were never responsible for submitting text messages themselves, and so felt poorly 
+equipped to be teaching others on how to do such a thing. Eventually, the ToTs were discontinued, and 
+the the local District Health Information Officer (DHIO) — who had already been extensively trained as 
+technical support staff for the system and who had gained much experience helping facility users to 
+submit stock reports successfully — became responsible for facilitating training. 
+Lesson Learned 
+Programs must determine the overall logistics knowledge of those being trained and plan trainings 
+accordingly.  Short refresher trainings should follow up the initial training after a few months in order 
+to address the many questions that arrive in practice. Involving all the stakeholders in training for the 
+sake of inclusion has its drawbacks. Not only does a large training session carry an additional expense, 
+it can be inefficient for providing the key users with the training they need.  In our experience, it has 
+been sufficient to focus the majority of the training on the target users as well as a small number of 
+backup users in case the target user is unavailable. A subset of the training should be set aside to orient 
+managers and other relevant stakeholders, but this can be short and directed.
+The ToT model has demonstrated a lot of success and has been widely utilized in logistics program 
+initiatives. However, one thing that a ToT model cannot provide is the kind of comfort and expertise 
+gained by users responsible for using and supporting a complex system for several months. While it is 
+still important to engage with local authorities and trainers when conducting trainings, a vital resource 
+that should also be leveraged are the “power users” from the pilot or previous deployments. 
+SUPPORTING CONTINUOUS TRAINING
+The discussion with training has so far focused on ‘classroom’ training. Too often, conversations on 
+training only focus on initial or refresher classroom training and regular continuous training is 
+overlooked. There are several reasons why continuous training should be planned and supported as 
+an integral part of program operations.
+First, training interspersed during regular work phases and located at the work environment addresses 
+the common knowledge attrition that results due to the high turnover rates of personnel in low-
+resource settings. By holding an initial training and then following up with monthly support meetings, 
+the vrMIS deployment in Mozambique was able to identify and train new workers and refresh end-
+users’ skills on complex features. They were also able to demonstrate and support the system in real-
+world use cases, and address complex questions that arise when a system is actually in use. Finally, 
+this minimized the need for dedicated training facilities as well as the burden of time and travel faced 
+by attendees. The main drawback of such a hands-on approach to continuous training is that it can 
+only be realistically supported with a small number of system users. In Malawi, central managers have 
+dealt with time constraints by using cStock’s group messaging feature to reinforce the need to confirm 
+receipts and other kinds of basic training feedback within an electronic forum. 
+Lesson Learned
+Refresher continuous training is an effective method to identify and train new workers, demonstrate 
+the system, identify real-world challenges and solutions, and incorporate staff members whose skills 
+are crucial for successful implementation of new systems. While the effort required in supporting 
+continuous training necessarily limits how widely it can be applied, such an approach is viable and 
+effective for a small number of users. 
+EFFECTIVELY LEVERAGING EXISTING SUPPORT STRUCTURES AND EXPERTISE 
+Identifying the appropriate people to do ongoing user support, especially for logistics applications 
+with a large number of end-users, is one of the most important tasks for a successful project.  Since 
+all the logistics projects here are implemented in partnership with the public health sector and the 
+ministries of health, all projects had to find existing resources within the public sector that can support 
+users as the projects grew and scaled. The Early Warning System in Ghana leverages the local DHIO in 
+each district deployment to provide technical support as well as handle user and facility registration 
+and deletion.  DHIOs played a crucial role in the success of the pilot. 
+In designing a health-strengthening system, there are many actors that can play a supportive role. 
+Often NGO staff play a critical role, particularly in the initial setup, since they can help provide additional 
+capacity during the early stages of a new initiative. Training multiple users at one health center or 
+hospital can also be helpful as these users are then able to reinforce each other’s performance as well 
+as provide continuous training for new hires. Identifying and training district-level supervisors and/or 
+district administrators to play a support role is another option, and both provide a level of authority 
+that can help support technology adoption. Finally, it may be useful to identify any technical staff 
+or technology vendors supporting the district, hospital, or health center because they may have the 
+capacity and knowledge to be effective and informed support personnel.
+In Ghana, the DHIOs were an effective resource for multiple reasons. They were a focal person within a 
+group of facilities who could be relied on to have access to each of the facilities and facility information 
+when necessary. Their job function required a degree of proficiency with technology and computers 
+that proved invaluable. Their familiarity with laptops and access to Internet connectivity allowed them 
+to manage registration quickly and answer questions with authority. Finally, as members of the district 
+administration, they were an authority figure within the facilities, so could play a role reinforcing not 
+only the technical function of the system but also incentives for health workers to participate. 
+Lessons Learned
+Many factors can contribute towards a successful support model for new technology deployments. 
+Ideally, support personnel should be figures of authority, familiar with the user community, accessible, 
+and have some proficiency in ICT tools. We recognize this combination can be difficult to find, but 
+more ministries are adding a role similar to the Ghana DHIO to support health information systems 
+projects at the regional and district levels and may be leveraged to support ICT4SC projects as well. 
+16
+SCALE-UP
+Scale-Up  
+One common misconception among both technical and non-technical staff alike is that building 
+new technology is a time-bound activity. While this may be true for a tool that is used indefinitely in 
+exactly the same way, often software will need to grow and evolve alongside programs, practice, and 
+deployment size.  
+PROGRAMS AND PRACTICE
+In many of the case studies highlighted in this report, the projects started by tracking data on a 
+small number of commodities manageable through SMS. Invariably, as the pilots demonstrated their 
+feasibility and success, ministries of health or partners requested that the systems begin tracking 
+additional commodities.  In some cases, these requested including tracking products at additional levels 
+of the health system or adding new donor-specific reporting requirements, which were not included 
+in the original technology platform. In Malawi, some stakeholders expressed an interest in expanding 
+the system designed specifically for logistics monitoring to also track service delivery indicators, a task 
+which would have significantly raised the scope and complexity of the software design and program 
+implementation. Similarly, as the paper-based logistics system for reporting, delivery, or inventory 
+management evolves, the requirements for the mobile component may have to shift and change.  In 
+Mozambique, rapid diagnostic test kits were added to the logistics system that vrMIS supported.  This 
+meant data needed to be collected from the lab at each facility, and not just from the immunization 
+program.  This changed the specifications for the technology, but also changed the process by which 
+data was collected and the people who needed to be involved.  These types of changes can have 
+serious implications on the requirements for the mobile component and the implementation of the 
+technology.  
+Lesson Learned 
+Project directors can anticipate and plan for program integration and allow for flexibility in order to 
+facilitate a smooth transition from pilot phase to scale-up. This consideration includes defining the 
+potential scope of a successful system: what it may grow to cover, and what it should leave to other 
+systems.  Program managers also need to work with stakeholders to be clear about what is feasible to 
+do within an existing system.  Very successful systems with a narrow scope have become less useful 
+and overburdened as more functionality and features are added so the tradeoffs need to be well 
+understood by everyone involved in implementation. 
+ITERATING QUICKLY VS BUILDING FOR SCALE
+A challenge many ICT4SC-related projects face is the tension between building technology that 
+is deployed, tested and modified quickly versus a technology that can handle a high number of 
+transactions as the system goes to scale. The underlying reason for this tension is that the two goals 
+often – although not always – oppose one another.  Developing something quickly for field testing 
+and piloting often leads to a lightweight solution, whereas software built for scale requires investing 
+in a strong backbone which can effectively queue, schedule, and batch operations. These contrasting 
+approaches lead to different decisions throughout the design, development, and implementation 
+phases of a project. 
+Failure to scale can be discovered quickly when a system fails catastrophically, or it can manifest itself 
+as a slow and gradual decrease in performance, which may initially be easy to ignore. In the ILSGateway 
+project, initial priority was given to developing a system that could be pilot-tested quickly with a 
+relatively simple set of use cases.  Targeted reports, which would draw information from the data, were 
+added over time. This approach was effective for demonstrating the potential impact of the system 
+during a pilot phase with a limited number of districts and providing immediate value to the MOH. 
+However, as the number of users and the amount of data being processed scaled, many of the web 
+reports became steadily slower, until the point where some reports sometimes took several minutes 
+to load. When the initial success led to a decision to scale the system to all 5,500 health facilities in 
+Tanzania, it became necessary to invest resources in core infrastructure performance improvements. 
+The software team moved to data warehousing to reduce the number of calculations needed and 
+used distributed technologies for storage and processing to share the calculation load among multiple 
+servers.  A core architecture build-out was required to reduce response times to an acceptable level, 
+and the associated effort was a significant portion of the overall software development work. This level 
+of effort, for a system that was already considered ‘working’, came as a surprise to stakeholders, causing 
+budget issues and delays that could have been better anticipated and communicated.
+Lesson Learned 
+Not anticipating scale appropriately is a critical issue that many ICT projects face.  Scale should be 
+understood during the design phase.  The trade-off between developing for scale and developing 
+lightweight applications for field-testing must be communicated to all stakeholders and funders. 
+Developing systems for scale is a difficult task, requiring serious investment in time, funds and resources. 
+Project managers need to recognize the necessity of this investment, and plan and communicate the 
+benefits and risks of not planning for scale upfront.  Once functionality has been tested and verified, 
+and before a system can go to scale, it needs to be capable of handling the load necessary to support 
+expansion at scale, and this built-out can raise the cost of software development by an order of 
+magnitude or more.
+18
+CASE STUDIES
+The Early Warning System
+Ghana
+Project Name: Focus Region Health Project  
+Partners: JSI Research & Training Institute, Ghana Health Services, USAID | DELIVER
+Start Date: 2009
+Feedback Session: © Dimagi 2012, Benin 
+Description:
+The Program
+In 2009, the Focus Region Health Project (FRHP), implemented by JSI Research & Training Institute Inc., 
+in collaboration with Ghana Health Services (GHS) and the USAID | DELIVER PROJECT, engaged with 
+Dimagi to design and implement the Early Warning System. The goal of this system was to improve 
+supply reporting from health facilities and detect stockouts, with the intention to help prevent 
+stockouts by enabling districts and facilities to anticipate usage patterns and plan resupply orders 
+using automated data analysis tools. 
+The Technology
+Service providers use their own mobile phones to report stock levels of tracer commodities via SMS to 
+a dedicated, toll-free short code on a weekly basis. Commodities were selected from a cross-section of 
+priority programs including family planning, malaria, and HIV/AIDS. All levels of facilities are represented, 
+from rural community outposts to urban teaching hospitals and the regional medical stores (RMS). 
+Data is then processed and made available to all relevant parties via a website which allows users to 
+view national data as well as drill down to specific regions, districts, or facilities of interest.
+Achievements
+An initial pilot was completed by FRHP with facilities from six districts between 2009 and 2010, as 
+well as an extension of the pilot that focused entirely on HIV/AIDS commodities in an additional 89 
+districts elsewhere in the country. Following the success of the pilot, FRHP and GHS are expanding full 
+coverage to an additional 6 districts, while The USAID | DELIVER PROJECT is scaling the intervention 
+across all ART sites in the country. 
+Challenges and Vision
+This system has demonstrated that accurate, real-time information on stock levels can be effectively 
+and consistently captured over time through the use of personal mobile phones and a toll-free 
+shortcode. Current challenges include engagement with the larger facilities, particularly the RMS, who 
+need to manage a large number of commodities, as well as the analysis and interpretation of the rich 
+data received in order to better inform decision-making. Looking ahead, many users have suggested 
+that the next step would be to somehow integrate this information in order to trigger or expedite the 
+formal paper-based requisition process.
+20
+CASE STUDIES
+cStock
+Malawi
+Name: Supply Chains for Community Case Management of Pneumonia and Other 
+Common Disease of Childhood Project 
+Partners: JSI Research & Training Institute, Bill & Melinda Gates Foundation, 
+Malawi Ministry of Health
+Start Date: 2009
+Mackson HSA Phone: ©VillageReach 2010,  Malawi 
+Description:
+The Program
+In Malawi, community health workers, also known as Health Surveillance Assistants (HSAs), provide 
+Community Case Management (CCM). These HSAs carry and prescribe a defined list of essential 
+medicines such as ORS, anti-malarials, antibiotics, and family planning commodities. The Improving 
+Supply Chains for Community Case Management of Pneumonia and Other Common Diseases of 
+Childhood project (SC4CCM), implemented by the JSI Research & Training Institute, Inc. (JSI R&T) 
+funded by the Bill & Melinda Gates Foundation, has worked with the Malawi Ministry of Health in 
+developing approaches to address the lack of data visibility in the health supply chain for HSAs, which 
+contributes to poor product availability in hard to reach areas. With 94% of HSAs surveyed owning a 
+mobile phone, SC4CCM has developed a mobile system to not only to improve data visibility, but also 
+to streamline the HSA requisitioning process. 
+The Technology
+The system, known as cStock, allows HSAs to use their personal phones to submit SMS with stock 
+information, allowing community level data, previously unavailable, to be visible to decision makers at 
+all levels of the system.  cStock automatically calculates the resupply needs for an individual HSA based 
+on reported stock levels and system-calculated consumption, and transmits this need via SMS to the 
+corresponding health center, enabling staff to pre-pack orders in advance of the HSA arriving. A second 
+message is sent by the health center staff who then informs the HSA when their products are ready 
+to be picked up. In addition, cStock alerts higher-level staff via SMS if supplies cannot be replenished, 
+or if an HSA remains at low levels of stock despite being resupplied. Data is also available via a web-
+based dashboard that provides timely visibility into actual stock levels held by HSAs, enabling real time 
+identification of problem areas and overall monitoring of supply chain performance by the district and 
+central level administration.
+Achievements
+To date, cStock has been deployed to over 1,500 HSAs in Malawi (representing involvement of 15 out 
+of 30 national districts), with regional reporting rates over 95%, demonstrating that regular, scheduled 
+reporting and supervision result in significantly higher reporting rates than those done in an ad-hoc 
+manner. 
+Challenges and Vision
+Current challenges include the fact that while many HSAs have phones, many do not know how to 
+send SMS, and so additional effort must be invested in training in order to learn that new skill set. 
+Currently the HSA programs are managed regionally by different organizations. Some of these 
+organizations give the HSAs a mobile phone with custom software installed to help them manage 
+their clients. Looking forward, one possibility for improving usability and data is to integrate the cStock 
+system into these mobile applications so commodities can be tracked directly against clients.
+22
+CASE STUDIES
+vrMIS
+Mozambique
+Project Name: Dedicated Logistics System (DLS) Program
+Partners: VillageReach, Mozambique Ministry of Health
+Start Date: 2002
+Vaccine Outreach: Photo courtesy of Naashon Zalk/Full Frame 2005, Mozambique  
+Description:
+The Program
+Since 2002, VillageReach has worked with the Ministry of Health of Mozambique to implement the 
+Dedicated Logistics System (DLS), a vendor managed inventory, level-skipping model for vaccine 
+distribution with the goal of improving access to vaccination services by addressing supply chain 
+challenges. With a successful pilot showing DPT-Hep B3 vaccine coverage rates increased from 68.9% 
+to 95.4% at a cost of 17% more cost-effective per child vaccinated and 21% less expensive per vaccine 
+dose delivered, the system has progressed from an NGO project in one province to a government-
+led implementation with technical support from VillageReach in 4 provinces with 440 health centers 
+reached monthly. An automated data collection and analysis tool, called vrMIS or the DLS Information 
+System, is a critical component in the successful implementation and outcomes of the Dedicated 
+Logistics System.
+The Technology
+An Internet /mobile-enabled, open source eLMIS application called vrMIS is used to store and report 
+on data collected during vaccine distributions. Because 80% of the health centers do not have 
+electricity and cell phone coverage is limited, the system moves information by taking advantage of 
+the monthly circulation of the delivery trucks from the provincial level through each health center and 
+back. Those delivering medical commodities also serve as data collectors, collecting data on stock on 
+hand, cold chain performance, consumption, and services provided. The data is then entered in an 
+offline application that is uploaded to a cloud-based server. Several reports of the data are available 
+online and offline to users anywhere in the world with login credentials. 
+Achievements
+A first version of vrMIS was implemented in 2004 and with continued interest and need, the system is 
+now in its fourth iteration with a series of technological and process innovations. The technology has 
+changed from an Access database in 2004, to an open-source, web and mobile enabled cloud-based 
+application with offline and online functionality today. In 2011, the implementation was completed in 
+four provinces reaching 440 health centers monthly. The information system enables users to track the 
+nature and location of the problem.  For example, it shows when there is a refrigerator problem and 
+the location of that refrigerator.  With the implementation of the DLS and vrMIS, key metrics such as 
+vaccine stock outs and refrigerator problems have reduced to within target levels.
+Challenges and Vision
+This system has demonstrated that accurate, real-time vaccine supply chain information extending 
+to the service delivery point can be successfully collected and used for improved outcomes. Work 
+continues to institutionalize the use of the system for decision-making, and VillageReach’s technical 
+support continues to focus on this crucial aspect. One of the learnings from the implementation was 
+that despite easy, offline access to reports was readily available to users on an on-demand basis, users 
+did not log in to the system to access reports, but waited for reports to be sent to them with preliminary 
+analysis before examining the data. Additionally, despite extensive online functionality of the system 
+to drill down indicators and find the sources of outliers and problems, users did not take advantage of 
+the functionality. 
+VillageReach plans to implement on-site electronic data capture through an offline mode within the 
+coming year. While the current paper-based data collection is highly valued and institutionalized, 
+electronic data capture will result in reduced time spent on the data collection and entry and is 
+expected to reduce errors and lag time. While vrMIS has been released publicly as open source, another 
+major initiative in the current year is to enhance and integrate with other health commodities through 
+the OpenLMIS initiative, making the technology more widely available. Finally, work will continue to 
+ensure that the system supports and is coordinated with global work being done to define a standard 
+set of vaccine supply chain indicators and reporting.
+24
+CASE STUDIES
+ODK Scan
+Mozambique
+Project Name: Agentes Polivalentes Elementares Program
+Partners: Mozambique Ministry of Health, USAID | DELIVER Project, VillageReach
+Start Date: 2012
+Delivery Receiving: ©VillageReach 2006, Mozambique
+Description:
+The Program
+Mozambique’s Ministry of Health (MISAU) began the Agentes Polivalentes Elementares (APEs) program 
+to extend coverage of the national public health system to include underserved rural populations. APEs 
+are Mozambique’s Community Health Worker cadre. APEs have catchment areas of 500-2000 people 
+and have routine tasks including developing strong ties to their community, health promotion and 
+education, family planning counseling, and prevention and treatment of common ailments . Currently, 
+APEs are given a kit of standard quantities of predetermined products for distribution on a regular 
+basis, with consumption tallies collected on paper forms. Each APE receives two kits each month, in 
+addition to rapid diagnostic tests for malaria.
+The USAID | DELIVER Project and VillageReach jointly created a study using ODK Scan, a mobile phone 
+application that digitizes paper data, to inform actual consumption and use the data to improve the 
+availability of commodities.
+The Technology
+Each APE tallies the distribution of commodities on a paper form, which is collected on a monthly basis 
+by the supervisor in his or her district. The supervisor is equipped with an Android phone that has the 
+necessary applications for the project, ODK Scan and ODK Collect. The supervisors, who have received 
+training on ODK Scan from the local VillageReach office, scan each form with an Android phone that 
+has the ODK Scan application on it.  The phone digitizes the tallies of commodities distributed, similar 
+to a Scantron form used for standardized testing or voting.  The purpose of the scan is to improve the 
+accuracy and speed of data collection over manual tallying of forms.  The supervisor exports the form 
+to ODK Collect and completes the digital data entry for fields that are not digitized, such as text and 
+select fields. Finally, the ODK Collect form submits to ODK Aggregate, a cloud based database.
+Achievements
+The study will examine six months of consumption data to determine the quantities of each commodity 
+that is used, distributed, and received by each APE. This data will provide better information about 
+the actual inventory needs and will inform improvements to the system, including the frequency of 
+resupply, the APEs commodity needs, and the unplanned transfers that may happen between APEs in 
+the case that emergency stock is required.
+Based on preliminary findings, scanning, completing, and submitting each form takes approximately 
+ten minutes of a supervisor’s time and results in immediate data availability.
+Challenges and Vision
+The study will conclude in June 2013 and until then there is limited data on data quality. In addition, 
+there is no data on how the data is used in the decision making process. If the study results show 
+that using ODK Scan is not a significant burden on staff and provides actionable data that is used in 
+the decision making process, it can be easily scaled to additional districts, provinces, countries, and 
+programs.
+26
+CASE STUDIES
+ILS Gateway
+Tanzania
+Project Name:  ILS Gateway
+Partners: Ministry of Health and Social Welfare, USAID | DELIVER Project
+Start Date: 2008
+Stakeholder Meeting: © Dimagi 2011, Tanzania
+Description:
+The Program
+As part of a larger effort to integrate and streamline logistics management in Tanzania, the USAID | 
+DELIVER PROJECT and the Ministry of Health and Social Welfare (MOHSW) established the ILSGateway 
+in 2008 in order to expand accessibility and visibility of logistics data to inform supply chain decision 
+making through mobile technology. 
+The Technology
+ILSGateway is an open source platform, built on RapidSMS, which allows health facility personnel to 
+use personal mobile phones to send SMS to a toll-free short code (“15018”) reporting data on stock 
+levels of tracer commodities. ILSGateway does not replace the paper reporting and requisition process 
+to Zonal Medical Stores, but instead provides visibility into monthly stock levels for a small set of tracer 
+commodities. In addition to tracking and reporting on end of month stock on hand of these tracer 
+commodities, ILSGateway was also designed to reinforce and monitor the Integrated Logistics System 
+(ILS) which is used to order and distribute the majority of medicines and supplies for health facilities in 
+Tanzania.  Health facility staff members using ILSGateway receive reminders to submit their quarterly 
+Report and Requisition (R&R) forms on time, report when shipments of medicines are received, report 
+on losses and adjustments that happened to tracer commodities, and report when supervision visits 
+happen allowing district, regional, and national stakeholders to track performance of the ILS.  An SMS 
+aggregator directs the messages to a web database, which analyzes the findings and makes them 
+available to users through a web portal at www.ilsgateway.com.
+Achievements
+A pilot program of the ILSGateway was initiated in November 2010 in Mtwara, Tanzania. The pilot 
+began with an initial commodity list of six reproductive health commodities products, and based on its 
+success, has since been expanded to 22 tracer commodities, identified as high priority by the MOHSW, 
+across a number of different health programs (malaria, essential medicines, and family planning).  Pilot 
+evaluation results showed the ILSGateway was increased the number of health facilities submitting 
+their quarterly reports and orders on-time, and has also increased the attention paid to supply chain 
+reporting by both health facility staff and district staff. The ILSGateway is currently being expanded 
+nationally, and is already in use in more than 2,300 facilities across the country. 
+Challenges and Vision
+ILSGateway relies on health facility staff being trained to use the system with their own mobile phones. 
+Significant workforce turnover at the health facility level has made training challenging. However, 
+district and regional staff have been trained to provide training and support to the new staff at health 
+facilities in their districts and regions.  The initiative also originally tried to digitize the paper R&R forms 
+at the district level by using scanners and Google Docs to transfer the electronic file to the Zonal 
+Medical Stores involved in the pilot. Due to limited connectivity at the districts, this technology was 
+not successful. Looking ahead, Tanzania is planning to integrate the ILSGateway with a national open-
+source LMIS system in order to minimize duplication, reduce errors, and improve data quality.
+28
+CASE STUDIES
+mTrac
+Uganda 
+Project Name: Focus Region Health Project  
+Partners: UNICEF Uganda, Ministry of Health
+Start Date: 2012
+HSA with Bicycle:  ©VillageReach 2010, Malawi
+Description:
+The Program
+mTrac is an SMS-based disease surveillance and medicine tracking system that provides real-time 
+data for response while monitoring health service delivery performance. The initiative also integrates 
+governance and accountability through citizen feedback, an anonymous hotline and public dialogue 
+sessions. UNICEF Uganda and the Ministry of Health are currently rolling this out nationwide (2012-
+2014). mTrac is supplemented by UReport, which uses free SMS to gather opinions from young people 
+in remote areas. As of July 2012, over 130,000 young Ugandans had signed up to receive weekly polls 
+to their phones on community services and youth issues. In return, subscribers receive results and 
+useful facts for action. The Government of Uganda also publishes results in newspapers, radio and 
+television.
+The Technology
+mTrac is based on RapidSMS, a free and open source framework for dynamic data collection, logistics 
+coordination and communication, leveraging basic short message service (SMS) mobile phone 
+technology. The bulk of mTrac was built by a small team of Ugandan software programmers, under the 
+supervision of UNICEF, over the course of approximately six months. Additionally, Dimagi contributed 
+work over a few months on the logistics and alerts modules. UReport was developed in a very similar 
+manner and UNICEF recently launched UReport in Burundi and Zambia.
+Achievements
+Since May 2012, mTrac has seen a steady increase in health facility and village health teams (VHT) 
+reporting rates on almost a weekly basis. The reporting rates vary significantly among different 
+districts, and nationally are at around 50% for both health facilities and VHTs. Approximately 70% of 
+Districts are reporting at rates higher than the national average for the paper-based HMIS system, yet 
+a small but significant number of Districts suffer from very low reporting rates. Support supervision 
+visits have identified a number of factors potentially causing this, including weak District management 
+and lack of general motivation. The mTrac team is now working through multiple channels to increase 
+reporting rates, including providing District level updates to chief administrative officers and local 
+government, and involving development partners working with these DHTs.
+ACT medicine data has shown a general decrease in under-stocked and stocked-out health facilities. 
+In July 2012, 25.2% of reporting facilities indicated a total stock-out of ACTs. By September, stock-
+outs had decreased to 14.2%. It is important to note that this should not be attributed solely (or even 
+primarily) to mTrac, as there are a number of other more significant factors that have contributed to 
+this decrease. It is even more difficult to explicitly quantify to what extent mTrac has contributed. 
+However, this data is being used by NMS and the MOH at the national level for better planning, and 
+many DHTs have described how mTrac has enabled them to better shift supplies from overstocked to 
+under-stocked facilities. VHT stock-outs have been even less severe, with an average of 2.29% per week 
+suffering from an absence of medicine.
+Challenges and Vision
+An absence of a national eHealth policy has meant that there is currently no guidance on issues such 
+as patient privacy, user authentication, hosting and integration. This has caused significant challenges 
+in developing and deploying new eHealth initiatives, and has specifically slowed progress around 
+solutions that address patient level needs (as opposed to aggregate data that mTrac deals with). 
+Additionally, it is one of the primary reasons for low levels of private sector investment in eHealth 
+in Uganda. Additionally, technical capacity of the MOH to fully take over management of mTrac has 
+been slower than anticipated. This includes shifting the mTrac server to the MOH data warehouse 
+(which suffers from inconsistent power and shoddy back-ups) and transferring support maintenance 
+contracts to local software companies that the MOH can directly hire.
+SMS messages in Uganda that run through third party aggregators generally get reprioritized against 
+person-to-person messages and advertisements run by the telecoms themselves. This can lead to long 
+message queues and delays of up to a day. This has become a major issue as systems like mTrac scale 
+nationally and become relied on during emergencies. UNICEF is currently lobbying bodies like the 
+Uganda Communications Commission to provide a special classification for humanitarian services like 
+these, and ensure they get priority access.
+Interoperability is a critical component to ensuring long-term ownership by the MOH. Our first test was 
+exchanging data with DHIS2. While there were minimal difficulties developing appropriate API’s and 
+sharing data, matching health facilities proved a significant challenge. While both mTrac and DHIS2 
+started with the same dataset, during the past couple of years many changes were made by various 
+stakeholders to the health facility databases, including recording upgrades of facilities, updating GPS 
+coordinates, correcting spelling mistakes and changing ownership. This led to a divergence of almost 
+30
+50% of the total dataset of 5000 health facilities, and identified a need to urgently work with the MOH 
+to develop a national facility registry web service to serve as the “single version of truth” between 
+all eHealth applications. We are currently working with a number of stakeholders to develop this, 
+including HISP and ThoughtWorks, using the FRED API standard.
+Appendix A: Technology Overview  
+vrMIS: vrMIS is an HTML5 application developed to manage distribution of vaccines from the provincial 
+level to the service delivery point in Mozambique.  vrMIS is available in both offline and online versions, 
+making it well suited for low-resource environments. vrMIS is free and open-source, released under the 
+Eclipse Public License. 
+ 
+CommTrack is a lightweight logistic-system strengthening platform that interfaces with any mobile 
+phone through simple text messaging (SMS).  CommTrack is an open source solution and has been 
+has been designed through real-world projects in resource-poor settings where organizations have 
+adopted it to work with their various electronic and paper-based logistics systems managing their 
+global health projects.  It enables rapid communication between supervisors and their personnel in the 
+field and eliminates weeks and months of delays in logistics management that are common to purely 
+paper-based systems.  Called “cStock” in Malawi, the architecture includes a cloud-based server and 
+website that allows for real-time monitoring of data and automatic generation of reports, reminders 
+and alerts. By virtue of its design on open standard tools, it can inexpensively supplement existing 
+paper or electronic logistics systems, but is not designed to replace them.  
+The CommTrack Module is currently being used in Tanzania (where it is called “ILSGateway”), Ghana 
+(where it is called “Early Warning System”), Malawi (where it is called “cStock”), and Uganda (as part of a 
+system called “mTrac”). The Ministry of Health in Tanzania, Malawi, and Ghana are considering the use 
+of this technology at national scale.  
+MOTECH Suite is a set of Open Source technology components from a consortium of partners who 
+have recognized that their complimentary software efforts can address the core needs of mHealth. 
+MOTECH Suite is a software platform from Grameen Foundation, Dimagi, InSTEDD and other partners 
+that harnesses the ubiquity of mobile phones to deliver and receive information from patients and 
+caregivers. By building on top of MOTECH Suite, NGOs and other health system implementers can more 
+easily deliver solutions with lead to positive health outcomes. MOTECH Suite functionality includes the 
+ability to:
+	 •		Communicate	information	to	patients	via	voice	or	SMS
+	 •		Customize	messages	based	on	a	schedule	of	care	prescribed	for	the	patient—appointments,		
+    pill reminders, or vaccinations
+	 •		Collect	data	from	patients	or	caregivers	on	a	mobile	application
+	 •		Receive	reports	of	services	delivered	by	caregivers
+	 •		Alert	caregivers	to	the	status	of	their	patients
+	 •		Coordinate	messaging	between	different	parts	of	the	healthcare	ecosystem
+ODK Scan:  ODK Scan is a mobile smartphone application developed by the University of Washington’s 
+Computer Science & Engineering Department in partnership with VillageReach. ODK Scan uses 
+computer vision to capture certain data types (checkboxes and bubble tallies) from paper forms and 
+automatically converts it to digital data. It has the power to transform paper-based data into a scalable 
+32
+digital system that significantly lowers time and cost for data capture, produces more reliable data from 
+the last mile, and provides quick access to data to enable critical decision making by stakeholders at 
+all levels in healthcare delivery. All of the data processing and digitization is completed on the phone, 
+thereby reducing the need for Internet connectivity or cellular connections at the time of data capture. 
+The use of computer vision algorithms to process the data reduces the amount of manual data entry 
+necessary.
+As part of the Open Data Kit (ODK) suite of tools, it is integrated with other tools, including ODK Collect 
+and Aggregate, allowing users to complete the digitization of all data manually with Collect and submit 
+to a cloud based database with Aggregate, making the complete digitized data immediately available 
+and actionable.
+OpenLMIS: OpenLMIS is a highly scalable, enterprise-level logistics management information system 
+designed to support logistics operations as commonly handled in a broad range of developing countries, 
+encompassing requisitions, orders, shipments, receipts, rationing and validation, backorders, product 
+substitutions, inter-facility transfers, forecasting, and integration with central warehouse inventory 
+systems. OpenLMIS is currently working in collaboration with two eLMIS projects in Africa, and expects 
+these countries to be the initial deployments of OpenLMIS in 2013.
+Dimagi, Inc.
+585 Massachusetts Ave
+Suite 3
+Cambridge, MA 02139
+t +1 617.649.2214
+f +1 617.274.8393
+Dimagi India
+D - 1/28 Vasant Vihar
+New Delhi 110057
+VillageReach +91 1146704670
+2900 Eastlake Ave E, Suite 230
+Seattle, WA 98102 © 2013 Dimagi, Inc.
+(206) 512-1530 or (866) 203-3175 All Rights Reserved. Dimagi, Inc. 
+www.villagereach.org is a registered trademark in the 
+info@villagereach.org United States.

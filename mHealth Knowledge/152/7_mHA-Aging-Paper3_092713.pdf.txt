@@ -1,0 +1,716 @@
+White Paper Series on mHealth and Aging
+CREDIT: UN/ ISSAC
+mHEALTH SOLUTIONS FOR 
+IMPROVING MENTAL HEALTH AND 
+ILLNESSES IN THE AGING PROCESS
+ADA KWAN
+mHealth Alliance, UN Foundation
+October 2013
+CREDIT: WIRING AFRICA
+ACKNOWLEDGEMENTS
+This white paper would not have been possible without the vision and support of Pfizer, Inc. and the 
+mHealth Alliance at the United Nations Foundation. I would like to extend my appreciation to them 
+for highlighting the under-recognized health topic of mental health in the context of aging and how 
+mobile technologies can add value. Many thanks are also due to the individuals who contributed 
+their insights and experiences to this topic: Ting Shih of ClickMedix; Bethany Brown and Paul Ong 
+of HelpAge International; Jennifer Pollex of the Institute of Development Studies; Rosemary Gathara 
+and Victor Gathara of Kenya Association for the Welfare of People with Epilepsy (KAWE); Raghu 
+Kiran Appasani of the MINDS Foundation; Adam Haim, Jovier Evans, and Anne Sperling from the 
+National Institute of Mental Health at the National Institutes of Health; Isabella Aboderin of the Oxford 
+Institute of Aging; and Rhodah Mwangi and David M. Ndetei of the Africa Mental Health Foundation. 
+For their coordination, reviews and constructive feedback throughout the development of this paper, 
+I am also greatly indebted to my colleagues at the mHealth Alliance: Sharia Khoja, Avrille Hanzel, 
+Chelsea Hedquist and Chelsea Solmo.  
+Lastly, many thanks go to Chris Gray and his colleagues at Pfizer, Inc., Patty Mechael and the mHealth 
+Alliance and all the members of the Aging Working Group for their commitment to not only address 
+mental health for the world’s elderly but also investing their time and efforts in rethinking what is 
+possible with existing technologies. It is my sincere hope that this paper helps catalyze discussion 
+and collaboration for mHealth to reach its full potential in creating enabling environments for better 
+mental health. 
+Ada Kwan, mHealth Alliance, United Nations Foundation
+2
+ABSTRACT 
+THIS WHITE PAPER, WHICH HAS EVOLVED wireless technologies, even in the most remote regions 
+FROM PRIOR RESEARCH(1), IS ONE PART of the world, mean that such technologies may offer 
+OF A THREE-PART SERIES DEVOTED TO feasible solutions. Some mHealth efforts are already 
+EXPLORING THE USE OF MOBILE AND being implemented to address mental health education 
+WIRELESS TECHNOLOGIES IN HEALTH and awareness in communities, enhance mental health 
+(MHEALTH) and the opportunities for impacting and care professionals’ training and extend therapy and 
+advancing healthy aging in low- and middle-income treatment options to individuals with mental illnesses. 
+countries (LMICs). This specific paper focuses on the This paper describes mHealth interventions for mental 
+use of mHealth for mental health among older adults. health in general and, more specifically, for depression, 
+epilepsy and schizophrenia. Suggestions are then made 
+In the year 2012, 11.5% of the world population of for how to properly leverage mobile technologies so 
+seven billion was aged 60 or older, and by 2050, this their full potential can be reached to improve mental 
+proportion is expected to grow to 22%(2). The largest health conditions among the elderly. This paper ends 
+growth will occur in LMICs, which is an encouraging with a call to action to bring together stakeholders from 
+reflection of many achievements in public health. a variety of sectors to achieve this potential.
+However, mental health disorders are increasingly 
+recognized as major contributors to the global disease 
+burden, and over the next 20 years these conditions In the year 2012, 11.5% 
+are estimated to cost US $16.1 trillion in terms of global 
+economic loss (3). Through targeted investment, much 
+more can be done to turn these costly consequences of the world population 
+into gains. Unfortunately, individuals who are affected 
+by mental illnesses often cannot overcome structural of seven billion was 
+barriers to receive care and treatment. These barriers 
+include poor awareness of their conditions, as well as aged 60 or older, and by 
+stigma and discrimination in their communities. Many 
+of these individuals go without any care at all, to say 2050, this proportion is 
+nothing of appropriate and high quality care. For the 
+elderly, who are already prone to cognitive decline as expected to grow  
+part of the natural process of aging, getting appropriate 
+care is particularly challenging. The situation is further to 22%.
+exacerbated by the human resource crisis in mental 
+health services and the lack of funding and prioritization 
+of mental health and aging in policies.
+The need for more awareness, human resources, 
+capacity building efforts, and stronger advocacy in 
+mental health and aging will take time. For the mental 
+health situation for elderly people in LMICs, immediate 
+solutions that have sustainable potential and can leverage 
+existing resources must be implemented now to mitigate 
+the significant challenges ahead. The near ubiquity 
+and increasing penetration rates of mobile phones and 
+3
+CREDIT: mHEALTH ALLIANCE/SOLMO
+INTRODUCTION 
+THE WORLD’S SOCIETIES ARE QUICKLY in the community against mental disorders, prevent 
+AGING. The proportion of elderly in the world access to services and trained professionals (8, 10). 
+population is growing three times faster than the world The situation is further exacerbated by the human 
+population itself, and by 2050, one out of four people resource crisis in mental health care delivery and the 
+will be older than 60 years of age (4, 5). An aging society lack of funding and prioritization of mental health and 
+offers many benefits, as older adults possess a wealth aging in policy. Mental health issues are particularly a 
+of knowledge and experience that can be an invaluable growing concern in LMICs, where most of the aging 
+asset to economic development. population growth is expected to occur, and existing 
+health systems and caregiver support are not prepared 
+However, as people age, they are prone to experience to respond properly to either of these growing issues (3). 
+physical and cognitive impairments during the natural If strategic preparation and action is not taken now, the 
+process of growing older, and getting appropriate care growing disease burden for mental disorders among an 
+can become challenging. Older adults are also more expanding aging population will be costly to the elderly, 
+vulnerable to social isolation, loss of autonomy, loss their families and governments (3). 
+of privacy, economic barriers and depression, which 
+has been linked to further disability and is associated Another global trend could be part of the urgently 
+with loneliness and poverty (2, 6). In countries around needed solution. With the number of mobile phone 
+the world, individuals with poor mental health may subscriptions predicted to surpass the world population 
+not have strong support systems that can help, and of over seven billion in 2014, mobile offers a way to 
+the individuals who are affected by mental illnesses reach individuals in almost all corners of the world (11, 12). 
+often do not receive the care and treatment they By providing new and easier ways to send information 
+require to get better (7-9). Poor awareness of mental and communicate with others, mobile and wireless 
+health conditions and disorders (e.g., dementia, technologies are being used to support health 
+epilepsy, schizophrenia, and depression), combined interventions for healthier aging in the field of mental 
+with financial barriers or stigma and discrimination health. The objectives of this white paper are twofold: 
+4
+The proportion of elderly in the world 
+population is growing three times 
+faster than the world population itself, 
+and By 2050, one out of four people 
+will be older than 60 years of age (4, 5).
+(i) to understand the context and conditions related to 
+mental health and mental illnesses among older adults Mobile and wireless 
+in LMICs and (ii) to identify mHealth solutions that 
+are enabling or could enable improved mental health technologies are 
+or early detection and support for mental illnesses, as 
+well as provide psychosocial support to older adults being used to support 
+and their caregivers. The focus of this paper will be on 
+LMICs while drawing on relevant information from high- health interventions for 
+income countries (HICs).
+healthier aging in the 
+field of mental health.
+5
+BACKGROUND
+“NO HEALTH WITHOUT MENTAL HEALTH,” to 24.4% (15). However, interpreting these rates by 
+IS A PHRASE ENDORSED BY THE WORLD country cannot be done without further understanding 
+HEALTH ORGANIZATION (WHO) (13) and reflects other factors, such as family structures, prevalence of 
+the increased recognition that “mental health and well- war and other sources of stress, urbanization of the 
+being are essential components of a healthy society” (8). population and belief systems (15). Regardless, mental 
+However, the world’s societies are growing and aging, health conditions, which include schizophrenia, bipolar 
+which has stark implications on the disease burden of disorder, unipolar disorder, alcohol and substance 
+mental disorders. By 2050, the number of individuals 60 abuse and dependence, phobias and depression, are 
+years of age and older will make up nearly 22% (two particularly threatening because they are associated 
+billion individuals) of the world population – a dramatic with high levels of disability, risk factors for non-
+increase from 11% (760 million individuals) in 2011 (14). communicable diseases (NCDs) and consequently, 
+The largest growth of the elderly population will occur in premature mortality (8, 16, 17).
+LMICs, where health systems are inadequately prepared 
+to respond to mental, neurological, and substance abuse Among older people, depression and dementia are the 
+disorders (2). most common mental illnesses (13). For depression, 
+prevalence estimates in LMICs are difficult to establish 
+Mental health conditions1,  defined as “a set of medical for older adults; however, in HICs, prevalence for major 
+conditions that affect a person’s thinking, feeling, depressive episodes among older adults have been 
+mood, ability to relate to others and daily functioning” (3), estimated to be 6-10% in primary care settings and 
+affect approximately 450 million people around the 30% in inpatient medical and long-term care settings 
+world (9). When the WHO conducted the most recent (18). In these settings, incidence rates for depressive 
+World Mental Health Survey in 14 countries, prevalence episodes are estimated to be around half these values 
+rates for mental health disorders ranged from 4.3% (19). For dementia, the number of cases among older 
+1 Mental health conditions can also be referred to as mental disorders, mental illnesses or neuropsychiatric disorders (3).
+2 However, some studies on dementia prevalence in LMICs have reported “strikingly low” rates (8). 
+6
+Mental health conditions,  defined as 
+“a set of medical conditions that affect 
+a person’s thinking, feeling, mood, 
+ability to relate to others and daily 
+functioning” (3), affect approximately 
+450 million people around the world (9).
+CREDIT: mHEALTH ALLIANCE/SOLMO
+adults are expected to increase from 25 million in 2000 surrounding mental health issues not only complicate 
+to 63 million by 2030, with the majority of affected education and awareness strategies, but also make 
+elderly persons living in LMICs2 (20). In the context providing adequate care to those affected difficult. These 
+of aging, depression and dementia symptoms have factors prohibit people from understanding care exists 
+been attributed to abuse, neglect, tension, family and from seeking adequate attention for individuals 
+conflict, housing, financial insecurities and feelings with mental illnesses. Among elderly individuals, 
+of isolation, especially if older adults do not receive these conditions, combined with frailty, contribute to 
+strong care support from family members such as their poor access to health care and delayed diagnosis that 
+children (8,21). Positive solutions include moral support, complicates treatment and the ability to receive other 
+in addition to demonstrated love and affection, which types of necessary care. There is a need for improved 
+would require families to be better educated about awareness of mental health issues, stronger social 
+age-related conditions and ways to provide enhanced support and better medication management.
+support to elderly members of their families. However, 
+many older people turn to alcohol to help cope with Despite the challenges in reducing the disease burden 
+feelings of loss or loneliness in an attempt to alleviate attributed to mental disorders, the time to act is now. 
+depression (22). Without action, mental illnesses will account for 
+US$16.1 trillion in economic and productivity losses 
+Evidence from various countries has shown that public over the course of the next 20 years (3). Developing 
+knowledge is minimal in terms of how to treat mental solutions to mitigate the growing burden of mental 
+illnesses, the ability to recognize when an illness is disorders among the elderly will require investment, 
+developing, knowledge of help-seeking options and prioritization, and resources. However, not investing 
+treatments, knowledge of effective strategies for and failing to prioritize mental health will have costly 
+milder issues, and first aid skills to support individuals consequences that will be harder to reverse in the 
+with mental health issues (23). Stigma and discrimination future.
+7
+CREDIT: MOBILE DIAGNOSIS/BELLINA
+SOLUTIONS: mHealth for Mental Health and Illnesses in Aging
+MITIGATING THE CHALLENGES AHEAD of health, other target populations, and from HICs, 
+IN MENTAL HEALTH FOR OLDER ADULTS where relevant.
+WILL REQUIRE STRATEGIC INVESTMENT 
+IN: generating awareness for mental health issues The application of mHealth to mental health and 
+among the general population; developing capacity illnesses is a fairly new topic, but some reviews of 
+for mental health service delivery; providing training potential uses and existing efforts have been published 
+for mental health workers and shifting certain tasks (6, 25-27). These reviews describe existing mobile 
+to less skilled workers to reduce the work burden on applications designed to collect information related to 
+the low numbers who are trained3;  and implementing moods, anxiety levels, sleep patterns, and treatment 
+immediate health management and treatment compliance, among other strategies to improve mental 
+solutions. For each of these investment needs, the health. Described in Table 1, these strategies are listed 
+near ubiquity of mobile phone subscriptions and within a framework adapted from approaches identified 
+increasing mobile network penetration rates around by HelpAge International and public health priorities in 
+the world offer exciting opportunities to leverage mental health identified by WHO4  (8, 22).
+existing resources while having strong potential for 
+scale-up. This section will detail the uses of mobile 
+and wireless technologies for mental health among 
+older adults in LMICs. However, the implementation 
+of mobile applications for mental health with a specific 
+focus on aging or older adult populations is fairly 
+new and seldom discussed in the existing literature. 
+Therefore, additional examples are drawn from 
+mHealth solutions implemented for other aspects 
+3 Studies in India, Chile, Pakistan and Uganda have demonstrated that depression, anxiety and schizophrenia interventions can be successfully delivered with nonmedical mental 
+health workers (24).
+4 The approaches by HelpAge International and by WHO were combined for the purpose of this paper because of their significant overlap and their additive ability to provide a 
+8 comprehensive framework to describe relevant mHealth solutions for mental health in aging (8). 
+For the emotional, financial, and 
+instrumental support needs of 
+informal caregivers, mobile options 
+are plentiful...
+MENTAL 
+HEALTH APPROACHES RELEVANT mHEALTH STRATEGIES
+PRIORITIES
+• Promoting active aging – regular • Text messages, games or quizzes to send information  
+exercise, planning for lifestyle on better dietary habits and encouraging exercise
+changes such as retirement, 
+seeking support following • Text messages or quizzes to eliminate falsehoods 
+bereavement, pursuing a range of surrounding mental disorders and break down stigma 
+interests (22) associated with mental health and aging
+• Accessing information on the Internet or through  
+• Promoting public and media hotlines
+awareness of aging and mental 
+health issues (22) and educating the • Connecting other adults or caregivers in applications or 
+public (8) social networks to reduce social isolation and impacts of 
+loss or to encourage active participation in communities
+• Challenging discrimination (22)
+• Improving economic opportunities, • Providing patients or caregivers mobile health tips to 
+including opportunities for older integrate individuals with mental illnesses into society
+people (22)
+• In-between psychotherapy sessions transferred through 
+• Providing social protection, voice calls or text messaging
+including basic pensions for older • Mobile options to facilitate or connect individuals with work 
+people (22) options and job support
+• Developing mechanisms to  
+resolve conflict and reduce levels 
+of violence (22)
+9
+Security promotion Public education
+MENTAL 
+HEALTH APPROACHES RELEVANT mHEALTH STRATEGIES
+PRIORITIES
+• Giving care in the community (8) • eLearning and mobile training options for community-based 
+and developing community-based health workers to be aware of or be able to spot signs of 
+outreach counseling services for mental illnesses in households with elderly people
+older people (22)
+• Point-of-care tools or protocols accessible on mobile 
+• Developing human resources phones for community-based health workers
+(8) and training health workers, • Person tracking options with mobile and GPS
+community workers and health 
+facility staff in residential settings • Mobile communication among the elderly, family members 
+to diagnose and treat mental  and healthcare professionals
+health problems (22)
+• Remote counseling support or automated reminders or self-
+• Establishing multi-disciplinary managing exercises for coping strategies learned in therapy
+teams to promote mental health • Voice or text messages to share information on or 
+and provide effective care (22) encourage treatment adherence and good dietary habits 
+specific to improving mental health 
+• Providing practical and emotional 
+support for people with mental • Remote monitoring of moods, vital signs, and other health 
+health problems and their families data through wireless monitoring options 
+– information, support groups, 
+telephone helplines (22) • Links to hotlines, support groups or trained health 
+professionals
+• Developing services for trauma 
+counseling (22)
+• Providing treatment in primary  • Cognitive fitness technologies, including thinking  
+care (8) games, with assessment and tracking components (28)
+• Making psychotropic medications • Mobile-based supply tracking monitoring for medicine
+available (8) • Automated and wireless detection for monitoring treatment 
+adherence, such as mHealth solutions that can monitor the 
+• Establishing national policies frequency of medicine intake through  
+and legislation and involving pill dispenser detectors (29)
+communities, families and 
+consumers (8) • Mobile accessibility to social networks or other groups 
+that can encourage community participation or link to 
+• Linking with other sectors (8) and peer support (e.g., although there is no specific focus on 
+other community agents (e.g.,  older adults, the South African Depression and Anxiety 
+faith and traditional healers) Group holds Facebook online chats where individuals 
+can converse with experts about certain topics related to 
+• Supporting more research (8) mental health) 
+(30).
+ 
+TABLE 1. Adapted from HelpAge International and from WHO (8, 22), this table includes positive approaches to 
+enhance mental health in the context of aging alongside relevant mHealth opportunities.
+10
+Security promotion Community-based mental health programs
+Other examples of mHealth solutions in mental health Specific examples of mHealth projects for mental 
+to emphasize include: mobile phone games to promote health are displayed in Table 2. Only two examples 
+healthier behaviors (31); assessments developed for are described from LMICs, as mHealth is less 
+mobile phones, such as mobile assessments for alcohol commonly applied in LMIC contexts when compared 
+and substance use (32, 33); and psychosocial interventions to HICs. During the research for this paper, very few 
+developed for mobile phone delivery and aimed at mHealth efforts specifically targeting older adults 
+reducing feelings of isolation or managing severe were identified; however, many of the projects 
+mental illnesses. Strategies for these solutions involve described below provide coverage to seniors or the 
+mobile phone prompts that allow real-time monitoring elderly, in addition to adolescents and adults.
+of personalized self-management behavior change, 
+“between-session” engagement with therapists over 
+the mobile phone, and text messaging to facilitate Different elements of 
+case management (26). Normally conducted with pen 
+and paper, a psychological measurement tool called treatment are tailored for 
+ecological momentary assessment (EMA), which 
+“samples attitudes, behaviors, and experiences in real each of the clients, who 
+time in subjects’ natural environments”, can now be 
+conducted with mobile technologies (34-36). Evidence-
+based therapy sessions have also been adapted for can access the therapy 
+ease of access on mobile phone applications, and 
+even “virtual coaches” to help in relaxation techniques online in the comfort of 
+are downloadable (37). Additionally, text messages or 
+wireless monitoring options that can check on the their own home.
+moods of older adults can be designed to improve 
+wellbeing, dietary habits and physical health or to reduce 
+feelings of social isolation or loneliness, which do not 
+necessarily result in mental illness − or the onset of other 
+NCDs, since poor mental health and mental illnesses 
+are risk factors − but can take a toll on mental wellbeing 
+(38). The flexibility of mobile and wireless technologies 
+allow therapy sessions to also be conducted through 
+voice or video5 (27). Furthermore, interventions delivered 
+on the Internet, which is increasingly accessible on 
+mobile phones, are already being implemented and 
+will become more feasible over time. One example of 
+this is Ilajnafsy, an Internet site that offers scientifically 
+tested treatment of post-traumatic stress disorder in 
+Arabic (39). Different elements of treatment are tailored 
+for each of the clients, who can access the therapy 
+online in the comfort of their own home.
+5 This is further discussed in a recently published book on using technologies to improve mental health (27).
+11
+mHealth Interventions for Mental Health 
+RELATED APPLICATION OR 
+MENTAL IMPLEMENTING PROJECT DESCRIPTION
+ILLNESS ORGANIZATIONS, LOCATION
+For use by individuals with mild to moderate depression, 
+Companion-SMS is a software system that sends text 
+messages to monitor the emotional state of individuals (41). 
+This information, such as feelings of sadness or loneliness, 
+decreased energy, difficulty concentrating, and disinterest in 
+Companion-SMS project, United States
+activities, gets sent to clinicians who are able to respond. The 
+model behind this intervention is based on how genuine and 
+immediate support through the mobile phone can improve 
+the way someone feels and can encourage that individual to 
+interact with trained clinicians.
+M-Kifafa is an mHealth program that uses text messages to 
+exchange information with health workers, caregivers, and 
+epilepsy patients (42). In addition to receiving text message 
+reminders and information, caregivers and patients log and 
+transmit seizure diaries and condition updates on their phones, 
+and these data inform the supply of anti-epilepsy drugs. 
+M-Kifafa, Kenya Additionally, health workers are trained through mobile phones, 
+which also assist workers in registering patients and collecting 
+relevant patient information (43). Supported by Safaricom 
+Foundation, M-Kifafa is implemented by the Kenya Association 
+for the Welfare of People with Epilepsy (KAWE), the Ministry of 
+Public Health, Sanofi Access to Medicines Program and Shujaa 
+Solutions.
+The MATS intervention incorporates remote monitoring with 
+cognitive behavioral therapy interventions to assist individuals 
+with schizophrenia (44). The program sends a different set of 
+Mobile Assessment and Treatment of 
+four text messages daily for each of the following: medication 
+Schizophrenia (MATS), United States
+adherence, socialization or auditory hallucinations6.  An 
+evaluation of the intervention found that text messages 
+significantly improved medication adherence among 
+independently living patients, increased the number of social 
+interactions and reduced the severity of auditory hallucinations (44).
+6 The sets of text messages were developed based on cognitive behavior therapy. In their article, Granholm et al. (2011) describe the content of the messages:
+ Thoughts about medications, socializing and voices were elicited (e.g., “Do you think your voices are powerful?”), and the next messages encouraged participants to ques-
+tion unhelpful beliefs (e.g., “Maybe your voices can’t really do what they say”) and try a behavioral experiment (e.g., “Try ignoring them and see what happens”). Evidence 
+12 used to challenge unhelpful beliefs included personalized information provided by the participant. (44)\
+Schizophrenia Epilepsy Depression  (Mild to Moderate)
+RELATED APPLICATION OR 
+MENTAL IMPLEMENTING PROJECT DESCRIPTION
+ILLNESS ORGANIZATIONS, LOCATION
+A project being implemented by the MINDS Foundation injects 
+capacity for mental health services in rural India (45) The project 
+consists of three phases: (1) education and awareness to inform 
+people that mental illnesses can be supported through health 
+services; (2) free transportation for mental health patients to 
+the hospital with mental health services to eliminate prohibitive 
+barriers from transportation costs; and (3) a mobile-based data 
+MINDS Foundation, India
+collection tool for trained community health workers to check 
+on mental health patients in the community. Patients, who are 
+often adolescents or adults in these communities, are able to 
+improve their mental health because of access to consistent 
+care. The project provides these individuals with additional 
+skills training, such as job assistance, to help them reintegrate 
+into their communities.
+As a feasible option for filling a service delivery gap, SCARF, 
+a non-governmental organization (NGO) and a Collaborating 
+Centre of the WHO for Mental Health Research and Training, 
+implemented a telemedicine service in different areas in 
+India (7, 46). As an extension of community outreach, the 
+telemedicine services began when SCARF delivered free 
+Schizophrenia Research Foundation 
+psychosocial and counseling support to victims of a tsunami 
+(SCARF), India
+in 2004. The model used drew a telemedicine network across 
+its outreach programs, which included clinical examinations 
+and delivery of drugs to patients (7). The program found many 
+individuals who went “untreated or irregularly treated” due to 
+lack of access to affordable care, to NGOs and fieldworkers 
+who could identify cases or to existing mental health services (7).
+ 
+TABLE 2. mHealth interventions for mental health and specific mental illnesses.
+13
+All Mental Illnesses                         
+CREDIT: mHEALTH ALLIANCE/SOLMO
+Other examples of mHealth applications have shown who begin treatment possess little knowledge of the 
+that mobile solutions can take a central role in already treatment process and are poorly prepared to receive 
+existing evidence-based therapies. For example, one care. These factors have both been associated with 
+mHealth strategy that may be relevant for older adults poorer response to therapy (48, 50-52).
+is an adaptable game called PlayWrite (47). PlayWrite 
+consists of 10 therapeutic games that can be adapted 
+by mental health professionals, and currently it is being Other examples of 
+implemented to support adolescent mental health. In 
+the game, the player interacts with dialogue generated mHealth applications 
+by the mental health professional. Additionally, Price et 
+al. (2013) describe additional strategies: an application have shown that mobile 
+that uses geolocation information to send substance 
+abusers “warning” messages when they enter solutions can take a 
+geographical areas that have been categorized as more 
+at risk; mobile games and exercises that are sent during 
+emotional crises to patients with borderline personality central role in already 
+disorder in order to divert their emotions away from 
+intense situations; and other mHealth applications that existing evidence-based 
+give patients access to essential coping mechanisms 
+learned through recovery processes (48, 49). therapies.
+In locations where mental illnesses are highly 
+stigmatized, mHealth offers a channel to educate and 
+increase awareness within communities on the facts 
+surrounding mental illnesses. Increasing education 
+and awareness is often most relevant for caregivers 
+and mental health patients since most individuals 
+14
+Focusing on a more positive approach 
+in advance can absorb the shock 
+of sudden transitions in emergency 
+situations and reverse the vicious 
+cycle that is driven by the loss of 
+confidence and worry during old age.
+mHEALTH CONSIDERATIONS RELEVANT FOR MENTAL 
+HEALTH AND ILLNESSES IN AGING
+DESIGNING AND IMPLEMENTING mHEALTH Lack of mHealth evidence related to elderly pop-
+SOLUTIONS FOR MENTAL HEALTH AND ulations can benefit from implementers focusing 
+ILLNESSES FOR OLDER ADULTS POSES on the aging population beginning with project 
+MANY CHALLENGES and, to help advance design and continuing through implementation. 
+the field, the following considerations have been To improve mHealth evidence related to elderly 
+identified to take into account. populations, involving elderly populations in design, 
+tapping their knowledge and expertise as older adults 
+Knowledge gaps of the mental health context and engaging them to participate in decision-making 
+in LMICs can be improved by building upon will become increasingly important. Previous mHealth 
+information from existing efforts in mental projects have found formative research through semi-
+health and sharing learned lessons in the future. structured interviews and focus groups to be helpful 
+In general, much less is known about mental illnesses in informing project design, and older adults or their 
+and sustainable mental health care delivery options in perspectives should be taken into account (56, 57).
+LMICs, especially for older adults (8). To address this, 
+evidence must be generated in the proper context The vicious cycle associated with aging can 
+and given thorough examination, and lessons should become the virtuous cycle by changing perspectives. 
+be transparently shared for mental health outcomes Positive approaches to leverage when applying 
+to improve. A current debate of global mental health mHealth include: tapping the knowledge and expertise 
+criticizes the way in which global health concepts of older adults and engaging them to participate in 
+and “realities” are driven predominantly by western decision-making around the household and in their 
+scientific perspectives, which may have limited trade; providing ways for them to stay independent 
+relevance to LMICs (53-55). (if possible given the stage of illness) or adopt new 
+hobbies; and offering strategies that can help families, 
+15
+caregivers, and older adults to plan finances – all of mHealth should complement traditional mental 
+which can contribute to a more positive, virtuous health system strengthening efforts. From the 
+cycle for healthier aging. Focusing on a more positive health systems perspective, one way to strengthen 
+approach in advance can absorb the shock of sudden mental health service capacity is to develop mobile 
+transitions in emergency situations and reverse the platforms that can be accessed anywhere and 
+vicious cycle that is driven by the loss of confidence anytime mental health workers conduct their daily 
+and worry during old age. responsibilities and activities. In this case, existing 
+guides and protocols should be adapted to mobile 
+Treatment gaps and health system gaps can be technologies and, if possible, face-to-face trainings 
+filled with a good understanding of how older on how to access digitized versions should be 
+adults interact with existing health systems and integrated into existing training sessions to reduce 
+informal providers, such as faith and traditional any initial discomfort, enhance familiarity and increase 
+healers. Tor individuals who require treatment, there are confidence in using technology. Korste describes the 
+several challenges in maintaining proper compliance. strong value of digitizing WHO’s Mental Health Gap 
+First, poor or inconsistent supplies of essential Action Programme (mhGAP) Intervention Guide for 
+medicines in the health system can prevent individuals non-specialist health workers for eLearning materials, 
+from receiving the adequate treatment they need. smartphone applications, text messaging, and voice 
+Second, in some countries, there is a lack of trust in platforms (59). For child health, international guidelines 
+the formal health system’s ability to provide medicine, have been successfully implemented on mobile 
+and patients seek consultations from other community phones7.  
+agents, such as traditional healers and chemical sellers, 
+who can sometimes cause more harm because they are More mHealth does not mean better mHealth. In a 
+unregulated and can create “avoidable complications” review of mobile phone applications on the BlackBerry 
+(e.g., by advising patients to terminate their current App World site, Luxton et al. (2011) found over 200 
+treatment) (58). Third, there is often a tendency to different applications related to anxiety, depression, 
+terminate treatment regimens when individuals begin smoking, alcohol use, psychosis, diet, exercise, weight 
+feeling better. For mental health issues in aging, all of loss, nutrition, parenting, cognitive performance, 
+these challenges are further compounded by cognitive relationships, relaxation, sleep, spirituality, and general 
+decline, weak caregiving support, and the fact that wellbeing (37). But the sheer number of mobile phone 
+medications are often confusing for the elderly (24). applications does not determine the effectiveness of 
+mHealth solutions must aim to tackle these challenges mHealth use. Rather than quantity, coordination and 
+to be effective. strong partnerships will be necessary to make sure 
+that the field evolves towards higher quality and more 
+Customization on the individual level for mHealth useful solutions that can be incorporated into formal 
+will be key. Monitoring or sending treatment adherence health systems.
+interventions should be customized or tailored to 
+individuals in order to maximize effectiveness. Although 
+the elderly are perceived to be technology-averse, 
+some studies have reported how individuals from 
+older age segments of the population welcomed, and 
+in some cases were excited about, the use of mobile 
+technologies. As populations age, more individuals will 
+enter the elderly age segment, and these individuals 
+will have more exposure to technology, particularly with 
+the Internet, computers and mobile phones. 
+7  This refers to the case of e-IMCI (electronic Integrated Management of Childhood Illnesses), an electronic version of IMCI protocols first deployed in Tanzania (60).
+16
+CALL TO ACTION: WAYS FORWARD FOR BETTER 
+MENTAL HEALTH WITH mHEALTH
+EFFECTIVE mHEALTH STRATEGIES ALONE Governments – Support comprehensive policies and 
+WILL NOT OVERCOME THE CHALLENGES IN implementation of mental health services, especially 
+DELIVERING APPROPRIATE AND ACCESS- those tailored for the aging population, and consider 
+IBLE MENTAL HEALTH SERVICES TO THOSE the integration of technologies where they can be most 
+WHO NEED IT. Moving forward in the field will effective. These policies and interventions must fit well 
+require participatory action from stakeholders across within the larger health system and consider relevant 
+sectors to coordinate and work together towards modes of health service delivery (e.g., community- or 
+achieving reduced morbidity and mortality attributed facility-based), as well as work towards reducing stigma 
+to mental health and aging. For this, developers and and discrimination and improving capacity for mental 
+implementers, mental health workers, researchers, health human resources.
+governments, and donors are all called to action
+Donors and development agencies – Direct funds 
+Developers and Implementers – Identify and pursue towards proven models for mHealth that are working 
+technologies and models that have been deployed and have established results, as well as those in 
+and scaled, and build off of existing systems and mental health, and encourage integration of services 
+knowledge while looking towards collaborations and across health systems through sustainable strategies 
+partners who can add value for mental health in aging. and sustainable models of financing. Existing funding 17
+Using mobile technologies also requires training or should not be shifted to mental health, but should 
+formal informational sessions, which can remove initial incorporate mental health. Much is already known 
+discomfort from technologies among end users. about delivering community-based services; however, 
+more investment is needed to support strategies over 
+Mental health workers – Participate in the design of time. Developing incremental funding for existing 
+mobile solutions implemented by developers and local efforts and earmarking funding for building capacity and 
+NGOs and advocate for tools that can improve working supporting partnerships to scale effective projects can 
+conditions, motivation, training and services for elderly encourage sustainability and encourage the mHealth 
+people with mental illnesses. When integrating mobile field to develop higher quality, more useful solutions 
+solutions for mental health services, these solutions that can scale.
+should never replace, but instead supplement existing 
+standards and guidelines (61).
+Researchers – Conduct research on mHealth 
+implementations in mental health while being sure to 
+address the elderly and their social, financial and family 
+situations. It will also be important to share lessons 
+learned from mHealth projects because the field is 
+rapidly evolving and successful development will rely 
+on the ability to grow and adapt quickly.
+17
+CONCLUSION
+mHealth can help avert risk factors associated with mental illnesses and improve mental and cognitive 
+health. For older adults confronting mental illnesses or cognitive decline, mHealth interventions can 
+help monitor moods, promote healthier behaviors associated with better mental health, develop 
+awareness about what to expect during mental health care and treatment, and provide access to 
+interventions without traveling to trained professionals. For individuals and their caregivers who are 
+dealing with mental illnesses during old age, mobile options allow for mobile-based self-assessments, 
+check-ins between visits to facilities, reminders about certain components of therapies, and monitoring 
+of activities for acute events made available within an individuals’ environment. On the health provider 
+side, mobile technologies can offer accessible and portable reference guides and protocol support 
+for health workers, mobile-based assessment and monitoring options, follow-up for treatment with 
+patients and − put simply − a conduit to communicate with patients and their caregivers. As mobile 
+phones continue to become the preferred mode of communication among communities around the 
+world, the ubiquitous nature of mobile technologies and connectivity will drive mHealth development 
+towards continuous monitoring and more enhanced mobile-assisted strategies for mental health. 
+Now is the best time to coordinate across stakeholders to strategically realize the full potential of 
+mobile solutions to promote active aging and good mental health, as well as reduce the quickly 
+growing disease burden associated with mental disorders. 
+Although an aging population will bring a wealth of knowledge and experience to societies, health 
+systems are not prepared to respond to the progressively increasing burden of age-related health 
+conditions, such as mental disorders. This paper describes the imminent challenges in scaling up 
+mental health resources across the world in the near future as the world’s elderly population and 
+mental health disease burden grow quickly. This paper, however, also suggests potential solutions to 
+confront these challenges, taking into account existing resources. Although implementing mHealth 
+successfully will require an unprecedented shift in the way public health strategies are implemented 
+for meeting the mental health care needs for aging populations, mobile technologies can spread 
+awareness of mental health facts to reduce barriers related to stigma, improve awareness on mental 
+health issues for families and aging adults, create new ways to screen for mental illnesses and to 
+detect cognitive impairment without traditional resources or training.
+18
+The use of mHealth for 
+caregivers of older adults is 
+at an early stage; however, 
+the potential impact of 
+mHealth is being considered. 
+CREDIT: TÉLÉCOMS SANS FRONTIÈRS
+REFERENCES
+1. A. Kwan, “Using mobile technologies for healthier 8. V. Patel, A. J. Flisher, A. Cohen, in International Public 
+aging”  (mHealth Alliance and Pfizer, 2012). Health: Diseases, Programs, Systems, and Policies, 2nd 
+ed., M. H. Merson, R. E. Black, A. J. Mills, Eds. (Jones 
+2. United Nations Population Fund, HelpAge International, and Bartlett Publishers, Sudbury, MA, 2006).
+“Ageing in the Twenty-First Century: A Celebration and A 
+Challenge”  (UNFPA and HelpAge International, New York 9. R. Kohn, S. Saxena, I. Levav, B. Saraceno, The treatment 
+and London, 2012). gap in mental health care. Bulletin of the World Health 
+Organization 82,  (2004).
+3. D. Bloom et al., “Globalisation and the prevention 
+and control of non-communicable disease: the neglected 10. N. Sartorius, Stigma and mental health. The Lancet 
+chronic diseases of adults”  (World Economic Forum, 370, 810 (2007).
+Geneva, 2011).
+11. International Telecommunications Union (ITU), “ICT 
+4. World Health Organization. Director-General’s message Facts and Figures: The World in 2013”  (International 
+on World Health Day.  (2012). Accessed on: Access Year Communications Union (ITU), 2013).
+Access Date|. Available rom: URL
+12. International Telecommunications Union (ITU). ITU 
+5. M. Tsang, Connecting and caring: innovations for releases latest global technology development figures. 
+healthy ageing. Bulletin of the World Health Organization (2013). Accessed on: Access Year Access Date|. Available 
+90, 157 (2012). rom: URL
+6. I. Plaza, L. Martín, S. Martin, C. Medrano, Mobile 13. World Health Organization, “Promoting Mental 
+applications in an aging society: Status and trends. Journal Health: Concepts, Emerging Evidence, Practice”  (World 
+of Systems and Software 84, 1977 (2011). Health Organization, Geneva, 2005).
+7. R. Thara, S. John, K. Rao, Telepsychiatry in Chennai, 14. J. Beard et al., “Global Population Ageing: Peril or 
+India: The SCARF experience. Behav Sci Law 26, 315 Promise?”  (Harvard Institute of Global Health, 2012).
+(2008).
+19
+REFERENCES (continued)
+15. A. Mohit, Report of WHO’s World Mental Health 25. D. Ben-Zeev, K. E. Davis, S. Kaiser, I. Krzsos, R. E. 
+Survey. The Lancet 367, 968 (2006). Drake, Mobile Technologies Among People with Serious 
+Mental Illness: Opportunities for Future Services. Adm 
+16. W. W. Eaton et al., The Burden of Mental Disorders. Policy Ment Health 40, 340 (2013).
+Epidemiol Rev 30, 1 (2008).
+26. C. A. Depp et al., Mobile Interventions for Severe 
+17. L. G. Exalto et al., Risk score for prediction of 10 year Mental Illness: Design and Preliminary Data from Three 
+dementia risk in individuals with type 2 diabetes: a cohort Approaches. J Nerv Ment Dis 198, 715 (2010).
+study. The Lancet Diabetes & Endocrinology,  (2013).
+27. K. Myers, C. Turvey, Telemental Health: Clinical, Technical, 
+18. C. F. Reynolds et al., Early Intervention to Reduce the and Administrative Foundations for Evidence-Based 
+Global Health and Economic Burden of Major Depression Practice.  (Elsevier, Inc., Waltham, MA, 2013).
+in Older Adults. Annu Rev Public Health 33, 123 (2012).
+28. Center for Technology and Aging, “Technologies to 
+19. C. F. Reynolds, The cutting edge: prevention of Help Older Adults Maintain Independence: Advancing 
+depressive disorders. Depress Anxiety 26, 1062 (2009). Technology Adoption”  (Center for Technology and Aging, 
+20. A. Wimo, B. Winblad, H. Aguero-Torres, E. von Strauss, 2009).
+The magnitude of dementia occurrence in the world. 29. SIMpill. The SIMpill Medication Adherence Solution. 
+Alzheimer DIs Assoc Disord 17, 63 (2003). (2012). Accessed on: Access Year Access Date|. Available 
+21. V. Patel, M. Prince, Ageing and mental health in a rom: URL
+developing country: who cares? Qualitative studies from 30. The South African Depression and Anxiety Group. 
+Goa, India. Psychological Medicine 31, 29 (2001). Welcome.  (2013). Accessed on: Access Year Access 
+22. HelpAge International, Mental health: What’s the Date|. Available rom: URL
+problem? Ageways September 2004, 4 (2004). 31. M. Papastergiou, Exploring the potential of computer 
+23. A. F. Jorm, Mental health literacy: Empowering and video games for health and physical education: A 
+the community to take action for better mental health. literature review. Computers & Education 53, 603 (2009).
+American Psychologist 67, 231 (2012). 32. J. M. Bernhardt et al., Alcohol Assessment Among 
+24. V. Patel et al., Treatment and prevention of mental College Students Using Wireless Mobile Technology. 
+disorders in low-income and middle-income countries. Journal of Studies on Alcohol and Drugs 70, 771 (2009).
+The Lancet 370, 991 (2007).
+20
+33. D. H. Gustafson et al., Explicating an evidence-based, 39. Ilajnafsy. Arabic Internet-based treatment of PTSD. 
+theoretically informed, mobile technology-based system (2013). Accessed on: Access Year Access Date|. Available 
+to improve outcomes for people in recovery for alcohol rom: URL
+dependence. Substance Use & Misuse 46, 96 (2011).
+40. The Alzheimer’s Reading Room. Brainy App for 
+34. A. M. Cohn, D. Hunter-Reel, B. T. Hagman, J. Mitchell, Alzheimer’s (2011). Accessed on: Access Year Access 
+Promoting behavior change from alcohol use through Date|. Available rom: URL
+mobile technology: The future of ecological momentary 
+assessment. Alcoholism: Clinical and Experimental Research 41. E. M. La Rue, Y. Li, H. A. Karimi, A. M. Mitchell, A 
+35, 1 (2011). Description of the Development and Architecture of an 
+SMS-Based System for Dealing With Depression. Procedia 
+35. M. J. Freedman, K. M. Lester, C. McNamara, J. B. Milby, Technology 5, 670 (2012).
+J. E. Schumacher, Cell phones for ecological momentary 
+assessment with cocaine-addicted homeless patients in 42. Text to Change. M-Kifafa: Mobile technology for 
+treatment. Journal of Substance Abuse Treatment 30, 105 epilepsy.  (2012). Accessed on: Access Year Access Date|. 
+(2006). Available rom: URL
+36. B. Smith et al., Enhancing behavioral health treatment 43. Center for Health Market Innovations. M-Kifafa. 
+and crisis management through mobile ecological (2012). Accessed on: Access Year Access Date|. Available 
+momentary assessment and SMS messaging. Health rom: URL
+Informatics Journal 18, 294 (2012). 44. B.-Z. Granholm, F. Linkov, Mobile Assessment and 
+37. D. D. Luxton, R. A. McCann, N. E. Bush, M. C. Mishkind, Treatment for Schizophrenia (MATS): A Pilot Trial of An 
+G. M. Reger, mHealth for mental health: Integrating Interactive Text-Messaging Intervention for Medication 
+smartphone technology in behavioral healthcare. Adherence, Socialization, and Auditory Hallucinations. 
+Professional Psychology: Research and Practice 42, 505 Schizophrenia Bulletin 38, 414 (2012).
+(2011). 45. The MINDS Foundation. Our Method: Our 3-Phase 
+38. A. E. Kazdin, S. M. Rabbitt, Novel Models for Grassroots Program.  (2013). Accessed on: Access Year 
+Delivering Mental Health Services and Reducing the Access Date|. Available rom: URL
+Burdens of Mental Illness. Clinical Psychological Science 46. Schizophrenia Research Foundation. Tele Medicine. 
+1, 170 (2013). (2013). Accessed on: Access Year Access Date|. Available 
+rom: URL
+21
+REFERENCES (continued)
+47. D. Coyle, G. Doherty, J. Sharry, in CHI EA 2010 55. S. Fernando, Mental health services in low-income 
+Extended Abstracts on Human Factors in Computing countries: Challenges and innovations. International 
+Systems. (2010). Journal of Migration, Health & Social Care 1, 13 (2005).
+48. 48. M. Price, P. L. Anderson, Outcome expectancy as 56. P. Mechael et al., “Barriers and gaps affecting 
+a predictor of treatment response in cognitive behavioral mHealth in low and middle income countries: Policy white 
+therapy for public speaking fears with social anxiety paper”  (The Earth Institute Columbia University and the 
+disorder. Psychotherapy 49, 173 (2011). mHealth Alliance, 2010).
+49. D. Erhardt, E. Dorian, Going Mobile: A Case Vignette 57. P. Mechael, The Dodowa Health Research Center, For 
+Illustrating the Integration of Mobile Technology in the Grameen Technology Foundation, “MoTECH: mHealth 
+Psychotherapy. Independent Practitioner 33, 15 (2013). Ethnography Report”  (2009).
+50. M. Price et al., mHealth: A Mechanism to Deliver 58. A. de-Graft Aikins, P. Boynton, L. L. Atanga, 
+More Accessible, More Effective Mental Health Care. Developing effective chronic disease interventions in 
+Clinical Psychology & Psychotherapy,  (2013). Africa: insights from Ghana and Cameroon. Globalization 
+and Health 6,  (2010).
+51. P. Verhaak, E. Van de Lisdonk, J. Bor, G. Hutschemaekers, 
+GPs’ referral to mental health care during the past 25 59. R. Korste, How to convey the new World Health 
+years. The British Journal of General Practice 50, 307 Organization mental health Intervention Guide to workers 
+(2000). in the field? Intervention 10, 66 (2012).
+52. R. P. Greenberg, M. J. Constantino, N. Bruce, Are 60. B. DeRenzi, in CHI. (Florence, Italy, 2008).
+patient expectations still relevant for psychotherapy 
+process and outcome? Clinical Psychology Review 26, 61. G. M. Kramer, M. C. Mishkind, D. D. Luxton, J. H. 
+657 (2006). Shore, in Telemental Health: Clinical, Technical, and 
+Administrative Foundations for Evidence-Based Practice, 
+53. D. A. Summerfield, The exaggerated claims of the K. Myers, C. Turvey, Eds. (Elsevier Insights, Waltham, 
+mental health industry. BMJ 344, e1791 (2012). MA, 2013).
+54. D. A. Summerfield, How scientifically valid is the 
+knowledge base of global mental health? BMJ 336, 992 
+(2008).
+22
+
+

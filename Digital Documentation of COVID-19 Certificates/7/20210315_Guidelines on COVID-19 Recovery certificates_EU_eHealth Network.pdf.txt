@@ -1,0 +1,232 @@
+ 
+ 
+ 
+ 
+ 
+eHealth Network  
+ 
+ 
+Guidelines on 
+ 
+ 
+COVID-19 citizen recovery  
+interoperable certificates - 
+minimum dataset 
+ 
+ 
+Release 1 
+ 
+2021-03-15 
+ 
+ 
+eHealth Network 
+ 
+ 
+ 
+The eHealth Network is a voluntary network, set up under article 14 of Directive 2011/24/EU.  
+It provides a platform of Member States' competent authorities dealing with eHealth.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Adopted by the eHealth Network, 15 March 2021 
+The periods of infectiousness and protection mentioned in this guideline follow the ECDC 
+Guidance and might undergo changes as new scientific evidence arises.  
+2 
+ 
+eHealth Network 
+Table of Contents 
+1 Introduction ............................................................................................................... 4 
+2 Use case – COVID-19 citizen recovery ......................................................................... 4 
+2.1 Scientific unknowns ....................................................................................................... 5 
+3 Minimum dataset ...................................................................................................... 5 
+4 Further steps towards cross-country interoperability ................................................. 6 
+ 
+  
+3 
+ 
+eHealth Network 
+1 Introduction 
+To date, the results of COVID-19 testing have been the principal factor to decide on 
+implementation of measures, e.g. isolation/quarantine, cross-border movement, etc. Despite 
+efforts for a common approach on free movement across the EU/EEA, citizens are still facing 
+problems when trying to present test certificates issued by one Member States in another 
+(issues include language used or lack of trust in the authenticity of the document). To 
+facilitate free movement within EU/EEA Member States, a common certificate for COVID-19 
+testing is needed. With the rollout of the first COVID-19 vaccines on the EU market, there is 
+also a desire from some Member States to introduce vaccination certificates for the purposes 
+of free movement across borders. Under the proposal for a Digital Green Certificate, a 
+framework for interoperable certificates on COVID-19 vaccination, testing and recovery 
+should be established. 
+The guideline follow epidemiological guidance1 and the specific values will be provided in 
+due time by relevant institutions. 
+2 Use case – COVID-19 citizen recovery 
+According to the current evidence, individuals who recover from COVID-19 can continue to 
+test positive for SARS-CoV-2 for some time after no longer being infectious. In those cases, 
+the virus being shed is no longer viable and there is therefore limited risk of transmission to 
+others. However, for the purposes of free movement, those individuals are unable to present 
+a negative test result, and would thus be prevented from crossing borders. However, despite 
+some uncertainties (described in the following chapter), on balance the evidence suggests 
+that those who have recovered from COVID-19 have a reduced risk of infection.  
+  
+                                               
+1
+https://www.ecdc.europa.eu/en/publications-data/covid-19-guidance-discharge-and-ending-isolation  
+4 
+ 
+eHealth Network 
+2.1 Scientific unknowns  
+Some scientific unknowns remain regarding the infectiousness of a person infected with 
+COVID-19. The following aspects are of particular relevance: 
+- there is insufficient information on levels of immunity conferred by previous infection. 
+It is widely accepted that previous infection provides in general some reduced risk of 
+subsequent infection, but there is a lack of consensus on how much reduced risk of 
+infection, the length of the protection and the extent of variation between individuals.  
+- although relatively uncommon, reinfection in persons recently recovered from COVID-
+19 has been documented. It has been reported that up to 9% of PCR positive cases 
+do not mount an antibody response and may be susceptible for reinfection and further 
+transmitting disease. More recently, possible reinfections with emerging variant 
+strains such as B.1.351 and P.1 are of special concern.  
+- the exact duration of the protection conferred by a previous infection, in particular in 
+view of the increased transmission in EU/EA MSs of the new variants of concern, 
+should be revised as new evidence is collected. 
+Due to the current unknowns, the validity of certificates might undergo changes according to 
+new scientific evidence. Considering the emergence of SARS-CoV-2 variants, this 
+epidemiological evidence may change and ECDC, the Commission and Member States 
+should take all the measures to update all the relevant guidance, legal acts and IT systems. 
+ 
+3 Minimum dataset 
+A minimum dataset, including a unique identifier, enables minimum information to be 
+generated according to a common agreed structure, facilitating cross-border sharing and 
+use.  
+5 
+ 
+eHealth Network 
+ 
+Table 1 – COVID-19 citizen recovery minimum dataset 
+Section Data element  Description Preferred Code System 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Person Person name The legal name of the person   
+identification  recovered from the infection  
+ surname(s) and 
+forename(s) in that order 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Person date of birth  Recovered person’s date of Complete date, without 
+birth.  time, following the ISO 
+8601. 
+6 
+ 
+eHealth Network 
+Person identifier The type of identifier and  
+identifier of the person, 
+(optional) 
+according to the policies 
+applicable in each country. 
+Examples: citizen ID and/or 
+document number (ID-
+card/passport) 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+Information Disease or agent  Disease or agent the citizen ICD-10, SNOMED CT GPS 
+about past has recovered from 
+infection 
+Date of first positive Date when the sample for the Complete date, without 
+ 
+test result test was collected that led to time, following the ISO 
+positive test obtained through 8601. 
+a procedure established by a 
+public health authority in the 
+MS [specific rules to be 
+determined later] 
+Country of test   Country in which the first ISO 3166 Country Codes 
+positive test was performed 
+Certificate Certificate issuer Entity that has issued the   
+metadata  certificate (allowing to check 
+the certificate) 
+Certificate Identifier Unique identifier of the   
+certificate to be printed into 
+the certificate; the way of 
+defining it should be similar 
+2
+to the vaccination guidelines  
+Certificate valid from Certificate valid from [specific ISO 8601 or other 
+rules to be determined later]  international stated format 
+ 
+Subject to change as new 
+evidence arises 
+                                               
+2
+ https://ec.europa.eu/health/sites/health/files/ehealth/docs/vaccination-proof_interoperability-
+guidelines_en.pdf  
+7 
+ 
+eHealth Network 
+Certificate valid until Certificate valid until [specific ISO 8601 or other 
+rules to be determined later] international stated format 
+ 
+Subject to change as new 
+evidence arises 
+All fields that contain non-enumeration/numeric data should be encoded in UTF-8 must be fully canonicalised and 
+normalised according to http://unicode.org/reports/tr15/  
+ 
+4 Further steps towards cross-border interoperability 
+The guidelines on COVID-19 Citizen Recovery interoperable certificates - minimum dataset 
+will be followed by further steps towards cross-border interoperability of COVID-19 
+certificates. 
+In close cooperation with ECDC and WHO and supported by the European Commission, the 
+eHealth Network and the Health Security Committee will continue working towards the 
+design and implementation of interoperable solutions that work across borders and world 
+regions. 
+In addition, the European Commission is invited to support the development of toolboxes and 
+trust frameworks to facilitate the deployment of interoperable solutions. 
+ 
+8 
+ 

@@ -1,0 +1,1381 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+UNDERSTANDING 
+TOTAL COST OF 
+OWNERSHIP FOR 
+DIGITAL HEALTH 
+A Budgetary Reference Document on Digital 
+Supply Chain Systems for Investors, 
+Implementers, and Governments  
+ 
+ 
+ 
+Digital Square is a PATH-led initiative, which was initially funded and designed 
+by the United States Agency for International Development and the Bill & Melinda 
+Gates Foundation. Additional funders include Child Relief International 
+Foundation, Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) on 
+behalf of Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung 
+(BMZ), Last Mile Health, Patrick J. McGovern Foundation, The Rockefeller 
+Foundation, Sall Family Foundation, and Vitol Foundation. For more information 
+on Digital Square’s philosophy, governance, and how to get involved, please visit 
+our website at www.digitalsquare.org or email digitalsquare@path.org. 
+This reference document was made possible by support from Digital Square and 
+research and analysis by Vital Wave. The contents of this reference document 
+are the sole responsibility of Digital Square and Vital Wave Inc. and do not 
+necessarily reflect the views of USAID, the United States Government, or our 
+other funders. 
+This reference document is part of a larger body of work conducted by Digital 
+Square, Vital Wave, and a consortium of partners to understand market forces in 
+digital health in low-resource settings. Through a series of analyses, the partners 
+have identified current challenges to sustainability, outlined cost drivers for digital 
+health software, and defined recommendations that would lead to a more 
+sustainable digital health marketplace. To learn more, please visit: 
+https://digitalsquare.org/market-analytics.    
+Copyright 2021 Vital Wave, Inc. Some rights reserved. 
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 
+International License (CC BY-SA 4.0). To view a copy of this license, visit 
+https://creativecommons.org/licenses/by-sa/4.0/legalcode or send a letter to 
+Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 
+94105, USA. The content in this document may be freely used in accordance 
+with this license provided the material is accompanied by the following attribution: 
+“Digital Square Total Cost of Ownership Analysis. Copyright 2021 Vital Wave, 
+Inc.”  
+Suggested citation: Vital Wave, Digital Square. Understanding Total Cost of 
+Ownership for Digital Health. Palo Alto: Vital Wave, Inc.; 2021. 
+  
+ 
+Understanding Total Cost of 
+Ownership for Digital Health 
+A Budgetary Reference Document on Digital Supply Chain Systems for Investors, 
+Implementers, and Governments 
+ 
+Table of Contents 
+ 
+Table of Contents .................................................................................................................. 1 
+Acknowledgments ................................................................................................................. 2 
+Background and Introduction ................................................................................................ 3 
+How to Use This Information ................................................................................................. 4 
+Value for Readers ...........................................................................................................................4 
+Implementation Cost Categories by Phase .......................................................................................5 
+Total Cost of Ownership Analysis ........................................................................................... 7 
+Model Implementation ...................................................................................................................7 
+Total Cost of Ownership..................................................................................................................8 
+Phase I: Planning and Development ................................................................................................9 
+Phase II: Deployment .................................................................................................................... 14 
+Phase III: Scaling ........................................................................................................................... 19 
+Phase IV: Operations .................................................................................................................... 21 
+Implications for Planning ..................................................................................................... 29 
+Five Common Hidden Costs ........................................................................................................... 29 
+Five Common Cost Variances ........................................................................................................ 31 
+Appendix A: TCO Framework ............................................................................................... 33 
+Appendix B: Key Questions for Stakeholders ........................................................................ 40 
+ 
+  
+1 
+ © 2021 Vital Wave, Inc.  
+Acknowledgments 
+ 
+The authors of this reference document, Digital Square and Vital Wave, would like to express 
+their appreciation for the support of the many individuals and organizations who contributed to 
+this body of work, including a special acknowledgment to Digital Square and its co-funding 
+organizations for making this work possible, and individuals from the multidisciplinary advisory 
+group that helped guide its direction.  
+Individuals from the following organizations provided valuable input and feedback for this analysis. 
+ 
+Organization 
+BAO Systems 
+Bill & Melinda Gates Foundation 
+Clinton Health Access Initiative 
+John Snow Health Zambia Ltd. 
+John Snow Inc. Ethiopia 
+John Snow Inc. Tanzania 
+OpenLMIS Community 
+PATH 
+PATH Zambia 
+Republic of Zambia, Ministry of Health 
+República de Moçambique Ministério da Saúde 
+Stanford University's Center for Global Health Innovation 
+Tableau Foundation 
+The United Republic of Tanzania, Ministry of Health, Community Development, Gender, 
+Elderly, and Children 
+USAID Global Health Supply Chain Program-Procurement and Supply Management 
+Tanzania 
+USAID Global Health Supply Chain Program-Procurement and Supply Management Zambia 
+VillageReach 
+VillageReach Mozambique 
+World Bank Group 
+ 
+ 
+  
+2 
+ © 2021 Vital Wave, Inc.  
+Background and Introduction 
+The success of a digital health intervention (DHI) is enabled by a number of distinct yet interrelated 
+ecosystem elements including alignment with national digital strategies, sustained political 
+commitment and leadership, appropriateness for the context, active participation of stakeholders, 
+and the adoption of a detailed implementation plan.  
+From a financial perspective, however, long-term success has one underlying requirement: the 
+alignment of revenue and expenditures over the lifecycle of the intervention. This alignment can 
+only be attained when all costs of an intervention are understood and documented. Too often, 
+governments, donors, and implementers working in low-resource contexts have lacked visibility 
+to this information, leading to underfunding, turnover, and low impact.         
+This Total Cost of Ownership (TCO) Analysis aims to fill that information gap as part of a 
+broader set of activities conducted by Digital Square, PATH, and Vital Wave to shed light on digital 
+health market dynamics in low-resource settings. This larger body of work is intended to inform 
+the behavior of governments and donors and guide investment strategies for digital health by 
+highlighting how to make markets more efficient and equitable. The lack of authoritative costing 
+and cost outcomes research repeatedly emerged as root causes of market inefficiencies in initial 
+analyses conducted by the partners.  
+Based on a comprehensive evaluation of costs for five, nationally scaled logistics management 
+information systems (LMIS) used to manage stock and distribution of life-saving commodities, this 
+reference document presents illustrative costs associated with the adaptation of an existing open-
+source global good for LMIS and its implementation and operation over a period of five years 
+across a variety of different low-resource contexts. The document contains a comprehensive 
+definition of cost categories as well as example costs and observed variances in cost for each 
+category. It reveals key cost drivers and how costs may vary in different contexts. While these 
+illustrative costs and variances are based on nationally scaled LMIS implementations, similar cost 
+drivers and variances are expected for the implementation and operation of other types of DHIs 
+deployed nationally at health facilities within the public health system. Understanding them will 
+help inform the development of DHI proposals and budgets by implementers, the vetting of 
+proposals and budgets by prospective investors, and the socialization and coordination of 
+financing and partnership by government officials. 
+The analysis is grounded in secondary research, including foundational sources1 on defining and 
+estimating the costs of DHIs as well as in-depth interviews with key stakeholders, including 
+investors, government officials, global and in-country implementing partners, and global LMIS 
+experts. It also complements and informs a parallel Digital Square analysis aimed at modeling 
+the health and cost outcomes associated with investments in LMIS for managing health 
+commodities. Together, these analyses provide new tools and guidance for investors, government 
+officials, and implementers looking to maximize the impact of their digital investments.   
+ 
+1 Foundational secondary sources include: WHO’s Digital Implementation Investment Guide and Classification of Digital Health 
+Interventions v1.0, USAID’s Software Global Goods Valuation Framework, and Global Health Cost Consortium’s Reference Costs 
+for Estimating the Costs of Global Health Service and Intervention. 
+3 
+ © 2021 Vital Wave, Inc.  
+How to Use This Information 
+Value for Readers 
+Investors, government officials, and implementers can use this document to understand the 
+totality of costs for a DHI over its first five years of implementation and operation and help 
+estimate, validate, and socialize anticipated costs for their specific contexts.  
+The reader will find common hidden costs quantified and explained and will understand the cause 
+and magnitude of common cost variances. Budgeting appropriately for every implementation 
+context will substantially improve the odds of success and increase the potential impact for any 
+DHI. Additionally, detailed descriptions of cost categories, the activities and resources they 
+comprise, and illustrative cost data and included. When combined with additional budgeting and 
+investment planning tools2, this understanding provides the reader with the level of detail required 
+to ensure their DHI budgets are comprehensive. 
+Lastly, the reader is given key questions for developing, vetting, and obtaining buy-in on budgets 
+for all phases of a DHI implementation. These are questions that help investors, government 
+officials, and implementing partners ensure their investments in time, capital, and human 
+resources safeguard the success and long-term sustainability of the intervention. These intended 
+user groups are defined and described in Figure 1, below. 
+Figure 1. Value of this reference document for investors, government officials, and 
+implementers. 
+ 
+An investor is any actor in the market providing short or long-term funding for a digital health 
+intervention. The investor offers project and innovation funding, strategic and technical expertise, 
+and helps shape the digital health ecosystem. The investor may be a single actor funding an 
+ 
+2 For additional budgeting and investment planning tools please visit: https://www.mcsprogram.org/resource/digital-health-
+investment-review-tool/ and https://confluence.dimagi.com/display/commcarepublic/Budgeting+for+a+Project.  
+4 
+ © 2021 Vital Wave, Inc.  
+entire DHI or funding a specific cost component (e.g., telecommunication costs only or initial 
+deployment costs).  
+A governmental official is any government actor providing funding, human resources, or 
+oversight of an implementation and ongoing operations at the national or subnational level. In 
+low-resource contexts, funding often comes from international donors, yet the “customer” and 
+ultimate owner of the system is the government health program owner.  
+An implementer may manage the implementation, supply the core software, or adapt an existing 
+software to meet program goals. Often the implementer is a consortium of partners engaged in 
+several aspects of the implementation, including software development, training, partner 
+management, technical support, system, and infrastructure upgrades.  
+ 
+Implementation Cost Categories by Phase 
+While every implementation is different, all DHIs entail the same types of activities and resources 
+across their implementation lifecycle, from managers who develop and track implementation 
+against project plans, to software developers and technical support staff who enhance and 
+maintain the software, to the health facility infrastructure and equipment that allow health-facility 
+staff to interact with the system. 
+Costs in this reference document are organized into phases of a DHI’s lifecycle, from project 
+planning and development, through deployment, scaling, and ongoing operations (see Figure 2, 
+below). For a detailed definition of each cost category and a template spreadsheet for recording 
+costs by category, please see Appendix A. Costs for each phase are presented in the sections 
+below and split into cost categories, detailing the resources required for each phase (e.g., human 
+resources, overhead, assets), example costs, key drivers of cost, and illustrations of variances 
+seen across all implementations evaluated. 
+ Figure 2. Cost categories by phase. 
+ 
+Each phase can be broken down into three main summarizing factors: the total costs for a “model” 
+implementation (a generic, example implementation based on actual data from country 
+implementations evaluated for this research), its relative percentage of the five-year TCO, and 
+primary drivers of cost. The variances in costs observed across all five implementations evaluated 
+5 
+ © 2021 Vital Wave, Inc.  
+are also presented to illustrate how costs might change depending on the specific context of 
+implementation. Key drivers of variance include the digital health market maturity (MM)3 of the 
+country, the scale of the implementation, where and how the software and servers are hosted, 
+and whether or not key resources such as health system staff and health facility infrastructure 
+and equipment are shared across multiple DHIs. See Figure 3, below, for key drivers to cost 
+variance observed in this analysis.  
+Figure 3. Key drivers of cost variance. 
+ 
+In addition to illustrating key cost variances, each DHI implementation phase includes a detailed 
+description of costs for the model implementation and key data points across all implementations, 
+highlighting the significant variances in cost and why. Each phase concludes with a summary and 
+key questions that investors, government officials, and implementers should consider when 
+planning new DHI implementations. 
+ 
+3 See Digital Square’s Market Maturity Methodology here: https://wiki.digitalsquare.io/index.php/Market_Maturity_Methodology.  
+6 
+ © 2021 Vital Wave, Inc.  
+Total Cost of Ownership Analysis 
+Model Implementation 
+To present a generic analysis applicable across various low-resource contexts, stakeholders 
+involved in LMIS implementations in five different countries were interviewed for this research. A 
+“model implementation,” based on cost data and experience from all implementations evaluated 
+and supplemental interviews with global experts in LMIS, was established to present a generic 
+example for the reader to use as a comparison. The model implementation presents the costs 
+required to implement an LMIS at a national scale in a country with a level-two digital health 
+market maturity (MM 2) across 6,000 health facilities, serving a population of approximately 60-
+80 million people. While the model implementation is based on actual implementation costs from 
+national-scale implementations conducted between 2015 – 2020, the costs presented here have 
+been rounded for readability and presented as costs for a generic country matching these high-
+level characteristics. This analysis is a generic reference upon which future implementations can 
+be modeled (note: inflation and the time value of money should be taken into account for future 
+implementations). 
+Model implementation costs and comparative variances are based on a combination of initial 
+budgets, actual budgets, primary research interviews, and review of secondary documentation on 
+LMIS implementations across several countries (see Figure 4, below). All costs are presented in 
+USD. 
+Figure 4. Snapshot of the primary data sources used to develop the model 
+implementation. 
+ 
+ 
+The model country has a national digital health strategy and limited but available ICT 
+infrastructure and technical capacity. The nationally-scaled implementation of its supply chain 
+system to manage the supply line for all essential medicines in approximately 6,000 primary public 
+7 
+ © 2021 Vital Wave, Inc.  
+health facilities (one facility per every 10,000 people) began over five years ago, providing 
+retrospective costs.  
+The system is a mature, fit-for-purpose platform based on an open-source global good4, the Open 
+Logistics Management Information System (OpenLMIS)5, featuring inventory management, stock 
+level notification, and distribution functionality and considered a supply chain management DHI 
+to manage inventory and distribution of health commodities and stock level notification. System 
+data is cloud-hosted, though eventual migration to servers within the national data center is 
+planned.  
+The model country’s government contributes shared human resources and equipment (hardware 
+and infrastructure) to the implementation at existing health facilities as needed. Its primary 
+implementing partner is an international vendor with in-country subsidiary offices dedicated to 
+managing the supply chain system.  
+Total Cost of Ownership 
+The TCO over five years for our model implementation, including costs to deploy and scale an 
+LMIS solution nationally across 6,000 health facilities, stood at $4.8M dollars. This five-year 
+TCO can be broken into four key phases, as presented in Figure 5, below. 
+Figure 5. Total cost of ownership over five years for model implementation. 
+ 
+These phases and their costs are mostly sequential in time. For example, software development 
+appears in each of the four phases, with differing objectives for each phase. However, some 
+costs overlap in time. For example, maintenance and monitoring and evaluation (M&E) have 
+been coded as strictly Operations phase costs but may start as early as Year 1, while the 
+implementation is still being deployed. The following sections describe phase costs, and their 
+observed variances, in detail. 
+ 
+4 Digital health global goods are defined as tools that are adaptable to different countries and contexts. This reference document 
+focuses specifically on software global goods, defined as software tools that are free and open source (FOSS), and used to 
+manage, analyze, or transmit health-related data, with proven utility in several settings. Please see more information here: 
+https://digitalsquare.org/global-goods-guidebook 
+5 Please see more information here: https://openlmis.org/  
+8 
+ © 2021 Vital Wave, Inc.  
+Phase I: Planning and Development 
+The costs associated with Planning and Development 
+are incurred as initial, one-time-only, capital 
+expenditures. These costs are related to human Model Implementation Costs 
+resources, travel for meetings, workshops, requirements 
+gathering, project management and overhead, and other 
+direct and indirect costs to carry out planning and 
+development activities.  
+Costs for Phase I activities include costs from multiple 
+participating stakeholder organizations. However, 
+limited budgetary transparency among key stakeholders 
+is typical during this phase of the implementation.  
+In our model implementation, the highest Phase I cost 
+category is Software Development, representing 77%  
+of the Phase I costs or $580k. This cost is primarily Phase I Costs:  
+attributed to human resources (software developers) $750k (16% of TCO)  
+dedicated to adapting the core, open-source software 
+Largest Cost Categories in 
+platform and localizing it for country-specific needs. Phase I: 
+While the international implementing partner kept • Software Development 
+Project Management costs for this phase relatively low • Project Management 
+(as a percentage of TCO compared to all  
+implementations evaluated) by setting up an in-country 
+office, staff in the office were dedicated solely to this 
+implementation, meaning all direct and indirect overhead costs for the in-country office were 
+attributed to the project implementation budget. In-country staff included project managers, 
+solution advisors, program managers, M&E staff, a country director, a digital solutions director, 
+software developers, software development managers, and administrative staff. 
+Variances observed for Phase I cost categories across all implementations evaluated are largely 
+attributable to the market maturity of the country. In the lowest market maturity countries (MM 1), 
+implementations relied more heavily on human resources from international partners, driving up 
+TCO due to higher salary costs and international travel. Where multiple stakeholders participated 
+in the implementation, TCO costs increased for the Project Management cost category.  
+Table 1 below presents the model implementation’s total costs and the percentage of TCO for 
+this phase. The range of variance across all implementations evaluated illustrates how each cost 
+category, as a percentage of TCO, varied due to different country contexts. The primary cost 
+drivers that pushed costs for that category up or down are also given. These cost categories are 
+mutually exclusive and are listed from highest to lowest for our model implementation.  
+9 
+ © 2021 Vital Wave, Inc.  
+Table 1. Phase I costs and % of TCO by cost category. 
+ 
+ 
+ 
+Key Drivers of Variances 
+Key drivers of variances related to planning and development costs across implementations 
+can include the following. Details on specific cost categories and their cost drivers are described 
+in the subsections below. 
+Low Market Maturity: Countries with low digital health market maturity (MM 1-3 countries) 
+rely, to some extent, on international partners and vendors, if not entirely where 
+government ICT capacity is low (MM 1 countries). As the number of stakeholder 
+organizations involved in project planning and development increases, the number of 
+human resources and associated organizational overhead can drive up costs.  
+ 
+Costs Per Category and Variance 
+Software development, customization, and localization costs include, for implementations 
+evaluated, developing enhancements to the core software platform (an existing open-source 
+global good) and adaptation of the core software to address country-specific project needs or 
+desired functionality that may not yet be supported. Customization of the core software may also 
+be necessary to enable interoperable integration with other health IT systems at the country level. 
+This customization could be performed by the primary software vendor, the implementation 
+vendor, or a combination of resources from the project team. Localization includes costs to adapt 
+the software user interface for specific locations, such as language adaptations or specialized 
+terminology. 
+10 
+ © 2021 Vital Wave, Inc.  
+In our model, implementation costs incurred for software development were $580k, representing 
+the bulk of Phase I costs (12% of TCO). On average, software development costs were $310k 
+across all implementations evaluated, representing a range of 7% to 12% of TCO. While all 
+implementations evaluated were built on top of an existing global good, this early phase software 
+development budget helped ensure the software was adequately fit for deployment and also 
+resulted in core contributions back to the core software platform to the benefit of future 
+implementations. (Note: the breakdown of core software enhancements to country-specific 
+customizations was not assessed in this research.) 
+Project management includes costs incurred for project planning and scoping, day-to-day project 
+management, change management, managing signoffs, and procurement. Project management 
+costs are comprised primarily of human resources costs and are driven largely by the number of 
+stakeholder organizations and requisite staff, travel, and organizational overhead involved. In 
+addition to creating and managing detailed work plans and timelines, effective project 
+management covers a broad range of activities in this phase, including the following. 
+• Project planning and scoping with key stakeholder organizations and staff to set the 
+overall vision and strategy. Costs are directly related to the number of individuals 
+participating.  
+• Change management, including identifying expected business process and staffing 
+changes required to effectively implement new digital health technologies. Based on 
+primary research interviews, change management tasks are not typically budgeted nor 
+reported, introducing risks to uptake by health system staff and training budgets. While 
+changes in staff roles and responsibilities are typically addressed in training and thus 
+can be represented as a portion of training costs, these are truly “one-time” costs to 
+support existing staff in adjusting to their new roles and, if budgeted separately, can help 
+implementers budget initial and recurrent training costs more accurately. 
+• Final signoff for DHI project plans and budgets. These activities include finalizing the 
+budget and obtaining stakeholder approval, which can require significant effort when 
+many partners and stakeholders are involved, as costs include labor and travel costs for 
+each participating stakeholder.  
+• Equipment and hardware procurement for the planned deployment including labor and 
+time required for identifying and documenting requirements, creating requests for 
+proposal (RFPs), evaluating RFPs, and contracting partners (e.g., software 
+implementers and hardware vendors).  
+In our model implementation, several stakeholder organizations participated in the 
+implementation, each with their own human resources and direct and indirect project overhead 
+costs. Project management costs incurred were $155k, or 3% of TCO, which was closely in line 
+with the percentage of TCO for this cost category for all implementations evaluated. 
+Some international implementing partners set up in-country subsidiary office(s) dedicated to the 
+implementation. While this helps mitigate long-term sustainability issues by building specific 
+system expertise for in-country ICT human resources, it is important to note that it may increase 
+costs for this early phase as both internationally-based and in-country staff typically participate in 
+project planning, scoping, and management activities. For example, in one implementation 
+11 
+ © 2021 Vital Wave, Inc.  
+evaluated where this was the case, project management costs were roughly two-thirds of all costs 
+for Phase I activities.  
+Needs assessment and requirements specification costs include assessing the current state 
+and enabling regulatory environment, assessing integration, migration, reporting requirements, 
+conducting business process analysis, data modeling, and site and server assessment.  
+In our model implementation, costs incurred were only $15k or less than 1% of TCO. Other 
+implementations evaluated incurred costs under $30k, representing an equally small portion of 
+TCO. The use of an existing open-source, global good software platform as the basis for the 
+country system helped keep requirements specification to a minimum.  
+Costs for this category will vary based on the complexity of the solution and resources required, 
+scale (e.g., geographic breadth of implementation and variability of user needs), location of the 
+resources involved in this activity, and associated travel costs. The number of stakeholder 
+organizations and technology vendors drive up costs, especially when international travel is 
+required.  
+  
+12 
+ © 2021 Vital Wave, Inc.  
+Key Takeaways  
+The early phases of any DHI implementation present an opportunity to invest directly in core 
+enhancements to open-source global good software platforms, yielding new features and 
+improvements that may benefit many future implementations to come. This early phase is the 
+protected portion of a project, prior to deployment, where the foundations for a multi-year 
+implementation are laid and present a safe space for in-country developers to hone system-
+specific skills and customize software to meet the needs of their users. This phase represents 
+one of the greatest opportunities for investments in technological innovation and core product 
+improvement.  
+However, early-phase costs for planning and development are not always transparently shared 
+among partners, as they are driven heavily by human resource costs and organizational 
+overhead, which are sensitive data to share. When cost data from multiple partners working 
+together on an implementation was combined, total project management costs were higher than 
+any individual partner expected. Multi-partner project management, travel, and organizational 
+overhead increase directly with the number of partner organizations involved. If these costs are 
+not made transparent, resources available for software development and technology skills 
+development may be squeezed, resulting in compressed software development timelines, short 
+cuts, and poor development practices, and increased effort required in later phases. 
+Figure 6, below, presents key questions to be asked by investors, government officials, and 
+implementers when assessing, socializing, and budgeting planning and development costs.  
+Figure 6. Key questions for stakeholders. 
+ 
+  
+13 
+ © 2021 Vital Wave, Inc.  
+Phase II: Deployment 
+Deployment phase costs are characterized as capital 
+expenditures associated with deploying the solution to a Model Implementation Costs 
+set number of locations. For implementations evaluated, 
+this was typically defined in a three-year donor contract. 
+During this phase, the DHI implementation is deployed 
+or “goes live” to a specified number of health facilities 
+and end-users. The target deployment number may be 
+limited to a small pilot setting or a large percentage of all 
+possible sites. There is typically some deployment target 
+that is a subset of all possible locations either to allow 
+initial deployment to be evaluated prior to subsequent  
+funding rounds. The deployment scale varies based on 
+Phase II Costs:  
+the investor, donor, and government funding available 
+$1.3M (27% of TCO)  
+and the maturity of the digital health solution. Mature, fit-
+for-purpose solutions are capable of more significant Largest Cost Categories in 
+Phase II: 
+deployments based on the learning from other 
+• Deployment Training 
+implementations.  
+• Infrastructure 
+Deployment costs are typically characterized as • Software Development 
+“startup” costs, although the actual deployment activity  
+occur over the entire initial contract term (three years for 
+implementations evaluated). Cost categories include 
+one-time costs for equipment (e.g., laptops, phones), infrastructure (e.g., backup generators, 
+hosting, internet connectivity, power), new deployment training, implementation services, further 
+interoperability updates and system integrations, and further software development to address 
+issues and change requests encountered during the deployment time period.   
+In our model implementation, deployment costs were $1.3M, with the largest cost category by far 
+consisting of $980k or 21% of TCO for new deployment training. Training costs included five 
+days of fixed, classroom-based training costs for facility rentals, travel (both international and in-
+country trainers), per diem for trainees and trainers, and labor for a cadre of trainers. Equipment 
+costs (e.g., laptops) were originally budgeted for the implementation at over $400k (assuming all 
+new hardware would be required); however, implementers were able to decrease the equipment 
+costs by 90% by working with government officials to leverage existing health facility equipment 
+for the system. Infrastructure costs were subsequently the second highest cost for this phase. 
+Costs in implementations evaluated varied substantially based on the market maturity of the 
+country and, importantly, the extent of resource sharing between the government and 
+implementing partner organizations.  
+Table 2 below presents the model implementation’s total costs and the percentage of TCO for 
+this phase. The range of variance across all implementations evaluated illustrates how each cost 
+category, as a percentage of TCO, varied due to different country contexts. The primary cost 
+drivers that push costs for that category up or down are also given. These cost categories are 
+mutually exclusive and are listed from highest to lowest for our model implementation. 
+  
+14 
+ © 2021 Vital Wave, Inc.  
+Table 2. Phase II costs and % of TCO by cost category.  
+ 
+ 
+Key Drivers of Variances 
+Key drivers of variances related to deployment costs across implementations can include those 
+listed here. Details on specific cost categories and their cost drivers are described in the 
+subsections below. 
+Low market maturity: Low digital health market maturity increases deployment costs as 
+countries rely on an outside implementing partner for training and software development 
+labor due to the low availability of in-country ICT capacity. 
+Shared resources: Where capital and human resources (e.g., shared hosting, shared 
+human resources, shared equipment) support multiple digital health systems deployment 
+costs attributed to any single specific DHI can decrease substantially.  
+ 
+Costs Per Category and Variance  
+New Deployment Training includes costs associated with developing and deploying a training 
+program and associated training curricula and material. Costs are driven largely by the delivery 
+approach (e.g., eLearning, classroom-based training, train-the-trainer, on-the-job training) and 
+include labor, travel, facility rentals (e.g., for classroom-based training), and per diems for trainers 
+and trainees.  
+Our model implementation trained health facility workers in a fixed classroom and onsite setting, 
+incurring substantial costs for labor and travel for both international and in-country trainers, per 
+diems, and facility rentals. At 21% of TCO, initial deployment training was the largest cost category 
+15 
+ © 2021 Vital Wave, Inc.  
+overall for the entire five-year period for our model implementation. This posed a substantial 
+concern to the sustainability of long-term training that had to be addressed before subsequent 
+rounds of funding could be obtained. (See Phase IV: Operations for more detail on the evolution 
+of the model implementation’s training approach.) 
+Variance in cost for new deployment training across all 
+Comparing two implementations evaluated depended largely on both the 
+implementations, on-the- training approach and the type of device (computer vs. mobile 
+job training for a mobile phone) utilized for the DHI. In one implementation evaluated 
+application cost ten times with a similar training approach to our model implementation 
+less (as a % of TCO) than (classroom and onsite training), new deployment training 
+classroom-based training comprised more than half of all deployment phase costs. In 
+for a different laptop- another implementation, the type of device utilized, a mobile 
+based application.  phone, was reported to have kept the cost of new deployment 
+training substantially lower, given users familiarity with mobile 
+applications for other work, at just a sixth of deployment phase 
+costs, comprising just 2% of TCO. 
+Infrastructure costs include electricity, data center hosting, and connectivity (e.g., internet 
+access, SMS costs, backup generator costs). Costs also include internet bandwidth or mobile 
+data required for the system. Costs for this category were driven largely by whether new 
+infrastructure procurement was required for the implementation or if existing health facility 
+equipment was shared and used across multiple programs. 
+Although our model implementation leveraged shared equipment already available at health 
+facilities, it invested substantially in internet and data costs required to operate the supply chain 
+system on a day-to-day basis, spending ~$130k for network and communication costs and ~$15k 
+for international, distributed cloud server hosting at a total of 3% of TCO. 
+Other implementations evaluated shared even more resources, incurring only server hosting 
+costs from $5k to $40k at a cost of less than 1% of TCO. Where digital health market maturity is 
+low or where limited infrastructure exists, costs to procure the required equipment may drive up 
+initial capital expenditures. In these cases, generators may need to be procured to ensure that 
+the system remains available during power outages. Solar chargers, car chargers, or spare 
+batteries for reliable device charging may also need to be procured in low resource settings.  
+Software development in this phase covers significant modifications to address issues or 
+changes requested during deployment and ongoing enhancement of the software. This category 
+can incur additional, unexpected costs if initial software development work in Phase I is rushed 
+or squeezed. Costs also include development labor for report generation and adding unplanned 
+features to support new functionality, e.g., COVID vaccine rollout. 
+When comparing software development costs across all implementations evaluated, our model 
+implementation incurred lower development costs on its laptop-based software as a percentage 
+of TCO than another implementation that spent more time debugging and improving its custom 
+mobile application. While the mobile application was easier and less costly in the training 
+category, it required more software development (as a % of TCO) than the model 
+implementation’s more mature laptop application. Costs for software development of mature 
+digital solutions require less development work, coupled with a compressed deployment 
+schedule, driving down software development costs.  
+16 
+ © 2021 Vital Wave, Inc.  
+Integration and interoperability costs include the labor necessary to set up communication and 
+standards compliance between the new solution and existing health systems, configuration, and 
+required implementation work. Integration and interoperability activities and costs may also occur 
+during initial software development or in the operational phase during product maintenance and 
+testing. 
+Our model implementation’s integration and interoperability costs were $60k, or just 1% of TCO, 
+to complete an integration with a mature enterprise resource planning software during this phase.  
+Had additional integrations been required, for example, with other systems hosted physically at 
+each health facility (e.g., legacy desktop applications, laboratory equipment systems) or with 
+immature systems that did not adhere to interoperable standards for data exchange, these costs 
+would necessarily increase. Other implementations evaluated did not report costs when no 
+integration or interoperability with other health systems was planned, or activity occurred during 
+a different phase (e.g., initial software development or maintenance and testing).  
+One key factor of variance for this category is the maturity of a country’s digital health ecosystem. 
+Where mature digital health systems exist, there are more digital health systems with which to 
+integrate, and investments in integration and interoperability to ensure data can be exchanged 
+between different systems actually increases labor costs as a percentage of TCO for this 
+category. However, this increase in cost to establish system integrations opens up important 
+opportunities to reduce redundant data collection and siloed data, ultimately decreasing long-
+term operational costs and improving access to data for decision making. 
+Equipment includes centralized capital equipment (e.g., servers, storage devices, developer and 
+program manager laptops, routers, switches), distributed equipment (e.g., desktops, tablets, 
+mobile phones for frontline health workers), security equipment (e.g., secure boxes, locks, other 
+equipment to secure devices), redundancy and disaster recovery (e.g., additional costs or backup 
+equipment for failover redundancy or in the case of disasters). 
+The model implementation initially budgeted over $400k for desktop computers across facilities 
+scheduled for deployment in this phase. However, implementers and government officials agreed 
+that use of existing desktop computers available in health facilities scheduled for deployment 
+would be feasible, reducing the overall equipment budget for this phase by 90%.  
+Most other implementations evaluated also utilized existing devices at health facilities at no cost. 
+For example, one country utilized computers at health facilities that had been procured previously 
+for the rollout of DHIS2 (a facility-based health management information system). In contrast, 
+another implementation evaluated procured 900 new mobile devices at $270k, nearly two-thirds 
+of all deployment phase costs. As noted in both training and development categories above, the 
+use of mobile phones had a significant impact on other cost categories, with comparatively lower 
+training costs but higher development costs (as a % of TCO). 
+In countries with higher market maturities (MM3+), the government may allocate health facility 
+equipment costs in annual health system budgets. If implementations utilize existing health facility 
+equipment in these environments, equipment costs may be omitted from DHI deployment budgets 
+altogether. Alternatively, if the equipment is procured for a different program (e.g., desktop 
+computers used in health facilities for DHIS2 monthly performance reporting in one 
+implementation evaluated), that program may bear the entire cost of replacement ($60k over five 
+years, for this example). In any shared resource environment, costs can be split or covered by 
+17 
+ © 2021 Vital Wave, Inc.  
+one or many different programs based on relative utilization, which may result in higher 
+governance costs for coordination across programs but lower equipment costs overall for all 
+programs. 
+Key Takeaways 
+Deployment phase activities present implementers with important choices on the training model, 
+equipment, and infrastructure, which can substantially impact TCO through shared equipment 
+resources at health facilities (e.g., hardware and telecommunications) and human resources 
+where available for implementation services, integration, interoperability, and training as often 
+similar human resources are engaged in these activities.  
+Figure 7, below, presents key questions to be asked by investors when determining when 
+budgeting the size of deployment, by government officials to ensure long-term sustainability and 
+the ability to coordinate across government and partner stakeholders for a successful DHI, and 
+by implementers when developing their deployment budgets and resources.  
+Figure 7. Key questions for stakeholders. 
+ 
+ 
+  
+18 
+ © 2021 Vital Wave, Inc.  
+Phase III: Scaling  
+For this analysis, scaling a DHI implementation refers to 
+expanding its deployment across a wider geographic Model Implementation Costs 
+area or number of facilities or end-users than originally 
+scheduled for its initial deployment. While the activities 
+conducted are similar to those conducted during the 
+Deployment phase, the Scaling phase is typically 
+distinguished by a subsequent round of funding and 
+therefore, for budgeting purposes, occurs after initial 
+deployment. Costs are driven by the number of facilities 
+targeted for deployment and requisite costs to deploy to 
+the solution per facility (e.g., equipment, infrastructure,  
+training, and additional software development).   
+5-Year Scaling Cost:  
+Scaling for our model implementation incurred a cost of $500k (10% of TCO)  
+$500k or 10% of TCO to achieve full scale at 6,000 Largest Cost Categories: 
+health facilities, reaching all remaining facilities beyond • Equipment  
+the initial set of facilities covered during the deployment  
+phase. In another implementation evaluated, scaling 
+represented  $700k or 22% of the 5-year TCO. The 
+variance is attributed to the equipment costs required to scale the solution given its procurement 
+of new mobile phones for end users, compared to use of existing desktop computers at facilities 
+in the model implementation. 
+Table 3 below presents the model implementation’s total costs and the percentage of TCO for 
+this phase. The range of variance across all implementations evaluated illustrates how costs, as 
+a percentage of TCO, varied due to different country contexts.  
+Table 3. Phase III costs and % of TCO by cost category. 
+ 
+Key Drivers of Variances 
+Key drivers of variances in scaling costs across implementations can include those listed here. 
+Details on specific cost categories and their cost drivers are described in the subsections below. 
+Low market maturity: Low digital health market maturity increases scaling costs as 
+countries rely on an outside implementing partner for training, implementation services, 
+and development labor due to low government ICT capacity scaling costs increase, 
+driving up TCO. 
+19 
+ © 2021 Vital Wave, Inc.  
+Scale: Scaling costs for the implementation increase as the number of additional 
+deployments required in this phase, and their geographic diversity, increases. This can be 
+driven by the budget allocated in early funding rounds and subsequently, the target 
+number of deployments scheduled in the deployment phase. Often, facilities that are 
+easier to reach and support are targeted first, for early successes, and the facilities 
+targeted during scaling are harder to reach and may face additional constraints including 
+lower reliability connectivity and power, lower levels of education or exposure to digital 
+tools and data by end users, additional languages and translation requirements, and 
+additional variability in workflows the solution must support. These variables may increase 
+the need for software development and adapation to meed the needs of new facilities and 
+increase per facility deployment costs.  
+Shared resources: Where capital and human resources (e.g., shared hosting, shared 
+human resources, shared equipment) support multiple digital health interventions scaling 
+costs decrease, driving down TCO.  
+Key Takeaways  
+Digital health interventions often do not plan for or intend to reach the entire population during 
+initial deployment due to a lack of sufficient funding commitments to achieve complete national 
+scale during the span of one funding cycle. As a result, a subsequent scaling phase is often the 
+solution to address country needs at national scale. The funding gap in initial deployment is 
+often driven by misaligned investor incentives, political climate, short-term funding cycles, and 
+limited government resources. Planning for scale requires a five-year TCO to identify funding 
+gaps allowing the program owner or investor to identify alternate funding sources.  
+Figure 8, below, presents key questions to be asked by investors when determining whether to 
+fund future scaling or provide feedback to improve potential return on investment by government 
+officials to ensure resources are sufficiently allocated for long-term sustainability and the ability to 
+coordinate across government and partner stakeholders for a successful DHI, and by 
+implementers when developing their scaling budgets and resources.  
+Figure 8. Key questions for stakeholders. 
+ 
+ 
+20 
+ © 2021 Vital Wave, Inc.  
+Phase IV: Operations 
+Operational expenditures are those associated with the 
+ongoing operation of a DHI. Operational costs include Model Implementation Costs 
+the human resource costs to manage and operate a DHI, 
+as well as regular maintenance and replacement costs 
+incurred every year to keep a DHI running. These costs 
+are separate from “startup” costs seen in Development 
+and Deployment, as those costs are a one-time 
+commitment of resources required to implement and 
+deploy the solution. Fluctuations in operational costs are 
+directly linked to the scale (e.g., the number of health 
+facilities where a solution has been deployed) of the  
+solution in subsequent years.  5-Year Operations Cost:  
+$2.3M (47% of TCO)  
+Operations cost categories include annual costs for 
+hardware replacement, data and voice service, licenses Largest Cost Categories: 
+and subscriptions, recurrent or refresher training, • Recurrent Training 
+helpdesk support, maintenance and testing, project • Monitoring & Evaluation 
+management, governance, and monitoring and • Governance 
+evaluation.    
+ 
+Operational costs can vary substantially over five years 
+based on the timeframe for scaling-up deployment, 
+market maturity, and, importantly, the extent of shared government resources (human and capital) 
+devoted to ongoing system maintenance and support.   
+In our model implementation, nationwide deployment to 6,000 health facilities was completed over 
+the course of five years. Operational costs in Year 1 were relatively low while the number of live 
+deployments was small but increased as new deployments came online and then flattened out 
+once full scale had been achieved (see Figure 9, below). As an MM2 country, skilled ICT 
+resources were available within the Ministry’s ICT department, allowing our model implementation 
+to receive technical support from ministry staff early on and to ramp up over time to support over 
+13,000 end-users.  
+Figure 9. Model implementation operations year on year. 
+Model Implementation 
+Operations Phase as % 
+of TCO
+15%
+10%
+5%
+0%
+ Year 1  Year 2  Year 3  Year 4  Year 5
+ 
+21 
+ © 2021 Vital Wave, Inc.  
+Recurrent training, monitoring and evaluation, and governance made up the largest portion 
+of our model implementation’s annual operational costs at 8% of TCO each. Over time, the 
+training model transitioned from classroom-based training to an on-the-job and train-the-trainer 
+model, leading to decreases in annual recurrent training costs. This experience is consistent with 
+other national-scale implementations involving a consortium of implementing partners and 
+Ministry departments. The main driver of cost for these categories is the labor associated with 
+them. In addition, interoperability and integration with other HIS, while critical to the effectiveness 
+and sustainability of DHIs, requires additional labor for software development, maintenance, 
+management, and governance and ultimately drives up costs in these categories over time.  
+Table 4, below, presents the model implementation’s 5-year operations costs and the percentage 
+of TCO for each. The range of costs across the four other implementations evaluated is presented 
+to illustrate variances. The primary drivers of variance that could push costs for that category up 
+or down are also given. These cost categories are mutually exclusive and are listed from highest 
+to lowest for our model implementation.  
+Table 4. Phase IV costs and % of TCO by cost category. 
+ 
+  
+22 
+ © 2021 Vital Wave, Inc.  
+Key Drivers of Variances 
+Key drivers of variances in operational costs across implementations can include those listed 
+here. Details on specific cost categories and their cost drivers are described in the subsections 
+below. 
+Low market maturity: Low digital health market maturity increases operational costs as 
+countries rely on an outside implementing partner for routine support, maintenance, and 
+testing due to low government ICT capacity. 
+Scale: When internet connectivity or mobile data costs are required for consistent 
+operation, data and voice costs, which scale more directly with deployments than labor 
+costs, can become one of the highest drivers of operational costs when the solution is fully 
+scaled to thousands of health facilities. Bulk discounts may be negotiated with mobile 
+network operators at scale, especially with governmental support. 
+Server hosting: The chosen hosting solution drives both infrastructure and equipment 
+costs. Cloud hosting (e.g., Amazon Web Services), a typical hosting option, drives 
+infrastructure and equipment replacement costs down but increases data and 
+connectivity costs; variances are based on the quantity of data and number of users.  
+Shared resources: Where capital and human resources (e.g., shared hosting, shared 
+human resources, shared equipment) support multiple digital health systems, costs 
+decrease, driving down TCO.  
+ 
+Costs Per Category and Variance 
+Recurrent Training includes all activities required to deliver 
+refresher training and staff turnover training on an annual basis. Shifting from a 
+Key subcategories include trainer time, train-the-trainer classroom-based training 
+sessions, on-the-job training, training materials, and any model to 
+required travel. on-the-job training by 
+superusers drove a near-
+The training model utilized in our model implementation 
+tenfold reduction in 
+changed over the course of five years from fixed classroom-
+training costs from initial 
+based training to training the most skilled government 
+deployment to annual 
+resources at the provincial and district level as “champions” 
+recurrent training. 
+and “superusers” to drive down recurring costs. To identify 
+these users across health facilities, the Ministry conducted a 
+computer literacy assessment. Reassessment and further training are incorporated into 
+supervisory visits at each health facility, further driving down costs. Initial deployment training for 
+our model implementation was $980k or 21% of TCO, and, with revisions to the training model, 
+costs for recurrent training dropped to just over $100k on average annually and $405k total over 
+five years at full scale, coming to 8% of TCO.  
+Across all implementations, refresher training represents one of the highest categories of cost in 
+the operational budget. Higher training costs were incurred when training involved a fixed 
+classroom setting, incurring travel and per diem costs for implementing partner resources; central, 
+provincial, and district Ministry training resources; and health worker staff. For one implementation 
+23 
+ © 2021 Vital Wave, Inc.  
+evaluated, classroom-based training for 200 users involving Ministry and implementing partner 
+resources and staff traveling to health facilities cost $450k across five years (24% of TCO). For 
+this implementation and multiple others, classroom-based training models have shifted to more 
+cost-effective training models over time (e.g., train-the-trainer, on-the-job training, eLearning) to 
+decrease long-term operational costs. 
+In countries with the lowest recurrent training costs, district or provincial level staff provide periodic 
+training as needed during supervisory visits to health facilities. In countries with low levels of 
+market maturity, lower computer literacy skills require onsite training.  
+Monitoring and Evaluation costs are those associated with monitoring and evaluating program 
+efficacy and impact. Activities include creating reporting plans with indicators, collecting data, 
+writing reports, developing dashboards, gathering stakeholder requirements, and helping 
+collaborate across stakeholders (e.g., investors, Ministry staff, implementing partners). Human 
+resources involved in maintenance and testing in implementations evaluated were often involved 
+in M&E development work. 
+Our model implementation incurred costs of $400k over five years or 8% of TCO. The costs 
+represent the labor within the Ministry and implementing partner organizations necessary for 
+monitoring and evaluation activities. In this instance, Ministry resources for M&E are shared 
+across other DHIs, driving down operational costs. 
+Low market maturity countries lack the dedicated M&E resources found in higher market 
+maturities. As a result, M&E activities are often integrated into the responsibilities of project 
+management staff and are represented in the project management cost category, described 
+below. In low market maturity contexts, where project management may be provided by 
+implementing partners (international or in-country) with higher wages, the cost of M&E activities 
+will be higher than if they were performed directly by dedicated Ministry M&E resources. Obtaining 
+access to dedicated M&E resources in this or earlier phases can both decrease operations costs 
+as well as improve the continuity of performance monitoring over the lifetime of the DHI, making 
+impact easier to measure over time. 
+Governance costs are associated with the labor necessary to govern the DHI, including 
+developing and communicating a vision, creating national guidelines, writing strategic plans, and 
+coordinating implementation across ministries and other stakeholders (e.g., a consortium of 
+partners). 
+Our model implementation incurred costs of $395k, or 8% of TCO. For implementations evaluated 
+in low market maturity countries, a limited number of government resources and a consequently 
+limited number of counterparts within implementing partner organizations were involved in DHI 
+governance, decreasing overall governance costs. This leaves the DHI with a limited ability to 
+coordinate with other programs resulting in siloed operation and makes it vulnerable to failure due 
+to turnover of political leadership. 
+Project Management costs are driven by the labor costs needed for day-to-day project 
+management activities across all stakeholder organizations (e.g., scheduling future deployments, 
+deploying software updates, recurrent training).  
+In our model, implementation costs are $390k, or 8% of TCO. In other implementations evaluated, 
+the percentage of TCO ranges from 3% to 9%. Variances are attributable to the number of 
+24 
+ © 2021 Vital Wave, Inc.  
+organizations involved in project management activities and the number of resources from each 
+organization exclusively involved in project management for the DHI. 
+Additionally, costs associated with transportation, communication, and procurement (e.g., 
+contracting, equipment purchase) were not reported as direct costs for any of the DHI 
+implementation evaluated. These costs were assumed to be overhead costs for the implementing 
+partner or government for these implementations. However, these may be appropriate costs to 
+include in operational budgets. 
+Helpdesk Support costs are primarily associated with labor for supporting the use of the system 
+by end-users, including level one (L1 – basic troubleshooting), level two (L2 – complex 
+troubleshooting), and level three support staff (L3 – last line of support, usually comprising 
+development team members who can develop solutions for bugs and other issues). Other cost 
+drivers include any software utilized to respond and track support incidents, where support is 
+provided (e.g., onsite, remote), whether qualified and trained support staff are available in-
+country, and what training is required.  
+A mixture of Ministry ICT staff and implementing partner staff provides helpdesk support in our 
+model implementation. ICT staff now provides all L1 and limited L2 support, with the implementing 
+partner providing L3 support. Helpdesk support cost is $365k over five years (8% of TCO). 
+Cost variances identified in other implementations were driven by the number of end-users, 
+relative average computer literacy of end-users, the system’s usability, and training required for 
+in-country support staff. Additionally, cost efficiencies can be obtained by utilizing a shared 
+helpdesk across multiple DHIs. For one implementation, a formal helpdesk was created and 
+staffed during regular business hours, with a toll-free number for end-users to dial in, allocating 
+only a percentage of labor costs to the DHI for a total cost of only $270k over five years. 
+In lower market maturities (MM1), L2 - L3 is usually provided by an implementing partner long-
+term, increasing operational costs and reliance on donor funding. At the highest end of 
+implementations evaluated, helpdesk support cost upwards of $455k over five years (24% of 
+TCO), even with a more informal L1 support model where WhatsApp was used for end-users to 
+report issues.  
+Maintenance and Testing costs are primarily labor by 
+software development resources, system administrators, Maintenance and testing 
+database analysts, and business analysts and were covered costs were substantially 
+by implementing partners for all implementations evaluated. higher for an 
+These same resources also provided L3 support. Testing implementation with large-
+includes discrete scheduled activities including load, security, scale integration work 
+disaster recovery, and redundancy testing, as well as testing underway by an 
+done as routine steps in regular software development and implementing partner, 
+maintenance, including unit, integration, QA, UAT, and driving costs up to 16% of 
+smoke testing. Our model implementation is $135k over five TCO. 
+years (3% of TCO).  
+25 
+ © 2021 Vital Wave, Inc.  
+Costs vary based on the number of staff required and annual planned development activities (e.g., 
+version upgrades, feature enhancements, planned interoperability, integration with other HIS). In 
+one of the implementations evaluated, significant work was underway to upgrade the DHI solution 
+and integrate it with another DHI solution, resulting in a total cost of $300k over five years, 
+representing 16% of TCO. 
+Equipment (e.g., computers, tablets, mobile phones, power 
+cords) and Infrastructure (e.g., servers, internet connectivity 90% of budgeted 
+equipment, backup generators) must be maintained and equipment replacement 
+replaced over time based on expected useful life and costs for the model 
+environmental factors, including security measures at health implementation were 
+facilities (e.g., securing equipment in locking rooms or storage eliminated by using 
+units), degree of equipment use (daily or less), and quality of existing health facility 
+equipment at a rate between 10-25% of the total procured hardware. 
+equipment costs (see Deployment costs above) per year.  
+In our model implementation, a 20% replacement rate is applied to the value of procured 
+equipment and infrastructure. Initially, $425k of equipment was budgeted; however, the actual 
+cost of equipment procured during deployment decreased by 90% by utilizing shared equipment 
+at health facilities, reducing the replacement rate by the same percentage amount. Our model 
+implementation also hosted its solution at its government-run national data center. Other 
+implementations evaluated incurred annual cloud-hosting fees between $12k - $15k per year on 
+average, with one implementation incurring up to $60k per year using AWS. 
+In countries with lower market maturities where infrastructure is not readily available or reliable, 
+additional investments in infrastructure may be required, also increasing replacement costs. In 
+countries with higher market maturities (MM3+), the government may allocate health facility 
+equipment costs in annual health system budgets. In these environments, if DHIs utilize existing 
+health facility equipment, replacement costs may be omitted from DHI operational budgets 
+altogether. Alternatively, if the equipment is procured for a different DHI (e.g., desktop computers 
+used in health facilities for DHIS2 monthly performance reporting in one implementation 
+evaluated), that DHI may bear the entire cost of replacement ($60k over five years, for this 
+example). In any shared resource environment, equipment replacement costs may be split or 
+covered by one or many different programs based on relative utilization, which may result in higher 
+governance costs for coordination across programs but lower equipment costs overall for all 
+programs. 
+Data and Voice services are the recurring data and voice services required for the DHI. These 
+costs function like equipment and infrastructure replaced costs in a shared resource environment 
+if existing health facility connectivity exists. In health facilities requiring data plans for the DHI, the 
+costs may be a significant portion of the annual operations budget based on the scale of 
+deployment.  
+Like equipment and infrastructure replacement, data services for our model implementation are 
+shared across multiple programs at health facilities, and therefore, no direct data and voice costs 
+were attributed to the DHI. In another implementation evaluated, where 900 mobile phones were 
+used as end-user equipment, costs for mobile data incurred totaled $215k over five years, 
+representing 7% of TCO for the implementation. In a different implementation where data plan 
+costs were found to be unsustainably high, the Ministry (payor of data costs) managed to reduce 
+26 
+ © 2021 Vital Wave, Inc.  
+overall data costs by purchasing smaller data bundles for periodic data uploads (once per month 
+instead of continuously), decreasing their data costs to 1% of TCO.  
+Licenses are budgeted based on the type of software implemented. No annual licensing costs 
+were incurred for our model implementation or other implementations evaluated. However, 
+commercial-off-the-shelf solutions and open-source or custom-developed solutions may require 
+annual licensing fees for use or support services. When licensing costs are present, one can 
+expect variances in costs due to the scale of deployment (e.g., number of licenses required per 
+user, device, or facility). While license costs are additional, licenses typically provide the 
+purchaser with some level of technical support and/or provision of future software updates thus 
+reducing the ongoing cost of maintenance and testing resulting, making commercial and open-
+source products equally viable options. The best solution (commercial or open-source) for each 
+situation will depend on specific context, including how fit-for-purpose the solution is, how mature 
+and rigorously tested it is, how adaptable it is, and whether skilled technical resources and 
+software developers are available to maintain it in-country over time. 
+Subscriptions are generally related to software applications used to support the development 
+environment, for example, database licenses (e.g., MongoDB), and software development, 
+operations management, and data analytics products (e.g., Jira, Jenkins, Scalyr). The costs 
+incurred for the implementations evaluated are less than 1% of their annual operations.  
+  
+27 
+ © 2021 Vital Wave, Inc.  
+Key Takeaways 
+Digital health implementations often fail because investors do not understand and do not plan for 
+the long-term costs of ongoing operations. This gap is driven by donor funding cycles, which are 
+typically three years, and a lack of transparency of budgeted costs and expenditures across 
+partners. Building a comprehensive 5-year operational budget shared with all stakeholders 
+provides a common understanding of the actual human and capital resources required by cost 
+categories. It identifies gaps in long-term funding and human resources and allows governments 
+to discuss and plan for ownership of the digital health intervention. The exercise requires a 
+significant investment in time but will ensure adequate resources are identified and built into a 5-
+year operational budget. 
+Figure 10, below, presents key questions to be asked by investors when determining whether to 
+fund implementation projects or provide feedback to improve potential return on investment, and 
+by government officials to ensure long-term sustainability and the ability to coordinate across 
+government and partner stakeholders for a successful DHI, and by implementers when 
+developing their operational budgets. 
+Figure 10. Key questions for stakeholders. 
+ 
+  
+  
+28 
+ © 2021 Vital Wave, Inc.  
+Implications for Planning 
+This reference document presents the TCO over five years for the implementation of a digital 
+health intervention across several different contexts and scenarios. While every specific 
+implementation may be unique, commonalities in drivers of cost and variance begin to appear 
+when costs are analyzed and compared across all interventions evaluated for this research. 
+In addition to presenting a reference for TCO and potential variance to inform planning for, 
+investment in, and implementation of future DHIs, this analysis also highlights key areas of cost 
+that are commonly omitted or inaccurately estimated. Understanding and addressing these key 
+hidden costs and variances can help implementers develop more accurate budgets and ensure 
+costs and required investments are understood more transparently by governments and investors 
+alike. 
+Five Common Hidden Costs  
+Detailed below are five cost categories that were identified across all implementations to be 
+commonly omitted or inaccurately budgeted. Implementers, government officials, and investors 
+would do well to ensure that these costs are discussed and rigorously documented to ensure 
+they are well understood, transparent, and not omitted from project budgets. 
+Figure 11. Five hidden costs of digital health interventions. 
+ 
+Project management costs include the activities of the global partners (international and in-
+country subsidiary offices) engaged in the digital health intervention and increases TCO as the 
+number of partner organizations increase. Each partner’s project budget consists of the human 
+resources (e.g., technical, programmatic, administrative staff), travel, and direct and indirect 
+overhead costs for the duration of the project’s contract. Project management costs for all 
+implementations evaluated for this research ranged between $150k - $550k across all phases, 
+or between 7% - 11% of the TCO. 
+29 
+ © 2021 Vital Wave, Inc.  
+Equipment and infrastructure replacement costs, the annual cost to replace damaged or 
+obsolete equipment and infrastructure, are often omitted from proposal budgets and lead to 
+facilities or end users to stop using the system. For budgeting purposes, an annual equipment 
+replacement rate is applied to the value of the total equipment purchased and typically ranges 
+between 15% to 30%, depending on the type of equipment. Implementing the system by 
+leveraging shared resources helps decrease these long-term operational costs and divide them 
+up among different programs, which can constitute variances as large as 15% of TCO. 
+Transparent communication on required infrastructure and equipment across DHIs is critical to 
+achieving cost efficiencies.  
+Data and voice services (e.g., data, voice, SMS) costs may or may not require budgeting as 
+these services exist within the health system environments and may be shared. Where costs are 
+incurred, they typically increase as the DHI scales, depending on per user costs from 
+telecommunications providers. The maximum total cost for these services in implementations 
+evaluated was just over $200k, or 7% of TCO. 
+Governance costs typically include the human resources required to ensure the implemented 
+technology conforms to government health strategies and policies across the ecosystem. These 
+costs include integration and interoperability requirements, which may increase as the system 
+matures in the health ecosystem. Governance costs comprise time and effort on the project by 
+key government officials and project management staff within government and implementing 
+partner organizations. Effective governance can consume as much as 8% of TCO, or ~$400k for 
+one of the implementations evaluated and is critical to ensure long term operations. 
+Software development costs that are often underestimated or omitted in initial project budgets 
+include the costs to adapt the solution when scaling to new geographies or address issues 
+encountered during the initial deployment phase. Scaling an implementation can entail conducting 
+subsequent rounds of planning, scoping, and software development to meet the needs of new 
+and different users. Scaling a solution often means adding users with lower levels of education or 
+exposure to digital tools, adding support and translations for new languages, and building support 
+for variability in workflows. For implementations performing more custom software development 
+on mobile applications, scaling costs can be significantly higher than implementations that rely on 
+more mature software deployed to facility laptop or desktop computers that have a longer typical 
+shelf life. At 22% of TCO for one implementation evaluated using custom mobile applications, 
+scaling costs were more than double the costs of another implementation that used a more mature 
+desktop solution due to the level of additional custom software development required to achieve 
+scaled deployment.  
+  
+30 
+ © 2021 Vital Wave, Inc.  
+Five Common Cost Variances 
+Additionally, this analysis identified five categories for which costs vary most widely, depending 
+on the implementation context. Similar to hidden costs, these categories also require thoughtful 
+discussion to ensure the specific country context and its impact of TCO is well understood by 
+implementers, investors, and government officials. It is important to note that while three of the 
+categories with high variance are encountered in the deployment phase, all five are encountered 
+in the operations phase of a DHI. This indicates that an understanding of operational cost drivers 
+may be of the greatest value to understanding and controlling TCO. 
+Figure 12. Five largest cost variances for digital health interventions. 
+ 
+Equipment and infrastructure costs are highest when a DHI requires new hardware equipment 
+(e.g., computers, laptops, tablets, phones, power cords) and infrastructure (e.g., electricity, data 
+center hosting, and connectivity) to be procured to support the technology or when implementers 
+do not design the implementation to leverage existing resources. These costs are lowest when 
+existing equipment and infrastructure at health facilities are utilized. Even when doing so may 
+require upgrading existing equipment and infrastructure, the cost savings are substantial, 
+depending on the number of end-users, size of the targeted geographic area, and the number of 
+health facilities. When factoring in replacement costs required for ongoing operations, these costs 
+varied between 7% of TCO, for an implementation that leveraged substantial shared resources, 
+to over 30% of TCO (equaling nearly $1M), for an implementation requiring new equipment for 
+every end user. 
+Training costs, whether for new deployment or recurrent training, depend on delivery model, 
+scale, trainer type, and the length of training required for the end-users. Where an implementation 
+requires trainers to travel to health or other facilities to train end-users, costs are highest, as 
+travel, per diems, and facility fees increase costs. In low-resource settings where implementations 
+are reliant on international partners to train end-users, costs also increase. However, where 
+superusers or system champions train end-users at health facilities, costs decrease, and they 
+may decrease even further when training is integrated into other job performance-related 
+activities. This allows government supervisors to play a more prominent role in recurrent training 
+31 
+ © 2021 Vital Wave, Inc.  
+activities and ultimately decrease operational costs. In implementations evaluated, training costs 
+between these two ends of the spectrum varied by a factor of ten, from 20% of TCO to 2%, 
+respectively. 
+Helpdesk support costs are highest when implementing partners provide all levels of support 
+rather than in-country, government ICT resources. This scenario resulted in costs as high as 24% 
+of TCO (~$450k) for one implementation that was heavily reliant on international partners for this 
+activity. In low market maturity countries, assessing government potential to provide basic end-
+user support early on in the implementation can decrease helpdesk support costs considerably. 
+Over time, as government ICT capacity increases through experience supporting the DHI, these 
+resources can provide higher levels of support, relying on partner organizations such as 
+technology vendors only when complex system upgrades or enhancements are required, which 
+helped bring costs down to only 3% of TCO on the lowest end for implementations evaluated.  
+Maintenance costs are similar to helpdesk support, as costs are dependent on the type of 
+organization providing system maintenance and testing. Costs are highest where a solution is 
+not fit-for-purpose in low-resource contexts requiring increased system maintenance. Costs also 
+vary depending on the timing of implementation: major software releases and requirements to 
+upgrade to new versions of the technology to obtain new features can require substantial training 
+for end-users and helpdesk support staff alike, further increasing costs to upwards of 15% of 
+TCO, compared to costs of less than 3% of TCO for implementations that saw no major upgrades. 
+ 
+When taken together, the comprehensive set of cost categories, illustrative costs, variances 
+across country contexts, and an understanding of common hidden costs and cost variances equip 
+implementers, government officials, and investors with a reference for practical discussion and 
+planning. Furthermore, this understanding of TCO is key to understanding the potential return on 
+investment for DHIs. As exemplified by the implementations evaluated for this research, greater 
+transparency and communication of actual cost information can help the entire digital health field 
+to identify efficiencies and make the best use of every investment to improve health outcomes. 
+ 
+32 
+ © 2021 Vital Wave, Inc.  
+Appendix A: TCO Framework 
+The total cost of ownership (TCO) framework below provides a comprehensive list of cost categories, definitions, and a table where 
+costs can be tabulated for planning or retrospective analysis. Several, more granular categories (e.g., “Landscaping”) from those 
+presented in the reference document are included here to ensure costs considered are comprehensive. The costs for these granular 
+categories were combined with others in the reference document where the relative cost reported was too small to warrant detailed 
+analysis.  
+One 
+ Total 
+Project Time 
+Cost Category  Description  Year 2 Year 3 Year 4 Year 5  Costs per 
+Phase Costs + 
+Category  
+Year 1 
+                  
+I. Planning and Development             
+High-level Scoping Project scoping with key stakeholders to             
+  set the overall vision and strategy. 
+Project Planning Create detailed project workplan and             
+  timeline. 
+Landscaping Assessing the current state and enabling             
+  regulatory environment. 
+Context Assessment Conduct business process analysis, data             
+  modeling, site and server assessment. 
+Requirement Assess integration, migration, and             
+  Specifications reporting requirements. 
+Final Signoff Finalize budget and obtain stakeholder             
+  approval. 
+33 
+ © 2021 Vital W ave, Inc. 
+One 
+ Total 
+Project Time 
+Cost Category  Description  Year 2 Year 3 Year 4 Year 5  Costs per 
+Phase Costs + 
+Category  
+Year 1 
+Initial Deployment Costs associated with contracting,             
+Procurement including identifying requirements, 
+creating RFP, evaluation RFP, and 
+contract negotiation with software 
+implementers and hardware vendors.  
+  
+Software Software development and adaptation             
+Development and of the core software to enable country-
+Customization level project needs or functionality that 
+may not yet be supported.  
+Customization may be necessary to 
+allow integration or interoperability with 
+other health IT systems at the country 
+level.  This customization could be 
+performed by the primary global goods 
+platform, implementation vendor, or 
+  project team. 
+Localization Customization for specific location, such             
+as language adaptations or specialized 
+  terminology. 
+    Phase Subtotal             
+II. Deployment Phase               
+Equipment Centralized capital equipment as well as             
+distributed equipment. Equipment 
+budgets should also account for failover 
+redundancy and disaster recovery. 
+  
+34 
+ © 2021 Vital W ave, Inc. 
+One 
+ Total 
+Project Time 
+Cost Category  Description  Year 2 Year 3 Year 4 Year 5  Costs per 
+Phase Costs + 
+Category  
+Year 1 
+Infrastructure Infrastructure costs includes electricity,             
+data center hosting, and connectivity 
+(e.g., internet access, SMS costs, backup 
+generator costs). 
+  
+Implementation Includes initial configuration of settings             
+Services and user accounts, plus data 
+configuration such as migration of data 
+and setup of custom schemes and/or 
+data types. 
+  
+Integration and Labor necessary to set up             
+Interoperability communication and standards 
+compliance between system and existing 
+systems. This category covers 
+configuration and implementation work. 
+If the software is not capable of 
+communicating with existing software, 
+adaptation is covered under software 
+the customization bucket. 
+  
+New Deployment Costs associated with the development             
+Training of a training framework, Standard 
+Operating Procedure (SOP), training 
+curriculum and material, eLearning 
+platform, and a train-the-trainers 
+program for all facilities that still require 
+training. 
+  
+35 
+ © 2021 Vital W ave, Inc. 
+One 
+ Total 
+Project Time 
+Cost Category  Description  Year 2 Year 3 Year 4 Year 5  Costs per 
+Phase Costs + 
+Category  
+Year 1 
+Change Management Identify expected business process and             
+  staffing changes. 
+Software Development costs for major             
+Development modifications or scope expansion, 
+includes software development costs 
+post initial deployment and ongoing 
+  product expansion. 
+    Phase Subtotal             
+III. Scaling Phase                
+Scoping Defining the scope of expansion and             
+  deployment activities. 
+Deployment Identify expected business process and             
+  required staffing changes. 
+    Phase Subtotal             
+IV. Operations Phase               
+Equipment Computer hardware is often replaced             
+Replacement once it becomes obsolete.  This cost can 
+be estimated for most equipment based 
+on expected useful life.  
+  
+Infrastructure Infrastructure costs includes electricity,             
+Replacement data center hosting, and connectivity 
+(e.g., internet access, SMS costs, backup 
+generator costs.). 
+  
+36 
+ © 2021 Vital W ave, Inc. 
+One 
+ Total 
+Project Time 
+Cost Category  Description  Year 2 Year 3 Year 4 Year 5  Costs per 
+Phase Costs + 
+Category  
+Year 1 
+Software Licensing Includes recurring software licensing             
+and Subscriptions costs. If the system is a global good, 
+costs are typically open source with zero 
+licensing fees, supporting software (e.g. 
+databases, operating systems) may 
+require licensing fees. 
+  
+Data and Voice Recurring voice and data services fees.             
+  
+Recurrent Training Includes all elements to deliver refresher             
+training and staff turnover training at set 
+intervals. Key activities including trainer 
+time, train-the-trainer sessions, training 
+  materials, and any required travel. 
+Helpdesk Support Costs associated with labor for operating             
+the system; includes system 
+administrators, database administrators, 
+business analysts, as well as a support 
+team that provides ongoing end user 
+  support. 
+Maintenance Costs associated with maintaining the IT             
+system (e.g., patches, downtime, 
+scheduled + unscheduled). Final SLAs 
+and maintenance contract(s). 
+  
+37 
+ © 2021 Vital W ave, Inc. 
+One 
+ Total 
+Project Time 
+Cost Category  Description  Year 2 Year 3 Year 4 Year 5  Costs per 
+Phase Costs + 
+Category  
+Year 1 
+Testing Covers testing which can be conducted             
+as discrete scheduled activities for the 
+central system environment including 
+load, security, disaster recovery, and 
+redundancy testing. Testing done as a 
+routine step in regular software 
+development and maintenance including 
+unit, integration, QA, UAT, and smoke 
+testing is included in the software 
+development and maintenance sub-
+  categories. 
+Transfer of Costs associated with transferring 
+Ownership ownership from the implementation 
+  vendor(s) to the government.             
+Project Management Costs associated with managing the             
+project, typically the costs of project 
+  manager role. 
+Transportation and Costs associated with ad hoc and routine             
+Communication transportation and communications 
+between core staff for project 
+  management and execution. 
+Governance Resource or time costs associated with             
+overall digital health governance in the 
+Ministry, including developing visions, 
+national guidelines, strategic plans, and 
+implementation. 
+  
+38 
+ © 2021 Vital W ave, Inc. 
+One 
+ Total 
+Project Time 
+Cost Category  Description  Year 2 Year 3 Year 4 Year 5  Costs per 
+Phase Costs + 
+Category  
+Year 1 
+Monitoring & Costs associated with monitoring and             
+Evaluation evaluating program efficacy and impact.  
+Includes creating reporting plan, metrics 
+collection, writing reports, liaising with 
+  donors / funders. 
+Procurement Costs associated with contracting,             
+including identifying requirements, 
+creating RFP, evaluating RFP, and 
+contract negotiation with software 
+implementers and hardware vendors. 
+  
+    Phase Subtotal             
+    Five Year Total Cost of Ownership (TCO)             
+ 
+ 
+39 
+ © 2021 Vital W ave, Inc. 
+Appendix B: Key Questions for Stakeholders 
+ 
+ 
+ 
+40 
+ © 2021 Vital Wave, Inc.  
+ 
+41 
+ © 2021 Vital Wave, Inc.  

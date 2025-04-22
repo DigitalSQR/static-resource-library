@@ -1,0 +1,534 @@
+WHO DDCCG Security Review Report 
+Security Review Report 
+ 
+T-Systems International GmbH 
+ PU Digital Solutions 
+ 
+  
+  
+ 
+ Version:  1.0  VValid from 11.03.2022 
+ Status: Final  wReview Date: 11.03.2022 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+WHO DDCCG Security Review Report 
+Imprint 
+Issued by T-Systems International GmbH  
+PU Digital Solutions 
+Hahnstraße 43d 
+60528 Frankfurt am Main 
+GERMANY 
+ 
+Area of application Valid from Title 
+WHO DDCCG 11.03.2022 WHO DDCCG Security Review 
+Report 
+ 
+Version Last Review Status 
+1.0 11.03.2022 Initial 
+ 
+Contact Telephone E-Mail 
+Franziska Maeder Phone no. +41 76 382 86 49  franziska.maeder@t-
+systems.com 
+ 
+Brief Details 
+This is the Security Review Report according to the OFFER RFP - DDCC Gateway for World Health 
+Organization (WHO), chapter “4.4.1 Security Reviews” dated 08.11.2021, offer no. 1001886906. 
+Table 1: Imprint Contact  
+ 
+ 
+ 
+ 
+ 
+Copyright © 2022 by T-Systems International GmbH | You can find the compulsory statement on: 
+www.t-systems.com/compulsory-statement | All rights, including that of the extracts, prints, photomechanical 
+reproduction (including microcopy), and the evaluation of databases, or similar organizations, reserved. 
+T-Systems International GmbH -internal- Page 1 of 18 
+PU Digital Solutions Version:1.0 Valid from:11.03.2022 Last review 11.03.2022 
+ 
+WHO DDCCG Security Review Report 
+Version History and Distribution List 
+ 
+Version Last Revised Edited by Changes/Comments 
+0.8 11.03.2022  D. K. Initial 
+0.9 11.03.2022 J. K. Internal Review 
+1.0 11.03.2022 J. S. Release 
+Table 2: Version History 
+ 
+ 
+ 
+ 
+ 
+Copyright © 2022 by T-Systems International GmbH | You can find the compulsory statement on: 
+www.t-systems.com/compulsory-statement | All rights, including that of the extracts, prints, photomechanical 
+reproduction (including microcopy), and the evaluation of databases, or similar organizations, reserved. 
+T-Systems International GmbH -internal- Page 2 of 18 
+PU Digital Solutions Version:1.0 Valid from:11.03.2022 Last review 11.03.2022 
+ 
+WHO DDCCG Security Review Report 
+Table of Contents 
+1 Introduction ............................................................................................................... 6 
+1.1 Object of investigation................................................................................................. 6 
+1.2 Investigation period and effort ..................................................................................... 6 
+1.3 Delineation of the targets ............................................................................................ 7 
+1.4 Source code analysis .................................................................................................. 7 
+1.5 Dynamic API testing ................................................................................................... 8 
+1.6 Limit of the tests performed ........................................................................................ 9 
+1.7 Rating system for the weak points .............................................................................. 9 
+2 Vulnerabilities found in the code review ............................................................... 10 
+2.1 ddcc-gateway-lib ....................................................................................................... 10 
+2.1.1 Improper exception handling ..................................................................................... 10 
+2.1.2 Input stream is not properly closed ........................................................................... 11 
+2.1.3 Use of a static initialization vector in cryptographic operations .................................. 12 
+2.2 ddcc-trusted-party-reference-implementation ............................................................ 13 
+2.2.1 Content Security Policy and HSTS Header is not explicitly defined ........................... 13 
+2.3 ddcc-gateway ........................................................................................................... 14 
+2.3.1 InputStream is not properly closed ............................................................................ 14 
+3 Vulnerabilities found based on penetration testing ............................................. 16 
+3.1 Information disclosure in responses .......................................................................... 16 
+4 Tools and Applications used for the penetration test .......................................... 18 
+ 
+ 
+T-Systems International GmbH -internal- Page 3 of 18 
+PU Digital Solutions Version:1.0 Valid from:11.03.2022 Last review 11.03.2022 
+ 
+WHO DDCCG Security Review Report 
+List of Tables 
+Table 1: Imprint Contact ................................................................................................................ 1 
+Table 2: Version History ................................................................................................................ 2 
+ 
+ 
+T-Systems International GmbH -internal- Page 4 of 18 
+PU Digital Solutions Version:1.0 Valid from:11.03.2022 Last review 11.03.2022 
+ 
+WHO DDCCG Security Review Report 
+Management Summary 
+Deutsche Telekom Security GmbH provides a security review, which includes a source code 
+review and penetration test, for the “Digital Documentation of COVID-19 Certificates Gateway” 
+(DDCCG). This security review has been conducted in accordance to the offer RFP - DDCC 
+Gateway for World Health Organization (WHO), chapter “4.4.1 Security Reviews” dated 
+08.11.2021, offer no. 1001886906. 
+The goal of this test is to identify vulnerabilities that an attacker can exploit to compromise 
+systems or the data stored on them, to gain access to sensitive information, or to compromise 
+their availability. 
+ 
+Examination results 
+The during the penetration, no significant vulnerabilities in the application were discovered. The 
+behavior of the test object meets expectations and did not suggest any deviant behavior. From an 
+overall perspective the application appears highly resilient and leverages proven technologies. 
+However, while isolated, small deficits could be identified, which do not pose significant security 
+threats. Findings – executed not in line with the “best practice” principle – could be identified both 
+in the code and the behavior of the application. However, throughout the test these could not be 
+successfully exploited. 
+The following should be improved upon in the context of one of the application’s next updates: 
+ Critical functions in the code, especially those, that process user input, should be 
+equipped with exceptions in order to increase the application’s stability. 
+Automatically sending  
+A detailed description of the findings related to the application can be found in chapter 2 and 3. 
+These chapters break down the two parts of the test, which essentially include a static code 
+review as well as an active check of the API. 
+For each finding we provide a proposal for a solution or an improvement. If and how these are 
+implemented is beyond the scope of our work and sphere of influence. It cannot be guaranteed 
+that executing these recommendations strengthens the application or prevents unknown or not 
+publicly known vulnerabilities, which for example are contained in third party parts of the 
+applications, from posing a potential security threat. 
+ 
+Disclaimer 
+The tested application was a reference object, which is used for illustration and demonstration 
+purposes only. The application was not tested in a productive environment or in an environment 
+similar to a productive one. It is strongly recommended to perform a security test by an 
+independent third party in the productive environment before release of the application. 
+Deutsche Telekom Security GmbH is a subsidiary of Deutsche Telekom AG, which also owns 
+T-Systems. Therefore, Deutsche Telekom Security GmbH cannot be considered an “independent 
+third party”. A security test of the DDCCG by an independent third party is strongly 
+recommended, as the present report cannot fulfil the purpose of an independent security review.  
+T-Systems International GmbH -internal- Page 5 of 18 
+PU Digital Solutions Version:1.0 Valid from:11.03.2022 Last review 11.03.2022 
+ 
+WHO DDCCG Security Review Report 
+1 Introduction 
+The test was carried out as a “White Box” penetration test with access to source code and APIs. 
+Detailed knowledge of the system landscape where the application was deployed was not 
+included. 
+ 
+The following artifacts were provided for the test: 
+ Access to source code repositories 
+ Specification for external APIs which are used by the reviewed system 
+ Certificates for client authentication  
+ URL where the API is reachable  
+ 
+1.1 Object of investigation 
+The following Objects was given from the development: 
+Source Code 
+Name URL Version 
+ddcc-gateway-lib https://github.com/WorldHealthOrganization/ddcc- 1.2.2 
+gateway-lib 
+ddcc-gateway https://github.com/WorldHealthOrganization/ddcc- 1.4.2 
+gateway 
+ddcc-trusted- https://github.com/WorldHealthOrganization/ddcc- - 
+party-reference- trusted-party-reference-implementation 
+implementation 
+ 
+ 
+API Endpoint 
+http://ddcc-gateway.861b530c4a22413cb791.westeurope.aksapp.io/ 
+ 
+1.2 Investigation period and effort 
+The investigation was carried out between the 07.03.2022 and 10.03.2022. The total effort for the 
+security investigation was four person days. 
+ 
+T-Systems International GmbH -internal- Page 6 of 18 
+PU Digital Solutions Version:1.0 Valid from:11.03.2022 Last review 11.03.2022 
+ 
+WHO DDCCG Security Review Report 
+Public Area 
+Privat Area 
+Web Application 
+ Middleware (Web Server, Database 
+Identity  
+ 
+Scope Management  
+Application Server) Server 
+Server 
+Operating System 
+Figure 1: Representation of the system components 
+1.3 Delineation of the targets 
+The penetration test for the API only includes the known endpoint. Things like operating systems, 
+as well as the middleware products, databases, web servers and participating network 
+components are not included.  
+ 
+1.4 Source code analysis 
+In a source code analysis, the source code of an application is subjected to a code analysis. 
+During the analysis, security-relevant aspects are considered in a focused manner.  
+The code analysis is carried out in four steps:  
+Preparation (Information & Scoping)  
+After receiving the code, e.g. via a code repository, it is roughly sifted through and the 
+environment for compiling the code is set up.  
+Automatic analysis 
+In the second step, a code analysis tool is applied to the code received, or alternatively, existing 
+results from a code analysis tool are used. After the tool has been used, the reported findings are 
+checked by an experienced examiner, as automated code analysis produces a high number of 
+false positives. As an interim result, this produces an initial list of vulnerabilities. Furthermore, the 
+assessment of the severity of the potential vulnerability is checked manually for each identified 
+vulnerability, as the automatic assessment of criticality is mostly based on the isolated finding and 
+does not consider the full context. The intermediate result is a list of vulnerabilities with an 
+assessment of the severity.  
+T-Systems International GmbH -internal- Page 7 of 18 
+PU Digital Solutions Version:1.0 Valid from:11.03.2022 Last review 11.03.2022 
+ 
+Scope 
+WHO DDCCG Security Review Report 
+Manual review  
+The most important step is a manual code analysis. This can focus on specific topics such as 
+permissions and roles, cryptography functions or memory management. The aim is to find errors 
+that are not detected automatically with static code analysis tools. These types of errors are 
+mostly logical errors. In addition, it is partly checked whether there are deviations from the best 
+possible implementation proposed for secure designs.  
+Documentation  
+The review is followed by the documentation phase. 
+ 
+1.5 Dynamic API testing 
+Dynamic API testing is used to see how an API behaves, when live requests are issued to it. 
+The API testing is carried out in four steps:  
+ 
+Test setup  
+The technical requirements are created to carry out the test. This involves setting up systems that 
+are necessary for communication with the API. These systems are needed to send, receive, and 
+analyze data traffic. Required software comments are selected and added to the systems. 
+Furthermore, it is ensured whether special authorizations are required for communication with the 
+API, such as certificates. Existing descriptions of the API to be tested are loaded into the test 
+system.  
+Automatic scans  
+In this step scanners automatically check for weak points. A large number of predefined requests 
+are sent to the API endpoint and the responses are evaluated. In addition to regular scans, 
+techniques such as fuzzing are also used. Fuzzing helps to generating the highest possible 
+volume of different requests to make the system and its behavior transparent. Also, the scanners 
+check how data was transported. This indicates whether weak transmissions and encryption 
+methods are being used. At the end of the scanning process, the output is reviewed to identify 
+any weak points. 
+Manual testing 
+This step is the most time-intensive in the process. The API specification is reviewed for any 
+weak points or possible configuration errors that may lead to weaknesses. In addition, targeted 
+requests are sent to the API, which contain data that either comply with the API specifications or 
+deviate from them. Logical attack vectors are also identified, and exploitation is tested. This 
+involves checking certain API functions and trying to force them to behave differently. Here too, 
+the behavior of the API is documented and compared to the expected behavior.  
+Among other things, the transport of data – i.e., if and how data was transported – is analyzed. 
+Particularly relevant is the forcing the transport of data via identity spoofing or an unauthorized 
+transport between client and application.  
+ 
+Documentation  
+The API testing is followed by the documentation phase.  
+ 
+T-Systems International GmbH -internal- Page 8 of 18 
+PU Digital Solutions Version:1.0 Valid from:11.03.2022 Last review 11.03.2022 
+ 
+WHO DDCCG Security Review Report 
+ 
+1.6 Limit of the tests performed  
+A security investigation has the goal to uncover security vulnerabilities and recommend measures 
+to remedy the situation. 
+Maintaining system and network security is a dynamic process as new weaknesses in IT systems 
+are exposed each day. The tests performed should therefore not be taken as a guarantee that the 
+systems are permanently immune to any kind of attack. 
+Each penetration test is performed by Deutsche Telekom Security with the utmost care and 
+based on the attack methods known at the time of the test. The source code review is conducted 
+for a specific version of the application. The test results should therefore be considered as a 
+snapshot of system security. Changes to the application after performing the tests may result in a 
+positive or negative change in system security. It is therefore recommended to conduct security 
+investigations after any major change or update. 
+Furthermore, safety investigations should be repeated at regular intervals. Only in this way can it 
+be ensured that the systems are adequately protected against current attacks. 
+ 
+ 
+1.7 Rating system for the weak points 
+CVSS 3.1 score is used to evaluate the vulnerabilities. Common Vulnerability Scoring System 
+(CVSS) (https://www.first.org/cvss/) 
+T-Systems International GmbH -internal- Page 9 of 18 
+PU Digital Solutions Version:1.0 Valid from:11.03.2022 Last review 11.03.2022 
+ 
+WHO DDCCG Security Review Report 
+2 Vulnerabilities found in the code review 
+This chapter addresses vulnerabilities which were identified as part of the static analysis. 
+2.1 ddcc-gateway-lib 
+2.1.1 Improper exception handling 
+Improper Exception Handling 
+Description 
+The method update at line 53 and 68 of ddcc-gateway-lib-
+main\src\main\java\eu\europa\ec\dgc\generation\CopyDigest.java performs an operation that could 
+be expected to throw an exception, and is not properly wrapped in a try-catch block.  
+ 
+ 
+ 
+ 
+ 
+ 
+CVSS 3.1 Score 
+0.0 None (informational) 
+CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:N 
+Recommendation/Corrective measures 
+Properly handle exceptions to avoid unintended behavior and crashes. 
+ 
+ 
+ 
+ 
+T-Systems International GmbH -internal- Page 10 of 18 
+PU Digital Solutions Version:1.0 Valid from:11.03.2022 Last review 11.03.2022 
+ 
+WHO DDCCG Security Review Report 
+2.1.2 Input stream is not properly closed 
+Input stream is not properly closed 
+Description 
+The application's coseToQrCode method in ddcc-gateway-lib-
+main\src\main\java\eu\europa\ec\dgc\generation\DgcGenerator.java defines and initializes the 
+DeflaterInputStream / Input stream object at line 136. This object encapsulates a limited resource and is 
+not properly closed. This behavior ties up resources unnecessarily, which can cause a drop in 
+performance.  
+ 
+ 
+ 
+The application's loadKeyStore method in ddcc-gateway-lib-
+main\src\main\java\eu\europa\ec\dgc\gateway\connector\config\DgcGatewayConnectorKeystore.ja
+va defines and initializes the FileInputStream object at 153. This object encapsulates a limited resource 
+and is not properly closed. This behavior ties up resources unnecessarily, which can cause a drop in 
+performance.  
+ 
+ 
+ 
+ 
+CVSS 3.1 Score 
+0.0 None (informational) 
+CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:N 
+Recommendation/Corrective measures 
+Close the opened InputStreams correctly. 
+T-Systems International GmbH -internal- Page 11 of 18 
+PU Digital Solutions Version:1.0 Valid from:11.03.2022 Last review 11.03.2022 
+ 
+WHO DDCCG Security Review Report 
+ 
+2.1.3 Use of a static initialization vector in cryptographic operations 
+No random initial vector in use 
+Description 
+The encryption method encryptData in \ddcc-gateway-lib-
+main\src\main\java\eu\europa\ec\dgc\generation\DgcCryptedPublisher.java 
+does not use a random initial vector. This decreases the computational effort needed for an attacker to 
+decrypt the data.   
+ 
+ 
+ 
+CVSS 3.1 Score 
+3.3 Low 
+CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N 
+Recommendation/Corrective measures 
+A random initial vector should be used. Additionally, the repeated use of the same combination of IV and 
+encryption key should be avoided. 
+ 
+ 
+ 
+  
+T-Systems International GmbH -internal- Page 12 of 18 
+PU Digital Solutions Version:1.0 Valid from:11.03.2022 Last review 11.03.2022 
+ 
+WHO DDCCG Security Review Report 
+2.2 ddcc-trusted-party-reference-implementation 
+2.2.1 Content Security Policy and HSTS Header is not explicitly 
+defined 
+Content Security Policy and HSTS is not explicitly defined 
+Description  
+In \ddcc-trusted-party-reference-implementation-master\components\trustregistry\server.js 
+it could not clearly be identified if an explicit Content Security Policy and HSTS Header is defined.  
+ 
+ 
+ 
+The Content-Security-Policy header enforces that the source of content, such as the origin of a script, 
+embedded (child) frame, embedding (parent) frame or image, are trusted and allowed by the current 
+webpage; if, within the webpage, a content's source does not adhere to a strict Content Security Policy, it 
+may be rejected by the browser. Failure to define a policy may leave the application's users exposed to 
+Cross-Site Scripting (XSS) attacks, Clickjacking attacks, content forgery and more. 
+ 
+Without a HTTP Strict Transport Security (HSTS) Header an attacker can perform a Man-in-the-Middle 
+attack and manipulate it to redirect users to a malicious webpage of the attacker's choosing. To protect 
+the user from such an occurence, the (HSTS) header instructs the user's browser to disallow use of an 
+unsecure HTTP connection to the the domain associated with the HSTS header. Once a browser that 
+supports the HSTS feature has visited a webpage and the header was set, it will no longer allow 
+communicating with the domain over a HTTP connection. Once an HSTS header was issued for a 
+specific website, the browser is also instructed to prevent users from manually overriding and accepting 
+an untrusted SSL certificate for as long as the "max-age" value still applies. The recommended "max-
+age" value is for at least one year in seconds, or 31536000. 
+ 
+CVSS 3.1 Score 
+3.3 Low 
+CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N 
+Recommendation/Corrective measures 
+It must be ensured that explicit settings are made for the setting of the Content Security Policy and HSTS. 
+ 
+T-Systems International GmbH -internal- Page 13 of 18 
+PU Digital Solutions Version:1.0 Valid from:11.03.2022 Last review 11.03.2022 
+ 
+WHO DDCCG Security Review Report 
+2.3 ddcc-gateway 
+2.3.1 InputStream is not properly closed 
+InputStream is not properly closed 
+Description 
+ 
+The application's loadKeyStore method in ddcc-gateway-
+main\src\main\java\eu\europa\ec\dgc\gateway\config\DgcKeyStore.java defines and initializes the 
+getResourceAsStream object at line 95. This object encapsulates a limited resource and is not properly 
+closed. This behavior ties up resources unnecessarily, which can cause a drop in performance.  
+ 
+ 
+ 
+T-Systems International GmbH -internal- Page 14 of 18 
+PU Digital Solutions Version:1.0 Valid from:11.03.2022 Last review 11.03.2022 
+ 
+WHO DDCCG Security Review Report 
+The application's loadKeyStore method in ddcc-gateway-
+main\src\main\java\eu\europa\ec\dgc\gateway\config\DgcKeyStore.java defines and initializes the 
+getStream object at line 98. This object encapsulates a limited resource and is not properly closed. This 
+behavior ties up resources unnecessarily, which can cause a drop in performance.  
+ 
+ 
+ 
+The application's loadKeyStore method in ddcc-gateway-
+main\src\main\java\eu\europa\ec\dgc\gateway\config\DgcKeyStore.java defines and initializes the 
+getStream object at line 98. This object encapsulates a limited resource and is not properly closed. This 
+behavior ties up resources unnecessarily, which can cause a drop in performance.  
+ 
+ 
+CVSS 3.1 Score 
+0.0 None (informational) 
+CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:N 
+Recommendation/Corrective measures 
+Close the object InputStreams correctly. 
+ 
+T-Systems International GmbH -internal- Page 15 of 18 
+PU Digital Solutions Version:1.0 Valid from:11.03.2022 Last review 11.03.2022 
+ 
+WHO DDCCG Security Review Report 
+3 Vulnerabilities found based on penetration 
+testing 
+In this part active tests on the endpoint of the application were conducted to monitor and analyze 
+the behavior towards various requests. 
+The following vulnerabilities could be identified: 
+ 
+ 
+3.1 Information disclosure in responses 
+Information disclosure 
+Description 
+Information Disclosure refers to the publication of not publicly available information/data. This could 
+include eMail addresses, internal IP addresses, error messages, source code, version numbers of utilized 
+software, client data or other information.  
+ 
+The API Endpoint responds to certain request, which if not correctly interpreted or are invalid, with 
+information about the details of the error. A potential attacker can gather information about the system or 
+application behavior from this. This kind of information can be used for the development of further attack 
+vectors.  
+ 
+Example: 
+ 
+GET /trustList/DSC/zipfiles HTTP/1.1 
+Accept: application/json 
+User-Agent: PostmanRuntime/7.28.3 
+Host: ddcc-gateway.861b530c4a22413cb791.westeurope.aksapp.io 
+Accept-Encoding: gzip, deflate 
+Connection: close 
+Cookie: JSESSIONID=7D21A62E136464978DA0C10EC559DECD 
+ 
+ 
+HTTP/1.1 400  
+X-Content-Type-Options: nosniff 
+X-XSS-Protection: 1; mode=block 
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate 
+Pragma: no-cache 
+Expires: 0 
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains 
+X-Frame-Options: DENY 
+Content-Type: application/json 
+Date: Tue, 08 Mar 2022 09:48:17 GMT 
+Connection: close 
+Content-Length: 156 
+ 
+{"code":"0x001","problem":"Validation 
+Error","sendValue":"","details":"downloadTrustListFilteredByCountryAndType.countryCode: size must be between 2 
+and 2"} 
+T-Systems International GmbH -internal- Page 16 of 18 
+PU Digital Solutions Version:1.0 Valid from:11.03.2022 Last review 11.03.2022 
+ 
+WHO DDCCG Security Review Report 
+Information disclosure 
+CVSS 3.1 Score 
+0.0 None (informational) 
+https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:N 
+Recommendation/Corrective measures 
+Details about errors should not be sent to the client. For logging or debugging reasons, internal status 
+codes can be used, instead of detailed information.  
+ 
+T-Systems International GmbH -internal- Page 17 of 18 
+PU Digital Solutions Version:1.0 Valid from:11.03.2022 Last review 11.03.2022 
+ 
+WHO DDCCG Security Review Report 
+4 Tools and Applications used for the penetration 
+test 
+Application Version Description 
+NMap 7.92 Port scanner 
+Kali Linux Rolling Distribution for Penetration Tests 
+Burp 2021.10.2 Pentesting-Framework for webapplications 
+Postman 8.10.0 API-Development platform  
+OWAS- 7.0.0 Software Composition Analysis (SCA) tool 
+Dependency 
+Check 
+Checkmarx 9.4.3 Static analysis tool 
+Visual Studio 1.65.1 Code Editor 
+Code 
+ 
+ 
+ 
+T-Systems International GmbH -internal- Page 18 of 18 
+PU Digital Solutions Version:1.0 Valid from:11.03.2022 Last review 11.03.2022 
+ 

@@ -1,0 +1,1097 @@
+DIVOC Wiki
+Introduction to DIVOC
+Digital Infrastructure for Vaccination Open Credentialing
+What is DIVOC?
+The Digital Infrastructure for Vaccination Open Credentialing or DIVOC is an open-source platform 
+that enables countries to digitally orchestrate large-scale health campaigns such as vaccination and 
+certification programs.
+Learn more about the platform on the DIVOC website or Contact us for more details.
+Facilitates last-mile delivery of health programs at scale
+Built in India for the world as a digital public good, DIVOC is a flexible and extendable software that 
+can be used across multiple health programs.
+Its scalable and data-driven architecture allows it to deal with diverse country-specific scenarios. In a 
+vaccination program, for example, it gives countries the ability to manage and control vaccines, facilities, 
+and vaccinators systematically across geographies, as well as generate digitally variable certificates 
+that are compliant with international standards.
+Our Key Modules
+The platform is modular, enabling countries to use the components together or as an individual 
+standalone solution, according to their need, for end-to-end vaccination and certification.
+DIVOC Demo: Click here to play around with the modules.
+DIVOC’s journey so far: Country stories
+Being deployed across multiple countries, the platform has enabled India to issue over 1 billion COVID-19 
+vaccination certificates to its citizens.
+Launched at Scale: India                                            Now live in…
+DIVOC’s certificate component went 
+live with digital vaccination certificates 
+1.1 billion digitally signed vaccinated certificates 
+in Sri Lanka in July 2021, in the Philippines in 
+via Cowin. September 2021, and in Jamaica and Indonesia
+in December 2021. 
+DIVOC has enabled the Indian Council of Medical 
+Research (ICMR) to Plans are underway to issue COVID-19 test resu
+issue digitally-signed certificates in both Sri Lanka and Philippines.
+COVID-19 test reports.
+All content on this page by eGov Foundation is licensed under a Creative Commons Attribution 4.0 
+International License.
+DIVOC Architecture
+Coming soon.....
+DIVOC Demo
+Introduction to DIVOC Modules
+Each module or component of DIVOC can be used independently or together and integrated with existing 
+systems. This makes it easy for countries to choose, customise and pick up components as per their needs.
+How this demo works
+The tutorials will guide you on how to use DIVOC:
+There are 6 sections and you can play around with each to understand how they work as per your 
+specific needs. 
+Or,
+You can go step-by-step as shown below: Orchestration - Facility app - Issue and Distribute Certificates 
+- Citizen portal - Feedback module - Analytics.
+Getting Started
+1. Orchestration: 
+Before you start any public health program in your country, the orchestration
+module helps you establish multiple registries for the program, set up appointment schedules, and add 
+vaccinators, among others.
+2.  Facility app: 
+Enables walk-in registrations, verification, queue management, and vaccination. The app lets you:
+Enrol/register beneficiaries who walk into the facility for on-the-spot registration. The process to register 
+is the same as shown for the citizen portal. Pre-enrolled recipients can also walk into a facility.
+Verification of beneficiaries via offline or online mode.
+Recipient queue to view and manage the list of beneficiaries enrolled into the system.
+Vaccination event recording and generation of an “immutable vaccination record.”
+3. Issue & Verify Certificates  
+The certificate/credentialing module is an integral part of DIVOC, which can be used to issue certificates 
+after a vaccination event. The module can also be integrated with the vaccination system of the country. 
+4.  Citizen portal 
+DIVOC provides a public portal that can be used for citizen-specific activities such as self-registration and 
+appointment booking for one or multiple programs. It can also be used to download and verify certificates.
+5. Feedback 
+Enables digital administrative feedback and reporting of side-effects by beneficiaries or their caretakers. The 
+feedback module can be integrated with a country's analytics system or even with an AEFI (adverse event 
+following immunisation) system for research and analysis of the reported side-effects.
+6. Analytics 
+The performance monitoring dashboard gives day-to-day details about an ongoing public health event such 
+as vaccination.
+Disclaimers: 
+Each section presents a demonstration of various modules and features of DIVOC. 
+It is an illustration of a sample use case and not a part of any vaccination certification program. 
+The system resets itself periodically. If it is temporarily unavailable, please try again in a few minutes.
+All content on this page by eGov Foundation is licensed under a Creative Commons Attribution 4.0 
+International License.
+Orchestration
+Using this module you can create and maintain program, facility, vaccine, and vaccinator registries. 
+Countries that do not have digital health registries can use this module to create digital 
+infrastructure/resources for any kind of public health program. Countries can also create appointment 
+schedules and daily rates of vaccination for different facilities.
+Program Registry Vaccine Registry Facility Registry Vaccinator Registry
+Trained 
+Vaccination programs Approved vaccines Approved facilities
+vaccinators
+Active status Active status Location Active status
+Training 
+Allowed vaccines Vaccination schedule Active status
+certificate
+Vaccination daily Associated 
+Start and end dates Batch deny list
+rate facilities
+Rating and 
+Certificate templates Max retail price Total supply
+feedback
+ Vaccination method Rating and feedback  
+Who would typically use this module? 
+DIVOC comes with three default roles:
+System admin 
+Controller 
+Facility admin
+Each has specific functions and logins assigned to them - 
+Steps to follow:
+1. System Admin 
+A system admin can be a user from the IT department of the country responsible for setting up initial rules, 
+configuration, and master data upload for the specific program/programs in question.
+Use the following URL: https://demo-divoc.egov.org.in/portal. Log in using 2111111111 and OTP 1234
+A. Program setup
+1. Click on Vaccine Programs. Register a new vaccine/immunisation program by clicking on REGISTER 
+NEW VACCINE PROGRAM.
+2.  Add the program name, program description, program logo, start and end dates, and select vaccine. Click 
+on SAVE. You will see a list of all vaccine programs currently active in your country.
+B. Vaccine registration
+1. Click on Vaccines. You can register a new vaccine, as well as existing ones by clicking on REGISTER 
+NEW VACCINE.
+2. Fill in details such as the name of the vaccine, manufacturer, administration type,
+price, duration dose (if there are multiple doses), and vaccine validity. Next, click on
+SAVE. It will show all the vaccines active in your country.
+C. Facility setup
+1. Click on Facilities. Create a list of vaccination centres as per the given CSV template and save it on your 
+laptop/desktop. You can add details such as facility code, facility name, contact, email, operating hour 
+(start/end), category, type, status, address, website URL, admin name, and admin mobile.
+2. Click on UPLOAD CSV to upload this list.
+D. Recipient pre-enrollment
+1. Click on Pre-Enrollment. Create a list of the number of recipients successfully enrolled as per the given 
+CSV template. You can add details such as phone number, identity, date of birth, gender, name, email, 
+address, and dose number, among others. Once the list is ready, save it on your laptop/desktop. Click on 
+Select a Program.
+2. Next, click on UPLOAD CSV to upload the list.
+E. Set up vaccinators
+1. Click on Vaccinators. Create and save a list of vaccinators that have been identified and trained for the 
+vaccination program/campaign as per the suggested CSV template on your  laptop/desktop. Add details 
+such as code, name, mobile number, email id, status, and facility id.
+2. Click on UPLOAD CSV to upload the list.
+2. Controller 
+The controller user role can be utilised by a program administrator who manages facility enrollment and 
+oversees the facility operations aligned with the program objective. The person would be responsible for 
+setting up per day facility vaccination rate, and activating/deactivating the facilities, etc.
+Use the following URL: https://demo-divoc.egov.org.in/portal. Log in using 1111111170 and OTP 1234
+A. Facility activation/deactivation 
+Go to Facility Activation. Select Program, Region, and Type of Facility. Select the facilities you want to 
+activate from the list. Click on Make Active. To deactivate a facility, follow the same steps and select the 
+facilities you want to deactivate. Click on Make Inactive to deactivate a facility.
+B. Adjusting vaccination rate
+Go to Adjusting Rate. Select Program Name, Region, Type of Facility. Select one or more facilities to 
+set/modify daily vaccination rates. Click on SET RATES.
+C. Notify Facilities
+1. Go to All Facilities. Select Program, Region, Type of Facility. Select the facility. Click on NOTIFY.
+2. Write the subject matter and the message. Click on SEND.
+3. Facility Admin
+Use the following URL: https://demo-divoc.egov.org.in/portal. Log in using 3333333341 and OTP 1234.
+A. Set up appointment schedules
+1. Go to Program Overview. Click on CONFIGURE SLOTS.
+2. Select Appointment Hours to set/change the timings, and set up/change the Maximum number of 
+appointments allowed. Select Walk-in Hours to set up /change the timings, and set up/change the Walk-in 
+Days. Click on SAVE.
+B. Add/Remove Vaccinators
+1. Go to Vaccinator Details. Click on ADD NEW VACCINATOR.
+2. Add details such as name, mobile number, email id, license number, and certification, if any. Click on 
+ADD.
+C. Setup facility staff role
+1. Go to Role Setup. Mention role type, name, mobile number, and employee id. Select Enabled to activate 
+status. Click on SAVE.
+D. Create recipient vaccination details
+1. Go to Upload Vaccination Details. Create a list of recipients as per the given CSV template and save it 
+on your laptop/desktop. You can add details such as pre-enrollment code, recipient name, mobile number, 
+age, gender, identity, address, vaccination batch, vaccination date, vaccination dose, vaccination name, 
+vaccinator name, facility name, and address, among others.
+2. Click on UPLOAD CSV to upload this list.
+E. Check beneficiary list (past, current and upcoming)
+Go to Beneficiaries. Select Program, Start Date, and End Date. Click on SEARCH.
+All content on this page by eGov Foundation is licensed under a Creative Commons Attribution 4.0 
+International License.
+Facility App
+Who would typically use this?
+It will be typically used by facility staff, including vaccinators and registration desk users, to carry out day-to-
+day tasks around a particular vaccination program. The app can be used both in offline and online mode. 
+This is a multilingual application and the staff can choose the language according to their convenience.
+What does this app allow?
+1. Verify Beneficiary
+This function can be used to verify a beneficiary against the photo/national ID proof submitted by the 
+beneficiary at the time of registration. If a country has an online ID system (such as Aadhaar in the case of 
+India), the module can be integrated with the national ID system and can perform an online verification.
+Step 1: Log in 
+Click on the following URL to use the facility app: https://demo-divoc.egov.org.in/facility_app/. Log in 
+using 9876543210 and OTP 1234. Next, click on Verify Beneficiary.
+
+Step 2: Verify
+Scan the QR code or enter the enrolment number. Press Continue to complete the verification process.
+2. Add new beneficiaries
+The facility app supports the registration of walk-in patients who may or may not have booked an 
+appointment before the visit.
+Click on New Beneficiary. Follow the same steps as outlined for users of the Citizen Portal to add 
+members.
+3. Recipient waiting
+All the beneficiaries who have been registered and verified, and are waiting to be vaccinated, will be seen in
+the recipient queue.
+Click on Beneficiary Queue to check how many patients are in queue for vaccination.
+4. Issue/ Distribute Certificates
+After a vaccination event, the facility app generates a digital certificate in real-time. 
+Countries that have their own vaccination systems can use the DIVOC certification module to issue 
+certificates that will be auto-generated and stored in DIVOC’s certificate registry. 
+If configured, the issued certificates will be seen under the “certificate issued” section on the app. They 
+can also be distributed to vaccinated beneficiaries at a facility after they are printed by the facility staff.
+All content on this page by eGov Foundation is licensed under a Creative Commons Attribution 4.0 
+International License.
+Issue and Verify Certificates
+What this module allows:
+Countries can use this module to issue digitally verifiable certificates to the entire population at speed 
+and scale in a controlled manner post-vaccination.
+This module is responsible for issuing a QR code-based digital certificate for any registered health 
+event. It can be adapted to other areas too where there is a requirement for secure and tamper-proof 
+documents, such as educational certificates. Click here if you want to understand how a normal QR 
+code that you may see on a food menu is different from a  verifiable QR code.
+The certificates can be issued in both digital and physical forms, which includes print, pdf, and other 
+formats. 
+Certificates can be verified using the citizen portal.  
+Certificates can also be downloaded by citizens via the citizen portal. 
+If the country has an authorised third-party app, it can be integrated with DIVOC's credentialing module 
+to fetch certificates from the certificate registry and view/download them.
+Once the certificate is issued, multi-channel distribution and print schemes should work to ensure users and countries have a choice.
+The module supports multilingual vaccination certificate templates. 
+Generates WHO-DDCC (World Health Organisation- Digital Documentation of COVID-19 Certificates) 
+compliant digital vaccination certificates with a W3C (World Wide Web Consortium) JSON schema, for 
+every resident after successful inoculation. 
+To aid travel into other countries, the certificate module supports on-demand services for travellers to 
+export their vaccination certificates to other formats (e.g. EU-DCC, SmartHealthCard), used in the 
+destination countries. 
+The module supports additional services, including certificate verification, certificate update/correction, 
+and certificate revocation. 
+The public key of the adopter country can be published using DIVOC’s verification page that can be 
+embedded into the country's vaccination program-specific website/portal.
+All content on this page by eGov Foundation is licensed under a Creative Commons Attribution 4.0 
+International License.
+Verifiable QR Code
+You have likely seen a lot more QR codes over the last year due to the pandemic. At many restaurants, for 
+example, which are keen not to share physical menus, customers scan a QR code with their phone camera 
+to open a website for the online menu.
+What is a QR code?
+Short for Quick Response, a QR code stores all kinds of information that can be scanned and accessed 
+by a digital device such as your smartphone.
+The machine-readable format can also be printed on a piece of paper.
+While barcodes are one-dimensional, which means that information can be scanned only horizontally, 
+QR codes are two-dimensional. Hence, information on a QR code can be read both horizontally and 
+vertically, allowing it to store more data.
+QR codes allow you to download applications, join WiFi networks without having to key in any 
+password, scan coupons, and much more. They can be embedded on a company’s website to gather 
+feedback, facilitate registrations, collect customer data, and order details. QR codes can be used on 
+physical products as a way to provide more information.
+QR codes are also used for document verification to check if a credential is genuine. This has gained 
+popularity during the pandemic with some countries opting for QR code-based vaccination certificates to 
+open up travel and business.
+Normal QR Code vs Signed QR Code
+A normal QR code contains information that can be read and understood by any QR code viewer. They 
+typically carry a URL and a scan of such QR codes reroutes to a separate site.
+In a normal QR code, information can be edited and altered, making the verification process 
+untrustworthy and vulnerable to hacking. To address this issue, a signed or verifiable QR code is used, 
+particularly in the case of sensitive information. Sensitive data could be your bank details, educational 
+details, and medical information, among others.
+A signed QR code encodes the verifiable data set or information within the QR itself, rather than on any 
+website.
+The information is secure and cannot be altered or tampered with, nor can it be scanned and accessed 
+by everyone. This is because the original data/information in the QR code is digitally signed.
+In the case of COVID-19 vaccination certificates, for example, data identifying the vaccination event and 
+the beneficiary is encoded within a QR code and then digitally signed, making it tamper-proof. Only a 
+verifying authority with a secure key can validate this information accurately by matching it with the 
+signing key of the QR code.
+What information goes into a QR code?
+Click here to know more.
+All content on this page by eGov Foundation is licensed under a Creative Commons Attribution 4.0 
+International License.
+Citizen Portal
+Who would typically use this?
+Citizens can use this portal before and after a vaccination event.
+What this module allows
+Self-registration
+Appointment booking 
+Downloading a certificate 
+Verifying a certificate
+Side-effects reporting (Feedback module)
+Steps to follow
+1. For self-registration and appointment -
+Step 1: Log in to the portal
+Use the following URL for the citizen portal: https://demo-divoc.egov.org.in/citizen. Log in using your own 
+mobile number and OTP 123456. Click on Verify.
+Step 2: Add a member
+Click on +Member to add members (you can register yourself and 3 more with a single mobile number).
+Step 3: Register to a program
+Select the program for which you want to register (if there are multiple programs listed). Click on Continue.
+Step 4: Check eligibility
+Enter the beneficiary’s year of birth and mention if the person has any commodities from among those listed. 
+Click on Continue.
+Step 5: Add details
+Mention ID type, ID number, name, gender, residence details, contact information, and email ID among 
+others. Once you have added all the details, click on Continue. You can book your appointment once you 
+have registered yourself.
+2. For Downloading a Certificate -
+Step 1: Log in
+Click on the following URL to log into the citizen portal: https://demo-divoc.egov.org.in/. Go to Download 
+your Vaccination Certificate section. Click on Download.
+Log in with 1234567890 and OTP 1234.
+Step 2:
+Select the person whose certificate you want to download or print.
+Step 3:
+Once the certificate is displayed, click on Download / Print.
+3. For Certificate Verification -
+Step 1:
+Click on the following URL: https://demo-divoc.egov.org.in/. Go to Verify your Vaccination Certificate 
+section. Click on Verify.
+Step 2:
+Click on SCAN WITH QR to verify the certificate.
+All content on this page by eGov Foundation is licensed under a Creative Commons Attribution 4.0 
+International License.
+Feedback
+Who would typically use this? 
+DIVOC has a feedback module that can be configured by countries to receive feedback on facilities that are 
+running health campaigns. It can also configure a list of side-effects that can be reported by beneficiaries 
+with a single click after authenticating themselves with a user ID password or mobile OTP via the “Citizen 
+Portal.”
+Citizen portal to report symptoms 
+A citizen interface via the DIVOC’s citizen portal has been enabled that can be used to provide feedback 
+against the facility or report side-effects experienced after leaving the facility.
+Steps to follow
+Step 1:
+Click on the URL to open the feedback page: https://demo-divoc.egov.org.in/
+Step 2:
+Go to the Report symptoms section, and click on Report Side-effects.
+Step 3:
+A page will be displayed with a list of symptoms that users can choose from. After selecting the symptoms, 
+click on Confirm Symptoms.
+Step 4:
+Log in with 1234567890 and OTP 1234. 
+Step 5:
+On successful login, a patient verification page will be displayed. Select the patient who has these 
+symptoms and click on Submit.
+Step 6:
+Click on Confirm Patient after verifying the details.
+Note:
+Once the feedback is submitted, a notification is sent to the healthcare facility where the patient was 
+vaccinated. The screen will also display details of the nearest health facility that the patient can visit if the 
+symptoms worsen. Click on Continue if you want to report the symptoms of another person.
+All content on this page by eGov Foundation is licensed under a Creative Commons Attribution 4.0 
+International License.
+Analytics
+Who would typically use this?
+During any major health event, countries need powerful visual analytics to manage the rollout, distribution, 
+certification, and other processes. DIVOC’s analytics dashboard empowers health departments of countries 
+to harness their data and find insights that are required to manage future challenges.
+Real-time analytics oversee the entire process
+It uses an open-source visualisation dashboard called “Redash,” which can be configured by countries.
+It is integrated with DIVOC’s certificate module. Redash can be configured for other modules of DIVOC 
+as well as per a country's requirements.
+Countries can generate customised analytical reports without hampering the actual production database 
+via ClickHouse, an open-source database management system that has been implemented by DIVOC.
+You can also see details on certificate generation and its distribution for further analysis on parameters 
+such as geographical region, age, gender, type of facility, type of fund, and other customised indicators.
+All content on this page by eGov Foundation is licensed under a Creative Commons Attribution 4.0 
+International License.
+Developer Documents
+This section includes the following:
+1. Admin API (swagger)
+2. Vaccination API (swagger)
+3. Certificate Access API (swagger)
+4. Registration API (swagger)
+All content on this page by eGov Foundation is licensed under a Creative Commons Attribution 4.0 
+International License.
+Implementing DIVOC
+Setting up DIVOC in your country to orchestrate a new health program? The guide covers everything you 
+need to know to implement DIVOC. The different sections are meant for people who are involved in 
+planning and managing the various aspects of the implementation process, as well as those involved in the 
+technical work. The documents cover the various steps and configurations required. 
+What will it cover?
+A. Skills needed to set up DIVOC
+B. Certificate and Verification component 
+Each country will have its own set of requirements in line with globally accepted standards for issuing 
+certificates. The guides will walk you through:
+How to configure the certificate component? 
+How to set up the verification portal for your implementation?
+How to set up update certificates API?
+How to integrate with the SMS/Email gateway to notify beneficiaries?
+How to configure revocation services?
+  
+All content on this page by eGov Foundation is licensed under a Creative Commons Attribution 4.0 
+International License.
+Skills needed to set up DIVOC
+The technical skills required by DIVOC adopters vary and are based on the level of changes they intend to 
+make to the core DIVOC platform.
+What does this section cover?
+Skills needed for a simple setup scenario 
+Skills needed for a complex setup scenario
+Simple setup: Only setup and configuration
+This includes:
+1. Setting up infrastructure on cloud or on-premise. 
+2. Deployment of application components/services.
+3. Configuration of components to connect to work as a single system:
+                        - Configure templates, such as data import templates for facility registry.    
+                        - Keycloak to change OTP-based login in keycloak to password-based login. 
+                        - Configuration of certificate templates.
+Skills the team should have:
+Experience in setting up Kubernetes cluster / Docker-based deployment. 
+Experience in setting up and configuring platforms such as Kafka, Redis, Postgres, and Keycloak. 
+Experience in HTML templates design.
+Complex setup: Setup, configuration, and customisation
+Customise DIVOC as per the country-specific requirements and its implementation need, such as:
+1. Changes in registry schema: This includes changes in the type of information being captured on various 
+events. 
+2. UI: This includes applying country-specific branding on the various UI pages of the portal. 
+3. Add and Update APIs: This includes the introduction of new API calls within as well as with third-party 
+applications, such as integration with the supply chain system to provide updates on the stock used at 
+the facility level. It also involves updating existing APIs, such as changing mandatory fields to non-
+mandatory in API payloads and changing response structure, among others.
+Skills the team should have:
+Experience in technologies such as HTML, Jquery, React, JavaScript for UI level changes. 
+Experience in technologies such as Go for API-related changes. 
+Experience in OpenSaber and Postgres for registry-related changes. 
+Experience in integrating platform services used in selected components for customisation and 
+implementation.
+                     
+DIVOC's Certification and Verification component
+DIVOC’s certificate module has been adopted for the ongoing COVID-19 vaccination programs in multiple 
+countries. The guide and its different sections describe the various steps that you have to follow when 
+implementing one or more features of the certification and verification component, depending on your 
+country’s needs.
+Country-specific requirements may include the following:
+1. Certificate Component -
+Generate certificates 
+Update certificates 
+Revoke fake or incorrect certificates 
+Fetch certificate 
+Fetch QR Code 
+Notify beneficiaries
+2. Verification component
+What will the sections cover?
+1. How to configure the certificate generation component? 
+2. How to set up the verification portal for your implementation?
+3. How to set up update certificates API?
+4. How to integrate with the SMS/Email gateway to notify beneficiaries?
+5. How to configure revocation services? 
+All content on this page by eGov Foundation is licensed under a Creative Commons Attribution 4.0 
+International License.
+Configuring certificates
+Overview
+This document will help an implementer configure a certificate (template and QR code) for a health event 
+such as vaccination. This section includes configuring:
+1. Certificate generation request 
+2. QR code section 
+3. Certificate template
+API 
+The DIVOC platform provides API services for generating digitally verifiable QR code-based vaccination 
+certificates. The API for certificate generation has 6 sections:
+1. PreEnrollmentCode: This section is linked to the “dose” in the vaccination section to uniquely identify 
+the event. For example, beneficiary registration number (R101) and dose number (1) as (R101-1) will be 
+used to identify the first dose event uniquely. Similarly, beneficiary registration number (R101) and dose 
+number (2) as (R101-2) will be used to identify the second dose event uniquely.
+2. Recipient: It contains information about the beneficiary.
+3. Vaccination: It contains details about the vaccination event such as name, batch, and vaccination date.
+4. Vaccinator: It contains details about the vaccinator.
+5. Facility: It contains details about the facility where beneficiaries will get vaccinated.
+6. Meta: It contains additional information, which is not part of the QR code, such as the number of past 
+doses taken. 
+Sample for default certificate generation request
+You can refer to the API service call with sample data below:
+1 [
+2     {
+3         "preEnrollmentCode": "62",
+4         "recipient": {
+5             "name": "Sam",
+6             "uhid": "abc2232",
+7             "dob": "1990-09-14",
+8             "age": "31",
+9             "gender": "Male",
+10             "nationality": "India",
+11             "identity": "did:in.gov.uidai.aadhaar:11112222334",
+12             "contact": [
+13                 "tel:1111111313"
+14             ],
+15             "address": {
+16                 "addressLine1": "123, Koramangala",
+17                 "addressLine2": "",
+18
+18
+19                                 ""sdtiastter"i:c t""b:i h"aBre"n,galuru South",
+20                 "pincode": "560033"
+21             }
+22         },
+23         "vaccination": {
+24             "name": "covaxin",
+25             "batch": "AB348FS",
+26             "manufacturer": "Bharat Biotech",
+27             "date": "2021-07-12T19:21:19.646Z",
+28             "effectiveStart": "2021-07-12",
+29             "effectiveUntil": "2021-08-12",
+30             "dose": 2,
+31             "totalDoses": 2
+32         },
+33         "vaccinator": {
+34             "name": "Sooraj Singh"
+35         },
+36         "facility": {
+37             "name": "ABCD Medical Center",
+38             "address": {
+39                 "addressLine1": "123, Koramangala",
+40                 "addressLine2": "",
+41                 "district": "Bengaluru South",
+42                 "state": "Karnataka",
+43                 "pincode": "560033"
+44             }
+45         },
+46         "programId": "6ce74c0f-b1b5-4b20-9fa2-084acbbd857a",
+47         "meta": { //Meta section stored as an Object and it can contain information in    K
+48         }
+49     }
+50 ]\
+Refer to the /v3/certify service here for details. 
+Click here if you want to understand the mandatory and non-mandatory information that should be there 
+in a vaccination certificate, according to global standards.
+Key Functionalities 
+Generate configured QR code 
+Generate configured certificate template
+Prerequisite: Get details on API request and field validations
+a. Please refer to the existing service details in the ‘certification’ section (/v3/certify): 
+https://egovernments.github.io/DIVOC/developer-docs/api/admin-
+api.html#../../india/interfaces/vaccination-api.yaml
+b. The detailed field validations are mentioned here: 
+https://github.com/egovernments/DIVOC/blob/4076e69cf152fd76dafa8a0565777895f55b1245/interfac
+es/vaccination-api.yaml 
+1 // /v3/certify:
+2     post:
+3       tags:
+4         - certification
+5       summary: Certify the one or more vaccination
+6       description: >-
+7         Certification happens asynchronously, this requires vaccinator
+8         authorization and vaccinator should be trained for the vaccination that
+9         is being certified. The payload for this API is compliant with DDCC core
+10         data set prescribed by WHO
+11       operationId: certifyV3
+12       parameters:
+13         - in: body
+14           name: body
+15           required: true
+16           schema:
+17             type: array
+18             items:
+19               $ref: '#/definitions/CertificationRequestV2' //Refer Line 722 in same file 
+20       responses:
+21         '200':
+22           description: OK
+23         '400':
+24           description: Invalid input
+25           schema:
+26             $ref: '#/definitions/Error'
+Making the changes
+Click the following to see how you can make the changes:
+1. Create a certification generation request
+2. Update the QR code content
+3. Update the certificate template
+All content on this page by eGov Foundation is licensed under a Creative Commons Attribution 4.0 
+International License.
+Step 1: Create a certification generation request
+Example
+Include the beneficiary’s parent name in the certificate. The parent’s name is “Sam Mandosa”. This is a 
+mandatory field.
+Steps
+Step 1: Create a certification generation request
+a. Open this file: 
+https://github.com/egovernments/DIVOC/blob/main/backend/vaccination_api/pkg/certify_handler.go
+b. Add a parameter in the function “convertToCertifyUploadFields” called RecipientParentName.
+1 func convertToCertifyUploadFields(data *Scanner) *db.CertifyUploadFields {
+2  return &db.CertifyUploadFields{
+3   PreEnrollmentCode:         data.Text("preEnrollmentCode"),
+4   RecipientName:             data.Text("recipientName"),
+5 RecipientParentName:        data.Text("recipientParentName"),
+6   RecipientMobileNumber:  data.Text("recipientMobileNumber"),
+7   RecipientDOB:              data.Text("recipientDOB"),
+8   RecipientGender:           data.Text("recipientGender"),
+9   RecipientNationality:      data.Text("recipientNationality"),
+10   RecipientIdentity:         data.Text("recipientIdentity"),
+11   RecipientAge:              data.Text("recipientAge"),
+12   RecipientAddressLine1:  data.Text("recipientAddressLine1"),
+13   RecipientAddressLine2:  data.Text("recipientAddressLine2"),
+14   RecipientDistrict:         data.Text("recipientDistrict"),
+15   RecipientState:            data.Text("recipientState"),
+16   RecipientPincode:          data.Text("recipientPincode"),
+17   VaccinationBatch:          data.Text("vaccinationBatch"),
+18   VaccinationDate:           data.Text("vaccinationDate"),
+19   VaccinationDose:           data.Text("vaccinationDose"),
+20   VaccinationTotalDoses:   data.Text("vaccinationTotalDoses"),
+21  VaccinationEffectiveStart:data.Text("vaccinationEffectiveStart"),
+22  VaccinationEffectiveEnd:data.Text("vaccinationEffectiveEnd"),
+23  VaccinationManufacturer:   data.Text("vaccinationManufacturer"),
+24   VaccinationName:           data.Text("vaccinationName"),
+25   VaccinatorName:            data.Text("vaccinatorName"),
+26   FacilityName:              data.Text("facilityName"),
+27   FacilityAddressLine1:      data.Text("facilityAddressLine1"),
+28   FacilityAddressLine2:      data.Text("facilityAddressLine2"),
+29   FacilityDistrict:          data.Text("facilityDistrict"),
+30
+30
+  FacilityState:             data.Text("facilityState"),
+31   FacilityPincode:           data.Text("facilityPincode"),
+32  }
+33 }
+c. Add RecipientParentName in the function “createCertificate” to make the field mandatory.
+1 recipient := &models.CertificationRequestRecipient{
+2   Name: &certifyData.RecipientName,
+3   Age:  recipientAge,
+4   Address: &models.CertificationRequestRecipientAddress{
+5    AddressLine1: &certifyData.RecipientAddressLine1,
+6    AddressLine2: certifyData.RecipientAddressLine2,
+7    District:     &certifyData.RecipientDistrict,
+8    Pincode:      &certifyData.RecipientPincode,
+9    State:        &certifyData.RecipientState,
+10   },
+11   Contact:     contact,
+12   Dob:         dateAdr(strfmt.Date(dob)),
+13   Gender:      &certifyData.RecipientGender,
+14   Nationality: &certifyData.RecipientNationality,
+15   ParentName: &certifyData.RecipientParentName,
+16   Identity:    &certifyData.RecipientIdentity,
+17  }
+d. If the data is uploaded via CSV, then add this column to the CSV template for this field. Open 
+“application-default.yml” and update the certificate section in this file.
+Note:
+As a standard practice, we recommend you to update the informative files mentioned in Step 1 of this 
+section.
+Make sure the name matches exactly with the name convertToCertifyUploadFields function that you 
+edited in step 1.
+All content on this page by eGov Foundation is licensed under a Creative Commons Attribution 4.0 
+International License.
+Step 2: Configure the QR code content
+The template for the QR code generation is provided here under vaccination-context. The QR code structure
+must match the vaccination-context. Any updates made in the QR code content must reflect in the 
+vaccination-context.js file.
+Steps:
+a. Open the file main.js.
+b. Go to the function transformW3 and add the fields according to your requirement. This function will read 
+the data received from the certificate generation API call and convert it into QR code Json format.
+1 function transformW3(cert, certificateId) {
+2   const certificateType = R.pathOr('', ['meta', 'certificateType'], cert);
+3   const namespace = certificateType === CERTIFICATE_TYPE_V3 ? CERTIFICATE_NAMESPACE_V2 : CE
+4   const recipientIdentifier = R.pathOr('', ['recipient', 'identity'], cert);
+5   const preEnrollmentCode = R.pathOr('', ['preEnrollmentCode'], cert);
+6   const recipientName = R.pathOr('', ['recipient', 'name'], cert);
+7   const recipientGender = R.pathOr('', ['recipient', 'gender'], cert);
+8   const recipientNationality = R.pathOr('', ['recipient', 'nationality'], cert);
+9   const recipientParentName = R.pathOr('', ['recipient', 'parentName'], cert);
+c. Add the newly-added field to the data variable
+1 let data = {
+2     namespace, recipientIdentifier, preEnrollmentCode, recipientName, recipientGender, reci
+3     issuer, issuanceDate, evidenceId, InfoUrl, feedbackUrl,
+4     certificateId, batch, vaccine, icd11Code,  prophylaxis, manufacturer, vaccinationDate, 
+5     verifierName,
+6     facilityName, facilityAddressLine1, facilityAddressLine2, facilityAddressDistrict, faci
+7   };
+Note: 
+Certain constant values are also listed in the main.js. If you want to update any of the constant values such 
+as “certificate controller,” please refer to the DockerFile.
+All content on this page by eGov Foundation is licensed under a Creative Commons Attribution 4.0 
+International License.
+Step 3: Configure the certificate template
+Each country will have a separate certificate template with country-specific branding, and language.
+Steps:
+a. The DIVOC certificate template has been designed in the HTML format. To configure the HTML-based 
+certificate template according to your country’s requirement, open certificate_template.html and map the 
+dynamic fields in the certificate template.
+1 <tr>
+2         <td><span class="d-flex pt-1 pb-1 font-bold">Beneficiary Name</span></td>
+3         <td><span class="d-flex pt-1 pb-1 font-bold">Beneficiary Parent Name</span></td>
+4     </tr>
+5     <tr>
+6         <td><span class="d-flex">{{name}}</span></td>
+7         <td><span class="d-flex">{{parentName}}</span></td>
+8     </tr>
+b. Any modifications that you make (such as combining address fields as a single string) to the address 
+value must be performed in controller.js. The dynamic values will be sent from controller.js
+1 function prepareDataForVaccineCertificateTemplate(certificateRaw, dataURL) {
+2     certificateRaw.certificate = JSON.parse(certificateRaw.certificate);
+3     const {certificate: {credentialSubject, evidence}} = certificateRaw;
+4     const certificateData = {
+5         name: credentialSubject.name,
+6         parentName: credentialSubject.parentName,
+7         age: credentialSubject.age,
+8         gender: credentialSubject.gender,
+9         identity: formatId(credentialSubject.id),
+10         beneficiaryId: credentialSubject.refId,
+11         recipientAddress: formatRecipientAddress(credentialSubject.address),
+12         vaccine: evidence[0].vaccine,
+13         vaccinationDate: formatDate(evidence[0].date) + ` (Batch no. ${evidence[0].batch} )
+14         vaccineValidDays: `after ${getVaccineValidDays(evidence[0].effectiveStart, evidence
+15         vaccinatedBy: evidence[0].verifier.name,
+16         vaccinatedAt: formatFacilityAddress(evidence[0]),
+17         qrCode: dataURL,
+18         dose: evidence[0].dose,
+19         totalDoses: evidence[0].totalDoses,
+20         isFinalDose: evidence[0].dose === evidence[0].totalDoses,
+21         currentDoseText: `(${getNumberWithOrdinal(evidence[0].dose)} Dose)`
+22     };
+23
+24     return certificateData;
+25 }
+Note: 
+To check the PDF/print version, which will be generated after an update, open the HTML file in the 
+browser and check for the print preview. 
+The page size should be A4 as the HTML is developed according to A4 dimensions.
+All content on this page by eGov Foundation is licensed under a Creative Commons Attribution 4.0 
+International License.
+How to set up the verification portal for implementation
+Overview 
+The document will help an implementer make changes to DIVOC’s verification component in line with any 
+changes made to the certificate. It could include changes in the QR code section of the certificate or the 
+logo, among others.
+This section will cover the steps to update the verification component by configuring: 
+1. Verification portal home page 
+2. Verification confirmation page
+Prerequisite: Get details on on functions used for certificate 
+verification
+1. The user will be directed to the verification page according to the  route defined in this file:
+1  <div style={{paddingBottom: "3rem", paddingTop: "3rem"}}>
+2   <Switch>
+3  <Route exact path={"/"} component={Home}/>
+4  <Route exact path={config.urlPath + "/login"} component={Login}/>
+5  <Route exact path={"/side-effects"} component={SideEffects}/>
+6  <Route exact path={"/feedback"} component={SideEffects}/>
+7  <PrivateRoute exact path={"/feedback/verify"} component={SubmitSymptomsForm} role={
+8  <Route exact path={"/dashboard"} component={Dashboard}/>
+9  <Route exact path={"/verify-certificate"} component={VerifyCertificate}/>
+10  <Route exact path={"/learn"} component={Learn}/>
+11  <Route exact path={"/not-found"} component={PageNotFound}/>
+12  </Switch>
+13 </div>
+2. You can configure the timeout period for the camera to read the QR code in 
+config.CERTIFICATE_SCAN_TIMEOUT. 
+3. If the camera is unable to read the QR code content, the timeout can be set to retry.
+1 const onScanWithQR = () => {
+2         setShowScanner(true);
+3         setTimeout(() => {
+4             if(!result) {
+5                 setShowTimeout(true);
+6             }
+7         }, config.CERTIFICATE_SCAN_TIMEOUT);
+8     };
+9
+10
+11 const onTryAgain = () => {
+12         setShowTimeout(false);
+13         setShowScanner(false)
+14     };
+4. The QR code scan is triggered from the ‘VerifyCertificate’ method. Once the QR code is read by the 
+application, it is unzipped using the jsZip library.
+Verification portal home page
+How to update the verification page:
+The required UI changes, including messaging and branding, can be configured on this file.
+You can refer to this file as an example of a country-specific configuration (https://verify.icmr.org.in/).
+Verification confirmation page
+How to update the vaccination confirmation details:
+Example: Include the beneficiary’s parent name as a mandatory field in the verification confirmation page.
+Open this file: https://github.com/egovernments/DIVOC/blob/main/vaccination-
+context/vaccination-context.js.
+Add a parameter in the function “vaccinationContextV2” to set the schema. You can refer to the detailed 
+list of parameters under schema here.
+1 "Person": {
+2       "@id": "schema:Person",
+3
+3
+      "@context": {
+4         "@version": 1.1,
+5         "@protected": true,
+6         "refId": "schema:id",
+7         "uhid": "schema:id",
+8         "name": "schema:name",
+9         "age": "schema:Number",
+10         "gender": "schema:gender",
+11         "nationality": "schema:nationality",
+12         "recipientParentName": "schema:name",
+13         "address": {
+14           "@id": "schema:PostalAddress",
+15           "@context": {
+16             "@version": 1.1,
+17             "@protected": true,
+18             "streetAddress": "schema:streetAddress",
+19             "streetAddress2": "vac:addressLine2",
+20             "city": "vac:city",
+21             "district": "vac:district",
+22             "addressRegion": "schema:addressRegion",
+23             "postalCode": "schema:postalCode",
+24             "addressCountry": "schema:addressCountry"
+25           }
+26         }
+27       }
+28     },
+Add recipientParentName in the certificate variable inside the function createCertificate.
+1 "certificate": {
+2     "Name": "Name",
+3     "Age": "Age",
+4     "DOB": "DOB",
+5     "Gender": "Gender",
+6     "recipientParentName":"Recipient Parent Name",
+7     "Certificate ID": "Certificate ID",
+8     "Vaccine Name": "Vaccine Name",
+9     "Vaccine Type": "Vaccine Type",
+10     "Date of Issue": "Date of Issue",
+11     "Valid Until": "Valid Until",
+12     "Dose": "Dose",
+13     "Total Doses": "Total Doses",
+14     "Vaccination Facility": "Vaccination Facility"
+15   },
+Build and deploy your changes. 
+Note:
+The ‘recipientParentName’ should match with the key in the QR code Json file available in main.js.
+To remove any value (such as “vaccine type”) from the UI screen, you can remove that parameter in the 
+certification field.
+All content on this page by eGov Foundation is licensed under a Creative Commons Attribution 4.0 
+International License.
+How to set up update certificates API
+Overview
+This document will help an implementer configure the following service: 
+Update certificates
+API
+The DIVOC platform provides API services for updating vaccination certificates. You can refer to the API 
+service call ‘ /v3 /certificate’ for the method PUT here.
+The payload of the update service is the same as that of the certificate generation request. Click here to 
+know more.
+The platform provides flexibility to update values in the ‘recipient,’ ‘vaccination,’ ‘vaccinator,’ and ‘facility’
+sections. Click here if you want to understand the mandatory and non-mandatory information that should
+be there in a vaccination certificate, according to global standards.
+Key Functionality
+Update the existing certificate along with its QR code.
+Prerequisite: Get details on the API request and field validations:
+a. The update certificate request is processed in this function. The pre-enrollment code and dose-wise 
+certificates will be searched in the system to make an update request. The function will trigger the 
+subsequent process to update the certificates.
+1
+1
+2 fiofr c _er, triefiquceastteI :d=  :r= anggeteC eparrtaimfis.cBaotdeyI d{ToBeUpdated(request); certificateId != nil{
+3 log.Infof("Certificate update request approved %+v", request)
+4  if request.Meta == nil {
+5   request.Meta = map[string]interface{}{
+6    "previousCertificateId": certificateId,
+7    "certificateType":       CERTIFICATE_TYPE_V3,
+8   }
+9  } else {
+10   meta := request.Meta.(map[string]interface{})
+11   meta["previousCertificateId"] = certificateId
+12   meta["certificateType"] = CERTIFICATE_TYPE_V3
+13  }
+14  if jsonRequestString, err := json.Marshal(request); err == nil {
+15   kafkaService.PublishCertifyMessage(jsonRequestString, nil, nil)
+16  }
+17 } else {
+18  log.Infof("Certificate update request rejected %+v", request)
+19  return certification.NewUpdateCertificateV3PreconditionFailed()
+20 }
+21 }
+22 return certification.NewUpdateCertificateV3OK()
+b. The platform provides the flexibility to restrict the number of update requests to avoid misuse of the 
+functionality in generating multiple certificates.
+Example:
+Configure the limit of update certificate requests to only five where the user can only update a certificate five 
+times.
+Steps
+Step 1: Open this file and check the function that will limit the number of certificates being updated.
+1 if count < (config.Config.Certificate.UpdateLimit + 1) {
+2   certificateId := doseWiseCertificateIds[int(*request.Vaccination.Dose)][count-1]
+3  return &certificateId
+4 } else {
+5  log.Error("Certificate update limit reached")
+6 }
+Step 2: Open this file and update the limit by configuring CERTIFICATE_UPDATE_LIMIT.
+1 UpdateLimit int `env:"CERTIFICATE_UPDATE_LIMIT" default:"5"`
+All content on this page by eGov Foundation is licensed under a Creative Commons Attribution 4.0 
+International License.
+What information goes into a QR Code?
+A vaccination certificate is a proof that a person has received the shot to protect them from an infectious 
+disease such as COVID-19 or the flu. We have given below the type of information (mandatory and optional) 
+that should be there in a QR code-based COVID-19 vaccination certificate, as specified by the World Health 
+Organisation (WHO).
+Require
+ment 
+Data 
+status for DDCC Description and 
+DIVOC label type/forma Examples
+proof of label definition
+t
+vaccinati
+on
+Mandato The full name of the John Tom 
+Name recipientName String
+ry vaccinated person. Brown
+The vaccinated 
+person's date of birth 
+(DOB) if known. If 
+Mandato Date of 
+recipientDOB unknown, use the Date 1998-01-05
+ry birth
+assigned DOB for 
+administrative 
+purposes.
+Unique identifier for 
+the vaccinated person, 
+according to the 
+policies applicable in 
+each country. There 
+can be more than one 
+Unique 
+unique identifier used 
+identifier 
+to link records 
+Mandato (primary preEnrollmentC
+(example: national ID, UUID  
+ry identifier of ode
+health ID, 
+the 
+immunisation 
+beneficiary)
+information system ID, 
+and medical record 
+ID). All the certificate 
+IDs will be linked to 
+the beneficiary's 
+preEnrollmentCode.
+To be used only if 
+there is a need to 
+share/print an 
+additional national ID. Alpha Driving 
+Optional  recipientIdentity
+By default, it is set as number license
+'null' in DIVOC's case. 
+The above field 
+covers this as well.
+Documentation of a 
+recipientGende specific instance of Male/fema
+Optional Sex  
+r sex information for the le/other
+vaccinated person.
+recipientMobile 187677788
+Optional   Numeric
+Number 8
+Generic description of 
+Vaccine Need to the vaccine or vaccine 
+Mandato Coding - 
+type or incorporate in sub-type, such as   
+ry ICD 11
+prophylaxis the payload. COVID-19 mRNA 
+vaccine, HPV vaccine.
+The brand or trade 
+Mandato Vaccine vaccinationNa
+name used to refer to String Pfizer
+ry brand me
+the vaccine received.
+Name of the 
+manufacturer of the 
+vaccine received, 
+such as Serum 
+Vaccine 
+vaccinationMan institute of India, or ABC 
+Optional manufactur String
+ufacturer AstraZeneca. If the company
+er
+vaccine manufacturer 
+is unknown, a market 
+authorisation holder is 
+needed.
+Name of the market 
+authorisation holder of 
+the vaccine received. 
+If the market 
+authorisation holder is 
+Vaccine 
+unknown, a vaccine 
+market 
+Optional  manufacturer is String  
+authorisatio
+required. This is 
+n holder
+needed only if the 
+manufacturer is not 
+listed in the WHO EUL 
+(Emergency Use 
+Listing Procedure) list.
+Vaccine 
+Mandato vaccinationBat Batch number or lot 
+batch String 4121Z104
+ry ch number of the vaccine.
+number
+Date on which the 
+Mandato Date of vaccinationDat
+vaccine was Date 2021-11-30
+ry vaccination e
+administered.
+Mandato Dose vaccinationDos
+Vaccine dose number. Quantity 1, 2
+ry number e
+For Pfizer 
+Total expected doses and 
+as defined by member BioNTech, 
+Mandato vaccinationTota
+Total doses state care plan and Quantity the total 
+ry lDoses
+immunisation expected 
+programme policies. doses are 
+two.
+The country where a 
+Mandato Country of JAM = 
+facilityCountry person was Code
+ry vaccination Jamaica
+vaccinated.
+The name or identifier 
+of the vaccination Falmouth 
+Administeri
+Optional facilityName facility responsible for String Health 
+ng centre
+administering the Centre
+vaccination.
+If the country does not 
+Health have a national National ID
+vaccinatorNam
+Optional worker identifier, you can ID of the 
+e/ID
+identifier share the name of the vaccinator
+vaccinator.
+Available as a 
+Name of the disease 
+certificate 
+vaccinated against Certificate 
+header and not 
+Disease or (such as COVID-19). 
+as a data header: 
+Optional agent We recommend that Codingelement in the COVID-19 
+targeted you can have it as a current Vaccination
+data element within 
+certificate API Certificate.
+the payload.
+payload.
+Due date of Date - 
+Only implemented for 
+Optional the next  YYYYMM/  
+India.
+dose DD
+The authority or 
+Mandato Certificate Issuer authorised Ministry of 
+String
+ry issuer (available in organisation that Health & 
+the output) issued the vaccination Wellness, 
+certificate. Jamaica
+Unique identifier used 
+Health Certificate ID to associate the 
+Mandato
+certificate (available in vaccination status ID 378855845
+ry
+identifier the output) represented in a paper 
+vaccination card.
+Date on which the 
+certificate became 
+Certificate vaccinationEffe valid. No health or 
+Optional Date 2021-11-30
+valid from ctiveStart clinical inferences 
+should be made from 
+this date.
+Last date on which the 
+certificate is valid. No 
+Certificate vaccinationEffe
+Optional health or clinical Date 2022-11-30
+valid to ctiveEnd
+inferences should be 
+made from this date.
+Certificate Only if schema 
+Optional schema  versions are   
+version maintained.
+DIVOC events
+Upcoming Event
+DIVOC Webinar
+Join us for our first Webinar on DIVOC Certificate Specifications.
+Announcement coming soon!
+DIVOC in the Media
+Videos, and Articles
+Videos
+Introduction to DIVOC by Dr Pramod K Varma
+Nandan Nilekani says digital system crucial to vaccinate a billion Indians
+Idea Exchange: Nandan Nilekani Explains his 3 phase Covid-19 Vaccination Process.
+Articles
+1. The challenge is we don’t have adult vaccination system, must build it from scratch for Covid-19
+2. Digital route to deliver Covid vaccine in India
+3. Aadhaar model can help in vaccinating population quickly
+4. Certificate of COVID Vaccination: Can We Do Better than the Yellow Card?
+5. A COVID Vaccine Certificate: Building on Lessons from Digital ID for the Digital Yellow Card
+Tech Community
+Useful links
+DIVOC is an open source project (MIT license), and it is maintained by eGov Foundation.
+Documentation is available at https://divoc.egov.org.in/ and source code is available at 
+https://github.com/egovernments/DIVOC.
+If you have questions, please visit our Project Discussions Page. 
+All content on this page by eGov Foundation is licensed under a Creative Commons Attribution 4.0 
+International License.

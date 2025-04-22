@@ -1,0 +1,1016 @@
+Digital Documentation of 
+COVID-19 Certificates (DDCC)
+Communication materials for policy makers 
+and program managers
+Acknowledgements
+This work was made possible through the support of the WHO and was 
+conducted by Vital Wave. 
+Special thanks are also extended to the organizations that offered their 
+time and shared their expertise: the Bill and Melinda Gates Foundation, 
+CDC, GAVI, UNICEF, and the World Bank. 
+Country support for implementation of DDCC is being coordinated through 
+Digital Health Centre of Excellence (DICE), a multi-agency mechanism co-
+led by WHO and UNICEF. 
+https://www.digitalhealthcoe.org/
+2
+How to use these and other DDCC materials
+DDCC Guidance and Communication Materials
+DDCC Guidance provides guidance to adapt DDCC Overview summarizes the key concepts 
+and implement digital certificate programs for and value of digital certificates and supports 
+vaccination status and SARS-CoV-2 diagnostic policy makers and program managers to make 
+test result use cases in country. the case for sustainable investment in national 
+digital certificate programs. 
+Operational Guidance elaborates on technical 
+and operational concepts contained in the 
+DDCC Overview with detail on how to estimate 
+costs and operationalize a national digital 
+certificate program.
+The DDCC FAQ is a companion document to 
+Vaccination Status (VS) Test Result (TR) the DDCC communication materials, providing 
+detailed answers to frequently asked 
+questions.
+See also: FAQ – 1. How can countries use Digital Documentation of 
+COVID-19 Certificates (DDCC) materials? 3
+Target audiences for these materials
+Policy Makers Program Managers
+• Policy makers, digital leads for • Program managers, operational 
+ministries (e.g., health, ICT, border support staff (e.g., government,  
+control) implementing partner)
+• Need to make decisions to inform • Need to evaluate many certificate 
+policy and advocate for funding options and quickly choose best 
+solution, make operational 
+Key Contents decisions, and plan 
+• Value implementation
+• Concepts
+• Why invest Key Contents
+• Pre-requisites
+• What’s needed
+• How to determine cost
+• How to make a plan
+See also: FAQ – 2. Who is the audience for DDCC materials? 4
+DDCC Overview
+5
+Digital Documentation 
+of COVID-19 Certificates 
+(DDCC) is a standard 
+and guidance for health 
+certificate generation 
+and status verification 
+and validation across 
+domestic and 
+international use cases, 
+at any stage of digital 
+system maturity.
+See also: FAQ – 3. What is the DDCC? 
+6
+DDCC guidance is: 
+• Guidance for capturing the minimum data set to document 
+an individual’s vaccination status and SARS-CoV-2 diagnostic 
+test results 
+DDCC is: • A mechanism for linking different certificate products into a 
+compatible certificate for issue via paper, PDF, or 
+a digitally signed HL7 smartphone
+• A flexible solution that allows countries to customize for 
+FHIR document that different use cases and data elements
+represents the core • An approach that is adaptable for future use cases and 
+data set content for guidance, beyond COVID-19
+the relevant COVID-19 
+DDCC guidance is not: 
+certificate • Guidance on national COVID-19 travel or vaccination policies
+• An International Certificate of Vaccination or Prophylaxis 
+(i.e., “yellow card”)
+• An identity card or passport
+See also: FAQ – 3. What is the DDCC? 
+7
+The DDCC contains implementation guidance for policymakers 
+and requirements and specifications for technology implementers
+Implementation guidance 
+• Data protection principles
+• Ethical considerations
+• National governance considerations
+Requirements and specifications for technology implementers 
+• Functional and non-functional requirements for different use cases
+• Core data sets, defining data that is required for DDCC:VS and DDCC:TR certificates 
+Vaccination Status (VS) Test Result (TR)
+and optional data elements
+• DDCC HL7 FHIR Implementation Guide detailing data standards for consistent 
+representation and interoperability
+See also: FAQ – 4. What is included in DDCC Guidance? 8
+DDCC guidance supports the development of standardized health certificates 
+for COVID-19 vaccination status and SARS-CoV-2 diagnostic test result use cases
+Digital Documentation of 
+COVID-19 Certificates 
+(DDCC)
+Vaccination Status Test Results 
+(DDCC:VS) (DDCC:TR)
+Use Cases
+Proof of Negative Proof of Previous 
+Proof of 
+Continuity of Care SARS-CoV-2 Test SARS-CoV-2 
+Vaccination 
+Result Infection
+The vaccination certificate is presented The vaccination certificate is The test result certificate is The test result certificate is 
+to a healthcare worker so that presented to border control presented as proof of the presented as proof of the bearer’s 
+vaccination status can be considered as and other authorities as proof bearer’s negative SARS- previous SARS-CoV-2 infection 
+part of the bearer’s health care and that the bearer has received CoV-2 diagnostic test result with a positive result from a 
+personal health record vaccine for COVID-19 SARS-Cov-2 diagnostic test
+See also: FAQ – 5. What are the use cases for Vaccination Status and 
+Test Result certificates? 9
+DDCC supports three different certificate issuing modalities
+Traditional paper record Digital representation of Purely digital (e.g., 
+(e.g., paper certificate with traditional paper record stored in a smartphone 
+a pre-printed QR code and a (e.g., PDF file or application or on a cloud-
+handwritten unique ID) certificate printout) based server)
+See also: FAQ – 6. How are Vaccination Status and Test Result 
+certificates issued?
+10
+DDCC defines the standardized core data set* required to generate, verify, 
+and validate certificates for test results and vaccination status
+Test Result 
+Legend: Type of Test + / - Test result Certificate issuer
+Required data element
+Date and time of 
+Optional data element th7 Countrysample collection 123A.. Health Certificate Identifier (HCID)
+Test centre or facility 
+Pathogen targeted v2.. Certificate schema version
+name
+Specimen Test brand 
+th
+7 th Certificate valid from / until
+sample origin 9Manufacturer 
+Vaccination Status
+Name &
+Date of Birth Vaccine brand and batch
+(minimum) Vaccine / prophylaxis Manufacturer or market Certificate issuer
+Dose # authorization holder
+123A.. Health Certificate Identifier (HCID)
+Date of vaccination Country
+th Date valid from
+7
+Due date of next dose Administering centre
+v2.. Certificate schema version
+Health worker and th
+Agent targeted 7 th Certificate valid from / until9
+signature
+*Countries may extend this core data set to store other data based on their requirements. Required and optional data elements may vary depending on certificate use case.
+See also: FAQ – 7. What standardized data does the digital certificate 
+include?
+11
+Digital Documentation of COVID-19 Certificates are human- and machine-readable packages 
+of data in a standard HL7 FHIR “Bundle” containing all information necessary to verify and 
+validate vaccination status or test results
+Example FHIR Bundle* contents for a Vaccination Status 
+certificate: 
+• Unique identifier for the certificate bundle
+• Type of FHIR Bundle (e.g., document)
+• Date and time FHIR Bundle was assembled
+• Link to health certificate identifier (HCID)
+• Health information including: 
+• Patient details
+• Organization where immunization was administered
+• Immunization details (e.g., type of vaccine, lot number)
+• Recommended date of next immunization (if applicable)
+• QR code representation of health information
+• Signature of issuing public health authority to verify the authenticity of the 
+certificate
+* In FHIR, a “Bundle” is simply a container for a collection of resources. DDCC uses a FHIR Bundle 
+to bring together the required resources related to a certificate into a single document.
+Source: https://worldhealthorganization.github.io/ddcc/StructureDefinition-DDCCDocument.html
+See also: FAQ – 8. What digital health interoperability standard does 
+DDCC certificates use?
+12
+DDCC is an umbrella specification that is compatible with other 
+digital certificate formats
+Countries are producing digital certificates COVID-19 vaccination status and SARS-CoV-2 diagnostic 
+test result use cases and linking those certificates with national, regional, and global standards.  
+DDCC provides a common international and extensible format that is interoperable with other 
+available digital certificate formats currently used in African, European, and South-East Asia regions 
+and supports specific renderings of certificates that can be verified through these specifications.
+Several COVID-19 certificates in the marketplace
+Digital Infrastructure 
+for Vaccination Open EU Digital Covid Smart Health Custom Country 
+Credentialing Certificates (DCC) Cards Solutions
+(DIVOC)
+See also: FAQ – 9. How are countries approaching digital certificates 
+today? 13 Source: https://dhis2.org/digital-certificates/
+DDCC guidance recommends ethical considerations as integral to 
+the design and deployment of any digital certificate solution
+Ethical Considerations Recommendations
+• To protect and promote the welfare of 
+1. The scope of use of digital certificates should be 
+individuals, communities and the 
+clearly defined
+population as a whole
+2. Potential benefits, risks, and costs should be 
+• To ensure equal treatment for all 
+assessed before introduction of a digital certificate
+individuals and prevent or mitigate, as 
+3. Obtaining and using a digital certificate should be as 
+far as possible, avoidable and unfair 
+inclusive and fair as possible
+health inequalities (i.e., health 
+4. All necessary measures should be put in place to 
+inequities) within the boundaries of the 
+protect participants for continuity of care
+state
+5. All communication should be clear and transparent
+• To create and maintain trust in public 
+6. The digital certificate program should be constantly 
+health activities as part of the health-
+monitored for impact and adjusted as necessary
+care system
+See also: FAQ – 11. What ethical considerations and data protection 
+principles need to be considered in a digital certificate solution?
+14
+Value of Digital Certificates
+15
+Complicated, evolving scientific landscape around COVID-19 and lack 
+Global Situation of global policy coordination on vaccination status and test result 
+certificates creates challenges for Member States
+Public Health Verifier challenge
+Potentially incompatible certificates
+Challenge limit ability of healthcare workers, Need
+border agents, and other authorities 
+to validate vaccination and SARS-
+Many options and limited CoV-2 diagnostic test result status Standards-compliant 
+guidance slows deployment solutions that can be widely 
+of certificate solutions, adopted in multiple 
+Beneficiary Challenge
+making it difficult to countries in the immediate 
+Lack of compatible certificates limit 
+validate vaccinations and term and interoperate with 
+ability of individuals to hold valid 
+SARS-CoV-2 diagnostic test information regarding their other solutions
+results status vaccination and SARS-CoV-2 
+diagnostic test result status
+See also: FAQ – 12. What is the need for 
+standardized and interoperable certificates? 16
+Standardized digital certificates have advantages over paper 
+to prevent fraud and other issues
+Paper certificates or Digital systems ensure 
+!
+photocopies are prone to authenticated certificates and 
+fraud and a host of other precise data can be shared 
+issues (e.g., loss, damage, domestically and 
+unauthorized use) internationally
+This provides a technical basis to 
+Incidence of fraudulent health 
+support bilateral agreements (EU 
+certificates is expanding rapidly around 
+equivalency) to recognize legal 
+the world. Health data can be sold for 
+requirements for vaccination status 
+nearly 50 times payment card data on 
+and SARS-CoV-2 diagnostic test results 
+the black market1.
+across borders
+See also: FAQ – 13. What advantages do digital 1 Trustwave Global Cybersecurity Report (2018)
+certificates have over paper formats? 
+17
+Standardized digital certificates help rebuild economies and 
+strengthen health systems to address COVID-19 and beyond
+Supports Reopening Economies Increases Equitable Access to Strengthens Digital Health 
+Health Information Infrastructure
+Enables verification and validation required to Brings authenticated information into the Standardizes health content and provides 
+facilitate cross-border movement, commerce, context of care and personal health records infrastructure that strengthens health 
+and economic security and access certain via digital tools (e.g., digital immunization information exchange capabilities
+socioeconomic activities records)
+Improves Exchange of Health Adapts to Country and Regional Supports Local Solution 
+Information Ecosystems Development
+Provides clear guidance for designing systems Works for central or federated certificate Supports local developers and technology 
+that easily interoperate with existing digital tools issuers and generates QR codes that are providers to develop solutions for COVID-19 
+(e.g., vaccination campaign systems and compatible with other certificate programs and future digital health interventions by 
+immunization registers) and build a foundation (e.g., EU, DIVOC) providing a flexible standard that can be 
+for long-term health information exchange adapted to local needs
+See also: FAQ – 14 & 15. What value do standardized digital certificates 
+bring to country health systems / technical implementers? 18
+Program Managers Policy Makers
+Standards-based certificates and guidance benefit decision makers and 
+their technical partners
+Guidance Digital Certificates
+Policy Makers Healthcare Workers Border Control and other Verifiers
+(Vaccination Status)
+Allows faster and more accurate
+Guidance enables usable and Clinical decision support ensures interpretation of vaccination status or 
+compatible digital certificates and health worker knows vaccination SARS-CoV-2 diagnostic test result in 
+supports rapid dissemination and status of patient and can provide a accordance with rapidly changing science, 
+application of new policy subsequent dose and better care policies, and agreements
+based on guidelines 
+Program Managers Software Developer Individuals
+Guidance and clearly defined business Ecosystem of open-source FHIR Provides standardized core data that 
+requirements support easier tools reduces software applies across borders and use cases
+implementation, reduce vendor lock-in development time
+See also: FAQ – 16. What value does DDCC certificates and guidance 
+bring to individual stakeholders? 19
+Next steps for policy makers
+Identify applicable policies that are in place and any gaps 
+for use of digital certificates
+Make certificate decisions to inform policy development
+• Short-term (COVID-19) vs. long-term approach to 
+solution development 
+• Issuing modality: paper vs. digital representation
+• Which QR specification to support 
+• How to identify individuals (e.g., passport, national 
+ID, health ID)
+Consider intergovernmental recognition of certificates to 
+inform negotiations and discussion with other countries 
+and regional networks  
+Additional Support: Requests for technical assistance can be made through DICE. 
+contact@digitalhealthcoe.org
+See also: FAQ – 35. What are next steps for countries 
+considering digital certificate implementation? 20
+Making the Case for Investment
+21
+Make the case for the upfront 
+investment in digital certificates, 
+infrastructure, and policy
+• Upfront investment supports standards-based digital health 
+interventions now and reduces their costs in the long run
+• Digital certificate and services are extensible. They can be 
+updated to include additional data or functionalities to respond 
+to policy changes such as evolving traveler testing requirements
+• Infrastructure can be used to service other types of certificates 
+in health, such as digital immunization records, or other health 
+domains
+• Investments in policy and human capacity build a foundation of 
+trust that extends beyond country borders to improve world-
+wide response to COVID-19 and future epidemics
+See also: FAQ – 17. Why invest in digital certificates 
+over traditional paper certificates? 22
+Understand the digital health ecosystem to estimate costs and upfront 
+investment required for a long-term digital certificate solution 
+Leadership and Governance • Which regulatory agencies (e.g., pharmaceutical, health, ICT) need   
+• Is there an existing department within the ministry of health that   to be engaged? 
+will be accountable for this work? • Will there need to be agreements established bilaterally?
+Strategy and Services and Applications Legislation, Workforce
+Investment • Are point-of-care applications used to support immunization? Policy, and 
+• Are there existing products in the marketplace that would fit your Compliance • How will training 
+needs? and technical 
+• What are the support for health 
+potential benefits, workers and 
+risks, and costs of Standards and Interoperability • Are policies for 
+implementing a appropriate use 
+officials be 
+• Is there an existing interoperability framework? and data provided? DDCC solution? • Are there existing systems that capture the minimum data for protection in • Are change 
+identification of an individual? place? management 
+• Are digital health processes and 
+Infrastructure data sharing and support in place?
+consent 
+• Is there adequate supply of equipment (e.g., mobile devices for • Is there a ready management 
+health workers and verifiers, printers for certificates)? domestic supply policies in place? of digital health 
+• How can existing digital health investments be leveraged? workers? 
+• Is a public key infrastructure (PKI) in place that can also be 
+leveraged to support digitally signing DDCC?
+See also: FAQ – 18. What key considerations impact upfront Graphic and information adapted from the WHO ITU 
+investments for a long-term digital certificate solution? 23 eHealth National Strategy Toolkit. 
+Estimate costs for each implementation phase to align with 
+country context and intended use cases
+underline = significant cost driver
+Ongoing / all phases • Governance
+• Management and staffing
+Development Deployment Integration and Scale Sustained 
+and setup • Equipment and hardware interoperability • Printing operations
+• Technology adaptation • Testing • Establishing trust • Human resources • Refresher training
+• Training frameworks • IT licensing / service • Adaptive management
+• Roll-out • Interoperability with other provision • Communication
+• Outreach and raising systems • IT scalability • Technology maintenance
+awareness
+See also: FAQ – 19. What types of costs need to be 
+considered across digital certificate implementation phases? 
+24
+Typical costs Illustrative Breakdown of Total Cost of Ownership*
+By Implementation Phase Over Five Years
+by phase for 
+digital health Development and Setup (16%)
+interventions*
+Sustained 
+Operations 
+While exact costs will vary (47%) Deployment, Integration 
+depending on country context, 
+and Interoperability 
+sustained operations over five 
+(27%)
+years average close to 50% of 
+total cost.
+Scale (10%)
+Development and setup costs, Source: Understanding Total Cost of Ownership for Digital Health. https://digitalsquare.org/market-analytics.
+commonly equated with the 
+* Based on a comprehensive evaluation of costs for five, nationally scaled logistics management information systems (LMIS) 
+“cost of a solution,” average used to manage stock and distribution of life-saving commodities. This is provided as a point of reference since there is no 
+less than 20% of total cost. reliable cost data specific to COVID digital certification implementation projects.
+See also: FAQ – 20. How might costs for a digital certificate 
+program break down by implementation phase? 
+25
+Create a transparent understanding of costs per phase to advocate for 
+upfront investment and long-term government budget commitments
+Planning &
+Development Deployment Integration Scale Sustained Operations
+Establishing a plan for 
+Upfront investment sustainable financing
+required will vary 
+depending on existing 1. Determine level of up-front 
+infrastructure and human investment required for 
+1 capacities available for use initial phases, depending 
+on country context
+2. Determine annual  
+operating costs and obtain 
+government commitment 
+2 to  schedule annual  
+operating costs under 
+government budget (or 
+long-term health system 
+strengthening funding)
+Time Sources of funding (illustrative):
+Government-
+See also: FAQ – 21. How should countries approach the sustainable Donor community managed investment
+financing of digital certificate solutions over the long term? investment 
+26
+Cost
+Seek funding through the digital health ecosystem or related national 
+programs
+Make a request through the Digital Health Centre of Excellence (DICE) to 
+connect with implementing partners and access technical assistance 
+(contact@digitalhealthcoe.org))
+Work with leaders of related national digital health investments (e.g., 
+electronic immunization registries or vaccine distribution programs) to 
+identify shared resources or infrastructure 
+Engage with regional groups working on certificate standards  (e.g., WHO, 
+EU, DIVOC) to support bilateral agreements and knowledge sharing
+See also: FAQ – 22. What sources of financing may be 
+available to support DDCC implementation? 
+27
+Request technical assistance through DICE
+Depending on the type of request, DICE may be able to 
+provide either direct technical assistance or recommend Requests for technical assistance should come 
+from a government institution or endorsed 
+consultants, vendors, or in-country partner organizations 
+partner and include a brief description of:
+who can provide direct support. 
+• The specific health system processes or functions that 
+need to be addressed through the digital health 
+DICE Technical Assistance Approach intervention.
+• If COVID-19 vaccine related, how the need for the 
+I. Needs digital health intervention 
+analysis, (technology/system/platform) is described in the 
+II. Platform IV. Results 
+problem III. National Vaccine Deployment Plan (NVDP).
+assessments and 
+definition Deployment 
+with recommend-
+and readiness • How the digital health intervention is supported by a 
+stakeholders ations
+anticipated National eHealth or Digital Health strategy.
+outcomes
+• The main in-country stakeholders that should be 
+included in the process.
+Approximate timeframe: 3 weeks to 3 months
+See also: FAQ – 23. How can countries request technical 
+assistance through DICE? 28
+Operational Guidance
+29
+Steps to plan and implement a digital certificate solution
+1 Country Readiness: Determine country readiness to fulfill prerequisites: (1) Unique identification and (2) Public Key Infrastructure 
+2 Use Case Planning: Determine the intended uses for a digital certificate system
+3 Benefit and Cost Assessment: Assess the potential risks, benefits, and high-level costs of a digital certificate program
+4 Policy Framework: Establish policies and a legal framework to support your intended uses of the digital certificate
+5 Landscape Assessment: Determine whether to leverage existing digital systems that document certificate status or adopt a new system
+6 Requirements Gathering: Gather health content requirements and system requirements for the intended use of your digital certificate
+7 Finalize Plans and Budget: Finalize plans to develop, deploy, implement, and scale the solution
+Development & Implementation
+Development Integration and Sustained 
+Deployment Scale
+and setup interoperability operations
+See also: FAQ – 24. What are the overall steps to planning 
+and implementing a digital certificate solution? 30
+1 Country Readiness
+Investigate whether key prerequisites are in place to ensure 
+trust before beginning digital certificate planning
+Countries must determine an Countries must determine if national Public Key 
+acceptable and ethical way to link Infrastructure (PKI) exists that can be used to 
+certificates to the identity of the issue, verify, and sign digital certificates 
+individual holding the certificate
+• Suitable PKI may already be available for other domains 
+• Name and date of birth are required (e.g., law enforcement, banking transactions). If not, the 
+by DDCC. country must set one up. 
+• Countries must decide if certificates • A PKI guarantees that the information contained in digital 
+should be linked to additional unique certificates has been validated by an accredited authority.
+identifiers (e.g., health ID, national ID 
+• Each country is responsible for managing its own PKI 
+number, passport number, 
+through its Public Health Authority (PHA) or another 
+biometrics), if available.
+national delegated authority. 
+See also: FAQ – 25. What pre-requisites need to be in place for country 
+See Annex A for additional 
+readiness prior to planning a digital certificate system (Step 1: Country 
+Readiness)? detail on these key concepts31
+2 Use Case Planning
+Select one or more use case for digital certificates that support country 
+policies, and determine which organizations are likely verifiers
+Continuity of Care Proof of Vaccine SARS-CoV-2 Negative Proof of Previous SARS-
+The vaccination certificate The vaccination certificate Test Results CoV-2 Infection
+is presented to a is presented to border The test result certificate The test result certificate is 
+healthcare worker so that control and other is presented as proof of presented as proof of the 
+vaccination status can be authorities as proof that the bearer’s SARSCoV-2 bearer’s previous positive 
+considered as part of the the bearer has received diagnostic test results result of SARS-CoV-2 
+bearer’s health care and vaccine for COVID-19 infection
+personal health record
+Inputs Outputs
+• National digital health or eHealth strategy (if one exists) • Problem statement detailing specific challenges that each 
+• Documents including COVID-19 response intervention digital certificate use case will address
+objectives, progress, and any evaluations • List of priorities for the digital certificate program that align 
+• Organograms describing directorates or departments in the with national digital health strategy 
+relevant government bodies, such as ministries of health, • Organogram for prospective digital certificate program
+ICT, border control, and civil registrars • List of stakeholders to engage 
+See also: FAQ – 26. How do countries determine priority use 
+cases for digital certificates (Step 2: Use Case Planning)? 
+32
+3 Benefit and Cost Assessment
+Conduct an assessment to understand risks, benefits, and high-level costs
+Recommendations on ethical and privacy protections for design, development and implementation of digital certificates
+1. The scope of use of digital certificates should be clearly defined 4. All necessary measures should be put in place to protect 
+2. Potential benefits, risks, and costs should be assessed before participants for continuity of care
+introduction of a digital certificate 5. All communication should be clear and transparent
+3. Obtaining and using a digital certificate should be as inclusive 6. The digital certificate program should be constantly monitored 
+and fair as possible for impact and adjusted as necessary
+Inputs Outputs
+• Documented objectives for digital certificate program • Current-state (“status quo”) workflow diagrams illustrating 
+• Identified team and list of stakeholders to be engaged the user journey for vaccination and testing
+throughout the planning and implementation process • Prioritized bottlenecks mapped to list of health system 
+• Prospective personas for the digital certificate program challenges to be addressed
+• Historical budgets and total cost of ownership (TCO) data for • Enabling-environment assessment defining possible 
+comparable digital health interventions constraints 
+• Knowledge sharing of digital certificate implementations in • High-level cost estimate to inform go / no-go decision to 
+other countries to inform feasibility and total cost estimate proceed with program development
+See also: FAQ – 27. How do countries conduct a benefit and cost 
+assessment for digital certificate programs (Step 3: Benefit and Cost 
+Assessment)?
+33
+4 Policy Framework
+Establish policies and a legal framework to support appropriate use, data 
+protection, and governance of the digital certificate
+Additional governance considerations* 
+Additional WHO guidance documents include: 
+• Issuing digital certificates • Data management and • Technical considerations for implementing a risk-based approach to 
+• Appropriate use of digital privacy protection international travel in the context of COVID-19: Interim guidance
+certificates • Revocation of digital • Policy considerations for implementing a risk-based approach to 
+international travel in the context of COVID-19 
+• Verifying digital certificates certificates (informing • Interim guidance on considerations for implementing and adjusting public 
+• Validating digital certificates individuals, informing health and social measures in the context of COVID-19
+verifiers, remedy provision)
+*in addition to the authorized DSC- sharing mechanism
+Inputs Output
+• Enabling-environment assessment • Detailed implementation plan for digital certificate program, 
+• Ethical considerations specifying: 
+• Personas and future state user task flow diagrams • Governance, workforce and training, links to strategy 
+• High-level data requirements and national data privacy laws and investment plans
+See also: FAQ – 28. What needs to be considered when 
+establishing policies and a legal framework to support See Annex A for additional 
+intended use of digital certificates (Step 4: Policy Framework)? detail on these key concepts34
+5 Landscape Assessment
+Determine whether to leverage existing digital systems that document 
+certificate status or adopt a new system
+Additional implementation consideration components
+Leadership and Governance
+• Decisions related to digital health investments and 
+Strategy and Services and Applications Legislation, Workforce
+selection of solutions should be guided by country 
+Investment Policy, and 
+strategy Standards and Interoperability Compliance
+• Refer to the next slide for a series of questions to Infrastructure
+guide this decision-making process
+Inputs Outputs
+• Defined future-state workflow and functional requirements • Core functional requirements for the planned digital certificate 
+for digital certificate program  investment within the enterprise architecture 
+• National digital health enterprise architecture (if available • Identification of which applications and shared services already 
+collect data for certificates and which will require further investment
+in country) 
+• Linkages of digital certificate investment detailing the benefit to the 
+broader set of digital health systems and enterprise architecture  
+• Identified digital health interventions that capture the data required  
+for the digital certificate program  
+See also: FAQ – 29. How do countries assess existing digital 
+systems and architecture (Step 5: Landscape Assessment)? 
+35
+5 Landscape Assessment
+Identify data from existing data systems that can be pulled into the 
+certificate generation service, if available
+Test type and 
+Laboratory Information manufacturer
+Management Systems + / - Test result Associated activities
+DD/MM/YY
+Country • Data mapping determine Logistics Management 
+/ Traceability Systems requirements for system 
+Civil Registration integration 
+& Vital Statistics Name & • Discussions with system 
+Systems Date of 
+Birth owners and establishing 
+(minimum) #1 #2Vaccine brand Vaccine brand data sharing agreements 
+and batch and batch
+Country • Building and testing 
+DD/MM/YY Country DD/MM/YY
+system integrations
+Vaccination 
+Illustrative example Vaccination centre centre • Maintaining systems
+of certificates Health 
+worker
+EHR / EIR
+Systems
+See also: FAQ – 30. How can data from existing digital 
+health system be utilized for digital certificates (Step 5: 
+Landscape Assessment)? 36
+5 Landscape Assessment
+Explore other ecosystem considerations that may impact how a new digital 
+certificate system will be introduced and managed
+Leadership and Governance • Is there an existing department within the ministry of health that will be accountable for this work? 
+• Will there need to be agreements established bilaterally? 
+Strategy and Investment Services and Applications Legislation, Policy, Workforce
+• Is the DDCC solution • Are point-of-care applications used presently to support immunization? and Compliance • Is the value added by 
+intended to be a short-term • Are there existing products in the marketplace that would fit your needs and • Are policies for the digital 
+solution or a long-term adhere to international specifications and guidance? appropriate use and representation clearly 
+digital vaccination data protection in communicated?
+certificate or test result 
+solution? Standards and Interoperability
+place to address the • Are change 
+ethical considerations management 
+• What are the potential • Is there an existing interoperability framework to guide how DDCC can and data protection processes and 
+benefits, risks and costs of interoperate with other existing solutions? principles of DDCC? support in place when 
+implementing a DDCC • Are there reusable components, such as terminology services, that could be • For continuity of care, implementing DDCC? 
+solution? incorporated? are digital health data • Is there a ready 
+• What is the potential impact sharing and consent domestic supply of 
+on public health and on the Infrastructure management policies digital health 
+economy? • How can existing digital health investments be leveraged? in place? workers? Does this 
+• What is the additional value • Consider the coverage of mobile phone adoption before pursuing a mobile-only • What review 
+workforce have the 
+added beyond using the processes are needed skillsets needed?solution. Is there broad mobile phone adoption and high coverage of mobile 
+paper system only? phone networks outside the major urban areas? for newly developed 
+policies?
+• Is a PKI in place that can also be leveraged to support digitally signing DDCC 
+digital documents?
+See also: FAQ – 18. What key considerations impact upfront Graphic and information adapted from the WHO ITU eHealth 
+investments for a long-term digital certificate solution? 37 National Strategy Toolkit. 
+6 Requirements Gathering
+Gather health content requirements and system requirements, and adapt 
+DDCC guidance for the intended use of digital certificates
+Example workflows, data requirements, and functional requirements
+Inputs Outputs
+• Enabling-environment assessment • Detailed implementation plan for digital certificate 
+• Landscape analysis and data mapping results (Step 5) program, specifying: 
+• Personas and future state user task flow diagrams • Relevant health and data content, infrastructure, 
+• Functional and nonfunctional requirements for the digital existing digital systems, standards and interoperability 
+certificate from the Technical Specifications and needs
+Implementation Guide • Functional and nonfunctional requirements for the digital 
+• Future state workflow with digital health interventions and 
+certificate adapted to country needs
+requirements for digital certificate program  
+• National digital health architecture  
+See also: FAQ – 31. How do countries gather solution requirements See Annex A for additional 
+for digital certificates (Step 6: Requirements Gathering)? detail on these key concepts38
+7 Finalize Plans and Budgets
+Finalize plans and budget for all phases of implementation
+Additional resources to support implementation
+• WHO interoperability standard • General implementation guidance for digital health solutions 
+• Example implementations • WHO international travel guidance 
+• Software consistent with specifications’ dataset and architecture • WHO guidance on mass gatherings
+• Example specifications that can be used to guide implementation 
+Inputs Outputs
+• Historical budgets and costs • Logic model for digital certificate implementation
+• Implementation considerations for digital certificate • Implementation plan that is appropriate for the 
+program environmental limitations 
+• Historical and/or baseline data and analysis • Clear mechanism for obtaining and responding to feedback 
+• Historical M&E and adaptive management plans from end users 
+• Guidance from other digital certificate implementations • Detailed financial plan and costing (see next slides)
+(e.g., EU, DIVOC)  • M&E plan, including for adaptive management and data use
+See also: FAQ – 32. How do countries finalize plans to develop, deploy, 
+implement, and scale digital certificates (Step 7: Plan for Development & 
+Implementation)?
+39
+7 Finalize Plans and Budgets
+Estimate detailed budget for each implementation phase to align with 
+country context and intended use cases
+underline = significant cost driver
+Ongoing / all phases • Governance
+• Management and staffing
+Development Deployment Integration and Scale Sustained 
+and setup • Equipment and hardware interoperability • Printing operations
+• Technology adaptation • Testing • Establishing trust • Human resources • Refresher training
+• Training frameworks • IT licensing / service • Adaptive management
+• Roll-out • Interoperability with other provision • Communication
+• Outreach and raising systems • IT scalability • Technology maintenance
+awareness
+See also: FAQ – 32. How do countries finalize plans to develop, deploy, 
+implement, and scale digital certificates (Step 7: Plan for Development & 
+Implementation)?
+40
+7 Finalize Plans and Budgets
+Investigate country context to understand unique and variable costs
+Relevant cost variances* Unique cost drivers
+• Equipment: whether required equipment (e.g., • Governance and outreach: how much time 
+mobile phones, printers) is already available and will be required to develop and socialize new 
+can be shared across different interventions policies with the public and prospective 
+• Training: how many people need to be trained and verifiers
+how training is delivered (e.g., classroom-based • Establishing trust frameworks: how much 
+training, on-the-job training) effort will be required to establish 
+agreements between countries and ensure 
+• Maintenance: how much and how frequently the 
+certifications are accepted across borders
+solution needs to change over time (e.g., to match 
+rapidly changing policies) • Adaptive management: monitoring and 
+evaluating use and uptake worldwide, and 
+* See Understanding Total Cost of Ownership for Digital Health for more details on 
+common cost variances and hidden costs for digital health interventions. adapting to emerging best practices
+https://digitalsquare.org/market-analytics.
+See also: FAQ – 33. What contextual factors need to be 
+considered when estimating costs for a digital certificate 
+program (Step 7: Finalize Plans and Budget )? 
+41
+7 Finalize Plans and Budgets
+Estimate ongoing costs associated to governance across all phases  of 
+implementation
+Example activities* and five-year budget table
+One-time 
+Year Year Year Year Total 
+Description Costs + 
+2 3 4 5 Costs 
+Year 1
+Ongoing / all phases: Governance
+Developing new policies for ongoing monitoring of use and impact
+Allocate dedicated resources within the government or hire consultants to draft new 
+policies for DDCC
+Conduct ongoing consultations with key partners (e.g., industry associations, PHA, regional 
+groups) to build consensus 
+Seek formal approval or ratification of new policies with relevant government bodies
+Socialize new policies with key stakeholders and the public
+* Example activities for illustrative purposes only. Each country will define actual activities, level of effort required by new or existing human resources to complete activities, 
+and the associated cost of human resources based on country context. 
+See also: FAQ – 34. What are example costs for a digital 
+certificate program (Step 7: Finalize Plans and Budget)? 
+42
+7 Finalize Plans and Budgets
+Estimate upfront costs to adapt the DDCC standard to align with new or 
+existing technologies to capture individual data 
+Example activities* and five-year budget table
+One-time 
+Year Year Year Year Total 
+Description Costs + 
+2 3 4 5 Costs 
+Year 1
+Development and setup: Technology adaptation
+Leveraging existing software systems (e.g., adapting EHR, EIR, and HMIS systems)**  
+Map required data elements for certificate to existing systems
+Adapt existing system to capture additional information (e.g., vaccines), if needed
+Establish a link or integration with other electronic systems and digital health solutions 
+(e.g., logistic management information systems (LMIS), lab management systems, 
+Immunization eRegistry) to pull core data for DDCC
+Ensure compliance with relevant national guidelines 
+* Example activities for illustrative purposes only. Each country will define actual activities, level of effort required by new or existing human resources to complete activities, 
+and the associated cost of human resources based on country context. 
+** Existing systems that may already be used to capture relevant individual data required to generate digital certificates may include electronic health record (EHR) systems, 
+electronic immunization registry (EIR) systems, and health management information systems (HMIS).
+See also: FAQ – 34. What are example costs for a digital 
+certificate program (Step 7: Finalize Plans and Budget)? 
+43
+7 Finalize Plans and Budgets
+Estimate costs to raise awareness and establish trust in certificates both 
+domestically and across borders
+Example activities* and five-year budget table
+One-time 
+Total 
+Description Costs + Year 2 Year 3 Year 4 Year 5
+Costs 
+Year 1
+Deployment: Outreach and raising awareness
+Communications on when, where, and how people can obtain digital certificates
+Develop and draft communications materials for the public on obtaining a digital certificate
+Conduct workshops or meetings with key stakeholders to finalize package of communications assets
+Seek approval of communications materials with appropriate government body, if needed
+Draft a communications plan, including outreach mechanisms and timeline 
+Distribute communications materials to the public across key platforms
+Integration and interoperability: Establishing trust frameworks 
+Coordination for establishing bilateral agreements with other countries 
+Allocate dedicated resources within the government to attend coordination meetings
+Conduct ongoing consultations with key stakeholders across ministries on potential agreement
+Seek formal approval of agreement with relevant government bodies
+* Example activities for illustrative purposes only. Each country will define actual 
+See also: FAQ – 34. What are example costs for a digital activities, level of effort required by new or existing human resources to complete 
+certificate program (Step 7: Finalize Plans and Budget)? activities, and the associated cost of human resources based on country context. 
+44
+7 Finalize Plans and Budgets
+Estimate costs to scale availability of digital certificates country-wide and 
+sustain operations over years
+Example activities* and five-year budget table
+One-time 
+Year Year Year Year Total 
+Description Costs + 
+2 3 4 5 Costs 
+Year 1
+Scale: Printing
+With the paper-first approach: need for printing increases as more people are vaccinated and subsequently receive a physical vaccination certificate 
+Forecast domestic requirements for high-volume printing capacity for paper forms 
+Procure devices (e.g., printers) and related materials (e.g., toner, paper) needed at the vaccination site, 
+sample collection sites, or in the back office
+Provide continuous maintenance and replacement for devices and related materials, as needed
+Sustained operations: Adaptive management
+Monitoring and evaluation of digital certificate implementation practices and processes, with application of learnings 
+Develop an M&E plan for digital certificates, including the adaptive management cycle 
+Schedule regular meetings with key stakeholders to reflect on digital certificate implementation and 
+progress 
+Regularly update the M&E plan to align with ongoing digital certificate content updates in accordance with 
+changes in national policy and context (e.g., available vaccines, available test types, variants), if needed
+* Example activities for illustrative purposes only. Each country will define actual 
+See also: FAQ – 34. What are example costs for a digital activities, level of effort required by new or existing human resources to complete 
+certificate program (Step 7: Finalize Plans and Budget)? activities, and the associated cost of human resources based on country context. 
+45
+Next steps for program managers
+Ensure appropriate policy and legal frameworks are 
+in place
+Evaluate readiness for deployment using DDCC:VS 
+and DDCC:TR guidance
+Create implementation plan and budget using 
+Operational Guidance and DIIG
+Coordinate across partners using DDCC:VS and 
+DDCC:TR guidance to:
+• Identify partners with appropriate technical skills
+• Ensure compliance for technology vendors 
+• Align digital certification with PHA business rules for 
+vaccination and SARS-CoV-2 diagnostic test results
+Additional Support: Requests for technical assistance can be made through DICE. 
+contact@digitalhealthcoe.org
+See also: FAQ – 35. What are next steps for countries 
+considering digital certificate implementation? 46
+Annex A: Other Key Concepts
+47
+Key Concepts: Trust networks
+Countries must establish trust in the issuance and verification of digital certificates
+Trust Network Value
+Countries must set up a national • Maintains trust in the certificate issuing and 
+trust framework consisting of verification authorities and systems, both 
+domestically and across borders
+public key infrastructure (PKI) to 
+• Reduces potential for fraudulent issuance and 
+align with established governance enables the revocation of certificates if there is 
+evidence of fraud
+processes and policies to enable 
+• Ensures that data in the certificate was not 
+digital signing of digital certificates corrupted or modified from its original form
+• Provides a secure method for both offline and 
+online verification
+See also: FAQ – 36. Key Concepts: What is a Trust Network and 
+Public Key Infrastructure (PKI)? 
+48
+Key Concepts: Public Key Infrastructure (PKI) 
+A domestic PKI is required for signing and verifying digital certificates 
+1 A designated government entity 2 A CSCA issues at least one Document 3 A DDCC issuer must have a 
+acts as a Country Signing Signer Certificate (DSC) with a public- DSC to sign a digital certificate
+Certificate Authority (CSCA) private key pair that can be used to $ Activities with cost 
+digitally sign and verify DDCC implications
+• Countries need to establish 
+agreements with other 
+countries that outline the 
+governance process (e.g., 
+policies, technical 
+specifications, and 
+interoperability criteria) for 
+establishing trust
+• The systems these countries 
+have in place will impact what 
+is needed to interoperate
+• Countries must consider how 
+to manage and ensure security 
+of private keys
+See also: FAQ – 36. Key Concepts: What is a Trust Network and 
+49
+Public Key Infrastructure (PKI)? 
+Key Concepts: Linking unique identification 
+Countries must determine the policies and procedures for linking a digital 
+certificate to an individual’s identity which is verifiable
+• DDCC may encode just the Health Certificate ID (HCID) or it could encode a full 
+representation of a certificate
+• Countries may determine which unique identification (e.g., health ID, national ID 
+number, passport number, etc.) to link with a certificate, if any
+• Policies should align with agreements established with other countries
+Vaccination status and SARS-CoV-2 diagnostic test result certificates are health documents, and therefore are not 
+intended to be used as identity documents
+See also: FAQ – 37. Key Concepts: What is Identity Binding and 
+Unique Identification?
+50
+Key Concepts: Governing trust networks
+Countries establish a PKI and determine the most appropriate governance 
+mechanisms for its context to support the trust network
+$
+Activities with cost implications
+Governance needs to be 
+established at two levels • Determine whether to leverage 
+an existing PKI or establish a 
+new one
+• Establish governance 
+Member State: need to mechanisms for digital signing 
+Public Health Authority 
+establish a mechanism to infrastructure at PHA and 
+(PHA): need to generate at 
+assert that a DSC from a Member State levels with clear 
+least one document signer 
+PHA has been authorized policies for:
+certificate (DSC) – a private–
+to sign health documents • Issuing certificates
+public key pair that can be 
+• Verifying certificates
+used by the trusted agents 
+of the PHA to sign the digital • Revocation of certificates
+certificate • Data management and Two approaches: 
+1. Root Certificate Authority privacy protection 
+2. Master list
+See also: FAQ – 38. Key Concepts: What governance 
+mechanisms need to be established to support the trust 
+network? 
+51
+Key 
+Concepts: Considerations
+• What agreements or formal collaborations will need to be established in a 
+Cross-border policies memorandum of understanding? 
+Bilateral and regional • Will there need to be agreements (e.g., data agreements) established 
+bilaterally, multilaterally or at a regional level to establish trusted recognition 
+policy negotiations may between DDCC of different provenance? 
+be complicated and • Are bilateral or regional (e.g., EU) agreements in place that can be leveraged? 
+require significant effort 
+by policy makers
+Several digital certificates for COVID-19 use cases 
+To ensure that national governing are available in the global marketplace 
+bodies can establish mutual trust • EU Digital Covid Certificates (DCC) [link]
+with other countries through 
+• DIVOC [link]
+bilateral or multilateral EU DCC DIVOC VCI
+agreements, governance • Smart Health Cards/ VCI [link]
+mechanisms should be in place 
+for the digital signing 
+infrastructure based on each See also: FAQ – 39. Key Concepts: What needs to be considered in bilateral and regional policy 
+negotiations for digital certificates? 
+country’s governance context. 
+52
+Key Concepts: Standardized health content 
+DDCC guidance provides standardized, trusted health content aligned with 
+international standards
+DDCC standardized health content applies the WHO evidence base for any stage of digital health maturity
+Standardized Health Content
+Traditional Health Content Structured Components Standards-based 
+(e.g., decision trees, flow Software Code
+(e.g., PDF diagrams) for (e.g., FHIR standards) that 
+recommendations) in operationalizing within accurately reflects decision 
+narrative format country programs logic and data requirements
+Standardized health content converts traditional health content into Preferred digital health interoperability 
+structured components for operationalizing DDCC guidance within standards: • Semantic standard: International 
+country programs and software code that is aligned with international Classifications of Diseases, 11th edition 
+(ICD-11) 
+FHIR standards • Syntactic standard: Health Level Seven 
+(HL7) Fast Healthcare Interoperability 
+Resources (FHIR)® 
+See also: FAQ – 40. Key Concepts: What is standardized health 
+content? 53
+Key 
+DDCC provides an 
+Concepts: DDCC Document“umbrella” 
+specification using 
+international HL7 FHIR 
+Digital certificate standard 
+• Provides common data 
+interoperability model and support for EU DCC DIVOC
+multiple QR codes
+DDCC is designed to 
+enable interoperability 
+between certificates Compatible with other 
+issued in other formats regional certificate formats Trust 
+• EU Digital Covid Certificates QR Code Spec
+and creates a (DCC) [link] Network
+compatible certificate • DIVOC [link]
+issued via paper, PDF, or • Smart Health Cards / VCI [link]
+smartphones, reducing 
+the long-term risk of 
+changing certificates See also: FAQ – 41. Key Concepts: How does DDCC enable interoperability between certificates issued in other formats (e.g., DIVOC, EU DCC)?
+54
+Key Concepts: Workflow for generation and verification
+Required technologies include services to generate and register certificates, while 
+additional services and applications can be built in iteratively as needed
+HCID provided by existing National DDCC:VS
+System or issued by DDCC:VS / DDCC:TR DDCC:TR 
+Generation Service
+Repository 
+(optional)
+Submit vaccination or 
+test result event DDCC:VS
+Digital 
+DDCC:TR 
+Health Online status check
+Solution Return 
+Generation (optional)
+DDCC:VS / DDCC:TR Service
+Register
+DDCC:VS
+Status DDCC:TR DDCC:VS
+Checking DDCC:TR 
+Online verification DDCC:VS / DDCC:TR 
+Application Registry 
+(optional)
+(optional) ServicePKI
+See also: FAQ – 42. Key Concepts: What are the required 
+and optional components of DDCC? 
+55

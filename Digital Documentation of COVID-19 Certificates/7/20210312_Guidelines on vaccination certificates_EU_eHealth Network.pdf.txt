@@ -1,0 +1,556 @@
+ 
+ 
+ 
+ 
+ 
+ 
+eHealth Network  
+ 
+ 
+Guidelines on 
+ 
+ 
+verifiable vaccination certificates - 
+basic interoperability elements 
+ 
+ 
+ 
+Release 2 
+ 
+2021-03-12 
+ 
+ 
+ 
+eHealth Network 
+ 
+ 
+ 
+The eHealth Network is a voluntary network, set up under article 14 of Directive 2011/24/EU.  
+It provides a platform of Member States' competent authorities dealing with eHealth.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+These guidelines aim at preparing for interoperability between proofs of vaccination (also 
+known as vaccination certificates), whereby Member States or other parties can decide to 
+implement or use them. They are meant to drive the design of interoperable solutions. The 
+guidelines are mostly targeting the COVID-19 vaccination but might be used in the future as 
+a basis for asserting other vaccinations or prophylaxis. 
+The term ʻvaccination certificatesʼ is used intermittently in this document, referring to a 
+reliable and verifiable proof of vaccination that can be presented by its holder upon request. 
+These guidelines are the result of the discussions and reflections stemming from the eHealth 
+Network and its subgroups on Semantics and Technical interoperability so far, as well as first 
+consultations with Health Security Committee, EMA, ECDC and WHO. 
+Although these guidelines have no binding character, Member States or other parties are 
+nevertheless recommended to take them into account if and when deciding to set up their 
+technical solutions for proof of vaccination. 
+ 
+ 
+To be adopted by the eHealth Network, 12 March 2021  
+  
+2 
+eHealth Network 
+ 
+Table of Contents 
+1 Introduction .............................................................................................................. 4 
+2 Purposes of use ......................................................................................................... 4 
+3 Basic interoperability elements .................................................................................. 5 
+3.1 Minimum dataset .......................................................................................................... 6 
+3.2 Unique Vaccination Certificate/assertion identifier ........................................................ 6 
+3.3 Trust framework ............................................................................................................ 7 
+4 Further steps towards vaccination certificate interoperability .................................... 8 
+Annex 1 – Minimum dataset for proof of vaccination ........................................................ 8 
+Annex 2 – Composition of the Unique Vaccination Certificate/assertion identifier ........... 11 
+General requirements ......................................................................................................... 12 
+Proposed options ............................................................................................................... 12 
+ 
+  
+3 
+eHealth Network 
+1 Introduction 
+1
+Following the conclusions of the European Council of 10-11 December 2020  and of 21 
+January 20212 that called for “a coordinated approach to vaccination certificates”, these 
+guidelines establish a minimum dataset, including a unique identifier for vaccination 
+certificates. They also set out the basis for a trust framework. These guidelines are 
+underpinned by the following principles: 
+ Simplicity through a scheme that can accommodate both paper and digital means; 
+ Flexibility and compatibility with existing national solutions; 
+ Rigorous protection of personal data, for which necessary instruments need to be 
+developed; 
+ Step-wise approach, with agreement among Member States at each step of the way. 
+These guidelines aim to support interoperability between vaccination certificates, if Member 
+States or other parties decide to implement them. They are meant to drive the design of 
+interoperable solutions. 
+Although these guidelines have no binding character, Member States and other parties are 
+nevertheless recommended to take them into account if and when deciding to set up their 
+vaccination certificates, in order to support interoperability. 
+The eHealth Network position is that digital and non-digital (Carte-Jaune or other paper) 
+vaccination certificates can be used and co-exist. There shall be no unauthorised 
+discriminatory side effects linked solely to the presentation of COVID-19 vaccination 
+certificates. However, it is important to be prepared for different non-discriminating scenarios, 
+with the reservation to the ongoing legal, ethical, scientific and societal discussions in 
+Europe. 
+ 
+2 Purposes of use 
+The International Certificate of Vaccination or Prophylaxis (Carte-Jaune) has traditionally 
+been a paper document, which was often simply presented in situ, occasionally along with 
+the presentation of a passport. Usually, there was no further need for additional copies or 
+proofs of veracity of the document. Even if (photo) copies were made, they would contain 
+relatively little information, not be searchable and reveal less than the information copied 
+from the passport. 
+The situation is markedly different with a digital proof of vaccination; most scenarios call for 
+automatic processing. It is conceivable that most implementations will use digital tools to 
+                                               
+1
+ https://www.consilium.europa.eu/media/47296/1011-12-20-euco-conclusions-en.pdf  
+2
+ https://www.consilium.europa.eu/en/press/press-releases/2021/01/21/oral-conclusions-by-president-
+charles-michel-following-the-video-conference-of-the-members-of-the-european-council-on-21-
+january-2021/pdf  
+4 
+eHealth Network 
+capture, store or process these digital vaccination certificates, whilst they should coexist with 
+their paper equivalents.  
+The purpose of use for vaccination proofs supported by these guidelines is in line with the 
+conclusions of the European Council3 as well as to support the upcoming regulation on 
+Digital Green Certificate. Vaccination certificates are to be used primarily as a standardised 
+and interoperable form of proof of vaccination for medical purposes Other purposes for 
+which proofs of vaccination (e.g. in particular the travel purposes) could be used, may be 
+decided by Member States, with the reservation to ongoing scientific, ethical, legal, and 
+societal discussions. Among the travel purposes one could consider situations where a 
+person arrives to a country and a verifiying authority confirms whether the person has been 
+vaccinated as regards of the SARS-CoV-2 virus. 
+ 
+Among the medical purposes one could consider situations where a person can get two 
+doses of vaccines in different countries and needs to show the information about the 
+previous vaccine to the second healthcare provider, or situations where a patient develops 
+side effects and the only information available to the healthcare providers is the certificate. 
+In future evolutions of these guidelines, other purposes of use and further requirements 
+concerning the described purpose can be addressed. Future versions should take into 
+account people for whom vaccination is not possible, so that these groups would not be 
+discriminated against in cases when vaccination certificates are requested from the public.  
+The vaccination certificate will be issued as a confirmation to the fact that a person has been 
+vaccinated; it can be issued at any time; and its validity can differ from the expected 
+immunisation period; the certificate asserts one completed or partial vaccination course, 
+which may cover one or multiple doses. 
+3 Basic interoperability elements 
+This document identifies and outlines basic interoperability elements for a COVID-19 
+vaccination certificate, namely: 
+1. Minimum dataset with the essential information included in a vaccination certificate; 
+2. Unique Vaccination Certificate/assertion identifier, referring to a completed or 
+partial vaccination course, that is globally unique and verifiable. 
+3. A trust framework, including digital infrastructure, that is needed for establishing the 
+authenticity and validity of certificates presented by certificate holders. 
+The Unique Vaccination Certificate/assertion identifier and the Trust Framework are 
+further specified in the eHealth Network document on”Interoperability of health certificates – 
+Trust Framework”. 
+The certificate shall be presented at least in English. In addition, the certificate may also be 
+presented in other languages. 
+                                               
+3
+ https://www.consilium.europa.eu/en/press/press-releases/2021/01/21/oral-conclusions-by-president-
+charles-michel-following-the-video-conference-of-the-members-of-the-european-council-on-21-
+january-2021/pdf  
+5 
+eHealth Network 
+3.1 Minimum dataset 
+A minimum dataset enables basic information to be captured and represented in a structured 
+manner that facilitates sharing and interpretation. It is a foundation to enable possible future 
+initiatives with a cross-border dimension on vaccination, such as the ongoing efforts by WHO 
+to develop smart vaccination certificates. A minimum dataset is necessary to ensure 
+interoperability and cross border cooperation on vaccine certificates.  
+The minimum dataset for a vaccination certificate is organised in 3 sections: 
+1. Person identification 
+2. Vaccination information 
+3. Certificate metadata 
+The minimum dataset proposed for vaccination certificates is comprised of data elements 
+and linked to the preferred EU code systems. Mappings to these code systems should be 
+considered by the Member States when a Member State is not using any of the preferred 
+code systems. The additional workload caused by the use of the preferred code systems 
+should be kept reasonable. 
+The dataset is defined as a minimum from the perspective of data registration relevant for the 
+issuance of certificates. Certain fields may or may not be shown to the recipient of the 
+certificate. Even if the defined purpose of use could be supported by the Patient Summary 
+Guidelines, the vaccination certificate provides a complementary solution in which the 
+certificate holder provides the data to the health professional directly. In the medium and 
+longer term, all the vaccination information should be shared through MyHealth@EU, as part 
+of the Patient Summary. However, vaccination certificates will remain useful outside the EU.  
+Beyond providing input to the certificate minimum dataset, ECDC (European Centre for 
+Disease Prevention and Control) and NITAG (National Immunization Technical Advisory 
+Group) are willing to support the upcoming work related with the minimum dataset for 
+Immunisation Information Systems (IIS) existing or to be developed at the Member State 
+level. The work on IIS minimum dataset will build on top of the discussions and insights 
+regarding the vaccination certificate minimum dataset. 
+The vaccination certificate system should be designed in such a way that the data subject 
+can control the use of the certificate data. This will be further clarified as part of the 
+development of the trust framework. Information should be disclosed to the recipient of the 
+certificate following the principle of data minimization of the GDPR.  
+Details on the minimum dataset for vaccination certificates are available in Annex 1.  
+3.2  Unique Vaccination Certificate/assertion identifier 
+It is critical to ensure that each certificate about a partial or completed vaccination 
+procedure/course that takes place in EU Member States is uniquely identified by a Unique 
+Vaccination Certificate/Assertion Identifier (UVCI). This UVCI shall be included in any issued 
+certificate of vaccination. 
+The UVCI may be used, at later stages, to verify the certificate and also as a key linking to 
+additional information about the vaccination, once the modalities and platforms have been 
+developed and deployed. The UVCI is needed at the EU level to support the interoperability 
+of the vaccination certificates, while it should be implemented under the responsibility of the 
+Member States in a way that leaves them in full control of how they do so. 
+6 
+eHealth Network 
+At the core of each purpose of use is the fact that at the moment of presentation of the UVCI 
+a person is asserted to be partially or completely vaccinated. The UVCI is a means to verify 
+the veracity of the certificate and, if required, to link to a registration system (for example, an 
+IIS). These identifiers will also enable (paper and digital) assertions by the Member States 
+that individuals have been vaccinated.  
+The UVCI structure could evolve over time to accommodate additional requirements that 
+may emerge. It should take into account the digital readiness of Member States and be 
+flexible for Member States to accommodate the coexistence of paper and digital versions of 
+certificates as they wish. 
+Such an identifier would follow a common structure and format easing interpretability of 
+information and could relate to elements such as country of vaccination, the vaccine itself 
+and a Member State specific identifier. It should ensure flexibility to Member States to format 
+it, in full respect of data protection legislation. 
+It is therefore recommended that the UVCI contains no personal data – its primary purpose is 
+to be a unique ‘primary key’ that allows Member States’ health authorities to verify an 
+individual’s vaccination status.  
+Details about the composition of the UVCI are available in Annex 2. 
+3.3 Trust framework 
+Vaccination certificates must be issued by trusted entities, and it must be possible to verify 
+the authenticity and validity of a certificate and the trustworthiness of its issuing authority. 
+Depending on the medium (i.e. paper, paper with digital elements such as QR-codes, or 
+purely digital), verification scenarios and protocols will differ. Details of these protocols will 
+need to be elaborated as part of ongoing technical design work, also in line with global 
+initiatives.  In the design, security analysis and risk assessment should be used, in order to 
+assure sufficient level of protection against forgery of certificates or reuse of valid certificates 
+issued for other persons. 
+Digital elements enable reliable verification and protection against forgery, at the same time 
+increasing speed and improving usability of the verification process. For a coordinated 
+approach at EU level, further work is needed in the realm of the eHealth Network in 
+collaboration with other relevant groups and organisations in order to: 
+ Provide mechanisms for establishing authorisation of certificate issuers; 
+ Support the verification of vaccination certificates; 
+ Provide support for additional features, such as the revocation of issued certificates; 
+ Analyse legal implication for a trust framework; and 
+ Design possible solution while complying with EU data protection legal framework 
+and implementing its data protection principles. 
+7 
+eHealth Network 
+4 Further steps towards vaccination certificate interoperability 
+The guidelines on the basic interoperability elements of a COVID-19 vaccination certificate 
+will be followed by additional work towards the implementation of the Digital Green Certificate 
+regulation.  
+In close cooperation with the WHO, a common specifications framework to guide the 
+implementation of interoperable solutions could be developed by the eHealth Network, 
+subject to the consultation of the Health Security Committee.  
+The Commission is invited to support the development of a toolbox to provide means to 
+issue, read and facilitate the verification of vaccination certificates.  
+If a person cannot be vaccinated due to a medical reason, or cannot receive the next dose of 
+the ongoing vaccination course, a separate certificate stating so should be implemented for 
+such cases. Support for such certificates and other Covid-19 related proofs (tests etc.) will be 
+explored later by the eHealth Network as part of the further work on vaccination certificates 
+and the toolbox supporting them. 
+In addition, the Member States are encouraged to develop immunisation information systems 
+and, more broadly, take initiatives to further digitise the health sector, for instance through 
+the Recovery and Resilience Fund (throughout 2021-2022). 
+Annex 1 – Minimum dataset for proof of vaccination 
+In the table below, the asterisk * means that a field or the whole section may be repeated. 
+The minimum dataset is primarily designed for medical purposes. Should Member States 
+decide to use proof of vaccination for other purposes, the contents could be less extensive4. 
+Optionality is described in the data element section and (--) means not applicable.  
+Section Data Description Preferred Purpose of use 
+element  Code System 
+Care Travel 
+Person Person The legal name of the   X X 
+identification  name vaccinated person 
+(surname(s) and 
+forename(s) in that order 
+Person Vaccinated person’s date of Complete date, X X 
+date of birth. without time, 
+birth following the ISO 
+8601. 
+ 
+                                               
+4
+ Fields such as Sex, Batch/lot number, Administering centre, Health Professional identification, Next 
+vaccination date may not be needed for purposes other than medical use. 
+8 
+eHealth Network 
+Section Data Description Preferred Purpose of use 
+element  Code System 
+Care Travel 
+ Person The type of identifier and  X X 
+identifier identifier of the person, 
+ 
+(optional) according to the policies 
+applicable in each country. 
+Examples: citizen ID and/or 
+document number (ID-
+card/passport) or identifier 
+within the health system/IIS/e-
+registry.  
+Sex Administrative gender  X X 
+(optional) 
+     
+*Vaccination Disease Disease or agent that the ICD-10 or X X 
+/ or agent vaccination provides protection SNOMED CT 
+prophylaxis targeted  against (GPS) 
+information  In the future ICD-
+11. 
+* means that 
+the whole 
+Vaccine / Generic description of the SNOMED CT X X 
+section may 
+prophylaxi vaccine/prophylaxis or its  and ATC 
+be repeated 
+s component(s)  Classification 
+(J07 therapeutic 
+ 
+Example: subgroup);  
+J07BX03 covid-19 vaccines  
+(temporary code, to be In the future 
+implemented in ATC 2022) substances from 
+1119349007 | COVID-19 mRNA the ISO IDMP 
+vaccine | Implementation-
+1119305005 | COVID-19 antigen 
+EU-SRS system  
+vaccine | 
+ Vaccine Medicinal product name  For the time being, X X 
+this should be the 
+medicinal 
+Example:  name of the 
+product  COMIRNATY concentrate for medicinal product 
+dispersion for injection   as registered in the 
+country. 
+In the future the 
+information on the 
+medicinal product 
+can incorporate the 
+identifiers from the 
+implementation of 
+the ISO IDMP 
+Standards and the 
+medicinal 
+package's unique 
+identifier 
+9 
+eHealth Network 
+Section Data Description Preferred Purpose of use 
+element  Code System 
+Care Travel 
+ Vaccine Name of the market EMA's X X 
+marketing authorization holder of the Organisations 
+authorizati vaccination. If market System data 
+on holder  authorization holder is not (SPOR), 
+available, vaccine manufacturer 
+or   
+is REQUIRED. 
+Vaccine WHO 
+ 
+manufactu emergency use 
+rer   listing  
+Example:  
+BioNTech Manufacturing GmbH 
+ Number in Order in the vaccination course   X X 
+a series of 
+Example: 1 out of 2 doses, 2 
+vaccinatio
+out of 2 doses 
+ns / doses  
+1 out of 1 dose  
+ 
+ Batch/lot A distinctive combination of   X -- 
+number numbers and/or letters which 
+(optional) specifically identifies a batch of 
+vaccines 
+ Date of  Complete date, X X 
+vaccinatio without time, 
+n  following ISO 
+8601 
+ Administeri Name/code of administering  X -- 
+ng centre centre or a health authority 
+responsible for the vaccination 
+event 
+ Health Name or health professional  X  -- 
+Profession code responsible for 
+al administering the vaccine or 
+identificati prophylaxis 
+on 
+(optional) 
+ Country of The country in which the ISO 3166 X X 
+vaccinatio individual has been vaccinated  Country Codes  
+n  
+10 
+eHealth Network 
+Section Data Description Preferred Purpose of use 
+element  Code System 
+Care Travel 
+Next Date on which the next Complete date, X  -- 
+vaccinatio vaccination should be without time, 
+n date administered following ISO 
+8601 
+(optional) 
+Certificate Certificate Entity that has issued the   X X 
+metadata issuer certificate (allowing to check the 
+(minimum certificate) 
+dataset) 
+ Certificate Unique identifier of the   X X 
+Identifier certificate (UVCI), to be printed 
+into the certificate; the unique 
+identifier can be included in the 
+IIS 
+ Certificate Certificate valid from (required if Complete date, X X 
+valid from known) without time, 
+following ISO 
+(optional) 8601 
+ Certificate Certificate valid until (validity Complete date, X X 
+valid until can differ from the expected without time, 
+immunisation period) following ISO 
+(optional) 8601 
+ Certificate Version of this minimum Semantic X -- 
+schema dataset definition - currently set versioning (ISO, 
+version at 1.0.0 https://semver.or
+g/  version 2.0.0 
+(optional) 
+or newer). 
+All fields that contain non-enumeration/numeric data should be encoded in UTF-8 must be fully canonicalised and 
+normalised according to http://unicode.org/reports/tr15/ .  
+ 
+Annex 2 – Composition of the Unique Vaccination 
+Certificate/assertion identifier  
+The Unique Vaccination Certificate/assertion identifier (UVCI) will follow a common structure 
+that will enable human- or machine-interpretability in all Member States and is designed for 
+the Internet. The order of the separate elements follows a defined hierarchy that can enable 
+future modifications of the blocks while maintaining its structural integrity. 
+11 
+eHealth Network 
+ 
+The possible solutions for the composition of the UVCI form a spectrum wherein the 
+modularity and human-interpretability are the two main diversifying parameters and one 
+fundamental characteristic: 
+● Modularity: the degree to which the code is composed of distinct building blocks that 
+contain semantically different information 
+● Human-interpretability: the degree to which the code is meaningful or can be 
+interpreted by the human reader 
+● Globally unique; the Country or Authority identifier is well-managed; and each country 
+(authority) is expected to manage its segment of the namespace well by never 
+recycling or re-issuing identifiers. The combination of this ensures that each identifier 
+is globally unique. 
+General requirements 
+The following overarching requirements should be satisfied: 
+1. Charset: Only uppercase US-ASCII alpha numerical characters (‘A’ to ‘Z’, ‘0’ to ’9’) 
+are allowed; with additional special characters for separation from RFC39865, namely 
+{'/','#',':'}; 
+2. Maximum length: designers should try to aim for a length of 27-30 characters;6  
+3. Version prefix: This refers to the version of the UVCI schema. The version prefix is 
+‘01’ for this version of the document; the version prefix is composed of two digits; 
+4. Country prefix: The country code is specified by ISO 3166-1. Longer codes (e.g. 3 
+characters and up (e.g ‘UNHCR’) are reserved for future use; 
+5. Code suffix / Checksum: 
+5.1 Member States should use a checksum when it is likely that transmission, 
+(human) transcription or other corruptions may occur (i.e. when used in print).   
+5.2 The checksum must not be relied upon for validating the certificate and is not 
+technically part of the identifier but is used to verify the integrity of the code. 
+This checksum should be the ISO-7812-1 (LUHN-10)7 summary of the entire 
+UVCI in digital/wire transport format. The checksum is separated from the rest 
+of the UVCI by a '#' character. 
+Backwards-compatibility should be ensured: over time Member States that change the 
+structure of their identifiers (within the main version, currently set at v1) must ensure that any 
+                                               
+5
+ Ibid. 
+6
+ In the event of implementation with QR codes, Member States could consider an extra set of characters up to a 
+total length of 72 characters (including the 27-30 of the identifier itself) may be used to convey other information. 
+The specification of this information is up to the Member States to define. 
+7
+ The Luhn mod N algorithm is an extension to the Luhn algorithm (also known as mod 10 algorithm) which works 
+for numeric codes and is used for example for calculating the checksum of credit cards. The extension allows the 
+algorithm to work with sequences of values in any base (in our case alpha characters). 
+12 
+eHealth Network 
+two identifiers that are identical represent the same vaccination certificate/assertion. Or in 
+other words; Member States cannot recycle identifiers. 
+Proposed options 
+The different options presented below are available to Member States and other parties and 
+can co-exist among different Member States. Member States can even deploy different 
+option in different version of the UVCI schema. The UVCI should clearly allow distinguishing 
+which option is applied in a given Member State. 
+In both Options 1 and 3, vaccine manufacturers should preferably be internationally 
+identifiable; this necessitates agreement on common terminology and identifiers to ensure 
+that this is consistently applied. Although EMA has the Organisations Management Service 
+(SPOR) database that includes identifiers for the Marketing Authorisation Holders, and which 
+could serve as a candidate EU-wide solution, not all Member States may be ready to 
+accommodate it. 
+Option 1 - identifier with semantics 
+ 
+This is the most modular approach and consists of three blocks. The issuing entity refers to 
+the authority issuing the certificate while the vaccine block provides information about the 
+vaccine shot used. Finally, the opaque unique string pertains to the vaccinated individual. 
+Member States are free to determine how each block is coded. For example, the vaccine 
+block could encode different data elements in different Member State implementations (i.e. 
+vaccine product identifier, vaccine/lot identifier(s)), depending also on the data availability. 
+Each block will be able to be understood by a human reader (assuming they can interpret the 
+coding). This solution gives the greatest latitude to Member States to populate each block in 
+the manner they see fit by exploiting existing event or evidence/status identifiers, for the 
+registries of authorised vaccination providers.  
+Each block should consist of alphanumeric characters (i.e. special characters are not allowed 
+within a block). Alphanumeric blocks should be separated by the special character '/'. If two 
+UVCIs are identical up until the first and/or second slash, this means that they are issued by 
+the same issuing entity and/or that the same vaccine lot/batch has been used. Member 
+States are responsible for defining the specifications of each block as they see fit. For 
+instance, the Member States can determine the length of each block based on their actual 
+needs, as long as the total cumulative length of all the blocks as well as the separators does 
+not exceed the defined total length of the identifier (see requirement 2 of the General 
+Requirements). 
+This will result in greater heterogeneity but will also enhance the possibilities for offline and 
+analogue verification. The option makes it easy to generate and write down the UVCI (e.g. by 
+hand in paper-based documents). 
+To avoid having the UVCI include personally identifiable information (PII), Member States are 
+strongly urged to refrain from using, for example, a Social Security number or similar long-
+term stable identifier. 
+It is recommended therefore that countries use a non-guessable, random event identifier 
+rather than an identifier that reveals something about the bearer. And use the country's IIS or 
+other registration system to hold the provenance and identity of the bearer.  
+13 
+eHealth Network 
+Option 2 - opaque identifier - no structure 
+ 
+Apart from the country code and the code version in the beginning and the checksum of at 
+the end, the code is not modular but it consists of a single field. This single field serves as 
+the unique identifier of the vaccination in the national vaccination registry of the 
+corresponding country. It is the Member states’ responsibility to come up with the mechanism 
+for generating and indexing the aforementioned single unique vaccination identifiers. 
+The opaque unique string should consist of alphanumeric characters exclusively; no other 
+characters (e.g. “/”) are allowed. This option provides the maximum flexibility to the Member 
+States in the management of their UVCIs. 
+Option 3 - some semantics 
+ 
+This option consists of two fields: the issuing entity and the opaque unique string. As 
+opposed to Option 2, the opaque unique string does not need to contain information about 
+the issuing entity. The use of an opaque unique string transfers the responsibility to the 
+Member State for generating the opaque unique string while removing the human 
+interpretability requirement. As in Option 2, Member States will be responsible for 
+determining the mechanism for generating and indexing the opaque unique strings. 
+The two blocks should consist of alphanumeric characters exclusively; no other characters 
+(e.g., “/”) are allowed. The blocks are separated by the slash (“/”) character and if two UVCIs 
+compare identical up until the slash, this means that they are issued by the same issuing 
+entity. 
+It is possible that the definitions of fields change in the future; and that fields need to be 
+added. The use of RFC3986 allows for such; in a manner well understood in internet 
+engineering and available libraries8. 
+                                               
+8
+ https://tools.ietf.org/html/rfc3986 
+14 

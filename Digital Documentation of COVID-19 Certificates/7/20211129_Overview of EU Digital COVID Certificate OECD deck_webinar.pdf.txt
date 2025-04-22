@@ -1,0 +1,94 @@
+EU Digital COVID Certificate
+29 November 2021
+What is the EU Digital COVID Certificate?
+Digital proof that a person has either
+• been vaccinated against COVID-19
+• received a negative test result
+• recovered from COVID-19
+What does it entail?
+• Data is encoded, compressed and digitally signed in 
+interoperable barcode
+• Paper or digital format, easy to read
+• Free of charge
+• Bound to an EU citizen: 1 certificate, 1 holder
+• Europe-wide validity 
+• Signature validation key exchange is done via an EU Gateway
+Regulation outline
+• Legal basis: Art 21(2) TFEU – free movement of EU citizens within the EU
+• Objective: to facilitate safe free movement during the pandemic by 
+establishing a common framework – the EU Digital COVID Certificate – for 
+the issuance, verification and acceptance of interoperable:
+• vaccination certificates
+• test certificates
+• certificates of recovery
+• May also be used by Member States for national purposes – if legal basis is 
+provided for in national law: 20 Member States doing so
+Outline technological architecture
+Third countries
+private key EUDCC 
+public key(s) Gateway
+business rules
+Verifying
+EU Digital COVID Certificate
+Signing
+verifier app offline verification
+Country A (issuer) Country B (verifier)
+Third country issued digital certificate
+How are DCCs used?
+51 30EU27+EEA
+Countries 
+connected to the 21
+EU DCC Gateway
+Third countries
+27 Countries from across 5 continents whose applications are still under assessment
+In the pipeline
+20 Member States using EU DCC for domestic purposes
+666m+ 474m vaccination certificates 107m rapid antigen test certificates
+Issued certificates 74m PCR test certificates 11m recovery certificates
+Components needed for interoperability
+All documents are available from: https://ec.europa.eu/health/ehealth/covid-19_en
+Datasets and value sets Architecture
+eHealth Network guidelines on verifiable vaccination certificates - basic Trust framework
+interoperability elements Reference implementations for issuance, storage and 
+verification apps
+Guidelines on COVID-19 citizen recovery interoperable certificates -
+minimum dataset
+Other
+JSON Schema for EU Digital COVID Certificates Template for paper version for EU DCCs
+A common list of COVID-19 rapid antigen tests, and a common
+standardised set of data to be included in COVID-19 test result certificates
+Technical specifications
+Third countries
+Volume 1: formats and trust management
+Third country DCC Equivalence Decision checklist
+Volume 2: EU Digital COVID Certificate Gateway
+Annex 1: Evaluation checklist
+Volume 3: 2D Barcode Specifications
+Annex 2: Technical procedure
+Volume 4: EU Digital COVID Certificate Applications
+Annex 3: Application form
+Volume 5: Public Key Certificate Governance
+EU DCC Validation Rules
+Validation of EU Digital COVID Certificates in the context of air transport
+Guidelines on the use of Digital Covid Certificates in traveller and online 
+booking scenarios
+The equivalence decision process
+Initiation Self-assessment
+First contact, pre-checks of Completion by applicant country of 
+readiness, technical Evaluation Checklist
+clarification
+Technical check
+Assessment of Evaluation Checklist Formal 
+submission of application for Equivalence Decision 
+Technical screening of third country notification of 
+results of technical compliance tests to third country
+Equivalence Decision Onboarding
+On positive opinion from technical team, preparation of Equivalence Applicant country on-
+boarding with final tests Go 
+Decision (ED) Vote in Member State Committee following positive vote, 
+Live and exchange of keys
+adoption and publication of Implementing Act and notification of ED
+Thank you
+© European Union 2020
+Unless otherwise noted the reuse of this presentation is authorised under the CC BY 4.0 license. For any use or reproduction of elements that are 
+not owned by the EU, permission may need to be sought directly from the respective right holders.

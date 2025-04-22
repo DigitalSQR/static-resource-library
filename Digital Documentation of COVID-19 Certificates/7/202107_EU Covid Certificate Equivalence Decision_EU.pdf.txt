@@ -1,0 +1,92 @@
+Third Country EU Digital COVID certificate 
+Equivalence Decision procedure 
+Version 1.0 
+1 Onboarding procedure 
+In case a third country wishes to link up to the EU’s Digital COVID Certificate, it should self-assess that 
+its system complies with the EUs’ specifications described in this document. The checklist, which you 
+find below, must be used for the self-assessment.  
+If they wish to link up with the EU’s Digital Covid Certificate, third countries are encouraged to issue 
+their COVID certificates according to the exact same technical specifications used by Member States 
+in accordance with the EU DCC Regulation (EU DCC specifications). Third countries are encouraged to 
+make use of available open source implementations. 
+The EU DCC specifications covering data structure and encoding mechanisms, including the QR code, 
+which will ensure that all certificates, whether digital or on paper, can be read and verified across the 
+EU are available at https://ec.europa.eu/health/ehealth/covid-19_en and more specifically: 
+• Detailed technical specifications:  
+o Volume 1: formats and trust management 
+o Volume 2: Digital Green Certificate Gateway 
+o Volume 3: 2D Barcode Specifications 
+o Volume 4: Digital Green Certificate Applications 
+o Volume 5: Public Key Certificate Governance 
+o EU DCC Validation Rules 
+• Datasets and value sets:  
+o Value sets 
+o JSON Schema for Digital Green Certificates 
+ 
+If a third country applies the EU DCC specifications in full, it follows that the conditions set in Article 8 
+EU DCC Regulation1 are fulfilled. It will indeed be established that the third country certificates: i) are 
+in accordance with standards and technological systems interoperable with the trust framework for 
+the EU Digital COVID Certificate (EU DCC), ii) can be verified for their authenticity, validity and integrity 
+iii) contain the data set out in the Annex of the EU DCC Regulation. 
+If the result of this self-assessment is conclusive, a formal request should be addressed via an official 
+letter to the Commission (official letter on behalf of the government addressed to the Secretary-
+General of the European Commission, Ms Ilze Juhansone), to express the interest of the respective 
+country in the adoption of a decision by the Commission establishing that certificates issued by the 
+respective country should be considered as equivalent to EU Digital COVID Certificates. This letter 
+                                                          
+1 Regulation (EU) 2021/953 of the European Parliament and of the Council of 14 June 2021 on a framework for 
+the issuance, verification and acceptance of interoperable COVID-19 vaccination, test and recovery certificates 
+(EU Digital COVID Certificate) to facilitate free movement during the COVID-19 pandemic 
+should include as annexes a description of the system developed and the completed checklist. Upon 
+receipt, the Commission will launch the procedure to assess whether a third country applies the EU 
+DCC specifications, and whether the process for the onboarding procedure workflow can be launched, 
+which is the same that Member States have already used to bring their system online within the Union. 
+If the result of this self-assessment is inconclusive, a fully-fledged equivalence decision cannot be 
+granted to a third country. Entry to the EU for non-essential reasons would remain possible under the 
+conditions set in Council Recommendation 2020/912. Technical level contact can be sought with the 
+Commission if any clarification is required on these conditions. 
+ 
+1. Initiation of the procedure –First contacts, pre-checks of readiness, technical clarification. 
+ The third country completes the Evaluation Checklist (Annex I) through which the third 
+country will self-assess its readiness to enter the technical part of the onboarding 
+procedure.  
+ If the assessment of the Evaluation Checklist concludes that the applicant country is 
+technically fit to connect to EU Gateway (onboarding), go to step 2. 
+ Otherwise, the Commission will, accordingly, inform the third country about this. 
+To manage the flow of potential applications, priority will have to be established prior to moving 
+to Step 2, also taking into account the Council Recommendation 2020/9122 and resource 
+constraints. 
+ 
+2. Country is deemed to be technically fit for onboarding procedure 
+ The third country is invited to submit its application for an Equivalence Decision on the basis 
+of the onboarding procedure via the following email address: EU-DIGITAL-COVID-
+CERTIFICATE-COMMITTEE@ec.europa.eu 
+ The Commission acknowledges the receipt of application and provides the applicant country 
+the contact details of the team that will test the compatibility of the third country 
+certificates with the EU-DCC specifications. 
+ The procedure described in Annex II details the technical screening process.   
+ If the applicant country falls under the scope of Article 3(5) of the EU DCC Regulation, in 
+order to continue with the procedure the Commission will require from the third country 
+formal assurances that the third country will accept Digital Covid Certificates issued by 
+Member States.  
+ The Commission will notify the third country of the result of the technical compliance tests 
+ 
+ 
+ 
+                                                          
+2 Council Recommendation (EU) 2020/912 on the temporary restriction on non-essential travel into the EU and 
+the possible lifting of such restriction-Amendment of Annex I (Council Doc nr. 9878/21, 16 June 2021) 
+3. Equivalence Decision  
+ Upon a motivated positive opinion from the Commission technical team, the Commission 
+will adopt the implementing act relative to the third country3 and inform the third country 
+of a positive Equivalence Decision 
+4. Go live  
+ As soon as the Equivalence Decision has been adopted, the Commission will invite the third 
+country to submit an application form (Annex III) including relevant information to connect 
+the country to the production environment. 
+ upon assessment of the application form, the Commission will invite the third country to 
+register their production certificates and promote them to the production environment. 
+ 
+ 
+                                                          
+3 Subject to a positive opinion by the comitology committee 

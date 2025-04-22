@@ -1,0 +1,176 @@
+OVERVIEW OF THE CANADIAN PROOF OF VACCINATION
+Monika Kumari
+Senior Director, Special Projects
+Public Health Agency of Canada
+November 2021
+1
+Introduction
+What is the Canadian Proof of Vaccination Credential 
+Program?
+2
+The Canadian Proof of Vaccination Credential Program
+• Canada recognizes that the safe reopening of economies and communities includes international 
+travel. 
+• In response to a need to facilitate the restart international travel while recognizing the evolving 
+epidemiological context, the Government of Canada, in collaboration with the Canadian provinces and 
+territories, have launched the Canadian COVID-19 proof of vaccination credential (PVC) for international 
+travel. 
+• The Canadian PVC is:
+• a standardized and interoperable credential, based on the SMART Health Card specifications.
+• a factual statement of the holder’s vaccination history that can be used by border officials to 
+determine what public health measures may be applied to that individual.
+• client-focused and protects privacy.
+• As vaccination data in Canada is held by the provinces and territories, the Canadian PVC is issued at the 
+provincial/territorial level, but has a common look and feel with a Canada wordmark to ensure the 
+document is easily recognized by foreign borders as Canadian. 
+• Eleven provinces and territories have began to issue the Canadian PVC, with two remaining provinces 
+planning to issue by end of November 2021.
+• Canada is currently sharing the Canadian PVC specimen through the diplomatic channel to seek 
+foreign recognition and acceptance of the Canadian document.
+3
+Overview: The Canadian PVC
+What people will have in hand when traveling
+4
+A Canadian standard for PVC: The SMART Health Card
+PHAC has aligned on a Canadian standard for all Canadian provinces and territories building on SMART Health Cards specifications to 
+create a consistent approach in Canada and as well as for adoption among international entities
+Standard selected – SMART Health Cards
+The 2D QR code follows the SMART Health Cards framework from the Vaccine Credential Initiative (VCI):
+• Open source QR code specs widely available and recognized
+• Speed of execution through libraries and other open-source accelerators – for both issuers and verifiers
+• A growing list of trusted issuers on the Common Trust Network
+• Portability to native mobile phone health/COVID passes
+The QR code holds all the data elements. As such:
+• Both personal and vaccination records are included
+• The individual owns the digital certificate
+• No call backs needed to provincial or territorial registries
+• Allows for inclusion of COVID-19 test records as well, future phases
+5
+Benefits of working towards a Canadian standard - SMART
+Enduring given that it would be a neutral, factual document that would never need to be revoked
+(and new vaccination events could be added)
+Flexible given the ability to set different rules depending on the verifier / foreign border (rich dataset
+displayed vs. thumbs-up/thumbs-down); can be easily updated as vaccine science evolves
+Maximizes accessibility via a paper or electronic format (can be printed home or in any service centre);
+verification process can occur offline
+Readily available & easily verifiable by third parties
+The adoption of the standard by all provinces and territories supports interoperability between them (e.g., 
+interprovincial travel)
+Supports domestic use cases for provinces and territories who wish to leverage this tool
+SMART Health Card Framework is based on HL7 ® FHIR which is the industry standard for health records
+Common-look-and-feel makes it easier for foreign borders to recognize Canadian PVCs issued by provinces 
+and territories
+Detailed dataset aligned with international travel requirements.
+6
+Canadian PVC – Common Look and Feel 
+Province and territories issued PVCs standardize health information following the SMART specification. The 
+following figures show the Canadian ‘look-and-feel’ PDF issued by Yukon embedding a SMART Health Card QR 
+code:
+PVC – Canadian Look and Feel specifications PVC – Tech specs
+7
+What goes in the PVC?
+FHIR Resource
+VaccinationCredentialPatient
+• PVCs are designed to embed vaccination events in 
+1 User information priority. Based on the current design more than five 
+vaccination events have been confirmed to fit in a 
+1 single SMART Health Card QR code.
+Data Elements • However, if the province or territory at their 
+Given Name(s) discretion includes additional non-vaccination 
+Family Name information in the QR code, it is possible that 
+Birthdate
+more than one QR code may be required.
+FHIR Resource
+VaccinationCredentialImmunization • Human readable content related to non-vaccination 
+information e.g. tests, can be printed on a second 
+2 First vaccine page (optional Province/Territory-specific page), 
+if required. Provinces and Territories have been 
+2 FHIR Resource instructed to ensure the QR code(s) remains 
+VaccinationCredentialImmunization
+fully compatible with the SMART Health 
+3 3 Second vaccine Cards specifications. 
+• Provinces and territories have been producing PVC 
+Data Elements (x2) samples for compliance testing to ensure 
+Security functionality and alignment with the specifications. 
+Vaccine Code
+Occurrence Date
+Lot Number
+Performer Name
+Vaccination Status
+Vaccine Manufacturer
+8
+Verifying the Canadian PVC
+(1) Authenticity 
+To confirm if the PVC was issued by recognized provinces and territories or federal agencies of Canada:
+• Verifiers can use the VCI Directory/Common Trust Network to confirm registered issuers
+– At present, Canada is still in the process of onboarding its provinces and territories to the VCI Directory or Common Trust Network 
+(which will be merging into one trust entity shortly). 
+• Alternatively, the verifier will need to know Canada’s white-listed public URLs from trusted Canadian issuers (federal, 
+provincial or territorial governments). 
+(2) SMART Health Card Compliant
+• A complete PVC should include all mandatory SMART Health Card data elements and align with the Canadian common 
+look-and-feel.
+• PVCs are designed to embed vaccination events in priority, with most recent at top. 
+• Human readable content related to non-vaccination information can be printed on an optional second page by the 
+province/territory of issuance
+(3) Vaccine Codes
+• Canadian PVCs will include vaccination information using the CVX code. In some cases, a SNOMED code may also follow 
+the CVX code.
+9
+The SMART Health Card Ecosystem
+10
+Where are SMART Health Cards used?
+A growing ecosystem has developed around the SMART Health Cards standard
+Issuers Holders Verifiers
+US states
+(California, New York, Hawai‘i, Louisiana, Microsoft, CommonsPass, PathCheck, 
+Utah, New Jersey, etc.); Walmart; 8 Canadian Airlines (JetBlue, Hawaiian Airlines, 
+Apple (iOS 15), Samsung Pay 
+provinces and territories (Quebec, Yukon, Swiss International Airlines, Virgin 
+US, Google
+Saskatchewan etc.) with more US States and Atlantic, United Airlines, Lufthansa)
+Canadian provinces coming online in the next 
+few months
+11
+Update on the iOS ecosystem
+Apple has adopted SMART Health Cards to allow iPhone 
+user to store their COVID-19 vaccination record in Apple 
+Health.
+How do you share your SMART Health Card?
+• Verification can be done in person by scanning the 
+SMART Health Card in the Apple Wallet (iOS 15.1 beta)
+• Verification can be done remotely using the new 
+“verifiable health record” feature of Apple HealthKit
+Canadian PVCs are compatible with iOS 15 and can be 
+scanned with the Camera app.
+12
+Update on the Android ecosystem
+On Android, multiple solutions have emerged to manage verifiable 
+COVID-19 vaccination records:
+• Google’s Covid Cards allow the Google Pay wallet to store and 
+display SMART Health Cards just like Apple Wallet
+• Some of the US State implementations, including California are 
+natively supporting Google Pay. Google’s Covid Cards also 
+supports a much wider variety of credentials beyond SHCs but are 
+currently only available in US and Australia.
+• The CommonHealth app available for Android can also play the 
+same role as Apple Health to hold vaccination records
+13
+Resources and References 
+Being based on the SMART Health Cards standard, the proof of vaccine certificate is supported by a growing open source 
+ecosystem with a number of resources that can be used to issue and validate SMART Health Cards. The following lists publicly 
+available resources:
+• Landing page of the SMART Health Cards specifications: https://spec.smarthealth.cards/
+• Vaccination Credential Bundle Specification: Refer to http://build.fhir.org/ig/dvci/vaccine-credential-
+ig/branches/main/StructureDefinition-vaccination-credential-bundle.html for VCI spec when building the issuance of the 
+vaccine certificate
+• Reference implementation: https://github.com/smart-on-fhir/health-cards/
+• VCI Testing appliance: Verifier Portal (smarthealth.cards)
+• SMART Health Cards validation SDK (from Microsoft): https://github.com/microsoft/health-cards-validation-SDK
+• Libraries for SMART Health Cards: https://github.com/smart-on-fhir/health-cards/wiki/Libraries-for-SMART-Health-Cards
+• COVID-19 CVX Vaccine Codes: https://www.cdc.gov/vaccines/programs/iis/COVID-19-related-codes.html
+14
+Contacts
+For more general information about the Canadian Proof of Vaccination, please contact: 
+For more technical information about the Canadian Proof of Vaccination, please contact: 
+15

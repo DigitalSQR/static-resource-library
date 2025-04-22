@@ -1,0 +1,435 @@
+ 
+ 
+ 
+ 
+ 
+eHealth Network  
+ 
+ 
+Guidelines on 
+ 
+ 
+Value Sets for  
+EU Digital COVID Certificates 
+ 
+ 
+ 
+Version 1.7 
+ 
+2022-01-12 
+ 
+ 
+ 
+ 
+ 
+The eHealth Network is a voluntary network, set up under article 14 of Directive 2011/24/EU.  
+It provides a platform of Member States' competent authorities dealing with eHealth.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+eHealth Network 
+ 
+ 
+ 
+These guidelines complement and further specify the description of value sets as provided by 
+Annex II of the Commission Implementing Decision (EU) 2021/1073 of 28 June 2021 laying 
+down technical specifications and rules for the implementation of the trust framework for the 
+EU Digital COVID Certificate established by Regulation (EU) 2021/953 of the European 
+Parliament and of the Council. 
+ 
+ 
+ 
+Adopted by the eHealth Network on 12 January 2022. 
+  
+2 
+eHealth Network 
+Version history 
+Version Date Changes 
+1.0 21 April 2021 First adopted version 
+1.1 12 May 2021 JSON schema detached 
+1.2 7 July 2021 Update name of the document, names of 
+data fields and reference to the JSON 
+schema specification, add new values   
+1.3 29 September 2021 Summary table of vaccine coding, addition 
+of new values 
+1.4 13 October 2021 Addition of new values, technical 
+clarifications 
+1.5 10 November 2021 Addition of new values, addition of a 
+disclaimer regarding the vaccines 
+1.6 1 December 2021 Addition of new values, Removel of 
+information fully described in the 
+Implementing Decision 
+1.7 12 January 2022 Addition of new values 
+ 
+  
+3 
+eHealth Network 
+Table of Contents 
+1 Introduction .............................................................................................................. 5 
+2 Value Sets for the Digital COVID Certificates .............................................................. 5 
+2.1 Disease or agent targeted / Disease or agent the citizen has recovered from ....... 5 
+2.2 COVID-19 vaccine or prophylaxis ......................................................................... 5 
+2.3 Vaccine medicinal product .................................................................................. 6 
+2.4 COVID-19 vaccine marketing authorization holder or manufacturer ..................... 8 
+2.5 Number in a series of doses as well as the overall number of doses in the series 10 
+2.6 Member State or third country in which the vaccine was administered/test was 
+carried out ............................................................................................................... 10 
+2.7 Type of test ....................................................................................................... 10 
+2.8 Manufacturer and commercial name of the test used (optional for NAAT test) .. 10 
+2.9 Result of the test ............................................................................................... 10 
+Annex A Summary of vaccine coding instructions ............................................................ 11 
+ 
+  
+4 
+eHealth Network 
+1 Introduction 
+Value Sets for the EU Digital COVID Certificate are defined for the datasets provided in the 
+Regulation (EU) 2021/953 of the European Parliament and of the Council of 14 June 2021 on 
+a framework for the issuance, verification and acceptance of interoperable COVID-19 
+vaccination, test and recovery certificates (Digital COVID Certificate) to facilitate free 
+movement during the COVID-19 pandemic. 
+Annex II of the Commission Implementing Decision (EU) 2021/1073 of 28 June 2021, 
+amended by Commission Implementing Decision (EU) 2021/2014 of 17 November 2021 
+describes general rules for all value sets and lists some of them in their entirety.  
+However, for value sets that are changing often, notably related to vaccine and test device 
+coding, the Implementing Decision indicates that they shall be published and regularly updated 
+by the Commission with the support of the eHealth Network and the Health Security 
+Committee. These guidelines provide this publication. 
+2 Value Sets for the Digital COVID Certificates 
+2.1 Disease or agent targeted / Disease or agent the citizen has recovered from 
+Fully described in the Implementing Decision. 
+2.2 COVID-19 vaccine or prophylaxis 
+The following codes shall be used. 
+Code Display Code System Code System URL Code System OID Code 
+name System 
+version 
+1119305005 SARS-CoV-2 SNOMED CT http://snomed.info/sct  2.16.840.1.113883.6.96 2021-01-
+antigen 31 
+vaccine 
+1119349007  SARS-CoV-2 SNOMED CT http://snomed.info/sct 2.16.840.1.113883.6.96 2021-01-
+mRNA 31 
+vaccine 
+J07BX03 covid-19 Anatomical http://www.whocc.no/atc  2.16.840.1.113883.6.73 2021-01 
+vaccines Therapeutic 
+Chemical 
+Classification 
+System 
+The code from the ATC can be used for vaccines that are neither an antigen nor an mRNA 
+vaccine or in cases where this information is not known. 
+5 
+eHealth Network 
+2.3 Vaccine medicinal product1 
+(More info on COVID-19 vaccines here).  
+The following codes shall be used: 
+Code Display Code System name Code System URL Code Code 
+System System 
+OID version 
+ 
+EU/1/20/1528 Comirnaty Union Register of https://ec.europa.eu/heal - 
+medicinal products th/documents/communit
+y-register/html/ 
+ 
+EU/1/20/1507 Spikevax  Union Register of https://ec.europa.eu/heal - 
+medicinal products th/documents/communit
+y-register/html/ 
+ 
+EU/1/21/1529 Vaxzevria Union Register of https://ec.europa.eu/heal - 
+ medicinal products th/documents/communit
+y-register/html/ 
+ 
+EU/1/20/1525 COVID-19 Union Register of https://ec.europa.eu/heal - 
+Vaccine medicinal products th/documents/communit
+Janssen y-register/html/ 
+ 
+CVnCoV CVnCoV Vaccine medicinal - 1.0 
+products not centrally 
+authorized in the EU 
+in rolling review by EMA 
+ 
+NVX-CoV2373 NVX- Vaccine medicinal - 1.0 
+(deprecated, CoV2373 products not centrally 
+see Annex A authorized in the EU 
+for more in rolling review by EMA 
+instructions) 
+ 
+Sputnik-V Sputnik V Vaccine medicinal - 1.0 
+products not centrally 
+authorized in the EU 
+in rolling review by EMA 
+ 
+Convidecia Convidecia Vaccine medicinal - 1.0 
+products not centrally 
+authorized in the EU 
+ 
+EpiVacCorona EpiVacCoron Vaccine medicinal - 1.0 
+a products not centrally 
+authorized in the EU 
+ 
+BBIBP-CorV BBIBP-CorV Vaccine medicinal - 1.0 
+products not centrally 
+authorized in the EU 
+                                                 
+1 The fact that a COVID-19 vaccine is listed does not mean that a certificate issued for the administration of such 
+a COVID-19 vaccine will be accepted by EU Member States. The acceptance of vaccination certificates is 
+governed by Article 5(5) of Regulation (EU) 2021/953. Some vaccines on the list may have not been evaluated 
+by EMA or completed the enlistment on the WHO Emergency Use Listing. 
+6 
+eHealth Network 
+Code Display Code System name Code System URL Code Code 
+System System 
+OID version 
+ 
+Inactivated- Inactivated Vaccine medicinal - 1.0 
+SARS-CoV-2- SARS-CoV-2 products not centrally 
+Vero-Cell (Vero Cell) authorized in the EU 
+(deprecated, 
+see Annex A 
+for more 
+instructions) 
+ 
+CoronaVac CoronaVac Vaccine medicinal - 1.0 
+products not centrally 
+authorized in the EU 
+ 
+Covaxin Covaxin (also Vaccine medicinal - 1.0 
+known as products not centrally 
+BBV152 A, authorized in the EU 
+B, C) 
+Covishield Covishield Vaccine medicinal  - 1.2 
+(ChAdOx1_n products not centrally 
+CoV-19) authorized in the EU 
+Covid-19- Covid-19 Vaccine medicinal  - 1.3 
+recombinant (recombinant products not centrally 
+) authorized in the EU 
+R-COVI R-COVI Vaccine medicinal  - 1.3 
+products not centrally 
+authorized in the EU 
+CoviVac CoviVac Vaccine medicinal  - 1.4 
+products not centrally 
+authorized in the EU 
+Sputnik-Light Sputnik Light Vaccine medicinal  - 1.4 
+products not centrally 
+authorized in the EU 
+Hayat-Vax Hayat-Vax Vaccine medicinal  - 1.4 
+products not centrally 
+authorized in the EU 
+Abdala Abdala Vaccine medicinal  - 1.5 
+products not centrally 
+authorized in the EU 
+WIBP-CorV WIBP-CorV Vaccine medicinal  - 1.5 
+products not centrally 
+authorized in the EU 
+MVC- MVC Vaccine medicinal  - 1.6 
+COV1901 COVID-19 products not centrally 
+vaccine authorized in the EU 
+7 
+eHealth Network 
+Code Display Code System name Code System URL Code Code 
+System System 
+OID version 
+EU/1/21/1618 Nuvaxovid Union Register of https://ec.europa.eu/heal -  
+medicinal products th/documents/communit
+y-register/html/ 
+ 
+2.4 COVID-19 vaccine marketing authorization holder or manufacturer 
+The following codes shall be used: 
+Code Display Code System Code System URL Code System Code 
+name OID System 
+version 
+ 
+ORG- AstraZeneca AB EMA SPOR- https://spor.ema.europa. 2.16.840.1.1138
+100001699 Organisations eu/v1/organisations 83.3.6905.4 
+Management 
+System 
+ 
+ORG- Biontech EMA SPOR- https://spor.ema.europa. 2.16.840.1.1138
+100030215 Manufacturing Organisations eu/v1/organisations 83.3.6905.4 
+GmbH Management 
+System 
+ 
+ORG- Janssen-Cilag EMA SPOR- https://spor.ema.europa. 2.16.840.1.1138
+100001417 International Organisations eu/v1/organisations 83.3.6905.4 
+Management 
+System 
+ 
+ORG- Moderna EMA SPOR- https://spor.ema.europa. 2.16.840.1.1138
+100031184 Biotech Spain Organisations eu/v1/organisations 83.3.6905.4 
+S.L. Management 
+System 
+ 
+ORG- Curevac AG EMA SPOR- https://spor.ema.europa. 2.16.840.1.1138
+100006270 Organisations eu/v1/organisations 83.3.6905.4 
+Management 
+System 
+ 
+ORG- CanSino EMA SPOR- https://spor.ema.europa. 2.16.840.1.1138
+100013793 Biologics Organisations eu/v1/organisations 83.3.6905.4 
+Management 
+System 
+ 
+ORG- China EMA SPOR- https://spor.ema.europa. 2.16.840.1.1138
+100020693 Sinopharm Organisations eu/v1/organisations 83.3.6905.4 
+International Management 
+Corp. - Beijing System 
+location 
+ 
+ORG- Sinopharm EMA SPOR- https://spor.ema.europa. 2.16.840.1.1138
+100010771 Weiqida Europe Organisations eu/v1/organisations 83.3.6905.4 
+Pharmaceutical Management 
+System 
+8 
+eHealth Network 
+Code Display Code System Code System URL Code System Code 
+name OID System 
+version 
+s.r.o. - Prague 
+location 
+ 
+ORG- Sinopharm EMA SPOR- https://spor.ema.europa. 2.16.840.1.1138
+100024420 Zhijun Organisations eu/v1/organisations 83.3.6905.4 
+(Shenzhen) Management 
+Pharmaceutical System 
+Co. Ltd. - 
+Shenzhen 
+location 
+ 
+ORG- Novavax CZ a.s. EMA SPOR- https://spor.ema.europa. 2.16.840.1.1138
+100032020 Organisations eu/v1/organisations 83.3.6905.4 
+Management 
+System 
+ 
+Gamaleya- Gamaleya Vaccine - 1.0 
+Research- Research Manufacturers 
+Institute Institute not in OMS 
+ 
+Vector- Vector Institute Vaccine - 1.0 
+Institute Manufacturers 
+not in OMS 
+ 
+Sinovac- Sinovac Biotech Vaccine - 1.0 
+Biotech Manufacturers 
+not in OMS 
+ 
+Bharat- Bharat Biotech Vaccine - 1.0 
+Biotech Manufacturers 
+not in OMS 
+ORG- Serum Institute EMA SPOR- https://spor.ema.europa. 2.16.840.1.1138  
+100001981 Of India Private Organisations eu/v1/organisations 83.3.6905.4 
+Limited Management 
+System 
+Fiocruz Fiocruz Vaccine  - 1.3 
+Manufacturers 
+not in OMS 
+ORG- R-Pharm CJSC EMA SPOR- https://spor.ema.europa. 2.16.840.1.1138  
+100007893  Organisations eu/v1/organisations 83.3.6905.4 
+ Management 
+System 
+Chumakov- Chumakov Vaccine  - 1.4 
+Federal- Federal Manufacturers 
+Scientific- Scientific Center not in OMS 
+Center for Research and 
+Development of 
+Immune-and-
+Biological 
+Products 
+9 
+eHealth Network 
+Code Display Code System Code System URL Code System Code 
+name OID System 
+version 
+ORG- Gulf EMA SPOR- https://spor.ema.europa. 2.16.840.1.1138  
+100023050 Pharmaceutical Organisations eu/v1/organisations 83.3.6905.4 
+Industries Management 
+System 
+CIGB Center for Vaccine  - 1.5 
+Genetic Manufacturers  
+Engineering and not in OMS  
+Biotechnology  
+(CIGB) 
+Sinopharm- Sinopharm - Vaccine  - 1.5 
+WIBP Wuhan Institute Manufacturers 
+of Biological not in OMS 
+Products 
+ORG- Medigen EMA SPOR- https://spor.ema.europa. 2.16.840.1.1138  
+100033914 Vaccine Organisations eu/v1/organisations 83.3.6905.4 
+Biologics Management 
+Corporation System 
+ 
+2.5 Number in a series of doses as well as the overall number of doses in the series 
+Fully described in the Implementing Decision. 
+2.6 Member State or third country in which the vaccine was administered/test was 
+carried out 
+Described in the Implementing Decision.  
+Additional codes: 
+XK Kosovo, Republic of 
+2.7 Type of test 
+Fully described in the Implementing Decision. 
+2.8 Manufacturer and commercial name of the test used (optional for NAAT test) 
+Fully described in the Implementing Decision. 
+2.9 Result of the test 
+Fully described in the Implementing Decision. 
+ 
+10 
+Annex A Summary of vaccine coding instructions 
+ 
+The table below shows the coding combinations of the different vaccine medicinal products with their recommended ATC or SNOMED CT 
+‘Vaccine’ concept, along with their corresponding marketing authorization holder or manufacturer. The table is included to assist implementation 
+efforts. 
+As presented in the Value Sets above, for some vaccine medicinal products and marketing authorization holders or manufacturers, the applicable 
+code is based on their names, using a hyphen to avoid blank spaces. Also, note, the comment included earlier for the Vaccine marketing 
+authorization holder or manufacturer Value Set about the use of the OMS identifier of EU marketing authorization holder, as there is no 
+internationally agreed coding. 
+ 
+Vaccine name Vaccine code Vaccine Manufacturer or Vaccine type Note 
+MAH code 
+Comirnaty EU/1/20/1528 ORG-100030215 1119349007 or  
+J07BX03 
+Spikevax EU/1/20/1507 ORG-100031184 1119349007 or Previously COVID-19 Vaccine Moderna. 
+J07BX03 
+Vaxzevria EU/1/21/1529 ORG-100001699 J07BX03 Use also for AstraZeneca covid-19 vaccines, 
+  except R-COVI, Covishield and Covid-19 
+(recombinant) by Fiocruz. 
+COVID-19 Vaccine EU/1/20/1525 ORG-100001417 J07BX03  
+Janssen  
+CVnCoV CVnCoV ORG-100006270 1119349007 or  
+J07BX03 
+eHealth Network 
+Vaccine name Vaccine code Vaccine Manufacturer or Vaccine type Note 
+MAH code 
+NVX-CoV2373 NVX-CoV2373 ORG-100032020 J07BX03 Do not use this code for new certificates, see 
+entry for Nuvaxovid. 
+Sputnik V Sputnik-V Gamaleya-Research-Institute J07BX03  
+Convidecia Convidecia ORG-100013793 J07BX03  
+EpiVacCorona EpiVacCorona Vector-Institute J07BX03  
+BBIBP-CorV BBIBP-CorV ORG-100020693 J07BX03  
+Inactivated SARS-CoV-2 Inactivated-SARS- ORG-100010771 J07BX03 Do not use this code for new certificates, see 
+(Vero Cell) CoV-2-Vero-Cell entry for WIBP-CorV. 
+CoronaVac CoronaVac Sinovac-Biotech J07BX03  
+Covaxin (also known as Covaxin Bharat-Biotech J07BX03  
+BBV152 A, B, C) 
+Covishield Covishield ORG-100001981 J07BX03  
+(ChAdOx1_nCoV-19) 
+Covid-19 (recombinant) Covid-19- Fiocruz J07BX03  
+recombinant 
+R-COVI R-COVI ORG-100007893 J07BX03  
+CoviVac CoviVac Chumakov-Federal-Scientific- J07BX03  
+Center 
+Sputnik Light Sputnik-Light Gamaleya-Research-Institute J07BX03  
+Hayat-Vax Hayat-Vax ORG-100023050 J07BX03  
+Abdala Abdala CIGB J07BX03 Also known as CIGB-66. 
+12 
+eHealth Network 
+Vaccine name Vaccine code Vaccine Manufacturer or Vaccine type Note 
+MAH code 
+WIBP-CorV WIBP-CorV Sinopharm-WIBP J07BX03 Previously known as Inactivated SARS-CoV-2 
+(Vero Cell). 
+MVC COVID-19 vaccine MVC-COV1901 ORG-100033914 J07BX03 Also known as Medigen COVID-19 vaccine. 
+Nuvaxovid EU/1/21/1618 ORG-100032020 J07BX03 Previously known as NVX-CoV2373. 
+ 
+13 

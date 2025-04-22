@@ -1,0 +1,3256 @@
+Doc 10152
+Manual on COVID-19 Cross-border
+Risk Management 
+Third Edition, 2021
+Approved by and published under the authority of the Secretary General
+INTERNATIONAL CIVIL AVIATION ORGANIZATION
+ 
+Doc 10152
+Manual on COVID-19 Cross-border
+Risk Management
+Third Edition, 2021
+Approved by and published under the authority of the Secretary General
+INTERNATIONAL CIVIL AVIATION ORGANIZATION
+ 
+ 
+ 
+Published in separate English, Arabic, Chinese, French, Russian 
+and Spanish editions by the 
+INTERNATIONAL CIVIL AVIATION ORGANIZATION 
+999 Robert-Bourassa Boulevard, Montréal, Quebec, Canada H3C 5H7 
+ 
+ 
+For ordering information and for a complete listing of sales agents 
+and booksellers, please go to the ICAO website at www.icao.int 
+ 
+ 
+ 
+ 
+ 
+ 
+Third edition, 2021 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Doc 10152, Manual on COVID-19 Cross-border Risk Management 
+Order Number: 10152 
+ISBN 978-92-9265-582-2 
+ 
+ 
+ 
+ 
+ 
+© ICAO 2021 
+ 
+All rights reserved. No part of this publication may be reproduced, stored in a 
+retrieval system or transmitted in any form or by any means, without prior 
+permission in writing from the International Civil Aviation Organization. 
+ 
+ 
+ 
+AMENDMENTS 
+ 
+ 
+Amendments are announced in the supplements to the Products and 
+Services Catalogue; the Catalogue and its supplements are available 
+on the ICAO website at www.icao.int. The space below is provided to 
+keep a record of such amendments. 
+ 
+ 
+ 
+RECORD OF AMENDMENTS AND CORRIGENDA 
+ 
+AMENDMENTS  CORRIGENDA 
+No. Date Entered by  No. Date Entered by 
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+  
+(iii) 
+
+ 
+ 
+ 
+ 
+ 
+FOREWORD 
+ 
+ 
+ 
+This manual has been prepared by aviation health experts led by the International Civil Aviation Organization (ICAO) with 
+support from the United States Centers for Disease Control and Prevention (CDC), European Centre for Disease 
+Prevention and Control (ECDC), Aerospace Medical Association (AsMA), and others, and it has been reviewed by the 
+World Health Organization (WHO). Contributions from other United Nations organizations, governments and industry 
+stakeholders ensured the practical applicability of this guidance in the aviation sector, no matter how big or small the State 
+and no matter what scale of COVID-19 challenge they face. Together, these experts and stakeholders form the ICAO 
+Collaborative Arrangement for the Prevention and Management of Public Health Events in Civil Aviation (CAPSCA) 
+programme. CAPSCA brings together international, regional, national and local organizations to work together to improve 
+preparedness planning and response to public health events that affect the aviation sector. 
+ 
+CAPSCA developed this guidance in close collaboration with the ICAO Council Aviation Recovery Task Force (CART), 
+which requested updated guidance on the inclusion of COVID-19 testing, vaccination and its interdependencies with other 
+risk mitigation tools for those States that choose to include testing and vaccination as elements of their overall COVID-19 
+risk management process. 
+ 
+The CART has published updated recommendations to States in the High-Level Cover Document (HLCD) including 
+Recommendations 13, 17, 18 and 19 on testing and vaccination, respectively quoted below:  
+ 
+ Recommendation 13: “Member States using testing in their COVID-19 risk management strategy should apply 
+the approach outlined in the ICAO Manual on COVID-19 Cross-border Risk Management (Doc 10152), 
+recognizing that robust testing strategies allow for early detection of potentially infectious travellers. However, 
+testing may not be universally recommended by public health authorities as a routine health screening method 
+due to priority and resource considerations.” 
+ 
+ Recommendation 17: “Member States should implement and recognize certificates of testing, recovery and 
+vaccination based on the protocol, minimum data set and implementation approaches outlined in the ICAO 
+Manual on COVID-19 Cross-border Risk Management (Doc 10152) to facilitate air travel. States are encouraged 
+to ensure such certificates are secure, trustworthy, verifiable, convenient to use, compliant with data protection 
+legislation and internationally/globally interoperable. Proof of vaccination could be based upon the World Health 
+Organization (WHO) International Certificate of Vaccination or Prophylaxis (ICVP) and should be issued in an 
+internationally/globally interoperable format aligned with the technical specifications and guidance outlined by the 
+WHO. Existing solutions should be considered and could incorporate a visible digital seal – non-constrained 
+(VDS-NC) or other interoperable formats from regional or global intergovernmental bodies, or internationally 
+recognized organizations.” 
+ 
+ Recommendation 18: “Member States should facilitate access for air crew to vaccination as quickly as possible 
+as recommended by the WHO Strategic Advisory Group of Experts on Immunization (SAGE) Stage II for air crew 
+who work on aircraft that carry goods and no passengers and Stage III  for other aviation workers.” 
+ 
+ Recommendation 19: “Member States are encouraged to promote, to the greatest extent possible, a harmonized 
+and inclusive approach to facilitate international travel and entry of fully vaccinated and recovered passengers. 
+In this regard, Member States should consider alleviating or exempting testing and/or quarantine measures for 
+individuals who have been fully vaccinated or those with a history of previous SARS-CoV-2 infection who are no 
+longer infectious. The alleviations and exemptions should be made in accordance with a State’s accepted risk 
+threshold, national framework, the COVID-19 situation and the multilayer risk management framework described 
+ (v)  
+(vi) Manual on COVID-19 Cross-border Risk Management 
+in the Take-off: Guidance for Air Travel through the COVID-19 Public Health Crisis. In view of the global unequal 
+access to vaccines and the unsuitability or intolerance of use of vaccines by some individuals, vaccination should 
+not be a prerequisite for international travel.”  
+ 
+In addition, the CART revised Recommendation 14 in the HLCD concerning Public Health Corridors (PHCs) as follows: 
+ 
+ “Member States considering the formation of a Public Health Corridor (PHC) should actively share information 
+with each other to implement PHCs in a harmonized manner. To facilitate the implementation, the ICAO 
+Implementation Package (iPack) on establishing a PHC is available to States, in addition to PHC-specific tools 
+published on the ICAO website and the application (App) providing a template PHC arrangement between States.” 
+ 
+CART guidance aligns with updated WHO guidance:  
+ 
+a) with regard to PHCs, the WHO supports exploring bilateral, multilateral and regional agreements across 
+countries, particularly with neighbouring countries and others of socioeconomic importance, with the aim of 
+facilitating the recovery of key activities for which international travel plays an important role, such as tourism 
+or the movement of a cross-border workforce1; 
+ 
+b) testing and vaccination can be considered as part of national multilayered risk mitigation strategies. The 
+WHO has stated that proof of vaccination should not be required as a condition of entry or exit to a country; 
+and  
+ 
+c) the WHO suggest that proof of vaccination could be based upon the ICVP or, if digital, should be issued in 
+an interoperable format aligned with the technical specifications and guidance outlined in the Digital 
+Documentation of COVID-19 Certificates: Vaccination Status technical specifications and implementation 
+guidance document. The format recommended by ICAO (“visible digital seal for non-constrained 
+environments” (VDS-NC)) is one possible option.   
+ 
+Furthermore, the WHO recommends, based on growing experiences from countries where national authorities continue 
+to review and adjust their travel-related measures to facilitate non-essential international travel, in addition to prioritizing 
+international travel for essential purposes as defined by national authorities, applying measures that take into account 
+individual travellers’ transmission risk, depending on their infection status, vaccination status and/or recovery status2. 
+ 
+As part of its CART endeavours, CART has updated the fourth edition of the Take-off: Guidance for Air Travel through the 
+COVID-19 Public Health Crisis (TOGD)3, originally issued in June 2020 and revised in September 2021. The fourth edition 
+of the TOGD reflects technological and medical advancements and provides the latest operational and public health 
+guidance related to air travel reflecting technological and medical advancements. The recommended multilayer risk 
+management strategy has been supplemented with considerations on testing protocols and proof-of-results certification 
+interoperability, considerations for testing and vaccination, as well as including evidence of vaccination for crew and 
+passengers. Guidance on the establishment of PHCs has been expanded and guidance on the transition to routine 
+operations in the future has been added. 
+ 
+The third edition of this manual was revised in close collaboration with CAPSCA. It provides updated detailed guidance 
+on risk management, PHCs, information on current scientific developments regarding Variants of Concern (VOC), 
+COVID-19 testing, vaccination, proof of recovery, health certificates, the interdependencies of public health risk mitigation 
+measures within a State’s multilayer risk management framework and considerations for transitioning to routine operations 
+                                                          
+1 https://www.who.int/publications/i/item/WHO-2019-nCoV-Policy-Brief-Risk-based-international-travel-2021.1  
+2 https://www.who.int/publications/i/item/WHO-2019-nCoV-Risk-based-international-travel-2021.1  
+3 https://www.icao.int/covid/cart/Pages/CART-Take-off.aspx  
+ 
+Foreword (vii) 
+in the future. This guidance supplements the measures already outlined in the CART HLCD and TOGD4 and provides a 
+risk management process to facilitate States’ assessments of the applicability of a combination of measures available 
+today. Given the dynamic nature of the COVID-19 pandemic, this manual is intended to be a living document and will be 
+updated as new information becomes available. 
+ 
+COVID-19 testing, managing recovery from previous infection and vaccination, if applied according to the guidance 
+contained in this manual, could reduce reliance on measures that restrict air travel and the movement of persons arriving 
+in a country, such as quarantine, which evidence suggests is a disincentive to several important categories of travel, of 
+which the following list is non-exhaustive: pilot certification, pilot simulator training, essential business flights and tourism 
+for some States that are dependent on inbound tourism for economic sustainability. In addition, proof of recovery or 
+vaccination could reduce the need for additional COVID-19 testing, enabling quicker movement of air crew and passengers 
+through check-in and customs procedures, and reduce costs for travellers and States. Restoring confidence in aviation is 
+a key priority.  
+ 
+Note.― There are many available serologic assays (antibody tests) that measure the antibody response to 
+SARS-CoV-2 infection, but at the time of publication of this manual, the correlates of protection were not well understood. 
+The use of serologic assays is not recommended to prove recovery status given the limitations that are outlined in the 
+scientific brief “COVID-19 natural immunity”5. 
+ 
+Quarantine may still apply for persons infected with SARS-CoV-2, as well as known close contacts of persons diagnosed 
+with COVID-19, while self-isolation, self-quarantine or other measures could be applied for other individuals in accordance 
+with a State’s assessed risk tolerance. 
+ 
+In implementing testing and vaccination as components of States’ overall COVID-19 multilayered risk management 
+strategy, they are reminded that an effective application of a multilayered risk strategy, including testing and vaccination, 
+is one in which: 
+ 
+a) States perform a risk assessment6 using epidemiologic criteria including, but not limited to, disease 
+incidence and prevalence, new variants, disease trajectory, national testing strategy 7 , screening 
+capabilities, hospital capacity and robustness of contact tracing and status of national vaccination 
+strategy; 
+ 
+ b) States share the results of the risk assessments, the local epidemiology (including genomic sequencing 
+of VOC, if possible) and transmission scenarios in the departure and destination countries or areas, as 
+well as the public health and health system capacity and performance to detect and care for returning 
+travellers and their contacts with other States to facilitate the opening of air routes or PHCs; 
+ 
+ c) States consider their risk tolerance, and issues such as socio-economic and human rights, as a part of 
+their risk assessment; 
+ 
+ d) States that choose to use testing for screening purposes in aviation after consideration of national testing 
+capacity8 and the local epidemiology in departure and destination countries, apply a cut-off value, based 
+on evidence generated from asymptomatic individuals, for sensitivity and specificity as high as possible 
+(with a minimum of 95 per cent sensitivity and specificity for molecular tests; and a minimum of 
+                                                          
+4       https://www.icao.int/covid/cart/Pages/Documents.aspx  
+5.      https://www.who.int/publications/i/item/WHO-2019-nCoV-Sci_Brief-Natural_immunity-2021.1  
+6. WHO guidance on Considerations for implementing a risk-based approach to international travel in the context of COVID-19 
+https://www.who.int/publications/i/item/WHO-2019-nCoV-Risk-based-international-travel-2020.1 
+7. Scientific brief on COVID-19 diagnostic testing in the context of international travel  
+ https://apps.who.int/iris/handle/10665/337832?locale-attribute=fr&  
+8.     https://www.who.int/publications/i/item/WHO-2019-nCoV-Risk-based-international-travel-2021.1  
+ 
+(viii) Manual on COVID-19 Cross-border Risk Management 
+80 per cent sensitivity and 97 per cent specificity for rapid antigen tests) to reduce inaccurate test 
+results, although these values might change as science matures9; 
+ 
+ e) States that use testing and vaccination as part of their multilayer risk management strategy take into 
+account any recent test results, proof of  recovery from COVID-19 and vaccination status, when 
+considering the need for additional post-arrival  testing or quarantine; including the duration of 
+quarantine, when addressing higher risk scenarios; and  
+ 
+ f) States harmonize their procedures to the maximum extent possible. 
+ 
+This manual describes the risk management measures that can be applied; how epidemiology can be used to advise 
+States in developing a risk management strategy; possible testing protocols that might be put in place where there is 
+differential prevalence and therefore risk; vaccination as an effective mitigation factor including  a series of examples to 
+help States in their decision-making processes; and information and tools to assist States with sharing of information 
+regarding the implementation of public health risk mitigation measures and the recognition thereof in order to open air 
+routes and global travel. 
+ 
+Note.— The content of this manual is largely based on information and studies conducted prior to the 
+emergence of the Delta variant. At the time of publication of this manual, the scientific information regarding the Delta and 
+other variants was limited but was included in this version. Further updates will be needed  as more information becomes 
+available. 
+ 
+Scientific evidence that supports the guidance contained in this manual are available on the CAPSCA website10.  
+ 
+ 
+ 
+ 
+______________________ 
+                                                          
+9. SARS-CoV-2 antigen-detecting rapid diagnostic tests: An implementation guide 
+https://www.who.int/publications/i/item/9789240017740.  
+10    https://www.icao.int/safety/CAPSCA/Pages/default.aspx. 
+ 
+ 
+ 
+ 
+ 
+ 
+TABLE OF CONTENTS 
+ 
+ 
+ 
+Page 
+ 
+Glossary  ..........................................................................................................................................................  (xi) 
+ 
+Chapter 1.    Introduction ................................................................................................................................  1-1 
+ 
+Chapter 2.    General risk management principles applied to air transport ...............................................  2-1 
+ 
+Chapter 3.    Testing, vaccination and cross-border risk management measures ....................................  3-1 
+ 
+ 3.1 Overview ........................................................................................................................................  3-1 
+ 3.2 Assessment of epidemiological indicators ......................................................................................  3-3 
+ 3.3 Testing as a screening strategy applied to aviation ........................................................................  3-5 
+ 3.4 Quarantine practices ......................................................................................................................  3-16 
+ 3.5 Combined testing and quarantine strategies ..................................................................................  3-18 
+ 3.6 Vaccination and vaccinated persons ..............................................................................................  3-19 
+ 
+Chapter 4.    Implementation — Model for multilayer assessment and mitigation ....................................  4-1 
+ 
+ 4.1 Overview ........................................................................................................................................  4-1 
+ 4.2 Generic baseline model for multilayered risk assessment and determining 
+  mitigation measures (four-step process) ........................................................................................  4-2 
+ 4.3 Sample scenarios ...........................................................................................................................  4-4 
+ 
+Chapter 5.    Public health corridor ................................................................................................................  5-1 
+ 
+ 5.1 Principles ........................................................................................................................................  5-1 
+ 5.2 Elements of a PHC .........................................................................................................................  5-2 
+ 5.3 Implementation of a PHC arrangement between States .................................................................  5-5 
+ 5.4 Stakeholder and passenger communication ...................................................................................  5-6 
+ 
+Chapter 6. Transitioning from crisis response to routine operations ........................................................  6-1 
+ 
+ Attachment A.    Epidemiologic primer ..................................................................................................  Att A-1 
+ 
+ Attachment B.    Estimated effectiveness of individual risk mitigation measures .............................  Att B-1 
+ 
+ Attachment C.    Decision aid ..................................................................................................................  Att C-1 
+ 
+ 
+ 
+ 
+______________________ 
+ (ix)  
+
+ 
+ 
+ 
+ 
+ 
+GLOSSARY 
+ 
+ 
+ 
+LIST OF ACRONYMS AND ABBREVIATIONS 
+ 
+Ab Antibody 
+Ab-RDT Antibody-detecting rapid diagnostic test 
+Ag Antigen 
+Ag-RDT Antigen-detecting rapid diagnostic test 
+API Advance Passenger Information 
+ATM Air traffic management 
+CAPSCA Collaborative Arrangement for the Prevention and Management of  
+  Public Health Events in Civil Aviation 
+CART Council Aviation Recovery Task Force 
+CASAG COVID-19 Aviation Scientific Assessment Group 
+COVID-19 Coronavirus disease 19 
+CRRIC COVID-19 Response and Recovery Implementation Centre 
+ECDC European Centre for Disease Prevention and Control 
+EUL Emergency use listing 
+FTL Flight time limitation 
+HLCD High-Level Cover Document 
+IHR International Health Regulations 
+ICVP International Certificate of Vaccination or Prophylaxis 
+NAAT  Nucleic acid amplification test 
+NPV Negative predictive value 
+MRTD Machine Readable Travel Documents 
+PCR Polymerase chain reaction 
+PHC Public health corridor 
+PNR Passenger Name Record 
+PPE Personal protective equipment 
+PPV Positive predictive value 
+RDT  Rapid diagnostic tests  
+RT-PCR Reverse-transcription polymerase chain reaction 
+SAGE Strategic Advisory Group of Experts on Immunization 
+SARS-CoV-2 Severe acute respiratory syndrome coronavirus 2 
+SRA Stringent regulatory authorities 
+TOGD Take-off Guidance for Air Travel through the COVID-19 Public Health Crisis 
+VDS-NC Visible digital seal – non-constrained 
+VOC Variant of concern 
+VOI Variant of interest 
+WHO World Health Organization 
+ 
+ 
+ 
+  
+ (xi)  
+(xii) Manual on COVID-19 Cross-border Risk Management 
+DEFINITIONS 
+ 
+Asymptomatic. A person infected with COVID-19 who does not develop symptoms. 
+ 
+Breakthrough infection. A COVID case that occurs in someone who is fully vaccinated. 
+ 
+Contact. A person in any of the following situations from two days before and up to fourteen days after the onset of 
+symptoms in the confirmed or probable case of COVID-19: 
+ 
+ — face-to-face contact with a probable or confirmed case of COVID-19 within one metre and for more than 
+fifteen minutes; 
+ 
+ — direct physical contact with a probable or confirmed case of COVID-19; 
+ 
+ — direct care for an individual with probable or confirmed COVID-19 without using proper personal 
+protective equipment; or 
+ 
+ — other situations, as indicated by local risk assessments.  
+ 
+ Refer to WHO for full definition https://www.who.int/publications/i/item/contact-tracing-in-the-context-of-covid-19. 
+ 
+Contact tracing. An investigative procedure aimed at acquiring contact information to approach contacts that were 
+potentially exposed to the virus, which is a key strategy for interrupting chains of transmission of SARS-CoV-2 and 
+reducing COVID-19-associated mortality.  
+ 
+Diagnostic. Relating to or using the methods for diagnosis. 
+ 
+Emergency use listing procedure. The WHO emergency use listing procedure (EUL) is a risk-based procedure for 
+assessing and listing unlicensed vaccines, therapeutics and in vitro diagnostics with the ultimate aim of expediting 
+the availability of these products to people affected by a public health emergency. 
+ 
+Epidemiology. The branch of medicine which deals with the incidence, distribution and possible control of diseases and 
+other factors related to health. 
+ 
+False negative test. A result that indicates that the disease is not present when the person actually does have the disease. 
+ 
+False positive test. A result that indicates that the disease is present when the person actually does not have the disease. 
+ 
+Fully vaccinated. For the purposes of this manual and CART guidance, an individual is defined as fully vaccinated 
+≥ 14 days after receiving all recommended primary doses of a COVID-19 vaccine that is listed for emergency use by 
+the World Health Organization or approved by  other stringent regulatory authorities (SRAs).  
+ 
+Genomic sequencing. The process of determining the entirety, or nearly the entirety, of the DNA sequence of an 
+organism's genome, supporting the monitoring of the disease’s spread and evolution of the virus. 
+ 
+Immune escape. Immune escape occurs when the immune system of an individual is no longer able to respond 
+adequately to a pathogen such as a virus; in other words, the virus may escape the body’s immune response despite 
+vaccination or prior infection. 
+ 
+Incidence. The number of new cases in a specified population during a specified period of time. 
+ 
+Isolation. Separation of ill or contaminated persons in such a manner as to prevent the spread of infection or contamination. 
+ 
+ 
+Foreword (xiii) 
+Molecular testing. A type of diagnostic tests, such as RT-PCR tests that detect the virus’s genetic material. 
+ 
+Monte Carlo approach. A broad class of computational algorithms that rely on repeated random sampling to obtain 
+numerical results. 
+ 
+Negative predictive value (NPV). How likely a negative test is a true negative. 
+ 
+Partial vaccination. Individuals who have partially completed the recommended primary dosage schedule of a COVID-19 
+vaccine that is listed for emergency use by the World Health Organization or approved by  other stringent regulatory 
+authorities (SRA). 
+ 
+Point-of-care tests. Tests that provide results within minutes of the test being administered, allowing for rapid decisions. 
+ 
+Positive predictive value (PPV). How likely a positive test is a true positive. 
+ 
+Prevalence. Disease burden expressed as a percentage or rate with the total population as the denominator; in this 
+context, the number of existing cases in a defined population at a given point in time. 
+ 
+Proof of recovery. For the purposes of this manual and CART guidance, proof of recovery refers to individuals providing 
+proof of previous SARS-Co-V-2 infection as confirmed by real time RT-PCR (rRT-PCR), and not on the basis of 
+serological immune assay (antibody) test results. 
+ 
+Quarantine. The restriction of activities and/or separation from others of suspect persons who are not ill in such a manner 
+as to prevent the possible spread of infection or contamination.  
+ 
+Rapid diagnostic antigen tests. Tests that detect the presence of viral proteins (antigens) expressed by the COVID-19 
+virus in a sample from the respiratory tract of a person. 
+ 
+Risk management. Identification, evaluation, and prioritization of risks followed by coordinated application measures to 
+minimize, monitor, and control the probability or impact of the risk.  
+Risk threshold or tolerance. The amount of risk that governments, organizations and stakeholders are willing to accept. 
+ 
+Screening. Medical examination of a person or group to detect disease or abnormality, especially as part of a broad 
+survey rather than as a response to a request for treatment. 
+ 
+Sensitivity. The likelihood that a test will correctly identify a person with the disease; the “true positive” rate. 
+ 
+Serologic test. A blood test that measures the antibody response in an individual. 
+ 
+Specificity. The likelihood that a test will correctly identify a person without the disease; the “true negative” rate. 
+ 
+Stringent regulatory authority. A stringent regulatory authority (SRA) is a national drug regulation authority which is 
+considered by the World Health Organization (WHO) to apply stringent standards for quality, safety, and efficacy in 
+its process of regulatory review of drugs and vaccines for marketing authorization and listed on the WHO website 
+(https://www.who.int/initiatives/who-listed-authority-reg-authorities/SRAs).  
+ 
+Translocation. Travel-associated transfer (exportation, importation and onward transmission) of SARS-CoV-2 from one 
+region to another. 
+ 
+Vaccination. The administration of a vaccine to help the body’s immune system develop protection from a disease. 
+ 
+  
+ 
+(xiv) Manual on COVID-19 Cross-border Risk Management 
+Variant of concern1. A VOI (as defined below) is a variant of concern (VOC) if, through a comparative assessment, it has 
+been demonstrated to be associated with one or more of the following changes at a degree of global public health 
+significance: 
+ 
+— increase in virulence or change in clinical disease presentation; or 
+ 
+— decrease in effectiveness of public health and social measures or available diagnostics, vaccines or 
+therapeutics; or 
+ 
+— assessed to be a VOC by the WHO in consultation with the WHO SARS-CoV-2 Virus Evolution Working 
+Group. 
+ 
+Variant of interest (VOI). A SARS-CoV-2 isolate is a variant of interest (VOI) if it is phenotypically changed compared to 
+a reference isolate or has a genome with mutations that lead to amino acid changes associated with established or 
+suspected phenotypic implications;  
+ 
+ AND has been identified to cause community transmission/multiple COVID-19 cases/clusters, or has been detected 
+in multiple countries; 
+ 
+ OR is assessed to be a VOC by the WHO in consultation with the WHO SARS-CoV-2 Virus Evolution Working Group. 
+ 
+ 
+ 
+ 
+______________________ 
+                                                          
+1 https://www.who.int/docs/default-source/coronaviruse/situation-reports/20210225_weekly_epi_update_voc-special-edition.pdf  
+ 
+ 
+ 
+ 
+ 
+ 
+Chapter 1 
+ 
+INTRODUCTION 
+ 
+ 
+ 
+1.1 This guidance is intended for use by State regulators, service providers and other concerned entities, to 
+address cross-border risk management in commercial air transport operations. The objective of the guidance is to inform 
+States about public health risk management strategies, including those that could be applied to aviation personnel and 
+passengers to reduce the probability of translocation (transfer) of the disease from one region to another. This document 
+contains guidance for implementing a systematic process to identify risks related to the COVID-19 pandemic and mitigate 
+those risks to an acceptable level as determined by each individual State. The final objective is to create a harmonized 
+and cooperative effort to maintain global connectivity while ensuring public health security. Updates will be provided as 
+new scientific evidence becomes available, with States being informed of updates through the publication of electronic 
+bulletins. In the future, as more States begin to plan their route out of COVID restrictions, this updated manual offers clear 
+guidance on how best to use public health mitigation measures, including testing and vaccination, to reduce travel 
+restrictions and gradually return to restoring air connectivity in a safer way. 
+ 
+1.2 The guidance provides assessment tools that States can use to evaluate and implement measures as part 
+of their decision-making process. For this purpose, an example of the process is presented and applied to a strategy that 
+utilizes a range of risk mitigation measures. This guidance does not constitute a recommendation for application of any 
+specific measure but rather a guideline on how to assess different mitigation measures and on how they can contribute to 
+public health risk management. As an example of this approach, the document will provide the description of a strategy 
+based on the assessment of epidemiological indicators, testing, vaccination and quarantine practices. Additional detailed 
+guidance for States will be included as attachments by ICAO and references to the WHO publications. 
+ 
+1.3 This manual has been developed using the most recent information as of its publication date. The urgency, 
+continued rapid developments, and observed consequences of the pandemic required an expedited approach based on 
+expert consensus and current scientific evidence. Consequently, regular updates will be required as the evidence evolves 
+and as technology advances. Data-driven adjustments to the guidance will be made as the situation evolves. 
+ 
+1.4 Each State will need to conduct its own assessment and is encouraged to use the processes outlined in this 
+manual as the basis for its assessment. Risk tolerance varies between States and depends on many factors. This has an 
+influence on the amount of residual risk a State can accept. The determination of such level cannot be universal as it 
+depends on specific priorities and the sovereignty of each individual State. 
+ 
+ 
+ 
+ 
+______________________ 
+ 1-1  
+
+ 
+ 
+ 
+ 
+ 
+Chapter 2 
+ 
+GENERAL RISK MANAGEMENT PRINCIPLES 
+APPLIED TO AIR TRANSPORT 
+ 
+ 
+ 
+2.1 A multilayered risk management process is considered essential in the context of a public health risk 
+management framework and aligned with the intent of the WHO “Considerations for implementing a risk-based approach 
+to international travel in the context of COVID-19”1. The objective of this process is to identify the residual risk, considering 
+various risk mitigation measures in place for unknowingly transporting an infectious passenger or translocating the 
+SARS-CoV-2 virus. This approach is scalable in complexity and considered the baseline for more sophisticated processes, 
+e.g. end-to-end risk assessment models (see 2.6). 
+ 
+2.2 The proposed risk assessment process relies on a continuous process that considers risk holistically by 
+defining a risk scenario instead of focusing on a single hazard or threat. The determination of an inherent risk results from 
+evaluating the likelihood of the risk scenario, as well as defining the resulting impact. It is essential to consider risk 
+mitigation measures, which are already in place when conducting the initial assessment of the inherent risk. This step 
+does not consider future or potential management measures as it intends to provide the “as is” situational assessment. 
+The result provides States with information relevant to determining if the risk scenario lies within its public health 
+management capacity. As the inherent risk changes, States will need to modify their risk management measures. 
+(Attachment C of this manual illustrates an example of a basic decision-making process to determine such risk). In addition, 
+States should consult the Safety Management Manual (Doc 9859) and the ICAO Handbook for CAAs on the Management 
+of Aviation Safety Risks related to COVID-19 (Doc 10144). 
+ 
+2.3 The modelling of a risk scenario is the starting point in the process, based upon the existing situational 
+assessment but considering multi-agency collaboration within the context of the State. A generic baseline example for 
+such a scenario could be “the risk to be assessed is of an infectious person being on board an international flight” or “the 
+risk of translocation of the virus through air transport”. The risk scenario will need to address a State’s view on the most 
+critical aspect of public health management. The process then progresses through different available mitigation measures 
+that affect the overall risk. It is designed in a way that the efficacy of each mitigation measure can be assessed either 
+qualitatively or quantitatively. 
+ 
+ 
+Box 1.    Risk management terminology 
+ 
+Risk avoidance. It is often the most powerful tool of risk management and aims at reducing 
+the likelihood of risk by avoiding it. It is, however, also the most limiting tool. 
+ 
+Risk mitigation. It aims at reducing the impact of the risk (by addressing the likelihood, 
+magnitude, or both when risk cannot be avoided). 
+ 
+  
+                                                          
+1. https://www.who.int/publications/i/item/WHO-2019-nCoV-Risk-based-international-travel-2020.1  
+ 
+ 2-1  
+2-2 Manual on COVID-19 Cross-border Risk Management 
+Risk transfer. It aims to move the impact of the risk to a different environment. This is 
+complex and should only be used if the risk can be fully measured, addressed and mitigated 
+by the environment it is transferred to (an example could be to transfer risk to a State with 
+better health-care capacity). 
+ 
+Risk tolerance/acceptance. It is the process of accepting the consequence (impact) of a risk. 
+This technique is often advisable only when the risk is small but may need to be considered 
+in complex risk scenarios. 
+ 
+2.4 Risk mitigation is the most appropriate strategy in the context of pandemic risk management in air transport. 
+In the further conduct of the risk assessment process, it might be necessary to employ most of the available mitigation 
+measures such as requiring masks, completion of passenger locator forms, testing, physical distancing, quarantine, etc., 
+at airports and during flights. Vaccination is likely the strongest risk mitigation tool that is effective, with increasing use 
+globally, but factors such as access to vaccines and vaccine hesitancy is a concern and it delays the overall response to 
+contain the pandemic. In multilayered defence models, the various mitigation measures are depicted as layers (e.g. based 
+on the James Reason Swiss Cheese Model — see Figure 2-1). Risk-free travel is not possible but the risk can be reduced 
+through the combined application of these mitigation measures. Currently, there may be limited scientific peer-reviewed 
+evidence-based efficacy for these mitigation measures, and the scope of their impact on transforming the inherent risk is 
+based on expert consensus and available evidence. However, the availability of peer-reviewed scientific evidence is 
+increasing. As a result, much of the risk assessment is qualitative and, as such, provides the flexibility to be adopted and 
+integrated into national public health and aviation plans. The risk assessment process will consider the chosen mitigation 
+measures, and regularly evaluate how they affect the likelihood and impact of the inherent risk. A State can then determine 
+if the residual risk is within public health management capacity. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 2-1.    Aviation multilayered strategy based on the James Reason Swiss Cheese Model 
+ 
+Chapter 2.    General risk management principles applied to air transport 2-3 
+2.5 Health risks (as related to air transport) can be approached in a similar way to aircraft safety and must be 
+addressed together. To this end, aeroplane manufacturers, for example, have created end-to-end risk assessment models 
+which calculate the risk of virus transmission and virus translocation by modelling steps and parameters in the door-to-door, 
+air travel journey. One example leverages an open data platform, considering a variety of airport, aircraft, personal health 
+and safety considerations, and different testing and quarantine scenarios. The model covers the complete air travel, from 
+entering the departure airport to leaving the arrival airport and relying on internal expertise and safety experience. The 
+model's objective is to support government agencies in making performance-based, data-substantiated decisions when 
+applying and evaluating risk management principles and strategies to secure air travel for the flying public.2 
+  
+2.6  Another such model compares different screening approaches through one or more COVID-19 tests in order 
+to provide safe options that will allow the reopening of international travel. It uses a Monte Carlo approach to simulate a 
+group of COVID-19 infected travellers, each with an individual infection timeline, and a model test performance as a 
+function of that timeline, to compare the effectiveness of different screening strategies. The model provides an avenue to 
+compare the relative performance of different screening and quarantine strategies and to determine which approaches 
+may be appropriate for country-pair-specific travel journeys. It is built as a web-based tool that will provide users a flexible 
+interface to compare multiple screening options for travel between any two selected countries with available COVID-19 
+prevalence data. The inclusion of prevalence data allows for computation of a “post-screening prevalence” for screened 
+travellers (calculated using the negative predictive value) in order to compare the starting prevalence of the origin country, 
+the post-screening prevalence for a variety of screening options, and the prevalence of the destination country. This allows 
+for comparison of the prevalence among screened travellers to the existing prevalence in the destination country.3  
+ 
+2.7 One more model is a multi-disciplinary, adaptive, software-based risk management tool designed to support 
+risk-based decision-making that restores safety, confidence and convenience in commercial aviation. The model employs 
+a semi-quantitative, deterministic modular approach with group-structured mixing to demonstrate relative effectiveness of 
+layered disease control measures that protect against airborne and surface borne disease transmission throughout the 
+end-to-end travel journey in global transportation systems.4  
+ 
+ 
+2.8 The crucial result of an effective risk management process is that the residual risk is within the public health 
+management capacity of the State concerned. This determination needs to be done under the sovereignty and 
+responsibility of each State. Faced with a fast-evolving pandemic, the risk assessment process must be regularly reviewed 
+so that States’ mitigation measures are keeping the risks within the capacity of its public health system. WHO has 
+developed a suite of health service capacity assessments in the context of the COVID-19 pandemic to support rapid and 
+accurate assessment of current, surge and future capacities of health facilities throughout the different phases of the 
+COVID-19 pandemic5. 
+ 
+2.9 In the future, some of these risk mitigation measures might be gradually relaxed or removed following a 
+comprehensive risk assessment process, based on residual risk as informed by scientific evidence and aligned with WHO 
+guidance6. However, additional measures may also be needed based on the evolving situation and emergence of new 
+scientific evidence. 
+ 
+ 
+ 
+ 
+______________________ 
+                                                          
+2. AIRBUS: " End-to-end risk assessment model”. 
+3. Boeing CTI passenger screening model. 
+4. Boeing Travel Risk of Infection Prevention (TRIP). 
+5. https://apps.who.int/iris/rest/bitstreams/1313691/retrieve  
+6.    Considerations for implementing and adjusting public health and social measures in the context of COVID-19: interim guidance, 
+14 June 2021 https://apps.who.int/iris/handle/10665/341811  
+ 
+
+ 
+ 
+ 
+ 
+ 
+Chapter 3 
+ 
+TESTING, VACCINATION AND CROSS-BORDER RISK 
+MANAGEMENT MEASURES 
+ 
+ 
+ 
+3.1    OVERVIEW 
+ 
+3.1.1 Air connectivity will be essential to enable economic recovery. As States restart international travel, they will 
+need effective strategies for mitigating the risk of active case importation and disease transmission within the air transport 
+system. States will rely on community accountability and ownership, traveller education, and other internationally agreed 
+cross-border measures in collaboration with other States 
+ 
+3.1.2 Given the high complexity of the crisis, there is no single measure that can be deemed as a definitive 
+solution. Every mitigation measure affects the system in different ways. States should identify and compare levels of risk 
+cognizant that public health risks cannot be eliminated. Therefore, the layered risk-mitigation defence discussed in 
+Chapter 2 is strongly recommended. The following guidelines are meant to assist States in understanding how current 
+mitigation measures can contribute to managing public health risks. 
+ 
+3.1.3 Emerging strategies should be considered and revised as new scientific evidence is published, innovative 
+approaches are tested, and potential outcomes are modelled. As the pandemic evolves, new approaches such as 
+probabilistic models, innovative testing technologies, air quality improvement, disinfection methods, vaccination and other 
+processes are under rapid development and should be added to the strategies as their efficacy and cost-effectiveness is 
+substantiated. 
+ 
+3.1.4 The layered defence measures against COVID-19 include steps being taken individually, at airports and on 
+board. Appropriate measures should be applicable to all passengers, as well as aviation personnel, including duties such 
+as training or certification activities, flight and cabin crew, maintenance engineers/technicians, air traffic management 
+(ATM) workforce, staff that have contact with the travelling public and ground service agents. Mitigation measures can be 
+categorized into personal and shared responsibilities and may include some or all the measures listed below: 
+ 
+ a) promoting participation of aviation personnel in national vaccination programmes, recognizing that 
+vaccination offers protection from infection by reducing the likelihood of transmission and reducing the 
+severity of COVID symptoms in most cases;  
+ 
+ b) administering and recognizing vaccination in alignment with the International Health Regulations, WHO 
+recommendations (including the recognition of emergency use listing (EUL)-approved vaccines1), and 
+national policies;  
+ 
+ c) testing protocols consistent with the State's public health capacity and testing capacity, in particular, risk 
+threshold, transmission patterns, scientific evidence and multi-sector consultation;  
+ 
+                                                          
+1 https://www.who.int/news/item/15-07-2021-statement-on-the-eighth-meeting-of-the-international-health-regulations-(2005)-emergency-
+committee-regarding-the-coronavirus-disease-(covid-19)-pandemic  
+ 3-1  
+3-2 Manual on COVID-19 Cross-border Risk Management 
+ d) COVID-19 testing, isolation and quarantine, when applicable, with the exception of crew, in accordance 
+with the CART TOGD;  
+ 
+ e) adhering to State, provincial, local policies and civil aviation procedures in both departure and arrival 
+States; 
+ 
+ f) engineering factors, environmental control systems, such as the optimization of heating, ventilation and 
+air-conditioning (HVAC) systems;  
+ 
+ g) enhanced cleaning and disinfection; contactless boarding/baggage processing; use of physical barriers 
+and disinfection in airports;  
+ 
+ h) self-awareness orientation, including various channels of passenger communication to allow 
+passengers to identify symptoms and complete/submit health declarations or health attestations and 
+practice personal hygiene2; 
+ 
+ i) physical distancing at airports and during boarding; use of face masks; separation between passengers 
+on board when feasible3;  
+ 
+ j) general hygiene, hand hygiene, avoid touching face, covering cough; 
+ 
+ k) communication, education and training; 
+ 
+ l) facilitation of contact tracing if a passenger or crew member develops infection4; 
+ 
+ m) adjustment of food and beverage service to reduce contact; control of access to aisles and bathrooms 
+to minimize contact; and  
+ 
+ n) entry and exit screening (fever, loss of sense of smell or taste, chills, cough, shortness of breath, 
+headaches, muscle pains, etc.) and/or health declaration.  
+. 
+ 
+3.1.5 The following mitigation measures are specifically applicable to crew required on board for the air operator 
+to support the flight, including those that may be required to position before or after a duty, to facilitate the continued 
+operation of aircraft. The measures outlined below are consistent with the layered approach and are based on a risk 
+assessment for crew. States should, taking into consideration a State’s national framework and situation: 
+ 
+ a) recognize crew members as essential personnel to contribute to the continuity of critical transport 
+services during the COVID-19 pandemic; 
+ 
+ b) recognize crew members are required to cross international borders as a part of their duties and, as 
+such, conduct a separate risk assessment and implement minimal requirements to ensure global 
+connectivity; 
+ 
+ c) not subject crew to screening or restrictions applicable to other travellers, but apply minimal 
+requirements aligned with the crew module in the TOGD; 
+                                                          
+2. https://www.who.int/news/item/15-07-2021-statement-on-the-eighth-meeting-of-the-international-health-regulations-(2005)-
+emergency-committee-regarding-the-coronavirus-disease-(covid-19)-pandemic  
+3. WHO: Mask use in the context of COVID-19 (https://www.who.int/publications/i/item/advice-on-the-use-of-masks-in-the-community-
+during-home-care-and-in-healthcare-settings-in-the-context-of-the-novel-coronavirus-(2019-ncov)-outbreak)  
+4. https://www.who.int/publications/i/item/contact-tracing-in-the-context-of-covid-19  
+ 
+Chapter 3.    Testing, vaccination and cross-border risk management measures 3-3 
+ d) exempt crew from testing measures considering the frequency of travel and use of existing occupational 
+health programmes; 
+ 
+ e) if crew cannot be exempted from testing, apply tests that are minimally invasive and reduce the need 
+for multiple tests on a journey (for example, by only requiring testing at the home base immediately prior 
+to and after duty);  
+ 
+ f) facilitate access for air crew to vaccination as quickly as possible within the WHO Strategic Advisory 
+Group of Experts on Immunization (SAGE) Stage II and III recommendations5, the WHO Emergency 
+Committee Statement6 and applicable national policies;  
+ 
+ g)    follow vaccination guidelines for aviation workers described in 3.6.3; 
+ 
+ h)  not impose quarantine measures on crew who need to layover, or rest, for the purposes of complying 
+with flight time limitation (FTL) rest requirements; and in accordance with WHO guidelines on fully 
+vaccinated crew (refer to 3.3.1.4 h)); 
+ 
+ i) exempt fully vaccinated crew and crew with documented recovery from COVID-19, from testing; 
+ 
+ j) expedite security and immigration clearance (e.g. dedicated crew line); 
+ 
+ k) provide separate waiting areas from travellers;  
+ 
+ l) provide access to dedicated ground transportation; and 
+ 
+ m) implement layover protocols to prevent transmission of SARS-CoV-2 between crews, passengers and 
+the general public. 
+ 
+ 
+ 
+3.2    ASSESSMENT OF EPIDEMIOLOGICAL INDICATORS 
+ 
+3.2.1    General 
+ 
+3.2.1.1 States could consider implementing testing as part of their COVID-19 risk management strategy, taking into 
+consideration national testing capacity and resources and the principles of a “generic risk management process” contained 
+in Chapter 2 and the detailed Epidemiology Primer (Attachment A). 
+ 
+3.2.1.2 A critical step in assessing risk for States is understanding the real time epidemiologic indicators of incidence 
+and prevalence and the disease trajectory (escalated spread, diminishing cases or emergence of new variants) in addition 
+to the availability of testing, health-care system saturation, and robustness of contact tracing. Studying these factors will 
+allow countries to compare disease rates between points of origin and arrival by Member States or region, and in some 
+cases by cities depending on the detail of the disease reported by public health authorities and the ability of a State or 
+region to correctly identify and treat ill people. There are several sites reporting rolling averages of new cases per 
+100 000 people including the WHO (https://covid19.who.int/), the European Centre for Disease Prevention and Control 
+(ECDC) (https://qap.ecdc.europa.eu/public/extensions/COVID-19/COVID-19.html#global-overview-tab/) and Brown 
+                                                          
+5. WHO: WHO SAGE Roadmap for Prioritizing Uses of COVID-19 Vaccines in the Context of Limited Supply 
+https://www.who.int/publications/i/item/who-sage-roadmap-for-prioritizing-uses-of-covid-19-vaccines-in-the-context-of-limited-
+supply  
+6.  https://www.who.int/news/item/15-07-2021-statement-on-the-eighth-meeting-of-the-international-health-regulations-(2005)-
+emergency-committee-regarding-the-coronavirus-disease-(covid-19)-pandemic  
+ 
+3-4 Manual on COVID-19 Cross-border Risk Management 
+Public Health (https://globalepidemics.org/key-metrics-for-covid-suppression/). The reliability of the case numbers is 
+affected by the availability of tests, testing intensity, national testing strategy in each phase of the pandemic and the 
+timeliness and accuracy of reporting of data. 
+ 
+3.2.1.3 Prevalence is the proportion of the population with a disease at a given time. In considering the goal of 
+lowering the risk of disease transmission during travel and disease translocation risk to the destination country, the 
+potential number of persons on board an aircraft who could be infectious during the journey is vital. That data must be 
+inferred as there is no current ability to determine it directly through routine surveillance testing. It can be estimated by 
+multiplying the cases per 100 000 by the infectivity period and then factoring in the asymptomatic rate. This number is 
+then converted to a percent infectious per 100 persons. In this case, prevalence is a better indicator of potentially infectious 
+individuals than incidence (new cases per day); however, an awareness of incidence will influence the shrinking or growth 
+of the disease cases in a given area. 
+ 
+3.2.1.4 Disease trajectory refers to whether the number of new cases of disease remains stable, increases or 
+decreases over time. An awareness of which way the infection rates are going may assist in monitoring risk. For instance, 
+if a State level of disease is in a moderate range, but there is a doubling of case rates per week, a State may want to 
+rethink requirements or risk mitigation strategy. 
+ 
+3.2.1.5 To gain a true picture of the prevalence and trajectory of disease, testing should be readily available and 
+utilized routinely when individuals are either displaying symptoms or are identified as close contacts. States may wish to 
+consider the proportion of testing compared to the population, the percentage of positive results, and the proportion of 
+positive tests in symptomatic or close contacts compared to asymptomatic persons. Testing strategy is further detailed in 
+WHO’s interim guidance on Recommendations for national SARS-CoV-2 testing strategies and diagnostic capacities 
+(https://www.who.int/publications/i/item/WHO-2019-nCoV-lab-testing-2021.1-eng).  
+ 
+3.2.1.6 States may use this information to classify or stratify cities, States, or regions by risk level (see Chapter 4). 
+By developing these benchmarks, States and regions can begin to discuss mitigation strategies necessary between States, 
+including potential bilateral, multilateral or regional arrangements to facilitate air transport (i.e. Public Health Corridors), or 
+temporarily expanding or liberalizing cargo traffic rights. 
+ 
+ 
+3.2.2    Variants of concern (VOC) 
+ 
+3.2.2.1 The pandemic continues to evolve with additional variants of concern (VOC) emerging, which are more 
+transmissible, may cause more severe disease and/or may lead to possible immune escape. It is further likely that possibly 
+more dangerous VOC may emerge in the future that may be even more challenging to control, especially in areas and 
+groups with high incidence and low vaccine coverage.  
+ 
+3.2.2.2 The scientific community continues to monitor emerging data regarding SARS-CoV-2 variants and immunity 
+following recovery, including the ability of emerging virus variants (variants of interest and variants of concern) to evade 
+immune responses.  
+ 
+3.2.2.3 Vaccine breakthrough cases are expected to occur regardless of virus strain because no vaccine is 
+100 per cent effective. Breakthrough cases should not necessarily be seen as a failure of the vaccine. However, vaccine 
+breakthrough cases may signal reduced vaccine effectiveness against emergent viruses or virus variants. It is thus 
+essential to assess how vaccines perform against new variants, to inform vaccination programmes7. 
+ 
+                                                          
+7. https://www.who.int/publications/i/item/WHO-2019-nCoV-vaccine_effectiveness-variants-2021.1  
+ 
+Chapter 3.    Testing, vaccination and cross-border risk management measures 3-5 
+3.2.2.4 In view of the continuing emergence of VOC and the risks they might represent, States are encouraged to 
+include the emergence and circulation of VOC in their risk assessments and refer to the relevant WHO epidemiology8 
+updates.  
+ 
+3.2.2.5 States are further encouraged to conduct surveillance using genomic sequencing and share epidemiological 
+information on a regular basis with WHO (in accordance with WHO requirements) and other States, specifically where 
+PHC agreements exist with other States. 
+ 
+ 
+ 
+3.3    TESTING AS A SCREENING STRATEGY APPLIED TO AVIATION 
+ 
+ 
+3.3.1    Testing concepts 
+ 
+3.3.1.1 States using testing in their COVID-19 risk management strategy should apply the approach outlined in this 
+manual, recognizing that robust testing strategies allow for early detection of potentially infectious travellers. However, 
+testing may not be universally recommended by public health authorities as a routine health screening method due to 
+priority and resource considerations.  
+ 
+3.3.1.2 In addition, in view of inaccessibility to vaccines or inability to use vaccines in some instances, as well as the 
+emergence of VOI and VOC, testing is considered to be an important mitigation measure in the detection of possible 
+SARS-Co-V-2 infection.  
+ 
+3.3.1.3 Antigen detection rapid diagnostic tests (Ag-RDTs) have a number of advantages for screening used within 
+the aviation environment due to their ability to detect active infection, their ability to detect current circulating variants, the 
+shorter waiting periods for results which enables testing closer to the time of departure, their high availability, and the lower 
+cost of their use. However, PCR testing is still considered to be the most reliable diagnostic test. 
+ 
+3.3.1.4 For those States that employ testing as a part of an overall risk mitigation strategy, the following concepts 
+could be considered: 
+ 
+ a) Reducing risk to zero is impossible, but testing can be one measure supporting a multilayered risk 
+mitigation process. 
+ 
+ b) There are four main reasons to consider testing: 
+ 
+  1) reducing potential transmission during the actual travel; 
+ 
+  2) reducing potential introduction of disease in a destination region/country;  
+ 
+  3) potentially reducing or eliminating quarantine for the traveller at their destination; and 
+ 
+  4) helping to identify imported cases of new variants through genomic sequencing. 
+ 
+ c) States could also consider limiting the exportation of disease and developing methods to communicate 
+to travellers the need to remain at their residence when ill, when in isolation, when in quarantine, if they 
+have a pending test following the onset of symptoms compatible with COVID-19 and any other relevant 
+measures as recommended by the relevant Public Health Authority. 
+ 
+                                                          
+8. https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports  
+ 
+3-6 Manual on COVID-19 Cross-border Risk Management 
+ d) The current approved COVID-19 tests that are recommended by public health authorities are for testing 
+of symptomatic or exposed individuals for diagnostic purposes. Use in an asymptomatic population may 
+yield different test performance than that of symptomatic cases. In Attachment A, Epidemiologic Primer, 
+a margin of error is described and used to account for asymptomatic cases in the development of the 
+positive and negative predictive values. The use of antigen testing in low-prevalence settings including 
+asymptomatic individuals is described in detail in 3.3.2. 
+ 
+ e) In areas with low test availability, States should balance the diagnostic needs in symptomatic individuals 
+and individuals in high-risk groups and high-risk settings (where the public health impact is greater) 
+against screening of healthy or asymptomatic potential travellers.  
+ 
+f) Testing requirements may reflect the difference in the epidemiological situation of the point of origin and 
+destination and where the epidemiological situation is equal, there should, in principle, be no testing 
+requirements, in accordance with States’ national policies. 
+ 
+ g) For all tests, accurate results depend on good clinical sampling. Testing should thus be performed by 
+individuals in accordance with the appropriate authorities’ policies and procedures. At least one authority 
+has authorized the use of home-testing kits for travel purposes under specific criteria. Standards and 
+procedures for presenting test results for travelling purposes is described in 3.3.8 (Standardization and 
+validation of testing certificates) and included as PHC Form 5 in the CART TOGD to facilitate recognition 
+by different authorities. An initial positive test regardless of type should be considered positive, unless 
+it has been cleared by additional confirmatory testing (when appropriate), or the individual has been 
+assessed and cleared by a healthcare provider, or the individual has provided proof of a previous 
+SARS-CoV-2 infection. 
+ 
+ h) Exempting travellers/air crew from measures, such as testing and/or quarantine requirements, to 
+individual travellers who: 
+ 
+1)  were fully vaccinated, at least two weeks prior to travelling, with COVID-19 vaccines listed by the 
+WHO for emergency use or approved by a stringent regulatory authority9 or; 
+ 
+2)  have had previous SARS-CoV-2 infection as confirmed by real time RT-PCR (rRT-PCR) within the 
+six months prior to travelling and are no longer infectious as per WHO’s criteria for releasing 
+COVID-19 patients from isolation10.  
+ 
+―  For symptomatic patients: ten days after symptom onset, plus at least three additional days 
+without symptoms (including without fever and without respiratory symptoms). 
+ 
+—  For asymptomatic cases: ten days after positive test for SARS-CoV-2. 
+ 
+i) Offer alternatives to travel for individuals who are unvaccinated or do not have proof of past infection, 
+such as through the use of negative RT-PCR tests, or antigen detection rapid diagnostic tests (Ag-RDTs) 
+that are listed by the WHO for emergency use or approved by other stringent regulatory authorities 
+should be considered11.  
+ 
+ j) However, other basic mitigation strategies (wearing masks, physical distancing, etc.) should remain in 
+place while studies are under way to determine duration of immunity and until conclusive evidence is 
+available to support reduction of basic measures.  
+                                                          
+9.  https://www.who.int/initiatives/who-listed-authority-reg-authorities/SRAs  
+10. https://www.who.int/publications/i/item/criteria-for-releasing-covid-19-patients-from-isolation  
+11. https://www.who.int/publications/i/item/WHO-2019-nCoV-Policy-Brief-Risk-based-international-travel-2021.1  
+ 
+Chapter 3.    Testing, vaccination and cross-border risk management measures 3-7 
+3.3.2    Testing methods and performance-based recommendation  
+ 
+Note.— Refer to Attachment A, Epidemiologic Primer for definitions, meaning of prevalence for testing and 
+sample equations. 
+ 
+3.3.2.1 Robust testing strategies are an essential aspect of preparedness and response to the COVID-19 pandemic, 
+allowing for early detection of potentially infectious individuals12. At the time of publication, molecular testing (e.g. real time 
+RT-PCR) is recommended by the WHO for routine diagnosis. However, the WHO allows for antigen detection rapid 
+diagnostic tests (Ag-RDTs) that are listed by the WHO for emergency use or approved by other stringent regulatory 
+authorities, to be used as alternatives13. Ag-RDTs with a minimum specificity of at least 97 per cent are recommended to 
+avoid false negative results, thus reducing the introduction of infected passengers into the travel continuum. 
+ 
+3.3.2.2 The performance of Ag-RDTs has significantly improved, allowing faster and cheaper, yet still effective, ways 
+to detect infections. Ag-RDTs have increasingly become an important part of the overall response to the pandemic where 
+reliable and cost-effective testing within short timeframes are needed; or where access is needed by individuals who are 
+unable to provide proof of vaccination. Rapid antigen tests will most often be positive when viral loads are highest and 
+patients are most infectious, typically one to three days prior to the onset of symptoms and during the first five to seven 
+days after the onset of symptoms – and will become negative as the patient clears the infection and recovers. Some States 
+have implemented high-performing Ag-RDTs successfully as a screening option for work, recreation or socio-economic 
+purposes. It has been used successfully in aviation for screening aviation employees prior to work; and for screening 
+passengers prior to pre-departure and following arrival. 
+  
+3.3.2.3 Confirmatory testing by a Nucleic Acid Amplification Test (NAAT) is recommended to exclude false positive 
+Ag-RDTs results. Where NAAT tests are not readily available and in view of the advantages of Ag-RDTs, it is 
+recommended that Ag-RDTs with a minimum sensitivity of at least 95 per cent could be used for confirmatory testing.  
+ 
+3.3.2.4 Serological tests should not be utilized as the sole factor for COVID-19 diagnosis or recovery from infection. They 
+should be used in conjunction with clinical evaluation and judgment.  
+ 
+3.3.2.5 As more and different tests are approved for emergency use, including some that were previously considered 
+to be less effective, specifying a particular test or set of tests as the “best” regimen to use in a specific scenario becomes 
+challenging. Each of these tests has distinct advantages and disadvantages which need to be considered. The table below 
+describes the advantages and disadvantages of different testing methods. It should be noted that RT-PCR remains the 
+“gold standard” for diagnostic testing in health settings. More information can be found in the WHO guidance on 
+SARS-CoV-2 antigen detecting rapid diagnostic tests and in Table 3-1 below14.  
+ 
+  
+                                                          
+12. COVID-19 diagnostic testing in the context of international travel https://www.who.int/publications/i/item/WHO-2019-nCoV-Sci_Brief-
+international_travel_testing-2020.1  
+13.  https://www.who.int/publications/i/item/WHO-2019-nCoV-Policy-Brief-Risk-based-international-travel-2021.1  
+14. https://www.who.int/publications/i/item/antigen-detection-in-the-diagnosis-of-sars-cov-2infection-using-rapid-immunoassays  
+ 
+3-8 Manual on COVID-19 Cross-border Risk Management 
+Table 3-1.    Advantages and disadvantages of testing methods for SARS-Cov-2 
+ 
+Test type Advantages Disadvantages 
+Nucleic acid • Detects active SARS-CoV-2 infection • Turnaround time of hours to days 
+amplification testing • High sensitive and specificity • Labour intensive 
+(NAAT), e.g. • Requires laboratory infrastructure and 
+RT-PCR tests skilled personnel 
+• More expensive than RDTs 
+Rapid diagnostic • Detects active SARS-CoV-2 infection • Variable sensitivity and specificity, 
+tests: Antigen- • Can be used at the point of care generally lower than NAAT 
+detecting tests (outside laboratories) • Lower sensitivity means negative 
+• Easy to perform predictive value is lower than for NAAT, 
+• Quick results (typically under 30 especially in settings with high prevalence 
+minutes) enabling rapid implementation of SARS-CoV-2 
+of infection control measures, including • Confirmatory NAAT testing of RDT 
+contact tracing positives is advised in all low-prevalence 
+• Less expensive than NAAT settings and for RDT negatives in high-
+prevalence settings 
+• Negative Ag-RDT results cannot be used 
+to remove a contact from quarantine 
+Rapid diagnostic • Ab-RDTs can be used to detect • Clinical significance of a positive Ab-RDT 
+tests: Antibody- previous infection with SARS-CoV-2 results is still under investigation 
+detecting tests • Can be used at the point of care • Positive Ab-RDT results do not guarantee 
+(outside laboratories) or in higher presence of neutralizing antibodies or 
+throughput formats in laboratories protective immunity 
+• Easy to perform • Ab-RDTs should not be used for 
+• Quick results (typically under 30 determining active infections in clinical 
+minutes for point-of-care testing) care or for contact tracing purposes 
+• Less expensive than NAAT • Interpretation of Ab-RDT results depends 
+on the timing of the disease, clinical 
+morbidity, the epidemiology and 
+prevalence within the setting, the type of 
+best used, the validation method, and the 
+reliability of the results 
+ 
+  
+ 
+Chapter 3.    Testing, vaccination and cross-border risk management measures 3-9 
+3.3.2.8  One of the aims of this guidance is to establish a performance-based recommendation for testing regardless 
+of the methodology that the States could consider if they choose to use testing as a part of their risk mitigation measures. 
+This is aligned with the ICAO risk-based approach, supporting State sovereignty to make decisions based on a State’s 
+risk assessment and risk tolerance, guided by their own priorities and consideration of epidemiological indicators, practical 
+testing limitations and other relevant considerations. 
+ 
+3.3.2.9 States are advised to: 
+ 
+ a) continuously consider and re-evaluate the performance of the tests available in the market and the 
+application for which it is being considered for use (e.g. study the population upon which performance 
+data is based, whether the performance data supports screening, diagnosis or monitoring, etc.); 
+ 
+ b) implement a strategy to manage positive and false positive test results (e.g. confirmatory testing); 
+ 
+ c) record and review testing data on a frequent basis; 
+ 
+ d) monitor scientific developments and adjust their testing protocols accordingly; and 
+ 
+ e) distinguish between passengers, crew members and other aviation occupations who are covered by 
+occupational health programmes, i.e. consider the role of existing occupational health programmes 
+when assessing crew risk.  
+ 
+ 
+3.3.3    Pre-departure testing 
+ 
+3.3.3.1 The goal of pre-departure testing is to limit the potential transmission of COVID-19 during travel and may 
+contribute to the reduction in the risk of translocation of the disease. A single pre-departure test alone is more effective in 
+mitigating on board transmission than in reducing the translocation of disease. Adding testing as a component to a 
+multilayered risk mitigation strategy reduces reliance on recognizing and reporting symptoms as a sole means to identify 
+infected travellers. No testing regime can reduce the risk to zero (completely eliminate the risk). Hence, travellers must 
+continue to employ routine recommended public health measures at all times. The current understanding of COVID-19 
+allows the assumptions below. The closer the testing is to the departure time, the more likely the person will remain unable 
+to infect others during the journey. Therefore, the use of rapid antigen testing could be beneficial in pre-departure testing, 
+providing cost-effective testing within a short time period just prior to travel. Testing too far in advance of departure results 
+reduces the advantage of the risk reduction allowed by pre-departure screening. Testing within 72 hours of departure is 
+still valid, considering the practical limitations with PCR testing. However, the optimum risk reduction results can be 
+achieved by PCR or rapid antigen testing as close as possible to the departure. This conclusion is based upon the following: 
+ 
+ a) incubation time: 2 to12 days (95 per cent of cases) with a median of 5 to 6 days;  
+ 
+ b) viral shedding can occur 48 hours prior to symptom onset; 
+ 
+ c) the most sensitive tests turn positive 1 to 3 days (24 to 72 hours) prior to symptoms; and 
+ 
+ d) leaving a 2- to 4-day period where a person could be infected but not contagious while travelling  
+(i.e. a negative test if the median incubation period is used). However, this could miss very short 
+incubation cases. 
+ 
+  
+ 
+3-10 Manual on COVID-19 Cross-border Risk Management 
+3.3.3.2 Figure 3-115 provides an overview of the use of antibody and virus detection tests in relation to transmission 
+of the SARS-CoV-2 with reference to guidance from the Ministry of Health of Spain16.  
+ 
+ 
+Figure 3-1 
+ 
+ 
+ 
+3.3.4    Combined pre-departure and post-arrival testing 
+ 
+3.3.4.1 Post-arrival testing, in conjunction with pre-departure testing, can result in risk reductions. Consequently, as 
+part of a State’s risk assessment and determination of risk tolerance, a State may consider reducing quarantine time 
+frames.  
+ 
+3.3.4.2 Both PCR and rapid antigen testing could be used for post-arrival testing, but PCR testing could help identify 
+imported cases of new variants through genomic sequencing which could be communicated to States that share PHCs.  
+ 
+3.3.4.3 Modelling suggests that pre-departure testing, preferably close to departure, in combination with post-arrival 
+testing on day 4 to 5 and a shorter quarantine, may perform as well as a 14-day quarantine alone. These models are 
+currently undergoing further refinement, and updated findings will be included in future revisions. 
+ 
+  
+                                                          
+15. EASA Guidelines for Aero-Medical Centres and Aeromedical Examiners regarding the examination and assessment of applicants 
+ https://www.easa.europa.eu/document-library/general-publications/guidelines-aero-medical-centres-and-aeromedical-examiners 
+16. https://www.synlab-sd.com/en/blog/covid-19-tests-everything-you-need-to-know/  
+ 
+Chapter 3.    Testing, vaccination and cross-border risk management measures 3-11 
+3.3.4.4 The study results of 16 361 arriving passengers at Toronto Pearson Airport found that a single arrival PCR 
+test will pick up two-thirds of individuals who will become positive, with most of the remaining individuals detected on the 
+second test at day 7. These results and other scientific papers17 support strategies from modelling that a reduced 
+quarantine combined with testing can be as effective as a 14-day18 quarantine. Alternative strategies include daily antigen 
+testing after arrival. 
+ 
+3.3.4.5 Models have also been developed taking into account vaccinated individuals, with some States using 
+pre-departure testing in combination with testing two days after arrival for vaccinated travellers. Additional modelling and 
+close follow-up of travellers will further refine when to conduct post-arrival testing in combination with pre-departure testing. 
+Refer to Chapter 4, 4.2 for more detailed information. 
+ 
+ 
+3.3.6     Selecting test devices based on statistical analysis 
+ 
+ Note. — See Attachment A, Epidemiologic Primer for definitions and sample equations. 
+ 
+3.3.6.1 With the goal of allowing the greatest number of people to travel without increasing the risk of SARS-CoV-2 
+importation and onwards transmission, or exportation, the test device in the prevalence level in the traveller’s population 
+should have a high negative predictive value, meaning a negative test is in all likelihood truly negative. While there will be 
+a few false negatives who would enter the system, a significant number of false positives who are not infected and could 
+travel otherwise might be denied travel. A plan to evaluate false positives should be developed.  
+ 
+3.3.6.2 Even tests with relatively low specificity (the ability to correctly identify those who do not have the disease 
+as negative), result in high negative predictive values. Establishing a higher test sensitivity cut-off (i.e. the ability to correctly 
+identify those with the disease) will limit those with the disease but who might enter the travel corridor or be released from 
+quarantine. 
+ 
+3.3.6.3 For those States choosing to utilize testing, it is recommended that the cut-off values for sensitivity and 
+specificity be as high as possible, but with a minimum of 95 per cent19 for molecular tests (sensitivity cut-offs are based 
+on reported sensitivity for cases in the peak contagious period, not for very early or very late-stage infections) and a 
+minimum of 80 per cent sensitivity and 97 per cent specificity for rapid antigen tests based on data generated from 
+asymptomatic individuals. Given the reported test values were from the manufacturers as part of their Emergency Use 
+applications, where possible independently validated sensitivities and specificities should be used. No specific diagnostic 
+test(s) is recommended as the number of fielded test devices are growing too rapidly. Hence, a performance-based 
+approach to the selection of a test device(s) using sensitivity and specificity is preferred. States should use tests that have 
+been authorized for screening by relevant public health authorities or have been listed by WHO as part of their Emergency 
+Use Listing (EUL) procedure.  
+                                                          
+17.   https://www.icao.int/safety/CAPSCA/Pages/Coronavirus.aspx  
+18.  https://www.medrxiv.org/content/10.1101  
+19. The recommendation for a minimum sensitivity and specificity level of 95 per cent for molecular tests is based on the following: 
+ – The minimum values of 95 per cent for sensitivity and specificity will allow for a wider range of test devices to be used that are 
+currently fielded as opposed to forcing States to procure newer models that are frequently hard to obtain. 
+ – This range also allows for the use of rapid antigen tests as a screening device which are more accessible and practical for 
+application in the aviation environment; and are faster and less expensive to use. In addition, it would reserve the more 
+expensive real-time RT-PCR tests for confirmation of positives in conjunction with clinical correlation. 
+ – Setting the specificity at 95 per cent reduces the false positives. 
+ – Setting the sensitivity at 95 per cent will also reduce the risk of false negatives. 
+ – In low prevalence settings (equating from 10 to 25 cases per 100 000 on a rolling average), the NPV equates to mislabelling 
+an infected person as negative between 1 in 5 000 and 10 000 negative tests. In a higher prevalence setting (equating to over 
+50 cases per 100 000 on rolling average) the mislabelling rises close to 1 in 300. 
+ – In the same low prevalence and higher prevalence range, the PPV improves from correctly labelling of positive from 
+approximately 5 to 10 per cent, to slightly better than 1 out of 2 of positive tests. 
+ – These are minimum recommended values. States should determine their own minimum levels for sensitivity and specificity that 
+they may require to improve test performance. 
+ 
+3-12 Manual on COVID-19 Cross-border Risk Management 
+3.3.6.4 Polymerase chain reaction (PCR) tests are in short supply in some States and typically expensive. Due to 
+short supply, PCR tests are often reserved only for symptomatic individuals. This might cause significant delays in 
+obtaining results. They are usually based on swab techniques which require suitable trained personnel, premises, and 
+equipment for the sampling process. This means they are difficult to apply in an airport setting. Many countries have called 
+for pre-travel PCR tests, but this creates problems of a window of possible infection after testing, as well as requirements 
+for test approval, identity verification and fraud-proofing of the test results. These have led to interest in using more rapid 
+point-of-care tests including antigen tests that could be used for screening purposes, with consideration of protocols to 
+manage positive test results. Refer to section 3.3.2 for more information regarding the use of rapid tests for screening and 
+confirmatory purposes. 
+ 
+ 
+3.3.7    Management of positive tests and proof of recovery  
+ 
+3.3.7.1 All positive tests should be referred for clinical diagnosis. Test results should be interpreted in the context of 
+the prevalence of infection or disease, the testing device’s performance characteristics and instructions for use, as well as 
+the patient’s clinical signs, symptoms and history.  
+ 
+3.3.7.2 States should ensure their testing regimes include clearly published processes for recovered cases to obtain 
+medical clearance for travel, which should be regularly updated in accordance with current scientific evidence. A positive 
+test in a traveller or crew member with a history of infection and clinical recovery could be considered safe for travel. 
+ 
+3.3.7.3 Positive antigen tests should be referred for clinical correlation and require confirmatory testing. For positive 
+rapid antigen tests in particular, a confirmative molecular test or different rapid antigen test of high specificity can be 
+considered when the pre-test probability is low, such as asymptomatic individuals with no known exposure. In symptomatic 
+cases, depending on the symptoms, negative antigen tests should be referred for clinical evaluation and might require 
+confirmatory testing. 
+ 
+3.3.7.4 PCR tests can remain positive for weeks to months following infection and depending on severity of disease 
+in some patients. Some authorities do not recommend additional PCR tests within a 90-day period of confirmation of 
+diagnosis. 
+ 
+3.3.7.5  Rapid diagnostic tests detecting viral proteins have the potential to expedite and simplify the detection of 
+active infection. Antigen tests that are listed by the WHO for emergency use or approved by other stringent regulatory 
+authorities may be considered to separate current infection from past/recovered infections. 
+ 
+3.3.7.6 Most patients, who have clinically recovered and who have mounted an antibody response to the virus, are 
+not considered to remain infectious20, although duration of this immunity is currently unknown. Current available evidence 
+indicates a period of immunity of at least six months. Individuals who have had previous SARS-CoV-2 infection, as 
+confirmed by real time RT-PCR (rRT-PCR) within the six months prior to travelling, should be assessed for infectiousness 
+as per the WHO’s criteria for releasing COVID-19 patients from isolation21: 
+ 
+— For symptomatic patients: ten days after symptom onset, plus at least three additional days without 
+symptoms (including without fever and without respiratory symptoms). 
+ 
+ ― For asymptomatic cases: ten days after positive test for SARS-CoV-2.  
+ 
+  
+                                                          
+20.  WHO: Interim position paper: considerations regarding proof of COVID-19 vaccination for international traveller (Interim position 
+paper: considerations regarding proof of COVID-19 vaccination for international travellers (who.int)) 
+21. https://www.who.int/news-room/commentaries/detail/criteria-for-releasing-covid-19-patients-from-isolation  
+ 
+Chapter 3.    Testing, vaccination and cross-border risk management measures 3-13 
+3.3.7.7 Available scientific data suggests that, in most people, immune responses remain protective against 
+reinfection for at least six months after infection22. There are many available serologic assays (antibody tests) that measure 
+the antibody response to SARS-CoV-2 infection, but at the present time, the correlates of protection are not well 
+understood. The use of serologic assays is not recommended to prove recovery status given the limitations that are 
+outlined in the scientific brief “COVID-19 natural immunity23 ”.  
+ 
+3.3.7.8 The COVID-19 Aviation Scientific Assessment Group (CASAG) performed a literature search and systematic 
+review of scientific articles and technical reports regarding the duration of naturally acquired (post-infection) immunity. 
+Available evidence, at the time of publication, concluded that the duration of naturally acquired immunity following SARS- 
+CoV-2 infection is at least six months, and is likely longer. The main limitation is that all studies were limited by the available 
+duration of follow-up data, and that data from future studies could indicate an extension of the period. CASAG will continue 
+to monitor developments and update findings accordingly on the ICAO CAPSCA website24.  
+ 
+3.3.7.9 Other limitations are that not all studies have taken into account all of the circulating VOC and the 
+possibility of altered immune responses to variants, which may need to be considered in applying the conclusions. 
+More studies would be needed to determine the full spectrum of immune responses and special consideration should 
+be provided for individuals with reduced immune response, in particular, those having received renal transplant, and 
+those under treatment for blood-related cancers.  
+ 
+ 
+3.3.8    Standardization and validation of testing, recovery and vaccination certificates  
+ 
+3.3.8.1  Many States require pre-departure testing for COVID-19 as an entry requirement. Standardizing testing 
+certificates will facilitate mutual acceptance by States. Information should be reported in English (mandatory). Where the 
+certificate is issued in a language other than English, the certificate should include an English translation. 
+ 
+3.3.8.2 ICAO has established a minimum data set for testing certificates to facilitate States’ recognition and 
+harmonization of their use for air travel. The minimum information to be recorded on the certificate incudes: 
+ 
+a) personal information of test subject: 
+ 
+  1) full name (surname, given name); 
+  2) date of birth (YYYYMMDD); 
+  3) ID document type25 (mandatory); and  
+  4) ID document number (mandatory); 
+  
+                                                          
+22. https://www.who.int/publications/i/item/WHO-2019-nCoV-Sci_Brief-Natural_immunity-2021.1  
+23. https://www.who.int/publications/i/item/WHO-2019-nCoV-Sci_Brief-Natural_immunity-2021.1  
+24. https://www.icao.int/safety/CAPSCA/Pages/default.aspx 
+25. Refers to any type of documentation, it does not need be a travel-specific document. 
+ 
+3-14 Manual on COVID-19 Cross-border Risk Management 
+b) service provider: 
+ 
+  1) name of testing facility or service provider (mandatory); 
+  2) country of test (mandatory); and 
+  3) contact details (mandatory); 
+ 
+c) date and time of test and report: 
+ 
+  1) date and time of specimen collection (mandatory); and 
+  2) date and time of report issuance (mandatory); 
+ 
+d) test result: 
+ 
+  1) type of test conducted: molecular (PCR); molecular (other); antigen; antibody (type) (mandatory); 
+  2) result of test (normal/abnormal or positive/negative) (mandatory); and 
+  3) sampling method (nasopharyngeal, oropharyngeal, saliva, blood, other (optional); 
+ 
+ e) optional data field: issued at the discretion of the issuing authority. 
+ 
+3.3.8.3 ICAO has also established a minimum data set for proof of recovery certificates to facilitate States’ 
+recognition and harmonization of their use for air travel. The minimum information to be recorded on the certificate includes: 
+ 
+a) personal information of test subject: 
+ 
+  1) full name (surname, given name); 
+  2) date of birth (YYYYMMDD); 
+  3) ID document type26 (mandatory); and  
+  4) ID document number (mandatory); 
+ 
+b) test result: 
+ 
+  1) Member State of test; and 
+  2) date of first positive test result (mandatory);  
+    
+c) health-care provider/certificate issuer. 
+ 
+3.3.8.4 Where States do not issue a digital certificate of recovery, the minimum information described in 3.3.8.3 
+would need to be included in a paper-based format on a formal letterhead of the health-care provider. The document 
+should contain clear contact information and be manually signed by the health-care provider. The individual traveller could 
+be required to have evidence of the positive test result, and any additional certificates issued by the health-care provider, 
+to present to the relevant authority when requested to do so. Verification of paper-based certificates should be compliant 
+with data protection legislation.  
+ 
+3.3.8.5 ICAO has published a core data set for proof of vaccination, recommended by the WHO in August 2021. 
+The information to be recorded on the vaccination certificate includes: 
+ 
+a) unique certificate identifier (required); 
+ 
+b) certificate valid from (optional); 
+ 
+c) certificate valid to (optional); 
+ 
+                                                          
+26. Refers to any type of documentation, it does not need be a travel-specific document. 
+ 
+Chapter 3.    Testing, vaccination and cross-border risk management measures 3-15 
+d) personal identification: 
+ 
+1) name (required); 
+2) unique identifier (recommended); 
+3) additional identifier (optional); 
+4) sex (recommended); and 
+5) date of birth (conditional with unique identifier); 
+ 
+e) vaccination event: 
+ 
+1) vaccine or prophylaxis (required); 
+2) vaccine brand (required); 
+3) vaccine manufacturer (conditional with marketing authorization holder); 
+4) marketing authorization holder (conditional); 
+5) disease or agent targeted (recommended); 
+6) date of vaccination (required); 
+7) dose number (required); 
+8) country of vaccination (required); 
+9) administering centre (required); 
+10) vaccine batch number (required); and 
+11) due date of next dose (optional). 
+ 
+Notes: 
+ 
+1.— “REQUIRED” means that the definition is an absolute requirement of the specification. 
+ 
+2.—“RECOMMENDED” means that there may exist valid reasons in particular circumstances to ignore a particular item, 
+but the full implications must be understood and carefully weighed before choosing a different course. 
+ 
+3.― “OPTIONAL” means that an item is truly optional. One user may choose to include the item because a particular 
+application requires it or because the user feels that it enhances the application, while another user may omit the 
+same item. 
+ 
+4.—“CONDITIONAL” means the usage of an item is dependent on the usage of other items. It is therefore further qualified 
+under which conditions the item is REQUIRED or RECOMMENDED. 
+ 
+Example with regard to conditional: the field of vaccine marketing authorization holder is conditional; however, if the 
+marketing authorization holder is unknown, the vaccine manufacturer is REQUIRED. 
+ 
+3.3.8.6 The ICAO Machine Readable Travel Documents (MRTD) Technical Report on Visible Digital Seals for 
+non-constrained environments (VDS-NC) contains the aforementioned minimum and core data sets for testing and 
+vaccination certificates and can readily incorporate the newly developed minimum data set for recording a previous SARS-
+CoV-2 infection (proof of recovery certificate). More detailed information is available in the manual on Machine Readable 
+Travel Documents (Doc 9303, Part 13) specifications. 
+ 
+Validation of testing, recovery and vaccination certificates  
+ 
+3.3.8.7 Member States should implement and recognize certificates of testing, recovery and vaccination based on 
+the protocol, minimum data set and implementation approaches outlined in this manual to facilitate air travel. States are 
+encouraged to ensure such certificates are secure, trustworthy, verifiable, convenient to use, compliant with data protection 
+legislation and internationally/globally interoperable. Proof of vaccination could be based upon the WHO International 
+Certificate of Vaccination or Prophylaxis (ICVP) and should be issued in an internationally/globally interoperable format 
+aligned with the technical specifications and guidance outlined by WHO. Existing solutions should be considered and could 
+incorporate a Visible Digital Seal (VDS-NC) or other interoperable formats from regional or global intergovernmental bodies, 
+or internationally recognized organizations.  
+ 
+3.3.8.8 Certificates may be issued in paper or digital format, depending on capabilities and preferences.  
+ 
+  
+ 
+3-16 Manual on COVID-19 Cross-border Risk Management 
+3.3.8.9 There are a number of potential procedural challenges in verifying testing, proof of recovery or vaccination 
+certificates that could cause delays or other potential problems for passengers.  
+ 
+3.3.8.10 States are encouraged to implement the approaches provided in this manual and consider the following 
+processes and/or procedures to facilitate travel through the airport: 
+ 
+a) make available tools that allow travellers to submit travel-related health certificates; 
+ 
+b) inform passengers and stakeholders of the requirements with regard to testing, vaccination and 
+verification for international travel purposes; 
+ 
+c) provide the necessary guidance, resources and support to assist stakeholders; and 
+ 
+d) ensure these processes and/or procedures are in full compliance with applicable laws and regulations 
+on data protection and privacy. 
+ 
+ 
+ 
+3.3.9    Guidance on using both testing and vaccination 
+ 
+3.3.9.1 Vaccination provides very effective protection against severe disease, hospitalization and mortality. While 
+vaccination is a key mitigation measure to achieve widespread immunity, the scientific data is not yet mature enough to 
+make a definitive recommendation regarding the efficacy of all currently available vaccines to confer protective immunity, 
+the possible duration of such immunity and the efficacy of vaccination in reducing transmission of current or new emerging 
+VOC. This guidance will be amended as new evidence becomes available and is validated. 
+ 
+3.3.9.2 States are encouraged to share and publish evidence related to their vaccination campaigns as soon as that 
+becomes available, including interim reports to allow for early identification of trends. 
+ 
+3.3.9.3 The WHO recommends that Member States consider a risk-based approach to the facilitation of international 
+travel by lifting measures, such as testing to individual travellers who were fully vaccinated, at least two weeks prior to 
+travelling, with COVID-19 vaccines listed by the WHO for emergency use or approved by a stringent regulatory authority. 
+In addition, there should be consideration for non-vaccinated travellers (refer to 3.3.1.4 i)). 
+ 
+3.3.9.4 Vaccinated individuals may be exempted from testing and/or quarantine measures, in accordance with a 
+State’s accepted risk threshold, national framework and COVID-19 situation. However, vaccination should not be a 
+prerequisite for international travel. In view of the global inequity of access to vaccines and the limitations as described in 
+3.3.9.1, it is recommended that basic multilayer risk mitigation measures, including hygiene, masks and physical distancing 
+where possible, as included and periodically updated in the CART TOGD27 and this manual, are maintained during air 
+travel.  
+ 
+ 
+ 
+3.4    QUARANTINE PRACTICES 
+ 
+3.4.1  Many States have instituted a period of quarantine for incoming passengers as a measure to prevent 
+importation of new cases. States’ implementation of quarantine measures varies and may range from voluntary 
+self-quarantine, to mandatory quarantine in their residence and to enforced restrictions at specified locations. Contracting 
+States implementing quarantine for arriving passengers should comply with the IHR Article 43, which stipulates that such 
+additional health measures should be based upon scientific principles and supported by available scientific evidence of a 
+                                                          
+27.   https://www.icao.int/covid/cart/Pages/Documents.aspx  
+ 
+Chapter 3.    Testing, vaccination and cross-border risk management measures 3-17 
+risk to human health, while recognizing that the IHR do not preclude States implementing health measures, in accordance 
+with their relevant national law and obligations under international law, in response to specific public health risks or public 
+health emergencies of international concern. 
+ 
+3.4.2 The quarantine period typically applied by States is 10 to 14 days. The WHO recommends  the quarantine 
+of contacts of persons with confirmed and probable SARS-CoV-2 infection, for a duration of 14 days from the last contact 
+with the confirmed or probable case, to minimize risk of onward transmission28. However, many States are exploring 
+reducing the quarantine period based upon testing results and vaccination status. There can be considerable logistical 
+difficulties and cost in implementing a quarantine regime, and States electing to utilize quarantine need to plan and prepare 
+accordingly. Quarantine should only be implemented following a thorough risk assessment and with respect for travellers’ 
+dignity, human rights and fundamental freedoms, while minimizing any discomfort or distress associated with the health 
+measures applied to them, as outlined in the IHR (2005)29. Depending on the implementation model, States may need to 
+ensure that all needs for transport, accommodation, food, exercise and communication are met and that there is no 
+cross-contamination between those in the quarantine facility including the staff. In some cases, given the frequency of 
+asymptomatic infection, the quarantine is now accompanied by COVID-19 testing. 
+ 
+3.4.3 The WHO identifies two scenarios in which quarantine could be implemented30: 
+ 
+1)  the restriction of movement of travellers upon arrival from areas with community transmission; and  
+ 
+2)  for contacts of individuals with confirmed or probable SARS-CoV-2 infection. For all contacts of 
+individuals with confirmed or probable SARS-CoV-2 infection, the WHO continues to recommend 
+quarantine in a designated facility or in a separate room in the household, for a duration of 14 days from 
+the last contact with the confirmed or probable case, to minimize risk of onward transmission.  
+ 
+3.4.4 International travellers should not be categorized as suspected COVID-19 cases and are not considered 
+contacts of COVID-19 in principle unless a traveller meets the definition of a contact. For travellers, the WHO recommends 
+self-monitoring for symptoms on arrival for 14 days, and reporting symptoms and travel history to local authorities, as per 
+instructions received by authorities in the host country, prior to departure and/or on arrival. Any traveller identified as a 
+contact of a COVID-19 case should be supported and quarantined – as part of national response strategies in accordance 
+with WHO guidance for quarantine – and tested if symptoms develop at any point during the quarantine period. 
+ 
+3.4.5  Quarantine may be most applicable to countries with a low incidence of COVID-19 and/or relatively high 
+volumes of unvaccinated arriving air travellers, as well as countries at the tipping point of exponential growth and/or with 
+limited public health and health system capacities to detect and care for new cases. The positive benefits of quarantine in 
+reducing SARS-CoV-2 transmission must be balanced against the related risks of infringement of human rights, 
+psychosocial and economic harm, disruption to travel and trade, reductions in the movement of essential goods and 
+workforce mobility31. 
+ 
+ 
+3.4.6 If States choose to implement quarantine measures for all passengers upon arrival, they should do so based 
+upon a risk assessment and consideration of above-mentioned considerations, including those for exemption of individuals 
+with vaccine-induced or natural immunity. While quarantine can be an effective means of ensuring any imported cases by 
+asymptomatic passengers do not spread the disease in the community, it can be a disincentive32 to travel, particularly if 
+required after both (outbound and return) legs of an international journey, as can government advisories recommending 
+against travel.  
+ 
+                                                          
+28.  https://www.who.int/publications/i/item/WHO-2019-nCoV-IHR-Quarantine-2021.1  
+29.  Considerations for implementing a risk-based approach to international travel, Interim Guidance, WHO – 16 December 2020.  
+30.  https://www.who.int/publications/i/item/WHO-2019-nCoV-IHR-Quarantine-2021.1  
+31.  https://apps.who.int/iris/handle/10665/342212  
+32…https://www.iata.org/en/iata-repository/publications/economic-reports/travel-impact-of-quarantine2  
+ 
+3-18 Manual on COVID-19 Cross-border Risk Management 
+3.4.7 Given the complexities and implications of quarantine, States choosing to implement a quarantine regime 
+should do so after conducting a risk assessment, taking into account the local epidemiology in departure and destination 
+countries; travel volumes between countries; the public health and health system capacity; public health and social 
+measures implemented; and contextual factors, such as assessing all the implications, including non-health related 
+implications, and considering them in accordance with their own national decision-making processes. 
+ 
+ 
+3.5    COMBINED TESTING AND QUARANTINE STRATEGIES 
+ 
+3.5.1 For States that choose to apply quarantine measures, such measures should be implemented in conjunction 
+with other public health risk mitigation measures and in accordance with a risk-based analysis conducted by the destination 
+State, considering the epidemiological situation of both origin and destination country or countries and other possible 
+mitigation measures (see Section 3.2 above). A metric may be chosen to assist in this assessment, such as the test 
+positivity rate. 
+ 
+3.5.2 In applying the risk assessment, States should consider their risk tolerance and the risks posed by the travel, 
+and how different mitigation measures may reduce that risk. If travel is from an area of low prevalence to one of high 
+prevalence, then the value of quarantine as a measure may be diminished. In situations where travel is between two 
+countries with similar levels of transmission in the community, any travellers who had been tested negative for COVID-19, 
+meeting the performance based criteria described in Section 3.3.2, upon departure, or had developed natural immunity 
+due to infection and had fully recovered, or had been fully vaccinated would be of lower statistical risk than the non-tested 
+members of the surrounding communities in either country. Travellers that have been tested negative for COVID-19 or 
+have developed natural immunity or have been fully vaccinated could be subjected to no more restrictions than the others 
+in the community at destination. 
+ 
+3.5.3 While quarantine can be effective in reducing SARS-CoV-2 importation when travelling from an area of high 
+community transmission to an area of low community transmission, the introduction of vaccination and testing into the 
+measures applied could potentially be used to reduce the risk of translocation and the duration of quarantine. There is 
+evidence to show that tests reduce the risk of an undetected positive case by some degree, and that a second test (in 
+combination with a period of quarantine) further reduces that risk33.  
+ 
+3.5.4 Public health authorities should make the final decisions about how long quarantine should last, based on 
+local conditions and needs. Options to consider reducing quarantine are as follows: 
+ 
+ — After day 10 without testing or after day 7 after receiving a negative test result (test must occur on day 5 
+or later) 
+ 
+ — After stopping quarantine, a person should: 
+ 
+  • monitor for symptoms until 14 days after travel; 
+ 
+  • if symptoms develop, immediately self-isolate and contact the local public health authority or 
+healthcare provider; 
+ 
+  • wear a mask, stay at least 6 feet from others, wash hands, avoid crowds, and take other steps to 
+prevent the spread of COVID-19; and 
+  
+                                                          
+33. Animal and Plant Health Agency (APHA), UK. Rachel A. Taylor, et al.; Tropical Medicine, UK, Samuel Clifford, et al and “Investigation 
+into the effectiveness of “double testing” travellers incoming to the UK for signs of COVID-19 infection”, Public Health England 
+Modelling Cell. 
+ 
+Chapter 3.    Testing, vaccination and cross-border risk management measures 3-19 
+  • while a quarantine for 14 days is the general recommended period, a quarantine period shorter 
+than 14 days reduces the burden to travellers and the community. Public health authorities should 
+continue to evaluate new information and update recommendations as needed.34  
+ 
+3.5.5 On a careful analysis of the risks and evidence, as well as the government’s risk tolerance, if the prevalence 
+of infection at the point of origin of the passenger is less than or equal to, depending on risk tolerance, to the local 
+prevalence at destination, and the passenger is not ill and/or has a negative test for COVID-19, or is vaccinated, or has 
+recovered from COVID-19 infection, governments might consider relaxing or avoiding quarantine measures. Alternatively, 
+governments may determine that quarantine measures can be combined with other measures including testing to reduce 
+the duration of quarantine. A model has been developed taking into account serial antigen testing as a possible option to 
+reduce quarantine duration. This model is undergoing refinement and further updates might be provided in the future. 
+ 
+3.5.6 Several studies conclude that the combination of quarantine with other public health and social measures 
+improves its effectiveness; and that combining quarantine with SARS-CoV-2 testing, particularly repeated testing, may not 
+only improve effectiveness but also reduce the duration of quarantine35. Policies for testing and quarantine should be 
+regularly reviewed to ensure they are lifted when they are no longer necessary. 
+ 
+ 
+ 
+3.6    VACCINATION AND VACCINATED PERSONS 
+ 
+ 
+3.6.1    Vaccination concepts 
+ 
+3.6.1.1 Vaccination is a critical public health tool to bring the COVID-19 pandemic under control globally. At the time 
+of publication, some vaccines have been recommended by WHO, with additional vaccines being added progressively for 
+assessment for emergency listing/ pre-qualification.36 States have begun to roll out their vaccination programmes, with the 
+aim of protecting their populations and stop the spread of the virus.  
+ 
+3.6.1.2 Control of SARS-CoV-2 will depend on:  
+ 
+a) the prevalence of infection and of circulating variants; 
+ 
+b) the rate of growth or decline in incidence;  
+ 
+c) the types, use of and adherence to control measures in place;  
+ 
+d) the speed with which vaccination occurs; 
+ 
+e) the targeting and uptake of the vaccines among high-risk groups;  
+ 
+f) vaccine effectiveness; 
+ 
+g) natural immunity and vaccine coverage in the population; and 
+ 
+h) emergence of new VOC. 
+ 
+                                                          
+34. https://www.cdc.gov/coronavirus/2019-ncov/if-you-are-sick/quarantine.html  
+35.   https://www.who.int/publications/i/item/WHO-2019-nCoV-Risk-based-international-travel-2021.1  
+36. https://extranet.who.int/pqweb/sites/default/files/documents/Status_COVID_VAX_16Feb2021.pdf  
+ 
+3-20 Manual on COVID-19 Cross-border Risk Management 
+3.6.1.3 There are increasing levels of protection of the general population through natural infection and 
+vaccine-derived immunity. Vaccines have shown high levels of protective efficacy against COVID-19, however, some 
+vaccinated persons may still become infected and develop disease, which in most instances is mild. Vaccinated individuals 
+may also still transmit the virus, albeit at lower intensity. International travellers who are vaccinated are unlikely to develop 
+severe COVID-19 disease and consequently they do not impose increased strain on health systems at the countries of 
+destination.  
+ 
+3.6.1.4 WHO data also indicate that vaccination reduces transmission of SARS-CoV-2, although this data did not 
+include information on VOC. Current preliminary data indicate that the Delta variant can be transmitted by vaccinated 
+individuals, although further studies are needed to provide further information. Preliminary data on Delta variant 
+breakthrough infections indicates that high-risk individuals, e.g. older persons and those with chronic illnesses or being 
+treated with immune-system drugs are at a higher risk. Such individuals might benefit from booster doses of vaccines. 
+ 
+3.6.1.5 The CAPSCA COVID-19 Aviation Scientific Assessment Group (CASAG) performed a literature search and 
+review of scientific articles and technical reports, including observational studies in vaccinated populations to demonstrate: 
+ 
+a) an association between vaccination and protection of an individual from asymptomatic infection; and 
+ 
+b) an association between vaccine coverage and protection from transmission within the population. 
+ 
+3.6.1.5 The main conclusions of the CAPSCA report: “Vaccination and its Effect on SARS-CoV-2 Onward 
+Transmission: A Narrative Review”37 based on available evidence, include that: 
+ 
+a) vaccination against COVID-19 substantially reduces mild/asymptomatic infections, (as well as 
+preventing most severe/fatal infections); and 
+ 
+b)  vaccination substantially reduces transmission of SARS-CoV-2, which indicates that on a travel setting, 
+fully vaccinated travellers might not be drivers of onward transmission of SARS-CoV-2. 
+ 
+3.6.1.6 However, limitations identified by the review, including vaccine types, variant emergence, non-standard 
+intervals of administering vaccine doses, combinations of different vaccines, certain medical conditions, and possible 
+decline in immunity over time, need to be monitored and updated as new evidence becomes available.  
+ 
+3.6.1.7 Available data across different population groups and VOC, confirm that the protection against asymptomatic 
+and symptomatic infection and severe disease conferred by full vaccination (specific vaccines were assessed) is 
+significantly higher than with partial vaccination. Evidence is limited with regard to long-term effectiveness of partial 
+vaccination38. The ECDC recommends that, in the context of increasing circulation of the Delta VOC, full vaccination 
+should be achieved as early as possible and the second vaccine dose be administered after the shortest possible interval, 
+with priority given to population groups at highest risk of severe outcomes following SARS-CoV-2 infection. 
+ 
+3.6.1.8 Evidence from studies on heterologous (‘mix and match’) vaccination suggests strong or enhanced antibody 
+response and that the combination of vaccines were generally well tolerated (specific combinations were assessed39). 
+While research is ongoing to provide more evidence on long-term safety, duration of immunity and effectiveness, the use 
+of heterologous schedules may offer flexibility in terms of vaccination options, particularly to mitigate the impact on the 
+vaccine roll-out should a vaccine product not be available, or if it is discontinued or paused. States are encouraged to 
+share such vaccination information with other States and accept these measures for bilateral recognition in order to restore 
+international travel. 
+                                                          
+37. https://www.icao.int/safety/CAPSCA/Pages/default.aspx  
+38. https://www.ecdc.europa.eu/en/publications-data/partial-covid-19-vaccination-summary  
+39. https://www.medrxiv.org/content/10.1101/2021.07.26.21261130v1  
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8233006/  
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8381713/  
+ 
+Chapter 3.    Testing, vaccination and cross-border risk management measures 3-21 
+3.6.1.9 Other areas where there is limited evidence available and where more research is needed regarding the 
+effects of vaccination on protection from the effects of COVID-19 and onward transmission include: 
+ 
+a)  the need for booster vaccine shots; 
+ 
+b)  vaccination of children and adolescents; and 
+ 
+c)  the need for two doses of vaccine when considering the immunity conferred in relation to recovery from 
+COVID-19 infection.  
+ 
+Note 1.― The rationale for implementing booster doses should be guided by evidence on waning vaccine 
+effectiveness, in particular a decline in protection against severe disease in the general population or in high-risk 
+populations, or due to a circulating VOC40. 
+ 
+Note 2.— Preliminary laboratory evidence suggests that antibody responses following COVID-19 vaccination 
+provide better neutralization of some circulating variants than does natural infection. Preliminary study findings suggest 
+that full vaccination provides additional protection against reinfection41. Further studies are required to provide more 
+information.  
+ 
+3.6.1.10 ICAO will continue to monitor available evidence and update guidance material accordingly. At the time of 
+publication, vaccines against COVID-19 are not available across all States. There is also limited evidence regarding the 
+efficacy of vaccines against current and potentially new VOC.  
+ 
+3.6.1.11 In summary, until the majority of the global population has been vaccinated, control of disease will continue 
+to rely on the use of a multilayer risk management approach, e.g. wearing of masks and testing, modulated by different 
+levels of vaccination42. 
+ 
+ 
+3.6.2    A multilayered risk management strategy: 
+calibrating testing and quarantine strategies for vaccinated persons 
+ 
+3.6.2.1 In addition to its important role in bringing the pandemic under control, vaccination may also play an important 
+role in aviation recovery as the vaccinated proportion of the global population increases over time. 
+ 
+3.6.2.2 Early evidence points in the direction that unvaccinated individuals are more susceptible43 to symptomatic 
+infection than vaccinated individuals. Furthermore, vaccination significantly reduces the severity of symptoms and 
+morbidity should a vaccinated individual become infected. Due to the limited availability of vaccines, it should be used for 
+priority populations considered at high risk of severe COVID-19 disease. In the context of limited supply, the WHO does 
+not recommend COVID-19 vaccination of travellers, unless they belong to a high-risk group (including older persons or 
+those with underlying medical conditions) or in epidemiological settings identified in the WHO SAGE Roadmap for 
+prioritizing uses of COVID-19 vaccines.44 
+ 
+  
+                                                          
+40. https://www.who.int/news/item/10-08-2021-interim-statement-on-covid-19-vaccine-booster-doses  
+41. https://www.cdc.gov/mmwr/volumes/70/wr/mm7032e1.htm  
+42. https://www.who.int/publications/i/item/considerations-in-adjusting-public-health-and-social-measures-in-the-context-of-covid-19-
+interim-guidance  
+43. https://www.cdc.gov/coronavirus/2019-ncov/science/science-briefs/fully-vaccinated-people.html  
+44. WHO: WHO SAGE Roadmap for Prioritizing Uses of COVID-19 Vaccines in the context of limited supply 
+https://www.who.int/publications/i/item/who-sage-roadmap-for-prioritizing-uses-of-covid-19-vaccines-in-the-context-of-limited-
+supply.  
+ 
+3-22 Manual on COVID-19 Cross-border Risk Management 
+3.6.2.3 States should also facilitate access for air crew for vaccination as quickly as possible within the WHO SAGE 
+Stage recommendations as an important means to recovery of international civil aviation. The SAGE prioritization roadmap 
+supports countries in planning and suggests public health strategies and targeting priority groups for different levels of 
+vaccine availability and epidemiologic settings. At the time of publication, aviation workers, other than cargo aircraft crew, 
+would be included in the category of transport workers, falling within Stage III, i.e. to be vaccinated when there is moderate 
+vaccine availability and between 21 per cent and 50 per cent of the national population has been vaccinated. Air crew who 
+work on aircraft that carry goods and no passengers fall within Stage II, when there is limited vaccine availability and 
+between 11 per cent and 20 per cent of the national population has been vaccinated 
+ 
+3.6.2.4 The protective effect of vaccination of individuals is another layer of the multilayer risk strategy in the 
+mitigation of the effects of COVID-19 and reduction in disease transmission. The situation is evolving rapidly considering 
+the emergence of new variants and the efficacy of current vaccines on these variants. It is likely that not all vaccines will 
+offer the same level of protection against the different variants and that different vaccines could be used in different parts 
+of the world.  
+ 
+3.6.2.5  States should also take into consideration other relevant factors, such as local incidence rates of the travel 
+origin of the vaccinated person or the potential community transmission of new viral strains against which the existing 
+vaccines may offer a lower level of protection. 
+ 
+3.6.2.6 Recognizing the dynamic evolution of such a diverse scenario, States’ assessment of the risk of a vaccinated 
+person carrying the SARS-CoV-2 virus could factor in both the vaccine efficacy against transmission of the virus and the 
+incidence rate of the travel origin. This would help to determine the degree of relaxation of testing requirements or 
+quarantine requirements for vaccinated persons (dependent on efficacy of vaccines against transmission and access to 
+vaccination). 
+ 
+3.6.2.7 WHO has updated its previous position as of 5 February 2021 and now recommends that proof of vaccination 
+could exempt international travellers from some specific travel risk reduction measures (refer to section 3.3.9.4). States 
+are encouraged to accept all types of vaccines that have been recommended by WHO on the EUL for vaccines.  
+ 
+3.6.2.7 Updated guidance on these issues will be published periodically as evidence becomes available and as the 
+WHO updates its guidance. 
+ 
+ 
+3.6.3    Safety considerations for vaccinated aviation workers 
+ 
+3.6.3.1 States are encouraged to recognize aircrew, front-line aviation workers and aviation workers in critical safety 
+and security positions as essential workers to ensure the availability of air transportation during the COVID-19 pandemic. 
+They should be encouraged to be vaccinated as an added layer of individual protection and follow the recommended 
+vaccination considerations and protocols. States should facilitate the vaccination of these essential air transport workers 
+in accordance with the WHO SAGE Stage II and Stage III recommendations.   
+ 
+3.6.3.2 Vaccination considerations and protocols for crew: 
+ 
+ a) Air crew vaccination should be administered using vaccines approved for use, including emergency use, 
+by the Health Authority or the Civil Aviation Authority of the State in which the air crew member’s licence 
+is issued or rendered valid. 
+ 
+ b) Dosing intervals for the vaccine should take into account the impact on operations with vaccination being 
+given at different times to different individuals to ensure continuity of service. 
+ 
+ c) After vaccination, flight crew may return to duty if they are fit to do so in accordance with national 
+guidelines.  
+ 
+ 
+Chapter 3.    Testing, vaccination and cross-border risk management measures 3-23 
+ d) ICAO does not recommend a universal mandatory administrative post-vaccination grounding period. 
+However, States may wish to consider post-vaccination grounding periods or other mitigation measures 
+based on their own risk assessments. Considerations include: 
+ 
+  1) vaccine side-effect profile; 
+ 
+  2) type of vaccine authorization (e.g. licensed or authorized for emergency use); 
+ 
+  3) individual reactions after first dose, which could indicate a grounding period after the second dose 
+(if applicable). 
+ 
+3.6.3.3 In States where crew have already been vaccinated or where States are considering vaccinating crew, it 
+should be noted that vaccines authorized in one country/region may not be under consideration or may be explicitly 
+unauthorized in others. To this end, States should use vaccines considered within the WHO EUL/PQ evaluation process45 . 
+ 
+ 
+3.6.4    Validation of vaccination certificates 
+ 
+3.6.4.1 In view of the current evidence regarding the extent and duration of immunity after infection or vaccination, 
+and in line with WHO recommendations, issuance of an “immunity passport” or “risk-free certificate” is currently not 
+recommended.46. While the WHO does not include international travellers in a priority category for vaccination, vaccinated 
+individuals should be given documentation in accordance with national policies. 
+ 
+3.6.4.2 The WHO encourages States to consider recording proof of COVID-19 vaccination in the International 
+Certificate of Vaccination or Prophylaxis (ICVP), as stated in the WHO interim position paper: considerations regarding 
+proof of COVID-19 vaccination for international travellers. The WHO’s Digital Documentation of COVID-19: Vaccination 
+Status Technical specifications and implementation guidance47 provides Member States with guidance on the necessary 
+requirements for a digital solution, as well as implementation considerations to take into account. 
+ 
+3.6.4.3 States are encouraged to request that evidence of vaccination status is captured in hard copy or digital 
+documentation or within an appropriate national registry, as determined by relevant national authorities. Member States 
+should implement and recognize vaccination certificates based on the core data set outlined in Section 3.3.8.5.  
+ 
+3.6.4.4 States are encouraged to ensure that vaccination certificates are secure, trustworthy, verifiable, convenient 
+to use, compliant with data protection legislation and internationally/globally interoperable. Proof of vaccination could be 
+based upon the WHO ICVP and should be issued in an internationally/globally interoperable format aligned with the 
+technical specifications and guidance outlined by the WHO. Existing solutions should be considered and could incorporate 
+a VDS-NC or other interoperable formats from regional or global intergovernmental bodies, or internationally recognized 
+organizations. 
+ 
+ 
+ 
+ 
+______________________ 
+                                                          
+45. Status_COVID_VAX_16Feb2021.pdf (who.int) 
+46. https://www.who.int/news-room/commentaries/detail/immunity-passports-in-the-context-of-covid-19  
+47.   https://reliefweb.int/report/world/digital-documentation-covid-19-certificates-vaccination-status-technical-specifications  
+ 
+
+ 
+ 
+ 
+ 
+ 
+Chapter 4 
+ 
+IMPLEMENTATION — MODEL FOR MULTILAYER 
+ASSESSMENT AND MITIGATION 
+ 
+ 
+ 
+4.1    OVERVIEW 
+ 
+4.1.1 Many States have implemented risk mitigation strategies such as temperature measurements, traveller 
+symptom questionnaires, COVID-19 testing, vaccinations, and a variety of travel restrictions such as border closures, entry 
+bans from specific States, quarantines, etc. However, these measures are not harmonized across States. Furthermore, 
+there is very limited mutual recognition of mitigation measures even for States with equal COVID-19 prevalence. States 
+should assess their own level of COVID-19 disease burden, health system capacity, availability of testing and vaccines, 
+and level of risk tolerance. Once established, States can share risk assessments with other States and begin to discuss 
+developing bilateral or multilateral agreements to open public health corridors and stimulate the return of air travel. 
+Harmonization of procedures is crucial for facilitating air transport, and new practices should be coordinated with other 
+States and stakeholders. In developing bilateral arrangements, States will need to consider the implications of hub traffic 
+flows, and how they will accommodate third country-originating passengers. 
+ 
+4.1.2 To establish an internal State risk level, States should identify experts from State authorities, including but 
+not limited to aviation (national authorities and industry), public health, customs and immigration, diplomatic organizations 
+and legal departments, who can work collaboratively to assess the State’s current status with respect to disease patterns. 
+This collaborative assessment effort should be undertaken in a forum appropriate to a State’s system, but can be 
+undertaken by each State’s National Air Transport Facilitation Committee (or equivalent) as per CART report 
+Recommendation 6, which urges Member States that have not done so, to immediately establish a National Air Transport 
+Facilitation Committee, as required by Annex 9 — Facilitation, in order to increase national level cross-sectoral 
+coordination. The assessment should address the current capabilities to identify, diagnose, and treat COVID cases as well 
+as the status of the health-care system and the State’s overall willingness and readiness to accommodate increased 
+passenger flows. After reviewing this document and the CART Take-off Guidance available on the ICAO public site 
+(https://www.icao.int/covid/cart/Pages/CART-Take-off.aspx), States should identify the risk tolerance they can accept on 
+a bilateral basis and the mitigation measures that could be employed to meet that target using a safety management 
+system (SMS) approach. 
+ 
+4.1.3 Although data-driven decision making is encouraged, the current scenario may require a qualitative 
+approach, as validated data and information is incomplete. By implementing a combined strategy and assessing if an 
+acceptable residual risk is achieved, States should also evaluate alternatives to reduce or eliminate the burden to the 
+system posed by selected mitigation measures. Some consideration must be given to how those measures should vary 
+according to different stages of the pandemic in accordance with the stages in the CART Take-Off Guidance document 
+(https://www.icao.int/covid/cart/Pages/CART-Take-off.aspx). 
+ 
+4.1.4 Procedures related to each stage and measure should be aligned while considering availability, efficacy, 
+costs and implementation challenges for each State. 
+ 
+4.1.5 Consistency with the State’s national COVID-19 response policy and strategy is important, for example, 
+medical masks may be recommended in aviation, but their availability should be prioritized for health workers and the 
+public health response. In considering restrictions on aviation, the State should consider the role that aviation plays in the 
+ 4-1  
+4-2 Manual on COVID-19 Cross-border Risk Management 
+economy of the State and the public health response itself (such as the distribution of personal protective equipment (PPE), 
+test kits, medicines and vaccines). States should ensure alignment between the various public policies and measures 
+applied across government. 
+ 
+ 
+ 
+4.2    GENERIC BASELINE MODEL FOR MULITLAYERED RISK ASSESSMENT 
+AND DETERMINING MITIGATION MEASURES (FOUR-STEP PROCESS) 
+ 
+ 
+4.2.1    Introduction 
+ 
+This model has been developed to illustrate a baseline approach that States could use on a bilateral or multilateral basis 
+to assess risk at the points of origin and destination, and to assist in the selection of available risk mitigation measures. 
+States should align the process to integrate with other national decision-making processes and to meet available 
+conditions. 
+ 
+ 
+4.2.2    Step one — Determine that the following conditions have been met 
+ 
+This model is based upon the following assumptions (refer to CART take-off guidance 
+(https://www.icao.int/covid/cart/Pages/CART-Take-off.aspx)) and on WHO travel advice (guidance “Technical 
+considerations for implementing a risk-based approach to international travel in the context of COVID-19”). 
+ 
+ a) travellers follow appropriate universal precautions at every stage of the travel continuum and: 
+ 
+  1) do not travel when sick; 
+ 
+  2) adhere to hand and respiratory hygiene practices; 
+ 
+  3) use a face mask (with exceptions as appropriate);  
+ 
+  4) practice physical distancing to the extent possible to lower the risk of disease spread; and 
+ 
+  5) adhere to instructions provided by airport and airline personnel; 
+ 
+b)  persons who test positive or are diagnosed with COVID-19 pre-travel do not travel and public health 
+authorities are notified; 
+ 
+ c) persons who test positive at arrival isolate, and public health authorities are notified; 
+ 
+ d) close contacts of persons who test positive or are diagnosed pre-travel should be identified, quarantined, 
+and not travel;  
+ 
+e) close contacts of persons who are positive post travel should be identified (including fellow passengers), 
+and quarantined. Where necessary, international contact tracing operations should be launched; 
+ 
+f) persons who have not been fully vaccinated or do not have proof of previous SARS-CoV-2 infection and 
+are at increased risk of developing severe disease and dying, including people 60 years of age or older 
+or those with comorbidities that present increased risk of severe COVID-19 (e.g. heart disease, cancer 
+and diabetes) should be advised to postpone travel to areas with community transmission;  
+ 
+ 
+Chapter 4.    Implementation — Combined strategies 4-3 
+g) all incoming travellers must follow recommendations and continue to adhere to personal protective 
+measures, such as the use of masks and physical distancing both while on board aircraft and at airports; 
+and 
+ 
+ h) mechanisms are established to obtain and share complete, accurate and timely contact information to 
+allow public health authorities to execute necessary public health actions. 
+ 
+ 
+4.2.3    Step two — Identify the effectiveness of existing measures 
+ 
+There is a range of measures to reduce translocation of disease. The measures vary in their effectiveness; effectiveness 
+in this context is defined as the extent to which the measures are estimated to reduce the risk of introducing infectious 
+individuals into the community at the destination. Each measure represents a defence layered in a multilayered risk 
+management process and will also need to be assessed for its efficacy and interdependency, when implemented in concert 
+with other measures. Multiple models and tools allow States and other interested parties to estimate effectiveness of 
+multilayered approaches. While a multilayered risk mitigation process should be followed, the relative merit of individual 
+strategies is provided in Attachment B and will be updated in the future in accordance with scientific evidence. 
+ 
+ 
+4.2.4    Step three — Determine relative risks 
+ 
+The risk of translocating (transferring) COVID-19 from one State to another can be determined by looking at four conditions 
+within States: percentage of immune persons (vaccinated and naturally acquired), prevalence, test positivity rate and 
+testing rate. The cut-off values associated with each condition below is intended to provide guidance on a possible 
+framework for determining the risk levels in accordance with a colour code: 
+ 
+ Potential cut-off values: 
+ 
+1. Percentage who are non-immune persons (vaccinated or naturally acquired) – below 30 per cent. 
+ 
+2. Prevalence — 7-day cases per 100 000 rate (rolling rate averages) with a cut-off of 25 cases  
+per 100 000.  
+ 
+   Note.— Some States favour using a rolling rate determined over a 14-day period. 
+ 
+ 3. Test positivity rate — 5 per cent as the cut-off with the goal of being below 5 per cent where tests are 
+widely available for screening. 
+ 
+ 4. Testing rate — This condition would only be met if a State meets a testing capability of 250 tests per 
+100 000 people per week.  
+ 
+ Possible colour coding based on conditions and cut-off values: 
+ 
+ — Green: The origin State/area is below the cut-off values of 1, 2 and 3 above. 
+ 
+ — Orange: The origin State/area is below the cut-off values of 2 of the three values above, but not all three. 
+ 
+ — Red: The origin State/area exceeds the cut-off values for all three. 
+ 
+ — Grey: there is insufficient data, or the State/area does not meet item 4. 
+ 
+ Note.— This risk assessment framework might be updated in future taking into account different or additional 
+conditions, testing strategies, potential cut-off values or colours as the pandemic continues to evolve. 
+ 
+4-4 Manual on COVID-19 Cross-border Risk Management 
+4.2.5    Step four — Determine measures based upon identified risk levels 
+ 
+4.2.5.1 The model below is given as an example of how relative risk levels could be used in determining the 
+appropriate risk mitigation measures: 
+ 
+ — From green to any colour: No restrictions or requirements. 
+ 
+ — From orange to any colour: Could require passenger locator forms and/or tests, but no travel restrictions. 
+ 
+ — From red or grey to any colour (particularly to green): Could restrict traveller’s movements depending 
+on symptoms and exposure and/or test. 
+ 
+4.2.5.2 States should consider the following exemptions subject to a risk assessment: 
+ 
+ .—- crew members (including those positioning to and from duty); 
+ 
+ — personnel critical for health-care delivery; or 
+ 
+ —  workers essential to maintaining the safety of the airspace. 
+ 
+Such personnel should not be made to quarantine unless they are ill or have been in close contact with symptomatic 
+individuals. Should States decide to require testing for such personnel, rapid and non-invasive testing should be given 
+preference.  
+ 
+4.2.5.3 As COVID-19 vaccination becomes more available and is progressively implemented across the world, it 
+would be appropriate for States to consider the vaccination status of travellers and crew members when determining the 
+measures to be applied, on the basis of reduced risk of translocating COVID-19 cross-border by the vaccinated persons 
+compared to non-vaccinated persons. Conceptually, a lower risk classification may be applied for vaccinated persons.  
+ 
+4.2.5.4 States that have vaccinated a large proportion of their vulnerable population may also consider their risk 
+levels given the reduced possibility of mortality within their State due to translocation. 
+ 
+ Note.— Travellers originating outside of the departure State may need to be separately evaluated upon 
+arrival in comparison to people who were in the departure State for over 14 days. Where a suitable legal and administrative 
+framework is in place to allow for such use, Passenger Name Record (PNR) data, Advance Passenger Information (API), 
+border control records and other passenger information tools could be used to assist in identification of some passengers 
+who do not self-declare. 
+ 
+ 
+4.3    SAMPLE SCENARIOS 
+ 
+The case scenarios below are provided as practical illustrations of the risk assessment process outlined above. Additional 
+case scenarios, incorporating the effects of vaccination and VOC, will be provided as supplementary attachments as more 
+evidence becomes available in the future, and as the pandemic continues to evolve. 
+ 
+ 
+Scenario 1 
+ 
+State A has a 7-day rolling average of 7.0 cases per 100 000, a downward trajectory of cases, readily available testing, 
+less than 5 per cent positive tests, and over 25 per cent of hospital beds empty. State B has a 7-day rolling average of 
+7.8 cases per 100 000, a stable trajectory of cases, readily available testing, less than 2 per cent positive tests, and over 
+20 per cent availability of hospital beds. States A and B could reasonably enter into a discussion to allow free travel 
+between regions and implement minimal risk mitigation measures. 
+ 
+Chapter 4.    Implementation — Combined strategies 4-5 
+ Options: 
+ 
+ — As they are both in the “green” category, no intervention is a potential option. 
+ 
+ — Providing passenger information on routine public health measures with public health authority contact 
+details, and requiring reporting should someone become ill. 
+ 
+ — Electronic-based monitoring for a period of time if a more active approach is desired. 
+ 
+ 
+Scenario 2 
+ 
+State C has a 7-day rolling average of 43.4 cases per 100 000, an increasing disease trajectory, testing only for 
+symptomatic cases and close contacts, over 20 per cent positive tests, and less than 10 per cent available hospital beds. 
+State D has a 7-day rolling average of 12.6 per 100 000, readily available tests, and 20 per cent availability of hospital 
+beds. States C and D could negotiate a risk mitigation agreement where citizens of State D could freely travel to State C, 
+but citizens of State C would be subject to enhanced mitigation strategies. 
+ 
+ Options: 
+ 
+ — Travellers from State D could move freely about State C with a combination of one or all of the following: 
+traveller education on routine public health measures with public health authority contacts and reporting 
+procedures, electronic based monitoring, and/or traveller questionnaires with contact details. 
+ 
+— Travellers from State C to D could be quarantined with testing for early release, utilize serial testing, or 
+some other active monitoring (smartphone applications, routine call-ins from public health authorities, 
+limited restrictions such as business activities only). Travellers with a valid vaccination certificate or 
+certificate of recovery may be subjected to less stringent testing and quarantine requirements. 
+Passenger education could be a part of the overarching measures as stated above. PHC questionnaires 
+could be utilized for rapid contact tracing if necessary. 
+ 
+ 
+Scenario 3 
+ 
+Testing details and hospital data are unavailable. State E has a 7-day rolling average of 30.2 per 100 000 and readily 
+available tests. State F has a 7-day rolling average of 23.6 per 100 000 and tests only available for symptomatic cases 
+and close contacts. State F is dependent on tourism. 
+ 
+ Options: 
+ 
+ — These States could enter an agreement where persons from State F could travel to State E with minimal 
+mitigation strategies similar to travellers from State D to C as above. 
+ 
+ — Those from State E to F could have slightly enhanced strategies depending on each State’s risk 
+tolerance. Options could include some or all of the following: serial testing with reduced or no quarantine, 
+short periods of isolation with a negative test for release, electronic contact tracing/monitoring with daily 
+reporting of symptoms and a post-arrival test at 5-7 days, and/or the use of “do not board” lists for 
+recalcitrant individuals. Travellers with a valid vaccination certificate or certificate of recovery may be 
+subjected to less stringent testing and quarantine requirements. Passenger education of public health 
+measures and reporting requirements would be critical.  
+ 
+ 
+______________________ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+Chapter 5 
+ 
+PUBLIC HEALTH CORRIDOR 
+ 
+ 
+ 
+5.1    PRINCIPLES 
+ 
+5.1.1 A public health corridor (PHC) is formed when two or more States or regions agree to recognize the public 
+health mitigation measures each has implemented on one or more routes between their States. The PHC concept enables 
+essential cargo services, humanitarian flights, repatriations and medical evacuations to continue with minimal interruptions 
+or delays, while protecting the health of aircrew, and mitigating the spread of the disease. It also plays a significant role in 
+aviation safety, enabling aircrew and maintenance personnel to renew their licences and obtain recurrent training. PHCs 
+are built upon a risk-based approach to ensure as far as possible a “COVID-19 free” journey. 
+ 
+5.1.2. States are strongly encouraged to consider PHCs as an effective useful way to structure a collaborative 
+approach to managing cross-border health risks. For example, exchange of information through PHCs will enable States 
+to mutually recognize their respective public health risk management frameworks and to establish temporary and 
+exceptional bilateral or multilateral arrangements within which air travel can be resumed.  
+ 
+5.1.3 To support States in the establishment of PHCs, ICAO has developed: 
+ 
+a) targeted assistance in the ICAO Implementation Package (iPack); 
+ 
+ b) a PHC template on the COVID-19 Response and Recovery Implementation Centre (CRRIC)1 that 
+enables States to actively share information; 
+ 
+ c) a new application (PHC App) featuring the PHC arrangement template and online builder to facilitate 
+discussions between two or more States and/or a region; and 
+ 
+ d)   general tools published on the ICAO PHC website2, providing detailed guidance, tools and checklists for 
+implementing public health risk mitigation measures using a multilayered risk-based approach. 
+ 
+5.1.4 States are encouraged to actively share information with other States by means of the PHC template on the 
+CRRIC. The PHC App takes into account data and information provided by States on the PHC template, as well as the 
+local epidemiology in departure and destination States that have been reported to WHO, which is incorporated into the 
+PHC App. The App uses the data to calculate the risk of transmission between States utilizing a traffic light system (refer 
+to section 4.2.4) and includes a template to establish a PHC arrangement, identification of routes for the arrangement, 
+data regarding disease translocation risk levels, and a list of public health measures to be considered in the arrangement. 
+ 
+5.1.5 A PHC arrangement is built on the principles of a stand-alone arrangement in bilateral (or multilateral) State 
+relations due to its exceptional and temporary nature. It would not be considered an amendment to existing air services 
+agreements or a reason for future re-negotiations of air services agreements, and States should use the instrument 
+appropriate to their legal systems, whether treaty- or less-than-treaty-status instruments, such as a Memorandum of 
+Understanding. As with any other Memoranda of Understanding, the inclusion of a provision on registration with ICAO (in 
+reference to Article 83 of the Convention on International Civil Aviation) is up to the Parties' discretion. 
+                                                          
+1. https://www.icao.int/covid/Pages/crric.aspx  
+2. https://www.icao.int/safety/CAPSCA/Pages/Public-Health-Corridor-(PHC)-Implementation-.aspx  
+ 5-1  
+5-2 Manual on COVID-19 Cross-border Risk Management 
+5.1.6 In forming a PHC, it is anticipated that participating States would apply a mutually supportive multilayered 
+risk-based approach to their implementation of public health mitigating risk measures, which includes a wide-ranging set 
+of considerations spanning across different sectors. A combination of risk mitigation measures will provide better protection 
+than the implementation of only one or two selected risk mitigation measures. By collaborating on the measures 
+implemented, States can establish a risk mitigation strategy that most effectively aligns to their risk tolerance and to their 
+health and safety management systems. Dependent upon the agreements between States, crew or passengers might be 
+exempted from COVID-19 testing, quarantine or other requirements. Alternatively, they could benefit from reduced 
+requirements. 
+ 
+5.1.7 A PHC arrangement should include criteria for regular review (including scheduled review and whenever 
+circumstances change), suspension (e.g. in case the number of infections raise dramatically in one State in comparison 
+to another State) and termination (e.g. when the pandemic has been brought under control). 
+ 
+5.1.8 ICAO developed the “Establishing a PHC” Implementation Package (iPack), which expands on existing 
+guidance, provides access to certificated training courses, as well as a practical hands-on workshop updated regularly 
+with the latest scientific evidence and lessons learned. It also includes dedicated subject matter experts to work remotely 
+with States and industry partners. 
+ 
+ 
+ 
+5.2    ELEMENTS OF A PHC 
+ 
+ 
+5.2.1    Crew journey through a PHC 
+ 
+ a) Pre-departure testing is conducted based on a risk assessment and requirements of the departure and 
+destination States. 
+ 
+  1) Test standards are established taking into consideration recognition of the test by the destination 
+State, avoiding the need for an additional test on arrival. 
+ 
+  2) Considerations are made for vaccinated crew in accordance with scientific understanding, as 
+discussed in Chapter 3, 3.1.5 and 3.6. 
+ 
+  3) Considerations should be made for crew who have recovered from a COVID-19 infection and may 
+return a positive test while not being in an infectious phase of the disease, as discussed in 
+Chapter 3, 3.1.5 and 3.3.7. 
+ 
+ b) Crews are separated from the general public in the airport, including through the use of dedicated 
+security and immigration facilities as recommended in the CART Take-Off Guidance Airport module 
+(https://www.icao.int/covid/cart/Pages/CART-Take-off.aspx). Airports are encouraged to become 
+accredited through the Airport Health Accreditation programme run by Airports Council International 
+(ACI) and supported by ICAO. Airport Health Accreditation provides assurance to States and 
+passengers that the health and hygiene guidelines in the TOGD are being implemented. Airlines are 
+encouraged to make use of the International Air Transport Association (IATA) Health Safety Checklist 
+for Airline Operators also directed to ensuring alignment with ICAO guidance and industry best practices. 
+ 
+ c) The aircraft is disinfected in accordance with the manufacturer’s instructions, as recommended in the 
+CART Take-Off Guidance Aircraft module. 
+ 
+ d) In the aircraft, the crew take appropriate precautions against the transmission of COVID-19, as 
+described in the CART Take-Off Guidance Crew module. Operators should provide the necessary 
+procedures, training and equipment. 
+ 
+Chapter 5.    Public Health Corridor 5-3 
+ e) At the destinations where crews disembark from the aircraft: 
+ 
+  1) crew are separated from the general public for any necessary immigration, security or health 
+checks; 
+ 
+  2) crew are provided with disinfected transport where COVID-safety protocols are able to be applied; 
+ 
+  3) where crews are making use of a rest period, a clean hotel room is provided; 
+ 
+  4) quarantine of crew members, if required, takes into account the prevalence of the disease and 
+segregation factors; 
+ 
+  5) for crew members subjected to quarantine requirements: 
+ 
+   i) adequate food is available at times that correspond to the needs of the crew member; and  
+ 
+   ii) access to exercise or outdoor space is provided with COVID safety protocols implemented to 
+promote mental well-being. 
+ 
+ e) On the return to base, crew members who have operated within the PHC with limited exposure to the 
+general population at the destination airport, should be considered to have a similar risk profile as any 
+other resident and should therefore not be subjected to additional testing or quarantine. 
+ 
+Note.— Guidance for crew management according to the measures identified in the airline’s own risk 
+assessment should be consulted in accordance with the CART TOGD Crew Module (page A-40 ‘Layover’) 
+(https://www.icao.int/covid/cart/Pages/CART-Take-off.aspx).   
+ 
+ 
+5.2.2    Passenger journey through a PHC 
+ 
+An example of information to be communicated to passengers prior to booking a flight, taking into account data 
+protection considerations, is described below. 
+ 
+ 
+5.2.2.1 Pre-departure 
+ 
+ a) Confirm and follow the States’ requirements (departure, transfer, and arrival) at time of booking and 
+close to departure. 
+ 
+ b) Consult airport/airline website and get acquainted with COVID-19 specific airport/airline 
+recommendations and instructions. 
+ 
+ c) Obtain a COVID-19 health insurance (if necessary or recommended). 
+ 
+ d) Ensure that vaccination is completed at least two weeks prior to travel, if choosing to be vaccinated.  
+ 
+ e) Book an appointment in an approved testing facility in time to comply with States’ requirements. 
+ 
+ f) Present an identification document during the test and collect testing results. 
+ 
+ g) Obtain authorized test result, proof of recovery certificate or proof of vaccination (if applicable); and 
+upload it to a Smartphone App and/or provide relevant information via a government portal (if 
+applicable). 
+ 
+5-4 Manual on COVID-19 Cross-border Risk Management 
+ h) Ensure all travelling and entry requirements are fulfilled prior to departure to the airport. 
+ 
+ i) Make sure to have a copy of the printed test result, proof of recovery or proof of vaccination (if applicable) 
+or the digital certificates available to present at the airport. 
+ 
+ j) Prepare your own travel kit (sufficient number of face masks for travel, hydro alcoholic gel less than 
+100 ml, etc.). 
+ 
+ k) Do not travel if you are feeling unwell, have symptoms suggestive of COVID-19 or if you have been in 
+contact with someone with COVID-19, and inform the air carrier in advance. 
+ 
+ l)  Check for possible changes in requirements prior to travel and ensure that there have been no recent 
+changes. 
+ 
+ 
+5.2.2.2 At the airport  
+ 
+ a) Arrive within the time frame as communicated by the airline. 
+ 
+ b) Check in online or check in early to ensure compliance with travel requirements. 
+ 
+ c) Comply with airport/airline instructions, including completion of any additional forms as requested. 
+ 
+ d) Respect COVID-19-specific recommendations measures in place, including face masks, physical 
+distancing, etc. 
+ 
+ e) Comply with designated airport pedestrian traffic movement and management indicators in place for 
+COVID-19, including one-way corridors, separation of staff and traveller areas, physical distancing 
+indicators, and hygienic recommendations for the use of touch screens, pens, etc. 
+ 
+ 
+5.2.2.3 On board 
+ 
+ a) Listen and follow crew instructions: 
+ 
+  • when to wear or remove face masks; 
+ 
+  • how to dispose of face masks; and 
+ 
+  • how to use lavatories, etc.  
+ 
+ b) Avoid touching other passengers’ belongings. 
+ 
+ c) Occupy only assigned seat. 
+ 
+ d) Minimize movement in the cabin. 
+ 
+ e) Complete passenger locator form, health questionnaire or other required documentation as completely 
+as possible. 
+ 
+ 
+  
+ 
+Chapter 5.    Public Health Corridor 5-5 
+5.2.2.4 On arrival  
+ 
+ a) Comply with airport COVID-19 specific recommendations and instructions.  
+ 
+ b) If required, ensure health certificates (digital or printed) are readily available to show health or border 
+control authorities.  
+ 
+ c) Respect measures in place, including face masks, physical distancing, etc. 
+ 
+ d) Complete passenger locator form, health questionnaire, customs declaration and other documents as 
+requested. 
+ 
+ 
+ 
+5.3    IMPLEMENTATION OF A PHC ARRANGEMENT BETWEEN STATES 
+ 
+Bilateral and/or multilateral agreements should be based on the following principles: 
+ 
+a) national and international policies (health, welfare, transport, immigration, legislation, etc.);  
+ 
+b)  available public health capacity; 
+ 
+c) State priorities and operational needs; 
+ 
+d) availability of resources (including equipment, system requirements, financial resources, human 
+resources);  
+ 
+e) implementation of public health measures based on the epidemiological situation; 
+ 
+f) agreement on criteria for implementation of testing and vaccination policies (including advantages and 
+disadvantages, resources, availability, costs, practicalities of administration, duration of immunity, 
+ensuring integrity of certificates, etc.); 
+ 
+g) implementation of quarantine policies; 
+ 
+h) management of multiple scenarios within a specified corridor and possible impact on other corridors 
+managed within each State;  
+ 
+i) establishment of a robust information exchange system agreed among all participants (including contact 
+points, chain of command, type of data to be shared, data quality, processes and procedures to share 
+results, analysis of the results, etc.): 
+ 
+j) channels for information-sharing, within and outside of the PHC arrangement; 
+ 
+k) obligation to inform participating States immediately and comprehensively if epidemiological situation, 
+risk assessment or public health requirements change; and  
+ 
+l) decision-making framework based on the mutual recognition of acceptable risk thresholds of 
+participating States. 
+ 
+ 
+ 
+  
+ 
+5-6 Manual on COVID-19 Cross-border Risk Management 
+5.4    STAKEHOLDER AND PASSENGER COMMUNICATION 
+ 
+5.4.1 Establishing PHCs between States requires the sharing of information within national departments of a State, 
+and internationally between States, necessitating cooperative decision-making. Existing cooperation mechanisms may not 
+be sufficient to implement bilateral or multilateral arrangements between States during public health emergencies, 
+especially when there are several States and multiple sectors involved.  
+ 
+5.4.2 In order to mitigate the challenges of implementing a PHC, it is important to work in close coordination with 
+all relevant national stakeholders, including aircraft and airport operators in each stage of the PHC planning, thus 
+establishing a shared understanding of the outcomes each State wishes to achieve and ensuring clear communication 
+channels with all relevant stakeholders and the travelling public.   
+ 
+5.4.3 States are encouraged to share any relevant information about their PHC arrangements on the ICAO CRRIC, 
+with other States not party to a specific PHC arrangement and all relevant stakeholders, in order to promote, as far as 
+possible, a harmonized approach through recognition of mitigation measures globally. 
+ 
+5.4.4  States and relevant stakeholders are further encouraged to share relevant information with the public in 
+order to avoid confusion and disruptions that could negatively affect passenger confidence and return to travel. 
+ 
+ 
+ 
+ 
+______________________ 
+ 
+ 
+ 
+ 
+ 
+ 
+Chapter 6 
+ 
+TRANSITIONING FROM CRISIS RESPONSE 
+TO ROUTINE OPERATIONS 
+ 
+ 
+ 
+6.1. In the future, once the immediate crisis has been managed, performance indicators would need to be 
+developed to determine the transition from a crisis management mode to a “new normal” or routine operational mode, 
+which could be similar or different from pre-pandemic operations. 
+ 
+6.2 Performance indicators could serve as signposts as to when States could consider transitioning to a 
+normalized operational mode. This transition is typically based on the assessment of required vs. available resources to 
+manage the residual risk, taking into consideration criteria discussed in this manual. Additional criteria might also be 
+considered by a State based on other non-COVID-19 related considerations. 
+ 
+6.3 Such performance indicators could include, for instance, the percentage of the population that has been 
+vaccinated, findings relating to the use of vaccination passports, the capacity or capability of the health-care system to 
+manage new or severe COVID-19 infections, etc. 
+ 
+6.4 Transition can start from crisis response to routine operations, once States and organizations have 
+developed relevant key performance indicators and meet these adequately, and when the COVID-19 pandemic no longer 
+exceeds their risk and public health management capacity.  
+ 
+6.5 The post-emergency phase, normally considered to have started when the core emergency priorities have 
+been addressed with some level of stability, is an opportunity to address broader health- and aviation-related activities, 
+thus preparing better for the future. 
+ 
+6.6 Some measures, such as contactless processes and the digitalization of paper-based applications, have 
+already been implemented as part of the new routine operations. These should result in improved passenger flow and 
+enhanced customer experience in the future. 
+ 
+6.7 Lessons learned from the application of the multilayer risk mitigation measures; either how to implement 
+existing measures better or how to implement these measures differently, could provide further guidance for transitioning 
+to new operations. 
+ 
+6.8 Furthermore, the aftermath of a crisis provides an opportunity for innovation and for building resilience for 
+potentially similar situations in the future 
+ 
+ 
+ 
+ 
+______________________ 
+ 6-1  
+
+ 
+ 
+ 
+ 
+ 
+Attachment A 
+ 
+EPIDEMIOLOGIC PRIMER 
+ 
+ 
+ 
+GOAL: Provide the best testing advice to minimize the risk that a person infectious with SARS-CoV-2 could transmit the 
+virus during travel and propose a testing regimen to minimize quarantine. 
+ 
+TERMINOLOGY: 
+ 
+  Disease status  
+ 
+  Present Absent  
+Screening + A B Total positive tests 
+test 
+result - C D Total negative tests 
+  Total infected Total not Total population (Tp) 
+(Ti) infected (Tni) 
+ 
+A: True Positives 
+B: False Positives 
+C: False Negatives 
+D: True Negatives 
+ 
+Prevalence. Disease burden, expressed as a percentage or rate with the total population as the denominator. Prevalence 
+in this context refers to the number of existing cases of disease in a specified population at a given point in time. 
+ 
+Incidence. Number of new cases of disease in a specified population during a specified period of time. 
+ 
+Sensitivity. The likelihood that a test will correctly identify a person with the disease. A/(A+C) is the mathematical formula. 
+ 
+Specificity. The likelihood that a test will correctly identify a person without the disease. D/(B+D) is the mathematical 
+formula. 
+ 
+Positive predictive value (PPV). How likely a positive test is a true positive. A/(A+B) is the mathematical formula. 
+ 
+Negative predictive value (NPV). How likely a negative test is true negative. D/(C+D) is the mathematical formula.  
+ 
+ 
+ 
+  
+ Att A-1  
+Att A-2 Manual on COVID-19 Cross-border Risk Management 
+STEP ONE 
+ 
+Determine test performance requirements to maximize the number of people who could travel with reasonable certainty. 
+ 
+Prevalence assumptions/issues 
+ 
+ 1. It is important to know who might be infectious during travel as opposed to prevalence since the 
+beginning of the outbreak. This is calculated by multiplying the incidence with the time period of 
+infectiousness. 
+ 
+ 2. The Brown School of Public Health website, among others, tracks the incidence or current new cases 
+per 100 000 people: https://globalepidemics.org/key-metrics-for-covid-suppression/. However, it should 
+be noted that some statistics might not be accurate due to limitations of testing and reporting systems. 
+ 
+ 3. Among those who are sick, the vast majority of people are infectious from two days prior to symptom 
+onset to nine days following symptom onset; hence, 12 days are used to determine the time period 
+where people could most likely infect others. 
+ 
+ 4. The asymptomatic rate is assumed to be 40 per cent in accordance with a CDC reference published in 
+September 2020: https://www.cdc.gov/coronavirus/2019-ncov/hcp/planning-scenarios.html. This 
+implies that 60 per cent of people are symptomatic. Further assuming that mainly symptomatic people 
+get tested, the number of positive tests represents only 60 per cent of the total number of people who 
+are potentially infectious. 
+ 
+Calculating prevalence 
+ 
+To calculate the prevalence of potentially infectious people with positive tests, use the Brown daily average of new cases 
+per 100 000 people (a 7-day moving average; based on Assumption 2 above) and multiply it by 12 (the number of days a 
+person might be infectious; based on Assumption 3 above). 
+ 
+ Prevalence = incidence x duration 
+    = number of people per 100 000 with positive tests x 12 
+    = potentially infectious people with positive tests per 100 000 people 
+ 
+Taking into account that the number of positive tests represents only 60 per cent of the total number of people who are 
+potentially infectious, the total number of potentially infectious people needs to be calculated. Setting the total number of 
+people who might be potentially infectious as “X”, the number of people with positive tests must equal 0.6 times “X” (based 
+on Assumption 3 above).  
+ 
+ Potentially infectious people with positive tests = 0.6 x total number of potentially infectious people (“X”); 
+ 
+ Total number of potentially infectious people (“X”) = potentially infectious people with positive tests / 0.6 
+ 
+To calculate the prevalence percentage, divide “X” by 100 000 to get the ratio, then multiply it by 100 to get the percentage. 
+ 
+ Prevalence percentage = ratio x 100 
+     = “X” / 100 000 x 100 
+     = x per cent 
+ 
+  
+ 
+Attachment A Att A-3 
+Example: 
+ 
+For State A, using the data from 21 September 2020 with a daily average of 12.6 per 100 000 people, the equations are 
+as follows: 
+ 
+ Prevalence = incidence x duration 
+    = number of people per 100 000 with positive tests x 12 
+    = 12.6 per 100 000 x 12 
+    = 151.2 potentially infectious people with positive tests per 100 000 people 
+ 
+ Potentially infectious people with positive tests = 0.6 x total number of potentially infectious people  
+ 
+ Total number of potentially infectious people (X)  = potentially infectious people with positive tests / 0.6 
+         = 151.2 per 100 000 / 0.6 
+         = 252 per 100 000 people 
+ Ratio = X / 100 000 
+   = 252 / 100 000 
+   = 0.00252 
+ 
+ Prevalence percentage = 0.00252 x 100 
+   = 0.252 per cent 
+ 
+Quick calculation of prevalence: 
+ 
+Because the only variable in this calculation that changes is the daily average, while all others are fixed, the whole 
+calculation can be done by simply dividing the daily average per 100 000 people by 50. For example, State A with a daily 
+average of new cases per 100 000 people of 12.6 has a prevalence of 12.6 / 50 = 0.252 per cent. It should be noted that 
+this is only valid if the number of new cases is expressed per 100 000 people. 
+ 
+Performing the same functions for State B (7-day rolling average of 14.6/100 000) and State C (24.6/100 000 and the 
+highest average on the Brown site) yields 0.292 and 0.492 per cent. 
+ 
+Performing 2 x 2 tables 
+ 
+ — The tables were developed initially with the sensitivity and specificity of a test with sensitivity of 
+97.1 per cent and specificity of 98.5 per cent. 
+ 
+ — Then, the same prevalence values were run with the worst listed sensitivity (80 per cent) and specificity 
+(92 per cent) on the John Hopkins’ compendium of all COVID-19 tests currently approved. 
+ 
+ — For additional comparison, the values for the poorest performing test were run using the highest 
+prevalence in the United States County X. 
+ 
+ — Finally, the tables were populated using the proposed sensitivity and specificity of 95 per cent. 
+ 
+ — PCR testing typically has higher sensitivities and specificities and would have even higher performance. 
+ 
+Calculations used for the 2 x 2 tables 
+ 
+A quick reminder of the 2 x 2 table terminology: 
+ 
+Tp = the total number of people in the population 
+P = the prevalence as calculated above (daily average of new cases per 100 000 people divided by 50) 
+ 
+Att A-4 Manual on COVID-19 Cross-border Risk Management 
+Ti = the total number of infected people in the population  
+Tni = the total number of people in the population who are not infected  
+A = the total number of people who are true positive 
+B = the total number of people who are false positive 
+C = the total number of people who are false negative 
+D = the total number of people who are true negative 
+ 
+The calculations are as follows: 
+ 
+P = daily average of new cases per 100 000 people / 50  
+Ti = A + C = Tp x P 
+Tni = B + D = Tp – Ti 
+Sensitivity = A / (A + C) 
+Specificity = D / (B + D) 
+PPV = A / (A + B) 
+NPV = D / (C + D) 
+(Prevalence of 10 per cent, sensitivity of 95 per cent, specificity of 95 per cent) 
+ 
+Step 1 — Using a population of 1 000, calculate the disease burden. 
+ 
+  Disease status   
+ 
+  Present Absent   
+Screening +    1 000 x 0.10 = 100 with the disease 
+test 
+result -    1 000 - 100 = 900 without the disease 
+  100 900 1 000  
+ 
+Step 2 — Using sensitivity, calculate A (true +) and C (false -). 
+ 
+  Disease status   
+ 
+  Present Absent   
+Screening + 95   100 x 0.95 = 95 true positives 
+test 
+result - 5   100 - 95 = 5 false negatives 
+  100 900 1 000  
+ 
+Step 3 — Using specificity, calculate B (false +) and D (true -). Then, add up test positives and negatives. 
+ 
+  Disease status   
+ 
+  Present Absent   
+Screening + 95 45   140 900 x 0.95 = 855 true negatives 
+test 
+result - 5 855   860 900 - 855 = 45 false positives 
+  100 900 1 000  
+ 
+  
+ 
+Attachment A Att A-5 
+Step 4 — Calculate the positive predictive value (PPV) and the negative predictive value (NPV). 
+ 
+ PPV = true positives/test positives = (95/140) x 100 = 67.8 per cent 
+ 
+ NPV = true negatives/all negatives = (855/860) x 100 = 99.4 per cent 
+ 
+ 
+Examples of calculations 
+(Varying prevalence, sensitivity and specificity) 
+ 
+ 
+Example 1 
+ 
+ State A: Prevalence of 0.25 per cent using a test with a sensitivity of 97.1 per cent and a specificity of 98.5 per 
+cent. 
+ 
+  Disease status  
+ 
+  Present Absent  
+Screening + 2 428 14 962 17 390 
+test 
+result - 72 982 538 982 610 
+  2 500 997 500 1 000 000 
+ 
+ PPV = (2 428/17 390) x 100 = 14.0 per cent 
+ NPV = (982 538/982 610) x 100 = 99.99 per cent 
+ 
+ 
+Example 2 
+ 
+ State B: Prevalence of 0.292 per cent using a test with a sensitivity of 97.1 per cent and a specificity of 
+98.5 per cent. 
+ 
+  Disease status  
+ 
+  Present Absent  
+Screening + 2 835 14 956 17 791 
+test 
+result - 85 982 124 982 209 
+  2 920 997 080 1 000 000 
+ 
+ PPV = (2 835/17 791) x 100 = 15.9 per cent 
+ NPV = (982 124/982 209) x 100 = 99.99 per cent 
+ 
+ 
+  
+ 
+Att A-6 Manual on COVID-19 Cross-border Risk Management 
+Example 3 
+ 
+ State C: Prevalence of 0.492 per cent using a test with a sensitivity of 97.1 per cent and a specificity of 
+98.5 per cent. 
+ 
+  Disease status  
+ 
+  Present Absent  
+Screening + 4 777 14 926 19 703 
+test 
+result - 143 980 154 980 297 
+  4 920 995 080 1 000 000 
+ 
+ PPV = (4 777/19 703) x 100 = 24.2 per cent 
+ NPV = (980 154/980 297) x 100 = 99.98 per cent 
+ 
+ 
+Example 4 
+ 
+ State A: Prevalence of 0.25 per cent, worst case test with a sensitivity of 80 per cent and a specificity of  
+92 per cent. 
+ 
+  Disease status  
+ 
+  Present Absent  
+Screening + 2 000 79 800 81 800 
+test 
+result - 500 917 700 918 200 
+  2 500 997 500 1 000 000 
+ 
+ PPV = (2 000/81 800) x 100 = 2.5 per cent 
+ NPV = (917 700/918 200) x 100 = 99.94 per cent  
+ 
+ 
+Example 5 
+ 
+ State B: Prevalence of 0.292 per cent, worst case test with a sensitivity of 80 per cent and a specificity of 
+92 per cent. 
+  Disease status  
+ 
+  Present Absent  
+Screening + 2 336 79 766 82 102 
+test 
+result - 584 917 314 917 898 
+  2 920 997 080 1 000 000 
+ 
+ PPV = (2 336/82 102) x 100 = 2.8 per cent 
+ NPV = (917 314/917 898) x 100 = 99.93 per cent 
+ 
+ 
+ 
+Attachment A Att A-7 
+Example 6 
+ 
+ State C: Prevalence of 0.492 per cent, worst case test with a sensitivity of 80 per cent and a specificity of 
+92 per cent. 
+  Disease status  
+ 
+  Present Absent  
+Screening + 3 936 79 606 83 542 
+test 
+result - 984 915 474 916 458 
+  4 920 995 080 1 000 000 
+ 
+ PPV = (3 936/83 542) x 100 = 4.7 per cent 
+ NPV = (915 474/916 458) x 100 = 99.89 per cent 
+ 
+ 
+Example 7 
+ 
+ County X: Prevalence of 5.994 per cent, worst case test with a sensitivity of 80 per cent and a specificity of 
+92 per cent. 
+  Disease status  
+ 
+  Present Absent  
+Screening + 47 952 75 205 123 157 
+test 
+result - 11 988 864 855 876 843 
+  59 940 940 060 1 000 000 
+ 
+ PPV = (47 952/123 157) x 100 = 38.9 per cent 
+ NPV = (864 855/876 843) x 100 = 98.6 per cent  
+ 
+ 
+Example 8 
+ 
+ State A: Prevalence of 0.25 per cent, worst case test with a sensitivity of 95 per cent and a specificity of  
+95 per cent. 
+ 
+  Disease status  
+ 
+  Present Absent  
+Screening + 2 375 49 875 52 250 
+test 
+result - 125 947 625 947 750 
+  2 500 997 500 1 000 000 
+ 
+ PPV = (2 375/52 250) x 100 = 4.75 per cent, or only 1 out of approximately 20 will be a true positive. 
+NPV = (947 625/947 750) x 100 = 99.99 per cent, or 1 in approximately 10 000 testing negative might be 
+positive. 
+ 
+ 
+ 
+Att A-8 Manual on COVID-19 Cross-border Risk Management 
+Example 9 
+ 
+ State B: Prevalence of 0.292 per cent, worst case test with a sensitivity of 95 per cent and a specificity of 
+95 per cent. 
+ 
+  Disease status  
+ 
+  Present Absent  
+Screening + 2 774 49 854 52 628 
+test 
+result - 146 947 226 947 372 
+  2 920 997 080 1 000 000 
+ 
+ PPV = (2 774/52 628) x 100 = 5.27 per cent, or only 1 out of approximately 20 will be a true positive. 
+NPV = (947 226/947 372) x 100 = 99.98 per cent, or 1 in approximately 10 000 testing negative might be 
+positive. 
+ 
+Example 10 
+ 
+ State C: Prevalence of 0.492 per cent, worst case test with a sensitivity of 95 per cent and a specificity of 
+95 per cent. 
+ 
+  Disease status  
+ 
+  Present Absent  
+Screening + 4 674 49 754 54 428 
+test 
+result - 246 945 326 945 572 
+  4 920 995 080 1 000 000 
+ 
+ PPV = (4 674/54 428) x 100 = 8.59 per cent, or nearly 1 out of 10 will be a true positive. 
+NPV = (945 326/945 572) x 100 = 99.97 per cent, or 1 in approximately 5 000 testing negative might be 
+positive. 
+ 
+Example 11 
+ 
+ County X: Prevalence of 5.994 per cent, worst case test with a sensitivity of 95 per cent and a specificity of 
+95 per cent. 
+ 
+  Disease status  
+ 
+  Present Absent  
+Screening + 56 943 47 003 103 946 
+test 
+result - 2 997 893 057 896 054 
+  59 940 940 060 1 000 000 
+ 
+ PPV = (56 943/103 946) x 100 = 54.78 per cent, or slightly over 1 out of 2 will be a true positive. 
+NPV = (893 057/896 054) x 100 = 99.67 per cent, or 1 in approximately 300 with a negative test might be 
+positive. 
+ 
+Attachment A Att A-9 
+Notes: 
+ 
+1.— The prevalence does not affect the performance of the test with respect to the sensitivity and specificity. It affects 
+the number of infected and uninfected persons in a cohort of people. 
+ 
+2.— As prevalence goes up when performing a screening test, so does the positive predictive value. 
+ 
+3.— In a low prevalence situation, the negative predictive value is very little affected by even relatively poor performing 
+tests. 
+ 
+4.— Poor performing tests will significantly increase the number of false positives who would be denied boarding, at 
+least initially until confirmatory test can be completed. 
+ 
+ 
+Justifications for setting the minimum sensitivity and specificity levels at 95 per cent for molecular tests 
+ 
+ 1. It will allow a wider range of test devices to be used that are currently fielded as opposed to forcing 
+States to procure newer models that are frequently hard to obtain. 
+ 
+ 2. The wider range also allows for the use of rapid antigen tests as a screening device which are more 
+accessible and practical for application in the aviation environment; which are much faster and less 
+expensive to use. In addition, it would reserve the more expensive real-time RT-PCR tests for 
+confirmation of positives in conjunction with clinical correlation. 
+ 
+ 3. Setting the specificity at 95 per cent maintains a high NPV and reduces the false positives. 
+ 
+ 4. Setting the sensitivity at 95 per cent will reduce the risk of false negatives and improve the PPV. 
+ 
+ 5. In low prevalence settings (equating to 10-25 cases per 100 000 on a rolling average), the NPV equates 
+to mislabelling an infected person as negative between 1 in 5 000 and 10 000 negative tests. In higher 
+prevalence settings (equating to over 50 cases per 100 000 on a rolling average), the mislabelling rises 
+close to 1 in 300. 
+ 
+ 6. In the same low prevalence and higher prevalence range, the PPV improves from correctly labelling a 
+positive from approximately 1 in 10 to 20, to slightly better than 1 out of 2 of positive tests. 
+ 
+ 7. Few States set their sensitivity and specificity higher leading to further improvements in test 
+performance. 
+ 
+ 
+STEP TWO: Pre-departure testing interval 
+ 
+Assumptions 
+ 
+ — Incubation time: 2-12 days (95 per cent) with a medial of 5-6 days. 
+ 
+ — Shedding can occur 48 hours prior. 
+ 
+ — The most sensitive tests turn positive 1-3 days prior to symptoms. 
+ 
+ — Leaving a 2- to 4-day period where a person could be infected but not infectious with a negative test. 
+ 
+ — The goal is to limit infectivity in flight. 
+ 
+Att A-10 Manual on COVID-19 Cross-border Risk Management 
+Considerations 
+ 
+ 1. If the testing is placed at 72 hours before their departure, at least 60 per cent of those infected with a 
+negative test will manifest their illness and hopefully remove themselves from travel even if they were 
+infected walking into the testing facility. 
+ 
+ 2. If the person with a negative test is a true negative and becomes infected walking out of the testing 
+facility, they should not begin shedding the virus in most cases until after arrival at the destination. 
+ 
+ 3. Moving testing to 48 hours prior to departure would potentially let a few more of the negative but infected 
+slip through who could begin shedding the virus in flight before developing symptoms, but would 
+increase the likelihood that a person subsequently infected would not become infectious in flight. 
+ 
+ 
+STEP THREE: Can quarantine be reduced with serial testing? 
+ 
+Considerations 
+ 
+Consideration was given to two studies from the United Kingdom examining the relative effectiveness of various health 
+measures on arrival to reduce the potential for onward transmission. It is summarized below: 
+ 
+ • Quarantine of 14 days (Gold Standard): 78-99 per cent effective 
+ 
+ • Single RT-PCR upon arrival: 39.6 per cent effective (2 in 5 cases detected) 
+ 
+ • Single RT-PCR at 4 days after arrival: 64.3 per cent effective 
+ 
+ • Single RT-PCR at 5 days after arrival: 88 per cent effective 
+ 
+ • Upon arrival and 4 days after arrival (two tests): 68.9 per cent effective 
+ 
+ • Single RT-PCR at 7 days after arrival: 94 per cent effective 
+ 
+Discussion 
+ 
+Assuming the effective percentages are the ability to find the people who could transmit the disease after release from 
+quarantine, it seems reasonable to say that a 5 or 7-day window prevents most of the subsequent transmigration of disease. 
+ 
+  1. The question is whether testing 72 hours prior to arrival, with a second test on day 4 or 5, would 
+approach the 94 per cent effectiveness described for a single RT-PCR test 7 days after arrival. 
+ 
+  2. Logically, it would appear a 7-day window of proven negativity would provide the same level of 
+effectiveness. 
+ 
+  
+ 
+Attachment A Att A-11 
+Notes for consideration 
+ 
+1.— In the screening environment, the exact test is not as important as the technique in conjunction with the sensitivity 
+and specificity. The sensitivity and specificity should be of at least 95 per cent and performed by people adequately 
+trained using the techniques specified by the manufacturer. Laboratory certification is preferred. 
+ 
+2.— Evaluation of the positive cases must be considered. 
+ 
+3.— With the level of prevalence in various States, the PPV with the best tests available are going to be in the 10 to 
+25 per cent range, meaning 1 in 4 to 10 will be true positives. 
+ 
+4.— The other 75 to 90 per cent will be false positives and denied boarding. 
+ 
+5.— If less sensitive and specific tests are used for screening, the numbers go up significantly to as many 24 out of 
+25 positive tests being false positives. 
+ 
+6.— Furthermore, some of the true positives may be shedding viral remnants and no longer be infectious and could 
+therefore travel. 
+ 
+7.— Clinical correlation and more definitive testing will be required in case of positive screening test results. 
+ 
+8.— States should consider what form would be acceptable to declare someone with a positive test as not infectious 
+and ready to travel. 
+ 
+ 
+ 
+ 
+______________________ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+Attachment B 
+ 
+ESTIMATED EFFECTIVENESS OF INDIVIDUAL 
+RISK MITIGATION MEASURES 
+ 
+Mitigation strategy Estimated effectiveness* Implementation cost** 
+Universal travel bans Very high (100%) Low 
+Selected travel bans  Varies depending on the State Varies 
+selection and the timing of the 
+measure 
+Travel restrictions, do not board lists, for High Varies 
+persons ill with COVID-19 or high-risk 
+contacts who defy public health 
+recommendations 
+Pre-departure strategies:   
+Isolation of potential COVID-19 infected High Varies 
+cases and quarantine of contacts 
+Vaccination Very high Varies 
+Single pre-departure testing Low for preventing translocation* Medium to low 
+Health declaration forms  Very Low Low 
+(symptom and contact checks) 
+Temperature screening Very Low Low 
+High ventilation Medium Low to medium 
+In-travel strategies:   
+Traveller health education  Medium Low 
+Using appropriate general/basic public Medium Low 
+health countermeasures 
+Managing and positioning of sick Medium Low 
+passengers 
+Reduce plane capacity Low Medium to high 
+Airflow and HEPA filters Medium Low 
+ Att B-1  
+Att B-2 Manual on COVID-19 Cross-border Risk Management 
+By comparison, pre-departure tests have a higher effectiveness mitigating transmission during the journey. With regard to 
+preventing translocation, effectiveness increases the closer to the time of departure the test of carried out. 
+ 
+Post-arrival strategies   
+Quarantine for 14 days upon arrival High to very high (78-99% for State Varies (State supervised 
+supervised quarantine) quarantine can be high) 
+Data collection/sharing for proper Medium Low 
+contact tracing 
+Single PCR testing  Medium (40%) Medium 
+Health declaration forms  Low Low 
+(symptom and contact checks) 
+Temperature screening Low Low 
+ 
+Combined testing/quarantine strategies   
+7-day quarantine followed by testing  Very high (94%) High 
+5-day quarantine followed by testing  High (88%) Medium 
+Post-arrival testing and 4-day Medium (69%) Medium 
+quarantine followed by the second 
+testing  
+4-day quarantine followed by testing  Medium (64%) Medium 
+Pre-departure testing with post-arrival Currently being explored. Medium 
+quarantine and testing Early models show similar rates 
+to quarantine 
+ 
+* The effectiveness estimates are based on: 
+ 
+ a) strategies to reduce the risk of SARS-CoV-2 re-introduction from international travellers, Samuel Clifford et al., Centre 
+for Mathematical Modelling of Infectious Diseases, Department of Infectious Disease Epidemiology, London School 
+of Hygiene and Tropical Medicine, UK; 
+ 
+ b) the risk of introducing SARS-CoV-2 to the UK via international travel in August 2020”, Rachel A. Taylor et al., 
+Department of Epidemiological Sciences, Animal and Plant Health Agency (APHA), UK; and 
+ 
+ c) public health authorities and expert consensus. 
+ 
+** Cost reflects the relative administrative expense of implementing a measure and is not meant to reflect societal or industry cost. States 
+should consider the value of implementing a strategy with respect to potential gains of increased traffic. Note that these costs do not 
+consider the impact of the measures on States’ economies. 
+ 
+ 
+ 
+ 
+______________________
+ 
+ 
+ 
+ 
+ 
+ 
+ATTACHMENT C  
+ 
+DECISION AID 
+ 
+Example of a basic decision process 
+ 
+Disclaimer: The chart below represents a basic decision process for a tabletop exercise. It is not complete, operational, or 
+universally applicable, but can support the development of operationally viable inter-agency risk management processes. 
+ 
+ Att C-1  
+Att C-2 Manual on COVID-19 Cross-border Risk Management 
+ • Draft scenarios to be assessed, considering if the risk is related to passengers, crew members, staff at airports 
+and any other person inside the Public Health Corridor (PHC) 
+Draft Example: An infectious person, whose condition is unknown or revealed, is boarding an international flight. 
+appropriate risk
+scenario  
+• Assess the likelihood of the risk scenario, considering existing management strategies 
+• Assess the impacts of the risk scenario and its context (health-care system, operational, social, political, 
+Define the organizational), considering existing management strategies 
+inherent risks of • Collect data and information to support qualitative and quantitative assessments 
+the identified • Define the inherent risk as the combination of the likelihood and impacts of the risk scenario before any actions 
+risk scenarios by the State 
+Example: The likelihood of an infectious passenger, whose condition is unknown or revealed, to board an 
+international flight, is high. The application of the mitigation measures may result in a reduction of this 
+Select and likelihood. 
+evaluate A probabilistic estimation for the inflight transmission can be defined (x). 
+appropriate risk
+management  
+measures States should consider one or more risk management strategies to modify the inherent risk: Avoidance, Transfer, 
+Mitigation, and Acceptance. 
+STEP 1 More information about risk management can be found in Chapter 2 of this manual. 
+Determine that
+the initial A State may determine that the inherent risk is acceptable depending on its public health capabilities. As needed, the 
+conditions have State may select additional mitigation, considering the individual effectiveness and result of combined strategies for 
+been met risk management. The mitigation measures for public health risks are described in Chapter 3 of this manual. 
+STEP 2 In order to select other mitigation measures, useful questions may be posed by the State to help the evaluation of the 
+Identify the risk management strategy: 
+effectiveness of • What is the individual efficacy and effectiveness of each risk mitigation? 
+existing • If a risk management strategy is applied, would it reduce the likelihood of an infectious person to contaminate 
+measures others or reduce the impacts from this contamination in the public health system? 
+• What are the measures commonly practiced internationally? 
+• What are the methods available to apply each risk mitigation? 
+STEP 3 • What would be the recommended procedures to assure or enhance the effectiveness of each risk mitigation? 
+Determine • To what extent would procedures applied in aviation be applicable to domestic phases of the travel and 
+relative risks connection with other modes of transportation? 
+Are the risk management strategies coordinated with other national, regional and international stakeholders and the 
+aviation community? 
+STEP 4 More information about the selection of a combined strategy for risk mitigation is presented in Chapter 4 of this manual. 
+Determine Example: The States coordinate procedures to be conducted before people engage in air travel, during the 
+measures based flight, in the airport environment and after arrival. 
+upon identified A probabilistic estimation for the transmission at the arrival can be defined (y). 
+risk levels  
+Assess residual • After the application of the risk management strategy, assess if States are expected to effectively modify the 
+risk considering inherent risk 
+applied risk • The residual risk should be evaluated in order to be commensurate with the State’s public health capabilities and 
+management resilience 
+strategy Example: After the assessment of combined strategies, the State considers that the residual risk is acceptable. 
+A probabilistic estimation for the local transmission in the State can be defined (z). 
+Is the
+residual risk  
+acceptable by  
+NO the State?
+• The State should coordinate actions with other States in order to facilitate air travel 
+YES • After the strategies are implemented, their actual effectiveness, efficacy and the stabilization of the residual risk 
+Implement and should be continuously monitored 
+monitor the risk • As States are subjected to changing conditions, it is important to recognize the need to review the risk scenarios 
+management and applied mitigation strategies to ensure continuity of traffic connections between States 
+strategies Example: States should establish indicators and monitor the changing environment of their public health 
+systems and measures implemented by other States, in order to identify the need to reassess their initial risk 
+scenario. 
+ 
+ 
+ 
+ 
+ 
+— END — 
+ 
+ 
+

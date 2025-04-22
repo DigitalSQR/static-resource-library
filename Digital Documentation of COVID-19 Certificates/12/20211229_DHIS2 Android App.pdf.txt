@@ -1,0 +1,3143 @@
+DHIS2 Android App
+DHIS2 Documentation Team
+DHIS2 Android App
+Copyright © 2008-2021 DHIS2 Team
+Last update: 2021-12-29
+Warranty: THIS DOCUMENT IS PROVIDED BY THE AUTHORS ‘’AS IS’’ AND ANY EXPRESS OR
+IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO
+EVENT SHALL THE AUTHORS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA,
+OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS MANUAL AND PRODUCTS
+MENTIONED HEREIN, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+License: Permission is granted to copy, distribute and/or modify this document under the terms of the
+GNU Free Documentation License, Version 1.3 or any later version published by the Free Software
+Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. A copy of the
+license is included in the source of this documentation, and is available here online: http://
+www.gnu.org/licenses/fdl.html
+2
+Table of contents
+Table of contents
+About this guide 
+Introduction 
+Recommendations for a DHIS 2 mobile deployment 
+Mobile device specifications 
+Testing and Piloting 
+Contribute to the App 
+How to report a bug 
+How to suggest Icons to the library 
+How to add translations 
+Visual configurations 
+Local Analytics (New 2.5) 
+Interface language (New 2.5) 
+Personalize your Icon 
+Personalise the colour of the App 
+Icon library for metadata 
+Colour palette for metadata 
+Rendering Types for Program Sections (Improved 2.5) 
+Calendar 
+Render types 
+Settings 
+Generic features 
+Login 
+Account Recovery 
+Blocking session (PIN) 
+Fingerprint 
+Instructions/information buttons 
+Filter 
+Sorting 
+Sync Information 
+Org unit 
+Data Sets 
+Differentiating Data Sets, Tracker and Event programs 
+Sharing Data 
+Capture Coordinates 
+Images 
+Display events and TEIs in maps 
+Personalized Calendar View (New 2.5) 
+Reason for non-editable data (New 2.5) 
+Data sets 
+Supported features overview 
+Programs 
+Event and Tracker common features 
+Event Programs specific features 
+Tracker Programs (program with registration) specific features 
+Supported features Overview 
+Program rules supported in Android Capture App 
+Program rule Variable source types supported 
+Program rule Actions supported (Data element in current event) 
+Program rule Actions supported (Other variables) 
+Functions to use in program rule expressions 
+Standard variables to use in program rule expressions 
+Differences between the Program Rules in the web and the Android version 
+3
+Table of contents
+Changes in Program Rules (as from version 2.2 of the app ) 
+Program Indicators 
+Common functions to use in a program indicator expression or filter 
+(d2) Functions to use in a program indicator expression or filter 
+Variables to use in a program indicator expression or filter 
+Value types supported 
+Android Settings Web App 
+Overview 
+General settings 
+Synchronization 
+Appearance 
+Analytics 
+Installation 
+Log in and first time setup 
+Enter and save configuration parameters 
+4
+About this guide
+About this guide
+The DHIS 2 documentation is a collective effort and has been developed by the development team
+and users. While the guide strives to be complete, there may be certain functionalities which have
+been omitted or which have yet to be documented. This section explains some of the conventions
+which are used throughout the document.
+DHIS 2 is a browser-based application. In many cases, screenshots have been included for enhanced
+clarity. Shortcuts to various functionalities are displayed such as Data element > Data element
+group. The ">" symbol indicates that you should click Data element and then click Data element
+group in the user interface.
+Different styles of text have been used to highlight important parts of the text or particular types of text,
+such as source code. Each of the conventions used in the document are explained below.
+Note
+A note contains additional information which should be considered or a
+reference to more information which may be helpful.
+Tip
+A tip can be a useful piece of advice, such as how to perform a particular
+task more efficiently.
+Important
+Important information should not be ignored, and usually indicates
+something which is required by the application.
+Caution
+Information contained in these sections should be carefully considered, and
+if not heeded, could result in unexpected results in analysis, performance,
+or functionality.
+Warning
+Information contained in these sections, if not heeded, could result in
+permanent data loss or affect the overall usability of the system.
+Complete
+Information contained in these sections, will indicate that these are issues
+that have been fully implemented.
+Incomplete
+Information contained in these sections, will indicate that these are issues
+that are not implemented and will be ignored.
+Not_applicable
+5
+About this guide
+Information contained in these sections, will indicate that these are issues
+not applicable.
+Work_in_progress
+Information contained in these sections, will indicate that these are issues
+or freatures not completely implemented or with unexpected behaviour
+already reported.
+Program listings usually contain some type of computer code.
+They will be displayed with a shaded background and a different font.
+Commands will be displayed in bold text, and represent a command which
+would need to be executed on the operating system or database.
+Links to external web sites or cross references will be displayed in blue text, and underlined like this..
+6
+Introduction
+Introduction
+This guide is designed to assist you in configuring DHIS 2 for use with the Android Capture App.
+It is not a tutorial or training manual; it is designed to complement the core DHIS 2 documentation and
+training materials with specific reference material for the Android application.
+The document is divided into sections, which are intended to describe all the features that have been
+implemented in the app, those that have not yet been implemented and those that will not be
+supported. Where applicable, an explanation of problems with the use of a particular feature in
+Android app will be provided. Recommendations or tips will also be presented for a better
+understanding and use of the app.
+In addition, the document has sections for new features in the login, visual configurations,
+synchronization management and a list of known important errors.
+7
+Recommendations for a DHIS 2 mobile deployment Mobile device specifications
+Recommendations for a DHIS 2 mobile deployment
+If you plan to deploy the DHIS2 Android App in the field, we strongly recommend you to read the 
+Mobile Implementation Guidelines published by UiO. It includes chapters on technology requirements,
+security and configuration aspects, and testing and roll out recommendations. Below you will find
+some key aspects briefly introduced, we recommend reading the extended document.
+Mobile device specifications
+The DHIS2 Android App is compatible and supported for DHIS 2 versions 2.35 to 2.37. And has no
+breaking changes with 2.30 to 2.34.
+It requires a device that is running Android v4.4 (not recommended but supported until Apr 2022) or
+higher. The minimum recommended for new devices: Android 7 or higher.
+In the specific section of the Mobile Implementation Guidelines you will find recommendations for new
+mobile device acquisitions for a Dhis2 Android deployment.
+Testing and Piloting
+If you plan to deploy the DHIS 2 Android App in the field, you should first do a full round of testing of
+the app in you own configuration.
+The app has been extensively tested with the demo servers, and during Beta testing it was tested
+against some real configurations as well. We know, however, that every DHIS 2 configuration is
+special in many senses, and might cause inconsistencies that we have not being able to identify.
+It is strongly advised to carry out a comprehensive testing of the app in your own server before piloting
+it.
+8
+Contribute to the App How to report a bug
+Contribute to the App
+How to report a bug
+First of all, please check the List of already reported bugs in JIRA
+The list is always updated as you add new bugs and we work on them. You need an active, free DHIS
+2 Jira account.
+When reporting a bug please specify together with your description:
+• DHIS 2 version and build revision
+• DHIS 2 Android App version
+• Android OS version
+• Device (when possible)
+• Error log (when possible)
+How to suggest Icons to the library
+DHIS 2 and the new DHIS 2 Android App allows you to select icons for programs, datasets and the
+options of an optionset. DHIS 2 2.30 incorporates 125 icons. We plan to expand the collection of icons
+on each future version of DHIS 2- for that we need your help: we are seeking ideas for new icons -
+please submit yours using this form.
+How to add translations
+The steps to contribute to the translation of the app are:
+1. Create an account in Transifex
+2. Join Existing Organization
+3. Search for HISP UiO and select the organization not the projects
+4. Select ANDROID: Capture project
+5. Join the team for the selected language
+Please let us know if it doesn't work well or if you need to add a new language by sending a message
+in the community to the user dhis2-android.
+9
+Visual configurations Local Analytics (New 2.5)
+Visual configurations
+Local Analytics (New 2.5)
+The DHIS2 Android App can now render analytics that have been created in the Data Visualizer app in
+DHIS2. Analytics to be displayed require to be configured using the Android Settings WebApp where
+administrators will be able to decide the charts and tables to be displayed for end users.
+To configure analytics open the Android Settings WebApp on your DHIS2 server and follow the steps
+below:
+1. Select Home, Program or Data set from the Analytics menu
+2. Click on the "Add Visualization" button
+3. Search by typing the name of the visualization and select it by clicking on it
+4. Add an alternative title, otherwise, the app will display the name of the visualization
+Analytics are created and configured using the web tools, however, the data aggregation happens
+offline using only data stored in the device.
+  
+10
+Visual configurations Local Analytics (New 2.5)
+Analytics Types and Filters
+The analytics supported in the Android App are:
+• Pivot Tables
+• Column Chart
+• Line Chart
+• Pie Chart
+• Radar chart
+• Single Value
+For each visualization object, the user will be able to filter in the app by:
+• Period: Daily, Weekly, Monthly, Yearly, This Quarter, Last Quarter, Last 4 Quarters and Quarter
+this year.
+• OrgUnit: Select "All" to display all the org units available to the user or "Selection" to specify one
+or multiple org units.
+ 
+A reset button will be displayed if a filter is applied. Select Reset to display the default visualization.
+Users can also change The anlytics type between chart, table or single value.
+11
+Visual configurations Groups
+ 
+Groups
+All these visualizations can be organised and displayed in groups. Groups are also configured using
+the Android Settings Webapp following the steps below:
+1. Open the Android Settings App
+2. Click to Add a new visualization in the Analytics Menu (Home, Program or Data set)
+3. Select a visualization
+4. Mark the "Use a group visualization" checkbox
+5. Create or select a created group
+6. Save the visualization
+You can name your different groups, they will be displayed as a button in the top bar of the analytics
+screen.
+Limitations
+Android uses tables and charts created using the web Visualizer app, however only the configuration
+parameters of the object are used by the Android App: data elements, indicators, chart type, title,
+periods...; all the aggregations are calculated offline by the android application. The results will be
+based on the data stored in the device at that exact moment.
+12
+Visual configurations Interface language (New 2.5)
+Since the aggregations and calculations displayed are calculated in the device, the implementation of
+analytics is limited compared to web. In summary the compatible and suported objects and features
+are:
+• Well formed analytic objects (series, categories, filters)
+• User has view access
+• Limitations for Pivot Tables
+◦ Number of header lines: 1
+◦ Number of header columns: 1
+• Limitations for Charts
+◦ Number of Series: No limit (but remember you are rendering in a small screen)
+◦ Number of Categories (doesn’t apply for pie chart): No limit
+There are many more restrictions which apply to Android Analytics regarding the many configuration
+options available in the Web Visualizer as well as the supported functions and calculations related to
+indicators and program indicators. This table summarises all supported features.
+Interface language (New 2.5)
+The language of the interface will corespond to the language set in the DHIS2 user configuration. If
+the language is not available in the app, it will pick the language of the device.
+If none of the language configurations are available, the app will default to English.
+Translations set up in DHIS2 for metadata will also be shown according to the language in the user
+configuration.
+Personalize your Icon
+You can set your icon in the wallpaper using the DHIS 2 App Widget. The icon will be the flag
+configured in your server.
+13
+Visual configurations Personalise the colour of the App
+Note
+How to add a widget:
+• Long press in your wallpaper
+• Select Widgets
+• Look for the DHIS 2 Widget
+• Select
+It will add a shortcut to your app.
+Personalise the colour of the App
+You can set the generic theme of the app by configuring the them in our server:
+Note
+How to set the server theme and flag:
+Go to System Settings > Appearance > Style
+• Select your style
+◦ Green,
+14
+Visual configurations Icon library for metadata
+◦ India (Orange),
+◦ Light Blue,
+◦ Myanmar (red),
+◦ Vietnam
+• Select your flag
+Icon library for metadata
+There are currently 134 icons available that you can choose from. You can search by name in the icon
+picker widget. Icons are available in positive, negative and outlined shapes. We will be adding many
+more icons in future releases.
+Icons can be associated to programs, stages, data elements and the options of an option set. This is
+configurable through the Maintenance App.
+Note
+This feature is available from DHIS 2 2.30 onwards
+In the DHIS2 Android App icons render in the home screen to illustrate all the programs available to a
+user, or while adding an stage. For data elements and options, the icons render for single event
+programs, when a section contains a single DE, showing the option set as a matrix or sequence of
+images.
+15
+Visual configurations Colour palette for metadata
+ 
+Note
+Icons will initially only render in the new Android app. The new web-based
+Capture App will incorporate them in the near future.
+We plan to expand the collection of icons on each future version of DHIS2 for that we need your help:
+we are seeking ideas for new icons - please submit yours using this form.
+Colour palette for metadata
+Tracker and Event capture now have the ability to render colours for programs, stages, data elements
+and options in option sets. A colour picker is integrated in the Maintenance App, which shows as a
+palette, except for options which allows the selection of any colour.
+In the Android App, the color will be rendered as background color for programs and stages combined
+with an icon (if selected). For options it renders as the background colour during data entry form for
+single event programs. When the user selects a program with an assigned colour, that colour
+becomes the background theme for all screens in the domain of the program.
+16
+Visual configurations Rendering Types for Program Sections (Improved 2.5)
+ 
+Note
+Colours will first be available in the new Android app, followed in future
+releases by the new web-based Capture App.
+Rendering Types for Program Sections (Improved 2.5)
+Program Section: when used in combination with icons, a Program Section with a single data
+element and associated Option Set can render the options in sequential or matrix layout (see
+screenshots). If the icon is not found, the app displays the DHIS logo.
+17
+Visual configurations Calendar
+ 
+Note
+Render type for sections will first be available in the Android app, followed
+in future releases by the new web-based Capture App UI.
+Calendar
+Now it is possible to use two different calendars. The one on the left is the first to appear but you can
+change it by clicking on the calendar icon on the lower left corner.
+This is available when:
+1. Making a new enrollment.
+2. Creating a new event (Programs with and without registration).
+3. Using period filters in data sets and programs with and without registration.
+ 
+Note
+18
+Visual configurations Render types
+For Android versions 4.4, 5.1 and small devices, the Accept option is not
+visible in the second calendar view.
+Render types
+The available rendering options have been expanded to include horizontal and vertical radio buttons,
+checkboxes and toggles. The allowed options depend on the value type.
+• Yes Only: can be rendered as radio button or checkbox.
+• Yes/No: can be rendered as horizontal/vertical radio buttons or horizontal/vertical checkboxes
+or toggle.
+• Text: When is linked to an option set can be rendered as horizontal/vertical radio buttons or
+horizontal/vertical checkboxes. The option set must be configured with value type "Text", any
+other value type will be displayed as a drop-down list.
+Note
+The default rendering option will automatically display a search box
+whenever there are more than 15 elements in the option set to ease the
+selection.
+ 
+QR and Barcodes (Improved 2.5)
+Data elements or attributes type text can be also configured as QR or barcodes. When a Data
+Element or Attribute is rendered as QR/Barcode, the app will open the device camera to read the code
+image. When the QR/Barcode is a TEI attribute configured as searchable, the user will be allowed to
+scan the code in order to search and identify the Tracked Entity Instance. This will also work for option
+sets.
+Barcodes also allow the user to manually enter the value.
+19
+Visual configurations QR and Barcodes (Improved 2.5)
+   
+Export/Share
+Users are now able to display a bar or QR code in an image so that it can be shared for printing, take
+a screenshot or show it on the screen for scanning.
+ 
+20
+Settings QR and Barcodes (Improved 2.5)
+Settings
+Settings window
+Sync data : User is able to choose from a drop-down list if the data entered in the app is uploaded to
+the server manually or scheduled every 15 min, 1 hour or 1 Day. By default the app will sync every
+24h. This kind of Syncing includes new and updated events and TEI’s.
+Sync configuration (also known as sync metadata) : User is able to choose from a drop-down list if the
+data entered in the app is uploaded to the server manually or scheduled every day or week. By default
+the app will sync every 24h. This sync will update changes in programs or configurations in web.
+Sync parameters : These parameters allow the user to specify the maximum number of TEI’s and
+events that can be stored in the local device. The user can also specify if limits apply per organisation
+unit or in total. Values can be set to default by clicking on “Reset to default”.
+Note
+Sync data, Sync configuration and Sync parameters can be overwritten
+using the Android Settings Web App as described [in the specific section]
+[#capture_app_andoid_settings_webapp_synchronization]
+Reserved values : This will specify the number of reserved Id's available in your device and will allow
+you to refill them.
+Open sync errors log : The sync error log gives details about the error and is prepared to be shared
+with admins.
+Delete local data : This action will delete local data without having to log out.
+Warning
+Using this functionality might lead to data loss if changes have not been
+previously synced to the server.
+Reset app data & configuration : This action will log out the user and delete all data and metadata, this
+means user and server information is also deleted. It is similar to resetting the App.
+Warning
+21
+Settings QR and Barcodes (Improved 2.5)
+Using this functionality might lead to data loss if changes have not been
+previously synced to the server.
+SMS Settings : This sections allows to check or edit the parameters related to the sms gateway.
+22
+Generic features Login
+Generic features
+Login
+There are two ways to access the application:
+1. Manual: The user must type the corresponding URL of the server to be used and enter the
+username and password.
+Note
+Take note that login is only possible with servers from version 2.29.
+2. QR: The user can use a QR code instead of typing the URL but username and password must
+be entered manually.
+Note
+1. After a succesful login the DHIS2 Android App will keep these values
+cached (URL and username) and will suggest them for future
+connections without having to type them.
+After a succesful login the user should be able to perform an offline login only (only avaialble for the
+last combination of URL/Username). Offline usage gives the possiblity of using the application withou
+any type of connectivity. All data will still be stored and user can perform a synchornization once the
+connection is restablished or avaialble.
+Warning
+In DHIS2 versions up to 2.30 if a user attemps an on-line login and their
+account has been disabled as explained in the DHIS 2 Manual - Disable
+User all the data will be wiped from the phone. Make sure that before
+disabling a user all the data has been synced or that you are using this
+feature to remotely wipe sensitive data in case of a device getting lost.
+Due to a change in the login API this feature is not available in 2.31, 2.32,
+2.33, 2.34, 2.35 and 2.36.
+23
+Generic features Account Recovery
+Account Recovery
+The users will be able to restore their own password if they have the setting enabled: Enabled User
+Account Recovery.
+Blocking session (PIN)
+User is able to lock the session using a 4 digit PIN. This allows to move to other apps in your phone
+without deleting the local data. If the user forgets the PIN number, log in by entering the credentials is
+also available.
+Fingerprint
+User is able to use the fingerprint scanner if the feature is activated in the device.
+• When the fingerprint scanner is enable and not the PIN, every time the app closes, goes to
+background or the device is blocked, the session will be locked. Once the app is open again,
+the user needs to tap the fingerprint icon to activate the scanner.
+• If the PIN and the fingerprint are set, when the session is locked and the user open the app
+again, the PIN will be asked.
+24
+Generic features Instructions/information buttons
+ 
+Instructions/information buttons
+A contextual guide is available in Event details and TEI dashboard screen.
+ 
+Tip
+User is able to re-open the instructions by clicking on the three dots at the
+top right corner of the screen.
+Filter
+A filter can be applied in all listing screens (home, event listing, tei search and dataSets) which
+narrows down the data displayed. The filters available are: period, org. unit, sync state, event status,
+category option combination and "assigned to me".
+25
+Generic features Assigned to me
+  
+Filters will adapt to the different programs and data sets.
+1. Program without registration: Date, Org. Unit, Sync State, Event Status and, Category
+Combination.
+2. Program with registration: Event Date, Date of enrollment, Org. Unit, Sync, Enrollment Status,
+Event Status and Assigned to me. The filter icon will show only if a list of events is available
+(Display front page list feature or search)
+3. Data Sets: Period, Org. Unit, and Sync State.
+Assigned to me
+It is possible to filter events based on its assignment to the current user. The “Assigned to me” filter
+has been added to the single event program list, the TEI list and the TEI Dashboard and the map
+views. It will only be displayed when the active program is configured to assign events to users.
+Event Date/Date/Period
+Filter the Events, TEIs(based on their events) and data sets, the following periods of time are
+availables:
+• Today
+• This week
+• This month
+• Yesterday
+• Last week
+• Last month
+• Tomorrow
+• Next week
+• Next month
+• From-to
+• Other (Opens a date picker)
+• Anytime
+Org. Unit (Improved 2.5)
+Allows the user to type the search or select an organisation unit from the tree. The filter will not be
+visible if the user has only one Organisation Unit configured.
+26
+Generic features Sync
+Sync
+Filer by:
+• Synced (events, TEIs, Data Sets)
+• Not Synced
+• Sync Error
+• SMS Synced
+Event Status
+Filter the events by:
+• Open
+• Schedule
+• Overdue
+• Completed
+• Skipped
+Multiple status selection is permited. Once you open a TEI, the filter will be kept in the dashboard and
+show only the events with the selected status.
+Events shown are up to 5 years old.
+Date of Enrollment
+The 'Date of Enrollment' will apply to the Enrollment date of the TEI in the program. If there is more
+than one enrollment date, it should sort the results by the most recent one. The label of this filter will
+display when available.
+Enrollment Status
+The filter 'Enrollment status' offers three options: Active, Completed, Cancelled. Only one option can
+be selected at time. If you filter by "completed" and the TEI has more than one enrollment, the app will
+open the "active" enrollment. To see the completed one, select the three dot menu at the top right
+corner of the dashboard and select "program enrollments".
+Follow-Up (New 2.5)
+The 'Follow Up' filter allowes the user to filter out the TEIs that have been marked as 'Follow-up'. TEIs
+can be marked to be followed up in the TEI Dashbaord.
+Filtering added in TEI Dashboard:
+Filters have been added to the TEI dashboard. It is possible to filter the events of a Tracked Entity
+Instance enrollment per period, organisation unit, sync status, event status, and user assignment.
+27
+Generic features Sorting
+Sorting
+Sorting has been integrated in the filter menu.
+The sorting button will be on the filter bars with the following behavior:
+• Only one sorting applies at a time. If the user clicks a different one, the previous one is
+disabled.
+• The icon for applied sorting shows it is active, the others are inactive.
+• Repeated clicks keep changing the order to the reverse.
+Dates (Period, Date, Event Date or Enrollment Date)
+• Event Date preceds due date, only use due date when there is no event date.
+• Order from most recent to less recent. Future events (due date) goes first.
+Org. Unit
+• List will be sorted in alphabetical order by org unit name.
+Enrollment Status
+• List will be sorted in alphabetical order by status name.
+28
+Generic features Sync Information
+Sync Information
+Next to each program or data set an icon will be displayed which allows the user to check sync
+information. Synced records will not show display any icon. Unsynced (grey arrows), error (red
+arrows), warning (orange) or SMS (blue and including the SMS word inside) icons are be displayed
+according to the status.
+  
+Granular Sync
+Users can click on the grey arrows (which means record(s) stored online in the device) to perform a
+sync. These options are available at top level (programs/dataset) or individually (TEI, events,
+datavalues).
+ 
+29
+Generic features SMS Sync
+SMS Sync
+When there is no Internet conection (either via WiFi or Mobile Data) but there is still mobile conectivity,
+users can synchronize via SMS if the gateway has been previously established in the app and
+properly configured at server level. The information will be sent via one or more SMS messages and
+the status will be updated to display either error or marked as “SMS synced”.
+Tip
+Edit parameters related to SMS gateway in the SMS Settings (Settings
+Menu) or set this globally via the 
+#capture_app_android_settings_webapp_general
+Note
+Note that in order to user the SMS sync capabilities the SMS services
+needs to be enabled in the server side as described in the https://
+docs.dhis2.org/master/en/dhis2_user_manual_en/mobile.html#sms-service.
+You can also find more information on how to use different gateways in the 
+30
+Generic features Meta data sync error
+https://docs.dhis2.org/master/en/dhis2_android_implementation_guideline/
+about-this-guide.html
+Meta data sync error
+In case of errors during the sync process, a message is displayed in the settings menu ('Sync data' or
+'Sync configuration' section). Also, a red sync icon is displayed next to the program in the Home
+screen. The sync error log gives details about the error and is prepared to be shared with admins.
+ 
+You can also open the sync errors log from Settings:
+31
+Generic features Org unit
+Org unit
+The whole organisation unit tree is displayed. Organisation units not available for data entry will be
+colored in grey. User must check the box to select the org unit wanted.
+Caution
+Mobile users are not expected to access the org. unit hierarchy of a whole
+country. Maximum number of org units is difficult to set, as the App does not
+set the limit, but the resources on the device (memory, processor). We
+could say below 250 org units should be safe, but still believe that is a very
+big number for a mobile use case.
+Data Sets
+The user can now enter aggregate data for an organisation Unit, a period and a set of data elements
+and send it to the server.
+  
+32
+Generic features Differentiating Data Sets, Tracker and Event programs
+Differentiating Data Sets, Tracker and Event programs
+Tip
+An easy way to differentiate them is by looking at the word at the bottom left
+corner. The word 'Event' will always be in event programs. In tracker will
+appear the name of the tracked entity type (person, patient, building, etc.).
+For data sets, the word 'DataSets' will be shown next to the number of
+records.
+Sharing Data
+Users can share TEI via QR codes. This allows transferring/sharing information between devices
+without the need of transferring via the server (useful when connecitivity might be missing). To do this
+users should open any TEI and click on the SHARE button.
+ 
+Capture Coordinates
+TEI coordinates
+Capture the TEI coordinates in the registration form. Enable this feature in the TET feature type.
+33
+Generic features Polygons
+Polygons
+The app now supports the geoJSON format and the user is able to capture polygons.
+Images
+ValueType image can be used in Android to capture data and also, depending on the program
+configuration to be displayed in the TEI dashboard. When this value type the first data element/
+attribute marked as displayed in the program configuration it will be used as the TEI profile image.
+34
+Generic features Display events and TEIs in maps
+  
+Open the TEI profile image by clicking on it.
+Display events and TEIs in maps
+When a program stage or tracked entity type have a feature type (and for programs with registration
+the option displayFrontPageList is enabled) the listings can be switched to display the information in a
+map. Make the switch by clicking on the map icon in the navigation panel.
+35
+Generic features Personalized Calendar View (New 2.5)
+ 
+If the TEI has a profile image, the map will display it.
+Personalized Calendar View (New 2.5)
+In the DHIS2 Android Capture App users can switch date selection from spinner to calendar view. In
+this version, the app will remember the last visualization selected by the user and use it the next time
+the user needs to select a date.
+36
+Generic features Reason for non-editable data (New 2.5)
+Reason for non-editable data (New 2.5)
+Data can be blocked for many reasons in DHIS2, because of access restrictions or expiration among
+others. When an Event, TEI or Data Set are not editable the user will be able to find the reason on the
+"Details" section.
+The following list contains all possible reasons:
+• Event completion
+• Enrollment completion
+• Expired event
+• Closed organization unit
+• Organization unit out of capture scope
+• No access to capture data in the program or data set
+• No access to a category option in the program or data set
+ 
+37
+Data sets Navigation Bar
+Data sets
+Navigation Bar
+Use the navigation bar located at the bottom of the data set to switch between the data entry form and
+the overview screen.
+Overview Screen
+The new overview tab contains the following details:
+• Data set name
+• Last Update
+• Open/Close Status
+• Period
+• Org Unit
+• Category option combo
+38
+Data sets Saving a data set
+Saving a data set
+Validation rules and completion of data sets are integrated in the save button actions:
+• When a Data set is configured to complete only if validation passess. If the validation is
+successful, a dialog asking to mark as complete will show up. The App will allow completion
+only if all mandatory fields have value.
+• if it is not successful, then an error dialog should show and the dataset will not be marked as
+complete. The description and instructions of the validation rule will be displayed to help the
+user identify the error.
+• On a dataset that does not have setup "Complete allowed only if validation passes". When
+clicking on the save button; if the data set has validation rules associated to it, then the app will
+ask the user to run the validation rules.
+39
+Data sets Increase Row Headers
+• If the validation is not successful, an error dialog should show but with the possibility to
+complete the data set anyway. The description and instructions of the validation rule will be
+displayed to help the user identify the error.
+• If the data set does not have validation rules, the data set will be marked as complete if all
+mandatory fields have value.
+Increase Row Headers
+The length of the first column in data set is adjusted to show the full text for the Data Elements names.
+Users can use the arrows on the top to adjust the width according to their needs.
+40
+Data sets Indicators
+Indicators
+Indicators are now available in default and section forms and are displayed at the bottom of the data
+entry form.
+Supported features overview
+The following is a comprehensive list of all features available for Data Sets in DHIS2 and notes on
+whether or not these have been implemented in the Android Capture app.
+In the notes, ‘admin’ refers to someone who develops and configures a DHIS2 system, and ‘user’
+refers to someone who uses apps to capture data, update it, and review reports.
+Legend Description
+Feature implemented
+Feature not implemented (will be ignored)
+Not applicable
+41
+Data sets Supported features overview
+Legend Description
+Work in progress. Feature not completely
+implemented yet or with unexpected behaviour
+already reported.
+Notes on
+Feature Description of feature Status
+implementation
+Period type Determines the period
+covered by data-entry.
+Expiry days Sets the deadline (days
+after period) after which
+DHIS2 locks all data
+entry for the period (0
+means no locks at all).
+Periods can still be
+opened, but cells will be
+greyed out.
+Open future periods for This setting can be
+data entry used to unlock the
+current period or all
+periods up to a certain
+point in the future.
+Data input periods Allows you to set a
+specific range of dates
+for a period's data-entry,
+and prevents data
+capture for periods
+outside of this date
+range.
+Days after period to Sets the deadline (days
+qualify for timely after period) after which
+submission DHIS2 treats data entry
+as 'late'.
+[Attribute] category Allows an admin to
+combination attach a Category (set
+of Options) to the Data
+Set, generating a
+separate data entry
+screen for each Option
+(This is called an
+Attribute Category
+Combination in DHIS2).
+42
+Data sets Supported features overview
+Notes on
+Feature Description of feature Status
+implementation
+[Attribute] Category If Attribute Category
+Combination option Combinations (see
+restrictions above) are used, then
+this features gives
+admins the ability to
+restrict which specific
+options are available in
+the drop-down. Each
+option can be restricted
+to a particular range of
+dates and/or
+organisation units, and
+that option will not be
+shown if data is being
+captured outside of
+these dates or org units.
+Complete notification Sends a DHIS2
+recipients message to the
+selected User Group
+when the Data Set is
+marked 'complete'.
+Send notification to Sends a DHIS2
+completing user message to the data-
+entry user when the
+Data Set is marked
+'complete'.
+All fields for data Where one or more
+elements required Categories are used to
+disaggregate a data
+element, this setting
+forces the user to either
+complete all
+disaggregations, or to
+leave them all empty.
+Complete only if Only allows the Data
+validation passes Set to be marked
+complete if no
+Validation Rules are
+triggered.
+Skip offline Requires the user to
+add a 'comment' if a
+value is left blank (or
+Data Set cannot be
+'completed'). Only
+allows Data set to be
+selected for data entry
+while connected to the
+internet (although once
+selected, data entry can
+continue offline).
+43
+Data sets Supported features overview
+Notes on
+Feature Description of feature Status
+implementation
+Data element Shows the description
+decoration of the Data Element
+when the mouse hovers
+over the Data Element
+Name.
+Section forms - render Displays each section in
+sections as tabs the form as a separate
+tab, instead of all
+together on the same
+page.
+Section forms - render
+vertically
+Data Element - Enables an individual
+CatCombos Data Element to be
+automatically
+disaggregated into one
+or more categories (eg
+both male/female and
+child/adult), with
+separate fields/values
+collected for each of
+these disaggregations.
+Inline indicators / Enables the default
+section form totals CatCombo for each
+data element to be
+overridden with a
+different CatCombo for
+this Data Set only.
+Section forms - render Adding indicators to
+sections as tabs Data Sets makes them
+available for use in
+section forms and
+custom forms; row and/
+or column totals can
+also be added to these
+forms. (Both are
+displayed on the screen
+alongside data capture
+cells, and update
+automatically as values
+are captured.)
+Organisation unit Ensures the Data Set is
+assignment only available for those
+organisation units to
+which it has been
+assigned.
+44
+Data sets Supported features overview
+Notes on
+Feature Description of feature Status
+implementation
+Compulsory data This allows the marking
+elements of specific Data
+Elements/CatCombos
+as ‘compulsory’, which
+means users must enter
+a value (they cannot be
+left blank).
+Forms - default forms DHIS2 automatically
+renders the form as
+table(s), with a new
+table started every time
+the Category
+Combinations change
+(= different column
+headings).
+Forms - section forms Form sections and
+section titles can be
+specified, giving you
+more control over the
+grouping and layout of
+the form (but it is still
+rendered automatically).
+This section form
+automatically overrides
+the default form if
+implemented.
+Forms - custom forms A custom HTML form
+can be designed, giving
+total control over layout,
+and enabling JavaScript
+code to be included
+within the form. This
+custom form
+automatically overrides
+the default and section
+forms if implemented.
+Section forms - disable With section forms, this
+fields (grey) enables you to
+individually 'grey out'
+fields (a whole data
+element, or specific
+CatCombo Options) so
+that users cannot enter
+data into it.
+45
+Data sets Supported features overview
+Notes on
+Feature Description of feature Status
+implementation
+Multi-organisation unit When this server setting
+forms is enabled, form layouts
+are changed to show
+multiple org units as
+rows, and all data
+elements/CatCombos
+as columns (ie very flat
+and wide form per org
+unit).
+Data value pop-up: Enables the user to
+mark value for follow-up mark this specific data
+value for follow-up
+(marked values can be
+reviewed in the Data
+Quality web app).
+Data value pop-up: add Enables the user to add
+comment to value a comment to this
+specific data value.
+Data value pop-up: Shows the history over
+display data element time of this specific data
+history element (i.e. previous
+12 months' values).
+Data value pop-up: Shows a history of
+display audit trail previous edits to this
+specific data value.
+Data value pop-up: min This enables users to
+/max ranges (also set minimum and
+accessible via Data maximum expected
+Administration app) values for a data
+element, enabling
+DHIS2 to highlight
+values outside this
+range during data entry
+(but it does not prevent
+saving or 'completing').
+You can set min/max
+ranges automatically/in-
+bulk (via the Data
+Administration app) or
+manually/individually
+(via the Data Entry
+app).
+Print form / print blank Enables printing of a
+form data-entry form, to
+permit data capture on
+paper, and data-entry
+later.
+46
+Data sets Supported features overview
+Notes on
+Feature Description of feature Status
+implementation
+Save data Data entered into the
+screen is not captured
+until 'saved' - until then,
+it is only held in
+memory, and is lost if
+power is switched off
+etc.
+Complete data set This enables user to
+mark data-entry for a
+period/org unit/etc as
+'complete'. Note that
+this is just for data-entry
+tracking and timeliness
+purposes, and does not
+lock the data set or
+prevent further edits.
+Data elements: Enables the creation of
+validation rules rules (at the data
+element level) to
+enforce data quality,
+based on comparing
+different values/
+collections of values.
+(Eg number of patients
+seen in the month must
+be less than the number
+of visits for the month.)
+Data sharing levels/Can Enables the user to add
+capture data new values, edit values
+and delete values in the
+dataset.
+Data sharing levels/Can Enables the user to see
+view data values within the
+dataset.
+Data sharing levels/No The user won’t be able
+access to see the dataset.
+Data approval workflow If an admin selects a The process of the
+pre-configured Data approval has to be done
+Approval Workflow, this in web. Once a data set
+will be used to enforce is approved, the data
+an ‘approval’ or will not longer be
+‘acceptance and editable in the app.
+approval’ cascade,
+enabling users to sign-
+off and lock data.
+Missing values requires Any missing values will -
+comment on complete require a comment to
+justify their absence.
+47
+Programs Event and Tracker common features
+Programs
+Event and Tracker common features
+Navigation Bar
+Use the bottom navigation bar to move from one screen to another.
+Event Dashboard
+While entering information of the event, the bottom navigation bar allows the user to choose among:
+1. Details
+2. Data Entry
+3. Analytics (when available)
+4. Notes
+TEI Dashboard
+While in the TEI dashboard the bottom navigation bar allows the user to choose among:
+1. Details
+2. Analytics (when available)
+3. Relationships
+4. Notes
+48
+Programs Complete/Re-open event
+Event listing for event and tracker programs
+The bottom navigation bar also allows switching the visualization mode if the event program or the
+tracker program have been defined with coordinates. More information about the map view can be
+found on the specific section below.
+1. List view
+2. Map view
+ 
+Complete/Re-open event
+When adding an event to an event program or inside a tracker program the user should fill the
+information and scroll down to make the save icon appear at the bottom right corner.
+49
+Programs Field completion percentage
+ 
+Two options will be presented:
+1. Finish and Complete
+2. Finish
+Note
+To verify if an event is completed look at the icon, it must be a green
+checked box.
+Note
+The app needs to take into consideration if the user has the correct
+authority (‘Uncomplete events’) to reopen a completed event.
+Field completion percentage
+The percentage of data completed in each event is shown in the top right corner of an event when it is
+opened after first registration.
+50
+Programs Sections Navigation
+Note
+The display of the percentage can be set up to be displayed or not using
+the #capture_app_android_settings_webapp_appearance_program
+Sections Navigation
+The sections can be collapsed for a simpler user experience. Sections in enrollment forms are also
+supported and are aligned with the design of the event sections.
+ 
+Error messages
+The app will list the name of the mandatory fields missing when the user tries to complete an event or
+enrollment. The sections containing the missing fields will be highlighted to help the user find the
+missing fields.
+51
+Programs Event Notes
+The errors and warnings are also shown as an indicator next to the section name including the
+number of errors for each section.
+Event Notes
+It is possible to add notes to events in single event programs and program stage events. Notes are
+available in a new tab at the data entry form.
+52
+Programs Maps
+ 
+Maps
+Map Layers
+When displaying maps there are different layers that can be displayed by clicking on the specific
+button on the uppper right corner. The user can select one or more layers to be displayed. Both
+coordinate and polygons types will be displayed. The layers are depenandat on the type of program as
+explained below:
+• Show events (For programs without registration)
+• Satellite view
+• TEI coordinates (By default in programs with registration)
+• Enrollment Coordinates (Only for programs with registration)
+• Program Stage coordinates (Only for programs with registration)
+• Relationships (Only for programs with registration)
+• Heatmap (Only for programs with registration)
+• Tracked Entity Attributes (Coordinates Value Type - Only for programs with registration)
+• Data Elements (Coordinates Value Type)
+ 
+53
+Programs Maps
+Map Carousel
+On the map view of the program, a carousel of cards is displayed, one for each enrolled TEI (Tracker
+programs) or Event (Event programs).
+• TEI cards on the carousel follow the same design as the TEI list view.
+• When scrolling horizontally the carousel, the map zooms into the selected coordinates. If
+coordinates field is empty a message is shown instead.
+ 
+Each card displays Tracked Entity Attributes (for Tracker Programs) and Data Elements (for Event
+programs) configured as 'Display in list'.
+Current Location displayed in maps (Improved 2.5)
+If the user has granted location permissions to the App, the map will show the current location
+represented as a blue color dot. The maps in the DHIS2 Android Capture App include the possibility to
+center the map on the user location.
+54
+Programs Working Lists
+Navigation to Specific Location
+If the TEI or event has coordinates a navigation icon will be displayed at the top right of the card. Click
+to open the location in the default maps app configured in the device.
+  
+Working Lists
+Working lists are available in Event and Tracker Programs, once a list is selected the filters will be
+blocked and not allowed to change until the user resets the search.
+55
+Programs Program Indicators
+ 
+Program Indicators
+The analytics tab supports displaying text and key/value pair in feedback or indicator section.
+Legends
+Legends can be assigned to Data Elements and they will be displayed next to value with the
+respective color and label.
+56
+Programs Event Programs specific features
+Event Programs specific features
+Event - TEI relationships (NEW 2.5)
+The app allows adding relationships from single events (in event programs) to TEIs. There is a new
+tab in the event screen, named relationships, that will be displayed only when this type of relationships
+are configured in the server for the specific program.
+Note
+The current version does not allow TEIs to event relationships, or using
+events that belong to an enrollment.
+Tracker Programs (program with registration) specific features
+Relationships in maps
+In tracker programs, the user can see relationships on a map by tapping the map icon on the
+relationships tab.
+• An arrow is shown on the direction of the relationship.
+• For bidirectional relationships, the arrow points both sides.
+57
+Programs TEI Dashboard navigation panel (NEW in 2.5)
+• Each relationship type displays a different color.
+• If one or both TEIs have a polygon as coordinate, the line goes from (and to) the nearest point
+in the polygon of both TEIs.
+TEI Dashboard navigation panel (NEW in 2.5)
+To simplify and personalize the user experience, the user interface actions offered to the user at the
+TEI dashboard will be tailored to the specific configuration of each program.
+• Relationships tab will not be visible if the program relationships are not configured
+• "Create event" button will be hidden when the user cannot create more events based on tracker
+configuration.
+• The Indicator tab will not be visible if the program has no program indicators configured.
+• Organisation Unit filter will not be visible if the user has only one Organisation Unit configured.
+TEI Card Design
+The TEI Card has been designed to display as much information as possible considering the
+constrains of screen size. Currently it displays the following information:
+• Last update date
+• The first 2 attributes with displayInList option
+◦ If there are more, there will be an arrow to display the full list
+• Enrollment org unit
+• Enrollment status label if completed or cancelled
+• Overdue icon if an overdue event exists with the most recent overdue event date
+• Follow-up icon if the TEI is marked
+• Card image (one of the following options):
+◦ Profile picture when available or
+◦ First letter of the first attribute or
+◦ Tracked Entity Type icon
+◦ A hyphen will display if non of the options are available
+58
+Programs Complete/Deactivate Enrollment
+Complete/Deactivate Enrollment
+To complete or deactivate an enrollment, click on three dot menu in the uppper right corner and select
+"Complete" or "Deactivate".
+Reset Search Fields
+All tracker programs will take the user to the search screen. The search fields are used to look up for a
+specific entity, and the circled arrow to reset the search. All fields will be blank for the user to do a new
+search.
+Before entering a new TEI the user must perform a search to avoid possible duplicates. Once the
+search is performed the the search button will become "Add" button for the user to create a new
+enrollment.
+Info
+Searching before entering a new TEI is mandatory to avoid possible
+duplicates and the DHIS2 Android App has been designed as such. If the
+device is working offline the search will be performed locally, however, if the
+device is working in online mode a server search is performed. This
+behavior cannot be changed.
+59
+Programs Search screen for all Tracked Entity Type
+Search screen for all Tracked Entity Type
+User can search across all programs by specific tracked entity type (TET). In the Search screen there
+is a drop down which shows all the programs available for the active TET (active TET is defined by the
+selection of the program in the home screen). That drop down should also have an option with TET
+name, for example: All Person.
+When the user selects that option, the search fields available will only be the TET attributes (no
+program specific attributes). Search restrictions do not apply, because they belong to the programs.
+ 
+The search will return the found TEI's in the local database and also those in the Search OU of the
+user (when user is online). For those found online, the user will have to select them and the whole
+record will be downloaded.
+Note
+When configuring search org. units, make sure that your capture org. units
+are contained in your search org. units, to do that capture org. units have to
+be selected as well as search org. units.
+TEI Dashboard across programs
+User can see the TEI dashboard without any program by selecting the TEI in the list if the search was
+without program.
+The dashboards will show the list of active enrollments.
+60
+Programs TEI enrollment history and new enrollment
+ 
+TEI enrollment history and new enrollment
+User can see the complete historical records of the TEI. Clicking on the upper right corner menu,
+select "Program Enrollments". A list of "Active enrollments" will be displayed, followed by a list of "Past
+enrollments" (completed or cancelled), followed by the programs in which the TEI could be enrolled.
+User can also return to the "TEI Dashboard" without any program' by selecting "All enrollments".
+ 
+Delete TEI's & Enrollments
+To delete a TEI or an enrollment, select the desired option in the three dots menu of TEI dashboard.
+Local TEI or Enrollment will be deleted from the database. Records that has been previously synced
+with the server will be marked for deletion if the user has the following authorities:
+• F_ENROLLMENT_CASCADE_DELETE
+• F_TEI_CASCADE_DELETE
+In this case they will be shown in the TEI search list, but will not be accessible.
+61
+Programs Group view of Program stages in TEI Dashboard
+Warning
+When users enter a TEI and while it is not synced to the server they will be
+able to delete the TEI and the enrollment even if they have not been
+asigned these authorities. This is by design and to allow users rolling back
+in case of having entered wrong data (TEI and/or enrollment) and thus
+preventing it reaching the server and requiring another user with higher
+privileges to fix the issue.
+Group view of Program stages in TEI Dashboard
+The TEI Dashboard offers the possibility to change the list of events from the chronological view to a
+stage grouping view. The stage grouping view will group and collapse the events per program stage.
+Each program stage group can be expanded by the user and the events will be displayed
+chronologically.
+ 
+Inherit Values
+When creating a new TEI for a relationship, inherit any program attribute marked with the inherit check
+in web.
+62
+Programs Breaking the glass
+This means that any existing attributes in the first TEI should have pass to the new TEI and be shown
+in the registration form.
+Breaking the glass
+The "breaking the glass" feature is not yet supported in DHIS2 Android Capture App. If the program is
+configured as "Protected", the default behavior for Android will be the same as if the program is
+configured as "closed". This means that an Android user will not be able to read or edit enrollments of
+a TEI outside of their capture org units. TEIs registered in a Search OU will be returned by the TE
+Type search but if the program is closed or protected the user will not be allowed to see or create a
+new enrollment. If Android users must be able to access TEI outside of their data capture org unit, the
+program should be configured with access level "Open".
+Analytic charts
+It is possible to display the evolution in data elements as charts, values or tables. These data
+elements must be a numeric value type and configured in a repeatable stage.
+1. Single value: It will display the newest value in the program.
+1. Charts: It is possible to display the values as a line chart o as a bar chart.
+63
+Programs Analytic charts
+The Nutrition Growth charts are shown according to the WHO standards. This option will render a
+background image and apply the axis (0 to 5 monthly)according to the WHO model.
+1. Tables: It will display the data elements or indicators in the rows and the periods in the columns.
+64
+Programs Supported features Overview
+Supported features Overview
+The following is a comprehensive list of all features available for Programs with and without
+registration in DHIS2, and notes on whether or not these have been implemented in the Android
+Capture app.
+In the notes, ‘admin’ refers to someone who develops and configures a DHIS2 system, and ‘user’
+refers to someone who uses apps to capture data, update it, and review reports.
+Legend Description
+Feature implemented
+Feature not implemented (will be ignored)
+Not applicable
+Work in progress. Feature not completely
+implemented yet or with unexpected behaviour
+already reported.
+Program
+| Feature | Description of feature | Program with registration | Program without registration | Notes on
+implementation | | --- | --- | :-: | :-: | --- | --- | | Data entry method for option sets | Enables an admin to
+choose how options will be displayed on-screen across the entire program (ie either as drop-down lists
+or as radio buttons) | | | This will be replaced by the new rendering options. | | Combination of
+categories (Attribute CatCombo) | Allows an admin to attach a Category (set of Options) to the
+Program, requiring users to categorize each enrolment. (This is called an Attribute Category
+Combination in DHIS 2.) | | | | | Data approval workflow | If an admin selects a pre-configured Data
+Approval Workflow, this will be used to enforce an "approval" or "acceptance and approval" cascade,
+enabling users to sign-off and lock data. | | | | | Display front page list | If this option is ticked, the
+landing page displays a list of active enrolments once an Org Unit and Program have been chosen.
+(Attributes shown are those ticked as "display in list".) | | | | | First stage appears on registration page |
+When this option is chosen, then during Program enrolment, the screen for the first Program Stage is
+also shown (enrolment and the first event are captured together on one screen). | | | In Android, this is
+implemented by opening automatically the event after enrollment is completed, instead of adding the
+form to the same screen. | | Completed events expiry days | Enables admins to lock data-entry a
+certain number of days after an event has been completed. | | | | | Expiry period type + expiry days |
+Enables admins to set a period (eg weekly, monthly), and to lock data-entry a certain number of days
+after the end of the period. | | | | | Allow future enrolment dates | If ticked, this enables a user to enter
+future Enrolment dates during enrolment in a Program; otherwise users are restricted to today or past
+dates. | | | | | Allow future incident dates | If ticked, this enables a user to enter future Incident dates
+during enrolment in a Program; otherwise users are restricted to today or past dates. | | | | | Only enrol
+once (per tracked entity instance lifetime) | If ticked, prevents a TEI (eg person) from being enrolled in
+this Program more than once. | | | | | Show incident date | If ticked, both Enrolment and Incident dates
+are shown to the user for data capture; otherwise, only the Enrolment date is shown/captured. | | | | |
+Description of incident date | Allows an admin to customize the label that is used for the incident date. |
+| | | | Description of enrolment date | Allows an admin to customize the label that is used for the
+enrollment date. | | | | | Capture coordinates (enrolment) | Enables users to capture geographical
+coordinates during enrolment in the program. | | | | | Capture Polygon (enrolment) | Enables users to
+capture locations (enclosed areas) during enrolment in the program. | | | | | TEI Coordinates | Enables
+users to capture geographical coordinates for the TEI during the enrolment in the program. | | | | |
+Relationships: create and update | Enables users to create and update relationships. | | | | |
+Relationships - shortcut link to add a relative | This enables admins to add a link for one specific
+relationship to the Dashboard, enabling users to directly create a linked TEI (eg "child" patient). | | | | |
+Attributes: display in list | This setting determines whether an Attribute can be viewed in lists such as
+65
+Programs Program stage
+search results, and whether it can be seen in the shortlist of Attributes shown under "Profile" in the
+Dashboard. | | | The first three attributes will be shown | | | Attributes: mandatory | This enables an
+admin to mark an Attribute as "mandatory";, meaning the enrolment can"t be saved until a value is
+captured. | | | | | Attributes: date in future | For date Attributes, this enables an admin to either prevent
+or allow future dates to be captured. | | | | | Registration form - default | The default data entry form
+simply lists all attributes defined for the TEI. | | | | | Registration form - custom | This enables an admin
+to define a custom layout (using HTML) for the registration form. | - | | Custom layouts are not
+supported in the Android App | | | Program notifications | You can set up automated notifications for
+when program enrolments or completions occur, or at a set interval before/after incident or enrolment
+dates. These can be sent as internal DHIS 2 messages, emails or SMSs. | | | This functionality is
+executed on the server side, once data is received. Will not work when the app is working offline. | | |
+Activate/deactivate enrolment | Deactivating a TEI dashboard will cause the TEI to become “read-
+only”. This means you cannot enter data, enrol the TEI or edit the TEI profile. | | | | | Complete allowed
+only if validation passes | Select check box to enforce that an event created by this program is only
+completed when all validation rules have passed. | | | | | Org unit opening/closing dates | Enables an
+admin to set opening and closing dates for an Org Unit, which blocks users from adding or editing
+events outside of these dates. | | | | | Data sharing levels/Can capture data | Enables the user to add
+new event, edit data and delete events in the program. | | | | | Data sharing levels/Can view data |
+Enables the user to see list of events within the program. | | | | | Data sharing levels/No access | The
+user will not be able to see the program | | | |
+Program stage
+Description of Program with Program without Notes on
+Feature
+feature registration registration implementation
+Event form - The default data
+default entry form simply
+lists all attributes
+belonging to a
+program
+registration
+Event form - Sections forms
+section forms allow you to split
+existing forms into
+segments
+Event form - Define a custom Custom layouts
+custom event form as a are not supported
+HTML page. in the Android
+App.
+66
+Programs Program stage
+Description of Program with Program without Notes on
+Feature
+feature registration registration implementation
+Program stage You can set up This functionality
+notifications automated is executed on the
+notifications for server side, once
+when the program data is received.
+stage is Will not work
+completed, or at a when the app is
+set interval working offline.
+before/after
+scheduled event
+dates. These can
+be sent as internal
+DHIS 2
+messages, emails
+or SMS
+messages.
+Repeatable If Repeatable Is
+ticked, this stage
+can be repeated
+during one
+program
+enrollment. If t is
+not, then the
+stage can only
+happen once
+during a program
+enrollment.
+Repeatable If Repeatable Is
+ticked, this stage
+can be repeated
+during one
+program
+enrollment. If t is
+not, then the
+stage can only
+happen once
+during a program
+enrollment.
+Repeatable + The system will
+Standard interval suggest the due
+days date as the
+calculation of the
+last event +
+standard interval
+dates.
+67
+Programs Program stage
+Description of Program with Program without Notes on
+Feature
+feature registration registration implementation
+Period type Enables an admin
+to configure a set
+of periods (e.g.
+weeks or months)
+for each event in
+the program
+stage, instead of
+just a date. When
+creating events,
+users are then
+asked to choose a
+period (instead of
+a date) for each
+new event they
+create within that
+program stage.
+Auto-generate If ticked, a
+event "booking" is
+generated for this
+Program Stage
+upon enrolment,
+based on the
+"Scheduled days
+from start".
+Generate events Check on it for
+based on auto-generating
+enrolment date due dates of
+(not incident date) events from
+program-stages of
+this program
+based on the
+enrollment date. If
+it is not checked,
+the due dates are
+generated based
+on incident date.
+Open data entry If selected, once
+form after an enrolment is
+enrolment + complete, an
+report date to use event's data entry
+form should open
+directly
+afterwards.
+68
+Programs Program stage
+Description of Program with Program without Notes on
+Feature
+feature registration registration implementation
+Ask user to If selected, upon
+complete program completing the
+when stage is program stage the
+complete user should be
+asked to complete
+the program. (This
+setting is ignored
+if "Ask user to
+create new event"
+is also ticked.)
+Ask user to create If selected, when
+new event when the Program
+stage is complete Stage is
+completed the
+user is prompted
+to book.
+Hide due date Only shows the
+actual date for
+events, hiding the
+due date.
+Capture Enables the user
+coordinates to capture
+(event)/Feature geographical
+Type-Point coordinates when
+each event is
+created
+particularly useful
+in devices that
+have GPS (eg
+Android), as
+instead of having
+to type in
+coordinates, the
+user can
+automatically
+populate them
+with the press of a
+button.
+Capture Polygon Enables users to
+(event)/Feature capture locations
+Type-Polygon (enclosed areas)
+when each event
+is created. A
+Polygon must
+contain at least 4
+points.
+69
+Programs Program stage
+Description of Program with Program without Notes on
+Feature
+feature registration registration implementation
+Description of Allows an admin
+report date to customize the
+label that is used
+for the event's
+date.
+Data elements- This enables an
+compulsory admin to mark a
+data element as
+"compulsory",
+meaning an event
+can not be saved
+until a value is
+captured.
+Data elements- On the form, this
+allow provided places a tick-box
+elsewhere next to the
+selected data
+element, and
+enables previous
+data to be pulled
+into the data
+element.
+Data elements- Displays the value
+display in reports of this data
+element into the
+single event
+without
+registration data
+entry function.
+Data elements- For date Data
+date in future Elements, this
+enables an admin
+to either prevent
+or allow future
+dates to be
+captured.
+Data elements- Enables an admin
+render options as to choose how
+radio options will be
+displayed on-
+screen for each
+Data Element (i.e.
+either as drop-
+down list or as
+radio buttons).
+Block entry form Prevents all edits
+after completed to events after
+they have been
+completed.
+70
+Programs Program with registration: Tracked entity dashboard
+Description of Program with Program without Notes on
+Feature
+feature registration registration implementation
+Event comments Enables the user
+to add overall
+comments to an
+event. These
+comments are
+cumulative (new
+comments are
+added below
+existing
+comments).
+Program with registration: Tracked entity dashboard
+| Feature | Description of feature | Status | Notes on implementation | | --- | --- | :-: | --- | --- | |
+Messaging | Enables users to send ad-hoc free-text messages to TEIs (e.g. patients) via SMS or
+email. | | | | Mark for follow-up (button with exclamation triangle) | Enables a user to mark a TEI (e.g.
+patient) as requiring follow-up. | | | | Display TEI audit history | Enables a user to see a history of all
+edits to Attributes for this TEI (e.g. patient). | - | | | Inline Program Indicators | If a program indicator
+"display in form" box is ticked, the indicator appears on the Tracker Capture dashboard, and is
+updated live as data capture occurs. | | | | | Delete events | Enables the user to delete an event. | | | |
+Schedule events | In the event generation dialogue, the user should also see the option to schedule
+an event. The process is like creating an event, but the user will be sent back to the TEI dashboard
+after the event is scheduled. | | | | Referral of patients | In the event generation dialogue, the user
+should also see the option to refer a patient. The process is like creating/scheduling an event, but the
+user can change the org unit and has to specify if is a one-time or permanent referral. One time will
+just create the event in the specified OU. | | | | Reset search fields | User is able to clean up the search
+fields by pressing on the rounded arrow icon on the top right corner of the search screen. | | | | Search
+screen for all TE Type | User is able to search across all program of one tracked entity type (TET). In
+the Search screen there is a drop down which shows all the programs available for the active TET
+(active TET is defined by the selection of the program in the home screen). That drop down should
+also have an option with TET name. (Person in our server). When the user selects that option, the
+search fields available will only be the TET attributes (no program specific attributes). All search
+restrictions do not apply, because they belong to the programs. | | | | TEI Dashboard without program |
+User can see the TEI dashboard without any program by selecting the TEI in the list if the search was
+without program. The dashboards will show the TET attributes in the details card followed by a list of
+active enrollments. | | | | TEI enrollment history and new enrollment | User is able to see the complete
+historical record of the TEI. By clicking on the top right corner icon they will see a list of Active
+enrolments, followed by a list of past enrolments (completed or cancelled), followed by the programs
+in which the TEI could be enrolled. Users should be able to navigate to the different enrolments from
+the list. | | | | Access level-Breaking the glass | If the program is configured with access level protected,
+and the user searches and finds tracked entity instances that is owned by organisation unit that the
+user does not have data capture authority for, the user is presented with the option of breaking the
+glass. The user will gove a reason for breaking the glass, then gain temporary ownership of the
+tracked entity instance. | | |
+Program without registration: Single event program
+| Feature | Description of feature | Status | Notes on implementation | | --- | --- | :-: | --- | --- | | Events
+listing (grid) | A listing of existing events that is displayed once a program is selected. | | | | Sort and
+filter events in grid | Allows the user to sort listed events, or to filter events based on keywords or
+specific ranges of dates/numbers. | | Events are sorted chronologically. The user can filter by period
+and organisation unit. | | | Edit events in grid | Allows the user to directly edit the data elements shown
+71
+Programs Program without registration: Single event program
+in the events listing/grid. | | | | View event audit history | Enables the user to see a history of all
+changes to the event's data elements. | | | | Show/hide columns (in event list/grid) | Enables the user to
+modify the data elements shown in the event listing/grid (applies to that user only). | | | | Field
+completion percentage | The percentage of data completed in each event is shown in the top right
+corner of an event when it is opened after first registration. The percentages should be adapted to the
+effects of the program rules in the forms. | | The percentage of completion does not take into account
+the not-supported value types in the forms. | | | Delete events | Enables the user to delete an event. | |
+|
+72
+Program rules supported in Android Capture App Program rule Variable source types supported
+Program rules supported in Android Capture App
+The following is a comprehensive list of all Program Rule components (variable types and actions)
+available in DHIS2, and notes on whether or not these have been implemented in the DHIS2 Android
+App.
+Note
+Any issues around using a particular feature with Android are highlighted
+with an exclamation mark !.
+legend description
+Value type implemented
+Value type not implemented, but will be safely
+ignored (if not compulsory)
+Not applicable
+Work in progress. Feature not completely
+implemented yet or with unexpected behavior
+already reported
+Program rule Variable source types supported
+Description of Program with Program without Notes on
+Variable type
+variable type registration registration implementation
+Data Element This source type
+from the newest works the same
+event for a way as "Data
+program stage element from the
+newest event in
+the current
+program", except
+that it only
+evaluates values
+from a specific
+program stage.
+Data element This source type
+from the newest is populated with
+event in the the newest data
+current program value collected for
+(with registration) the specified data
+element within the
+enrolment.
+Data Element This program rule
+from the newest variable will be
+event in the populated with the
+current program newest data value
+(without found within the
+registration) 10 newest events
+in the same
+organization unit.
+73
+Program rules supported in Android Capture Program rule Actions supported (Data element in current
+App event)
+Description of Program with Program without Notes on
+Variable type
+variable type registration registration implementation
+Data Element in Variable takes the
+current event data element’s
+(with registration) value from the
+current event.
+Data Element in Contains the data
+current event value from the
+(without same event that
+registration) the user currently
+has open.
+Data Element Program rule
+from previous variables with this
+event (with source type will
+registration) contain the
+newest value from
+all previous
+events for the
+specified data
+element. The
+event currently
+open is not
+evaluated.
+Data Element This program rule
+from previous variable will be
+event (without populated with the
+registration) newest data value
+found within the
+10 events
+preceding the
+current event date
+(i.e. not including
+the current event).
+Tracked Entity Populates the
+Attribute program rule
+variable with a
+specified tracked
+entity attribute for
+the current TEI
+(e.g. current
+patient).
+Calculated value Calculated value.
+Program rule Actions supported (Data element in current event)
+| Action | Description of action | Program with registration | Program without registration | Notes on
+implementation | | --- | --- | :-: | :-: | --- | --- | | Hide Field | Hides an individual data element if the rule is
+true. | | | ! If you change the value after the field is hidden, it will revert the action depending on the
+value type rule engine default value. We recommend its use combined with the hasvalue function. | | |
+Hide Section | Hides a whole section and its data elements if the rule is true. | | | | | Hide Option | Hide
+a single option for an option set in a given data element/tracked entity attribute. When combined with 
+show option group the hide option takes precedence | | | | | Hide Option Group | Hide all options in
+74
+Program rules supported in Android Capture App Program rule Actions supported (Other variables)
+a given option group and data element/tracked entity attribute. When combined with show option
+group the hide option takes precedence | | | | | Show option group | Used to show only options from a
+given option group in a given data element/tracked entity attribute. To show an option group implicitly
+hides all options that is not part of the group(s) that is shown. | | | | | Assign Value | Assigns a value to
+a specified data element or attribute if the rule is true. | | | To assing text, it must be in single quotes.
+For example: '2+2' will show the text 2+2 and 2+2, without the single quotes will show 4. | | Show
+Warning | Shows pop-up warning to the user if rule is true; does not prevent the user from continuing. |
+| | | | Warning on Complete | Shows a pop-up warning to the user if, at the point ‘complete’ is clicked, a
+rule is true; this does not prevent the user from continuing. | | | | | Show Error | Shows a pop-up error
+message to the user as soon as a rule is true, and prevents user from continuing until rule is no longer
+true. | | | The value is not saved, but the text is not cleared so that the user can fix it easily. | | | Error on
+Complete | Shows a pop-up warning to the user if, when "complete"; is clicked, a rule is true, and
+prevents user from continuing until rule is no longer true. | | | | | Make Field Mandatory | Sets a data
+element as "mandatory"; if rule is true. | | | | | Display Text (Event Programs) | Used to display
+information that is not an error or a warning, for example feedback. | | | Independently from the source
+variable type, text will be displayed in the form as the last element of the last section. Text will be
+displayed as the messages in the indicators tab. | | | Display Text (Tracker Programs) | Used to display
+information that is not an error or a warning, for example feedback. | | | 1. Program rule configured
+as "Trigger rule only for program stage". Text will be displayed ONLY in the form as the last
+element of the last section. Text will be displayed as the messages in the indicators tab. -> If the
+program rule uses any variable type which is not from the current stage, the rule will not be able to
+evaluate and the message will not be shown.2. Program rule NOT configured as "Trigger rule only
+for program stage". Text will be displayed ONLY in the indicators tab and NOT in the form.→ If the
+program rule uses any variable of type Current event, the rule will not be able to evaluate and the
+message will not be shown. | | | Display Key Value/Pair (Event Programs) | Used to display information
+drawn from a data element. | | | Variable Type: _ Data element from the newest event in the current
+program_ Data element from previous event_ Data element in current event_ Built-in variableKey/
+Value Pair will be displayed in the form ONLY in the specified section. | | | Display Key Value/Pair
+(Traker Programs) | Used to display information drawn from a data element. | | | 1. Variable Type:_
+Data element in current eventKey/Value Pair will be displayed in the form ONLY in the specified
+section.2. Variable Type:_ Data element from the newest event in the current program_ Data element
+from previous event_ Data element from the newest event for a program stage_ Tracked entity
+attribute_ Built-in variableKey/Value Pair will be displayed ONLY in the indicators tab and NOT in the
+form. | | | Hide Program Stage | Hides a whole program stage from the user if the rule is true. | | |
+Action rule only supported for Data element from the newest event in the current program type
+and tracked entity attribute variables. | | | Send Message | Send Message triggers a notification
+based on provided message template.This action will be taken whenever there is a change in data
+value. However this behaviour can be controlled by providing event-enrollment status in program rule
+expression | | | This feature is executed on the server side. | | | Schedule Message | Schedule
+Message will schedule notification at date provided by Expression in the data field. | | | This feature is
+executed on the server side. | |
+Program rule Actions supported (Other variables)
+| Action | Description of Action | Data Element from the Newest Event in the Current Program (with
+registration) | Data Element from the Newest Event in the Current Program (without registration) | Data
+Element from Previous Event (with registration) | Data Element from Previous Event (without
+registration) | Data Element from the Newest Event for a Program Stage (with registration) | Tracked
+Entity Atribute (with registration) | Notes on implementation | | --- | --- | :-: | :-: | :-: | :-: | :-: | :-: | --- | --- |
+--- | | Hide Field | Hides an individual data element if the rule is true. | | | | | | | | | Hide Section | Hides a
+whole section and its data elements if the rule is true. | | | | | | | | | Hide Option | Hide a single option for
+an option set in a given data element/tracked entity attribute. When combined with show option
+group the hide option takes precedence. | | | | | | | | | Hide Option Group | Hide all options in a given
+option group and data element/tracked entity attribute.When combined with show option group the
+hide option takes precedence. | | | | | | | | | Assign Value | Assigns a value to a specified data element or
+75
+Program rules supported in Android Capture App Functions to use in program rule expressions
+attribute if the rule is true. | | | | | | | To assing text, it must be in single quotes. For example: '2+2' will
+show the text 2+2 and 2+2, without the single quotes will show 4. | | Show Warning | Shows pop-up
+warning to the user if rule is true; does not prevent the user from continuing. | | | | | | | | | Warning on
+Complete | Shows a pop-up warning to the user if, at the point "complete" is clicked, a rule is true; this
+does not prevent the user from continuing. | | | | | | | | | Show Error | Shows a pop-up error message to
+the user as soon as a rule is true, and prevents user from continuing until rule is no longer true. | | | | | |
+| The rule will let the user to finish the enrollment but will prevent from completing the events until rule
+is no longer true. The value is not saved, but the text is not cleared so that the user can fix it easily. | | |
+Error on Complete | Shows a pop-up warning to the user if, at the point "complete" is clicked, a rule is
+true; this does not prevent the user from continuing. | | | | | | | | | Make Field Mandatory | Sets a data
+element as "mandatory" if rule is true. | | | | | | | | | Display Text (Event Programs) | Used to display
+information that is not an error or a warning, for example feedback. | | | | | | | | Independently from the
+source variable type, text will be displayed in the form as the last element of the last section. Text will
+be displayed as the messages in the indicators tab. | | | Display Text (Tracker Programs) | Used to
+display information that is not an error or a warning, for example feedback. | | | | | | | 1. Program rule
+configured as "Trigger rule only for program stage". Text will be displayed ONLY in the form as the
+last element of the last section. Text will be displayed as the messages in the indicators tab. -> If the
+program rule uses any variable type which is not from the current stage, the rule will not be able to
+evaluate and the message will not be shown.2. Program rule NOT configured as "Trigger rule only
+for program stage". Text will be displayed ONLY in the indicators tab and NOT in the form.→ If the
+program rule uses any variable of type Current event, the rule will not be able to evaluate and the
+message will not be shown. | | | Display Key Value/Pair (Event Programs) | Used to display information
+drawn from a data element. | | | | | | | Variable Type: _ Data element from the newest event in the
+current program_ Data element from previous event_ Data element in current event_ Built-in
+variableKey/Value Pair will be displayed in the form ONLY in the specified section. | | | Display Key
+Value/Pair (Traker Programs) | Used to display information drawn from a data element. | | | | | | | 1.
+Variable Type:_ Data element in current eventKey/Value Pair will be displayed in the form ONLY in
+the specified section.2. Variable Type:_ Data element from the newest event in the current program_
+Data element from previous event_ Data element from the newest event for a program stage_ Tracked
+entity attribute_ Built-in variableKey/Value Pair will be displayed ONLY in the indicators tab and NOT in
+the form. | | | Hide Program Stage | Hides a whole program stage from the user if the rule is true. | | | | |
+| | Action rule only supported for Data element from the newest event in the current program
+variable type. If the event is auto-generated, the rule will not apply. | | | Send Message | Send
+Message triggers a notification based on provided message template.This action will be taken
+whenever there is a change in data value. However this behaviour can be controlled by providing
+event-enrollment status in program rule expression | | | | | | | This feature is executed on the server
+side. | | | Schedule Message | Schedule Message will schedule notification at date provided by
+Expression in the data field. | | | | | | | This feature is executed on the server side. | |
+Functions to use in program rule expressions
+| Function | Description of function | Status | Notes on implementation | | --- | --- | :-: | --- | --- | | d2:ceil |
+Rounds the input argument up to the nearest whole number. | | | | d2:floor | Rounds the input argument
+down to the nearest whole number. | | | | d2:round | Rounds the input argument to the nearest whole
+number. | | | | d2:modulus | Produces the modulus when dividing the first with the second argument. | |
+| | d2:zing | Evaluates the argument of type number to zero if the value is negative, otherwise to the
+value itself. | | | | d2:oizp | Evaluates the argument of type number to one if the value is zero or
+positive, otherwise to zero. | | | | d2:concatenate | Produces a string concatenated string from the input
+parameters. Supports any number of parameters. | | Use d2:concatenate function instead of using "+"
+as the expression evaluator in the app will be adding numbers if it can. | | | d2:daysBetween |
+Produces the number of days between the first and second argument. If the second argument date is
+before the first argument,  the return value will be the negative number of days between the two dates.
+The static date format is 'yyyy-MM-dd'. | | | | d2:weeksBetween | Produces the number of full weeks
+between the first and second argument. If the second argument date is before the first argument,  the
+return value will be the negative number of weeks between the two dates. The static date format is
+76
+Program rules supported in Android Capture App Standard variables to use in program rule expressions
+'yyyy-MM-dd'. | | | | d2:monthsBetween | Produces the number of full months between the first and
+second argument. If the second argument date is before the first argument the return value will be the
+negative number of months between the two dates. The static date format is 'yyyy-MM-dd'. | | | |
+d2:yearsBetween | Produces the number of years between the first and second argument. If the
+second argument date is before the first argument, the return value will be the negative number of
+years between the two dates. The static date format is 'yyyy-MM-dd'. | | | | d2:addDays | Produces a
+date based on the first argument date, adding the second argument number of days. | | | | d2:count |
+Counts the number of values that is entered for the source field in the argument. | | | | d2:countIfValue |
+Counts the number of matching values that is entered for the source field in the first argument. Only
+occurrences that matches the second argument is counted. | | | | d2:countIfZeroPos | Counts the
+number of values that is zero or positive entered for the source field in the argument. The source field
+parameter is the name of one of the defined source fields in the program. | | | | d2:hasValue | Returns
+the number of numeric zero and positive values among the given object arguments. Can be provided
+with any number of arguments. | | | | d2:validatePattern | Evaluates to true if the input text is an exact
+match with the supplied regular expression pattern. The regular expression needs to be escaped. | | | |
+d2:left | Evaluates to the left part of a text, num-chars from the first character. | | | | d2:right | Evaluates
+to the right part of a text, num-chars from the last character. | | | | d2:substring | Evaluates to the part of
+a string specified by the start and end character number. | | | | d2:split | Split the text by delimiter, and
+keep the nth element (0 is the first). | | | | d2:length | Find the length of a string. | | | | d2:zpvc | Returns
+the number of numeric zero and positive values among the given object arguments. Can be provided
+any number of arguments. | | | | d2:inOrgUnitGroup* | Evaluates whether the current organization unit
+is in the argument group. The argument can be defined with either ID or organization unit group code.
+| | | | d2:hasUserRole** | Returns true if the current user has this role otherwise false. | | | |
+d2:zScoreWFA*** | Function calculates z-score based on data provided by WHO weight-for-age
+indicator. Its value varies between -3.5 to 3.5 depending upon the value of weight. | | |
+Note
+• Available in DHIS2 v2.30 ** Available in DHIS2 v2.31 and greater ***
+Available in DHIS2 v2.32 and greater
+Standard variables to use in program rule expressions
+Available in DHIS2 v2.30
+Description of Notes on
+Variable Status
+function implementation
+V{current_date} Contains the current
+date whenever the rule
+is executed.
+V{event_date} Contains the event date
+of the current event
+execution. Will not have
+a value at the moment
+the rule is executed as
+part of the registration
+form.
+V{event_status} Contains status of the
+current event or
+enrollment.
+77
+Program rules supported in Android Capture App Standard variables to use in program rule expressions
+Description of Notes on
+Variable Status
+function implementation
+V{due_date} * This variable will
+contain the current date
+when the rule is
+executed. Note: This
+means that the rule
+might produce different
+results at different
+times, even if nothing
+else has changed.
+V{event_count} Contains the total
+number of events in the
+enrollment.
+V{enrollment_date} * Contains the enrollment
+date of the current
+enrollment. Will not
+have a value for single
+event programs.
+V{incident_date} * Contains the incident
+date of the current
+enrollment. Will not
+have a value for single
+event programs.
+V{enrollment_id} * Universal identifier
+string(UID) of the
+current enrollment. Will
+not have a value for
+single event programs.
+V{event_id} Universal identifier
+string(UID) of the
+current event context.
+Will not have a value at
+the moment the rule is
+executed as part of the
+registration form.
+V{orgunit_code} Contains the code of
+the orgunit that is linked
+to the current
+enrollment. For single
+event programs the
+code from the current
+event Org Unit will be
+used instead.
+78
+Program rules supported in Android Differences between the Program Rules in the web and the
+Capture App Android version
+Description of Notes on
+Variable Status
+function implementation
+V{environment} Contains a code
+representing the current
+runtime environment for
+the rules. The possible
+values is "WebClient",
+"AndroidClient" and
+"Server". Can be used
+when a program rule is
+only supposed to run in
+one or more of the
+client types.
+V{program_stage_id} Contains the ID of the
+current program stage
+that triggered the rules.
+This can be used to run
+rules in specific
+program stages, or
+avoid execution in
+certain stages. When
+executing the rules in
+the context of a TEI
+registration form the
+variable will be empty.
+V{program_stage_nam Contains the name of
+e} the current program
+stage that triggered the
+rules. This can be used
+to run rules in specific
+program stages, or
+avoid execution in
+certain stages. When
+executing the rules in
+the context of a TEI
+registration form the
+variable will be empty.
+Notes
+* Only applies to tracker
+Differences between the Program Rules in the web and the Android version
+As the web and the Android application are currently using a different program rule engine there might
+be programs rule that work in one system and not in the other. In general terms it can be said that the
+Android program rule engine is more strict and so, some Program Rules that work in the web version
+of DHIS2 will fail in Android. This subsection describes the main differences and how to adapt the
+rules in order to have them working in both systems.
+79
+Program rules supported in Android Capture App Evaluation of type Boolean
+Evaluation of type Boolean
+DHIS2 web version considers the type boolean as 0 or 1 (which can be evaluated to true or false),
+however Android evaluates them only as true or false. While this makes possible the addition of
+booleans in web, it will fail in Android; in order to fix this an additional program rule variable is needed
+to transform the boolean into an number that can be operated. Check the table below for examples
+and possible solutions.
+For the examples belows consider the following:
+• yn_prv1: is a program rule variable that has been configured to get the value of a 'Yes/No' data
+element
+• yn_prv2: is a program rule variable that has been configured to get the value of a 'Yes/No' data
+element
+• prv_boolean_one: is a program rule variable that has been configured to get the value of a 'Yes/
+No' data element
+• prv_boolean_two: is a program rule variable that has been configured to get the value of a 'Yes/
+No' data element
+• prv_boolean_one_to_number: is a program rule variable with calculated value
+• prv_boolean_two_to_number: is a program rule variable with calculated value
+• sometimes true is used as program rule condition meaning the action is always performed
+• The following acronyms are used:
+◦ DE (Data Elemetn)
+◦ PR (Program Rule)
+◦ PRE (Program Rule Expression)
+◦ PRC (Program Rule Condition)
+◦ PRV (Program Rule Variable)
+◦ PRA (Program Rule Action)
+Program Rule Program Rule
+Web version Android version Comment
+Condition(s) Action(s)
+d2:hasValue('yn_ Assign fixed value
+prv1') || to DE
+d2:hasValue('yn_
+prv2')
+#{yn_prv1} || Assign fixed value
+#{yn_prv2} to DE
+d2:hasValue('yn_ Assign value to Crashes in
+prv1') || DE: #{yn_prv1} + Android whenver
+d2:hasValue('yn_ #{yn_prv2} + 1 a boolean is
+prv2') marked as the
+expression would
+result in true+fals
+e+1
+d2:hasValue('yn_ Assign value to Crashes in
+prv1') || DE: #{yn_prv1} + Android whenver
+d2:hasValue('yn_ #{yn_prv2} + 1 a boolean is
+prv2') marked as the
+expression would
+result in true+fals
+e+1
+80
+Program rules supported in Android Capture App Evaluation of type Boolean
+Program Rule Program Rule
+Web version Android version Comment
+Condition(s) Action(s)
+PR1: PRA1. Assign There are 2
+#{prv_boolean_o value "1" to PRV variables for
+ne} "#{prv_bool_one boolean, one gets
+_to_number}" the value via a
+PR2: PRV definition
+#{prv_boolean_t PRA2. Assign “value form DE”
+wo} value: "1" to PRV and the other one
+"#{prv_bool_two_ via a PRA. If a
+PR3: to_number}" boolean is not
+#{prv_boolean_o marked it is
+ne} || PRA3. Assign counted as string
+#{prv_boolean_t value to DE: instead of a
+wo} "#{prv_bool_one number
+_to_number} +
+#{prv_bool_two_t
+o_number} + 1"
+81
+Program rules supported in Android Capture App Evaluation of numbers
+Program Rule Program Rule
+Web version Android version Comment
+Condition(s) Action(s)
+Four PR to assign PRA1: Assign There are 2
+1 or 0 to the value: "0" to PRV variables for
+booleans and an "#{prv_bool_one boolean, one gets
+additional for the _to_number}" the value via a
+addition. Priorities PRV definition
+go from top to PRA2: Assign “value form DE”
+bottom value: "1" to PRV and the other one
+"#{prv_bool_one via a PRA.
+PRC1: ! _to_number}" 
+d2:hasValue('prv
+_boolean_one')  || PRA3: Assign
+! value: "0" to PRV
+#{prv_boolean_o "#{prv_bool_two_
+ne} to_number}" 
+PRC2: PRA4: Assign
+d2:hasValue('prv value: "1" to PRV
+_boolean_one') "#{prv_bool_two_
+&& to_number}" 
+#{prv_boolean_o
+ne} PRA5: Assign
+value:
+PRC3: ! "#{prv_bool_one
+d2:hasValue('prv _to_number} +
+_boolean_two')  || #{prv_bool_two_t
+! o_number} + 1" to
+#{prv_boolean_t DE 
+wo} 
+PRC4:
+d2:hasValue('prv
+_boolean_two') &
+&
+#{prv_boolean_t
+wo} 
+PRC5: true
+Evaluation of numbers
+DHIS2 web version evaluate numbers in a more flexible way casting values from integer to floats if
+required for a division, however, Android take numbers as such (without a casting) which my end up
+giving unexpected results. Check the table below for examples and possible solutions.
+82
+Program rules supported in Android Capture Changes in Program Rules (as from version 2.2 of the app
+App )
+Program Rule Program Rule
+Web version Android version Comment
+Condition(s) Action(s)
+true Assign value to The user would
+DE: expect the
+d2:daysBetween( division to be
+'2020-05-13', calculated as 4/3
+'2020-05-17') / 3 with a result of
+1.3333. However,
+Android does not
+cast 4 to a float
+(4.0 as the web
+version does) so
+the result in
+Android is a pure
+1 as the result of
+the integer
+division 4/3
+true Assign value to Division results in
+DE: 1.33333 in both
+d2:daysBetween( web and Android
+'2020-05-13',
+'2020-05-17') / 3.0
+Changes in Program Rules (as from version 2.2 of the app )
+In the version 2.2 of the application (released on August, 2020) a new rule-engine was included. This
+rule-engine requires some optional and some mandatory changes to be performed on the program
+rules expressions in order to make it work in the new application. A list of those changes, how to
+detect them and how to fix them is included in the following subsections.
+Evaluation of 'd2:hasValue'
+Description
+This is an optional change. d2:hasValue now works with both single quotes or full variable expression.
+The following expressions is valid: (d2:hasValue('variable_name') and
+d2:hasValue(#{variable_name}))
+How to identify via API?
+Get programRules where either the condition or the program rule action uses the d2:hasValue
+function.
+https://example.org/api/programRules?
+fields=program[name],name,programRuleActions[data],condition&filter=programRuleActions.data:like:hasValue&filter=condition:like:hasValue&rootJunction=OR
+<programRule name="PR01 - Check variable with hasValue(#{variable})">
+<condition>d2:hasValue(#{Age in years})</condition>
+<program name="JB_Testing_2.2"/>
+<programRuleActions>
+<programRuleAction/>
+</programRuleActions>
+</programRule>
+<programRule name="PR01 - Check variable with hasValue('variable')">
+83
+Program rules supported in Android Capture App Evaluation of a variable
+<condition>d2:hasValue('Age in years')</condition>
+<program name="JB_Testing_2.2"/>
+<programRuleActions>
+<programRuleAction/>
+</programRuleActions>
+</programRule>
+How to fix it?
+The example above shows how different ways of using the hasValue function will have the same effect
+as from version 2.2. There are no mandatory changes but have in mind that while writing new program
+rules being consistent might help avoiding problems.
+Evaluation of a variable
+Description
+This is a mandatory change. !#{variable_name} can only be used boolean type variables (BOOLEAN
+and TRUE_ONLY).
+How to identify via API?
+Get programRulesVariables with dataElements of the type NOT BOOLEAN or TRUE_ONLY
+https://example.org/api/programRuleVariables?fields=name&filter=dataElement.valueType:!in:
+[TRUE_ONLY,BOOLEAN]&paging=False
+Get all programRule.conditions
+https://example.org/api/programRules?fields=displayName,condition&paging=False
+Check manually (or programmatically via a script) if in the list of programRule.conditions (obtained via
+the second API call) any of the program rules variables (obtained via the first API call) is being used.
+For example, from the first list we get:
+<programRuleVariable name="AdditionalMedication"/>
+<programRuleVariable name="age"/>
+<programRuleVariable name="Age in years"/>
+<programRuleVariable name="AgeYears"/>
+<programRuleVariable name="allergies"/>
+<programRuleVariable name="apgarcomment"/>
+And we can compare with the second list:
+<programRule>
+<condition>!#{Pregant}</condition>
+<displayName>PR03- !#{varible_name} - BOOLEAN</displayName>
+</programRule>
+<programRule>
+<condition>!#{Age in years}</condition>
+<displayName>PR03- !#{varible_name} - NOT BOOLEAN</displayName>
+</programRule>
+<programRule>
+84
+Program rules supported in Android Capture App Evaluation of texts
+<condition>#{PregnancyStatus} != 'YES'</condition>
+<displayName>Pregnancy status : false</displayName>
+</programRule>
+This shows that a NON BOOLEAN variable is being used wrongly.
+How to fix it?
+Make sure that you are evaluating BOOLEAN or TRUE_ONLY variables in your conditions. In case the
+program rule variable is not of that type update your program rule condition with
+d2:hasValue(#{variable_name}) or d2:hasValue(‘variable_name’)
+In the example above the condition should change from:
+<condition>!#{Age in years}</condition>
+To:
+<condition>d2:hasValue(‘Age in years’)</condition>
+Evaluation of texts
+Description
+This is a mdantory change. In program rule actions of the type ASSIGN, DISPLAY TEXT, DISPLAY
+KEY/VALUE PAIR, SHOW WARNING, SHOW ERROR, WARNING ON COMPLETE or ERROR ON
+COMPLETE if the Expression to evaluate and assign/display is a text, it must be enclosed with single
+quotes.
+How to identify via API?
+Get the Program Rules which actions are of type text, with something on the field data and verify their
+data content to find strings without quotes.
+https://example.org/api/programRules?
+fields=program[name],name,programRuleActions[programRuleActionType,content,data]&filter=programRuleActions.programRuleActionType:in:
+[ASSIGN,DISPLAYTEXT,DISPLAYKEYVALUEPAIR,SHOWWARNING,SHOWERROR]&filter=programRuleActions.data:!
+null&paging=false
+For example we can detect here an error of a text field without quotes in the first Program Rule Action
+while the second one is correct.
+<programRule name="PR04- !#{varible_name} - BOOLEAN - Assign text without quotes">
+<program name="JB_Testing_2.2"/>
+<programRuleActions>
+<programRuleAction>
+<programRuleActionType>SHOWWARNING</programRuleActionType>
+<data>embarazada</data>
+<content>PR04 text with quotes is: </content>
+</programRuleAction>
+</programRuleActions>
+</programRule>
+85
+Program rules supported in Android Capture App Concatenation of string and objects
+<programRule name="PR04- !#{varible_name} - BOOLEAN - Assign text with quotes">
+<program name="JB_Testing_2.2"/>
+<programRuleActions>
+<programRuleAction>
+<programRuleActionType>SHOWWARNING</programRuleActionType>
+<data>'embarazada'</data>
+<content>PR04 text with quotes is: </content>
+</programRuleAction>
+</programRuleActions>
+</programRule>
+How to fix it?
+Scan the generated list (via the suggested API calls) to find data components of the Program Rule
+Action where text is not quoted, then go to each of the identified Program Rules and update them.
+Concatenation of string and objects
+Description
+This is a mdantory change. In program rule actions of the type ASSIGN, DISPLAY TEXT, DISPLAY
+KEY/VALUE PAIR, SHOW WARNING, SHOW ERROR, WARNING ON COMPLETE or ERROR ON
+COMPLETE if the Expression to evaluate and assign/display is a text, it must be enclosed with single
+quotes (same as previous change); but, on top of that, if it requires to concatenate two strings or a
+combination of functions it is mandatory to use the d2:concatenate function.
+How to identify via API?
+Get the Program Rules which actions are of type text, with any content on the field data and verify
+their data content to check if in case of two or more strings (or other objects) are being joined the
+d2:concatenate function is used
+Get the Program Rules which actions are of type text and verify their data content to find strings
+without quotes.
+http://localhost:8034/api/programRules?
+fields=program[name],name,programRuleActions[programRuleActionType,content,data]&filter=programRuleActions.programRuleActionType:in:
+[ASSIGN,DISPLAYTEXT,DISPLAYKEYVALUEPAIR,SHOWWARNING,SHOWERROR]&filter=programRuleActions.data:!
+null&paging=false
+For example we can detect here an error of two strings in an action without the use of d2:concatenate.
+<programRule name="PR08- Assign text and variable without concatenate">
+<program name="JB_Testing_2.2"/>
+<programRuleActions>
+<programRuleAction>
+<programRuleActionType>SHOWWARNING</programRuleActionType>
+<data>'Age is 10 and modulus' 'another string'</data>
+<content>PR05 text without concat is: </content>
+</programRuleAction>
+</programRuleActions>
+</programRule>
+86
+Program rules supported in Android Capture App Concatenation of string and objects
+How to fix it?
+Scan the generated list (via the suggested API calls) to find data components of the Program Rule
+Action where two or more objects are being concatenated and update them to use the d2:concatenate
+function.
+In the example above the data should change from:
+<data>'Age is 10 and modulus' 'another string'</data>
+To:
+<data>d2:concatenate('Age is 10 and modulus','another string')</data>
+87
+Program Indicators Common functions to use in a program indicator expression or filter
+Program Indicators
+The following is a comprehensive list of all Program indicator variables available in DHIS2, and notes
+on whether or not these have been implemented in the Android Capture app.
+Any issues around using a particular feature with Android are highlighted with an exclamation mark.
+legend description
+Component implemented
+Component not implemented (rule fails)
+Not applicable
+Work in progress. Feature not completely
+implemented yet or with unexpected behaviour
+already reported.
+Common functions to use in a program indicator expression or filter
+Notes on
+Function Description Status
+implementation
+if Evaluates the boolean
+expression and if true
+returns the true
+expression value, if
+false returns the false
+expression value. The
+arguments must follow
+the rules for any
+indicator expression.
+isNull Returns true if the
+element value is
+missing (null), otherwise
+false.
+isNotNull Returns true if the
+element value is not
+missing (not null),
+otherwise false.
+firstNonNull RReturns the value of
+the first element that is
+not missing (not null).
+Can be provided any
+number of arguments.
+Any argument may also
+be a numeric or string
+literal, which will be
+returned if all the
+previous objects have
+missing values.
+88
+Program Indicators (d2) Functions to use in a program indicator expression or filter
+Notes on
+Function Description Status
+implementation
+greatest Returns the greatest
+(highest) value of the
+expressions given. Can
+be provided any
+number of arguments.
+least Returns the least
+(lowest) value of the
+expressions given. Can
+be provided any
+number of arguments.
+(d2) Functions to use in a program indicator expression or filter
+Notes on
+Function Description Status
+implementation
+addDays Produces a date based
+on the first argument
+date, adding the second
+argument number of
+days.
+ceil Rounds the input
+argument up to the
+nearest whole number.
+condition Evaluates the boolean
+expression and if true
+returns the true
+expression value, if
+false returns the false
+expression value. The
+conditional expression
+must be quoted. The
+true-expr and false-expr
+arguments must follow
+the rules of any
+program indicator
+expression (including
+functions).
+count Counts the number of
+data values that has
+been collected for the
+given program stage
+and data element in the
+course of the
+enrollment. The
+argument data element
+is supplied with the
+#{programStage.dataEl
+ement} syntax.
+89
+Program Indicators (d2) Functions to use in a program indicator expression or filter
+Notes on
+Function Description Status
+implementation
+countIfCondition Counts the number of
+data values that
+matches the given
+condition criteria for the
+given program stage
+and data element in the
+course of the
+enrollment. The
+argument data element
+is supplied with the
+#{programStage.dataEl
+ement} syntax. The
+condition is supplied as
+a expression in single
+quotes.
+countIfValue Counts the number of
+data values that
+matches the given
+literal value for the
+given program stage
+and data element in the
+course of the
+enrollment. The
+argument data element
+is supplied with the
+#{programStage.dataEl
+ement} syntax. The
+value can be a hard
+coded text or number.
+countIfZeroPos Counts the number of
+values that is zero or
+positive entered for the
+source field in the
+argument.
+daysBetween Produces the number of
+days between two data
+elements/attributes of
+type date.
+floor Rounds the input
+argument down to the
+nearest whole number.
+hasUserRole Returns true if current
+user has this role
+otherwise false.
+hasValue Returns true if the data
+element/attribute has a
+value.
+90
+Program Indicators (d2) Functions to use in a program indicator expression or filter
+Notes on
+Function Description Status
+implementation
+inOrgUnitGroup Evaluates whether the
+current organisation unit
+is in the argument
+group. The argument
+can be defined with
+either ID or organisation
+unit group code.
+left Evaluates to the left
+part of a text, num-
+chars from the first
+character.
+length Find the length of a
+string.
+minutesBetween Produces the number of
+minutes between two
+data elements/attributes
+of type “date and time”.
+modulus Produces the modulus
+when dividing the first
+with the second
+argument.
+monthsBetween Produces the number of
+full months between the
+first and second
+argument.
+oizp Returns one if the
+expression is zero or
+positive, otherwise
+returns zero.
+relationshipCount Produces the number of
+relationships of the
+given type that is
+connected to the
+enrollment or event.
+When no type is given,
+all types are counted.
+right Evaluates to the right
+part of a text, num-
+chars from the last
+character.
+round Rounds the input
+argument to the nearest
+whole number.
+split RSplit the text by
+delimiter, and keep the
+nth element(0 is the
+first).
+91
+Program Indicators Variables to use in a program indicator expression or filter
+Notes on
+Function Description Status
+implementation
+substring Evaluates to the part of
+a string specified by the
+start and end character
+number.
+validatePatten Evaluates to true if the
+input text is an exact
+match with the supplied
+regular expression
+pattern.
+weeksBetween Produces the number of
+full weeks between two
+data elements/attributes
+of type date.
+yearsBetween Produces the number of
+years between the first
+and second argument.
+zing Returns zero if the
+expression is negative,
+otherwise returns the
+expression value.
+zpvc Returns the number of
+numeric zero and
+positive values among
+the given object
+arguments.
+Variables to use in a program indicator expression or filter
+| Variable type | Description of variable type | Status | Notes on implementation | | --- | --- | :-: | --- | --- | |
+Event Date 
+event_date | The date of when the event took place. | | | | Creation Date* 
+creation_date | The date of when an event or enrollment was created in the system. | | | | Due Date
+due_date | The date of when an event is due. | | | | Sync Date*
+sync_date | The date of when the event or enrollment was last synchronized with the Android app. | | |
+| Incident Date
+incident_date | The date of the incidence of the event. | | | | Enrollment Date (not visible on UI)
+enrollment_date | The date of when the tracked entity instance was enrolled in the program. | | | |
+Enrollment Status
+enrollment_status | Can be used to include or exclude enrollments in certain statuses. | | | | Current
+Date
+current_date | The current date. | | | | Completed Date | The date the event is completed. | | | | Value
+Count
+value_count | The number of non-null values in the expression part of the event. | | | | Zero or positive
+value count
+zero_pos_value_count | The number of numeric positive values in the expression part of the event. | | |
+| Event Count
+event_count | The count of events (useful in combination with filters). | | | | Enrollment Count
+enrollment_count | The count of enrollments (useful in combination with filters). | | Indicators in the
+Android App are calculated in the domain of one TEI enrollment. Value always 1. | | | TEI Count
+tei_count | The count of tracked entity instances (useful in combination with filters). | | Indicators in the
+92
+Program Indicators Variables to use in a program indicator expression or filter
+Android App are calculated in the domain of one TEI enrollment. Value always 1. | | | Program Stage
+Name
+program_stage_name | Can be used in filters for including only certain program stages in a filter for
+tracker programs. | | | | Program Stage ID
+program_stage_id | Can be used in filters for including only certain program stages in a filter for
+tracker programs. | | | | Reporting Period Start
+reporting_period_start | Can be used in filters or expressions for comparing any date to the first date in
+each reporting period. | | Indicators in the Android App are calculated in the domain of one TEI
+enrollment. | | | Reporting Period End
+reporting_period_end | Can be used in filters or expressions for comparing any date to the last
+inclusive date in each reporting period. | | Indicators in the Android App are calculated in the domain of
+one TEI enrollment. | | | Organisation Unit Count
+organisationunit_count | . | | |
+Documentation Reference
+93
+Value types supported Variables to use in a program indicator expression or filter
+Value types supported
+The following is a comprehensive list of all value types available in DHIS 2, and notes on whether or
+not these have been implemented in the Android Capture app.
+Any issues around using a particular feature with Android are highlighted with an exclamation mark !.
+Legend Description
+Value type implemented
+Value type not implemented, but will be safely
+ignored (if not compulsory)
+Work in progress. Feature not completely
+implemented yet or with unexpected behaviour
+already reported
+Program Program Program
+Descriptio Notes on
+with with without
+Value type n of value Data Set implemen
+registratio registratio registratio
+type tation
+n n n
+Attributes Data Data Data
+Elements Elements Elements
+Time Time only
+Date & Date plus
+Time time
+Date Date only
+Age Enables
+entry of
+either an
+age in
+years/
+months/
+days or a
+date-of-
+birth (both
+are stored
+as date-of-
+birth)
+Phone A valid
+number phone
+number
+Email An email
+address in
+a valid
+format
+Yes/no Boolean
+yes/no (or
+no
+response)
+Yes only Yes or no
+response
+94
+Value types supported Variables to use in a program indicator expression or filter
+Program Program Program
+Descriptio Notes on
+with with without
+Value type n of value Data Set implemen
+registratio registratio registratio
+type tation
+n n n
+Number Any valid
+number,
+including
+decimals
+Integer Any integer
+(whole
+numbers,
+no
+decimals)
+Positive Only
+Integer positive
+integers
+(no zero or
+negative
+values)
+Positive or Only zero
+Zero or positive
+Integer integers
+(no
+negative
+values)
+Negative Only
+Integer negative
+integers
+(no zero or
+positive
+values)
+Percentage Any
+decimal
+value
+between 0
+and 100
+Unit Any
+interval decimal
+value
+between 0
+and 1
+Text Text (length
+of text up to
+50,000
+characters)
+Long text Text (no
+constraints
+on length)
+Letter A single
+letter
+95
+Value types supported Variables to use in a program indicator expression or filter
+Program Program Program
+Descriptio Notes on
+with with without
+Value type n of value Data Set implemen
+registratio registratio registratio
+type tation
+n n n
+File Enables
+upload of
+files in
+various
+formats
+(requires
+appropriate
+storage to
+be
+configured)
+Organisati Enables
+on unit selection of
+a DHIS2
+organisatio
+n unit as
+the chosen
+value
+Tracker Enables
+Associate selection of
+an existing
+Tracker
+'tracked
+entity
+instance' (e
+.g. a
+person) as
+the value
+Username Enables
+selection of
+a valid
+DHIS2
+username
+as the
+value
+Coordinate Enables
+manual
+entry of
+geographi
+cal
+coordinates
+(doesn't
+enable
+automatic
+capture of
+coordinate
+s)
+96
+Value types supported Variables to use in a program indicator expression or filter
+Program Program Program
+Descriptio Notes on
+with with without
+Value type n of value Data Set implemen
+registratio registratio registratio
+type tation
+n n n
+URL Enables
+manual
+entry of a
+URL.
+Image Enables
+upload of
+images.
+97
+Android Settings Web App Overview
+Android Settings Web App
+Overview
+This section focuses on the Android Settings Web App implementation.
+The https://apps.dhis2.org/app/a1bd6b5b-de8c-4998-8d34-56c18a139683 allows admins to configure
+synchronization parameters for the DHIS2 Android App, encrypt the local database of the Android
+devices, customize the appearance of Programs, Data sets, and Home screen, and add TEI Analytics
+items. The configuration parameters defined within this web app will overwrite the settings of all
+Android devices using the DHIS2 Android Capture App.
+Please note that in this version of the Web App, only users with 'ALL' authority are able to define those
+parameters in the configuration. Other users having access to the web app can see the value of the
+parameters, but cannot edit them.
+Warning
+This version comes with improvements and disruptive features, so previous
+versions are no longer supported, the settings stored there will be removed.
+General settings
+Includes configurations such as the Matomo URL and project ID, the number of reserved values to
+download per TEI, and encrypt the device database.
+98
+Android Settings Web App Matomo configuration
+Matomo configuration
+The DHIS2 Android App sends anonymised analytics that can be used to evaluate performance and/or
+detect problems at an early stage. Matomo is the tool used for this and running in a specific server not
+accessible to the general public. However, implementations can set up their own Matomo instance (or
+using the cloud version) in order to collect and analyse the statistics.
+Once you have your Matomo instance ready you should get the URLs and the project ID like shown in
+the picture below (left). The ID can be introduced direct ly but the URL needs to be followed with /
+matomo.php as shown below (right).
+99
+Android Settings Web App Encrypt device database
+ 
+Encrypt device database
+This will force all the devices to store the database encrypted increasing the security level against data
+theft attacks.
+Mobile configuration
+This section allows admin users to edit the SMS gateway ad result sender phone number.
+Reserved values
+This will specify the number of values per TEI attribute reserved to download in the devices.
+Encrypt device database
+By default, the DHIS2 Android App database is not encrypted, but an admin can check the Encrypt
+device database to encrypt the metadata and data stored in every device. Encrypting the database will
+have an impact on the database volume and performance (degradation between 10-15%) of the
+Android app. Note that at the moment of selecting or unselecting this option, no data is lost (even if it
+hasn't been previously synchronized with the server)
+Warning
+This is a critical action and will affect the local database of all Android
+devices synchronizing with the server (it won't affect the server DHIS2
+database).
+By default, the Android app database is not encrypted, but an admin can
+check the Encrypt device database to encrypt the metadata and data stored
+in every device. Encrypting the database will have an impact on the
+database volume and performance of the Android app. Note that at the
+moment of selecting or unselecting this option, no data is lost (even if it
+hasn't been previously synchronized with the server)
+Disable all settings
+By clicking this button, the user will remove all Android configuration settings. No configuration will be
+applied to the Android App (if this is the case, the sync parameters applied are the ones defined in the
+Android Capture app).
+Synchronization
+It offers additional parameters to control metadata/data synchronization.
+100
+Android Settings Web App Global
+Global
+Metadata sync : Admin users can choose how often the metadata will sync. e.g. Sync metadata every
+24 hours.
+Data sync : Admin users can choose how often the data will sync. e.g. Syncing data every 6 hours.
+Program
+This section controls the program data synchronization parameters. It has a section to define global or
+default parameters to be used in the synchronization of all programs.
+Global settings
+Global settings apply to all programs that an Android user has access to. The settings can be enabled
+globally, per Org Unit, per program or per OU and program.
+TEI to download : Maximum number of TEIs to download from the server.
+TEI download period : It downloads the TEIs that have been updated within a period. e.g. TEIs that
+have been updated within last month
+Event to download : Maximum number of Events to download.
+Event download period : It downloads Events which event date belongs to a specific period.
+Specific settings
+This section allows the admin users to specify the behaviour of a particular program/s when syncing
+the data. The specific configuration overwrites the general settings for the programs listed in this
+section. To add a setting for a specific program:
+• Click on Add a Program-specific setting, a Dialog will appear.
+• Bellow "Values per Program" title, click and find a list of programs.
+• Clicking on a program will show the different parameters to configure. The number of
+parameters depends on the program type (with or without registration).
+Settings for Program Without Registration
+101
+Android Settings Web App Program
+Settings for a Program With Registration
+In the case that any specific settings has been saved, a table will show a summary with the specific
+configuration per program, and the options to edit or delete these settings.
+Caution
+Using specific settings per program might have unexpected results in the
+number of TEIs downloaded and the total amount might exceed the one
+defined in the Global Settings. This is due to how the appliation download
+the TEIs from the server. The Android client will first download a max
+number of TEIs from the server based on the Organistation Units where the
+user has access and based on the lastUpdate field. Afterwards it will
+download a max munumber of TEIs from the specific programs. Therefore,
+if the TEIs downloaded from the Global setting (500 in the example above)
+have been updated more recently than any of the TEIs from a specific
+program (500 for Malaria case diagnosis, treatment and investigation) the
+Android client will end up downloading 1000 TEI.
+This might look confusing at first, but once understood can be used to
+ensure a minium (and maximum) number of TEIs for a specific program will
+be downloaded which can be very useful in specific implementations.
+102
+Android Settings Web App Program
+Imagine an implementation where it must be ensured that the Android user
+has all the TEIs of a specific program in a server where the same user has
+access to other Organisation Units where other TEIs might be enrolled in
+another program. The program is called Community Care and it has 17
+TEIs which have been updated very long time ago. The administrator can
+ensure that the 17 TEIs will be donwloaded by setting anything in Global
+Settings (if needed to reduce bandwidth a very low value should be set)
+and a at least 17 for the specific program as show in the image below:
+When the initial synchronization is triggered the Android device will first
+download the last TEIs updated on the server (which according to our
+example do not belong to the specific program) and secondly up to 20 TEI
+from the specific program resulting in the following (notice all the TEIs for
+the program were downloaded):
+And by going to the settings it can be appreciated how the total number of
+TEIs is the expected 37, 20 from the Global Setting, and 17 from the
+program specific.
+103
+Android Settings Web App Data set
+Reset all values
+By clicking on Reset all values, the admin user will restore the default settings values of the program
+section. Please note that in this case it means no specific settings per program.
+To save any configuration, the admin user needs to click on the Save button (this button is disabled for
+the users who don't have the 'ALL' authority)
+Data set
+This section controls the aggregated data synchronization parameters.
+Global settings
+The first part is for global settings that apply to all data sets an Android user has access to.
+Number of Periods : Maximum number of periods to download.
+Specific Settings
+To add a specific setting:
+• Click on Add a Data set specific setting, a dialog with a list of data sets will appear.
+• Click on a data set, and this field will be autocompleted with the default value based on the
+dataset period type.
+104
+Android Settings Web App User Sync Test
+User Sync Test
+This section checks the amount of data and metadata a user would sync to his/her device. You can
+run this test on any user that you have access to. This test shows up the number of organisation units,
+data sets, program rules, programs, etc., that an android user has access to (so the resources that the
+android app will download), and the metadata and data download size (approx estimation). Please
+note that a user doesn't need to have the 'ALL' authority to run this test.
+Note:
+The values that are highlighted in red are because the value is considered
+greater than the maximum recommended value.
+Appearance
+These settings give control over the appearance of the data entry and list forms.
+• Filter: it defines the filters that can be enabled in the different app menus.
+• Completion spinner: it turns on/off the completion spinner that shows the progress in the data
+entry form.
+These settings refer to visual components, so they must be consumed by the app.
+Home screen
+It allows the admin user to enable or disable the option to show the filters related to Date, Organisation
+Unit, Sync Status, and Assigned to me on the Home screen.
+105
+Android Settings Web App Program
+Program
+It allows the admin user to specify which filters should be shown and enable or disable the option to
+show the completion percentage of the data entry form.
+Global settings
+Global settings apply to all programs that an android user has access to.
+Specific settings
+This section allows to admin user to customize the filter and percentage completion appearance
+option. To add a specific setting:
+• Click on Add a Program Settings, and a dialog will appear.
+• Click on the dropdown that will show a list of programs.
+• Clicking on a program will show the different filters to configure. The category combo filter
+depends on the category combo name.
+106
+Android Settings Web App Data set
+If any specific settings have been saved, a table will summarize the particular configuration per
+program, and the options to edit or delete these settings.
+Data set
+It allows admins to enable/disable filters for the Data set section
+Global settings
+The first part is for global settings that apply to all data sets an android user has access to.
+107
+Android Settings Web App Analytics
+Specific settings
+To add a specific setting:
+• Click on Add a Data set Settings. A dialog box will pop up with a dropdown with a list of data
+sets.
+• Click on a data set, and a list of options to enable or disable filters will be displayed.
+Analytics
+Analytics settings define TEI, Home, Program and Data Set analytics items (charts, tables) that will be
+displayed to the user. Any item defined in the settings app will overwrite the default behaviour of the
+android app, only showing the items defined in the settings app.
+Also, even though these analytics are created using the android settings web app, the data
+aggregation happens offline using only data stored in the device.
+TEI
+The scope of the analysis is the TEI, so the visualizations will be displayed in the TEI dashboard of the
+android app.
+The purpose of this section is to define visualizations to show evolution of dataelements and program
+indicators over time. Based on that, it will only take into cosideration dataelements that belongs to a
+repeatable program stage, or programindicators which formula contains at least one dataelement that
+belongs to a repeatable program stage.
+To create a TEI Analytics item:
+1. Click on Add TEI Analytics. A dialog box will pop up with a small form.
+2. Choose a program and a repeatable program stage, and fill the form. The Short name is the
+only optional field.
+108
+Android Settings Web App TEI
+3. If an item visualization other than WHO Nutrition has been chosen, the next fields to select are
+the period type (monthly, weekly, daily), an element type (Program Indicator, Data Element),
+and an element that will be based on the element type previously selected. Remember that
+these elements are related to the program and repeatable program stage chosen at the
+beginning.
+To create a WHO Nutrition Analytics item:
+1. Select a program, a program stage, and WHO nutrition as visualization type.
+2. Choose a WHO visualization type that can be Height for Age (HFA), Weight for Age (WFA) or
+Weight for Height (WFH).
+3. Select the trackedentityattribute that represents the gender. You have then to specify the option
+for Male 'Male title' and the option for Female 'Female title'. Normally they will be option codes.
+109
+Android Settings Web App TEI
+4. Choose the dataelement/programindicator that will be displayed in the Horizontal (x) axis
+5. Choose the dataelement/programindicator that will be displayed in the Vertical (y) axis
+If any TEI Analytics item has been created, a table will show the item's title and program name, and
+action buttons to delete or edit that item.
+110
+Android Settings Web App Home
+Home
+Home visualizations are displayed in the home screen (Anlaytics tab) of the android app.
+All items available are first created in the Data visualizer app in DHIS2 and configured in the android
+settings app.
+To create a Home item:
+1. Click on "Add Home Visualization"
+2. Click on the search box and select the visualization from the list or type the name of the
+visualization item.
+3. Add an alternative title, otherwise, the app will display the name of the visualization
+4. By default, the app will enable the group visualization setting.
+1. Create a new group: A free text box will pop-up to type the name or
+2. Select a created group visualization: Choose an option from the list to add the
+visualization or
+3. Disable the group visualization by clicking on the checkbox.
+5. Click on the "Save" button.
+111
+Android Settings Web App Home
+112
+Android Settings Web App Home
+To remove a Home item:
+1. Search for the item by expanding the groups
+2. Click the "Delete" button next to the item's name
+3. Click on "Delete"
+4. Click on the "Save" button
+To remove a Home group:
+1. Search for the specific group to delete
+2. Click on "Delete Group"
+3. Click on "Delete"
+4. Click on the "Save" button
+All of the items associated to that group will be deleted
+113
+Android Settings Web App Program
+To reset all values:
+1. Click on "Reset all values to default"
+2. Click on the "Save" button
+Program
+Program visualizations are displayed in the search screen (Anlaytics tab) in tracker programs or in the
+list screen (Analytics tab) in event programs of the android app.
+All items available are first created in the Data visualizer app in DHIS2 and configured in the android
+settings app.
+To create a Program item:
+1. Click on "Add Program Visualization"
+2. Select a Program
+3. Click on the search box and select the visualization from the list or type the name of the
+visualization item.
+4. Add an alternative title, otherwise, the app will display the name of the visualization
+5. By default, the app will enable the group visualization setting.
+1. Create a new group: A free text box will pop-up to type the name or
+2. Select a created group visualization: Choose an option from the list to add the
+visualization or
+3. Disable the group visualization by clicking on the checkbox.
+6. Click on the "Save" button.
+114
+Android Settings Web App Program
+To remove a program item:
+1. Search for the item by expanding the program and group
+2. Click the "Delete" button next to the item's name
+3. Click on "Delete"
+4. Click on the "Save" button
+115
+Android Settings Web App Program
+To remove a program group:
+1. Search for the specific group to delete in the corresponding program
+2. Click on "Delete Group"
+3. Click on "Delete"
+4. Click on the "Save" button
+All of the items associated to that group will be deleted
+116
+Android Settings Web App Data Set
+To reset all values:
+1. Click on "Reset all values to default"
+2. Click on the "Save" button
+Data Set
+Data Set visualizations are displayed in the list screen (Analytics tab) in a Data Set of the android app.
+All items available are first created in the Data visualizer app in DHIS2 and configured in the android
+settings app.
+To create a Data Set item:
+1. Click on "Add Data Set Visualization"
+2. Select a Data Set
+3. Click on the search box and select the visualization from the list or type the name of the
+visualization item.
+4. Add an alternative title, otherwise, the app will display the name of the visualization
+5. By default, the app will enable the group visualization setting.
+1. Create a new group: A free text box will pop-up to type the name or
+2. Select a created group visualization: Choose an option from the list to add the
+visualization or
+3. Disable the group visualization by clicking on the checkbox.
+6. Click on the "Save" button.
+117
+Android Settings Web App Data Set
+To remove a Data Set item:
+1. Search for the item by expanding the Data Set and group
+2. Click the "Delete" button next to the item's name
+3. Click on "Delete"
+4. Click on the "Save" button
+118
+Android Settings Web App Data Set
+To remove a Data Set group:
+1. Search for the specific group to delete in the corresponding Data Set
+2. Click on "Delete Group"
+3. Click on "Delete"
+4. Click on the "Save" button
+All of the items associated to that group will be deleted
+119
+Android Settings Web App Visualization user test
+To reset all values:
+1. Click on "Reset all values to default"
+2. Click on the "Save" button
+Visualization user test
+The visualization user test is a feature available in Home, Program and Data Set Analytic setting that
+helps the admin user to identify if any particular user will be able to see the visualization.
+The android settings app checks for at least one of these three permissions:
+1. Visualization is public
+2. User has individual access to the visualization
+3. User is in a group that has access to the visualization
+To run the test:
+1. Select the user from the list
+2. Click on "Run test"
+120
+Android Settings Web App Visualization user test
+121
+Android Settings Web App Visualization user test
+122
+Android Settings Web App Analytics Limitations
+Analytics Limitations
+Since the aggregations and calculations displayed are calculated in the device, the implementation of
+analytics is limited compared to web. In summary the compatible and suported objects and features
+are:
+• Well formed analytic objects (series, categories, filters)
+• User has view access
+• Limitations for Pivot Tables
+◦ Number of header lines: 1
+◦ Number of header columns: 1
+• Limitations for Charts
+◦ Number of Series: No limit (but remember you are rendering in a small screen)
+◦ Number of Categories (doesn’t apply for pie chart): No limit
+There are many more restrictions which apply to Android Analytics regarding the many configuration
+options available in the Web Visualizer as well as the supported functions and calculations related to
+indicators and program indicators. This table summarises all supported features.
+Installation
+A user can easily install the Android Settings Web App by logging into the DHIS2 and going to App
+Management.
+• Click on App Store
+• Go to Android Settings App
+• Click on Install V2.X.X
+Log in and first time setup
+After a user installs and launches the Android Settings Web App for the first time, the web app will
+require setting and saving the default values of the configuration. This will apply default settings to all
+android devices connected to the instance.
+123
+Android Settings Web App Enter and save configuration parameters
+Warning
+Be aware that previous versions are deprecated, so you will start with a
+new default configuration.
+Warning
+Only users will 'ALL' authority are able to save or update the configuration,
+but any user will have view access once it's created.
+Enter and save configuration parameters
+Datastore
+Internally all settings are stored in Datastore in JSON format.
+Datastore structure:
+124
+Android Settings Web App Save configuration parameters
+Item Description Data type
+Namespace Namespace for organization of String
+entries
+Key Key for identification of values String
+Value Value holding the information for JSON
+the entry
+Save configuration parameters
+At the form footer of all settings sections, admin users can find a Save button.
+Only when an admin user clicks on this button, all changes made on the current section are saved on
+the Datastore. These changes will apply to the Android Capture Apps when they synchronize their
+configuration.
+Unsaved changes : In case an admin user wants to go to another section when there are still some
+unsaved changes, an alert will be displayed before navigating away from the current section. In case
+the user accepts leaving the page, the unsaved changes will be lost.
+Reset all values to default
+An admin user can restore the settings at any time. There is a Reset all values to default button at the
+form footer of all settings sections.
+The default values will be only restored on Datastore and applied after clicking on Save.
+125

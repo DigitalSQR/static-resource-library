@@ -1,0 +1,279 @@
+National COVID-19 Science Task Force (NCS-TF) 
+ 
+ 
+Type of document: Policy Brief 
+Expert groups involved: Digital Epidemiology Group Date of response: 10/02/2021 
+Contact person: Edouard Bugnion (edouard.bugnion@epfl.ch) 
+Comment on planned updates : 
+ 
+Requirements and Scope of Digital Certificates 
+ 
+ 
+Executive summary 
+ 
+The transition away from the global pandemic situation may lead to new public health approaches 
+aimed at allowing a fast restart of the economic and social life while controlling the risk transmission 
+of Sars-CoV-2. These may include the documentation of a recent negative RT-PCR test, the 
+documented presence of neutralising antibodies, or of vaccination. Numerous international digital 
+certification initiatives and standardization efforts are in the early phase of definition. 
+ 
+The situation in Switzerland is characterised by an incomplete legal basis and a pragmatic approach 
+towards digital records used for self-documentation. Furthermore, there is no strategy that defines 
+the medical need for vaccination certificates, nor their legitimate uses for non-medical purposes. 
+As a result there is a void in terms of their technical requirements, scope and social acceptability. 
+ 
+ 
+Introduction 
+ 
+The transition away from the global pandemic situation may lead to new public health approaches 
+aimed at allowing a fast restart of the economic and social life while controlling the risk transmission 
+of Sars-CoV-2. Documentation of recent RT-PCR tests are currently required for travel into some 
+countries, or even transit into some countries, in both Europe and the Americas.   
+ 
+With the upcoming broad availability of vaccines, it is expected that a proof of vaccination or the 
+documented presence of neutralising antibodies may be considered as an alternative or an addition 
+to a recent RT-PCR test for travel, especially if certain vaccines are found to dramatically reduce the 
+risk of asymptomatic transmission. The request for such certificates is not limited to the travel and 
+tourism industry. Domestically, similar demands have already been voiced, for example, by the 
+event or sports industries.   
+ 
+No standards exist currently to document test results from RT-PCR lab tests. Air travellers today 
+routinely show a receipt from the lab, resulting in complex and time-inefficient verification at 
+airports. In addition, anecdotal cases of fraudulent RT-PCR test  reports by virus-carrying persons 
+attempting to board planes have been documented.  As a result, a number of trade industries (e.g. 
+IATA) are in discussion to establish digital certificates of recent RT-PCR tests and/or vaccination that 
+can be automatically checked (e.g. by taking the picture of a QR-code) and that have safeguards to 
+avoid forging.   
+ 
+While there may exist digital technology suitable to build digital certification, the legal, ethical, 
+public health, societal, and economic implications of the use of such certificates are not established. 
+This document does not attempt to answer all such questions. Instead, the goal is to raise 
+awareness that they must be considered when providing the requirements for any digital solution 
+to this problem, clarify the key differences between digital records and digital certificates, and to 
+identify urgent key considerations that the Federal Council and/or FOPH must address before 
+committing to ad hoc digital vaccine certification options.  
+ 
+ 
+Current Situation 
+ 
+Situation in Switzerland 
+ 
+Legal basis 
+The legal situation relating to the registration of vaccination is not entirely clear in Switzerland. The 
+Federal Act on Epidemics mandates the Confederation to establish and to evaluate national 
+programs relating to the prevention and control of epidemics. These programs must also relate to 
+vaccination (Article 5). It is hence clear that the Confederation must build and run a data bank on 
+vaccination which allows for the evaluation of the national vaccination program. To make such 
+evaluation possible, Cantons must regularly inform the FOPH about the number of vaccinated 
+persons in their Canton (Article 24). While it is hence  clear that there is a legal mandate to have a 
+national vaccination data bank and to feed it with all anonymous information necessary for the 
+evaluation of the national program, it is less clear whether such data bank may include personal 
+data. 
+  
+Federal and cantonal authorities may process personal data when there is a legal basis authorizing 
+them to do so (Article 17 para. 1 Federal Data Protection Act). As a rule, they may only process 
+sensitive personal data (such as data on health), if a formal enactment (a federal or cantonal law) 
+expressly provides therefore. It is not entirely clear whether information on vaccination qualifies as 
+sensitive. Data on vaccination (or its absence) does not provide direct information about a person’s 
+health situation. If the personal data is considered non-sensitive, any legal basis suffices to make its 
+processing by state authorities legal. If the personal data qualifies as sensitive, a formal enactment 
+by parliament must provide for it.  Exceptionally, however, even the  processing of sensitive data 
+(on health) is legal in the absence of an explicit legal authorization - without any legal basis in fact -  
+“when such processing is essential  for a task clearly defined in a formal enactment” or when the 
+data subject has given his or her consent in an individual case or has made personal data publicly 
+available and not explicitly prohibited its processing  (Article 17 para. 2 Federal Data Protection Act). 
+ 
+Switzerland currently does not have an explicit legal basis for the authorities to maintain a 
+centralized registry of vaccinations which includes personal data (and hence is not anonymous). 
+This is also true for  COVID-19 vaccinations. The question thus arises whether the exception allowing 
+for the processing of personal data without legal basis applies. Such is the case when a personalised 
+vaccination register is required to fulfil a clearly defined task. The Federal Epidemics Act defines the 
+task of  preventing and combating epidemics but does not mention the task of registering negatively 
+tested or vaccinated persons. The legality of a registry of vaccinations thus depends on the question 
+whether such registry is necessary to effectively combat the epidemics (or to prevent a new wave). 
+Its answer  depends on the purpose of the register and its use. If its purpose is closely linked to 
+combating the epidemics and limited to this task, the current legal basis may suffice to have a 
+federal database on vaccination which includes personal data. In contrast, an explicit legal basis is 
+necessary if the vaccination registry is to be open to (some) public (as registries often are); the law 
+must then provide a basis, regulate access and protect privacy. This implies that a new legal basis 
+would also be necessary if the Confederation is to issue certificates based on the register.  
+ 
+The federal competence to issue regulation on the use of digital certificates in the private sphere is 
+undisputed. In the absence of any federal regulation, private actors are free to decide with whom 
+they want to conclude contracts and whom they want to exclude.As a rule, they are thus free to 
+require customers to show a negative test result or proof of vaccination. 
+Obligations to conclude contracts (Kontrahierungszwang) only exist in specific situations: 
+- When provided for by law (e.g. for public transport); 
+- When the refusal to offer a contract would violate other person’s rights (e.g. access to 
+essential goods). 
+ 
+The Federal Data Protection Office (EDOEB/PFPDT) clarified on Jan 22, 2021 how basic data 
+protection principles apply to existing private-sector location-tracing applications as well as 
+potential future solutions aimed at verifying vaccination status1. 
+ 
+Numerous questions, however, remain open. They relate to the qualification of actors as being 
+public or private (e.g publicly recognised religious communities, subsidized actors in the field of 
+culture and sport), the extent of the obligation to conclude contracts (e.g the qualification of goods 
+and services as essential or not), and the use and protection of data collected by privates. 
+ 
+As there is a legal duty to minimise the effects of the pandemic on society and to reduce restrictions 
+to individual rights and freedoms to the necessary, the use of vaccination  documents and its 
+potential for transition must be further examined from a legal perspective. As the introduction of 
+certificates is increasingly likely to play an important role in the normalisation of public and private 
+life, certificates must be reliable, their use must be regulated.   
+ 
+ 
+Existing self-documentation mechanisms and their limits regarding certification 
+ 
+Decentralized Vaccination records.  All vaccinations in Switzerland are performed under the 
+responsibility of an authorized health provider (vaccination center, hospital, pharmacy, general 
+practitioner).  Health providers are also expected to retain the vaccination as part of their medical 
+records.  
+ 
+Paper-based Vaccination records. Patients expect to receive a record of their own vaccinations, for 
+documentation purposes, e.g., to share with their physicians.  Current test centers organised by the 
+Cantons provide patients with (1) the opportunity to write the vaccination into the patient’s yellow 
+booklet and (2) a paper document (or its electronic equivalent via email) as a record of their 
+vaccinations.  That paper document is not standardized and in fact different cantonal test centers 
+use different formats and layout2. 
+ 
+Digital Vaccination records. The website mesvaccins.ch / meineimpfungen.ch is operated by a 
+private non-for-profit Foundation partially supported by FOPH, with the explicit goal of providing 
+patients an electronic vaccination booklet. Patients can opt-in to use this website to store a digital 
+record of their vaccinations. For COVID-19 vaccines, the website is directly interfaced with the 
+appointment management system (OneDoc)  operated by the Confederation for the vaccination 
+ 
+1 https://www.edoeb.admin.ch/edoeb/fr/home/actualites/aktuell_news.html#1739424457 
+https://www.edoeb.admin.ch/edoeb/de/home/aktuell/aktuell_news.html#-990152656 
+2 Early versions of these documents are incorrectly entitled “Swiss COVID-19 Vaccination Certificate”, when it is in fact just 
+a record of vaccination. 
+campaign, allowing for a simple “one-click” validation of the vaccination status. The resulting 
+electronic vaccination record exists for the primary purpose of secured self-documentation, sharing 
+with individually selected health-care professionals and receiving reminders. 
+ 
+The digital records managed by mesvaccins.ch are accessible to the owner of the account, and to 
+the health-care professionals selected by the owner of the account. 
+ 
+The patient may print a copy of his/her digital record that contains only the COVID-19-related 
+information. That paper copy is planned to include the name, address, and date of birth of the 
+patient; for each COVID-19 vaccination, the name of the vaccine, lot number, date of 
+administration, location of administration, and name of the attending medical professional; and a 
+QR code that encodes the readable information as well as a PKI-based digital signature of the 
+content, signed with the private key of mesvaccins.ch. 
+ 
+ 
+Digital Certificates in Switzerland 
+ 
+Digital vaccination records, as described above, and digital certificates serve a different purpose.  A 
+digital vaccination record (in its electronic or paper form, complete with a QR-code for integrity) 
+encodes the entire COVID-19 vaccination history of the patient and detailed information relevant 
+only to health professionals. It contains medical information and should be protected as such. By 
+definition, it does not contain an expiration date, nor does constitute a proof of any particular 
+immunization status. Yet, they may be accepted as a proof by third parties as they do contain 
+information about vaccination.    
+ 
+A digital vaccination certificate describes a (set of) claim(s) about the vaccination status of a person, 
+which may be limited in time. Certificates must be presented in standardized form. A vaccination 
+certificate serves as a proof that the claim about vaccination status is true. This claim can be 
+separately verified by a third-party. The certificate needs to only include the information necessary 
+for verifying the validity of the claim.   
+ 
+At present, there are no digital certificate standards or solutions that have been adopted for use in 
+Switzerland. The law does not make their requirement illegal for private venues even though the 
+information encoded in these certificates constitutes private medical information.  The lack of a 
+legal basis makes it impossible for the public authority to directly issue certificates (unlike, e.g., a 
+driver’s license).    
+ 
+ 
+Existing and Emerging International Proposals 
+ 
+Paper-based solutions. For diseases like yellow fever, precedents requiring proof  of vaccination  
+status to board flights or cross borders already exist. Currently, such a proof is provided in a paper 
+form in the so-called International Certificate of Vaccination, commonly known as Yellow 
+vaccination booklet. Such a booklet is accepted as a vaccination proof to cross international 
+borders. This booklet is not designed with strong protections against forgery. 
+ 
+Digital solutions. In the last months, a number of initiatives, mostly in the private sector have 
+appeared with the goal of providing digital certification means to prove a recent negative RT-PCR 
+test result or vaccination status. Among them, those started by WHO, with the aim to establish a 
+technical specification for digital vaccination certificate to support COVID-19 vaccination delivery, 
+with a deadline by July 2021; the proposal by the European Commission’s eHealth Network3, 
+TravelPass4, proposed by IATA (International Air Transport Association), who propose a 
+decentralized approach to be integrated in airlines mobile apps for both RT-PCR test and 
+vaccination; or CommonPass, promoted by WEF, or the Vaccination Credential Initiative, by a 
+Coalition including big companies such as Oracle or Microsoft.  
+ 
+Most of these solutions rely on cryptography to provide high assurances of authenticity of content 
+and authenticity of origin, in order to avoid fraud.  Some of these solutions are also based on 
+decentralized designs so that verification does not require access to any central database. None of 
+these solutions, however, have their specification public yet, and their efficiency, security, and 
+privacy properties are not well-understood. 
+ 
+ 
+Looking ahead 
+ 
+At present, FOPH has a strategy for optional digital records and has given mesvaccins.ch the 
+mandate to offer an opt-in solution for Swiss patients. This strategy is pragmatic in the absence of 
+a legal basis for a national vaccination registry documenting vaccinations. While pragmatic, the 
+approach is suboptimal and has led to the proliferation of disjointed systems, many of which 
+operate with short data retention rules (e.g., 1 year for reservation system) or on an opt-in basis 
+(e.g., mesvaccines.ch).   
+ 
+However, FOPH does not have a clear  strategy w.r.t. to digital certificates.  This lack of clarity has 
+generated public confusion about how vaccination will be documented as well whether such 
+documentation will be associated with privileges. Having a clear end-to-end strategy to end the 
+pandemic will increase overall trust in the vaccination campaign.  
+ 
+A decision of whether such an integration is desirable and a clear strategy on its extent is key, as 
+should international travel policies require such a certificate a system will be needed to enable Swiss 
+residents to travel around the world. In addition to the question of vaccinations, this may require 
+Switzerland to have RT-PCR test sites and laboratories trusted to issue tests results must be both 
+accredited by a national authority in order for them to generate valid digital certificates. The 
+creation of authorities that hold the capability to generate, and delegate, certification powers has 
+to be considered.  
+ 
+Guidance is urgently needed.  The FOPH must take responsibility and give direction for the 
+legitimate and ethically acceptable choices in relation to vaccine certification, including support of 
+certain internationally-recognized certificates.  The Federal Data Protection Office (EDOEB/PFPDT) 
+should provide further guidance building on its Jan 22, 2021 note to ensure that only proportional 
+solutions are authorized for use in Switzerland. 
+ 
+ 
+Recommendations 
+ 
+The paper copy of the vaccination record of mesvaccins.ch should be designed with purpose-
+limitation in mind.  The role of the QR code is only to ensure the integrity of the document with 
+health professionals.  The document should not directly be usable as a vaccination certificate by 
+commercial third-parties.  
+ 
+ 
+3 https://ec.europa.eu/health/sites/health/files/ehealth/docs/vaccination-proof_interoperability-guidelines_en.pdf 
+4 https://www.iata.org/en/programs/passenger/travel-pass/ 
+Experts should continue to actively participate in the discussions towards international digital 
+certificate solutions and standards to ensure that they comply with our expectations of privacy, our 
+vaccination strategy and information systems, and our system or laws. 
+ 
+The Federal Council should clarify the national strategy with respect to vaccine certificates and 
+provide a mandate for FOPH to : 
+1. Determine explicitly whether vaccination certificates are a necessity for domestic purposes. 
+2. If so, develop a vaccination strategy and policy and clearly define its scope; (e.g. distinguish 
+from vaccination documentation/record; distinguish from immunity; from transient 
+serological status etc.; establish updating process to ensure scope is consistent with 
+constantly evolving scientific understanding re epidemiology and vaccinology ); 
+3. if certification is deemed necessary in Switzerland, determine whether a digital form is 
+necessary and clearly define its scope, legitimate uses in public or private settings, and 
+legitimate uses of the infrastructure built to support digital certificates. 
+4. establish specific technical and legal requirements with emphasis on data protection, in 
+particular data minimization and purpose limitation, including special attention to issues 
+relating to cross-border data flows. 
+5. clarify the period for which the use of vaccination certificates are legitimate based on the 
+epidemiologic situation. 
+6. examine appropriate formats for international use depending on international agreements 
+for travel. 
+7. In light of possible international requirements as well as possible domestic uses, determine 
+whether an official national registry of COVID-19 vaccination would be appropriate (would 
+require a change in the law). 
+Transparently disclose the mandate given to any private not-for-profit or commercial third party 
+involved in the management of the vaccination campaign and eventual digital certificates. 
+ 
+ 

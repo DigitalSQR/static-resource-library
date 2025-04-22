@@ -1,0 +1,210 @@
+FOR OFFICIAL USE ONLY
+Australia’s International COVID-19 
+Vaccination Certificate
+using Visible Digital Seal Technology
+November 2021
+Australian Passport Office presentation
+
+Truly open world travel will require global interoperability of vaccination 
+certificates rather than a complex and fragmented system of mutual 
+recognition
+• This is one of the reasons Australia adopted the Visible Digital Seal (VDS) 
+standard specified by the International Civil Aviation Organization (ICAO) –
+the body responsible for setting standards for international travel 
+documents
+• Encourage other countries also to apply the ICAO-VDS standard
+• And in the short term work to ensure interoperability between current 
+formats and the ICAO-VDS standard
+• Australia is happy to work with other countries in this endeavour. 
+The Australian International COVID-
+19 Vaccination Certificate (ICVC)
+• The certificate meets the global 
+standard specified by the ICAO and 
+endorsed by the WHO.
+• The certificate uses Visible Digital Seal 
+(VDS) technology in the form of a QR 
+code that is secure as a passport chip 
+and can be digitally authenticated in 
+the same way as a passport.
+• The QR code can be read at borders 
+globally and by travel apps such as the 
+IATA TravelPass that many airlines use.
+What’s in the certificate? 
+• the Australian Government crest
+• the title: “International COVID-19 Vaccination Certificate”
+• a header row containing: 
+- the words “Proof of Vaccination” 
+- the issuing state (“AUS”) 
+- the version number (“1”) 
+- a Unique Vaccination Certificate Identifier (UVCI) 
+• the VDS QR code, containing all the data elements, 
+as well as signature information for authenticating the 
+certificate 
+• the holder’s name
+• date of birth, in the format YYYY-MM-DD 
+• gender (‘Sex’), given as “M”, “F” or “X” 
+• the holder’s passport number 
+• vaccination history, which includes the brand, date, 
+batch number, administering centre and country of 
+each dose 
+- the manufacturer name is included in the vaccine brand name 
+- the “Dose number” is in chronological order across 
+Vaccination events 
+WHAT’S IN A VDS QR CODE?
+This is what a QR reader sees 
+VDS data
+{"data":{"hdr":{"is":"AUS","t":"icao.vacc","v":1},"msg":{"pid":{"dob":"1977-05-
+16","i":"PF0911009","n":"CITIZEN  JANE Header, biodata, 
+CATHERINE","sex":"F"},"uvci":"VB0009990038","ve":[{"des":"XM68M6","dis":"RA01.0 passport 
+","nam":"Pfizer Comirnaty","vd":[{"adm":"Community number, 
+Health","ctr":"AUS","dvc":"2021-06-13","lot":"EP2163","seq":1}, {"adm":"General vaccination data 
+Practitioner","ctr":"AUS","dvc":"2021-07- and the name of 
+01","lot":"ER7449","seq":2}]}]}},"sig":{"alg":"ES256", an algorithm 
+"cer":"MIIDhDCCAWygAwIBAgICGK0wDQYJKoZIhvcNAQELBQAwZTELMAkGA1UEBhM (“sig”)
+CQVUxDDAKBgNVBAoMA0dPVjENMAsGA1UECwwEREZBVDEMMAoGA1UECwwDQVB
+PMSswKQYDVQQDDCJQYXNzcG9ydCBDb3VudHJ5IFNpZ25pbmcgQXV0aG9yaXR5MB4X
+DTIxMDgzMTE0MDAwMFoXDTMxMDkzMDEzNTk1OVowHDELMAkGA1UEBhMCQVUx
+DTALBgNVBAMTBERGQVQwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAARSVpOyHuLj
+m01TB1iLBr3SrUp2GkQlM- Compressed 
+mPqubbW3mjs0DTeRKrfVTSkkZNgOGj_DB_fo3p8qGy8UVgT4DQRVhIo1IwUDAWBgd Barcode Signing 
+ngQgBAQYCBAswCQIBADEEEwJOVjAVBgNVHSUBAf8ECzAJBgdngQgBAQ4CMB8GA1Ud Certificate (BSC)
+IwQYMBaAFDYXwef1Z5VxLjd1cI5VgzGG6TgOMA0GCSqGSIb3DQEBCwUAA4ICAQCh_Q – includes public 
+c5i6-vewGqinR9EdUpsl0P4jqg0pdx7hyOtP 
+key and link to 
+gYOwbTOegJyZOjyWZyuLlxGYuvCHqbrnATMedoIoUJzt8GxHA-
+4v5TUN2yEbRFXev8ur_0Y3uF4WXFr93Zl0LV7 Country Signing 
+8PBNZwXKfZEC6oTN_eVgtR37GdnYsWno0SuhR4fJo8JC_blivas8BJt78Hg8VhvWSK3uT0 Certificate 
+T58eYQjQhbsXV-BxJ2kSspdvkUF6-arLHh6DVS3ATPAGIm6f Authority 
+EvF4AxnLq5OSHOC3zZR0SR9XntYxEwjo_bW8O0Se8qa5mIBp (CSCA) public 
+Xmvlwh0Ij6sqVwEskvkM30GmQGfZh5VjFujN2AZnwpjOjK0R-JvR3u6jsBJqVMgm75H key
+gezOzayNiaqzhitrgg5KpO3gK_j3C-Doj5iPAm7I_63GyjUi8ZnqVUZ37UxM 
+19uX2SvhTTQ70nL-zHNfHOyBXJgzMi4Zkor2uagHPz-W1XvNVwGEfFAu-
+nEyIOKBndHwnvSomL54yBv83X2yAQsoYggU18LNXMH 
+UonTJ_ug7FU0LEX3qA1TeARJ4WBFNjysrBXQepVLowcbtvrhLFjocHjmCp3z17xUoKGI6d
+aajCbvedXgeeSWSD5CuMAXpdN3Yml7VdW7PCK4DD0E_raw6d_wKNGSYAh0TBpNLxn
+unquai-gFIjgf4iRoys5F35KwmvpZw==",
+"sigvl":"FM5nk4TntHUSrVewwK3mqhmyXxAlJgKbu2qt9ZZI6U56PKVkzfDmIQKhURAlvn Signature value
+CKv9SfzmgtLCUxQFpbf2EuXQ=="}}
+SIGNING A VDS
+Hash value Signature value
+Asymmetric
+c83ef2806b8b0c6282 FM5nk4TntHUSrVewwK3mqh
+3170a32eede46ddab encryption myXxAlJgKbu2qt9ZZI6U56PKV
+1c30ee3b76175835ff kzfDmIQKhURAlvnCKv9Sfzmgt
+e1ea9d3658f LCUxQFpbf2EuXQ==
+Algorithm
+Hash function
+ES256, the algorithm 
+Uses SHA256 algorithm
+named in the VDS data
+Calculates short 
+message digest (hash) 
+using one-way 
+calculation
+VDS data private private
+Header, biodata, 
+passport number, 
+vaccination data, 
+name of algorithm
+Barcode Signing Certificate Country Signing 
+(BSC) private key Certificate Authority 
+Held securely (CSCA) private key
+Signs the VDS by applying the Held securely
+specified algorithm to the hash value Signs the Barcode Signing 
+Certificate private and public keys
+AUTHENTICATING A VDS
+-Check data hasn’t changed
+If the hash values match, it means the VDS 
+data have not been altered since the VDS was 
+issued
+- Check the certificate was issued by the 
+purported issuer 
+If the CSCA public key ID in the BSC matches 
+the ID of the CSCA public key, it means the 
+VDS was signed by the purported issuer
+AUTHENTICATING A VDS
+Signature value Asymmetric Hash value
+FM5nk4TntHUSrVewwK3mqh c83ef2806b8b0c6282decryption
+myXxAlJgKbu2qt9ZZI6U56PKV 3170a32eede46ddab
+kzfDmIQKhURAlvnCKv9Sfzmgt 1c30ee3b76175835ff
+e1ea9d3658f
+LCUxQFpbf2EuXQ==
+Authentication Algorithm
+If the CSCA public key ID in the ES256, the algorithm 
+BSC matches the ID of the CSCA named in the VDS 
+public key, it means the VDS data
+was signed by the purported 
+issuer
+Authentication
+If the hash values 
+match, it means the 
+public public VDS data have not been 
+altered since the VDS 
+was issued
+CSCA public key BSC public key
+Identified in the BSC Included in the QR code
+Available publicly Decrypts the digital signature by 
+Loaded into the QR reader applying the specified algorithm
+Serial number must not be in the 
+issuer’s certificate revocation list
+VDS data Hash function Hash value
+Header, biodata, passport Uses SHA256 algorithm c83ef2806b8b0c6282
+number, vaccination data, Calculates short 3170a32eede46ddab
+name of algorithm message digest (hash) 1c30ee3b76175835ff
+using one-way e1ea9d3658f
+calculation
+Existing passport readers can read and authenticate ICVCs with minor 
+software updates. Australia is working with vendors to implement these 
+updates. 
+For border authorities or others seeking to read ICVCs without passport 
+readers the Australian Passport Office has developed a smartphone app.
+The VDS-NC Checker app is 
+available in the Apple app store 
+and Google Play
+The app confirms that a VDS is 
+genuine and displays the most 
+important information from the 
+certificate, including the holder’s 
+biodata and COVID-19 
+immunisations. 
+If the QR code is not authentic 
+the app displays a message to 
+that effect:
+About the app
+Does the app tell me if a person is fully vaccinated? 
+No, it shows the vaccination history. That’s how the VDS standard is meant to 
+work. It leaves decisions in the hands of inspecting authorities in the receiving 
+state, not the issuing state. 
+What about privacy? 
+The app has very strong privacy restrictions. It collects no personal 
+information – there’s no login or password. And the app doesn’t store or 
+transmit any of the information it reads from ICVCs. 
+Requesting an ICVC
+Requesting an international certificate is easy and free through myGov, the 
+Medicare Express Plus app, or by contacting Services Australia. 
+As part of Australia’s National Transition Plan, Australia’s international 
+border commenced reopening at the start of November. Inbound passenger 
+limits were removed for vaccinated Australians and are being progressively 
+lifted for non-Australians.
+Passengers travelling to Australia provide their International COVID-19 
+Vaccination Certificate to prove their status as fully vaccinated.
+• Travellers vaccinated overseas who travel to Australia present a foreign-
+issued vaccination certificate.
+• Most foreign vaccination certificate formats are acceptable.
+• Certificates need to be in English or accompanied by a certified translation.
+• Travellers have to have received vaccines approved or recognised by 
+Australia’s Therapeutic Goods Administration.
+• Paper and digital certificates are equally acceptable
+• As are handwritten certificates
+• This is possible due to Australia’s high vaccination rate
+• Australia is accepting foreign certificates unilaterally, based on criteria that 
+are universal, not country-specific
+• Truly open world travel will require global interoperability of vaccination 
+certificates rather than a fragmented system of mutual recognition
+Get in touch:
+Ed Wilkinson
+edward.wilkinson@dfat.gov.au
+Director, Visible Digital Seal Taskforce
+Australian Passport Office
+Department of Foreign Affairs and Trade
+

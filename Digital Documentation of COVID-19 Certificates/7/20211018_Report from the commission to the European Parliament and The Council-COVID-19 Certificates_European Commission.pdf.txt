@@ -1,0 +1,795 @@
+ 
+ 
+ 
+EUROPEAN 
+ COMMISSION  
+Brussels, 18.10.2021  
+COM(2021) 649 final 
+ 
+REPORT FROM THE COMMISSION TO THE EUROPEAN PARLIAMENT AND 
+THE COUNCIL 
+pursuant to Article 16(1) of Regulation (EU) 2021/953 of the European Parliament and 
+of the Council on a framework for the issuance, verification and acceptance of 
+interoperable COVID-19 vaccination, test and recovery certificates (EU Digital COVID 
+Certificate) to facilitate free movement during the COVID-19 pandemic 
+ 
+EN   EN 
+ 
+ 
+1. INTRODUCTION 
+On 14 June 2021, the European Parliament and the Council adopted Regulation (EU) 
+2021/953 establishing the EU Digital COVID Certificate (the “EU Digital COVID Certificate 
+Regulation”)1. The Regulation sets out a common framework for the issuance, verification 
+and acceptance of interoperable certificates for COVID-19 vaccination, test or recovery 
+certificates to facilitate free movement of EU citizens and their family members during the 
+COVID-19 pandemic. The Regulation is accompanied by Regulation (EU) 2021/9542, which 
+extends the EU Digital COVID Certificate framework to third-country nationals who are 
+legally staying or residing in a Member State’s territory and who are entitled to travel to other 
+Member States in accordance with EU law. 
+The EU Digital COVID Certificate is a simple and secure way to demonstrate a person’s 
+COVID-19 status. It is free of charge and can be used both in a digital and paper-based 
+format3. The EU Digital COVID Certificate has been a crucial element in Europe’s response 
+to the COVID-19 pandemic. Its rapid adoption and rollout enabled European citizens to move 
+freely and safely and the European travel sector to open in time for summer 2021. Today, 
+more than 591 million EU Digital COVID Certificates have been issued. 
+The EU Digital COVID Certificate is increasingly seen as an international benchmark and 
+global standard, with many third countries developing solutions that are interoperable with 
+the EU system. The system does not require the exchange of any personal data and there is no 
+EU database storing the data contained in the certificates. There are currently 43 countries 
+and territories connected. 
+The EU Digital COVID Certificate Regulation requires the Commission to submit a report to 
+the European Parliament and to the Council by 31 October 20214. This report provides an 
+overview of the EU Digital COVID Certificate Regulation in practice since its adoption on 14 
+June 2021. In the reporting period, the Commission gathered data on the technical 
+implementation of the Regulation, including the connection of third countries to the system; 
+developments in the issuance of certificates of recovery and vaccination; the use of 
+certificates by the air transport sector; and the use of certificates by Member States for non-
+travel related purposes.  
+                                                          
+1  Regulation (EU) 2021/953 of the European Parliament and of the Council of 14 June 2021 on a framework 
+for the issuance, verification and acceptance of interoperable COVID-19 vaccination, test and recovery 
+certificates (EU Digital COVID Certificate) to facilitate free movement during the COVID-19 pandemic 
+(OJ L 211, 15.6.2021, p. 1). 
+2  Regulation (EU) 2021/954 of the European Parliament and of the Council of 14 June 2021 on a framework 
+for the issuance, verification and acceptance of interoperable COVID-19 vaccination, test and recovery 
+certificates (EU Digital COVID Certificate) with regard to third-country nationals legally staying or 
+residing in the territories of Member States during the COVID-19 pandemic (OJ L 211, 15.6.2021, p. 24). 
+3  A template for the paper format is available at: 
+https://ec.europa.eu/health/sites/default/files/ehealth/docs/covid-certificate_paper_guidelines_en.pdf  
+4  Article 16(1) of the EU Digital COVID Certificate Regulation. 
+1 
+ 
+ 
+ 
+Apart from the topics required by the Regulation, this report also contains information on 
+other developments regarding the EU Digital COVID Certificate. This includes the 
+connection of third countries to the EU Digital COVID Certificate environment, guidance 
+received on the validity period of certificates of recovery, developments regarding the 
+issuance of vaccination certificates, and Member States’ use of the EU Digital COVID 
+Certificate for domestic purposes. 
+2. DEVELOPMENTS SINCE THE ADOPTION OF THE EU DIGITAL COVID 
+CERTIFICATE 
+2.1. Technical implementation 
+2.1.1. Number of EU Digital COVID Certificates issued  
+As of 13 October 2021, Member States have issued more than 591 million EU Digital 
+COVID Certificates, made up of 437 million vaccination certificates5, 144 million test 
+certificates, and 10 million certificates of recovery. A detailed breakdown per Member State 
+is included in Annex I. 
+2.1.2. EU Gateway and work at technical level 
+The technical specifications, standards and guidelines for the common issuance, verification 
+and acceptance of the EU Digital COVID Certificate were jointly developed by the 
+Commission and the Member States within the framework of the eHealth Network6. All of 
+the specifications developed by the eHealth Network are based on open standards and are 
+published as open source on the eHealth Network website7. This has facilitated 
+interoperability with systems developed by third countries (see Section 2.2 below).  
+Overall, the system is versatile, robust and designed to accommodate the heterogeneity of 
+Member States’ systems. The trust framework of the EU Digital COVID Certificate system is 
+based on a public key infrastructure that ensures the authenticity and integrity of issued 
+certificates by means of digitally signed Quick Response (QR) codes. Authorised certificate 
+issuers (for example hospitals or laboratories) convert the data required by the EU Digital 
+COVID Certificate Regulation into a QR code. The issuers then digitally sign the QR code 
+using an asymmetric cryptographic algorithm and their own private key. Issuers’ 
+corresponding public keys, used for verifying the authenticity, integrity and validity of the 
+digitally signed QR codes, are exchanged via the EU Digital COVID Certificate Gateway 
+                                                          
+5  Where a Member State was only able to provide a total figure for all three types of certificates, these are 
+included in the number of vaccination certificates issued given that these constitute the vast majority of 
+certificates issued. 
+6  The eHealth Network is a voluntary network connecting national authorities responsible for eHealth 
+designated by the Member States set up on the basis of Article 14 of Directive 2011/24/EU. 
+7  https://ec.europa.eu/health/ehealth/covid-19_en 
+2 
+ 
+ 
+ 
+(‘the EU Gateway’),8 operated and maintained by the Commission9. Public key information 
+(which does not contain personal data) is then transferred between Member States’ national 
+digital infrastructures (‘back-ends’) via the Gateway and distributed from the national back-
+ends to the verification software in mobile devices.  
+While Member States are responsible for developing their national back-ends and deploying 
+their respective national solutions, the Commission has developed reference implementations 
+for certificate issuance, verification and storage apps, which are publicly available as open 
+source solutions10. As a result, for many Member States and EEA countries, the reference 
+implementations formed the basis for the development of their national solutions. The 
+reference implementations have also been useful for third countries developing national 
+solutions, as well as for their connection to the EU Gateway. 
+Work to further improve the EU Digital COVID Certificate system is ongoing in the eHealth 
+Network. For example, it is now possible for Member States to exchange, via the EU 
+Gateway, their national rules on the acceptance of certificates. This allows for the automatic 
+checking of these rules via the verification applications, in addition to the verification of the 
+authenticity of the certificates’ QR codes. Moreover, this allows for faster and more reliable 
+checking of certificates against national rules, since a manual check for compliance with 
+national rules is no longer necessary. To date, 13 countries connected to the Gateway have 
+uploaded their rules and 20 countries have downloaded these rules to their national verifiers. 
+The Commission invites all Member States to share their rules considering that this would 
+improve travel experience and reduce uncertainty for passengers. 
+In a similar vein, Member States and the Commission are also coordinating efforts on the 
+revocation of certificates. According to the EU Digital COVID Certificate Regulation, for 
+medical and public health reasons and in the event of fraudulently issued or obtained 
+certificates, Member States should be able to establish and exchange with other Member 
+States certificate revocation lists. This can be done in limited cases, in particular to revoke 
+certificates that have been issued erroneously, as a result of fraud or following the suspension 
+of a COVID-19 vaccine batch found to be defective11. The bilateral exchange of certificate 
+revocation lists containing the unique certificate identifiers of revoked certificates may be 
+supported by the EU Digital COVID Certificate trust framework12. Experts in the eHealth 
+Network are exploring how this could be achieved technically while preserving the current 
+nature of data processing by the EU Gateway. It is important that Member States support this 
+work to develop a solution quickly. 
+                                                          
+8  For more information, see Annex IV of Commission Implementing Decision (EU) 2021/1073 of 28 June 
+2021 laying down technical specifications and rules for the implementation of the trust framework for the 
+EU Digital COVID Certificate established by Regulation (EU) 2021/953 of the European Parliament and of 
+the Council (OJ L 230, 30.6.2021, p. 32). 
+9  Recital 51 of the EU Digital COVID Certificate Regulation. 
+10  https://github.com/eu-digital-green-certificates 
+11  Recital 19 of the EU Digital COVID Certificate Regulation. 
+12  Article 4(2) of the EU Digital COVID Certificate Regulation. 
+3 
+ 
+ 
+ 
+2.2. Equivalence decisions and international interoperability 
+2.2.1. Framework for EU Digital COVID Certificate equivalence decisions 
+Given its relevance to the Agreement on the European Economic Area, the EU Digital 
+COVID Certificate Regulation has been incorporated in that agreement and as such it also 
+applies to Iceland, Liechtenstein and Norway13. For other countries, where certain 
+interoperability requirements are met, the EU Digital COVID Certificate Regulation 
+stipulates that the Commission can issue a decision establishing that the certificates of a third 
+country are to be considered as equivalent to EU Digital COVID Certificates (“equivalence 
+decisions”). This results in the third country concerned being connected to the EU Gateway.  
+A third country that is interested in joining the EU system is first asked to assess its 
+compliance with the technical specifications of the EU Digital COVID Certificate system. If, 
+after this self-assessment, the third country considers that it is technically ready, it can send 
+an official request to the Commission. The Commission then assesses the application, in 
+order to ensure that all technical requirements are met. During this process, all third countries 
+undergo the same technical screening and testing procedures as were applied to Member 
+States when they connected to the system. 
+To support third countries interested in seeking an equivalence decision for their COVID-19 
+certificate system, general and technical information about the EU Digital COVID Certificate 
+system is shared via the European External Action Service and EU Delegations. In addition, 
+all technical requirements are publicly available on the eHealth Network website. 
+As the purpose of the EU Digital COVID Certificate Regulation is to facilitate free 
+movement of EU citizens within the EU, the effect of equivalence decisions is to permit EU 
+citizens and their family members, if they hold a certificate issued by a third country, to use it 
+when exercising their right of free movement. For the same reason, the Regulation as such 
+does not explicitly require that third countries seeking an equivalence decision reciprocally 
+accept the EU Digital COVID Certificate for travelling to their respective countries. 
+However, before adopting an equivalence decision, the Commission has asked all third 
+countries concerned to accept the EU Digital COVID Certificate and, so far, all have 
+confirmed that they do accept it.  
+Although the EU Digital COVID Certificate is intended to facilitate free movement within 
+the EU, the interest from third countries to be connected to the EU Digital COVID Certificate 
+system also indirectly facilitates the entry of third-country nationals into the EU. Due to the 
+COVID-19 pandemic, a restriction on non-essential travel into the EU has been in place since 
+mid-March 2020, which has been coordinated through a Council Recommendation14. This 
+                                                          
+13  Decision of the EEA Joint Committee No 187/2021 of 30 June 2021 amending Annex V (Free movement 
+of workers) and Annex VIII (Right of establishment) to the EEA Agreement (OJ L 124, 8.5.2008, p. 20). 
+14  Council Recommendation (EU) 2020/912 of 30 June 2020 on the temporary restriction on non-essential 
+travel into the EU and the possible lifting of such restriction (OJ L 208I, 1.7.2020, p. 1). 
+4 
+ 
+ 
+ 
+Recommendation was amended on 20 May 2021 to allow fully vaccinated third-country 
+nationals’ entry into the EU15. While the Recommendation states that Member States could 
+accept third-country vaccination certificates in accordance with national law, taking into 
+account the need to be able to verify the authenticity, validity and integrity of the certificate, 
+this process is facilitated once an equivalence decision for a third country has been adopted. 
+By 13 October 2021, there had been preliminary contacts with 60 interested third countries or 
+territories, 40 of which had formally submitted the results of the self-assessment of their 
+readiness to join the EU system. With the EU Digital COVID Certificate, the EU has set a 
+global a trend and exercised global technological leadership in the midst of the global 
+pandemic while guaranteeing data protection and security, maintaining the core value of 
+human-centricity during the digital transition, and remaining open to the world. 
+The Regulation contains two separate legal bases for this purpose: Article 3(10) and Article 
+8(2), depending on the EU’s relationship with the third country concerned in the field of free 
+movement. 
+2.2.2. Equivalence decision pursuant to Article 3(10) 
+Article 3(10) of the Regulation empowers the Commission to adopt implementing acts 
+establishing that COVID-19 certificates issued by a third country which has concluded a free 
+movement agreement with the EU and the Member States that does not contain a mechanism 
+of incorporation of EU legal acts are equivalent to EU Digital COVID Certificates. 
+This provision currently only covers Switzerland, with which the Agreement between the 
+European Union and its Member States and Switzerland on the free movement of persons is 
+in force16. On 8 July 2021, the Commission adopted an Implementing Decision connecting 
+Switzerland to the EU system17. As a result, COVID-19 certificates issued by Switzerland are 
+accepted under the conditions referred to in Article 5(5), Article 6(5) and Article 7(8) of the 
+EU Digital COVID Certificate Regulation. 
+2.2.3. Equivalence decisions pursuant to Article 8(2) 
+Based on Article 8(2) of the Regulation, the Commission may adopt implementing acts 
+establishing that interoperable COVID-19 certificates issued by a third country are to be 
+                                                          
+15  Council Recommendation (EU) 2021/816 20 May 2021 amending Recommendation (EU) 2020/912 on the 
+temporary restriction on non-essential travel into the EU and the possible lifting of such restriction (OJ L 
+182, 21.5.2021, p. 1). 
+16  Agreement between the European Community and its Member States, of the one part, and the Swiss 
+Confederation, of the other, on the free movement of persons - Final Act - Joint Declarations - Information 
+relating to the entry into force of the seven Agreements with the Swiss Confederation in the sectors free 
+movement of persons, air and land transport, public procurement, scientific and technological cooperation, 
+mutual recognition in relation to conformity assessment, and trade in agricultural products (OJ L 114, 
+30.4.2002, p. 6). 
+17  Commission Implementing Decision (EU) 2021/1126 establishing the equivalence of COVID-19 
+certificates issued by Switzerland to the certificates issued in accordance with Regulation (EU) 2021/953 of 
+the European Parliament and of the Council (OJ L 243, 9.7.2021, p. 49). 
+5 
+ 
+ 
+ 
+considered as equivalent to EU Digital COVID Certificates, for the purpose of facilitating the 
+holders’ exercise of their right to free movement within the Union. By 13 October 2021, the 
+Commission has adopted such equivalence decisions regarding COVID-19 certificates issued 
+by Albania18, Andorra19, Faroe Islands20, Israel21, Monaco22, Morocco23, North Macedonia24, 
+Panama25, San Marino26, Turkey27, Ukraine28 and Vatican City29. Additional equivalence 
+decisions are in preparation. 
+                                                          
+18  Commission Implementing Decision (EU) 2021/1477 of 14 September 2021 establishing the equivalence, 
+for the purpose of facilitating the right of free movement within the Union, of COVID-19 certificates issued 
+by the Republic of Albania to the certificates issued in accordance with Regulation (EU) 2021/953 of the 
+European Parliament and of the Council (OJ L 325, 15.9.2021, p. 36). 
+19  Commission Implementing Decision (EU) 2021/1476 of 14 September 2021 establishing the equivalence, 
+for the purpose of facilitating the right of free movement within the Union, of COVID-19 certificates issued 
+by Andorra to the certificates issued in accordance with Regulation (EU) 2021/953 of the European 
+Parliament and of the Council (OJ L 325, 15.9.2021, p. 33). 
+20  Commission Implementing Decision (EU) 2021/1478 of 14 September 2021 establishing the equivalence, 
+for the purpose of facilitating the right of free movement within the Union, of COVID-19 certificates issued 
+by the Faroe Islands to the certificates issued in accordance with Regulation (EU) 2021/953 of the European 
+Parliament and of the Council (OJ L 325, 15.9.2021, p. 39). 
+21  Commission Implementing Decision (EU) 2021/1482 of 14 September 2021 establishing the equivalence, 
+for the purpose of facilitating the right of free movement within the Union, of COVID-19 certificates issued 
+by the State of Israel to the certificates issued in accordance with Regulation (EU) 2021/953 of the 
+European Parliament and of the Council (OJ L 325, 15.9.2021, p. 51). 
+22  Commission Implementing Decision (EU) 2021/1479 of 14 September 2021 establishing the equivalence, 
+for the purpose of facilitating the right of free movement within the Union, of COVID-19 certificates issued 
+by Monaco to the certificates issued in accordance with Regulation (EU) 2021/953 of the European 
+Parliament and of the Council (OJ L 325, 15.9.2021, p. 42). 
+23  Commission Implementing Decision (EU) 2021/1481 of 14 September 2021 establishing the equivalence, 
+for the purpose of facilitating the right of free movement within the Union, of COVID-19 certificates issued 
+by the Kingdom of Morocco to the certificates issued in accordance with Regulation (EU) 2021/953 of the 
+European Parliament and of the Council (OJ L 325, 15.9.2021, p. 48). 
+24  Commission Implementing Decision (EU) 2021/1381 of 19 August 2021 establishing the equivalence, for 
+the purpose of facilitating the right of free movement within the Union, of COVID-19 certificates issued by 
+the Republic of North Macedonia to the certificates issued in accordance with Regulation (EU) 2021/953 of 
+the European Parliament and of the Council (OJ L 297, 20.8.2021, p. 38). 
+25  Commission Implementing Decision (EU) 2021/1480 of 14 September 2021 establishing the equivalence, 
+for the purpose of facilitating the right of free movement within the Union, of COVID-19 certificates issued 
+by the Republic of Panama to the certificates issued in accordance with Regulation (EU) 2021/953 of the 
+European Parliament and of the Council (OJ L 325, 15.9.2021, p. 45). 
+26  Commission Implementing Decision (EU) 2021/1273 of 30 July 2021 establishing the equivalence, for the 
+purpose of facilitating the right of free movement within the Union, of COVID-19 certificates issued by San 
+Marino to the certificates issued in accordance with Regulation (EU) 2021/953 of the European Parliament 
+and of the Council (OJ L 277, 2.8.2021, p. 151). 
+27  Commission Implementing Decision (EU) 2021/1382 of 19 August 2021 establishing the equivalence, for 
+the purpose of facilitating the right of free movement within the Union, of COVID-19 certificates issued by 
+the Republic of Turkey to the certificates issued in accordance with Regulation (EU) 2021/953 of the 
+European Parliament and of the Council (OJ L 297, 20.8.2021, p. 41). 
+28  Commission Implementing Decision (EU) 2021/1380 of 19 August 2021 establishing the equivalence, for 
+the purpose of facilitating the right of free movement within the Union, of COVID-19 certificates issued by 
+Ukraine to the certificates issued in accordance with Regulation (EU) 2021/953 of the European Parliament 
+and of the Council (OJ L 297, 20.8.2021, p. 35). 
+29  Commission Implementing Decision (EU) 2021/1272 of 30 July 2021 establishing the equivalence, for the 
+purpose of facilitating the right of free movement within the Union, of COVID-19 certificates issued by the 
+Vatican City State to the certificates issued in accordance with Regulation (EU) 2021/953 of the European 
+Parliament and of the Council (OJ L 277, 2.8.2021, p. 148). 
+6 
+ 
+ 
+ 
+2.2.4. Interoperability with systems developed at international level 
+In accordance with Article 4(3) of the Regulation, the EU Digital COVID Certificate trust 
+framework should ensure interoperability with technological systems established at 
+international level.  
+The International Civil Aviation Organization (ICAO) has recently developed the Visible 
+Digital Seal for Non-Constrained Environments (VDS-NC)30 standard. The Commission is 
+currently in discussions with the ICAO to identify ways to bridge the gap in specifications 
+between its standard and the EU Digital COVID Certificate. There are a number of 
+challenges in this regard, linked to differences between the two standards, such as in terms of 
+the datasets, vaccine encoding, or the size of the ICAO VDS-NC QR code which could make 
+verification difficult unless specific readers are used. At the same time, according to the 
+information available to the Commission, no third country has yet implemented and deployed 
+a COVID-19 certificate systems based on the ICAO VDS-NC standard31. While technical 
+discussions will continue, workable solutions may require time and financial investment by 
+Member States. In addition, based on the EU Digital COVID Certificate Regulation, the 
+adoption of equivalence decisions is limited to COVID-19 certificate systems developed by 
+third countries, posing difficulties in relation to international organisations. 
+On 27 July 2021, the WHO published technical specifications and implementation guidance 
+on digital documentation for COVID-19 certificates: vaccination status32 underlining that the 
+EU Digital COVID Certificate complies with their guidance and is not a parallel or 
+conflicting standard. On 26 August 2021, the International Air Transport Association (IATA) 
+urged countries to adopt the EU Digital COVID Certificate as the global standard33. In the 
+high-level principles for a safe and sustainable resumption of international travel adopted on 
+30 September 2021, the members of the Group of Seven (G7) acknowledge the “positive 
+development of the EU Digital COVID Certificate, which is operational internationally”34. 
+                                                          
+30  https://www.icao.int/Security/FAL/TRIP/PublishingImages/Pages/Publications/Guidelines%20-
+%20VDS%20for%20Travel-Related%20Public%20Health%20Proofs.pdf  
+31  On 1 October 2021, Australia announced that it would start issuing certificates meeting the ICAO VDS-NC 
+standard by the end of October (https://www.pm.gov.au/media/national-cabinet-statement-56). 
+32  WHO reference number: WHO/2019-nCoV/Digital_certificates/vaccination/2021.1. 
+33  https://www.iata.org/en/pressroom/2021-releases/2021-08-26-01/  
+34  https://www.gov.uk/government/publications/g7-high-level-principles-for-a-safe-and-sustainable-
+resumption-of-international-travel/g7-high-level-principles-for-a-safe-and-sustainable-resumption-of-
+international-travel 
+7 
+ 
+ 
+ 
+2.3. Developments regarding the issuance of certificates of recovery 
+2.3.1. Possible issuance of certificates of recovery based on rapid antigen test results 
+2.3.1.1. Guidance received from the European Centre for Disease Prevention and Control 
+The issuance of a certificate of recovery based on a positive rapid antigen test35 is not 
+covered by the EU Digital COVID Certificate even though it was in the original Commission 
+proposal, since at the time of adoption, ECDC considered that the performance of rapid 
+antigen tests was sufficient for the issuance of test certificates but not for the issuance of 
+certificates of recovery. This is because rapid antigen tests were initially designed and 
+approved for testing symptomatic people with an ongoing SARS-CoV-2 infection and high 
+viral loads. A higher performance would be needed in order to limit the number of false 
+positives resulting from rapid antigen test.  
+Since then, the clinical performance of rapid antigen tests has improved. In May 2021, the 
+Technical Working Group on COVID-19 diagnostic tests established by the Health Security 
+Committee36, responsible for maintaining the EU common list of rapid antigen tests37, put in 
+place a more structured, coherent and swift procedure for updating the list. Moreover, on 29 
+June 2021, the experts of the Technical Working Group agreed on further definitions and 
+criteria that should be considered for independent validation studies assessing the clinical 
+performance of rapid antigen tests for COVID-19 diagnosis, in addition to those set out in the 
+Council Recommendation of 21 January 202138. 
+One of the criteria agreed was an increased specificity rate of 98%. Nowadays, the EU 
+common list includes rapid antigen tests that have been assessed through independent 
+evaluation studies, showing a sensitivity of ≥90% (some even of ≥95%) and a specificity of 
+≥98%. As a consequence of these improved estimates of the test characteristics, the 
+proportion likely to have a false positive test is now known to be lower. Furthermore, in July 
+2021, the Technical Working Group agreed to exclude from the list rapid antigen tests based 
+on saliva and other alternative sample types, as well as rapid antigen self-tests, further 
+increasing the likely consistency of the performance of the tests included in the list. 
+In view of these developments, ECDC now supports the issuance of certificates of recovery 
+to persons who have received a positive result for SARS-CoV-2 infection following a rapid 
+antigen test listed in the common and updated list of COVID-19 rapid antigen tests (for more 
+information, see Annex II). 
+                                                          
+35  ‘Rapid antigen test’, that is, a test that relies on detection of viral proteins (antigens) using a lateral flow 
+immunoassay that gives results in less than 30 minutes. 
+36  https://ec.europa.eu/health/security/crisis-management/twg_covid-19_diagnostic_tests_en 
+37  https://ec.europa.eu/health/sites/default/files/preparedness_response/docs/covid-19_rat_common-list_en.pdf  
+38  Council Recommendation of 21 January 2021 on a common framework for the use and validation of rapid 
+antigen tests and the mutual recognition of COVID-19 test results in the EU (OJ C 24, 22.1.2021, p. 1). 
+8 
+ 
+ 
+ 
+2.3.1.2. Assessment by the Commission 
+Based on the guidance from the ECDC, the Commission consulted Member States’ experts in 
+different fora, such as the Health Security Committee, the eHealth Network and the Technical 
+Working Group on COVID-19 diagnostic tests, to obtain further scientific and technical input 
+regarding the possible issuance of certificates of recovery based on positive rapid antigen test 
+results.  
+Following these consultations, the Commission concludes that for the time being there is 
+insufficient support among Member States’ experts for the issuance of certificates of recovery 
+based on the result of a rapid antigen test only, that is, without further confirmation by a 
+reverse transcription polymerase chain reaction (RT-PCR) test. Several Member State experts 
+consider that rapid antigen tests are still not sufficiently reliable in terms of their specificity 
+levels, with several reports mentioning quality issues in particular, high level of false positive 
+results. According to experts, current testing policies in a majority of Member States require a 
+confirmatory RT-PCR test in case of a positive rapid antigen test result. Where positive, the 
+result of the confirmatory RT-PCR test can then form the basis for the issuance of a 
+certificate of recovery. 
+In view of the above, for the time being the Commission will continue to monitor this issue 
+and may consider the option of adopting a delegated act to amend the EU Digital COVID 
+Certificate Regulation to allow for the issuance of certificates of recovery on the basis of 
+rapid antigen test results at a later date39.  
+2.3.2. Possible issuance of certificates of recovery based on antibody test results 
+2.3.2.1. Guidance received from the European Centre for Disease Prevention and Control 
+In May 2021, the ECDC and the Joint Research Centre published a technical report on the 
+use of antibody tests for SARS-CoV-2 in the context of EU Digital COVID Certificates40, 
+which lists the main points for consideration in their recommendation not to provide for the 
+issuance of certificates of recovery based on antibody test results. These considerations 
+included, among others: 
+- A positive antibody test result cannot provide any indication of the time of infection, 
+and cannot exclude a current ongoing infection.  
+- Even if antibody tests provide some evidence of an immune response, it is not known 
+if the antibody levels offer sufficient protection or how long such protection would 
+last.  
+- It is still unknown whether the antibodies detected by commercial tests currently in 
+use would prevent infection with newly emerging SARS-CoV-2 variants.  
+                                                          
+39  Based on Article 7(4) of the EU Digital COVID Certificate Regulation. 
+40  https://www.ecdc.europa.eu/sites/default/files/documents/Use-of-antibody-tests-for-SARS-COV-2-in-the-
+context-of-Digital-Green-Certificates.pdf  
+9 
+ 
+ 
+ 
+- Due to the variety of antibody tests, a comparison of their results is extremely difficult 
+due to the lack of standardisation.  
+- Tests that target the spike protein will be unable to distinguish between people who 
+have been previously infected and those who have received at least one dose of a 
+vaccine. 
+The ECDC has reviewed these conclusions (for more information, see Annex II) and 
+considers that the abovementioned points remain valid and that there has not been any 
+substantial change in the scientific evidence. As a result, the ECDC considers that currently 
+available antibody tests are not suitable for the assessment of the time of infection and 
+immunity status of an individual. Therefore, positive antibody test results are not considered 
+sufficient for the issuance of certificates of recovery. 
+2.3.2.2. Assessment by the Commission 
+Based on the guidance from the ECDC, the Commission is currently not considering the 
+adoption of a delegated act to amend the EU Digital COVID Certificate Regulation to allow 
+for the issuance of certificates of recovery on the basis of antibody tests. The Commission 
+may reconsider its position on the basis of new guidance from the ECDC. 
+2.3.3. Validity period of certificates of recovery 
+2.3.3.1. Guidance received from the European Centre for Disease Prevention and Control 
+In accordance with Point 3(h) of the Annex of the EU Digital COVID Certificate Regulation, 
+the validity of certificates of recovery is currently limited to 180 days after the date of first 
+positive nucleic acid amplification test (NAAT)41 result. This is due to the currently limited 
+knowledge regarding the duration of immunity of persons infected with SARS-CoV-2. To 
+date, the correlation between measured immunity and clinical protection from SARS-CoV-2 
+infection still needs to be established. 
+The validity of certificates of recovery depends on the emerging scientific evidence on the 
+duration of protective immunity after natural infection and effectiveness of the previous 
+infection in the presence of current and potential future SARS-CoV-2 variants, which is a 
+dynamic process changing on a regular basis.  
+Having examined all the available information, the ECDC considers that there is currently 
+insufficient evidence to support an increase of the validity period of certificates of recovery 
+beyond 180 days (for more information, see Annex II). 
+                                                          
+41  Such as reverse transcription polymerase chain reaction (RT-PCR), loop-mediated isothermal amplification 
+(LAMP) and transcription-mediated amplification (TMA) techniques, used to detect the presence of the 
+SARS-CoV-2 ribonucleic acid (RNA). 
+10 
+ 
+ 
+ 
+2.3.3.2. Assessment by the Commission 
+Based on the guidance from the ECDC, the Commission is currently not considering the 
+adoption of a delegated act to amend the EU Digital COVID Certificate Regulation to extend 
+the validity period of certificates of recovery beyond 180 days after the date of first positive 
+NAAT result.  
+2.4. Developments regarding the issuance of vaccination certificates 
+2.4.1. Validity period of vaccination certificates 
+2.4.1.1. Guidance received from the European Centre for Disease Prevention and Control 
+According to the EU Digital COVID Certificate Regulation, it is up to Member States to 
+decide how long to accept the validity of vaccination certificates and only the acceptance of 
+EU-approved vaccines is obligatory. Acceptance of COVID-19 vaccines that have completed 
+the WHO emergency use listing procedure42 is optional. The European Medicines Agency 
+(EMA) has recently evaluated the use of a booster dose of the COVID-19 vaccine Comirnaty 
+(by BioNTech/Pfizer) for people from 18 to 55 years old with normal immune systems43. On 
+the basis of data showing a rise in antibody levels when a booster dose is given 
+approximately six months after the second dose to these individuals, EMA concluded that 
+booster doses may be considered at least six months after the second dose for people aged 18 
+years and older. 
+According to ECDC44, the currently available evidence regarding vaccine effectiveness and 
+the duration of protection shows that all EU-authorised vaccines are currently highly 
+protective against COVID-19-related hospitalisation, severe disease and death. While there 
+could be a need to administer additional doses to medically vulnerable groups 
+(immunosuppressed persons, elderly persons, etc.), and several EU Member States are 
+currently already doing so, the ECDC concludes that there is no urgent need for the 
+administration of booster doses of vaccines to fully vaccinated individuals in the general 
+population.  
+2.4.1.2. Assessment by the Commission 
+Taking into account the absence of conclusive scientific evidence on waning immunity after a 
+certain period of time, the Commission is not currently considering an amendment to the EU 
+Digital COVID Certificate Regulation in order to specify the validity of vaccination 
+certificates. The Commission will continue to monitor this issue very closely as the scientific 
+evidence develops.  
+                                                          
+42  https://extranet.who.int/pqweb/key-resources/documents/status-covid-19-vaccines-within-who-eulpq-
+evaluation-process  
+43  https://www.ema.europa.eu/en/news/comirnaty-spikevax-ema-recommendations-extra-doses-boosters 
+44  https://www.ecdc.europa.eu/en/publications-data/covid-19-public-health-considerations-additional-vaccine-
+doses  
+11 
+ 
+ 
+ 
+It is also important to underline that, where booster doses are administered, this does not 
+affect the validity of the certificates issued as part of the primary vaccination cycle. 
+Following technical discussions in the eHealth Network, the Commission is currently 
+preparing an implementing act amending the technical specifications of the EU Digital 
+COVID Certificate 45 to ensure that there are uniform rules for the coding of additional 
+COVID-19 vaccine doses in vaccination certificates issued afterwards.   
+2.5. Information received from Member States  
+2.5.1. Information received pursuant to Article 11 of the EU Digital COVID Certificate 
+Regulation 
+The Commission monitors Member States’ implementation of the EU Digital COVID 
+Certificate Regulation. This is linked to the monitoring of Council Recommendation 
+2020/147546, which established a coordinated approach to the restriction of free movement in 
+response to the COVID-19 pandemic based on a traffic-light map published weekly by the 
+ECDC47. To make best use of the EU Digital COVID Certificate system, the Council, 
+following a proposal from the Commission, amended the Recommendation in June 202148. 
+The Recommendation sets out, among other things, a coordinated understanding of ‘full 
+vaccination’ and validity periods for tests in the context of travel.  Information from Member 
+States on the EU Digital COVID Certificate is collected by means of overview tables 
+submitted by the Member States to the Commission and the Council, and is also made 
+available on the Re-open EU platform49. 
+The EU Digital COVID Certificate Regulation provides that, without prejudice to Member 
+States’ competence to impose restrictions on grounds of public health, where Member States 
+accept vaccination certificates, test certificates indicating a negative result or certificates of 
+recovery, they are to refrain from imposing additional restrictions to free movement, unless 
+they are necessary and proportionate for the purpose of safeguarding public health in 
+response to the COVID-19 pandemic50.  
+Where a Member State requires holders of EU Digital COVID Certificates to undergo, after 
+entry into its territory, quarantine or self-isolation or to be tested for SARS-CoV-2 infection, 
+or if the Member State imposes other restrictions on the holders of such certificates, because 
+                                                          
+45  Commission Implementing Decision (EU) 2021/1073 of 28 June 2021 laying down technical specifications 
+and rules for the implementation of the trust framework for the EU Digital COVID Certificate established 
+by Regulation (EU) 2021/953 of the European Parliament and of the Council (OJ L 230, 30.6.2021, p. 32). 
+46  Council Recommendation (EU) 2020/1475 of 13 October 2020 on a coordinated approach to the restriction 
+of free movement in response to the COVID-19 pandemic (OJ L 337, 14.10.2020, p. 3). 
+47  https://www.ecdc.europa.eu/en/covid-19/situation-updates/weekly-maps-coordinated-restriction-free-
+movement  
+48  Council Recommendation (EU) 2021/961 of 14 June 2021 amending Recommendation (EU) 2020/1475 on 
+a coordinated approach to the restriction of free movement in response to the COVID-19 pandemic (OJ L 
+213I, 16.6.2021, p. 1). 
+49  https://reopen.europa.eu/en  
+50  Article 11(1) of the EU Digital COVID Certificate Regulation. 
+12 
+ 
+ 
+ 
+the epidemiological situation in a Member State worsens quickly, for example as a result of a 
+SARS-CoV-2 variant of concern or interest, the Member State should inform the 
+Commission and the other Member States accordingly51. Member States provide such 
+information in the form of formal notices to the Commission and the Council. By 13 October 
+2021, Denmark, Ireland, Malta and Slovakia had submitted information pursuant to this 
+provision. The additional requirements notified by these Member States amount to additional 
+tests after arrival for holders of test certificates arriving from higher-risk areas, quarantine for 
+holders of test certificates arriving from areas with variants of concern or interest, or 
+quarantine requirements for unvaccinated travellers. The reasons invoked by these Member 
+States were high case notification rates or the detection of variants of concern or interest, 
+notably the so-called Delta variant (at a stage where that variant was not yet the dominant 
+strain of SARS-CoV-2 across the EU)52. The duration of the measures varied, being in force 
+until mid-July, the end of September 2021, October 2021, or for an indeterminate period. The 
+Member States concerned indicated that the restrictions were being continually assessed. The 
+Commission will continue to monitor compliance of Member States’ public health measures 
+affecting citizens’ right to free movement with EU law, in particular the principles of non-
+discrimination and proportionality.  
+2.5.2. Other information on the implementation of the EU Digital COVID Certificate 
+Regulation 
+The EU Digital COVID Certificate Regulation provides that vaccination certificates are to 
+be issued by the Member State where the vaccine has been administered. If citizens are 
+vaccinated in two different Member States, the first Member State should issue an EU Digital 
+COVID Certificate indicating the first dose and the second Member State should issue, upon 
+presentation of proof that the first dose was administered in another Member State, an EU 
+Digital COVID Certificate indicating the second dose (the certificate will indicate “2/2”). 
+However, in certain cases citizens have reported difficulties receiving an EU Digital COVID 
+Certificate correctly indicating the administration of a second dose, despite providing proof 
+of the first dose. 
+Some Member States have also not yet found a satisfying solution to issue EU Digital 
+COVID Certificates for certain categories of people. This is mainly the case for 
+vaccination certificates. Issues were most reported for persons not permanently residing in 
+the Member State concerned, persons without health insurance in the Member State, or 
+persons without a national register or social security number in the Member State53. Some 
+Member States also encountered difficulties in setting up a system that would allow for the 
+(timely) issuance of test certificates to travellers residing in other Member States. 
+                                                          
+51  Article 11(2) of the EU Digital COVID Certificate Regulation. 
+52  See also: https://www.ecdc.europa.eu/en/covid-19/variants-concern  
+53  While health insurance affiliation and national register numbers (where they exist) are not included in the 
+EU Digital COVID Certificates themselves, these data items are sometimes processed in the process for 
+(re)issuing certificates, in line with national rules. 
+13 
+ 
+ 
+ 
+When it comes to the format of EU Digital COVID Certificates, some difficulties were 
+reported in relation to paper versions of test certificates, and the need to be able to receive a 
+paper format of these certificates. Some Member States do not issue test certificates in a 
+paper format, arguing that sending test certificates via post would result in them arriving past 
+their validity period. It was also reported that the issuance of EU Digital COVID Certificates 
+in paper format by healthcare providers was not always free of charge. 
+The Commission maintains regular contacts with the Member States at technical level with 
+regard to their implementation of the EU Digital COVID Certificate. Some of the issues 
+outlined above have already been resolved. For example, Belgium has confirmed that no 
+electronic ID is needed to receive a test certificate; Croatia confirmed that it issues 
+vaccination certificates to mobile EU citizens; Germany confirmed that the results of rapid 
+antigen tests are also issued in a paper format; Ireland confirmed that COVID-19 test 
+providers are issuing test certificates in a format that complies with the Regulation; and Spain 
+confirmed that non-resident EU citizens vaccinated or tested in Spain can receive an EU 
+Digital COVID Certificate.  
+Issues have also arisen in some Member States where citizens have reported disparities 
+between the name mentioned in their travel documents and the name indicated in the EU 
+Digital COVID Certificate. On 26 July 2021, a Corrigendum54 related to the French version 
+of the EU Digital COVID Certificate Regulation was published to further clarify that 
+certificates should include “nom(s) et prénom(s)” instead of “nom(s) de famille et 
+prénom(s)”, which can be misunderstood as the person’s birth name. The Commission has 
+clarified towards the Member States that the name included on the certificate should match 
+the name stated on the holder’s travel documents. Where mistakes occur, citizens are 
+encouraged to get in touch with the national authorities that have issued the certificate to have 
+them corrected. 
+As far as the implementation of Regulation (EU) 2021/954 is concerned, no specific issues 
+were reported when it comes to the issuance of EU Digital COVID Certificates to third-
+country nationals who are legally staying or residing in their territory and who are entitled to 
+travel to other Member States in accordance with EU law. However, this is most likely due to 
+the fact that Member States established one single system to issue EU Digital COVID 
+Certificates to both EU citizens and legally residing third-country nationals. Furthermore, as 
+far as short-term visitors are concerned, this can be explained by the absence of an obligation 
+on Member States to issue persons who have proof of vaccination in a third country with an 
+EU Digital COVID Certificate. Pursuant to Article 8(1) of the EU Digital COVID Certificate 
+Regulation, such issuance is optional, although several Member States are offering this 
+possibility. 
+                                                          
+54  Rectificatif au règlement (UE) 2021/953 du Parlement européen et du Conseil du 14 juin 2021 relatif à un 
+cadre pour la délivrance, la vérification et l’acceptation de certificats COVID-19 interopérables de 
+vaccination, de test et de rétablissement (certificat COVID numérique de l’UE) afin de faciliter la libre 
+circulation pendant la pandémie de COVID-19 (OJ L 265, 26.7.2021, p. 49). 
+14 
+ 
+ 
+ 
+To provide citizens with additional information, the Commission has published frequently 
+asked questions on the EU Digital COVID Certificate, vaccinations and travel restrictions55. 
+2.5.3. Information received pursuant to Article 15 of the EU Digital COVID Certificate 
+Regulation (phasing-in period) 
+The EU Digital COVID Certificate Regulation applies since 1 July 2021. Where a Member 
+State was not able to issue EU Digital COVID Certificates as of that date, it was to inform the 
+Commission and the other Member States accordingly56. Where they contained the data set 
+out in the Annex, the COVID-19 certificates issued by such a Member State in a format that 
+did not comply with the Regulation had to be accepted by the other Member States until 12 
+August 2021. The Commission received such information, which in some cases only 
+concerned a delay of a couple of days, from eight Member States57.  
+To ensure a smooth rollout of the system, the Commission encouraged Member States to start 
+issuing EU Digital COVID Certificates already before its entry into application58. The 
+Commission supported this process by launching the EU Gateway on 1 June 202159. Given 
+that no personal data is exchanged via the EU Gateway, Member States were able to make 
+use of its functionality already in advance of the entry into application of the Regulation. On 
+the same day, the first Member States started to issue certificates60 and, 21 Member States in 
+total anticipated the deadline of 1 July 202161. This was the result of a clear commitment by 
+Member States to the EU Digital COVID Certificate and its aim to open up Europe for its 
+citizens in time for the summer months.  
+2.6. Air transport sector 
+The air transport sector was one of the first sectors to make use of the EU Digital COVID 
+Certificate, on a large scale and is a good test case to understand how the certificate works in 
+practice. The European Union Aviation Safety Agency and ECDC updated their 
+recommendations in the COVID-19 Aviation Health Safety Protocol to align it with the EU 
+Digital COVID Certificate immediately after the adoption of the Regulation62.  
+The EU Digital COVID Certificate Regulation leaves the decision on how to verify 
+certificates to Member States. A Commission survey among Member States on the 
+                                                          
+55  Available at: https://ec.europa.eu/info/policies/justice-and-fundamental-rights/eu-citizenship/movement-
+and-residence/eu-digital-covid-certificate-vaccinations-and-travel-restrictions_en  
+56  Article 15(2) of the EU Digital COVID Certificate Regulation. 
+57  Denmark, Finland, France, Ireland, Malta, Slovakia, Spain and Sweden. 
+58  Recital 12 of the Proposal for a Council Recommendation amending Council Recommendation (EU) 
+2020/1475 of 13 October 2020 on a coordinated approach to the restriction of free movement in response to 
+the COVID-19 pandemic (COM(2021) 294 final). 
+59  https://ec.europa.eu/commission/presscorner/detail/en/IP_21_2721  
+60  Bulgaria, Czechia, Denmark, Germany, Greece, Croatia and Poland.  
+61  https://ec.europa.eu/commission/presscorner/detail/en/ip_21_3343   
+ 
+15 
+ 
+ 
+ 
+verification of the EU Digital COVID Certificate for air travel showed at least 15 different 
+ways of organising the verification process, bearing the risk of significant duplication, and 
+resulting in a lack of clarity and delays for passengers.  
+To address this issue, the Commission published a Communication with recommendations to 
+Member States to streamline the verification63. To avoid unnecessary checks of the EU 
+Digital COVID Certificate by more than one actor (airline operators, airport operators, public 
+authorities, etc.), the Commission recommended a ‘one-stop’ verification process prior to 
+departure. The verification should also be carried out as early as possible and preferably 
+before the passenger arrives at the departure airport, and Member States are encouraged to 
+ensure complete, comprehensible and timely provision of information to operators and 
+travellers about the verification requirements and processes.  
+While air passenger numbers continue to be significantly below pre-pandemic levels, the 
+airport association Airports Council International (ACI) Europe reported that preliminary 
+data for July 2021 revealed total passenger volumes more than doubling compared to July 
+2020, with significant improvements compared to the second quarter of 2021. ACI Europe 
+attributes this change to the rollout of the EU Digital COVID Certificate along with the 
+easing of travel restrictions64.  
+In this context, further functionalities of the EU Digital COVID Certificate system are 
+currently being considered, including improved digital wallet features as well as a ticketing 
+solution showcasing how airlines and other transport service operators could seamlessly 
+integrate proofs of certificate verification into online check-in procedures without sharing 
+personal data. 
+2.7. Use of the EU Digital COVID Certificate for domestic purposes 
+The EU Digital COVID Certificate Regulation covers the use of certificates for travel within 
+the EU during the COVID-19 pandemic. It neither prescribes nor prohibits other uses for the 
+certificate and the use of COVID-19 certificates for domestic purposes, such as for access to 
+events or venues, goes beyond the scope of the Regulation.  
+Where Member States decide to use the EU Digital COVID Certificate for other purposes, 
+this must be provided for in national law, which must comply in particular with data 
+protection requirements65. At the same time, where a Member State establishes a system of 
+COVID-19 certificates for domestic purposes, it should ensure that the EU Digital COVID 
+                                                          
+63  Communication from the Commission, “Reaping the full benefits of EU Digital COVID Certificates: 
+Supporting free movement of citizens and the recovery of the air transport sector through guidelines and 
+recommendations for EU Member States”, C(2021) 5594 final, 22 July 2021. 
+64  https://mcusercontent.com/66a62c6d1a4692e5a3b79a788/files/6ddf5241-a7e7-b614-e826-
+04720e836172/21_09_17_Holiday_season_improvements_in_passenger_traffic_cannot_be_called_a_recov
+ery_says_airport_body_as_gradual_gains_already_plateau_across_Europe.03.pdf  
+65  Recital 48 of the EU Digital COVID Certificate Regulation. 
+16 
+ 
+ 
+ 
+Certificates can also be used and are fully accepted66. The objective is to make sure that 
+travellers going to another Member State do not have to obtain an additional national 
+certificate. In this way it is ensured that the interoperable system of the EU Digital COVID 
+Certificate is used to its full potential. 
+In a survey conducted in September 2021, twenty Member States67 indicated that they use the 
+EU Digital COVID Certificate for such purposes. Five Member States68 noted that the 
+domestic use of the certificates was being considered. Member States use the certificate for 
+the access to large events (by far the most common use-case), restaurants, cinemas and 
+museums, nightclubs, fitness centres and other sports facilities, close-contact occupations 
+such as hairdressers, beauty and massage parlours, hotels, hospitals and care homes, or 
+universities and schools. 
+3. CONCLUSION AND NEXT STEPS 
+When originally proposed by the Commission in March 202169, many voiced doubts 
+regarding the Commission’s plans to have the system up and running in time for the summer. 
+But the fact that it took the European Parliament and the Council only three months to find 
+agreement – and Member States and the Commission only two more weeks to have the 
+system up and running – demonstrates that when EU institutions and Member States act 
+together, they are able to act fast. 
+The EU Digital COVID Certificate has proven to be a major success in Europe’s efforts to 
+address and mitigate the impact of the COVID-19 pandemic on societies and economies. The 
+certificate facilitates travel and has been crucial to support Europe’s hard-hit tourism 
+industry. The EU Digital COVID Certificate is also a success worldwide. Today it is the 
+global standard and currently the only system in operation internationally. It is used by 
+countries across four continents. It is also the first example of an interoperable electronic 
+record deployed at scale across such a large number of countries in a very short period of 
+time.  
+This success is also appreciated by citizens. According to a Eurobarometer survey published 
+in September 2021, about two thirds (65%) of respondents agreed that the EU Digital COVID 
+Certificate is the safest means for free travel in Europe during the COVID-19 pandemic70. 
+Although the Regulation has a time-limited application, the EU Digital COVID Certificate 
+has demonstrated that it is possible to develop a safe and secure, privacy-preserving and data-
+                                                          
+66  Recital 49 of the EU Digital COVID Certificate Regulation. 
+67  Belgium, Czechia, Denmark, Germany, Estonia, Ireland, Greece, France, Croatia, Italy, Cyprus, Latvia, 
+Lithuania, Luxembourg, Hungary, Malta, Austria, Poland, Portugal and Slovenia. In view of the progress of 
+its vaccination campaign, Denmark has lifted the requirement to present the certificate for domestic 
+purposes in the meantime. 
+68  Bulgaria, Spain, the Netherlands, Romania and Finland. 
+69  COM(2021) 130 final. 
+70  Available at: https://www.europarl.europa.eu/at-your-service/files/be-heard/eurobarometer/2021/soteu-
+flash-survey/soteu-2021-report-en.pdf  
+17 
+ 
+ 
+ 
+protecting system in an accessible manner. The certificates are available free of charge, in a 
+digital and paper-based format, and are both human and machine-readable. It is therefore an 
+important test case for the development of an EU Digital Identity ‘toolbox’71. 
+The EU Digital COVID Certificate Regulation currently applies until 30 June 202272. By 31 
+March 2022, the Commission will submit another report to the European Parliament and to 
+the Council on the application of the Regulation, which may be accompanied by a legislative 
+proposal to extend the period of application of the Regulation, taking into account the 
+evolution of the epidemiological situation with regard to the COVID-19 pandemic73.  
+However, the Commission does not exclude that it will put forward such a proposal already at 
+an earlier stage, in order to ensure that, for reasons of legal certainty, the necessary legislative 
+procedure can be concluded sufficiently in time before June 2022. This extension may be 
+necessary, for example, if it is likely that the pandemic has not yet abated in time for the 
+summer of 2022 and not extending the EU Digital COVID Certificate would likely result in 
+additional restrictions to free movement as EU citizens would be deprived of an effective, 
+secure and privacy-preserving way of proving their COVID-19 status. Any proposal by the 
+Commission to extend the Regulation would be time-limited as the Commission’s goal is to 
+return to unrestricted free movement as soon as the epidemiological situation allows it.  
+ 
+                                                          
+71  Commission Recommendation (EU) 2021/946 of 3 June 2021 on a common Union Toolbox for a 
+coordinated approach towards a European Digital Identity Framework: https://eur-lex.europa.eu/legal-
+content/EN/TXT/?uri=CELEX%3A32021H0946&qid=1478030835186  
+72  Article 17 of the EU Digital COVID Certificate Regulation.  
+73  Article 16(2) of the EU Digital COVID Certificate Regulation. 
+18 
+ 

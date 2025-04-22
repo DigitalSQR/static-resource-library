@@ -1,0 +1,454 @@
+ 
+ 
+ 
+ 
+ 
+eHealth Network  
+ 
+ 
+Guidelines on 
+ 
+ 
+Technical Specifications  
+for EU Digital COVID Certificates 
+ 
+JSON Schema Specification 
+ 
+ 
+ 
+Schema version: 1.3.0 
+2021-06-09 
+  
+ 
+The eHealth Network is a voluntary network, set up under article 14 of Directive 2011/24/EU.  
+It provides a platform of Member States' competent authorities dealing with eHealth.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Adopted by the eHealth Network on 9 June 2021. 
+  
+ 
+Table of contents 
+Introduction ................................................................................................................................................... 4 
+JSON Schema location and versions ............................................................................................................ 4 
+Common structures and general requirements .............................................................................................. 4 
+Version ..................................................................................................................................................... 4 
+Person name and date of birth .................................................................................................................. 5 
+Groups for certificate type specific information ....................................................................................... 6 
+Certificate type specific information ............................................................................................................. 7 
+Vaccination certificate .............................................................................................................................. 7 
+Test certificate .......................................................................................................................................... 9 
+Recovery certificate ................................................................................................................................ 11 
+ 
+ 
+  
+Introduction 
+The aim of this document is to complement semantic specifications with technical instructions related to 
+the use of the JSON schema for EU Digital COVID Certificates (EUDCC). The document provides 
+specific instructions related to the individual data fields. The document should be read together with the 
+following semantic specifications: 
+ Value sets; 
+ eHealth Network guidelines on verifiable vaccination certificates - basic interoperability 
+elements; 
+ Guidelines on COVID-19 citizen recovery interoperable certificates - minimum dataset; 
+ A common standardised set of data to be included in COVID-19 test result certificates (adopted 
+by the Health Security Committee). 
+JSON Schema location and versions 
+The authoritative official JSON schema for EUDCC is located at https://github.com/ehn-dcc-
+development/ehn-dcc-schema. Other locations are not authoritative, but may be used for preparing 
+upcoming revisions. 
+Current version approved by the eHealth Network and supported by all countries currently in production 
+is shown by default. 
+Upcoming next version, to be supported by a defined date by all countries: tagged versions, described 
+more specifically in the Readme file. 
+Common structures and general requirements 
+An EU Digital COVID Certificate should not be issued if not all data fields can be correctly populated in 
+accordance with this specification due to missing information. This should not be understood as 
+affecting the obligation of Member States to issue EU Digital COVID Certificates.  
+Information in all fields may be provided using the full set of UNICODE 13.0 characters encoded using 
+UTF-8, unless specifically restricted to value sets or narrower sets of characters. 
+The common structure is outlined below. Detailed information on individual groups and fields is provided 
+in next sections. 
+"JSON": { 
+"ver": <version information>, 
+"nam": { 
+<person name information> 
+}, 
+"dob": <date of birth>, 
+"v" or "t" or "r": [ 
+{<vaccination dose or test or recovery information, one entry>} 
+] 
+} 
+ 
+Version 
+Version information MUST be provided. Versioning is following Semantic Versioning (semver: 
+https://semver.org). In production, it MUST be one of the officially released (current or one of the older 
+officially released) versions. See Section JSON Schema location for more details. 
+Field id Field name Instructions 
+ver Schema version MUST match the identifier of the schema version used for 
+producing the EUDCC.  
+Example: 
+"ver": "1.3.0" 
+Person name and date of birth 
+Person name is the official full name of the person, matching the name stated on travel documents. The 
+identifier of the structure is nam. Exactly 1 (one) person name MUST be provided. 
+Field id Field name Instructions 
+nam/fn Surname(s) Surname(s), such as family name(s), of the holder. 
+Exactly 1 (one) non-empty field MUST be provided, with 
+all surnames included in it. In case of multiple surnames, 
+these MUST be separated by a space. Combination names 
+including hyphens or similar characters must however 
+stay the same. 
+Examples: 
+"fn": "Musterfrau-Gößinger" 
+"fn": "Musterfrau-Gößinger Müller" 
+nam/fnt Standardised surname(s) Surname(s) of the holder transliterated using the same 
+convention as the one used in the holder’s machine 
+readable travel documents (such as the rules defined in 
+ICAO Doc 9303 Part 3). 
+Exactly 1 (one) non-empty field MUST be provided, only 
+including characters A-Z and <. Maximum length: 80 
+characters (as per ICAO 9303 specification).  
+Examples: 
+"fnt": "MUSTERFRAU<GOESSINGER" 
+"fnt": "MUSTERFRAU<GOESSINGER<MUELLER" 
+nam/gn Forename(s) Forename(s), such as given name(s), of the holder. 
+If the holder has no forenames, the field MUST be 
+skipped. 
+In all other cases, exactly 1 (one) non-empty field MUST 
+be provided, with all forenames included in it. In case of 
+multiple forenames, these MUST be separated by a space. 
+Example: 
+"gn": "Isolde Erika" 
+nam/gnt Standardised forename(s) Forename(s) of the holder transliterated using the same 
+convention as the one used in the holder’s machine 
+readable travel documents (such as the rules defined in 
+ICAO Doc 9303 Part 3).  
+If the holder has no forenames, the field MUST be 
+skipped. 
+In all other cases, exactly 1 (one) non-empty field MUST 
+be provided, only including characters A-Z and <. 
+Maximum length: 80 characters. 
+Example: 
+"gnt": "ISOLDE<ERIKA" 
+dob Date of birth Date of birth of the DCC holder.  
+Complete or partial date without time restricted to the 
+range from 1900-01-01 to 2099-12-31.  
+Exactly 1 (one) non-empty field MUST be provided if the 
+complete or partial date of birth is known. If the date of 
+birth is not known even partially, the field MUST be set to 
+an empty string "". This should match the information as 
+provided on travel documents. 
+One of the following ISO 8601 formats MUST be used if 
+information on date of birth is available. Other options are 
+not supported.  
+YYYY-MM-DD 
+YYYY-MM 
+YYYY 
+(The verifier app may show missing parts of the date of 
+birth using the XX convention as the one used in machine-
+readable travel documents, e.g. 1990-XX-XX.) 
+Examples: 
+"dob": "1979-04-14" 
+"dob": "1901-08" 
+"dob": "1939" 
+"dob": "" 
+ 
+Groups for certificate type specific information 
+The JSON Schema supports three groups of entries encompassing certificate type specific information. 
+Each EUDCC MUST contain exactly 1 (one) group. Empty groups are not allowed. 
+Group Group name Entries 
+identifier 
+v Vaccination group If present, MUST contain exactly 1 (one) entry describing 
+exactly 1 (one) vaccination dose. 
+t Test group If present, MUST contain exactly 1 (one) entry describing 
+exactly 1 (one) test result. 
+r Recovery group If present, MUST contain exactly 1 (one) entry describing 
+1 (one) recovery statement. 
+ 
+Certificate type specific information 
+Vaccination certificate 
+Vaccination group, if present, MUST contain exactly 1 (one) entry describing exactly one vaccination 
+event. All elements of the vaccination group are mandatory, empty values are not supported. 
+ 
+Field Field name Instructions 
+id 
+v/tg Disease or A coded value from the value set  
+agent disease-agent-targeted.json.  
+targeted: 
+This value set has a single entry 840539006, which is the code for COVID-
+COVID-19 
+19 from SNOMED CT (GPS). 
+(SARS-CoV 
+or one of its Exactly 1 (one) non-empty field MUST be provided. 
+variants) Example: 
+"tg": "840539006" 
+v/vp COVID-19 Type of the vaccine or prophylaxis used.  
+vaccine or A coded value from the value set  
+prophylaxis 
+vaccine-prophylaxis.json.  
+The value set will be distributed from the EUDCC Gateway starting with the 
+gateway version 1.1. 
+Exactly 1 (one) non-empty field MUST be provided.  
+Example: 
+"vp": "1119349007" (a SARS-CoV-2 mRNA vaccine) 
+v/mp COVID-19 Medicinal product used for this specific dose of vaccination. A coded value 
+vaccine from the value set  
+product vaccine-medicinal-product.json. 
+The value set will be distributed from the EUDCC Gateway starting with the 
+gateway version 1.1. 
+Exactly 1 (one) non-empty field MUST be provided. Example: 
+"mp": "EU/1/20/1528" (Comirnaty) 
+v/ma COVID-19 Marketing authorisation holder or manufacturer, if no marketing authorization 
+vaccine holder is present. A coded value from the value set  
+marketing vaccine-mah-manf.json. 
+authorisation The value set will be distributed from the EUDCC Gateway starting with the 
+holder or gateway version 1.1. 
+manufacturer 
+Exactly 1 (one) non-empty field MUST be provided. Example: 
+"ma": "ORG-100030215" (Biontech Manufacturing GmbH) 
+v/dn Number in a Sequence number (positive integer) of the dose given during this vaccination 
+series of event. 1 for the first dose, 2 for the second dose etc. 
+doses 
+Exactly 1 (one) non-empty field MUST be provided.  
+Examples: 
+"dn": "1" (first dose in a series) 
+"dn": "2" (second dose in a series) 
+"dn": "3" (third dose in a series, such as in case of a booster) 
+v/sd The overall Total number of doses (positive integer) in a complete vaccination series 
+number of according to the used vaccination protocol. The protocol is not in all cases 
+doses in the directly defined by the vaccine product, as in some countries only one dose of 
+series normally two-dose vaccines is delivered to people recovered from COVID-
+19. In these cases, the value of the field should be set to 1. 
+Exactly 1 (one) non-empty field MUST be provided. 
+Examples: 
+"sd": "1" (for all 1-dose vaccination schedules) 
+"sd": "2" (for 2-dose vaccination schedules) 
+"sd": "3" (in case of a booster) 
+v/dt Date of The date when the described dose was received, in the format YYYY-MM-DD 
+vaccination (full date without time). Other formats are not supported. 
+Exactly 1 (one) non-empty field MUST be provided. Example: 
+"dt": "2021-03-28" 
+v/co Member Country expressed as a 2-letter ISO3166 code (RECOMMENDED) or a 
+State or third reference to an international organisation responsible for the vaccination event 
+country in (such as UNHCR or WHO).  A coded value from the value set  
+which the country-2-codes.json.  
+vaccine was The value set will be distributed from the EUDCC Gateway starting 
+administered with the gateway version 1.1. 
+Exactly 1 (one) field MUST be provided. 
+Example: 
+"co": "CZ" 
+"co": "UNHCR" 
+v/is Certificate Name of the organisation that issued the certificate. Identifiers are allowed as 
+issuer part of the name, but not recommended to be used individually without the 
+name as a text. Max 80 UTF-8 characters. 
+Exactly 1 (one) non-empty field MUST be provided. Example: 
+"is": "Ministry of Health of the Czech Republic" 
+"is": "Vaccination Centre South District 3" 
+v/ci Unique Unique certificate identifier (UVCI) as specified in the vaccination-
+certificate proof_interoperability-guidelines_en.pdf (europa.eu) 
+identifier The inclusion of the checksum is optional. The prefix "URN:UVCI:" may be 
+added. 
+Exactly 1 (one) non-empty field MUST be provided.  
+Examples: 
+"ci": "URN:UVCI:01:NL:187/37512422923" 
+"ci": "URN:UVCI:01:AT:10807843F94AEE0EE5093FBC254BD813#B" 
+ 
+ 
+Test certificate 
+Test group, if present, MUST contain exactly 1 (one) entry describing exactly one test result.  
+Field Field name Instructions 
+id 
+t/tg Disease or A coded value from the value set  
+agent disease-agent-targeted.json.  
+targeted: 
+This value set has a single entry 840539006, which is the code for COVID-
+COVID-19 
+19 from SNOMED CT (GPS). 
+(SARS-CoV 
+or one of its Exactly 1 (one) non-empty field MUST be provided. 
+variants) Example: 
+"tg": "840539006" 
+t/tt The type of The type of the test used, based on the material targeted by the test. A coded 
+test value from the value set  
+test-type.json  
+(based on LOINC). Values outside of the value set are not allowed. 
+Exactly 1 (one) non-empty field MUST be provided. 
+Example: 
+"tt": "LP6464-4" (Nucleic acid amplification with probe 
+detection) 
+"tt": "LP217198-3" (Rapid immunoassay) 
+t/nm Test name The name of the nucleic acid amplification test (NAAT) used. The name 
+(nucleic acid should include the name of the test manufacturer and the commercial name of 
+amplification the test, separated by a comma. 
+tests only) For NAAT: the field is optional.  
+For RAT: the field SHOULD NOT be used, as the name of the test is supplied 
+indirectly through the test device identifier (t/ma). 
+When supplied, the field MUST NOT be empty. 
+Example: 
+"nm": "ELITechGroup, SARS-CoV-2 ELITe MGB® Kit" 
+t/ma Test device Rapid antigen test (RAT) device identifier from the JRC database. Value set 
+identifier (HSC common list): 
+(rapid antigen  All Rapid antigen tests in HSC common list (human readable). 
+tests only)  https://covid-19-diagnostics.jrc.ec.europa.eu/devices/hsc-common-
+recognition-rat (machine-readable, values of the field id_device 
+included on the list form the value set). 
+In EU/EEA countries, issuers MUST only issue certificates for tests belonging 
+to the currently valid value set. The value set MUST be updated every 24 
+hours. 
+Values outside of the value set MAY be used in certificates issued by third 
+countries, however the identifiers MUST still be from the JRC database. The 
+use of other identifiers such as those provided directly by test manufacturers is 
+not permitted. 
+Verifiers MUST detect values not belonging to the up to date value set and 
+render certificates bearing these as invalid. If an identifier is removed from 
+the value set, certificates including it MAY be accepted for a maximum of 72 
+hours after the removal. 
+The value set will be distributed from the EUDCC Gateway starting with the 
+gateway version 1.1. 
+For RAT: exactly 1 (one) non-empty field MUST be provided.  
+For NAAT: the field MUST NOT be used, even if the NAA test identifier is 
+available in the JRC database. 
+Example: 
+"ma": "344" (SD BIOSENSOR Inc, STANDARD F COVID-19 Ag 
+FIA)  
+t/sc Date and time The date and time when the test sample was collected. The time MUST 
+of the test include information on the time zone. The value MUST NOT denote the time 
+sample when the test result was produced.  
+collection Exactly 1 (one) non-empty field MUST be provided.  
+One of the following ISO 8601 formats MUST be used. Other options are not 
+supported.  
+YYYY-MM-DDThh:mm:ssZ 
+YYYY-MM-DDThh:mm:ss[+-]hh 
+YYYY-MM-DDThh:mm:ss[+-]hhmm 
+YYYY-MM-DDThh:mm:ss[+-]hh:mm 
+ 
+Examples: 
+"sc": "2021-08-20T10:03:12Z" (UTC time) 
+"sc": "2021-08-20T12:03:12+02" (CEST time) 
+"sc": "2021-08-20T12:03:12+0200" (CEST time) 
+"sc": "2021-08-20T12:03:12+02:00" (CEST time) 
+t/tr Result of the The result of the test. A coded value from the value set  
+test test-result.json (based on SNOMED CT, GPS). 
+Exactly 1 (one) non-empty field MUST be provided. 
+Example: 
+"tr": "260415000" (Not detected) 
+t/tc Testing centre Name of the actor that conducted the test. Identifiers are allowed as part of the 
+or facility name, but not recommended to be used individually without the name as a 
+text. Max 80 UTF-8 characters. Any extra characters should be truncated. The 
+name is not designed for automated verification. 
+For NAAT tests: exactly 1 (one) non-empty field MUST be provided.  
+For RAT tests: the field is optional. If provided, MUST NOT be empty. 
+Example: 
+"tc": "Test centre west region 245" 
+t/co Member State Country expressed as a 2-letter ISO3166 code (RECOMMENDED) or a 
+or third reference to an international organisation responsible for carrying out the test 
+country in 
+which the test (such as UNHCR or WHO). This MUST be a coded value from the value set  
+was carried country-2-codes.json.  
+out The value set will be distributed from the EUDCC Gateway starting with the 
+gateway version 1.1. 
+Exactly 1 (one) field MUST be provided. 
+Examples: 
+"co": "CZ" 
+"co": "UNHCR" 
+t/is Certificate Name of the organisation that issued the certificate. Identifiers are allowed as 
+issuer part of the name, but not recommended to be used individually without the 
+name as a text. Max 80 UTF-8 characters.  
+Exactly 1 (one) non-empty field MUST be provided.  
+Examples: 
+"is": "Ministry of Health of the Czech Republic" 
+"is": "North-West region health authority" 
+t/ci Unique Unique certificate identifier (UVCI) as specified in the vaccination-
+certificate proof_interoperability-guidelines_en.pdf (europa.eu) 
+identifier The inclusion of the checksum is optional. The prefix "URN:UVCI:" may be 
+added. 
+Exactly 1 (one) non-empty field MUST be provided.  
+Examples: 
+"ci": "URN:UVCI:01:NL:187/37512422923" 
+"ci": "URN:UVCI:01:AT:10807843F94AEE0EE5093FBC254BD813#B" 
+ 
+Recovery certificate 
+Recovery group, if present, MUST contain exactly 1 (one) entry describing exactly one recovery 
+statement. All elements of the recovery group are mandatory, empty values are not supported. 
+Field Field name Instructions 
+id 
+r/tg Disease or A coded value from the value set  
+agent from disease-agent-targeted.json.  
+which the 
+This value set has a single entry 840539006, which is the code for COVID-19 
+holder has 
+from SNOMED CT (GPS). 
+recovered: 
+COVID-19 Exactly 1 (one) non-empty field MUST be provided. 
+(SARS-CoV- Example: 
+2 or one of "tg": "840539006" 
+its variants) 
+r/fr Date of the The date when a sample for the NAAT test producing a positive result was 
+holder’s first collected, in the format YYYY-MM-DD (complete date without time). Other 
+positive formats are not supported. 
+NAAT test Exactly 1 (one) non-empty field MUST be provided. 
+result 
+Example: 
+"fr": "2021-05-18" 
+r/co Member Country expressed as a 2-letter ISO3166 code (RECOMMENDED) or a 
+State or third reference to an international organisation responsible for carrying out the test 
+country in (such as UNHCR or WHO). This MUST be a coded value from the value set  
+which test country-2-codes.json.  
+was carried The value set will be distributed from the EUDCC Gateway starting with the 
+out gateway version 1.1. 
+Exactly 1 (one) field MUST be provided. 
+Examples: 
+"co": "CZ" 
+"co": "UNHCR" 
+r/is Certificate Name of the organisation that issued the certificate. Identifiers are allowed as 
+issuer part of the name, but not recommended to be used individually without the 
+name as a text. Max 80 UTF-8 characters.  
+Exactly 1 (one) non-empty field MUST be provided. Example: 
+"is": "Ministry of Health of the Czech Republic" 
+"is": "Central University Hospital" 
+r/df Certificate The first date on which the certificate is considered to be valid. The date 
+valid from MUST NOT be earlier than the date calculated as r/fr + 11 days. 
+The date MUST be provided in the format YYYY-MM-DD (complete date 
+without time). Other formats are not supported. 
+Exactly 1 (one) non-empty field MUST be provided. 
+Example: 
+"df": "2021-05-29" 
+r/du Certificate The last date on which the certificate is considered to be valid, assigned by the 
+valid until certificate issuer. The date MUST NOT be after the date calculated as r/fr + 
+180 days. 
+The date MUST be provided in the format YYYY-MM-DD (complete date 
+without time). Other formats are not supported. 
+Exactly 1 (one) non-empty field MUST be provided. 
+Example: 
+"du": "2021-11-14" 
+r/ci Unique Unique certificate identifier (UVCI) as specified in the vaccination-
+certificate proof_interoperability-guidelines_en.pdf (europa.eu) 
+identifier The inclusion of the checksum is optional. The prefix "URN:UVCI:" may be 
+added. 
+Exactly 1 (one) non-empty field MUST be provided.  
+Examples: 
+"ci": "URN:UVCI:01:NL:187/37512422923" 
+"ci": "URN:UVCI:01:AT:10807843F94AEE0EE5093FBC254BD813#B" 
+ 

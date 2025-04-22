@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dcterms">
+  <dcvalue element="abstract" qualifier="none" language="">Electronic&#x20;health&#x20;records&#x20;EHRs&#x20;play&#x20;an&#x20;important&#x20;role&#x20;in&#x20;the&#x20;treatment&#x20;of&#x20;chronic&#x20;diseases&#x20;such&#x20;as&#x20;diabetes&#x20;mellitus&#x20;Although&#x20;the&#x20;interoperability&#x20;and&#x20;selected&#x20;functionality&#x20;of&#x20;EHRs&#x20;are&#x20;already&#x20;addressed&#x20;by&#x20;a&#x20;number&#x20;of&#x20;standards&#x20;and&#x20;best&#x20;practices&#x20;such&#x20;as&#x20;IHE&#x20;or&#x20;HL7&#x20;the&#x20;majority&#x20;of&#x20;these&#x20;systems&#x20;are&#x20;still&#x20;monolithic&#x20;from&#x20;a&#x20;user&#x20;functionality&#x20;perspective&#x20;The&#x20;purpose&#x20;of&#x20;the&#x20;OntoHealth&#x20;project&#x20;is&#x20;to&#x20;foster&#x20;a&#x20;functionally&#x20;flexible&#x20;standards&#x20;based&#x20;use&#x20;of&#x20;EHRs&#x20;to&#x20;support&#x20;clinical&#x20;routine&#x20;task&#x20;execution&#x20;by&#x20;means&#x20;of&#x20;workflow&#x20;patterns&#x20;and&#x20;to&#x20;shift&#x20;the&#x20;present&#x20;EHR&#x20;usage&#x20;to&#x20;a&#x20;more&#x20;comprehensive&#x20;integration&#x20;concerning&#x20;complete&#x20;clinical&#x20;workflows</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Schweitzer,&#x20;M</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Lasierra,&#x20;N</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Oberbichler,&#x20;S</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Toma,&#x20;I</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Fensel,&#x20;A</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Hoerbst,&#x20;A</dcvalue>
+  <dcvalue element="identifier" qualifier="none" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;10.4338&#x2F;ACI-2014-04-RA-0039</dcvalue>
+  <dcvalue element="relation" qualifier="none" language="">Applied&#x20;clinical&#x20;informatics</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">Structuring&#x20;clinical&#x20;workflows&#x20;for&#x20;diabetes&#x20;care:&#x20;an&#x20;overview&#x20;of&#x20;the&#x20;OntoHealth&#x20;approach.</dcvalue>
+</dublin_core>

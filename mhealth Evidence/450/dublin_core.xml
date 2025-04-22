@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dc">
+  <dcvalue element="contributor" qualifier="author" language="">Takeuchi,&#x20;Hirochi</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Kodama,&#x20;Naoki</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Hashiguchi,&#x20;Takeshi</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Hayashi,&#x20;Doubun</dcvalue>
+  <dcvalue element="date" qualifier="accessioned">2020-02-06T17:58:22Z</dcvalue>
+  <dcvalue element="date" qualifier="available">2020-02-06T17:58:22Z</dcvalue>
+  <dcvalue element="date" qualifier="issued" language="">2007-10-23</dcvalue>
+  <dcvalue element="identifier" qualifier="uri" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;10.1109&#x2F;IEMBS.2006.259228</dcvalue>
+  <dcvalue element="identifier" qualifier="uri">https:&#x2F;&#x2F;lib.digitalsquare.io&#x2F;xmlui&#x2F;handle&#x2F;123456789&#x2F;5858</dcvalue>
+  <dcvalue element="description" qualifier="abstract" language="">The&#x20;automated&#x20;healthcare&#x20;data&#x20;mining&#x20;system&#x20;reported&#x20;here&#x20;extracts&#x20;personally&#x20;useful&#x20;information&#x20;such&#x20;as&#x20;rules&#x20;and&#x20;patterns&#x20;concerning&#x20;lifestyles&#x20;and&#x20;health&#x20;conditions&#x20;from&#x20;daily&#x20;time&#x20;series&#x20;personal&#x20;health&#x20;and&#x20;lifestyle&#x20;data&#x20;stored&#x20;on&#x20;a&#x20;personal&#x20;dynamic&#x20;healthcare&#x20;system&#x20;by&#x20;using&#x20;mobile&#x20;phone&#x20;and&#x20;Web&#x20;technologies&#x20;This&#x20;system&#x20;enables&#x20;users&#x20;to&#x20;input&#x20;their&#x20;daily&#x20;data&#x20;through&#x20;a&#x20;mobile&#x20;phone&#x20;and&#x20;to&#x20;transfer&#x20;these&#x20;data&#x20;to&#x20;a&#x20;Web&#x20;application&#x20;server&#x20;via&#x20;the&#x20;Internet&#x20;The&#x20;Web&#x20;application&#x20;server&#x20;provides&#x20;a&#x20;data&#x20;mining&#x20;service&#x20;and&#x20;uses&#x20;mobile&#x20;phones&#x20;to&#x20;inform&#x20;users&#x20;of&#x20;important&#x20;rules&#x20;concerning&#x20;their&#x20;health&#x20;and&#x20;lifestyle&#x20;data&#x20;Automated&#x20;healthcare&#x20;data&#x20;mining&#x20;of&#x20;the&#x20;stored&#x20;time&#x20;series&#x20;data&#x20;of&#x20;volunteer&#x20;users&#x20;generated&#x20;some&#x20;useful&#x20;rules&#x20;correlating&#x20;their&#x20;lifestyles&#x20;with&#x20;body&#x20;fat&#x20;index</dcvalue>
+  <dcvalue element="description" qualifier="provenance" language="en">Made&#x20;available&#x20;in&#x20;DSpace&#x20;on&#x20;2020-02-06T17:58:22Z&#x20;(GMT).&#x20;No.&#x20;of&#x20;bitstreams:&#x20;0&#x0A;&#x20;&#x20;Previous&#x20;issue&#x20;date:&#x20;2007-10-23</dcvalue>
+  <dcvalue element="relation" qualifier="uri" language="">Conference&#x20;proceedings&#x20;:&#x20;...&#x20;Annual&#x20;International&#x20;Conference&#x20;of&#x20;the&#x20;IEEE&#x20;Engineering&#x20;in&#x20;Medicine&#x20;and&#x20;Biology&#x20;Society.&#x20;IEEE&#x20;Engineering&#x20;in&#x20;Medicine&#x20;and&#x20;Biology&#x20;Society.&#x20;Annual&#x20;Conference</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">Automated&#x20;healthcare&#x20;data&#x20;mining&#x20;based&#x20;on&#x20;a&#x20;personal&#x20;dynamic&#x20;healthcare&#x20;system.</dcvalue>
+</dublin_core>

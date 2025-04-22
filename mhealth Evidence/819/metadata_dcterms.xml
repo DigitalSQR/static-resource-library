@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dcterms">
+  <dcvalue element="abstract" qualifier="none" language="">This&#x20;article&#x20;describes&#x20;a&#x20;method&#x20;for&#x20;transfering&#x20;physiological&#x20;data&#x20;through&#x20;GSM&#x20;wireless&#x20;communication&#x20;network&#x20;The&#x20;data&#x20;of&#x20;heart&#x20;rate&#x20;and&#x20;body&#x20;temperature&#x20;are&#x20;collected&#x20;by&#x20;a&#x20;microcontroller&#x20;and&#x20;transmitted&#x20;through&#x20;serial&#x20;ports&#x20;to&#x20;the&#x20;GSM&#x20;data&#x20;module&#x20;which&#x20;then&#x20;transmits&#x20;the&#x20;data&#x20;to&#x20;a&#x20;remote&#x20;terminal&#x20;through&#x20;GSM&#x20;network&#x20;This&#x20;method&#x20;ensures&#x20;cheap&#x20;and&#x20;stable&#x20;long&#x20;distance&#x20;data&#x20;transfer&#x20;within&#x20;the&#x20;coverage&#x20;of&#x20;the&#x20;GSM&#x20;network</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Guo,&#x20;Jin-song</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Deng,&#x20;Qin-kai</dcvalue>
+  <dcvalue element="identifier" qualifier="none" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;Not&#x20;available</dcvalue>
+  <dcvalue element="relation" qualifier="none" language="">Di&#x20;1&#x20;jun&#x20;yi&#x20;da&#x20;xue&#x20;xue&#x20;bao&#x20;=&#x20;Academic&#x20;journal&#x20;of&#x20;the&#x20;first&#x20;medical&#x20;college&#x20;of&#x20;PLA</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">[A&#x20;method&#x20;for&#x20;transfering&#x20;physiological&#x20;data&#x20;through&#x20;GSM&#x20;wireless&#x20;communication&#x20;network].</dcvalue>
+</dublin_core>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dcterms">
+  <dcvalue element="abstract" qualifier="none" language="">Technology&#x20;offers&#x20;the&#x20;potential&#x20;to&#x20;objectively&#x20;monitor&#x20;people&#x20;s&#x20;eating&#x20;and&#x20;activity&#x20;behaviors&#x20;and&#x20;encourage&#x20;healthier&#x20;lifestyles&#x20;BALANCE&#x20;is&#x20;a&#x20;mobile&#x20;phone&#x20;based&#x20;system&#x20;for&#x20;long&#x20;term&#x20;wellness&#x20;management&#x20;The&#x20;BALANCE&#x20;system&#x20;automatically&#x20;detects&#x20;the&#x20;user&#x20;s&#x20;caloric&#x20;expenditure&#x20;via&#x20;sensor&#x20;data&#x20;from&#x20;a&#x20;Mobile&#x20;Sensing&#x20;Platform&#x20;unit&#x20;worn&#x20;on&#x20;the&#x20;hip&#x20;Users&#x20;manually&#x20;enter&#x20;information&#x20;on&#x20;foods&#x20;eaten&#x20;via&#x20;an&#x20;interface&#x20;on&#x20;an&#x20;N95&#x20;mobile&#x20;phone&#x20;Initial&#x20;validation&#x20;experiments&#x20;measuring&#x20;oxygen&#x20;consumption&#x20;during&#x20;treadmill&#x20;walking&#x20;and&#x20;jogging&#x20;show&#x20;that&#x20;the&#x20;system&#x20;s&#x20;estimate&#x20;of&#x20;caloric&#x20;output&#x20;is&#x20;within&#x20;87&#x20;of&#x20;the&#x20;actual&#x20;value&#x20;Future&#x20;work&#x20;will&#x20;refine&#x20;and&#x20;continue&#x20;to&#x20;evaluate&#x20;the&#x20;system&#x20;s&#x20;efficacy&#x20;and&#x20;develop&#x20;more&#x20;robust&#x20;data&#x20;input&#x20;and&#x20;activity&#x20;inference&#x20;methods</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Denning,&#x20;Tamara</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Andrew,&#x20;Adrienne</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Chaudhri,&#x20;Rohit</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Hartung,&#x20;Carl</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Lester,&#x20;Jonathan</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Borriello,&#x20;Gaetano</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Duncan,&#x20;Glen</dcvalue>
+  <dcvalue element="identifier" qualifier="none" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;10.1145&#x2F;1514411.1514416</dcvalue>
+  <dcvalue element="relation" qualifier="none" language="">Proceedings.&#x20;IEEE&#x20;Workshop&#x20;on&#x20;Mobile&#x20;Computing&#x20;Systems&#x20;and&#x20;Applications</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Client</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Access&#x20;to&#x20;information&#x20;or&#x20;data</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Efficacy</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Nutrition</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Preventive</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Disease&#x20;prevention</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Data&#x20;collection&#x20;and&#x20;reporting</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Surveillance</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Accelerometers&#x20;&#x2F;&#x20;Motion&#x20;sensors</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Raw&#x20;data</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">BALANCE:&#x20;Towards&#x20;a&#x20;Usable&#x20;Pervasive&#x20;Wellness&#x20;Application&#x20;with&#x20;Accurate&#x20;Activity&#x20;Inference.</dcvalue>
+</dublin_core>

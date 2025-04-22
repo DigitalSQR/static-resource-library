@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dcterms">
+  <dcvalue element="abstract" qualifier="none" language="">DICOM&#x20;is&#x20;today&#x20;s&#x20;de&#x20;facto&#x20;standard&#x20;for&#x20;exchanging&#x20;medical&#x20;images&#x20;Since&#x20;new&#x20;image&#x20;acquisition&#x20;devices&#x20;produce&#x20;more&#x20;and&#x20;more&#x20;image&#x20;and&#x20;non&#x20;image&#x20;data&#x20;image&#x20;compression&#x20;has&#x20;become&#x20;an&#x20;important&#x20;part&#x20;of&#x20;the&#x20;standard&#x20;However&#x20;the&#x20;compression&#x20;of&#x20;non&#x20;pixel&#x20;data&#x20;also&#x20;stored&#x20;in&#x20;DICOM&#x20;data&#x20;sets&#x20;has&#x20;been&#x20;disregarded&#x20;up&#x20;to&#x20;now&#x20;In&#x20;the&#x20;scope&#x20;of&#x20;an&#x20;EU&#x20;research&#x20;project&#x20;we&#x20;have&#x20;examined&#x20;a&#x20;large&#x20;amount&#x20;of&#x20;real&#x20;world&#x20;DICOM&#x20;images&#x20;to&#x20;test&#x20;whether&#x20;or&#x20;not&#x20;there&#x20;is&#x20;a&#x20;potential&#x20;for&#x20;compressing&#x20;the&#x20;non&#x20;pixel&#x20;attributes&#x20;Especially&#x20;for&#x20;use&#x20;with&#x20;narrow&#x20;band&#x20;networks&#x20;extensions&#x20;as&#x20;proposed&#x20;in&#x20;this&#x20;paper&#x20;could&#x20;be&#x20;a&#x20;solution&#x20;to&#x20;save&#x20;valuable&#x20;bandwidth</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Riesmeier,&#x20;J</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Eichelberg,&#x20;M</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Lemoine,&#x20;D</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Punys,&#x20;V</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Balogh,&#x20;N</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Jensch,&#x20;P</dcvalue>
+  <dcvalue element="identifier" qualifier="none" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;Not&#x20;available</dcvalue>
+  <dcvalue element="relation" qualifier="none" language="">Studies&#x20;in&#x20;health&#x20;technology&#x20;and&#x20;informatics</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">DICOM&#x20;extensions&#x20;for&#x20;narrow-band&#x20;networks.</dcvalue>
+</dublin_core>

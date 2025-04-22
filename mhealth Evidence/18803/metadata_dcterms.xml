@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dcterms">
+  <dcvalue element="abstract" qualifier="none" language="">This&#x20;paper&#x20;addresses&#x20;a&#x20;localization&#x20;system&#x20;which&#x20;is&#x20;based&#x20;on&#x20;a&#x20;combination&#x20;of&#x20;information&#x20;from&#x20;two&#x20;modalities&#x20;a&#x20;Smart&#x20;Home&#x20;Person&#x20;Tracking&#x20;SHPT&#x20;composed&#x20;of&#x20;infrared&#x20;sensors&#x20;and&#x20;an&#x20;Audio&#x20;Person&#x20;Tracking&#x20;APT&#x20;which&#x20;uses&#x20;microphones&#x20;able&#x20;to&#x20;estimate&#x20;azimuth&#x20;of&#x20;acoustic&#x20;sources&#x20;This&#x20;combination&#x20;improves&#x20;precision&#x20;of&#x20;localization&#x20;compared&#x20;to&#x20;a&#x20;standalone&#x20;or&#x20;separated&#x20;module&#x20;The&#x20;localization&#x20;software&#x20;facilitates&#x20;the&#x20;integration&#x20;of&#x20;both&#x20;SHPT&#x20;and&#x20;APT&#x20;systems&#x20;to&#x20;display&#x20;the&#x20;position&#x20;in&#x20;real&#x20;time&#x20;to&#x20;record&#x20;data&#x20;and&#x20;detect&#x20;some&#x20;distress&#x20;situations&#x20;some&#x20;kind&#x20;of&#x20;fall&#x20;Results&#x20;on&#x20;implementation&#x20;show&#x20;good&#x20;adaptation&#x20;for&#x20;Smart&#x20;Home&#x20;environments&#x20;and&#x20;a&#x20;robust&#x20;detection</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Guettari,&#x20;Toufik</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Aguilar,&#x20;Paulo&#x20;A&#x20;C</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Boudy,&#x20;Jerome</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Medjahed,&#x20;Hamid</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Istrate,&#x20;Dan</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Baldinger,&#x20;Jean-Louis</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Belfeki,&#x20;Imad</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Opitz,&#x20;Martin</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Maly-Persy,&#x20;Matthias</dcvalue>
+  <dcvalue element="identifier" qualifier="none" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;10.1109&#x2F;IEMBS.2010.5627688</dcvalue>
+  <dcvalue element="relation" qualifier="none" language="">Conference&#x20;proceedings&#x20;:&#x20;...&#x20;Annual&#x20;International&#x20;Conference&#x20;of&#x20;the&#x20;IEEE&#x20;Engineering&#x20;in&#x20;Medicine&#x20;and&#x20;Biology&#x20;Society.&#x20;IEEE&#x20;Engineering&#x20;in&#x20;Medicine&#x20;and&#x20;Biology&#x20;Society.&#x20;Annual&#x20;Conference</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">Multimodal&#x20;localization&#x20;in&#x20;the&#x20;context&#x20;of&#x20;a&#x20;medical&#x20;telemonitoring&#x20;system.</dcvalue>
+</dublin_core>

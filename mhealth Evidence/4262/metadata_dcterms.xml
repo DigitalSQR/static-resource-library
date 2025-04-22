@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dcterms">
+  <dcvalue element="abstract" qualifier="none" language="">Despite&#x20;many&#x20;attempts&#x20;to&#x20;improve&#x20;the&#x20;management&#x20;of&#x20;acute&#x20;myocardial&#x20;infarction&#x20;only&#x20;small&#x20;trends&#x20;to&#x20;shorter&#x20;time&#x20;intervals&#x20;before&#x20;treatment&#x20;have&#x20;been&#x20;reported&#x20;The&#x20;self&#x20;care&#x20;solution&#x20;developed&#x20;by&#x20;the&#x20;European&#x20;EPI&#x20;MEDICS&#x20;project&#x20;2001&#x20;2004&#x20;is&#x20;a&#x20;novel&#x20;very&#x20;affordable&#x20;easy&#x20;to&#x20;use&#x20;portable&#x20;and&#x20;intelligent&#x20;Personal&#x20;ECG&#x20;Monitor&#x20;PEM&#x20;for&#x20;the&#x20;early&#x20;detection&#x20;of&#x20;cardiac&#x20;ischemia&#x20;and&#x20;arrhythmia&#x20;that&#x20;is&#x20;able&#x20;to&#x20;record&#x20;a&#x20;professional&#x20;quality&#x20;3&#x20;lead&#x20;electrocardiogram&#x20;ECG&#x20;based&#x20;on&#x20;leads&#x20;I&#x20;II&#x20;and&#x20;V2&#x20;derive&#x20;the&#x20;missing&#x20;leads&#x20;of&#x20;the&#x20;standard&#x20;12&#x20;lead&#x20;ECG&#x20;thanks&#x20;to&#x20;either&#x20;a&#x20;generic&#x20;or&#x20;a&#x20;patient&#x20;specific&#x20;transform&#x20;compare&#x20;each&#x20;ECG&#x20;with&#x20;a&#x20;reference&#x20;ECG&#x20;by&#x20;means&#x20;of&#x20;advanced&#x20;neural&#x20;network&#x20;based&#x20;decision&#x20;making&#x20;methods&#x20;taking&#x20;into&#x20;account&#x20;the&#x20;serial&#x20;ECG&#x20;measurements&#x20;and&#x20;the&#x20;patient&#x20;risk&#x20;factors&#x20;and&#x20;clinical&#x20;data&#x20;and&#x20;generate&#x20;different&#x20;levels&#x20;of&#x20;alarms&#x20;and&#x20;forward&#x20;the&#x20;alarm&#x20;messages&#x20;with&#x20;the&#x20;recorded&#x20;ECGs&#x20;and&#x20;the&#x20;patient&#x20;s&#x20;Personal&#x20;electronic&#x20;Health&#x20;Record&#x20;PHR&#x20;to&#x20;the&#x20;relevant&#x20;health&#x20;care&#x20;providers&#x20;by&#x20;means&#x20;of&#x20;a&#x20;standard&#x20;Bluetooth&#x20;enabled&#x20;GSM&#x20;GPRS&#x20;compatible&#x20;mobile&#x20;phone&#x20;The&#x20;ECG&#x20;records&#x20;are&#x20;SCP&#x20;ECG&#x20;encoded&#x20;and&#x20;stored&#x20;with&#x20;the&#x20;PHR&#x20;on&#x20;a&#x20;secure&#x20;personal&#x20;SD&#x20;Card&#x20;embedded&#x20;in&#x20;the&#x20;PEM&#x20;device&#x20;The&#x20;alarm&#x20;messages&#x20;and&#x20;the&#x20;PHR&#x20;are&#x20;XML&#x20;encoded&#x20;Major&#x20;alarm&#x20;messages&#x20;are&#x20;automatically&#x20;transmitted&#x20;to&#x20;the&#x20;nearest&#x20;emergency&#x20;call&#x20;center&#x20;Medium&#x20;or&#x20;minor&#x20;alarms&#x20;are&#x20;sent&#x20;on&#x20;demand&#x20;to&#x20;a&#x20;central&#x20;PEM&#x20;Alarm&#x20;Web&#x20;Server&#x20;Health&#x20;professionals&#x20;are&#x20;informed&#x20;by&#x20;a&#x20;Short&#x20;Message&#x20;Service&#x20;The&#x20;PEM&#x20;embeds&#x20;itself&#x20;a&#x20;Web&#x20;server&#x20;to&#x20;facilitate&#x20;the&#x20;reviewing&#x20;and&#x20;or&#x20;update&#x20;of&#x20;the&#x20;PHR&#x20;during&#x20;a&#x20;routine&#x20;visit&#x20;at&#x20;the&#x20;office&#x20;of&#x20;the&#x20;general&#x20;physician&#x20;or&#x20;cardiologist&#x20;Eighty&#x20;PEM&#x20;prototypes&#x20;have&#x20;been&#x20;finalized&#x20;and&#x20;tested&#x20;for&#x20;several&#x20;weeks&#x20;on&#x20;697&#x20;citizens&#x20;patients&#x20;in&#x20;different&#x20;clinical&#x20;and&#x20;self&#x20;care&#x20;situations&#x20;involving&#x20;end&#x20;users&#x20;188&#x20;patients&#x20;general&#x20;physicians&#x20;10&#x20;and&#x20;cardiologists&#x20;9&#x20;The&#x20;clinical&#x20;evaluation&#x20;indicates&#x20;that&#x20;the&#x20;EPI&#x20;MEDICS&#x20;concept&#x20;may&#x20;save&#x20;lives&#x20;and&#x20;is&#x20;very&#x20;valuable&#x20;for&#x20;prehospitalization&#x20;triage</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Rubel,&#x20;Paul</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Fayn,&#x20;Jocelyne</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Nollo,&#x20;Giandomenico</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Assanelli,&#x20;Deodato</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Li,&#x20;Bo</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Restier,&#x20;Lioara</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Adami,&#x20;Stefano</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Arod,&#x20;Sébastien</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Atoui,&#x20;Hussein</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Ohlsson,&#x20;Mattias</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Simon-Chautemps,&#x20;Lucas</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Télisson,&#x20;David</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Malossi,&#x20;Cesare</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Ziliani,&#x20;Gian-Luca</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Galassi,&#x20;Alfredo</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Edenbrandt,&#x20;Lars</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Chevalier,&#x20;Philippe</dcvalue>
+  <dcvalue element="identifier" qualifier="none" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;10.1016&#x2F;j.jelectrocard.2005.06.011</dcvalue>
+  <dcvalue element="relation" qualifier="none" language="">Journal&#x20;of&#x20;electrocardiology</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">At&#x20;risk&#x20;for&#x20;a&#x20;particular&#x20;disease&#x20;or&#x20;infection</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Client</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Access&#x20;to&#x20;information&#x20;or&#x20;data</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Delayed&#x20;reporting&#x20;of&#x20;events</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Timeliness&#x20;of&#x20;care</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Pilot</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Cardiovascular&#x20;disease</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Non-communicable&#x20;diseases</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Preventive</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Disease&#x20;prevention</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Data&#x20;collection&#x20;and&#x20;reporting</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Surveillance</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Electronic&#x20;health&#x20;records</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Bluetooth</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Memory&#x20;Card&#x20;(eg.&#x20;MicroSD)</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Physiologic&#x20;Biosensors</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">SMS</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">Toward&#x20;personal&#x20;eHealth&#x20;in&#x20;cardiology.&#x20;Results&#x20;from&#x20;the&#x20;EPI-MEDICS&#x20;telemedicine&#x20;project.</dcvalue>
+</dublin_core>

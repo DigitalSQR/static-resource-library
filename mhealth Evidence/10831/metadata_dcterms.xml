@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dcterms">
+  <dcvalue element="abstract" qualifier="none" language="">This&#x20;paper&#x20;presents&#x20;an&#x20;approach&#x20;to&#x20;image&#x20;coding&#x20;that&#x20;first&#x20;paints&#x20;a&#x20;regularly&#x20;arranged&#x20;dotted&#x20;pattern&#x20;using&#x20;colors&#x20;picked&#x20;from&#x20;a&#x20;texture&#x20;sample&#x20;with&#x20;features&#x20;corresponding&#x20;to&#x20;the&#x20;embedded&#x20;data&#x20;It&#x20;then&#x20;camouflages&#x20;the&#x20;dotted&#x20;pattern&#x20;using&#x20;the&#x20;same&#x20;texture&#x20;sample&#x20;while&#x20;preserving&#x20;quality&#x20;comparable&#x20;to&#x20;that&#x20;of&#x20;existing&#x20;synthesis&#x20;techniques</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Otori,&#x20;H</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Kuriyama,&#x20;S</dcvalue>
+  <dcvalue element="identifier" qualifier="none" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;10.1109&#x2F;MCG.2009.127</dcvalue>
+  <dcvalue element="relation" qualifier="none" language="">IEEE&#x20;computer&#x20;graphics&#x20;and&#x20;applications</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">Texture&#x20;synthesis&#x20;for&#x20;mobile&#x20;data&#x20;communications.</dcvalue>
+</dublin_core>

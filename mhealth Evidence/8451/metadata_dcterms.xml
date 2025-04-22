@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dcterms">
+  <dcvalue element="abstract" qualifier="none" language="">This&#x20;paper&#x20;presents&#x20;a&#x20;master&#x20;slave&#x20;robotized&#x20;system&#x20;enabling&#x20;a&#x20;remote&#x20;echographic&#x20;diagnosis&#x20;The&#x20;expert&#x20;holds&#x20;a&#x20;virtual&#x20;probe&#x20;placed&#x20;on&#x20;a&#x20;haptic&#x20;device&#x20;he&#x20;moves&#x20;this&#x20;virtual&#x20;probe&#x20;in&#x20;order&#x20;to&#x20;control&#x20;the&#x20;motion&#x20;of&#x20;the&#x20;real&#x20;probe&#x20;positioned&#x20;on&#x20;the&#x20;body&#x20;of&#x20;the&#x20;patient&#x20;located&#x20;remotely&#x20;The&#x20;real&#x20;probe&#x20;is&#x20;placed&#x20;on&#x20;a&#x20;lightweight&#x20;and&#x20;user&#x20;friendly&#x20;slave&#x20;robot&#x20;and&#x20;moved&#x20;by&#x20;it&#x20;The&#x20;contact&#x20;force&#x20;between&#x20;the&#x20;probe&#x20;and&#x20;the&#x20;patient&#x20;is&#x20;fed&#x20;back&#x20;to&#x20;the&#x20;operator&#x20;allowing&#x20;him&#x20;to&#x20;have&#x20;a&#x20;haptic&#x20;virtual&#x20;environment&#x20;The&#x20;aim&#x20;of&#x20;this&#x20;haptic&#x20;control&#x20;is&#x20;to&#x20;preserve&#x20;the&#x20;medical&#x20;expert&#x20;proprioception&#x20;in&#x20;order&#x20;to&#x20;the&#x20;facilitate&#x20;hand&#x20;eye&#x20;coordination&#x20;necessary&#x20;to&#x20;echographic&#x20;examination&#x20;In&#x20;this&#x20;paper&#x20;we&#x20;present&#x20;the&#x20;architecture&#x20;of&#x20;the&#x20;system&#x20;and&#x20;experimental&#x20;results</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Vilchis,&#x20;Adriana</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Masuda,&#x20;Kohji</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Troccaz,&#x20;Jocelyne</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Cinquin,&#x20;Philippe</dcvalue>
+  <dcvalue element="identifier" qualifier="none" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;Not&#x20;available</dcvalue>
+  <dcvalue element="relation" qualifier="none" language="">Studies&#x20;in&#x20;health&#x20;technology&#x20;and&#x20;informatics</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">Robot-based&#x20;tele-echography:&#x20;the&#x20;TER&#x20;system.</dcvalue>
+</dublin_core>

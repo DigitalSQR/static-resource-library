@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dc">
+  <dcvalue element="contributor" qualifier="author" language="">Ohashi,&#x20;Kumiko</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Gomi,&#x20;Yuichiro</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Nogawa,&#x20;Hiroki</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Mizushima,&#x20;Hiroshi</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Tanaka,&#x20;Hiroshi</dcvalue>
+  <dcvalue element="date" qualifier="accessioned">2020-02-10T17:39:41Z</dcvalue>
+  <dcvalue element="date" qualifier="available">2020-02-10T17:39:41Z</dcvalue>
+  <dcvalue element="date" qualifier="issued" language="">2005-09-14</dcvalue>
+  <dcvalue element="identifier" qualifier="uri" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;Not&#x20;available</dcvalue>
+  <dcvalue element="identifier" qualifier="uri">https:&#x2F;&#x2F;lib.digitalsquare.io&#x2F;xmlui&#x2F;handle&#x2F;123456789&#x2F;27510</dcvalue>
+  <dcvalue element="description" qualifier="abstract" language="">We&#x20;developed&#x20;a&#x20;secure&#x20;medical&#x20;image&#x20;transmission&#x20;system&#x20;by&#x20;using&#x20;TCP2&#x20;which&#x20;is&#x20;a&#x20;new&#x20;technology&#x20;that&#x20;establishes&#x20;secure&#x20;communications&#x20;in&#x20;transport&#x20;layer&#x20;Two&#x20;experiments&#x20;were&#x20;conducted&#x20;TCP2&#x20;performance&#x20;tests&#x20;and&#x20;field&#x20;tests&#x20;that&#x20;transmit&#x20;real&#x20;time&#x20;digital&#x20;video&#x20;image&#x20;in&#x20;domestic&#x20;and&#x20;international&#x20;settings&#x20;by&#x20;equipping&#x20;TCP2&#x20;with&#x20;DVTS&#x20;Digital&#x20;Video&#x20;Transmission&#x20;System&#x20;The&#x20;results&#x20;showed&#x20;DVTS&#x20;equipped&#x20;with&#x20;TCP2&#x20;has&#x20;enough&#x20;performance&#x20;to&#x20;send&#x20;secure&#x20;and&#x20;high&#x20;quality&#x20;medical&#x20;images&#x20;It&#x20;was&#x20;considered&#x20;that&#x20;medical&#x20;network&#x20;using&#x20;TCP2&#x20;would&#x20;contribute&#x20;as&#x20;an&#x20;essential&#x20;technology&#x20;to&#x20;telemedicine</dcvalue>
+  <dcvalue element="description" qualifier="provenance" language="en">Made&#x20;available&#x20;in&#x20;DSpace&#x20;on&#x20;2020-02-10T17:39:41Z&#x20;(GMT).&#x20;No.&#x20;of&#x20;bitstreams:&#x20;0&#x0A;&#x20;&#x20;Previous&#x20;issue&#x20;date:&#x20;2005-09-14</dcvalue>
+  <dcvalue element="relation" qualifier="uri" language="">Studies&#x20;in&#x20;health&#x20;technology&#x20;and&#x20;informatics</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">Development&#x20;of&#x20;Secured&#x20;Medical&#x20;Network&#x20;with&#x20;TCP2&#x20;for&#x20;Telemedicine.</dcvalue>
+</dublin_core>

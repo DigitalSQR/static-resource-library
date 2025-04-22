@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dcterms">
+  <dcvalue element="abstract" qualifier="none" language="">Exploiting&#x20;distributed&#x20;hard&#x20;and&#x20;software&#x20;resources&#x20;for&#x20;telemedicine&#x20;requires&#x20;a&#x20;fast&#x20;secure&#x20;and&#x20;platform&#x20;independent&#x20;data&#x20;exchange&#x20;Standards&#x20;without&#x20;inherent&#x20;security&#x20;mechanisms&#x20;such&#x20;as&#x20;DICOM&#x20;may&#x20;ease&#x20;non&#x20;authorized&#x20;data&#x20;access&#x20;Therefore&#x20;exemplary&#x20;telemedical&#x20;data&#x20;streams&#x20;were&#x20;analyzed&#x20;within&#x20;the&#x20;Berlin&#x20;metropolitan&#x20;area&#x20;network&#x20;using&#x20;specialized&#x20;magnetic&#x20;resonance&#x20;imaging&#x20;techniques&#x20;and&#x20;distributed&#x20;resources&#x20;for&#x20;data&#x20;postprocessing&#x20;For&#x20;secure&#x20;DICOM&#x20;communication&#x20;both&#x20;the&#x20;Secure&#x20;Socket&#x20;Layer&#x20;Protocol&#x20;and&#x20;a&#x20;DICOM&#x20;conform&#x20;partial&#x20;encryption&#x20;of&#x20;patient&#x20;relevant&#x20;data&#x20;were&#x20;implemented&#x20;Partial&#x20;encryption&#x20;exhibited&#x20;the&#x20;highest&#x20;transfer&#x20;rate&#x20;and&#x20;enabled&#x20;a&#x20;secure&#x20;long&#x20;term&#x20;storage&#x20;Different&#x20;data&#x20;streams&#x20;between&#x20;secured&#x20;and&#x20;unsecured&#x20;networks&#x20;were&#x20;realized&#x20;using&#x20;partial&#x20;encryption</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Bernarding,&#x20;J</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Thiel,&#x20;A</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Tolxdorff,&#x20;T</dcvalue>
+  <dcvalue element="identifier" qualifier="none" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;Not&#x20;available</dcvalue>
+  <dcvalue element="relation" qualifier="none" language="">Methods&#x20;of&#x20;information&#x20;in&#x20;medicine</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">Realization&#x20;of&#x20;security&#x20;concepts&#x20;for&#x20;DICOM-based&#x20;distributed&#x20;medical&#x20;services.</dcvalue>
+</dublin_core>

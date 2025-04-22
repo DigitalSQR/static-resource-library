@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dc">
+  <dcvalue element="contributor" qualifier="author" language="">Chen,&#x20;Xiang</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Waluyo,&#x20;Agustinus&#x20;Borgy</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Pek,&#x20;Isaac</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Yeoh,&#x20;Wee-Soon</dcvalue>
+  <dcvalue element="date" qualifier="accessioned">2020-02-06T17:46:19Z</dcvalue>
+  <dcvalue element="date" qualifier="available">2020-02-06T17:46:19Z</dcvalue>
+  <dcvalue element="date" qualifier="issued" language="">2010-11-24</dcvalue>
+  <dcvalue element="identifier" qualifier="uri" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;10.1109&#x2F;IEMBS.2010.5626575</dcvalue>
+  <dcvalue element="identifier" qualifier="uri">https:&#x2F;&#x2F;lib.digitalsquare.io&#x2F;xmlui&#x2F;handle&#x2F;123456789&#x2F;5586</dcvalue>
+  <dcvalue element="description" qualifier="abstract" language="">This&#x20;paper&#x20;presents&#x20;a&#x20;flexible&#x20;efficient&#x20;and&#x20;lightweight&#x20;Wireless&#x20;Body&#x20;Area&#x20;Network&#x20;WBAN&#x20;Middleware&#x20;The&#x20;Middleware&#x20;is&#x20;developed&#x20;to&#x20;bridge&#x20;the&#x20;communication&#x20;between&#x20;mobile&#x20;device&#x20;as&#x20;a&#x20;gateway&#x20;and&#x20;the&#x20;sensor&#x20;nodes&#x20;and&#x20;therefore&#x20;it&#x20;shields&#x20;the&#x20;underlying&#x20;sensor&#x20;and&#x20;OS&#x20;protocol&#x20;stack&#x20;away&#x20;from&#x20;the&#x20;WBAN&#x20;application&#x20;layer&#x20;The&#x20;middleware&#x20;is&#x20;coded&#x20;in&#x20;the&#x20;form&#x20;of&#x20;lightweight&#x20;dynamic&#x20;link&#x20;library&#x20;which&#x20;allows&#x20;the&#x20;application&#x20;developer&#x20;to&#x20;simply&#x20;incorporate&#x20;the&#x20;middleware&#x20;resource&#x20;dynamic&#x20;link&#x20;library&#x20;into&#x20;their&#x20;application&#x20;and&#x20;call&#x20;the&#x20;required&#x20;functions&#x20;i&#x20;e&#x20;data&#x20;acquisition&#x20;resource&#x20;management&#x20;and&#x20;configurations&#x20;A&#x20;showcase&#x20;of&#x20;the&#x20;middleware&#x20;deployment&#x20;is&#x20;exhibited&#x20;at&#x20;the&#x20;end&#x20;of&#x20;the&#x20;paper</dcvalue>
+  <dcvalue element="description" qualifier="provenance" language="en">Made&#x20;available&#x20;in&#x20;DSpace&#x20;on&#x20;2020-02-06T17:46:19Z&#x20;(GMT).&#x20;No.&#x20;of&#x20;bitstreams:&#x20;0&#x0A;&#x20;&#x20;Previous&#x20;issue&#x20;date:&#x20;2010-11-24</dcvalue>
+  <dcvalue element="relation" qualifier="uri" language="">Conference&#x20;proceedings&#x20;:&#x20;...&#x20;Annual&#x20;International&#x20;Conference&#x20;of&#x20;the&#x20;IEEE&#x20;Engineering&#x20;in&#x20;Medicine&#x20;and&#x20;Biology&#x20;Society.&#x20;IEEE&#x20;Engineering&#x20;in&#x20;Medicine&#x20;and&#x20;Biology&#x20;Society.&#x20;Annual&#x20;Conference</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">Mobile&#x20;middleware&#x20;for&#x20;wireless&#x20;body&#x20;area&#x20;network.</dcvalue>
+</dublin_core>

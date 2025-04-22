@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dcterms">
+  <dcvalue element="abstract" qualifier="none" language="">Radiology&#x20;departments&#x20;often&#x20;underestimate&#x20;the&#x20;importance&#x20;of&#x20;protecting&#x20;medical&#x20;data&#x20;during&#x20;transmission&#x20;including&#x20;the&#x20;precautions&#x20;taken&#x20;to&#x20;ensure&#x20;data&#x20;protection&#x20;In&#x20;teleradiology&#x20;transmitted&#x20;as&#x20;well&#x20;as&#x20;stored&#x20;patient&#x20;data&#x20;have&#x20;to&#x20;be&#x20;signed&#x20;digitally&#x20;according&#x20;to&#x20;the&#x20;currently&#x20;valid&#x20;regulation&#x20;Rontgenverordnung&#x20;RoV&#x20;The&#x20;DICOM&#x20;standard&#x20;facilitates&#x20;a&#x20;digital&#x20;signature&#x20;So&#x20;far&#x20;medical&#x20;image&#x20;manufacturers&#x20;only&#x20;announced&#x20;to&#x20;support&#x20;this&#x20;security&#x20;feature&#x20;We&#x20;introduce&#x20;a&#x20;solution&#x20;that&#x20;extends&#x20;the&#x20;feature&#x20;of&#x20;digital&#x20;signing&#x20;to&#x20;older&#x20;modalities</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Schütze,&#x20;B</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Kroll,&#x20;M</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Filler,&#x20;T&#x20;J</dcvalue>
+  <dcvalue element="identifier" qualifier="none" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;10.1055&#x2F;s-2004-813560</dcvalue>
+  <dcvalue element="relation" qualifier="none" language="">RöFo&#x20;:&#x20;Fortschritte&#x20;auf&#x20;dem&#x20;Gebiete&#x20;der&#x20;Röntgenstrahlen&#x20;und&#x20;der&#x20;Nuklearmedizin</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">[A&#x20;solution&#x20;to&#x20;add&#x20;digital&#x20;signatures&#x20;to&#x20;medical&#x20;images&#x20;according&#x20;to&#x20;the&#x20;DICOM&#x20;standard:&#x20;embedded&#x20;systems].</dcvalue>
+</dublin_core>

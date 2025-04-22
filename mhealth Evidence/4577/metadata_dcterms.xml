@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dcterms">
+  <dcvalue element="abstract" qualifier="none" language="">Today&#x20;mobile&#x20;computing&#x20;provides&#x20;enough&#x20;resources&#x20;to&#x20;be&#x20;used&#x20;in&#x20;medical&#x20;applications&#x20;Patient&#x20;treatment&#x20;is&#x20;a&#x20;process&#x20;that&#x20;involves&#x20;multiple&#x20;partners&#x20;All&#x20;those&#x20;partners&#x20;need&#x20;access&#x20;to&#x20;common&#x20;patient&#x20;data&#x20;and&#x20;need&#x20;to&#x20;make&#x20;changes&#x20;to&#x20;the&#x20;patients&#x20;health&#x20;record&#x20;Therefore&#x20;data&#x20;that&#x20;the&#x20;partners&#x20;collect&#x20;and&#x20;change&#x20;with&#x20;mobile&#x20;devices&#x20;has&#x20;to&#x20;be&#x20;synchronized&#x20;on&#x20;a&#x20;central&#x20;server&#x20;to&#x20;form&#x20;the&#x20;master&#x20;patient&#x20;record&#x20;Data&#x20;conflicts&#x20;resulting&#x20;from&#x20;the&#x20;synchronization&#x20;have&#x20;to&#x20;be&#x20;solved&#x20;automatically&#x20;Our&#x20;project&#x20;describes&#x20;a&#x20;solution&#x20;for&#x20;XML&#x20;based&#x20;data&#x20;replication&#x20;and&#x20;synchronization&#x20;for&#x20;mobile&#x20;health&#x20;applications</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Campana,&#x20;J</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Gmelin,&#x20;M</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Schöchlin,&#x20;J</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Bolz,&#x20;A</dcvalue>
+  <dcvalue element="identifier" qualifier="none" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;Not&#x20;available</dcvalue>
+  <dcvalue element="relation" qualifier="none" language="">Biomedizinische&#x20;Technik.&#x20;Biomedical&#x20;engineering</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">XML-based&#x20;synchronization&#x20;of&#x20;mobile&#x20;medical&#x20;devices.</dcvalue>
+</dublin_core>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dc">
+  <dcvalue element="contributor" qualifier="author" language="">Wang,&#x20;Hao</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Han,&#x20;Meng</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Liu,&#x20;Jing</dcvalue>
+  <dcvalue element="date" qualifier="accessioned">2020-02-06T15:44:12Z</dcvalue>
+  <dcvalue element="date" qualifier="available">2020-02-06T15:44:12Z</dcvalue>
+  <dcvalue element="date" qualifier="issued" language="">2011-03-01</dcvalue>
+  <dcvalue element="identifier" qualifier="uri" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;Not&#x20;available</dcvalue>
+  <dcvalue element="identifier" qualifier="uri">https:&#x2F;&#x2F;lib.digitalsquare.io&#x2F;xmlui&#x2F;handle&#x2F;123456789&#x2F;405</dcvalue>
+  <dcvalue element="description" qualifier="abstract" language="">This&#x20;paper&#x20;constructed&#x20;a&#x20;plantar&#x20;pressure&#x20;sensing&#x20;system&#x20;based&#x20;on&#x20;Bluetooth&#x20;communication&#x20;of&#x20;mobile&#x20;phone&#x20;with&#x20;embedded&#x20;Windows&#x20;Mobile&#x20;system&#x20;With&#x20;the&#x20;MCU&#x20;Microprocessor&#x20;Control&#x20;Unit&#x20;and&#x20;Bluetooth&#x20;module&#x20;the&#x20;pressure&#x20;sensor&#x20;and&#x20;the&#x20;data&#x20;acquisition&#x20;circuit&#x20;was&#x20;designed&#x20;and&#x20;integrated&#x20;with&#x20;software&#x20;developed&#x20;under&#x20;Visual&#x20;Studio&#x20;2008&#x20;environment&#x20;The&#x20;real&#x20;time&#x20;monitoring&#x20;of&#x20;human&#x20;dynamic&#x20;plantar&#x20;pressure&#x20;signal&#x20;and&#x20;transferring&#x20;displaying&#x20;and&#x20;storing&#x20;the&#x20;recorded&#x20;data&#x20;on&#x20;a&#x20;mobile&#x20;phone&#x20;were&#x20;achieved&#x20;This&#x20;method&#x20;offers&#x20;an&#x20;important&#x20;measure&#x20;to&#x20;acquire&#x20;human&#x20;gait&#x20;information&#x20;via&#x20;a&#x20;pervasive&#x20;and&#x20;low&#x20;cost&#x20;way</dcvalue>
+  <dcvalue element="description" qualifier="provenance" language="en">Made&#x20;available&#x20;in&#x20;DSpace&#x20;on&#x20;2020-02-06T15:44:12Z&#x20;(GMT).&#x20;No.&#x20;of&#x20;bitstreams:&#x20;0&#x0A;&#x20;&#x20;Previous&#x20;issue&#x20;date:&#x20;2011-03-01</dcvalue>
+  <dcvalue element="relation" qualifier="uri" language="">Zhongguo&#x20;yi&#x20;liao&#x20;qi&#x20;xie&#x20;za&#x20;zhi&#x20;=&#x20;Chinese&#x20;journal&#x20;of&#x20;medical&#x20;instrumentation</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Facility-based&#x20;health&#x20;worker</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Access&#x20;to&#x20;information&#x20;or&#x20;data</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Feasibility</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Data&#x20;collection&#x20;and&#x20;reporting</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Bluetooth</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Raw&#x20;data</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Physiologic&#x20;Biosensors</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Cost</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">[Mobile&#x20;phone&#x20;platform&#x20;for&#x20;wireless&#x20;monitoring&#x20;of&#x20;human&#x20;dynamic&#x20;plantar&#x20;pressure].</dcvalue>
+</dublin_core>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dcterms">
+  <dcvalue element="abstract" qualifier="none" language="">Electronic&#x20;discharge&#x20;letters&#x20;are&#x20;in&#x20;many&#x20;cases&#x20;insufficient&#x20;as&#x20;a&#x20;recipe&#x20;for&#x20;further&#x20;treatment&#x20;and&#x20;recovery&#x20;Through&#x20;using&#x20;discharge&#x20;letters&#x20;as&#x20;input&#x20;to&#x20;our&#x20;neural&#x20;network&#x20;based&#x20;information&#x20;retrieval&#x20;system&#x20;Pasent&#x20;we&#x20;have&#x20;been&#x20;able&#x20;to&#x20;provide&#x20;relevant&#x20;medical&#x20;information&#x20;The&#x20;Pasent&#x20;search&#x20;method&#x20;uses&#x20;predefined&#x20;knowledge&#x20;about&#x20;the&#x20;context&#x20;paired&#x20;with&#x20;the&#x20;vocabulary&#x20;of&#x20;the&#x20;input&#x20;document&#x20;to&#x20;compute&#x20;a&#x20;relevance&#x20;measure&#x20;for&#x20;a&#x20;potential&#x20;result&#x20;document&#x20;In&#x20;the&#x20;reported&#x20;experiments&#x20;we&#x20;achieved&#x20;search&#x20;results&#x20;comparable&#x20;to&#x20;the&#x20;tftdf&#x20;method&#x20;without&#x20;building&#x20;specialised&#x20;context&#x20;models&#x20;for&#x20;the&#x20;experiment</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Bellika,&#x20;Johan&#x20;Gustav</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Hartvigsen,&#x20;Gunnar</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Norum,&#x20;Jan</dcvalue>
+  <dcvalue element="identifier" qualifier="none" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;Not&#x20;available</dcvalue>
+  <dcvalue element="relation" qualifier="none" language="">Studies&#x20;in&#x20;health&#x20;technology&#x20;and&#x20;informatics</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">Using&#x20;discharge&#x20;letters&#x20;and&#x20;context&#x20;representation&#x20;in&#x20;information&#x20;retrieval&#x20;of&#x20;medical&#x20;literature.</dcvalue>
+</dublin_core>

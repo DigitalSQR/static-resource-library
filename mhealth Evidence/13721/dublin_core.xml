@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dc">
+  <dcvalue element="contributor" qualifier="author" language="">Yang,&#x20;Yongju</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Lee,&#x20;Junghoon</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Jung,&#x20;Jipmin</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Song,&#x20;Sangha</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Yoon,&#x20;Hyounro</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Yoon,&#x20;Youngro</dcvalue>
+  <dcvalue element="date" qualifier="accessioned">2020-02-10T17:19:10Z</dcvalue>
+  <dcvalue element="date" qualifier="available">2020-02-10T17:19:10Z</dcvalue>
+  <dcvalue element="date" qualifier="issued" language="">2007-11-16</dcvalue>
+  <dcvalue element="identifier" qualifier="uri" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;10.1109&#x2F;IEMBS.2007.4353690</dcvalue>
+  <dcvalue element="identifier" qualifier="uri">https:&#x2F;&#x2F;lib.digitalsquare.io&#x2F;xmlui&#x2F;handle&#x2F;123456789&#x2F;25659</dcvalue>
+  <dcvalue element="description" qualifier="abstract" language="">we&#x20;applied&#x20;the&#x20;inverse&#x20;problem&#x20;approach&#x20;to&#x20;locate&#x20;the&#x20;known&#x20;source&#x20;in&#x20;a&#x20;uniformly&#x20;distributed&#x20;sensor&#x20;network&#x20;from&#x20;a&#x20;simultaneous&#x20;RSSI&#x20;measurement&#x20;between&#x20;sensors&#x20;and&#x20;sources&#x20;We&#x20;also&#x20;proposed&#x20;a&#x20;new&#x20;sensing&#x20;model&#x20;to&#x20;calculate&#x20;RSSI&#x20;between&#x20;sensors&#x20;and&#x20;a&#x20;specific&#x20;source&#x20;and&#x20;carefully&#x20;considered&#x20;the&#x20;orientation&#x20;vector&#x20;of&#x20;the&#x20;source&#x20;We&#x20;detected&#x20;the&#x20;original&#x20;source&#x20;by&#x20;means&#x20;of&#x20;a&#x20;linear&#x20;inverse&#x20;problem&#x20;using&#x20;the&#x20;calculated&#x20;RSSI&#x20;at&#x20;the&#x20;target&#x20;source&#x20;from&#x20;the&#x20;improved&#x20;sensing&#x20;model&#x20;Finally&#x20;we&#x20;simulated&#x20;the&#x20;proposed&#x20;sensing&#x20;model&#x20;to&#x20;verify&#x20;its&#x20;ability&#x20;to&#x20;detect&#x20;the&#x20;original&#x20;source&#x20;Changes&#x20;in&#x20;the&#x20;initial&#x20;source&#x20;and&#x20;calculated&#x20;results&#x20;remained&#x20;quite&#x20;in&#x20;place&#x20;Moreover&#x20;the&#x20;norm&#x20;of&#x20;the&#x20;detected&#x20;source&#x20;was&#x20;significantly&#x20;larger&#x20;than&#x20;the&#x20;norm&#x20;of&#x20;any&#x20;other&#x20;sources</dcvalue>
+  <dcvalue element="description" qualifier="provenance" language="en">Made&#x20;available&#x20;in&#x20;DSpace&#x20;on&#x20;2020-02-10T17:19:10Z&#x20;(GMT).&#x20;No.&#x20;of&#x20;bitstreams:&#x20;0&#x0A;&#x20;&#x20;Previous&#x20;issue&#x20;date:&#x20;2007-11-16</dcvalue>
+  <dcvalue element="relation" qualifier="uri" language="">Conference&#x20;proceedings&#x20;:&#x20;...&#x20;Annual&#x20;International&#x20;Conference&#x20;of&#x20;the&#x20;IEEE&#x20;Engineering&#x20;in&#x20;Medicine&#x20;and&#x20;Biology&#x20;Society.&#x20;IEEE&#x20;Engineering&#x20;in&#x20;Medicine&#x20;and&#x20;Biology&#x20;Society.&#x20;Annual&#x20;Conference</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">Target&#x20;source&#x20;detection&#x20;using&#x20;an&#x20;improved&#x20;sensing&#x20;model&#x20;in&#x20;wireless&#x20;sensor&#x20;networks&#x20;(ISMWSNs).</dcvalue>
+</dublin_core>

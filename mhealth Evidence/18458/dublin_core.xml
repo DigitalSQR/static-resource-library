@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dc">
+  <dcvalue element="contributor" qualifier="author" language="">Karimi,&#x20;Yasha</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Lin,&#x20;Yingkan</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Jodhani,&#x20;Gagan</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Stanaćević,&#x20;Milutin</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Gouma,&#x20;Pelagia-Irene</dcvalue>
+  <dcvalue element="date" qualifier="accessioned">2020-06-08T14:38:47Z</dcvalue>
+  <dcvalue element="date" qualifier="available">2020-06-08T14:38:47Z</dcvalue>
+  <dcvalue element="date" qualifier="issued" language="">0000-00-00</dcvalue>
+  <dcvalue element="identifier" qualifier="uri" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;10.3390&#x2F;s19020270</dcvalue>
+  <dcvalue element="identifier" qualifier="uri">https:&#x2F;&#x2F;lib.digitalsquare.io&#x2F;handle&#x2F;123456789&#x2F;64888</dcvalue>
+  <dcvalue element="description" qualifier="abstract" language="">A&#x20;single&#x20;exhale&#x20;breathalyzer&#x20;comprises&#x20;a&#x20;gas&#x20;sensor&#x20;that&#x20;satisfies&#x20;the&#x20;following&#x20;stringent&#x20;conditions&#x20;high&#x20;sensitivity&#x20;to&#x20;the&#x20;target&#x20;gas&#x20;high&#x20;selectivity&#x20;stable&#x20;response&#x20;over&#x20;extended&#x20;period&#x20;of&#x20;time&#x20;and&#x20;fast&#x20;response&#x20;Breathalyzer&#x20;implementation&#x20;includes&#x20;a&#x20;front&#x20;end&#x20;circuit&#x20;matching&#x20;the&#x20;sensitivity&#x20;of&#x20;the&#x20;sensor&#x20;that&#x20;provides&#x20;the&#x20;readout&#x20;of&#x20;the&#x20;sensor&#x20;signal&#x20;We&#x20;present&#x20;here&#x20;the&#x20;characterization&#x20;study&#x20;of&#x20;the&#x20;response&#x20;stability&#x20;and&#x20;response&#x20;time&#x20;of&#x20;a&#x20;selective&#x20;Nitric&#x20;Oxide&#x20;NO&#x20;sensor&#x20;using&#x20;designed&#x20;data&#x20;acquisition&#x20;system&#x20;that&#x20;also&#x20;serves&#x20;as&#x20;a&#x20;foundation&#x20;for&#x20;the&#x20;design&#x20;of&#x20;wireless&#x20;handheld&#x20;prototype&#x20;The&#x20;experimental&#x20;results&#x20;with&#x20;the&#x20;described&#x20;sensor&#x20;and&#x20;data&#x20;acquisition&#x20;system&#x20;demonstrate&#x20;stable&#x20;response&#x20;to&#x20;NO&#x20;concentration&#x20;of&#x20;200&#x20;ppb&#x20;over&#x20;the&#x20;period&#x20;of&#x20;two&#x20;weeks&#x20;The&#x20;experiments&#x20;with&#x20;different&#x20;injection&#x20;and&#x20;retraction&#x20;times&#x20;of&#x20;the&#x20;sensor&#x20;exposure&#x20;to&#x20;constant&#x20;NO&#x20;concentration&#x20;show&#x20;a&#x20;fast&#x20;response&#x20;time&#x20;of&#x20;the&#x20;sensor&#x20;on&#x20;the&#x20;order&#x20;of&#x20;15&#x20;s&#x20;and&#x20;the&#x20;adequate&#x20;recovery&#x20;time&#x20;on&#x20;the&#x20;order&#x20;of&#x20;3&#x20;min&#x20;demonstrating&#x20;suitability&#x20;for&#x20;the&#x20;single&#x20;exhale&#x20;breathalyzer</dcvalue>
+  <dcvalue element="description" qualifier="provenance" language="en">Made&#x20;available&#x20;in&#x20;DSpace&#x20;on&#x20;2020-06-08T14:38:47Z&#x20;(GMT).&#x20;No.&#x20;of&#x20;bitstreams:&#x20;0&#x0A;&#x20;&#x20;Previous&#x20;issue&#x20;date:&#x20;&#x20;&#x20;&#x20;2-11-30</dcvalue>
+  <dcvalue element="relation" qualifier="uri" language="">Sensors&#x20;(Basel,&#x20;Switzerland)</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">Single&#x20;Exhale&#x20;Biomarker&#x20;Breathalyzer.</dcvalue>
+</dublin_core>

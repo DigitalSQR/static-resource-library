@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dcterms">
+  <dcvalue element="abstract" qualifier="none" language="">In&#x20;the&#x20;context&#x20;of&#x20;the&#x20;growing&#x20;proportion&#x20;of&#x20;seniors&#x20;in&#x20;the&#x20;western&#x20;world&#x20;population&#x20;and&#x20;the&#x20;efforts&#x20;provided&#x20;in&#x20;home&#x20;care&#x20;services&#x20;we&#x20;have&#x20;developed&#x20;a&#x20;computer&#x20;vision&#x20;system&#x20;for&#x20;monitoring&#x20;medication&#x20;intake&#x20;The&#x20;system&#x20;detects&#x20;automatically&#x20;medication&#x20;intake&#x20;using&#x20;a&#x20;single&#x20;low&#x20;cost&#x20;webcam&#x20;Person&#x20;detection&#x20;and&#x20;tracking&#x20;over&#x20;the&#x20;video&#x20;sequence&#x20;is&#x20;done&#x20;using&#x20;color&#x20;based&#x20;techniques&#x20;while&#x20;the&#x20;recognition&#x20;of&#x20;the&#x20;medication&#x20;intake&#x20;activity&#x20;is&#x20;performed&#x20;using&#x20;our&#x20;main&#x20;contribution&#x20;a&#x20;three&#x20;level&#x20;scenario&#x20;model&#x20;Experimental&#x20;results&#x20;in&#x20;controlled&#x20;conditions&#x20;are&#x20;shown&#x20;and&#x20;we&#x20;discuss&#x20;improvements&#x20;to&#x20;our&#x20;system</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Valin,&#x20;Myriam</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Meunier,&#x20;Jean</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">St-Arnaud,&#x20;Alain</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Rousseau,&#x20;Jacqueline</dcvalue>
+  <dcvalue element="identifier" qualifier="none" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;10.1109&#x2F;IEMBS.2006.260647</dcvalue>
+  <dcvalue element="relation" qualifier="none" language="">Conference&#x20;proceedings&#x20;:&#x20;...&#x20;Annual&#x20;International&#x20;Conference&#x20;of&#x20;the&#x20;IEEE&#x20;Engineering&#x20;in&#x20;Medicine&#x20;and&#x20;Biology&#x20;Society.&#x20;IEEE&#x20;Engineering&#x20;in&#x20;Medicine&#x20;and&#x20;Biology&#x20;Society.&#x20;Annual&#x20;Conference</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">Video&#x20;surveillance&#x20;of&#x20;medication&#x20;intake.</dcvalue>
+</dublin_core>

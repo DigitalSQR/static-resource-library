@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dc">
+  <dcvalue element="contributor" qualifier="author" language="">Murakami,&#x20;Atsushi</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Maki,&#x20;Hiromichi</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Ogawa,&#x20;Hidekuni</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Tsukamoto,&#x20;Sosuke</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Yonezawa,&#x20;Yoshiharu</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Hahn,&#x20;Allen&#x20;W</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Caldwell,&#x20;W&#x20;Morton</dcvalue>
+  <dcvalue element="date" qualifier="accessioned">2020-02-06T17:27:56Z</dcvalue>
+  <dcvalue element="date" qualifier="available">2020-02-06T17:27:56Z</dcvalue>
+  <dcvalue element="date" qualifier="issued" language="">2013-05-20</dcvalue>
+  <dcvalue element="identifier" qualifier="uri" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;Not&#x20;available</dcvalue>
+  <dcvalue element="identifier" qualifier="uri">https:&#x2F;&#x2F;lib.digitalsquare.io&#x2F;xmlui&#x2F;handle&#x2F;123456789&#x2F;5163</dcvalue>
+  <dcvalue element="description" qualifier="abstract" language="">Amyotrophic&#x20;lateral&#x20;sclerosis&#x20;is&#x20;a&#x20;progressive&#x20;degeneration&#x20;of&#x20;motor&#x20;neurons&#x20;Patients&#x20;with&#x20;the&#x20;disease&#x20;lose&#x20;their&#x20;ability&#x20;to&#x20;speak&#x20;and&#x20;to&#x20;use&#x20;their&#x20;hands&#x20;as&#x20;the&#x20;disease&#x20;progresses&#x20;We&#x20;have&#x20;developed&#x20;a&#x20;new&#x20;electronic&#x20;communication&#x20;system&#x20;that&#x20;enables&#x20;communication&#x20;by&#x20;blinking&#x20;of&#x20;the&#x20;eyes&#x20;The&#x20;system&#x20;consists&#x20;of&#x20;a&#x20;light&#x20;emitting&#x20;diode&#x20;LED&#x20;two&#x20;silicone&#x20;rubber&#x20;electrodes&#x20;an&#x20;electrooculogram&#x20;EOG&#x20;recorder&#x20;a&#x20;microcontroller&#x20;a&#x20;sound&#x20;reproduction&#x20;board&#x20;a&#x20;pillow&#x20;speaker&#x20;and&#x20;a&#x20;low&#x20;power&#x20;mobile&#x20;phone&#x20;The&#x20;two&#x20;silicone&#x20;rubber&#x20;electrodes&#x20;record&#x20;the&#x20;EOG&#x20;induced&#x20;by&#x20;blinking&#x20;the&#x20;eyes&#x20;synchronized&#x20;with&#x20;LED&#x20;flashing&#x20;The&#x20;EOG&#x20;is&#x20;amplified&#x20;by&#x20;the&#x20;EOG&#x20;recorder&#x20;The&#x20;microcontroller&#x20;detects&#x20;the&#x20;blinking&#x20;from&#x20;the&#x20;amplified&#x20;EOG&#x20;and&#x20;then&#x20;their&#x20;meanings&#x20;are&#x20;confirmed&#x20;by&#x20;voice&#x20;After&#x20;that&#x20;the&#x20;patient&#x20;s&#x20;intention&#x20;is&#x20;transmitted&#x20;to&#x20;the&#x20;nurse&#x20;by&#x20;a&#x20;low&#x20;power&#x20;mobile&#x20;phone&#x20;so&#x20;the&#x20;care&#x20;giver&#x20;is&#x20;kept&#x20;in&#x20;the&#x20;loop</dcvalue>
+  <dcvalue element="description" qualifier="provenance" language="en">Made&#x20;available&#x20;in&#x20;DSpace&#x20;on&#x20;2020-02-06T17:27:56Z&#x20;(GMT).&#x20;No.&#x20;of&#x20;bitstreams:&#x20;0&#x0A;&#x20;&#x20;Previous&#x20;issue&#x20;date:&#x20;2013-05-20</dcvalue>
+  <dcvalue element="relation" qualifier="uri" language="">Biomedical&#x20;sciences&#x20;instrumentation</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">An&#x20;electronic&#x20;communication&#x20;system&#x20;for&#x20;amyotrophic&#x20;lateral&#x20;sclerosis&#x20;patients&#x20;-&#x20;biomed&#x20;2013.</dcvalue>
+</dublin_core>

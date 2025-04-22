@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dc">
+  <dcvalue element="contributor" qualifier="author" language="">Messori,&#x20;A</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Donati-Cori,&#x20;G</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Tendi,&#x20;E</dcvalue>
+  <dcvalue element="date" qualifier="accessioned">2020-02-06T16:12:59Z</dcvalue>
+  <dcvalue element="date" qualifier="available">2020-02-06T16:12:59Z</dcvalue>
+  <dcvalue element="date" qualifier="issued" language="">1983-12-20</dcvalue>
+  <dcvalue element="identifier" qualifier="uri" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;Not&#x20;available</dcvalue>
+  <dcvalue element="identifier" qualifier="uri">https:&#x2F;&#x2F;lib.digitalsquare.io&#x2F;xmlui&#x2F;handle&#x2F;123456789&#x2F;2603</dcvalue>
+  <dcvalue element="description" qualifier="abstract" language="">Programs&#x20;that&#x20;perform&#x20;a&#x20;nonlinear&#x20;least&#x20;squares&#x20;fit&#x20;to&#x20;data&#x20;conforming&#x20;to&#x20;one&#x20;compartment&#x20;oral&#x20;or&#x20;two&#x20;compartment&#x20;intravenous&#x20;pharmacokinetic&#x20;models&#x20;are&#x20;described&#x20;The&#x20;programs&#x20;are&#x20;designed&#x20;for&#x20;use&#x20;on&#x20;a&#x20;Hewlett&#x20;Packard&#x20;HP&#x20;41&#x20;CV&#x20;programmable&#x20;calculator&#x20;equipped&#x20;with&#x20;an&#x20;extended&#x20;functions&#x20;module&#x20;and&#x20;one&#x20;or&#x20;two&#x20;extended&#x20;memory&#x20;modules&#x20;Initial&#x20;estimates&#x20;of&#x20;variables&#x20;in&#x20;the&#x20;model&#x20;are&#x20;calculated&#x20;by&#x20;the&#x20;method&#x20;of&#x20;residuals&#x20;and&#x20;then&#x20;iteratively&#x20;improved&#x20;by&#x20;the&#x20;use&#x20;of&#x20;the&#x20;Gauss&#x20;Newton&#x20;algorithm&#x20;as&#x20;modified&#x20;by&#x20;Hartley&#x20;This&#x20;modification&#x20;minimizes&#x20;convergence&#x20;problems&#x20;The&#x20;iterative&#x20;fitting&#x20;procedure&#x20;includes&#x20;a&#x20;routine&#x20;for&#x20;estimation&#x20;of&#x20;lag&#x20;time&#x20;for&#x20;the&#x20;one&#x20;compartment&#x20;oral&#x20;model&#x20;Clinical&#x20;applications&#x20;of&#x20;the&#x20;programs&#x20;are&#x20;illustrated&#x20;using&#x20;previously&#x20;published&#x20;data&#x20;Programming&#x20;steps&#x20;and&#x20;user&#x20;instructions&#x20;are&#x20;listed&#x20;The&#x20;programs&#x20;provide&#x20;an&#x20;efficient&#x20;and&#x20;inexpensive&#x20;method&#x20;of&#x20;estimating&#x20;pharmacokinetic&#x20;variables</dcvalue>
+  <dcvalue element="description" qualifier="provenance" language="en">Made&#x20;available&#x20;in&#x20;DSpace&#x20;on&#x20;2020-02-06T16:12:59Z&#x20;(GMT).&#x20;No.&#x20;of&#x20;bitstreams:&#x20;0&#x0A;&#x20;&#x20;Previous&#x20;issue&#x20;date:&#x20;1983-12-20</dcvalue>
+  <dcvalue element="relation" qualifier="uri" language="">American&#x20;journal&#x20;of&#x20;hospital&#x20;pharmacy</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">Iterative&#x20;least-squares&#x20;fitting&#x20;programs&#x20;in&#x20;pharmacokinetics&#x20;for&#x20;a&#x20;programmable&#x20;handheld&#x20;calculator.</dcvalue>
+</dublin_core>

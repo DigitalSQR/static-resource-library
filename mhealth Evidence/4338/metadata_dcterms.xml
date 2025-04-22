@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dcterms">
+  <dcvalue element="abstract" qualifier="none" language="">The&#x20;annotation&#x20;of&#x20;genomes&#x20;from&#x20;next&#x20;generation&#x20;sequencing&#x20;platforms&#x20;needs&#x20;to&#x20;be&#x20;rapid&#x20;high&#x20;throughput&#x20;and&#x20;fully&#x20;integrated&#x20;and&#x20;automated&#x20;Although&#x20;a&#x20;few&#x20;Web&#x20;based&#x20;annotation&#x20;services&#x20;have&#x20;recently&#x20;become&#x20;available&#x20;they&#x20;may&#x20;not&#x20;be&#x20;the&#x20;best&#x20;solution&#x20;for&#x20;researchers&#x20;that&#x20;need&#x20;to&#x20;annotate&#x20;a&#x20;large&#x20;number&#x20;of&#x20;genomes&#x20;possibly&#x20;including&#x20;proprietary&#x20;data&#x20;and&#x20;store&#x20;them&#x20;locally&#x20;for&#x20;further&#x20;analysis&#x20;To&#x20;address&#x20;this&#x20;need&#x20;we&#x20;developed&#x20;a&#x20;standalone&#x20;software&#x20;application&#x20;the&#x20;Annotation&#x20;of&#x20;microbial&#x20;Genome&#x20;Sequences&#x20;AGeS&#x20;system&#x20;which&#x20;incorporates&#x20;publicly&#x20;available&#x20;and&#x20;in&#x20;house&#x20;developed&#x20;bioinformatics&#x20;tools&#x20;and&#x20;databases&#x20;many&#x20;of&#x20;which&#x20;are&#x20;parallelized&#x20;for&#x20;high&#x20;throughput&#x20;performance</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Kumar,&#x20;Kamal</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Desai,&#x20;Valmik</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Cheng,&#x20;Li</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Khitrov,&#x20;Maxim</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Grover,&#x20;Deepak</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Satya,&#x20;Ravi&#x20;Vijaya</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Yu,&#x20;Chenggang</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Zavaljevski,&#x20;Nela</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Reifman,&#x20;Jaques</dcvalue>
+  <dcvalue element="identifier" qualifier="none" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;10.1371&#x2F;journal.pone.0017469</dcvalue>
+  <dcvalue element="relation" qualifier="none" language="">PloS&#x20;one</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">AGeS:&#x20;a&#x20;software&#x20;system&#x20;for&#x20;microbial&#x20;genome&#x20;sequence&#x20;annotation.</dcvalue>
+</dublin_core>

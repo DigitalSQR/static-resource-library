@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dcterms">
+  <dcvalue element="abstract" qualifier="none" language="">This&#x20;paper&#x20;presents&#x20;new&#x20;approaches&#x20;of&#x20;medical&#x20;information&#x20;security&#x20;and&#x20;terminal&#x20;mobile&#x20;phone&#x20;adaptation&#x20;for&#x20;the&#x20;PocketNeuro&#x20;project&#x20;The&#x20;latter&#x20;term&#x20;refers&#x20;to&#x20;a&#x20;project&#x20;created&#x20;for&#x20;the&#x20;management&#x20;of&#x20;neurological&#x20;diseases&#x20;It&#x20;consists&#x20;of&#x20;transmitting&#x20;information&#x20;about&#x20;patients&#x20;desk&#x20;of&#x20;patients&#x20;to&#x20;a&#x20;doctor&#x20;s&#x20;mobile&#x20;phone&#x20;during&#x20;a&#x20;visit&#x20;and&#x20;examination&#x20;of&#x20;a&#x20;patient&#x20;These&#x20;new&#x20;approaches&#x20;for&#x20;the&#x20;PocketNeuro&#x20;project&#x20;were&#x20;analyzed&#x20;in&#x20;terms&#x20;of&#x20;medical&#x20;information&#x20;security&#x20;and&#x20;adaptation&#x20;of&#x20;the&#x20;diagnostic&#x20;images&#x20;to&#x20;the&#x20;doctor&#x20;s&#x20;mobile&#x20;phone&#x20;Images&#x20;were&#x20;extracted&#x20;from&#x20;a&#x20;DICOM&#x20;library&#x20;Matlab&#x20;and&#x20;its&#x20;library&#x20;were&#x20;used&#x20;as&#x20;software&#x20;to&#x20;test&#x20;our&#x20;approaches&#x20;and&#x20;to&#x20;validate&#x20;our&#x20;results&#x20;Experiments&#x20;performed&#x20;on&#x20;a&#x20;database&#x20;of&#x20;30&#x20;256&#x20;x&#x20;256&#x20;pixel&#x20;sized&#x20;neuronal&#x20;medical&#x20;images&#x20;indicated&#x20;that&#x20;our&#x20;new&#x20;approaches&#x20;for&#x20;PocketNeuro&#x20;project&#x20;are&#x20;valid&#x20;and&#x20;support&#x20;plans&#x20;for&#x20;large&#x20;scale&#x20;studies&#x20;between&#x20;French&#x20;and&#x20;Swiss&#x20;hospitals&#x20;using&#x20;secured&#x20;connections</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Chemak,&#x20;C</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Bouhlel,&#x20;M-S</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Lapayre,&#x20;J-C</dcvalue>
+  <dcvalue element="identifier" qualifier="none" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;10.1089&#x2F;tmj.2007.0117</dcvalue>
+  <dcvalue element="relation" qualifier="none" language="">Telemedicine&#x20;journal&#x20;and&#x20;e-health&#x20;:&#x20;the&#x20;official&#x20;journal&#x20;of&#x20;the&#x20;American&#x20;Telemedicine&#x20;Association</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">At&#x20;risk&#x20;for&#x20;a&#x20;particular&#x20;disease&#x20;or&#x20;infection</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Facility-based&#x20;health&#x20;worker</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Access&#x20;to&#x20;information&#x20;or&#x20;data</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Prototype</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Non-communicable&#x20;diseases</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Data&#x20;collection&#x20;and&#x20;reporting</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Surveillance</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Image</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">Neurology&#x20;diagnostics&#x20;security&#x20;and&#x20;terminal&#x20;adaptation&#x20;for&#x20;PocketNeuro&#x20;project.</dcvalue>
+</dublin_core>

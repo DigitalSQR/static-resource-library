@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dcterms">
+  <dcvalue element="abstract" qualifier="none" language="">INTRODUCTION&#x20;Telepathology&#x20;allows&#x20;the&#x20;digital&#x20;transmission&#x20;of&#x20;images&#x20;for&#x20;rapid&#x20;access&#x20;to&#x20;pathology&#x20;experts&#x20;Recent&#x20;technologic&#x20;advances&#x20;in&#x20;smartphones&#x20;have&#x20;allowed&#x20;them&#x20;to&#x20;be&#x20;used&#x20;to&#x20;acquire&#x20;and&#x20;transmit&#x20;digital&#x20;images&#x20;of&#x20;the&#x20;glass&#x20;slide&#x20;representing&#x20;cost&#x20;savings&#x20;and&#x20;efficiency&#x20;gains&#x20;over&#x20;traditional&#x20;forms&#x20;of&#x20;telepathology&#x20;We&#x20;report&#x20;our&#x20;experience&#x20;with&#x20;developing&#x20;an&#x20;iPhone&#x20;application&#x20;App&#x20;Pocket&#x20;Pathologist&#x20;to&#x20;facilitate&#x20;rapid&#x20;diagnostic&#x20;pathology&#x20;teleconsultation&#x20;utilizing&#x20;a&#x20;smartphone&#x20;MATERIALS&#x20;AND&#x20;METHODS&#x20;A&#x20;secure&#x20;web&#x20;based&#x20;portal&#x20;http&#x20;pathconsult&#x20;upmc&#x20;com&#x20;was&#x20;created&#x20;to&#x20;facilitate&#x20;remote&#x20;transmission&#x20;of&#x20;digital&#x20;images&#x20;for&#x20;teleconsultation&#x20;The&#x20;App&#x20;augments&#x20;functionality&#x20;of&#x20;the&#x20;web&#x20;based&#x20;portal&#x20;and&#x20;allows&#x20;the&#x20;user&#x20;to&#x20;quickly&#x20;and&#x20;easily&#x20;upload&#x20;digital&#x20;images&#x20;for&#x20;teleconsultation&#x20;Image&#x20;quality&#x20;of&#x20;smartphone&#x20;cameras&#x20;was&#x20;evaluated&#x20;by&#x20;capturing&#x20;images&#x20;using&#x20;different&#x20;adapters&#x20;that&#x20;directly&#x20;attach&#x20;phones&#x20;to&#x20;a&#x20;microscope&#x20;ocular&#x20;lens&#x20;RESULTS&#x20;The&#x20;App&#x20;was&#x20;launched&#x20;in&#x20;August&#x20;2013&#x20;The&#x20;App&#x20;facilitated&#x20;easy&#x20;submission&#x20;of&#x20;cases&#x20;for&#x20;teleconsultation&#x20;by&#x20;limiting&#x20;the&#x20;number&#x20;of&#x20;data&#x20;entry&#x20;fields&#x20;for&#x20;users&#x20;and&#x20;enabling&#x20;uploading&#x20;of&#x20;images&#x20;from&#x20;their&#x20;smartphone&#x20;s&#x20;gallery&#x20;wirelessly&#x20;Smartphone&#x20;cameras&#x20;properly&#x20;attached&#x20;to&#x20;a&#x20;microscope&#x20;create&#x20;static&#x20;digital&#x20;images&#x20;of&#x20;similar&#x20;quality&#x20;to&#x20;a&#x20;commercial&#x20;digital&#x20;microscope&#x20;camera&#x20;CONCLUSION&#x20;Smartphones&#x20;have&#x20;great&#x20;potential&#x20;to&#x20;support&#x20;telepathology&#x20;because&#x20;they&#x20;are&#x20;portable&#x20;provide&#x20;ubiquitous&#x20;internet&#x20;connectivity&#x20;contain&#x20;excellent&#x20;digital&#x20;cameras&#x20;and&#x20;can&#x20;be&#x20;easily&#x20;attached&#x20;to&#x20;a&#x20;microscope&#x20;The&#x20;Pocket&#x20;Pathologist&#x20;App&#x20;represents&#x20;a&#x20;significant&#x20;reduction&#x20;in&#x20;the&#x20;cost&#x20;of&#x20;creating&#x20;digital&#x20;images&#x20;and&#x20;submitting&#x20;them&#x20;for&#x20;teleconsultation&#x20;The&#x20;iPhone&#x20;App&#x20;provides&#x20;an&#x20;easy&#x20;solution&#x20;for&#x20;global&#x20;users&#x20;to&#x20;submit&#x20;digital&#x20;pathology&#x20;images&#x20;to&#x20;pathology&#x20;experts&#x20;for&#x20;consultation</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Hartman,&#x20;Douglas&#x20;J</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Parwani,&#x20;Anil&#x20;V</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Cable,&#x20;Bill</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Cucoranu,&#x20;Ioan&#x20;C</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">McHugh,&#x20;Jeff&#x20;S</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Kolowitz,&#x20;Brian&#x20;J</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Yousem,&#x20;Samuel&#x20;A</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Palat,&#x20;Vijaykumar</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Reden,&#x20;Anna&#x20;Von</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Sloka,&#x20;Stephen</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Lauro,&#x20;Gonzalo&#x20;Romero</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Ahmed,&#x20;Ishtiaque</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Pantanowitz,&#x20;Liron</dcvalue>
+  <dcvalue element="identifier" qualifier="none" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;10.4103&#x2F;2153-3539.129443</dcvalue>
+  <dcvalue element="relation" qualifier="none" language="">Journal&#x20;of&#x20;pathology&#x20;informatics</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Client</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Facility-based&#x20;health&#x20;worker</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Community-based&#x20;health&#x20;worker</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Manager</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Supply&#x20;of&#x20;services</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Remote&#x20;client-to-provider&#x20;consultations&#x20;(Telemedicine)</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Disease&#x20;diagnosis&#x20;&#x2F;&#x20;Point-of-care&#x20;diagnostics</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Internet</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Image</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Installed&#x20;application</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">Pocket&#x20;pathologist:&#x20;A&#x20;mobile&#x20;application&#x20;for&#x20;rapid&#x20;diagnostic&#x20;surgical&#x20;pathology&#x20;consultation.</dcvalue>
+</dublin_core>

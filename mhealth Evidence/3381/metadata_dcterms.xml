@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dcterms">
+  <dcvalue element="abstract" qualifier="none" language="">Transmitting&#x20;high&#x20;quality&#x20;neurophysiology&#x20;video&#x20;via&#x20;the&#x20;Internet&#x20;is&#x20;a&#x20;challenging&#x20;problem&#x20;in&#x20;telemedicine&#x20;We&#x20;propose&#x20;a&#x20;novel&#x20;content&#x20;selective&#x20;video&#x20;data&#x20;processing&#x20;and&#x20;compression&#x20;method&#x20;based&#x20;on&#x20;the&#x20;Discrete&#x20;Wavelet&#x20;Transform&#x20;DWT&#x20;Our&#x20;algorithm&#x20;is&#x20;adaptive&#x20;to&#x20;intraoperative&#x20;monitoring&#x20;video&#x20;data&#x20;and&#x20;has&#x20;a&#x20;great&#x20;scalability&#x20;on&#x20;real&#x20;time&#x20;network&#x20;bandwidth&#x20;allocation&#x20;When&#x20;compared&#x20;with&#x20;the&#x20;general&#x20;purpose&#x20;video&#x20;compression&#x20;methods&#x20;our&#x20;method&#x20;offers&#x20;higher&#x20;quality&#x20;within&#x20;the&#x20;critical&#x20;field&#x20;of&#x20;neurosurgery</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Xu,&#x20;Jian</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Ilgin,&#x20;Hakki</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Liu,&#x20;Qiang</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Kassam,&#x20;Amin</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Sclabassi,&#x20;Robert&#x20;J</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Chaparro,&#x20;Luis&#x20;F</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Sun,&#x20;Mingui</dcvalue>
+  <dcvalue element="identifier" qualifier="none" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;10.1109&#x2F;IEMBS.2004.1403885</dcvalue>
+  <dcvalue element="relation" qualifier="none" language="">Conference&#x20;proceedings&#x20;:&#x20;...&#x20;Annual&#x20;International&#x20;Conference&#x20;of&#x20;the&#x20;IEEE&#x20;Engineering&#x20;in&#x20;Medicine&#x20;and&#x20;Biology&#x20;Society.&#x20;IEEE&#x20;Engineering&#x20;in&#x20;Medicine&#x20;and&#x20;Biology&#x20;Society.&#x20;Annual&#x20;Conference</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">Content-based&#x20;video&#x20;coding&#x20;for&#x20;remote&#x20;monitoring&#x20;of&#x20;neurosurgery.</dcvalue>
+</dublin_core>

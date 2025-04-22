@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dcterms">
+  <dcvalue element="abstract" qualifier="none" language="">The&#x20;paper&#x20;deals&#x20;with&#x20;a&#x20;universal&#x20;component&#x20;oriented&#x20;architecture&#x20;for&#x20;creating&#x20;the&#x20;telemedicine&#x20;applications&#x20;The&#x20;worked&#x20;out&#x20;system&#x20;ensures&#x20;the&#x20;ECG&#x20;reading&#x20;pressure&#x20;measurements&#x20;and&#x20;pulsometry&#x20;The&#x20;system&#x20;design&#x20;comprises&#x20;a&#x20;central&#x20;database&#x20;server&#x20;and&#x20;a&#x20;client&#x20;telemedicine&#x20;module&#x20;Data&#x20;can&#x20;be&#x20;transmitted&#x20;via&#x20;different&#x20;interfaces&#x20;from&#x20;an&#x20;ordinary&#x20;local&#x20;network&#x20;to&#x20;digital&#x20;satellite&#x20;phones&#x20;The&#x20;data&#x20;protection&#x20;is&#x20;guaranteed&#x20;by&#x20;microchip&#x20;charts&#x20;that&#x20;were&#x20;used&#x20;to&#x20;realize&#x20;the&#x20;authentication&#x20;3DES&#x20;algorithm</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Potapov,&#x20;I&#x20;V</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Selishchev,&#x20;S&#x20;V</dcvalue>
+  <dcvalue element="identifier" qualifier="none" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;Not&#x20;available</dcvalue>
+  <dcvalue element="relation" qualifier="none" language="">Meditsinskaia&#x20;tekhnika</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">[A&#x20;telemedicine&#x20;electrocardiography&#x20;system&#x20;based&#x20;on&#x20;the&#x20;component-architecture&#x20;soft].</dcvalue>
+</dublin_core>

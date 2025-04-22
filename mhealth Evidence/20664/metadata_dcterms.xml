@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dcterms">
+  <dcvalue element="abstract" qualifier="none" language="">A&#x20;telemonitoring&#x20;system&#x20;based&#x20;on&#x20;short&#x20;message&#x20;service&#x20;SMS&#x20;has&#x20;been&#x20;developed&#x20;to&#x20;remotely&#x20;monitor&#x20;the&#x20;long&#x20;term&#x20;mobility&#x20;levels&#x20;of&#x20;elderly&#x20;people&#x20;in&#x20;their&#x20;natural&#x20;environment&#x20;Mobility&#x20;is&#x20;measured&#x20;by&#x20;an&#x20;accelerometer&#x20;based&#x20;portable&#x20;unit&#x20;worn&#x20;by&#x20;each&#x20;monitored&#x20;subject&#x20;Mobility&#x20;level&#x20;summaries&#x20;are&#x20;transmitted&#x20;hourly&#x20;as&#x20;an&#x20;SMS&#x20;message&#x20;directly&#x20;from&#x20;the&#x20;portable&#x20;unit&#x20;to&#x20;a&#x20;remote&#x20;server&#x20;for&#x20;long&#x20;term&#x20;analysis&#x20;Each&#x20;subject&#x20;s&#x20;mobility&#x20;levels&#x20;are&#x20;monitored&#x20;using&#x20;custom&#x20;designed&#x20;mobility&#x20;alert&#x20;software&#x20;and&#x20;the&#x20;appropriate&#x20;medical&#x20;personnel&#x20;are&#x20;alerted&#x20;by&#x20;SMS&#x20;if&#x20;the&#x20;subject&#x20;s&#x20;mobility&#x20;levels&#x20;decrease</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Scanaill,&#x20;Cliodhna&#x20;Ni</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Ahearne,&#x20;Brian</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Lyons,&#x20;Gerard&#x20;M</dcvalue>
+  <dcvalue element="identifier" qualifier="none" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;Not&#x20;available</dcvalue>
+  <dcvalue element="relation" qualifier="none" language="">IEEE&#x20;transactions&#x20;on&#x20;information&#x20;technology&#x20;in&#x20;biomedicine&#x20;:&#x20;a&#x20;publication&#x20;of&#x20;the&#x20;IEEE&#x20;Engineering&#x20;in&#x20;Medicine&#x20;and&#x20;Biology&#x20;Society</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">Long-term&#x20;telemonitoring&#x20;of&#x20;mobility&#x20;trends&#x20;of&#x20;elderly&#x20;people&#x20;using&#x20;SMS&#x20;messaging.</dcvalue>
+</dublin_core>

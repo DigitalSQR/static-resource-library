@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dc">
+  <dcvalue element="contributor" qualifier="author" language="">Munteanu,&#x20;A</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Cornelis,&#x20;J</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Van&#x20;der&#x20;Auwera,&#x20;G</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Cristea,&#x20;P</dcvalue>
+  <dcvalue element="date" qualifier="accessioned">2020-02-12T12:35:10Z</dcvalue>
+  <dcvalue element="date" qualifier="available">2020-02-12T12:35:10Z</dcvalue>
+  <dcvalue element="date" qualifier="issued" language="">2000-03-31</dcvalue>
+  <dcvalue element="identifier" qualifier="uri" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;Not&#x20;available</dcvalue>
+  <dcvalue element="identifier" qualifier="uri">https:&#x2F;&#x2F;lib.digitalsquare.io&#x2F;xmlui&#x2F;handle&#x2F;123456789&#x2F;60711</dcvalue>
+  <dcvalue element="description" qualifier="abstract" language="">Perfect&#x20;reconstruction&#x20;quality&#x20;scalability&#x20;and&#x20;region&#x20;of&#x20;interest&#x20;coding&#x20;are&#x20;basic&#x20;features&#x20;needed&#x20;for&#x20;the&#x20;image&#x20;compression&#x20;schemes&#x20;used&#x20;in&#x20;telemedicine&#x20;applications&#x20;This&#x20;paper&#x20;proposes&#x20;a&#x20;new&#x20;wavelet&#x20;based&#x20;embedded&#x20;compression&#x20;technique&#x20;that&#x20;efficiently&#x20;exploits&#x20;the&#x20;intraband&#x20;dependencies&#x20;and&#x20;uses&#x20;a&#x20;quadtree&#x20;based&#x20;approach&#x20;to&#x20;encode&#x20;the&#x20;significance&#x20;maps&#x20;The&#x20;algorithm&#x20;produces&#x20;a&#x20;losslessly&#x20;compressed&#x20;embedded&#x20;data&#x20;stream&#x20;supports&#x20;quality&#x20;scalability&#x20;and&#x20;permits&#x20;region&#x20;of&#x20;interest&#x20;coding&#x20;Moreover&#x20;experimental&#x20;results&#x20;obtained&#x20;on&#x20;various&#x20;images&#x20;show&#x20;that&#x20;the&#x20;proposed&#x20;algorithm&#x20;provides&#x20;competitive&#x20;lossless&#x20;lossy&#x20;compression&#x20;results&#x20;The&#x20;proposed&#x20;technique&#x20;is&#x20;well&#x20;suited&#x20;for&#x20;telemedicine&#x20;applications&#x20;that&#x20;require&#x20;fast&#x20;interactive&#x20;handling&#x20;of&#x20;large&#x20;image&#x20;sets&#x20;over&#x20;networks&#x20;with&#x20;limited&#x20;and&#x20;or&#x20;variable&#x20;bandwidth</dcvalue>
+  <dcvalue element="description" qualifier="provenance" language="en">Made&#x20;available&#x20;in&#x20;DSpace&#x20;on&#x20;2020-02-12T12:35:10Z&#x20;(GMT).&#x20;No.&#x20;of&#x20;bitstreams:&#x20;0&#x0A;&#x20;&#x20;Previous&#x20;issue&#x20;date:&#x20;2000-03-31</dcvalue>
+  <dcvalue element="relation" qualifier="uri" language="">IEEE&#x20;transactions&#x20;on&#x20;information&#x20;technology&#x20;in&#x20;biomedicine&#x20;:&#x20;a&#x20;publication&#x20;of&#x20;the&#x20;IEEE&#x20;Engineering&#x20;in&#x20;Medicine&#x20;and&#x20;Biology&#x20;Society</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">Wavelet&#x20;image&#x20;compression--the&#x20;quadtree&#x20;coding&#x20;approach.</dcvalue>
+</dublin_core>

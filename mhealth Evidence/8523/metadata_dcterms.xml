@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dcterms">
+  <dcvalue element="abstract" qualifier="none" language="">DICOM&#x20;CDs&#x20;are&#x20;frequently&#x20;used&#x20;for&#x20;medical&#x20;image&#x20;data&#x20;transfer&#x20;Many&#x20;different&#x20;potential&#x20;advantages&#x20;are&#x20;known&#x20;such&#x20;as&#x20;improved&#x20;image&#x20;quality&#x20;handling&#x20;simplification&#x20;and&#x20;cost&#x20;optimization&#x20;However&#x20;there&#x20;are&#x20;numerous&#x20;restrictions&#x20;in&#x20;the&#x20;daily&#x20;routine&#x20;While&#x20;testing&#x20;DICOM&#x20;CDs&#x20;at&#x20;the&#x20;2006&#x20;German&#x20;Radiology&#x20;Congress&#x20;we&#x20;found&#x20;that&#x20;more&#x20;than&#x20;70&#x20;of&#x20;CDs&#x20;have&#x20;discrepancies&#x20;with&#x20;respect&#x20;to&#x20;data&#x20;structure&#x20;or&#x20;content&#x20;The&#x20;German&#x20;Radiological&#x20;Association&#x20;and&#x20;OFFIS&#x20;started&#x20;an&#x20;initiative&#x20;to&#x20;improve&#x20;the&#x20;quality&#x20;of&#x20;DICOM&#x20;CDs&#x20;There&#x20;are&#x20;three&#x20;main&#x20;objectives&#x20;To&#x20;provide&#x20;requirements&#x20;for&#x20;vendors&#x20;of&#x20;CD&#x20;writing&#x20;systems&#x20;to&#x20;establish&#x20;user&#x20;guidelines&#x20;for&#x20;the&#x20;handling&#x20;of&#x20;DICOM&#x20;CDs&#x20;and&#x20;to&#x20;develop&#x20;a&#x20;test&#x20;procedure&#x20;for&#x20;DICOM&#x20;CDs&#x20;Radiologists&#x20;using&#x20;such&#x20;systems&#x20;should&#x20;be&#x20;aware&#x20;of&#x20;these&#x20;developments&#x20;and&#x20;use&#x20;them&#x20;for&#x20;RFP&#x20;s</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Mildenberger,&#x20;P</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Kotter,&#x20;E</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Riesmeier,&#x20;J</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Onken,&#x20;M</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Kauer,&#x20;T</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Eichelberg,&#x20;M</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Walz,&#x20;M</dcvalue>
+  <dcvalue element="identifier" qualifier="none" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;10.1055&#x2F;s-2007-963122</dcvalue>
+  <dcvalue element="relation" qualifier="none" language="">RöFo&#x20;:&#x20;Fortschritte&#x20;auf&#x20;dem&#x20;Gebiete&#x20;der&#x20;Röntgenstrahlen&#x20;und&#x20;der&#x20;Nuklearmedizin</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">[The&#x20;DICOM-CD-Project&#x20;of&#x20;the&#x20;German&#x20;Radiology&#x20;Association--an&#x20;overview&#x20;of&#x20;the&#x20;content&#x20;and&#x20;results&#x20;of&#x20;a&#x20;pilot&#x20;study&#x20;in&#x20;2006].</dcvalue>
+</dublin_core>

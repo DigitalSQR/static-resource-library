@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dc">
+  <dcvalue element="contributor" qualifier="author" language="">Lin,&#x20;Chung-Chih</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Chiu,&#x20;Ming-Jang</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Hsiao,&#x20;Chin-Chieh</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Lee,&#x20;Ren-Guey</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Tsai,&#x20;Yuh-Show</dcvalue>
+  <dcvalue element="date" qualifier="accessioned">2020-02-06T18:02:40Z</dcvalue>
+  <dcvalue element="date" qualifier="available">2020-02-06T18:02:40Z</dcvalue>
+  <dcvalue element="date" qualifier="issued" language="">2006-10-18</dcvalue>
+  <dcvalue element="identifier" qualifier="uri" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;Not&#x20;available</dcvalue>
+  <dcvalue element="identifier" qualifier="uri">https:&#x2F;&#x2F;lib.digitalsquare.io&#x2F;xmlui&#x2F;handle&#x2F;123456789&#x2F;5952</dcvalue>
+  <dcvalue element="description" qualifier="abstract" language="">The&#x20;purpose&#x20;of&#x20;this&#x20;paper&#x20;is&#x20;to&#x20;integrate&#x20;the&#x20;technologies&#x20;of&#x20;radio&#x20;frequency&#x20;identification&#x20;global&#x20;positioning&#x20;system&#x20;global&#x20;system&#x20;for&#x20;mobile&#x20;communications&#x20;and&#x20;geographic&#x20;information&#x20;system&#x20;GIS&#x20;to&#x20;construct&#x20;a&#x20;stray&#x20;prevention&#x20;system&#x20;for&#x20;elderly&#x20;persons&#x20;suffering&#x20;from&#x20;dementia&#x20;without&#x20;interfering&#x20;with&#x20;their&#x20;activities&#x20;of&#x20;daily&#x20;livings&#x20;We&#x20;also&#x20;aim&#x20;to&#x20;improve&#x20;the&#x20;passive&#x20;and&#x20;manpowered&#x20;way&#x20;of&#x20;searching&#x20;the&#x20;missing&#x20;patient&#x20;with&#x20;the&#x20;help&#x20;of&#x20;the&#x20;information&#x20;technology&#x20;Our&#x20;system&#x20;provides&#x20;four&#x20;monitoring&#x20;schemes&#x20;including&#x20;indoor&#x20;residence&#x20;monitoring&#x20;outdoor&#x20;activity&#x20;area&#x20;monitoring&#x20;emergency&#x20;rescue&#x20;and&#x20;remote&#x20;monitoring&#x20;modes&#x20;and&#x20;we&#x20;have&#x20;developed&#x20;a&#x20;service&#x20;platform&#x20;to&#x20;implement&#x20;these&#x20;monitoring&#x20;schemes&#x20;The&#x20;platform&#x20;consists&#x20;of&#x20;a&#x20;web&#x20;service&#x20;server&#x20;a&#x20;database&#x20;server&#x20;a&#x20;message&#x20;controller&#x20;server&#x20;and&#x20;a&#x20;health&#x20;GIS&#x20;H&#x20;GIS&#x20;server&#x20;Family&#x20;members&#x20;or&#x20;volunteer&#x20;workers&#x20;can&#x20;identify&#x20;the&#x20;real&#x20;time&#x20;positions&#x20;of&#x20;missing&#x20;elderly&#x20;using&#x20;mobile&#x20;phone&#x20;PDA&#x20;Notebook&#x20;PC&#x20;and&#x20;various&#x20;mobile&#x20;devices&#x20;through&#x20;the&#x20;service&#x20;platform&#x20;System&#x20;performance&#x20;and&#x20;reliability&#x20;is&#x20;analyzed&#x20;Experiments&#x20;performed&#x20;on&#x20;four&#x20;different&#x20;time&#x20;slots&#x20;from&#x20;three&#x20;locations&#x20;through&#x20;three&#x20;mobile&#x20;telecommunication&#x20;companies&#x20;show&#x20;that&#x20;the&#x20;overall&#x20;transaction&#x20;time&#x20;is&#x20;34&#x20;s&#x20;and&#x20;the&#x20;average&#x20;deviation&#x20;of&#x20;the&#x20;geographical&#x20;location&#x20;is&#x20;about&#x20;8&#x20;m&#x20;A&#x20;questionnaire&#x20;surveyed&#x20;by&#x20;11&#x20;users&#x20;show&#x20;that&#x20;eight&#x20;users&#x20;are&#x20;satisfied&#x20;with&#x20;the&#x20;system&#x20;stability&#x20;and&#x20;10&#x20;users&#x20;would&#x20;like&#x20;to&#x20;carry&#x20;the&#x20;locating&#x20;device&#x20;themselves&#x20;or&#x20;recommend&#x20;it&#x20;to&#x20;their&#x20;family&#x20;members</dcvalue>
+  <dcvalue element="description" qualifier="provenance" language="en">Made&#x20;available&#x20;in&#x20;DSpace&#x20;on&#x20;2020-02-06T18:02:40Z&#x20;(GMT).&#x20;No.&#x20;of&#x20;bitstreams:&#x20;0&#x0A;&#x20;&#x20;Previous&#x20;issue&#x20;date:&#x20;2006-10-18</dcvalue>
+  <dcvalue element="relation" qualifier="uri" language="">IEEE&#x20;transactions&#x20;on&#x20;information&#x20;technology&#x20;in&#x20;biomedicine&#x20;:&#x20;a&#x20;publication&#x20;of&#x20;the&#x20;IEEE&#x20;Engineering&#x20;in&#x20;Medicine&#x20;and&#x20;Biology&#x20;Society</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Senior</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Social&#x20;support&#x20;network</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Facility-based&#x20;health&#x20;worker</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Access&#x20;to&#x20;information&#x20;or&#x20;data</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Demand&#x20;for&#x20;services</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Prototype</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Functionality</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Mental&#x20;health</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Data&#x20;collection&#x20;and&#x20;reporting</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Surveillance</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">GPS</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">Wireless&#x20;health&#x20;care&#x20;service&#x20;system&#x20;for&#x20;elderly&#x20;with&#x20;dementia.</dcvalue>
+</dublin_core>

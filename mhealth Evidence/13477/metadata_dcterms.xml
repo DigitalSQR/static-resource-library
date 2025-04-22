@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dcterms">
+  <dcvalue element="abstract" qualifier="none" language="">Teleradiology&#x20;allows&#x20;contemporaneous&#x20;interpretation&#x20;of&#x20;imaging&#x20;exams&#x20;performed&#x20;at&#x20;some&#x20;distance&#x20;from&#x20;the&#x20;interpreting&#x20;radiologist&#x20;The&#x20;transmitted&#x20;images&#x20;are&#x20;usually&#x20;static&#x20;However&#x20;there&#x20;is&#x20;benefit&#x20;to&#x20;real&#x20;time&#x20;review&#x20;of&#x20;full&#x20;motion&#x20;ultrasound&#x20;US&#x20;exams&#x20;as&#x20;they&#x20;are&#x20;performed&#x20;Telesonography&#x20;is&#x20;transmission&#x20;of&#x20;full&#x20;motion&#x20;sonographic&#x20;data&#x20;to&#x20;a&#x20;remote&#x20;site&#x20;We&#x20;hypothesize&#x20;that&#x20;US&#x20;exams&#x20;read&#x20;after&#x20;having&#x20;been&#x20;compressed&#x20;utilizing&#x20;Motion&#x20;Picture&#x20;Experts&#x20;Group&#x20;version&#x20;4&#x20;MPEG&#x20;4&#x20;compression&#x20;scheme&#x20;transmitted&#x20;over&#x20;the&#x20;Internet&#x20;as&#x20;streaming&#x20;multimedia&#x20;decompressed&#x20;and&#x20;displayed&#x20;are&#x20;equivalent&#x20;in&#x20;diagnostic&#x20;accuracy&#x20;to&#x20;reading&#x20;the&#x20;examinations&#x20;locally&#x20;MPEG&#x20;4&#x20;uses&#x20;variable&#x20;compression&#x20;on&#x20;each&#x20;image&#x20;frame&#x20;to&#x20;achieve&#x20;a&#x20;constant&#x20;output&#x20;bit&#x20;rate&#x20;With&#x20;less&#x20;compression&#x20;the&#x20;bit&#x20;rate&#x20;rises&#x20;and&#x20;the&#x20;only&#x20;way&#x20;the&#x20;encoder&#x20;can&#x20;contain&#x20;bit&#x20;rate&#x20;within&#x20;the&#x20;set&#x20;bandwidth&#x20;is&#x20;by&#x20;lowering&#x20;frame&#x20;rate&#x20;or&#x20;reducing&#x20;image&#x20;quality&#x20;We&#x20;review&#x20;the&#x20;relevant&#x20;technologies&#x20;and&#x20;industry&#x20;standard&#x20;components&#x20;that&#x20;will&#x20;enable&#x20;low&#x20;cost&#x20;telesonography</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Bassignani,&#x20;Matthew&#x20;J</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Dwyer,&#x20;Samuel&#x20;J</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Ciambotti,&#x20;Jonathan&#x20;M</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Olazagasti,&#x20;Juan&#x20;M</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Moran,&#x20;Ruth</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Moynihan,&#x20;Sean</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Weaver,&#x20;Alfred&#x20;C</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Snyder,&#x20;Andrew&#x20;M</dcvalue>
+  <dcvalue element="identifier" qualifier="none" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;10.1007&#x2F;s10278-003-1721-4</dcvalue>
+  <dcvalue element="relation" qualifier="none" language="">Journal&#x20;of&#x20;digital&#x20;imaging</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">Review&#x20;of&#x20;technology:&#x20;planning&#x20;for&#x20;the&#x20;development&#x20;of&#x20;telesonography.</dcvalue>
+</dublin_core>

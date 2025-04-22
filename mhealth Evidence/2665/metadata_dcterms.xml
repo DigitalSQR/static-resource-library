@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dcterms">
+  <dcvalue element="abstract" qualifier="none" language="">In&#x20;this&#x20;paper&#x20;we&#x20;present&#x20;a&#x20;system&#x20;that&#x20;allows&#x20;patients&#x20;who&#x20;require&#x20;anticoagulation&#x20;medicine&#x20;an&#x20;opportunity&#x20;to&#x20;independently&#x20;manage&#x20;their&#x20;dosage&#x20;concentration&#x20;with&#x20;the&#x20;help&#x20;of&#x20;two&#x20;machine&#x20;learning&#x20;algorithms&#x20;The&#x20;basic&#x20;idea&#x20;is&#x20;to&#x20;predict&#x20;the&#x20;next&#x20;dosage&#x20;by&#x20;using&#x20;a&#x20;neuronal&#x20;network&#x20;and&#x20;the&#x20;model&#x20;predictive&#x20;control&#x20;approach&#x20;both&#x20;based&#x20;on&#x20;the&#x20;history&#x20;of&#x20;data&#x20;already&#x20;available&#x20;from&#x20;patients&#x20;This&#x20;machine&#x20;learning&#x20;system&#x20;is&#x20;expanded&#x20;by&#x20;an&#x20;smartphone&#x20;application&#x20;for&#x20;the&#x20;patients&#x20;and&#x20;a&#x20;website&#x20;for&#x20;the&#x20;doctors&#x20;to&#x20;support&#x20;their&#x20;patients</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Krumm,&#x20;Heiko</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Reiss,&#x20;Nils</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Burkert,&#x20;Malte</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Schmidt,&#x20;Thomas</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Biehs,&#x20;Steffen</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Bohr,&#x20;Christian</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Gürtler,&#x20;Fabian</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Horn,&#x20;Hendrik</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Kreutzer,&#x20;Philipp</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Mewes,&#x20;Philipp</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Miller,&#x20;Hendrik</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Riest,&#x20;Christian</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Römer,&#x20;Christian</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Seebold,&#x20;Albert</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Sprung,&#x20;Gertrude</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Ziegler,&#x20;Oliver</dcvalue>
+  <dcvalue element="identifier" qualifier="none" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;Not&#x20;available</dcvalue>
+  <dcvalue element="relation" qualifier="none" language="">Studies&#x20;in&#x20;health&#x20;technology&#x20;and&#x20;informatics</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">Development&#x20;of&#x20;a&#x20;Computer-Aided&#x20;Dosage&#x20;and&#x20;Telemonitoring&#x20;System&#x20;for&#x20;Patients&#x20;Under&#x20;Oral&#x20;Anticoagulation&#x20;Therapy.</dcvalue>
+</dublin_core>

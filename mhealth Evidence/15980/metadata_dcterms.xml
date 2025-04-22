@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dcterms">
+  <dcvalue element="abstract" qualifier="none" language="">We&#x20;are&#x20;developing&#x20;an&#x20;open&#x20;type&#x20;Radiology&#x20;Information&#x20;System&#x20;RIS&#x20;under&#x20;the&#x20;project&#x20;name&#x20;KPECK&#x20;Part&#x20;of&#x20;the&#x20;RIS&#x20;has&#x20;already&#x20;been&#x20;employed&#x20;in&#x20;Kouri&#x20;Hospital&#x20;of&#x20;Kansai&#x20;Medical&#x20;University&#x20;The&#x20;RIS&#x20;is&#x20;based&#x20;on&#x20;a&#x20;database&#x20;of&#x20;the&#x20;history&#x20;of&#x20;clinical&#x20;study&#x20;and&#x20;exposure&#x20;We&#x20;tried&#x20;using&#x20;the&#x20;JJ1017&#x20;ver1&#x20;0&#x20;code&#x20;for&#x20;the&#x20;master&#x20;table&#x20;of&#x20;the&#x20;database&#x20;The&#x20;JJ1017&#x20;code&#x20;which&#x20;is&#x20;standardized&#x20;by&#x20;JIRA&#x20;and&#x20;JAHIS&#x20;is&#x20;used&#x20;in&#x20;communicating&#x20;information&#x20;between&#x20;the&#x20;RIS&#x20;and&#x20;medical&#x20;modalities&#x20;Through&#x20;construction&#x20;of&#x20;the&#x20;database&#x20;we&#x20;found&#x20;a&#x20;technique&#x20;by&#x20;which&#x20;the&#x20;JJ1017&#x20;code&#x20;could&#x20;be&#x20;applied&#x20;to&#x20;its&#x20;master&#x20;table&#x20;In&#x20;coordinating&#x20;the&#x20;JJ1017&#x20;code&#x20;with&#x20;the&#x20;master&#x20;table&#x20;of&#x20;the&#x20;database&#x20;we&#x20;extended&#x20;various&#x20;study&#x20;codes&#x20;and&#x20;systematically&#x20;coordinated&#x20;them&#x20;with&#x20;the&#x20;architecture&#x20;of&#x20;the&#x20;database</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Shingai,&#x20;Yoshihisa</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Natsuzumi,&#x20;Shigeo</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Matsumoto,&#x20;Keisuke</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Kanadzuka,&#x20;Yasuhiro</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Harima,&#x20;Keizou</dcvalue>
+  <dcvalue element="identifier" qualifier="none" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;Not&#x20;available</dcvalue>
+  <dcvalue element="relation" qualifier="none" language="">Nihon&#x20;Hoshasen&#x20;Gijutsu&#x20;Gakkai&#x20;zasshi</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">[Application&#x20;of&#x20;the&#x20;JJ1017&#x20;code&#x20;to&#x20;master-table&#x20;of&#x20;RIS&#x20;database].</dcvalue>
+</dublin_core>

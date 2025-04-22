@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dcterms">
+  <dcvalue element="abstract" qualifier="none" language="">This&#x20;study&#x20;investigates&#x20;the&#x20;applicability&#x20;of&#x20;a&#x20;novel&#x20;codification&#x20;scheme&#x20;based&#x20;on&#x20;two&#x20;healthcare&#x20;informatics&#x20;standards&#x20;namely&#x20;the&#x20;VITAL&#x20;ENV&#x20;13734&#x20;and&#x20;DICOM&#x20;Sup&#x20;30&#x20;Waveform&#x20;Interchange&#x20;in&#x20;addressing&#x20;the&#x20;robust&#x20;interchange&#x20;of&#x20;waveform&#x20;and&#x20;medical&#x20;data&#x20;in&#x20;remote&#x20;healthcare&#x20;applications&#x20;To&#x20;further&#x20;address&#x20;system&#x20;validation&#x20;and&#x20;clinical&#x20;acceptance&#x20;issues&#x20;pilots&#x20;were&#x20;set&#x20;up&#x20;between&#x20;home&#x20;monitoring&#x20;stations&#x20;and&#x20;a&#x20;hospital&#x20;based&#x20;telemedicine&#x20;consultation&#x20;center&#x20;The&#x20;pilots&#x20;focused&#x20;in&#x20;assessing&#x20;applicability&#x20;technical&#x20;feasibility&#x20;and&#x20;performance&#x20;of&#x20;the&#x20;proposed&#x20;codification&#x20;scheme&#x20;based&#x20;on&#x20;the&#x20;two&#x20;standards&#x20;This&#x20;paper&#x20;presents&#x20;the&#x20;system&#x20;and&#x20;services&#x20;requirements&#x20;as&#x20;studied&#x20;for&#x20;a&#x20;home&#x20;care&#x20;application&#x20;the&#x20;design&#x20;goals&#x20;for&#x20;the&#x20;preservation&#x20;of&#x20;security&#x20;stature&#x20;the&#x20;practical&#x20;issues&#x20;of&#x20;validation&#x20;and&#x20;the&#x20;results&#x20;of&#x20;integrating&#x20;these&#x20;codification&#x20;schemes&#x20;into&#x20;a&#x20;commercial&#x20;patient&#x20;connected&#x20;device</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Pavlopoulos,&#x20;S</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Anagnostaki,&#x20;A</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Koutsouris,&#x20;D</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Lymberis,&#x20;A</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Levene,&#x20;P</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Reynolds,&#x20;M</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Georgiadis,&#x20;N</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Lambrinoudakis,&#x20;C</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Gritzalis,&#x20;D</dcvalue>
+  <dcvalue element="identifier" qualifier="none" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;Not&#x20;available</dcvalue>
+  <dcvalue element="relation" qualifier="none" language="">Studies&#x20;in&#x20;health&#x20;technology&#x20;and&#x20;informatics</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">Vital&#x20;signs&#x20;monitoring&#x20;from&#x20;home&#x20;with&#x20;open&#x20;systems.</dcvalue>
+</dublin_core>

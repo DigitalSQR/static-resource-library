@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dcterms">
+  <dcvalue element="abstract" qualifier="none" language="">This&#x20;work&#x20;evaluates&#x20;the&#x20;users&#x20;satisfaction&#x20;with&#x20;an&#x20;SMS&#x20;based&#x20;reminder&#x20;system&#x20;that&#x20;is&#x20;being&#x20;used&#x20;since&#x20;about&#x20;six&#x20;years&#x20;by&#x20;an&#x20;Italian&#x20;healthcare&#x20;organization&#x20;The&#x20;system&#x20;was&#x20;implemented&#x20;for&#x20;reducing&#x20;dropouts&#x20;This&#x20;goal&#x20;has&#x20;been&#x20;achieved&#x20;as&#x20;dropout&#x20;decreased&#x20;from&#x20;8&#x20;to&#x20;4&#x20;During&#x20;these&#x20;years&#x20;a&#x20;number&#x20;of&#x20;reminded&#x20;citizens&#x20;even&#x20;not&#x20;required&#x20;sent&#x20;an&#x20;SMS&#x20;message&#x20;back&#x20;with&#x20;comments&#x20;about&#x20;the&#x20;service&#x20;further&#x20;requirements&#x20;etc&#x20;We&#x20;collected&#x20;some&#x20;thousands&#x20;of&#x20;them&#x20;Their&#x20;analysis&#x20;may&#x20;represent&#x20;a&#x20;useful&#x20;feedback&#x20;to&#x20;the&#x20;healthcare&#x20;organization&#x20;We&#x20;used&#x20;conditional&#x20;random&#x20;fields&#x20;as&#x20;the&#x20;information&#x20;extraction&#x20;method&#x20;for&#x20;classifying&#x20;messages&#x20;into&#x20;appreciation&#x20;critique&#x20;inappropriateness&#x20;etc&#x20;The&#x20;classification&#x20;system&#x20;achieved&#x20;a&#x20;very&#x20;good&#x20;overall&#x20;performance&#x20;F1&#x20;measure&#x20;of&#x20;94&#x20;thus&#x20;it&#x20;can&#x20;be&#x20;used&#x20;from&#x20;here&#x20;on&#x20;to&#x20;monitor&#x20;the&#x20;users&#x20;satisfaction&#x20;in&#x20;time</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Rubrichi,&#x20;Stefania</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Eku&#x20;Ndam,&#x20;Stéphanie</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Battistotti,&#x20;Andrea</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Quaglini,&#x20;Silvana</dcvalue>
+  <dcvalue element="identifier" qualifier="none" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;Not&#x20;available</dcvalue>
+  <dcvalue element="relation" qualifier="none" language="">Studies&#x20;in&#x20;health&#x20;technology&#x20;and&#x20;informatics</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Client</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Loss&#x20;to&#x20;follow&#x20;up</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Acceptability</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Addressing&#x20;individual&#x20;beliefs&#x20;and&#x20;practices</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Appointment&#x20;reminders</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Constituent&#x20;feedback&#x20;on&#x20;service&#x20;quality</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Data&#x20;collection&#x20;and&#x20;reporting</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">SMS</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Text</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">Information&#x20;extraction&#x20;from&#x20;SMS&#x20;text&#x20;related&#x20;to&#x20;a&#x20;reminder&#x20;service&#x20;for&#x20;outpatients.</dcvalue>
+</dublin_core>

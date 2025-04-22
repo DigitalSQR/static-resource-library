@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dc">
+  <dcvalue element="contributor" qualifier="author" language="">Chen,&#x20;Shih-Hao</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Chow,&#x20;Chi-Wai</dcvalue>
+  <dcvalue element="date" qualifier="accessioned">2020-02-10T17:47:32Z</dcvalue>
+  <dcvalue element="date" qualifier="available">2020-02-10T17:47:32Z</dcvalue>
+  <dcvalue element="date" qualifier="issued" language="">2015-01-22</dcvalue>
+  <dcvalue element="identifier" qualifier="uri" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;Not&#x20;available</dcvalue>
+  <dcvalue element="identifier" qualifier="uri">https:&#x2F;&#x2F;lib.digitalsquare.io&#x2F;xmlui&#x2F;handle&#x2F;123456789&#x2F;27887</dcvalue>
+  <dcvalue element="description" qualifier="abstract" language="">A&#x20;novel&#x20;color&#x20;filter&#x20;free&#x20;visible&#x20;light&#x20;communication&#x20;VLC&#x20;system&#x20;using&#x20;red&#x20;green&#x20;blue&#x20;RGB&#x20;light&#x20;emitting&#x20;diode&#x20;LED&#x20;and&#x20;mobile&#x20;phone&#x20;camera&#x20;is&#x20;proposed&#x20;and&#x20;demonstrated&#x20;for&#x20;the&#x20;first&#x20;time&#x20;A&#x20;feature&#x20;matching&#x20;method&#x20;which&#x20;is&#x20;based&#x20;on&#x20;the&#x20;scale&#x20;invariant&#x20;feature&#x20;transform&#x20;SIFT&#x20;algorithm&#x20;for&#x20;the&#x20;received&#x20;grayscale&#x20;image&#x20;is&#x20;used&#x20;instead&#x20;of&#x20;the&#x20;chromatic&#x20;information&#x20;decoding&#x20;method&#x20;The&#x20;proposed&#x20;method&#x20;is&#x20;simple&#x20;and&#x20;saves&#x20;the&#x20;computation&#x20;complexity&#x20;The&#x20;signal&#x20;processing&#x20;is&#x20;based&#x20;on&#x20;the&#x20;grayscale&#x20;image&#x20;computation&#x20;hence&#x20;neither&#x20;color&#x20;filter&#x20;nor&#x20;chromatic&#x20;channel&#x20;information&#x20;is&#x20;required&#x20;A&#x20;proof&#x20;of&#x20;concept&#x20;experiment&#x20;is&#x20;performed&#x20;and&#x20;high&#x20;performance&#x20;channel&#x20;recognition&#x20;is&#x20;achieved</dcvalue>
+  <dcvalue element="description" qualifier="provenance" language="en">Made&#x20;available&#x20;in&#x20;DSpace&#x20;on&#x20;2020-02-10T17:47:32Z&#x20;(GMT).&#x20;No.&#x20;of&#x20;bitstreams:&#x20;0&#x0A;&#x20;&#x20;Previous&#x20;issue&#x20;date:&#x20;2015-01-22</dcvalue>
+  <dcvalue element="relation" qualifier="uri" language="">Optics&#x20;express</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">Color-filter-free&#x20;spatial&#x20;visible&#x20;light&#x20;communication&#x20;using&#x20;RGB-LED&#x20;and&#x20;mobile-phone&#x20;camera.</dcvalue>
+</dublin_core>

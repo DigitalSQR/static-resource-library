@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dc">
+  <dcvalue element="contributor" qualifier="author" language="">Liao,&#x20;Wei-Yin</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Lee,&#x20;Yuan-Gee</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Huang,&#x20;Chun-Yueh</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Lin,&#x20;Huan-Yu</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Weng,&#x20;Yu-Ching</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Chou,&#x20;Tse-Chuan</dcvalue>
+  <dcvalue element="date" qualifier="accessioned">2020-02-06T18:08:25Z</dcvalue>
+  <dcvalue element="date" qualifier="available">2020-02-06T18:08:25Z</dcvalue>
+  <dcvalue element="date" qualifier="issued" language="">2004-10-20</dcvalue>
+  <dcvalue element="identifier" qualifier="uri" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;10.1016&#x2F;j.bios.2004.02.014</dcvalue>
+  <dcvalue element="identifier" qualifier="uri">https:&#x2F;&#x2F;lib.digitalsquare.io&#x2F;xmlui&#x2F;handle&#x2F;123456789&#x2F;6085</dcvalue>
+  <dcvalue element="description" qualifier="abstract" language="">A&#x20;telemetric&#x20;system&#x20;was&#x20;designed&#x20;and&#x20;constructed&#x20;to&#x20;sense&#x20;pH&#x20;and&#x20;ethanol&#x20;variation&#x20;in&#x20;aqueous&#x20;solutions&#x20;The&#x20;measured&#x20;signals&#x20;were&#x20;transferred&#x20;by&#x20;software&#x20;digitally&#x20;and&#x20;transmitted&#x20;wirelessly&#x20;by&#x20;the&#x20;telemeter&#x20;personal&#x20;digital&#x20;assistant&#x20;PDA&#x20;through&#x20;the&#x20;General&#x20;Packet&#x20;Radio&#x20;Service&#x20;GPRS&#x20;protocol&#x20;The&#x20;pH&#x20;sensing&#x20;electrode&#x20;was&#x20;designed&#x20;to&#x20;measure&#x20;a&#x20;chemical&#x20;potential&#x20;induced&#x20;by&#x20;a&#x20;proton&#x20;concentration&#x20;gradient&#x20;on&#x20;the&#x20;electrode&#x20;s&#x20;surface&#x20;which&#x20;exhibits&#x20;internal&#x20;Donnon&#x20;diffusion&#x20;behavior&#x20;and&#x20;a&#x20;linear&#x20;relationship&#x20;between&#x20;the&#x20;electrical&#x20;potential&#x20;and&#x20;pH&#x20;was&#x20;found&#x20;The&#x20;result&#x20;shows&#x20;that&#x20;the&#x20;wireless&#x20;sensing&#x20;system&#x20;allowed&#x20;not&#x20;only&#x20;long&#x20;term&#x20;usage&#x20;and&#x20;long&#x20;distance&#x20;transmission&#x20;but&#x20;also&#x20;with&#x20;high&#x20;accuracy&#x20;e&#x20;g&#x20;S&#x20;D&#x20;less&#x20;than&#x20;2&#x20;The&#x20;telemetric&#x20;system&#x20;can&#x20;also&#x20;be&#x20;modified&#x20;to&#x20;measure&#x20;ethanol&#x20;concentration&#x20;in&#x20;aqueous&#x20;solution&#x20;amperometrically&#x20;It&#x20;was&#x20;found&#x20;that&#x20;the&#x20;sensitivity&#x20;of&#x20;that&#x20;ex&#x20;situ&#x20;measurements&#x20;matched&#x20;those&#x20;of&#x20;in&#x20;field&#x20;measurements&#x20;with&#x20;negligible&#x20;deviation&#x20;less&#x20;than&#x20;4</dcvalue>
+  <dcvalue element="description" qualifier="provenance" language="en">Made&#x20;available&#x20;in&#x20;DSpace&#x20;on&#x20;2020-02-06T18:08:25Z&#x20;(GMT).&#x20;No.&#x20;of&#x20;bitstreams:&#x20;0&#x0A;&#x20;&#x20;Previous&#x20;issue&#x20;date:&#x20;2004-10-20</dcvalue>
+  <dcvalue element="relation" qualifier="uri" language="">Biosensors&#x20;And&#x20;bioelectronics</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">Telemetric&#x20;electrochemical&#x20;sensor.</dcvalue>
+</dublin_core>

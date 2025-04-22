@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dcterms">
+  <dcvalue element="abstract" qualifier="none" language="">In&#x20;mobile&#x20;health&#x20;applications&#x20;non&#x20;expert&#x20;users&#x20;often&#x20;perform&#x20;the&#x20;required&#x20;medical&#x20;measurements&#x20;without&#x20;supervision&#x20;Therefore&#x20;it&#x20;is&#x20;important&#x20;that&#x20;the&#x20;mobile&#x20;device&#x20;guides&#x20;them&#x20;through&#x20;the&#x20;correct&#x20;measurement&#x20;process&#x20;and&#x20;automatically&#x20;detects&#x20;potential&#x20;errors&#x20;that&#x20;could&#x20;impact&#x20;the&#x20;readings&#x20;Camera&#x20;oximetry&#x20;provides&#x20;a&#x20;non&#x20;invasive&#x20;measurement&#x20;of&#x20;heart&#x20;rate&#x20;and&#x20;blood&#x20;oxygen&#x20;saturation&#x20;using&#x20;the&#x20;camera&#x20;of&#x20;a&#x20;mobile&#x20;phone&#x20;We&#x20;describe&#x20;a&#x20;novel&#x20;method&#x20;to&#x20;automatically&#x20;detect&#x20;the&#x20;correct&#x20;finger&#x20;placement&#x20;on&#x20;the&#x20;camera&#x20;lens&#x20;for&#x20;camera&#x20;oximetry&#x20;Incorrect&#x20;placement&#x20;can&#x20;cause&#x20;optical&#x20;shunt&#x20;and&#x20;if&#x20;ignored&#x20;lead&#x20;to&#x20;low&#x20;quality&#x20;oximetry&#x20;readings&#x20;The&#x20;presented&#x20;algorithm&#x20;uses&#x20;the&#x20;spectral&#x20;properties&#x20;of&#x20;the&#x20;pixels&#x20;to&#x20;discriminate&#x20;between&#x20;correct&#x20;and&#x20;incorrect&#x20;placements&#x20;Experimental&#x20;results&#x20;demonstrate&#x20;high&#x20;mean&#x20;accuracy&#x20;99&#x20;06&#x20;sensitivity&#x20;98&#x20;06&#x20;and&#x20;specificity&#x20;99&#x20;30&#x20;with&#x20;low&#x20;variability&#x20;By&#x20;sub&#x20;sampling&#x20;pixels&#x20;the&#x20;computational&#x20;cost&#x20;of&#x20;classifying&#x20;a&#x20;frame&#x20;has&#x20;been&#x20;reduced&#x20;by&#x20;more&#x20;than&#x20;three&#x20;orders&#x20;of&#x20;magnitude&#x20;The&#x20;algorithm&#x20;has&#x20;been&#x20;integrated&#x20;in&#x20;a&#x20;newly&#x20;developed&#x20;application&#x20;called&#x20;OxiCam&#x20;where&#x20;it&#x20;provides&#x20;real&#x20;time&#x20;user&#x20;feedback</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Karlen,&#x20;Walter</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Lim,&#x20;Joanne</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Ansermino,&#x20;J&#x20;Mark</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Dumont,&#x20;Guy&#x20;A</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Scheffer,&#x20;Cornie</dcvalue>
+  <dcvalue element="identifier" qualifier="none" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;10.1109&#x2F;EMBC.2013.6611288</dcvalue>
+  <dcvalue element="relation" qualifier="none" language="">Conference&#x20;proceedings&#x20;:&#x20;...&#x20;Annual&#x20;International&#x20;Conference&#x20;of&#x20;the&#x20;IEEE&#x20;Engineering&#x20;in&#x20;Medicine&#x20;and&#x20;Biology&#x20;Society.&#x20;IEEE&#x20;Engineering&#x20;in&#x20;Medicine&#x20;and&#x20;Biology&#x20;Society.&#x20;Annual&#x20;Conference</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Facility-based&#x20;health&#x20;worker</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Quality&#x2F;unreliability&#x20;of&#x20;data</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Health&#x20;worker&#x20;competence</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Usability</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Provider&#x20;training&#x20;and&#x20;education</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Disease&#x20;diagnosis&#x20;&#x2F;&#x20;Point-of-care&#x20;diagnostics</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Data&#x20;collection&#x20;and&#x20;reporting</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Installed&#x20;application</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">Recognition&#x20;of&#x20;correct&#x20;finger&#x20;placement&#x20;for&#x20;photoplethysmographic&#x20;imaging.</dcvalue>
+</dublin_core>

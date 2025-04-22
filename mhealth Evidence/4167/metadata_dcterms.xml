@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dcterms">
+  <dcvalue element="abstract" qualifier="none" language="">This&#x20;paper&#x20;describes&#x20;a&#x20;practical&#x20;development&#x20;project&#x20;to&#x20;enable&#x20;the&#x20;monitoring&#x20;of&#x20;vital&#x20;signs&#x20;data&#x20;obtained&#x20;from&#x20;patients&#x20;located&#x20;in&#x20;remote&#x20;rural&#x20;locations&#x20;The&#x20;data&#x20;are&#x20;gathered&#x20;from&#x20;a&#x20;wireless&#x20;network&#x20;of&#x20;sensors&#x20;attached&#x20;to&#x20;a&#x20;patient&#x20;s&#x20;body&#x20;and&#x20;stored&#x20;locally&#x20;for&#x20;secure&#x20;transmission&#x20;over&#x20;existing&#x20;communication&#x20;infrastructures&#x20;to&#x20;a&#x20;hospital&#x20;server&#x20;Clinicians&#x20;are&#x20;then&#x20;able&#x20;to&#x20;monitor&#x20;the&#x20;patient&#x20;offline&#x20;and&#x20;upload&#x20;diagnoses</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Mulvaney,&#x20;David</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Woodward,&#x20;Bryan</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Datta,&#x20;Sekharjit</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Harvey,&#x20;Paul</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Vyas,&#x20;Anoop</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Thakker,&#x20;Bashkar</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Farooq,&#x20;Omar</dcvalue>
+  <dcvalue element="identifier" qualifier="none" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;10.1109&#x2F;IEMBS.2010.5627117</dcvalue>
+  <dcvalue element="relation" qualifier="none" language="">Conference&#x20;proceedings&#x20;:&#x20;...&#x20;Annual&#x20;International&#x20;Conference&#x20;of&#x20;the&#x20;IEEE&#x20;Engineering&#x20;in&#x20;Medicine&#x20;and&#x20;Biology&#x20;Society.&#x20;IEEE&#x20;Engineering&#x20;in&#x20;Medicine&#x20;and&#x20;Biology&#x20;Society.&#x20;Annual&#x20;Conference</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">Mobile&#x20;communications&#x20;for&#x20;monitoring&#x20;heart&#x20;disease&#x20;and&#x20;diabetes.</dcvalue>
+</dublin_core>

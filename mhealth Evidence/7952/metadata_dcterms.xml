@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dcterms">
+  <dcvalue element="abstract" qualifier="none" language="">We&#x20;show&#x20;that&#x20;a&#x20;mobile&#x20;phone&#x20;can&#x20;serve&#x20;as&#x20;an&#x20;accurate&#x20;monitor&#x20;for&#x20;several&#x20;physiological&#x20;variables&#x20;based&#x20;on&#x20;its&#x20;ability&#x20;to&#x20;record&#x20;and&#x20;analyze&#x20;the&#x20;varying&#x20;color&#x20;signals&#x20;of&#x20;a&#x20;fingertip&#x20;placed&#x20;in&#x20;contact&#x20;with&#x20;its&#x20;optical&#x20;sensor&#x20;We&#x20;confirm&#x20;the&#x20;accuracy&#x20;of&#x20;measurements&#x20;of&#x20;breathing&#x20;rate&#x20;cardiac&#x20;R&#x20;R&#x20;intervals&#x20;and&#x20;blood&#x20;oxygen&#x20;saturation&#x20;by&#x20;comparisons&#x20;to&#x20;standard&#x20;methods&#x20;for&#x20;making&#x20;such&#x20;measurements&#x20;respiration&#x20;belts&#x20;ECGs&#x20;and&#x20;pulse&#x20;oximeters&#x20;respectively&#x20;Measurement&#x20;of&#x20;respiratory&#x20;rate&#x20;uses&#x20;a&#x20;previously&#x20;reported&#x20;algorithm&#x20;developed&#x20;for&#x20;use&#x20;with&#x20;a&#x20;pulse&#x20;oximeter&#x20;based&#x20;on&#x20;amplitude&#x20;and&#x20;frequency&#x20;modulation&#x20;sequences&#x20;within&#x20;the&#x20;light&#x20;signal&#x20;We&#x20;note&#x20;that&#x20;this&#x20;technology&#x20;can&#x20;also&#x20;be&#x20;used&#x20;with&#x20;recently&#x20;developed&#x20;algorithms&#x20;for&#x20;detection&#x20;of&#x20;atrial&#x20;fibrillation&#x20;or&#x20;blood&#x20;loss</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Scully,&#x20;Christopher&#x20;G</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Lee,&#x20;Jinseok</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Meyer,&#x20;Joseph</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Gorbach,&#x20;Alexander&#x20;M</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Granquist-Fraser,&#x20;Domhnull</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Mendelson,&#x20;Yitzhak</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Chon,&#x20;Ki&#x20;H</dcvalue>
+  <dcvalue element="identifier" qualifier="none" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;10.1109&#x2F;TBME.2011.2163157</dcvalue>
+  <dcvalue element="relation" qualifier="none" language="">IEEE&#x20;transactions&#x20;on&#x20;bio-medical&#x20;engineering</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Client</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Supply&#x20;of&#x20;equipment</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Prototype</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Functionality</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Cardiovascular&#x20;disease</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Acute&#x20;or&#x20;emergency</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Disease&#x20;diagnosis&#x20;&#x2F;&#x20;Point-of-care&#x20;diagnostics</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Video</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Camera</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Physiologic&#x20;Biosensors</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">Physiological&#x20;parameter&#x20;monitoring&#x20;from&#x20;optical&#x20;recordings&#x20;with&#x20;a&#x20;mobile&#x20;phone.</dcvalue>
+</dublin_core>

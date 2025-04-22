@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dcterms">
+  <dcvalue element="abstract" qualifier="none" language="">This&#x20;paper&#x20;describes&#x20;the&#x20;motivation&#x20;for&#x20;and&#x20;overarching&#x20;design&#x20;of&#x20;an&#x20;open&#x20;source&#x20;hardware&#x20;and&#x20;software&#x20;system&#x20;to&#x20;enable&#x20;population&#x20;scale&#x20;longitudinal&#x20;measurement&#x20;of&#x20;physical&#x20;activity&#x20;and&#x20;sedentary&#x20;behavior&#x20;using&#x20;common&#x20;mobile&#x20;phones&#x20;The&#x20;Wockets&#x20;data&#x20;collection&#x20;system&#x20;permits&#x20;researchers&#x20;to&#x20;collect&#x20;raw&#x20;motion&#x20;data&#x20;from&#x20;participants&#x20;who&#x20;wear&#x20;multiple&#x20;small&#x20;comfortable&#x20;sensors&#x20;for&#x20;24&#x20;hours&#x20;per&#x20;day&#x20;including&#x20;during&#x20;sleep&#x20;and&#x20;monitor&#x20;data&#x20;collection&#x20;remotely</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Intille,&#x20;Stephen&#x20;S</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Albinali,&#x20;Fahd</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Mota,&#x20;Selene</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Kuris,&#x20;Benjamin</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Botana,&#x20;Pilar</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Haskell,&#x20;William&#x20;L</dcvalue>
+  <dcvalue element="identifier" qualifier="none" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;10.1109&#x2F;IEMBS.2011.6090611</dcvalue>
+  <dcvalue element="relation" qualifier="none" language="">Conference&#x20;proceedings&#x20;:&#x20;...&#x20;Annual&#x20;International&#x20;Conference&#x20;of&#x20;the&#x20;IEEE&#x20;Engineering&#x20;in&#x20;Medicine&#x20;and&#x20;Biology&#x20;Society.&#x20;IEEE&#x20;Engineering&#x20;in&#x20;Medicine&#x20;and&#x20;Biology&#x20;Society.&#x20;Annual&#x20;Conference</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">Design&#x20;of&#x20;a&#x20;wearable&#x20;physical&#x20;activity&#x20;monitoring&#x20;system&#x20;using&#x20;mobile&#x20;phones&#x20;and&#x20;accelerometers.</dcvalue>
+</dublin_core>

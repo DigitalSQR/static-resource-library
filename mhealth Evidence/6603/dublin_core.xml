@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dc">
+  <dcvalue element="contributor" qualifier="author" language="">Cheng,&#x20;Ming</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Gao,&#x20;Xiaorong</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Gao,&#x20;Shangkai</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Xu,&#x20;Dingfeng</dcvalue>
+  <dcvalue element="date" qualifier="accessioned">2020-02-06T18:13:55Z</dcvalue>
+  <dcvalue element="date" qualifier="available">2020-02-06T18:13:55Z</dcvalue>
+  <dcvalue element="date" qualifier="issued" language="">2002-10-10</dcvalue>
+  <dcvalue element="identifier" qualifier="uri" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;Not&#x20;available</dcvalue>
+  <dcvalue element="identifier" qualifier="uri">https:&#x2F;&#x2F;lib.digitalsquare.io&#x2F;xmlui&#x2F;handle&#x2F;123456789&#x2F;6213</dcvalue>
+  <dcvalue element="description" qualifier="abstract" language="">This&#x20;paper&#x20;presents&#x20;a&#x20;brain&#x20;computer&#x20;interface&#x20;BCI&#x20;that&#x20;can&#x20;help&#x20;users&#x20;to&#x20;input&#x20;phone&#x20;numbers&#x20;The&#x20;system&#x20;is&#x20;based&#x20;on&#x20;the&#x20;steady&#x20;state&#x20;visual&#x20;evoked&#x20;potential&#x20;SSVEP&#x20;Twelve&#x20;buttons&#x20;illuminated&#x20;at&#x20;different&#x20;rates&#x20;were&#x20;displayed&#x20;on&#x20;a&#x20;computer&#x20;monitor&#x20;The&#x20;buttons&#x20;constituted&#x20;a&#x20;virtual&#x20;telephone&#x20;keypad&#x20;representing&#x20;the&#x20;ten&#x20;digits&#x20;0&#x20;9&#x20;BACKSPACE&#x20;and&#x20;ENTER&#x20;Users&#x20;could&#x20;input&#x20;phone&#x20;number&#x20;by&#x20;gazing&#x20;at&#x20;these&#x20;buttons&#x20;The&#x20;frequency&#x20;coded&#x20;SSVEP&#x20;was&#x20;used&#x20;to&#x20;judge&#x20;which&#x20;button&#x20;the&#x20;user&#x20;desired&#x20;Eight&#x20;of&#x20;the&#x20;thirteen&#x20;subjects&#x20;succeeded&#x20;in&#x20;ringing&#x20;the&#x20;mobile&#x20;phone&#x20;using&#x20;the&#x20;system&#x20;The&#x20;average&#x20;transfer&#x20;rate&#x20;over&#x20;all&#x20;subjects&#x20;was&#x20;27&#x20;15&#x20;bits&#x20;min&#x20;The&#x20;attractive&#x20;features&#x20;of&#x20;the&#x20;system&#x20;are&#x20;noninvasive&#x20;signal&#x20;recording&#x20;little&#x20;training&#x20;required&#x20;for&#x20;use&#x20;and&#x20;high&#x20;information&#x20;transfer&#x20;rate&#x20;Approaches&#x20;to&#x20;improve&#x20;the&#x20;performance&#x20;of&#x20;the&#x20;system&#x20;are&#x20;discussed</dcvalue>
+  <dcvalue element="description" qualifier="provenance" language="en">Made&#x20;available&#x20;in&#x20;DSpace&#x20;on&#x20;2020-02-06T18:13:55Z&#x20;(GMT).&#x20;No.&#x20;of&#x20;bitstreams:&#x20;0&#x0A;&#x20;&#x20;Previous&#x20;issue&#x20;date:&#x20;2002-10-10</dcvalue>
+  <dcvalue element="relation" qualifier="uri" language="">IEEE&#x20;transactions&#x20;on&#x20;bio-medical&#x20;engineering</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">Design&#x20;and&#x20;implementation&#x20;of&#x20;a&#x20;brain-computer&#x20;interface&#x20;with&#x20;high&#x20;transfer&#x20;rates.</dcvalue>
+</dublin_core>

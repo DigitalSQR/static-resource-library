@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dc">
+  <dcvalue element="contributor" qualifier="author" language="">Smith,&#x20;Kevin</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Martinez,&#x20;Angel</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Craddolph,&#x20;Roland</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Erickson,&#x20;Howard</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Andresen,&#x20;Daniel</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Warren,&#x20;Steve</dcvalue>
+  <dcvalue element="date" qualifier="accessioned">2020-02-10T17:19:57Z</dcvalue>
+  <dcvalue element="date" qualifier="available">2020-02-10T17:19:57Z</dcvalue>
+  <dcvalue element="date" qualifier="issued" language="">2007-10-23</dcvalue>
+  <dcvalue element="identifier" qualifier="uri" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;10.1109&#x2F;IEMBS.2006.259693</dcvalue>
+  <dcvalue element="identifier" qualifier="uri">https:&#x2F;&#x2F;lib.digitalsquare.io&#x2F;xmlui&#x2F;handle&#x2F;123456789&#x2F;25789</dcvalue>
+  <dcvalue element="description" qualifier="abstract" language="">Clinical&#x20;techniques&#x20;for&#x20;monitoring&#x20;live&#x20;stock&#x20;health&#x20;are&#x20;insufficient&#x20;as&#x20;they&#x20;provide&#x20;only&#x20;sporadic&#x20;information&#x20;and&#x20;require&#x20;too&#x20;much&#x20;resource&#x20;investment&#x20;in&#x20;terms&#x20;of&#x20;time&#x20;and&#x20;veterinary&#x20;expertise&#x20;A&#x20;sophisticated&#x20;system&#x20;capable&#x20;of&#x20;continuously&#x20;assessing&#x20;the&#x20;health&#x20;of&#x20;individual&#x20;animals&#x20;aggregating&#x20;these&#x20;data&#x20;and&#x20;reporting&#x20;the&#x20;results&#x20;to&#x20;owners&#x20;and&#x20;regional&#x20;authorities&#x20;could&#x20;provide&#x20;tremendous&#x20;benefit&#x20;to&#x20;the&#x20;livestock&#x20;industry&#x20;Such&#x20;a&#x20;system&#x20;would&#x20;not&#x20;only&#x20;improve&#x20;individual&#x20;animal&#x20;health&#x20;but&#x20;it&#x20;would&#x20;help&#x20;to&#x20;identify&#x20;and&#x20;pre&#x20;vent&#x20;widespread&#x20;disease&#x20;whether&#x20;it&#x20;originated&#x20;from&#x20;natural&#x20;causes&#x20;or&#x20;from&#x20;biological&#x20;attacks&#x20;This&#x20;paper&#x20;presents&#x20;results&#x20;from&#x20;a&#x20;prototype&#x20;telemonitoring&#x20;system&#x20;that&#x20;utilizes&#x20;wearable&#x20;technology&#x20;to&#x20;provide&#x20;continuous&#x20;animal&#x20;health&#x20;data&#x20;The&#x20;infrastructure&#x20;hardware&#x20;software&#x20;and&#x20;representative&#x20;physiological&#x20;measurements&#x20;are&#x20;presented</dcvalue>
+  <dcvalue element="description" qualifier="provenance" language="en">Made&#x20;available&#x20;in&#x20;DSpace&#x20;on&#x20;2020-02-10T17:19:57Z&#x20;(GMT).&#x20;No.&#x20;of&#x20;bitstreams:&#x20;0&#x0A;&#x20;&#x20;Previous&#x20;issue&#x20;date:&#x20;2007-10-23</dcvalue>
+  <dcvalue element="relation" qualifier="uri" language="">Conference&#x20;proceedings&#x20;:&#x20;...&#x20;Annual&#x20;International&#x20;Conference&#x20;of&#x20;the&#x20;IEEE&#x20;Engineering&#x20;in&#x20;Medicine&#x20;and&#x20;Biology&#x20;Society.&#x20;IEEE&#x20;Engineering&#x20;in&#x20;Medicine&#x20;and&#x20;Biology&#x20;Society.&#x20;Annual&#x20;Conference</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">An&#x20;integrated&#x20;cattle&#x20;health&#x20;monitoring&#x20;system.</dcvalue>
+</dublin_core>

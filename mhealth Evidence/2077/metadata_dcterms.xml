@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dcterms">
+  <dcvalue element="abstract" qualifier="none" language="">In&#x20;this&#x20;paper&#x20;we&#x20;present&#x20;the&#x20;eIMRT&#x20;project&#x20;which&#x20;is&#x20;currently&#x20;carried&#x20;out&#x20;by&#x20;diverse&#x20;institutions&#x20;in&#x20;Galicia&#x20;Spain&#x20;and&#x20;the&#x20;USA&#x20;The&#x20;eIMRT&#x20;project&#x20;will&#x20;offer&#x20;radiotherapists&#x20;a&#x20;set&#x20;of&#x20;algorithms&#x20;to&#x20;optimize&#x20;and&#x20;validate&#x20;radiotherapy&#x20;treatments&#x20;both&#x20;CRT&#x20;and&#x20;IMRT&#x20;based&#x20;hiding&#x20;the&#x20;complexity&#x20;of&#x20;the&#x20;computer&#x20;infrastructure&#x20;needed&#x20;to&#x20;solve&#x20;the&#x20;problem&#x20;using&#x20;GRID&#x20;technologies&#x20;The&#x20;new&#x20;platform&#x20;is&#x20;designed&#x20;to&#x20;be&#x20;independent&#x20;from&#x20;the&#x20;medical&#x20;accelerator&#x20;models&#x20;scalable&#x20;and&#x20;open&#x20;Having&#x20;a&#x20;web&#x20;portal&#x20;as&#x20;client&#x20;it&#x20;is&#x20;designed&#x20;in&#x20;three&#x20;layers&#x20;using&#x20;web&#x20;services&#x20;which&#x20;will&#x20;allow&#x20;users&#x20;to&#x20;access&#x20;the&#x20;platform&#x20;directly&#x20;from&#x20;any&#x20;front&#x20;end&#x20;and&#x20;client&#x20;It&#x20;has&#x20;three&#x20;main&#x20;components&#x20;namely&#x20;remote&#x20;characterization&#x20;of&#x20;linear&#x20;accelerators&#x20;for&#x20;Monte&#x20;Carlo&#x20;and&#x20;convolution&#x20;superposition&#x20;C&#x20;S&#x20;dose&#x20;calculation&#x20;techniques&#x20;remote&#x20;Grid&#x20;enabled&#x20;radiotherapy&#x20;treatment&#x20;planning&#x20;optimization&#x20;and&#x20;verification&#x20;and&#x20;data&#x20;depository</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Gómez,&#x20;Andrés</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Fernández&#x20;Sánchez,&#x20;Carlos</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Mouriño&#x20;Gallego,&#x20;José&#x20;Carlos</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">González&#x20;Castaño,&#x20;Francisco&#x20;J</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Rodríguez-Silva,&#x20;Daniel</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Pena&#x20;García,&#x20;Javier</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Gómez&#x20;Rodríguez,&#x20;Faustino</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">González&#x20;Castaño,&#x20;Diego</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Pombar&#x20;Cameán,&#x20;Miguel</dcvalue>
+  <dcvalue element="identifier" qualifier="none" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;Not&#x20;available</dcvalue>
+  <dcvalue element="relation" qualifier="none" language="">Studies&#x20;in&#x20;health&#x20;technology&#x20;and&#x20;informatics</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">Remote&#x20;radiotherapy&#x20;planning:&#x20;the&#x20;eIMRT&#x20;project.</dcvalue>
+</dublin_core>

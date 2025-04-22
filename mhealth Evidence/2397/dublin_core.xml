@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dc">
+  <dcvalue element="contributor" qualifier="author" language="">Nakajima,&#x20;I</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Natori,&#x20;M</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Takizawa,&#x20;M</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Kaihara,&#x20;S</dcvalue>
+  <dcvalue element="date" qualifier="accessioned">2020-02-12T12:01:57Z</dcvalue>
+  <dcvalue element="date" qualifier="available">2020-02-12T12:01:57Z</dcvalue>
+  <dcvalue element="date" qualifier="issued" language="">2001-10-17</dcvalue>
+  <dcvalue element="identifier" qualifier="uri" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;Not&#x20;available</dcvalue>
+  <dcvalue element="identifier" qualifier="uri">https:&#x2F;&#x2F;lib.digitalsquare.io&#x2F;xmlui&#x2F;handle&#x2F;123456789&#x2F;59303</dcvalue>
+  <dcvalue element="description" qualifier="abstract" language="">We&#x20;surveyed&#x20;interactive&#x20;telemedicine&#x20;projects&#x20;via&#x20;telecommunications&#x20;satellite&#x20;AMINE&#x20;PARTNERS&#x20;Post&#x20;PARTNERS&#x20;and&#x20;Shinshu&#x20;University&#x20;Project&#x20;using&#x20;Inmarsat&#x20;satellites&#x20;offered&#x20;by&#x20;Japan&#x20;as&#x20;assistance&#x20;to&#x20;developing&#x20;countries&#x20;The&#x20;survey&#x20;helped&#x20;clarify&#x20;channel&#x20;occupation&#x20;time&#x20;and&#x20;data&#x20;transfer&#x20;rates&#x20;Using&#x20;our&#x20;survey&#x20;results&#x20;we&#x20;proposed&#x20;an&#x20;optimized&#x20;satellite&#x20;model&#x20;with&#x20;VSATs&#x20;simulating&#x20;the&#x20;number&#x20;of&#x20;required&#x20;channels&#x20;and&#x20;bandwidth&#x20;magnitude&#x20;For&#x20;future&#x20;implementation&#x20;of&#x20;VSATs&#x20;for&#x20;medical&#x20;use&#x20;in&#x20;developing&#x20;nations&#x20;design&#x20;of&#x20;telecommunication&#x20;channels&#x20;should&#x20;take&#x20;into&#x20;consideration&#x20;TCP&#x20;IP&#x20;based&#x20;operations&#x20;We&#x20;calculated&#x20;that&#x20;one&#x20;hub&#x20;station&#x20;with&#x20;30&#x20;76&#x20;VSATs&#x20;in&#x20;developing&#x20;nation&#x20;can&#x20;be&#x20;operated&#x20;on&#x20;bandwidth&#x20;6&#x20;Mbps&#x20;using&#x20;with&#x20;128&#x20;Kbps&#x20;videoconferencing&#x20;system&#x20;for&#x20;teleconsultation&#x20;and&#x20;teleconference&#x20;and&#x20;linking&#x20;with&#x20;Internet</dcvalue>
+  <dcvalue element="description" qualifier="provenance" language="en">Made&#x20;available&#x20;in&#x20;DSpace&#x20;on&#x20;2020-02-12T12:01:57Z&#x20;(GMT).&#x20;No.&#x20;of&#x20;bitstreams:&#x20;0&#x0A;&#x20;&#x20;Previous&#x20;issue&#x20;date:&#x20;2001-10-17</dcvalue>
+  <dcvalue element="relation" qualifier="uri" language="">Studies&#x20;in&#x20;health&#x20;technology&#x20;and&#x20;informatics</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">Survey&#x20;and&#x20;analysis&#x20;of&#x20;satellite-based&#x20;telemedicine&#x20;projects&#x20;involving&#x20;Japan&#x20;and&#x20;developing&#x20;nations:&#x20;investigation&#x20;of&#x20;transmission&#x20;rates,&#x20;channel&#x20;numbers,&#x20;and&#x20;node&#x20;numbers.</dcvalue>
+</dublin_core>

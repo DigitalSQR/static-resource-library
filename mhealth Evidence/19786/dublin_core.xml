@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dc">
+  <dcvalue element="contributor" qualifier="author" language="">Chen,&#x20;W&#x20;S</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Yuan,&#x20;S&#x20;Y</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Liao,&#x20;H&#x20;E</dcvalue>
+  <dcvalue element="date" qualifier="accessioned">2020-02-12T11:58:28Z</dcvalue>
+  <dcvalue element="date" qualifier="available">2020-02-12T11:58:28Z</dcvalue>
+  <dcvalue element="date" qualifier="issued" language="">2002-01-14</dcvalue>
+  <dcvalue element="identifier" qualifier="uri" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;10.1142&#x2F;S0192415X01000563</dcvalue>
+  <dcvalue element="identifier" qualifier="uri">https:&#x2F;&#x2F;lib.digitalsquare.io&#x2F;xmlui&#x2F;handle&#x2F;123456789&#x2F;59122</dcvalue>
+  <dcvalue element="description" qualifier="abstract" language="">The&#x20;arterial&#x20;pulse&#x20;possesses&#x20;important&#x20;clinical&#x20;information&#x20;in&#x20;traditional&#x20;Chinese&#x20;medicine&#x20;It&#x20;is&#x20;usually&#x20;recorded&#x20;for&#x20;a&#x20;long&#x20;period&#x20;of&#x20;time&#x20;in&#x20;the&#x20;applications&#x20;of&#x20;telemedicine&#x20;and&#x20;PACS&#x20;systems&#x20;Due&#x20;to&#x20;the&#x20;huge&#x20;amount&#x20;of&#x20;data&#x20;by&#x20;recognizing&#x20;the&#x20;strong&#x20;correlation&#x20;between&#x20;successive&#x20;beat&#x20;patterns&#x20;in&#x20;arterial&#x20;pulse&#x20;waveform&#x20;sequences&#x20;a&#x20;novel&#x20;and&#x20;efficient&#x20;data&#x20;compression&#x20;scheme&#x20;based&#x20;mainly&#x20;on&#x20;pattern&#x20;matching&#x20;is&#x20;introduced&#x20;The&#x20;simulation&#x20;results&#x20;show&#x20;that&#x20;our&#x20;coding&#x20;scheme&#x20;can&#x20;achieve&#x20;a&#x20;very&#x20;high&#x20;compression&#x20;ratio&#x20;and&#x20;low&#x20;distortion&#x20;for&#x20;arterial&#x20;pulse&#x20;waveform</dcvalue>
+  <dcvalue element="description" qualifier="provenance" language="en">Made&#x20;available&#x20;in&#x20;DSpace&#x20;on&#x20;2020-02-12T11:58:28Z&#x20;(GMT).&#x20;No.&#x20;of&#x20;bitstreams:&#x20;0&#x0A;&#x20;&#x20;Previous&#x20;issue&#x20;date:&#x20;2002-01-14</dcvalue>
+  <dcvalue element="relation" qualifier="uri" language="">The&#x20;American&#x20;journal&#x20;of&#x20;Chinese&#x20;medicine</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">Data&#x20;compression&#x20;for&#x20;arterial&#x20;pulse&#x20;waveform.</dcvalue>
+</dublin_core>

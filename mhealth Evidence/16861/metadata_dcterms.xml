@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dcterms">
+  <dcvalue element="abstract" qualifier="none" language="">Cloud&#x20;Computing&#x20;provides&#x20;functionality&#x20;for&#x20;managing&#x20;information&#x20;data&#x20;in&#x20;a&#x20;distributed&#x20;ubiquitous&#x20;and&#x20;pervasive&#x20;manner&#x20;supporting&#x20;several&#x20;platforms&#x20;systems&#x20;and&#x20;applications&#x20;This&#x20;work&#x20;presents&#x20;the&#x20;implementation&#x20;of&#x20;a&#x20;mobile&#x20;system&#x20;that&#x20;enables&#x20;electronic&#x20;healthcare&#x20;data&#x20;storage&#x20;update&#x20;and&#x20;retrieval&#x20;using&#x20;Cloud&#x20;Computing&#x20;The&#x20;mobile&#x20;application&#x20;is&#x20;developed&#x20;using&#x20;Google&#x20;s&#x20;Android&#x20;operating&#x20;system&#x20;and&#x20;provides&#x20;management&#x20;of&#x20;patient&#x20;health&#x20;records&#x20;and&#x20;medical&#x20;images&#x20;supporting&#x20;DICOM&#x20;format&#x20;and&#x20;JPEG2000&#x20;coding&#x20;The&#x20;developed&#x20;system&#x20;has&#x20;been&#x20;evaluated&#x20;using&#x20;the&#x20;Amazon&#x20;s&#x20;S3&#x20;cloud&#x20;service&#x20;This&#x20;article&#x20;summarizes&#x20;the&#x20;implementation&#x20;details&#x20;and&#x20;presents&#x20;initial&#x20;results&#x20;of&#x20;the&#x20;system&#x20;in&#x20;practice</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Doukas,&#x20;Charalampos</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Pliakas,&#x20;Thomas</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Maglogiannis,&#x20;Ilias</dcvalue>
+  <dcvalue element="identifier" qualifier="none" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;10.1109&#x2F;IEMBS.2010.5628061</dcvalue>
+  <dcvalue element="relation" qualifier="none" language="">Conference&#x20;proceedings&#x20;:&#x20;...&#x20;Annual&#x20;International&#x20;Conference&#x20;of&#x20;the&#x20;IEEE&#x20;Engineering&#x20;in&#x20;Medicine&#x20;and&#x20;Biology&#x20;Society.&#x20;IEEE&#x20;Engineering&#x20;in&#x20;Medicine&#x20;and&#x20;Biology&#x20;Society.&#x20;Annual&#x20;Conference</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Facility-based&#x20;health&#x20;worker</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Access&#x20;to&#x20;information&#x20;or&#x20;data</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Efficiency</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Prototype</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Electronic&#x20;health&#x20;records</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Registries&#x2F;vital&#x20;events&#x20;tracking</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Image</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Text</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Installed&#x20;application</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">Mobile&#x20;healthcare&#x20;information&#x20;management&#x20;utilizing&#x20;Cloud&#x20;Computing&#x20;and&#x20;Android&#x20;OS.</dcvalue>
+</dublin_core>

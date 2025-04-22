@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dc">
+  <dcvalue element="contributor" qualifier="author" language="">Lemoyne,&#x20;Robert</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Mastroianni,&#x20;Timothy</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Cozza,&#x20;Michael</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Coroian,&#x20;Cristian</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Grundfest,&#x20;Warren</dcvalue>
+  <dcvalue element="date" qualifier="accessioned">2020-02-06T15:45:19Z</dcvalue>
+  <dcvalue element="date" qualifier="available">2020-02-06T15:45:19Z</dcvalue>
+  <dcvalue element="date" qualifier="issued" language="">2010-11-24</dcvalue>
+  <dcvalue element="identifier" qualifier="uri" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;10.1109&#x2F;IEMBS.2010.5627699</dcvalue>
+  <dcvalue element="identifier" qualifier="uri">https:&#x2F;&#x2F;lib.digitalsquare.io&#x2F;xmlui&#x2F;handle&#x2F;123456789&#x2F;570</dcvalue>
+  <dcvalue element="description" qualifier="abstract" language="">The&#x20;capacity&#x20;to&#x20;quantify&#x20;and&#x20;evaluate&#x20;gait&#x20;beyond&#x20;the&#x20;general&#x20;confines&#x20;of&#x20;a&#x20;clinical&#x20;environment&#x20;under&#x20;effectively&#x20;autonomous&#x20;conditions&#x20;may&#x20;alleviate&#x20;rampant&#x20;strain&#x20;on&#x20;limited&#x20;and&#x20;highly&#x20;specialized&#x20;medical&#x20;resources&#x20;An&#x20;iPhone&#x20;consists&#x20;of&#x20;a&#x20;three&#x20;dimensional&#x20;accelerometer&#x20;subsystem&#x20;with&#x20;highly&#x20;robust&#x20;and&#x20;scalable&#x20;software&#x20;applications&#x20;With&#x20;the&#x20;synthesis&#x20;of&#x20;the&#x20;integral&#x20;iPhone&#x20;features&#x20;an&#x20;iPhone&#x20;application&#x20;which&#x20;constitutes&#x20;a&#x20;wireless&#x20;accelerometer&#x20;system&#x20;for&#x20;gait&#x20;quantification&#x20;and&#x20;analysis&#x20;has&#x20;been&#x20;tested&#x20;and&#x20;evaluated&#x20;in&#x20;an&#x20;autonomous&#x20;environment&#x20;The&#x20;acquired&#x20;gait&#x20;cycle&#x20;data&#x20;was&#x20;transmitted&#x20;wireless&#x20;and&#x20;through&#x20;email&#x20;for&#x20;subsequent&#x20;post&#x20;processing&#x20;in&#x20;a&#x20;location&#x20;remote&#x20;to&#x20;the&#x20;location&#x20;where&#x20;the&#x20;experiment&#x20;was&#x20;conducted&#x20;The&#x20;iPhone&#x20;application&#x20;functioning&#x20;as&#x20;a&#x20;wireless&#x20;accelerometer&#x20;for&#x20;the&#x20;acquisition&#x20;of&#x20;gait&#x20;characteristics&#x20;has&#x20;demonstrated&#x20;sufficient&#x20;accuracy&#x20;and&#x20;consistency</dcvalue>
+  <dcvalue element="description" qualifier="provenance" language="en">Made&#x20;available&#x20;in&#x20;DSpace&#x20;on&#x20;2020-02-06T15:45:19Z&#x20;(GMT).&#x20;No.&#x20;of&#x20;bitstreams:&#x20;0&#x0A;&#x20;&#x20;Previous&#x20;issue&#x20;date:&#x20;2010-11-24</dcvalue>
+  <dcvalue element="relation" qualifier="uri" language="">Conference&#x20;proceedings&#x20;:&#x20;...&#x20;Annual&#x20;International&#x20;Conference&#x20;of&#x20;the&#x20;IEEE&#x20;Engineering&#x20;in&#x20;Medicine&#x20;and&#x20;Biology&#x20;Society.&#x20;IEEE&#x20;Engineering&#x20;in&#x20;Medicine&#x20;and&#x20;Biology&#x20;Society.&#x20;Annual&#x20;Conference</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Supply&#x20;of&#x20;equipment</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Expenses&#x20;related&#x20;to&#x20;commodity&#x20;production</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Prototype</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Pre-prototype</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Feasibility</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Disease&#x20;management</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Accelerometers&#x20;&#x2F;&#x20;Motion&#x20;sensors</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Installed&#x20;application</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">Implementation&#x20;of&#x20;an&#x20;iPhone&#x20;as&#x20;a&#x20;wireless&#x20;accelerometer&#x20;for&#x20;quantifying&#x20;gait&#x20;characteristics.</dcvalue>
+</dublin_core>

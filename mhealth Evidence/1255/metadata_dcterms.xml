@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dcterms">
+  <dcvalue element="abstract" qualifier="none" language="">Telemedicine&#x20;offers&#x20;the&#x20;potential&#x20;to&#x20;alleviate&#x20;the&#x20;severe&#x20;shortage&#x20;of&#x20;medical&#x20;specialists&#x20;in&#x20;developing&#x20;countries&#x20;However&#x20;lack&#x20;of&#x20;equipment&#x20;and&#x20;poor&#x20;network&#x20;connections&#x20;usually&#x20;rule&#x20;out&#x20;video&#x20;conferencing&#x20;systems&#x20;This&#x20;paper&#x20;describes&#x20;a&#x20;software&#x20;application&#x20;to&#x20;facilitate&#x20;store&#x20;and&#x20;forward&#x20;telemedicine&#x20;by&#x20;email&#x20;of&#x20;images&#x20;from&#x20;digital&#x20;cameras&#x20;TeleMedMail&#x20;is&#x20;written&#x20;in&#x20;Java&#x20;and&#x20;allows&#x20;structured&#x20;text&#x20;entry&#x20;image&#x20;processing&#x20;image&#x20;and&#x20;data&#x20;compression&#x20;and&#x20;data&#x20;encryption&#x20;The&#x20;design&#x20;implementation&#x20;and&#x20;initial&#x20;evaluation&#x20;are&#x20;described</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Fraser,&#x20;H&#x20;S</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Jazayeri,&#x20;D</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Bannach,&#x20;L</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Szolovits,&#x20;P</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">McGrath,&#x20;S&#x20;J</dcvalue>
+  <dcvalue element="identifier" qualifier="none" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;Not&#x20;available</dcvalue>
+  <dcvalue element="relation" qualifier="none" language="">Studies&#x20;in&#x20;health&#x20;technology&#x20;and&#x20;informatics</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">TeleMedMail:&#x20;free&#x20;software&#x20;to&#x20;facilitate&#x20;telemedicine&#x20;in&#x20;developing&#x20;countries.</dcvalue>
+</dublin_core>

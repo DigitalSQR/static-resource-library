@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dcterms">
+  <dcvalue element="abstract" qualifier="none" language="">Power&#x20;wheelchairs&#x20;have&#x20;been&#x20;widely&#x20;used&#x20;to&#x20;provide&#x20;independent&#x20;mobility&#x20;to&#x20;people&#x20;with&#x20;disabilities&#x20;Despite&#x20;great&#x20;advancements&#x20;in&#x20;power&#x20;wheelchair&#x20;technology&#x20;research&#x20;shows&#x20;that&#x20;wheelchair&#x20;related&#x20;accidents&#x20;occur&#x20;frequently&#x20;To&#x20;ensure&#x20;safe&#x20;maneuverability&#x20;capturing&#x20;wheelchair&#x20;maneuvering&#x20;patterns&#x20;is&#x20;fundamental&#x20;to&#x20;enable&#x20;other&#x20;research&#x20;such&#x20;as&#x20;safe&#x20;robotic&#x20;assistance&#x20;for&#x20;wheelchair&#x20;users&#x20;In&#x20;this&#x20;study&#x20;we&#x20;propose&#x20;to&#x20;record&#x20;store&#x20;and&#x20;analyze&#x20;wheelchair&#x20;maneuvering&#x20;data&#x20;by&#x20;means&#x20;of&#x20;mobile&#x20;cloud&#x20;computing&#x20;Specifically&#x20;the&#x20;accelerometer&#x20;and&#x20;gyroscope&#x20;sensors&#x20;in&#x20;smart&#x20;phones&#x20;are&#x20;used&#x20;to&#x20;record&#x20;wheelchair&#x20;maneuvering&#x20;data&#x20;in&#x20;real&#x20;time&#x20;Then&#x20;the&#x20;recorded&#x20;data&#x20;are&#x20;periodically&#x20;transmitted&#x20;to&#x20;the&#x20;cloud&#x20;for&#x20;storage&#x20;and&#x20;analysis&#x20;The&#x20;analyzed&#x20;results&#x20;are&#x20;then&#x20;made&#x20;available&#x20;to&#x20;various&#x20;types&#x20;of&#x20;users&#x20;such&#x20;as&#x20;mobile&#x20;phone&#x20;users&#x20;traditional&#x20;desktop&#x20;users&#x20;etc&#x20;The&#x20;combination&#x20;of&#x20;mobile&#x20;computing&#x20;and&#x20;cloud&#x20;computing&#x20;leverages&#x20;the&#x20;advantages&#x20;of&#x20;both&#x20;techniques&#x20;and&#x20;extends&#x20;the&#x20;smart&#x20;phone&#x20;s&#x20;capabilities&#x20;of&#x20;computing&#x20;and&#x20;data&#x20;storage&#x20;via&#x20;the&#x20;Internet&#x20;We&#x20;performed&#x20;a&#x20;case&#x20;study&#x20;to&#x20;implement&#x20;the&#x20;mobile&#x20;cloud&#x20;computing&#x20;framework&#x20;using&#x20;Android&#x20;smart&#x20;phones&#x20;and&#x20;Google&#x20;App&#x20;Engine&#x20;a&#x20;popular&#x20;cloud&#x20;computing&#x20;platform&#x20;Experimental&#x20;results&#x20;demonstrated&#x20;the&#x20;feasibility&#x20;of&#x20;the&#x20;proposed&#x20;mobile&#x20;cloud&#x20;computing&#x20;framework</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Fu,&#x20;Jicheng</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Hao,&#x20;Wei</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">White,&#x20;Travis</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Yan,&#x20;Yuqing</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Jones,&#x20;Maria</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Jan,&#x20;Yih-Kuen</dcvalue>
+  <dcvalue element="identifier" qualifier="none" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;10.1109&#x2F;EMBC.2013.6610027</dcvalue>
+  <dcvalue element="relation" qualifier="none" language="">Conference&#x20;proceedings&#x20;:&#x20;...&#x20;Annual&#x20;International&#x20;Conference&#x20;of&#x20;the&#x20;IEEE&#x20;Engineering&#x20;in&#x20;Medicine&#x20;and&#x20;Biology&#x20;Society.&#x20;IEEE&#x20;Engineering&#x20;in&#x20;Medicine&#x20;and&#x20;Biology&#x20;Society.&#x20;Annual&#x20;Conference</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Disabled</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Client</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Pilot</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Feasibility</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Individual&#x20;based</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Injuries</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Preventive</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Data&#x20;collection&#x20;and&#x20;reporting</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Internet</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Raw&#x20;data</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Accelerometers&#x20;&#x2F;&#x20;Motion&#x20;sensors</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Installed&#x20;application</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">Capturing&#x20;and&#x20;analyzing&#x20;wheelchair&#x20;maneuvering&#x20;patterns&#x20;with&#x20;mobile&#x20;cloud&#x20;computing.</dcvalue>
+</dublin_core>

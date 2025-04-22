@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dcterms">
+  <dcvalue element="abstract" qualifier="none" language="">The&#x20;sleep&#x20;analysis&#x20;and&#x20;scoring&#x20;program&#x20;WSCORE&#x20;was&#x20;developed&#x20;under&#x20;the&#x20;European&#x20;Neurological&#x20;Network&#x20;ENN&#x20;project&#x20;The&#x20;purpose&#x20;was&#x20;to&#x20;implement&#x20;an&#x20;analysis&#x20;and&#x20;scoring&#x20;system&#x20;for&#x20;ambulatory&#x20;and&#x20;standard&#x20;polysomnography&#x20;In&#x20;addition&#x20;to&#x20;visual&#x20;Rechtschaffen&#x20;And&#x20;Kales&#x20;scoring&#x20;the&#x20;program&#x20;offers&#x20;a&#x20;possibility&#x20;of&#x20;free&#x20;form&#x20;visual&#x20;scoring&#x20;It&#x20;contains&#x20;also&#x20;analysis&#x20;modules&#x20;for&#x20;Periodic&#x20;Leg&#x20;Movement&#x20;Disorder&#x20;Hjort&#x20;parameters&#x20;heart&#x20;rate&#x20;and&#x20;EMG&#x20;amplitude&#x20;A&#x20;FTP&#x20;client&#x20;module&#x20;was&#x20;built&#x20;into&#x20;the&#x20;program&#x20;so&#x20;that&#x20;it&#x20;can&#x20;be&#x20;used&#x20;as&#x20;a&#x20;telemedicine&#x20;application</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Värri,&#x20;A</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Koivuluoma,&#x20;M</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Morvan,&#x20;C</dcvalue>
+  <dcvalue element="identifier" qualifier="none" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;Not&#x20;available</dcvalue>
+  <dcvalue element="relation" qualifier="none" language="">Studies&#x20;in&#x20;health&#x20;technology&#x20;and&#x20;informatics</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">A&#x20;computer-assisted&#x20;visual&#x20;sleep&#x20;scoring&#x20;program.</dcvalue>
+</dublin_core>

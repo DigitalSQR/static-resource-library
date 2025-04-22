@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dcterms">
+  <dcvalue element="abstract" qualifier="none" language="">This&#x20;article&#x20;presents&#x20;a&#x20;novel&#x20;closed&#x20;loop&#x20;control&#x20;architecture&#x20;based&#x20;on&#x20;audio&#x20;channels&#x20;of&#x20;several&#x20;types&#x20;of&#x20;computing&#x20;devices&#x20;such&#x20;as&#x20;mobile&#x20;phones&#x20;and&#x20;tablet&#x20;computers&#x20;but&#x20;not&#x20;restricted&#x20;to&#x20;them&#x20;The&#x20;communication&#x20;is&#x20;based&#x20;on&#x20;an&#x20;audio&#x20;interface&#x20;that&#x20;relies&#x20;on&#x20;the&#x20;exchange&#x20;of&#x20;audio&#x20;tones&#x20;allowing&#x20;sensors&#x20;to&#x20;be&#x20;read&#x20;and&#x20;actuators&#x20;to&#x20;be&#x20;controlled&#x20;As&#x20;an&#x20;application&#x20;example&#x20;the&#x20;presented&#x20;technique&#x20;is&#x20;used&#x20;to&#x20;build&#x20;a&#x20;low&#x20;cost&#x20;mobile&#x20;robot&#x20;but&#x20;the&#x20;system&#x20;can&#x20;also&#x20;be&#x20;used&#x20;in&#x20;a&#x20;variety&#x20;of&#x20;mechatronics&#x20;applications&#x20;and&#x20;sensor&#x20;networks&#x20;where&#x20;smartphones&#x20;are&#x20;the&#x20;basic&#x20;building&#x20;blocks</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Aroca,&#x20;Rafael&#x20;V</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Burlamaqui,&#x20;Aquiles&#x20;F</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Gonçalves,&#x20;Luiz&#x20;M&#x20;G</dcvalue>
+  <dcvalue element="identifier" qualifier="none" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;10.3390&#x2F;s120201572</dcvalue>
+  <dcvalue element="relation" qualifier="none" language="">Sensors&#x20;(Basel,&#x20;Switzerland)</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">Method&#x20;for&#x20;reading&#x20;sensors&#x20;and&#x20;controlling&#x20;actuators&#x20;using&#x20;audio&#x20;interfaces&#x20;of&#x20;mobile&#x20;devices.</dcvalue>
+</dublin_core>

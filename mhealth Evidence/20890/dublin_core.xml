@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dc">
+  <dcvalue element="contributor" qualifier="author" language="">Lou,&#x20;S&#x20;L</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Lin,&#x20;H&#x20;D</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Lin,&#x20;K&#x20;P</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Hoogstrate,&#x20;D</dcvalue>
+  <dcvalue element="date" qualifier="accessioned">2020-02-12T12:27:20Z</dcvalue>
+  <dcvalue element="date" qualifier="available">2020-02-12T12:27:20Z</dcvalue>
+  <dcvalue element="date" qualifier="issued" language="">2000-08-07</dcvalue>
+  <dcvalue element="identifier" qualifier="uri" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;Not&#x20;available</dcvalue>
+  <dcvalue element="identifier" qualifier="uri">https:&#x2F;&#x2F;lib.digitalsquare.io&#x2F;xmlui&#x2F;handle&#x2F;123456789&#x2F;60421</dcvalue>
+  <dcvalue element="description" qualifier="abstract" language="">High&#x20;spatial&#x20;resolution&#x20;results&#x20;in&#x20;very&#x20;large&#x20;digital&#x20;mammogram&#x20;file&#x20;sizes&#x20;For&#x20;telemammography&#x20;and&#x20;picture&#x20;archiving&#x20;and&#x20;communication&#x20;systems&#x20;the&#x20;large&#x20;file&#x20;issue&#x20;introduces&#x20;technical&#x20;difficulties&#x20;in&#x20;image&#x20;transmission&#x20;storage&#x20;and&#x20;display&#x20;We&#x20;propose&#x20;extracting&#x20;the&#x20;breast&#x20;region&#x20;from&#x20;the&#x20;mammogram&#x20;to&#x20;reduce&#x20;the&#x20;image&#x20;file&#x20;size&#x20;The&#x20;challenge&#x20;is&#x20;on&#x20;how&#x20;to&#x20;faithfully&#x20;extract&#x20;breast&#x20;regions&#x20;from&#x20;digital&#x20;mammograms&#x20;generated&#x20;from&#x20;different&#x20;types&#x20;of&#x20;acquisition&#x20;systems&#x20;that&#x20;contain&#x20;various&#x20;imaged&#x20;compositions&#x20;We&#x20;report&#x20;an&#x20;algorithm&#x20;to&#x20;automatically&#x20;identify&#x20;the&#x20;orientation&#x20;of&#x20;breast&#x20;region&#x20;and&#x20;extract&#x20;the&#x20;breast&#x20;region&#x20;from&#x20;mammograms&#x20;Breast&#x20;regions&#x20;extracted&#x20;from&#x20;full&#x20;field&#x20;digital&#x20;mammograms&#x20;reduce&#x20;file&#x20;sizes&#x20;by&#x20;three&#x20;to&#x20;five&#x20;folds</dcvalue>
+  <dcvalue element="description" qualifier="provenance" language="en">Made&#x20;available&#x20;in&#x20;DSpace&#x20;on&#x20;2020-02-12T12:27:20Z&#x20;(GMT).&#x20;No.&#x20;of&#x20;bitstreams:&#x20;0&#x0A;&#x20;&#x20;Previous&#x20;issue&#x20;date:&#x20;2000-08-07</dcvalue>
+  <dcvalue element="relation" qualifier="uri" language="">Computerized&#x20;medical&#x20;imaging&#x20;and&#x20;graphics&#x20;:&#x20;the&#x20;official&#x20;journal&#x20;of&#x20;the&#x20;Computerized&#x20;Medical&#x20;Imaging&#x20;Society</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">Automatic&#x20;breast&#x20;region&#x20;extraction&#x20;from&#x20;digital&#x20;mammograms&#x20;for&#x20;PACS&#x20;and&#x20;telemammography&#x20;applications.</dcvalue>
+</dublin_core>

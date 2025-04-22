@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dcterms">
+  <dcvalue element="abstract" qualifier="none" language="">E&#x20;mail&#x20;is&#x20;ideal&#x20;for&#x20;ad&#x20;hoc&#x20;connections&#x20;in&#x20;teleradiology&#x20;The&#x20;DICOM&#x20;standard&#x20;offers&#x20;the&#x20;possibility&#x20;to&#x20;append&#x20;DICOM&#x20;data&#x20;types&#x20;as&#x20;a&#x20;MIME&#x20;attachment&#x20;to&#x20;any&#x20;e&#x20;mail&#x20;thus&#x20;ensuring&#x20;the&#x20;transmission&#x20;of&#x20;the&#x20;original&#x20;DICOM&#x20;data&#x20;Nevertheless&#x20;there&#x20;are&#x20;additional&#x20;requirements&#x20;e&#x20;g&#x20;protection&#x20;of&#x20;data&#x20;privacy&#x20;which&#x20;must&#x20;be&#x20;obeyed&#x20;Because&#x20;of&#x20;the&#x20;lack&#x20;of&#x20;given&#x20;standards&#x20;which&#x20;would&#x20;grant&#x20;interoperability&#x20;as&#x20;well&#x20;as&#x20;manufacturer&#x20;independence&#x20;teleradiology&#x20;has&#x20;not&#x20;been&#x20;established&#x20;in&#x20;Germany&#x20;until&#x20;today&#x20;Therefore&#x20;the&#x20;IT&#x20;Team&#x20;Arbeitsgemeinschaft&#x20;fur&#x20;Informationstechnologie&#x20;GIT&#x20;of&#x20;the&#x20;Radiological&#x20;Society&#x20;of&#x20;Germany&#x20;Deutsche&#x20;Rontgengesellschaft&#x20;DRG&#x20;set&#x20;up&#x20;an&#x20;initiative&#x20;to&#x20;standardise&#x20;telemedicine&#x20;by&#x20;using&#x20;e&#x20;mail&#x20;Its&#x20;members&#x20;agreed&#x20;that&#x20;an&#x20;e&#x20;mail&#x20;based&#x20;variant&#x20;would&#x20;be&#x20;the&#x20;most&#x20;practicable&#x20;way&#x20;to&#x20;a&#x20;communication&#x20;solution&#x20;as&#x20;easy&#x20;to&#x20;implement&#x20;as&#x20;to&#x20;use&#x20;In&#x20;their&#x20;opinion&#x20;e&#x20;mail&#x20;represents&#x20;the&#x20;smallest&#x20;common&#x20;denominator&#x20;for&#x20;a&#x20;safe&#x20;data&#x20;interchange&#x20;that&#x20;would&#x20;fulfill&#x20;the&#x20;legal&#x20;advantages&#x20;for&#x20;telemedicine&#x20;in&#x20;Germany</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Mildenberger,&#x20;P</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Kämmerer,&#x20;M</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Engelmann,&#x20;U</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Ruggiero,&#x20;S</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Klos,&#x20;G</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Runa,&#x20;A</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Schröter,&#x20;A</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Weisser,&#x20;G</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Walz,&#x20;M</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Schütze,&#x20;B</dcvalue>
+  <dcvalue element="identifier" qualifier="none" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;10.1055&#x2F;s-2005-858049</dcvalue>
+  <dcvalue element="relation" qualifier="none" language="">RöFo&#x20;:&#x20;Fortschritte&#x20;auf&#x20;dem&#x20;Gebiete&#x20;der&#x20;Röntgenstrahlen&#x20;und&#x20;der&#x20;Nuklearmedizin</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">[Teleradiology&#x20;with&#x20;DICOM&#x20;e-mail:&#x20;recommendations&#x20;of&#x20;@GIT].</dcvalue>
+</dublin_core>

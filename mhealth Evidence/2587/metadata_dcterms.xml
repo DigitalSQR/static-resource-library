@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dcterms">
+  <dcvalue element="abstract" qualifier="none" language="">The&#x20;URSafe&#x20;project&#x20;IST&#x20;2001&#x20;33352&#x20;aims&#x20;at&#x20;creating&#x20;a&#x20;telemedicine&#x20;care&#x20;environment&#x20;for&#x20;the&#x20;elderly&#x20;and&#x20;convalescent&#x20;The&#x20;idea&#x20;is&#x20;to&#x20;provide&#x20;a&#x20;portable&#x20;device&#x20;which&#x20;monitors&#x20;autonomously&#x20;different&#x20;biomedical&#x20;signals&#x20;and&#x20;is&#x20;able&#x20;to&#x20;send&#x20;an&#x20;alarm&#x20;to&#x20;a&#x20;medical&#x20;center&#x20;if&#x20;an&#x20;abnormality&#x20;is&#x20;detected&#x20;In&#x20;the&#x20;initial&#x20;version&#x20;of&#x20;URSafe&#x20;three&#x20;sensors&#x20;where&#x20;included&#x20;in&#x20;the&#x20;platform&#x20;electrocardiogram&#x20;ECG&#x20;oxygen&#x20;rate&#x20;SpO2&#x20;and&#x20;Fall&#x20;Detector&#x20;This&#x20;paper&#x20;presents&#x20;the&#x20;signal&#x20;processing&#x20;algorithms&#x20;involved&#x20;in&#x20;the&#x20;project&#x20;These&#x20;are&#x20;at&#x20;two&#x20;levels&#x20;ECG&#x20;analysis&#x20;and&#x20;signal&#x20;transmission</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Castanie,&#x20;Francis</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Mailhes,&#x20;Corinne</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Henrion,&#x20;Stéphane</dcvalue>
+  <dcvalue element="identifier" qualifier="none" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;Not&#x20;available</dcvalue>
+  <dcvalue element="relation" qualifier="none" language="">Studies&#x20;in&#x20;health&#x20;technology&#x20;and&#x20;informatics</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">End-to-end&#x20;signal&#x20;processing&#x20;from&#x20;the&#x20;embedded&#x20;body&#x20;sensor&#x20;to&#x20;the&#x20;medical&#x20;end&#x20;user&#x20;through&#x20;QoS-less&#x20;public&#x20;communication&#x20;channels:&#x20;the&#x20;U-R-SAFE&#x20;experience.</dcvalue>
+</dublin_core>

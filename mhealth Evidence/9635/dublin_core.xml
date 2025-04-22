@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dc">
+  <dcvalue element="contributor" qualifier="author" language="">Lee,&#x20;Malrey</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Gatton,&#x20;Thomas&#x20;M</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Lee,&#x20;Keun-Kwang</dcvalue>
+  <dcvalue element="date" qualifier="accessioned">2020-02-06T16:39:47Z</dcvalue>
+  <dcvalue element="date" qualifier="available">2020-02-06T16:39:47Z</dcvalue>
+  <dcvalue element="date" qualifier="issued" language="">2012-02-09</dcvalue>
+  <dcvalue element="identifier" qualifier="uri" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;10.3390&#x2F;s100403934</dcvalue>
+  <dcvalue element="identifier" qualifier="uri">https:&#x2F;&#x2F;lib.digitalsquare.io&#x2F;xmlui&#x2F;handle&#x2F;123456789&#x2F;3715</dcvalue>
+  <dcvalue element="description" qualifier="abstract" language="">Diabetes&#x20;is&#x20;difficult&#x20;to&#x20;control&#x20;and&#x20;it&#x20;is&#x20;important&#x20;to&#x20;manage&#x20;the&#x20;diabetic&#x20;s&#x20;blood&#x20;sugar&#x20;level&#x20;and&#x20;prevent&#x20;the&#x20;associated&#x20;complications&#x20;by&#x20;appropriate&#x20;diabetic&#x20;treatment&#x20;This&#x20;paper&#x20;proposes&#x20;a&#x20;system&#x20;that&#x20;can&#x20;provide&#x20;appropriate&#x20;management&#x20;for&#x20;diabetes&#x20;patients&#x20;according&#x20;to&#x20;their&#x20;blood&#x20;sugar&#x20;level&#x20;The&#x20;system&#x20;is&#x20;designed&#x20;to&#x20;send&#x20;the&#x20;information&#x20;about&#x20;the&#x20;blood&#x20;sugar&#x20;levels&#x20;blood&#x20;pressure&#x20;food&#x20;consumption&#x20;exercise&#x20;etc&#x20;of&#x20;diabetes&#x20;patients&#x20;and&#x20;manage&#x20;the&#x20;treatment&#x20;by&#x20;recommending&#x20;and&#x20;monitoring&#x20;food&#x20;consumption&#x20;physical&#x20;activity&#x20;insulin&#x20;dosage&#x20;etc&#x20;so&#x20;that&#x20;the&#x20;patient&#x20;can&#x20;better&#x20;manage&#x20;their&#x20;condition&#x20;The&#x20;system&#x20;is&#x20;based&#x20;on&#x20;rules&#x20;and&#x20;the&#x20;K&#x20;Nearest&#x20;Neighbor&#x20;KNN&#x20;classifier&#x20;algorithm&#x20;to&#x20;obtain&#x20;the&#x20;optimum&#x20;treatment&#x20;recommendation&#x20;Also&#x20;a&#x20;monitoring&#x20;system&#x20;for&#x20;diabetes&#x20;patients&#x20;is&#x20;implemented&#x20;using&#x20;Web&#x20;Services&#x20;and&#x20;Personal&#x20;Digital&#x20;Assistant&#x20;PDA&#x20;programming</dcvalue>
+  <dcvalue element="description" qualifier="provenance" language="en">Made&#x20;available&#x20;in&#x20;DSpace&#x20;on&#x20;2020-02-06T16:39:47Z&#x20;(GMT).&#x20;No.&#x20;of&#x20;bitstreams:&#x20;0&#x0A;&#x20;&#x20;Previous&#x20;issue&#x20;date:&#x20;2012-02-09</dcvalue>
+  <dcvalue element="relation" qualifier="uri" language="">Sensors&#x20;(Basel,&#x20;Switzerland)</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">A&#x20;monitoring&#x20;and&#x20;advisory&#x20;system&#x20;for&#x20;diabetes&#x20;patient&#x20;management&#x20;using&#x20;a&#x20;rule-based&#x20;method&#x20;and&#x20;KNN.</dcvalue>
+</dublin_core>

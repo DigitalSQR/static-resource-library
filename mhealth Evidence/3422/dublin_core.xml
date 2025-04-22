@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dc">
+  <dcvalue element="contributor" qualifier="author" language="">Chouvarda,&#x20;I</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Koutkias,&#x20;V</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Malousi,&#x20;A</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Maglaveras,&#x20;N</dcvalue>
+  <dcvalue element="date" qualifier="accessioned">2020-02-12T11:30:13Z</dcvalue>
+  <dcvalue element="date" qualifier="available">2020-02-12T11:30:13Z</dcvalue>
+  <dcvalue element="date" qualifier="issued" language="">2005-05-30</dcvalue>
+  <dcvalue element="identifier" qualifier="uri" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;Not&#x20;available</dcvalue>
+  <dcvalue element="identifier" qualifier="uri">https:&#x2F;&#x2F;lib.digitalsquare.io&#x2F;xmlui&#x2F;handle&#x2F;123456789&#x2F;56582</dcvalue>
+  <dcvalue element="description" qualifier="abstract" language="">Current&#x20;advances&#x20;in&#x20;biosensor&#x20;technology&#x20;allow&#x20;multiple&#x20;miniaturized&#x20;or&#x20;textile&#x20;sensors&#x20;to&#x20;record&#x20;continuously&#x20;biosignals&#x20;such&#x20;as&#x20;blood&#x20;pressure&#x20;or&#x20;heart&#x20;rate&#x20;and&#x20;transmit&#x20;the&#x20;information&#x20;of&#x20;interest&#x20;to&#x20;clinical&#x20;sites&#x20;New&#x20;applications&#x20;are&#x20;emerging&#x20;based&#x20;on&#x20;such&#x20;systems&#x20;towards&#x20;pervasive&#x20;healthcare&#x20;This&#x20;paper&#x20;describes&#x20;an&#x20;architecture&#x20;enabling&#x20;biosensors&#x20;forming&#x20;a&#x20;Body&#x20;Area&#x20;Network&#x20;BAN&#x20;to&#x20;be&#x20;integrated&#x20;in&#x20;a&#x20;Grid&#x20;infrastructure&#x20;The&#x20;Grid&#x20;services&#x20;proposed&#x20;such&#x20;as&#x20;access&#x20;to&#x20;recorded&#x20;data&#x20;are&#x20;offered&#x20;via&#x20;the&#x20;BAN&#x20;console&#x20;an&#x20;enhanced&#x20;wearable&#x20;computer&#x20;where&#x20;the&#x20;recordings&#x20;of&#x20;multiple&#x20;biosensors&#x20;are&#x20;integrated&#x20;Medical&#x20;Grid&#x20;enabled&#x20;Nodes&#x20;can&#x20;have&#x20;access&#x20;to&#x20;biosensor&#x20;measurements&#x20;upon&#x20;demand&#x20;or&#x20;can&#x20;agree&#x20;to&#x20;get&#x20;notifications&#x20;and&#x20;alerts&#x20;Thus&#x20;in&#x20;such&#x20;a&#x20;distributed&#x20;environment&#x20;data&#x20;and&#x20;computational&#x20;resources&#x20;are&#x20;independent&#x20;yet&#x20;cooperating&#x20;unobtrusively&#x20;contributing&#x20;to&#x20;the&#x20;notion&#x20;of&#x20;pervasive&#x20;healthcare</dcvalue>
+  <dcvalue element="description" qualifier="provenance" language="en">Made&#x20;available&#x20;in&#x20;DSpace&#x20;on&#x20;2020-02-12T11:30:13Z&#x20;(GMT).&#x20;No.&#x20;of&#x20;bitstreams:&#x20;0&#x0A;&#x20;&#x20;Previous&#x20;issue&#x20;date:&#x20;2005-05-30</dcvalue>
+  <dcvalue element="relation" qualifier="uri" language="">Studies&#x20;in&#x20;health&#x20;technology&#x20;and&#x20;informatics</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">Grid-enabled&#x20;biosensor&#x20;networks&#x20;for&#x20;pervasive&#x20;healthcare.</dcvalue>
+</dublin_core>

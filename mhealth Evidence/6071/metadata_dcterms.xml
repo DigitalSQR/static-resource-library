@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dcterms">
+  <dcvalue element="abstract" qualifier="none" language="">DNA&#x20;imaging&#x20;techniques&#x20;using&#x20;optical&#x20;microscopy&#x20;have&#x20;found&#x20;numerous&#x20;applications&#x20;in&#x20;biology&#x20;chemistry&#x20;and&#x20;physics&#x20;and&#x20;are&#x20;based&#x20;on&#x20;relatively&#x20;expensive&#x20;bulky&#x20;and&#x20;complicated&#x20;set&#x20;ups&#x20;that&#x20;limit&#x20;their&#x20;use&#x20;to&#x20;advanced&#x20;laboratory&#x20;settings&#x20;Here&#x20;we&#x20;demonstrate&#x20;imaging&#x20;and&#x20;length&#x20;quantification&#x20;of&#x20;single&#x20;molecule&#x20;DNA&#x20;strands&#x20;using&#x20;a&#x20;compact&#x20;lightweight&#x20;and&#x20;cost&#x20;effective&#x20;fluorescence&#x20;microscope&#x20;installed&#x20;on&#x20;a&#x20;mobile&#x20;phone&#x20;In&#x20;addition&#x20;to&#x20;an&#x20;optomechanical&#x20;attachment&#x20;that&#x20;creates&#x20;a&#x20;high&#x20;contrast&#x20;dark&#x20;field&#x20;imaging&#x20;setup&#x20;using&#x20;an&#x20;external&#x20;lens&#x20;thin&#x20;film&#x20;interference&#x20;filters&#x20;a&#x20;miniature&#x20;dovetail&#x20;stage&#x20;and&#x20;a&#x20;laser&#x20;diode&#x20;for&#x20;oblique&#x20;angle&#x20;excitation&#x20;we&#x20;also&#x20;created&#x20;a&#x20;computational&#x20;framework&#x20;and&#x20;a&#x20;mobile&#x20;phone&#x20;application&#x20;connected&#x20;to&#x20;a&#x20;server&#x20;back&#x20;end&#x20;for&#x20;measurement&#x20;of&#x20;the&#x20;lengths&#x20;of&#x20;individual&#x20;DNA&#x20;molecules&#x20;that&#x20;are&#x20;labeled&#x20;and&#x20;stretched&#x20;using&#x20;disposable&#x20;chips&#x20;Using&#x20;this&#x20;mobile&#x20;phone&#x20;platform&#x20;we&#x20;imaged&#x20;single&#x20;DNA&#x20;molecules&#x20;of&#x20;various&#x20;lengths&#x20;to&#x20;demonstrate&#x20;a&#x20;sizing&#x20;accuracy&#x20;of&#x20;Under1&#x20;kilobase&#x20;pairs&#x20;kbp&#x20;for&#x20;10&#x20;kbp&#x20;and&#x20;longer&#x20;DNA&#x20;samples&#x20;imaged&#x20;over&#x20;a&#x20;field&#x20;of&#x20;view&#x20;of&#x20;2&#x20;mm&#x20;2</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Wei,&#x20;Qingshan</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Luo,&#x20;Wei</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Chiang,&#x20;Samuel</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Kappel,&#x20;Tara</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Mejia,&#x20;Crystal</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Tseng,&#x20;Derek</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Chan,&#x20;Raymond&#x20;Yan&#x20;Lok</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Yan,&#x20;Eddie</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Qi,&#x20;Hangfei</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Shabbir,&#x20;Faizan</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Ozkan,&#x20;Haydar</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Feng,&#x20;Steve</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Ozcan,&#x20;Aydogan</dcvalue>
+  <dcvalue element="identifier" qualifier="none" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;10.1021&#x2F;nn505821y</dcvalue>
+  <dcvalue element="relation" qualifier="none" language="">ACS&#x20;nano</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">Imaging&#x20;and&#x20;sizing&#x20;of&#x20;single&#x20;DNA&#x20;molecules&#x20;on&#x20;a&#x20;mobile&#x20;phone.</dcvalue>
+</dublin_core>

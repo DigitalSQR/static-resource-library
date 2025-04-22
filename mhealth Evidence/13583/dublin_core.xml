@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dc">
+  <dcvalue element="contributor" qualifier="author" language="">Zerbe,&#x20;Norman</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Hufnagl,&#x20;Peter</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Schlüns,&#x20;Karsten</dcvalue>
+  <dcvalue element="date" qualifier="accessioned">2020-02-10T17:51:43Z</dcvalue>
+  <dcvalue element="date" qualifier="available">2020-02-10T17:51:43Z</dcvalue>
+  <dcvalue element="date" qualifier="issued" language="">2011-04-14</dcvalue>
+  <dcvalue element="identifier" qualifier="uri" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;10.1186&#x2F;1746-1596-6-S1-S16</dcvalue>
+  <dcvalue element="identifier" qualifier="uri">https:&#x2F;&#x2F;lib.digitalsquare.io&#x2F;xmlui&#x2F;handle&#x2F;123456789&#x2F;28070</dcvalue>
+  <dcvalue element="description" qualifier="abstract" language="">Automated&#x20;image&#x20;analysis&#x20;on&#x20;virtual&#x20;slides&#x20;is&#x20;evolving&#x20;rapidly&#x20;and&#x20;will&#x20;play&#x20;an&#x20;important&#x20;role&#x20;in&#x20;the&#x20;future&#x20;of&#x20;digital&#x20;pathology&#x20;Due&#x20;to&#x20;the&#x20;image&#x20;size&#x20;the&#x20;computational&#x20;cost&#x20;of&#x20;processing&#x20;whole&#x20;slide&#x20;images&#x20;WSIs&#x20;in&#x20;full&#x20;resolution&#x20;is&#x20;immense&#x20;Moreover&#x20;image&#x20;analysis&#x20;requires&#x20;well&#x20;focused&#x20;images&#x20;in&#x20;high&#x20;magnification</dcvalue>
+  <dcvalue element="description" qualifier="provenance" language="en">Made&#x20;available&#x20;in&#x20;DSpace&#x20;on&#x20;2020-02-10T17:51:43Z&#x20;(GMT).&#x20;No.&#x20;of&#x20;bitstreams:&#x20;0&#x0A;&#x20;&#x20;Previous&#x20;issue&#x20;date:&#x20;2011-04-14</dcvalue>
+  <dcvalue element="relation" qualifier="uri" language="">Diagnostic&#x20;pathology</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">Distributed&#x20;computing&#x20;in&#x20;image&#x20;analysis&#x20;using&#x20;open&#x20;source&#x20;frameworks&#x20;and&#x20;application&#x20;to&#x20;image&#x20;sharpness&#x20;assessment&#x20;of&#x20;histological&#x20;whole&#x20;slide&#x20;images.</dcvalue>
+</dublin_core>

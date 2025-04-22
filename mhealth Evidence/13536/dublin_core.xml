@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dc">
+  <dcvalue element="contributor" qualifier="author" language="">Schütze,&#x20;B</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Kroll,&#x20;M</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Geisbe,&#x20;T</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Braun,&#x20;M</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Filler,&#x20;T&#x20;J</dcvalue>
+  <dcvalue element="date" qualifier="accessioned">2020-02-12T11:40:19Z</dcvalue>
+  <dcvalue element="date" qualifier="available">2020-02-12T11:40:19Z</dcvalue>
+  <dcvalue element="date" qualifier="issued" language="">2003-09-23</dcvalue>
+  <dcvalue element="identifier" qualifier="uri" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;10.1007&#x2F;s00117-003-0922-7</dcvalue>
+  <dcvalue element="identifier" qualifier="uri">https:&#x2F;&#x2F;lib.digitalsquare.io&#x2F;xmlui&#x2F;handle&#x2F;123456789&#x2F;57889</dcvalue>
+  <dcvalue element="description" qualifier="abstract" language="">The&#x20;DICOM&#x20;standard&#x20;offers&#x20;the&#x20;possibilities&#x20;to&#x20;generate&#x20;electronic&#x20;signatures&#x20;valid&#x20;according&#x20;to&#x20;German&#x20;laws&#x20;This&#x20;enhances&#x20;the&#x20;reliability&#x20;of&#x20;the&#x20;correlation&#x20;between&#x20;image&#x20;and&#x20;patient&#x20;data&#x20;However&#x20;only&#x20;so&#x20;called&#x20;qualified&#x20;electronic&#x20;signatures&#x20;conveniently&#x20;issued&#x20;by&#x20;an&#x20;accredited&#x20;supplier&#x20;are&#x20;permissible&#x20;and&#x20;not&#x20;rejectable&#x20;as&#x20;evidence&#x20;in&#x20;German&#x20;jurisdiction&#x20;and&#x20;are&#x20;completely&#x20;equivalent&#x20;to&#x20;the&#x20;handwritten&#x20;signatures&#x20;These&#x20;qualified&#x20;electronic&#x20;signatures&#x20;can&#x20;be&#x20;executed&#x20;only&#x20;by&#x20;individuals&#x20;whereas&#x20;the&#x20;former&#x20;are&#x20;not&#x20;applicable&#x20;to&#x20;technical&#x20;apparatus&#x20;like&#x20;image&#x20;generating&#x20;modalities&#x20;In&#x20;consequence&#x20;a&#x20;modality&#x20;is&#x20;able&#x20;to&#x20;provide&#x20;its&#x20;pictures&#x20;with&#x20;a&#x20;common&#x20;or&#x20;advanced&#x20;signature&#x20;solely&#x20;This&#x20;limits&#x20;the&#x20;use&#x20;of&#x20;the&#x20;digital&#x20;signature&#x20;of&#x20;the&#x20;DICOM&#x20;standard&#x20;for&#x20;further&#x20;applications&#x20;e&#x20;g&#x20;the&#x20;verifiability&#x20;within&#x20;the&#x20;teleradiology</dcvalue>
+  <dcvalue element="description" qualifier="provenance" language="en">Made&#x20;available&#x20;in&#x20;DSpace&#x20;on&#x20;2020-02-12T11:40:19Z&#x20;(GMT).&#x20;No.&#x20;of&#x20;bitstreams:&#x20;0&#x0A;&#x20;&#x20;Previous&#x20;issue&#x20;date:&#x20;2003-09-23</dcvalue>
+  <dcvalue element="relation" qualifier="uri" language="">Der&#x20;Radiologe</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">[Does&#x20;the&#x20;digital&#x20;signature&#x20;of&#x20;the&#x20;DICOM&#x20;standard&#x20;meet&#x20;the&#x20;requirements&#x20;of&#x20;German&#x20;law?].</dcvalue>
+</dublin_core>

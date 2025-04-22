@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dc">
+  <dcvalue element="contributor" qualifier="author" language="">Schneider,&#x20;Christian&#x20;M</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Belik,&#x20;Vitaly</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Couronné,&#x20;Thomas</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Smoreda,&#x20;Zbigniew</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">González,&#x20;Marta&#x20;C</dcvalue>
+  <dcvalue element="date" qualifier="accessioned">2020-02-06T17:28:23Z</dcvalue>
+  <dcvalue element="date" qualifier="available">2020-02-06T17:28:23Z</dcvalue>
+  <dcvalue element="date" qualifier="issued" language="">2013-05-09</dcvalue>
+  <dcvalue element="identifier" qualifier="uri" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;10.1098&#x2F;rsif.2013.0246</dcvalue>
+  <dcvalue element="identifier" qualifier="uri">https:&#x2F;&#x2F;lib.digitalsquare.io&#x2F;xmlui&#x2F;handle&#x2F;123456789&#x2F;5175</dcvalue>
+  <dcvalue element="description" qualifier="abstract" language="">Human&#x20;mobility&#x20;is&#x20;differentiated&#x20;by&#x20;time&#x20;scales&#x20;While&#x20;the&#x20;mechanism&#x20;for&#x20;long&#x20;time&#x20;scales&#x20;has&#x20;been&#x20;studied&#x20;the&#x20;underlying&#x20;mechanism&#x20;on&#x20;the&#x20;daily&#x20;scale&#x20;is&#x20;still&#x20;unrevealed&#x20;Here&#x20;we&#x20;uncover&#x20;the&#x20;mechanism&#x20;responsible&#x20;for&#x20;the&#x20;daily&#x20;mobility&#x20;patterns&#x20;by&#x20;analysing&#x20;the&#x20;temporal&#x20;and&#x20;spatial&#x20;trajectories&#x20;of&#x20;thousands&#x20;of&#x20;persons&#x20;as&#x20;individual&#x20;networks&#x20;Using&#x20;the&#x20;concept&#x20;of&#x20;motifs&#x20;from&#x20;network&#x20;theory&#x20;we&#x20;find&#x20;only&#x20;17&#x20;unique&#x20;networks&#x20;are&#x20;present&#x20;in&#x20;daily&#x20;mobility&#x20;and&#x20;they&#x20;follow&#x20;simple&#x20;rules&#x20;These&#x20;networks&#x20;called&#x20;here&#x20;motifs&#x20;are&#x20;sufficient&#x20;to&#x20;capture&#x20;up&#x20;to&#x20;90&#x20;per&#x20;cent&#x20;of&#x20;the&#x20;population&#x20;in&#x20;surveys&#x20;and&#x20;mobile&#x20;phone&#x20;datasets&#x20;for&#x20;different&#x20;countries&#x20;Each&#x20;individual&#x20;exhibits&#x20;a&#x20;characteristic&#x20;motif&#x20;which&#x20;seems&#x20;to&#x20;be&#x20;stable&#x20;over&#x20;several&#x20;months&#x20;Consequently&#x20;daily&#x20;human&#x20;mobility&#x20;can&#x20;be&#x20;reproduced&#x20;by&#x20;an&#x20;analytically&#x20;tractable&#x20;framework&#x20;for&#x20;Markov&#x20;chains&#x20;by&#x20;modelling&#x20;periods&#x20;of&#x20;high&#x20;frequency&#x20;trips&#x20;followed&#x20;by&#x20;periods&#x20;of&#x20;lower&#x20;activity&#x20;as&#x20;the&#x20;key&#x20;ingredient</dcvalue>
+  <dcvalue element="description" qualifier="provenance" language="en">Made&#x20;available&#x20;in&#x20;DSpace&#x20;on&#x20;2020-02-06T17:28:23Z&#x20;(GMT).&#x20;No.&#x20;of&#x20;bitstreams:&#x20;0&#x0A;&#x20;&#x20;Previous&#x20;issue&#x20;date:&#x20;2013-05-09</dcvalue>
+  <dcvalue element="relation" qualifier="uri" language="">Journal&#x20;of&#x20;the&#x20;Royal&#x20;Society,&#x20;Interface&#x20;&#x2F;&#x20;the&#x20;Royal&#x20;Society</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">Unravelling&#x20;daily&#x20;human&#x20;mobility&#x20;motifs.</dcvalue>
+</dublin_core>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dc">
+  <dcvalue element="contributor" qualifier="author" language="">Kopecký,&#x20;Rudolf</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Hamnerius,&#x20;Yngve</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Persson,&#x20;Mikael</dcvalue>
+  <dcvalue element="date" qualifier="accessioned">2020-02-07T13:30:00Z</dcvalue>
+  <dcvalue element="date" qualifier="available">2020-02-07T13:30:00Z</dcvalue>
+  <dcvalue element="date" qualifier="issued" language="">2005-08-29</dcvalue>
+  <dcvalue element="identifier" qualifier="uri" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;10.1002&#x2F;bem.20160</dcvalue>
+  <dcvalue element="identifier" qualifier="uri">https:&#x2F;&#x2F;lib.digitalsquare.io&#x2F;xmlui&#x2F;handle&#x2F;123456789&#x2F;14419</dcvalue>
+  <dcvalue element="description" qualifier="abstract" language="">A&#x20;3D&#x20;subgridding&#x20;technique&#x20;is&#x20;used&#x20;to&#x20;model&#x20;the&#x20;specific&#x20;absorption&#x20;rate&#x20;SAR&#x20;distribution&#x20;in&#x20;the&#x20;isolated&#x20;cochlea&#x20;exposed&#x20;to&#x20;mobile&#x20;phone&#x20;radiation&#x20;at&#x20;1750&#x20;MHz&#x20;using&#x20;the&#x20;FDTD&#x20;method&#x20;The&#x20;cochlea&#x20;is&#x20;modeled&#x20;using&#x20;an&#x20;increasing&#x20;spatial&#x20;resolutions&#x20;of&#x20;1&#x20;1&#x20;3&#x20;1&#x20;5&#x20;and&#x20;1&#x20;7&#x20;mm&#x20;First&#x20;simulations&#x20;were&#x20;performed&#x20;at&#x20;1&#x20;mm&#x20;spatial&#x20;resolution&#x20;The&#x20;numerical&#x20;resolution&#x20;was&#x20;then&#x20;increased&#x20;to&#x20;1&#x20;3&#x20;1&#x20;5&#x20;and&#x20;1&#x20;7&#x20;using&#x20;subgridding&#x20;without&#x20;changing&#x20;the&#x20;spatial&#x20;resolution&#x20;A&#x20;second&#x20;set&#x20;of&#x20;simulations&#x20;was&#x20;then&#x20;performed&#x20;when&#x20;both&#x20;the&#x20;spatial&#x20;and&#x20;numerical&#x20;resolution&#x20;were&#x20;increased&#x20;together&#x20;From&#x20;the&#x20;obtained&#x20;results&#x20;we&#x20;conclude&#x20;that&#x20;subgridding&#x20;is&#x20;important&#x20;only&#x20;when&#x20;both&#x20;the&#x20;numerical&#x20;resolution&#x20;of&#x20;the&#x20;computational&#x20;grid&#x20;and&#x20;the&#x20;spatial&#x20;resolution&#x20;of&#x20;the&#x20;model&#x20;are&#x20;increased&#x20;together</dcvalue>
+  <dcvalue element="description" qualifier="provenance" language="en">Made&#x20;available&#x20;in&#x20;DSpace&#x20;on&#x20;2020-02-07T13:30:00Z&#x20;(GMT).&#x20;No.&#x20;of&#x20;bitstreams:&#x20;0&#x0A;&#x20;&#x20;Previous&#x20;issue&#x20;date:&#x20;2005-08-29</dcvalue>
+  <dcvalue element="relation" qualifier="uri" language="">Bioelectromagnetics</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">Study&#x20;of&#x20;subgridding&#x20;in&#x20;SAR&#x20;computation&#x20;for&#x20;the&#x20;cochlea.</dcvalue>
+</dublin_core>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dcterms">
+  <dcvalue element="abstract" qualifier="none" language="">Congestive&#x20;Heart&#x20;Failure&#x20;CHF&#x20;is&#x20;a&#x20;common&#x20;chronic&#x20;heart&#x20;disease&#x20;with&#x20;high&#x20;socioeconomic&#x20;impact&#x20;Conventional&#x20;treatment&#x20;of&#x20;CHF&#x20;is&#x20;often&#x20;ineffective&#x20;and&#x20;inefficient&#x20;since&#x20;self&#x20;management&#x20;is&#x20;complex&#x20;and&#x20;patients&#x20;are&#x20;insufficiently&#x20;involved&#x20;in&#x20;therapy&#x20;management&#x20;With&#x20;telemedical&#x20;concepts&#x20;continuous&#x20;monitoring&#x20;of&#x20;the&#x20;health&#x20;status&#x20;can&#x20;be&#x20;ensured&#x20;and&#x20;consequently&#x20;therapy&#x20;management&#x20;can&#x20;be&#x20;adapted&#x20;to&#x20;the&#x20;individual&#x20;requirements&#x20;of&#x20;every&#x20;individual&#x20;patient&#x20;Therefore&#x20;a&#x20;mobile&#x20;phone&#x20;based&#x20;patient&#x20;terminal&#x20;for&#x20;the&#x20;concurrent&#x20;acquisition&#x20;of&#x20;biosignals&#x20;e&#x20;g&#x20;ECG&#x20;and&#x20;bioparameters&#x20;e&#x20;g&#x20;blood&#x20;pressure&#x20;for&#x20;patients&#x20;with&#x20;CHF&#x20;has&#x20;been&#x20;developed&#x20;and&#x20;prototypically&#x20;implemented&#x20;Usability&#x20;and&#x20;interoperability&#x20;aspects&#x20;were&#x20;especially&#x20;considered&#x20;by&#x20;using&#x20;Bluetooth&#x20;and&#x20;Near&#x20;Field&#x20;Communication&#x20;NFC&#x20;technology&#x20;for&#x20;data&#x20;acquisition&#x20;and&#x20;standardized&#x20;data&#x20;formats&#x20;for&#x20;transmission&#x20;of&#x20;the&#x20;data&#x20;to&#x20;a&#x20;central&#x20;monitoring&#x20;centre&#x20;Results&#x20;indicated&#x20;that&#x20;even&#x20;complicated&#x20;measurements&#x20;like&#x20;the&#x20;acquisition&#x20;of&#x20;ECG&#x20;signals&#x20;could&#x20;be&#x20;accomplished&#x20;autonomously&#x20;by&#x20;the&#x20;patients&#x20;in&#x20;an&#x20;intuitive&#x20;and&#x20;easy&#x20;to&#x20;use&#x20;way&#x20;Through&#x20;the&#x20;usage&#x20;of&#x20;IHE&#x20;conform&#x20;HL7&#x20;messages&#x20;self&#x20;measured&#x20;data&#x20;could&#x20;easily&#x20;be&#x20;integrated&#x20;into&#x20;a&#x20;higher&#x20;ranking&#x20;eHealth&#x20;infrastructure</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Kumpusch,&#x20;Hannes</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Hayn,&#x20;Dieter</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Kreiner,&#x20;Karl</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Falgenhauer,&#x20;Markus</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Mor,&#x20;Jürgen</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Schreier,&#x20;Günter</dcvalue>
+  <dcvalue element="identifier" qualifier="none" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;Not&#x20;available</dcvalue>
+  <dcvalue element="relation" qualifier="none" language="">Studies&#x20;in&#x20;health&#x20;technology&#x20;and&#x20;informatics</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Delayed&#x20;reporting&#x20;of&#x20;events</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Access&#x20;to&#x20;information&#x20;or&#x20;data</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Unnecessary&#x20;referrals&#x20;and&#x20;transportation</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Prototype</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Usability</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Cardiovascular&#x20;disease</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Chronic&#x20;care</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Remote&#x20;client-to-provider&#x20;consultations&#x20;(Telemedicine)</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Disease&#x20;management</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Data&#x20;collection&#x20;and&#x20;reporting</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Bluetooth</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">RF&#x2F;NFC</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Physiologic&#x20;Biosensors</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Digital&#x20;form</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">A&#x20;mobile&#x20;phone&#x20;based&#x20;telemonitoring&#x20;concept&#x20;for&#x20;the&#x20;simultaneous&#x20;acquisition&#x20;of&#x20;biosignals&#x20;physiological&#x20;parameters.</dcvalue>
+</dublin_core>

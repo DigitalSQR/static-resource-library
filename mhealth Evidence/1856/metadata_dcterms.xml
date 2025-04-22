@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dcterms">
+  <dcvalue element="abstract" qualifier="none" language="">This&#x20;paper&#x20;proposes&#x20;a&#x20;method&#x20;to&#x20;estimate&#x20;a&#x20;woman&#x20;s&#x20;menstrual&#x20;cycle&#x20;based&#x20;on&#x20;the&#x20;hidden&#x20;Markov&#x20;model&#x20;HMM&#x20;A&#x20;tiny&#x20;device&#x20;was&#x20;developed&#x20;that&#x20;attaches&#x20;around&#x20;the&#x20;abdominal&#x20;region&#x20;to&#x20;measure&#x20;cutaneous&#x20;temperature&#x20;at&#x20;10&#x20;min&#x20;intervals&#x20;during&#x20;sleep&#x20;The&#x20;measured&#x20;temperature&#x20;data&#x20;were&#x20;encoded&#x20;as&#x20;a&#x20;two&#x20;dimensional&#x20;image&#x20;QR&#x20;code&#x20;i&#x20;e&#x20;quick&#x20;response&#x20;code&#x20;and&#x20;displayed&#x20;in&#x20;the&#x20;LCD&#x20;window&#x20;of&#x20;the&#x20;device&#x20;A&#x20;mobile&#x20;phone&#x20;captured&#x20;the&#x20;QR&#x20;code&#x20;image&#x20;decoded&#x20;the&#x20;information&#x20;and&#x20;transmitted&#x20;the&#x20;data&#x20;to&#x20;a&#x20;database&#x20;server&#x20;The&#x20;collected&#x20;data&#x20;were&#x20;analyzed&#x20;by&#x20;three&#x20;steps&#x20;to&#x20;estimate&#x20;the&#x20;biphasic&#x20;temperature&#x20;property&#x20;in&#x20;a&#x20;menstrual&#x20;cycle&#x20;The&#x20;key&#x20;step&#x20;was&#x20;an&#x20;HMM&#x20;based&#x20;step&#x20;between&#x20;preprocessing&#x20;and&#x20;postprocessing&#x20;A&#x20;discrete&#x20;Markov&#x20;model&#x20;with&#x20;two&#x20;hidden&#x20;phases&#x20;was&#x20;assumed&#x20;to&#x20;represent&#x20;higher&#x20;and&#x20;lower&#x20;temperature&#x20;phases&#x20;during&#x20;a&#x20;menstrual&#x20;cycle&#x20;The&#x20;proposed&#x20;method&#x20;was&#x20;verified&#x20;by&#x20;the&#x20;data&#x20;collected&#x20;from&#x20;30&#x20;female&#x20;participants&#x20;aged&#x20;from&#x20;14&#x20;to&#x20;46&#x20;over&#x20;six&#x20;consecutive&#x20;months&#x20;By&#x20;comparing&#x20;the&#x20;estimated&#x20;results&#x20;with&#x20;individual&#x20;records&#x20;from&#x20;the&#x20;participants&#x20;71&#x20;6&#x20;of&#x20;190&#x20;menstrual&#x20;cycles&#x20;were&#x20;correctly&#x20;estimated&#x20;The&#x20;sensitivity&#x20;and&#x20;positive&#x20;predictability&#x20;were&#x20;91&#x20;8&#x20;and&#x20;96&#x20;6&#x20;respectively&#x20;This&#x20;objective&#x20;evaluation&#x20;provides&#x20;a&#x20;promising&#x20;approach&#x20;for&#x20;managing&#x20;premenstrual&#x20;syndrome&#x20;and&#x20;birth&#x20;control</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Chen,&#x20;Wenxi</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Kitazawa,&#x20;Masumi</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Togawa,&#x20;Tatsuo</dcvalue>
+  <dcvalue element="identifier" qualifier="none" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;10.1007&#x2F;s10439-009-9746-6</dcvalue>
+  <dcvalue element="relation" qualifier="none" language="">Annals&#x20;of&#x20;biomedical&#x20;engineering</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Women&#x20;(only)</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Client</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Access&#x20;to&#x20;information&#x20;or&#x20;data</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Planning&#x20;and&#x20;coordination</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Pilot</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Effectiveness</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Family&#x20;planning&#x20;and&#x20;reproductive&#x20;health</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Maternal&#x20;health</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Data&#x20;collection&#x20;and&#x20;reporting</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Surveillance</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Image</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Raw&#x20;data</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Physiologic&#x20;Biosensors</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">Estimation&#x20;of&#x20;the&#x20;biphasic&#x20;property&#x20;in&#x20;a&#x20;female&#39;s&#x20;menstrual&#x20;cycle&#x20;from&#x20;cutaneous&#x20;temperature&#x20;measured&#x20;during&#x20;sleep.</dcvalue>
+</dublin_core>

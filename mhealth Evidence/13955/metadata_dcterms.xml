@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dcterms">
+  <dcvalue element="abstract" qualifier="none" language="">If&#x20;Electronic&#x20;Health&#x20;Records&#x20;contain&#x20;a&#x20;large&#x20;amount&#x20;of&#x20;information&#x20;about&#x20;the&#x20;patient&#x20;s&#x20;condition&#x20;and&#x20;response&#x20;to&#x20;treatment&#x20;which&#x20;can&#x20;potentially&#x20;revolutionize&#x20;the&#x20;clinical&#x20;practice&#x20;such&#x20;information&#x20;is&#x20;seldom&#x20;considered&#x20;due&#x20;to&#x20;the&#x20;complexity&#x20;of&#x20;its&#x20;extraction&#x20;and&#x20;analysis&#x20;We&#x20;here&#x20;report&#x20;on&#x20;a&#x20;first&#x20;integration&#x20;of&#x20;an&#x20;NLP&#x20;framework&#x20;for&#x20;the&#x20;analysis&#x20;of&#x20;clinical&#x20;records&#x20;of&#x20;lung&#x20;cancer&#x20;patients&#x20;making&#x20;use&#x20;of&#x20;a&#x20;telephone&#x20;assistance&#x20;service&#x20;of&#x20;a&#x20;major&#x20;Spanish&#x20;hospital&#x20;We&#x20;specifically&#x20;show&#x20;how&#x20;some&#x20;relevant&#x20;data&#x20;about&#x20;patient&#x20;demographics&#x20;and&#x20;health&#x20;condition&#x20;can&#x20;be&#x20;extracted&#x20;and&#x20;how&#x20;some&#x20;relevant&#x20;analyses&#x20;can&#x20;be&#x20;performed&#x20;aimed&#x20;at&#x20;improving&#x20;the&#x20;usefulness&#x20;of&#x20;the&#x20;service&#x20;We&#x20;thus&#x20;demonstrate&#x20;that&#x20;the&#x20;use&#x20;of&#x20;EHR&#x20;texts&#x20;and&#x20;their&#x20;integration&#x20;inside&#x20;a&#x20;data&#x20;analysis&#x20;framework&#x20;is&#x20;technically&#x20;feasible&#x20;and&#x20;worth&#x20;of&#x20;further&#x20;study</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Menasalvas&#x20;Ruiz,&#x20;Ernestina</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Tuñas,&#x20;Juan&#x20;Manuel</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Bermejo,&#x20;Guzmán</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Gonzalo&#x20;Martín,&#x20;Consuelo</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Rodríguez-González,&#x20;Alejandro</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Zanin,&#x20;Massimiliano</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">González&#x20;de&#x20;Pedro,&#x20;Cristina</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Méndez,&#x20;Marta</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Zaretskaia,&#x20;Olga</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Rey,&#x20;Jesús</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Parejo,&#x20;Consuelo</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Cruz&#x20;Bermudez,&#x20;Juan&#x20;Luis</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Provencio,&#x20;Mariano</dcvalue>
+  <dcvalue element="identifier" qualifier="none" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;10.1007&#x2F;s10916-018-0975-9</dcvalue>
+  <dcvalue element="relation" qualifier="none" language="">Journal&#x20;of&#x20;medical&#x20;systems</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">Profiling&#x20;Lung&#x20;Cancer&#x20;Patients&#x20;Using&#x20;Electronic&#x20;Health&#x20;Records.</dcvalue>
+</dublin_core>

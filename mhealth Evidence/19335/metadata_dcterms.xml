@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dcterms">
+  <dcvalue element="abstract" qualifier="none" language="">A&#x20;telemedicine&#x20;system&#x20;model&#x20;based&#x20;on&#x20;a&#x20;message&#x20;trigger&#x20;service&#x20;is&#x20;described&#x20;This&#x20;model&#x20;distributes&#x20;system&#x20;applications&#x20;on&#x20;multiple&#x20;computers&#x20;and&#x20;establishes&#x20;a&#x20;communication&#x20;platform&#x20;to&#x20;exchange&#x20;messages&#x20;among&#x20;all&#x20;applications&#x20;By&#x20;broadcasting&#x20;event&#x20;messages&#x20;an&#x20;application&#x20;is&#x20;able&#x20;to&#x20;trigger&#x20;a&#x20;set&#x20;of&#x20;local&#x20;and&#x20;remote&#x20;services&#x20;At&#x20;the&#x20;same&#x20;time&#x20;a&#x20;protocol&#x20;for&#x20;message&#x20;exchange&#x20;is&#x20;proposed&#x20;to&#x20;fulfill&#x20;cooperation&#x20;of&#x20;applications&#x20;To&#x20;validate&#x20;the&#x20;model&#x20;a&#x20;teleconsultation&#x20;system&#x20;is&#x20;designed&#x20;The&#x20;results&#x20;indicate&#x20;that&#x20;the&#x20;model&#x20;has&#x20;good&#x20;compatibility&#x20;and&#x20;that&#x20;the&#x20;characteristics&#x20;are&#x20;easy&#x20;to&#x20;implement</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Hu,&#x20;B</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Bai,&#x20;J</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Ye,&#x20;D</dcvalue>
+  <dcvalue element="identifier" qualifier="none" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;Not&#x20;available</dcvalue>
+  <dcvalue element="relation" qualifier="none" language="">Methods&#x20;of&#x20;information&#x20;in&#x20;medicine</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">A&#x20;telemedicine&#x20;management&#x20;model&#x20;based&#x20;on&#x20;message-trigger&#x20;service.</dcvalue>
+</dublin_core>

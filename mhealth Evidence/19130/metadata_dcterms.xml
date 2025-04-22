@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dcterms">
+  <dcvalue element="abstract" qualifier="none" language="">The&#x20;DICOM&#x20;standard&#x20;defines&#x20;in&#x20;detail&#x20;how&#x20;medical&#x20;images&#x20;can&#x20;be&#x20;communicated&#x20;However&#x20;the&#x20;rules&#x20;on&#x20;how&#x20;to&#x20;interpret&#x20;the&#x20;parameters&#x20;contained&#x20;in&#x20;a&#x20;DICOM&#x20;image&#x20;which&#x20;deal&#x20;with&#x20;the&#x20;image&#x20;presentation&#x20;were&#x20;either&#x20;lacking&#x20;or&#x20;not&#x20;well&#x20;defined&#x20;As&#x20;a&#x20;result&#x20;the&#x20;same&#x20;image&#x20;frequently&#x20;looks&#x20;different&#x20;when&#x20;displayed&#x20;on&#x20;different&#x20;workstations&#x20;or&#x20;printed&#x20;on&#x20;a&#x20;film&#x20;from&#x20;various&#x20;printers&#x20;Three&#x20;new&#x20;DICOM&#x20;extensions&#x20;attempt&#x20;to&#x20;close&#x20;this&#x20;gap&#x20;by&#x20;defining&#x20;a&#x20;comprehensive&#x20;model&#x20;for&#x20;the&#x20;display&#x20;of&#x20;images&#x20;on&#x20;softcopy&#x20;and&#x20;hardcopy&#x20;devices&#x20;Grayscale&#x20;Standard&#x20;Display&#x20;Function&#x20;Grayscale&#x20;Softcopy&#x20;Presentation&#x20;State&#x20;and&#x20;Presentation&#x20;Look&#x20;Up&#x20;Table</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Eichelberg,&#x20;M</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Riesmeier,&#x20;J</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Kleber,&#x20;K</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Grönemeyer,&#x20;D&#x20;H</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Oosterwijk,&#x20;H</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Jensch,&#x20;P</dcvalue>
+  <dcvalue element="identifier" qualifier="none" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;Not&#x20;available</dcvalue>
+  <dcvalue element="relation" qualifier="none" language="">Studies&#x20;in&#x20;health&#x20;technology&#x20;and&#x20;informatics</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">New&#x20;DICOM&#x20;extensions&#x20;for&#x20;softcopy&#x20;and&#x20;hardcopy&#x20;display&#x20;consistency.</dcvalue>
+</dublin_core>

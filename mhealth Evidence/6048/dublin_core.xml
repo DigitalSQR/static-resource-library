@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dc">
+  <dcvalue element="contributor" qualifier="author" language="">Akram,&#x20;Faraz</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Han,&#x20;Seung&#x20;Moo</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Kim,&#x20;Tae-Seong</dcvalue>
+  <dcvalue element="date" qualifier="accessioned">2020-02-07T13:31:22Z</dcvalue>
+  <dcvalue element="date" qualifier="available">2020-02-07T13:31:22Z</dcvalue>
+  <dcvalue element="date" qualifier="issued" language="">2014-12-22</dcvalue>
+  <dcvalue element="identifier" qualifier="uri" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;10.1016&#x2F;j.compbiomed.2014.10.021</dcvalue>
+  <dcvalue element="identifier" qualifier="uri">https:&#x2F;&#x2F;lib.digitalsquare.io&#x2F;xmlui&#x2F;handle&#x2F;123456789&#x2F;14585</dcvalue>
+  <dcvalue element="description" qualifier="abstract" language="">A&#x20;typical&#x20;P300&#x20;based&#x20;spelling&#x20;brain&#x20;computer&#x20;interface&#x20;BCI&#x20;system&#x20;types&#x20;a&#x20;single&#x20;character&#x20;with&#x20;a&#x20;character&#x20;presentation&#x20;paradigm&#x20;and&#x20;a&#x20;P300&#x20;classification&#x20;system&#x20;Lately&#x20;a&#x20;few&#x20;attempts&#x20;have&#x20;been&#x20;made&#x20;to&#x20;type&#x20;a&#x20;whole&#x20;word&#x20;with&#x20;the&#x20;help&#x20;of&#x20;a&#x20;smart&#x20;dictionary&#x20;that&#x20;suggests&#x20;some&#x20;candidate&#x20;words&#x20;with&#x20;the&#x20;input&#x20;of&#x20;a&#x20;few&#x20;initial&#x20;characters</dcvalue>
+  <dcvalue element="description" qualifier="provenance" language="en">Made&#x20;available&#x20;in&#x20;DSpace&#x20;on&#x20;2020-02-07T13:31:22Z&#x20;(GMT).&#x20;No.&#x20;of&#x20;bitstreams:&#x20;0&#x0A;&#x20;&#x20;Previous&#x20;issue&#x20;date:&#x20;2014-12-22</dcvalue>
+  <dcvalue element="relation" qualifier="uri" language="">Computers&#x20;in&#x20;biology&#x20;and&#x20;medicine</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">An&#x20;efficient&#x20;word&#x20;typing&#x20;P300-BCI&#x20;system&#x20;using&#x20;a&#x20;modified&#x20;T9&#x20;interface&#x20;and&#x20;random&#x20;forest&#x20;classifier.</dcvalue>
+</dublin_core>

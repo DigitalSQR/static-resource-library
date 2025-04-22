@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dc">
+  <dcvalue element="contributor" qualifier="author" language="">Zankl,&#x20;Andreas</dcvalue>
+  <dcvalue element="date" qualifier="accessioned">2020-02-06T16:02:06Z</dcvalue>
+  <dcvalue element="date" qualifier="available">2020-02-06T16:02:06Z</dcvalue>
+  <dcvalue element="date" qualifier="issued" language="">2004-09-02</dcvalue>
+  <dcvalue element="identifier" qualifier="uri" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;10.1542&#x2F;peds.2004-0045</dcvalue>
+  <dcvalue element="identifier" qualifier="uri">https:&#x2F;&#x2F;lib.digitalsquare.io&#x2F;xmlui&#x2F;handle&#x2F;123456789&#x2F;1974</dcvalue>
+  <dcvalue element="description" qualifier="abstract" language="">OBJECTIVE&#x20;Although&#x20;anthropometry&#x20;is&#x20;widely&#x20;regarded&#x20;as&#x20;the&#x20;technique&#x20;of&#x20;choice&#x20;for&#x20;the&#x20;evaluation&#x20;of&#x20;dysmorphic&#x20;features&#x20;among&#x20;children&#x20;it&#x20;is&#x20;only&#x20;rarely&#x20;used&#x20;in&#x20;clinical&#x20;practice&#x20;Possible&#x20;reasons&#x20;for&#x20;this&#x20;are&#x20;the&#x20;limited&#x20;access&#x20;of&#x20;pediatricians&#x20;to&#x20;appropriate&#x20;reference&#x20;values&#x20;and&#x20;the&#x20;time&#x20;consuming&#x20;way&#x20;measurements&#x20;must&#x20;be&#x20;plotted&#x20;onto&#x20;growth&#x20;charts&#x20;This&#x20;article&#x20;describes&#x20;a&#x20;computer&#x20;program&#x20;that&#x20;overcomes&#x20;these&#x20;problems&#x20;and&#x20;greatly&#x20;facilitates&#x20;the&#x20;use&#x20;of&#x20;anthropometric&#x20;measurements&#x20;in&#x20;pediatric&#x20;medicine&#x20;DESIGN&#x20;A&#x20;computer&#x20;program&#x20;for&#x20;PalmOS&#x20;based&#x20;handheld&#x20;computers&#x20;that&#x20;compares&#x20;entered&#x20;anthropometric&#x20;measurements&#x20;with&#x20;age&#x20;and&#x20;gender&#x20;matched&#x20;reference&#x20;values&#x20;was&#x20;developed&#x20;The&#x20;software&#x20;is&#x20;distributed&#x20;free&#x20;of&#x20;charge&#x20;and&#x20;can&#x20;be&#x20;downloaded&#x20;www&#x20;medgen&#x20;unizh&#x20;ch&#x20;abase&#x20;RESULTS&#x20;The&#x20;ABase&#x20;software&#x20;contains&#x20;age&#x20;and&#x20;gender&#x20;matched&#x20;reference&#x20;values&#x20;for&#x20;18&#x20;anthropometric&#x20;measures&#x20;frequently&#x20;used&#x20;for&#x20;the&#x20;evaluation&#x20;of&#x20;dysmorphic&#x20;children&#x20;The&#x20;proband&#x20;s&#x20;age&#x20;is&#x20;automatically&#x20;calculated&#x20;from&#x20;the&#x20;entered&#x20;birth&#x20;date&#x20;and&#x20;can&#x20;be&#x20;corrected&#x20;for&#x20;prematurity&#x20;Entered&#x20;measurements&#x20;are&#x20;compared&#x20;with&#x20;the&#x20;internal&#x20;reference&#x20;values&#x20;the&#x20;results&#x20;are&#x20;displayed&#x20;as&#x20;percentile&#x20;ranks&#x20;or&#x20;z&#x20;scores&#x20;and&#x20;are&#x20;plotted&#x20;on&#x20;digital&#x20;growth&#x20;charts&#x20;CONCLUSIONS&#x20;The&#x20;presented&#x20;software&#x20;makes&#x20;anthropometric&#x20;reference&#x20;values&#x20;easily&#x20;accessible&#x20;on&#x20;the&#x20;ward&#x20;or&#x20;in&#x20;the&#x20;clinic&#x20;and&#x20;greatly&#x20;reduces&#x20;the&#x20;time&#x20;needed&#x20;to&#x20;plot&#x20;the&#x20;measurements&#x20;onto&#x20;growth&#x20;charts&#x20;This&#x20;should&#x20;promote&#x20;more&#x20;widespread&#x20;use&#x20;of&#x20;anthropometry&#x20;in&#x20;pediatric&#x20;medicine</dcvalue>
+  <dcvalue element="description" qualifier="provenance" language="en">Made&#x20;available&#x20;in&#x20;DSpace&#x20;on&#x20;2020-02-06T16:02:06Z&#x20;(GMT).&#x20;No.&#x20;of&#x20;bitstreams:&#x20;0&#x0A;&#x20;&#x20;Previous&#x20;issue&#x20;date:&#x20;2004-09-02</dcvalue>
+  <dcvalue element="relation" qualifier="uri" language="">Pediatrics</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Child</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Facility-based&#x20;health&#x20;worker</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Quality&#x2F;unreliability&#x20;of&#x20;data</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Access&#x20;to&#x20;information&#x20;or&#x20;data</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Prototype</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Usability</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Growth&#x20;and&#x20;development</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Preventive</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Registries&#x2F;vital&#x20;events&#x20;tracking</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Surveillance</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Biometric&#x20;identifiers</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">Computer-aided&#x20;anthropometry&#x20;in&#x20;the&#x20;evaluation&#x20;of&#x20;dysmorphic&#x20;children.</dcvalue>
+</dublin_core>

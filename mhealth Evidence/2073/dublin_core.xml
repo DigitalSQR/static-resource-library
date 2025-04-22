@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dc">
+  <dcvalue element="contributor" qualifier="author" language="">Tibély,&#x20;Gergely</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Kovanen,&#x20;Lauri</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Karsai,&#x20;Márton</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Kaski,&#x20;Kimmo</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Kertész,&#x20;Janos</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Saramäki,&#x20;Jari</dcvalue>
+  <dcvalue element="date" qualifier="accessioned">2020-02-06T17:44:05Z</dcvalue>
+  <dcvalue element="date" qualifier="available">2020-02-06T17:44:05Z</dcvalue>
+  <dcvalue element="date" qualifier="issued" language="">2011-07-06</dcvalue>
+  <dcvalue element="identifier" qualifier="uri" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;10.1103&#x2F;PhysRevE.83.056125</dcvalue>
+  <dcvalue element="identifier" qualifier="uri">https:&#x2F;&#x2F;lib.digitalsquare.io&#x2F;xmlui&#x2F;handle&#x2F;123456789&#x2F;5534</dcvalue>
+  <dcvalue element="description" qualifier="abstract" language="">Community&#x20;detection&#x20;methods&#x20;have&#x20;so&#x20;far&#x20;been&#x20;tested&#x20;mostly&#x20;on&#x20;small&#x20;empirical&#x20;networks&#x20;and&#x20;on&#x20;synthetic&#x20;benchmarks&#x20;Much&#x20;less&#x20;is&#x20;known&#x20;about&#x20;their&#x20;performance&#x20;on&#x20;large&#x20;real&#x20;world&#x20;networks&#x20;which&#x20;nonetheless&#x20;are&#x20;a&#x20;significant&#x20;target&#x20;for&#x20;application&#x20;We&#x20;analyze&#x20;the&#x20;performance&#x20;of&#x20;three&#x20;state&#x20;of&#x20;the&#x20;art&#x20;community&#x20;detection&#x20;methods&#x20;by&#x20;using&#x20;them&#x20;to&#x20;identify&#x20;communities&#x20;in&#x20;a&#x20;large&#x20;social&#x20;network&#x20;constructed&#x20;from&#x20;mobile&#x20;phone&#x20;call&#x20;records&#x20;We&#x20;find&#x20;that&#x20;all&#x20;methods&#x20;detect&#x20;communities&#x20;that&#x20;are&#x20;meaningful&#x20;in&#x20;some&#x20;respects&#x20;but&#x20;fall&#x20;short&#x20;in&#x20;others&#x20;and&#x20;that&#x20;there&#x20;often&#x20;is&#x20;a&#x20;hierarchical&#x20;relationship&#x20;between&#x20;communities&#x20;detected&#x20;by&#x20;different&#x20;methods&#x20;Our&#x20;results&#x20;suggest&#x20;that&#x20;community&#x20;detection&#x20;methods&#x20;could&#x20;be&#x20;useful&#x20;in&#x20;studying&#x20;the&#x20;general&#x20;mesoscale&#x20;structure&#x20;of&#x20;networks&#x20;as&#x20;opposed&#x20;to&#x20;only&#x20;trying&#x20;to&#x20;identify&#x20;dense&#x20;structures</dcvalue>
+  <dcvalue element="description" qualifier="provenance" language="en">Made&#x20;available&#x20;in&#x20;DSpace&#x20;on&#x20;2020-02-06T17:44:05Z&#x20;(GMT).&#x20;No.&#x20;of&#x20;bitstreams:&#x20;0&#x0A;&#x20;&#x20;Previous&#x20;issue&#x20;date:&#x20;2011-07-06</dcvalue>
+  <dcvalue element="relation" qualifier="uri" language="">Physical&#x20;review.&#x20;E,&#x20;Statistical,&#x20;nonlinear,&#x20;and&#x20;soft&#x20;matter&#x20;physics</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">Communities&#x20;and&#x20;beyond:&#x20;mesoscopic&#x20;analysis&#x20;of&#x20;a&#x20;large&#x20;social&#x20;network&#x20;with&#x20;complementary&#x20;methods.</dcvalue>
+</dublin_core>

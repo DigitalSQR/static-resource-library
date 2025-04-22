@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dc">
+  <dcvalue element="contributor" qualifier="author" language="">Tian,&#x20;Yuan</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Zhang,&#x20;Jian-guo</dcvalue>
+  <dcvalue element="date" qualifier="accessioned">2020-02-06T15:52:40Z</dcvalue>
+  <dcvalue element="date" qualifier="available">2020-02-06T15:52:40Z</dcvalue>
+  <dcvalue element="date" qualifier="issued" language="">2006-10-16</dcvalue>
+  <dcvalue element="identifier" qualifier="uri" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;Not&#x20;available</dcvalue>
+  <dcvalue element="identifier" qualifier="uri">https:&#x2F;&#x2F;lib.digitalsquare.io&#x2F;xmlui&#x2F;handle&#x2F;123456789&#x2F;1309</dcvalue>
+  <dcvalue element="description" qualifier="abstract" language="">This&#x20;paper&#x20;uses&#x20;JPIP&#x20;protocol&#x20;to&#x20;transmit&#x20;and&#x20;display&#x20;high&#x20;resolution&#x20;medical&#x20;images&#x20;through&#x20;the&#x20;wireless&#x20;network&#x20;JPIP&#x20;server&#x20;extracts&#x20;medical&#x20;images&#x20;from&#x20;PACS&#x20;system&#x20;transforms&#x20;the&#x20;format&#x20;of&#x20;medical&#x20;images&#x20;and&#x20;parses&#x20;and&#x20;recomposes&#x20;the&#x20;JPEG2000&#x20;codestream&#x20;Wireless&#x20;PDA&#x20;access&#x20;and&#x20;display&#x20;DICOM&#x20;medical&#x20;images&#x20;through&#x20;accessing&#x20;the&#x20;JPIP&#x20;server</dcvalue>
+  <dcvalue element="description" qualifier="provenance" language="en">Made&#x20;available&#x20;in&#x20;DSpace&#x20;on&#x20;2020-02-06T15:52:40Z&#x20;(GMT).&#x20;No.&#x20;of&#x20;bitstreams:&#x20;0&#x0A;&#x20;&#x20;Previous&#x20;issue&#x20;date:&#x20;2006-10-16</dcvalue>
+  <dcvalue element="relation" qualifier="uri" language="">Zhongguo&#x20;yi&#x20;liao&#x20;qi&#x20;xie&#x20;za&#x20;zhi&#x20;=&#x20;Chinese&#x20;journal&#x20;of&#x20;medical&#x20;instrumentation</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">[JPIP-based&#x20;wireless&#x20;transmission&#x20;and&#x20;display&#x20;of&#x20;high&#x20;resolution&#x20;DICOM&#x20;medical&#x20;images].</dcvalue>
+</dublin_core>

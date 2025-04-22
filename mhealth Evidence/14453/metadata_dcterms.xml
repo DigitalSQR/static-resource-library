@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dcterms">
+  <dcvalue element="abstract" qualifier="none" language="">Automated&#x20;protein&#x20;function&#x20;prediction&#x20;methods&#x20;are&#x20;needed&#x20;to&#x20;keep&#x20;pace&#x20;with&#x20;high&#x20;throughput&#x20;sequencing&#x20;With&#x20;the&#x20;existence&#x20;of&#x20;many&#x20;programs&#x20;and&#x20;databases&#x20;for&#x20;inferring&#x20;different&#x20;protein&#x20;functions&#x20;a&#x20;pipeline&#x20;that&#x20;properly&#x20;integrates&#x20;these&#x20;resources&#x20;will&#x20;benefit&#x20;from&#x20;the&#x20;advantages&#x20;of&#x20;each&#x20;method&#x20;However&#x20;integrated&#x20;systems&#x20;usually&#x20;do&#x20;not&#x20;provide&#x20;mechanisms&#x20;to&#x20;generate&#x20;customized&#x20;databases&#x20;to&#x20;predict&#x20;particular&#x20;protein&#x20;functions&#x20;Here&#x20;we&#x20;describe&#x20;a&#x20;tool&#x20;termed&#x20;PIPA&#x20;Pipeline&#x20;for&#x20;Protein&#x20;Annotation&#x20;that&#x20;has&#x20;these&#x20;capabilities</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Yu,&#x20;Chenggang</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Zavaljevski,&#x20;Nela</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Desai,&#x20;Valmik</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Johnson,&#x20;Seth</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Stevens,&#x20;Fred&#x20;J</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Reifman,&#x20;Jaques</dcvalue>
+  <dcvalue element="identifier" qualifier="none" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;10.1186&#x2F;1471-2105-9-52</dcvalue>
+  <dcvalue element="relation" qualifier="none" language="">BMC&#x20;bioinformatics</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">The&#x20;development&#x20;of&#x20;PIPA:&#x20;an&#x20;integrated&#x20;and&#x20;automated&#x20;pipeline&#x20;for&#x20;genome-wide&#x20;protein&#x20;function&#x20;annotation.</dcvalue>
+</dublin_core>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dcterms">
+  <dcvalue element="abstract" qualifier="none" language="">INTRODUCTION&#x20;With&#x20;the&#x20;continuous&#x20;growth&#x20;of&#x20;mobile&#x20;network&#x20;coverage&#x20;and&#x20;unprecedented&#x20;penetration&#x20;of&#x20;mobile&#x20;devices&#x20;in&#x20;the&#x20;developing&#x20;world&#x20;several&#x20;mHealth&#x20;initiatives&#x20;are&#x20;being&#x20;implemented&#x20;in&#x20;developing&#x20;countries&#x20;This&#x20;paper&#x20;aims&#x20;to&#x20;describe&#x20;requirements&#x20;for&#x20;designing&#x20;and&#x20;implementing&#x20;a&#x20;mobile&#x20;phone&#x20;based&#x20;communication&#x20;system&#x20;aiming&#x20;at&#x20;monitoring&#x20;pregnancy&#x20;and&#x20;reducing&#x20;bottlenecks&#x20;in&#x20;communication&#x20;associated&#x20;with&#x20;maternal&#x20;and&#x20;newborn&#x20;deaths&#x20;and&#x20;document&#x20;challenges&#x20;and&#x20;lessons&#x20;learned&#x20;METHODS&#x20;An&#x20;SMS&#x20;based&#x20;system&#x20;was&#x20;developed&#x20;to&#x20;improve&#x20;maternal&#x20;and&#x20;child&#x20;health&#x20;MCH&#x20;using&#x20;RapidSMS&#x20;a&#x20;free&#x20;and&#x20;open&#x20;sourced&#x20;software&#x20;development&#x20;framework&#x20;To&#x20;achieve&#x20;the&#x20;expected&#x20;results&#x20;the&#x20;RapidSMS&#x20;MCH&#x20;system&#x20;was&#x20;customized&#x20;to&#x20;allow&#x20;interactive&#x20;communication&#x20;between&#x20;a&#x20;community&#x20;health&#x20;worker&#x20;CHW&#x20;following&#x20;mother&#x20;infant&#x20;pairs&#x20;in&#x20;their&#x20;community&#x20;a&#x20;national&#x20;centralized&#x20;database&#x20;the&#x20;health&#x20;facility&#x20;and&#x20;in&#x20;case&#x20;of&#x20;an&#x20;emergency&#x20;alert&#x20;the&#x20;ambulance&#x20;driver&#x20;The&#x20;RapidSMS&#x20;MCH&#x20;system&#x20;was&#x20;piloted&#x20;in&#x20;Musanze&#x20;district&#x20;Nothern&#x20;province&#x20;of&#x20;Rwanda&#x20;over&#x20;a&#x20;12&#x20;month&#x20;period&#x20;RESULTS&#x20;A&#x20;total&#x20;of&#x20;432&#x20;CHW&#x20;were&#x20;trained&#x20;and&#x20;equipped&#x20;with&#x20;mobile&#x20;phones&#x20;A&#x20;total&#x20;of&#x20;35&#x20;734&#x20;SMS&#x20;were&#x20;sent&#x20;by&#x20;432&#x20;CHW&#x20;from&#x20;May&#x20;2010&#x20;to&#x20;April&#x20;2011&#x20;A&#x20;total&#x20;of&#x20;11&#x20;502&#x20;pregnancies&#x20;were&#x20;monitored&#x20;A&#x20;total&#x20;of&#x20;362&#x20;SMS&#x20;alerts&#x20;for&#x20;urgent&#x20;and&#x20;life&#x20;threatening&#x20;events&#x20;were&#x20;registered&#x20;We&#x20;registered&#x20;a&#x20;27&#x20;increase&#x20;in&#x20;facility&#x20;based&#x20;delivery&#x20;from&#x20;72&#x20;twelve&#x20;months&#x20;before&#x20;to&#x20;92&#x20;at&#x20;the&#x20;end&#x20;of&#x20;the&#x20;twelve&#x20;months&#x20;pilot&#x20;phase&#x20;Major&#x20;challenges&#x20;were&#x20;telephone&#x20;maintenance&#x20;and&#x20;replacement&#x20;Disctrict&#x20;heath&#x20;team&#x20;capacity&#x20;to&#x20;manage&#x20;and&#x20;supervise&#x20;the&#x20;system&#x20;was&#x20;strengthened&#x20;by&#x20;the&#x20;end&#x20;of&#x20;pilot&#x20;phase&#x20;Highly&#x20;committed&#x20;CHWs&#x20;and&#x20;effective&#x20;coordination&#x20;by&#x20;the&#x20;District&#x20;health&#x20;team&#x20;were&#x20;critical&#x20;enablers&#x20;CONCLUSION&#x20;We&#x20;successully&#x20;designed&#x20;and&#x20;implemented&#x20;a&#x20;mobile&#x20;phone&#x20;SMS&#x20;based&#x20;system&#x20;to&#x20;track&#x20;pregnancy&#x20;and&#x20;maternal&#x20;and&#x20;child&#x20;outcomes&#x20;in&#x20;limited&#x20;resources&#x20;setting&#x20;Implementation&#x20;of&#x20;mobile&#x20;phone&#x20;systems&#x20;at&#x20;community&#x20;level&#x20;could&#x20;contribute&#x20;to&#x20;improving&#x20;emergency&#x20;obstetric&#x20;and&#x20;neonatal&#x20;care&#x20;yet&#x20;it&#x20;requires&#x20;a&#x20;well&#x20;organized&#x20;community&#x20;health&#x20;structure&#x20;in&#x20;limited&#x20;resource&#x20;settings</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Ngabo,&#x20;Fidele</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Nguimfack,&#x20;Judith</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Nwaigwe,&#x20;Friday</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Mugeni,&#x20;Catherine</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Muhoza,&#x20;Denis</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Wilson,&#x20;David&#x20;R</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Kalach,&#x20;John</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Gakuba,&#x20;Richard</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Karema,&#x20;Corrine</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Binagwaho,&#x20;Agnes</dcvalue>
+  <dcvalue element="identifier" qualifier="none" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;Not&#x20;available</dcvalue>
+  <dcvalue element="relation" qualifier="none" language="">The&#x20;Pan&#x20;African&#x20;medical&#x20;journal</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Community-based&#x20;health&#x20;worker</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Delayed&#x20;reporting&#x20;of&#x20;events</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Pilot</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Communication&#x20;roadblocks</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Timeliness&#x20;of&#x20;care</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Feasibility</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Effectiveness</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Experimental</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Antenatal&#x20;care</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Pregnancy&#x20;complications</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Danger&#x20;signs</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Emergency&#x20;preparedness</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Referrals</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Registries&#x2F;vital&#x20;events&#x20;tracking</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">SMS</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Text</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Digital&#x20;form</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">Designing&#x20;and&#x20;Implementing&#x20;an&#x20;Innovative&#x20;SMS-based&#x20;alert&#x20;system&#x20;(RapidSMS-MCH)&#x20;to&#x20;monitor&#x20;pregnancy&#x20;and&#x20;reduce&#x20;maternal&#x20;and&#x20;child&#x20;deaths&#x20;in&#x20;Rwanda.</dcvalue>
+</dublin_core>

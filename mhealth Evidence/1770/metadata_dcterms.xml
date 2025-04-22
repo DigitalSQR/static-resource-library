@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dcterms">
+  <dcvalue element="abstract" qualifier="none" language="">This&#x20;paper&#x20;describes&#x20;a&#x20;social&#x20;media&#x20;system&#x20;to&#x20;prevent&#x20;dengue&#x20;in&#x20;Sri&#x20;Lanka&#x20;and&#x20;potentially&#x20;in&#x20;the&#x20;rest&#x20;of&#x20;the&#x20;South&#x20;and&#x20;Southeast&#x20;Asia&#x20;regions&#x20;The&#x20;system&#x20;integrates&#x20;three&#x20;concepts&#x20;of&#x20;public&#x20;health&#x20;prevention&#x20;that&#x20;have&#x20;thus&#x20;far&#x20;been&#x20;implemented&#x20;only&#x20;in&#x20;silos&#x20;First&#x20;the&#x20;predictive&#x20;surveillance&#x20;component&#x20;uses&#x20;a&#x20;computer&#x20;simulation&#x20;to&#x20;forewarn&#x20;health&#x20;authorities&#x20;and&#x20;the&#x20;general&#x20;public&#x20;about&#x20;impending&#x20;disease&#x20;outbreaks&#x20;The&#x20;civic&#x20;engagement&#x20;component&#x20;allows&#x20;the&#x20;general&#x20;public&#x20;to&#x20;use&#x20;social&#x20;media&#x20;tools&#x20;to&#x20;interact&#x20;and&#x20;engage&#x20;with&#x20;health&#x20;authorities&#x20;by&#x20;aiding&#x20;them&#x20;in&#x20;surveillance&#x20;efforts&#x20;by&#x20;reporting&#x20;symptoms&#x20;mosquito&#x20;bites&#x20;and&#x20;breeding&#x20;sites&#x20;using&#x20;smartphone&#x20;technologies&#x20;The&#x20;health&#x20;communication&#x20;component&#x20;utilizes&#x20;citizen&#x20;data&#x20;gathered&#x20;from&#x20;the&#x20;first&#x20;two&#x20;components&#x20;to&#x20;disseminate&#x20;customized&#x20;health&#x20;awareness&#x20;messages&#x20;to&#x20;enhance&#x20;knowledge&#x20;and&#x20;increase&#x20;preventive&#x20;behaviors&#x20;among&#x20;citizens&#x20;The&#x20;system&#x20;known&#x20;as&#x20;Mo&#x20;Buzz&#x20;will&#x20;be&#x20;made&#x20;available&#x20;on&#x20;a&#x20;host&#x20;of&#x20;digital&#x20;platforms&#x20;like&#x20;simple&#x20;mobile&#x20;phones&#x20;smart&#x20;phones&#x20;and&#x20;a&#x20;website&#x20;We&#x20;present&#x20;challenges&#x20;and&#x20;lessons&#x20;learnt&#x20;including&#x20;content&#x20;validation&#x20;stakeholder&#x20;collaborations&#x20;and&#x20;applied&#x20;trans&#x20;disciplinary&#x20;research</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Lwin,&#x20;May&#x20;O</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Vijaykumar,&#x20;Santosh</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Fernando,&#x20;Owen&#x20;Noel&#x20;Newton</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Cheong,&#x20;Siew&#x20;Ann</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Rathnayake,&#x20;Vajira&#x20;Sampath</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Lim,&#x20;Gentatsu</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Theng,&#x20;Yin-Leng</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Chaudhuri,&#x20;Subhasis</dcvalue>
+  <dcvalue element="contributor" qualifier="none" language="">Foo,&#x20;Schubert</dcvalue>
+  <dcvalue element="identifier" qualifier="none" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;10.1016&#x2F;j.actatropica.2013.09.021</dcvalue>
+  <dcvalue element="relation" qualifier="none" language="">Acta&#x20;tropica</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Adult</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">At&#x20;risk&#x20;for&#x20;a&#x20;particular&#x20;disease&#x20;or&#x20;infection</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Client</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Manager</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Delayed&#x20;reporting&#x20;of&#x20;events</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Quality&#x2F;unreliability&#x20;of&#x20;data</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Communication&#x20;roadblocks</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Access&#x20;to&#x20;information&#x20;or&#x20;data</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Demand&#x20;for&#x20;services</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Effective&#x20;resource&#x20;allocation</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Planning&#x20;and&#x20;coordination</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Pilot</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Functionality</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Usability</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Effectiveness</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Vector-Borne</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Preventive</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Health&#x20;education&#x20;or&#x20;promotion</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Hotlines&#x20;and&#x20;information&#x20;services</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Mass&#x20;messaging&#x20;campaigns</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Disease&#x20;prevention</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Surveillance</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Internet</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Text</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Image</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">GPS</dcvalue>
+  <dcvalue element="subject" qualifier="none" language="">Installed&#x20;application</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">A&#x20;21st&#x20;century&#x20;approach&#x20;to&#x20;tackling&#x20;dengue:&#x20;Crowdsourced&#x20;surveillance,&#x20;predictive&#x20;mapping&#x20;and&#x20;tailored&#x20;communication.</dcvalue>
+</dublin_core>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dublin_core schema="dc">
+  <dcvalue element="contributor" qualifier="author" language="">Simplicio,&#x20;Marcos&#x20;A</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Iwaya,&#x20;Leonardo&#x20;H</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Barros,&#x20;Bruno&#x20;M</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Carvalho,&#x20;Tereza&#x20;C&#x20;M&#x20;B</dcvalue>
+  <dcvalue element="contributor" qualifier="author" language="">Naslund,&#x20;Mats</dcvalue>
+  <dcvalue element="date" qualifier="accessioned">2020-02-06T19:06:44Z</dcvalue>
+  <dcvalue element="date" qualifier="available">2020-02-06T19:06:44Z</dcvalue>
+  <dcvalue element="date" qualifier="issued" language="">2015-03-10</dcvalue>
+  <dcvalue element="identifier" qualifier="uri" language="">http:&#x2F;&#x2F;dx.doi.org&#x2F;10.1109&#x2F;JBHI.2014.2320444</dcvalue>
+  <dcvalue element="identifier" qualifier="uri">https:&#x2F;&#x2F;lib.digitalsquare.io&#x2F;xmlui&#x2F;handle&#x2F;123456789&#x2F;7222</dcvalue>
+  <dcvalue element="description" qualifier="abstract" language="">Security&#x20;is&#x20;one&#x20;of&#x20;the&#x20;most&#x20;imperative&#x20;requirements&#x20;for&#x20;the&#x20;success&#x20;of&#x20;systems&#x20;that&#x20;deal&#x20;with&#x20;highly&#x20;sensitive&#x20;data&#x20;such&#x20;as&#x20;medical&#x20;information&#x20;However&#x20;many&#x20;existing&#x20;mobile&#x20;health&#x20;solutions&#x20;focused&#x20;on&#x20;collecting&#x20;patients&#x20;data&#x20;at&#x20;their&#x20;homes&#x20;that&#x20;do&#x20;not&#x20;include&#x20;security&#x20;among&#x20;their&#x20;main&#x20;requirements&#x20;Aiming&#x20;to&#x20;tackle&#x20;this&#x20;issue&#x20;this&#x20;paper&#x20;presents&#x20;SecourHealth&#x20;a&#x20;lightweight&#x20;security&#x20;framework&#x20;focused&#x20;on&#x20;highly&#x20;sensitive&#x20;data&#x20;collection&#x20;applications&#x20;SecourHealth&#x20;provides&#x20;many&#x20;security&#x20;services&#x20;for&#x20;both&#x20;stored&#x20;and&#x20;in&#x20;transit&#x20;data&#x20;displaying&#x20;interesting&#x20;features&#x20;such&#x20;as&#x20;tolerance&#x20;to&#x20;lack&#x20;of&#x20;connectivity&#x20;a&#x20;common&#x20;issue&#x20;when&#x20;promoting&#x20;health&#x20;in&#x20;remote&#x20;locations&#x20;and&#x20;the&#x20;ability&#x20;to&#x20;protect&#x20;data&#x20;even&#x20;if&#x20;the&#x20;device&#x20;is&#x20;lost&#x20;stolen&#x20;or&#x20;shared&#x20;by&#x20;different&#x20;data&#x20;collection&#x20;agents&#x20;Together&#x20;with&#x20;the&#x20;system&#x20;s&#x20;description&#x20;and&#x20;analysis&#x20;we&#x20;also&#x20;show&#x20;how&#x20;SecourHealth&#x20;can&#x20;be&#x20;integrated&#x20;into&#x20;a&#x20;real&#x20;data&#x20;collection&#x20;solution&#x20;currently&#x20;deployed&#x20;in&#x20;the&#x20;city&#x20;of&#x20;Sao&#x20;Paulo&#x20;Brazil</dcvalue>
+  <dcvalue element="description" qualifier="provenance" language="en">Made&#x20;available&#x20;in&#x20;DSpace&#x20;on&#x20;2020-02-06T19:06:44Z&#x20;(GMT).&#x20;No.&#x20;of&#x20;bitstreams:&#x20;0&#x0A;&#x20;&#x20;Previous&#x20;issue&#x20;date:&#x20;2015-03-10</dcvalue>
+  <dcvalue element="relation" qualifier="uri" language="">IEEE&#x20;journal&#x20;of&#x20;biomedical&#x20;and&#x20;health&#x20;informatics</dcvalue>
+  <dcvalue element="title" qualifier="none" language="en">SecourHealth:&#x20;a&#x20;delay-tolerant&#x20;security&#x20;framework&#x20;for&#x20;mobile&#x20;health&#x20;data&#x20;collection.</dcvalue>
+</dublin_core>
